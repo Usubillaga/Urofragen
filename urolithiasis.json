@@ -1,0 +1,342 @@
+{
+  "gebiet": "urolithiasis",
+  "fragen": [
+    {
+      "id": "uro-lit-00001",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "akuttherapie",
+        "tags": [
+          "notfall",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urolithiasis",
+          "version": null,
+          "year": 2025,
+          "section": null
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-02",
+        "last_reviewed": "2026-09-02",
+        "expires": "2027-09-02"
+      },
+      "content": {
+        "de": {
+          "vignette": "41-jährige Patientin, seit zwei Tagen rechtsseitige Flankenschmerzen. Temperatur 38,9 °C, Herzfrequenz 108/min, CRP 180 mg/l, Leukozyturie und Nitrit positiv. Nativ-CT: 7 mm messender distaler Harnleiterstein rechts mit zweitgradiger Harnstauung. Kreatinin 1,4 mg/dl.",
+          "lead_in": "Was ist der nächste Schritt?",
+          "options": {
+            "A": {
+              "text": "Primäre Ureterorenoskopie mit Steinextraktion sofort",
+              "rationale": "Die Manipulation im infizierten, gestauten System erhöht durch Druckanstieg und Keimeinschwemmung das Sepsisrisiko erheblich."
+            },
+            "B": {
+              "text": "Extrakorporale Stoßwellenlithotripsie noch heute",
+              "rationale": "Bei Infekt kontraindiziert und ohne sofortige Entlastung der Stauung wirkungslos."
+            },
+            "C": {
+              "text": "Expulsionstherapie mit Tamsulosin und Analgesie",
+              "rationale": "Konservatives Vorgehen setzt Infektfreiheit und stabile Nierenfunktion voraus; beides ist hier nicht gegeben."
+            },
+            "D": {
+              "text": "Umgehende Harnableitung und kalkulierte Antibiose",
+              "rationale": "Die infizierte Harnstauungsniere ist ein urologischer Notfall; Entlastung und Antibiose haben Vorrang, die Steinsanierung folgt im infektfreien Intervall. Entlastet wird mit DJ-Schiene oder perkutaner Nephrostomie; die Wahl richtet sich nach Verfügbarkeit und Gerinnungssituation. Die Steinsanierung folgt im infektfreien Intervall."
+            }
+          },
+          "explanation": {
+            "core": "Fieber plus Harnstauung plus Obstruktion ergibt die Indikation zur sofortigen Entlastung, unabhängig von Steingröße und Lage. Die Wahl zwischen Schiene und Nephrostomie richtet sich nach lokaler Verfügbarkeit und Gerinnungssituation, nicht nach der Dringlichkeit.",
+            "teaching_point": "Bei infizierter Harnstauung wird entlastet, nicht saniert. Die Steintherapie ist ein zweiter, späterer Eingriff."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "41-year-old woman with two days of right flank pain. Temperature 38.9 °C, heart rate 108/min, CRP 180 mg/l, leucocyturia and positive nitrite. Non-contrast CT: 7 mm distal ureteric stone on the right with second-degree hydronephrosis. Creatinine 1.4 mg/dl.",
+          "lead_in": "What is the next step?",
+          "options": {
+            "A": {
+              "text": "Primary ureteroscopy with immediate stone extraction",
+              "rationale": "Manipulation in an infected, obstructed system raises intrarenal pressure and washes bacteria into the circulation, markedly increasing sepsis risk."
+            },
+            "B": {
+              "text": "Extracorporeal shockwave lithotripsy today",
+              "rationale": "Contraindicated during infection and ineffective without immediate relief of the obstruction."
+            },
+            "C": {
+              "text": "Expulsive therapy with tamsulosin and analgesia",
+              "rationale": "Conservative management requires absence of infection and stable renal function; neither applies here."
+            },
+            "D": {
+              "text": "Immediate urinary drainage and empirical antibiotics",
+              "rationale": "Infected obstructed hydronephrosis is a urological emergency; drainage and antibiotics take priority, stone treatment follows in an infection-free interval. Drainage is by ureteric stent or percutaneous nephrostomy, chosen by availability and coagulation status. Stone treatment follows in an infection-free interval."
+            }
+          },
+          "explanation": {
+            "core": "Fever plus hydronephrosis plus obstruction gives the indication for immediate drainage, irrespective of stone size and location. The choice between stent and nephrostomy depends on local availability and coagulation status, not on urgency.",
+            "teaching_point": "In infected obstruction you drain, you do not clear the stone. Stone treatment is a second, later procedure."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-lit-00002",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "metaphylaxe",
+        "tags": [
+          "labordiagnostik",
+          "pharmakologie",
+          "nachsorge"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urolithiasis",
+          "version": null,
+          "year": 2025,
+          "section": null
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-02",
+        "last_reviewed": "2026-09-02",
+        "expires": "2027-09-02"
+      },
+      "content": {
+        "de": {
+          "vignette": "38-jähriger Patient mit drittem Steinereignis in vier Jahren. Steinanalyse: Brushit (Calciumhydrogenphosphat-Dihydrat). 24-Stunden-Urin: Calcium 7,2 mmol/d, Citrat 2,9 mmol/d, Volumen 2,6 l. Urin-pH im Tagesprofil konstant bei 6,9.",
+          "lead_in": "Welche Metaphylaxe ist indiziert?",
+          "options": {
+            "A": {
+              "text": "Alkalisierung mit Kaliumcitrat auf einen Ziel-pH von 6,8",
+              "rationale": "Genau die falsche Richtung. Alkalisierung ist beim Calciumoxalat- und Harnsäurestein sinnvoll und fördert die Brushitbildung."
+            },
+            "B": {
+              "text": "Ansäuerung mit L-Methionin, dazu ein Thiaziddiuretikum",
+              "rationale": "Brushit präzipitiert im alkalischen Milieu; die pH-Senkung ist der zentrale Hebel, das Thiazid adressiert die erhöhte Calciumausscheidung. Der Ziel-pH liegt bei 5,8 bis 6,2, weil Brushit im alkalischen Milieu präzipitiert. Das Thiazid adressiert die erhöhte Calciumausscheidung."
+            },
+            "C": {
+              "text": "Allopurinol 300 mg täglich als Dauermedikation",
+              "rationale": "Indiziert bei Hyperurikosurie; hier fehlt jeder Ansatzpunkt in der Steinanalyse und im Urinprofil."
+            },
+            "D": {
+              "text": "Reduktion der Calciumzufuhr auf unter 500 mg täglich",
+              "rationale": "Calciumrestriktion erhöht die intestinale Oxalatresorption und damit das Steinrisiko; die Zufuhr bleibt bei 1000 bis 1200 mg täglich."
+            }
+          },
+          "explanation": {
+            "core": "Brushit verhält sich in zwei Punkten gegenläufig zur allgemeinen Steinmetaphylaxe: Es braucht Ansäuerung statt Alkalisierung und es ist ausgeprägt stoßwellenresistent, weshalb die interventionelle Sanierung über Ureterorenoskopie oder perkutane Nephrolitholapaxie erfolgt.",
+            "teaching_point": "Vor jeder pH-Empfehlung muss die Steinart feststehen. Alkalisierung ist keine Standardmaßnahme."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "38-year-old man with his third stone episode in four years. Stone analysis: brushite (calcium hydrogen phosphate dihydrate). 24-hour urine: calcium 7.2 mmol/d, citrate 2.9 mmol/d, volume 2.6 l. Urinary pH constant at 6.9 across the day profile.",
+          "lead_in": "Which metaphylaxis is indicated?",
+          "options": {
+            "A": {
+              "text": "Alkalinisation with potassium citrate to a target pH of 6.8",
+              "rationale": "Exactly the wrong direction. Alkalinisation is useful in calcium oxalate and uric acid stones and promotes brushite formation."
+            },
+            "B": {
+              "text": "Acidification with L-methionine plus a thiazide diuretic",
+              "rationale": "Brushite precipitates in an alkaline milieu; lowering pH is the central lever, and the thiazide addresses the raised calcium excretion. The target pH is 5.8 to 6.2, because brushite precipitates in an alkaline milieu. The thiazide addresses the raised calcium excretion."
+            },
+            "C": {
+              "text": "Allopurinol 300 mg daily as long-term medication",
+              "rationale": "Indicated in hyperuricosuria; here neither the stone analysis nor the urine profile provides a rationale."
+            },
+            "D": {
+              "text": "Reducing calcium intake to below 500 mg daily",
+              "rationale": "Calcium restriction increases intestinal oxalate absorption and stone risk; intake stays at 1000 to 1200 mg daily."
+            }
+          },
+          "explanation": {
+            "core": "Brushite behaves opposite to general stone metaphylaxis in two respects: it requires acidification rather than alkalinisation, and it is markedly shockwave-resistant, so interventional clearance is by ureteroscopy or percutaneous nephrolithotomy.",
+            "teaching_point": "Establish the stone type before any pH recommendation. Alkalinisation is not a default measure."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-lit-00003",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "metaphylaxe",
+        "tags": [
+          "leitlinie",
+          "pharmakologie",
+          "nachsorge"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IB",
+        "certainty": "kontrovers",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "studie",
+          "citation": "Dhayat et al., NOSTONE, N Engl J Med 2023",
+          "doi": null
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urolithiasis",
+          "version": null,
+          "year": 2025,
+          "section": null
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-02",
+        "last_reviewed": "2026-09-02",
+        "expires": "2027-03-02"
+      },
+      "content": {
+        "de": {
+          "vignette": "52-jähriger Patient mit zweitem Calciumoxalatsteinereignis. 24-Stunden-Urin: Calcium 4,1 mmol/d, Volumen 1,9 l, Citrat 2,2 mmol/d, Oxalat im Normbereich. Keine Grunderkrankung, keine gastrointestinale Vorgeschichte.",
+          "lead_in": "Wie ist die Gabe eines Thiaziddiuretikums zu bewerten?",
+          "options": {
+            "A": {
+              "text": "Indapamid als besser belegte Alternative einsetzen",
+              "rationale": "Für Indapamid liegt keine der NOSTONE vergleichbare randomisierte Evidenz vor; die Empfehlung wäre eine Extrapolation."
+            },
+            "B": {
+              "text": "Hydrochlorothiazid 25 mg unabhängig von der Calciurie",
+              "rationale": "NOSTONE prüfte drei Dosisstufen gegen Placebo und fand keinen Vorteil im primären Endpunkt."
+            },
+            "C": {
+              "text": "Hydrochlorothiazid 50 mg wegen der Dosisabhängigkeit",
+              "rationale": "Eine Dosis-Wirkungs-Beziehung ließ sich nicht nachweisen; höhere Dosen steigern nur Hypokaliämie- und Gichtrate."
+            },
+            "D": {
+              "text": "Nicht indiziert; Trinkmenge und Citrat im Vordergrund",
+              "rationale": "Der Patient ist normokalziurisch. Nach NOSTONE ist ein pauschaler Thiazideinsatz bei rezidivierenden Calciumsteinen nicht begründbar. Der Patient ist normokalziurisch. Nach NOSTONE lässt sich ein pauschaler Thiazideinsatz bei rezidivierenden Calciumsteinen nicht begründen."
+            }
+          },
+          "explanation": {
+            "core": "NOSTONE hat die jahrzehntelang eingeübte Thiazidgabe bei rezidivierenden Calciumsteinen infrage gestellt. Die Studie schloss überwiegend normokalziurische Patienten ein, weshalb die Übertragung auf ausgeprägte Hyperkalziurie umstritten bleibt. Für den vorliegenden Fall spricht das klar gegen ein Thiazid.",
+            "teaching_point": "Die Metaphylaxe folgt dem 24-Stunden-Urin, nicht der Steinhäufigkeit."
+          },
+          "flag_note": "NOSTONE stellt den generellen Thiazideinsatz infrage. Leitlinienempfehlungen sind uneinheitlich; bei ausgeprägter Hyperkalziurie werden Thiazide weiterhin eingesetzt."
+        },
+        "en": {
+          "vignette": "52-year-old man with a second calcium oxalate stone episode. 24-hour urine: calcium 4.1 mmol/d, volume 1.9 l, citrate 2.2 mmol/d, oxalate within range. No underlying disease, no gastrointestinal history.",
+          "lead_in": "How should thiazide diuretic therapy be judged here?",
+          "options": {
+            "A": {
+              "text": "Use indapamide as a better-supported alternative",
+              "rationale": "There is no randomised evidence for indapamide comparable to NOSTONE; the recommendation would be an extrapolation."
+            },
+            "B": {
+              "text": "Hydrochlorothiazide 25 mg regardless of calciuria",
+              "rationale": "NOSTONE tested three dose levels against placebo and found no benefit in the primary endpoint."
+            },
+            "C": {
+              "text": "Hydrochlorothiazide 50 mg given the dose dependence",
+              "rationale": "No dose-response relationship was demonstrated; higher doses only raise rates of hypokalaemia and gout."
+            },
+            "D": {
+              "text": "Not indicated; fluid intake and citrate come first",
+              "rationale": "The patient is normocalciuric. After NOSTONE a blanket use of thiazides in recurrent calcium stones cannot be justified. The patient is normocalciuric. After NOSTONE a blanket use of thiazides in recurrent calcium stones cannot be justified."
+            }
+          },
+          "explanation": {
+            "core": "NOSTONE challenged the long-established use of thiazides in recurrent calcium stones. The trial enrolled predominantly normocalciuric patients, so extension to pronounced hypercalciuria remains disputed. For this case it argues clearly against a thiazide.",
+            "teaching_point": "Metaphylaxis follows the 24-hour urine, not the stone frequency."
+          },
+          "flag_note": "NOSTONE challenges the general use of thiazides. Guideline recommendations are inconsistent; thiazides are still used in pronounced hypercalciuria."
+        }
+      }
+    }
+  ]
+}

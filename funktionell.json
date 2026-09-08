@@ -1,0 +1,1430 @@
+{
+  "gebiet": "funktionell",
+  "fragen": [
+    {
+      "id": "uro-fun-00001",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "oab",
+        "tags": [
+          "pharmakologie",
+          "komplikationsmanagement"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "studie",
+          "citation": "Nitti et al., J Urol 2013",
+          "doi": null
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Non-neurogenic Female LUTS",
+          "version": null,
+          "year": 2025,
+          "section": null
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-02",
+        "last_reviewed": "2026-09-02",
+        "expires": "2028-09-02"
+      },
+      "content": {
+        "de": {
+          "vignette": "68-jährige Patientin mit idiopathischer überaktiver Blase. Zwei Antimuskarinika in ausreichender Dosis und Dauer sowie Mirabegron blieben ohne befriedigenden Effekt. Restharn 30 ml, Urinkultur steril, keine neurologische Grunderkrankung.",
+          "lead_in": "Welcher Punkt muss vor der intradetrusoralen Injektion von Onabotulinumtoxin A zwingend geklärt sein?",
+          "options": {
+            "A": {
+              "text": "Eine antibiotische Dauerprophylaxe über vier Wochen nach der Injektion",
+              "rationale": "Eine periinterventionelle Gabe genügt; eine mehrwöchige Prophylaxe ist nicht Standard und fördert Resistenzen."
+            },
+            "B": {
+              "text": "Bereitschaft und Fähigkeit zum intermittierenden Selbstkatheterismus",
+              "rationale": "Restharnbildung bis zur Katheterpflichtigkeit ist die klinisch relevanteste Komplikation; ohne diese Voraussetzung ist die Indikation nicht vertretbar."
+            },
+            "C": {
+              "text": "Das Pausieren einer oralen Antikoagulation über sieben Tage",
+              "rationale": "Der Eingriff gilt als blutungsarm; ein starres Sieben-Tage-Intervall ist nicht begründet und birgt eigene Risiken."
+            },
+            "D": {
+              "text": "Der urodynamische Nachweis einer Detrusorüberaktivität",
+              "rationale": "Bei idiopathischer überaktiver Blase nach Versagen der Pharmakotherapie ist die Urodynamik nicht zwingend gefordert; sie wird bei unklarer Situation oder vor invasiveren Verfahren eingesetzt."
+            }
+          },
+          "explanation": {
+            "core": "Die Aufklärung über den intermittierenden Selbstkatheterismus ist nicht Formalie, sondern Teil der Indikationsstellung. Sie entscheidet mit darüber, ob der Wirkmechanismus für diese Patientin überhaupt akzeptabel ist, und trennt sie gegebenenfalls in Richtung sakrale Neuromodulation.",
+            "teaching_point": "Wer den Selbstkatheterismus ablehnt oder nicht durchführen kann, ist keine Kandidatin für Botulinumtoxin."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "68-year-old woman with idiopathic overactive bladder. Two antimuscarinics at adequate dose and duration and mirabegron gave no satisfactory effect. Post-void residual 30 ml, sterile urine culture, no neurological disease.",
+          "lead_in": "Which point must be settled before intradetrusor injection of onabotulinumtoxin A?",
+          "options": {
+            "A": {
+              "text": "Continuous antibiotic prophylaxis for four weeks after injection",
+              "rationale": "A single periprocedural dose suffices; prolonged prophylaxis is not standard and promotes resistance."
+            },
+            "B": {
+              "text": "Willingness and ability to perform clean intermittent self-catheterisation",
+              "rationale": "Residual urine up to catheter dependence is the clinically most relevant complication; without this prerequisite the indication is not defensible."
+            },
+            "C": {
+              "text": "Pausing oral anticoagulation for seven days",
+              "rationale": "The procedure is considered low-bleeding-risk; a rigid seven-day interval is unjustified and carries its own risks."
+            },
+            "D": {
+              "text": "Prior urodynamic demonstration of detrusor overactivity",
+              "rationale": "In idiopathic overactive bladder after failed drug therapy urodynamics is not mandatory; it is used when the picture is unclear or before more invasive procedures."
+            }
+          },
+          "explanation": {
+            "core": "Counselling about self-catheterisation is not a formality but part of establishing the indication. It determines whether the mechanism of action is acceptable for this patient at all, and may redirect her towards sacral neuromodulation.",
+            "teaching_point": "A patient who cannot or will not self-catheterise is not a candidate for botulinum toxin."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-fun-00002",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "neurourologie",
+        "tags": [
+          "bildgebung",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Neuro-Urology",
+          "version": null,
+          "year": 2025,
+          "section": null
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-02",
+        "last_reviewed": "2026-09-02",
+        "expires": "2028-09-02"
+      },
+      "content": {
+        "de": {
+          "vignette": "22-jähriger Patient mit Spina bifida und bekannter neurogener Blasenfunktionsstörung unter Selbstkatheterismus. Sonographisch neu aufgetretene beidseitige Harnstauung, Kreatinin steigend. Zu klären sind ein vesikoureteraler Reflux und eine Detrusor-Sphinkter-Dyssynergie.",
+          "lead_in": "Welche Untersuchung beantwortet beide Fragen in einem Vorgang?",
+          "options": {
+            "A": {
+              "text": "Miktionszysturethrographie in Mehrfachprojektion",
+              "rationale": "Zeigt den Reflux, liefert aber keine Speicher- und Miktionsdrücke und damit keine Risikoabschätzung für den oberen Harntrakt."
+            },
+            "B": {
+              "text": "Zystomanometrie mit Beckenboden-Elektromyographie",
+              "rationale": "Erfasst die Dyssynergie, liefert aber keine Aussage über einen Reflux."
+            },
+            "C": {
+              "text": "Uroflowmetrie mit sonographischer Restharnmessung",
+              "rationale": "Bei Selbstkatheterismus praktisch nicht verwertbar und ohne Aussage zu Speicherdruck oder Reflux."
+            },
+            "D": {
+              "text": "Videourodynamik mit simultaner Durchleuchtung",
+              "rationale": "Nur die zeitgleiche Druckmessung und Durchleuchtung ordnet Reflux und Sphinkterverhalten demselben Druckereignis zu."
+            }
+          },
+          "explanation": {
+            "core": "Bei neurogener Blasenfunktionsstörung ist nicht das Symptom, sondern der Speicherdruck die Gefahr für den oberen Harntrakt. Die Videourodynamik verbindet Druck und Morphologie und macht sichtbar, bei welchem Druck der Reflux einsetzt.",
+            "teaching_point": "Der Reflux allein ist eine Momentaufnahme; erst mit dem zugehörigen Detrusordruck wird er zur Therapieentscheidung."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "22-year-old man with spina bifida and known neurogenic bladder dysfunction on self-catheterisation. New bilateral hydronephrosis on ultrasound with rising creatinine. Vesicoureteric reflux and detrusor-sphincter dyssynergia both need to be clarified.",
+          "lead_in": "Which investigation answers both questions in a single procedure?",
+          "options": {
+            "A": {
+              "text": "Voiding cystourethrography in multiple projections",
+              "rationale": "Shows the reflux but provides no pressures and therefore no risk assessment for the upper tract."
+            },
+            "B": {
+              "text": "Cystometry with pelvic floor electromyography",
+              "rationale": "Captures the dyssynergia but says nothing about reflux."
+            },
+            "C": {
+              "text": "Uroflowmetry with ultrasound residual measurement",
+              "rationale": "Barely interpretable under self-catheterisation and uninformative about storage pressure or reflux."
+            },
+            "D": {
+              "text": "Video-urodynamics with simultaneous fluoroscopy",
+              "rationale": "Only simultaneous pressure measurement and fluoroscopy assigns reflux and sphincter behaviour to the same pressure event."
+            }
+          },
+          "explanation": {
+            "core": "In neurogenic bladder dysfunction the threat to the upper tract comes from storage pressure, not from symptoms. Video-urodynamics links pressure and morphology and shows at which pressure reflux begins.",
+            "teaching_point": "Reflux alone is a snapshot; only with the corresponding detrusor pressure does it become a treatment decision."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-fun-00003",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "luts",
+        "tags": [
+          "bildgebung",
+          "geriatrie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Management of Non-neurogenic Male LUTS",
+          "version": null,
+          "year": 2025,
+          "section": null
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-02",
+        "last_reviewed": "2026-09-02",
+        "expires": "2028-09-02"
+      },
+      "content": {
+        "de": {
+          "vignette": "74-jähriger Mann mit moderaten Symptomen des unteren Harntrakts (IPSS 14). In der Sprechstunde wurde einmalig sonographisch ein Restharn von 180 ml gemessen. Das vorangegangene Miktionsvolumen wurde nicht dokumentiert, der Patient hatte im Wartezimmer reichlich getrunken.",
+          "lead_in": "Wie ist der Befund zu bewerten?",
+          "options": {
+            "A": {
+              "text": "Relevante Entleerungsstörung; Dauerableitung indiziert",
+              "rationale": "Eine Einzelmessung trägt diese Konsequenz nicht; die Dauerableitung wäre zudem auch bei bestätigtem Befund nicht der erste Schritt."
+            },
+            "B": {
+              "text": "Nicht verwertbar; standardisiert zu wiederholen",
+              "rationale": "Der Restharn schwankt intraindividuell erheblich und ist nur im Verhältnis zum Miktionsvolumen interpretierbar. Zur Wiederholung gehört das dokumentierte Miktionsvolumen, weil der Restharn nur im Verhältnis dazu interpretierbar ist."
+            },
+            "C": {
+              "text": "Ohne Konsequenz, da erst ab 300 ml relevant",
+              "rationale": "Es existiert kein allgemein akzeptierter Grenzwert, ab dem der Restharn erst relevant würde; das Ignorieren ist ebenso unbegründet wie die Überinterpretation."
+            },
+            "D": {
+              "text": "Begründet die Indikation zur transurethralen Resektion",
+              "rationale": "Restharn allein ist keine Operationsindikation; sie ergibt sich aus Symptomlast, Komplikationen und Therapieversagen."
+            }
+          },
+          "explanation": {
+            "core": "Der Restharn ist ein schlecht reproduzierbarer Parameter. Trinkmenge, Wartezeit, Untersuchungszeitpunkt und Miktionsvolumen beeinflussen ihn erheblich. Ohne Standardisierung und Wiederholung führt er regelmäßig zu Über- oder Unterbehandlung.",
+            "teaching_point": "Ein einzelner Restharnwert ohne Miktionsvolumen ist eine Zahl, kein Befund."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "74-year-old man with moderate lower urinary tract symptoms (IPSS 14). A single office ultrasound showed a post-void residual of 180 ml. The preceding voided volume was not documented, and he had been drinking heavily in the waiting room.",
+          "lead_in": "How should this finding be interpreted?",
+          "options": {
+            "A": {
+              "text": "Relevant voiding dysfunction; indwelling drainage indicated",
+              "rationale": "A single measurement does not carry that consequence, and even a confirmed finding would not make catheterisation the first step."
+            },
+            "B": {
+              "text": "Not usable; repeat under standardised conditions",
+              "rationale": "Post-void residual varies substantially within an individual and is interpretable only in relation to the voided volume. The repeat must document the voided volume, because residual urine is interpretable only in relation to it."
+            },
+            "C": {
+              "text": "Of no consequence, since only relevant above 300 ml",
+              "rationale": "No generally accepted threshold exists below which residual urine can be ignored; dismissing it is as unfounded as over-interpreting it."
+            },
+            "D": {
+              "text": "Establishes the indication for transurethral resection",
+              "rationale": "Residual urine alone is not a surgical indication; that follows from symptom burden, complications and failed treatment."
+            }
+          },
+          "explanation": {
+            "core": "Post-void residual is a poorly reproducible parameter. Fluid intake, waiting time, timing of the examination and voided volume all influence it substantially. Without standardisation and repetition it regularly leads to over- or undertreatment.",
+            "teaching_point": "A single residual volume without the voided volume is a number, not a finding."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-fun-00004",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "männliche LUTS",
+        "tags": [
+          "leitlinie",
+          "labordiagnostik",
+          "praeoperativ"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Management of Non-neurogenic Male LUTS",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "62-jähriger Mann stellt sich erstmals mit Symptomen des unteren Harntrakts vor. IPSS 18, zweimalige Nykturie, abgeschwächter Strahl, kein Fieber, keine Hämaturie, keine neurologische Vorerkrankung.",
+          "lead_in": "Was gehört zur Basisabklärung?",
+          "options": {
+            "A": {
+              "text": "Urodynamik mit Druck-Fluss-Messung als erster Schritt",
+              "rationale": "Die Urodynamik ist der invasive Schritt vor einer Operation oder bei unklarer Konstellation, nicht die Eingangsuntersuchung."
+            },
+            "B": {
+              "text": "Basisabklärung einschließlich Miktionsprotokoll",
+              "rationale": "Diese Bausteine unterscheiden die Ursachen voneinander, insbesondere trennt das Miktionsprotokoll die Polyurie und die nächtliche Polyurie von der Speicherstörung. Dazu gehören Anamnese und IPSS, Urinstatus, PSA nach Aufklärung, Restharnbestimmung, Uroflowmetrie und ein Miktionsprotokoll über mindestens drei Tage."
+            },
+            "C": {
+              "text": "Zystoskopie zur Beurteilung der Prostatakonfiguration",
+              "rationale": "Sie ist bei Hämaturie, Verdacht auf Striktur oder unmittelbar vor einem Eingriff indiziert, nicht zur Erstabklärung."
+            },
+            "D": {
+              "text": "MRT der Prostata zur Bestimmung des Drüsenvolumens",
+              "rationale": "Das Volumen wird transrektal sonographisch bestimmt; das MRT dient der Karzinomdiagnostik."
+            }
+          },
+          "explanation": {
+            "core": "Die Erstabklärung männlicher Symptome des unteren Harntrakts ist bewusst nichtinvasiv und breit. Ihr wichtigster Baustein ist das Miktionsprotokoll, weil es Trinkmenge, Miktionsvolumina und die nächtliche Urinproduktion sichtbar macht. Ohne dieses Protokoll wird eine nächtliche Polyurie regelmäßig als Prostataproblem fehlgedeutet.",
+            "teaching_point": "Das Miktionsprotokoll kostet nichts und verhindert die häufigste Fehlzuordnung."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "62-year-old man presents for the first time with lower urinary tract symptoms. IPSS 18, nocturia twice, weak stream, no fever, no haematuria, no neurological history.",
+          "lead_in": "What belongs to the basic assessment?",
+          "options": {
+            "A": {
+              "text": "Urodynamics with pressure-flow study as the first step",
+              "rationale": "Urodynamics is the invasive step before surgery or in unclear constellations, not the initial investigation."
+            },
+            "B": {
+              "text": "Baseline assessment including a bladder diary",
+              "rationale": "These elements separate the causes from one another; in particular the diary distinguishes polyuria and nocturnal polyuria from a storage disorder. This comprises history and IPSS, urinalysis, PSA after counselling, post-void residual, uroflowmetry and a diary over at least three days."
+            },
+            "C": {
+              "text": "Cystoscopy to assess the prostatic configuration",
+              "rationale": "Indicated for haematuria, suspected stricture or immediately before intervention, not for initial assessment."
+            },
+            "D": {
+              "text": "Prostate MRI to determine the glandular volume",
+              "rationale": "Volume is measured by transrectal ultrasound; MRI serves cancer diagnosis."
+            }
+          },
+          "explanation": {
+            "core": "Initial assessment of male lower urinary tract symptoms is deliberately non-invasive and broad. Its most important element is the bladder diary, because it reveals fluid intake, voided volumes and nocturnal urine production. Without it nocturnal polyuria is regularly misattributed to the prostate.",
+            "teaching_point": "The bladder diary costs nothing and prevents the commonest misattribution."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-fun-00005",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Nykturie",
+        "tags": [
+          "leitlinie",
+          "pharmakologie",
+          "dosierung",
+          "geriatrie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Management of Non-neurogenic Male LUTS",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "71-jähriger Mann mit dreimaliger Nykturie als führendem Symptom, IPSS 12. Das Miktionsprotokoll über drei Tage zeigt normale Einzelvolumina und ein nächtliches Urinvolumen von 42 Prozent der Tagesgesamtmenge. Prostatavolumen 32 ml, Restharn 20 ml. Er nimmt abends ein Schleifendiuretikum, die Knöchel sind ödematös.",
+          "lead_in": "Wie ist vorzugehen?",
+          "options": {
+            "A": {
+              "text": "Transurethrale Resektion der Prostata wegen der Nykturie",
+              "rationale": "Bei kleiner Prostata, normalem Restharn und nächtlicher Polyurie ist von einer Operation keine Besserung der Nykturie zu erwarten."
+            },
+            "B": {
+              "text": "Antimuskarinikum in aufsteigender Dosierung geben",
+              "rationale": "Es zielt auf die Speicherstörung; hier ist die nächtliche Urinproduktion und nicht die Blasenkapazität das Problem."
+            },
+            "C": {
+              "text": "Alphablocker als Monotherapie über drei Monate",
+              "rationale": "Er bessert Entleerungssymptome, wirkt aber kaum auf eine nächtliche Polyurie."
+            },
+            "D": {
+              "text": "Nächtliche Polyurie als eigenständige Ursache behandeln",
+              "rationale": "Ein nächtlicher Anteil über einem Drittel definiert die nächtliche Polyurie. Sie ist meist internistisch oder medikamentös bedingt; Desmopressin steht am Ende und erfordert wegen der Hyponatriämiegefahr Natriumkontrollen. Zuerst werden Herzinsuffizienz, Schlafapnoe und Ödeme abgeklärt, die Diuretikagabe in den Nachmittag verlegt und die Flüssigkeitsverteilung angepasst. Erst danach kommt Desmopressin niedrig dosiert infrage, unter Kontrolle des Serumnatriums."
+            }
+          },
+          "explanation": {
+            "core": "Nykturie hat drei mögliche Grundursachen: nächtliche Polyurie, verminderte nächtliche Blasenkapazität und Schlafstörung. Nur das Miktionsprotokoll trennt sie. Bei nächtlicher Polyurie liegt die Ursache meist außerhalb der Urologie, und eine Prostataoperation bessert das Symptom nicht.",
+            "teaching_point": "Nykturie ist nicht automatisch ein Prostatasymptom. Erst rechnen, dann behandeln."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "71-year-old man with nocturia three times as the leading symptom, IPSS 12. A three-day bladder diary shows normal voided volumes and a nocturnal urine volume of 42 per cent of the 24-hour total. Prostate volume 32 ml, post-void residual 20 ml. He takes a loop diuretic in the evening and has ankle oedema.",
+          "lead_in": "How should management proceed?",
+          "options": {
+            "A": {
+              "text": "Transurethral resection of the prostate for the nocturia",
+              "rationale": "With a small prostate, normal residual and nocturnal polyuria, surgery cannot be expected to improve the nocturia."
+            },
+            "B": {
+              "text": "Give an antimuscarinic in escalating doses",
+              "rationale": "This targets a storage disorder; here the problem is nocturnal urine production, not bladder capacity."
+            },
+            "C": {
+              "text": "An alpha-blocker as monotherapy for three months",
+              "rationale": "It improves voiding symptoms but has little effect on nocturnal polyuria."
+            },
+            "D": {
+              "text": "Treat nocturnal polyuria as a cause in its own right",
+              "rationale": "A nocturnal fraction above one third defines nocturnal polyuria. Its causes are usually medical or drug-related; desmopressin comes last and requires sodium checks because of the risk of hyponatraemia. Heart failure, sleep apnoea and oedema are assessed first, the diuretic moved to the afternoon and fluid distribution adjusted. Only then does low-dose desmopressin come into question, with serum sodium monitoring."
+            }
+          },
+          "explanation": {
+            "core": "Nocturia has three possible underlying causes: nocturnal polyuria, reduced nocturnal bladder capacity and sleep disorder. Only the bladder diary separates them. In nocturnal polyuria the cause usually lies outside urology, and prostate surgery does not improve the symptom.",
+            "teaching_point": "Nocturia is not automatically a prostate symptom. Calculate first, then treat."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-fun-00006",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "medikamentöse LUTS-Therapie",
+        "tags": [
+          "pharmakologie",
+          "dosierung",
+          "leitlinie",
+          "labordiagnostik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Management of Non-neurogenic Male LUTS",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "66-jähriger Mann, IPSS 21 mit Leidensdruck, Prostatavolumen 68 ml, PSA 3,2 ng/ml, Restharn 90 ml, maximaler Harnfluss 9 ml/s. Keine Operation gewünscht.",
+          "lead_in": "Welche medikamentöse Therapie ist am besten begründet, und was ist bei der Verlaufskontrolle zu beachten?",
+          "options": {
+            "A": {
+              "text": "Alphablocker plus 5-Alpha-Reduktasehemmer kombinieren",
+              "rationale": "Prostatavolumen über 40 ml und erhöhter PSA kennzeichnen das Progressionsrisiko; nur der 5-Alpha-Reduktasehemmer senkt Retentions- und Operationsrate. Die PSA-Halbierung ist ein regelhafter Effekt und keine Entwarnung. Konkret etwa Tamsulosin 0,4 mg täglich plus Dutasterid 0,5 mg täglich. Nach sechs bis zwölf Monaten halbiert sich der PSA-Wert, sodass der gemessene Wert zur Beurteilung verdoppelt werden muss."
+            },
+            "B": {
+              "text": "Alphablocker als Monotherapie wegen des raschen Effekts",
+              "rationale": "Er bessert die Symptome rasch, verhindert aber weder das Wachstum noch den Harnverhalt bei großer Drüse."
+            },
+            "C": {
+              "text": "5-Alpha-Reduktasehemmer als alleinige Dauertherapie",
+              "rationale": "Wirksam gegen die Progression, aber mit monatelanger Wirklatenz und daher als alleinige Therapie bei hohem Leidensdruck ungünstig."
+            },
+            "D": {
+              "text": "Antimuskarinikum als Monotherapie gegen die Symptome",
+              "rationale": "Bei einem Restharn von 90 ml und deutlich reduziertem Harnfluss droht die Verschlechterung der Entleerung."
+            }
+          },
+          "explanation": {
+            "core": "Die medikamentöse Auswahl folgt dem Symptommuster und dem Progressionsrisiko. Ein Volumen über 40 ml und ein erhöhter PSA sprechen für die Kombination. Der wichtigste Fallstrick ist die PSA-Interpretation unter 5-Alpha-Reduktasehemmern: Der Wert halbiert sich, und ein Anstieg unter laufender Therapie ist abklärungsbedürftig, auch wenn er im Normbereich liegt.",
+            "teaching_point": "Unter 5-Alpha-Reduktasehemmer den PSA-Wert verdoppeln, und jeden Anstieg ernst nehmen."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "66-year-old man, IPSS 21 with bother, prostate volume 68 ml, PSA 3.2 ng/ml, post-void residual 90 ml, maximum flow rate 9 ml/s. He does not want surgery.",
+          "lead_in": "Which drug treatment is best justified, and what must be considered at follow-up?",
+          "options": {
+            "A": {
+              "text": "Combine an alpha-blocker with a 5-alpha-reductase inhibitor",
+              "rationale": "Prostate volume above 40 ml and raised PSA mark progression risk; only the 5-alpha-reductase inhibitor reduces retention and surgery rates. PSA halving is a regular effect and not reassurance. Specifically tamsulosin 0.4 mg daily plus dutasteride 0.5 mg daily. After six to twelve months PSA halves, so the measured value must be doubled for interpretation."
+            },
+            "B": {
+              "text": "Alpha-blocker monotherapy for its rapid effect",
+              "rationale": "It improves symptoms quickly but prevents neither growth nor retention in a large gland."
+            },
+            "C": {
+              "text": "5-alpha-reductase inhibitor as sole long-term therapy",
+              "rationale": "Effective against progression but with months of latency, and therefore unfavourable as sole therapy when bother is high."
+            },
+            "D": {
+              "text": "Antimuscarinic monotherapy directed at the symptoms",
+              "rationale": "With a residual of 90 ml and a markedly reduced flow rate this risks worsening emptying."
+            }
+          },
+          "explanation": {
+            "core": "Drug choice follows the symptom pattern and the progression risk. Volume above 40 ml and raised PSA argue for combination therapy. The main pitfall is PSA interpretation under 5-alpha-reductase inhibitors: the value halves, and any rise on treatment requires assessment even if it lies within the normal range.",
+            "teaching_point": "Double the PSA on a 5-alpha-reductase inhibitor, and take any rise seriously."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-fun-00007",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Belastungsinkontinenz",
+        "tags": [
+          "leitlinie",
+          "pharmakologie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urinary Incontinence",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "52-jährige Frau, zwei vaginale Geburten, seit zwei Jahren Urinverlust beim Husten, Niesen und Sport. Kein Drang, kein Nachträufeln, Restharn 15 ml, Urinkultur steril, BMI 31.",
+          "lead_in": "Was ist die Erstlinientherapie?",
+          "options": {
+            "A": {
+              "text": "Spannungsfreies Vaginalband als primäres Verfahren",
+              "rationale": "Operative Verfahren stehen nach Versagen der konservativen Therapie an, nicht davor."
+            },
+            "B": {
+              "text": "Antimuskarinikum zur Dämpfung der Blasenaktivität",
+              "rationale": "Es wirkt auf Drangsymptome; bei reiner Belastungsinkontinenz fehlt der Ansatzpunkt."
+            },
+            "C": {
+              "text": "Angeleitetes Beckenbodentraining über drei Monate",
+              "rationale": "Das angeleitete Training ist wirksam und risikoarm, und die Gewichtsabnahme senkt bei einem BMI über 30 die Inkontinenzepisoden nachweislich. Ergänzt wird es durch Gewichtsreduktion und Anpassung des Lebensstils. Angeleitet heißt mehr als ein Merkblatt, weil die Wirksamkeit an der Anleitung hängt."
+            },
+            "D": {
+              "text": "Sofortige Einlage eines künstlichen Sphinkters",
+              "rationale": "Ein Verfahren für schwere, konservativ und operativ ausbehandelte Fälle, nicht für die Erstlinie."
+            }
+          },
+          "explanation": {
+            "core": "Die Belastungsinkontinenz wird stufenweise behandelt: erst Lebensstil und angeleitetes Beckenbodentraining, dann bei Bedarf Duloxetin als Option mit erheblichem Nebenwirkungsprofil, danach operative Verfahren. Angeleitet heißt dabei mehr als ein Merkblatt, denn die Wirksamkeit hängt an der Anleitung.",
+            "teaching_point": "Drei Monate angeleitetes Training gehören vor jede Operationsplanung."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "52-year-old woman, two vaginal deliveries, two years of urine loss on coughing, sneezing and exercise. No urgency, no post-void dribbling, residual 15 ml, sterile urine culture, BMI 31.",
+          "lead_in": "What is first-line treatment?",
+          "options": {
+            "A": {
+              "text": "Tension-free vaginal tape as the primary procedure",
+              "rationale": "Surgical procedures follow failed conservative treatment, not precede it."
+            },
+            "B": {
+              "text": "An antimuscarinic to dampen bladder activity",
+              "rationale": "It acts on urgency symptoms; in pure stress incontinence there is no rationale."
+            },
+            "C": {
+              "text": "Supervised pelvic floor training for three months",
+              "rationale": "Supervised training is effective and low-risk, and weight loss demonstrably reduces incontinence episodes at a BMI above 30. It is complemented by weight reduction and lifestyle adjustment. Supervised means more than a leaflet, because effectiveness depends on the instruction."
+            },
+            "D": {
+              "text": "Immediate implantation of an artificial sphincter",
+              "rationale": "A procedure for severe cases that have exhausted conservative and surgical options, not for first line."
+            }
+          },
+          "explanation": {
+            "core": "Stress incontinence is treated stepwise: lifestyle and supervised pelvic floor training first, then duloxetine as an option with a considerable side-effect profile, then surgery. Supervised means more than a leaflet, because effectiveness depends on the instruction.",
+            "teaching_point": "Three months of supervised training belong before any surgical planning."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-fun-00008",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Urodynamik",
+        "tags": [
+          "leitlinie",
+          "praeoperativ"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urinary Incontinence",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Zwei Patientinnen sollen wegen Belastungsinkontinenz operiert werden. Die erste hat eine rein belastungsabhängige Symptomatik ohne Drang, ohne Restharn und ohne Voroperation. Die zweite berichtet zusätzlich über Drang mit Urinverlust, hat 120 ml Restharn und wurde vor drei Jahren bereits mit einer Schlinge versorgt.",
+          "lead_in": "Bei welcher Patientin ist eine Urodynamik vor der Operation erforderlich, und warum?",
+          "options": {
+            "A": {
+              "text": "Nur bei der zweiten wegen Mischbild und Voroperation",
+              "rationale": "Bei der unkomplizierten Form ändert die Urodynamik die Operationsentscheidung nicht. Bei Mischbild, Entleerungsstörung oder Rezidiv klärt sie dagegen, ob eine Detrusorüberaktivität oder eine Entleerungsstörung mitverantwortlich ist. Gemischte Symptomatik, relevanter Restharn und ein Rezidiv nach Voroperation begründen die invasive Abklärung. Bei unkomplizierter reiner Belastungsinkontinenz verbessert die Urodynamik das Ergebnis dagegen nicht."
+            },
+            "B": {
+              "text": "Bei beiden, da vor jeder Inkontinenzoperation vorgeschrieben",
+              "rationale": "Eine generelle Pflicht besteht nicht; die routinemäßige Anwendung bei unkomplizierter Belastungsinkontinenz verbessert die Ergebnisse nicht."
+            },
+            "C": {
+              "text": "Bei keiner, da die Kontinenz nicht vorhersagbar ist",
+              "rationale": "Sie sagt das Ergebnis zwar nicht sicher voraus, deckt aber behandelbare Begleitstörungen auf, die sonst nach der Operation fortbestehen."
+            },
+            "D": {
+              "text": "Nur bei der ersten zur Sicherung der Diagnose vorab",
+              "rationale": "Bei eindeutiger klinischer Belastungsinkontinenz mit passendem Untersuchungsbefund ist die Diagnose bereits gesichert."
+            }
+          },
+          "explanation": {
+            "core": "Die Urodynamik ist kein Routineschritt, sondern eine gezielte Untersuchung. Sie ist indiziert bei gemischter Symptomatik, Verdacht auf Detrusorüberaktivität, relevantem Restharn oder Entleerungsstörung, nach fehlgeschlagener Voroperation und bei neurologischer Grunderkrankung. Wer sie unkritisch einsetzt, belastet Patientinnen ohne Nutzen.",
+            "teaching_point": "Urodynamik dort, wo das Ergebnis die Operation ändern kann."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Two women are scheduled for stress incontinence surgery. The first has purely stress-related symptoms without urgency, without residual urine and without previous surgery. The second additionally reports urgency with leakage, has 120 ml residual and had a sling placed three years ago.",
+          "lead_in": "In which patient is preoperative urodynamics required, and why?",
+          "options": {
+            "A": {
+              "text": "Only in the second, for mixed symptoms and prior surgery",
+              "rationale": "In the uncomplicated form urodynamics does not change the surgical decision. In mixed symptoms, voiding dysfunction or recurrence it clarifies whether detrusor overactivity or a voiding disorder contributes. Mixed symptoms, relevant residual urine and recurrence after previous surgery justify invasive assessment. In uncomplicated pure stress incontinence urodynamics does not improve the outcome."
+            },
+            "B": {
+              "text": "In both, since it is mandatory before any such operation",
+              "rationale": "There is no such general requirement; routine use in uncomplicated stress incontinence does not improve outcomes."
+            },
+            "C": {
+              "text": "In neither, since continence cannot be predicted anyway",
+              "rationale": "It does not reliably predict the outcome but does reveal treatable coexisting disorders that would otherwise persist after surgery."
+            },
+            "D": {
+              "text": "Only in the first, to confirm the diagnosis beforehand",
+              "rationale": "With unequivocal clinical stress incontinence and matching examination findings the diagnosis is already established."
+            }
+          },
+          "explanation": {
+            "core": "Urodynamics is not a routine step but a targeted investigation. It is indicated in mixed symptoms, suspected detrusor overactivity, relevant residual urine or voiding dysfunction, after failed previous surgery and in neurological disease. Used indiscriminately it burdens patients without benefit.",
+            "teaching_point": "Urodynamics where the result can change the operation."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-fun-00009",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "überaktive Blase",
+        "tags": [
+          "pharmakologie",
+          "dosierung",
+          "geriatrie",
+          "nebenwirkungen"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Non-neurogenic Female LUTS",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "78-jährige Patientin mit überaktiver Blase und Dranginkontinenz. Blasentraining blieb ohne ausreichenden Effekt. Sie nimmt bereits ein trizyklisches Antidepressivum und ein Antihistaminikum, der Mini-Mental-Status liegt bei 24 Punkten. Blutdruck 138/82 mmHg, Nierenfunktion normal.",
+          "lead_in": "Welche medikamentöse Therapie ist am besten geeignet?",
+          "options": {
+            "A": {
+              "text": "Oxybutynin unretardiert in aufsteigender Dosierung",
+              "rationale": "Oxybutynin ist unter den Antimuskarinika am stärksten zentralgängig und bei kognitiver Beeinträchtigung besonders ungünstig."
+            },
+            "B": {
+              "text": "Zwei Antimuskarinika kombinieren zur Wirkverstärkung",
+              "rationale": "Sie addiert nur die anticholinerge Last, ohne einen belegten Zusatznutzen."
+            },
+            "C": {
+              "text": "Verzicht auf jede Medikation allein wegen des Alters",
+              "rationale": "Das Alter allein ist keine Kontraindikation; es steuert lediglich die Substanzwahl."
+            },
+            "D": {
+              "text": "Mirabegron 50 mg täglich unter Blutdruckkontrolle",
+              "rationale": "Als Beta-3-Agonist erhöht Mirabegron die anticholinerge Last nicht und meidet damit das zentrale Problem dieser Patientin. Zu beachten ist der Blutdruck, da schwere unkontrollierte Hypertonie eine Gegenanzeige darstellt. Bei eingeschränkter Nieren- oder Leberfunktion werden 25 mg gegeben. Als Beta-3-Agonist erhöht die Substanz die anticholinerge Last nicht; eine schwere unkontrollierte Hypertonie ist eine Gegenanzeige."
+            }
+          },
+          "explanation": {
+            "core": "Bei älteren Menschen entscheidet weniger die Wirksamkeit als die kumulative anticholinerge Belastung. Diese steigt mit jedem zusätzlichen Präparat und ist mit Verwirrtheit, Stürzen und einer Verschlechterung der Kognition verknüpft. Beta-3-Agonisten umgehen dieses Problem, verlangen aber eine Blutdruckkontrolle.",
+            "teaching_point": "Vor jedem Antimuskarinikum die gesamte anticholinerge Last des Patienten zusammenzählen."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "78-year-old woman with overactive bladder and urgency incontinence. Bladder training gave no adequate effect. She already takes a tricyclic antidepressant and an antihistamine, and her Mini-Mental score is 24. Blood pressure 138/82 mmHg, renal function normal.",
+          "lead_in": "Which drug treatment is most suitable?",
+          "options": {
+            "A": {
+              "text": "Immediate-release oxybutynin in escalating doses",
+              "rationale": "Oxybutynin has the greatest central nervous penetration among antimuscarinics and is particularly unfavourable with cognitive impairment."
+            },
+            "B": {
+              "text": "Combine two antimuscarinics to increase the effect",
+              "rationale": "This merely adds anticholinergic burden without demonstrated additional benefit."
+            },
+            "C": {
+              "text": "Withhold all medication solely because of her age",
+              "rationale": "Age alone is not a contraindication; it only guides the choice of agent."
+            },
+            "D": {
+              "text": "Mirabegron 50 mg daily with blood pressure monitoring",
+              "rationale": "As a beta-3 agonist mirabegron does not add anticholinergic burden and thus avoids this patient's central problem. Blood pressure must be watched, since severe uncontrolled hypertension is a contraindication. With impaired renal or hepatic function 25 mg is given. As a beta-3 agonist it does not add anticholinergic burden; severe uncontrolled hypertension is a contraindication."
+            }
+          },
+          "explanation": {
+            "core": "In older people cumulative anticholinergic burden matters more than efficacy. It rises with every added agent and is linked to confusion, falls and cognitive decline. Beta-3 agonists avoid this problem but require blood pressure monitoring.",
+            "teaching_point": "Add up the patient's total anticholinergic burden before prescribing any antimuscarinic."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-fun-00010",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Postprostatektomie-Inkontinenz",
+        "tags": [
+          "leitlinie",
+          "praeoperativ",
+          "operationstechnik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urinary Incontinence",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "69-jähriger Patient, 14 Monate nach radikaler Prostatektomie, PSA nicht nachweisbar. Er verbraucht drei Vorlagen täglich, das Beckenbodentraining ist ausgeschöpft. Er wünscht eine operative Lösung.",
+          "lead_in": "Was ist vor der Verfahrenswahl erforderlich?",
+          "options": {
+            "A": {
+              "text": "Nichts weiter; die Vorlagenzahl genügt zur Verfahrenswahl",
+              "rationale": "Die Vorlagenzahl schätzt den Schweregrad, klärt aber weder die Ursache noch die Voraussetzungen für das jeweilige Implantat."
+            },
+            "B": {
+              "text": "Zystoskopie und Urodynamik vor der Verfahrenswahl",
+              "rationale": "Eine Striktur muss vor jedem Implantat saniert und stabil sein, und eine begleitende Detrusorüberaktivität bliebe sonst nach der Operation als Symptom bestehen. Die Zystoskopie schließt eine Anastomosenstriktur aus, die vor jedem Implantat saniert sein muss. Die Urodynamik sichert die Sphinkterinsuffizienz und schließt eine Detrusorüberaktivität oder Entleerungsstörung aus."
+            },
+            "C": {
+              "text": "Ein MRT des Beckens zur Beurteilung des Sphinkters",
+              "rationale": "Es liefert keine funktionelle Aussage und ist für diese Entscheidung ohne Wert."
+            },
+            "D": {
+              "text": "Erneute Bestrahlung der Loge vor der Implantation",
+              "rationale": "Eine Bestrahlung ohne onkologische Indikation ist nicht begründet und verschlechtert die Ergebnisse jedes Implantats."
+            }
+          },
+          "explanation": {
+            "core": "Vor Schlinge oder künstlichem Sphinkter müssen zwei Fragen beantwortet sein: Ist der Ausfluss frei, und ist die Inkontinenz wirklich sphinkterbedingt. Erst danach richtet sich die Verfahrenswahl nach Schweregrad, Detrusorfunktion und einer eventuellen Bestrahlung in der Vorgeschichte, wobei der künstliche Sphinkter bei schwerer Inkontinenz und nach Bestrahlung das robustere Verfahren bleibt.",
+            "teaching_point": "Erst Striktur ausschließen, dann implantieren. Sonst wird die falsche Ursache operiert."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "69-year-old man, 14 months after radical prostatectomy, PSA undetectable. He uses three pads a day and pelvic floor training has been exhausted. He wants a surgical solution.",
+          "lead_in": "What is required before choosing a procedure?",
+          "options": {
+            "A": {
+              "text": "Nothing further; pad count is enough to choose a procedure",
+              "rationale": "Pad count estimates severity but clarifies neither the cause nor the prerequisites for either implant."
+            },
+            "B": {
+              "text": "Cystoscopy and urodynamics before choosing a procedure",
+              "rationale": "A stricture must be treated and stable before any implant, and coexisting detrusor overactivity would otherwise persist as a symptom after surgery. Cystoscopy excludes an anastomotic stricture, which must be treated before any implant. Urodynamics confirms sphincteric incompetence and excludes detrusor overactivity or voiding dysfunction."
+            },
+            "C": {
+              "text": "Pelvic MRI to assess the sphincter before implantation",
+              "rationale": "It provides no functional information and is of no value for this decision."
+            },
+            "D": {
+              "text": "Repeat radiotherapy to the bed before implantation",
+              "rationale": "Radiotherapy without an oncological indication is unjustified and worsens the results of any implant."
+            }
+          },
+          "explanation": {
+            "core": "Before a sling or artificial sphincter two questions must be answered: is outflow unobstructed, and is the incontinence genuinely sphincteric. Only then does the choice follow severity, detrusor function and any previous radiotherapy, with the artificial sphincter remaining the more robust option in severe incontinence and after radiotherapy.",
+            "teaching_point": "Exclude a stricture before implanting. Otherwise the wrong cause is operated on."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-fun-00011",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Neurourologie",
+        "tags": [
+          "leitlinie",
+          "notfall",
+          "nachsorge"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Neuro-Urology",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "34-jähriger Patient mit kompletter Querschnittlähmung unterhalb Th5, versorgt mit intermittierendem Selbstkatheterismus. In der Urodynamik zeigt sich eine Detrusorüberaktivität mit einem Speicherdruck von 55 cm Wassersäule. Bei der Blasenfüllung treten Kopfschmerzen, Schwitzen oberhalb der Läsion und ein Blutdruckanstieg auf 190/110 mmHg auf.",
+          "lead_in": "Wie ist der Befund zu bewerten und zu behandeln?",
+          "options": {
+            "A": {
+              "text": "Speicherdruck unbedenklich bei regelmäßigem Katheterismus",
+              "rationale": "Der Selbstkatheterismus entleert, senkt aber den Druck während der Speicherphase nicht."
+            },
+            "B": {
+              "text": "Ein Dauerkatheter löst beide Probleme auf Dauer",
+              "rationale": "Er umgeht die Drucksenkung nicht ursächlich und bringt Steine, Infekte und langfristige Schleimhautschäden mit sich."
+            },
+            "C": {
+              "text": "Speicherdruck senken und autonome Dysreflexie behandeln",
+              "rationale": "Ein Speicherdruck über diesem Grenzwert führt über Jahre zu Reflux und Niereninsuffizienz. Die autonome Dysreflexie ist ein Notfall, bei dem zuerst der Reiz, meist eine überfüllte Blase, entfernt wird. Über etwa 40 cm Wassersäule wird der obere Harntrakt geschädigt; gesenkt wird medikamentös oder mit Botulinumtoxin. Die Kreislaufreaktion ist eine autonome Dysreflexie, die bei Läsionen ab etwa Th6 auftritt und deren Auslöser sofort zu beseitigen ist."
+            },
+            "D": {
+              "text": "Die Kreislaufreaktion ist Ausdruck von Angst ohne Folgen",
+              "rationale": "Die autonome Dysreflexie kann zu hypertensiver Krise, Hirnblutung und Krampfanfall führen."
+            }
+          },
+          "explanation": {
+            "core": "In der Neurourologie ist der Speicherdruck der entscheidende Parameter, nicht die Kontinenz. Oberhalb von etwa 40 cm Wassersäule wird der obere Harntrakt geschädigt, häufig ohne Symptome. Bei Läsionen ab Th6 kommt die autonome Dysreflexie hinzu, die durch Blasenfüllung, Katheterisierung oder Obstipation ausgelöst wird.",
+            "teaching_point": "Der Druck schädigt die Nieren, nicht die Inkontinenz. Und bei hoher Läsion ist Kopfschmerz beim Füllen ein Notfallzeichen."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "34-year-old man with complete spinal cord injury below T5, managed with clean intermittent self-catheterisation. Urodynamics shows detrusor overactivity with a storage pressure of 55 cm H2O. During filling he develops headache, sweating above the lesion and a rise in blood pressure to 190/110 mmHg.",
+          "lead_in": "How should this be interpreted and treated?",
+          "options": {
+            "A": {
+              "text": "Storage pressure harmless with regular catheterisation",
+              "rationale": "Self-catheterisation empties the bladder but does not lower pressure during the storage phase."
+            },
+            "B": {
+              "text": "An indwelling catheter solves both problems permanently",
+              "rationale": "It does not address the pressure causally and brings stones, infections and long-term mucosal damage."
+            },
+            "C": {
+              "text": "Lower storage pressure and treat autonomic dysreflexia",
+              "rationale": "Storage pressure above this threshold leads over years to reflux and renal failure. Autonomic dysreflexia is an emergency in which the stimulus, usually an overfilled bladder, is removed first. Above roughly 40 cm H2O the upper tract is damaged; pressure is lowered with drugs or botulinum toxin. The cardiovascular reaction is autonomic dysreflexia, occurring with lesions from about T6, whose trigger must be removed at once."
+            },
+            "D": {
+              "text": "The cardiovascular reaction reflects anxiety without sequelae",
+              "rationale": "Autonomic dysreflexia can lead to hypertensive crisis, intracranial haemorrhage and seizures."
+            }
+          },
+          "explanation": {
+            "core": "In neuro-urology storage pressure is the decisive parameter, not continence. Above roughly 40 cm H2O the upper tract is damaged, often without symptoms. With lesions from T6 upwards autonomic dysreflexia is added, triggered by bladder filling, catheterisation or constipation.",
+            "teaching_point": "Pressure damages the kidneys, not the incontinence. And with a high lesion, headache during filling is an emergency sign."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-fun-00012",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "sakrale Neuromodulation",
+        "tags": [
+          "leitlinie",
+          "operationstechnik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Non-neurogenic Female LUTS",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "58-jährige Patientin mit therapierefraktärer überaktiver Blase. Zwei Antimuskarinika und Mirabegron blieben wirkungslos, den intermittierenden Selbstkatheterismus lehnt sie ausdrücklich ab. Sie fragt nach der sakralen Neuromodulation.",
+          "lead_in": "Wie ist das Vorgehen?",
+          "options": {
+            "A": {
+              "text": "Zunächst Testphase mit temporärer Elektrode durchführen",
+              "rationale": "Die Testphase ist konstitutiv für das Verfahren. Sie verhindert die Implantation bei den Patientinnen, die nicht ansprechen, und ist zugleich das beste verfügbare Auswahlkriterium. Der endgültige Schrittmacher wird nur implantiert, wenn sich die Symptome um mehr als etwa die Hälfte bessern. Damit ist die Erfolgsprüfung in das Verfahren eingebaut."
+            },
+            "B": {
+              "text": "Direkte Implantation ohne Testphase, um Zeit zu sparen",
+              "rationale": "Ein erheblicher Teil der Patientinnen spricht nicht an; ohne Test würde diesen Frauen ein dauerhaftes Implantat ohne Nutzen eingesetzt."
+            },
+            "C": {
+              "text": "Botulinumtoxin trotz Ablehnung des Selbstkatheterismus",
+              "rationale": "Die Bereitschaft zum Selbstkatheterismus ist Voraussetzung für die Injektion; ihre Ablehnung ist gerade das Argument für die Neuromodulation."
+            },
+            "D": {
+              "text": "Zystektomie mit Harnableitung als nächster Schritt",
+              "rationale": "Ein Verfahren der letzten Wahl nach Ausschöpfung aller minimalinvasiven Optionen."
+            }
+          },
+          "explanation": {
+            "core": "Nach Versagen der Pharmakotherapie stehen Botulinumtoxin und sakrale Neuromodulation nebeneinander. Die Wahl richtet sich stark an der Bereitschaft zum Selbstkatheterismus aus. Die Neuromodulation hat mit der Testphase eine eingebaute Erfolgsprüfung, die kein anderes Verfahren in dieser Form bietet.",
+            "teaching_point": "Erst testen, dann implantieren. Die Testphase ist keine Formalität, sondern die Indikationsstellung."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "58-year-old woman with refractory overactive bladder. Two antimuscarinics and mirabegron were ineffective, and she explicitly refuses clean intermittent self-catheterisation. She asks about sacral neuromodulation.",
+          "lead_in": "How should this proceed?",
+          "options": {
+            "A": {
+              "text": "Carry out a test phase with a temporary lead first",
+              "rationale": "The test phase is constitutive of the procedure. It prevents implantation in non-responders and is at the same time the best available selection criterion. The permanent device is implanted only if symptoms improve by more than about half. The test of success is thereby built into the procedure."
+            },
+            "B": {
+              "text": "Direct implantation without a test phase to save time",
+              "rationale": "A substantial proportion of patients do not respond; without testing these women would receive a permanent implant without benefit."
+            },
+            "C": {
+              "text": "Botulinum toxin despite her refusal of catheterisation",
+              "rationale": "Willingness to self-catheterise is a prerequisite for injection; her refusal is precisely the argument for neuromodulation."
+            },
+            "D": {
+              "text": "Cystectomy with urinary diversion as the next step",
+              "rationale": "A last-resort procedure after all minimally invasive options have been exhausted."
+            }
+          },
+          "explanation": {
+            "core": "After failed drug therapy botulinum toxin and sacral neuromodulation stand side by side. The choice depends heavily on willingness to self-catheterise. Neuromodulation has a built-in test of success in its trial phase, which no other procedure offers in this form.",
+            "teaching_point": "Test first, implant second. The test phase is not a formality, it is the indication."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-fun-00013",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Blasenschmerzsyndrom",
+        "tags": [
+          "leitlinie",
+          "labordiagnostik",
+          "pathologie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Chronic Pelvic Pain",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "41-jährige Patientin mit seit acht Monaten bestehendem suprapubischem Schmerz, der bei zunehmender Blasenfüllung stärker wird und nach der Miktion nachlässt. Pollakisurie bis zu 15-mal täglich, mehrfach sterile Urinkulturen, Zytologie negativ, wiederholte antibiotische Behandlungen ohne Erfolg.",
+          "lead_in": "Wie ist vorzugehen?",
+          "options": {
+            "A": {
+              "text": "Antibiotische Langzeitprophylaxe über sechs Monate",
+              "rationale": "Bei wiederholt sterilen Kulturen fehlt jede Grundlage; die bisherigen Behandlungen waren bereits erfolglos."
+            },
+            "B": {
+              "text": "Blasenschmerzsyndrom als Ausschlussdiagnose stellen",
+              "rationale": "Das füllungsabhängige Schmerzmuster ist typisch. Der Nachweis von Hunner-Läsionen trennt eine Untergruppe ab, die von einer gezielten endoskopischen Behandlung profitiert, und ändert damit die Therapie. Andere Ursachen werden ausgeschlossen, die Zystoskopie sucht nach Hunner-Läsionen, und die Behandlung beginnt konservativ und multimodal. Der Nachweis von Hunner-Läsionen trennt eine Untergruppe ab, die von gezielter endoskopischer Behandlung profitiert."
+            },
+            "C": {
+              "text": "Hochdosiertes Antimuskarinikum wegen der Pollakisurie",
+              "rationale": "Die Pollakisurie ist beim Blasenschmerzsyndrom schmerzvermeidend und spricht auf Antimuskarinika kaum an."
+            },
+            "D": {
+              "text": "Zystektomie mit Harnableitung als nächste Maßnahme",
+              "rationale": "Eine Option allerletzter Wahl in ausgewählten therapierefraktären Fällen, nicht am Anfang der Behandlung."
+            }
+          },
+          "explanation": {
+            "core": "Das Blasenschmerzsyndrom ist über das Symptommuster definiert und über den Ausschluss anderer Ursachen gesichert. Der schmerzabhängige Miktionsdrang unterscheidet es von der überaktiven Blase, bei der Drang und nicht Schmerz treibt. Die Zystoskopie hat eine Doppelfunktion: Sie schließt anderes aus und identifiziert die Hunner-Untergruppe.",
+            "teaching_point": "Schmerz bei Füllung, Erleichterung nach Miktion, sterile Kultur: keine Zystitis mehr behandeln."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "41-year-old woman with eight months of suprapubic pain that worsens with bladder filling and eases after voiding. Frequency up to 15 times daily, repeatedly sterile urine cultures, negative cytology, repeated courses of antibiotics without success.",
+          "lead_in": "How should management proceed?",
+          "options": {
+            "A": {
+              "text": "Long-term antibiotic prophylaxis for six months",
+              "rationale": "With repeatedly sterile cultures there is no basis; previous courses have already failed."
+            },
+            "B": {
+              "text": "Diagnose bladder pain syndrome by exclusion",
+              "rationale": "The filling-dependent pain pattern is typical. Identifying Hunner lesions separates a subgroup that benefits from targeted endoscopic treatment and therefore changes management. Other causes are excluded, cystoscopy looks for Hunner lesions, and treatment begins conservatively and multimodally. Identifying Hunner lesions separates a subgroup that benefits from targeted endoscopic treatment."
+            },
+            "C": {
+              "text": "High-dose antimuscarinic because of the frequency",
+              "rationale": "Frequency in bladder pain syndrome is pain-avoiding behaviour and responds poorly to antimuscarinics."
+            },
+            "D": {
+              "text": "Cystectomy with urinary diversion as the next measure",
+              "rationale": "A last-resort option in selected refractory cases, not at the start of treatment."
+            }
+          },
+          "explanation": {
+            "core": "Bladder pain syndrome is defined by its symptom pattern and secured by excluding other causes. Pain-driven voiding distinguishes it from overactive bladder, where urgency rather than pain drives the behaviour. Cystoscopy serves two purposes: excluding other disease and identifying the Hunner subgroup.",
+            "teaching_point": "Pain on filling, relief after voiding, sterile culture: stop treating it as cystitis."
+          },
+          "flag_note": null
+        }
+      }
+    }
+  ]
+}

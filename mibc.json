@@ -1,0 +1,461 @@
+{
+  "gebiet": "mibc",
+  "fragen": [
+    {
+      "id": "uro-mib-00001",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "perioperative Systemtherapie",
+        "tags": [
+          "leitlinie",
+          "pharmakologie",
+          "dosierung",
+          "praeoperativ"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "studie",
+          "citation": "EV-303 / KEYNOTE-905, N Engl J Med 2026",
+          "doi": null
+        },
+        {
+          "type": "zulassung",
+          "citation": "Europäische Kommission, perioperatives Enfortumab Vedotin plus Pembrolizumab bei cisplatinungeeignetem MIBC",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-05",
+        "last_reviewed": "2026-09-05",
+        "expires": "2027-09-05"
+      },
+      "content": {
+        "de": {
+          "vignette": "71-jähriger Patient mit muskelinvasivem Urothelkarzinom der Harnblase, cT2 cN0 cM0, ECOG 1. Chronische Niereninsuffizienz mit einer GFR von 38 ml/min bei diabetischer Nephropathie. Audiometrie unauffällig, keine Polyneuropathie, keine Herzinsuffizienz. Der Patient ist zystektomiefähig.",
+          "lead_in": "Welches perioperative Vorgehen ist in Deutschland zugelassen und leitliniengerecht?",
+          "options": {
+            "A": {
+              "text": "Primäre radikale Zystektomie ohne Systemtherapie",
+              "rationale": "Bis 2025 war dies der Standard für cisplatinungeeignete Patienten. Er ist dem perioperativen Regime in ereignisfreiem und Gesamtüberleben unterlegen und heute nur noch bei Kontraindikation gegen die Kombination vertretbar."
+            },
+            "B": {
+              "text": "Neoadjuvant Carboplatin plus Gemcitabin, vier Zyklen",
+              "rationale": "Für Carboplatin fehlt im neoadjuvanten Setting jeder Wirksamkeitsnachweis; es ist kein Ersatz für Cisplatin und verzögert nur die Operation."
+            },
+            "C": {
+              "text": "Perioperativ Enfortumab Vedotin plus Pembrolizumab",
+              "rationale": "EV-303 (KEYNOTE-905) zeigte gegenüber alleiniger Operation ein ereignisfreies Überleben mit Hazard Ratio 0,40 und ein Gesamtüberleben mit Hazard Ratio 0,50; die pathologische Komplettremission lag bei 57,1 gegenüber 8,6 Prozent. Die EU-Zulassung für cisplatinungeeignete Patienten besteht seit Juni 2026. Neoadjuvant werden drei Zyklen gegeben: Enfortumab Vedotin 1,25 mg/kg i.v. an Tag 1 und 8 plus Pembrolizumab 200 mg i.v. an Tag 1, alle drei Wochen. Danach folgen Zystektomie mit Lymphadenektomie und die adjuvante Fortführung."
+            },
+            "D": {
+              "text": "Neoadjuvant Gemcitabin/Cisplatin mit Durvalumab",
+              "rationale": "Das NIAGARA-Protokoll setzt Cisplatinfähigkeit voraus. Bei einer GFR von 38 ml/min ist das Galsky-Kriterium der Niereninsuffizienz erfüllt und Cisplatin nicht einsetzbar."
+            }
+          },
+          "explanation": {
+            "core": "Die Cisplatinfähigkeit nach den Galsky-Kriterien bleibt die erste Weiche, hat aber ihre Bedeutung verändert. Bis 2025 führte Cisplatinungeeignetheit direkt zur alleinigen Operation. Seit EV-303 und der EU-Zulassung im Juni 2026 steht für genau diese Gruppe ein zugelassenes perioperatives Regime zur Verfügung.",
+            "teaching_point": "Cisplatinungeeignet heißt seit 2026 nicht mehr therapielos, sondern platinfrei."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "71-year-old man with muscle-invasive urothelial carcinoma of the bladder, cT2 cN0 cM0, ECOG 1. Chronic kidney disease with a GFR of 38 ml/min from diabetic nephropathy. Normal audiometry, no polyneuropathy, no heart failure. He is fit for cystectomy.",
+          "lead_in": "Which perioperative approach is approved and guideline-concordant in Germany?",
+          "options": {
+            "A": {
+              "text": "Primary radical cystectomy without systemic therapy",
+              "rationale": "This was the standard for cisplatin-ineligible patients until 2025. It is inferior in event-free and overall survival and is now only defensible when the combination is contraindicated."
+            },
+            "B": {
+              "text": "Neoadjuvant carboplatin plus gemcitabine, four cycles",
+              "rationale": "Carboplatin has no efficacy evidence in the neoadjuvant setting; it does not substitute for cisplatin and only delays surgery."
+            },
+            "C": {
+              "text": "Perioperative enfortumab vedotin plus pembrolizumab",
+              "rationale": "EV-303 (KEYNOTE-905) showed event-free survival with a hazard ratio of 0.40 and overall survival with a hazard ratio of 0.50 against surgery alone; pathological complete response was 57.1 versus 8.6 per cent. The EU approval for cisplatin-ineligible patients has been in place since June 2026. Three neoadjuvant cycles are given: enfortumab vedotin 1.25 mg/kg IV on days 1 and 8 plus pembrolizumab 200 mg IV on day 1, every three weeks. Cystectomy with lymphadenectomy and adjuvant continuation follow."
+            },
+            "D": {
+              "text": "Neoadjuvant gemcitabine/cisplatin with durvalumab",
+              "rationale": "The NIAGARA protocol requires cisplatin eligibility. At a GFR of 38 ml/min the Galsky renal criterion is met and cisplatin cannot be given."
+            }
+          },
+          "explanation": {
+            "core": "Cisplatin eligibility by the Galsky criteria remains the first branch point, but its meaning has changed. Until 2025 ineligibility led straight to surgery alone. Since EV-303 and the EU approval in June 2026 an approved perioperative regimen exists for exactly this group.",
+            "teaching_point": "Since 2026 cisplatin-ineligible no longer means treatment-free, it means platinum-free."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-mib-00002",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "perioperative Systemtherapie",
+        "tags": [
+          "dosierung",
+          "pharmakologie",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "studie",
+          "citation": "NIAGARA, Powles et al., N Engl J Med 2024",
+          "doi": null
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer",
+          "version": null,
+          "year": 2026,
+          "section": null
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-05",
+        "last_reviewed": "2026-09-05",
+        "expires": "2027-09-05"
+      },
+      "content": {
+        "de": {
+          "vignette": "64-jähriger Patient, cT3 cN0 cM0 Urothelkarzinom der Harnblase, ECOG 0, GFR 92 ml/min, keine Hörminderung, keine Neuropathie, keine Herzinsuffizienz. Im Tumorboard wird das NIAGARA-Protokoll beschlossen.",
+          "lead_in": "Welche Dosierung und Sequenz entspricht dem Protokoll?",
+          "options": {
+            "A": {
+              "text": "Durvalumab präoperativ alle 4 Wochen, danach alle 3 Wochen",
+              "rationale": "Die Intervalle sind vertauscht. Präoperativ läuft Durvalumab synchron zur Chemotherapie alle 3 Wochen, erst postoperativ alle 4 Wochen."
+            },
+            "B": {
+              "text": "Chemotherapie präoperativ, Durvalumab erst adjuvant",
+              "rationale": "Gewichtsadaptierte Dosierung und rein adjuvanter Einsatz stammen aus älteren Studiendesigns. NIAGARA beginnt Durvalumab bereits präoperativ."
+            },
+            "C": {
+              "text": "Sechs Zyklen Chemotherapie präoperativ, danach Operation",
+              "rationale": "Neoadjuvant sind vier Zyklen etabliert; sechs Zyklen erhöhen nur die Toxizität und die perioperative Komponente fehlt vollständig."
+            },
+            "D": {
+              "text": "Vier Zyklen perioperativ, danach acht Zyklen Durvalumab",
+              "rationale": "Entspricht dem Studienprotokoll: perioperativ, mit Wechsel des Intervalls von drei auf vier Wochen nach der Operation. Präoperativ alle drei Wochen: Durvalumab 1500 mg i.v. an Tag 1, Gemcitabin 1000 mg/m² an Tag 1 und 8, Cisplatin 70 mg/m² an Tag 1. Nach der Zystektomie acht Zyklen Durvalumab 1500 mg i.v. alle vier Wochen."
+            }
+          },
+          "explanation": {
+            "core": "NIAGARA etablierte für cisplatinfähige Patienten die perioperative Ergänzung der Standardchemotherapie um Durvalumab. Prüfungsrelevant sind drei Details: Durvalumab beginnt präoperativ, die Chemotherapie umfasst vier Zyklen, und das Durvalumab-Intervall wechselt postoperativ von drei auf vier Wochen.",
+            "teaching_point": "Perioperativ heißt vor und nach der Operation. Ein rein adjuvantes Schema ist nicht NIAGARA."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "64-year-old man, cT3 cN0 cM0 urothelial carcinoma of the bladder, ECOG 0, GFR 92 ml/min, no hearing loss, no neuropathy, no heart failure. The tumour board decides on the NIAGARA protocol.",
+          "lead_in": "Which dosing and sequence matches the protocol?",
+          "options": {
+            "A": {
+              "text": "Durvalumab four-weekly before surgery, three-weekly after",
+              "rationale": "The intervals are swapped. Preoperatively durvalumab runs every 3 weeks with chemotherapy, only postoperatively every 4 weeks."
+            },
+            "B": {
+              "text": "Chemotherapy before surgery, durvalumab only adjuvantly",
+              "rationale": "Weight-based dosing and purely adjuvant use come from older trial designs. NIAGARA starts durvalumab before surgery."
+            },
+            "C": {
+              "text": "Six cycles of chemotherapy before surgery, then operate",
+              "rationale": "Four cycles are established neoadjuvantly; six only add toxicity, and the perioperative component is missing entirely."
+            },
+            "D": {
+              "text": "Four perioperative cycles, then eight of durvalumab",
+              "rationale": "This matches the trial protocol: perioperative, with the interval changing from three to four weeks after surgery. Preoperatively every three weeks: durvalumab 1500 mg IV on day 1, gemcitabine 1000 mg/m² on days 1 and 8, cisplatin 70 mg/m² on day 1. After cystectomy eight cycles of durvalumab 1500 mg IV every four weeks."
+            }
+          },
+          "explanation": {
+            "core": "For cisplatin-eligible patients NIAGARA established the perioperative addition of durvalumab to standard chemotherapy. Three details matter for the exam: durvalumab starts preoperatively, chemotherapy runs four cycles, and the durvalumab interval changes from three to four weeks after surgery.",
+            "teaching_point": "Perioperative means before and after surgery. A purely adjuvant schedule is not NIAGARA."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-mib-00003",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Toxizitätsmanagement",
+        "tags": [
+          "nebenwirkungen",
+          "pharmakologie",
+          "komplikationsmanagement"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "studie",
+          "citation": "EV-303 / KEYNOTE-905, N Engl J Med 2026",
+          "doi": null
+        },
+        {
+          "type": "fachinformation",
+          "citation": "Fachinformation Enfortumab Vedotin",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-05",
+        "last_reviewed": "2026-09-05",
+        "expires": "2027-09-05"
+      },
+      "content": {
+        "de": {
+          "vignette": "68-jährige Patientin unter neoadjuvantem Enfortumab Vedotin 1,25 mg/kg plus Pembrolizumab 200 mg. Vorbestehender Typ-2-Diabetes, HbA1c bei Therapiebeginn 8,4 Prozent. Elf Tage nach dem zweiten Zyklus Blutzucker 480 mg/dl, Ketonurie, beginnende Kussmaul-Atmung.",
+          "lead_in": "Wie ist die Situation einzuordnen und zu behandeln?",
+          "options": {
+            "A": {
+              "text": "Immunvermittelter Typ-1-Diabetes; Glukokortikoide geben",
+              "rationale": "Ein autoimmuner Insulinmangeldiabetes unter Checkpointinhibitoren kommt vor, ist aber seltener. Glukokortikoide verschlechtern die Stoffwechsellage zusätzlich und sind bei dieser Entgleisung kontraproduktiv."
+            },
+            "B": {
+              "text": "Enfortumab Vedotin nach dieser Episode dauerhaft absetzen",
+              "rationale": "Vorgesehen ist das Pausieren mit Wiederaufnahme nach Normalisierung. Dauerhaftes Absetzen bleibt wiederholten oder lebensbedrohlichen Verläufen vorbehalten."
+            },
+            "C": {
+              "text": "Erwartete Nebenwirkung ohne Konsequenz für die Therapie",
+              "rationale": "Enfortumab Vedotin hat mehrere dosislimitierende Toxizitäten: Hyperglykämie, schwere Hautreaktionen bis zum Stevens-Johnson-Syndrom, periphere Neuropathie, okuläre Toxizität und Pneumonitis."
+            },
+            "D": {
+              "text": "Enfortumab-typische Hyperglykämie; pausieren und behandeln",
+              "rationale": "Schwere Hyperglykämien bis zur diabetischen Ketoazidose sind eine bekannte, auch tödlich verlaufende Nebenwirkung von Enfortumab Vedotin. Vorbestehender Diabetes und erhöhtes HbA1c sind Risikofaktoren; der Blutzucker wird vor jeder Gabe kontrolliert. Die Entgleisung wird stationär behandelt; Enfortumab Vedotin wird pausiert und erst nach Normalisierung des Blutzuckers wieder angesetzt. Dauerhaftes Absetzen bleibt wiederholten oder lebensbedrohlichen Episoden vorbehalten."
+            }
+          },
+          "explanation": {
+            "core": "Die Toxizität des perioperativen Regimes ist erheblich: In EV-303 traten Nebenwirkungen vom Grad 3 oder höher bei 71,3 Prozent gegenüber 45,9 Prozent unter alleiniger Operation auf, therapieassoziierte Todesfälle bei 7,8 gegenüber 5,7 Prozent. Wer die Kombination einsetzt, muss Blutzucker, Haut, Neurologie und Augen strukturiert überwachen.",
+            "teaching_point": "Vor jeder Enfortumab-Gabe Blutzucker messen. Der Wirkstoff macht Hyperglykämien auch bei Patienten ohne bekannten Diabetes."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "68-year-old woman on neoadjuvant enfortumab vedotin 1.25 mg/kg plus pembrolizumab 200 mg. Known type 2 diabetes, HbA1c 8.4 per cent at treatment start. Eleven days after the second cycle her blood glucose is 480 mg/dl with ketonuria and early Kussmaul breathing.",
+          "lead_in": "How should this be classified and managed?",
+          "options": {
+            "A": {
+              "text": "Immune-mediated type 1 diabetes; give glucocorticoids",
+              "rationale": "Autoimmune insulin-deficient diabetes does occur under checkpoint inhibitors but is rarer. Glucocorticoids worsen the metabolic state and are counterproductive here."
+            },
+            "B": {
+              "text": "Discontinue enfortumab vedotin permanently after this",
+              "rationale": "The intended action is to withhold and resume after normalisation. Permanent discontinuation is reserved for recurrent or life-threatening episodes."
+            },
+            "C": {
+              "text": "An expected effect without consequence for treatment",
+              "rationale": "Enfortumab vedotin has several dose-limiting toxicities: hyperglycaemia, severe skin reactions including Stevens-Johnson syndrome, peripheral neuropathy, ocular toxicity and pneumonitis."
+            },
+            "D": {
+              "text": "Enfortumab-typical hyperglycaemia; withhold and treat",
+              "rationale": "Severe hyperglycaemia up to and including fatal diabetic ketoacidosis is a known adverse effect of enfortumab vedotin. Pre-existing diabetes and raised HbA1c are risk factors; glucose is checked before every dose. The decompensation is treated in hospital; enfortumab vedotin is withheld and resumed only after glucose normalises. Permanent discontinuation is reserved for recurrent or life-threatening episodes."
+            }
+          },
+          "explanation": {
+            "core": "The toxicity of the perioperative regimen is substantial: in EV-303 grade 3 or higher adverse events occurred in 71.3 per cent versus 45.9 per cent with surgery alone, and treatment-related deaths in 7.8 versus 5.7 per cent. Anyone using the combination must monitor glucose, skin, neurology and eyes systematically.",
+            "teaching_point": "Measure blood glucose before every enfortumab dose. The drug causes hyperglycaemia even in patients without known diabetes."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-mib-00004",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "perioperative Systemtherapie",
+        "tags": [
+          "zulassung",
+          "leitlinie",
+          "pharmakologie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IA",
+        "certainty": "kontrovers",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "studie",
+          "citation": "EV-304 / KEYNOTE-B15, ASCO GU 2026",
+          "doi": null
+        },
+        {
+          "type": "zulassung",
+          "citation": "FDA-Erweiterung Juli 2026; EU-Zulassung Juni 2026 nur cisplatinungeeignet",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-05",
+        "last_reviewed": "2026-09-05",
+        "expires": "2027-03-05"
+      },
+      "content": {
+        "de": {
+          "vignette": "62-jähriger Patient, cT2 cN0 cM0, GFR 95 ml/min, ECOG 0, kein Galsky-Kriterium erfüllt, also uneingeschränkt cisplatinfähig. Er hat von der Kombination Enfortumab Vedotin plus Pembrolizumab gelesen und fragt, ob er sie statt einer Chemotherapie bekommen kann.",
+          "lead_in": "Wie ist die Lage in Deutschland im September 2026 einzuordnen?",
+          "options": {
+            "A": {
+              "text": "Cisplatinfähige weiterhin nur Gemcitabin/Cisplatin",
+              "rationale": "NIAGARA hat für diese Gruppe die perioperative Ergänzung um Durvalumab etabliert; die alleinige Chemotherapie ist nicht mehr Standard."
+            },
+            "B": {
+              "text": "In der EU für alle Zystektomiekandidaten zugelassen",
+              "rationale": "Das gilt für die FDA-Zulassung vom Juli 2026. Die EU-Zulassung vom Juni 2026 beschränkt sich auf cisplatinungeeignete Patienten."
+            },
+            "C": {
+              "text": "Studie positiv, EU-Zulassung aber nur cisplatinungeeignet",
+              "rationale": "EV-304 (KEYNOTE-B15) erreichte ein ereignisfreies Überleben mit Hazard Ratio 0,53 und eine pathologische Komplettremission von 55,8 gegenüber 32,5 Prozent. Die FDA erweiterte die Zulassung im Juli 2026 auf alle Zystektomiekandidaten, die EU-Zulassung ist auf cisplatinungeeignete Patienten beschränkt. EV-304 erreichte ein ereignisfreies Überleben mit Hazard Ratio 0,53 und eine pathologische Komplettremission von 55,8 gegenüber 32,5 Prozent. Die FDA erweiterte im Juli 2026 auf alle Zystektomiekandidaten; zugelassener Standard bleibt hier das perioperative Durvalumab-Regime."
+            },
+            "D": {
+              "text": "EV-304 verfehlte den primären Endpunkt der Studie",
+              "rationale": "Die Studie war positiv in ereignisfreiem Überleben, Gesamtüberleben und pathologischer Komplettremission."
+            }
+          },
+          "explanation": {
+            "core": "Bei neu zugelassenen Substanzen fallen Studienevidenz und Zulassungsstatus zeitlich und geographisch auseinander. Für die Prüfung wie für den Alltag gilt: Die Studie begründet den Nutzen, die Zulassung begründet den regulären Einsatz. Ein Einsatz außerhalb der Zulassung braucht einen Antrag auf Kostenübernahme.",
+            "teaching_point": "FDA-Zulassung ist kein Beleg für Verordnungsfähigkeit in Deutschland."
+          },
+          "flag_note": "Zulassungsstand September 2026. FDA und EMA weichen voneinander ab; eine EU-Erweiterung auf cisplatinfähige Patienten ist absehbar. Vor Verwendung den aktuellen Stand prüfen."
+        },
+        "en": {
+          "vignette": "62-year-old man, cT2 cN0 cM0, GFR 95 ml/min, ECOG 0, no Galsky criterion met, therefore fully cisplatin-eligible. He has read about enfortumab vedotin plus pembrolizumab and asks whether he can have it instead of chemotherapy.",
+          "lead_in": "How should the situation in Germany in September 2026 be assessed?",
+          "options": {
+            "A": {
+              "text": "Cisplatin-eligible patients still only gemcitabine/cisplatin",
+              "rationale": "NIAGARA established the perioperative addition of durvalumab for this group; chemotherapy alone is no longer standard."
+            },
+            "B": {
+              "text": "Approved in the EU for all cystectomy candidates",
+              "rationale": "That describes the FDA approval of July 2026. The EU approval of June 2026 is limited to cisplatin-ineligible patients."
+            },
+            "C": {
+              "text": "Trial positive, but EU approval only cisplatin-ineligible",
+              "rationale": "EV-304 (KEYNOTE-B15) reached event-free survival with a hazard ratio of 0.53 and pathological complete response of 55.8 versus 32.5 per cent. The FDA broadened its approval in July 2026 to all cystectomy candidates; the EU approval is restricted to cisplatin-ineligible patients. EV-304 reached event-free survival with a hazard ratio of 0.53 and pathological complete response of 55.8 versus 32.5 per cent. The FDA broadened its label in July 2026 to all cystectomy candidates; the approved standard here remains the perioperative durvalumab regimen."
+            },
+            "D": {
+              "text": "EV-304 missed the primary endpoint of the trial",
+              "rationale": "The trial was positive for event-free survival, overall survival and pathological complete response."
+            }
+          },
+          "explanation": {
+            "core": "With newly approved agents, trial evidence and regulatory status diverge in time and geography. For the exam as in practice: the trial establishes benefit, the marketing authorisation establishes routine use. Use outside the label requires an application for reimbursement.",
+            "teaching_point": "FDA approval is no evidence of prescribability in Germany."
+          },
+          "flag_note": "Regulatory status as of September 2026. FDA and EMA differ; an EU extension to cisplatin-eligible patients is foreseeable. Check the current status before use."
+        }
+      }
+    }
+  ]
+}

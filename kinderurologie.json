@@ -1,0 +1,1094 @@
+{
+  "gebiet": "kinderurologie",
+  "fragen": [
+    {
+      "id": "uro-kin-00001",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "akutes Skrotum",
+        "tags": [
+          "notfall",
+          "leitlinie",
+          "bildgebung"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Paediatric Urology",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "13-jähriger Junge, seit vier Stunden plötzlich einsetzende starke Schmerzen im rechten Hemiskrotum mit Übelkeit. Der Hoden steht hoch und quer, der Kremasterreflex ist rechts erloschen. Die Dopplersonographie ist erst in zwei Stunden verfügbar.",
+          "lead_in": "Was ist zu tun?",
+          "options": {
+            "A": {
+              "text": "Auf die Dopplersonographie warten und dann entscheiden",
+              "rationale": "Eine erhaltene Perfusion im Ultraschall schließt eine Torsion nicht aus, und jede Stunde Verzögerung kostet Hodengewebe."
+            },
+            "B": {
+              "text": "Antibiotisch behandeln als vermutete Epididymitis",
+              "rationale": "Plötzlicher Beginn, Hochstand, Querlage und fehlender Kremasterreflex sprechen gegen eine Entzündung."
+            },
+            "C": {
+              "text": "Sofortige operative Freilegung ohne weitere Bildgebung",
+              "rationale": "Anamnese und Befund sind aussagekräftig genug. Innerhalb von sechs Stunden ist die Rettungsrate hoch, danach fällt sie rasch ab. Bei der Freilegung wird die Gegenseite immer mitfixiert, weil die anatomische Disposition beidseits besteht."
+            },
+            "D": {
+              "text": "Manuelle Detorquierung als endgültige Behandlung",
+              "rationale": "Sie kann überbrückend versucht werden, ersetzt aber nie die Freilegung mit Fixierung beider Hoden."
+            }
+          },
+          "explanation": {
+            "core": "Beim akuten Skrotum des Jugendlichen gilt die Torsion bis zum Beweis des Gegenteils. Die Bildgebung darf die Operation nicht verzögern, weil sie falsch negativ sein kann. Bei der Freilegung wird die Gegenseite immer mitfixiert, da die anatomische Disposition beidseits besteht.",
+            "teaching_point": "Die Uhr entscheidet, nicht der Ultraschall."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "13-year-old boy with four hours of sudden severe right hemiscrotal pain and nausea. The testis is high-riding and lies transversely, the cremasteric reflex is absent on the right. Doppler ultrasound will not be available for two hours.",
+          "lead_in": "What should be done?",
+          "options": {
+            "A": {
+              "text": "Wait for the Doppler scan and then decide",
+              "rationale": "Preserved perfusion on ultrasound does not exclude torsion, and every hour of delay costs testicular tissue."
+            },
+            "B": {
+              "text": "Treat with antibiotics as presumed epididymitis",
+              "rationale": "Sudden onset, high-riding transverse position and absent cremasteric reflex argue against inflammation."
+            },
+            "C": {
+              "text": "Immediate scrotal exploration without further imaging",
+              "rationale": "History and examination are conclusive enough. Salvage rates are high within six hours and fall rapidly thereafter. At exploration the contralateral side is always fixed as well, because the anatomical predisposition is bilateral."
+            },
+            "D": {
+              "text": "Manual detorsion as the definitive treatment",
+              "rationale": "It may be attempted as a bridge but never replaces exploration with fixation of both testes."
+            }
+          },
+          "explanation": {
+            "core": "In the acute scrotum of an adolescent, torsion is assumed until proven otherwise. Imaging must not delay surgery because it can be falsely negative. At exploration the contralateral side is always fixed as well, since the anatomical predisposition is bilateral.",
+            "teaching_point": "The clock decides, not the ultrasound."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-kin-00002",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Hodenhochstand",
+        "tags": [
+          "leitlinie",
+          "operationstechnik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Paediatric Urology",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Termingeborener Junge, bei der Vorsorgeuntersuchung mit neun Monaten ist der linke Hoden inguinal tastbar und nicht ins Skrotum verlagerbar. Rechts regelrechter Befund, seit der Geburt kein Deszensus.",
+          "lead_in": "Wie ist das weitere Vorgehen?",
+          "options": {
+            "A": {
+              "text": "Abwarten bis zum dritten Lebensjahr wegen Spontandeszensus",
+              "rationale": "Nach dem sechsten Lebensmonat ist ein Spontandeszensus die Ausnahme; Abwarten verschlechtert Fertilität und Tumorrisiko."
+            },
+            "B": {
+              "text": "Orchidopexie bis zum zwölften Lebensmonat abschließen",
+              "rationale": "Die frühe Verlagerung erhält die Keimzellreifung und verbessert die spätere Spermatogenese; zugleich wird der Hoden tastbar und damit kontrollierbar. Spätestens bis zum achtzehnten Monat, weil die Keimzellumwandlung im ersten Lebensjahr stattfindet und die Verlagerung Fertilität und Kontrollierbarkeit sichert."
+            },
+            "C": {
+              "text": "Hormontherapie mit hCG zur Deszensusinduktion zuerst",
+              "rationale": "Niedrige Erfolgsrate, oft kein dauerhafter Effekt und mögliche Keimzellschädigung. Zur Deszensusinduktion nicht mehr empfohlen."
+            },
+            "D": {
+              "text": "Orchiektomie wegen des erhöhten Tumorrisikos später",
+              "rationale": "Das Risiko rechtfertigt keine Entfernung eines funktionsfähigen Hodens; die Verlagerung macht ihn im Gegenteil überwachbar."
+            }
+          },
+          "explanation": {
+            "core": "Der Zeitpunkt ist beim Hodenhochstand das eigentliche Qualitätsmerkmal. Die Keimzellumwandlung findet im ersten Lebensjahr statt, weshalb die Verlagerung bis zu dessen Ende abgeschlossen sein soll. Das Tumorrisiko bleibt auch nach Orchidopexie erhöht, der Hoden wird aber der Untersuchung zugänglich.",
+            "teaching_point": "Bis zum ersten Geburtstag operiert, nicht bis zur Einschulung beobachtet."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Term-born boy; at the nine-month check the left testis is palpable in the groin and cannot be brought into the scrotum. The right side is normal and there has been no descent since birth.",
+          "lead_in": "How should management proceed?",
+          "options": {
+            "A": {
+              "text": "Wait until the third year, since descent may still occur",
+              "rationale": "After six months spontaneous descent is exceptional; waiting worsens fertility and tumour risk."
+            },
+            "B": {
+              "text": "Complete orchidopexy by twelve months of age",
+              "rationale": "Early placement preserves germ cell maturation and improves later spermatogenesis, and it makes the testis palpable and monitorable. At the latest by eighteen months, because germ cell transformation occurs in the first year and placement preserves fertility and allows monitoring."
+            },
+            "C": {
+              "text": "Hormonal treatment with hCG to induce descent first",
+              "rationale": "Low success rate, often no lasting effect and possible germ cell damage. No longer recommended to induce descent."
+            },
+            "D": {
+              "text": "Orchiectomy because of the later increased tumour risk",
+              "rationale": "The risk does not justify removing a functioning testis; placement is what makes surveillance possible."
+            }
+          },
+          "explanation": {
+            "core": "Timing is the real quality marker in undescended testis. Germ cell transformation occurs during the first year of life, so placement should be completed by its end. Tumour risk remains raised after orchidopexy, but the testis becomes accessible to examination.",
+            "teaching_point": "Operated by the first birthday, not observed until school age."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-kin-00003",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "nicht tastbarer Hoden",
+        "tags": [
+          "bildgebung",
+          "operationstechnik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Paediatric Urology",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "14 Monate alter Junge, der rechte Hoden ist auch in Narkose nicht tastbar. Sonographisch kein Nachweis inguinal oder abdominell. Der linke Hoden liegt orthotop und ist normal groß.",
+          "lead_in": "Welcher Schritt folgt?",
+          "options": {
+            "A": {
+              "text": "Erneute Sonographie durch einen erfahrenen Untersucher",
+              "rationale": "Der Ultraschall hat für den intraabdominellen Hoden eine zu geringe Sensitivität; ein negativer Befund schließt nichts aus."
+            },
+            "B": {
+              "text": "MRT von Becken und Abdomen zur Lokalisation des Hodens",
+              "rationale": "Auch das MRT ist nicht sicher genug, erfordert in diesem Alter eine Narkose und ändert das Vorgehen nicht."
+            },
+            "C": {
+              "text": "hCG-Stimulationstest zum Nachweis von Hodengewebe",
+              "rationale": "Bei einseitig nicht tastbarem Hoden und regelrechter Gegenseite unnötig; die Frage ist die Lage, nicht die Existenz."
+            },
+            "D": {
+              "text": "Diagnostische Laparoskopie mit Konsequenz im Eingriff",
+              "rationale": "Sie ist Diagnostik und Therapie zugleich: Sie zeigt Hoden, blind endende Gefäße oder einen Nubbin und erlaubt die sofortige Konsequenz. Je nach Befund folgt die Verlagerung, gegebenenfalls zweizeitig nach Fowler-Stephens, oder die Entfernung eines Nubbins. Blind endende Gefäße beweisen die Aplasie."
+            }
+          },
+          "explanation": {
+            "core": "Beim nicht tastbaren Hoden ist keine Bildgebung zuverlässig genug, um eine Operation zu ersparen. Deshalb wird direkt laparoskopiert. Der Befund entscheidet dann: ein Hoden mit Gefäßen wird verlagert, gegebenenfalls zweizeitig nach Fowler-Stephens, blind endende Gefäße beweisen die Aplasie.",
+            "teaching_point": "Bildgebung sucht, die Laparoskopie findet und behandelt."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "14-month-old boy in whom the right testis is impalpable even under anaesthesia. Ultrasound shows nothing inguinal or abdominal. The left testis is orthotopic and of normal size.",
+          "lead_in": "What comes next?",
+          "options": {
+            "A": {
+              "text": "Repeat ultrasound by an experienced operator",
+              "rationale": "Ultrasound has too low a sensitivity for the intra-abdominal testis; a negative scan excludes nothing."
+            },
+            "B": {
+              "text": "MRI of pelvis and abdomen to localise the testis",
+              "rationale": "MRI is also not reliable enough, requires anaesthesia at this age and does not change management."
+            },
+            "C": {
+              "text": "hCG stimulation test to prove testicular tissue",
+              "rationale": "Unnecessary with a unilaterally impalpable testis and a normal contralateral side; the question is location, not existence."
+            },
+            "D": {
+              "text": "Diagnostic laparoscopy acting on the findings",
+              "rationale": "It is diagnosis and treatment at once: it shows a testis, blind-ending vessels or a nubbin and allows immediate action. Depending on the findings, placement follows, if necessary in two stages after Fowler-Stephens, or a nubbin is removed. Blind-ending vessels prove aplasia."
+            }
+          },
+          "explanation": {
+            "core": "For the impalpable testis no imaging is reliable enough to spare an operation, so laparoscopy is performed directly. The findings then decide: a testis with vessels is brought down, if necessary in two stages after Fowler-Stephens, while blind-ending vessels prove aplasia.",
+            "teaching_point": "Imaging searches; laparoscopy finds and treats."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-kin-00004",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Harnwegsinfekt",
+        "tags": [
+          "bildgebung",
+          "leitlinie",
+          "paediatrisch"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Paediatric Urology",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Vier Monate alter Säugling mit erstem fieberhaftem Harnwegsinfekt, Escherichia coli im Katheterurin, gutes Ansprechen auf die Antibiose innerhalb von 48 Stunden. Pränatal war der Harntrakt unauffällig.",
+          "lead_in": "Welche Bildgebung ist nach der Akutbehandlung angezeigt?",
+          "options": {
+            "A": {
+              "text": "Sonographie bei allen, Miktionszysturethrogramm gezielt",
+              "rationale": "Die Sonographie ist belastungsfrei und erkennt relevante Obstruktionen und Erweiterungen. Das invasive, strahlenbelastende Miktionszysturethrogramm wird gezielt eingesetzt. Das Miktionszysturethrogramm folgt nur bei auffälliger Sonographie, atypischem Verlauf oder erneutem fieberhaftem Infekt."
+            },
+            "B": {
+              "text": "Miktionszysturethrogramm nach jedem ersten Infekt",
+              "rationale": "Führt zur Überdiagnostik von Refluxen ohne Therapiekonsequenz und belastet Kinder unnötig mit Katheter und Strahlung."
+            },
+            "C": {
+              "text": "Zunächst keine Bildgebung, erst beim dritten Infekt",
+              "rationale": "Relevante Fehlbildungen blieben zu lange unentdeckt; die Sonographie ist risikofrei und gehört dazu."
+            },
+            "D": {
+              "text": "DMSA-Szintigraphie akut zur Suche nach Reflux",
+              "rationale": "Die DMSA-Szintigraphie zeigt Parenchymbeteiligung und Narben, nicht den Reflux, und wird nicht akut durchgeführt."
+            }
+          },
+          "explanation": {
+            "core": "Die Bildgebung nach fieberhaftem Harnwegsinfekt folgt einer Stufenlogik: zuerst die belastungsfreie Sonographie, danach gezielt weitere Verfahren, wenn Befund oder Verlauf es begründen. Ziel ist, behandelbare Fehlbildungen zu finden, ohne jedes Kind invasiv zu untersuchen.",
+            "teaching_point": "Erst Schall, dann nachdenken. Das Miktionszysturethrogramm braucht einen Grund."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Four-month-old infant with a first febrile urinary tract infection, Escherichia coli on catheter specimen, good response to antibiotics within 48 hours. The urinary tract was normal antenatally.",
+          "lead_in": "Which imaging is indicated after acute treatment?",
+          "options": {
+            "A": {
+              "text": "Ultrasound in all, voiding study only selectively",
+              "rationale": "Ultrasound is burden-free and detects relevant obstruction and dilatation. The invasive, radiation-bearing voiding study is used selectively. The voiding cystourethrogram follows only for abnormal ultrasound, an atypical course or a further febrile infection."
+            },
+            "B": {
+              "text": "Voiding cystourethrogram after every first infection",
+              "rationale": "This overdiagnoses reflux without treatment consequences and burdens children unnecessarily with catheterisation and radiation."
+            },
+            "C": {
+              "text": "No imaging at first, only after a third infection",
+              "rationale": "Relevant malformations would remain undetected too long; ultrasound is risk-free and belongs in the workup."
+            },
+            "D": {
+              "text": "DMSA scintigraphy acutely to look for reflux",
+              "rationale": "DMSA shows parenchymal involvement and scarring, not reflux, and is not performed acutely."
+            }
+          },
+          "explanation": {
+            "core": "Imaging after febrile urinary tract infection follows a stepwise logic: burden-free ultrasound first, then further studies only when findings or course justify them. The aim is to find treatable malformations without investigating every child invasively.",
+            "teaching_point": "Ultrasound first, then think. Voiding cystourethrography needs a reason."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-kin-00005",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Ureterabgangsstenose",
+        "tags": [
+          "bildgebung",
+          "leitlinie",
+          "operationstechnik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Paediatric Urology",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Sechs Monate alter Säugling mit pränatal bekannter linksseitiger Nierenbeckenerweiterung. Postnatal beträgt der anteroposteriore Durchmesser 22 mm bei erweiterten Kelchen, der Ureter ist nicht dilatiert. Das Miktionszysturethrogramm zeigt keinen Reflux, das Kind ist beschwerdefrei.",
+          "lead_in": "Welche Untersuchung steuert die Entscheidung über eine Operation?",
+          "options": {
+            "A": {
+              "text": "Wiederholte Sonographie alle drei Monate als Grundlage",
+              "rationale": "Der Durchmesser allein sagt nichts über Funktion und Abfluss; viele Erweiterungen bilden sich zurück, andere schädigen still."
+            },
+            "B": {
+              "text": "Diureseszintigraphie mit MAG3 als Entscheidungsgrundlage",
+              "rationale": "Sie liefert die beiden entscheidenden Größen: Anteil der betroffenen Niere an der Gesamtfunktion und Ausscheidung nach Furosemidgabe. Sie liefert die seitengetrennte Funktion und die Abflusskurve nach Furosemidgabe, also die beiden Größen, die über die Operation entscheiden."
+            },
+            "C": {
+              "text": "Retrogrades Ureteropyelogramm in Narkose durchführen",
+              "rationale": "Invasiv, rein morphologisch und ohne Funktionsaussage; allenfalls unmittelbar vor der Rekonstruktion sinnvoll."
+            },
+            "D": {
+              "text": "Computertomographie mit Kontrastmittel veranlassen",
+              "rationale": "Strahlenbelastung ohne funktionelle Information; im Säuglingsalter zu vermeiden."
+            }
+          },
+          "explanation": {
+            "core": "Eine Erweiterung des Nierenbeckens ist ein Befund, keine Diagnose. Operiert wird bei fallender seitengetrennter Funktion, einem Anteil unter etwa 40 Prozent, verzögertem Abfluss oder bei Symptomen und Infekten. Die Pyeloplastik nach Anderson-Hynes ist dann das Verfahren der Wahl.",
+            "teaching_point": "Millimeter entscheiden nicht über die Operation, Funktion und Abfluss tun es."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Six-month-old infant with antenatally known left pelvic dilatation. Postnatally the anteroposterior diameter is 22 mm with dilated calyces; the ureter is not dilated. Voiding cystourethrography shows no reflux and the child is asymptomatic.",
+          "lead_in": "Which investigation drives the decision about surgery?",
+          "options": {
+            "A": {
+              "text": "Repeat ultrasound every three months as the basis",
+              "rationale": "Diameter alone says nothing about function and drainage; many dilatations resolve while others damage silently."
+            },
+            "B": {
+              "text": "Diuretic renography with MAG3 as the decision basis",
+              "rationale": "It provides the two decisive measures: the affected kidney's share of total function and washout after furosemide. It provides split function and the washout curve after furosemide, the two measures that determine whether to operate."
+            },
+            "C": {
+              "text": "Perform retrograde ureteropyelography under anaesthesia",
+              "rationale": "Invasive, purely morphological and without functional information; useful at most immediately before reconstruction."
+            },
+            "D": {
+              "text": "Arrange computed tomography with contrast medium",
+              "rationale": "Radiation exposure without functional information; to be avoided in infancy."
+            }
+          },
+          "explanation": {
+            "core": "Pelvic dilatation is a finding, not a diagnosis. Surgery follows a falling split function, a share below roughly 40 per cent, delayed drainage, or symptoms and infections. Anderson-Hynes pyeloplasty is then the procedure of choice.",
+            "teaching_point": "Millimetres do not decide on surgery; function and drainage do."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-kin-00006",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Phimose",
+        "tags": [
+          "leitlinie",
+          "pharmakologie",
+          "operationstechnik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Paediatric Urology",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Fünfjähriger Junge, die Vorhaut lässt sich nicht zurückstreifen. Beim Wasserlassen bläht sie sich leicht auf, es besteht kein Infekt, keine Vernarbung und kein derber weißlicher Ring. Die Eltern sind besorgt.",
+          "lead_in": "Was ist die richtige erste Maßnahme?",
+          "options": {
+            "A": {
+              "text": "Zirkumzision als definitive Behandlung durchführen",
+              "rationale": "Ohne Vernarbung, Infekt oder Beschwerden besteht keine Operationsindikation; ein Großteil löst sich bis zur Pubertät von selbst."
+            },
+            "B": {
+              "text": "Forcierte Retraktion durch die Eltern beim Baden",
+              "rationale": "Führt zu Einrissen und Vernarbung und erzeugt damit erst die echte, behandlungsbedürftige Phimose."
+            },
+            "C": {
+              "text": "Dorsalinzision der Vorhaut in Kurznarkose",
+              "rationale": "Ein Notfallverfahren bei Paraphimose oder Harnverhalt, keine Behandlung der einfachen Phimose."
+            },
+            "D": {
+              "text": "Topisches Kortikosteroid über vier bis acht Wochen",
+              "rationale": "Führt in einem großen Teil der Fälle zur Retraktionsfähigkeit und erhält die Vorhaut. Erst bei Versagen wird operiert. Begleitet von vorsichtigen Dehnübungen führt es in einem großen Teil der Fälle zur Retraktionsfähigkeit und erhält die Vorhaut. Erst bei Versagen wird operiert."
+            }
+          },
+          "explanation": {
+            "core": "Die nicht retrahierbare Vorhaut im Kindesalter ist überwiegend physiologisch. Behandlungsbedürftig wird sie bei narbiger Enge, rezidivierenden Entzündungen, symptomatischer Ballonierung oder Lichen sclerosus. Letzterer ist die klare Indikation zur Zirkumzision, weil er auf Steroide nicht ausreichend anspricht.",
+            "teaching_point": "Erst Salbe, dann Skalpell. Ausnahme ist der Lichen sclerosus."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Five-year-old boy whose foreskin cannot be retracted. It balloons slightly on voiding; there is no infection, no scarring and no firm whitish ring. The parents are worried.",
+          "lead_in": "What is the correct first measure?",
+          "options": {
+            "A": {
+              "text": "Perform circumcision as definitive treatment",
+              "rationale": "Without scarring, infection or symptoms there is no surgical indication; most cases resolve spontaneously by puberty."
+            },
+            "B": {
+              "text": "Forced retraction by the parents at bath time",
+              "rationale": "This causes tears and scarring and thereby creates the genuine phimosis that then needs treatment."
+            },
+            "C": {
+              "text": "Dorsal slit of the foreskin under brief anaesthesia",
+              "rationale": "An emergency procedure for paraphimosis or retention, not a treatment for simple phimosis."
+            },
+            "D": {
+              "text": "Topical corticosteroid for four to eight weeks",
+              "rationale": "This achieves retractability in a large proportion of cases and preserves the foreskin. Surgery follows only if it fails. Combined with gentle stretching it achieves retractability in a large proportion of cases and preserves the foreskin. Surgery follows only if it fails."
+            }
+          },
+          "explanation": {
+            "core": "A non-retractile foreskin in childhood is mostly physiological. It requires treatment when there is cicatricial narrowing, recurrent inflammation, symptomatic ballooning or lichen sclerosus. The last is the clear indication for circumcision, because it does not respond adequately to steroids.",
+            "teaching_point": "Ointment before scalpel. Lichen sclerosus is the exception."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-kin-00007",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Hypospadie",
+        "tags": [
+          "operationstechnik",
+          "leitlinie",
+          "praeoperativ"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Paediatric Urology",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Neugeborener Junge mit distaler Hypospadie, dorsaler Präputialschürze und leichter Penisdeviation. Beide Hoden sind orthotop tastbar. Die Eltern fragen auf der Wochenbettstation nach einer Zirkumzision aus religiösen Gründen.",
+          "lead_in": "Was ist dazu zu sagen?",
+          "options": {
+            "A": {
+              "text": "Zirkumzision möglich, da unabhängig von der Hypospadie",
+              "rationale": "Das Gegenteil trifft zu: Das Präputium ist bei der Korrektur das wichtigste Ersatzgewebe für Neourethra oder Deckung."
+            },
+            "B": {
+              "text": "Chromosomenanalyse vor jeder weiteren Entscheidung",
+              "rationale": "Bei distaler Hypospadie mit beidseits tastbaren Hoden besteht kein Anhalt für eine Variante der Geschlechtsentwicklung; die Abklärung gilt der proximalen Form mit nicht tastbaren Gonaden."
+            },
+            "C": {
+              "text": "Präputium erhalten, da es zur Korrektur gebraucht wird",
+              "rationale": "Die Vorhaut ist Baumaterial. Der Eingriff wird in ein Alter gelegt, in dem die Narkose sicher ist und das Ereignis nicht bewusst erinnert wird. Operiert wird üblicherweise zwischen dem sechsten und achtzehnten Lebensmonat, wenn die Narkose sicher ist und das Ereignis nicht bewusst erinnert wird."
+            },
+            "D": {
+              "text": "Korrektur bis zur Pubertät aufschieben wegen der Größe",
+              "rationale": "Später operierte Kinder tragen eine höhere psychische Belastung; die Größe ist im empfohlenen Zeitfenster ausreichend."
+            }
+          },
+          "explanation": {
+            "core": "Bei jeder Hypospadie gilt die Vorhaut als reserviertes Gewebe, bis die Korrektur geplant ist. Der Befund lenkt zugleich die Diagnostik: die distale Form mit tastbaren Hoden ist ein rein chirurgisches Thema, die proximale Form mit nicht tastbaren Gonaden verlangt die Abklärung einer Variante der Geschlechtsentwicklung.",
+            "teaching_point": "Bei Hypospadie wird nicht zirkumzidiert. Die Vorhaut gehört zur Operation."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Newborn boy with distal hypospadias, a dorsal preputial hood and mild penile curvature. Both testes are palpable in the scrotum. On the postnatal ward the parents ask about circumcision for religious reasons.",
+          "lead_in": "What should they be told?",
+          "options": {
+            "A": {
+              "text": "Circumcision is fine, being unrelated to hypospadias",
+              "rationale": "The opposite is true: the prepuce is the most important substitute tissue for the neourethra or for coverage at repair."
+            },
+            "B": {
+              "text": "Chromosomal analysis before any further decision",
+              "rationale": "Distal hypospadias with both testes palpable gives no indication of a difference of sex development; that workup applies to the proximal form with impalpable gonads."
+            },
+            "C": {
+              "text": "Preserve the prepuce, as it is needed for the repair",
+              "rationale": "The foreskin is building material. Surgery is timed to an age when anaesthesia is safe and the event is not consciously remembered. Surgery is usually performed between six and eighteen months, when anaesthesia is safe and the event is not consciously remembered."
+            },
+            "D": {
+              "text": "Defer repair until puberty because of penile size",
+              "rationale": "Children operated later carry a greater psychological burden; size is adequate within the recommended window."
+            }
+          },
+          "explanation": {
+            "core": "In any hypospadias the foreskin is reserved tissue until repair is planned. The findings also direct the workup: the distal form with palpable testes is a purely surgical matter, whereas the proximal form with impalpable gonads calls for assessment of a difference of sex development.",
+            "teaching_point": "No circumcision in hypospadias. The foreskin belongs to the operation."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-kin-00008",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Harnröhrenklappen",
+        "tags": [
+          "notfall",
+          "bildgebung",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Paediatric Urology",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Drei Tage alter Junge mit beidseitiger Hydronephrose, verdickter Blasenwand und schwachem, tröpfelndem Harnstrahl. Kreatinin 1,8 mg/dl und steigend; pränatal bestand ein Oligohydramnion.",
+          "lead_in": "Wie ist vorzugehen?",
+          "options": {
+            "A": {
+              "text": "Sofortige Blasenentlastung, dann Diagnostik und Resektion",
+              "rationale": "Erst wird der Druck genommen und das Kind stabilisiert, dann gesichert und behandelt. Das Kreatinin nach Entlastung ist der prognostisch aussagekräftige Wert. Entlastet wird transurethral, danach werden Elektrolyte und Nierenfunktion stabilisiert. Erst dann folgen Miktionszysturethrogramm und Klappenresektion."
+            },
+            "B": {
+              "text": "Umgehende Zystoskopie mit Resektion vor der Entlastung",
+              "rationale": "Ein Eingriff am instabilen Neugeborenen ohne Not; der Katheter erreicht dieselbe Entlastung sofort und schonender."
+            },
+            "C": {
+              "text": "Perkutane Nephrostomie beidseits als erster Schritt",
+              "rationale": "Bei infravesikaler Obstruktion löst die Blasendrainage das Problem an der richtigen Stelle; die Nephrostomie bleibt Sonderfällen vorbehalten."
+            },
+            "D": {
+              "text": "Abwarten mit Kontrolle des Kreatinins in 48 Stunden",
+              "rationale": "Bei steigendem Kreatinin und beidseitiger Stauung ist Zuwarten nicht vertretbar."
+            }
+          },
+          "explanation": {
+            "core": "Die hinteren Harnröhrenklappen sind die häufigste angeborene infravesikale Obstruktion beim Jungen. Die Reihenfolge entscheidet: entlasten, stabilisieren, sichern, resezieren. Die Langzeitprognose bestimmt nicht die Klappe, sondern die bereits pränatal entstandene Nierenschädigung und die spätere Blasenfunktionsstörung.",
+            "teaching_point": "Zuerst der Katheter, dann die Diagnostik. Das Nadir-Kreatinin nach Entlastung ist der Prognoseparameter."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Three-day-old boy with bilateral hydronephrosis, a thick-walled bladder and a weak, dribbling stream. Creatinine is 1.8 mg/dl and rising; there was oligohydramnios antenatally.",
+          "lead_in": "How should management proceed?",
+          "options": {
+            "A": {
+              "text": "Immediate bladder drainage, then imaging and resection",
+              "rationale": "Pressure is relieved and the child stabilised first, then the diagnosis is confirmed and treated. Creatinine after drainage is the prognostically meaningful value. Drainage is transurethral, after which electrolytes and renal function are stabilised. Only then follow the voiding study and valve resection."
+            },
+            "B": {
+              "text": "Immediate cystoscopy with resection before any drainage",
+              "rationale": "This operates on an unstable neonate without need; a catheter achieves the same relief at once and more gently."
+            },
+            "C": {
+              "text": "Bilateral percutaneous nephrostomy as the first step",
+              "rationale": "In infravesical obstruction bladder drainage addresses the problem at the right level; nephrostomy is reserved for special cases."
+            },
+            "D": {
+              "text": "Wait and recheck creatinine in 48 hours",
+              "rationale": "With rising creatinine and bilateral obstruction, waiting is not defensible."
+            }
+          },
+          "explanation": {
+            "core": "Posterior urethral valves are the commonest congenital infravesical obstruction in boys. The sequence matters: drain, stabilise, confirm, resect. Long-term prognosis is set not by the valve but by the renal damage already sustained antenatally and by later bladder dysfunction.",
+            "teaching_point": "Catheter first, imaging second. The nadir creatinine after drainage is the prognostic parameter."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-kin-00009",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Enuresis",
+        "tags": [
+          "leitlinie",
+          "pharmakologie",
+          "dosierung"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "ICCS",
+          "title": "International Children's Continence Society, Standardisierung und Behandlung der Enuresis",
+          "year": 2025
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Siebenjähriges Mädchen, seit jeher nächtliches Einnässen in vier bis fünf Nächten pro Woche. Tagsüber keine Drangsymptome und kein Einnässen, normaler Stuhlgang, Sonographie und Restharn unauffällig, Urin steril.",
+          "lead_in": "Welches Vorgehen ist angezeigt?",
+          "options": {
+            "A": {
+              "text": "Urodynamische Untersuchung zur Klärung der Blasenfunktion",
+              "rationale": "Bei monosymptomatischer Enuresis ohne Tagessymptomatik nicht indiziert; sie belastet ohne therapeutische Konsequenz."
+            },
+            "B": {
+              "text": "Anticholinerge Therapie als erster Behandlungsschritt",
+              "rationale": "Sie zielt auf Drangsymptome der nicht monosymptomatischen Form; hier fehlt der Ansatzpunkt."
+            },
+            "C": {
+              "text": "Nächtliches Wecken durch die Eltern als Standardtherapie",
+              "rationale": "Kurzfristig trockene Nächte, aber kein Lerneffekt und keine dauerhafte Wirkung."
+            },
+            "D": {
+              "text": "Aufklärung und Protokoll, danach Alarm oder Desmopressin",
+              "rationale": "Die Alarmtherapie wirkt nachhaltiger über den Lerneffekt, Desmopressin wirkt rascher und ist bei Übernachtungen praktisch. Beide sind Erstlinienoptionen. Desmopressin wird beispielsweise mit 120 bis 240 Mikrogramm als Schmelztablette zur Nacht gegeben. Die Alarmtherapie wirkt nachhaltiger über den Lerneffekt; beide sind Erstlinienoptionen."
+            }
+          },
+          "explanation": {
+            "core": "Zuerst wird zwischen monosymptomatischer und nicht monosymptomatischer Enuresis unterschieden, denn nur die zweite braucht eine Blasenabklärung. Bei der monosymptomatischen Form beginnt die Behandlung mit Aufklärung und Protokoll, dann folgt die Wahl zwischen Alarm und Desmopressin nach Alltag und Wunsch der Familie. Eine Obstipation ist vor jeder Therapie zu behandeln.",
+            "teaching_point": "Tagessymptome ändern die Diagnose und damit die gesamte Abklärung."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Seven-year-old girl with lifelong bedwetting on four to five nights per week. No daytime urgency or wetting, normal bowel habit, normal ultrasound and post-void residual, sterile urine.",
+          "lead_in": "Which approach is indicated?",
+          "options": {
+            "A": {
+              "text": "Urodynamic study to clarify bladder function",
+              "rationale": "Not indicated in monosymptomatic enuresis without daytime symptoms; it burdens the child without therapeutic consequence."
+            },
+            "B": {
+              "text": "Antimuscarinic therapy as the first treatment step",
+              "rationale": "This targets urgency in the non-monosymptomatic form; there is no rationale here."
+            },
+            "C": {
+              "text": "Night-time waking by the parents as standard therapy",
+              "rationale": "Dry nights in the short term, but no learning effect and no lasting benefit."
+            },
+            "D": {
+              "text": "Education and a diary, then alarm or desmopressin",
+              "rationale": "Alarm therapy works more durably through a learning effect; desmopressin acts faster and is practical for sleepovers. Both are first-line options. Desmopressin is given for example as 120 to 240 micrograms as an oral lyophilisate at night. Alarm therapy works more durably through a learning effect; both are first-line."
+            }
+          },
+          "explanation": {
+            "core": "The first step is distinguishing monosymptomatic from non-monosymptomatic enuresis, because only the latter needs a bladder workup. In the monosymptomatic form treatment starts with education and a diary, then the choice between alarm and desmopressin follows the family's routine and preference. Constipation must be treated before any therapy.",
+            "teaching_point": "Daytime symptoms change the diagnosis and with it the entire workup."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-kin-00010",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Nephroblastom",
+        "tags": [
+          "leitlinie",
+          "pathologie",
+          "bildgebung"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "SIOP",
+          "title": "SIOP-Protokoll für Nierentumoren im Kindesalter",
+          "year": 2025
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Dreijähriges Mädchen mit tastbarer, schmerzloser Raumforderung im linken Oberbauch. Sonographie und MRT zeigen einen großen, von der Niere ausgehenden soliden Tumor mit Pseudokapsel, keine Gefäßinfiltration, keine Lungenmetastasen. Alter und Bildgebung sind typisch für ein Nephroblastom.",
+          "lead_in": "Wie ist das Vorgehen nach europäischem Standard?",
+          "options": {
+            "A": {
+              "text": "Perkutane Stanzbiopsie, danach Therapieentscheidung",
+              "rationale": "Bei typischer Konstellation nicht erforderlich und mit dem Risiko der Tumorzellverschleppung und eines Stadien-Upstagings behaftet."
+            },
+            "B": {
+              "text": "Präoperative Chemotherapie ohne vorherige Biopsie",
+              "rationale": "Das europäische SIOP-Konzept verkleinert den Tumor, verringert die Rupturgefahr bei der Operation und senkt damit Stadium und Nachbehandlung. Das europäische SIOP-Konzept verkleinert den Tumor und verringert die Rupturgefahr bei der Operation, was Stadium und Nachbehandlung senkt."
+            },
+            "C": {
+              "text": "Primäre Tumornephrektomie ohne Systemtherapie",
+              "rationale": "Das ist das nordamerikanische Vorgehen. Beide Konzepte sind onkologisch gleichwertig, unterscheiden sich aber in der Reihenfolge; entscheidend ist, einem konsequent zu folgen."
+            },
+            "D": {
+              "text": "Primäre Bestrahlung der Nierenloge einleiten",
+              "rationale": "Die Strahlentherapie gehört zur risikoadaptierten Nachbehandlung, nicht zur Erstmaßnahme."
+            }
+          },
+          "explanation": {
+            "core": "Beim Nephroblastom unterscheiden sich Europa und Nordamerika systematisch: SIOP behandelt präoperativ und operiert danach, COG operiert zuerst und stadiert am unbehandelten Tumor. Im europäischen Konzept wird die Biopsie bei typischem Alter und typischer Bildgebung bewusst vermieden, bei atypischen Konstellationen dagegen erwogen.",
+            "teaching_point": "In Europa Chemotherapie vor dem Messer, und bei typischem Befund ohne Biopsie."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Three-year-old girl with a palpable, painless left upper abdominal mass. Ultrasound and MRI show a large solid tumour arising from the kidney with a pseudocapsule, no vascular invasion and no pulmonary metastases. Age and imaging are typical of nephroblastoma.",
+          "lead_in": "What is the European standard approach?",
+          "options": {
+            "A": {
+              "text": "Percutaneous core biopsy, then a treatment decision",
+              "rationale": "Not required in a typical constellation and carrying the risks of tumour seeding and stage upgrading."
+            },
+            "B": {
+              "text": "Preoperative chemotherapy without prior biopsy",
+              "rationale": "The European SIOP concept shrinks the tumour, reduces the risk of intraoperative rupture and thereby lowers stage and adjuvant treatment. The European SIOP concept shrinks the tumour and reduces the risk of intraoperative rupture, which lowers stage and adjuvant treatment."
+            },
+            "C": {
+              "text": "Primary tumour nephrectomy without systemic therapy",
+              "rationale": "This is the North American approach. Both concepts are oncologically equivalent but differ in sequence; what matters is following one consistently."
+            },
+            "D": {
+              "text": "Initiate primary radiotherapy to the renal bed",
+              "rationale": "Radiotherapy belongs to risk-adapted adjuvant treatment, not to initial management."
+            }
+          },
+          "explanation": {
+            "core": "In nephroblastoma Europe and North America differ systematically: SIOP treats preoperatively and operates afterwards, COG operates first and stages the untreated tumour. In the European concept biopsy is deliberately avoided when age and imaging are typical, but is considered in atypical constellations.",
+            "teaching_point": "In Europe, chemotherapy before the knife, and no biopsy when the picture is typical."
+          },
+          "flag_note": null
+        }
+      }
+    }
+  ]
+}

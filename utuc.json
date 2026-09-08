@@ -1,0 +1,1212 @@
+{
+  "gebiet": "utuc",
+  "fragen": [
+    {
+      "id": "uro-utu-00001",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "organerhaltendes Vorgehen",
+        "tags": [
+          "leitlinie",
+          "endourologisch",
+          "nachsorge"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-05",
+        "last_reviewed": "2026-09-05",
+        "expires": "2028-09-05"
+      },
+      "content": {
+        "de": {
+          "vignette": "68-jähriger Patient mit unifokalem Tumor von 1,2 cm im distalen Ureter. Ureterorenoskopische Biopsie: Urothelkarzinom, Low Grade. Zytologie unauffällig, im CT-Urogramm keine Hinweise auf Invasion oder Lymphknotenbefall. Kontralaterale Niere normal, GFR 68 ml/min.",
+          "lead_in": "Welches Vorgehen ist leitliniengerecht?",
+          "options": {
+            "A": {
+              "text": "Beobachtung ohne Intervention mit halbjährlicher Bildgebung",
+              "rationale": "Auch Low-Grade-Tumoren des oberen Harntrakts wachsen und können entdifferenzieren; unbehandeltes Zuwarten ist keine Option."
+            },
+            "B": {
+              "text": "Primäre systemische Chemotherapie vor jeder Lokaltherapie",
+              "rationale": "Beim nicht invasiven Low-Grade-Tumor besteht keine Indikation für eine Systemtherapie."
+            },
+            "C": {
+              "text": "Organerhalt mit ureterorenoskopischer Ablation",
+              "rationale": "Unifokal, unter 2 cm, Low Grade, keine Invasionszeichen und unauffällige Zytologie definieren die Niedrigrisikogruppe, in der der Organerhalt onkologisch vertretbar ist. Voraussetzung ist eine strukturierte endoskopische Nachsorge, weil das gesamte Urothel erhalten bleibt und gefährdet ist."
+            },
+            "D": {
+              "text": "Radikale Nephroureterektomie mit Blasenmanschette",
+              "rationale": "Das Verfahren der Wahl bei Hochrisikotumoren. Bei Niedrigrisikobefund bedeutet es den Verlust einer funktionsfähigen Niere ohne onkologischen Gewinn."
+            }
+          },
+          "explanation": {
+            "core": "Beim Urothelkarzinom des oberen Harntrakts wird die Risikogruppe aus Multifokalität, Größe, Grad, Zytologie und Invasionszeichen gebildet. Niedriges Risiko erlaubt den Organerhalt, verlangt aber eine engmaschige endoskopische Nachsorge und die Bereitschaft des Patienten dazu. Nach radikaler Nephroureterektomie ist zudem eine einmalige postoperative Blaseninstillation vorgesehen, um Blasenrezidive zu senken.",
+            "teaching_point": "Organerhalt beim UTUC ist an die Nachsorge gebunden. Wer sie nicht zusagen kann, ist kein Kandidat."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "68-year-old man with a unifocal 1.2 cm tumour in the distal ureter. Ureteroscopic biopsy: urothelial carcinoma, low grade. Cytology unremarkable, CT urography shows no signs of invasion or nodal involvement. Contralateral kidney normal, GFR 68 ml/min.",
+          "lead_in": "Which approach is guideline-concordant?",
+          "options": {
+            "A": {
+              "text": "Observation without intervention and six-monthly imaging",
+              "rationale": "Low-grade upper tract tumours also grow and can dedifferentiate; untreated waiting is not an option."
+            },
+            "B": {
+              "text": "Primary systemic chemotherapy before any local treatment",
+              "rationale": "There is no indication for systemic therapy in non-invasive low-grade disease."
+            },
+            "C": {
+              "text": "Kidney-sparing ureteroscopic ablation of the tumour",
+              "rationale": "Unifocal, under 2 cm, low grade, no signs of invasion and unremarkable cytology define the low-risk group in which organ preservation is oncologically defensible. Structured endoscopic follow-up is the prerequisite, because the entire urothelium remains in place and at risk."
+            },
+            "D": {
+              "text": "Radical nephroureterectomy with bladder cuff",
+              "rationale": "The procedure of choice in high-risk tumours. In low-risk disease it means losing a functioning kidney without oncological gain."
+            }
+          },
+          "explanation": {
+            "core": "In upper tract urothelial carcinoma the risk group is built from multifocality, size, grade, cytology and signs of invasion. Low risk permits organ preservation but requires close endoscopic follow-up and the patient's commitment to it. After radical nephroureterectomy a single postoperative intravesical instillation is also given to reduce bladder recurrences.",
+            "teaching_point": "Kidney-sparing management in UTUC is tied to follow-up. A patient who cannot commit to it is not a candidate."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-utu-00002",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Risikostratifizierung",
+        "tags": [
+          "leitlinie",
+          "pathologie",
+          "bildgebung"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "64-jährige Patientin mit zwei getrennten Tumoren im linken Nierenbecken von 1,1 und 2,6 cm. Die Zytologie aus dem oberen Harntrakt ist High Grade, im CT-Urogramm besteht eine Hydronephrose ohne eindeutige Invasion. Die Gegenniere ist normal.",
+          "lead_in": "Wie ist der Befund einzuordnen?",
+          "options": {
+            "A": {
+              "text": "Niedriges Risiko, da im CT keine Invasion nachweisbar ist",
+              "rationale": "Die fehlende Invasion im CT ist nur eines von mehreren Kriterien und wiegt die übrigen nicht auf."
+            },
+            "B": {
+              "text": "Hohes Risiko wegen mehrerer erfüllter Kriterien",
+              "rationale": "Jedes dieser Merkmale allein begründet bereits die Hochrisikogruppe; hier liegen vier davon vor. Multifokalität, ein Durchmesser über zwei Zentimeter, High-Grade-Zytologie und Hydronephrose treffen hier zusammen. Jedes dieser Merkmale allein begründet bereits die Hochrisikogruppe."
+            },
+            "C": {
+              "text": "Niedriges Risiko, weil die Gegenniere unauffällig ist",
+              "rationale": "Der Zustand der Gegenniere beeinflusst die Therapieentscheidung, nicht aber die Tumorrisikogruppe."
+            },
+            "D": {
+              "text": "Ohne ureterorenoskopische Biopsie nicht bestimmbar",
+              "rationale": "Die Biopsie verfeinert die Einschätzung, ist aber bei dieser Konstellation für die Zuordnung nicht erforderlich."
+            }
+          },
+          "explanation": {
+            "core": "Die Risikoeinteilung beim Urothelkarzinom des oberen Harntrakts stützt sich auf Multifokalität, Größe über zwei Zentimeter, High-Grade-Zytologie oder -Biopsie, Hydronephrose, Invasionszeichen im CT und eine vorangegangene radikale Zystektomie. Bereits ein Merkmal genügt für die Hochrisikogruppe, und diese steuert die Entscheidung zwischen Organerhalt und radikaler Nephroureterektomie.",
+            "teaching_point": "Ein einziges Hochrisikomerkmal genügt. Die Kriterien werden nicht gegeneinander aufgerechnet."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "64-year-old woman with two separate tumours in the left renal pelvis measuring 1.1 and 2.6 cm. Upper tract cytology is high grade, CT urography shows hydronephrosis without unequivocal invasion. The contralateral kidney is normal.",
+          "lead_in": "How should this be classified?",
+          "options": {
+            "A": {
+              "text": "Low risk, since CT shows no evidence of invasion",
+              "rationale": "Absence of invasion on CT is only one of several criteria and does not outweigh the others."
+            },
+            "B": {
+              "text": "High risk because several criteria are met",
+              "rationale": "Each of these features alone already defines high risk; four are present here. Multifocality, diameter above two centimetres, high-grade cytology and hydronephrosis coincide here. Each feature alone already defines high risk."
+            },
+            "C": {
+              "text": "Low risk, because the contralateral kidney is normal",
+              "rationale": "The state of the other kidney influences the treatment decision but not the tumour risk group."
+            },
+            "D": {
+              "text": "Not classifiable without ureteroscopic biopsy",
+              "rationale": "Biopsy refines the assessment but is not required for classification in this constellation."
+            }
+          },
+          "explanation": {
+            "core": "Risk classification in upper tract urothelial carcinoma rests on multifocality, size above two centimetres, high-grade cytology or biopsy, hydronephrosis, signs of invasion on CT, and previous radical cystectomy. A single feature suffices for high risk, and this group drives the choice between organ preservation and radical nephroureterectomy.",
+            "teaching_point": "One high-risk feature is enough. The criteria are not weighed against each other."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-utu-00003",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Diagnostik",
+        "tags": [
+          "bildgebung",
+          "labordiagnostik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "57-jähriger Raucher mit schmerzloser Makrohämaturie. Die Zystoskopie ist unauffällig, die Sonographie zeigt rechts eine diskrete Kelcherweiterung. Die Blasenzytologie ist positiv.",
+          "lead_in": "Welche Diagnostik führt weiter?",
+          "options": {
+            "A": {
+              "text": "Wiederholung der Zystoskopie in drei Monaten",
+              "rationale": "Eine positive Zytologie bei unauffälliger Blase verlangt die aktive Suche im oberen Harntrakt, nicht Zuwarten."
+            },
+            "B": {
+              "text": "Sonographie der Nieren als alleinige Kontrolle",
+              "rationale": "Die Sonographie erkennt flache und kleine Tumoren des oberen Harntrakts nicht zuverlässig."
+            },
+            "C": {
+              "text": "CT-Urographie mit selektiver Zytologie von oben",
+              "rationale": "Die CT-Urographie hat die höchste diagnostische Genauigkeit. Die selektive Zytologie lokalisiert die Quelle, und die Ureterorenoskopie klärt und stratifiziert, wenn beides nicht ausreicht. Die CT-Urographie ist die Standarduntersuchung. Die selektive Zytologie lokalisiert die Quelle; bei fortbestehender Unklarheit folgt die diagnostische Ureterorenoskopie mit Biopsie."
+            },
+            "D": {
+              "text": "PET/CT zur Suche des unbekannten Primärtumors",
+              "rationale": "Für die Primärdiagnostik des oberen Harntrakts nicht etabliert und der CT-Urographie unterlegen."
+            }
+          },
+          "explanation": {
+            "core": "Positive Zytologie bei unauffälliger Blase lenkt den Verdacht auf den oberen Harntrakt oder auf ein Carcinoma in situ. Die Abklärung folgt einer Reihenfolge von der bildgebenden Übersicht über die selektive Zytologie bis zur Endoskopie. Die Ureterorenoskopie steht bewusst am Ende, weil sie das Blasenrezidivrisiko erhöht.",
+            "teaching_point": "Positive Zytologie plus leere Blase heißt: nach oben schauen."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "57-year-old smoker with painless macroscopic haematuria. Cystoscopy is normal, ultrasound shows subtle right calyceal dilatation. Bladder cytology is positive.",
+          "lead_in": "Which investigations should follow?",
+          "options": {
+            "A": {
+              "text": "Repeat cystoscopy in three months",
+              "rationale": "Positive cytology with a normal bladder demands active search of the upper tract, not waiting."
+            },
+            "B": {
+              "text": "Renal ultrasound as the only follow-up",
+              "rationale": "Ultrasound does not reliably detect flat or small upper tract tumours."
+            },
+            "C": {
+              "text": "CT urography with selective upper tract cytology",
+              "rationale": "CT urography has the highest diagnostic accuracy. Selective cytology localises the source, and ureteroscopy clarifies and stratifies when neither suffices. CT urography is the standard investigation. Selective cytology localises the source; if uncertainty persists, diagnostic ureteroscopy with biopsy follows."
+            },
+            "D": {
+              "text": "PET/CT to search for the unknown primary tumour",
+              "rationale": "Not established for primary upper tract diagnosis and inferior to CT urography."
+            }
+          },
+          "explanation": {
+            "core": "Positive cytology with a normal bladder points to the upper tract or to carcinoma in situ. The workup follows a sequence from cross-sectional imaging through selective cytology to endoscopy. Ureteroscopy deliberately comes last, because it increases the risk of bladder recurrence.",
+            "teaching_point": "Positive cytology plus an empty bladder means: look upstream."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-utu-00004",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Diagnostik",
+        "tags": [
+          "endourologisch",
+          "leitlinie",
+          "nachsorge"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Bei einem Patienten mit im CT-Urogramm eindeutigem, invasiv imponierendem Tumor des rechten Nierenbeckens und High-Grade-Zytologie wird die Indikation zur radikalen Nephroureterektomie gestellt. Ein Assistent schlägt vor, zuvor eine diagnostische Ureterorenoskopie mit Biopsie durchzuführen.",
+          "lead_in": "Wie ist dieser Vorschlag zu bewerten?",
+          "options": {
+            "A": {
+              "text": "Verzichtbar, da sie das Vorgehen nicht ändert",
+              "rationale": "Bildgebung und Zytologie sichern die Diagnose und die Hochrisikoeinstufung bereits. Die Endoskopie brächte keinen Zusatznutzen, würde aber den Eingriff verzögern und das Blasenrezidivrisiko erhöhen. Bildgebung und Zytologie sichern Diagnose und Hochrisikoeinstufung bereits. Die Endoskopie brächte keinen Zusatznutzen, würde den Eingriff verzögern und geht mit einem erhöhten Risiko für spätere Blasenrezidive einher."
+            },
+            "B": {
+              "text": "Vor jeder Nephroureterektomie zwingend vorgeschrieben",
+              "rationale": "Sie ist indiziert, wenn die Diagnose oder die Risikogruppe unklar ist, nicht als Pflichtschritt."
+            },
+            "C": {
+              "text": "Senkt das Blasenrezidivrisiko durch Spülung des Systems",
+              "rationale": "Das Gegenteil ist belegt: Die Manipulation erhöht die Rate späterer Blasenrezidive."
+            },
+            "D": {
+              "text": "Durch eine perkutane Biopsie des Beckens zu ersetzen",
+              "rationale": "Der perkutane Zugang birgt das Risiko der Tumorzellverschleppung entlang des Stichkanals und ist beim Urothelkarzinom zu vermeiden."
+            }
+          },
+          "explanation": {
+            "core": "Die diagnostische Ureterorenoskopie ist wertvoll, aber nicht kostenlos: Sie verbessert die Risikoeinschätzung und ermöglicht den Organerhalt, erhöht aber nachweislich die Rate an Blasenrezidiven. Deshalb wird sie eingesetzt, wenn ihr Ergebnis die Therapie ändern kann, und weggelassen, wenn die Entscheidung ohnehin feststeht.",
+            "teaching_point": "Endoskopieren, wenn es die Entscheidung ändert. Sonst nicht."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "In a patient with an unequivocal, apparently invasive right renal pelvic tumour on CT urography and high-grade cytology, radical nephroureterectomy is planned. A trainee suggests performing diagnostic ureteroscopy with biopsy first.",
+          "lead_in": "How should this suggestion be judged?",
+          "options": {
+            "A": {
+              "text": "Dispensable, since it does not change management",
+              "rationale": "Imaging and cytology already establish the diagnosis and high-risk classification. Endoscopy would add nothing while delaying surgery and raising bladder recurrence risk. Imaging and cytology already establish the diagnosis and high-risk classification. Endoscopy would add nothing, would delay surgery and carries an increased risk of later bladder recurrence."
+            },
+            "B": {
+              "text": "Mandatory before every nephroureterectomy",
+              "rationale": "It is indicated when diagnosis or risk group is unclear, not as an obligatory step."
+            },
+            "C": {
+              "text": "Lowers bladder recurrence risk by irrigating the system",
+              "rationale": "The opposite is documented: manipulation increases the rate of later bladder recurrences."
+            },
+            "D": {
+              "text": "To be replaced by percutaneous biopsy of the pelvis",
+              "rationale": "The percutaneous route risks tumour seeding along the tract and is to be avoided in urothelial carcinoma."
+            }
+          },
+          "explanation": {
+            "core": "Diagnostic ureteroscopy is valuable but not free: it improves risk assessment and enables organ preservation, yet demonstrably increases bladder recurrence rates. It is therefore used when its result can change treatment and omitted when the decision is already settled.",
+            "teaching_point": "Scope when it changes the decision. Otherwise do not."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-utu-00005",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Nephroureterektomie",
+        "tags": [
+          "operationstechnik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Radikale Nephroureterektomie rechts bei einem Hochrisikotumor des Nierenbeckens. Nach Entfernung von Niere und proximalem Ureter erwägt der Operateur, den distalen Ureterrest zu belassen, da die Präparation im kleinen Becken aufwendig ist.",
+          "lead_in": "Wie ist das zu bewerten?",
+          "options": {
+            "A": {
+              "text": "Vertretbar, wenn der Ureterstumpf geclippt wird",
+              "rationale": "Der Clip verhindert weder ein Rezidiv im belassenen Urothel noch dessen Progression."
+            },
+            "B": {
+              "text": "Vertretbar, wenn adjuvante Chemotherapie folgt",
+              "rationale": "Die Systemtherapie ersetzt keine unvollständige Resektion des tumortragenden Organs."
+            },
+            "C": {
+              "text": "Vertretbar, da der Stumpf kontrollierbar bleibt",
+              "rationale": "Der belassene Stumpf ist endoskopisch schlecht zugänglich und der Nachsorge weitgehend entzogen."
+            },
+            "D": {
+              "text": "Nicht vertretbar; Ureter und Blasenmanschette müssen mit",
+              "rationale": "Im verbliebenen Ureterstumpf treten in einem erheblichen Anteil Rezidive auf, die dann schwer zugänglich sind. Die Blasenmanschette entfernt auch das intramurale Segment und das Ostium. Im belassenen Ureterstumpf treten in einem erheblichen Anteil Rezidive auf, die dann schwer zugänglich sind. Die Blasenmanschette entfernt auch das intramurale Segment und das Ostium."
+            }
+          },
+          "explanation": {
+            "core": "Das Urothel ist ein durchgehendes Feld, und jeder belassene Abschnitt bleibt gefährdet. Deshalb umfasst die radikale Nephroureterektomie Niere, gesamten Ureter und Blasenmanschette. Die Art der Blasenmanschettenbildung ist Gegenstand der Technik, ihr Weglassen dagegen nicht.",
+            "teaching_point": "Kein Ureterstumpf. Das intramurale Segment gehört mit heraus."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Right radical nephroureterectomy for a high-risk renal pelvic tumour. After removing the kidney and proximal ureter the surgeon considers leaving the distal ureteric remnant, since pelvic dissection is laborious.",
+          "lead_in": "How should this be judged?",
+          "options": {
+            "A": {
+              "text": "Acceptable if the ureteric stump is clipped",
+              "rationale": "A clip prevents neither recurrence in the retained urothelium nor its progression."
+            },
+            "B": {
+              "text": "Acceptable if adjuvant chemotherapy follows",
+              "rationale": "Systemic therapy does not compensate for incomplete resection of the tumour-bearing organ."
+            },
+            "C": {
+              "text": "Acceptable, since the stump remains checkable",
+              "rationale": "The retained stump is poorly accessible endoscopically and largely escapes surveillance."
+            },
+            "D": {
+              "text": "Not acceptable; ureter and bladder cuff must come out",
+              "rationale": "Recurrences arise in a substantial proportion of retained stumps and are then hard to reach. The bladder cuff also removes the intramural segment and the orifice. Recurrences arise in a substantial proportion of retained stumps and are then hard to reach. The bladder cuff also removes the intramural segment and the orifice."
+            }
+          },
+          "explanation": {
+            "core": "The urothelium is a continuous field, and any retained segment remains at risk. Radical nephroureterectomy therefore comprises kidney, entire ureter and bladder cuff. How the cuff is fashioned is a matter of technique; omitting it is not.",
+            "teaching_point": "No ureteric stump. The intramural segment comes out too."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-utu-00006",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Lymphadenektomie",
+        "tags": [
+          "operationstechnik",
+          "leitlinie",
+          "pathologie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Bei der Nephroureterektomie eines invasiven Tumors des linken Nierenbeckens soll eine Lymphadenektomie erfolgen.",
+          "lead_in": "Welches Ausräumungsgebiet ist zu wählen?",
+          "options": {
+            "A": {
+              "text": "Einheitlich das Becken beidseits, unabhängig von der Lage",
+              "rationale": "Pelvine Stationen sind Abflussgebiet des distalen Ureters, nicht des Nierenbeckens."
+            },
+            "B": {
+              "text": "Keine Lymphadenektomie, da beim UTUC ohne Wert",
+              "rationale": "Sie verbessert die Stadienzuordnung und ist bei invasiven Tumoren mit einem Überlebensvorteil verknüpft."
+            },
+            "C": {
+              "text": "Template abhängig von der Höhe des Tumors",
+              "rationale": "Der Lymphabfluss folgt der Höhe des Tumors. Ein starres Template verfehlt entweder die betroffenen Stationen oder räumt unnötig aus. Linkes Nierenbecken und proximaler Ureter drainieren paraaortal und hilär, rechts parakaval und interaortokaval, der distale Ureter in die ipsilateralen iliakalen Stationen."
+            },
+            "D": {
+              "text": "Nur die im Bild vergrößerten Lymphknoten entfernen",
+              "rationale": "Ein Vorgehen nur nach Bildgebung übersieht den mikroskopischen Befall, der die Mehrzahl der positiven Fälle ausmacht."
+            }
+          },
+          "explanation": {
+            "core": "Der Lymphabfluss des oberen Harntrakts folgt segmentaler Logik: Das Nierenbecken drainiert hilär und in die großen Gefäßstationen der jeweiligen Seite, der distale Ureter in die iliakalen Stationen. Die Lymphadenektomie ist bei invasiven Tumoren Teil der Operation und liefert die Grundlage für die adjuvante Entscheidung.",
+            "teaching_point": "Die Höhe des Tumors bestimmt das Template, nicht die Gewohnheit."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "During nephroureterectomy for an invasive tumour of the left renal pelvis, lymphadenectomy is planned.",
+          "lead_in": "Which template should be chosen?",
+          "options": {
+            "A": {
+              "text": "A uniform bilateral pelvic field regardless of site",
+              "rationale": "Pelvic stations drain the distal ureter, not the renal pelvis."
+            },
+            "B": {
+              "text": "No lymphadenectomy, since it has no value in UTUC",
+              "rationale": "It improves staging and is associated with a survival benefit in invasive tumours."
+            },
+            "C": {
+              "text": "A template determined by the level of the tumour",
+              "rationale": "Lymphatic drainage follows the level of the tumour. A rigid template either misses the involved stations or removes nodes unnecessarily. Left renal pelvis and proximal ureter drain para-aortic and hilar, the right side paracaval and interaortocaval, and the distal ureter to the ipsilateral iliac stations."
+            },
+            "D": {
+              "text": "Remove only the nodes enlarged on imaging",
+              "rationale": "An imaging-only approach misses microscopic involvement, which accounts for most positive cases."
+            }
+          },
+          "explanation": {
+            "core": "Lymphatic drainage of the upper tract follows segmental logic: the renal pelvis drains to hilar and great-vessel stations on its own side, the distal ureter to the iliac stations. In invasive tumours lymphadenectomy is part of the operation and provides the basis for the adjuvant decision.",
+            "teaching_point": "The level of the tumour sets the template, not habit."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-utu-00007",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Blasenrezidivprophylaxe",
+        "tags": [
+          "pharmakologie",
+          "dosierung",
+          "leitlinie",
+          "nachsorge"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Zweiter postoperativer Tag nach radikaler Nephroureterektomie mit Blasenmanschette. Die Zystographie zeigt einen dichten Blasenverschluss ohne Extravasat.",
+          "lead_in": "Welche Maßnahme senkt das Risiko eines intravesikalen Rezidivs?",
+          "options": {
+            "A": {
+              "text": "Sechswöchige BCG-Induktion ab der zweiten Woche",
+              "rationale": "BCG ist für diese Indikation nicht belegt und im frisch operierten Situs mit einem erheblichen Risiko verbunden."
+            },
+            "B": {
+              "text": "Einmalige intravesikale Frühinstillation nach der Operation",
+              "rationale": "Die einmalige Frühinstillation senkt die Rate intravesikaler Rezidive nachweislich. Voraussetzung ist der Ausschluss eines Extravasats. Gegeben wird ein Chemotherapeutikum, etwa Mitomycin C 40 mg, innerhalb weniger Tage und erst nach zystographisch dichtem Blasenverschluss."
+            },
+            "C": {
+              "text": "Intravesikale Dauerprophylaxe über zwölf Monate",
+              "rationale": "Für ein solches Schema existiert in dieser Situation keine Evidenz."
+            },
+            "D": {
+              "text": "Keine Instillation wegen geringen Blasenrezidivrisikos",
+              "rationale": "Intravesikale Rezidive treten bei einem erheblichen Anteil der Patienten auf und sind der häufigste Rezidivort überhaupt."
+            }
+          },
+          "explanation": {
+            "core": "Nach Entfernung des tumortragenden oberen Harntrakts bleibt die Blase das gefährdete Organ. Eine einzelne frühe Instillation nach gesichertem Blasenverschluss senkt die Rezidivrate deutlich und ist wenig aufwendig. Die anschließende Nachsorge stützt sich auf Zystoskopie und Schnittbildgebung.",
+            "teaching_point": "Eine Instillation, ein Zeitfenster, ein klarer Nutzen. Vorher Dichtigkeit prüfen."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Second postoperative day after radical nephroureterectomy with bladder cuff. Cystography shows a watertight bladder closure without extravasation.",
+          "lead_in": "Which measure reduces the risk of intravesical recurrence?",
+          "options": {
+            "A": {
+              "text": "Six-week BCG induction from the second week onwards",
+              "rationale": "BCG is not established for this indication and carries considerable risk in a freshly operated field."
+            },
+            "B": {
+              "text": "A single early intravesical instillation after surgery",
+              "rationale": "The single early instillation demonstrably lowers the rate of intravesical recurrence. Exclusion of extravasation is the prerequisite. A chemotherapeutic agent such as mitomycin C 40 mg is given within a few days and only after cystography confirms a watertight bladder."
+            },
+            "C": {
+              "text": "Continuous intravesical prophylaxis for twelve months",
+              "rationale": "No evidence supports such a schedule in this situation."
+            },
+            "D": {
+              "text": "No instillation, given the low bladder recurrence risk",
+              "rationale": "Intravesical recurrences occur in a substantial proportion of patients and are the commonest site of recurrence overall."
+            }
+          },
+          "explanation": {
+            "core": "Once the tumour-bearing upper tract has been removed, the bladder remains the organ at risk. A single early instillation after confirmed watertight closure markedly lowers recurrence and costs little. Subsequent surveillance rests on cystoscopy and cross-sectional imaging.",
+            "teaching_point": "One instillation, one time window, one clear benefit. Check for leakage first."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-utu-00008",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "adjuvante Therapie",
+        "tags": [
+          "pharmakologie",
+          "dosierung",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "studie",
+          "citation": "POUT, Birtle et al., Lancet 2020"
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "68-jähriger Patient nach radikaler Nephroureterektomie. Histologie: Urothelkarzinom pT3 pN0, High Grade, R0. Die GFR beträgt sechs Wochen postoperativ 52 ml/min, ECOG 0, keine Neuropathie, keine Hörminderung.",
+          "lead_in": "Welche adjuvante Therapie ist zu empfehlen?",
+          "options": {
+            "A": {
+              "text": "Keine adjuvante Therapie, ausschließlich Nachsorge",
+              "rationale": "Bei pT3 High Grade besteht ein hohes Rezidivrisiko, und für die adjuvante Chemotherapie liegt ein randomisierter Nachweis vor."
+            },
+            "B": {
+              "text": "Adjuvantes Pembrolizumab über ein Jahr geben",
+              "rationale": "Die Checkpointinhibition ist in dieser Situation nicht die durch POUT belegte Standardoption."
+            },
+            "C": {
+              "text": "Adjuvante Bestrahlung des Nierenlagers anschließen",
+              "rationale": "Die Strahlentherapie hat hier keinen belegten Stellenwert."
+            },
+            "D": {
+              "text": "Platinbasierte Chemotherapie über vier Zyklen",
+              "rationale": "Die POUT-Studie zeigte für dieses Vorgehen einen deutlichen Vorteil im krankheitsfreien Überleben. Das Zeitfenster und die nierenfunktionsabhängige Substanzwahl sind Teil des Protokolls. Begonnen wird innerhalb von 90 Tagen nach der Operation. Bei einer GFR unter 50 ml/min wird Carboplatin statt Cisplatin eingesetzt; beides ist Teil des POUT-Protokolls."
+            }
+          },
+          "explanation": {
+            "core": "Beim Urothelkarzinom des oberen Harntrakts ist die adjuvante Chemotherapie durch eine randomisierte Studie gestützt, was sie von vielen anderen adjuvanten Konzepten unterscheidet. Zwei praktische Punkte entscheiden über die Umsetzbarkeit: das Zeitfenster von 90 Tagen und die nach der Nephroureterektomie regelhaft reduzierte Nierenfunktion.",
+            "teaching_point": "Nach der Operation läuft die Uhr, und die GFR bestimmt das Platin."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "68-year-old man after radical nephroureterectomy. Histology: urothelial carcinoma pT3 pN0, high grade, R0. Six weeks postoperatively the GFR is 52 ml/min; ECOG 0, no neuropathy, no hearing loss.",
+          "lead_in": "Which adjuvant treatment should be recommended?",
+          "options": {
+            "A": {
+              "text": "No adjuvant treatment, surveillance only",
+              "rationale": "pT3 high-grade disease carries a high recurrence risk, and randomised evidence supports adjuvant chemotherapy."
+            },
+            "B": {
+              "text": "Give adjuvant pembrolizumab for one year",
+              "rationale": "Checkpoint inhibition is not the standard option supported by POUT in this situation."
+            },
+            "C": {
+              "text": "Add adjuvant radiotherapy to the renal bed",
+              "rationale": "Radiotherapy has no established role here."
+            },
+            "D": {
+              "text": "Platinum-based chemotherapy for four cycles",
+              "rationale": "The POUT trial showed a clear disease-free survival benefit for this approach. The time window and renal-function-dependent drug choice are part of the protocol. It starts within 90 days of surgery. With a GFR below 50 ml/min carboplatin replaces cisplatin; both are part of the POUT protocol."
+            }
+          },
+          "explanation": {
+            "core": "In upper tract urothelial carcinoma adjuvant chemotherapy is supported by a randomised trial, which distinguishes it from many other adjuvant concepts. Two practical points decide feasibility: the 90-day window and the renal function that is routinely reduced after nephroureterectomy.",
+            "teaching_point": "After surgery the clock is running, and the GFR chooses the platinum."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-utu-00009",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "perioperatives Konzept",
+        "tags": [
+          "leitlinie",
+          "praeoperativ",
+          "labordiagnostik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "kontrovers",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma",
+          "year": 2026
+        },
+        {
+          "type": "studie",
+          "citation": "POUT, Lancet 2020"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2027-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "62-jähriger Patient mit einem im CT invasiv imponierenden Tumor des rechten Nierenbeckens, High-Grade-Zytologie, klinisch cN0. Präoperative GFR 68 ml/min bei normaler Gegenniere. Im Tumorboard wird über neoadjuvante gegen adjuvante Chemotherapie diskutiert.",
+          "lead_in": "Welches Argument spricht am stärksten für das neoadjuvante Vorgehen?",
+          "options": {
+            "A": {
+              "text": "Die Nierenfunktion fällt nach der Operation regelhaft ab",
+              "rationale": "Der Verlust einer Niere senkt die GFR typischerweise um etwa ein Viertel. Wer präoperativ knapp über der Grenze liegt, unterschreitet sie danach häufig. Der Verlust einer Niere senkt die GFR typischerweise um etwa ein Viertel, sodass ein erheblicher Teil der Patienten postoperativ nicht mehr cisplatinfähig ist."
+            },
+            "B": {
+              "text": "Randomisierte Studie mit Überlebensvorteil belegt es",
+              "rationale": "Ein solcher Nachweis liegt für das neoadjuvante Vorgehen bislang nicht vor; die randomisierte Evidenz betrifft die adjuvante Situation."
+            },
+            "C": {
+              "text": "Die Chemotherapie ersetzt die Lymphadenektomie",
+              "rationale": "Die Lymphadenektomie bleibt unabhängig davon Teil der Operation bei invasiven Tumoren."
+            },
+            "D": {
+              "text": "Das klinische Staging schließt Übertherapie aus",
+              "rationale": "Genau das Gegenteil trifft zu: Die präoperative Stadienzuordnung ist unsicher, was das wichtigste Argument gegen das neoadjuvante Vorgehen darstellt."
+            }
+          },
+          "explanation": {
+            "core": "Die Abwägung ist symmetrisch. Für die neoadjuvante Gabe spricht die bessere Nierenfunktion und damit die Cisplatinfähigkeit, gegen sie die unsichere präoperative Stadienzuordnung mit der Gefahr der Übertherapie. Für die adjuvante Gabe spricht die randomisierte Evidenz, gegen sie der häufige Funktionsverlust nach der Operation.",
+            "teaching_point": "Die Cisplatinfähigkeit ist vor der Operation am größten und danach oft verloren."
+          },
+          "flag_note": "Die neoadjuvante Chemotherapie beim Urothelkarzinom des oberen Harntrakts ist nicht durch eine abgeschlossene randomisierte Studie belegt und bleibt eine Einzelfallentscheidung im Tumorboard."
+        },
+        "en": {
+          "vignette": "62-year-old man with a right renal pelvic tumour appearing invasive on CT, high-grade cytology, clinically cN0. Preoperative GFR is 68 ml/min with a normal contralateral kidney. The tumour board debates neoadjuvant versus adjuvant chemotherapy.",
+          "lead_in": "Which argument most strongly favours the neoadjuvant approach?",
+          "options": {
+            "A": {
+              "text": "Renal function regularly falls after the operation",
+              "rationale": "Losing a kidney typically reduces GFR by around a quarter. Patients just above the threshold before surgery often fall below it afterwards. Losing a kidney typically reduces GFR by around a quarter, so a substantial proportion of patients are no longer cisplatin-eligible postoperatively."
+            },
+            "B": {
+              "text": "A randomised trial with a survival benefit proves it",
+              "rationale": "No such evidence yet exists for the neoadjuvant approach; the randomised evidence concerns the adjuvant setting."
+            },
+            "C": {
+              "text": "Chemotherapy replaces the lymph node dissection",
+              "rationale": "Lymphadenectomy remains part of the operation in invasive tumours regardless."
+            },
+            "D": {
+              "text": "Clinical staging rules out any overtreatment",
+              "rationale": "The opposite is true: preoperative staging is unreliable, which is the main argument against the neoadjuvant approach."
+            }
+          },
+          "explanation": {
+            "core": "The trade-off is symmetrical. In favour of neoadjuvant treatment: better renal function and therefore cisplatin eligibility. Against it: unreliable preoperative staging with the risk of overtreatment. In favour of adjuvant treatment: randomised evidence. Against it: the frequent loss of function after surgery.",
+            "teaching_point": "Cisplatin eligibility is at its highest before surgery and often lost afterwards."
+          },
+          "flag_note": "Neoadjuvant chemotherapy in upper tract urothelial carcinoma is not supported by a completed randomised trial and remains an individual tumour board decision."
+        }
+      }
+    },
+    {
+      "id": "uro-utu-00010",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "hereditäre Formen",
+        "tags": [
+          "labordiagnostik",
+          "pathologie",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "44-jährige Nichtraucherin mit Urothelkarzinom des rechten Ureters. Die Mutter erkrankte mit 48 Jahren an einem Kolonkarzinom, eine Tante mütterlicherseits mit 52 Jahren an einem Endometriumkarzinom.",
+          "lead_in": "Welche Konsequenz ergibt sich?",
+          "options": {
+            "A": {
+              "text": "Keine, da der Zusammenhang zufällig ist",
+              "rationale": "Das Urothelkarzinom des oberen Harntrakts gehört zum Tumorspektrum des Lynch-Syndroms."
+            },
+            "B": {
+              "text": "Prophylaktische Entfernung des oberen Harntrakts",
+              "rationale": "Es gibt keine prophylaktische Organentfernung bei dieser Konstellation; das Konzept ist Überwachung, nicht Resektion."
+            },
+            "C": {
+              "text": "Abklärung auf ein Lynch-Syndrom einleiten",
+              "rationale": "Junges Alter, fehlende Raucheranamnese und die Familienanamnese mit Kolon- und Endometriumkarzinom erfüllen die Kriterien für ein Screening. Die Konsequenz betrifft Koloskopieintervalle und die Beratung der Angehörigen. Begonnen wird mit der Immunhistochemie der Mismatch-Reparaturproteine oder einer Mikrosatellitenanalyse am Tumor, gefolgt von humangenetischer Beratung mit Konsequenzen für Patientin und Familie."
+            },
+            "D": {
+              "text": "Jährliche Koloskopie ohne weitere Diagnostik",
+              "rationale": "Die Koloskopie ist Teil der Vorsorge, ersetzt aber nicht die Klärung der zugrunde liegenden Veranlagung."
+            }
+          },
+          "explanation": {
+            "core": "Das Urothelkarzinom des oberen Harntrakts ist der dritthäufigste Tumor beim Lynch-Syndrom. Verdachtsmomente sind ein Alter unter etwa 60 Jahren, eine unauffällige Raucheranamnese und Verwandte ersten Grades mit Tumoren des Lynch-Spektrums. Der Nachweis ändert Vorsorge und Nachsorge weit über die Urologie hinaus.",
+            "teaching_point": "Junge Nichtraucherin mit Uretertumor und Krebs in der Familie: an Lynch denken."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "44-year-old non-smoking woman with urothelial carcinoma of the right ureter. Her mother developed colorectal cancer at 48 and a maternal aunt endometrial cancer at 52.",
+          "lead_in": "What follows from this?",
+          "options": {
+            "A": {
+              "text": "None, since the association is coincidental",
+              "rationale": "Upper tract urothelial carcinoma belongs to the Lynch syndrome tumour spectrum."
+            },
+            "B": {
+              "text": "Prophylactic removal of the upper urinary tract",
+              "rationale": "There is no prophylactic organ removal in this constellation; the concept is surveillance, not resection."
+            },
+            "C": {
+              "text": "Initiate assessment for Lynch syndrome",
+              "rationale": "Young age, absence of smoking history and the family history of colorectal and endometrial cancer meet screening criteria. The consequences concern colonoscopy intervals and counselling of relatives. It starts with immunohistochemistry for mismatch repair proteins or microsatellite analysis on the tumour, followed by genetic counselling with consequences for the patient and her family."
+            },
+            "D": {
+              "text": "Annual colonoscopy without further investigation",
+              "rationale": "Colonoscopy is part of surveillance but does not replace clarifying the underlying predisposition."
+            }
+          },
+          "explanation": {
+            "core": "Upper tract urothelial carcinoma is the third commonest tumour in Lynch syndrome. Suspicion is raised by age below roughly 60, an unremarkable smoking history and first-degree relatives with Lynch spectrum tumours. Confirmation changes screening and follow-up far beyond urology.",
+            "teaching_point": "Young non-smoker with a ureteric tumour and cancer in the family: think Lynch."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-utu-00011",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Nachsorge",
+        "tags": [
+          "nachsorge",
+          "endourologisch",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "70-jähriger Patient sechs Monate nach ureterorenoskopischer Laserablation eines Low-Grade-Tumors im mittleren Ureter. Er ist beschwerdefrei, die Nierenfunktion ist stabil.",
+          "lead_in": "Wie ist die Nachsorge zu gestalten?",
+          "options": {
+            "A": {
+              "text": "Jährliche Sonographie, weiteres nur bei Beschwerden",
+              "rationale": "Die Sonographie erkennt weder flache Rezidive im oberen Harntrakt noch Blasentumoren zuverlässig."
+            },
+            "B": {
+              "text": "Engmaschige Nachsorge mit wiederholter Endoskopie",
+              "rationale": "Nach Organerhalt bleibt das gesamte Urothel erhalten und gefährdet. Nur die endoskopische Kontrolle erkennt Rezidive im behandelten Abschnitt rechtzeitig. Dazu gehören Zystoskopie, Zytologie, wiederholte Ureterorenoskopie und Schnittbildgebung des oberen Harntrakts in festgelegten Abständen."
+            },
+            "C": {
+              "text": "Nachsorge ausschließlich durch Blasenspiegelung",
+              "rationale": "Die Blase ist häufig betroffen, das belassene obere Urothel aber ebenso, und dort ist die Zystoskopie blind."
+            },
+            "D": {
+              "text": "Keine strukturierte Nachsorge nach vollständiger Ablation",
+              "rationale": "Rezidivraten nach Organerhalt liegen hoch; die Nachsorge ist Voraussetzung dafür, dass der Organerhalt überhaupt vertretbar ist."
+            }
+          },
+          "explanation": {
+            "core": "Der Organerhalt beim Urothelkarzinom des oberen Harntrakts verlagert die Sicherheit von der Operation in die Nachsorge. Sie ist aufwendig, wiederholt invasiv und über Jahre nötig. Deshalb gehört die Bereitschaft des Patienten zu dieser Nachsorge bereits in die Indikationsstellung.",
+            "teaching_point": "Wer den Organerhalt anbietet, verpflichtet sich zur Endoskopie über Jahre."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "70-year-old man six months after ureteroscopic laser ablation of a low-grade tumour in the mid ureter. He is asymptomatic and renal function is stable.",
+          "lead_in": "How should follow-up be arranged?",
+          "options": {
+            "A": {
+              "text": "Annual ultrasound, more only if symptoms arise",
+              "rationale": "Ultrasound reliably detects neither flat upper tract recurrences nor bladder tumours."
+            },
+            "B": {
+              "text": "Close follow-up with repeated endoscopic review",
+              "rationale": "After organ preservation the entire urothelium remains in place and at risk. Only endoscopic review detects recurrence in the treated segment in time. It comprises cystoscopy, cytology, repeat ureteroscopy and cross-sectional imaging of the upper tract at defined intervals."
+            },
+            "C": {
+              "text": "Follow-up by cystoscopy alone, nothing further",
+              "rationale": "The bladder is often affected, but so is the retained upper tract urothelium, where cystoscopy is blind."
+            },
+            "D": {
+              "text": "No structured follow-up after complete ablation",
+              "rationale": "Recurrence rates after organ preservation are high; follow-up is what makes organ preservation defensible in the first place."
+            }
+          },
+          "explanation": {
+            "core": "Organ preservation in upper tract urothelial carcinoma shifts safety from the operation to the follow-up. That follow-up is demanding, repeatedly invasive and needed for years. The patient's commitment to it therefore belongs in the decision to preserve the organ.",
+            "teaching_point": "Offering organ preservation commits you to years of endoscopy."
+          },
+          "flag_note": null
+        }
+      }
+    }
+  ]
+}

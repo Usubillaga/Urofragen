@@ -1,0 +1,446 @@
+{
+  "gebiet": "peniskarzinom",
+  "fragen": [
+    {
+      "id": "uro-pen-00001",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Lymphknotenstaging",
+        "tags": [
+          "leitlinie",
+          "operationstechnik",
+          "praeoperativ"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU-ASCO Guidelines on Penile Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-05",
+        "last_reviewed": "2026-09-05",
+        "expires": "2028-09-05"
+      },
+      "content": {
+        "de": {
+          "vignette": "58-jähriger Patient nach Glansektomie wegen eines Plattenepithelkarzinoms des Penis. Histologie: pT1, G3, keine lymphovaskuläre Invasion, R0. Beide Leisten klinisch und sonographisch unauffällig, schlanker Habitus, gut beurteilbar.",
+          "lead_in": "Wie ist das inguinale Staging durchzuführen?",
+          "options": {
+            "A": {
+              "text": "Radikale inguinale Lymphadenektomie beidseits",
+              "rationale": "Bei klinisch unauffälligen Leisten Übertherapie mit erheblicher Morbidität durch Lymphödem, Wundheilungsstörungen und Infektionen."
+            },
+            "B": {
+              "text": "PET/CT anstelle eines invasiven Stagings",
+              "rationale": "Zum Ausschluss okkulter Metastasen bei klinisch unauffälligen Leisten unzureichend sensitiv; ein negativer Befund schließt einen Befall nicht aus."
+            },
+            "C": {
+              "text": "Invasives Staging als Sentinel-Lymphknotenbiopsie",
+              "rationale": "Ab pT1 G3 besteht ein relevantes Risiko okkulter Metastasen. Die Sentinelbiopsie erfasst diese bei deutlich geringerer Morbidität als die vollständige Lymphadenektomie. Sie wird beidseits durchgeführt. Ab pT1 G3 besteht ein relevantes Risiko okkulter Metastasen, und die Sentinelbiopsie erfasst diese bei deutlich geringerer Morbidität als die vollständige Ausräumung."
+            },
+            "D": {
+              "text": "Beobachtung mit halbjährlicher Sonographie der Leisten",
+              "rationale": "Nur für Niedrigrisikotumoren vorgesehen, also pTis, pTa und pT1 G1. Ein G3-Tumor gehört nicht dazu."
+            }
+          },
+          "explanation": {
+            "core": "Der Lymphknotenstatus ist der wichtigste prognostische Faktor beim Peniskarzinom, und die Bildgebung ist bei klinisch unauffälligen Leisten zu unsicher. Deshalb wird das Staging invasiv geführt, sobald Stadium und Grading ein relevantes Risiko ergeben. Die Sentinelbiopsie ist der Kompromiss zwischen diagnostischer Sicherheit und Morbidität.",
+            "teaching_point": "Bei cN0 entscheidet die Histologie des Primärtumors darüber, ob invasiv gestaged wird, nicht der Tastbefund."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "58-year-old man after glansectomy for squamous cell carcinoma of the penis. Histology: pT1, G3, no lymphovascular invasion, R0. Both groins are clinically and sonographically unremarkable; he is slim and easy to examine.",
+          "lead_in": "How should inguinal staging be performed?",
+          "options": {
+            "A": {
+              "text": "Bilateral radical inguinal lymphadenectomy",
+              "rationale": "Overtreatment with clinically negative groins, carrying substantial morbidity from lymphoedema, wound healing problems and infection."
+            },
+            "B": {
+              "text": "PET/CT instead of invasive nodal staging",
+              "rationale": "Insufficiently sensitive to exclude occult metastases in clinically negative groins; a negative scan does not rule out involvement."
+            },
+            "C": {
+              "text": "Invasive staging as dynamic sentinel node biopsy",
+              "rationale": "From pT1 G3 upwards there is a relevant risk of occult metastases. Sentinel biopsy detects these with far lower morbidity than complete lymphadenectomy. It is performed bilaterally. From pT1 G3 there is a relevant risk of occult metastases, and sentinel biopsy detects these with far lower morbidity than full dissection."
+            },
+            "D": {
+              "text": "Surveillance with six-monthly groin ultrasound",
+              "rationale": "Reserved for low-risk tumours, that is pTis, pTa and pT1 G1. A G3 tumour does not qualify."
+            }
+          },
+          "explanation": {
+            "core": "Nodal status is the most important prognostic factor in penile cancer, and imaging is too unreliable when the groins are clinically negative. Staging is therefore performed invasively as soon as stage and grade indicate relevant risk. Sentinel biopsy is the compromise between diagnostic certainty and morbidity.",
+            "teaching_point": "In cN0 disease the histology of the primary decides whether to stage invasively, not the palpation finding."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-pen-00002",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Primärtumor",
+        "tags": [
+          "leitlinie",
+          "operationstechnik",
+          "pathologie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU-ASCO Guidelines on Penile Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "54-jähriger Patient mit einem auf die Glans begrenzten Plattenepithelkarzinom von 1,5 cm Durchmesser. Biopsie: G1, keine lymphovaskuläre Invasion, keine Infiltration des Corpus spongiosum. Klinisches Stadium cT1a G1 cN0. Der Patient ist sexuell aktiv.",
+          "lead_in": "Welche Primärtherapie ist angezeigt?",
+          "options": {
+            "A": {
+              "text": "Organerhaltende Exzision mit tumorfreien Rändern",
+              "rationale": "Bei kleinen, oberflächlichen und gut differenzierten Tumoren ist der Organerhalt onkologisch gleichwertig und erhält Miktion und Sexualfunktion. Lokalrezidive sind erneut organerhaltend behandelbar. Infrage kommen die weite lokale Exzision und das Glansresurfacing, jeweils mit engmaschiger Nachsorge. Bei kleinen, oberflächlichen und gut differenzierten Tumoren ist der Organerhalt onkologisch gleichwertig."
+            },
+            "B": {
+              "text": "Primäre Radiochemotherapie des Primärtumors",
+              "rationale": "Eine Option für ausgewählte Patienten, die eine Operation ablehnen oder bei denen der Organerhalt chirurgisch nicht gelingt, aber nicht die erste Wahl bei kleinem, resezierbarem Tumor."
+            },
+            "C": {
+              "text": "Partielle Penektomie mit zwei Zentimetern Abstand",
+              "rationale": "Der historische Zwei-Zentimeter-Abstand ist verlassen. Enge, aber tumorfreie Ränder genügen; der breite Abstand kostet Funktion ohne onkologischen Gewinn."
+            },
+            "D": {
+              "text": "Radikale Penektomie mit perinealer Ausleitung",
+              "rationale": "Bei einem auf die Glans begrenzten G1-Tumor eine grobe Übertherapie mit erheblichen funktionellen und psychosozialen Folgen."
+            }
+          },
+          "explanation": {
+            "core": "Beim Peniskarzinom wird der Primärtumor so sparsam wie onkologisch vertretbar behandelt, weil der Lymphknotenstatus die Prognose bestimmt und nicht die Radikalität am Organ. Voraussetzung für den Organerhalt sind tumorfreie Ränder in der endgültigen Histologie und eine verlässliche Nachsorge.",
+            "teaching_point": "Der Sicherheitsabstand ist beim Peniskarzinom kein fester Millimeterwert. Entscheidend ist R0, nicht die Breite des Randes."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "54-year-old man with a 1.5 cm squamous cell carcinoma confined to the glans. Biopsy: G1, no lymphovascular invasion, no invasion of the corpus spongiosum. Clinical stage cT1a G1 cN0. He is sexually active.",
+          "lead_in": "Which primary treatment is indicated?",
+          "options": {
+            "A": {
+              "text": "Organ-sparing excision with tumour-free margins",
+              "rationale": "In small, superficial, well-differentiated tumours organ preservation is oncologically equivalent and preserves voiding and sexual function. Local recurrences can again be treated with organ-sparing surgery. Wide local excision and glans resurfacing are the options, each with close follow-up. In small, superficial, well-differentiated tumours organ preservation is oncologically equivalent."
+            },
+            "B": {
+              "text": "Primary chemoradiotherapy of the primary tumour",
+              "rationale": "An option for selected patients who decline surgery or in whom organ preservation cannot be achieved surgically, but not first choice for a small resectable tumour."
+            },
+            "C": {
+              "text": "Partial penectomy with a two-centimetre margin",
+              "rationale": "The historical two-centimetre margin has been abandoned. Narrow but tumour-free margins suffice; the wide margin costs function without oncological gain."
+            },
+            "D": {
+              "text": "Radical penectomy with perineal urethrostomy",
+              "rationale": "Gross overtreatment for a G1 tumour confined to the glans, with substantial functional and psychosocial consequences."
+            }
+          },
+          "explanation": {
+            "core": "In penile cancer the primary tumour is treated as sparingly as is oncologically defensible, because nodal status determines prognosis rather than radicality at the organ. Organ preservation requires tumour-free margins on final histology and reliable follow-up.",
+            "teaching_point": "Margin width in penile cancer is not a fixed number of millimetres. What counts is R0, not how wide the margin is."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-pen-00003",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "fortgeschrittene Lymphknotenerkrankung",
+        "tags": [
+          "dosierung",
+          "pharmakologie",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU-ASCO Guidelines on Penile Cancer",
+          "year": 2026
+        },
+        {
+          "type": "studie",
+          "citation": "Pagliaro et al., J Clin Oncol 2010 (TIP)"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "61-jähriger Patient mit histologisch gesichertem Plattenepithelkarzinom des Penis. Beidseits tastbare, teilweise fixierte inguinale Lymphknotenpakete von bis zu 5 cm, keine Hautulzeration, keine Fernmetastasen im CT. ECOG 1, GFR 80 ml/min, keine Neuropathie.",
+          "lead_in": "Welches Vorgehen ist angezeigt?",
+          "options": {
+            "A": {
+              "text": "Palliative Zielsetzung mit alleiniger Schmerztherapie",
+              "rationale": "Auch bei ausgedehntem Lymphknotenbefall ohne Fernmetastasen besteht ein kurativer Anspruch."
+            },
+            "B": {
+              "text": "Primäre Radiatio der Leisten als definitive Therapie",
+              "rationale": "Der alleinigen Bestrahlung ist die Kombination aus Chemotherapie und Operation bei resektabler Erkrankung unterlegen."
+            },
+            "C": {
+              "text": "Neoadjuvante Chemotherapie nach dem TIP-Schema",
+              "rationale": "Bei ausgedehnter, teils fixierter Lymphknotenerkrankung verbessert die vorgeschaltete Chemotherapie die Resektabilität und selektiert die Patienten, die von der Operation profitieren. Gegeben werden vier Zyklen alle drei Wochen: Paclitaxel 175 mg/m² an Tag 1, Ifosfamid 1200 mg/m² an den Tagen 1 bis 3 und Cisplatin 25 mg/m² an den Tagen 1 bis 3. Bei Ansprechen folgt die Lymphadenektomie."
+            },
+            "D": {
+              "text": "Primäre radikale inguinale Lymphadenektomie beidseits",
+              "rationale": "Bei fixierten Paketen häufig nicht im Gesunden resezierbar, mit hoher Morbidität und schlechten Langzeitergebnissen."
+            }
+          },
+          "explanation": {
+            "core": "Der Lymphknotenbefall entscheidet beim Peniskarzinom über die Prognose und über die Therapiesequenz. Kleinvolumige Erkrankung wird primär operiert, ausgedehnte oder fixierte Erkrankung erhält zunächst Chemotherapie. Die Fallzahlen sind klein, weshalb die Behandlung an ein Zentrum gehört.",
+            "teaching_point": "Fixierte Leistenpakete sind ein Signal für vorgeschaltete Chemotherapie, nicht für ein größeres Messer."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "61-year-old man with histologically confirmed squamous cell carcinoma of the penis. Bilateral palpable, partly fixed inguinal nodal masses up to 5 cm, no skin ulceration, no distant metastases on CT. ECOG 1, GFR 80 ml/min, no neuropathy.",
+          "lead_in": "Which approach is indicated?",
+          "options": {
+            "A": {
+              "text": "Palliative intent with analgesia alone",
+              "rationale": "Even extensive nodal disease without distant metastases is treated with curative intent."
+            },
+            "B": {
+              "text": "Primary inguinal radiotherapy as definitive treatment",
+              "rationale": "Radiotherapy alone is inferior to the combination of chemotherapy and surgery in resectable disease."
+            },
+            "C": {
+              "text": "Neoadjuvant chemotherapy with the TIP regimen",
+              "rationale": "In bulky, partly fixed nodal disease upfront chemotherapy improves resectability and selects the patients who will benefit from surgery. Four cycles every three weeks: paclitaxel 175 mg/m² on day 1, ifosfamide 1200 mg/m² on days 1 to 3 and cisplatin 25 mg/m² on days 1 to 3. Lymphadenectomy follows in responders."
+            },
+            "D": {
+              "text": "Primary bilateral radical inguinal lymphadenectomy",
+              "rationale": "Fixed nodal masses are often not resectable with clear margins, with high morbidity and poor long-term outcomes."
+            }
+          },
+          "explanation": {
+            "core": "Nodal involvement determines both prognosis and treatment sequence in penile cancer. Low-volume disease goes to surgery first; bulky or fixed disease receives chemotherapy first. Case numbers are small, so treatment belongs in a referral centre.",
+            "teaching_point": "Fixed inguinal masses are a signal for upfront chemotherapy, not for a bigger operation."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-pen-00004",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Lymphknotenstaging",
+        "tags": [
+          "leitlinie",
+          "operationstechnik",
+          "pathologie",
+          "nachsorge"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU-ASCO Guidelines on Penile Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "63-jähriger Patient nach partieller Penektomie und beidseitiger inguinaler Lymphadenektomie. Histologie rechts: 3 von 12 Lymphknoten befallen, an einem davon extranodales Wachstum. Links: 0 von 10 befallen. Bildgebung des Beckens und des Thorax unauffällig.",
+          "lead_in": "Was folgt als nächster Schritt?",
+          "options": {
+            "A": {
+              "text": "Keine weitere Operation, strukturierte Nachsorge",
+              "rationale": "Extranodales Wachstum bedeutet ein hohes Risiko für bereits befallene Beckenlymphknoten, die der Bildgebung entgehen."
+            },
+            "B": {
+              "text": "Ipsilaterale pelvine Lymphadenektomie auf der rechten Seite",
+              "rationale": "Mehrere befallene inguinale Lymphknoten oder extranodales Wachstum auf einer Seite begründen die pelvine Ausräumung derselben Seite, weil der Lymphabfluss dorthin fortschreitet. Anschließend wird eine adjuvante Chemotherapie besprochen. Mehrere befallene inguinale Lymphknoten oder extranodales Wachstum auf einer Seite begründen die pelvine Ausräumung derselben Seite."
+            },
+            "C": {
+              "text": "Beidseitige pelvine Lymphadenektomie im selben Eingriff",
+              "rationale": "Ohne inguinalen Befall links besteht für die kontralaterale Beckenseite keine Indikation; der Lymphabfluss kreuzt auf Beckenebene nicht."
+            },
+            "D": {
+              "text": "Adjuvante Radiatio der Leiste statt pelviner Operation",
+              "rationale": "Die Bestrahlung ersetzt das operative Staging des Beckens nicht und erhöht in dieser Situation vor allem die Lymphödemrate."
+            }
+          },
+          "explanation": {
+            "core": "Der Lymphabfluss des Peniskarzinoms verläuft stufenweise: inguinal, dann pelvin, und auf Beckenebene ohne Seitenwechsel. Der inguinale Befund entscheidet deshalb seitengetrennt darüber, ob das Becken ausgeräumt wird. Extranodales Wachstum und mehrere befallene Knoten sind die beiden Auslöser.",
+            "teaching_point": "Die Beckenausräumung folgt der Leiste, und zwar seitengetrennt."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "63-year-old man after partial penectomy and bilateral inguinal lymphadenectomy. Histology on the right: 3 of 12 nodes involved, one with extranodal extension. Left: 0 of 10 involved. Pelvic and chest imaging unremarkable.",
+          "lead_in": "What is the next step?",
+          "options": {
+            "A": {
+              "text": "No further surgery, structured follow-up instead",
+              "rationale": "Extranodal extension carries a high risk of already involved pelvic nodes that imaging will miss."
+            },
+            "B": {
+              "text": "Ipsilateral pelvic lymphadenectomy on the right side",
+              "rationale": "Several involved inguinal nodes or extranodal extension on one side justify pelvic dissection on that same side, because lymphatic spread proceeds there. Adjuvant chemotherapy is then discussed. Several involved inguinal nodes or extranodal extension on one side justify pelvic dissection on that same side."
+            },
+            "C": {
+              "text": "Bilateral pelvic lymphadenectomy in the same procedure",
+              "rationale": "With no inguinal involvement on the left there is no indication for the contralateral pelvis; lymphatic drainage does not cross at pelvic level."
+            },
+            "D": {
+              "text": "Adjuvant groin radiotherapy instead of pelvic surgery",
+              "rationale": "Radiotherapy does not replace surgical staging of the pelvis and mainly increases the rate of lymphoedema in this situation."
+            }
+          },
+          "explanation": {
+            "core": "Lymphatic drainage in penile cancer is stepwise: inguinal, then pelvic, and without crossing at pelvic level. The inguinal findings therefore decide side by side whether the pelvis is dissected. Extranodal extension and multiple involved nodes are the two triggers.",
+            "teaching_point": "Pelvic dissection follows the groin, and it follows it side by side."
+          },
+          "flag_note": null
+        }
+      }
+    }
+  ]
+}

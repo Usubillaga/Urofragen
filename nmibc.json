@@ -1,0 +1,236 @@
+{
+  "gebiet": "nmibc",
+  "fragen": [
+    {
+      "id": "uro-nmi-00001",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "T1 High Grade",
+        "tags": [
+          "leitlinie",
+          "pathologie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Non-muscle-invasive Bladder Cancer",
+          "version": null,
+          "year": 2025,
+          "section": null
+        },
+        {
+          "type": "leitlinie",
+          "code": "AWMF 032-038OL",
+          "title": "S3-Leitlinie Harnblasenkarzinom",
+          "version": null,
+          "year": 2024,
+          "section": null
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-02",
+        "last_reviewed": "2026-09-02",
+        "expires": "2027-09-02"
+      },
+      "content": {
+        "de": {
+          "vignette": "63-jährige Patientin nach transurethraler Resektion eines 3 cm großen, multifokalen Blasentumors. Histologie: Urothelkarzinom pT1, High Grade, kein Detrusormuskel im Präparat, kein begleitendes Carcinoma in situ. Die Resektion wurde makroskopisch als vollständig beschrieben.",
+          "lead_in": "Was ist der nächste Schritt?",
+          "options": {
+            "A": {
+              "text": "Primäre radikale Zystektomie mit Lymphadenektomie",
+              "rationale": "Die frühe Zystektomie ist bei Very-High-Risk-Konstellationen zu diskutieren, aber erst nach vollständigem Staging durch die Nach-TUR-B."
+            },
+            "B": {
+              "text": "Nach-TUR-B innerhalb von zwei bis sechs Wochen",
+              "rationale": "Ohne Detrusormuskel im Präparat ist das Staging bei T1 nicht gesichert; das Understaging-Risiko liegt in Serien bei rund einem Drittel."
+            },
+            "C": {
+              "text": "Frühinstillation mit Mitomycin C nach der Resektion",
+              "rationale": "Die Frühinstillation ist Low-Risk-Tumoren vorbehalten und muss innerhalb von 24 Stunden erfolgen; bei T1 High Grade ist sie nicht indiziert."
+            },
+            "D": {
+              "text": "Sofortiger Beginn der BCG-Induktion über sechs Wochen",
+              "rationale": "Eine Instillationstherapie auf unsicherem Staging kann ein bereits muskelinvasives Karzinom über Monate verschleiern."
+            }
+          },
+          "explanation": {
+            "core": "Die Nach-TUR-B ist keine Therapie, sondern Staging. Ihre Indikation ergibt sich aus T1-Stadium, unvollständiger Resektion oder fehlendem Detrusormuskel bei High-Grade-Tumoren. Jede Therapieentscheidung ohne dieses Staging trifft auf unsicherer Grundlage.",
+            "teaching_point": "Fehlender Detrusormuskel bei T1 High Grade heißt: Stadium unbekannt, nicht Stadium T1."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "63-year-old woman after transurethral resection of a 3 cm multifocal bladder tumour. Histology: urothelial carcinoma pT1, high grade, no detrusor muscle in the specimen, no concomitant carcinoma in situ. The resection was described as macroscopically complete.",
+          "lead_in": "What is the next step?",
+          "options": {
+            "A": {
+              "text": "Primary radical cystectomy with lymphadenectomy",
+              "rationale": "Early cystectomy is discussed in very-high-risk constellations, but only after complete staging by repeat resection."
+            },
+            "B": {
+              "text": "Repeat TURBT within two to six weeks",
+              "rationale": "Without detrusor muscle in the specimen the T1 stage is not secure; series report understaging in roughly one third of cases."
+            },
+            "C": {
+              "text": "Immediate instillation of mitomycin C after resection",
+              "rationale": "The immediate instillation is reserved for low-risk tumours and must be given within 24 hours; it is not indicated in T1 high grade."
+            },
+            "D": {
+              "text": "Immediate start of BCG induction over six weeks",
+              "rationale": "Instillation therapy on uncertain staging can mask an already muscle-invasive tumour for months."
+            }
+          },
+          "explanation": {
+            "core": "Repeat TURBT is staging, not treatment. Its indication follows from T1 stage, incomplete resection or absent detrusor muscle in high-grade disease. Any treatment decision without this staging rests on an uncertain basis.",
+            "teaching_point": "Absent detrusor muscle in T1 high grade means unknown stage, not stage T1."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-nmi-00002",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Instillationstherapie",
+        "tags": [
+          "dosierung",
+          "pharmakologie",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Non-muscle-invasive Bladder Cancer",
+          "year": 2026
+        },
+        {
+          "type": "studie",
+          "citation": "SWOG 8507, Lamm et al."
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-05",
+        "last_reviewed": "2026-09-05",
+        "expires": "2028-09-05"
+      },
+      "content": {
+        "de": {
+          "vignette": "59-jähriger Patient mit Urothelkarzinom pT1 High Grade. Die Nach-TUR-B zeigt keinen Resttumor und Detrusormuskel im Präparat, kein begleitendes Carcinoma in situ. Die Risikoeinstufung lautet High Risk. Keine Immunsuppression, keine Tuberkulose in der Anamnese, Urinkultur steril.",
+          "lead_in": "Welches Instillationsschema entspricht der Leitlinie?",
+          "options": {
+            "A": {
+              "text": "BCG-Induktion mit Erhaltung in Volldosis über drei Jahre",
+              "rationale": "Das SWOG-Erhaltungsschema über drei Jahre ist beim High-Risk-Tumor der Standard und dem alleinigen Induktionszyklus in Rezidiv- und Progressionsrate überlegen. Die Induktion umfasst sechs wöchentliche Instillationen, die Erhaltung je drei wöchentliche Gaben in den Monaten 3, 6, 12, 18, 24, 30 und 36."
+            },
+            "B": {
+              "text": "Sechs wöchentliche BCG-Gaben als alleinige Induktion",
+              "rationale": "Ohne Erhaltung geht ein erheblicher Teil des Effekts verloren; die Induktion allein ist beim High-Risk-Tumor unzureichend."
+            },
+            "C": {
+              "text": "BCG-Induktion mit anschließender Erhaltung über ein Jahr",
+              "rationale": "Ein Jahr Erhaltung ist die Option beim mittleren Risiko. Beim High-Risk-Tumor sind drei Jahre vorgesehen."
+            },
+            "D": {
+              "text": "Mitomycin C wöchentlich sechsmal, dann monatlich ein Jahr",
+              "rationale": "Das ist das Schema für Tumoren mit mittlerem Risiko. Beim High-Risk-Tumor ist BCG der Chemotherapie überlegen."
+            }
+          },
+          "explanation": {
+            "core": "Die Risikogruppe bestimmt sowohl die Substanz als auch die Dauer. Mittleres Risiko: BCG über ein Jahr oder Mitomycin. Hohes Risiko: BCG in Volldosis über drei Jahre. Sehr hohes Risiko: frühe Zystektomie diskutieren. Vor jeder BCG-Gabe sind traumatische Katheterisierung, Makrohämaturie und Harnwegsinfekt auszuschließen.",
+            "teaching_point": "Die Erhaltungsdauer ist keine Ermessensfrage, sondern folgt der Risikogruppe: ein Jahr oder drei Jahre."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "59-year-old man with pT1 high-grade urothelial carcinoma. Repeat TURBT shows no residual tumour and detrusor muscle in the specimen, no concomitant carcinoma in situ. Risk classification is high risk. No immunosuppression, no history of tuberculosis, sterile urine culture.",
+          "lead_in": "Which intravesical schedule follows the guideline?",
+          "options": {
+            "A": {
+              "text": "BCG induction with full-dose maintenance for three years",
+              "rationale": "The three-year SWOG maintenance schedule is standard in high-risk disease and superior to induction alone in recurrence and progression rates. Induction comprises six weekly instillations, maintenance three weekly doses each at months 3, 6, 12, 18, 24, 30 and 36."
+            },
+            "B": {
+              "text": "Six weekly BCG instillations as induction only",
+              "rationale": "Without maintenance a substantial part of the effect is lost; induction alone is inadequate in high-risk disease."
+            },
+            "C": {
+              "text": "BCG induction followed by maintenance for one year",
+              "rationale": "One year of maintenance is the intermediate-risk option. High-risk disease calls for three years."
+            },
+            "D": {
+              "text": "Mitomycin C weekly six times, then monthly for a year",
+              "rationale": "That is the intermediate-risk schedule. In high-risk disease BCG is superior to chemotherapy."
+            }
+          },
+          "explanation": {
+            "core": "The risk group determines both the agent and the duration. Intermediate risk: BCG for one year or mitomycin. High risk: full-dose BCG for three years. Very high risk: discuss early cystectomy. Before every BCG instillation exclude traumatic catheterisation, macroscopic haematuria and urinary tract infection.",
+            "teaching_point": "Maintenance duration is not discretionary; it follows the risk group: one year or three years."
+          },
+          "flag_note": null
+        }
+      }
+    }
+  ]
+}

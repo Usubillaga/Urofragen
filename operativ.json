@@ -1,0 +1,2177 @@
+{
+  "gebiet": "operativ",
+  "fragen": [
+    {
+      "id": "uro-ope-00001",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "radikale Prostatektomie",
+        "tags": [
+          "operationstechnik",
+          "komplikationsmanagement"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Prostate Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2029-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Bei einer roboterassistierten radikalen Prostatektomie soll beidseits nervschonend vorgegangen werden. Der Operateur präpariert nach Absetzen der Blase entlang der Prostatakapsel.",
+          "lead_in": "Wo verläuft das neurovaskuläre Bündel, und welche Struktur muss zuvor kontrolliert werden?",
+          "options": {
+            "A": {
+              "text": "Ventral in der Mittellinie unter der Denonvillier-Faszie",
+              "rationale": "Die Denonvillier-Faszie liegt dorsal zwischen Prostata und Rektum, nicht ventral, und die Bündel liegen nicht in der Mittellinie."
+            },
+            "B": {
+              "text": "Dorsolateral zwischen Prostatafaszie und Levatorfaszie",
+              "rationale": "Die Bündel verlaufen dorsolateral in dieser Schicht. Der Santorini-Plexus liegt ventral über der Harnröhre und ist die Hauptblutungsquelle vor der Apexpräparation. Die Bündel liegen etwa bei fünf und sieben Uhr. Ventral ist zuvor der Plexus venosus dorsalis nach Santorini zu versorgen, weil das Feld am Apex sonst unübersichtlich bleibt."
+            },
+            "C": {
+              "text": "Dorsal in der Mittellinie zwischen Prostata und Rektum",
+              "rationale": "In der dorsalen Mittellinie liegt kein Bündel, und eine Ligatur der A. iliaca interna gehört nicht zu diesem Eingriff."
+            },
+            "D": {
+              "text": "Lateral an der Beckenwand oberhalb des M. levator ani",
+              "rationale": "Der N. obturatorius ist bei der Lymphadenektomie relevant, nicht als Leitstruktur der Nervschonung an der Prostata."
+            }
+          },
+          "explanation": {
+            "core": "Die Nervschonung hängt an einer Schicht, nicht an einem sichtbaren Nerv: Präpariert wird zwischen Prostatafaszie und Levatorfaszie dorsolateral. Vorher muss die ventrale Blutungsquelle beherrscht sein, sonst ist das Operationsfeld am Apex unübersichtlich und die Schonung misslingt.",
+            "teaching_point": "Erst Santorini kontrollieren, dann dorsolateral schonen. Blutarmut ist die Voraussetzung der Nervschonung."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "During robot-assisted radical prostatectomy a bilateral nerve-sparing approach is planned. After dividing the bladder neck the surgeon dissects along the prostatic capsule.",
+          "lead_in": "Where does the neurovascular bundle run, and which structure must be controlled beforehand?",
+          "options": {
+            "A": {
+              "text": "Ventrally in the midline beneath Denonvilliers' fascia",
+              "rationale": "Denonvilliers' fascia lies dorsally between prostate and rectum, not ventrally, and the bundles do not lie in the midline."
+            },
+            "B": {
+              "text": "Dorsolaterally between prostatic and levator fascia",
+              "rationale": "The bundles run dorsolaterally in this plane. The Santorini plexus lies ventrally over the urethra and is the main bleeding source before apical dissection. The bundles lie at roughly five and seven o'clock. Ventrally the dorsal venous complex of Santorini must be secured first, otherwise the apical field remains obscured."
+            },
+            "C": {
+              "text": "Dorsally in the midline between prostate and rectum",
+              "rationale": "No bundle lies in the dorsal midline, and ligation of the internal iliac artery is not part of this operation."
+            },
+            "D": {
+              "text": "Laterally on the pelvic sidewall above levator ani",
+              "rationale": "The obturator nerve matters during lymphadenectomy, not as a landmark for nerve sparing at the prostate."
+            }
+          },
+          "explanation": {
+            "core": "Nerve sparing depends on a plane rather than on a visible nerve: dissection proceeds dorsolaterally between prostatic and levator fascia. The ventral bleeding source must be controlled first, otherwise the apex is obscured and preservation fails.",
+            "teaching_point": "Control Santorini first, then spare dorsolaterally. A bloodless field is the prerequisite for nerve sparing."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ope-00002",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "transurethrale Resektion",
+        "tags": [
+          "operationstechnik",
+          "komplikationsmanagement",
+          "notfall"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Non-muscle-invasive Bladder Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2029-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Bei der transurethralen Resektion eines Tumors an der linken Seitenwand der Blase zuckt bei jeder Aktivierung der Schlinge das linke Bein heftig. Der Patient ist in Spinalanästhesie.",
+          "lead_in": "Was liegt vor und wie wird es beherrscht?",
+          "options": {
+            "A": {
+              "text": "Blasenperforation; sofortiger Abbruch und Laparotomie",
+              "rationale": "Die Perforation ist die gefürchtete Folge, nicht die Ursache des Zuckens; die Laparotomie ist ohne weitere Zeichen nicht begründet."
+            },
+            "B": {
+              "text": "Reizung des N. femoralis; Resektion unverändert fortsetzen",
+              "rationale": "Der N. femoralis versorgt die Vorderseite des Oberschenkels und verläuft nicht in unmittelbarer Nachbarschaft der lateralen Blasenwand."
+            },
+            "C": {
+              "text": "Nebeneffekt der Spinalanästhesie ohne operative Bedeutung",
+              "rationale": "Die Spinalanästhesie verhindert den Reflex gerade nicht, weil der Strom den Nerv direkt und peripher reizt."
+            },
+            "D": {
+              "text": "Obturatoriusreflex durch direkte Reizung an der Beckenwand",
+              "rationale": "Der Nerv verläuft unmittelbar lateral der Blasenwand. Das plötzliche Zucken kann die Schlinge durch die Wand treiben und eine Perforation verursachen. Abhilfe schaffen Muskelrelaxation in Allgemeinanästhesie, eine Obturatorius-Blockade, kurze Stromimpulse oder die bipolare Resektion. Regionalanästhesie schützt nicht, weil die Reizung distal der Blockade erfolgt."
+            }
+          },
+          "explanation": {
+            "core": "Der Obturatoriusreflex ist ein anatomisches Problem: Der N. obturatorius zieht dicht an der lateralen Blasenwand vorbei und wird vom monopolaren Strom direkt gereizt. Regionalanästhesie schützt nicht, weil die Reizung distal der Blockade erfolgt. Die Lösungen setzen entweder an der Muskelantwort oder an der Stromform an.",
+            "teaching_point": "Seitenwandtumor plus zuckendes Bein bedeutet Perforationsgefahr, nicht Anästhesieproblem."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "During transurethral resection of a tumour on the left lateral bladder wall the left leg jerks violently each time the loop is activated. The patient is under spinal anaesthesia.",
+          "lead_in": "What is happening and how is it managed?",
+          "options": {
+            "A": {
+              "text": "Bladder perforation; abort at once and proceed to laparotomy",
+              "rationale": "Perforation is the feared consequence, not the cause of the jerk, and laparotomy is not justified without further signs."
+            },
+            "B": {
+              "text": "Femoral nerve irritation; continue resection unchanged",
+              "rationale": "The femoral nerve supplies the anterior thigh and does not run immediately adjacent to the lateral bladder wall."
+            },
+            "C": {
+              "text": "Side effect of spinal anaesthesia without surgical relevance",
+              "rationale": "Spinal anaesthesia does not prevent the reflex, because the current stimulates the nerve directly and peripherally."
+            },
+            "D": {
+              "text": "Obturator reflex from direct stimulation at the sidewall",
+              "rationale": "The nerve runs immediately lateral to the bladder wall. The sudden jerk can drive the loop through the wall and cause perforation. Remedies are muscle relaxation under general anaesthesia, an obturator nerve block, short current pulses or bipolar resection. Regional anaesthesia does not protect, because stimulation occurs distal to the block."
+            }
+          },
+          "explanation": {
+            "core": "The obturator reflex is an anatomical problem: the obturator nerve passes close to the lateral bladder wall and is directly stimulated by monopolar current. Regional anaesthesia does not protect, because stimulation occurs distal to the block. Solutions address either the muscle response or the current itself.",
+            "teaching_point": "A lateral wall tumour plus a jerking leg means risk of perforation, not an anaesthetic problem."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ope-00003",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Nephrektomie",
+        "tags": [
+          "operationstechnik",
+          "komplikationsmanagement"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Renal Cell Carcinoma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2029-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Laparoskopische radikale Nephrektomie links. Nach Mobilisierung des Kolons wird der Hilus dargestellt. Die Nierenvene ist auffallend lang und nimmt mehrere Zuflüsse auf.",
+          "lead_in": "Welche Aussage zur Anatomie und zum Vorgehen trifft zu?",
+          "options": {
+            "A": {
+              "text": "Die linke Nierenvene nimmt mehrere Zuflüsse auf; Arterie zuerst",
+              "rationale": "Die längere linke Nierenvene kreuzt vor der Aorta und sammelt diese Zuflüsse. Die Arterie zuerst zu durchtrennen verhindert eine venöse Stauung der Niere mit Blutungsneigung. Regelhaft münden die V. suprarenalis, die V. testicularis oder ovarica und eine lumbale Vene ein. Diese Zuflüsse werden vor der Absetzung versorgt, und die Arterie wird vor der Vene durchtrennt, um eine venöse Stauung zu vermeiden."
+            },
+            "B": {
+              "text": "Die linke Nierenvene verläuft hinter der Aorta ohne Zuflüsse",
+              "rationale": "Ein retroaortaler Verlauf ist eine seltene Variante, nicht die Regel; die Zuflüsse sind links typisch."
+            },
+            "C": {
+              "text": "Die Vene wird zuerst durchtrennt, um die Zufuhr zu stoppen",
+              "rationale": "Damit staut sich das arterielle Blut in der Niere; Organschwellung und Blutungsneigung nehmen zu."
+            },
+            "D": {
+              "text": "Die V. suprarenalis mündet links direkt in die V. cava inferior",
+              "rationale": "Das gilt für die rechte Seite. Links mündet sie in die Nierenvene, was den Zugang zur Nebenniere links über die Nierenvene erklärt."
+            }
+          },
+          "explanation": {
+            "core": "Die Seitenunterschiede am Hilus sind prüfungs- wie praxisrelevant: Die linke Nierenvene ist lang, überkreuzt die Aorta und sammelt Nebennieren-, Gonaden- und Lumbalvene. Rechts ist die Vene kurz und mündet direkt in die Cava, und die rechte Nebennierenvene zieht separat zur Cava. Die Reihenfolge Arterie vor Vene gilt auf beiden Seiten.",
+            "teaching_point": "Links sammelt die Nierenvene, rechts mündet alles einzeln in die Cava."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Laparoscopic left radical nephrectomy. After mobilising the colon the hilum is exposed. The renal vein is strikingly long and receives several tributaries.",
+          "lead_in": "Which statement about the anatomy and the approach is correct?",
+          "options": {
+            "A": {
+              "text": "The left renal vein receives several tributaries; artery first",
+              "rationale": "The longer left renal vein crosses in front of the aorta and collects these tributaries. Dividing the artery first prevents venous congestion of the kidney with a tendency to bleed. The suprarenal, gonadal and a lumbar vein regularly drain into it. These tributaries are secured before division, and the artery is divided before the vein to avoid venous congestion."
+            },
+            "B": {
+              "text": "The left renal vein runs behind the aorta without tributaries",
+              "rationale": "A retroaortic course is a rare variant, not the rule, and tributaries are typical on the left."
+            },
+            "C": {
+              "text": "The vein is divided first to stop the blood supply",
+              "rationale": "This traps arterial inflow in the kidney; organ swelling and bleeding tendency increase."
+            },
+            "D": {
+              "text": "On the left the suprarenal vein drains into the vena cava",
+              "rationale": "That applies to the right side. On the left it drains into the renal vein, which is why left adrenal access runs via the renal vein."
+            }
+          },
+          "explanation": {
+            "core": "The side differences at the hilum matter in exams and in theatre: the left renal vein is long, crosses the aorta and collects adrenal, gonadal and lumbar veins. On the right the vein is short and drains straight into the cava, and the right adrenal vein runs separately to the cava. Artery before vein applies on both sides.",
+            "teaching_point": "On the left the renal vein collects; on the right everything drains separately into the cava."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ope-00004",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "perkutane Nephrolitholapaxie",
+        "tags": [
+          "operationstechnik",
+          "endourologisch",
+          "komplikationsmanagement"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urolithiasis",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2029-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Perkutane Nephrolitholapaxie bei einem Ausgussstein. Der Zugang soll blutungsarm angelegt werden, zusätzlich ist ein Zugang zum oberen Kelchsystem erforderlich.",
+          "lead_in": "Welche anatomischen Regeln gelten für die Punktion?",
+          "options": {
+            "A": {
+              "text": "Punktion direkt in das Nierenbecken wegen des größten Raums",
+              "rationale": "Der direkte Beckenzugang trifft die Hilusgefäße und ist die blutungsträchtigste Variante."
+            },
+            "B": {
+              "text": "Punktion durch den Kelchhals, weil die Wand dort dünn ist",
+              "rationale": "Im Kelchhals verlaufen die Segmentarterien; die Verletzung führt zu erheblicher Blutung und zur Kelchhalsstenose."
+            },
+            "C": {
+              "text": "Punktion durch die Kelchspitze entlang der Brödel-Linie",
+              "rationale": "Die Kelchspitze führt zwischen die Versorgungsgebiete, nicht durch ein Gefäß. Oberhalb der zwölften und erst recht der elften Rippe wird der Pleurarezessus regelmäßig gekreuzt. Die Brödel-Linie trennt die vordere von der hinteren Segmentversorgung und ist relativ gefäßarm. Ein Zugang oberhalb der zwölften und erst recht der elften Rippe kreuzt regelmäßig den Pleurarezessus."
+            },
+            "D": {
+              "text": "Zugang oberhalb der elften Rippe ist ohne Pleurarisiko",
+              "rationale": "Gerade dort ist die Rate an Hydro- und Pneumothorax am höchsten; der Zugang wird nur bei klarer Indikation und mit entsprechender Aufklärung gewählt."
+            }
+          },
+          "explanation": {
+            "core": "Zwei anatomische Grenzen bestimmen die Sicherheit des Zugangs. Innerhalb der Niere trennt die Brödel-Linie die vordere von der hinteren arteriellen Versorgung, weshalb die Punktion durch die Kelchspitze verläuft. Außerhalb bestimmt die Rippenhöhe das pulmonale Risiko, das mit jedem Interkostalraum weiter kranial steigt.",
+            "teaching_point": "Durch die Kelchspitze, nicht durch den Kelchhals. Und je höher die Rippe, desto näher die Pleura."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Percutaneous nephrolithotomy for a staghorn stone. Access should be as bloodless as possible, and an upper pole approach is additionally required.",
+          "lead_in": "Which anatomical rules govern the puncture?",
+          "options": {
+            "A": {
+              "text": "Puncture directly into the pelvis for the largest space",
+              "rationale": "Direct pelvic access encounters the hilar vessels and is the most haemorrhagic variant."
+            },
+            "B": {
+              "text": "Puncture through the infundibulum, where the wall is thin",
+              "rationale": "The segmental arteries run in the infundibulum; injury causes substantial bleeding and infundibular stenosis."
+            },
+            "C": {
+              "text": "Puncture through the calyceal tip along the Brödel line",
+              "rationale": "The calyceal tip leads between the vascular territories rather than through a vessel. Above the twelfth and even more the eleventh rib the pleural recess is regularly crossed. The Brödel line separates anterior from posterior segmental supply and is relatively avascular. Access above the twelfth and especially the eleventh rib regularly crosses the pleural recess."
+            },
+            "D": {
+              "text": "Access above the eleventh rib carries no pleural risk",
+              "rationale": "This is precisely where hydrothorax and pneumothorax rates are highest; the approach is chosen only with a clear indication and appropriate consent."
+            }
+          },
+          "explanation": {
+            "core": "Two anatomical boundaries determine access safety. Inside the kidney the Brödel line separates anterior from posterior arterial supply, which is why puncture passes through the calyceal tip. Outside, rib level determines pulmonary risk, which rises with every intercostal space further cranially.",
+            "teaching_point": "Through the calyceal tip, not the infundibulum. And the higher the rib, the closer the pleura."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ope-00005",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Ureterverletzung",
+        "tags": [
+          "operationstechnik",
+          "komplikationsmanagement"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2029-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Nach einer laparoskopischen Hysterektomie entwickelt eine 48-jährige Patientin Flankenschmerzen und wässrigen Scheidenausfluss. Das CT zeigt eine linksseitige Harnstauung und eine Kontrastmittelextravasation im kleinen Becken.",
+          "lead_in": "An welcher Stelle ist die Verletzung am wahrscheinlichsten und warum?",
+          "options": {
+            "A": {
+              "text": "Am Ureterabgang, weil die Wand dort am dünnsten ist",
+              "rationale": "Der Ureterabgang liegt weit vom Operationsgebiet einer Hysterektomie entfernt."
+            },
+            "B": {
+              "text": "Distal, wo die A. uterina den Ureter von ventral kreuzt",
+              "rationale": "Diese Kreuzung ist die klassische Gefahrenstelle. Beim Absetzen der A. uterina wird der darunter verlaufende Ureter mitgefasst oder thermisch geschädigt. Die Kreuzung liegt etwa zwei Zentimeter lateral der Zervix. Beim Absetzen der A. uterina wird der darunter verlaufende Ureter mitgefasst oder thermisch geschädigt."
+            },
+            "C": {
+              "text": "An der Kreuzung mit den Iliakalgefäßen am Beckeneingang",
+              "rationale": "Diese Kreuzung ist eine wichtige Landmarke beim Aufsuchen des Ureters, aber nicht die typische Verletzungsstelle bei der Hysterektomie."
+            },
+            "D": {
+              "text": "Im Ureterostium, wo der intramurale Verlauf beginnt",
+              "rationale": "Das Ostium liegt innerhalb der Blasenwand und ist bei diesem Eingriff nicht exponiert."
+            }
+          },
+          "explanation": {
+            "core": "Der Ureter unterkreuzt die A. uterina nahe der Zervix, was sich als Merksatz vom Wasser unter der Brücke eingebürgert hat. Diese Stelle erklärt die Mehrzahl der iatrogenen Ureterläsionen in der gynäkologischen Chirurgie. Späte Symptome sind Flankenschmerz, Fieber, Urinaustritt über die Scheide und eine stumme Hydronephrose.",
+            "teaching_point": "Wasser fließt unter der Brücke: Der Ureter liegt unter der A. uterina, nicht darüber."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "After laparoscopic hysterectomy a 48-year-old woman develops flank pain and watery vaginal discharge. CT shows left-sided hydronephrosis and contrast extravasation in the pelvis.",
+          "lead_in": "Where is the injury most likely and why?",
+          "options": {
+            "A": {
+              "text": "At the ureteropelvic junction, where the wall is thinnest",
+              "rationale": "The ureteropelvic junction lies far from the operative field of a hysterectomy."
+            },
+            "B": {
+              "text": "Distally, where the uterine artery crosses in front",
+              "rationale": "This crossing is the classic danger point. When the uterine artery is divided the underlying ureter is caught in the clamp or thermally damaged."
+            },
+            "C": {
+              "text": "At the crossing with the iliac vessels at the pelvic brim",
+              "rationale": "This crossing is an important landmark for finding the ureter but not the typical site of injury during hysterectomy."
+            },
+            "D": {
+              "text": "At the ureteric orifice, where the intramural course starts",
+              "rationale": "The orifice lies within the bladder wall and is not exposed during this operation."
+            }
+          },
+          "explanation": {
+            "core": "The ureter passes beneath the uterine artery close to the cervix, captured by the phrase water under the bridge. This site accounts for most iatrogenic ureteric injuries in gynaecological surgery. Late symptoms are flank pain, fever, urine leakage per vaginam and silent hydronephrosis.",
+            "teaching_point": "Water flows under the bridge: the ureter lies beneath the uterine artery, not above it."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ope-00006",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "retroperitoneale Lymphadenektomie",
+        "tags": [
+          "operationstechnik",
+          "komplikationsmanagement"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2029-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 29-jähriger Patient soll eine retroperitoneale Lymphadenektomie nach Chemotherapie erhalten. Er hat einen aktuellen Kinderwunsch und fragt nach Folgen für die Zeugungsfähigkeit.",
+          "lead_in": "Welche Struktur ist entscheidend und welche Folge droht bei ihrer Durchtrennung?",
+          "options": {
+            "A": {
+              "text": "Sympathische Fasern aus Th12 bis L3 und Plexus hypogastricus",
+              "rationale": "Die Emission und der Blasenhalsschluss sind sympathisch gesteuert. Die nervschonende Technik mit Darstellung und Erhalt dieser Fasern ist deshalb Standard, wo onkologisch vertretbar. Ihre Durchtrennung führt zur retrograden Ejakulation oder Anejakulation bei erhaltener Erektion, weil Emission und Blasenhalsschluss sympathisch gesteuert werden."
+            },
+            "B": {
+              "text": "Der N. genitofemoralis; Durchtrennung führt zur Anejakulation",
+              "rationale": "Er vermittelt Sensibilität an Skrotum und Oberschenkel sowie den Kremasterreflex, nicht die Ejakulation."
+            },
+            "C": {
+              "text": "Die Nn. splanchnici pelvini aus S2 bis S4; Ejakulationsverlust",
+              "rationale": "Diese parasympathischen Fasern steuern die Erektion; ihre Schädigung führt zur erektilen Dysfunktion, nicht zur Ejakulationsstörung."
+            },
+            "D": {
+              "text": "Der N. obturatorius; Schädigung führt zum Fertilitätsverlust",
+              "rationale": "Er ist rein motorisch und sensibel für die Adduktoren und die mediale Oberschenkelseite und hat keinen Bezug zur Ejakulation."
+            }
+          },
+          "explanation": {
+            "core": "Erektion und Ejakulation haben unterschiedliche nervale Grundlagen: parasympathisch sakral für die Erektion, sympathisch thorakolumbal für Emission und Blasenhalsschluss. Bei der retroperitonealen Lymphadenektomie sind ausschließlich die sympathischen Fasern gefährdet, weshalb der Patient über die Ejakulation und nicht über die Erektion aufzuklären ist.",
+            "teaching_point": "Sympathisch ejakuliert, parasympathisch erigiert. Bei der Lymphadenektomie steht die Ejakulation auf dem Spiel."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 29-year-old man is scheduled for post-chemotherapy retroperitoneal lymph node dissection. He currently wishes to father children and asks about effects on fertility.",
+          "lead_in": "Which structure is decisive and what happens if it is divided?",
+          "options": {
+            "A": {
+              "text": "Sympathetic fibres from T12 to L3 and the hypogastric plexus",
+              "rationale": "Emission and bladder neck closure are sympathetically controlled. Nerve-sparing technique with identification and preservation of these fibres is therefore standard where oncologically acceptable. Dividing them causes retrograde ejaculation or anejaculation with preserved erection, because emission and bladder neck closure are sympathetically controlled."
+            },
+            "B": {
+              "text": "The genitofemoral nerve; division causes anejaculation",
+              "rationale": "It provides sensation to scrotum and thigh and the cremasteric reflex, not ejaculation."
+            },
+            "C": {
+              "text": "The pelvic splanchnic nerves from S2 to S4; loss of ejaculation",
+              "rationale": "These parasympathetic fibres drive erection; damage causes erectile dysfunction, not an ejaculatory disorder."
+            },
+            "D": {
+              "text": "The obturator nerve; damage causes loss of fertility",
+              "rationale": "It is purely motor and sensory to the adductors and medial thigh and has no bearing on ejaculation."
+            }
+          },
+          "explanation": {
+            "core": "Erection and ejaculation have different nerve supplies: sacral parasympathetic for erection, thoracolumbar sympathetic for emission and bladder neck closure. In retroperitoneal lymph node dissection only the sympathetic fibres are at risk, so counselling must address ejaculation rather than erection.",
+            "teaching_point": "Sympathetic ejaculates, parasympathetic erects. Lymphadenectomy puts ejaculation at stake."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ope-00007",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "inguinale Lymphadenektomie",
+        "tags": [
+          "operationstechnik",
+          "komplikationsmanagement"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU-ASCO Guidelines on Penile Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2029-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Radikale inguinale Lymphadenektomie rechts bei Peniskarzinom mit nachgewiesenem Lymphknotenbefall. Der Operateur plant das Ausmaß der Ausräumung und die Deckung.",
+          "lead_in": "Welche Aussage zu Grenzen und Technik trifft zu?",
+          "options": {
+            "A": {
+              "text": "Ausräumung kranial bis zum Nabel und lateral bis zur Spina",
+              "rationale": "Beide Grenzen liegen weit außerhalb des Femoraldreiecks und beschreiben kein anerkanntes Template."
+            },
+            "B": {
+              "text": "Die V. femoralis wird routinemäßig mitreseziert",
+              "rationale": "Die Femoralvene bleibt erhalten; ihre Resektion verursacht schwere Abflussstörungen ohne onkologischen Gewinn."
+            },
+            "C": {
+              "text": "Die V. saphena magna muss in jedem Fall geopfert werden",
+              "rationale": "Ihr Erhalt senkt gerade Lymphödem- und Wundkomplikationsraten und ist onkologisch unbedenklich."
+            },
+            "D": {
+              "text": "Das Ausräumungsgebiet entspricht dem Femoraldreieck",
+              "rationale": "Diese Grenzen definieren das anerkannte Template. Die genannten Maßnahmen adressieren die beiden Hauptprobleme des Eingriffs: Lymphödem und Wundheilungsstörung über den Gefäßen. Es wird begrenzt vom Leistenband kranial, dem M. sartorius lateral und dem M. adductor longus medial. Der Erhalt der V. saphena magna senkt die Morbidität, und ein Sartorius-Schwenklappen kann die Femoralgefäße decken."
+            }
+          },
+          "explanation": {
+            "core": "Die inguinale Lymphadenektomie ist onkologisch wirksam, aber morbiditätsbelastet. Die anatomischen Grenzen des Femoraldreiecks legen das Ausmaß fest, und mehrere Maßnahmen mildern die Folgen: Erhalt der V. saphena magna, dicke Hautlappen, Vermeidung von Spannung und die Deckung der Gefäße durch den Sartorius bei ausgedehnter Ausräumung.",
+            "teaching_point": "Das Femoraldreieck ist die Landkarte: Leistenband, Sartorius, Adductor longus."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Right radical inguinal lymphadenectomy for penile cancer with proven nodal involvement. The surgeon plans the extent of dissection and the coverage.",
+          "lead_in": "Which statement about boundaries and technique is correct?",
+          "options": {
+            "A": {
+              "text": "Dissection up to the umbilicus and out to the iliac spine",
+              "rationale": "Both boundaries lie far outside the femoral triangle and describe no recognised template."
+            },
+            "B": {
+              "text": "The femoral vein is resected as a matter of routine",
+              "rationale": "The femoral vein is preserved; resecting it causes severe outflow problems without oncological gain."
+            },
+            "C": {
+              "text": "The great saphenous vein must be sacrificed in every case",
+              "rationale": "Preserving it actually lowers lymphoedema and wound complication rates and is oncologically safe."
+            },
+            "D": {
+              "text": "The dissection field corresponds to the femoral triangle",
+              "rationale": "These boundaries define the recognised template. The measures listed address the two main problems of the operation: lymphoedema and wound breakdown over the vessels. It is bounded by the inguinal ligament cranially, sartorius laterally and adductor longus medially. Preserving the great saphenous vein lowers morbidity, and a sartorius flap can cover the femoral vessels."
+            }
+          },
+          "explanation": {
+            "core": "Inguinal lymphadenectomy is oncologically effective but carries high morbidity. The anatomical boundaries of the femoral triangle define the extent, and several measures mitigate the consequences: preserving the great saphenous vein, thick skin flaps, avoiding tension, and covering the vessels with sartorius in extensive dissections.",
+            "teaching_point": "The femoral triangle is the map: inguinal ligament, sartorius, adductor longus."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ope-00008",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Harnableitung",
+        "tags": [
+          "operationstechnik",
+          "komplikationsmanagement",
+          "labordiagnostik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2029-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Radikale Zystektomie mit orthotoper Ileumneoblase. Der Operateur wählt das Darmsegment für die Rekonstruktion aus.",
+          "lead_in": "Welche Aussage zur Segmentwahl und ihren Folgen trifft zu?",
+          "options": {
+            "A": {
+              "text": "Terminales Ileum an der Bauhin-Klappe wegen der Beweglichkeit",
+              "rationale": "Genau dieses Segment resorbiert Vitamin B12 und Gallensäuren; seine Entnahme verursacht chologene Diarrhoe und langfristig einen B12-Mangel."
+            },
+            "B": {
+              "text": "Das Jejunum als Segment der Wahl wegen der dünnen Wand",
+              "rationale": "Jejunumsegmente führen zur hyponatriämischen, hypochlorämischen Azidose mit Hyperkaliämie und werden gemieden."
+            },
+            "C": {
+              "text": "Ileumsegment unter Aussparung des terminalen Abschnitts",
+              "rationale": "Die Aussparung erhält die Resorption von Vitamin B12 und Gallensäuren. Die Rückresorption von Ammonium und Chlorid über die Darmschleimhaut erklärt die typische hyperchlorämische Azidose. Ausgespart werden die letzten etwa 15 bis 20 Zentimeter vor der Bauhin-Klappe, weil dort Vitamin B12 und Gallensäuren resorbiert werden. Die Versorgung erfolgt über die A. mesenterica superior; postoperativ ist eine hyperchlorämische Azidose zu erwarten."
+            },
+            "D": {
+              "text": "Ein Kolonsegment ohne metabolische Folgen ist vorzuziehen",
+              "rationale": "Auch Kolonsegmente verursachen eine hyperchlorämische Azidose; die Segmentwahl richtet sich nach Voroperationen, Bestrahlung und Anatomie."
+            }
+          },
+          "explanation": {
+            "core": "Jede Harnableitung mit Darm hat metabolische Folgen, die aus der Physiologie des verwendeten Abschnitts stammen. Ileum und Kolon führen zur hyperchlorämischen metabolischen Azidose, das Jejunum zum gegenteiligen Muster. Die Schonung des terminalen Ileums verhindert Gallensäureverlust und Vitamin-B12-Mangel, der sich erst nach Jahren manifestiert.",
+            "teaching_point": "Die letzten Zentimeter vor der Bauhin-Klappe bleiben liegen. Vitamin B12 jährlich kontrollieren."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Radical cystectomy with orthotopic ileal neobladder. The surgeon selects the bowel segment for reconstruction.",
+          "lead_in": "Which statement about segment choice and its consequences is correct?",
+          "options": {
+            "A": {
+              "text": "Terminal ileum at the ileocaecal valve for its mobility",
+              "rationale": "That very segment absorbs vitamin B12 and bile acids; harvesting it causes bile acid diarrhoea and long-term B12 deficiency."
+            },
+            "B": {
+              "text": "Jejunum as the segment of choice for its thin wall",
+              "rationale": "Jejunal segments cause a hyponatraemic, hypochloraemic acidosis with hyperkalaemia and are avoided."
+            },
+            "C": {
+              "text": "An ileal segment sparing the terminal portion",
+              "rationale": "Sparing that length preserves absorption of vitamin B12 and bile acids. Reabsorption of ammonium and chloride across bowel mucosa explains the typical hyperchloraemic acidosis. The last roughly 15 to 20 centimetres before the ileocaecal valve are spared, because vitamin B12 and bile acids are absorbed there. Supply comes from the superior mesenteric artery; a hyperchloraemic acidosis is to be expected postoperatively."
+            },
+            "D": {
+              "text": "A colonic segment without metabolic consequences is better",
+              "rationale": "Colonic segments also cause hyperchloraemic acidosis; segment choice follows previous surgery, radiotherapy and anatomy."
+            }
+          },
+          "explanation": {
+            "core": "Every bowel-based urinary diversion has metabolic consequences arising from the physiology of the segment used. Ileum and colon produce hyperchloraemic metabolic acidosis, jejunum the opposite pattern. Sparing the terminal ileum prevents bile acid loss and vitamin B12 deficiency, which only becomes manifest after years.",
+            "teaching_point": "Leave the last centimetres before the ileocaecal valve alone. Check vitamin B12 annually."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ope-00009",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Nierenbeckenplastik",
+        "tags": [
+          "operationstechnik",
+          "bildgebung"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urolithiasis and Upper Tract Obstruction",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2029-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "34-jährige Patientin mit rezidivierenden linksseitigen Flankenschmerzen nach Flüssigkeitsbelastung. Die Diureseszintigraphie zeigt eine verzögerte Ausscheidung links bei erhaltener seitengetrennter Funktion. Im CT-Angiogramm liegt ein Gefäß dem Ureterabgang ventral an.",
+          "lead_in": "Was ist die Ursache und wie wird operiert?",
+          "options": {
+            "A": {
+              "text": "Intrinsische Enge; endoskopische Inzision genügt",
+              "rationale": "Bei ventral kreuzendem Gefäß hat die Endopyelotomie eine schlechtere Erfolgsrate und birgt ein erhebliches Blutungsrisiko."
+            },
+            "B": {
+              "text": "Gekreuztes Unterpolgefäß; Plastik nach Anderson-Hynes",
+              "rationale": "Die Resektion des engen Abschnitts und die Verlagerung beseitigen die Ursache dauerhaft. Das Gefäß wird erhalten, weil es Nierenparenchym versorgt. Der enge Abschnitt wird reseziert und das Nierenbecken vor das Gefäß verlagert. Das Gefäß bleibt erhalten, weil es als Endarterie den unteren Pol versorgt."
+            },
+            "C": {
+              "text": "Das kreuzende Gefäß wird durchtrennt und der Abfluss frei",
+              "rationale": "Es handelt sich um eine Endarterie zum unteren Pol; ihre Durchtrennung führt zum Segmentinfarkt."
+            },
+            "D": {
+              "text": "Funktionelle Störung; Therapie ist eine Dauerschienung",
+              "rationale": "Die Schiene behandelt das Symptom und nicht die Ursache und ist auf Dauer keine Lösung."
+            }
+          },
+          "explanation": {
+            "core": "Die Ureterabgangsenge ist entweder intrinsisch, meist durch eine adyname Segmentstrecke, oder extrinsisch durch ein kreuzendes Unterpolgefäß. Die Unterscheidung bestimmt das Verfahren: Die Anderson-Hynes-Plastik löst beide Formen, weil sie den engen Abschnitt entfernt und die Anastomose vor das Gefäß verlagert. Endoskopische Verfahren scheitern beim Gefäßkonflikt.",
+            "teaching_point": "Ein kreuzendes Gefäß wird verlagert, nicht durchtrennt und nicht ignoriert."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "34-year-old woman with recurrent left flank pain after fluid loading. Diuretic renography shows delayed drainage on the left with preserved split function. CT angiography shows a vessel lying anterior to the ureteropelvic junction.",
+          "lead_in": "What is the cause and how is it operated?",
+          "options": {
+            "A": {
+              "text": "Intrinsic stricture; endoscopic incision suffices",
+              "rationale": "With an anteriorly crossing vessel endopyelotomy has poorer success rates and carries a substantial bleeding risk."
+            },
+            "B": {
+              "text": "Crossing lower pole vessel; Anderson-Hynes pyeloplasty",
+              "rationale": "Excising the narrow segment and transposing the anastomosis removes the cause permanently. The vessel is preserved because it supplies renal parenchyma. The narrow segment is excised and the pelvis transposed in front of the vessel. The vessel is preserved because as an end artery it supplies the lower pole."
+            },
+            "C": {
+              "text": "The crossing vessel is divided and drainage is restored",
+              "rationale": "It is an end artery to the lower pole; dividing it causes segmental infarction."
+            },
+            "D": {
+              "text": "Functional disorder; treatment is permanent stenting",
+              "rationale": "A stent treats the symptom rather than the cause and is no long-term solution."
+            }
+          },
+          "explanation": {
+            "core": "Ureteropelvic junction obstruction is either intrinsic, usually from an adynamic segment, or extrinsic from a crossing lower pole vessel. The distinction determines the procedure: Anderson-Hynes pyeloplasty solves both, because it excises the narrow segment and transposes the anastomosis in front of the vessel. Endoscopic techniques fail when a vessel is involved.",
+            "teaching_point": "A crossing vessel is transposed, not divided and not ignored."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ope-00010",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Adrenalektomie",
+        "tags": [
+          "operationstechnik",
+          "komplikationsmanagement"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "ESE",
+          "title": "Leitlinie zu Nebennierentumoren",
+          "year": 2025
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2029-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Laparoskopische Adrenalektomie rechts bei hormonaktivem Adenom. Nach Mobilisierung der Leber und Darstellung der V. cava inferior sucht der Operateur die Nebennierenvene.",
+          "lead_in": "Was ist über die venöse Anatomie zu wissen?",
+          "options": {
+            "A": {
+              "text": "Rechts mündet die Nebennierenvene in die V. renalis",
+              "rationale": "Das beschreibt die linke Seite; die Verwechslung ist eine typische Fehlerquelle."
+            },
+            "B": {
+              "text": "Beide Nebennierenvenen münden in die V. portae",
+              "rationale": "Es besteht kein portalvenöser Abfluss der Nebennieren."
+            },
+            "C": {
+              "text": "Die Nebennierenvenen sind ohne Kontrolle durchtrennbar",
+              "rationale": "Der unkontrollierte Abriss an der Cava führt zu einer schwer beherrschbaren Blutung."
+            },
+            "D": {
+              "text": "Rechts mündet eine kurze Vene direkt in die V. cava inferior",
+              "rationale": "Die Kürze und die direkte Mündung machen die rechte Seite technisch anspruchsvoller. Links läuft der Abfluss über die längere Vene in die V. renalis. Die Mündung liegt meist dorsolateral. Sie ist früh und sicher zu versorgen, weil ein Abriss eine schwer beherrschbare Cava-Blutung verursacht; links läuft der Abfluss über die längere Vene zur V. renalis."
+            }
+          },
+          "explanation": {
+            "core": "Der venöse Abfluss der Nebennieren ist seitenverschieden, und daraus folgt die unterschiedliche Schwierigkeit des Eingriffs. Rechts liegt eine kurze Vene direkt an der Cava, links eine längere zur Nierenvene. Bei hormonaktiven Tumoren kommt hinzu, dass die frühe Venenkontrolle eine Katecholaminausschüttung durch Manipulation begrenzt.",
+            "teaching_point": "Rechts kurz zur Cava, links lang zur Nierenvene. Die rechte Vene zuerst und sicher versorgen."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Laparoscopic right adrenalectomy for a functioning adenoma. After mobilising the liver and exposing the inferior vena cava the surgeon looks for the adrenal vein.",
+          "lead_in": "What must be known about the venous anatomy?",
+          "options": {
+            "A": {
+              "text": "On the right the adrenal vein drains into the renal vein",
+              "rationale": "That describes the left side; confusing the two is a classic source of error."
+            },
+            "B": {
+              "text": "Both adrenal veins drain into the portal vein",
+              "rationale": "There is no portal venous drainage of the adrenal glands."
+            },
+            "C": {
+              "text": "Adrenal veins can be divided without prior control",
+              "rationale": "Uncontrolled avulsion at the cava causes bleeding that is very hard to manage."
+            },
+            "D": {
+              "text": "On the right a short vein drains straight into the cava",
+              "rationale": "Its shortness and direct entry make the right side technically more demanding. On the left drainage runs through the longer vein into the renal vein. Its entry is usually dorsolateral. It must be secured early and reliably, because avulsion causes caval bleeding that is hard to control; on the left drainage runs through the longer vein to the renal vein."
+            }
+          },
+          "explanation": {
+            "core": "Adrenal venous drainage differs between sides, and the difficulty of the operation follows from this. On the right a short vein lies directly on the cava, on the left a longer one runs to the renal vein. In functioning tumours early venous control additionally limits catecholamine release from manipulation.",
+            "teaching_point": "Right short to the cava, left long to the renal vein. Secure the right vein first and securely."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ope-00011",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Psoas Hitch",
+        "tags": [
+          "operationstechnik",
+          "komplikationsmanagement"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2029-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Am zweiten Tag nach Ureterozystoneostomie mit Psoas-Hitch-Fixierung klagt eine 54-jährige Patientin über Brennen und Taubheit in der rechten Leiste und an der Innenseite des Oberschenkels. Die Kraft in der Hüftbeugung und im Kniestrecker ist seitengleich erhalten, die Nierensonographie zeigt keine Stauung.",
+          "lead_in": "Was liegt vor und wie wäre es zu vermeiden gewesen?",
+          "options": {
+            "A": {
+              "text": "Radikulopathie L5 durch die Lagerung während der Operation",
+              "rationale": "Das L5-Versorgungsgebiet liegt lateral am Unterschenkel und am Fußrücken, nicht an der Leiste und der Oberschenkelinnenseite."
+            },
+            "B": {
+              "text": "Läsion des N. obturatorius durch die Blasenmobilisierung",
+              "rationale": "Der N. obturatorius verursacht zusätzlich eine Adduktorenschwäche, die hier fehlt, und liegt nicht im Bereich der Psoasnähte."
+            },
+            "C": {
+              "text": "Irritation des N. genitofemoralis durch die Psoasnähte",
+              "rationale": "Der N. genitofemoralis liegt genau dort, wo die Hitch-Nähte greifen. Tiefe oder quer gestochene Nähte fassen ihn mit und erzeugen dieses sensible Muster. Der Nerv verläuft auf der Vorderfläche des M. psoas major, genau dort, wo die Hitch-Nähte greifen. Die Nähte werden deshalb oberflächlich und längs zur Faserrichtung gesetzt, mit dem Nerv unter Sicht."
+            },
+            "D": {
+              "text": "Postoperative Ureterobstruktion mit Kapselschmerz der Niere",
+              "rationale": "Eine Obstruktion würde Flankenschmerz und Harnstauung verursachen, beides liegt nicht vor."
+            }
+          },
+          "explanation": {
+            "core": "Beim Psoas Hitch wird die mobilisierte Blase am M. psoas major fixiert, um eine spannungsfreie Anastomose zu ermöglichen. Auf der Muskelvorderfläche verläuft der N. genitofemoralis, tiefer und weiter lateral zwischen Psoas und Iliacus der N. femoralis. Deshalb gilt: flach stechen, längs zur Faserrichtung, und den Nerv vor dem ersten Stich darstellen.",
+            "teaching_point": "Psoasnähte flach und längs. Sensibel gestört ist der Genitofemoralis, motorisch der Femoralis."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "On the second day after ureteroneocystostomy with psoas hitch fixation a 54-year-old woman reports burning and numbness in the right groin and on the medial thigh. Hip flexion and knee extension strength are symmetrical, and renal ultrasound shows no obstruction.",
+          "lead_in": "What has happened and how could it have been avoided?",
+          "options": {
+            "A": {
+              "text": "L5 radiculopathy from positioning during the operation",
+              "rationale": "The L5 territory lies on the lateral lower leg and dorsum of the foot, not in the groin and medial thigh."
+            },
+            "B": {
+              "text": "Obturator nerve injury from mobilising the bladder",
+              "rationale": "Obturator injury additionally causes adductor weakness, which is absent here, and the nerve does not lie in the field of the psoas sutures."
+            },
+            "C": {
+              "text": "Genitofemoral nerve irritation from the psoas sutures",
+              "rationale": "The genitofemoral nerve lies exactly where hitch sutures are placed. Deep or transverse sutures catch it and produce this sensory pattern. The nerve runs on the anterior surface of psoas major, exactly where hitch sutures are placed. Sutures are therefore placed superficially and along the fibres, with the nerve in view."
+            },
+            "D": {
+              "text": "Postoperative ureteric obstruction with renal capsular pain",
+              "rationale": "Obstruction would cause flank pain and hydronephrosis, neither of which is present."
+            }
+          },
+          "explanation": {
+            "core": "In a psoas hitch the mobilised bladder is fixed to psoas major to allow a tension-free anastomosis. The genitofemoral nerve runs on the anterior surface of the muscle, and deeper and more laterally, between psoas and iliacus, lies the femoral nerve. Hence: superficial bites, along the fibres, with the nerve identified before the first stitch.",
+            "teaching_point": "Psoas sutures shallow and longitudinal. Sensory loss means genitofemoral, motor loss means femoral."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ope-00012",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Ureterrekonstruktion",
+        "tags": [
+          "operationstechnik",
+          "komplikationsmanagement"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2029-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Bei einer Rektumresektion wird der linke Ureter etwa drei Zentimeter oberhalb der Blase vollständig durchtrennt und die Verletzung sofort bemerkt. Die Enden sind gut durchblutet, ein spannungsfreies Zusammenführen gelingt nicht ohne Weiteres.",
+          "lead_in": "Wie wird rekonstruiert?",
+          "options": {
+            "A": {
+              "text": "Ureterozystoneostomie, bei Bedarf mit Hitch oder Boari-Lappen",
+              "rationale": "Distale Verletzungen werden reimplantiert, weil die Durchblutung des distalen Stumpfes unsicher ist. Psoas Hitch und Boari-Lappen sind die beiden Verlängerungsschritte, wenn die Länge nicht reicht. Die Anastomose wird spatuliert, spannungsfrei und über eine Schiene angelegt. Bei verbleibender Spannung folgt der Psoas Hitch, bei größerem Defekt ein Boari-Lappen."
+            },
+            "B": {
+              "text": "End-zu-End-Anastomose der beiden Enden unter leichtem Zug",
+              "rationale": "Zug an der Anastomose ist die häufigste Ursache für Insuffizienz und spätere Striktur; distal ist die Reimplantation ohnehin überlegen."
+            },
+            "C": {
+              "text": "Ligatur distal und perkutane Nephrostomie als Dauerlösung",
+              "rationale": "Ein vertretbares Vorgehen bei instabilem Patienten als Überbrückung, aber keine definitive Rekonstruktion."
+            },
+            "D": {
+              "text": "Transureteroureterostomie zur Gegenseite als erste Wahl",
+              "rationale": "Sie gefährdet die gesunde Gegenseite und bleibt Sonderfällen vorbehalten, wenn Blase oder ipsilaterale Rekonstruktion nicht infrage kommen."
+            }
+          },
+          "explanation": {
+            "core": "Die Höhe der Verletzung bestimmt das Verfahren. Distale Läsionen werden in die Blase reimplantiert, mittlere und proximale primär anastomosiert. Vier Prinzipien gelten überall: spannungsfrei, spatuliert, gut durchblutet, geschient und drainiert. Psoas Hitch und Boari-Lappen sind die Werkzeuge, um Länge zu gewinnen.",
+            "teaching_point": "Distal reimplantieren, nicht anastomosieren. Länge holt man sich mit Hitch und Boari."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "During rectal resection the left ureter is completely transected about three centimetres above the bladder and the injury is recognised immediately. The ends are well perfused but cannot easily be brought together without tension.",
+          "lead_in": "How should reconstruction proceed?",
+          "options": {
+            "A": {
+              "text": "Ureteroneocystostomy, with hitch or Boari flap if needed",
+              "rationale": "Distal injuries are reimplanted because perfusion of the distal stump is unreliable. Psoas hitch and Boari flap are the two lengthening steps when reach is insufficient. The anastomosis is spatulated, tension-free and stented. If tension remains a psoas hitch follows, and a Boari flap for a longer defect."
+            },
+            "B": {
+              "text": "End-to-end anastomosis of the two ends under slight tension",
+              "rationale": "Tension on the anastomosis is the commonest cause of leakage and later stricture; distally reimplantation is superior anyway."
+            },
+            "C": {
+              "text": "Distal ligation and nephrostomy as a definitive solution",
+              "rationale": "A defensible bridging measure in an unstable patient, but not a definitive reconstruction."
+            },
+            "D": {
+              "text": "Transureteroureterostomy to the other side as first choice",
+              "rationale": "It puts the healthy side at risk and is reserved for special cases where bladder or ipsilateral reconstruction is not feasible."
+            }
+          },
+          "explanation": {
+            "core": "The level of injury determines the procedure. Distal lesions are reimplanted into the bladder, mid and proximal ones primarily anastomosed. Four principles apply throughout: tension-free, spatulated, well perfused, stented and drained. Psoas hitch and Boari flap are the tools for gaining length.",
+            "teaching_point": "Reimplant distally rather than anastomose. Length comes from hitch and Boari."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ope-00013",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Lagerungsschäden",
+        "tags": [
+          "operationstechnik",
+          "komplikationsmanagement",
+          "praeoperativ"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Infections and Perioperative Care",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2029-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Nach einer dreistündigen Ureterorenoskopie in Steinschnittlage kann ein 62-jähriger Patient den rechten Fuß nicht heben. Die Sensibilität am Fußrücken und lateralen Unterschenkel ist herabgesetzt. Die Wade ist weich und schmerzfrei, die Kreatinkinase ist normal, die Fußpulse sind tastbar.",
+          "lead_in": "Welche Läsion liegt vor?",
+          "options": {
+            "A": {
+              "text": "Druckschädigung des N. peroneus communis am Fibulaköpfchen",
+              "rationale": "Der Nerv liegt dort unmittelbar dem Knochen an und wird durch seitlichen Druck der Halterung komprimiert. Fußheberschwäche mit Sensibilitätsstörung am Fußrücken ist das typische Bild. Der Nerv liegt dort unmittelbar dem Knochen an und wird durch seitlichen Druck der Beinhalterung komprimiert."
+            },
+            "B": {
+              "text": "Kompartmentsyndrom des Unterschenkels nach langer Lagerung",
+              "rationale": "Dazu passen weder die weiche, schmerzfreie Wade noch die normale Kreatinkinase; das Kompartmentsyndrom bleibt aber die gefürchtete Alternative bei längerer Steinschnittlage."
+            },
+            "C": {
+              "text": "Schädigung des N. femoralis durch übermäßige Hüftbeugung",
+              "rationale": "Sie führt zu Quadrizepsschwäche mit Streckdefizit im Knie und Sensibilitätsstörung an der Vorderseite des Oberschenkels."
+            },
+            "D": {
+              "text": "Schädigung des N. ischiadicus durch Überstreckung im Knie",
+              "rationale": "Sie beträfe zusätzlich die Beugung im Knie und die Fußsohle und ist bei korrekter Lagerung selten."
+            }
+          },
+          "explanation": {
+            "core": "Die Steinschnittlage gefährdet mehrere Nerven an charakteristischen Engstellen: den N. peroneus communis am Fibulaköpfchen, den N. femoralis bei extremer Hüftbeugung und den N. cutaneus femoris lateralis am Leistenband. Ab etwa vier Stunden steigt zusätzlich das Risiko eines Kompartmentsyndroms, weshalb lange Eingriffe eine zwischenzeitliche Umlagerung rechtfertigen.",
+            "teaching_point": "Fußheberschwäche nach Steinschnittlage heißt Fibulaköpfchen, bis Schmerz und Kreatinkinase etwas anderes sagen."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "After a three-hour ureteroscopy in the lithotomy position a 62-year-old man cannot dorsiflex his right foot. Sensation over the dorsum of the foot and lateral lower leg is reduced. The calf is soft and painless, creatine kinase is normal and pedal pulses are palpable.",
+          "lead_in": "Which lesion is present?",
+          "options": {
+            "A": {
+              "text": "Pressure injury to the common peroneal nerve at the fibula",
+              "rationale": "The nerve lies directly on bone there and is compressed by lateral pressure from the holder. Foot drop with sensory loss over the dorsum is the typical picture. The nerve lies directly on bone there and is compressed by lateral pressure from the leg holder."
+            },
+            "B": {
+              "text": "Compartment syndrome of the lower leg after long positioning",
+              "rationale": "Neither the soft painless calf nor the normal creatine kinase fits, though compartment syndrome remains the feared alternative after prolonged lithotomy."
+            },
+            "C": {
+              "text": "Femoral nerve injury from excessive flexion at the hip",
+              "rationale": "That causes quadriceps weakness with impaired knee extension and sensory loss over the anterior thigh."
+            },
+            "D": {
+              "text": "Sciatic nerve injury from overextension at the knee",
+              "rationale": "That would also affect knee flexion and the sole of the foot and is rare with correct positioning."
+            }
+          },
+          "explanation": {
+            "core": "The lithotomy position endangers several nerves at characteristic points: the common peroneal nerve at the fibular head, the femoral nerve with extreme hip flexion and the lateral femoral cutaneous nerve at the inguinal ligament. Beyond about four hours the risk of compartment syndrome also rises, which justifies interim repositioning in long procedures.",
+            "teaching_point": "Foot drop after lithotomy means the fibular head until pain and creatine kinase say otherwise."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ope-00014",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "robotische Chirurgie",
+        "tags": [
+          "operationstechnik",
+          "komplikationsmanagement",
+          "praeoperativ"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Prostate Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2029-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Nach vierstündiger roboterassistierter radikaler Prostatektomie in steiler Kopftieflage ist der Patient im Gesicht und an den Konjunktiven deutlich ödematös, die Extubation wird verschoben. Am Folgetag besteht eine Schwäche der Schulterabduktion und der Ellenbogenbeugung rechts mit Sensibilitätsstörung an der lateralen Oberarmseite.",
+          "lead_in": "Wie sind beide Befunde einzuordnen?",
+          "options": {
+            "A": {
+              "text": "Allergische Reaktion mit begleitender Polyneuropathie",
+              "rationale": "Es wurde kein Kontrastmittel gegeben, und eine Allergie erklärt kein umschriebenes Ausfallmuster an einer Schulter."
+            },
+            "B": {
+              "text": "Zerebrale Ischämie mit Halbseitensymptomatik des Armes",
+              "rationale": "Das Muster folgt einem peripheren Nervenverlauf und nicht einem zerebralen Versorgungsgebiet; Sprache und Gesicht sind frei."
+            },
+            "C": {
+              "text": "Volumenüberladung als alleinige Ursache beider Befunde",
+              "rationale": "Sie erklärt das Ödem mit, aber nicht den umschriebenen motorischen und sensiblen Ausfall am Arm."
+            },
+            "D": {
+              "text": "Lagerungsfolgen der steilen Kopftieflage an Kopf und Plexus",
+              "rationale": "Beide Befunde entstehen aus derselben Lagerung. Schulterstützen halten den Körper gegen die Schwerkraft und übertragen den Zug auf den Plexus brachialis, typischerweise auf die oberen Wurzeln. Die venöse Stauung erzeugt Gesichts-, Konjunktival- und Larynxödem, die Schulterstützen übertragen Zug auf den oberen Armplexus. Vermeidung durch Verzicht auf Schulterstützen, rutschfeste Unterlage, Armlagerung am Körper und Begrenzung von Neigung und Dauer."
+            }
+          },
+          "explanation": {
+            "core": "Die steile Kopftieflage ist Voraussetzung für den Zugang zum kleinen Becken und zugleich die Quelle der typischen nichtchirurgischen Komplikationen: venöse Stauung im Kopf-Hals-Bereich mit Larynxödem, Anstieg von Hirn- und Augeninnendruck sowie Plexusschäden durch Rutschsicherung. Die Prävention ist rein organisatorisch und kostet keine Operationszeit.",
+            "teaching_point": "Der Patient wird durch Reibung gehalten, nicht durch die Schultern."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "After a four-hour robot-assisted radical prostatectomy in steep head-down position the patient has marked facial and conjunctival oedema and extubation is postponed. The next day there is weakness of shoulder abduction and elbow flexion on the right with sensory loss over the lateral upper arm.",
+          "lead_in": "How should both findings be interpreted?",
+          "options": {
+            "A": {
+              "text": "Allergic reaction with accompanying polyneuropathy",
+              "rationale": "No contrast was given, and allergy does not explain a circumscribed deficit at one shoulder."
+            },
+            "B": {
+              "text": "Cerebral ischaemia with hemispheric symptoms in the arm",
+              "rationale": "The pattern follows a peripheral nerve distribution rather than a cerebral territory; speech and face are unaffected."
+            },
+            "C": {
+              "text": "Fluid overload as the sole cause of both findings",
+              "rationale": "It contributes to the oedema but does not explain a circumscribed motor and sensory deficit in the arm."
+            },
+            "D": {
+              "text": "Positioning effects of steep tilt on head and plexus",
+              "rationale": "Both findings arise from the same positioning. Shoulder braces hold the body against gravity and transmit traction to the brachial plexus, typically to the upper roots. Venous congestion produces facial, conjunctival and laryngeal oedema, while shoulder braces transmit traction to the upper brachial plexus. Prevention: no shoulder braces, a non-slip surface, arms tucked, and limits on tilt and duration."
+            }
+          },
+          "explanation": {
+            "core": "Steep head-down positioning is the prerequisite for pelvic access and at the same time the source of the typical non-surgical complications: venous congestion of head and neck with laryngeal oedema, rising intracranial and intraocular pressure, and plexus injury from anti-slide devices. Prevention is purely organisational and costs no operating time.",
+            "teaching_point": "The patient is held by friction, not by the shoulders."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ope-00015",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "laparoskopischer Zugang",
+        "tags": [
+          "operationstechnik",
+          "komplikationsmanagement",
+          "notfall"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2029-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Nach laparoskopischer Nierenteilresektion blutet es beim Entfernen des rechten Arbeitstrokars anhaltend aus der Bauchdecke. Am Folgetag zeigt sich eine schmerzhafte Vorwölbung neben der Mittellinie mit fallendem Hämoglobin.",
+          "lead_in": "Welches Gefäß ist verletzt und wie wird die Verletzung vermieden?",
+          "options": {
+            "A": {
+              "text": "Die A. epigastrica superior; Trokar unterhalb des Nabels",
+              "rationale": "Die A. epigastrica superior versorgt den oberen Rektusanteil und liegt nicht im typischen Trokargebiet der Beckenchirurgie."
+            },
+            "B": {
+              "text": "Die A. epigastrica inferior hinter dem M. rectus abdominis",
+              "rationale": "Das Gefäß verläuft genau dort, wo laterale Arbeitstrokare gesetzt werden. Durchleuchtung der Bauchdecke und direkte Sicht von innen zeigen den Verlauf vor der Punktion. Sie entspringt aus der A. iliaca externa medial des inneren Leistenrings und steigt hinter dem Rektus auf. Vermeidung durch Diaphanoskopie, Platzierung lateral der Rektusscheide und Einführen unter Sicht."
+            },
+            "C": {
+              "text": "Die A. circumflexa ilium profunda am Leistenband",
+              "rationale": "Sie verläuft entlang des Leistenbandes zur Spina iliaca und ist seltener betroffen."
+            },
+            "D": {
+              "text": "Die A. femoralis unterhalb des Leistenbandes",
+              "rationale": "Sie liegt unterhalb des Leistenbandes außerhalb der Bauchhöhle und ist bei Trokarplatzierung nicht gefährdet."
+            }
+          },
+          "explanation": {
+            "core": "Die Verletzung der A. epigastrica inferior ist die häufigste Gefäßkomplikation beim Trokarzugang und wird oft erst nach dem Entfernen des Trokars sichtbar, weil dieser das Gefäß bis dahin tamponiert. Deshalb werden alle Trokare am Ende unter Sicht entfernt. Behandelt wird mit gezielter Durchstechungsligatur, Ballontamponade über einen Katheter oder offener Versorgung.",
+            "teaching_point": "Trokare unter Sicht ziehen, nicht blind. Die Blutung zeigt sich erst, wenn der Stopfen weg ist."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "After laparoscopic partial nephrectomy the abdominal wall bleeds persistently as the right working trocar is removed. The next day there is a painful bulge beside the midline with falling haemoglobin.",
+          "lead_in": "Which vessel is injured and how is this avoided?",
+          "options": {
+            "A": {
+              "text": "The superior epigastric artery; trocar below the umbilicus",
+              "rationale": "The superior epigastric artery supplies the upper rectus and does not lie in the typical trocar field of pelvic surgery."
+            },
+            "B": {
+              "text": "The inferior epigastric artery behind rectus abdominis",
+              "rationale": "The vessel runs exactly where lateral working trocars are placed. Transillumination and direct internal vision reveal its course before puncture. It arises from the external iliac artery medial to the deep inguinal ring and ascends behind the rectus. Avoided by transillumination, placement lateral to the rectus sheath and insertion under vision."
+            },
+            "C": {
+              "text": "The deep circumflex iliac artery at the inguinal ligament",
+              "rationale": "It runs along the inguinal ligament towards the iliac spine and is less often involved."
+            },
+            "D": {
+              "text": "The femoral artery below the inguinal ligament",
+              "rationale": "It lies below the inguinal ligament outside the abdominal cavity and is not at risk during trocar placement."
+            }
+          },
+          "explanation": {
+            "core": "Injury to the inferior epigastric artery is the commonest vascular complication of trocar access and often becomes apparent only on removal, because the trocar tamponades the vessel until then. All trocars are therefore removed under vision. Treatment is by targeted transfixion suture, balloon tamponade through a catheter, or open repair.",
+            "teaching_point": "Remove trocars under vision, not blindly. The bleeding shows once the plug is gone."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ope-00016",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Lymphozele",
+        "tags": [
+          "komplikationsmanagement",
+          "bildgebung",
+          "nachsorge"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Prostate Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2029-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Drei Wochen nach radikaler Prostatektomie mit erweiterter pelviner Lymphadenektomie stellt sich ein 64-jähriger Patient mit einseitiger Beinschwellung links, Druckgefühl im Unterbauch und subfebrilen Temperaturen vor. Das CT zeigt eine glatt begrenzte Flüssigkeitsansammlung von 8 cm im linken Becken mit Kompression der Iliakalvene.",
+          "lead_in": "Wie ist vorzugehen?",
+          "options": {
+            "A": {
+              "text": "Thrombose ausschließen, dann perkutan drainieren",
+              "rationale": "Die Kompression begünstigt eine Thrombose, die getrennt zu behandeln wäre. Symptomatische Lymphozelen werden drainiert, asymptomatische beobachtet. Die Kompression der Iliakalvene begünstigt eine tiefe Venenthrombose, die getrennt zu behandeln wäre. Bei der Drainage wird Material zur Erregerdiagnostik gewonnen; bei Rezidiv folgt die laparoskopische Marsupialisation mit peritonealem Fenster."
+            },
+            "B": {
+              "text": "Sofortige offene Revision mit Ausräumung der Höhle",
+              "rationale": "Ein unnötig invasiver erster Schritt; die perkutane Drainage löst den überwiegenden Teil der Fälle."
+            },
+            "C": {
+              "text": "Antibiotisch behandeln und die Rückbildung abwarten",
+              "rationale": "Das gilt für kleine, asymptomatische Ansammlungen. Hier bestehen Kompression und Symptome."
+            },
+            "D": {
+              "text": "Therapeutische Antikoagulation ohne weitere Diagnostik",
+              "rationale": "Ohne gesicherte Thrombose nicht begründet, und sie behandelt die Ursache der Schwellung nicht."
+            }
+          },
+          "explanation": {
+            "core": "Die Lymphozele ist die häufigste Komplikation der pelvinen Lymphadenektomie. Die meisten bleiben asymptomatisch und bedürfen keiner Behandlung. Symptomatisch wird sie durch Kompression von Vene, Ureter oder Nerv oder durch Infektion. Prophylaktisch wirken Clips oder Versiegelung der Lymphbahnen statt bipolarer Koagulation und ein peritoneales Fenster.",
+            "teaching_point": "Nicht jede Lymphozele wird behandelt. Behandelt wird, was drückt oder infiziert ist."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Three weeks after radical prostatectomy with extended pelvic lymph node dissection a 64-year-old man presents with unilateral left leg swelling, lower abdominal pressure and low-grade fever. CT shows a smoothly bordered 8 cm fluid collection in the left pelvis compressing the iliac vein.",
+          "lead_in": "How should management proceed?",
+          "options": {
+            "A": {
+              "text": "Exclude thrombosis, then drain percutaneously",
+              "rationale": "Compression predisposes to thrombosis, which would need separate treatment. Symptomatic lymphoceles are drained, asymptomatic ones observed. Compression of the iliac vein predisposes to deep vein thrombosis, which would need separate treatment. Material for microbiology is taken at drainage; recurrence is managed by laparoscopic marsupialisation with a peritoneal window."
+            },
+            "B": {
+              "text": "Immediate open revision with evacuation of the cavity",
+              "rationale": "An unnecessarily invasive first step; percutaneous drainage resolves the majority of cases."
+            },
+            "C": {
+              "text": "Treat with antibiotics and await spontaneous resolution",
+              "rationale": "That applies to small asymptomatic collections. Here there is compression and there are symptoms."
+            },
+            "D": {
+              "text": "Therapeutic anticoagulation without further investigation",
+              "rationale": "Unjustified without proven thrombosis, and it does not treat the cause of the swelling."
+            }
+          },
+          "explanation": {
+            "core": "Lymphocele is the commonest complication of pelvic lymph node dissection. Most remain asymptomatic and need no treatment. They become symptomatic through compression of vein, ureter or nerve, or through infection. Prevention rests on clips or sealing of lymphatics instead of bipolar coagulation, and on a peritoneal window.",
+            "teaching_point": "Not every lymphocele is treated. Treat what compresses or is infected."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ope-00017",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Rektumverletzung",
+        "tags": [
+          "operationstechnik",
+          "komplikationsmanagement",
+          "notfall"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Prostate Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2029-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Bei der Präparation der Prostatarückfläche entsteht eine etwa ein Zentimeter große Rektumläsion, die sofort erkannt wird. Der Patient ist nicht vorbestrahlt, der Darm war präoperativ nicht vorbereitet, es besteht keine grobe Stuhlkontamination.",
+          "lead_in": "Wie ist zu verfahren?",
+          "options": {
+            "A": {
+              "text": "Die Läsion belassen und lediglich eine Drainage einlegen",
+              "rationale": "Ein nicht verschlossener Defekt führt regelhaft zur rektourethralen Fistel und zur Beckensepsis."
+            },
+            "B": {
+              "text": "Grundsätzlich ein protektives Stoma anlegen und später nähen",
+              "rationale": "Bei kleiner, sofort erkannter Läsion ohne Vorbestrahlung ist die primäre Versorgung ohne Stoma möglich; das Stoma bleibt Risikokonstellationen vorbehalten."
+            },
+            "C": {
+              "text": "Mehrschichtiger Verschluss mit Gewebeinterposition",
+              "rationale": "Die Trennung der beiden Nahtreihen durch Gewebe ist der entscheidende Schritt gegen die Fistelbildung, weil sonst zwei Nähte direkt aufeinanderliegen. Zwischen Darm- und Harnröhrennaht wird Omentum oder Fettgewebe eingebracht, damit nicht zwei Nahtreihen aufeinanderliegen. Dazu kommen ausgiebige Spülung, breite antibiotische Abdeckung, Drainage und verlängerte Katheterableitung; ein Stoma nur bei großem Defekt, Vorbestrahlung oder grober Kontamination."
+            },
+            "D": {
+              "text": "Abbruch der Operation und Verschiebung der Prostatektomie",
+              "rationale": "Der Abbruch löst das Problem der bereits bestehenden Läsion nicht und schafft ein zweites Operationsereignis."
+            }
+          },
+          "explanation": {
+            "core": "Die intraoperativ erkannte Rektumverletzung ist beherrschbar, die übersehene nicht. Entscheidend sind drei Dinge: sicherer mehrschichtiger Verschluss, Interposition von vitalem Gewebe zwischen die beiden Nahtreihen und die Entscheidung über ein Stoma anhand von Defektgröße, Vorbestrahlung und Kontamination.",
+            "teaching_point": "Zwei Nähte dürfen nicht aufeinanderliegen. Zwischen sie gehört Gewebe."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "During dissection of the posterior prostatic surface a rectal injury of about one centimetre occurs and is recognised immediately. The patient has not been irradiated, the bowel was not prepared preoperatively, and there is no gross faecal contamination.",
+          "lead_in": "How should this be managed?",
+          "options": {
+            "A": {
+              "text": "Leave the lesion and simply insert a drain",
+              "rationale": "An unclosed defect regularly leads to rectourethral fistula and pelvic sepsis."
+            },
+            "B": {
+              "text": "Always create a stoma and repair the defect later",
+              "rationale": "With a small, immediately recognised lesion in a non-irradiated patient, primary repair without a stoma is feasible; the stoma is reserved for high-risk constellations."
+            },
+            "C": {
+              "text": "Multilayer closure with tissue interposition",
+              "rationale": "Separating the two suture lines with tissue is the decisive step against fistula formation, since otherwise two suture lines lie directly on each other. Omentum or fat is placed between the bowel and urethral suture lines so that two suture lines do not lie on each other. Generous irrigation, broad antibiotic cover, drainage and prolonged catheter drainage are added; a stoma only for a large defect, previous radiotherapy or gross contamination."
+            },
+            "D": {
+              "text": "Abandon the operation and postpone the prostatectomy",
+              "rationale": "Abandoning does not solve the existing injury and creates a second operative event."
+            }
+          },
+          "explanation": {
+            "core": "A rectal injury recognised intraoperatively is manageable; one that is missed is not. Three things matter: secure multilayer closure, interposition of viable tissue between the two suture lines, and the stoma decision based on defect size, previous radiotherapy and contamination.",
+            "teaching_point": "Two suture lines must not lie on each other. Tissue belongs between them."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ope-00018",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "TUR-Syndrom",
+        "tags": [
+          "notfall",
+          "komplikationsmanagement",
+          "labordiagnostik",
+          "endourologisch"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Management of Non-neurogenic Male LUTS",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2029-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Während einer monopolaren transurethralen Prostataresektion mit einer Resektionszeit von 85 Minuten wird der Patient in Spinalanästhesie zunehmend unruhig und verwirrt, klagt über Übelkeit und Sehstörungen. Der Blutdruck steigt, die Herzfrequenz fällt auf 48 pro Minute. Das Serumnatrium beträgt 116 mmol/l.",
+          "lead_in": "Was ist zu tun?",
+          "options": {
+            "A": {
+              "text": "Natrium rasch in den Normbereich anheben, binnen Stunden",
+              "rationale": "Die zu schnelle Korrektur kann eine osmotische Demyelinisierung auslösen; der Anstieg wird auf etwa 8 bis 10 mmol/l in 24 Stunden begrenzt."
+            },
+            "B": {
+              "text": "Resektion beenden, Spülung stoppen, Natrium langsam heben",
+              "rationale": "Ursache ist die Einschwemmung hypotoner Spülflüssigkeit über eröffnete Prostatasinus. Der erste und wirksamste Schritt ist, die Quelle zu schließen. Der Anstieg wird auf etwa 8 bis 10 mmol/l in 24 Stunden begrenzt, um eine osmotische Demyelinisierung zu vermeiden. Bei Volumenüberladung kommt ein Schleifendiuretikum hinzu, dazu intensivmedizinische Überwachung."
+            },
+            "C": {
+              "text": "Resektion bis zur vollständigen Adenomentfernung fortsetzen",
+              "rationale": "Jede weitere Minute Spülung verschlechtert die Situation; ein Resttumoradenom kann später nachreseziert werden."
+            },
+            "D": {
+              "text": "Freies Wasser und Volumen zur Kreislaufstabilisierung geben",
+              "rationale": "Damit wird die Hyponatriämie weiter verstärkt und das Hirnödem verschlimmert."
+            }
+          },
+          "explanation": {
+            "core": "Das TUR-Syndrom entsteht durch Resorption hypotoner, elektrolytfreier Spülflüssigkeit und äußert sich mit Verwirrtheit, Übelkeit, Sehstörungen, Hypertonie und Bradykardie. Risikofaktoren sind lange Resektionszeit, große Drüse, hoher Spüldruck und eröffnete Sinus. Die bipolare Resektion mit isotoner Kochsalzspülung vermeidet das Syndrom weitgehend und ist deshalb der bessere Ausgangspunkt.",
+            "teaching_point": "Erst die Spülung stoppen, dann das Natrium korrigieren, und dieses langsam."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "During monopolar transurethral resection of the prostate lasting 85 minutes the patient under spinal anaesthesia becomes increasingly restless and confused, complains of nausea and visual disturbance. Blood pressure rises and heart rate falls to 48 per minute. Serum sodium is 116 mmol/l.",
+          "lead_in": "What should be done?",
+          "options": {
+            "A": {
+              "text": "Raise sodium into the normal range within a few hours",
+              "rationale": "Over-rapid correction can precipitate osmotic demyelination; the rise is limited to roughly 8 to 10 mmol/l over 24 hours."
+            },
+            "B": {
+              "text": "Stop resecting, stop irrigation, raise sodium slowly",
+              "rationale": "The cause is absorption of hypotonic irrigation fluid through opened prostatic sinuses. The first and most effective step is closing the source. The rise is limited to roughly 8 to 10 mmol/l over 24 hours to avoid osmotic demyelination. A loop diuretic is added for fluid overload, together with intensive care monitoring."
+            },
+            "C": {
+              "text": "Continue resecting until the adenoma is fully removed",
+              "rationale": "Every further minute of irrigation worsens the situation; residual adenoma can be resected later."
+            },
+            "D": {
+              "text": "Give free water and volume to stabilise the circulation",
+              "rationale": "This further aggravates the hyponatraemia and worsens cerebral oedema."
+            }
+          },
+          "explanation": {
+            "core": "TUR syndrome arises from absorption of hypotonic, electrolyte-free irrigation fluid and presents with confusion, nausea, visual disturbance, hypertension and bradycardia. Risk factors are long resection time, large gland, high irrigation pressure and opened sinuses. Bipolar resection with isotonic saline largely avoids the syndrome and is therefore the better starting point.",
+            "teaching_point": "Stop the irrigation first, then correct the sodium, and correct it slowly."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ope-00019",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Blutung nach PCNL",
+        "tags": [
+          "notfall",
+          "komplikationsmanagement",
+          "bildgebung",
+          "endourologisch"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urolithiasis",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2029-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Zehn Tage nach perkutaner Nephrolitholapaxie stellt sich ein 57-jähriger Patient mit plötzlicher schwerer Makrohämaturie, Koagelabgang und Kreislaufreaktion vor. Der postoperative Verlauf war zunächst unauffällig, das Hämoglobin ist um 3 g/dl gefallen.",
+          "lead_in": "Was ist die wahrscheinlichste Ursache und die richtige Maßnahme?",
+          "options": {
+            "A": {
+              "text": "Diffuse Sickerblutung; Spülkatheter und Bettruhe genügen",
+              "rationale": "Eine früh auftretende Sickerblutung sistiert meist spontan. Eine schwere Blutung nach Tagen spricht für eine umschriebene Gefäßläsion."
+            },
+            "B": {
+              "text": "Harnwegsinfekt mit hämorrhagischer Zystitis; Antibiose",
+              "rationale": "Der zeitliche Verlauf und die Kreislaufreaktion passen nicht; eine Zystitis erklärt keinen Hämoglobinabfall dieser Größenordnung."
+            },
+            "C": {
+              "text": "Steinrezidiv mit Schleimhautverletzung; erneute Endoskopie",
+              "rationale": "Ein Rezidiv innerhalb von zehn Tagen ist unwahrscheinlich und verursacht keine massive Blutung."
+            },
+            "D": {
+              "text": "Pseudoaneurysma oder Fistel; Angiographie und Embolisation",
+              "rationale": "Die verzögerte, plötzlich einsetzende schwere Blutung ist typisch. Die superselektive Embolisation stillt die Blutung und erhält den größten Teil des Parenchyms. Die verzögerte, plötzlich einsetzende schwere Blutung nach Tagen bis Wochen ist typisch für eine arterielle Läsion nach Punktion oder Dilatation. Die superselektive Embolisation stillt die Blutung und erhält den größten Teil des Parenchyms."
+            }
+          },
+          "explanation": {
+            "core": "Blutungen nach perkutaner Nephrolitholapaxie folgen zwei Mustern. Die frühe, venöse Blutung sistiert meist unter Bettruhe und Abklemmen der Nephrostomie. Die späte, arterielle Blutung nach Tagen bis Wochen weist auf Pseudoaneurysma oder arteriovenöse Fistel hin und verlangt Angiographie mit Embolisation. Der Zugang durch die Kelchspitze statt durch den Kelchhals senkt das Risiko von vornherein.",
+            "teaching_point": "Frühe Blutung venös und konservativ, späte Blutung arteriell und interventionell."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Ten days after percutaneous nephrolithotomy a 57-year-old man presents with sudden severe macroscopic haematuria, clot passage and a circulatory reaction. The early postoperative course had been uneventful; haemoglobin has fallen by 3 g/dl.",
+          "lead_in": "What is the most likely cause and the correct measure?",
+          "options": {
+            "A": {
+              "text": "Diffuse oozing; irrigation catheter and bed rest suffice",
+              "rationale": "Early oozing usually stops spontaneously. Severe bleeding after days points to a circumscribed vascular lesion."
+            },
+            "B": {
+              "text": "Urinary infection with haemorrhagic cystitis; antibiotics",
+              "rationale": "The timing and circulatory reaction do not fit, and cystitis does not explain a haemoglobin drop of this magnitude."
+            },
+            "C": {
+              "text": "Recurrent stone with mucosal injury; repeat endoscopy",
+              "rationale": "Recurrence within ten days is unlikely and does not cause massive bleeding."
+            },
+            "D": {
+              "text": "Pseudoaneurysm or fistula; angiography and embolisation",
+              "rationale": "Delayed, sudden severe bleeding is typical. Superselective embolisation stops the bleeding and preserves most of the parenchyma. Delayed, sudden severe bleeding after days to weeks is typical of an arterial lesion following puncture or dilatation. Superselective embolisation stops the bleeding and preserves most of the parenchyma."
+            }
+          },
+          "explanation": {
+            "core": "Bleeding after percutaneous nephrolithotomy follows two patterns. Early venous bleeding usually stops with bed rest and clamping the nephrostomy. Late arterial bleeding after days to weeks indicates pseudoaneurysm or arteriovenous fistula and requires angiography with embolisation. Access through the calyceal tip rather than the infundibulum reduces the risk in the first place.",
+            "teaching_point": "Early bleeding venous and conservative, late bleeding arterial and interventional."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ope-00020",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "pelvine Lymphadenektomie",
+        "tags": [
+          "operationstechnik",
+          "komplikationsmanagement"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Prostate Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2029-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "Bei der erweiterten pelvinen Lymphadenektomie wird der N. obturatorius auf der rechten Seite versehentlich vollständig durchtrennt. Der Defekt beträgt wenige Millimeter, die Enden liegen spannungsfrei nebeneinander.",
+          "lead_in": "Wie ist zu verfahren, und welcher Ausfall wäre sonst zu erwarten?",
+          "options": {
+            "A": {
+              "text": "Keine Maßnahme; der Nerv ist funktionell entbehrlich",
+              "rationale": "Der Ausfall führt zu einer Adduktorenschwäche mit unsicherem Gangbild und einer Sensibilitätsstörung an der Innenseite des Oberschenkels."
+            },
+            "B": {
+              "text": "Ligatur beider Enden zur Vermeidung eines Neuroms",
+              "rationale": "Die Ligatur verhindert jede Regeneration und schafft genau das Defizit, das vermeidbar wäre."
+            },
+            "C": {
+              "text": "Sofortige mikrochirurgische Naht in derselben Sitzung",
+              "rationale": "Die primäre Naht bei frischer, scharfer Durchtrennung ohne Spannung hat die besten Aussichten auf funktionelle Erholung. Ein späterer Eingriff wäre technisch schwieriger und weniger erfolgreich. Die spannungsfreie End-zu-End-Naht des Epineuriums bei frischer, scharfer Durchtrennung hat die besten Aussichten auf Erholung. Unbehandelt drohen Adduktorenschwäche und Sensibilitätsstörung an der Oberschenkelinnenseite."
+            },
+            "D": {
+              "text": "Sekundäre Rekonstruktion mit Interponat nach drei Monaten",
+              "rationale": "Ein Interponat ist bei größeren Defekten oder verspäteter Diagnose nötig; hier wird die einfachere und bessere Primärversorgung verschenkt."
+            }
+          },
+          "explanation": {
+            "core": "Der N. obturatorius verläuft an der Beckenwand mitten durch das Ausräumungsgebiet der Fossa obturatoria und ist die am häufigsten verletzte Nervenstruktur dieses Eingriffs. Er wird vor Beginn der Ausräumung dargestellt und über den gesamten Verlauf im Blick behalten. Wird er dennoch durchtrennt und sofort erkannt, ist die primäre Naht die Behandlung der Wahl.",
+            "teaching_point": "Erst darstellen, dann ausräumen. Und wenn er doch durchtrennt ist, sofort nähen."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "During extended pelvic lymph node dissection the obturator nerve on the right is inadvertently transected completely. The defect is a few millimetres and the ends lie adjacent without tension.",
+          "lead_in": "How should this be handled, and what deficit would otherwise be expected?",
+          "options": {
+            "A": {
+              "text": "No action; the nerve is functionally dispensable",
+              "rationale": "Loss causes adductor weakness with an unsteady gait and sensory loss on the medial thigh."
+            },
+            "B": {
+              "text": "Ligate both ends to prevent neuroma formation",
+              "rationale": "Ligation prevents any regeneration and creates exactly the deficit that could have been avoided."
+            },
+            "C": {
+              "text": "Immediate microsurgical repair in the same session",
+              "rationale": "Primary repair of a fresh, sharp, tension-free transection offers the best prospect of functional recovery. A later procedure would be technically harder and less successful. Tension-free end-to-end epineural repair of a fresh, sharp transection offers the best prospect of recovery. Untreated, adductor weakness and medial thigh sensory loss are to be expected."
+            },
+            "D": {
+              "text": "Secondary reconstruction with a graft after three months",
+              "rationale": "A graft is needed for larger defects or delayed diagnosis; here the simpler and better primary repair is squandered."
+            }
+          },
+          "explanation": {
+            "core": "The obturator nerve runs along the pelvic sidewall through the middle of the obturator fossa dissection field and is the nerve most often injured in this operation. It is exposed before dissection begins and kept in view throughout. If it is nevertheless transected and recognised at once, primary repair is the treatment of choice.",
+            "teaching_point": "Expose first, then dissect. And if it is cut, repair it immediately."
+          },
+          "flag_note": null
+        }
+      }
+    }
+  ]
+}

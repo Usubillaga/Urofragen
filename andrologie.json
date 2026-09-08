@@ -1,0 +1,1094 @@
+{
+  "gebiet": "andrologie",
+  "fragen": [
+    {
+      "id": "uro-and-00001",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Hypogonadismus",
+        "tags": [
+          "labordiagnostik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Sexual and Reproductive Health",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "48-jähriger Mann mit Antriebslosigkeit, Libidoverlust und Zunahme des Bauchumfangs. Um 16 Uhr wurde ein Gesamttestosteron von 9,8 nmol/l gemessen. Er hat keinen Kinderwunsch mehr und fragt nach einer Testosterongabe.",
+          "lead_in": "Wie ist weiter vorzugehen?",
+          "options": {
+            "A": {
+              "text": "Sofortiger Beginn der Substitution mit diesem Wert",
+              "rationale": "Ein einzelner Nachmittagswert im Graubereich reicht als Grundlage nicht aus. Testosteron folgt einem Tagesrhythmus mit den höchsten Werten am Morgen, und ein Nachmittagswert unterschätzt das tatsächliche Niveau regelmäßig."
+            },
+            "B": {
+              "text": "Direkt eine MRT der Hypophyse zur Ursachensuche",
+              "rationale": "Die Bildgebung folgt erst, wenn ein bestätigter Mangel mit niedrigem oder normwertigem LH vorliegt, also ein sekundärer Hypogonadismus. Bei ausgeprägt niedrigem Testosteron oder erhöhtem Prolaktin wird sie dann gezielt eingesetzt."
+            },
+            "C": {
+              "text": "Zweite Messung morgens nüchtern, dazu LH, FSH und Prolaktin",
+              "rationale": "Die Bestätigung an einem zweiten Tag zwischen sieben und elf Uhr ist Voraussetzung der Diagnose. LH trennt anschließend den primären vom sekundären Hypogonadismus, und im Graubereich hilft die Bestimmung von SHBG und freiem Testosteron weiter."
+            },
+            "D": {
+              "text": "Kontrolle des Wertes in einem Jahr ohne weitere Abklärung",
+              "rationale": "Die Symptomkonstellation ist typisch genug, um sie jetzt abzuklären. Ein unbehandelter Hypogonadismus wirkt sich über Jahre auf Knochendichte, Muskelmasse und Stoffwechsel aus."
+            }
+          },
+          "explanation": {
+            "core": "Die Diagnose des Hypogonadismus stützt sich auf zwei Säulen, die beide erfüllt sein müssen: passende Symptome und ein wiederholt erniedrigter morgendlicher Testosteronwert. Erst danach folgt die Einordnung über LH und FSH. Ein hoher LH-Wert weist auf eine testikuläre Ursache, ein niedriger oder unpassend normaler auf eine hypothalamisch-hypophysäre.",
+            "teaching_point": "Ein Nachmittagswert und eine einzelne Messung reichen für die Diagnose nicht aus."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "48-year-old man with low drive, loss of libido and increasing waist circumference. A total testosterone of 9.8 nmol/l was measured at 4 pm. He no longer wishes to father children and asks about testosterone treatment.",
+          "lead_in": "How should management proceed?",
+          "options": {
+            "A": {
+              "text": "Start replacement immediately on this value",
+              "rationale": "A single afternoon value in the grey zone is not an adequate basis. Testosterone follows a diurnal rhythm with the highest values in the morning, and an afternoon sample regularly underestimates the true level."
+            },
+            "B": {
+              "text": "Proceed directly to pituitary MRI to find the cause",
+              "rationale": "Imaging follows only once a confirmed deficiency with low or inappropriately normal LH is established, that is secondary hypogonadism. With markedly low testosterone or raised prolactin it is then used selectively."
+            },
+            "C": {
+              "text": "Repeat fasting morning sample with LH, FSH and prolactin",
+              "rationale": "Confirmation on a second day between seven and eleven in the morning is a prerequisite for diagnosis. LH then separates primary from secondary hypogonadism, and in the grey zone SHBG and free testosterone help further."
+            },
+            "D": {
+              "text": "Recheck the value in a year without any further workup",
+              "rationale": "The symptom pattern is typical enough to warrant assessment now. Untreated hypogonadism affects bone density, muscle mass and metabolism over years."
+            }
+          },
+          "explanation": {
+            "core": "Diagnosing hypogonadism rests on two pillars, both of which must be met: matching symptoms and a repeatedly low morning testosterone. Only then follows classification by LH and FSH. A high LH points to a testicular cause, a low or inappropriately normal one to a hypothalamic-pituitary cause.",
+            "teaching_point": "An afternoon value and a single measurement are not enough for the diagnosis."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-and-00002",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Testosterontherapie",
+        "tags": [
+          "pharmakologie",
+          "nebenwirkungen",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Sexual and Reproductive Health",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "Bei einem 56-jährigen Mann ist ein Hypogonadismus zweifach bestätigt. Der Hämatokrit liegt bei 56 Prozent, die Partnerin ist schwanger, eine Schlafapnoe ist bekannt und wird mit CPAP behandelt. Der PSA-Wert beträgt 1,1 ng/ml.",
+          "lead_in": "Welcher Befund spricht gegen den sofortigen Therapiebeginn?",
+          "options": {
+            "A": {
+              "text": "Die behandelte obstruktive Schlafapnoe unter CPAP",
+              "rationale": "Eine unbehandelte schwere Schlafapnoe gilt als Gegenanzeige, weil Testosteron sie verschlechtern kann. Unter wirksamer CPAP-Therapie ist sie kein Hinderungsgrund, verlangt aber eine Verlaufskontrolle."
+            },
+            "B": {
+              "text": "Der Hämatokrit von 56 Prozent vor Therapiebeginn",
+              "rationale": "Oberhalb von etwa 54 Prozent besteht ein erhöhtes thromboembolisches Risiko, und Testosteron steigert die Erythropoese zusätzlich. Vor Beginn muss die Polyglobulie abgeklärt und gesenkt werden."
+            },
+            "C": {
+              "text": "Der PSA-Wert von 1,1 ng/ml in diesem Lebensalter",
+              "rationale": "Dieser Wert ist unauffällig. Eine Gegenanzeige besteht beim unbehandelten Prostatakarzinom, nicht bei einem normalen PSA-Wert; kontrolliert wird er dennoch im Verlauf."
+            },
+            "D": {
+              "text": "Die bestehende Schwangerschaft der Partnerin",
+              "rationale": "Sie ist keine Gegenanzeige für den Mann, verlangt aber Hygieneregeln bei Gelen wegen der Übertragung durch Hautkontakt. Der eigene Kinderwunsch wäre dagegen ein Grund gegen Testosteron."
+            }
+          },
+          "explanation": {
+            "core": "Vor Beginn einer Testosterontherapie werden vier Dinge geprüft: Blutbild mit Hämatokrit, PSA und Prostatabefund, Schlafapnoe und der Kinderwunsch. Während der Therapie wird der Hämatokrit nach drei, sechs und zwölf Monaten und danach jährlich kontrolliert; steigt er über 54 Prozent, wird die Dosis reduziert oder pausiert.",
+            "teaching_point": "Der Hämatokrit ist der Laborwert, der die Testosterontherapie am häufigsten stoppt."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "In a 56-year-old man hypogonadism has been confirmed twice. Haematocrit is 56 per cent, his partner is pregnant, and known sleep apnoea is treated with CPAP. PSA is 1.1 ng/ml.",
+          "lead_in": "Which finding argues against starting treatment now?",
+          "options": {
+            "A": {
+              "text": "The treated obstructive sleep apnoea on CPAP",
+              "rationale": "Untreated severe sleep apnoea is a contraindication, because testosterone can worsen it. On effective CPAP it is not an obstacle but does require follow-up."
+            },
+            "B": {
+              "text": "The haematocrit of 56 per cent before starting",
+              "rationale": "Above roughly 54 per cent thromboembolic risk is increased, and testosterone further stimulates erythropoiesis. The polycythaemia must be investigated and lowered before starting."
+            },
+            "C": {
+              "text": "The PSA value of 1.1 ng/ml at this age",
+              "rationale": "This value is unremarkable. The contraindication applies to untreated prostate cancer, not to a normal PSA, although it is still monitored during treatment."
+            },
+            "D": {
+              "text": "The current pregnancy of his partner",
+              "rationale": "It is not a contraindication for the man but requires hygiene precautions with gels because of transfer by skin contact. His own wish to conceive would be a reason against testosterone."
+            }
+          },
+          "explanation": {
+            "core": "Before starting testosterone four things are checked: full blood count with haematocrit, PSA and prostate examination, sleep apnoea, and the wish to father children. During treatment haematocrit is checked at three, six and twelve months and annually thereafter; above 54 per cent the dose is reduced or paused.",
+            "teaching_point": "Haematocrit is the laboratory value that most often stops testosterone therapy."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-and-00003",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Fertilität",
+        "tags": [
+          "pharmakologie",
+          "dosierung",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Sexual and Reproductive Health",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "32-jähriger Mann mit bestätigtem sekundärem Hypogonadismus, Testosteron 6,4 nmol/l, LH und FSH niedrig, Prolaktin normal, MRT der Hypophyse unauffällig. Das Spermiogramm zeigt eine schwere Oligozoospermie. Er und seine Partnerin wünschen sich ein Kind.",
+          "lead_in": "Welche Behandlung ist angezeigt?",
+          "options": {
+            "A": {
+              "text": "Testosteronundecanoat intramuskulär alle zwölf Wochen",
+              "rationale": "Exogenes Testosteron unterdrückt über die negative Rückkopplung LH und FSH und damit die intratestikuläre Testosteronproduktion. Die Spermatogenese verschlechtert sich dadurch weiter, teilweise bis zur Azoospermie."
+            },
+            "B": {
+              "text": "Testosterongel täglich, dazu ein Antioxidanzienpräparat",
+              "rationale": "Dieselbe Suppression tritt auch unter transdermaler Gabe ein. Antioxidanzien ändern daran nichts und ersetzen die gonadotrope Stimulation nicht."
+            },
+            "C": {
+              "text": "Sofortige testikuläre Spermienextraktion mit Kryokonservierung",
+              "rationale": "Ein chirurgischer Schritt vor Ausschöpfung der medikamentösen Stimulation ist verfrüht. Unter hCG und FSH erreichen viele Patienten Spermien im Ejakulat und benötigen keine Operation."
+            },
+            "D": {
+              "text": "Stimulation mit hCG, bei Bedarf ergänzt um FSH",
+              "rationale": "hCG wirkt wie LH auf die Leydigzellen und stellt das intratestikuläre Testosteron her, das die Spermatogenese benötigt. Reicht das nach mehreren Monaten nicht aus, wird FSH ergänzt; alternativ kommen Clomifen oder ein Aromatasehemmer infrage."
+            }
+          },
+          "explanation": {
+            "core": "Beim sekundären Hypogonadismus mit Kinderwunsch wird nicht substituiert, sondern stimuliert. Der Unterschied ist grundlegend: Testosteron von außen hebt zwar den Serumspiegel, senkt aber die intratestikuläre Konzentration, die um ein Vielfaches höher sein muss als im Blut. Die Behandlung dauert Monate, und der Erfolg wird über Spermiogramme kontrolliert.",
+            "teaching_point": "Kinderwunsch und Testosterongabe schließen einander aus. Stimuliert wird mit hCG, nicht substituiert."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "32-year-old man with confirmed secondary hypogonadism, testosterone 6.4 nmol/l, low LH and FSH, normal prolactin and unremarkable pituitary MRI. Semen analysis shows severe oligozoospermia. He and his partner wish to conceive.",
+          "lead_in": "Which treatment is indicated?",
+          "options": {
+            "A": {
+              "text": "Intramuscular testosterone undecanoate every twelve weeks",
+              "rationale": "Exogenous testosterone suppresses LH and FSH through negative feedback and with them intratesticular testosterone production. Spermatogenesis deteriorates further, in some cases to azoospermia."
+            },
+            "B": {
+              "text": "Daily testosterone gel plus an antioxidant preparation",
+              "rationale": "The same suppression occurs with transdermal delivery. Antioxidants do not change this and do not replace gonadotropic stimulation."
+            },
+            "C": {
+              "text": "Immediate testicular sperm extraction with cryopreservation",
+              "rationale": "A surgical step before medical stimulation has been exhausted is premature. On hCG and FSH many patients achieve sperm in the ejaculate and need no operation."
+            },
+            "D": {
+              "text": "Stimulation with hCG, supplemented by FSH if needed",
+              "rationale": "hCG acts like LH on the Leydig cells and restores the intratesticular testosterone that spermatogenesis requires. If that is insufficient after several months FSH is added; clomiphene or an aromatase inhibitor are alternatives."
+            }
+          },
+          "explanation": {
+            "core": "In secondary hypogonadism with a wish to conceive, you stimulate rather than replace. The difference is fundamental: exogenous testosterone raises the serum level but lowers the intratesticular concentration, which must be many times higher than in blood. Treatment takes months and is monitored by semen analysis.",
+            "teaching_point": "Wanting children and taking testosterone are mutually exclusive. Stimulate with hCG, do not replace."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-and-00004",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Azoospermie",
+        "tags": [
+          "labordiagnostik",
+          "pathologie",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Sexual and Reproductive Health",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "35-jähriger Mann, in zwei getrennten Untersuchungen Azoospermie. Hodenvolumen beidseits 8 ml, FSH deutlich erhöht, Testosteron im unteren Normbereich, Samenleiter beidseits tastbar, Ejakulatvolumen normal.",
+          "lead_in": "Wie ist der Befund einzuordnen und welche Diagnostik folgt?",
+          "options": {
+            "A": {
+              "text": "Nicht obstruktiv; Karyotyp und AZF-Mikrodeletionen bestimmen",
+              "rationale": "Kleine Hoden mit erhöhtem FSH sprechen für eine Störung der Spermatogenese selbst. Vor einer testikulären Spermienextraktion gehören Karyotyp und Y-Mikrodeletionen dazu, weil eine komplette AZFa- oder AZFb-Deletion die Erfolgsaussicht praktisch aufhebt."
+            },
+            "B": {
+              "text": "Obstruktiv; CFTR-Analyse bei Mann und Partnerin veranlassen",
+              "rationale": "Die CFTR-Diagnostik gilt der kongenitalen Vasaaplasie, bei der die Samenleiter nicht tastbar sind und das Ejakulatvolumen niedrig und sauer ist. Beides trifft hier nicht zu."
+            },
+            "C": {
+              "text": "Obstruktiv; transrektale Sonographie zur Suche der Enge",
+              "rationale": "Sie kommt bei Verdacht auf eine Obstruktion der Ductus ejaculatorii infrage, typischerweise mit kleinem Ejakulatvolumen und normalem FSH bei normal großen Hoden."
+            },
+            "D": {
+              "text": "Zunächst Testosteron substituieren und dann erneut messen",
+              "rationale": "Die Substitution würde die verbliebene Spermatogenese vollends unterdrücken und ist bei Kinderwunsch gerade zu vermeiden."
+            }
+          },
+          "explanation": {
+            "core": "Die erste Weiche bei Azoospermie ist obstruktiv gegen nicht obstruktiv, und sie wird ohne Operation gestellt: über Hodenvolumen, FSH, Tastbefund der Samenleiter und Ejakulatvolumen. Kleine Hoden mit hohem FSH bedeuten nicht obstruktiv, normal große Hoden mit normalem FSH sprechen für eine Obstruktion. Erst danach folgen genetische Diagnostik und die Planung der Spermiengewinnung.",
+            "teaching_point": "FSH und Hodenvolumen trennen die beiden Formen, nicht die Biopsie."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "35-year-old man with azoospermia on two separate analyses. Testicular volume 8 ml bilaterally, FSH markedly raised, testosterone at the lower limit of normal, vasa deferentia palpable bilaterally, normal ejaculate volume.",
+          "lead_in": "How should this be classified and what workup follows?",
+          "options": {
+            "A": {
+              "text": "Non-obstructive; obtain karyotype and AZF microdeletions",
+              "rationale": "Small testes with raised FSH indicate a disorder of spermatogenesis itself. Before testicular sperm extraction, karyotype and Y microdeletions belong to the workup, because complete AZFa or AZFb deletion virtually abolishes the chance of retrieval."
+            },
+            "B": {
+              "text": "Obstructive; arrange CFTR analysis in him and his partner",
+              "rationale": "CFTR testing applies to congenital absence of the vas deferens, where the vasa are impalpable and the ejaculate volume is low and acidic. Neither applies here."
+            },
+            "C": {
+              "text": "Obstructive; transrectal ultrasound to locate the blockage",
+              "rationale": "This applies when ejaculatory duct obstruction is suspected, typically with low ejaculate volume and normal FSH in normally sized testes."
+            },
+            "D": {
+              "text": "Replace testosterone first and then repeat the analysis",
+              "rationale": "Replacement would completely suppress any remaining spermatogenesis and is precisely what must be avoided when children are wanted."
+            }
+          },
+          "explanation": {
+            "core": "The first branch point in azoospermia is obstructive versus non-obstructive, and it is reached without surgery: from testicular volume, FSH, palpation of the vasa and ejaculate volume. Small testes with high FSH mean non-obstructive; normal testes with normal FSH suggest obstruction. Genetic testing and planning of sperm retrieval follow only then.",
+            "teaching_point": "FSH and testicular volume separate the two forms, not the biopsy."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-and-00005",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "kongenitale Vasaaplasie",
+        "tags": [
+          "labordiagnostik",
+          "pathologie",
+          "praeoperativ"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Sexual and Reproductive Health",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "29-jähriger Mann mit Azoospermie. Die Samenleiter sind beidseits nicht tastbar, das Ejakulatvolumen beträgt 0,7 ml bei saurem pH. Hodenvolumen und FSH sind normal. Das Paar wünscht eine Kinderwunschbehandlung.",
+          "lead_in": "Was ist vor der Spermiengewinnung zu veranlassen?",
+          "options": {
+            "A": {
+              "text": "Karyotyp und AZF-Mikrodeletionen beim Mann bestimmen",
+              "rationale": "Diese Untersuchungen gelten der nicht obstruktiven Azoospermie mit gestörter Spermatogenese. Hier sind FSH und Hodenvolumen normal, die Störung liegt im Transportweg."
+            },
+            "B": {
+              "text": "Transrektale Sonographie zur Darstellung der Enge",
+              "rationale": "Sie hilft bei Verdacht auf eine Obstruktion der Ductus ejaculatorii, etwa durch eine Mittellinienzyste. Bei fehlenden Samenleitern ist die Ursache bereits geklärt."
+            },
+            "C": {
+              "text": "CFTR-Analyse bei ihm und zusätzlich bei der Partnerin",
+              "rationale": "Die kongenitale beidseitige Vasaaplasie ist in einem Großteil der Fälle mit CFTR-Varianten verbunden. Ist auch die Partnerin Trägerin, besteht ein erhebliches Risiko für ein Kind mit zystischer Fibrose, was vor der Behandlung besprochen werden muss."
+            },
+            "D": {
+              "text": "Sofortige mikrochirurgische Rekonstruktion des Samenleiters",
+              "rationale": "Rekonstruiert werden kann nur, was angelegt ist. Bei Aplasie erfolgt die Spermiengewinnung aus Nebenhoden oder Hoden mit anschließender intrazytoplasmatischer Spermieninjektion."
+            }
+          },
+          "explanation": {
+            "core": "Die Trias aus nicht tastbaren Samenleitern, kleinem saurem Ejakulat und normalem FSH beschreibt die kongenitale beidseitige Vasaaplasie. Sie ist eine milde Ausprägung des CFTR-Spektrums, weshalb die genetische Abklärung beide Partner betrifft. Zusätzlich ist eine sonographische Kontrolle der Nieren sinnvoll, weil bei einseitiger Aplasie häufig eine Nierenagenesie vorliegt.",
+            "teaching_point": "Fehlende Samenleiter heißt CFTR abklären, und zwar bei beiden Partnern."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "29-year-old man with azoospermia. The vasa deferentia are impalpable bilaterally, ejaculate volume is 0.7 ml with acidic pH. Testicular volume and FSH are normal. The couple wishes to undergo fertility treatment.",
+          "lead_in": "What must be arranged before sperm retrieval?",
+          "options": {
+            "A": {
+              "text": "Obtain karyotype and AZF microdeletions in the man",
+              "rationale": "These tests apply to non-obstructive azoospermia with disordered spermatogenesis. Here FSH and testicular volume are normal and the problem lies in the transport pathway."
+            },
+            "B": {
+              "text": "Transrectal ultrasound to demonstrate the obstruction",
+              "rationale": "This helps when ejaculatory duct obstruction is suspected, for example from a midline cyst. With absent vasa the cause is already established."
+            },
+            "C": {
+              "text": "CFTR analysis in him and additionally in his partner",
+              "rationale": "Congenital bilateral absence of the vas deferens is associated with CFTR variants in a large proportion of cases. If the partner is also a carrier there is a substantial risk of a child with cystic fibrosis, which must be discussed before treatment."
+            },
+            "D": {
+              "text": "Immediate microsurgical reconstruction of the vas deferens",
+              "rationale": "Only what exists can be reconstructed. With aplasia, sperm are retrieved from the epididymis or testis followed by intracytoplasmic sperm injection."
+            }
+          },
+          "explanation": {
+            "core": "The triad of impalpable vasa, a small acidic ejaculate and normal FSH describes congenital bilateral absence of the vas deferens. It is a mild expression of the CFTR spectrum, which is why genetic assessment concerns both partners. Renal ultrasound is also worthwhile, because unilateral aplasia is often accompanied by renal agenesis.",
+            "teaching_point": "Absent vasa means CFTR testing, and in both partners."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-and-00006",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Varikozele",
+        "tags": [
+          "leitlinie",
+          "operationstechnik",
+          "bildgebung"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Sexual and Reproductive Health",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "Zwei Männer mit Kinderwunsch seit zwei Jahren. Beim ersten ist links eine Varikozele im Stehen sichtbar und tastbar, das Spermiogramm zeigt eine Oligoasthenozoospermie. Beim zweiten fällt eine Varikozele nur in der Dopplersonographie auf, das Spermiogramm ist normal.",
+          "lead_in": "Bei welchem Mann besteht eine Behandlungsindikation?",
+          "options": {
+            "A": {
+              "text": "Bei beiden, da jede Varikozele die Fertilität deutlich mindert",
+              "rationale": "Eine subklinische, nur sonographisch fassbare Varikozele hat keinen belegten Einfluss auf die Fruchtbarkeit. Ihre Behandlung verbessert weder Spermiogramm noch Schwangerschaftsrate."
+            },
+            "B": {
+              "text": "Nur beim ersten wegen tastbarem Befund und schlechtem Spermiogramm",
+              "rationale": "Die Indikation verlangt drei Bedingungen zusammen: klinisch fassbare Varikozele, pathologisches Spermiogramm und unerfüllter Kinderwunsch des Paares. Alle drei sind hier erfüllt."
+            },
+            "C": {
+              "text": "Nur beim zweiten, weil die Sonographie empfindlicher ist",
+              "rationale": "Empfindlichkeit ersetzt keine klinische Bedeutung. Gerade weil die Sonographie mehr findet, wird die Indikation an den tastbaren Befund gebunden."
+            },
+            "D": {
+              "text": "Bei keinem, da die Varikozele die Fertilität nicht beeinflusst",
+              "rationale": "Bei klinischer Varikozele mit gestörtem Spermiogramm verbessern Verödung oder Unterbindung die Samenparameter und die Schwangerschaftsraten."
+            }
+          },
+          "explanation": {
+            "core": "Die Varikozele wird nicht behandelt, weil sie vorhanden ist, sondern weil sie schadet. Deshalb müssen klinischer Befund, Spermiogramm und Kinderwunsch zusammentreffen. Beim Jugendlichen gilt zusätzlich ein Wachstumsrückstand des betroffenen Hodens als eigenständige Indikation. Verödung und mikrochirurgische Unterbindung sind gleichwertige Verfahren, letztere mit der niedrigsten Rezidiv- und Hydrozelenrate.",
+            "teaching_point": "Subklinisch heißt nicht behandlungsbedürftig. Getastet wird im Stehen."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Two men with two years of infertility. In the first a left varicocele is visible and palpable on standing, and semen analysis shows oligoasthenozoospermia. In the second a varicocele is apparent only on Doppler ultrasound and semen analysis is normal.",
+          "lead_in": "In which man is treatment indicated?",
+          "options": {
+            "A": {
+              "text": "In both, since any varicocele clearly impairs fertility",
+              "rationale": "A subclinical varicocele detectable only on ultrasound has no proven effect on fertility. Treating it improves neither semen parameters nor pregnancy rates."
+            },
+            "B": {
+              "text": "Only the first, for a palpable finding and abnormal semen",
+              "rationale": "The indication requires three conditions together: a clinically detectable varicocele, abnormal semen analysis and an unfulfilled wish for children. All three are met here."
+            },
+            "C": {
+              "text": "Only the second, because ultrasound is more sensitive",
+              "rationale": "Sensitivity does not equate to clinical relevance. Precisely because ultrasound finds more, the indication is tied to the palpable finding."
+            },
+            "D": {
+              "text": "In neither, since varicocele does not affect fertility",
+              "rationale": "With a clinical varicocele and abnormal semen, embolisation or ligation improve semen parameters and pregnancy rates."
+            }
+          },
+          "explanation": {
+            "core": "A varicocele is treated not because it is present but because it does harm. Clinical finding, semen analysis and the wish to conceive must therefore coincide. In adolescents, growth arrest of the affected testis counts as an independent indication. Embolisation and microsurgical ligation are equivalent, the latter with the lowest recurrence and hydrocele rates.",
+            "teaching_point": "Subclinical does not mean it needs treatment. Palpate with the patient standing."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-and-00007",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "erektile Dysfunktion",
+        "tags": [
+          "labordiagnostik",
+          "pharmakologie",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Sexual and Reproductive Health",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "52-jähriger Mann mit seit einem Jahr langsam zunehmender erektiler Dysfunktion, morgendliche Erektionen sind seltener geworden. Er raucht, der Bauchumfang beträgt 108 cm, der Blutdruck 152/94 mmHg. Er nimmt kein Nitrat ein und wünscht ein Rezept für einen PDE-5-Hemmer.",
+          "lead_in": "Wie ist zu verfahren?",
+          "options": {
+            "A": {
+              "text": "Rezept ausstellen; weitere Diagnostik ist entbehrlich",
+              "rationale": "Der Wirkstoff hilft, aber der Befund ist ein Warnsignal. Die organisch imponierende erektile Dysfunktion geht kardiovaskulären Ereignissen im Mittel um mehrere Jahre voraus."
+            },
+            "B": {
+              "text": "Zuerst eine Schwellkörperinjektion zur Diagnosesicherung",
+              "rationale": "Der Injektionstest gehört in die weiterführende Abklärung vor invasiven Verfahren, nicht in die Erstbeurteilung eines typischen Falls."
+            },
+            "C": {
+              "text": "Zunächst psychosomatische Mitbehandlung ohne Medikation",
+              "rationale": "Der schleichende Beginn mit nachlassenden Morgenerektionen spricht für eine organische Ursache. Psychogene Formen beginnen meist plötzlich und situationsabhängig."
+            },
+            "D": {
+              "text": "Kardiovaskuläres Risiko erfassen und parallel behandeln",
+              "rationale": "Erhoben werden Blutdruck, Lipide, Glukose beziehungsweise HbA1c sowie Testosteron. Der PDE-5-Hemmer wird verordnet, aber die Gefäßsituation gleichzeitig angegangen; absolute Gegenanzeige bleibt die gleichzeitige Nitrateinnahme."
+            }
+          },
+          "explanation": {
+            "core": "Die erektile Dysfunktion ist häufig die erste sichtbare Manifestation einer generalisierten Endothelstörung, weil die Penisarterien einen kleineren Durchmesser haben als die Koronararterien. Deshalb ist sie ein Anlass zur kardiovaskulären Abklärung und nicht nur ein Symptom, das behandelt wird. Die Verordnung eines PDE-5-Hemmers schließt das nicht aus, sondern ergänzt es.",
+            "teaching_point": "Die erektile Dysfunktion ist ein Frühwarnzeichen der Koronarsklerose, nicht nur ein Sexualproblem."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "52-year-old man with slowly progressive erectile dysfunction over a year and fewer morning erections. He smokes, waist circumference is 108 cm and blood pressure 152/94 mmHg. He takes no nitrates and asks for a prescription for a PDE-5 inhibitor.",
+          "lead_in": "How should this be handled?",
+          "options": {
+            "A": {
+              "text": "Issue the prescription; further workup is unnecessary",
+              "rationale": "The drug will help, but the presentation is a warning sign. Organic erectile dysfunction precedes cardiovascular events by several years on average."
+            },
+            "B": {
+              "text": "Perform an intracavernosal injection test to confirm first",
+              "rationale": "The injection test belongs to extended assessment before invasive procedures, not to the initial evaluation of a typical case."
+            },
+            "C": {
+              "text": "Start psychosomatic co-treatment without any medication",
+              "rationale": "Gradual onset with declining morning erections points to an organic cause. Psychogenic forms usually begin abruptly and are situation-dependent."
+            },
+            "D": {
+              "text": "Assess cardiovascular risk and treat it in parallel",
+              "rationale": "Blood pressure, lipids, glucose or HbA1c and testosterone are checked. The PDE-5 inhibitor is prescribed while the vascular situation is addressed simultaneously; concurrent nitrate use remains an absolute contraindication."
+            }
+          },
+          "explanation": {
+            "core": "Erectile dysfunction is often the first visible manifestation of generalised endothelial disease, because the penile arteries are smaller in calibre than the coronaries. It is therefore a reason for cardiovascular assessment and not merely a symptom to be treated. Prescribing a PDE-5 inhibitor does not preclude this but complements it.",
+            "teaching_point": "Erectile dysfunction is an early warning of coronary disease, not only a sexual problem."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-and-00008",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Priapismus",
+        "tags": [
+          "notfall",
+          "labordiagnostik",
+          "pharmakologie",
+          "dosierung"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Sexual and Reproductive Health",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "27-jähriger Mann mit seit sieben Stunden bestehender, schmerzhafter Dauererektion nach Einnahme eines Präparats gegen erektile Dysfunktion. Der Penisschaft ist rigide, die Glans weich. Kein Trauma in der Anamnese.",
+          "lead_in": "Wie ist vorzugehen?",
+          "options": {
+            "A": {
+              "text": "Blutgasanalyse, dann Aspiration und Phenylephrin intrakavernös",
+              "rationale": "Die Blutgasanalyse trennt den ischämischen vom arteriellen Priapismus: dunkles Blut mit niedrigem Sauerstoffpartialdruck und Azidose bestätigt die ischämische Form. Behandelt wird mit Aspiration und intrakavernöser Gabe von Phenylephrin, verdünnt und wiederholt unter Kreislaufkontrolle."
+            },
+            "B": {
+              "text": "Kühlung und Analgesie mit Kontrolle am nächsten Morgen",
+              "rationale": "Der ischämische Priapismus ist ein Kompartmentsyndrom des Schwellkörpers. Ab etwa zwölf Stunden beginnt die irreversible Schädigung des glatten Muskels mit späterer Fibrose und dauerhafter erektiler Dysfunktion."
+            },
+            "C": {
+              "text": "Sofortige Angiographie mit selektiver Embolisation der Arterie",
+              "rationale": "Dieses Vorgehen gilt dem arteriellen, nicht ischämischen Priapismus, der typischerweise nach einem Damm- oder Genitaltrauma auftritt und schmerzlos ist."
+            },
+            "D": {
+              "text": "Umgehende Anlage eines kavernosospongiösen Shunts als erstes",
+              "rationale": "Der Shunt ist die nächste Stufe, wenn Aspiration und Sympathomimetikum versagen. Als erster Schritt ist er zu invasiv und mit einem höheren Risiko für erektile Dysfunktion verbunden."
+            }
+          },
+          "explanation": {
+            "core": "Beim Priapismus entscheidet die Unterscheidung zwischen ischämischer und arterieller Form über alles Weitere, und sie wird mit einer Blutgasanalyse aus dem Corpus cavernosum getroffen. Die ischämische Form ist schmerzhaft, rigide und ein Notfall; die arterielle ist schmerzlos, teilrigide und erlaubt ein abwartendes oder interventionelles Vorgehen. Die Behandlung folgt einer Stufenfolge von Aspiration über Sympathomimetikum bis zum Shunt.",
+            "teaching_point": "Erst die Blutgasanalyse, dann die Therapie. Schmerz und Rigidität sprechen für ischämisch."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "27-year-old man with a painful sustained erection for seven hours after taking a preparation for erectile dysfunction. The shaft is rigid while the glans is soft. No history of trauma.",
+          "lead_in": "How should this be managed?",
+          "options": {
+            "A": {
+              "text": "Blood gas, then aspiration and intracavernosal phenylephrine",
+              "rationale": "Blood gas analysis separates ischaemic from arterial priapism: dark blood with low oxygen tension and acidosis confirms the ischaemic form. Treatment is aspiration and intracavernosal phenylephrine, diluted and repeated with cardiovascular monitoring."
+            },
+            "B": {
+              "text": "Cooling and analgesia with review the following morning",
+              "rationale": "Ischaemic priapism is a compartment syndrome of the corpora. From around twelve hours irreversible smooth muscle damage begins, with later fibrosis and permanent erectile dysfunction."
+            },
+            "C": {
+              "text": "Immediate angiography with selective arterial embolisation",
+              "rationale": "This applies to arterial, non-ischaemic priapism, which typically follows perineal or genital trauma and is painless."
+            },
+            "D": {
+              "text": "Immediate creation of a cavernosospongiosal shunt first",
+              "rationale": "A shunt is the next step when aspiration and a sympathomimetic fail. As a first measure it is too invasive and carries a higher risk of erectile dysfunction."
+            }
+          },
+          "explanation": {
+            "core": "In priapism the distinction between ischaemic and arterial forms governs everything that follows, and it is made with a blood gas from the corpus cavernosum. The ischaemic form is painful, rigid and an emergency; the arterial form is painless, partially rigid and allows an expectant or interventional approach. Treatment follows a ladder from aspiration through sympathomimetic to shunt.",
+            "teaching_point": "Blood gas first, treatment second. Pain and rigidity point to the ischaemic form."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-and-00009",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Induratio penis plastica",
+        "tags": [
+          "leitlinie",
+          "operationstechnik",
+          "praeoperativ"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Sexual and Reproductive Health",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "44-jähriger Mann mit seit fünf Monaten bestehender Penisdeviation nach dorsal, zunehmend über die letzten Wochen. Er hat Schmerzen bei der Erektion. Der Winkel wurde bei zwei Terminen mit 40 und zuletzt 55 Grad gemessen, die Erektionsfähigkeit ist erhalten.",
+          "lead_in": "Welches Vorgehen ist jetzt angezeigt?",
+          "options": {
+            "A": {
+              "text": "Sofortige Plikatur der Gegenseite zur operativen Begradigung",
+              "rationale": "Ein Eingriff in der aktiven Phase birgt ein hohes Risiko für erneute Deviation, weil sich die Plaque weiter verändert. Operiert wird erst, wenn Winkel und Schmerz über Monate stabil sind."
+            },
+            "B": {
+              "text": "Sofortige Inzision der Plaque mit Einlage eines Grafts",
+              "rationale": "Auch dieses Verfahren setzt einen stabilen Befund voraus. In der aktiven Phase drohen Rezidiv der Krümmung und zusätzlich eine Verschlechterung der Erektionsfähigkeit."
+            },
+            "C": {
+              "text": "Konservativ behandeln und den Verlauf bis zur Stabilität abwarten",
+              "rationale": "Schmerz und zunehmender Winkel kennzeichnen die aktive Phase. Behandelt werden Schmerz und Leidensdruck; die operative Korrektur wird erst nach etwa drei bis sechs Monaten unveränderten Befundes geplant."
+            },
+            "D": {
+              "text": "Implantation einer Penisprothese als definitive Lösung",
+              "rationale": "Die Prothese ist Patienten mit gleichzeitig therapierefraktärer erektiler Dysfunktion vorbehalten. Hier ist die Erektionsfähigkeit erhalten."
+            }
+          },
+          "explanation": {
+            "core": "Die Induratio penis plastica verläuft in zwei Phasen. In der aktiven Phase mit Schmerz und veränderlichem Winkel wird nicht operiert. In der stabilen Phase richtet sich das Verfahren nach Krümmungsgrad, Penislänge und Erektionsfähigkeit: Verkürzungsverfahren bei geringerer Krümmung und guter Erektion, Verlängerungsverfahren mit Graft bei stärkerer Krümmung, Prothese bei zusätzlicher erektiler Dysfunktion. Zur Aufklärung gehört der mögliche Längenverlust.",
+            "teaching_point": "In der aktiven Phase wird nicht operiert. Stabilität über Monate ist die Voraussetzung."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "44-year-old man with five months of dorsal penile curvature, increasing over recent weeks. He has pain on erection. The angle was measured at two visits as 40 and most recently 55 degrees, and erectile function is preserved.",
+          "lead_in": "Which approach is indicated now?",
+          "options": {
+            "A": {
+              "text": "Immediate plication of the opposite side to straighten it",
+              "rationale": "Surgery in the active phase carries a high risk of recurrent curvature, because the plaque continues to change. Surgery follows only when angle and pain have been stable for months."
+            },
+            "B": {
+              "text": "Immediate plaque incision with insertion of a graft patch",
+              "rationale": "This procedure also requires a stable finding. In the active phase recurrence of curvature and additional deterioration of erectile function are likely."
+            },
+            "C": {
+              "text": "Treat conservatively and await stability of the findings",
+              "rationale": "Pain and an increasing angle mark the active phase. Pain and distress are treated; surgical correction is planned only after roughly three to six months of unchanged findings."
+            },
+            "D": {
+              "text": "Implantation of a penile prosthesis as the final solution",
+              "rationale": "A prosthesis is reserved for patients with concomitant refractory erectile dysfunction. Here erectile function is preserved."
+            }
+          },
+          "explanation": {
+            "core": "Peyronie's disease runs in two phases. In the active phase with pain and a changing angle, surgery is not performed. In the stable phase the procedure follows curvature, penile length and erectile function: shortening procedures for lesser curvature with good erections, lengthening with a graft for greater curvature, and a prosthesis when erectile dysfunction coexists. Counselling includes possible loss of length.",
+            "teaching_point": "No surgery in the active phase. Stability over months is the prerequisite."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-and-00010",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Spermiogramm",
+        "tags": [
+          "labordiagnostik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "WHO",
+          "title": "WHO-Laborhandbuch zur Untersuchung des menschlichen Ejakulats",
+          "year": 2021
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 34-jähriger Mann bringt ein auswärtiges Spermiogramm mit, das eine Oligozoospermie zeigt. Die Karenzzeit betrug einen Tag, die Probe wurde zu Hause gewonnen und nach etwa zwei Stunden abgegeben. Er hatte in der Woche zuvor fiebrig geschwitzt.",
+          "lead_in": "Wie ist der Befund zu bewerten?",
+          "options": {
+            "A": {
+              "text": "Beweisend für eine Fertilitätsstörung; Therapie sofort einleiten",
+              "rationale": "Eine einzelne Analyse unter ungünstigen Bedingungen trägt keine Diagnose. Die Werte schwanken beim selben Mann erheblich, und die Referenzgrenzen beschreiben Perzentile fruchtbarer Männer, nicht eine Schwelle zur Unfruchtbarkeit."
+            },
+            "B": {
+              "text": "Nicht verwertbar; Wiederholung unter standardisierten Bedingungen",
+              "rationale": "Die Karenzzeit soll zwei bis sieben Tage betragen, die Probe innerhalb einer Stunde bei Körpertemperatur ins Labor gelangen. Fieber wirkt sich zudem über etwa drei Monate aus, entsprechend der Dauer der Spermatogenese."
+            },
+            "C": {
+              "text": "Normalbefund, da die Referenzwerte nur Richtwerte darstellen",
+              "rationale": "Die Referenzgrenzen sind zwar keine scharfe Trennlinie, aber der Befund lässt sich unter diesen Bedingungen weder als normal noch als pathologisch einordnen."
+            },
+            "D": {
+              "text": "Sofort eine Hodenbiopsie zur Klärung der Ursache veranlassen",
+              "rationale": "Ein invasiver Schritt vor Wiederholung der Basisuntersuchung ist nicht zu rechtfertigen und würde die Ursache der schlechten Werte nicht klären."
+            }
+          },
+          "explanation": {
+            "core": "Das Spermiogramm ist eine Momentaufnahme mit erheblicher Streuung. Deshalb gehören mindestens zwei Analysen im Abstand von einigen Wochen zur Beurteilung, gewonnen nach zwei bis sieben Tagen Karenz und rasch verarbeitet. Fieberhafte Infekte, Medikamente und Hitzeexposition wirken über den Zeitraum eines vollständigen Spermatogenesezyklus nach.",
+            "teaching_point": "Ein einzelnes schlechtes Spermiogramm ist kein Befund, sondern ein Anlass zur Wiederholung."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 34-year-old man brings an external semen analysis showing oligozoospermia. Abstinence was one day, the sample was produced at home and delivered after about two hours. He had a febrile illness with sweating the previous week.",
+          "lead_in": "How should the result be judged?",
+          "options": {
+            "A": {
+              "text": "Proof of impaired fertility; initiate treatment immediately",
+              "rationale": "A single analysis under unfavourable conditions does not carry a diagnosis. Values vary considerably within the same man, and the reference limits describe percentiles of fertile men rather than a threshold for infertility."
+            },
+            "B": {
+              "text": "Not usable; repeat under standardised conditions",
+              "rationale": "Abstinence should be two to seven days and the sample should reach the laboratory within an hour at body temperature. Fever also exerts an effect for about three months, matching the duration of spermatogenesis."
+            },
+            "C": {
+              "text": "A normal result, since reference values are only guidance",
+              "rationale": "The reference limits are indeed not a sharp dividing line, but under these conditions the result can be classified as neither normal nor abnormal."
+            },
+            "D": {
+              "text": "Proceed at once to testicular biopsy to establish the cause",
+              "rationale": "An invasive step before repeating the basic investigation cannot be justified and would not explain the poor values."
+            }
+          },
+          "explanation": {
+            "core": "Semen analysis is a snapshot with considerable variability. At least two analyses several weeks apart therefore belong to the assessment, obtained after two to seven days of abstinence and processed promptly. Febrile illness, medication and heat exposure exert effects over the duration of a complete spermatogenic cycle.",
+            "teaching_point": "A single poor semen analysis is not a finding but a reason to repeat it."
+          },
+          "flag_note": null
+        }
+      }
+    }
+  ]
+}

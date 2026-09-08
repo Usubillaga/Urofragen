@@ -1,0 +1,2196 @@
+{
+  "gebiet": "hodentumor",
+  "fragen": [
+    {
+      "id": "uro-hod-00001",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Seminom Stadium I",
+        "tags": [
+          "leitlinie",
+          "nachsorge"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026
+        },
+        {
+          "type": "leitlinie",
+          "code": "AWMF 043-049OL",
+          "title": "S3-Leitlinie Keimzelltumoren des Hodens",
+          "year": 2025
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-05",
+        "last_reviewed": "2026-09-05",
+        "expires": "2028-09-05"
+      },
+      "content": {
+        "de": {
+          "vignette": "32-jähriger Patient nach inguinaler Ablatio testis. Histologie: reines Seminom, pT1, keine Rete-testis-Invasion, Tumordurchmesser 2,8 cm. Tumormarker vor und nach Operation im Normbereich, CT von Thorax, Abdomen und Becken unauffällig. Klinisches Stadium I.",
+          "lead_in": "Welches Vorgehen ist Standard?",
+          "options": {
+            "A": {
+              "text": "Adjuvante paraaortale Radiatio mit 20 Gy in Standardfraktionierung",
+              "rationale": "Wegen Zweitmalignomen und kardiovaskulärer Spätfolgen weitgehend verlassen."
+            },
+            "B": {
+              "text": "Adjuvanter Zyklus Carboplatin AUC 7 nach der Ablatio",
+              "rationale": "Eine Alternative, die die Rezidivrate senkt, das Gesamtüberleben aber nicht verbessert. Sie kommt vor allem infrage, wenn eine engmaschige Nachsorge nicht sicherzustellen ist."
+            },
+            "C": {
+              "text": "Aktive Surveillance nach festem Nachsorgeschema",
+              "rationale": "Etwa 82 bis 85 Prozent der Patienten im Stadium I sind bereits geheilt. Surveillance vermeidet die Übertherapie der Mehrheit; Rezidive sind im Verlauf sehr gut behandelbar."
+            },
+            "D": {
+              "text": "Nervschonende retroperitoneale Lymphadenektomie beidseits",
+              "rationale": "Beim Seminom im Stadium I kein Standardverfahren; sie gehört in den Bereich des Nichtseminoms und ausgewählter Sondersituationen."
+            }
+          },
+          "explanation": {
+            "core": "Im Stadium I entscheidet nicht die maximale Tumorkontrolle, sondern das Verhältnis von Nutzen zu Langzeittoxizität bei jungen Männern mit einer Heilungsrate nahe hundert Prozent. Surveillance verlagert die Behandlung auf die Minderheit mit Rezidiv, statt alle zu therapieren.",
+            "teaching_point": "Beim Seminom im Stadium I ist Nichtstun unter engmaschiger Kontrolle die aktive Entscheidung, nicht das Versäumnis."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "32-year-old man after inguinal orchiectomy. Histology: pure seminoma, pT1, no rete testis invasion, tumour diameter 2.8 cm. Tumour markers normal before and after surgery, CT of chest, abdomen and pelvis unremarkable. Clinical stage I.",
+          "lead_in": "What is the standard approach?",
+          "options": {
+            "A": {
+              "text": "Adjuvant para-aortic radiotherapy with 20 Gy in standard fractions",
+              "rationale": "Largely abandoned because of second malignancies and late cardiovascular effects."
+            },
+            "B": {
+              "text": "One adjuvant cycle of carboplatin AUC 7 after orchiectomy",
+              "rationale": "An alternative that lowers the relapse rate but does not improve overall survival. It mainly applies when close follow-up cannot be assured."
+            },
+            "C": {
+              "text": "Active surveillance following a defined follow-up schedule",
+              "rationale": "Roughly 82 to 85 per cent of stage I patients are already cured. Surveillance avoids overtreating the majority, and relapses remain highly treatable."
+            },
+            "D": {
+              "text": "Bilateral nerve-sparing retroperitoneal lymph node dissection",
+              "rationale": "Not a standard procedure in stage I seminoma; it belongs to non-seminoma and selected special situations."
+            }
+          },
+          "explanation": {
+            "core": "In stage I the decision is not about maximum tumour control but about the balance of benefit against long-term toxicity in young men whose cure rate approaches one hundred per cent. Surveillance shifts treatment onto the minority who relapse instead of treating everyone.",
+            "teaching_point": "In stage I seminoma, doing nothing under close monitoring is the active decision, not an omission."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00002",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Chemotherapie",
+        "tags": [
+          "dosierung",
+          "pharmakologie",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026
+        },
+        {
+          "type": "klassifikation",
+          "citation": "IGCCCG-Klassifikation"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-05",
+        "last_reviewed": "2026-09-05",
+        "expires": "2028-09-05"
+      },
+      "content": {
+        "de": {
+          "vignette": "27-jähriger Patient mit metastasiertem Nichtseminom, retroperitoneale Lymphknoten bis 3 cm, keine viszeralen Metastasen außerhalb der Lunge, AFP 420 ng/ml, beta-hCG 1800 IU/l, LDH gering erhöht. Nach IGCCCG ergibt sich eine gute Prognose. Lungenfunktion normal.",
+          "lead_in": "Welche Chemotherapie entspricht dem Standard?",
+          "options": {
+            "A": {
+              "text": "Vier Zyklen Carboplatin AUC 7 als Monotherapie",
+              "rationale": "Carboplatin ersetzt Cisplatin beim metastasierten Keimzelltumor nicht; die Monotherapie ist deutlich unterlegen."
+            },
+            "B": {
+              "text": "Drei Zyklen EP ohne Bleomycin",
+              "rationale": "Bleomycinfrei wird nur bei Kontraindikation behandelt, und dann mit vier Zyklen EP statt drei."
+            },
+            "C": {
+              "text": "Drei Zyklen BEP nach Standarddosierung",
+              "rationale": "Drei Zyklen BEP sind bei guter Prognose der Standard und vier Zyklen gleichwertig bei geringerer Toxizität. Das Schema umfasst Cisplatin 20 mg/m² an den Tagen 1 bis 5, Etoposid 100 mg/m² an den Tagen 1 bis 5 und Bleomycin 30 mg absolut an den Tagen 1, 8 und 15, mit Wiederholung an Tag 22."
+            },
+            "D": {
+              "text": "Vier Zyklen BEP nach Standarddosierung",
+              "rationale": "Vier Zyklen sind der intermediären und ungünstigen Prognosegruppe vorbehalten; hier bedeuten sie nur zusätzliche Toxizität."
+            }
+          },
+          "explanation": {
+            "core": "Die IGCCCG-Prognosegruppe legt die Zyklenzahl fest: drei BEP bei guter, vier BEP bei intermediärer und ungünstiger Prognose. Bleomycin wird nur bei Kontraindikation weggelassen, dann jedoch unter Erhöhung auf vier Zyklen EP. Vor Bleomycin gehört eine Lungenfunktionsprüfung.",
+            "teaching_point": "Prognosegruppe bestimmt die Zyklenzahl, Bleomycintauglichkeit bestimmt das Regime."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "27-year-old man with metastatic non-seminoma, retroperitoneal nodes up to 3 cm, no non-pulmonary visceral metastases, AFP 420 ng/ml, beta-hCG 1800 IU/l, mildly elevated LDH. IGCCCG classification gives good prognosis. Lung function normal.",
+          "lead_in": "Which chemotherapy is standard?",
+          "options": {
+            "A": {
+              "text": "Four cycles of single-agent carboplatin AUC 7",
+              "rationale": "Carboplatin does not replace cisplatin in metastatic germ cell tumours; single-agent treatment is clearly inferior."
+            },
+            "B": {
+              "text": "Three cycles of EP without bleomycin",
+              "rationale": "Bleomycin is omitted only when contraindicated, and then four cycles of EP are given rather than three."
+            },
+            "C": {
+              "text": "Three cycles of BEP at standard dosing",
+              "rationale": "Three cycles of BEP are standard in good prognosis and equivalent to four cycles with lower toxicity. The regimen comprises cisplatin 20 mg/m² on days 1 to 5, etoposide 100 mg/m² on days 1 to 5 and bleomycin 30 mg flat dose on days 1, 8 and 15, repeated on day 22."
+            },
+            "D": {
+              "text": "Four cycles of BEP at standard dosing",
+              "rationale": "Four cycles are reserved for intermediate and poor prognosis; here they only add toxicity."
+            }
+          },
+          "explanation": {
+            "core": "The IGCCCG prognostic group sets the number of cycles: three BEP in good prognosis, four BEP in intermediate and poor prognosis. Bleomycin is omitted only when contraindicated, and then the EP regimen is extended to four cycles. Pulmonary function testing belongs before bleomycin.",
+            "teaching_point": "Prognostic group sets the number of cycles; bleomycin fitness sets the regimen."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00003",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Primärdiagnostik",
+        "tags": [
+          "leitlinie",
+          "labordiagnostik",
+          "praeoperativ"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026
+        },
+        {
+          "type": "leitlinie",
+          "code": "AWMF 043-049OL",
+          "title": "S3-Leitlinie Keimzelltumoren des Hodens",
+          "year": 2025
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "28-jähriger Patient mit seit sechs Wochen bestehender, schmerzloser Schwellung des rechten Hodens. Sonographisch echoarme, inhomogene intratestikuläre Raumforderung von 3 cm mit vermehrter Vaskularisierung. Der Patient hat keine Kinder und einen offenen Kinderwunsch.",
+          "lead_in": "Was ist vor der inguinalen Ablatio testis zu veranlassen?",
+          "options": {
+            "A": {
+              "text": "Erst vollständiges Staging-CT, danach die Operation",
+              "rationale": "Das Staging-CT gehört zur Ausbreitungsdiagnostik, darf die Ablatio aber nicht verzögern; bei bedrohlicher Erkrankung wird sogar mit der Chemotherapie vor der Operation begonnen."
+            },
+            "B": {
+              "text": "Transskrotale Feinnadelbiopsie zur Sicherung vor der Operation",
+              "rationale": "Der skrotale Zugang ist kontraindiziert. Er durchbricht die anatomischen Lymphabflussgrenzen und kann Tumorzellen in ein anderes Abflussgebiet verschleppen."
+            },
+            "C": {
+              "text": "Kryokonservierung erst nach Vorliegen der Histologie besprechen",
+              "rationale": "Zu spät, wenn unmittelbar eine Chemotherapie folgt, und unnötig belastend, weil die Entscheidung dann unter Zeitdruck fällt."
+            },
+            "D": {
+              "text": "Tumormarker präoperativ abnehmen und Kryokonservierung anbieten",
+              "rationale": "Die Marker vor und nach der Operation bestimmen gemeinsam die IGCCCG-Prognosegruppe. Die Kryokonservierung muss vor jeder gonadotoxischen Therapie erfolgen und wird sinnvollerweise vor der Ablatio angeboten. Bestimmt werden AFP, beta-hCG und LDH. Der präoperative Ausgangswert wird gebraucht, weil sich die IGCCCG-Prognosegruppe aus dem Verlauf nach der Operation ergibt."
+            }
+          },
+          "explanation": {
+            "core": "Zwei Dinge sind vor der Operation nicht nachholbar: die präoperativen Tumormarker und die Fertilitätsvorsorge. Der Markerverlauf nach der Ablatio ist nur bewertbar, wenn der Ausgangswert vorliegt, und die Kryokonservierung verliert ihren Sinn, sobald eine Chemotherapie begonnen hat.",
+            "teaching_point": "Marker abnehmen und Kryokonservierung anbieten, bevor das Skalpell angesetzt wird. Skrotal wird nicht biopsiert."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "28-year-old man with a six-week history of painless right testicular swelling. Ultrasound shows a 3 cm hypoechoic, inhomogeneous intratesticular mass with increased vascularity. He has no children and wishes to keep the option open.",
+          "lead_in": "What must be arranged before inguinal orchiectomy?",
+          "options": {
+            "A": {
+              "text": "Complete staging CT first, surgery only afterwards",
+              "rationale": "Staging CT belongs to the workup but must not delay orchiectomy; in life-threatening disease chemotherapy is even started before surgery."
+            },
+            "B": {
+              "text": "Transscrotal fine-needle biopsy for confirmation before surgery",
+              "rationale": "The scrotal approach is contraindicated. It breaches the anatomical lymphatic boundaries and can seed tumour cells into a different drainage territory."
+            },
+            "C": {
+              "text": "Discuss cryopreservation only once histology is available",
+              "rationale": "Too late if chemotherapy follows immediately, and unnecessarily stressful because the decision then falls under time pressure."
+            },
+            "D": {
+              "text": "Take tumour markers preoperatively and offer cryopreservation",
+              "rationale": "Markers before and after surgery together determine the IGCCCG prognostic group. Cryopreservation must precede any gonadotoxic treatment and is sensibly offered before orchiectomy. AFP, beta-hCG and LDH are measured. The preoperative baseline is needed because the IGCCCG prognostic group derives from the postoperative trajectory."
+            }
+          },
+          "explanation": {
+            "core": "Two things cannot be made up after surgery: preoperative tumour markers and fertility preservation. The post-orchiectomy marker trajectory is only interpretable against a baseline, and cryopreservation loses its purpose once chemotherapy has begun.",
+            "teaching_point": "Draw markers and offer cryopreservation before the scalpel. Never biopsy through the scrotum."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00004",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Nichtseminom Stadium I",
+        "tags": [
+          "leitlinie",
+          "pharmakologie",
+          "dosierung",
+          "pathologie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "30-jähriger Patient nach inguinaler Ablatio testis. Histologie: Nichtseminom, pT2 mit eindeutiger lymphovaskulärer Invasion, embryonales Karzinom als Hauptkomponente. Tumormarker nach der Operation vollständig normalisiert, CT von Thorax, Abdomen und Becken unauffällig. Klinisches Stadium I.",
+          "lead_in": "Welche Option senkt das Rezidivrisiko am wirksamsten bei vertretbarer Toxizität?",
+          "options": {
+            "A": {
+              "text": "Nervschonende retroperitoneale Lymphadenektomie",
+              "rationale": "Der Chemotherapie in der Rezidivkontrolle unterlegen und heute Sondersituationen vorbehalten, etwa bei Teratomanteilen oder Kontraindikationen gegen Cisplatin."
+            },
+            "B": {
+              "text": "Adjuvante retroperitoneale Radiatio",
+              "rationale": "Beim Nichtseminom unwirksam; die Strahlentherapie hat ihren Platz allenfalls beim Seminom und ist auch dort weitgehend verlassen."
+            },
+            "C": {
+              "text": "Ein Zyklus BEP adjuvant",
+              "rationale": "Bei lymphovaskulärer Invasion liegt das Rezidivrisiko unbehandelt bei etwa der Hälfte der Patienten. Ein einzelner Zyklus senkt es auf wenige Prozent und ist zwei Zyklen gleichwertig."
+            },
+            "D": {
+              "text": "Zwei Zyklen BEP adjuvant",
+              "rationale": "Historisches Vorgehen. Der zweite Zyklus bringt keinen zusätzlichen Nutzen und verdoppelt die Belastung."
+            }
+          },
+          "explanation": {
+            "core": "Im Stadium I des Nichtseminoms ist die lymphovaskuläre Invasion der entscheidende Risikofaktor und teilt die Patienten in zwei Gruppen. Ohne sie ist Surveillance der Standard, mit ihr wird ein Zyklus BEP empfohlen. Surveillance bleibt auch bei Hochrisiko eine Option, wenn der Patient sie nach Aufklärung wünscht und die Nachsorge gesichert ist.",
+            "teaching_point": "Beim Nichtseminom im Stadium I entscheidet ein einziger histologischer Befund über die Empfehlung: die lymphovaskuläre Invasion."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "30-year-old man after inguinal orchiectomy. Histology: non-seminoma, pT2 with unequivocal lymphovascular invasion, embryonal carcinoma as the predominant component. Tumour markers fully normalised after surgery, CT of chest, abdomen and pelvis unremarkable. Clinical stage I.",
+          "lead_in": "Which option reduces relapse risk most effectively at acceptable toxicity?",
+          "options": {
+            "A": {
+              "text": "Nerve-sparing retroperitoneal lymph node dissection",
+              "rationale": "Inferior to chemotherapy for relapse control and today reserved for special situations such as teratoma components or contraindications to cisplatin."
+            },
+            "B": {
+              "text": "Adjuvant retroperitoneal radiotherapy",
+              "rationale": "Ineffective in non-seminoma; radiotherapy has a place at most in seminoma and has largely been abandoned there too."
+            },
+            "C": {
+              "text": "One adjuvant cycle of BEP",
+              "rationale": "With lymphovascular invasion the untreated relapse risk is around fifty per cent. A single cycle reduces it to a few per cent and is equivalent to two cycles."
+            },
+            "D": {
+              "text": "Two adjuvant cycles of BEP",
+              "rationale": "Historical practice. The second cycle adds no benefit and doubles the burden."
+            }
+          },
+          "explanation": {
+            "core": "In stage I non-seminoma lymphovascular invasion is the decisive risk factor and splits patients into two groups. Without it surveillance is standard; with it one cycle of BEP is recommended. Surveillance remains an option even in high risk if the patient chooses it after counselling and follow-up is assured.",
+            "teaching_point": "In stage I non-seminoma a single histological finding drives the recommendation: lymphovascular invasion."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00005",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Residualtumor",
+        "tags": [
+          "leitlinie",
+          "bildgebung",
+          "operationstechnik",
+          "nachsorge"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-06",
+        "last_reviewed": "2026-09-06",
+        "expires": "2028-09-06"
+      },
+      "content": {
+        "de": {
+          "vignette": "34-jähriger Patient mit metastasiertem Nichtseminom, gute Prognose nach IGCCCG, nach drei Zyklen BEP. AFP und beta-hCG sind vollständig normalisiert. Im CT verbleibt eine retroperitoneale Raumforderung von 2,4 cm, vor Therapie waren es 6 cm.",
+          "lead_in": "Wie ist weiter vorzugehen?",
+          "options": {
+            "A": {
+              "text": "Zwei weitere Zyklen Chemotherapie zur Verkleinerung des Restbefundes",
+              "rationale": "Ohne Markeranstieg besteht keine Indikation; Teratom ist chemotherapieresistent und schrumpft nicht."
+            },
+            "B": {
+              "text": "Beobachtung mit CT-Kontrolle in drei Monaten, da die Marker normalisiert sind",
+              "rationale": "Normale Marker schließen weder Teratom noch vitales Karzinom im Residuum aus."
+            },
+            "C": {
+              "text": "Residualtumorresektion des retroperitonealen Befundes",
+              "rationale": "Beim Nichtseminom kann ein Residuum reifes Teratom oder vitales Karzinom enthalten, was die Bildgebung nicht unterscheidet. Teratom spricht auf Chemotherapie nicht an und wächst weiter."
+            },
+            "D": {
+              "text": "PET/CT zur Entscheidung, ob reseziert werden muss",
+              "rationale": "Die PET ist beim Seminom-Residuum ab drei Zentimetern etabliert, nicht beim Nichtseminom; sie erkennt reifes Teratom nicht."
+            }
+          },
+          "explanation": {
+            "core": "Nach Chemotherapie trennen sich Seminom und Nichtseminom im Vorgehen. Beim Nichtseminom wird jedes Residuum ab etwa einem Zentimeter bei normalisierten Markern reseziert, weil ein Drittel Teratom und ein kleiner Teil vitales Karzinom enthält. Beim Seminom entscheidet ab drei Zentimetern die PET, frühestens sechs Wochen nach Therapieende.",
+            "teaching_point": "PET beim Seminom, Skalpell beim Nichtseminom. Reifes Teratom wird operiert, nicht bestrahlt oder abgewartet."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "34-year-old man with metastatic non-seminoma, IGCCCG good prognosis, after three cycles of BEP. AFP and beta-hCG have fully normalised. CT shows a residual retroperitoneal mass of 2.4 cm, down from 6 cm before treatment.",
+          "lead_in": "How should management proceed?",
+          "options": {
+            "A": {
+              "text": "Two further cycles of chemotherapy to shrink the residual mass",
+              "rationale": "Without rising markers there is no indication; teratoma is chemoresistant and will not shrink."
+            },
+            "B": {
+              "text": "Observation with repeat CT in three months, since markers have normalised",
+              "rationale": "Normal markers exclude neither teratoma nor viable carcinoma within the residual mass."
+            },
+            "C": {
+              "text": "Resection of the residual retroperitoneal mass",
+              "rationale": "In non-seminoma a residual mass may contain mature teratoma or viable carcinoma, which imaging cannot distinguish. Teratoma does not respond to chemotherapy and continues to grow."
+            },
+            "D": {
+              "text": "PET/CT to decide whether resection is needed",
+              "rationale": "PET is established for seminoma residuals of three centimetres or more, not for non-seminoma; it does not detect mature teratoma."
+            }
+          },
+          "explanation": {
+            "core": "After chemotherapy the pathways for seminoma and non-seminoma diverge. In non-seminoma any residual mass above roughly one centimetre with normalised markers is resected, because a third contains teratoma and a small proportion viable carcinoma. In seminoma, PET decides above three centimetres, no earlier than six weeks after treatment.",
+            "teaching_point": "PET for seminoma, scalpel for non-seminoma. Mature teratoma is operated on, not irradiated or watched."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00006",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Seminom Stadium II",
+        "tags": [
+          "leitlinie",
+          "pharmakologie",
+          "dosierung"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-07",
+        "last_reviewed": "2026-09-07",
+        "expires": "2028-09-07"
+      },
+      "content": {
+        "de": {
+          "vignette": "35-jähriger Patient nach Ablatio bei reinem Seminom. Im CT ein einzelner paraaortaler Lymphknoten von 1,8 cm, Marker normal. Stadium IIA.",
+          "lead_in": "Welche Behandlungsoptionen sind etabliert?",
+          "options": {
+            "A": {
+              "text": "Alleinige Surveillance, da die Marker normal sind",
+              "rationale": "Normale Marker schließen ein Seminom im Lymphknoten nicht aus; im Stadium II wird behandelt."
+            },
+            "B": {
+              "text": "Radiatio des Lymphabflusses oder alternativ Chemotherapie",
+              "rationale": "Beide Verfahren erreichen im Stadium IIA hohe Heilungsraten. Die Wahl richtet sich nach Toxizitätsprofil, Alter und Patientenwunsch. Bestrahlt wird das paraaortale und ipsilaterale iliakale Feld. Die Chemotherapie umfasst drei Zyklen BEP oder vier Zyklen EP."
+            },
+            "C": {
+              "text": "Hochdosischemotherapie mit autologer Stammzelltransplantation",
+              "rationale": "Sie ist der Rezidivsituation nach Versagen der Erstlinie vorbehalten."
+            },
+            "D": {
+              "text": "Vier Zyklen BEP wie bei ungünstiger Prognose",
+              "rationale": "Diese Intensität gilt der metastasierten Erkrankung mit intermediärer oder ungünstiger Prognose, nicht dem Stadium IIA."
+            }
+          },
+          "explanation": {
+            "core": "Im Stadium IIA des Seminoms stehen Strahlentherapie und Chemotherapie gleichwertig nebeneinander. Die Entscheidung wird zunehmend von den Spätfolgen bestimmt: Die Radiatio belastet mit Zweitmalignomen und kardiovaskulären Folgen, die Chemotherapie mit Neuropathie, Ototoxizität und Lungenfunktion. Beide Optionen gehören ins Aufklärungsgespräch.",
+            "teaching_point": "Im Stadium IIA entscheidet die Spätfolgenbilanz, nicht die Heilungsrate."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "35-year-old man after orchiectomy for pure seminoma. CT shows a single para-aortic node of 1.8 cm with normal markers. Stage IIA.",
+          "lead_in": "Which treatment options are established?",
+          "options": {
+            "A": {
+              "text": "Surveillance alone, since markers are normal",
+              "rationale": "Normal markers do not exclude seminoma in the node; stage II disease is treated."
+            },
+            "B": {
+              "text": "Radiotherapy to the nodal field or alternatively chemotherapy",
+              "rationale": "Both achieve high cure rates in stage IIA. The choice follows toxicity profile, age and patient preference. The para-aortic and ipsilateral iliac field is irradiated. Chemotherapy comprises three cycles of BEP or four cycles of EP."
+            },
+            "C": {
+              "text": "High-dose chemotherapy with autologous stem cell transplantation",
+              "rationale": "Reserved for relapse after failure of first-line treatment."
+            },
+            "D": {
+              "text": "Four cycles of BEP as in poor prognosis disease",
+              "rationale": "That intensity applies to metastatic disease of intermediate or poor prognosis, not to stage IIA."
+            }
+          },
+          "explanation": {
+            "core": "In stage IIA seminoma radiotherapy and chemotherapy stand side by side. The decision is increasingly driven by late effects: radiotherapy carries second malignancies and cardiovascular consequences, chemotherapy neuropathy, ototoxicity and pulmonary effects. Both options belong in the consultation.",
+            "teaching_point": "In stage IIA the balance of late effects decides, not the cure rate."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00007",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Seminom Stadium II",
+        "tags": [
+          "operationstechnik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "kontrovers",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-07",
+        "last_reviewed": "2026-09-07",
+        "expires": "2027-09-07"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 30-jähriger Patient mit Seminom im Stadium IIA möchte weder eine Bestrahlung noch eine Chemotherapie und fragt nach der retroperitonealen Lymphadenektomie als Alternative.",
+          "lead_in": "Wie ist diese Option einzuordnen?",
+          "options": {
+            "A": {
+              "text": "Etablierter Standard und den anderen Verfahren überlegen",
+              "rationale": "Ein Überlegenheitsnachweis existiert nicht; Standard sind weiterhin Radiatio und Chemotherapie."
+            },
+            "B": {
+              "text": "Beim Seminom grundsätzlich kontraindiziert",
+              "rationale": "Prospektive Studien haben sie geprüft; kontraindiziert ist sie nicht, sondern noch nicht als gleichwertig belegt."
+            },
+            "C": {
+              "text": "Studienoption mit höheren Rezidivraten, kein Standard",
+              "rationale": "Der Reiz liegt im Verzicht auf beide Spätfolgenprofile. Die Rezidivraten waren in Serien höher als unter Standardtherapie, weshalb die Aufklärung darüber Teil der Entscheidung ist. Der Reiz liegt darin, weder zu bestrahlen noch zu chemotherapieren. In mehreren prospektiven Serien lagen die Rezidivraten jedoch über denen der Standardtherapie, weshalb die Behandlung an ein erfahrenes Zentrum oder in eine Studie gehört."
+            },
+            "D": {
+              "text": "Ersetzt die Nachsorge, da kein Rezidiv mehr möglich ist",
+              "rationale": "Rezidive treten auch außerhalb des Ausräumungsgebietes auf; die Nachsorge bleibt unverzichtbar."
+            }
+          },
+          "explanation": {
+            "core": "Die retroperitoneale Lymphadenektomie beim Seminom im Stadium II ist ein Versuch, junge Männer weder zu bestrahlen noch zu chemotherapieren. Die vorliegenden prospektiven Serien zeigen eine hohe Rate an Tumorfreiheit ohne Systemtherapie, aber auch relevante Rezidivraten. Sie ist damit eine begründbare, aber erklärungsbedürftige Option.",
+            "teaching_point": "Beim Seminom im Stadium II ist die Lymphadenektomie eine Studienoption, kein Standard."
+          },
+          "flag_note": "Die Datenlage stützt sich auf prospektive Serien ohne randomisierten Vergleich; die Empfehlungen unterscheiden sich zwischen Zentren und Ländern. Vor Verwendung aktuellen Stand prüfen."
+        },
+        "en": {
+          "vignette": "A 30-year-old man with stage IIA seminoma wants neither radiotherapy nor chemotherapy and asks about retroperitoneal lymph node dissection as an alternative.",
+          "lead_in": "How should this option be judged?",
+          "options": {
+            "A": {
+              "text": "An established standard and superior to the alternatives",
+              "rationale": "No superiority evidence exists; radiotherapy and chemotherapy remain standard."
+            },
+            "B": {
+              "text": "Fundamentally contraindicated in seminoma",
+              "rationale": "Prospective studies have examined it; it is not contraindicated but not yet shown to be equivalent."
+            },
+            "C": {
+              "text": "A trial option with higher relapse rates, not a standard",
+              "rationale": "Its appeal lies in avoiding both late-effect profiles. Relapse rates in series exceeded those of standard treatment, so counselling about this is part of the decision. Its appeal is avoiding both radiotherapy and chemotherapy. In several prospective series relapse rates nevertheless exceeded those of standard treatment, so treatment belongs in an experienced centre or a trial."
+            },
+            "D": {
+              "text": "Replaces follow-up, since relapse is no longer possible",
+              "rationale": "Relapses also occur outside the dissection field; follow-up remains indispensable."
+            }
+          },
+          "explanation": {
+            "core": "Retroperitoneal lymph node dissection in stage II seminoma is an attempt to spare young men both radiotherapy and chemotherapy. Available prospective series show high rates of disease control without systemic therapy but also relevant relapse rates. It is therefore a defensible option that requires explanation.",
+            "teaching_point": "In stage II seminoma, lymphadenectomy is a trial option, not a standard."
+          },
+          "flag_note": "The evidence rests on prospective series without randomised comparison; recommendations differ between centres and countries. Check the current position before use."
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00008",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Nichtseminom Stadium I",
+        "tags": [
+          "leitlinie",
+          "pathologie",
+          "nachsorge"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-07",
+        "last_reviewed": "2026-09-07",
+        "expires": "2028-09-07"
+      },
+      "content": {
+        "de": {
+          "vignette": "26-jähriger Patient nach Ablatio, Histologie Nichtseminom pT1 ohne lymphovaskuläre Invasion. Marker vollständig normalisiert, CT unauffällig, klinisches Stadium I. Der Patient ist zuverlässig und wohnortnah angebunden.",
+          "lead_in": "Welches Vorgehen ist Standard?",
+          "options": {
+            "A": {
+              "text": "Ein Zyklus BEP adjuvant für alle Patienten im Stadium I",
+              "rationale": "Die adjuvante Gabe ist der Hochrisikogruppe mit lymphovaskulärer Invasion vorbehalten; ohne sie würde die Mehrheit unnötig behandelt."
+            },
+            "B": {
+              "text": "Nervschonende retroperitoneale Lymphadenektomie beidseits",
+              "rationale": "Sie ist heute Sondersituationen vorbehalten und der Surveillance im Niedrigrisikostadium nicht überlegen."
+            },
+            "C": {
+              "text": "Adjuvante Radiatio des Retroperitoneums nach festem Feld",
+              "rationale": "Beim Nichtseminom unwirksam."
+            },
+            "D": {
+              "text": "Aktive Surveillance nach festem Nachsorgeschema",
+              "rationale": "Ohne lymphovaskuläre Invasion liegt das Rezidivrisiko bei etwa 15 Prozent, und Rezidive sind mit Chemotherapie sehr gut heilbar. Damit bleiben rund 85 Prozent unbehandelt. Ohne lymphovaskuläre Invasion liegt das Rezidivrisiko bei etwa 15 Prozent. Das Schema umfasst Markerkontrollen und Bildgebung in festgelegten Abständen."
+            }
+          },
+          "explanation": {
+            "core": "Im Stadium I des Nichtseminoms teilt die lymphovaskuläre Invasion die Patienten in zwei Gruppen mit sehr unterschiedlichem Rezidivrisiko. Ohne sie ist Surveillance der Standard, mit ihr wird ein Zyklus BEP empfohlen. In beiden Fällen liegt die Heilungsrate nahe hundert Prozent, es unterscheidet sich nur, wer behandelt wird.",
+            "teaching_point": "Ohne lymphovaskuläre Invasion wird beobachtet, nicht behandelt."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "26-year-old man after orchiectomy, histology non-seminoma pT1 without lymphovascular invasion. Markers fully normalised, CT unremarkable, clinical stage I. He is reliable and lives close to the centre.",
+          "lead_in": "What is the standard approach?",
+          "options": {
+            "A": {
+              "text": "One adjuvant cycle of BEP for all stage I patients",
+              "rationale": "Adjuvant treatment is reserved for the high-risk group with lymphovascular invasion; otherwise the majority would be treated unnecessarily."
+            },
+            "B": {
+              "text": "Bilateral nerve-sparing retroperitoneal lymph node dissection",
+              "rationale": "Today reserved for special situations and not superior to surveillance in low-risk stage I."
+            },
+            "C": {
+              "text": "Adjuvant retroperitoneal radiotherapy to a fixed field",
+              "rationale": "Ineffective in non-seminoma."
+            },
+            "D": {
+              "text": "Active surveillance on a defined follow-up schedule",
+              "rationale": "Without lymphovascular invasion the relapse risk is around 15 per cent, and relapses are highly curable with chemotherapy. Around 85 per cent thus remain untreated. Without lymphovascular invasion the relapse risk is around 15 per cent. The schedule comprises marker checks and imaging at defined intervals."
+            }
+          },
+          "explanation": {
+            "core": "In stage I non-seminoma, lymphovascular invasion splits patients into two groups with very different relapse risk. Without it surveillance is standard; with it one cycle of BEP is recommended. Cure rates approach one hundred per cent either way; only who gets treated differs.",
+            "teaching_point": "Without lymphovascular invasion you observe rather than treat."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00009",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Stadium IS",
+        "tags": [
+          "labordiagnostik",
+          "leitlinie",
+          "pharmakologie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-07",
+        "last_reviewed": "2026-09-07",
+        "expires": "2028-09-07"
+      },
+      "content": {
+        "de": {
+          "vignette": "31-jähriger Patient nach Ablatio bei Nichtseminom. Das AFP fällt zunächst ab, steigt dann aber nach sechs Wochen wieder an. Beta-hCG normal. Die Bildgebung von Thorax, Abdomen und Becken bleibt unauffällig.",
+          "lead_in": "Wie ist der Befund einzuordnen und zu behandeln?",
+          "options": {
+            "A": {
+              "text": "Stadium IS; systemische Chemotherapie nach Prognosegruppe",
+              "rationale": "Der Markeranstieg beweist vitales Tumorgewebe, auch wenn die Bildgebung leer bleibt. Systemische Behandlung ist deshalb der richtige Weg. Der Markeranstieg beweist vitales Tumorgewebe außerhalb des entfernten Hodens, auch wenn die Bildgebung leer bleibt. Die Zyklenzahl richtet sich nach der IGCCCG-Gruppe."
+            },
+            "B": {
+              "text": "Retroperitoneale Lymphadenektomie zur Suche des Herdes",
+              "rationale": "Bei steigenden Markern ohne Korrelat ist die Erkrankung nicht auf das Retroperitoneum begrenzt; die Operation griffe zu kurz."
+            },
+            "C": {
+              "text": "Erneute Bildgebung in drei Monaten, da kein Herd sichtbar ist",
+              "rationale": "Abwarten bei steigendem AFP verschenkt Zeit und lässt die Tumorlast wachsen."
+            },
+            "D": {
+              "text": "Bestrahlung des Retroperitoneums als Ort des Erstbefalls",
+              "rationale": "Beim Nichtseminom unwirksam und bei systemischer Erkrankung ohnehin falsch platziert."
+            }
+          },
+          "explanation": {
+            "core": "Der Markerverlauf nach der Ablatio ist eine eigenständige Stadieninformation. Fallen die Marker nicht entsprechend ihrer Halbwertszeit ab oder steigen sie wieder, liegt Stadium IS vor, unabhängig von der Bildgebung. Wichtig ist der Ausschluss falsch positiver Ursachen wie Leberschädigung beim AFP oder Hypogonadismus und Kreuzreaktion mit LH beim beta-hCG.",
+            "teaching_point": "Steigende Marker bedeuten systemische Erkrankung, auch wenn das CT leer ist."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "31-year-old man after orchiectomy for non-seminoma. AFP initially falls but rises again after six weeks. Beta-hCG is normal. Imaging of chest, abdomen and pelvis remains unremarkable.",
+          "lead_in": "How should this be classified and treated?",
+          "options": {
+            "A": {
+              "text": "Stage IS; systemic chemotherapy by prognostic group",
+              "rationale": "A rising marker proves viable tumour even when imaging is blank. Systemic treatment is therefore the correct route. The marker rise proves viable tumour outside the removed testis even when imaging is blank. The number of cycles follows the IGCCCG group."
+            },
+            "B": {
+              "text": "Retroperitoneal lymph node dissection to find the focus",
+              "rationale": "With rising markers and no correlate the disease is not confined to the retroperitoneum; surgery would fall short."
+            },
+            "C": {
+              "text": "Repeat imaging in three months, since no focus is visible",
+              "rationale": "Waiting with a rising AFP loses time and lets the tumour burden grow."
+            },
+            "D": {
+              "text": "Retroperitoneal radiotherapy as the site of first spread",
+              "rationale": "Ineffective in non-seminoma and misplaced in systemic disease anyway."
+            }
+          },
+          "explanation": {
+            "core": "The marker trajectory after orchiectomy is staging information in its own right. If markers fail to fall according to their half-life or rise again, stage IS is present regardless of imaging. False positives must be excluded: liver damage for AFP, hypogonadism and cross-reaction with LH for beta-hCG.",
+            "teaching_point": "Rising markers mean systemic disease even when the CT is blank."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00010",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "retroperitoneale Lymphadenektomie",
+        "tags": [
+          "operationstechnik",
+          "leitlinie",
+          "pathologie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-07",
+        "last_reviewed": "2026-09-07",
+        "expires": "2028-09-07"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 28-jähriger Patient mit Nichtseminom im Stadium I und lymphovaskulärer Invasion lehnt jede Chemotherapie ab. Der Anteil an reifem Teratom im Primärtumor beträgt 60 Prozent. Er fragt nach der primären retroperitonealen Lymphadenektomie.",
+          "lead_in": "Wie ist die Indikation zu bewerten?",
+          "options": {
+            "A": {
+              "text": "Nicht vertretbar, da im Stadium I heute ohne Stellenwert",
+              "rationale": "Sie ist zurückgetreten, aber nicht verlassen; für bestimmte Konstellationen bleibt sie eine begründbare Wahl."
+            },
+            "B": {
+              "text": "Vertretbar bei Chemotherapieablehnung und hohem Teratomanteil",
+              "rationale": "Reifes Teratom ist chemotherapieresistent, sodass die Operation hier zusätzlich Sinn ergibt. Rezidive treten dennoch auf, meist pulmonal oder als Markeranstieg. Die verbliebenen Indikationen sind Ablehnung oder Kontraindikation der Chemotherapie, ein hoher Teratomanteil und eine nicht sicherzustellende Nachsorge. Aufzuklären ist über Rezidive außerhalb des Ausräumungsgebietes und über die Ejakulationsstörung."
+            },
+            "C": {
+              "text": "Vertretbar, weil die Lymphadenektomie die Nachsorge ersetzt",
+              "rationale": "Die Nachsorge bleibt in jedem Fall erforderlich, da Rezidive außerhalb des Retroperitoneums auftreten."
+            },
+            "D": {
+              "text": "Vertretbar nur zusammen mit einem Zyklus BEP adjuvant",
+              "rationale": "Die Kombination beider Verfahren ist im Stadium I nicht vorgesehen und addiert die Toxizitäten."
+            }
+          },
+          "explanation": {
+            "core": "Die primäre retroperitoneale Lymphadenektomie im Stadium I hat ihren früheren Stellenwert an Surveillance und adjuvante Chemotherapie verloren. Geblieben sind drei Indikationen: Ablehnung oder Kontraindikation der Chemotherapie, hoher Teratomanteil und die Situation, in der eine verlässliche Nachsorge nicht sicherzustellen ist.",
+            "teaching_point": "Teratom schrumpft nicht unter Chemotherapie. Das ist das stärkste Argument für die Operation."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 28-year-old man with stage I non-seminoma and lymphovascular invasion refuses any chemotherapy. Mature teratoma makes up 60 per cent of the primary tumour. He asks about primary retroperitoneal lymph node dissection.",
+          "lead_in": "How should the indication be judged?",
+          "options": {
+            "A": {
+              "text": "Not defensible, since it has no role in stage I today",
+              "rationale": "It has receded but not been abandoned; for particular constellations it remains a defensible choice."
+            },
+            "B": {
+              "text": "Defensible with refusal of chemotherapy and high teratoma content",
+              "rationale": "Mature teratoma is chemoresistant, so surgery makes additional sense here. Relapses still occur, usually pulmonary or as a marker rise. The remaining indications are refusal of or contraindication to chemotherapy, a high teratoma content, and follow-up that cannot be assured. Counselling must cover relapses outside the dissection field and ejaculatory dysfunction."
+            },
+            "C": {
+              "text": "Defensible, because lymphadenectomy replaces the follow-up",
+              "rationale": "Follow-up remains necessary in any case, since relapses occur outside the retroperitoneum."
+            },
+            "D": {
+              "text": "Defensible only together with one adjuvant cycle of BEP",
+              "rationale": "Combining both is not intended in stage I and adds the toxicities together."
+            }
+          },
+          "explanation": {
+            "core": "Primary retroperitoneal lymph node dissection in stage I has lost its former role to surveillance and adjuvant chemotherapy. Three indications remain: refusal of or contraindication to chemotherapy, a high teratoma content, and situations where reliable follow-up cannot be assured.",
+            "teaching_point": "Teratoma does not shrink with chemotherapy. That is the strongest argument for surgery."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00011",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "retroperitoneale Lymphadenektomie",
+        "tags": [
+          "operationstechnik",
+          "pathologie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-07",
+        "last_reviewed": "2026-09-07",
+        "expires": "2028-09-07"
+      },
+      "content": {
+        "de": {
+          "vignette": "Bei einem rechtsseitigen Nichtseminom soll eine modifizierte, nervschonende retroperitoneale Lymphadenektomie erfolgen.",
+          "lead_in": "Welches Ausräumungsgebiet entspricht der Seitenlokalisation?",
+          "options": {
+            "A": {
+              "text": "Ausschließlich paraaortal wie bei linksseitigem Primärtumor",
+              "rationale": "Das paraaortale Feld ist das Hauptabflussgebiet der linken Seite, nicht der rechten."
+            },
+            "B": {
+              "text": "Beidseitige vollständige Ausräumung in allen Fällen",
+              "rationale": "Das vollständige bilaterale Template gefährdet die Ejakulation und wird durch modifizierte Felder ersetzt, wo onkologisch vertretbar."
+            },
+            "C": {
+              "text": "Parakaval, präkaval und interaortokaval auf der Tumorseite",
+              "rationale": "Der rechte Hoden folgt der V. testicularis zur V. cava; der Übertritt nach links kommt vor, der umgekehrte Weg dagegen kaum. Der rechte Hoden drainiert über die V. testicularis zur V. cava und damit in diese Stationen. Der Übertritt von rechts nach links kommt vor, der umgekehrte Weg dagegen kaum."
+            },
+            "D": {
+              "text": "Ausschließlich iliakal auf der betroffenen Körperseite",
+              "rationale": "Die iliakalen Stationen sind beim Hodentumor sekundär und nicht das primäre Abflussgebiet."
+            }
+          },
+          "explanation": {
+            "core": "Der Lymphabfluss des Hodens folgt der embryonalen Anlage und damit den Gonadengefäßen: rechts zur V. cava mit parakavalen, präkavalen und interaortokavalen Stationen, links zur V. renalis mit paraaortalen und präaortalen Stationen. Der Übertritt von rechts nach links ist häufig, umgekehrt selten. Daraus ergeben sich die seitenabhängigen modifizierten Template.",
+            "teaching_point": "Der Hoden drainiert nach oben zur Nierenvene, nicht nach unten in die Leiste."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A modified, nerve-sparing retroperitoneal lymph node dissection is planned for a right-sided non-seminoma.",
+          "lead_in": "Which template matches the side of the primary?",
+          "options": {
+            "A": {
+              "text": "Para-aortic only, as for a left-sided primary tumour",
+              "rationale": "The para-aortic field is the main drainage area of the left side, not the right."
+            },
+            "B": {
+              "text": "Complete bilateral dissection in every case",
+              "rationale": "The full bilateral template endangers ejaculation and is replaced by modified fields where oncologically acceptable."
+            },
+            "C": {
+              "text": "Paracaval, precaval and interaortocaval on the tumour side",
+              "rationale": "The right testis follows the testicular vein to the cava; crossover to the left occurs, whereas the reverse is rare. The right testis drains through the testicular vein to the cava and thus into these stations. Right-to-left crossover occurs, whereas the reverse is rare."
+            },
+            "D": {
+              "text": "Iliac stations only on the affected side of the body",
+              "rationale": "Iliac stations are secondary in testicular cancer and not the primary drainage area."
+            }
+          },
+          "explanation": {
+            "core": "Testicular lymphatic drainage follows embryological origin and thus the gonadal vessels: on the right to the cava with paracaval, precaval and interaortocaval stations, on the left to the renal vein with para-aortic and preaortic stations. Right-to-left crossover is common, the reverse rare. The side-specific modified templates follow from this.",
+            "teaching_point": "The testis drains upwards to the renal vein, not downwards to the groin."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00012",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Residualtumor",
+        "tags": [
+          "bildgebung",
+          "operationstechnik",
+          "pathologie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-07",
+        "last_reviewed": "2026-09-07",
+        "expires": "2028-09-07"
+      },
+      "content": {
+        "de": {
+          "vignette": "Während der zweiten Chemotherapiegabe bei metastasiertem Nichtseminom fallen AFP und beta-hCG kontinuierlich, die retroperitoneale Raumforderung wächst jedoch von 4 auf 7 cm. Der Patient ist beschwerdearm.",
+          "lead_in": "Wie ist der Befund zu deuten?",
+          "options": {
+            "A": {
+              "text": "Progress unter Therapie; Wechsel auf Salvage-Chemotherapie",
+              "rationale": "Ein echter Progress ginge mit steigenden Markern einher; hier fallen sie."
+            },
+            "B": {
+              "text": "Pseudoprogress durch Entzündung; Fortsetzung unverändert",
+              "rationale": "Ein Pseudoprogress ist ein Konzept der Immuntherapie und erklärt kein Wachstum unter zytotoxischer Behandlung bei fallenden Markern."
+            },
+            "C": {
+              "text": "Einblutung in die Metastase; konservatives Vorgehen",
+              "rationale": "Möglich, aber selten, und sie erklärt kein anhaltendes Wachstum über Wochen."
+            },
+            "D": {
+              "text": "Wachsendes Teratom-Syndrom; vollständige Resektion",
+              "rationale": "Reifes Teratom ist chemotherapieresistent und wächst weiter, während die malignen Anteile ansprechen und die Marker fallen. Die Behandlung ist ausschließlich chirurgisch. Die Chemotherapie wird planmäßig zu Ende geführt, danach wird der Befund reseziert. Weitere Zyklen helfen nicht, und Zuwarten gefährdet die Resektabilität durch Gefäßeinbezug."
+            }
+          },
+          "explanation": {
+            "core": "Die Kombination aus fallenden Markern und wachsender Raumforderung ist beim Keimzelltumor beweisend für Teratom. Weitere Chemotherapie hilft nicht, und das Zuwarten birgt die Gefahr, dass die Resektabilität durch Gefäßeinbezug verloren geht. Selten entwickelt sich aus einem Teratom eine somatische maligne Transformation.",
+            "teaching_point": "Marker runter, Tumor größer: das Messer, nicht der nächste Zyklus."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "During the second cycle of chemotherapy for metastatic non-seminoma, AFP and beta-hCG fall steadily while the retroperitoneal mass grows from 4 to 7 cm. The patient has few symptoms.",
+          "lead_in": "How should this be interpreted?",
+          "options": {
+            "A": {
+              "text": "Progression on treatment; switch to salvage chemotherapy",
+              "rationale": "True progression would come with rising markers; here they are falling."
+            },
+            "B": {
+              "text": "Pseudoprogression from inflammation; continue unchanged",
+              "rationale": "Pseudoprogression is a concept from immunotherapy and does not explain growth under cytotoxic treatment with falling markers."
+            },
+            "C": {
+              "text": "Haemorrhage into the metastasis; conservative management",
+              "rationale": "Possible but rare, and it does not explain sustained growth over weeks."
+            },
+            "D": {
+              "text": "Growing teratoma syndrome; complete surgical resection",
+              "rationale": "Mature teratoma is chemoresistant and keeps growing while the malignant components respond and markers fall. Treatment is exclusively surgical. Chemotherapy is completed as planned and the mass then resected. Further cycles do not help, and waiting endangers resectability through vascular involvement."
+            }
+          },
+          "explanation": {
+            "core": "Falling markers with a growing mass is diagnostic of teratoma in germ cell tumours. Further chemotherapy does not help, and waiting risks losing resectability through vascular involvement. Rarely a teratoma undergoes somatic malignant transformation.",
+            "teaching_point": "Markers down, tumour up: the knife, not the next cycle."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00013",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Seminom-Residuum",
+        "tags": [
+          "bildgebung",
+          "leitlinie",
+          "nachsorge"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-07",
+        "last_reviewed": "2026-09-07",
+        "expires": "2028-09-07"
+      },
+      "content": {
+        "de": {
+          "vignette": "38-jähriger Patient mit metastasiertem Seminom nach abgeschlossener Chemotherapie. Im CT verbleibt eine retroperitoneale Raumforderung von 4,2 cm, die Marker sind normal. Die Chemotherapie endete vor drei Wochen.",
+          "lead_in": "Wie ist vorzugehen?",
+          "options": {
+            "A": {
+              "text": "PET/CT frühestens sechs Wochen nach Therapieende",
+              "rationale": "Ab drei Zentimetern hat die PET beim Seminom-Residuum einen hohen negativen Vorhersagewert, aber nur bei ausreichendem Abstand zur Chemotherapie, sonst überwiegen entzündliche falsch positive Befunde. Bei negativem Befund wird überwacht, bei positivem reseziert oder bioptisch gesichert. Der Abstand ist nötig, weil die Entzündungsreaktion nach der Chemotherapie sonst falsch positive Befunde erzeugt."
+            },
+            "B": {
+              "text": "Sofortige Residualtumorresektion wie beim Nichtseminom",
+              "rationale": "Seminom-Residuen bestehen überwiegend aus Nekrose und Fibrose; die Operation ist im vernarbten Feld technisch schwierig und meist entbehrlich."
+            },
+            "C": {
+              "text": "PET/CT unmittelbar jetzt, um keine Zeit zu verlieren",
+              "rationale": "Zu früh durchgeführt liefert die PET falsch positive Ergebnisse durch die Entzündungsreaktion nach der Chemotherapie."
+            },
+            "D": {
+              "text": "Zwei weitere Zyklen Chemotherapie zur Verkleinerung",
+              "rationale": "Ohne Nachweis vitalen Tumors nicht begründet und mit zusätzlicher Toxizität verbunden."
+            }
+          },
+          "explanation": {
+            "core": "Seminom und Nichtseminom werden nach Chemotherapie unterschiedlich behandelt. Beim Nichtseminom wird jedes Residuum ab etwa einem Zentimeter reseziert, weil Teratom möglich ist. Beim Seminom gibt es kein Teratom, weshalb unterhalb von drei Zentimetern beobachtet wird und darüber die PET nach frühestens sechs Wochen entscheidet.",
+            "teaching_point": "Beim Seminom entscheidet die PET, beim Nichtseminom das Skalpell."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "38-year-old man with metastatic seminoma after completing chemotherapy. CT shows a residual retroperitoneal mass of 4.2 cm with normal markers. Chemotherapy ended three weeks ago.",
+          "lead_in": "How should management proceed?",
+          "options": {
+            "A": {
+              "text": "PET/CT no earlier than six weeks after treatment ends",
+              "rationale": "Above three centimetres PET has a high negative predictive value in seminoma residuals, but only with sufficient interval from chemotherapy, otherwise inflammatory false positives dominate. A negative scan leads to surveillance, a positive one to resection or biopsy. The interval is needed because post-chemotherapy inflammation otherwise produces false positives."
+            },
+            "B": {
+              "text": "Immediate residual mass resection as in non-seminoma",
+              "rationale": "Seminoma residuals consist mostly of necrosis and fibrosis; surgery in the scarred field is technically difficult and usually unnecessary."
+            },
+            "C": {
+              "text": "PET/CT right now, so as not to lose time",
+              "rationale": "Performed too early, PET yields false positives from the post-chemotherapy inflammatory reaction."
+            },
+            "D": {
+              "text": "Two further cycles of chemotherapy to shrink the mass",
+              "rationale": "Unjustified without evidence of viable tumour and associated with additional toxicity."
+            }
+          },
+          "explanation": {
+            "core": "Seminoma and non-seminoma diverge after chemotherapy. In non-seminoma every residual above roughly one centimetre is resected because teratoma is possible. In seminoma there is no teratoma, so masses below three centimetres are observed and above that PET decides, no earlier than six weeks.",
+            "teaching_point": "In seminoma PET decides, in non-seminoma the scalpel."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00014",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Tumormarker",
+        "tags": [
+          "labordiagnostik",
+          "nachsorge"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-07",
+        "last_reviewed": "2026-09-07",
+        "expires": "2028-09-07"
+      },
+      "content": {
+        "de": {
+          "vignette": "Nach Ablatio bei Nichtseminom werden die Marker im Verlauf kontrolliert, um den Abfall zu beurteilen.",
+          "lead_in": "Welche Halbwertszeiten und welche Fehlerquellen sind zu beachten?",
+          "options": {
+            "A": {
+              "text": "AFP etwa ein Tag, beta-hCG etwa zwei Wochen",
+              "rationale": "Die Halbwertszeiten sind vertauscht, und die Niere ist nicht die typische Fehlerquelle."
+            },
+            "B": {
+              "text": "AFP etwa fünf bis sieben Tage, beta-hCG ein bis drei Tage",
+              "rationale": "Ein zu langsamer Abfall gemessen an diesen Halbwertszeiten gilt als Therapieversagen. Deshalb müssen falsch positive Ursachen ausgeschlossen sein, bevor eskaliert wird. Falsch hohe AFP-Werte entstehen bei Leberschädigung, falsch hohe beta-hCG-Werte bei Hypogonadismus, durch Kreuzreaktion mit LH und bei Cannabiskonsum. Diese Ursachen sind auszuschließen, bevor wegen eines zu langsamen Abfalls eskaliert wird."
+            },
+            "C": {
+              "text": "Beide Marker mit einer Halbwertszeit von etwa dreißig Tagen",
+              "rationale": "Damit wäre eine Verlaufsbeurteilung innerhalb der ersten Wochen unmöglich; die tatsächlichen Halbwertszeiten sind deutlich kürzer."
+            },
+            "D": {
+              "text": "Halbwertszeiten ohne Bedeutung, nur der Absolutwert zählt",
+              "rationale": "Gerade die Abfallgeschwindigkeit ist prognostisch und therapeutisch relevant, unabhängig vom Ausgangswert."
+            }
+          },
+          "explanation": {
+            "core": "Die Marker beim Keimzelltumor liefern über ihre Kinetik mehr Information als über den Einzelwert. Ein Abfall langsamer als die Halbwertszeit spricht für verbliebene Tumorlast. Vor jeder Therapieeskalation sind die typischen Fehlerquellen zu prüfen, weil sonst gesunde Patienten unnötig chemotherapiert werden.",
+            "teaching_point": "Nicht der Wert zählt, sondern ob er schnell genug fällt."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "After orchiectomy for non-seminoma, markers are followed to assess their decline.",
+          "lead_in": "Which half-lives and which sources of error must be considered?",
+          "options": {
+            "A": {
+              "text": "AFP about one day, beta-hCG about two weeks",
+              "rationale": "The half-lives are swapped, and the kidney is not the typical source of error."
+            },
+            "B": {
+              "text": "AFP about five to seven days, beta-hCG one to three days",
+              "rationale": "A decline slower than these half-lives counts as treatment failure. False positive causes must therefore be excluded before escalating. Falsely high AFP arises with liver damage, falsely high beta-hCG with hypogonadism, cross-reaction with LH and cannabis use. These must be excluded before escalating treatment for a slow decline."
+            },
+            "C": {
+              "text": "Both markers with a half-life of about thirty days",
+              "rationale": "That would make assessment within the first weeks impossible; the actual half-lives are much shorter."
+            },
+            "D": {
+              "text": "Half-lives irrelevant; only the absolute value counts here",
+              "rationale": "The rate of decline is prognostically and therapeutically relevant, independently of the starting value."
+            }
+          },
+          "explanation": {
+            "core": "In germ cell tumours markers convey more through their kinetics than through single values. A decline slower than the half-life indicates residual tumour burden. Before escalating treatment the typical sources of error must be checked, otherwise healthy patients are chemotherapied unnecessarily.",
+            "teaching_point": "It is not the value that counts but whether it falls fast enough."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00015",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "IGCCCG",
+        "tags": [
+          "pathologie",
+          "pharmakologie",
+          "dosierung",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "klassifikation",
+          "citation": "IGCCCG-Klassifikation"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-07",
+        "last_reviewed": "2026-09-07",
+        "expires": "2028-09-07"
+      },
+      "content": {
+        "de": {
+          "vignette": "24-jähriger Patient mit Nichtseminom, ausgedehnten retroperitonealen Metastasen und zwei Lebermetastasen. AFP 12 000 ng/ml, beta-hCG 8000 IU/l, LDH deutlich erhöht. Lungenfunktion normal, ECOG 1.",
+          "lead_in": "Welche Prognosegruppe und welche Therapie?",
+          "options": {
+            "A": {
+              "text": "Gute Prognose; drei Zyklen BEP",
+              "rationale": "Lebermetastasen sind nicht pulmonale viszerale Metastasen und schließen die gute Prognosegruppe aus."
+            },
+            "B": {
+              "text": "Intermediäre Prognose; drei Zyklen BEP",
+              "rationale": "Die Zyklenzahl passt nicht: Bereits die intermediäre Gruppe erhält vier Zyklen."
+            },
+            "C": {
+              "text": "Gute Prognose wegen gonadalem Primärtumor; drei Zyklen BEP",
+              "rationale": "Der gonadale Ursprung ist eine Voraussetzung für die gute Gruppe, genügt aber nicht, wenn viszerale Metastasen oder sehr hohe Marker vorliegen."
+            },
+            "D": {
+              "text": "Ungünstige Prognose; vier Zyklen BEP",
+              "rationale": "Nicht pulmonale viszerale Metastasen, ein mediastinaler Primärtumor oder sehr hohe Marker definieren beim Nichtseminom die ungünstige Gruppe, die vier Zyklen erhält. Ausschlaggebend sind die Lebermetastasen als nicht pulmonale viszerale Metastasen. Beim Nichtseminom definieren sie zusammen mit einem mediastinalen Primärtumor und sehr hohen Markern die ungünstige Gruppe."
+            }
+          },
+          "explanation": {
+            "core": "Die IGCCCG-Klassifikation stützt sich auf drei Achsen: Lokalisation des Primärtumors, Vorhandensein nicht pulmonaler viszeraler Metastasen und Markerhöhe. Beim Seminom gibt es nur eine gute und eine intermediäre Gruppe, eine ungünstige existiert nicht. Beim Nichtseminom bestimmt die Gruppe unmittelbar die Zyklenzahl.",
+            "teaching_point": "Leber, Knochen und Hirn sind viszeral. Lunge ist die Ausnahme, die nicht zählt."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "24-year-old man with non-seminoma, extensive retroperitoneal metastases and two liver metastases. AFP 12,000 ng/ml, beta-hCG 8000 IU/l, LDH markedly raised. Lung function normal, ECOG 1.",
+          "lead_in": "Which prognostic group and which treatment?",
+          "options": {
+            "A": {
+              "text": "Good prognosis; three cycles of BEP",
+              "rationale": "Liver metastases are non-pulmonary visceral metastases and exclude the good prognosis group."
+            },
+            "B": {
+              "text": "Intermediate prognosis; three cycles of BEP",
+              "rationale": "The cycle number does not fit: even the intermediate group receives four cycles."
+            },
+            "C": {
+              "text": "Good prognosis given a gonadal primary; three cycles of BEP",
+              "rationale": "Gonadal origin is a prerequisite for the good group but does not suffice when visceral metastases or very high markers are present."
+            },
+            "D": {
+              "text": "Poor prognosis; four cycles of BEP",
+              "rationale": "Non-pulmonary visceral metastases, a mediastinal primary or very high markers define the poor group in non-seminoma, which receives four cycles. The liver metastases are decisive as non-pulmonary visceral disease. In non-seminoma they define the poor group together with a mediastinal primary and very high markers."
+            }
+          },
+          "explanation": {
+            "core": "The IGCCCG classification rests on three axes: site of the primary, presence of non-pulmonary visceral metastases and marker level. Seminoma has only good and intermediate groups; a poor group does not exist. In non-seminoma the group directly determines the number of cycles.",
+            "teaching_point": "Liver, bone and brain are visceral. Lung is the exception that does not count."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00016",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Rezidivtherapie",
+        "tags": [
+          "pharmakologie",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-07",
+        "last_reviewed": "2026-09-07",
+        "expires": "2028-09-07"
+      },
+      "content": {
+        "de": {
+          "vignette": "29-jähriger Patient mit Nichtseminom, elf Monate nach vier Zyklen BEP erneuter Markeranstieg und neue pulmonale Herde. ECOG 0, Nierenfunktion normal.",
+          "lead_in": "Wie wird weiter behandelt?",
+          "options": {
+            "A": {
+              "text": "Wiederholung von BEP im gleichen Schema",
+              "rationale": "Die kumulative Bleomycindosis und die bereits gezeigte Resistenz sprechen dagegen."
+            },
+            "B": {
+              "text": "Alleinige Resektion der pulmonalen Herde",
+              "rationale": "Bei steigenden Markern liegt eine systemische Erkrankung vor; die Operation allein greift zu kurz."
+            },
+            "C": {
+              "text": "Cisplatinhaltige Salvage-Therapie im Zentrum",
+              "rationale": "Auch im Rezidiv besteht ein kurativer Anspruch. Die Wahl zwischen konventioneller und Hochdosistherapie richtet sich nach prognostischen Faktoren und wird an Zentren getroffen. Infrage kommen konventionell TIP oder VeIP sowie die Hochdosischemotherapie mit autologer Stammzelltransplantation. Die Auswahl richtet sich nach prognostischen Faktoren und wird an spezialisierten Zentren getroffen."
+            },
+            "D": {
+              "text": "Best supportive care nach Rezidiv unter vier Zyklen",
+              "rationale": "Ein erheblicher Anteil der Patienten wird auch im Rezidiv noch geheilt."
+            }
+          },
+          "explanation": {
+            "core": "Das Rezidiv eines Keimzelltumors bleibt eine kurativ behandelbare Situation. Entscheidend sind die rasche Zuweisung an ein Zentrum mit Erfahrung, die richtige Auswahl zwischen konventioneller und Hochdosistherapie und die anschließende Resektion verbliebener Befunde nach Normalisierung der Marker.",
+            "teaching_point": "Rezidiv heißt beim Keimzelltumor Zentrum, nicht Palliativmedizin."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "29-year-old man with non-seminoma, eleven months after four cycles of BEP, with a renewed marker rise and new pulmonary lesions. ECOG 0, normal renal function.",
+          "lead_in": "How should treatment proceed?",
+          "options": {
+            "A": {
+              "text": "Repeat BEP on the same schedule",
+              "rationale": "The cumulative bleomycin dose and the demonstrated resistance argue against it."
+            },
+            "B": {
+              "text": "Resection of the pulmonary lesions alone",
+              "rationale": "Rising markers indicate systemic disease; surgery alone falls short."
+            },
+            "C": {
+              "text": "Cisplatin-based salvage therapy at a centre",
+              "rationale": "Cure remains the goal at relapse. The choice between conventional and high-dose treatment follows prognostic factors and is made at expert centres. Options are conventional TIP or VeIP and high-dose chemotherapy with autologous stem cell rescue. The choice follows prognostic factors and is made at specialist centres."
+            },
+            "D": {
+              "text": "Best supportive care after relapse on four cycles",
+              "rationale": "A substantial proportion of patients are still cured at relapse."
+            }
+          },
+          "explanation": {
+            "core": "Relapse of a germ cell tumour remains a curable situation. What matters is prompt referral to an experienced centre, the correct choice between conventional and high-dose treatment, and subsequent resection of residual lesions once markers have normalised.",
+            "teaching_point": "In germ cell tumours relapse means a specialist centre, not palliative care."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00017",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "kontralaterale Biopsie",
+        "tags": [
+          "pathologie",
+          "leitlinie",
+          "praeoperativ"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-07",
+        "last_reviewed": "2026-09-07",
+        "expires": "2028-09-07"
+      },
+      "content": {
+        "de": {
+          "vignette": "27-jähriger Patient mit Hodentumor rechts. Der linke Hoden misst sonographisch 9 ml und war in der Kindheit nicht deszendiert. Der Patient hat Kinderwunsch.",
+          "lead_in": "Welche Aussage zur kontralateralen Biopsie trifft zu?",
+          "options": {
+            "A": {
+              "text": "Anbieten, da Hodenvolumen und Anamnese das Risiko erhöhen",
+              "rationale": "Genau diese Risikofaktoren begründen das Angebot. Die Konsequenz ist erklärungsbedürftig, weil die Therapie der Vorstufe die Fertilität kostet und deshalb bei Kinderwunsch aufgeschoben werden kann. Kleines Hodenvolumen, junges Alter und Kryptorchismus in der Anamnese erhöhen das Risiko einer Keimzellneoplasie in situ. Bei positivem Befund stehen Bestrahlung und Überwachung zur Wahl, wobei die Bestrahlung die Fertilität aufhebt und deshalb bei Kinderwunsch aufgeschoben werden kann."
+            },
+            "B": {
+              "text": "Bei jedem Hodentumor obligat, unabhängig vom Risiko",
+              "rationale": "Sie wird risikoadaptiert angeboten, nicht generell durchgeführt."
+            },
+            "C": {
+              "text": "Obsolet, da die Keimzellneoplasie ohne Bedeutung ist",
+              "rationale": "Unbehandelt entwickelt sich daraus über Jahre in der Mehrzahl der Fälle ein invasiver Tumor."
+            },
+            "D": {
+              "text": "Bei positivem Befund sofortige Orchiektomie der Gegenseite",
+              "rationale": "Damit wäre der Patient anorchid; Bestrahlung oder Überwachung erhalten das Organ und die Hormonproduktion zumindest teilweise."
+            }
+          },
+          "explanation": {
+            "core": "Die Keimzellneoplasie in situ ist die obligate Vorstufe der Keimzelltumoren. Beim kontralateralen Hoden ist sie in einem kleinen, aber relevanten Anteil vorhanden, häufiger bei kleinem Hodenvolumen, jungem Alter und Kryptorchismus. Die Entscheidung über die Biopsie und die Konsequenzen gehört zusammen mit der Fertilitätsberatung in dasselbe Gespräch.",
+            "teaching_point": "Die Behandlung der Vorstufe kostet die Fertilität. Deshalb erst beraten, dann biopsieren."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "27-year-old man with a right testicular tumour. The left testis measures 9 ml on ultrasound and was undescended in childhood. He wishes to father children.",
+          "lead_in": "Which statement about contralateral biopsy is correct?",
+          "options": {
+            "A": {
+              "text": "Offer it, since volume and history raise the risk",
+              "rationale": "These risk factors are exactly what justifies the offer. The consequence needs explaining, because treating the precursor costs fertility and can therefore be deferred when children are wanted. Small testicular volume, young age and a history of cryptorchidism raise the risk of germ cell neoplasia in situ. If positive, radiotherapy and surveillance are the options, with radiotherapy abolishing fertility and therefore deferrable when children are wanted."
+            },
+            "B": {
+              "text": "Mandatory in every testicular tumour, regardless of risk",
+              "rationale": "It is offered in a risk-adapted way, not performed universally."
+            },
+            "C": {
+              "text": "Obsolete, since germ cell neoplasia has no significance",
+              "rationale": "Untreated, it progresses to invasive tumour in the majority of cases over years."
+            },
+            "D": {
+              "text": "A positive result requires immediate contralateral orchiectomy",
+              "rationale": "That would render the patient anorchid; radiotherapy or surveillance preserve the organ and at least part of its hormone production."
+            }
+          },
+          "explanation": {
+            "core": "Germ cell neoplasia in situ is the obligate precursor of germ cell tumours. It is present in a small but relevant proportion of contralateral testes, more often with small volume, young age and cryptorchidism. The decision about biopsy and its consequences belongs in the same conversation as fertility counselling.",
+            "teaching_point": "Treating the precursor costs fertility. Counsel first, then biopsy."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00018",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "organerhaltende Operation",
+        "tags": [
+          "operationstechnik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-07",
+        "last_reviewed": "2026-09-07",
+        "expires": "2028-09-07"
+      },
+      "content": {
+        "de": {
+          "vignette": "33-jähriger Patient mit Zustand nach Ablatio links vor sechs Jahren. Jetzt sonographisch eine 1,4 cm große Raumforderung im verbliebenen rechten Hoden. Testosteron und LH im Normbereich, Marker normal.",
+          "lead_in": "Welches Vorgehen ist zu erwägen?",
+          "options": {
+            "A": {
+              "text": "Ablatio des Resthodens mit Testosteronsubstitution",
+              "rationale": "Die Anorchie mit lebenslanger Substitution und Infertilität ist bei kleinem Tumor und erhaltener Funktion vermeidbar."
+            },
+            "B": {
+              "text": "Organerhaltende Enukleation über inguinalen Zugang",
+              "rationale": "Bei Einzelhoden oder bilateralem Befall ist der Organerhalt etabliert, wenn der Tumor klein ist und die endokrine Funktion erhalten. Die begleitende Keimzellneoplasie in situ ist häufig und wird nachbehandelt oder überwacht. Voraussetzungen sind Einzelhoden oder beidseitiger Befall, ein Durchmesser unter etwa zwei Zentimetern und erhaltene endokrine Funktion. Während des Eingriffs erfolgen Schnellschnitt und Biopsien des angrenzenden Parenchyms, weil eine begleitende Keimzellneoplasie in situ häufig ist."
+            },
+            "C": {
+              "text": "Perkutane Punktion zur Histologiegewinnung vorab",
+              "rationale": "Der skrotale Zugang ist beim Hodentumor kontraindiziert."
+            },
+            "D": {
+              "text": "Primäre Chemotherapie ohne operative Sicherung",
+              "rationale": "Ohne Histologie fehlt die Grundlage jeder onkologischen Entscheidung."
+            }
+          },
+          "explanation": {
+            "core": "Der Organerhalt am Hoden ist die Ausnahme und an enge Bedingungen geknüpft: Einzelhoden oder bilateraler Tumor, Durchmesser unter etwa zwei Zentimetern, erhaltene endokrine Funktion und die Bereitschaft zu engmaschiger Nachsorge. Der inguinale Zugang bleibt zwingend, und die begleitende Vorstufe im Restparenchym muss adressiert werden.",
+            "teaching_point": "Organerhalt am Hoden nur bei Einzelhoden oder beidseitigem Tumor, und nie skrotal."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "33-year-old man who underwent left orchiectomy six years ago. Ultrasound now shows a 1.4 cm mass in the remaining right testis. Testosterone and LH are normal, markers are normal.",
+          "lead_in": "Which approach should be considered?",
+          "options": {
+            "A": {
+              "text": "Orchiectomy of the remaining testis with replacement",
+              "rationale": "Anorchia with lifelong replacement and infertility is avoidable with a small tumour and preserved function."
+            },
+            "B": {
+              "text": "Organ-sparing enucleation through an inguinal approach",
+              "rationale": "Organ preservation is established with a solitary testis or bilateral disease when the tumour is small and endocrine function preserved. Accompanying germ cell neoplasia in situ is common and is then treated or surveyed. Prerequisites are a solitary testis or bilateral disease, a diameter below roughly two centimetres and preserved endocrine function. Frozen section and biopsies of adjacent parenchyma are taken during surgery, because accompanying germ cell neoplasia in situ is common."
+            },
+            "C": {
+              "text": "Percutaneous puncture to obtain histology beforehand",
+              "rationale": "The scrotal approach is contraindicated in testicular tumours."
+            },
+            "D": {
+              "text": "Primary chemotherapy without surgical confirmation",
+              "rationale": "Without histology there is no basis for any oncological decision."
+            }
+          },
+          "explanation": {
+            "core": "Testis-sparing surgery is the exception and tied to strict conditions: solitary testis or bilateral tumour, diameter below roughly two centimetres, preserved endocrine function and willingness to accept close follow-up. The inguinal approach remains mandatory, and the accompanying precursor lesion in residual parenchyma must be addressed.",
+            "teaching_point": "Testis-sparing surgery only for a solitary testis or bilateral tumour, and never scrotal."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00019",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Therapietoxizität",
+        "tags": [
+          "nebenwirkungen",
+          "pharmakologie",
+          "praeoperativ"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-07",
+        "last_reviewed": "2026-09-07",
+        "expires": "2028-09-07"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein Patient soll acht Monate nach drei Zyklen BEP eine Residualtumorresektion erhalten. Die Anästhesie fragt nach Besonderheiten der Vorbehandlung.",
+          "lead_in": "Worauf ist hinzuweisen?",
+          "options": {
+            "A": {
+              "text": "Nephrotoxizität des Etoposids mit nötiger Dosisanpassung",
+              "rationale": "Die Nierentoxizität geht vom Cisplatin aus, nicht vom Etoposid, und ist kein anästhesiologisches Kernproblem."
+            },
+            "B": {
+              "text": "Kardiale Toxizität des Bleomycins mit Echokardiographie",
+              "rationale": "Bleomycin ist nicht primär kardiotoxisch; sein Zielorgan ist die Lunge."
+            },
+            "C": {
+              "text": "Blutungsrisiko durch anhaltende Thrombozytopenie",
+              "rationale": "Acht Monate nach Therapieende ist die Hämatopoese in aller Regel erholt."
+            },
+            "D": {
+              "text": "Pulmonale Toxizität des Bleomycins mit Sauerstoffgrenze",
+              "rationale": "Bleomycin sensibilisiert das Lungengewebe dauerhaft; hohe Sauerstoffkonzentrationen und Überwässerung können auch Monate später eine Lungenschädigung auslösen. Präoperativ wird die Lungenfunktion geprüft, intraoperativ die inspiratorische Sauerstofffraktion so niedrig wie möglich gehalten und eine Volumenüberladung vermieden. Das Risiko besteht lebenslang und nicht nur während der Therapie."
+            }
+          },
+          "explanation": {
+            "core": "Die Spätfolgen der Keimzelltumortherapie bestimmen die Betreuung über Jahrzehnte. Bleomycin hinterlässt ein Lungenrisiko, das bei jeder späteren Narkose zu berücksichtigen ist. Cisplatin hinterlässt Nephro-, Oto- und Neurotoxizität, Etoposid ein geringes Risiko sekundärer Leukämien.",
+            "teaching_point": "Nach Bleomycin gilt lebenslang: so wenig Sauerstoff wie möglich, so viel wie nötig."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A patient is scheduled for residual mass resection eight months after three cycles of BEP. The anaesthetist asks about relevant features of the prior treatment.",
+          "lead_in": "What must be pointed out?",
+          "options": {
+            "A": {
+              "text": "Nephrotoxicity of etoposide requiring dose adjustment now",
+              "rationale": "Renal toxicity comes from cisplatin, not etoposide, and is not the core anaesthetic issue."
+            },
+            "B": {
+              "text": "Cardiac toxicity of bleomycin requiring echocardiography",
+              "rationale": "Bleomycin is not primarily cardiotoxic; its target organ is the lung."
+            },
+            "C": {
+              "text": "Bleeding risk from persistent thrombocytopenia",
+              "rationale": "Eight months after treatment haematopoiesis has generally recovered."
+            },
+            "D": {
+              "text": "Pulmonary toxicity of bleomycin with an oxygen limit",
+              "rationale": "Bleomycin sensitises lung tissue permanently; high oxygen concentrations and overhydration can trigger lung injury even months later. Lung function is checked preoperatively, the inspired oxygen fraction kept as low as possible intraoperatively and fluid overload avoided. The risk persists for life, not only during treatment."
+            }
+          },
+          "explanation": {
+            "core": "Late effects of germ cell tumour treatment shape care for decades. Bleomycin leaves a pulmonary risk that must be considered at every subsequent anaesthetic. Cisplatin leaves nephrotoxicity, ototoxicity and neurotoxicity, etoposide a small risk of secondary leukaemia.",
+            "teaching_point": "After bleomycin, lifelong: as little oxygen as possible, as much as necessary."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00020",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Langzeitnachsorge",
+        "tags": [
+          "nachsorge",
+          "labordiagnostik",
+          "nebenwirkungen"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-07",
+        "last_reviewed": "2026-09-07",
+        "expires": "2028-09-07"
+      },
+      "content": {
+        "de": {
+          "vignette": "36-jähriger Patient, sieben Jahre nach Ablatio und Chemotherapie bei Nichtseminom, tumorfrei. Er klagt über Antriebslosigkeit und Libidoverlust, hat 9 kg zugenommen, der Blutdruck liegt bei 148/94 mmHg.",
+          "lead_in": "Was gehört in die Langzeitnachsorge?",
+          "options": {
+            "A": {
+              "text": "Nur Markerkontrollen und CT, da nur das Rezidiv zählt",
+              "rationale": "Nach sieben Jahren ist das Rezidivrisiko gering, während die Spätfolgen an Bedeutung gewinnen."
+            },
+            "B": {
+              "text": "Beendigung der Nachsorge, da die Heilung eingetreten ist",
+              "rationale": "Gerade die Spätfolgen erfordern eine über Jahrzehnte fortgesetzte, aber inhaltlich veränderte Betreuung."
+            },
+            "C": {
+              "text": "Hormonstatus und kardiovaskuläre Risikofaktoren erfassen",
+              "rationale": "Antriebslosigkeit, Libidoverlust, Gewichtszunahme und Hypertonie passen zu Hypogonadismus und metabolischem Syndrom, beides bekannte Spätfolgen nach Chemotherapie und Verlust eines Hodens. Bestimmt werden Testosteron, LH und FSH zur Klärung eines Hypogonadismus, dazu Blutdruck, Lipide und Glukose. Zusätzlich ist auf Zweitmalignome nach Chemotherapie und Bestrahlung zu achten."
+            },
+            "D": {
+              "text": "Psychotherapeutische Behandlung ohne Labordiagnostik",
+              "rationale": "Die psychische Belastung ist real, darf aber einen behandelbaren Hormonmangel nicht verdecken."
+            }
+          },
+          "explanation": {
+            "core": "Nach der Heilung eines Keimzelltumors verschiebt sich die Nachsorge vom Rezidiv zu den Spätfolgen. Relevant sind Hypogonadismus, metabolisches Syndrom, kardiovaskuläre Erkrankungen, Nephro-, Oto- und Neurotoxizität sowie Zweitmalignome nach Chemotherapie und Bestrahlung. Diese Patienten sind bei Diagnose jung und leben Jahrzehnte mit den Folgen.",
+            "teaching_point": "Nach fünf Jahren geht es nicht mehr um den Tumor, sondern um die Folgen seiner Behandlung."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "36-year-old man, seven years after orchiectomy and chemotherapy for non-seminoma, disease-free. He reports low drive and loss of libido, has gained 9 kg, and his blood pressure is 148/94 mmHg.",
+          "lead_in": "What belongs in long-term follow-up?",
+          "options": {
+            "A": {
+              "text": "Markers and CT only, since only relapse matters",
+              "rationale": "After seven years relapse risk is low while late effects gain importance."
+            },
+            "B": {
+              "text": "Discharge from follow-up, since cure has been achieved",
+              "rationale": "Late effects require care continued over decades, though different in content."
+            },
+            "C": {
+              "text": "Assess hormone status and cardiovascular risk factors",
+              "rationale": "Low drive, loss of libido, weight gain and hypertension fit hypogonadism and metabolic syndrome, both recognised late effects after chemotherapy and loss of a testis. Testosterone, LH and FSH are measured to assess hypogonadism, together with blood pressure, lipids and glucose. Attention to second malignancies after chemotherapy and radiotherapy is added."
+            },
+            "D": {
+              "text": "Psychotherapy without any laboratory investigation",
+              "rationale": "Psychological burden is real but must not mask a treatable hormone deficiency."
+            }
+          },
+          "explanation": {
+            "core": "After cure of a germ cell tumour, follow-up shifts from relapse to late effects. Relevant are hypogonadism, metabolic syndrome, cardiovascular disease, nephro-, oto- and neurotoxicity, and second malignancies after chemotherapy and radiotherapy. These patients are young at diagnosis and live with the consequences for decades.",
+            "teaching_point": "After five years it is no longer about the tumour but about the effects of its treatment."
+          },
+          "flag_note": null
+        }
+      }
+    }
+  ]
+}
