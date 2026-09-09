@@ -1,4 +1,445 @@
 {
   "gebiet": "infektiologie",
-  "fragen": []
+  "fragen": [
+    {
+      "id": "uro-inf-00001",
+      "version": 1,
+      "status": "published",
+      "taxonomy": { "subdomain": "unkomplizierte Zystitis", "tags": ["pharmakologie", "dosierung", "leitlinie"] },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": true }, { "key": "C", "correct": false }, { "key": "D", "correct": false }],
+      "evidence": { "level": "IA", "certainty": "etabliert", "flag": false },
+      "sources": [{ "type": "leitlinie", "code": "AWMF 043-044", "title": "S3-Leitlinie Harnwegsinfektionen", "year": 2025 }],
+      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "content": {
+        "de": {
+          "vignette": "26-jährige, nicht schwangere Frau mit seit zwei Tagen bestehender Dysurie und Pollakisurie, kein Fieber, keine Flankenschmerzen. Erste Episode, keine Vorerkrankungen, keine Antibiotikaeinnahme im letzten Jahr.",
+          "lead_in": "Welche Behandlung ist Erstlinie?",
+          "options": {
+            "A": { "text": "Ciprofloxacin 500 mg zweimal täglich über drei Tage", "rationale": "Fluorchinolone sind bei unkomplizierter Zystitis keine Erstlinie mehr. Sie sollen für schwerere Infektionen reserviert bleiben, und ihr Nebenwirkungsprofil hat zu einer europaweiten Einschränkung geführt." },
+            "B": { "text": "Fosfomycin-Trometamol 3 g als einmalige Gabe", "rationale": "Neben Fosfomycin sind Nitrofurantoin und Pivmecillinam Erstlinienoptionen. Sie erreichen hohe Konzentrationen im Urin und schonen die Darmflora, weshalb sie in Leitlinien vorgezogen werden." },
+            "C": { "text": "Cotrimoxazol über sieben Tage nach Urinkultur", "rationale": "Es bleibt eine Option, wenn die lokale Resistenzrate unter 20 Prozent liegt; die Kultur ist bei der unkomplizierten Erstepisode aber nicht erforderlich." },
+            "D": { "text": "Amoxicillin über fünf Tage ohne weitere Diagnostik", "rationale": "Die Resistenzraten von Escherichia coli gegen Aminopenicilline sind zu hoch für eine kalkulierte Therapie." }
+          },
+          "explanation": {
+            "core": "Die unkomplizierte Zystitis der nicht schwangeren Frau wird kalkuliert und kurz behandelt, ohne vorherige Urinkultur. Die Auswahl folgt nicht der Wirksamkeit allein, sondern dem Kollateralschaden auf die Flora und der Resistenzentwicklung. Bei sehr milden Beschwerden ist auch eine rein symptomatische Behandlung mit Ibuprofen nach Aufklärung vertretbar.",
+            "teaching_point": "Fluorchinolone sind bei der einfachen Zystitis Reserve, nicht Erstlinie."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "26-year-old non-pregnant woman with two days of dysuria and frequency, no fever and no flank pain. First episode, no comorbidity, no antibiotics in the past year.",
+          "lead_in": "Which treatment is first line?",
+          "options": {
+            "A": { "text": "Ciprofloxacin 500 mg twice daily for three days", "rationale": "Fluoroquinolones are no longer first line in uncomplicated cystitis. They should be reserved for more serious infections, and their adverse effect profile has led to Europe-wide restrictions." },
+            "B": { "text": "Fosfomycin trometamol 3 g as a single dose", "rationale": "Alongside fosfomycin, nitrofurantoin and pivmecillinam are first-line options. They reach high urinary concentrations and spare the gut flora, which is why guidelines prefer them." },
+            "C": { "text": "Co-trimoxazole for seven days after urine culture", "rationale": "It remains an option where local resistance is below 20 per cent; culture is not required for an uncomplicated first episode." },
+            "D": { "text": "Amoxicillin for five days without further workup", "rationale": "Escherichia coli resistance to aminopenicillins is too high for empirical use." }
+          },
+          "explanation": {
+            "core": "Uncomplicated cystitis in a non-pregnant woman is treated empirically and briefly, without prior urine culture. The choice follows not efficacy alone but collateral damage to the flora and resistance development. With very mild symptoms, symptomatic treatment with ibuprofen after counselling is also defensible.",
+            "teaching_point": "In simple cystitis fluoroquinolones are reserve, not first line."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-inf-00002",
+      "version": 1,
+      "status": "published",
+      "taxonomy": { "subdomain": "Pyelonephritis", "tags": ["bildgebung", "pharmakologie", "leitlinie"] },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": false }, { "key": "C", "correct": true }, { "key": "D", "correct": false }],
+      "evidence": { "level": "IIA", "certainty": "etabliert", "flag": false },
+      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Infections", "year": 2026 }],
+      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "content": {
+        "de": {
+          "vignette": "34-jährige Frau mit akuter Pyelonephritis, seit drei Tagen antibiotisch behandelt. Fieber und Flankenschmerz bestehen unverändert fort, das C-reaktive Protein steigt weiter an. Die Urinkultur zeigt einen sensiblen Erreger.",
+          "lead_in": "Was ist jetzt zu tun?",
+          "options": {
+            "A": { "text": "Antibiotikum umstellen und weitere 48 Stunden abwarten", "rationale": "Der Erreger ist sensibel, ein Wechsel behebt das Problem also nicht. Ausbleibendes Ansprechen bei passender Therapie deutet auf ein anatomisches oder abszedierendes Problem." },
+            "B": { "text": "Therapiedauer auf vierzehn Tage verlängern und beobachten", "rationale": "Eine längere Gabe ersetzt keine Ursachenklärung und verzögert die Entlastung, falls eine Obstruktion vorliegt." },
+            "C": { "text": "Schnittbildgebung zur Suche nach Obstruktion oder Abszess", "rationale": "Bleibt das Ansprechen nach 48 bis 72 Stunden aus, wird gezielt nach einer komplizierenden Ursache gesucht. Findet sich eine Harnstauung oder ein Abszess, muss entlastet oder drainiert werden." },
+            "D": { "text": "Sofortige Nephrektomie bei vermuteter Organzerstörung", "rationale": "Ein derart eingreifender Schritt kommt erst nach Bildgebung und nur bei zerstörtem, funktionslosem Organ infrage." }
+          },
+          "explanation": {
+            "core": "Die unkomplizierte Pyelonephritis bessert sich unter passender Therapie innerhalb von zwei bis drei Tagen. Bleibt diese Besserung aus, ist die Diagnose nicht mehr unkompliziert: Gesucht wird nach Obstruktion, Abszess, Stein oder einer emphysematösen Form. Die Bildgebung ist damit kein Routineschritt, sondern die Antwort auf ein ausbleibendes Ansprechen.",
+            "teaching_point": "Kein Ansprechen nach 72 Stunden heißt Bildgebung, nicht neues Antibiotikum."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "34-year-old woman with acute pyelonephritis on antibiotics for three days. Fever and flank pain persist unchanged and C-reactive protein continues to rise. Urine culture grows a sensitive organism.",
+          "lead_in": "What should be done now?",
+          "options": {
+            "A": { "text": "Switch antibiotic and wait another 48 hours", "rationale": "The organism is sensitive, so a switch does not address the problem. Failure to respond on appropriate therapy points to an anatomical or suppurative cause." },
+            "B": { "text": "Extend treatment to fourteen days and observe", "rationale": "Longer treatment does not replace finding the cause and delays drainage if obstruction is present." },
+            "C": { "text": "Cross-sectional imaging for obstruction or abscess", "rationale": "If response fails after 48 to 72 hours, a complicating cause is sought specifically. If hydronephrosis or an abscess is found, drainage is required." },
+            "D": { "text": "Immediate nephrectomy for presumed organ destruction", "rationale": "Such a major step follows imaging and applies only to a destroyed, non-functioning organ." }
+          },
+          "explanation": {
+            "core": "Uncomplicated pyelonephritis improves on appropriate therapy within two to three days. If that improvement fails to appear, the diagnosis is no longer uncomplicated: obstruction, abscess, stone or an emphysematous form are sought. Imaging is therefore not a routine step but the answer to a failed response.",
+            "teaching_point": "No response after 72 hours means imaging, not a new antibiotic."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-inf-00003",
+      "version": 1,
+      "status": "published",
+      "taxonomy": { "subdomain": "rezidivierende Harnwegsinfekte", "tags": ["leitlinie", "pharmakologie", "nachsorge"] },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [{ "key": "A", "correct": true }, { "key": "B", "correct": false }, { "key": "C", "correct": false }, { "key": "D", "correct": false }],
+      "evidence": { "level": "IIA", "certainty": "etabliert", "flag": false },
+      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Infections", "year": 2026 }],
+      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "content": {
+        "de": {
+          "vignette": "63-jährige postmenopausale Frau mit fünf kulturell gesicherten Zystitiden im vergangenen Jahr. Sonographie und Restharn unauffällig, kein Diabetes, keine Steine. Sie möchte nicht dauerhaft Antibiotika einnehmen.",
+          "lead_in": "Welches Vorgehen ist zuerst zu wählen?",
+          "options": {
+            "A": { "text": "Nicht antibiotische Maßnahmen, dazu vaginale Östrogene", "rationale": "Beraten wird zu Trinkmenge und Miktionsverhalten; dazu kommen vaginale Östrogene, die nach der Menopause die Rezidivrate nachweislich senken. Immunprophylaxe und D-Mannose sind weitere Bausteine vor jeder Dauerantibiose." },
+            "B": { "text": "Sofortige antibiotische Langzeitprophylaxe über sechs Monate", "rationale": "Sie ist wirksam, aber erst nach Ausschöpfung der nicht antibiotischen Maßnahmen vorgesehen, weil sie Resistenzen fördert und nach dem Absetzen häufig wirkungslos bleibt." },
+            "C": { "text": "Zystoskopie und Urodynamik zur Ursachenabklärung", "rationale": "Bei unauffälliger Sonographie, fehlendem Restharn und typischer Anamnese ist eine invasive Abklärung nicht begründet." },
+            "D": { "text": "Kontinuierliche Ansäuerung des Urins als alleinige Maßnahme", "rationale": "Für die Harnansäuerung als Rezidivprophylaxe fehlt ein belastbarer Wirksamkeitsnachweis." }
+          },
+          "explanation": {
+            "core": "Rezidivierende Harnwegsinfekte sind definiert als mindestens zwei Episoden im Halbjahr oder drei im Jahr. Die Behandlung folgt einer Stufenfolge: zuerst Beratung und Verhaltensänderung, dann nicht antibiotische Prophylaxe einschließlich vaginaler Östrogene nach der Menopause, und erst danach eine antibiotische Langzeitprophylaxe. Die Selbstmedikation bei Bedarf ist eine Alternative für gut informierte Patientinnen.",
+            "teaching_point": "Vaginale Östrogene sind nach der Menopause die wirksamste nicht antibiotische Maßnahme."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "63-year-old postmenopausal woman with five culture-proven episodes of cystitis in the past year. Ultrasound and post-void residual are normal, no diabetes, no stones. She does not want to take antibiotics continuously.",
+          "lead_in": "Which approach should be chosen first?",
+          "options": {
+            "A": { "text": "Non-antibiotic measures plus vaginal oestrogens", "rationale": "Advice on fluid intake and voiding habits is given, together with vaginal oestrogens, which demonstrably lower recurrence after the menopause. Immunoprophylaxis and D-mannose are further elements before any long-term antibiotic." },
+            "B": { "text": "Immediate long-term antibiotic prophylaxis for six months", "rationale": "It is effective but intended only after non-antibiotic measures are exhausted, because it promotes resistance and often loses effect after stopping." },
+            "C": { "text": "Cystoscopy and urodynamics to establish the cause", "rationale": "With normal ultrasound, no residual urine and a typical history, invasive assessment is unjustified." },
+            "D": { "text": "Continuous urinary acidification as the sole measure", "rationale": "There is no robust evidence of efficacy for urinary acidification as recurrence prophylaxis." }
+          },
+          "explanation": {
+            "core": "Recurrent urinary tract infection is defined as at least two episodes in six months or three in a year. Treatment follows a ladder: counselling and behavioural change first, then non-antibiotic prophylaxis including vaginal oestrogens after the menopause, and only then long-term antibiotic prophylaxis. Self-initiated treatment on demand is an alternative for well-informed patients.",
+            "teaching_point": "After the menopause vaginal oestrogens are the most effective non-antibiotic measure."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-inf-00004",
+      "version": 1,
+      "status": "published",
+      "taxonomy": { "subdomain": "asymptomatische Bakteriurie", "tags": ["leitlinie", "labordiagnostik", "praeoperativ"] },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": false }, { "key": "C", "correct": false }, { "key": "D", "correct": true }],
+      "evidence": { "level": "IA", "certainty": "etabliert", "flag": false },
+      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Infections", "year": 2026 }],
+      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "content": {
+        "de": {
+          "vignette": "Bei vier Patienten wird zufällig eine Bakteriurie ohne Beschwerden gefunden: einer schwangeren Frau, einem Mann vor transurethraler Prostataresektion, einer Diabetikerin und einem Patienten mit Dauerkatheter.",
+          "lead_in": "Wer wird behandelt?",
+          "options": {
+            "A": { "text": "Alle vier, um spätere symptomatische Infekte zu verhindern", "rationale": "Die Behandlung asymptomatischer Bakteriurie verhindert keine späteren Infekte, sondern selektiert resistente Erreger und erhöht das Risiko einer Clostridioides-difficile-Infektion." },
+            "B": { "text": "Nur die Diabetikerin wegen des erhöhten Infektionsrisikos", "rationale": "Diabetes allein rechtfertigt keine Behandlung; Studien zeigen keinen Nutzen bei asymptomatischen Patientinnen mit Diabetes." },
+            "C": { "text": "Nur der Patient mit Dauerkatheter zur Sanierung", "rationale": "Bei liegendem Katheter ist die Bakteriurie die Regel und nicht behandlungsbedürftig, solange keine Symptome bestehen." },
+            "D": { "text": "Die Schwangere und der Mann vor der Prostataresektion", "rationale": "In der Schwangerschaft senkt die Behandlung das Risiko von Pyelonephritis und Frühgeburt. Vor Eingriffen mit Verletzung der Schleimhaut wird ebenfalls behandelt, weil dabei Erreger in die Blutbahn gelangen." }
+          },
+          "explanation": {
+            "core": "Die asymptomatische Bakteriurie ist in den meisten Situationen ein Laborbefund ohne Krankheitswert. Behandelt wird nur, wo ein Nutzen belegt ist: in der Schwangerschaft und vor Eingriffen, die die Urothelschleimhaut eröffnen. In allen anderen Gruppen, einschließlich älterer Menschen, Diabetiker und Katheterträger, wird weder gescreent noch behandelt.",
+            "teaching_point": "Nicht screenen, was man nicht behandeln würde. Zwei Ausnahmen: Schwangerschaft und Schleimhauteingriff."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Bacteriuria without symptoms is found incidentally in four patients: a pregnant woman, a man before transurethral resection of the prostate, a woman with diabetes and a patient with an indwelling catheter.",
+          "lead_in": "Who is treated?",
+          "options": {
+            "A": { "text": "All four, to prevent later symptomatic infections", "rationale": "Treating asymptomatic bacteriuria does not prevent later infection; it selects resistant organisms and raises the risk of Clostridioides difficile infection." },
+            "B": { "text": "Only the woman with diabetes given her raised risk", "rationale": "Diabetes alone does not justify treatment; trials show no benefit in asymptomatic patients with diabetes." },
+            "C": { "text": "Only the catheterised patient, to clear the bacteriuria", "rationale": "With an indwelling catheter bacteriuria is the rule and requires no treatment as long as there are no symptoms." },
+            "D": { "text": "The pregnant woman and the man before prostate surgery", "rationale": "In pregnancy treatment lowers the risk of pyelonephritis and preterm birth. Before procedures that breach the mucosa treatment is also given, because organisms enter the bloodstream." }
+          },
+          "explanation": {
+            "core": "Asymptomatic bacteriuria is in most situations a laboratory finding without clinical significance. Treatment is given only where benefit is proven: in pregnancy and before procedures that open the urothelial mucosa. In all other groups, including older people, patients with diabetes and catheter carriers, neither screening nor treatment is performed.",
+            "teaching_point": "Do not screen for what you would not treat. Two exceptions: pregnancy and mucosal procedures."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-inf-00005",
+      "version": 1,
+      "status": "published",
+      "taxonomy": { "subdomain": "Urosepsis", "tags": ["notfall", "pharmakologie", "leitlinie"] },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": true }, { "key": "C", "correct": false }, { "key": "D", "correct": false }],
+      "evidence": { "level": "IA", "certainty": "etabliert", "flag": false },
+      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Infections", "year": 2026 }],
+      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "content": {
+        "de": {
+          "vignette": "72-jähriger Patient mit Fieber, Verwirrtheit, Blutdruck 82/50 mmHg und Laktat 4,2 mmol/l. Im CT zeigt sich eine linksseitige Harnstauung durch einen Harnleiterstein mit Luft im Nierenbecken.",
+          "lead_in": "Was hat in den ersten Stunden Vorrang?",
+          "options": {
+            "A": { "text": "Erst die Kreislaufstabilisierung, Entlastung am Folgetag", "rationale": "Ohne Beseitigung des Fokus bleibt jede Kreislauftherapie unzureichend. Die Entlastung ist Teil der Erstbehandlung und nicht ein späterer Schritt." },
+            "B": { "text": "Blutkulturen, sofortige Antibiose und Entlastung des Harns", "rationale": "Blutkulturen werden vor der Antibiose abgenommen, das kalkulierte Antibiotikum innerhalb der ersten Stunde gegeben, und die Harnableitung erfolgt parallel mit Volumen- und Kreislauftherapie." },
+            "C": { "text": "Ureterorenoskopie mit Steinentfernung in gleicher Sitzung", "rationale": "Die Steinsanierung im septischen Zustand erhöht durch Druck und Keimeinschwemmung die Gefahr; entlastet wird mit Schiene oder Nephrostomie." },
+            "D": { "text": "Antibiose erst nach Vorliegen der Urinkultur beginnen", "rationale": "Jede Stunde Verzögerung der wirksamen Antibiose erhöht die Sterblichkeit messbar; behandelt wird kalkuliert und später angepasst." }
+          },
+          "explanation": {
+            "core": "Bei der Urosepsis laufen drei Dinge gleichzeitig: kalkulierte Antibiose nach Abnahme der Kulturen, Kreislauftherapie und Beseitigung des Fokus. Die urologische Aufgabe ist die Entlastung, und sie duldet keinen Aufschub. Die Wahl zwischen innerer Schiene und perkutaner Nephrostomie richtet sich nach Verfügbarkeit, Gerinnung und lokaler Erfahrung.",
+            "teaching_point": "Antibiose in der ersten Stunde, Entlastung ohne Aufschub, Steinsanierung später."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "72-year-old man with fever, confusion, blood pressure 82/50 mmHg and lactate 4.2 mmol/l. CT shows left-sided obstruction from a ureteric stone with gas in the renal pelvis.",
+          "lead_in": "What takes priority in the first hours?",
+          "options": {
+            "A": { "text": "Stabilise the circulation first and drain the next day", "rationale": "Without source control any circulatory treatment remains inadequate. Drainage is part of initial management, not a later step." },
+            "B": { "text": "Blood cultures, immediate antibiotics and urinary drainage", "rationale": "Blood cultures are taken before antibiotics, the empirical agent is given within the first hour, and drainage proceeds alongside fluid and circulatory support." },
+            "C": { "text": "Ureteroscopy with stone removal in the same session", "rationale": "Stone treatment during sepsis increases danger through pressure and bacterial showering; drainage is by stent or nephrostomy." },
+            "D": { "text": "Start antibiotics only once the urine culture is available", "rationale": "Every hour of delay in effective antibiotics measurably increases mortality; treatment is empirical and adjusted later." }
+          },
+          "explanation": {
+            "core": "In urosepsis three things run in parallel: empirical antibiotics after cultures, circulatory support and source control. The urological task is drainage, and it brooks no delay. The choice between internal stent and percutaneous nephrostomy follows availability, coagulation status and local experience.",
+            "teaching_point": "Antibiotics in the first hour, drainage without delay, stone treatment later."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-inf-00006",
+      "version": 1,
+      "status": "published",
+      "taxonomy": { "subdomain": "Prostatitis", "tags": ["pharmakologie", "labordiagnostik", "leitlinie"] },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": false }, { "key": "C", "correct": true }, { "key": "D", "correct": false }],
+      "evidence": { "level": "IIA", "certainty": "etabliert", "flag": false },
+      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Infections", "year": 2026 }],
+      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "content": {
+        "de": {
+          "vignette": "44-jähriger Mann mit Fieber bis 39,4 °C, Schüttelfrost, Dysurie und starkem Druckgefühl im Damm. Die Prostata ist rektal äußerst druckschmerzhaft und überwärmt. Der Restharn beträgt 220 ml.",
+          "lead_in": "Wie ist vorzugehen?",
+          "options": {
+            "A": { "text": "Prostatamassage zur Erregergewinnung durchführen", "rationale": "Bei der akuten bakteriellen Prostatitis ist die Massage kontraindiziert, weil sie eine Bakteriämie auslösen kann. Sie gehört zur Diagnostik chronischer Formen." },
+            "B": { "text": "Transrektale Prostatabiopsie zur Abklärung des Befundes", "rationale": "Die Biopsie in der akuten Entzündung ist kontraindiziert und diagnostisch nicht erforderlich; auch der PSA-Wert ist hier nicht verwertbar." },
+            "C": { "text": "Urinkultur, Antibiose über mehrere Wochen, Harn ableiten", "rationale": "Behandelt wird kalkuliert mit einem gut prostatagängigen Präparat über zwei bis vier Wochen. Der hohe Restharn wird abgeleitet, bevorzugt suprapubisch, um die entzündete Harnröhre zu schonen." },
+            "D": { "text": "Alphablocker und Beckenbodentherapie ohne Antibiose", "rationale": "Dieses Konzept gilt dem chronischen Beckenschmerzsyndrom ohne Erregernachweis, nicht der akuten bakteriellen Entzündung mit Fieber." }
+          },
+          "explanation": {
+            "core": "Die akute bakterielle Prostatitis ist eine schwere Infektion mit Bakteriämierisiko und wird lange behandelt, weil die Prostata schlecht erreichbar ist. Zwei Verbote gehören dazu: keine Prostatamassage und keine Biopsie in der akuten Phase. Bei ausbleibender Besserung wird nach einem Abszess gesucht, der drainiert werden muss.",
+            "teaching_point": "Akute Prostatitis heißt nicht massieren, nicht biopsieren, lange behandeln."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "44-year-old man with fever to 39.4 °C, rigors, dysuria and marked perineal pressure. On rectal examination the prostate is exquisitely tender and warm. Post-void residual is 220 ml.",
+          "lead_in": "How should this be managed?",
+          "options": {
+            "A": { "text": "Perform prostatic massage to obtain the organism", "rationale": "In acute bacterial prostatitis massage is contraindicated because it can precipitate bacteraemia. It belongs to the workup of chronic forms." },
+            "B": { "text": "Transrectal prostate biopsy to clarify the finding", "rationale": "Biopsy during acute inflammation is contraindicated and diagnostically unnecessary; PSA is also uninterpretable here." },
+            "C": { "text": "Urine culture, weeks of antibiotics and urinary drainage", "rationale": "Empirical treatment uses an agent with good prostatic penetration for two to four weeks. The high residual is drained, preferably suprapubically, to spare the inflamed urethra." },
+            "D": { "text": "Alpha-blocker and pelvic floor therapy without antibiotics", "rationale": "That concept applies to chronic pelvic pain syndrome without an identified organism, not to acute bacterial inflammation with fever." }
+          },
+          "explanation": {
+            "core": "Acute bacterial prostatitis is a serious infection with a risk of bacteraemia and is treated for a long period, because the prostate is poorly accessible. Two prohibitions apply: no prostatic massage and no biopsy in the acute phase. If improvement fails, an abscess is sought and drained.",
+            "teaching_point": "Acute prostatitis means no massage, no biopsy and long treatment."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-inf-00007",
+      "version": 1,
+      "status": "published",
+      "taxonomy": { "subdomain": "Fournier-Gangrän", "tags": ["notfall", "operationstechnik", "pharmakologie"] },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [{ "key": "A", "correct": true }, { "key": "B", "correct": false }, { "key": "C", "correct": false }, { "key": "D", "correct": false }],
+      "evidence": { "level": "IIA", "certainty": "etabliert", "flag": false },
+      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Infections", "year": 2026 }],
+      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "content": {
+        "de": {
+          "vignette": "67-jähriger Diabetiker mit rasch zunehmender Schwellung und Rötung des Skrotums, unverhältnismäßig starken Schmerzen und Krepitation bei der Palpation. Temperatur 38,8 °C, Blutdruck 95/55 mmHg, Laktat erhöht.",
+          "lead_in": "Was ist zu tun?",
+          "options": {
+            "A": { "text": "Sofortiges radikales Débridement und Breitspektrumantibiose", "rationale": "Die Prognose hängt am Zeitpunkt der Operation; jede Stunde Verzögerung erhöht die Sterblichkeit. Reseziert wird bis ins gesunde Gewebe, und geplante Revisionen sind die Regel." },
+            "B": { "text": "Erst CT zur Ausdehnungsbestimmung, dann Operation planen", "rationale": "Die Bildgebung kann die Ausdehnung zeigen, darf die Operation aber nicht verzögern. Bei eindeutiger Klinik wird ohne weitere Diagnostik operiert." },
+            "C": { "text": "Antibiotische Therapie und Verlaufsbeobachtung für 24 Stunden", "rationale": "Antibiotika allein erreichen das nekrotische, minderdurchblutete Gewebe nicht und können die Ausbreitung entlang der Faszien nicht aufhalten." },
+            "D": { "text": "Hyperbare Sauerstofftherapie als primäre Behandlung", "rationale": "Sie wird ergänzend diskutiert, ersetzt aber niemals die chirurgische Sanierung als erste und entscheidende Maßnahme." }
+          },
+          "explanation": {
+            "core": "Die Fournier-Gangrän ist eine nekrotisierende Fasziitis des Damms und äußeren Genitales. Kennzeichnend sind Schmerzen, die über den sichtbaren Befund hinausgehen, Krepitation und ein rasch septischer Verlauf. Behandelt wird chirurgisch, breit antibiotisch mit Anaerobierabdeckung und intensivmedizinisch; die Hoden bleiben meist erhalten, weil sie eine eigene Blutversorgung haben.",
+            "teaching_point": "Schmerz stärker als der Befund plus Krepitation heißt sofort in den Operationssaal."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "67-year-old man with diabetes and rapidly increasing scrotal swelling and redness, pain out of proportion to the findings, and crepitus on palpation. Temperature 38.8 °C, blood pressure 95/55 mmHg, raised lactate.",
+          "lead_in": "What should be done?",
+          "options": {
+            "A": { "text": "Immediate radical debridement with broad-spectrum antibiotics", "rationale": "Prognosis depends on the timing of surgery; every hour of delay raises mortality. Resection extends into healthy tissue, and planned re-explorations are the rule." },
+            "B": { "text": "CT first to define the extent, then plan the operation", "rationale": "Imaging may show the extent but must not delay surgery. With a clear clinical picture the patient goes to theatre without further tests." },
+            "C": { "text": "Antibiotic therapy with observation for 24 hours", "rationale": "Antibiotics alone do not reach necrotic, poorly perfused tissue and cannot halt spread along the fascial planes." },
+            "D": { "text": "Hyperbaric oxygen therapy as the primary treatment", "rationale": "It is discussed as an adjunct but never replaces surgical debridement as the first and decisive measure." }
+          },
+          "explanation": {
+            "core": "Fournier's gangrene is a necrotising fasciitis of the perineum and external genitalia. Pain out of proportion to the findings, crepitus and a rapidly septic course are characteristic. Treatment is surgical, with broad antibiotics covering anaerobes and intensive care; the testes are usually preserved because they have their own blood supply.",
+            "teaching_point": "Pain out of proportion plus crepitus means the operating theatre now."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-inf-00008",
+      "version": 1,
+      "status": "published",
+      "taxonomy": { "subdomain": "Epididymitis", "tags": ["pharmakologie", "dosierung", "notfall"] },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": false }, { "key": "C", "correct": false }, { "key": "D", "correct": true }],
+      "evidence": { "level": "IIA", "certainty": "etabliert", "flag": false },
+      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Infections", "year": 2026 }],
+      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "content": {
+        "de": {
+          "vignette": "24-jähriger sexuell aktiver Mann mit seit drei Tagen langsam zunehmender Schwellung und Schmerz des linken Nebenhodens, Fieber 38,2 °C. Der Kremasterreflex ist erhalten, die Dopplersonographie zeigt eine vermehrte Durchblutung. Urethraler Ausfluss besteht seit einer Woche.",
+          "lead_in": "Welche Behandlung ist angezeigt?",
+          "options": {
+            "A": { "text": "Sofortige operative Freilegung wegen Torsionsverdacht", "rationale": "Langsamer Beginn, erhaltener Kremasterreflex und vermehrte Durchblutung sprechen gegen eine Torsion. Bleibt Unklarheit, wird dennoch freigelegt." },
+            "B": { "text": "Fosfomycin 3 g einmalig wie bei unkomplizierter Zystitis", "rationale": "Die Einmalgabe erreicht im Nebenhoden keine ausreichenden Spiegel und deckt das Erregerspektrum nicht ab." },
+            "C": { "text": "Ciprofloxacin über zehn Tage ohne Partnerbehandlung", "rationale": "Bei jungen, sexuell aktiven Männern werden sexuell übertragbare Erreger nicht ausreichend erfasst, und die Partnerbehandlung fehlt." },
+            "D": { "text": "Ceftriaxon einmalig plus Doxycyclin über zehn bis vierzehn Tage", "rationale": "Bei Männern unter etwa 35 Jahren dominieren Chlamydia trachomatis und Neisseria gonorrhoeae. Die Kombination deckt beide ab; Partner werden mitbehandelt und weitere sexuell übertragbare Infektionen mitgetestet." }
+          },
+          "explanation": {
+            "core": "Das Erregerspektrum der Epididymitis hängt vom Alter und vom Sexualverhalten ab. Bei jüngeren Männern stehen sexuell übertragbare Erreger im Vordergrund, bei älteren und bei Katheterträgern Enterobakterien. Vor jeder Behandlung steht der Ausschluss der Hodentorsion, denn nur diese ist zeitkritisch.",
+            "teaching_point": "Erst Torsion ausschließen, dann nach Alter und Sexualanamnese behandeln."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "24-year-old sexually active man with three days of gradually increasing left epididymal swelling and pain, fever 38.2 °C. The cremasteric reflex is present and Doppler shows increased perfusion. He has had urethral discharge for a week.",
+          "lead_in": "Which treatment is indicated?",
+          "options": {
+            "A": { "text": "Immediate scrotal exploration for suspected torsion", "rationale": "Gradual onset, a present cremasteric reflex and increased perfusion argue against torsion. If doubt remains, exploration is still performed." },
+            "B": { "text": "Fosfomycin 3 g single dose as in uncomplicated cystitis", "rationale": "A single dose does not achieve adequate epididymal levels and does not cover the likely organisms." },
+            "C": { "text": "Ciprofloxacin for ten days without treating the partner", "rationale": "In young sexually active men this does not adequately cover sexually transmitted organisms, and partner treatment is missing." },
+            "D": { "text": "Single-dose ceftriaxone plus doxycycline for ten to fourteen days", "rationale": "In men under roughly 35, Chlamydia trachomatis and Neisseria gonorrhoeae predominate. The combination covers both; partners are treated and other sexually transmitted infections tested for." }
+          },
+          "explanation": {
+            "core": "The organisms causing epididymitis depend on age and sexual history. In younger men sexually transmitted organisms predominate, in older men and catheter carriers Enterobacterales. Before any treatment, testicular torsion must be excluded, because only that is time-critical.",
+            "teaching_point": "Exclude torsion first, then treat according to age and sexual history."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-inf-00009",
+      "version": 1,
+      "status": "published",
+      "taxonomy": { "subdomain": "katheterassoziierte Infektion", "tags": ["leitlinie", "labordiagnostik", "komplikationsmanagement"] },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": true }, { "key": "C", "correct": false }, { "key": "D", "correct": false }],
+      "evidence": { "level": "IIA", "certainty": "etabliert", "flag": false },
+      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Infections", "year": 2026 }],
+      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "content": {
+        "de": {
+          "vignette": "79-jährige Pflegeheimbewohnerin mit Dauerkatheter seit vier Monaten. Sie entwickelt Fieber von 38,7 °C und Flankenschmerz links. Der Urin ist trüb und riecht streng, was seit Wochen so beschrieben wird.",
+          "lead_in": "Wie ist vorzugehen?",
+          "options": {
+            "A": { "text": "Antibiose nach Urinkultur aus dem alten Katheter", "rationale": "Die Kultur aus dem einliegenden, biofilmbesiedelten Katheter bildet die Erreger im Harntrakt nur unzuverlässig ab und führt zu falschen Therapieentscheidungen." },
+            "B": { "text": "Katheter wechseln, dann Kultur gewinnen und behandeln", "rationale": "Der Wechsel entfernt den Biofilm, und die Kultur aus dem frischen Katheter ist aussagekräftig. Behandelt wird jetzt, weil Fieber und Flankenschmerz eine symptomatische Infektion belegen." },
+            "C": { "text": "Keine Behandlung, da eine Bakteriurie hier üblich ist", "rationale": "Die Bakteriurie allein wäre nicht behandlungsbedürftig; Fieber und Flankenschmerz machen daraus eine symptomatische Infektion." },
+            "D": { "text": "Dauerprophylaxe mit einem Antibiotikum über drei Monate", "rationale": "Eine Dauerprophylaxe bei liegendem Katheter selektiert Resistenzen ohne belegten Nutzen und wird nicht empfohlen." }
+          },
+          "explanation": {
+            "core": "Beim Dauerkatheter ist die Bakteriurie nach kurzer Zeit die Regel und für sich genommen kein Grund zu behandeln. Entscheidend sind Symptome. Liegt eine symptomatische Infektion vor, wird der Katheter vor der Probengewinnung gewechselt, weil der Biofilm sonst das Ergebnis verfälscht. Die beste Prophylaxe bleibt, den Katheter überhaupt zu vermeiden oder früh zu entfernen.",
+            "teaching_point": "Erst den Katheter wechseln, dann Urin abnehmen. Sonst kultiviert man den Biofilm."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "79-year-old nursing home resident with an indwelling catheter for four months. She develops fever of 38.7 °C and left flank pain. The urine is cloudy and strongly malodorous, as it has been described for weeks.",
+          "lead_in": "How should this be managed?",
+          "options": {
+            "A": { "text": "Antibiotics based on culture from the existing catheter", "rationale": "Culture from an indwelling, biofilm-colonised catheter reflects the organisms in the urinary tract unreliably and leads to wrong treatment decisions." },
+            "B": { "text": "Change the catheter, then take a culture and treat", "rationale": "The change removes the biofilm and culture from the fresh catheter is informative. Treatment is given now, because fever and flank pain establish symptomatic infection." },
+            "C": { "text": "No treatment, since bacteriuria is usual in this setting", "rationale": "Bacteriuria alone would not require treatment; fever and flank pain make it a symptomatic infection." },
+            "D": { "text": "Continuous antibiotic prophylaxis for three months", "rationale": "Continuous prophylaxis with an indwelling catheter selects resistance without proven benefit and is not recommended." }
+          },
+          "explanation": {
+            "core": "With an indwelling catheter bacteriuria is the rule after a short time and is not in itself a reason to treat. Symptoms decide. When symptomatic infection is present the catheter is changed before sampling, because the biofilm otherwise distorts the result. The best prophylaxis remains avoiding the catheter or removing it early.",
+            "teaching_point": "Change the catheter before sampling. Otherwise you culture the biofilm."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-inf-00010",
+      "version": 1,
+      "status": "published",
+      "taxonomy": { "subdomain": "emphysematöse Pyelonephritis", "tags": ["notfall", "bildgebung", "komplikationsmanagement"] },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": false }, { "key": "C", "correct": true }, { "key": "D", "correct": false }],
+      "evidence": { "level": "IIB", "certainty": "etabliert", "flag": false },
+      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Infections", "year": 2026 }],
+      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "content": {
+        "de": {
+          "vignette": "58-jährige Patientin mit schlecht eingestelltem Diabetes, Fieber und rechtsseitigem Flankenschmerz. Das CT zeigt Gaseinschlüsse im Nierenparenchym rechts ohne ausgedehnte Nekrose, das Sammelsystem ist nicht erweitert. Kreislauf stabil unter Volumengabe.",
+          "lead_in": "Wie ist zu behandeln?",
+          "options": {
+            "A": { "text": "Sofortige Nephrektomie als Standard bei Gasnachweis", "rationale": "Die primäre Nephrektomie war das historische Vorgehen. Heute wird organerhaltend begonnen und nur bei Versagen oder ausgedehnter Zerstörung entfernt." },
+            "B": { "text": "Alleinige antibiotische Therapie ohne weitere Maßnahmen", "rationale": "Bei parenchymatösem Gasnachweis genügt die Antibiose meist nicht; Verhalte und Nekrosen müssen drainiert werden." },
+            "C": { "text": "Antibiose, Diabeteseinstellung und perkutane Drainage", "rationale": "Die Kombination aus Stoffwechselkontrolle, wirksamer Antibiose und gezielter Drainage erhält in den meisten Fällen das Organ. Die Nephrektomie bleibt dem Versagen dieses Vorgehens vorbehalten." },
+            "D": { "text": "Doppel-J-Schiene einlegen und ambulant weiterbehandeln", "rationale": "Ohne Obstruktion bringt die Schiene keine Entlastung, und eine ambulante Führung ist bei dieser Erkrankung nicht vertretbar." }
+          },
+          "explanation": {
+            "core": "Die emphysematöse Pyelonephritis ist eine nekrotisierende Infektion, die fast ausschließlich bei Diabetes auftritt, häufig bei zusätzlicher Obstruktion. Die Einteilung nach Ausdehnung des Gases steuert die Behandlung: begrenzte Formen werden konservativ mit Drainage geführt, ausgedehnte mit Parenchymzerstörung und septischem Verlauf können die Nephrektomie erfordern.",
+            "teaching_point": "Gas in der Niere heißt nicht automatisch Nephrektomie. Zuerst Drainage und Stoffwechsel."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "58-year-old woman with poorly controlled diabetes, fever and right flank pain. CT shows gas within the right renal parenchyma without extensive necrosis, and the collecting system is not dilated. She is haemodynamically stable on fluids.",
+          "lead_in": "How should this be treated?",
+          "options": {
+            "A": { "text": "Immediate nephrectomy as standard when gas is present", "rationale": "Primary nephrectomy was the historical approach. Today organ-preserving treatment is started and removal follows only on failure or extensive destruction." },
+            "B": { "text": "Antibiotic therapy alone without any further measures", "rationale": "With parenchymal gas antibiotics alone usually do not suffice; collections and necrosis must be drained." },
+            "C": { "text": "Antibiotics, glycaemic control and percutaneous drainage", "rationale": "Combining metabolic control, effective antibiotics and targeted drainage preserves the organ in most cases. Nephrectomy is reserved for failure of this approach." },
+            "D": { "text": "Insert a double-J stent and continue as an outpatient", "rationale": "Without obstruction a stent provides no relief, and outpatient management is not defensible in this condition." }
+          },
+          "explanation": {
+            "core": "Emphysematous pyelonephritis is a necrotising infection occurring almost exclusively in diabetes, often with additional obstruction. Classification by extent of gas guides treatment: limited forms are managed conservatively with drainage, while extensive forms with parenchymal destruction and septic course may require nephrectomy.",
+            "teaching_point": "Gas in the kidney does not automatically mean nephrectomy. Drainage and metabolism first."
+          },
+          "flag_note": null
+        }
+      }
+    }
+  ]
 }

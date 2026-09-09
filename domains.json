@@ -1,61 +1,223 @@
 {
   "schema_version": "2.0",
   "session_size": 10,
-  "languages": ["de", "en"],
+  "languages": [
+    "de",
+    "en"
+  ],
   "tags": [
-    "notfall", "leitlinie", "bildgebung", "pharmakologie", "labordiagnostik",
-    "dosierung", "nebenwirkungen", "zulassung", "operationstechnik",
-    "komplikationsmanagement", "endourologisch", "pathologie", "nachsorge",
-    "praeoperativ", "pruefungsrelevant-hoch", "geriatrie", "paediatrisch", "schwangerschaft"
+    "notfall",
+    "leitlinie",
+    "bildgebung",
+    "pharmakologie",
+    "labordiagnostik",
+    "dosierung",
+    "nebenwirkungen",
+    "zulassung",
+    "operationstechnik",
+    "komplikationsmanagement",
+    "endourologisch",
+    "pathologie",
+    "nachsorge",
+    "praeoperativ",
+    "pruefungsrelevant-hoch",
+    "geriatrie",
+    "paediatrisch",
+    "schwangerschaft"
   ],
   "groups": [
-    { "slug": "onkologie", "label": { "de": "Uro-Onkologie", "en": "Uro-oncology" } }
+    {
+      "slug": "onkologie",
+      "label": {
+        "de": "Uro-Onkologie",
+        "en": "Uro-oncology"
+      }
+    }
   ],
   "domains": [
-    { "slug": "prostatakarzinom", "group": "onkologie",
-      "label": { "de": "Prostatakarzinom", "en": "Prostate cancer" },
-      "hint": { "de": "Diagnostik bis mCRPC", "en": "Diagnosis through mCRPC" } },
-    { "slug": "nmibc", "group": "onkologie",
-      "label": { "de": "NMIBC", "en": "NMIBC" },
-      "hint": { "de": "Ta, T1, Cis, Instillationstherapie", "en": "Ta, T1, CIS, intravesical therapy" } },
-    { "slug": "mibc", "group": "onkologie",
-      "label": { "de": "MIBC", "en": "MIBC" },
-      "hint": { "de": "Perioperative Systemtherapie, Zystektomie, Trimodalität", "en": "Perioperative systemic therapy, cystectomy, trimodal therapy" } },
-    { "slug": "nierenzellkarzinom", "group": "onkologie",
-      "label": { "de": "Nierenzellkarzinom", "en": "Renal cell carcinoma" },
-      "hint": { "de": "Lokal, lokal fortgeschritten, metastasiert", "en": "Localised, locally advanced, metastatic" } },
-    { "slug": "hodentumor", "group": "onkologie",
-      "label": { "de": "Hodentumor", "en": "Testicular cancer" },
-      "hint": { "de": "Seminom, Nichtseminom, Nachsorge", "en": "Seminoma, non-seminoma, follow-up" } },
-    { "slug": "utuc", "group": "onkologie",
-      "label": { "de": "UTUC", "en": "UTUC" },
-      "hint": { "de": "Urothelkarzinom des oberen Harntrakts", "en": "Upper tract urothelial carcinoma" } },
-    { "slug": "peniskarzinom", "group": "onkologie",
-      "label": { "de": "Peniskarzinom", "en": "Penile cancer" },
-      "hint": { "de": "Primärtumor, inguinales Staging", "en": "Primary tumour, inguinal staging" } },
-    { "slug": "urethrakarzinom", "group": "onkologie",
-      "label": { "de": "Urethrakarzinom", "en": "Urethral cancer" },
-      "hint": { "de": "Selten, geschlechtsspezifisches Vorgehen", "en": "Rare, sex-specific management" } },
-    { "slug": "funktionell",
-      "label": { "de": "Funktionelle Urologie & Neurourologie", "en": "Functional urology & neuro-urology" },
-      "hint": { "de": "LUTS, OAB, Inkontinenz, Urodynamik, Neuromodulation", "en": "LUTS, OAB, incontinence, urodynamics, neuromodulation" } },
-    { "slug": "kinderurologie",
-      "label": { "de": "Kinderurologie", "en": "Paediatric urology" },
-      "hint": { "de": "Fehlbildungen, Reflux, Hodenhochstand", "en": "Malformations, reflux, undescended testis" } },
-    { "slug": "infektiologie",
-      "label": { "de": "Infektiologie", "en": "Infectious disease" },
-      "hint": { "de": "HWI, Prostatitis, sexuell übertragbare Infektionen", "en": "UTI, prostatitis, sexually transmitted infections" } },
-    { "slug": "urolithiasis",
-      "label": { "de": "Urolithiasis", "en": "Urolithiasis" },
-      "hint": { "de": "Diagnostik, Akuttherapie, Metaphylaxe", "en": "Diagnosis, acute management, metaphylaxis" } },
-    { "slug": "andrologie",
-      "label": { "de": "Andrologie & Reproduktion", "en": "Andrology & reproduction" },
-      "hint": { "de": "Hypogonadismus, Fertilität, erektile Dysfunktion", "en": "Hypogonadism, fertility, erectile dysfunction" } },
-    { "slug": "operativ",
-      "label": { "de": "Operative Urologie", "en": "Surgical urology" },
-      "hint": { "de": "Offen, laparoskopisch, robotisch, endourologisch", "en": "Open, laparoscopic, robotic, endourological" } },
-    { "slug": "rekonstruktion",
-      "label": { "de": "Rekonstruktion & Transplantation", "en": "Reconstruction & transplantation" },
-      "hint": { "de": "Harnableitung, Urethra, Nierentransplantation", "en": "Urinary diversion, urethra, kidney transplantation" } }
+    {
+      "slug": "prostatakarzinom",
+      "group": "onkologie",
+      "label": {
+        "de": "Prostatakarzinom",
+        "en": "Prostate cancer"
+      },
+      "hint": {
+        "de": "Diagnostik bis mCRPC",
+        "en": "Diagnosis through mCRPC"
+      }
+    },
+    {
+      "slug": "nmibc",
+      "group": "onkologie",
+      "label": {
+        "de": "NMIBC",
+        "en": "NMIBC"
+      },
+      "hint": {
+        "de": "Ta, T1, Cis, Instillationstherapie",
+        "en": "Ta, T1, CIS, intravesical therapy"
+      }
+    },
+    {
+      "slug": "mibc",
+      "group": "onkologie",
+      "label": {
+        "de": "MIBC",
+        "en": "MIBC"
+      },
+      "hint": {
+        "de": "Perioperative Systemtherapie, Zystektomie, Trimodalität",
+        "en": "Perioperative systemic therapy, cystectomy, trimodal therapy"
+      }
+    },
+    {
+      "slug": "nierenzellkarzinom",
+      "group": "onkologie",
+      "label": {
+        "de": "Nierenzellkarzinom",
+        "en": "Renal cell carcinoma"
+      },
+      "hint": {
+        "de": "Lokal, lokal fortgeschritten, metastasiert",
+        "en": "Localised, locally advanced, metastatic"
+      }
+    },
+    {
+      "slug": "hodentumor",
+      "group": "onkologie",
+      "label": {
+        "de": "Hodentumor",
+        "en": "Testicular cancer"
+      },
+      "hint": {
+        "de": "Seminom, Nichtseminom, Nachsorge",
+        "en": "Seminoma, non-seminoma, follow-up"
+      }
+    },
+    {
+      "slug": "utuc",
+      "group": "onkologie",
+      "label": {
+        "de": "UTUC",
+        "en": "UTUC"
+      },
+      "hint": {
+        "de": "Urothelkarzinom des oberen Harntrakts",
+        "en": "Upper tract urothelial carcinoma"
+      }
+    },
+    {
+      "slug": "peniskarzinom",
+      "group": "onkologie",
+      "label": {
+        "de": "Peniskarzinom",
+        "en": "Penile cancer"
+      },
+      "hint": {
+        "de": "Primärtumor, inguinales Staging",
+        "en": "Primary tumour, inguinal staging"
+      }
+    },
+    {
+      "slug": "urethrakarzinom",
+      "group": "onkologie",
+      "label": {
+        "de": "Urethrakarzinom",
+        "en": "Urethral cancer"
+      },
+      "hint": {
+        "de": "Selten, geschlechtsspezifisches Vorgehen",
+        "en": "Rare, sex-specific management"
+      }
+    },
+    {
+      "slug": "funktionell",
+      "label": {
+        "de": "Funktionelle Urologie & Neurourologie",
+        "en": "Functional urology & neuro-urology"
+      },
+      "hint": {
+        "de": "LUTS, OAB, Inkontinenz, Urodynamik, Neuromodulation",
+        "en": "LUTS, OAB, incontinence, urodynamics, neuromodulation"
+      }
+    },
+    {
+      "slug": "kinderurologie",
+      "label": {
+        "de": "Kinderurologie",
+        "en": "Paediatric urology"
+      },
+      "hint": {
+        "de": "Fehlbildungen, Reflux, Hodenhochstand",
+        "en": "Malformations, reflux, undescended testis"
+      }
+    },
+    {
+      "slug": "infektiologie",
+      "label": {
+        "de": "Infektiologie",
+        "en": "Infectious disease"
+      },
+      "hint": {
+        "de": "HWI, Prostatitis, sexuell übertragbare Infektionen",
+        "en": "UTI, prostatitis, sexually transmitted infections"
+      }
+    },
+    {
+      "slug": "urolithiasis",
+      "label": {
+        "de": "Urolithiasis",
+        "en": "Urolithiasis"
+      },
+      "hint": {
+        "de": "Diagnostik, Akuttherapie, Metaphylaxe",
+        "en": "Diagnosis, acute management, metaphylaxis"
+      }
+    },
+    {
+      "slug": "trauma",
+      "label": {
+        "de": "Urologisches Trauma",
+        "en": "Urological trauma"
+      },
+      "hint": {
+        "de": "Niere, Harnleiter, Blase, Harnröhre, Genitale",
+        "en": "Kidney, ureter, bladder, urethra, genitalia"
+      }
+    },
+    {
+      "slug": "andrologie",
+      "label": {
+        "de": "Andrologie & Reproduktion",
+        "en": "Andrology & reproduction"
+      },
+      "hint": {
+        "de": "Hypogonadismus, Fertilität, erektile Dysfunktion",
+        "en": "Hypogonadism, fertility, erectile dysfunction"
+      }
+    },
+    {
+      "slug": "operativ",
+      "label": {
+        "de": "Operative Urologie",
+        "en": "Surgical urology"
+      },
+      "hint": {
+        "de": "Offen, laparoskopisch, robotisch, endourologisch",
+        "en": "Open, laparoscopic, robotic, endourological"
+      }
+    },
+    {
+      "slug": "rekonstruktion",
+      "label": {
+        "de": "Rekonstruktion & Transplantation",
+        "en": "Reconstruction & transplantation"
+      },
+      "hint": {
+        "de": "Harnableitung, Urethra, Nierentransplantation",
+        "en": "Urinary diversion, urethra, kidney transplantation"
+      }
+    }
   ]
 }
