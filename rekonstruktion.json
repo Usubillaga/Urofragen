@@ -1,0 +1,2174 @@
+{
+  "gebiet": "rekonstruktion",
+  "fragen": [
+    {
+      "id": "uro-rek-00001",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Harnröhrenstriktur",
+        "tags": [
+          "operationstechnik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urethral Strictures",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "38-jähriger Mann mit obstruktiver Miktion. Das Urethrogramm zeigt eine 1,5 cm lange Enge in der Bulbusurethra ohne Hinweis auf Lichen sclerosus. Eine Urethrotomie wurde bereits einmal vor zwei Jahren durchgeführt.",
+          "lead_in": "Welches Verfahren ist zu wählen?",
+          "options": {
+            "A": {
+              "text": "Erneute innere Urethrotomie nach Sachse",
+              "rationale": "Nach einer bereits erfolglosen Urethrotomie liegt die Langzeiterfolgsrate einer Wiederholung nahe null. Jeder weitere Schnitt verlängert die Narbe und erschwert die spätere Rekonstruktion."
+            },
+            "B": {
+              "text": "Exzision der Enge mit End-zu-End-Anastomose",
+              "rationale": "Bei kurzstreckiger bulbärer Striktur ohne Lichen sclerosus ist die Resektion mit spannungsfreier Anastomose das Verfahren mit den besten Langzeitergebnissen, deutlich über 90 Prozent."
+            },
+            "C": {
+              "text": "Dauerhafte Selbstbougierung durch den Patienten",
+              "rationale": "Sie hält den Kanal offen, heilt aber nichts und bedeutet eine lebenslange Belastung mit Infekt- und Blutungsrisiko."
+            },
+            "D": {
+              "text": "Einlage eines permanenten Urethralstents",
+              "rationale": "Stents in der Bulbusurethra führen zu Einwachsen, Verkrustung und Schmerzen; sie sind heute Ausnahmefällen vorbehalten."
+            }
+          },
+          "explanation": {
+            "core": "Die Wahl des Verfahrens richtet sich nach Lokalisation, Länge und Ursache. Kurze bulbäre Strikturen werden reseziert und anastomosiert, längere mit Mundschleimhaut versorgt. Endoskopische Verfahren haben ihren Platz bei der ersten, kurzen, weichen Striktur; danach ist die offene Rekonstruktion überlegen.",
+            "teaching_point": "Nach der ersten erfolglosen Urethrotomie wird rekonstruiert, nicht erneut geschnitten."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "38-year-old man with obstructive voiding. Urethrography shows a 1.5 cm narrowing in the bulbar urethra with no evidence of lichen sclerosus. One internal urethrotomy was performed two years ago.",
+          "lead_in": "Which procedure should be chosen?",
+          "options": {
+            "A": {
+              "text": "Repeat direct vision internal urethrotomy",
+              "rationale": "After one failed urethrotomy the long-term success of a repeat approaches zero. Each further incision lengthens the scar and complicates later reconstruction."
+            },
+            "B": {
+              "text": "Excision of the stricture with end-to-end repair",
+              "rationale": "For a short bulbar stricture without lichen sclerosus, excision with a tension-free anastomosis gives the best long-term results, well above 90 per cent."
+            },
+            "C": {
+              "text": "Lifelong self-dilatation performed by the patient",
+              "rationale": "It keeps the lumen open but cures nothing and means a lifelong burden with risk of infection and bleeding."
+            },
+            "D": {
+              "text": "Placement of a permanent urethral stent",
+              "rationale": "Stents in the bulbar urethra lead to ingrowth, encrustation and pain; they are reserved for exceptional cases today."
+            }
+          },
+          "explanation": {
+            "core": "The choice of procedure follows location, length and cause. Short bulbar strictures are excised and anastomosed, longer ones repaired with buccal mucosa. Endoscopic treatment has a place for a first short soft stricture; beyond that open reconstruction is superior.",
+            "teaching_point": "After the first failed urethrotomy you reconstruct rather than cut again."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-rek-00002",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Harnröhrenstriktur",
+        "tags": [
+          "operationstechnik",
+          "pathologie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urethral Strictures",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "55-jähriger Mann mit 5 cm langer Striktur der Penisurethra. Die Glans zeigt weißliche, derbe Areale, histologisch ist ein Lichen sclerosus gesichert.",
+          "lead_in": "Welches Material und welches Verfahren sind angezeigt?",
+          "options": {
+            "A": {
+              "text": "Resektion der Enge mit spannungsfreier End-zu-End-Naht",
+              "rationale": "In der Penisurethra führt die Resektion zu Verkürzung und Chordee. Anastomosierende Verfahren bleiben der Bulbusurethra vorbehalten."
+            },
+            "B": {
+              "text": "Onlay-Lappen aus genitaler Haut der Penisschaft",
+              "rationale": "Genitale Haut ist beim Lichen sclerosus selbst betroffen oder wird es. Das Rezidiv ist damit vorprogrammiert."
+            },
+            "C": {
+              "text": "Onlay-Plastik mit Mundschleimhaut, gegebenenfalls zweizeitig",
+              "rationale": "Mundschleimhaut stammt aus einem nicht befallenen Gebiet, ist widerstandsfähig und gut vaskularisiert. Bei ausgedehntem Befund wird zweizeitig vorgegangen."
+            },
+            "D": {
+              "text": "Wiederholte Bougierung und topische Steroidbehandlung",
+              "rationale": "Sie können Beschwerden lindern, beseitigen aber weder die Enge noch die Grunderkrankung."
+            }
+          },
+          "explanation": {
+            "core": "Beim Lichen sclerosus gilt eine Regel ohne Ausnahme: keine genitale Haut als Ersatzmaterial. Die Erkrankung befällt das Transplantat und führt zum Rezidiv. Mundschleimhaut ist das Material der Wahl, und bei langstreckigem oder mehrfach voroperiertem Befund wird die Rekonstruktion in zwei Sitzungen geplant.",
+            "teaching_point": "Lichen sclerosus heißt Mundschleimhaut, niemals Genitalhaut."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "55-year-old man with a 5 cm stricture of the penile urethra. The glans shows whitish indurated areas and lichen sclerosus is confirmed histologically.",
+          "lead_in": "Which material and which procedure are indicated?",
+          "options": {
+            "A": {
+              "text": "Excision of the stricture with a tension-free end-to-end repair",
+              "rationale": "In the penile urethra excision causes shortening and chordee. Anastomotic procedures remain confined to the bulbar urethra."
+            },
+            "B": {
+              "text": "Onlay flap using genital skin from the penile shaft",
+              "rationale": "Genital skin is itself affected by lichen sclerosus or will become so. Recurrence is thereby built in."
+            },
+            "C": {
+              "text": "Buccal mucosa onlay, in two stages if necessary",
+              "rationale": "Buccal mucosa comes from an unaffected site, is robust and well vascularised. Extensive disease is managed in two stages."
+            },
+            "D": {
+              "text": "Repeated dilatation with topical steroid treatment applied",
+              "rationale": "These may relieve symptoms but remove neither the stricture nor the underlying disease."
+            }
+          },
+          "explanation": {
+            "core": "In lichen sclerosus one rule holds without exception: never use genital skin as substitute tissue. The disease affects the graft and causes recurrence. Buccal mucosa is the material of choice, and long or previously operated strictures are reconstructed in two stages.",
+            "teaching_point": "Lichen sclerosus means buccal mucosa, never genital skin."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-rek-00003",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Harnröhrenverletzung",
+        "tags": [
+          "notfall",
+          "operationstechnik",
+          "komplikationsmanagement"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "24-jähriger Mann nach Verkehrsunfall mit instabiler Beckenfraktur. Blut am Meatus, tastbar hochstehende Prostata, Harnverhalt. Das retrograde Urethrogramm zeigt eine vollständige Kontinuitätsunterbrechung der posterioren Harnröhre.",
+          "lead_in": "Wie ist primär zu verfahren?",
+          "options": {
+            "A": {
+              "text": "Sofortige offene Anastomosierung der Harnröhrenenden",
+              "rationale": "Die Sofortrekonstruktion im blutigen, geschwollenen Beckensitus erhöht Inkontinenz- und Impotenzraten erheblich und gelingt selten spannungsfrei."
+            },
+            "B": {
+              "text": "Blinde transurethrale Katheterisierung mit Ballonzug",
+              "rationale": "Der blinde Versuch kann eine Teilruptur vervollständigen und Via falsa erzeugen; Ballonzug ist verlassen."
+            },
+            "C": {
+              "text": "Endoskopische Schienung über einen Führungsdraht sofort",
+              "rationale": "Das primäre endoskopische Alignment wird an einzelnen Zentren praktiziert, ist aber nicht Standard und setzt einen stabilen Patienten voraus."
+            },
+            "D": {
+              "text": "Suprapubische Zystostomie und verzögerte Rekonstruktion",
+              "rationale": "Der Harn wird abgeleitet, das Becken heilt aus, und nach etwa drei Monaten erfolgt die perineale Anastomosenurethroplastik mit deutlich besseren funktionellen Ergebnissen."
+            }
+          },
+          "explanation": {
+            "core": "Bei der posterioren Harnröhrenverletzung im Rahmen einer Beckenfraktur trennt man Akutversorgung und Rekonstruktion. Akut wird nur abgeleitet, weil der Situs blutig und ödematös ist und die Kontinenz vom Sphinktermechanismus abhängt. Die verzögerte Anastomosenurethroplastik nach Abschwellen und Konsolidierung ist das etablierte Vorgehen.",
+            "teaching_point": "Beckenfraktur mit Harnröhrenabriss heißt zuerst Zystostomie, nicht Naht."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "24-year-old man after a road traffic accident with an unstable pelvic fracture. Blood at the meatus, a high-riding prostate on examination and urinary retention. Retrograde urethrography shows complete disruption of the posterior urethra.",
+          "lead_in": "What is the primary management?",
+          "options": {
+            "A": {
+              "text": "Immediate open anastomosis of the urethral ends",
+              "rationale": "Immediate reconstruction in a bloody, swollen pelvis markedly increases incontinence and impotence rates and rarely achieves a tension-free repair."
+            },
+            "B": {
+              "text": "Blind transurethral catheterisation with balloon traction",
+              "rationale": "A blind attempt can convert a partial tear into a complete one and create false passages; balloon traction has been abandoned."
+            },
+            "C": {
+              "text": "Immediate endoscopic realignment over a guidewire",
+              "rationale": "Primary endoscopic realignment is practised in some centres but is not standard and requires a stable patient."
+            },
+            "D": {
+              "text": "Suprapubic cystostomy with delayed reconstruction",
+              "rationale": "Urine is diverted, the pelvis heals, and after roughly three months perineal anastomotic urethroplasty follows with markedly better functional results."
+            }
+          },
+          "explanation": {
+            "core": "In posterior urethral injury from pelvic fracture, acute care and reconstruction are separated. Acutely only diversion is performed, because the field is bloody and oedematous and continence depends on the sphincter mechanism. Delayed anastomotic urethroplasty after resolution and consolidation is the established approach.",
+            "teaching_point": "Pelvic fracture with urethral disruption means cystostomy first, not suture."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-rek-00004",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Harnfistel",
+        "tags": [
+          "operationstechnik",
+          "komplikationsmanagement"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "51-jährige Patientin mit ständigem Urinabgang aus der Scheide, drei Wochen nach abdominaler Hysterektomie wegen Myomen. Die Zystoskopie zeigt eine 6 mm große Fistel oberhalb des Trigonums, die Ureteren sind frei, keine Bestrahlung in der Anamnese.",
+          "lead_in": "Wie ist zu verfahren?",
+          "options": {
+            "A": {
+              "text": "Transvaginaler Verschluss mit Gewebeinterposition",
+              "rationale": "Kleine, nicht bestrahlte Fisteln nach Hysterektomie werden bevorzugt transvaginal versorgt. Ein Martius-Lappen oder anderes Gewebe zwischen den Nahtreihen senkt die Rezidivrate."
+            },
+            "B": {
+              "text": "Dauerkatheter für zwölf Monate als alleinige Therapie",
+              "rationale": "Sehr kleine, frische Fisteln können unter Ableitung verkleben, doch bei sechs Millimetern und drei Wochen Bestand ist damit nicht zu rechnen."
+            },
+            "C": {
+              "text": "Sofortige Harnableitung mit Ileum-Conduit anlegen",
+              "rationale": "Eine dauerhafte Ableitung ist bei einer verschließbaren Fistel unverhältnismäßig und bleibt ausgedehnten Strahlenfisteln vorbehalten."
+            },
+            "D": {
+              "text": "Endoskopische Koagulation des Fistelgangs von innen",
+              "rationale": "Die Koagulation kommt allenfalls für Fisteln unter drei Millimetern infrage und hat eine niedrige Erfolgsrate."
+            }
+          },
+          "explanation": {
+            "core": "Beim Fistelverschluss entscheiden vier Punkte: Größe und Lage, Bestrahlung in der Vorgeschichte, Zustand des umgebenden Gewebes und die Wahl des Zugangs. Grundregel ist die spannungsfreie, mehrschichtige Naht mit gut durchblutetem Gewebe zwischen Blase und Scheide, damit nicht zwei Nahtreihen aufeinanderliegen. Bestrahlte Fisteln brauchen fast immer ein Interponat und werden nicht früh operiert.",
+            "teaching_point": "Zwischen Blase und Scheide gehört Gewebe, sonst entsteht die Fistel neu."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "51-year-old woman with continuous urine leakage per vaginam three weeks after abdominal hysterectomy for fibroids. Cystoscopy shows a 6 mm fistula above the trigone, the ureters are unaffected and there is no history of radiotherapy.",
+          "lead_in": "How should this be managed?",
+          "options": {
+            "A": {
+              "text": "Transvaginal closure with tissue interposition",
+              "rationale": "Small, non-irradiated fistulas after hysterectomy are preferably repaired transvaginally. A Martius flap or other tissue between the suture lines lowers the recurrence rate."
+            },
+            "B": {
+              "text": "Indwelling catheter for twelve months as sole treatment",
+              "rationale": "Very small fresh fistulas may close on drainage, but at six millimetres and three weeks' duration this cannot be expected."
+            },
+            "C": {
+              "text": "Immediate urinary diversion with an ileal conduit",
+              "rationale": "Permanent diversion is disproportionate for a closable fistula and is reserved for extensive radiation fistulas."
+            },
+            "D": {
+              "text": "Endoscopic coagulation of the tract from inside",
+              "rationale": "Coagulation applies at most to fistulas under three millimetres and has a low success rate."
+            }
+          },
+          "explanation": {
+            "core": "Fistula repair turns on four points: size and site, previous radiotherapy, the state of surrounding tissue, and choice of approach. The basic rule is a tension-free multilayer closure with well-vascularised tissue between bladder and vagina, so that two suture lines do not lie on each other. Irradiated fistulas almost always need an interposition flap and are not repaired early.",
+            "teaching_point": "Tissue belongs between bladder and vagina, otherwise the fistula recurs."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-rek-00005",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Harnableitung",
+        "tags": [
+          "praeoperativ",
+          "operationstechnik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "68-jähriger Patient vor radikaler Zystektomie wünscht eine orthotope Neoblase. Die Biopsie der prostatischen Harnröhre zeigt ein Carcinoma in situ, die GFR beträgt 62 ml/min, er lebt selbständig und wäre zum Selbstkatheterismus bereit.",
+          "lead_in": "Welche Ableitung ist zu wählen?",
+          "options": {
+            "A": {
+              "text": "Orthotope Neoblase wie vom Patienten gewünscht",
+              "rationale": "Der Befall der Harnröhre ist eine onkologische Gegenanzeige, weil die Anastomose auf tumortragendem Gewebe läge und das Rezidivrisiko in der belassenen Urethra hoch ist."
+            },
+            "B": {
+              "text": "Orthotope Neoblase nach Schnellschnitt der Urethra",
+              "rationale": "Der Schnellschnitt sichert den Absetzungsrand, ändert aber nichts am bereits nachgewiesenen Carcinoma in situ der prostatischen Harnröhre."
+            },
+            "C": {
+              "text": "Ileum-Conduit mit gleichzeitiger Urethrektomie",
+              "rationale": "Bei nachgewiesenem Befall der Harnröhre wird sie mitentfernt und inkontinent abgeleitet. Der Conduit ist zudem technisch einfacher und komplikationsärmer."
+            },
+            "D": {
+              "text": "Harnleiterhautfistel als einfachste Lösung wählen",
+              "rationale": "Sie ist palliativen Situationen, Kurzdarmsyndrom oder extremer Gebrechlichkeit vorbehalten und geht mit hoher Stenoserate einher."
+            }
+          },
+          "explanation": {
+            "core": "Die Wahl der Ableitung folgt zuerst der Onkologie und danach der Funktion. Absolute Gegenanzeigen der Neoblase sind Tumorbefall von Harnröhre oder Blasenhals, eine GFR unter etwa 50 ml/min, schwere Leberfunktionsstörung, fehlende Fähigkeit zum Selbstkatheterismus, chronisch entzündliche Darmerkrankungen und eine Hochdosisbestrahlung des Beckens. Der Patientenwunsch steuert die Wahl innerhalb dieser Grenzen, nicht darüber hinaus.",
+            "teaching_point": "Der Wunsch nach einer Neoblase ersetzt keine Indikation. Zuerst wird die Urethra beurteilt."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "68-year-old man before radical cystectomy wishes to have an orthotopic neobladder. Biopsy of the prostatic urethra shows carcinoma in situ, GFR is 62 ml/min, he lives independently and would accept self-catheterisation.",
+          "lead_in": "Which diversion should be chosen?",
+          "options": {
+            "A": {
+              "text": "Orthotopic neobladder as the patient requests",
+              "rationale": "Urethral involvement is an oncological contraindication, because the anastomosis would sit on tumour-bearing tissue and the recurrence risk in the retained urethra is high."
+            },
+            "B": {
+              "text": "Orthotopic neobladder after urethral frozen section",
+              "rationale": "Frozen section secures the margin but does not alter the already documented carcinoma in situ of the prostatic urethra."
+            },
+            "C": {
+              "text": "Ileal conduit with simultaneous urethrectomy",
+              "rationale": "With proven urethral involvement the urethra is removed and an incontinent diversion created. The conduit is also technically simpler with fewer complications."
+            },
+            "D": {
+              "text": "Ureterocutaneostomy as the simplest available option",
+              "rationale": "It is reserved for palliative situations, short bowel syndrome or extreme frailty and carries a high rate of stomal stenosis."
+            }
+          },
+          "explanation": {
+            "core": "The choice of diversion follows oncology first and function second. Absolute contraindications to a neobladder are tumour involvement of urethra or bladder neck, a GFR below roughly 50 ml/min, severe hepatic dysfunction, inability to self-catheterise, inflammatory bowel disease and high-dose pelvic radiotherapy. Patient preference guides the choice within these limits, not beyond them.",
+            "teaching_point": "Wanting a neobladder is not an indication. Assess the urethra first."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-rek-00006",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Neoblase",
+        "tags": [
+          "nachsorge",
+          "labordiagnostik",
+          "komplikationsmanagement"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "Vier Jahre nach Ileum-Neoblase klagt ein 63-jähriger Patient über Müdigkeit und Kribbeln in den Füßen. Das Blutbild zeigt eine makrozytäre Anämie, das Bikarbonat liegt bei 19 mmol/l. Er entleert die Neoblase durch Bauchpresse mit einem Restharn von 150 ml.",
+          "lead_in": "Welche Untersuchungen und Maßnahmen sind angezeigt?",
+          "options": {
+            "A": {
+              "text": "Nur eine Eisensubstitution und Kontrolle in einem Jahr",
+              "rationale": "Die makrozytäre Anämie spricht gegen einen Eisenmangel, der typischerweise mikrozytär verläuft. Die neurologischen Zeichen bleiben damit unbehandelt."
+            },
+            "B": {
+              "text": "Vitamin B12 bestimmen und die Azidose ausgleichen",
+              "rationale": "Das ausgeschaltete terminale Ileum resorbiert kein Vitamin B12 mehr; der Speicher reicht Jahre, dann folgen Anämie und Neuropathie. Die metabolische Azidose wird mit Bikarbonat behandelt, und der hohe Restharn erfordert den intermittierenden Selbstkatheterismus."
+            },
+            "C": {
+              "text": "Die Neoblase operativ zu einem Conduit umwandeln",
+              "rationale": "Ein derart eingreifender Schritt ist bei behandelbaren Stoffwechselfolgen und Restharn nicht gerechtfertigt."
+            },
+            "D": {
+              "text": "Erythropoetin geben, da die Niere überlastet ist",
+              "rationale": "Die renale Anämie ist normozytär und passt nicht zum Befund; ohne relevante Niereninsuffizienz besteht keine Indikation."
+            }
+          },
+          "explanation": {
+            "core": "Die Neoblase erzeugt drei vorhersehbare Langzeitprobleme, die zur Nachsorge gehören. Erstens die hyperchlorämische metabolische Azidose durch Rückresorption über die Darmschleimhaut. Zweitens der Vitamin-B12-Mangel nach Jahren, wenn terminales Ileum entnommen wurde. Drittens der Restharn, der zu Infekten, Steinen und Überlaufinkontinenz führt und den Selbstkatheterismus nötig macht.",
+            "teaching_point": "Nach Neoblase gehören Bikarbonat und Vitamin B12 jährlich ins Labor."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Four years after an ileal neobladder a 63-year-old man reports fatigue and tingling in his feet. Blood count shows macrocytic anaemia and bicarbonate is 19 mmol/l. He empties the neobladder by abdominal straining with a residual of 150 ml.",
+          "lead_in": "Which investigations and measures are indicated?",
+          "options": {
+            "A": {
+              "text": "Iron replacement only, with review in one year",
+              "rationale": "Macrocytic anaemia argues against iron deficiency, which is typically microcytic. The neurological signs would remain untreated."
+            },
+            "B": {
+              "text": "Measure vitamin B12 and correct the acidosis",
+              "rationale": "The excluded terminal ileum no longer absorbs vitamin B12; stores last years, after which anaemia and neuropathy follow. The metabolic acidosis is treated with bicarbonate, and the high residual requires intermittent self-catheterisation."
+            },
+            "C": {
+              "text": "Convert the neobladder surgically to a conduit",
+              "rationale": "Such a major step is unjustified for treatable metabolic sequelae and residual urine."
+            },
+            "D": {
+              "text": "Give erythropoietin, since the kidney is overloaded",
+              "rationale": "Renal anaemia is normocytic and does not fit the picture; without relevant renal failure there is no indication."
+            }
+          },
+          "explanation": {
+            "core": "A neobladder creates three predictable long-term problems that belong in follow-up. First, hyperchloraemic metabolic acidosis from reabsorption across bowel mucosa. Second, vitamin B12 deficiency after years when terminal ileum has been used. Third, residual urine, which causes infection, stones and overflow incontinence and requires self-catheterisation.",
+            "teaching_point": "After a neobladder, bicarbonate and vitamin B12 belong in the annual bloods."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-rek-00007",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Ureterersatz",
+        "tags": [
+          "operationstechnik",
+          "bildgebung"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "47-jährige Patientin mit einer 12 cm langen Striktur des linken Ureters nach mehrfachen ureterorenoskopischen Eingriffen. Die Niere ist funktionell erhaltenswert, die Nierenfunktion insgesamt normal, kein Anhalt für ein Malignom.",
+          "lead_in": "Welches Rekonstruktionsverfahren ist geeignet?",
+          "options": {
+            "A": {
+              "text": "Ureterozystoneostomie mit spatulierter Anastomose",
+              "rationale": "Sie überbrückt nur wenige Zentimeter am distalen Ureter und reicht bei dieser Defektlänge bei weitem nicht aus."
+            },
+            "B": {
+              "text": "Psoas Hitch zur Verlängerung der mobilisierten Blase",
+              "rationale": "Er gewinnt einige zusätzliche Zentimeter und wird mit der Reimplantation kombiniert, deckt aber keine zwölf Zentimeter."
+            },
+            "C": {
+              "text": "Boari-Lappen aus der ventralen Blasenwand bilden",
+              "rationale": "Er überbrückt mittlere Defekte im distalen bis mittleren Drittel, stößt bei zwölf Zentimetern aber an seine Grenze und setzt eine ausreichend große Blase voraus."
+            },
+            "D": {
+              "text": "Ileuminterponat oder alternativ die Autotransplantation",
+              "rationale": "Für lange Defekte ist der Dünndarmersatz das etablierte Verfahren; Voraussetzung sind normale Nieren- und Leberfunktion. Die Autotransplantation in die Fossa iliaca ist die Alternative bei ungeeignetem Darm."
+            }
+          },
+          "explanation": {
+            "core": "Der Ureterersatz folgt einer Leiter, die sich nach der Defektlänge richtet. Kurze distale Defekte werden reimplantiert, mittlere mit Psoas Hitch oder Boari-Lappen überbrückt, lange mit einem Ileuminterponat ersetzt. Bei jedem Darmersatz sind die metabolischen Folgen zu bedenken, weshalb eine eingeschränkte Nierenfunktion gegen das Verfahren spricht.",
+            "teaching_point": "Die Defektlänge bestimmt die Stufe der Leiter, nicht die Gewohnheit des Operateurs."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "47-year-old woman with a 12 cm stricture of the left ureter after repeated ureteroscopic procedures. The kidney is worth preserving functionally, overall renal function is normal and there is no suspicion of malignancy.",
+          "lead_in": "Which reconstructive procedure is appropriate?",
+          "options": {
+            "A": {
+              "text": "Ureteroneocystostomy with a spatulated anastomosis",
+              "rationale": "It bridges only a few centimetres of distal ureter and falls far short at this defect length."
+            },
+            "B": {
+              "text": "Psoas hitch to extend the mobilised bladder upwards",
+              "rationale": "It gains a few additional centimetres and is combined with reimplantation but does not cover twelve centimetres."
+            },
+            "C": {
+              "text": "Boari flap fashioned from the anterior bladder wall",
+              "rationale": "It bridges intermediate defects in the distal to middle third but reaches its limit at twelve centimetres and requires an adequately sized bladder."
+            },
+            "D": {
+              "text": "Ileal interposition or alternatively autotransplantation",
+              "rationale": "For long defects ileal substitution is the established procedure, requiring normal renal and hepatic function. Autotransplantation into the iliac fossa is the alternative when bowel is unsuitable."
+            }
+          },
+          "explanation": {
+            "core": "Ureteric substitution follows a ladder determined by defect length. Short distal defects are reimplanted, intermediate ones bridged with a psoas hitch or Boari flap, long ones replaced with an ileal segment. Any bowel substitution brings metabolic consequences, which is why impaired renal function argues against it.",
+            "teaching_point": "Defect length sets the rung of the ladder, not the surgeon's habit."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-rek-00008",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "retroperitoneale Fibrose",
+        "tags": [
+          "bildgebung",
+          "pathologie",
+          "pharmakologie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Infections and Obstruction",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "59-jähriger Mann mit dumpfen Rückenschmerzen, erhöhter Blutsenkung und beidseitiger Harnstauung. Im CT zeigt sich eine periaortale Weichteilmanschette, die beide Ureteren nach medial verlagert und einengt.",
+          "lead_in": "Wie ist vorzugehen?",
+          "options": {
+            "A": {
+              "text": "Harn ableiten, biopsieren und Steroide beginnen",
+              "rationale": "Zuerst wird die Stauung entlastet. Die Biopsie schließt ein malignes Geschehen aus, das sich identisch darstellen kann, und erst danach beginnt die immunsuppressive Behandlung."
+            },
+            "B": {
+              "text": "Sofortige Ureterolyse ohne vorherige Gewebeprobe",
+              "rationale": "Ohne Histologie bliebe ein Lymphom oder eine Metastasierung unerkannt, und die Operation vor der medikamentösen Behandlung ist meist vermeidbar."
+            },
+            "C": {
+              "text": "Beobachtung mit Kontrolle des Kreatinins in drei Monaten",
+              "rationale": "Bei beidseitiger Stauung droht der stille Funktionsverlust; Zuwarten ohne Entlastung ist nicht vertretbar."
+            },
+            "D": {
+              "text": "Antibiotische Therapie unter Verdacht auf eine Abszedierung",
+              "rationale": "Der Befund ist ein fibrosierender Prozess ohne Einschmelzung; die Blutsenkung ist unspezifisch erhöht."
+            }
+          },
+          "explanation": {
+            "core": "Die retroperitoneale Fibrose engt die Ureteren ein und verlagert sie typischerweise nach medial, was sie von malignen Prozessen unterscheidet, die eher lateral verdrängen. Die Reihenfolge lautet entlasten, sichern, behandeln. Bleibt die Obstruktion trotz Steroiden bestehen, folgt die Ureterolyse mit intraperitonealer Verlagerung oder Ummantelung mit Omentum, damit der Ureter nicht erneut eingemauert wird.",
+            "teaching_point": "Mediale Verlagerung der Ureteren spricht für Fibrose, laterale eher für Tumor."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "59-year-old man with dull back pain, raised inflammatory markers and bilateral hydronephrosis. CT shows a periaortic soft tissue cuff that displaces both ureters medially and narrows them.",
+          "lead_in": "How should this be managed?",
+          "options": {
+            "A": {
+              "text": "Drain the tract, take a biopsy and start steroids",
+              "rationale": "Obstruction is relieved first. Biopsy excludes malignancy, which can look identical, and only then does immunosuppressive treatment begin."
+            },
+            "B": {
+              "text": "Immediate ureterolysis without prior tissue sampling",
+              "rationale": "Without histology a lymphoma or metastatic process would be missed, and surgery before medical treatment is usually avoidable."
+            },
+            "C": {
+              "text": "Observation with a creatinine check in three months",
+              "rationale": "With bilateral obstruction silent loss of function is likely; waiting without drainage is not defensible."
+            },
+            "D": {
+              "text": "Antibiotic therapy for suspected retroperitoneal abscess",
+              "rationale": "The finding is a fibrosing process without collection; the raised sedimentation rate is non-specific."
+            }
+          },
+          "explanation": {
+            "core": "Retroperitoneal fibrosis narrows the ureters and typically displaces them medially, which distinguishes it from malignant processes that tend to displace laterally. The sequence is drain, confirm, treat. If obstruction persists despite steroids, ureterolysis with intraperitonealisation or omental wrapping follows, so that the ureter is not encased again.",
+            "teaching_point": "Medial displacement of the ureters suggests fibrosis, lateral suggests tumour."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-rek-00009",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Blasenaugmentation",
+        "tags": [
+          "operationstechnik",
+          "praeoperativ",
+          "nachsorge"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Neuro-Urology",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "31-jährige Patientin mit neurogener Blase bei Spina bifida. Trotz Botulinumtoxin und Antimuskarinika liegt der Speicherdruck bei 55 cm Wassersäule, die Compliance ist niedrig und es besteht ein neu aufgetretener Reflux. Sie führt den Selbstkatheterismus zuverlässig durch.",
+          "lead_in": "Welche Aussage zur Blasenaugmentation trifft zu?",
+          "options": {
+            "A": {
+              "text": "Sie ist hier nicht indiziert, da der Reflux neu ist",
+              "rationale": "Gerade der neue Reflux zeigt, dass der hohe Speicherdruck den oberen Harntrakt bereits gefährdet, und begründet die Indikation zusätzlich."
+            },
+            "B": {
+              "text": "Indiziert, aber nur bei gesicherter Selbstkatheterisierung",
+              "rationale": "Die augmentierte Blase entleert sich nicht spontan, sodass der Selbstkatheterismus lebenslang nötig ist. Zu den Folgen gehören Schleimbildung, Steine, Infekte und das Risiko einer Spontanperforation."
+            },
+            "C": {
+              "text": "Sie ersetzt die dauerhafte urologische Nachsorge",
+              "rationale": "Das Gegenteil trifft zu: Steine, Stoffwechselfolgen und die Frage einer späteren Tumorentwicklung im Darmsegment erfordern eine langfristige Kontrolle."
+            },
+            "D": {
+              "text": "Ein Kolonsegment ist dem Ileum grundsätzlich überlegen",
+              "rationale": "Die Segmentwahl richtet sich nach Voroperationen, Bestrahlung und Anatomie; eine generelle Überlegenheit besteht nicht."
+            }
+          },
+          "explanation": {
+            "core": "Die Augmentation senkt den Speicherdruck und schützt damit die Nieren, verändert aber die Blase grundlegend: Sie wird zu einem Reservoir ohne eigene Entleerungsfunktion. Voraussetzung sind deshalb die Fähigkeit und die Bereitschaft zum Selbstkatheterismus über Jahrzehnte. Bei plötzlichen Bauchschmerzen mit Peritonismus ist an die Spontanperforation zu denken, die lebensbedrohlich verlaufen kann.",
+            "teaching_point": "Augmentieren heißt katheterisieren. Wer das nicht kann, wird nicht augmentiert."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "31-year-old woman with neurogenic bladder from spina bifida. Despite botulinum toxin and antimuscarinics, storage pressure is 55 cm H2O, compliance is low and new reflux has appeared. She performs self-catheterisation reliably.",
+          "lead_in": "Which statement about augmentation cystoplasty is correct?",
+          "options": {
+            "A": {
+              "text": "It is not indicated here, since the reflux is new",
+              "rationale": "The new reflux shows that high storage pressure already endangers the upper tract and adds to the indication."
+            },
+            "B": {
+              "text": "Indicated, but only with assured self-catheterisation",
+              "rationale": "An augmented bladder does not empty spontaneously, so self-catheterisation is needed lifelong. Consequences include mucus, stones, infection and the risk of spontaneous perforation."
+            },
+            "C": {
+              "text": "It removes the need for long-term urological follow-up",
+              "rationale": "The opposite is true: stones, metabolic consequences and the question of later tumour development in the bowel segment require long-term surveillance."
+            },
+            "D": {
+              "text": "A colonic segment is generally superior to ileum here",
+              "rationale": "Segment choice follows previous surgery, radiotherapy and anatomy; no general superiority exists."
+            }
+          },
+          "explanation": {
+            "core": "Augmentation lowers storage pressure and thereby protects the kidneys, but it fundamentally changes the bladder into a reservoir without its own emptying function. Ability and willingness to self-catheterise for decades are therefore prerequisites. Sudden abdominal pain with peritonism should raise the possibility of spontaneous perforation, which can be life-threatening.",
+            "teaching_point": "Augmenting means catheterising. Those who cannot are not augmented."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-rek-00010",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "kontinente Ableitung",
+        "tags": [
+          "operationstechnik",
+          "komplikationsmanagement"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Neuro-Urology",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "26-jähriger Rollstuhlfahrer mit hoher Querschnittlähmung. Der transurethrale Selbstkatheterismus gelingt wegen eingeschränkter Handfunktion und Transferproblemen nicht zuverlässig. Eine kontinente kutane Ableitung wird erwogen.",
+          "lead_in": "Was ist über dieses Verfahren zu wissen?",
+          "options": {
+            "A": {
+              "text": "Es macht die Blasenaugmentation grundsätzlich entbehrlich",
+              "rationale": "Der Kanal schafft nur einen Zugang; ein niedriger Speicherdruck muss weiterhin durch Medikamente, Botulinumtoxin oder Augmentation gesichert werden."
+            },
+            "B": {
+              "text": "Es führt in der Regel zur spontanen Entleerung über den Kanal",
+              "rationale": "Der Kanal ist bewusst kontinent angelegt und wird ausschließlich zur Katheterisierung genutzt, nicht zur spontanen Miktion."
+            },
+            "C": {
+              "text": "Die häufigste Spätkomplikation ist der Kanalprolaps",
+              "rationale": "Der Prolaps kommt vor, die weitaus häufigere Spätkomplikation ist jedoch die Stenose des Hautstomas."
+            },
+            "D": {
+              "text": "Ein Nabelstoma erleichtert das Katheterisieren im Sitzen",
+              "rationale": "Der aus Appendix oder Ileum gebildete Kanal wird bevorzugt am Nabel ausgeleitet, damit er im Rollstuhl erreichbar ist. Häufigste Spätkomplikation ist die Stomastenose, die endoskopisch oder operativ korrigiert wird."
+            }
+          },
+          "explanation": {
+            "core": "Die kontinente kutane Ableitung nach dem Mitrofanoff-Prinzip löst ein Zugangsproblem und kein Druckproblem. Sie ist indiziert, wenn die Blase erhalten bleiben soll, der transurethrale Weg aber nicht praktikabel ist. Über Jahre entscheidet weniger die Operation als die Verlässlichkeit des Katheterismus und die Betreuung der Stomakomplikationen.",
+            "teaching_point": "Der Kanal ersetzt den Weg zur Blase, nicht die Drucksenkung in ihr."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "26-year-old wheelchair user with high spinal cord injury. Transurethral self-catheterisation is unreliable because of limited hand function and transfer difficulties. A continent cutaneous diversion is being considered.",
+          "lead_in": "What must be known about this procedure?",
+          "options": {
+            "A": {
+              "text": "It generally makes bladder augmentation unnecessary",
+              "rationale": "The channel creates access only; low storage pressure must still be secured by drugs, botulinum toxin or augmentation."
+            },
+            "B": {
+              "text": "It usually results in spontaneous emptying via the channel",
+              "rationale": "The channel is deliberately continent and used solely for catheterisation, not for spontaneous voiding."
+            },
+            "C": {
+              "text": "The commonest late complication is prolapse of the channel",
+              "rationale": "Prolapse occurs, but the far commoner late complication is stenosis of the cutaneous stoma."
+            },
+            "D": {
+              "text": "An umbilical stoma eases catheterisation while seated",
+              "rationale": "The channel fashioned from appendix or ileum is preferably brought out at the umbilicus so that it is reachable in a wheelchair. The commonest late complication is stomal stenosis, corrected endoscopically or surgically."
+            }
+          },
+          "explanation": {
+            "core": "A continent cutaneous diversion on the Mitrofanoff principle solves an access problem, not a pressure problem. It is indicated when the bladder is to be preserved but the transurethral route is impractical. Over years, outcome depends less on the operation than on reliable catheterisation and management of stomal complications.",
+            "teaching_point": "The channel replaces the route to the bladder, not the pressure inside it."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-rek-00011",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Harnableitung",
+        "tags": [
+          "labordiagnostik",
+          "komplikationsmanagement"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "Bei drei Patienten mit Darmsegment im Harntrakt fallen unterschiedliche Elektrolytmuster auf. Zwei haben ein Ileum- beziehungsweise Kolonsegment, einer ein Jejunumsegment.",
+          "lead_in": "Welche Zuordnung der Stoffwechselstörung trifft zu?",
+          "options": {
+            "A": {
+              "text": "Ileum und Kolon führen zur hypochlorämischen Alkalose",
+              "rationale": "Das beschreibt keine der beiden Konstellationen; die Alkalose entsteht nicht durch Rückresorption von Ammonium und Chlorid."
+            },
+            "B": {
+              "text": "Alle drei Segmente führen zum gleichen Elektrolytmuster",
+              "rationale": "Gerade die Unterscheidung ist prüfungsrelevant, weil sie sich aus der Resorptionsleistung des jeweiligen Darmabschnitts ergibt."
+            },
+            "C": {
+              "text": "Ileum und Kolon sauer, Jejunum mit Hyperkaliämie",
+              "rationale": "Ileum und Kolon resorbieren Ammonium und Chlorid und erzeugen die hyperchlorämische metabolische Azidose. Das Jejunum verliert Natrium und Chlorid und führt zur hyponatriämischen, hypochlorämischen Azidose mit Hyperkaliämie."
+            },
+            "D": {
+              "text": "Nur das Jejunum verursacht überhaupt eine Störung",
+              "rationale": "Auch Ileum und Kolon verursachen regelhaft eine Azidose, die substituiert werden muss."
+            }
+          },
+          "explanation": {
+            "core": "Jedes Darmsegment im Harntrakt bringt das Elektrolytmuster mit, das seiner normalen Funktion entspricht. Ileum und Kolon resorbieren, das Jejunum sezerniert. Deshalb wird das Jejunum gemieden, wo es geht. Bei allen Formen gehören Blutgasanalyse und Elektrolyte in die Nachsorge, und eine eingeschränkte Nierenfunktion verstärkt die Folgen erheblich.",
+            "teaching_point": "Das Jejunum verhält sich umgekehrt zu Ileum und Kolon. Deshalb wird es gemieden."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Three patients with bowel segments in the urinary tract show different electrolyte patterns. Two have an ileal or colonic segment, one a jejunal segment.",
+          "lead_in": "Which assignment of the metabolic disturbance is correct?",
+          "options": {
+            "A": {
+              "text": "Ileum and colon cause a hypochloraemic alkalosis",
+              "rationale": "This describes neither constellation; alkalosis does not arise from reabsorption of ammonium and chloride."
+            },
+            "B": {
+              "text": "All three segments produce the same electrolyte pattern",
+              "rationale": "The distinction is precisely what matters, because it follows from the absorptive function of each bowel segment."
+            },
+            "C": {
+              "text": "Ileum and colon acidotic, jejunum with hyperkalaemia",
+              "rationale": "Ileum and colon absorb ammonium and chloride and produce hyperchloraemic metabolic acidosis. The jejunum loses sodium and chloride and causes a hyponatraemic, hypochloraemic acidosis with hyperkalaemia."
+            },
+            "D": {
+              "text": "Only the jejunum causes any disturbance at all",
+              "rationale": "Ileum and colon also regularly cause an acidosis that requires supplementation."
+            }
+          },
+          "explanation": {
+            "core": "Every bowel segment in the urinary tract brings the electrolyte pattern of its normal function. Ileum and colon absorb, jejunum secretes. This is why jejunum is avoided wherever possible. In all forms blood gases and electrolytes belong in follow-up, and impaired renal function markedly amplifies the consequences.",
+            "teaching_point": "The jejunum behaves opposite to ileum and colon. That is why it is avoided."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-rek-00012",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Harnableitung",
+        "tags": [
+          "nachsorge",
+          "bildgebung",
+          "komplikationsmanagement"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "Zwei Jahre nach Ileum-Conduit zeigt sich sonographisch eine neue rechtsseitige Harnstauung. Der Patient ist beschwerdefrei, das Kreatinin ist leicht gestiegen, die Urinkultur ist positiv für Proteus mirabilis.",
+          "lead_in": "Was ist die wahrscheinlichste Ursache und der nächste Schritt?",
+          "options": {
+            "A": {
+              "text": "Tumorrezidiv; sofort eine systemische Therapie beginnen",
+              "rationale": "Ein Rezidiv ist möglich und muss ausgeschlossen werden, ist aber nicht die häufigste Ursache einer späten einseitigen Stauung nach Conduit."
+            },
+            "B": {
+              "text": "Stenose der uretero-ilealen Anastomose; Bildgebung anschließen",
+              "rationale": "Die Anastomosenstriktur ist die typische Spätkomplikation, rechts häufiger als links. Geklärt wird sie mit Schnittbildgebung und Loopogramm, behandelt endoskopisch oder offen."
+            },
+            "C": {
+              "text": "Aufsteigender Infekt allein; die Antibiose genügt hier",
+              "rationale": "Eine Bakteriurie ist beim Conduit die Regel und erklärt keine neue Stauung; behandelt wird nur bei symptomatischer Infektion."
+            },
+            "D": {
+              "text": "Normalbefund, da eine Stauung nach Conduit dazugehört",
+              "rationale": "Eine neu aufgetretene Stauung mit steigendem Kreatinin ist immer abklärungsbedürftig, auch beim beschwerdefreien Patienten."
+            }
+          },
+          "explanation": {
+            "core": "Nach jeder Harnableitung gehört die Kontrolle des oberen Harntrakts zur Nachsorge, weil sich Stenosen still entwickeln. Die uretero-ileale Anastomose ist die typische Engstelle, und die rechte Seite ist wegen der Kreuzung häufiger betroffen. Steinbildung wird durch die dauerhafte Besiedlung mit harnstoffspaltenden Keimen begünstigt, weshalb Proteus im Urin auch an Struvitsteine denken lässt.",
+            "teaching_point": "Neue Stauung nach Ableitung heißt Anastomosenstenose, bis das Gegenteil bewiesen ist."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Two years after an ileal conduit, ultrasound shows new right-sided hydronephrosis. The patient is asymptomatic, creatinine has risen slightly and urine culture grows Proteus mirabilis.",
+          "lead_in": "What is the most likely cause and the next step?",
+          "options": {
+            "A": {
+              "text": "Tumour recurrence; start systemic therapy immediately",
+              "rationale": "Recurrence is possible and must be excluded, but it is not the commonest cause of late unilateral obstruction after a conduit."
+            },
+            "B": {
+              "text": "Uretero-ileal anastomotic stricture; proceed to imaging",
+              "rationale": "Anastomotic stricture is the typical late complication, more often on the right. It is clarified by cross-sectional imaging and a loopogram and treated endoscopically or openly."
+            },
+            "C": {
+              "text": "Ascending infection alone; antibiotics suffice in this case",
+              "rationale": "Bacteriuria is the rule with a conduit and does not explain new obstruction; treatment is given only for symptomatic infection."
+            },
+            "D": {
+              "text": "A normal finding, since obstruction is expected after conduit",
+              "rationale": "New obstruction with rising creatinine always requires assessment, even in an asymptomatic patient."
+            }
+          },
+          "explanation": {
+            "core": "After any urinary diversion, upper tract surveillance belongs to follow-up, because strictures develop silently. The uretero-ileal anastomosis is the typical narrowing, and the right side is more often affected because of the crossing. Stone formation is promoted by permanent colonisation with urea-splitting organisms, so Proteus in the urine should also raise the possibility of struvite stones.",
+            "teaching_point": "New obstruction after diversion means anastomotic stricture until proven otherwise."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-rek-00013",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Transplantation",
+        "tags": [
+          "praeoperativ",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Renal Transplantation",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 58-jähriger dialysepflichtiger Patient soll für die Transplantationsliste evaluiert werden. Vor acht Monaten wurde ein oberflächliches Blasenkarzinom reseziert, aktuell besteht ein reizloser Dialysekatheter, das Herzkatheterergebnis zeigt eine unbehandelte Zweigefäßerkrankung.",
+          "lead_in": "Welcher Befund verhindert derzeit die Listung?",
+          "options": {
+            "A": {
+              "text": "Das Alter von 58 Jahren bei Dialysepflicht",
+              "rationale": "Ein Alter von 58 Jahren ist kein Ausschlussgrund; entscheidend sind biologisches Alter, Komorbidität und Lebenserwartung."
+            },
+            "B": {
+              "text": "Der reizlose, komplikationslose Dialysekatheter",
+              "rationale": "Ein reizloser Katheter ist kein Hinderungsgrund. Eine aktive, unbehandelte Infektion wäre einer."
+            },
+            "C": {
+              "text": "Die unbehandelte koronare Zweigefäßerkrankung",
+              "rationale": "Die kardiale Situation muss vor der Transplantation saniert sein, weil die Operation und die anschließende Immunsuppression das Risiko deutlich erhöhen. Sie ist eine vorübergehende, behebbare Gegenanzeige."
+            },
+            "D": {
+              "text": "Das oberflächliche Blasenkarzinom vor acht Monaten",
+              "rationale": "Bei nicht muskelinvasiven Tumoren ist eine kurze tumorfreie Zeit üblich; entscheidend sind Stadium, Grad und Rezidivfreiheit, nicht das bloße Vorliegen eines Tumors in der Anamnese."
+            }
+          },
+          "explanation": {
+            "core": "Bei der Evaluation wird zwischen dauerhaften und vorübergehenden Gegenanzeigen unterschieden. Dauerhaft sind eine nicht kurative Tumorerkrankung, eine sehr kurze Lebenserwartung und fehlende Therapietreue. Vorübergehend und behebbar sind aktive Infektionen, unbehandelte kardiale Erkrankungen und ein zu kurzes tumorfreies Intervall. Ziel der Evaluation ist, den Patienten operations- und immunsuppressionsfähig zu machen.",
+            "teaching_point": "Die meisten Gegenanzeigen sind Aufträge, keine Ausschlüsse."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 58-year-old dialysis patient is being evaluated for the transplant list. A superficial bladder cancer was resected eight months ago, his dialysis catheter is uninflamed, and coronary angiography shows untreated two-vessel disease.",
+          "lead_in": "Which finding currently prevents listing?",
+          "options": {
+            "A": {
+              "text": "His age of 58 years while requiring dialysis",
+              "rationale": "Age 58 is not an exclusion; biological age, comorbidity and life expectancy are what matter."
+            },
+            "B": {
+              "text": "The uninflamed, uncomplicated dialysis catheter",
+              "rationale": "An uninflamed catheter is not an obstacle. An active untreated infection would be."
+            },
+            "C": {
+              "text": "The untreated coronary two-vessel disease",
+              "rationale": "The cardiac situation must be addressed before transplantation, because surgery and subsequent immunosuppression substantially raise the risk. It is a temporary, correctable contraindication."
+            },
+            "D": {
+              "text": "The superficial bladder cancer eight months ago",
+              "rationale": "For non-muscle-invasive tumours a short cancer-free interval is customary; stage, grade and freedom from recurrence decide, not the mere history of a tumour."
+            }
+          },
+          "explanation": {
+            "core": "Evaluation distinguishes permanent from temporary contraindications. Permanent are non-curable malignancy, very short life expectancy and lack of adherence. Temporary and correctable are active infection, untreated cardiac disease and too short a cancer-free interval. The aim of evaluation is to make the patient fit for surgery and immunosuppression.",
+            "teaching_point": "Most contraindications are tasks rather than exclusions."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-rek-00014",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Transplantation",
+        "tags": [
+          "operationstechnik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Renal Transplantation",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "Bei einer Nierentransplantation wird das Organ in die rechte Fossa iliaca eingebracht.",
+          "lead_in": "Welche Beschreibung entspricht dem Standardvorgehen?",
+          "options": {
+            "A": {
+              "text": "Intraperitoneale Lage mit Gefäßanschluss an die Aorta",
+              "rationale": "Das Transplantat wird extraperitoneal gelagert, damit Komplikationen ohne Eröffnung der Bauchhöhle behandelt werden können; der Aortenanschluss ist Kindern mit kleinen Gefäßen vorbehalten."
+            },
+            "B": {
+              "text": "Extraperitoneal, Gefäße an die Iliaca externa, Ureter neu implantiert",
+              "rationale": "Arterie und Vene werden End-zu-Seit an die Vasa iliaca externa angeschlossen. Der Ureter wird extravesikal nach Lich-Gregoir mit Antirefluxtunnel und innerer Schienung in die Blase implantiert."
+            },
+            "C": {
+              "text": "Der Transplantatureter wird an den Eigenureter anastomosiert",
+              "rationale": "Die Ureteroureterostomie ist eine Rückfalllösung bei kurzem oder schlecht durchblutetem Transplantatureter, nicht das Standardverfahren."
+            },
+            "D": {
+              "text": "Die Eigennieren werden bei der Operation regelhaft entfernt",
+              "rationale": "Sie bleiben in der Regel liegen; entfernt wird nur bei bestimmten Indikationen wie therapierefraktärer Hypertonie, Infektsteinen oder großen Zystennieren mit Platzmangel."
+            }
+          },
+          "explanation": {
+            "core": "Die Standardtechnik ist seit Jahrzehnten stabil: heterotope, extraperitoneale Lage in der Fossa iliaca, Gefäßanschluss an die Iliaca externa und eine extravesikale Ureterneuimplantation mit Antirefluxmechanismus. Die extraperitoneale Lage erlaubt spätere Biopsien und Interventionen unter Ultraschallkontrolle, ohne die Bauchhöhle zu eröffnen.",
+            "teaching_point": "Extraperitoneal, Iliaca externa, Lich-Gregoir. Die Eigennieren bleiben."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "During kidney transplantation the graft is placed in the right iliac fossa.",
+          "lead_in": "Which description matches standard practice?",
+          "options": {
+            "A": {
+              "text": "Intraperitoneal placement with the vessels joined to the aorta",
+              "rationale": "The graft is placed extraperitoneally so that complications can be managed without opening the abdomen; aortic anastomosis is reserved for children with small vessels."
+            },
+            "B": {
+              "text": "Extraperitoneal, vessels to the external iliacs, ureter reimplanted",
+              "rationale": "Artery and vein are anastomosed end-to-side to the external iliac vessels. The ureter is implanted extravesically by the Lich-Gregoir technique with an antireflux tunnel and internal stent."
+            },
+            "C": {
+              "text": "The graft ureter is anastomosed to the native ureter instead",
+              "rationale": "Ureteroureterostomy is a fallback for a short or poorly perfused graft ureter, not the standard technique."
+            },
+            "D": {
+              "text": "The native kidneys are routinely removed during the operation",
+              "rationale": "They are usually left in place; removal follows specific indications such as refractory hypertension, infected stones or large polycystic kidneys occupying space."
+            }
+          },
+          "explanation": {
+            "core": "The standard technique has been stable for decades: heterotopic extraperitoneal placement in the iliac fossa, vascular anastomosis to the external iliac vessels and extravesical ureteric reimplantation with an antireflux mechanism. The extraperitoneal position allows later biopsy and intervention under ultrasound guidance without entering the abdomen.",
+            "teaching_point": "Extraperitoneal, external iliac, Lich-Gregoir. The native kidneys stay."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-rek-00015",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Transplantation",
+        "tags": [
+          "bildgebung",
+          "komplikationsmanagement",
+          "notfall"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Renal Transplantation",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "Am zweiten Tag nach Nierentransplantation eines postmortalen Organs bleibt die Urinausscheidung aus, das Kreatinin fällt nicht, eine Dialyse ist erforderlich. Der Patient ist kreislaufstabil und schmerzfrei.",
+          "lead_in": "Wie ist vorzugehen?",
+          "options": {
+            "A": {
+              "text": "Abwarten, da eine Anlaufstörung immer selbstlimitierend ist",
+              "rationale": "Die verzögerte Funktionsaufnahme ist häufig, aber die behandelbaren Ursachen müssen zuerst ausgeschlossen werden, weil eine Thrombose das Organ innerhalb von Stunden kostet."
+            },
+            "B": {
+              "text": "Sofort die Immunsuppression deutlich intensivieren",
+              "rationale": "Ohne gesicherte Rejektion ist die Intensivierung riskant und behandelt möglicherweise das falsche Problem."
+            },
+            "C": {
+              "text": "Sofortige operative Revision der Gefäßanastomosen",
+              "rationale": "Die Revision folgt erst auf einen auffälligen Befund; eine Exploration ohne Bildgebung wäre nicht begründet."
+            },
+            "D": {
+              "text": "Duplexsonographie und Ausschluss von Obstruktion und Leck",
+              "rationale": "Der Ultraschall beurteilt Perfusion und Widerstandsindices und erkennt Thrombose, Harnstau und perirenale Flüssigkeit. Bleibt die Funktion aus, folgt die Biopsie zur Klärung einer Abstoßung."
+            }
+          },
+          "explanation": {
+            "core": "Die verzögerte Funktionsaufnahme ist nach postmortaler Spende häufig und meist Folge der ischämischen Tubulusschädigung. Bevor man sie so einordnet, müssen chirurgisch und interventionell behandelbare Ursachen ausgeschlossen werden: arterielle oder venöse Thrombose, Ureterobstruktion, Urinom und Lymphozele. Die Duplexsonographie leistet das am Bett und ohne Kontrastmittel.",
+            "teaching_point": "Erst Perfusion und Abfluss prüfen, dann von einer Anlaufstörung sprechen."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "On the second day after transplantation of a deceased-donor kidney there is no urine output, creatinine does not fall and dialysis is required. The patient is haemodynamically stable and pain-free.",
+          "lead_in": "How should this be managed?",
+          "options": {
+            "A": {
+              "text": "Wait, since delayed function is always self-limiting",
+              "rationale": "Delayed graft function is common, but treatable causes must be excluded first, because thrombosis costs the organ within hours."
+            },
+            "B": {
+              "text": "Intensify immunosuppression markedly straight away",
+              "rationale": "Without proven rejection intensification is risky and may treat the wrong problem."
+            },
+            "C": {
+              "text": "Immediate surgical revision of the vascular anastomoses",
+              "rationale": "Revision follows an abnormal finding; exploration without imaging would be unjustified."
+            },
+            "D": {
+              "text": "Duplex ultrasound and exclusion of obstruction and leak",
+              "rationale": "Ultrasound assesses perfusion and resistive indices and detects thrombosis, obstruction and perirenal fluid. If function does not return, biopsy follows to assess rejection."
+            }
+          },
+          "explanation": {
+            "core": "Delayed graft function is common after deceased donation and usually reflects ischaemic tubular injury. Before accepting that explanation, surgically and interventionally treatable causes must be excluded: arterial or venous thrombosis, ureteric obstruction, urinoma and lymphocele. Duplex ultrasound achieves this at the bedside without contrast.",
+            "teaching_point": "Check perfusion and drainage before calling it delayed function."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-rek-00016",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Transplantation",
+        "tags": [
+          "bildgebung",
+          "pharmakologie",
+          "komplikationsmanagement"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Renal Transplantation",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "Zehn Monate nach Transplantation entwickelt eine Patientin eine schwer einstellbare Hypertonie. Nach Beginn eines ACE-Hemmers steigt das Kreatinin innerhalb von zwei Wochen deutlich an. Über dem Transplantat ist ein Strömungsgeräusch zu hören.",
+          "lead_in": "Was liegt am wahrscheinlichsten vor?",
+          "options": {
+            "A": {
+              "text": "Transplantatnierenarterienstenose; Duplex und Angioplastie",
+              "rationale": "Der Kreatininanstieg nach Blockade des Renin-Angiotensin-Systems ist typisch, weil der Filtrationsdruck hinter der Enge von der Angiotensin-vermittelten Vasokonstriktion abhängt. Bestätigt wird sonographisch, behandelt meist interventionell."
+            },
+            "B": {
+              "text": "Akute zelluläre Abstoßung; Steroidstoß beginnen",
+              "rationale": "Die Abstoßung erzeugt kein Strömungsgeräusch und zeigt keine derart klare zeitliche Kopplung an den ACE-Hemmer."
+            },
+            "C": {
+              "text": "Calcineurininhibitor-Toxizität; Spiegel senken",
+              "rationale": "Sie ist eine wichtige Differenzialdiagnose des Kreatininanstiegs, erklärt aber weder das Geräusch noch die Reaktion auf den ACE-Hemmer."
+            },
+            "D": {
+              "text": "Rezidiv der Grunderkrankung im Transplantat",
+              "rationale": "Ein Rezidiv verläuft meist schleichend mit Proteinurie und passt nicht zu dieser Konstellation."
+            }
+          },
+          "explanation": {
+            "core": "Die Transplantatnierenarterienstenose tritt typischerweise Monate nach der Operation auf, meist im Bereich der Anastomose. Sie äußert sich mit schwer behandelbarer Hypertonie, Kreatininanstieg unter Hemmung des Renin-Angiotensin-Systems und gelegentlich einem Strömungsgeräusch. Die Duplexsonographie ist die Erstuntersuchung, die perkutane Angioplastie mit oder ohne Stent das übliche Vorgehen.",
+            "teaching_point": "Kreatininanstieg direkt nach ACE-Hemmer lenkt den Verdacht auf eine Nierenarterienstenose."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Ten months after transplantation a patient develops difficult-to-control hypertension. After starting an ACE inhibitor her creatinine rises markedly within two weeks. A bruit is audible over the graft.",
+          "lead_in": "What is the most likely diagnosis?",
+          "options": {
+            "A": {
+              "text": "Transplant renal artery stenosis; duplex and angioplasty",
+              "rationale": "A creatinine rise after blockade of the renin-angiotensin system is typical, because filtration pressure beyond the stenosis depends on angiotensin-mediated vasoconstriction. Confirmation is by ultrasound and treatment usually interventional."
+            },
+            "B": {
+              "text": "Acute cellular rejection; start pulsed steroid therapy",
+              "rationale": "Rejection produces no bruit and shows no such clear temporal link to the ACE inhibitor."
+            },
+            "C": {
+              "text": "Calcineurin inhibitor toxicity; reduce trough levels",
+              "rationale": "It is an important differential for a creatinine rise but explains neither the bruit nor the response to the ACE inhibitor."
+            },
+            "D": {
+              "text": "Recurrence of the original disease in the graft",
+              "rationale": "Recurrence is usually insidious with proteinuria and does not fit this constellation."
+            }
+          },
+          "explanation": {
+            "core": "Transplant renal artery stenosis typically appears months after surgery, usually near the anastomosis. It presents with resistant hypertension, a creatinine rise under renin-angiotensin blockade and occasionally a bruit. Duplex ultrasound is the first investigation and percutaneous angioplasty with or without a stent the usual treatment.",
+            "teaching_point": "A creatinine rise immediately after an ACE inhibitor points to renal artery stenosis."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-rek-00017",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Transplantation",
+        "tags": [
+          "komplikationsmanagement",
+          "bildgebung"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Renal Transplantation",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "Sechs Wochen nach Transplantation zeigt sich eine glatt begrenzte Flüssigkeitsansammlung von 7 cm neben dem Transplantat mit Kompression des Ureters und beginnender Stauung. Das Kreatinin steigt, das Bein ist geschwollen.",
+          "lead_in": "Wie ist der Befund zu behandeln?",
+          "options": {
+            "A": {
+              "text": "Antibiotisch behandeln unter Verdacht auf einen Abszess",
+              "rationale": "Der glatte Rand ohne Fieber und Entzündungszeichen spricht gegen eine Abszedierung; die Punktion klärt es."
+            },
+            "B": {
+              "text": "Sofortige operative Entfernung des Transplantats",
+              "rationale": "Die Ursache ist behandelbar, und das Organ ist nicht verloren; die Transplantatentfernung wäre grob unverhältnismäßig."
+            },
+            "C": {
+              "text": "Punktion mit Analyse, dann Drainage oder Marsupialisation",
+              "rationale": "Die Punktatanalyse trennt Lymphozele, Urinom und Hämatom über Kreatinin im Punktat im Vergleich zum Serum. Die symptomatische Lymphozele wird drainiert, bei Rezidiv laparoskopisch in die Bauchhöhle fensterartig eröffnet."
+            },
+            "D": {
+              "text": "Zuwarten, da solche Ansammlungen sich zurückbilden",
+              "rationale": "Das gilt für kleine, asymptomatische Verhalte. Hier bestehen Kompression, Stauung und ein steigendes Kreatinin."
+            }
+          },
+          "explanation": {
+            "core": "Flüssigkeitsansammlungen um das Transplantat sind häufig, und ihre Unterscheidung ist einfach: Ein Punktat mit Kreatinin deutlich über dem Serumwert beweist das Urinom, ein Wert wie im Serum spricht für die Lymphozele. Behandelt wird nur, was Beschwerden macht oder Ureter und Gefäße komprimiert. Die Marsupialisation nach innen nutzt das Peritoneum zur dauerhaften Resorption.",
+            "teaching_point": "Kreatinin im Punktat trennt das Urinom von der Lymphozele."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Six weeks after transplantation a smoothly bordered 7 cm fluid collection appears beside the graft, compressing the ureter with early obstruction. Creatinine is rising and the leg is swollen.",
+          "lead_in": "How should this be treated?",
+          "options": {
+            "A": {
+              "text": "Treat with antibiotics for a suspected abscess",
+              "rationale": "The smooth border without fever or inflammatory signs argues against an abscess; aspiration clarifies it."
+            },
+            "B": {
+              "text": "Immediate surgical removal of the transplanted kidney",
+              "rationale": "The cause is treatable and the organ is not lost; graft removal would be grossly disproportionate."
+            },
+            "C": {
+              "text": "Aspirate and analyse, then drain or marsupialise",
+              "rationale": "Analysis of the aspirate separates lymphocele, urinoma and haematoma by comparing creatinine in the fluid with serum. A symptomatic lymphocele is drained, and recurrence managed by laparoscopic peritoneal windowing."
+            },
+            "D": {
+              "text": "Wait, since such collections resolve spontaneously",
+              "rationale": "That applies to small asymptomatic collections. Here there is compression, obstruction and a rising creatinine."
+            }
+          },
+          "explanation": {
+            "core": "Peri-graft fluid collections are common and easy to distinguish: an aspirate with creatinine well above serum proves a urinoma, a value equal to serum indicates a lymphocele. Only collections causing symptoms or compressing ureter or vessels are treated. Internal marsupialisation uses the peritoneum for permanent absorption.",
+            "teaching_point": "Creatinine in the aspirate separates urinoma from lymphocele."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-rek-00018",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Transplantation",
+        "tags": [
+          "labordiagnostik",
+          "pathologie",
+          "pharmakologie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Renal Transplantation",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "Acht Monate nach Transplantation steigt das Kreatinin langsam an. Der Patient ist beschwerdefrei, die Immunsuppression läuft in voller Dosis, die Duplexsonographie ist unauffällig. Im Plasma ist eine hohe BK-Virus-Last nachweisbar.",
+          "lead_in": "Wie ist zu behandeln?",
+          "options": {
+            "A": {
+              "text": "Immunsuppression erhöhen wegen vermuteter Abstoßung",
+              "rationale": "Genau das verschlimmert die Virusreplikation. Die Verwechslung mit der Abstoßung ist der klassische Fehler, weil beide histologisch ähnliche Infiltrate zeigen können."
+            },
+            "B": {
+              "text": "Immunsuppression reduzieren und Viruslast kontrollieren",
+              "rationale": "Eine wirksame antivirale Therapie existiert nicht; die Behandlung besteht in der abgestuften Reduktion unter engmaschiger Kontrolle von Viruslast und Transplantatfunktion. Die Biopsie sichert die Diagnose."
+            },
+            "C": {
+              "text": "Antivirale Therapie mit Ganciclovir intravenös beginnen",
+              "rationale": "Ganciclovir wirkt gegen Zytomegalie, nicht gegen das BK-Polyomavirus."
+            },
+            "D": {
+              "text": "Sofortige Transplantatnephrektomie zur Sanierung",
+              "rationale": "Bei rechtzeitiger Reduktion der Immunsuppression ist das Transplantat in vielen Fällen zu erhalten."
+            }
+          },
+          "explanation": {
+            "core": "Die BK-Virus-Nephropathie ist das Spiegelbild der Abstoßung: Beide zeigen einen Kreatininanstieg und entzündliche Infiltrate, verlangen aber gegensätzliche Behandlungen. Deshalb wird die Viruslast im Plasma regelmäßig überwacht und bei Anstieg biopsiert. Die Balance zwischen zu viel und zu wenig Immunsuppression ist die eigentliche Aufgabe der Nachsorge.",
+            "teaching_point": "BK verlangt weniger Immunsuppression, die Abstoßung mehr. Erst unterscheiden, dann handeln."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Eight months after transplantation creatinine rises slowly. The patient is asymptomatic, immunosuppression is at full dose and duplex ultrasound is unremarkable. A high BK virus load is detectable in plasma.",
+          "lead_in": "How should this be treated?",
+          "options": {
+            "A": {
+              "text": "Increase immunosuppression for presumed rejection",
+              "rationale": "This is exactly what worsens viral replication. Confusion with rejection is the classic error, because both can show similar histological infiltrates."
+            },
+            "B": {
+              "text": "Reduce immunosuppression and monitor the viral load",
+              "rationale": "No effective antiviral therapy exists; treatment consists of stepwise reduction under close monitoring of viral load and graft function. Biopsy confirms the diagnosis."
+            },
+            "C": {
+              "text": "Start intravenous ganciclovir as antiviral treatment",
+              "rationale": "Ganciclovir acts against cytomegalovirus, not against BK polyomavirus."
+            },
+            "D": {
+              "text": "Immediate graft nephrectomy to eradicate the infection",
+              "rationale": "With timely reduction of immunosuppression the graft can often be preserved."
+            }
+          },
+          "explanation": {
+            "core": "BK virus nephropathy is the mirror image of rejection: both present with rising creatinine and inflammatory infiltrates but require opposite treatment. Plasma viral load is therefore monitored regularly and biopsy performed when it rises. Balancing too much against too little immunosuppression is the real task of follow-up.",
+            "teaching_point": "BK demands less immunosuppression, rejection demands more. Distinguish before acting."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-rek-00019",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Transplantation",
+        "tags": [
+          "nachsorge",
+          "pathologie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Renal Transplantation",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein Patient ist seit sieben Jahren nierentransplantiert und stabil. Er fragt, worauf er in der Langzeitnachsorge über die Transplantatfunktion hinaus achten muss.",
+          "lead_in": "Welcher Punkt hat die größte praktische Bedeutung?",
+          "options": {
+            "A": {
+              "text": "Ein erhöhtes Risiko für Nierensteine im Transplantat",
+              "rationale": "Steine kommen vor, sind aber selten und nicht das bestimmende Langzeitproblem nach Transplantation."
+            },
+            "B": {
+              "text": "Ein erhöhtes Risiko für eine Hyperkalzämie nach Jahren",
+              "rationale": "Ein persistierender Hyperparathyreoidismus kommt vor und wird kontrolliert, steht aber nicht an erster Stelle."
+            },
+            "C": {
+              "text": "Ein erhöhtes Risiko für Rezidivsteine im Eigenharntrakt",
+              "rationale": "Dies betrifft nur Patienten mit vorbestehender Steinerkrankung und ist keine allgemeine Folge der Transplantation."
+            },
+            "D": {
+              "text": "Ein deutlich erhöhtes Risiko für Hauttumoren",
+              "rationale": "Unter dauerhafter Immunsuppression steigt vor allem die Rate an Plattenepithelkarzinomen der Haut erheblich. Dazu kommen lymphoproliferative Erkrankungen und, bei bestimmten Grunderkrankungen, Urothelkarzinome im Eigenharntrakt."
+            }
+          },
+          "explanation": {
+            "core": "Die Langzeitnachsorge nach Transplantation verschiebt sich von der Abstoßung zu den Folgen der Immunsuppression. Im Vordergrund stehen Hauttumoren mit der Empfehlung zu konsequentem Sonnenschutz und dermatologischer Kontrolle, kardiovaskuläre Erkrankungen, Infektionen und lymphoproliferative Erkrankungen. Bei Analgetikanephropathie oder Aristolochiasäure-Exposition kommt die Überwachung des Eigenharntrakts hinzu.",
+            "teaching_point": "Nach Jahren gefährdet nicht mehr die Abstoßung, sondern die Immunsuppression."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A patient has been stable for seven years after kidney transplantation. He asks what he must watch for in long-term follow-up beyond graft function.",
+          "lead_in": "Which point carries the greatest practical importance?",
+          "options": {
+            "A": {
+              "text": "An increased risk of stones within the transplanted kidney",
+              "rationale": "Stones occur but are rare and not the defining long-term problem after transplantation."
+            },
+            "B": {
+              "text": "An increased risk of hypercalcaemia developing after years",
+              "rationale": "Persistent hyperparathyroidism occurs and is monitored but does not come first."
+            },
+            "C": {
+              "text": "An increased risk of recurrent stones in the native tract",
+              "rationale": "This concerns only patients with pre-existing stone disease and is not a general consequence of transplantation."
+            },
+            "D": {
+              "text": "A markedly increased risk of skin malignancies",
+              "rationale": "Under long-term immunosuppression the rate of cutaneous squamous cell carcinoma in particular rises considerably. Lymphoproliferative disease and, in certain underlying conditions, urothelial carcinoma of the native tract are added."
+            }
+          },
+          "explanation": {
+            "core": "Long-term follow-up after transplantation shifts from rejection to the consequences of immunosuppression. Skin cancer dominates, with advice on strict sun protection and dermatological review, alongside cardiovascular disease, infection and lymphoproliferative disorders. With analgesic nephropathy or aristolochic acid exposure, surveillance of the native tract is added.",
+            "teaching_point": "After years the threat is no longer rejection but the immunosuppression."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-rek-00020",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Lebendspende",
+        "tags": [
+          "praeoperativ",
+          "operationstechnik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Renal Transplantation",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
+      "content": {
+        "de": {
+          "vignette": "Eine 52-jährige Frau möchte ihrem Bruder eine Niere spenden. Die Nierenfunktion ist normal, die Seitentrennung zeigt eine geringfügig schwächere linke Niere, die Gefäßanatomie ist beidseits regelrecht und einfach.",
+          "lead_in": "Welche Aussage zur Auswahl und zum Vorgehen trifft zu?",
+          "options": {
+            "A": {
+              "text": "Die schwächere Niere wird entnommen, meist die linke",
+              "rationale": "Die bessere Niere bleibt beim Spender, weil sein Schutz Vorrang hat. Bei gleichwertigen Nieren wird die linke bevorzugt entnommen, weil ihre längere Vene die Implantation erleichtert."
+            },
+            "B": {
+              "text": "Die bessere Niere wird entnommen, um das Ergebnis zu sichern",
+              "rationale": "Das kehrt das Grundprinzip um. Der gesunde Spender darf durch die Spende nicht gefährdet werden."
+            },
+            "C": {
+              "text": "Die rechte Niere wird bei gleicher Funktion bevorzugt entnommen",
+              "rationale": "Die rechte Nierenvene ist kurz, was die Implantation erschwert; die rechte Seite wird nur bei anatomischen Gründen gewählt."
+            },
+            "D": {
+              "text": "Die Seitentrennung spielt bei der Auswahl keine Rolle",
+              "rationale": "Sie ist gerade eines der wichtigsten Auswahlkriterien und bestimmt zusammen mit der Gefäßanatomie, welche Seite entnommen wird."
+            }
+          },
+          "explanation": {
+            "core": "Bei der Lebendspende gilt der Schutz des Spenders als oberster Grundsatz, weil er ein gesunder Mensch ohne eigenen medizinischen Nutzen ist. Daraus folgen alle Auswahlregeln: ausreichende Gesamtfunktion, Ausschluss von Bluthochdruckfolgen, Proteinurie und Stoffwechselerkrankungen, Belassen der besseren Niere und die Wahl der Seite mit der einfacheren Gefäßversorgung. Die Aufklärung schließt das langfristige Risiko des Spenders ausdrücklich ein.",
+            "teaching_point": "Die bessere Niere bleibt beim Spender. Entnommen wird meist links wegen der längeren Vene."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 52-year-old woman wishes to donate a kidney to her brother. Renal function is normal, split function shows a slightly weaker left kidney, and vascular anatomy is normal and simple on both sides.",
+          "lead_in": "Which statement about selection and approach is correct?",
+          "options": {
+            "A": {
+              "text": "The weaker kidney is taken, usually the left one",
+              "rationale": "The better kidney stays with the donor, because donor protection takes precedence. With equivalent kidneys the left is preferred because its longer vein eases implantation."
+            },
+            "B": {
+              "text": "The better kidney is taken to secure the outcome",
+              "rationale": "This reverses the basic principle. A healthy donor must not be endangered by the donation."
+            },
+            "C": {
+              "text": "The right kidney is preferred when function is equal",
+              "rationale": "The right renal vein is short, which complicates implantation; the right side is chosen only for anatomical reasons."
+            },
+            "D": {
+              "text": "Split function plays no part in the selection",
+              "rationale": "It is one of the most important selection criteria and, together with vascular anatomy, determines which side is taken."
+            }
+          },
+          "explanation": {
+            "core": "In living donation, protection of the donor is the overriding principle, because the donor is a healthy person with no medical benefit from the procedure. All selection rules follow from this: adequate total function, exclusion of hypertensive damage, proteinuria and metabolic disease, leaving the better kidney, and choosing the side with simpler vasculature. Consent explicitly includes the donor's long-term risk.",
+            "teaching_point": "The better kidney stays with the donor. The left is usually taken for its longer vein."
+          },
+          "flag_note": null
+        }
+      }
+    }
+  ]
+}
