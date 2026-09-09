@@ -40,7 +40,7 @@ def load(path):
     return None
 
 
-def check(q, slug, tags, languages, seen, today, soon, length_cue, longest_correct):
+def check(q, slug, tags, languages, seen, today, soon, length_cue, longest_correct, coverage):
     qid = q.get("id") or "(ohne id)"
 
     def bad(msg):
@@ -98,8 +98,11 @@ def check(q, slug, tags, languages, seen, today, soon, length_cue, longest_corre
             if lc == languages[0]:
                 bad(f"Sprache \"{lc}\" fehlt vollstaendig")
             else:
-                warnings.append(f"{qid}: Sprache \"{lc}\" fehlt, faellt auf {languages[0]} zurueck")
+                coverage.setdefault(lc, [0, 0])[1] += 1
             continue
+        coverage.setdefault(lc, [0, 0])
+        coverage[lc][0] += 1
+        coverage[lc][1] += 1
         if not body.get("vignette"):
             bad(f"[{lc}] vignette fehlt")
         if not body.get("lead_in"):
@@ -176,6 +179,7 @@ def main():
     counts = {slug: 0 for slug in domains}
     length_cue = []
     longest_correct = [0, 0]
+    coverage = {}
 
     if not FRAGEN.is_dir():
         errors.append("Ordner data/fragen fehlt")
@@ -204,7 +208,7 @@ def main():
         for q in doc.get("fragen", []) or []:
             q.setdefault("taxonomy", {})["domain"] = slug
             questions.append(q)
-            if check(q, slug, tags, languages, seen, today, soon, length_cue, longest_correct):
+            if check(q, slug, tags, languages, seen, today, soon, length_cue, longest_correct, coverage):
                 counts[slug] += 1
 
     for w in warnings:
@@ -248,6 +252,11 @@ def main():
     for d in config["domains"]:
         if not d.get("group"):
             print(f"  {counts[d['slug']]:>4}  {d['label'][languages[0]]}")
+    for lc in languages:
+        ok, ges = coverage.get(lc, [0, 0])
+        if ges and ok < ges:
+            print(f"Sprache {lc}: {ok}/{ges} Fragen uebersetzt ({ok/ges*100:.0f} %), "
+                  f"der Rest faellt auf {languages[0]} zurueck")
     if longest_correct[1]:
         share = longest_correct[0] / longest_correct[1] * 100
         mark = "  <-- Zufallserwartung liegt bei 25 %" if share > 40 else ""
@@ -610,6 +619,40 @@ APP_JS = r'''(function () {
       sheetResult: 'Score',
       stand: 'Questions as of',
       disclaimer: 'Teaching material for board exam preparation. Not a treatment instruction for individual patients. Verify all drug doses against the current product information before use.'
+    },
+    es: {
+      intro: 'Preguntas basadas en casos, de nivel de especialista. Cada opción lleva su justificación y cada pregunta indica su fuente y su fecha de revisión. El progreso queda en este navegador.',
+      inventory: function (n, d) { return n + ' preguntas en ' + d + ' áreas'; },
+      questions: 'preguntas',
+      empty: 'en preparación',
+      allEntities: 'todas las entidades',
+      mixed: 'Sesión mixta de todas las áreas',
+      mixedSession: 'Sesión mixta',
+      progress: function (s, t, c) { return s + ' de ' + t + ' hechas, ' + c + ' correctas'; },
+      question: function (i, n) { return 'Pregunta ' + i + ' de ' + n; },
+      next: 'Siguiente pregunta',
+      back: 'Atrás',
+      finish: 'Ver resultado',
+      stop: 'Terminar sesión',
+      score: function (c, t) { return c + ' de ' + t + ' correctas'; },
+      repeat: 'Repetir las falladas',
+      home: 'Volver al índice',
+      printPdf: 'Imprimir como PDF',
+      download: 'Guardar como archivo',
+      reset: 'Borrar el progreso',
+      resetConfirm: '¿Borrar todo el progreso guardado?',
+      legend: function () {
+        return '⚠ señala preguntas sobre temas con datos heterogéneos o sin confirmación aleatorizada.';
+      },
+      evidence: 'Evidencia',
+      yourAnswer: 'Su respuesta',
+      correctAnswer: 'Respuesta correcta',
+      sheetTitle: 'Resultado',
+      sheetDate: 'Fecha',
+      sheetArea: 'Área',
+      sheetResult: 'Puntuación',
+      stand: 'Preguntas actualizadas a',
+      disclaimer: 'Material docente para la preparación de la especialidad. No es una indicación de tratamiento para pacientes concretos. Verifique toda dosis frente a la ficha técnica vigente antes de usarla.'
     }
   };
 
@@ -629,9 +672,10 @@ APP_JS = r'''(function () {
   function readLang() {
     var saved = null;
     try { saved = window.localStorage.getItem(LANG_KEY); } catch (e) { /* egal */ }
-    if (saved === 'de' || saved === 'en') return saved;
-    var nav = (window.navigator && window.navigator.language) || 'de';
-    return nav.indexOf('de') === 0 ? 'de' : 'en';
+    var erlaubt = (window.QUESTION_BANK.languages || ['de']);
+    if (erlaubt.indexOf(saved) !== -1) return saved;
+    var nav = ((window.navigator && window.navigator.language) || 'de').slice(0, 2);
+    return erlaubt.indexOf(nav) !== -1 ? nav : erlaubt[0];
   }
 
   function setLang(next) {
@@ -702,7 +746,7 @@ APP_JS = r'''(function () {
 
   function renderLangSwitch() {
     langBox.innerHTML = '';
-    ['de', 'en'].forEach(function (code) {
+    (bank.languages || ['de']).forEach(function (code) {
       var b = el('button', code === lang ? 'on' : null, code.toUpperCase());
       b.type = 'button';
       b.setAttribute('aria-pressed', code === lang ? 'true' : 'false');

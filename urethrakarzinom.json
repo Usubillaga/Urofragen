@@ -1,4 +1,595 @@
 {
   "gebiet": "urethrakarzinom",
-  "fragen": []
+  "fragen": [
+    {
+      "id": "uro-ure-00001",
+      "version": 1,
+      "status": "published",
+      "taxonomy": { "subdomain": "Histologie", "tags": ["pathologie", "leitlinie"] },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": true }, { "key": "C", "correct": false }, { "key": "D", "correct": false }],
+      "evidence": { "level": "IIB", "certainty": "etabliert", "flag": false },
+      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Primary Urethral Carcinoma", "year": 2026 }],
+      "review": { "author": "EK", "reviewer": null, "created": "2026-09-09", "last_reviewed": "2026-09-09", "expires": "2028-09-09" },
+      "content": {
+        "de": {
+          "vignette": "Zwei Männer mit primärem Harnröhrenkarzinom. Beim ersten sitzt der Tumor in der prostatischen Harnröhre, beim zweiten in der Penisurethra.",
+          "lead_in": "Welche Histologie ist jeweils zu erwarten?",
+          "options": {
+            "A": { "text": "Bei beiden ein Adenokarzinom aus periurethralen Drüsen", "rationale": "Adenokarzinome entstehen aus periurethralen Drüsen und sind selten; sie erklären nicht die Verteilung nach Lokalisation." },
+            "B": { "text": "Proximal ein Urothelkarzinom, distal ein Plattenepithelkarzinom", "rationale": "Die Histologie folgt dem Epithel: Die prostatische Harnröhre ist urothelial ausgekleidet, die distale Harnröhre überwiegend plattenepithelial." },
+            "C": { "text": "Proximal ein Plattenepithel-, distal ein Urothelkarzinom", "rationale": "Die Zuordnung ist vertauscht und widerspricht der normalen Auskleidung der Harnröhrenabschnitte." },
+            "D": { "text": "Bei beiden ein Urothelkarzinom wie in der Harnblase", "rationale": "Das gilt für den proximalen Abschnitt; distal überwiegt das Plattenepithel." }
+          },
+          "explanation": {
+            "core": "Das primäre Harnröhrenkarzinom ist selten, und seine Histologie richtet sich nach dem Epithel des betroffenen Abschnitts. Diese Zuordnung ist keine Formalie, denn sie bestimmt die Systemtherapie: Urothelkarzinome werden platinbasiert wie Blasenkarzinome behandelt, Plattenepithelkarzinome eher mit Radiochemotherapie.",
+            "teaching_point": "Die Lokalisation sagt die Histologie voraus, und die Histologie bestimmt die Systemtherapie."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Two men with primary urethral carcinoma. In the first the tumour lies in the prostatic urethra, in the second in the penile urethra.",
+          "lead_in": "Which histology is expected in each?",
+          "options": {
+            "A": { "text": "Adenocarcinoma from periurethral glands in both men", "rationale": "Adenocarcinomas arise from periurethral glands and are rare; they do not explain the distribution by site." },
+            "B": { "text": "Urothelial carcinoma proximally, squamous cell distally", "rationale": "Histology follows the epithelium: the prostatic urethra is urothelial, the distal urethra predominantly squamous." },
+            "C": { "text": "Squamous cell proximally, urothelial carcinoma distally", "rationale": "The assignment is reversed and contradicts the normal lining of the urethral segments." },
+            "D": { "text": "Urothelial carcinoma in both, as in the bladder itself", "rationale": "That applies to the proximal segment; distally squamous histology predominates." }
+          },
+          "explanation": {
+            "core": "Primary urethral carcinoma is rare and its histology follows the epithelium of the affected segment. This is not a formality, because it determines systemic therapy: urothelial carcinomas are treated with platinum as in bladder cancer, squamous cell carcinomas more often with chemoradiotherapy.",
+            "teaching_point": "Location predicts histology, and histology determines systemic therapy."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Dos hombres con carcinoma primario de uretra. En el primero el tumor se localiza en la uretra prostática, en el segundo en la uretra peneana.",
+          "lead_in": "¿Qué histología cabe esperar en cada caso?",
+          "options": {
+            "A": { "text": "Adenocarcinoma de glándulas periuretrales en ambos casos", "rationale": "Los adenocarcinomas proceden de glándulas periuretrales y son raros; no explican la distribución según la localización." },
+            "B": { "text": "Carcinoma urotelial proximal y escamoso en la porción distal", "rationale": "La histología sigue al epitelio: la uretra prostática está revestida de urotelio y la uretra distal es predominantemente escamosa." },
+            "C": { "text": "Carcinoma escamoso proximal y urotelial en la porción distal", "rationale": "La asignación está invertida y contradice el revestimiento normal de los segmentos uretrales." },
+            "D": { "text": "Carcinoma urotelial en ambos, igual que en la vejiga urinaria", "rationale": "Eso se aplica al segmento proximal; en la porción distal predomina la histología escamosa." }
+          },
+          "explanation": {
+            "core": "El carcinoma primario de uretra es raro y su histología sigue al epitelio del segmento afectado. No es un detalle formal, porque determina el tratamiento sistémico: los carcinomas uroteliales se tratan con platino como los vesicales y los escamosos más bien con quimiorradioterapia.",
+            "teaching_point": "La localización predice la histología, y la histología determina el tratamiento sistémico."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ure-00002",
+      "version": 1,
+      "status": "published",
+      "taxonomy": { "subdomain": "Staging", "tags": ["bildgebung", "praeoperativ"] },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": false }, { "key": "C", "correct": true }, { "key": "D", "correct": false }],
+      "evidence": { "level": "IIB", "certainty": "etabliert", "flag": false },
+      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Primary Urethral Carcinoma", "year": 2026 }],
+      "review": { "author": "EK", "reviewer": null, "created": "2026-09-09", "last_reviewed": "2026-09-09", "expires": "2028-09-09" },
+      "content": {
+        "de": {
+          "vignette": "Bei einer 64-jährigen Patientin wurde bioptisch ein Harnröhrenkarzinom gesichert. Für die Therapieplanung soll die lokale Ausdehnung beurteilt werden, insbesondere die Beteiligung von Blasenhals und Vagina.",
+          "lead_in": "Welche Untersuchung ist dafür am besten geeignet?",
+          "options": {
+            "A": { "text": "Computertomographie des Beckens mit Kontrastmittel", "rationale": "Sie dient dem Ausschluss von Fernmetastasen und der Beurteilung der Lymphknoten, hat im kleinen Becken aber zu wenig Weichteilkontrast." },
+            "B": { "text": "Positronenemissionstomographie mit Fluordesoxyglukose", "rationale": "Sie ist für das lokale Staging dieses Tumors nicht etabliert und beantwortet die Frage nach der Infiltrationstiefe nicht." },
+            "C": { "text": "Magnetresonanztomographie des kleinen Beckens", "rationale": "Sie bietet den besten Weichteilkontrast und zeigt die Infiltration von Schwellkörpern, Blasenhals und Nachbarorganen am zuverlässigsten." },
+            "D": { "text": "Retrogrades Urethrogramm in zwei Ebenen", "rationale": "Es stellt Lumen und Länge dar, sagt aber nichts über die Ausdehnung außerhalb der Harnröhre aus." }
+          },
+          "explanation": {
+            "core": "Die Diagnostik des Harnröhrenkarzinoms folgt drei Schritten: Zystourethroskopie mit Biopsie zur Sicherung, Magnetresonanztomographie zum lokalen Staging und Schnittbildgebung von Thorax und Abdomen zum Ausschluss von Fernmetastasen. Die klinische Untersuchung der Leisten gehört bei jeder Vorstellung dazu.",
+            "teaching_point": "Für die lokale Ausdehnung entscheidet das MRT, für die Ausbreitung das CT."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 64-year-old woman has biopsy-proven urethral carcinoma. For treatment planning the local extent must be assessed, particularly involvement of the bladder neck and vagina.",
+          "lead_in": "Which investigation is best suited for this?",
+          "options": {
+            "A": { "text": "Contrast-enhanced computed tomography of the pelvis", "rationale": "It serves to exclude distant metastases and assess nodes but has too little soft tissue contrast in the pelvis." },
+            "B": { "text": "Positron emission tomography with fluorodeoxyglucose", "rationale": "It is not established for local staging of this tumour and does not answer the question of depth of invasion." },
+            "C": { "text": "Magnetic resonance imaging of the lesser pelvis", "rationale": "It offers the best soft tissue contrast and shows invasion of the corpora, bladder neck and adjacent organs most reliably." },
+            "D": { "text": "Retrograde urethrography in two planes of view", "rationale": "It depicts lumen and length but says nothing about extension beyond the urethra." }
+          },
+          "explanation": {
+            "core": "Workup of urethral carcinoma follows three steps: cystourethroscopy with biopsy for confirmation, magnetic resonance imaging for local staging and cross-sectional imaging of chest and abdomen to exclude distant disease. Clinical examination of the groins belongs to every visit.",
+            "teaching_point": "MRI decides local extent, CT decides distant spread."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "En una mujer de 64 años se confirmó por biopsia un carcinoma de uretra. Para planificar el tratamiento debe valorarse la extensión local, en particular la afectación del cuello vesical y la vagina.",
+          "lead_in": "¿Qué exploración es la más adecuada?",
+          "options": {
+            "A": { "text": "Tomografía computarizada pélvica con contraste intravenoso", "rationale": "Sirve para descartar metástasis a distancia y valorar los ganglios, pero tiene poco contraste de partes blandas en la pelvis." },
+            "B": { "text": "Tomografía por emisión de positrones con fluorodesoxiglucosa", "rationale": "No está establecida para la estadificación local de este tumor y no responde a la profundidad de invasión." },
+            "C": { "text": "Resonancia magnética de la pelvis menor con contraste", "rationale": "Ofrece el mejor contraste de partes blandas y muestra con mayor fiabilidad la invasión de cuerpos cavernosos, cuello vesical y órganos vecinos." },
+            "D": { "text": "Uretrografía retrógrada realizada en dos proyecciones", "rationale": "Muestra la luz y la longitud, pero no informa sobre la extensión fuera de la uretra." }
+          },
+          "explanation": {
+            "core": "El estudio del carcinoma de uretra sigue tres pasos: cistouretroscopia con biopsia para confirmar, resonancia magnética para la estadificación local y tomografía de tórax y abdomen para descartar enfermedad a distancia. La exploración clínica de las ingles forma parte de cada visita.",
+            "teaching_point": "La resonancia decide la extensión local; la tomografía, la diseminación."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ure-00003",
+      "version": 1,
+      "status": "published",
+      "taxonomy": { "subdomain": "Risikofaktoren", "tags": ["pathologie", "leitlinie"] },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [{ "key": "A", "correct": true }, { "key": "B", "correct": false }, { "key": "C", "correct": false }, { "key": "D", "correct": false }],
+      "evidence": { "level": "IIB", "certainty": "etabliert", "flag": false },
+      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Primary Urethral Carcinoma", "year": 2026 }],
+      "review": { "author": "EK", "reviewer": null, "created": "2026-09-09", "last_reviewed": "2026-09-09", "expires": "2028-09-09" },
+      "content": {
+        "de": {
+          "vignette": "Ein 61-jähriger Mann mit seit Jahren rezidivierender Harnröhrenstriktur und mehrfachen Urethrotomien stellt sich mit neu aufgetretener Blutung aus der Harnröhre und einer tastbaren Verhärtung am Damm vor.",
+          "lead_in": "Welcher Zusammenhang ist hier wesentlich?",
+          "options": {
+            "A": { "text": "Chronische Reizung und Striktur begünstigen das Karzinom", "rationale": "Langjährige Strikturen, wiederholte Instrumentierung, chronische Entzündung, Lichen sclerosus und eine Infektion mit humanen Papillomviren sind die etablierten Risikofaktoren." },
+            "B": { "text": "Strikturen schützen durch die Vernarbung vor Tumoren", "rationale": "Das Gegenteil trifft zu: Die chronische Entzündung im Narbengewebe ist ein wesentlicher Entstehungsweg." },
+            "C": { "text": "Nur eine Papillomvirusinfektion erklärt die Entstehung", "rationale": "Die Papillomviren sind ein Faktor unter mehreren und erklären nicht die Fälle nach langjähriger Striktur." },
+            "D": { "text": "Rauchen ist der wichtigste Risikofaktor dieses Tumors", "rationale": "Rauchen ist beim Urothelkarzinom der Blase führend; beim Harnröhrenkarzinom stehen lokale Faktoren im Vordergrund." }
+          },
+          "explanation": {
+            "core": "Das Harnröhrenkarzinom entsteht überwiegend auf dem Boden chronischer lokaler Schädigung. Praktisch bedeutet das: Bei jeder Striktur, die sich anders verhält als erwartet, blutet, sich rasch verschlechtert oder eine Verhärtung zeigt, muss biopsiert werden. Der Tumor wird häufig als Rezidivstriktur fehlgedeutet und dadurch spät erkannt.",
+            "teaching_point": "Eine Striktur, die sich untypisch verhält, wird biopsiert und nicht erneut geschlitzt."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 61-year-old man with years of recurrent urethral stricture and several urethrotomies presents with new bleeding from the urethra and a palpable induration in the perineum.",
+          "lead_in": "Which relationship is essential here?",
+          "options": {
+            "A": { "text": "Chronic irritation and stricture predispose to carcinoma", "rationale": "Long-standing strictures, repeated instrumentation, chronic inflammation, lichen sclerosus and human papillomavirus infection are the established risk factors." },
+            "B": { "text": "Strictures protect against tumours through scarring", "rationale": "The opposite is true: chronic inflammation within scar tissue is a major pathway of tumour development." },
+            "C": { "text": "Only papillomavirus infection explains the development", "rationale": "Papillomaviruses are one factor among several and do not explain cases arising after long-standing stricture." },
+            "D": { "text": "Smoking is the leading risk factor for this tumour", "rationale": "Smoking leads in urothelial bladder cancer; in urethral carcinoma local factors predominate." }
+          },
+          "explanation": {
+            "core": "Urethral carcinoma arises predominantly on a background of chronic local damage. In practice this means: any stricture that behaves unexpectedly, bleeds, deteriorates rapidly or shows induration must be biopsied. The tumour is frequently misinterpreted as recurrent stricture and therefore detected late.",
+            "teaching_point": "A stricture behaving atypically is biopsied, not incised again."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Un hombre de 61 años con estenosis uretral recurrente desde hace años y varias uretrotomías consulta por sangrado uretral de reciente aparición y una induración palpable en el periné.",
+          "lead_in": "¿Qué relación resulta esencial en este caso?",
+          "options": {
+            "A": { "text": "La irritación crónica y la estenosis predisponen al carcinoma", "rationale": "Las estenosis de larga evolución, la instrumentación repetida, la inflamación crónica, el liquen escleroso y la infección por virus del papiloma humano son los factores de riesgo establecidos." },
+            "B": { "text": "Las estenosis protegen frente al tumor por la cicatrización", "rationale": "Ocurre lo contrario: la inflamación crónica del tejido cicatricial es una vía principal de desarrollo tumoral." },
+            "C": { "text": "Solo la infección por papilomavirus explica su aparición", "rationale": "El papilomavirus es un factor entre varios y no explica los casos surgidos tras una estenosis prolongada." },
+            "D": { "text": "El tabaco es el principal factor de riesgo de este tumor", "rationale": "El tabaco encabeza el carcinoma urotelial vesical; en el uretral predominan los factores locales." }
+          },
+          "explanation": {
+            "core": "El carcinoma de uretra surge en su mayoría sobre daño local crónico. En la práctica esto significa que toda estenosis que se comporte de forma inesperada, sangre, empeore rápidamente o presente induración debe biopsiarse. El tumor se confunde a menudo con una estenosis recidivante y por ello se detecta tarde.",
+            "teaching_point": "Una estenosis con comportamiento atípico se biopsia, no se vuelve a incidir."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ure-00004",
+      "version": 1,
+      "status": "published",
+      "taxonomy": { "subdomain": "Therapie der Frau", "tags": ["operationstechnik", "leitlinie"] },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": false }, { "key": "C", "correct": false }, { "key": "D", "correct": true }],
+      "evidence": { "level": "IIB", "certainty": "etabliert", "flag": false },
+      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Primary Urethral Carcinoma", "year": 2026 }],
+      "review": { "author": "EK", "reviewer": null, "created": "2026-09-09", "last_reviewed": "2026-09-09", "expires": "2028-09-09" },
+      "content": {
+        "de": {
+          "vignette": "58-jährige Patientin mit einem 1,2 cm großen Plattenepithelkarzinom im distalen Drittel der Harnröhre, cT2 cN0 cM0. Das MRT zeigt keine Infiltration von Blasenhals oder Vagina. Sie ist kontinent.",
+          "lead_in": "Welches Vorgehen ist angezeigt?",
+          "options": {
+            "A": { "text": "Vordere Exenteration mit Anlage eines Ileum-Conduits", "rationale": "Ein derart radikales Vorgehen ist proximalen und lokal fortgeschrittenen Tumoren vorbehalten und wäre hier grob übertherapeutisch." },
+            "B": { "text": "Alleinige transurethrale Resektion des sichtbaren Tumors", "rationale": "Sie erreicht bei einem invasiven Tumor keinen sicheren Rand und ist bestenfalls diagnostisch." },
+            "C": { "text": "Primäre Systemtherapie und Operation nur bei Ansprechen", "rationale": "Bei lokalisiertem distalem Tumor ohne Lymphknotenbefall besteht keine Indikation für eine vorgeschaltete Systemtherapie." },
+            "D": { "text": "Organerhaltende distale Urethrektomie mit tumorfreiem Rand", "rationale": "Bei distalem Sitz lässt sich das distale Drittel entfernen, ohne die Kontinenz zu gefährden. Alternativ kommt eine Strahlentherapie einschließlich Brachytherapie infrage." }
+          },
+          "explanation": {
+            "core": "Beim Harnröhrenkarzinom der Frau entscheidet die Lokalisation über die Radikalität. Distale Tumoren sind organerhaltend zu behandeln, weil der Sphinktermechanismus proximal liegt und erhalten bleibt. Proximale und lokal fortgeschrittene Tumoren erfordern dagegen ein multimodales Vorgehen mit deutlich größerem Eingriff.",
+            "teaching_point": "Distal heißt organerhaltend, proximal heißt multimodal."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "58-year-old woman with a 1.2 cm squamous cell carcinoma in the distal third of the urethra, cT2 cN0 cM0. MRI shows no invasion of bladder neck or vagina. She is continent.",
+          "lead_in": "Which approach is indicated?",
+          "options": {
+            "A": { "text": "Anterior exenteration with creation of an ileal conduit", "rationale": "Such radical surgery is reserved for proximal and locally advanced tumours and would be gross overtreatment here." },
+            "B": { "text": "Transurethral resection of the visible tumour alone", "rationale": "It cannot achieve a safe margin in an invasive tumour and is at best diagnostic." },
+            "C": { "text": "Primary systemic therapy, surgery only if it responds", "rationale": "For a localised distal tumour without nodal involvement there is no indication for upfront systemic therapy." },
+            "D": { "text": "Organ-sparing distal urethrectomy with a clear margin", "rationale": "With distal disease the distal third can be removed without endangering continence. Radiotherapy including brachytherapy is an alternative." }
+          },
+          "explanation": {
+            "core": "In female urethral carcinoma the site determines radicality. Distal tumours are treated with organ preservation, because the sphincter mechanism lies proximally and is preserved. Proximal and locally advanced tumours require a multimodal approach with far more extensive surgery.",
+            "teaching_point": "Distal means organ-sparing, proximal means multimodal."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 58 años con un carcinoma escamoso de 1,2 cm en el tercio distal de la uretra, cT2 cN0 cM0. La resonancia no muestra invasión del cuello vesical ni de la vagina. Es continente.",
+          "lead_in": "¿Qué actitud está indicada?",
+          "options": {
+            "A": { "text": "Exenteración anterior con confección de conducto ileal", "rationale": "Una cirugía tan radical se reserva para tumores proximales y localmente avanzados; aquí sería un claro sobretratamiento." },
+            "B": { "text": "Resección transuretral aislada del tumor visible en uretra", "rationale": "No logra un margen seguro en un tumor invasivo y es, en el mejor de los casos, diagnóstica." },
+            "C": { "text": "Tratamiento sistémico primario y cirugía solo si responde", "rationale": "En un tumor distal localizado sin afectación ganglionar no hay indicación de tratamiento sistémico previo." },
+            "D": { "text": "Uretrectomía distal conservadora con margen libre de tumor", "rationale": "En la enfermedad distal puede extirparse el tercio distal sin comprometer la continencia. La radioterapia, incluida la braquiterapia, es una alternativa." }
+          },
+          "explanation": {
+            "core": "En el carcinoma uretral femenino la localización determina la radicalidad. Los tumores distales se tratan con preservación de órgano, porque el mecanismo esfinteriano es proximal y se conserva. Los tumores proximales y localmente avanzados exigen un abordaje multimodal con cirugía mucho más extensa.",
+            "teaching_point": "Distal significa conservador; proximal significa multimodal."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ure-00005",
+      "version": 1,
+      "status": "published",
+      "taxonomy": { "subdomain": "lokal fortgeschritten", "tags": ["pharmakologie", "operationstechnik", "leitlinie"] },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": true }, { "key": "C", "correct": false }, { "key": "D", "correct": false }],
+      "evidence": { "level": "IIB", "certainty": "etabliert", "flag": false },
+      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Primary Urethral Carcinoma", "year": 2026 }],
+      "review": { "author": "EK", "reviewer": null, "created": "2026-09-09", "last_reviewed": "2026-09-09", "expires": "2028-09-09" },
+      "content": {
+        "de": {
+          "vignette": "57-jähriger Mann mit Plattenepithelkarzinom der bulbomembranösen Harnröhre. Das MRT zeigt eine Infiltration des Corpus spongiosum und der Beckenbodenmuskulatur, im CT sind vergrößerte pelvine Lymphknoten sichtbar. Kein Anhalt für Fernmetastasen.",
+          "lead_in": "Welches Konzept ist zu wählen?",
+          "options": {
+            "A": { "text": "Primäre Operation ohne vorgeschaltete Systemtherapie", "rationale": "Bei ausgedehntem Lokalbefund und Lymphknotenbefall sind die Ergebnisse der alleinigen Operation schlecht, und die Resektabilität ist oft unsicher." },
+            "B": { "text": "Multimodal mit neoadjuvanter Therapie und anschließender Operation", "rationale": "Bei lokal fortgeschrittenen Tumoren verbessert die vorgeschaltete Therapie die Resektabilität und die Aussichten. Die Substanzwahl richtet sich nach der Histologie; das Vorgehen gehört an ein Zentrum." },
+            "C": { "text": "Alleinige Nachsorge mit engmaschiger Bildgebung", "rationale": "Bei einem lokal fortgeschrittenen Tumor mit kurativem Anspruch ist Beobachtung nicht vertretbar." },
+            "D": { "text": "Palliative Bestrahlung ohne kurative Zielsetzung planen", "rationale": "Ohne Fernmetastasen besteht ein kurativer Anspruch; die palliative Zielsetzung wäre verfrüht." }
+          },
+          "explanation": {
+            "core": "Das proximale Harnröhrenkarzinom des Mannes wird meist spät erkannt und ist bei Diagnose oft lokal fortgeschritten. Aus der Seltenheit folgt, dass es kaum randomisierte Daten gibt und die Behandlung an Zentren mit interdisziplinärem Tumorboard gehört. Die Reihenfolge aus Systemtherapie und Operation richtet sich nach Histologie, Ausdehnung und Lymphknotenstatus.",
+            "teaching_point": "Proximal und fortgeschritten heißt nicht sofort operieren, sondern zuerst das Tumorboard."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "57-year-old man with squamous cell carcinoma of the bulbomembranous urethra. MRI shows invasion of the corpus spongiosum and pelvic floor muscles, and CT shows enlarged pelvic nodes. There is no evidence of distant metastases.",
+          "lead_in": "Which concept should be chosen?",
+          "options": {
+            "A": { "text": "Primary surgery without any preceding systemic therapy", "rationale": "With extensive local disease and nodal involvement the results of surgery alone are poor and resectability is often uncertain." },
+            "B": { "text": "Multimodal treatment with neoadjuvant therapy then surgery", "rationale": "In locally advanced tumours upfront therapy improves resectability and outcome. The choice of agents follows histology, and management belongs in a specialist centre." },
+            "C": { "text": "Surveillance alone with close interval imaging studies", "rationale": "In a locally advanced tumour treated with curative intent, observation is not defensible." },
+            "D": { "text": "Plan palliative radiotherapy without curative intent", "rationale": "Without distant metastases curative intent applies; a palliative aim would be premature." }
+          },
+          "explanation": {
+            "core": "Proximal male urethral carcinoma is usually detected late and is often locally advanced at diagnosis. Its rarity means there are few randomised data and treatment belongs in centres with an interdisciplinary tumour board. The sequence of systemic therapy and surgery follows histology, extent and nodal status.",
+            "teaching_point": "Proximal and advanced means the tumour board first, not the theatre."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Hombre de 57 años con carcinoma escamoso de la uretra bulbomembranosa. La resonancia muestra invasión del cuerpo esponjoso y de la musculatura del suelo pélvico, y la tomografía, adenopatías pélvicas. No hay signos de metástasis a distancia.",
+          "lead_in": "¿Qué concepto terapéutico debe elegirse?",
+          "options": {
+            "A": { "text": "Cirugía primaria sin tratamiento sistémico previo alguno", "rationale": "Con enfermedad local extensa y afectación ganglionar los resultados de la cirugía aislada son malos y la resecabilidad suele ser incierta." },
+            "B": { "text": "Tratamiento multimodal con terapia neoadyuvante y cirugía", "rationale": "En tumores localmente avanzados el tratamiento previo mejora la resecabilidad y el pronóstico. La elección de fármacos sigue a la histología y el manejo corresponde a un centro de referencia." },
+            "C": { "text": "Solo seguimiento estrecho mediante pruebas de imagen", "rationale": "En un tumor localmente avanzado con intención curativa la observación no es defendible." },
+            "D": { "text": "Planificar radioterapia paliativa sin intención curativa", "rationale": "Sin metástasis a distancia la intención es curativa; el objetivo paliativo sería prematuro." }
+          },
+          "explanation": {
+            "core": "El carcinoma uretral proximal masculino suele detectarse tarde y con frecuencia está localmente avanzado al diagnóstico. Su rareza implica escasos datos aleatorizados y el tratamiento corresponde a centros con comité multidisciplinar. La secuencia entre tratamiento sistémico y cirugía depende de la histología, la extensión y el estado ganglionar.",
+            "teaching_point": "Proximal y avanzado significa primero el comité, no el quirófano."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ure-00006",
+      "version": 1,
+      "status": "published",
+      "taxonomy": { "subdomain": "Lymphabfluss", "tags": ["operationstechnik", "pathologie"] },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": false }, { "key": "C", "correct": true }, { "key": "D", "correct": false }],
+      "evidence": { "level": "IIB", "certainty": "etabliert", "flag": false },
+      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Primary Urethral Carcinoma", "year": 2026 }],
+      "review": { "author": "EK", "reviewer": null, "created": "2026-09-09", "last_reviewed": "2026-09-09", "expires": "2028-09-09" },
+      "content": {
+        "de": {
+          "vignette": "Zwei Patienten mit Harnröhrenkarzinom und tastbaren Lymphknoten. Beim ersten sitzt der Tumor distal in der Penisurethra, beim zweiten proximal in der bulbomembranösen Harnröhre.",
+          "lead_in": "In welche Stationen drainieren die beiden Tumoren?",
+          "options": {
+            "A": { "text": "Beide zuerst in die pelvinen Lymphknotenstationen", "rationale": "Das gilt für den proximalen Abschnitt; die distale Harnröhre folgt dem Abfluss des äußeren Genitales." },
+            "B": { "text": "Beide zuerst in die inguinalen Lymphknotenstationen", "rationale": "Das gilt für den distalen Abschnitt; der proximale drainiert direkt in das Becken." },
+            "C": { "text": "Distal inguinal, proximal in die pelvinen Stationen", "rationale": "Die vordere Harnröhre folgt dem Abfluss von Penis und Vulva zu den Leisten, die hintere zieht direkt zu den obturatorischen und iliakalen Stationen. Tastbare Lymphknoten werden ausgeräumt." },
+            "D": { "text": "Der Lymphabfluss ist bei diesem Tumor ohne Bedeutung", "rationale": "Der Lymphknotenstatus ist einer der wichtigsten prognostischen Faktoren und steuert das Ausmaß der Operation." }
+          },
+          "explanation": {
+            "core": "Der Lymphabfluss der Harnröhre folgt ihrer embryonalen Herkunft und teilt sich an der Grenze zwischen vorderem und hinterem Abschnitt. Daraus ergibt sich das Ausräumungsgebiet: inguinal bei distalen, pelvin bei proximalen Tumoren. Anders als beim Peniskarzinom ist die prophylaktische Ausräumung bei unauffälligen Leisten nicht in gleicher Weise etabliert.",
+            "teaching_point": "Die vordere Harnröhre drainiert in die Leiste, die hintere ins Becken."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Two patients with urethral carcinoma and palpable nodes. In the first the tumour lies distally in the penile urethra, in the second proximally in the bulbomembranous urethra.",
+          "lead_in": "To which stations do the two tumours drain?",
+          "options": {
+            "A": { "text": "Both drain first to the pelvic nodal stations", "rationale": "That applies to the proximal segment; the distal urethra follows the drainage of the external genitalia." },
+            "B": { "text": "Both drain first to the inguinal nodal stations", "rationale": "That applies to the distal segment; the proximal urethra drains directly into the pelvis." },
+            "C": { "text": "Distal to the inguinal, proximal to the pelvic stations", "rationale": "The anterior urethra follows penile and vulval drainage to the groins, the posterior runs directly to obturator and iliac stations. Palpable nodes are dissected." },
+            "D": { "text": "Lymphatic drainage is irrelevant in this tumour", "rationale": "Nodal status is one of the most important prognostic factors and governs the extent of surgery." }
+          },
+          "explanation": {
+            "core": "Urethral lymphatic drainage follows embryological origin and divides at the boundary between anterior and posterior segments. The dissection field follows from this: inguinal for distal, pelvic for proximal tumours. Unlike penile cancer, prophylactic dissection with clinically normal groins is not established to the same degree.",
+            "teaching_point": "The anterior urethra drains to the groin, the posterior to the pelvis."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Dos pacientes con carcinoma de uretra y ganglios palpables. En el primero el tumor es distal, en la uretra peneana; en el segundo, proximal, en la uretra bulbomembranosa.",
+          "lead_in": "¿Hacia qué estaciones drenan ambos tumores?",
+          "options": {
+            "A": { "text": "Ambos drenan primero a las estaciones ganglionares pélvicas", "rationale": "Eso corresponde al segmento proximal; la uretra distal sigue el drenaje de los genitales externos." },
+            "B": { "text": "Ambos drenan primero a las estaciones ganglionares inguinales", "rationale": "Eso corresponde al segmento distal; la uretra proximal drena directamente a la pelvis." },
+            "C": { "text": "El distal a las inguinales y el proximal a las pélvicas", "rationale": "La uretra anterior sigue el drenaje del pene y la vulva hacia las ingles; la posterior se dirige a las estaciones obturatrices e ilíacas. Los ganglios palpables se disecan." },
+            "D": { "text": "El drenaje linfático carece de relevancia en este tumor", "rationale": "El estado ganglionar es uno de los factores pronósticos más importantes y determina la extensión de la cirugía." }
+          },
+          "explanation": {
+            "core": "El drenaje linfático de la uretra sigue su origen embriológico y se divide en el límite entre los segmentos anterior y posterior. De ahí se deduce el campo de disección: inguinal para los distales, pélvico para los proximales. A diferencia del cáncer de pene, la disección profiláctica con ingles normales no está igualmente establecida.",
+            "teaching_point": "La uretra anterior drena a la ingle; la posterior, a la pelvis."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ure-00007",
+      "version": 1,
+      "status": "published",
+      "taxonomy": { "subdomain": "prostatische Harnröhre", "tags": ["pharmakologie", "operationstechnik", "pathologie"] },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [{ "key": "A", "correct": true }, { "key": "B", "correct": false }, { "key": "C", "correct": false }, { "key": "D", "correct": false }],
+      "evidence": { "level": "IIB", "certainty": "etabliert", "flag": false },
+      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Primary Urethral Carcinoma", "year": 2026 }],
+      "review": { "author": "EK", "reviewer": null, "created": "2026-09-09", "last_reviewed": "2026-09-09", "expires": "2028-09-09" },
+      "content": {
+        "de": {
+          "vignette": "Bei einem 66-jährigen Mann findet sich ein Urothelkarzinom der prostatischen Harnröhre. Die Biopsie zeigt einen Befall der Harnröhrenschleimhaut und der prostatischen Gänge, aber keine Infiltration des Prostatastromas. Die Blase ist frei.",
+          "lead_in": "Wie ist zu behandeln?",
+          "options": {
+            "A": { "text": "Transurethrale Resektion, danach Instillation mit BCG", "rationale": "Ohne Stromainvasion ist der organerhaltende Weg möglich. Voraussetzung sind die vollständige Resektion und eine engmaschige endoskopische Nachsorge." },
+            "B": { "text": "Sofortige radikale Zystoprostatektomie mit Ableitung", "rationale": "Sie ist bei Stromainvasion oder Versagen der Instillationstherapie angezeigt, nicht als erster Schritt bei rein mukosalem und duktalem Befall." },
+            "C": { "text": "Alleinige Beobachtung mit Zystoskopie alle sechs Monate", "rationale": "Ein unbehandelter Befall der prostatischen Gänge geht mit hohem Progressionsrisiko einher." },
+            "D": { "text": "Perkutane Bestrahlung der Prostata als primäre Therapie", "rationale": "Die Bestrahlung ist in dieser Situation kein etabliertes Vorgehen und erschwert die spätere Chirurgie." }
+          },
+          "explanation": {
+            "core": "Beim Urothelkarzinom der prostatischen Harnröhre entscheidet die Tiefe. Rein mukosaler und duktaler Befall ohne Stromainvasion wird transurethral reseziert und mit BCG behandelt, wobei die Ansprechrate niedriger ist als in der Blase. Sobald das Prostatastroma infiltriert ist, ändert sich die Einordnung, und die radikale Operation tritt an die Stelle des Organerhalts.",
+            "teaching_point": "Die Stromainvasion trennt den Organerhalt von der radikalen Operation."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 66-year-old man is found to have urothelial carcinoma of the prostatic urethra. Biopsy shows involvement of the urethral mucosa and prostatic ducts but no invasion of the prostatic stroma. The bladder is clear.",
+          "lead_in": "How should this be treated?",
+          "options": {
+            "A": { "text": "Transurethral resection followed by BCG instillation", "rationale": "Without stromal invasion the organ-sparing route is possible. Complete resection and close endoscopic follow-up are prerequisites." },
+            "B": { "text": "Immediate radical cystoprostatectomy with diversion", "rationale": "It is indicated for stromal invasion or failure of instillation therapy, not as a first step in purely mucosal and ductal disease." },
+            "C": { "text": "Observation alone with cystoscopy every six months", "rationale": "Untreated involvement of the prostatic ducts carries a high risk of progression." },
+            "D": { "text": "External beam radiotherapy of the prostate as primary treatment", "rationale": "Radiotherapy is not established in this situation and complicates any later surgery." }
+          },
+          "explanation": {
+            "core": "In urothelial carcinoma of the prostatic urethra, depth decides. Purely mucosal and ductal involvement without stromal invasion is resected transurethrally and treated with BCG, though response rates are lower than in the bladder. Once the prostatic stroma is invaded the classification changes and radical surgery replaces organ preservation.",
+            "teaching_point": "Stromal invasion separates organ preservation from radical surgery."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "En un hombre de 66 años se detecta un carcinoma urotelial de la uretra prostática. La biopsia muestra afectación de la mucosa uretral y de los conductos prostáticos, sin invasión del estroma prostático. La vejiga está libre.",
+          "lead_in": "¿Cómo debe tratarse?",
+          "options": {
+            "A": { "text": "Resección transuretral y después instilaciones con BCG", "rationale": "Sin invasión del estroma es posible la vía conservadora. Se requieren resección completa y seguimiento endoscópico estrecho." },
+            "B": { "text": "Cistoprostatectomía radical inmediata con derivación", "rationale": "Está indicada ante invasión del estroma o fracaso de las instilaciones, no como primer paso en enfermedad mucosa y ductal." },
+            "C": { "text": "Solo observación con cistoscopia cada seis meses", "rationale": "La afectación no tratada de los conductos prostáticos conlleva un alto riesgo de progresión." },
+            "D": { "text": "Radioterapia externa prostática como tratamiento inicial", "rationale": "La radioterapia no está establecida en esta situación y dificulta una cirugía posterior." }
+          },
+          "explanation": {
+            "core": "En el carcinoma urotelial de la uretra prostática decide la profundidad. La afectación puramente mucosa y ductal sin invasión del estroma se reseca por vía transuretral y se trata con BCG, aunque la tasa de respuesta es menor que en la vejiga. En cuanto el estroma prostático está invadido cambia la clasificación y la cirugía radical sustituye a la preservación.",
+            "teaching_point": "La invasión del estroma separa la preservación de la cirugía radical."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ure-00008",
+      "version": 1,
+      "status": "published",
+      "taxonomy": { "subdomain": "Systemtherapie", "tags": ["pharmakologie", "pathologie", "leitlinie"] },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": false }, { "key": "C", "correct": false }, { "key": "D", "correct": true }],
+      "evidence": { "level": "IIB", "certainty": "etabliert", "flag": false },
+      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Primary Urethral Carcinoma", "year": 2026 }],
+      "review": { "author": "EK", "reviewer": null, "created": "2026-09-09", "last_reviewed": "2026-09-09", "expires": "2028-09-09" },
+      "content": {
+        "de": {
+          "vignette": "Im Tumorboard werden zwei Patienten mit lokal fortgeschrittenem Harnröhrenkarzinom besprochen. Bei einem lautet die Histologie Urothelkarzinom, beim anderen Plattenepithelkarzinom. Beide sind cisplatinfähig.",
+          "lead_in": "Wie unterscheidet sich die Systemtherapie?",
+          "options": {
+            "A": { "text": "Beide erhalten dasselbe platinbasierte Schema ohne Unterschied", "rationale": "Die Histologie bestimmt die Substanzwahl; ein einheitliches Schema für beide Formen entspricht nicht der Praxis." },
+            "B": { "text": "Beide werden primär mit Checkpointinhibitoren behandelt", "rationale": "Die Immuntherapie hat ihren Platz im metastasierten Urothelkarzinom, nicht als einheitliche neoadjuvante Behandlung beider Histologien." },
+            "C": { "text": "Beide erhalten ausschließlich eine alleinige Strahlentherapie", "rationale": "Die alleinige Bestrahlung ist der Kombination bei lokal fortgeschrittener Erkrankung unterlegen." },
+            "D": { "text": "Urothelial platinbasiert, plattenepithelial mit Radiochemotherapie", "rationale": "Beim Urothelkarzinom wird nach dem Vorbild des Blasenkarzinoms platinbasiert behandelt. Beim Plattenepithelkarzinom hat sich die kombinierte Radiochemotherapie mit Cisplatin und Fluorouracil etabliert." }
+          },
+          "explanation": {
+            "core": "Weil das Harnröhrenkarzinom selten ist, stützt sich die Systemtherapie auf Analogien zu häufigeren Tumoren mit gleicher Histologie. Urothelkarzinome folgen dem Blasenkarzinom, Plattenepithelkarzinome den Plattenepithelkarzinomen des Anogenitalbereichs. Deshalb ist die genaue histologische Zuordnung vor Therapiebeginn keine akademische Frage.",
+            "teaching_point": "Bei seltenen Tumoren richtet sich die Therapie nach der Histologie, nicht nach dem Organ."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Two patients with locally advanced urethral carcinoma are discussed at the tumour board. In one the histology is urothelial carcinoma, in the other squamous cell carcinoma. Both are cisplatin-eligible.",
+          "lead_in": "How does systemic therapy differ?",
+          "options": {
+            "A": { "text": "Both receive the same platinum regimen without distinction", "rationale": "Histology determines the choice of agents; a single regimen for both forms does not reflect practice." },
+            "B": { "text": "Both are treated primarily with checkpoint inhibitors", "rationale": "Immunotherapy has its place in metastatic urothelial carcinoma, not as uniform neoadjuvant treatment of both histologies." },
+            "C": { "text": "Both receive radiotherapy alone without any systemic drug", "rationale": "Radiotherapy alone is inferior to combined treatment in locally advanced disease." },
+            "D": { "text": "Urothelial platinum-based, squamous with chemoradiotherapy", "rationale": "Urothelial carcinoma is treated with platinum following the bladder cancer model. In squamous cell carcinoma combined chemoradiotherapy with cisplatin and fluorouracil is established." }
+          },
+          "explanation": {
+            "core": "Because urethral carcinoma is rare, systemic therapy rests on analogies with commoner tumours of the same histology. Urothelial carcinomas follow bladder cancer, squamous cell carcinomas follow anogenital squamous cancers. Precise histological classification before treatment is therefore not an academic question.",
+            "teaching_point": "In rare tumours treatment follows the histology, not the organ."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "En el comité de tumores se comentan dos pacientes con carcinoma uretral localmente avanzado. En uno la histología es urotelial y en el otro escamosa. Ambos son aptos para cisplatino.",
+          "lead_in": "¿En qué se diferencia el tratamiento sistémico?",
+          "options": {
+            "A": { "text": "Ambos reciben el mismo esquema con platino sin distinción", "rationale": "La histología determina la elección de fármacos; un esquema único para ambas formas no corresponde a la práctica." },
+            "B": { "text": "Ambos se tratan de entrada con inhibidores de puntos de control", "rationale": "La inmunoterapia tiene su lugar en el carcinoma urotelial metastásico, no como tratamiento neoadyuvante uniforme de ambas histologías." },
+            "C": { "text": "Ambos reciben radioterapia aislada sin fármaco sistémico", "rationale": "La radioterapia aislada es inferior al tratamiento combinado en enfermedad localmente avanzada." },
+            "D": { "text": "Urotelial con platino y escamoso con quimiorradioterapia", "rationale": "El carcinoma urotelial se trata con platino siguiendo el modelo del cáncer vesical. En el escamoso está establecida la quimiorradioterapia combinada con cisplatino y fluorouracilo." }
+          },
+          "explanation": {
+            "core": "Por ser un tumor raro, el tratamiento sistémico del carcinoma uretral se apoya en analogías con tumores más frecuentes de la misma histología. Los uroteliales siguen al cáncer vesical y los escamosos a los carcinomas escamosos anogenitales. Por eso la clasificación histológica precisa antes de tratar no es una cuestión académica.",
+            "teaching_point": "En tumores raros el tratamiento sigue a la histología, no al órgano."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ure-00009",
+      "version": 1,
+      "status": "published",
+      "taxonomy": { "subdomain": "Prognose", "tags": ["pathologie", "nachsorge"] },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": true }, { "key": "C", "correct": false }, { "key": "D", "correct": false }],
+      "evidence": { "level": "IIB", "certainty": "etabliert", "flag": false },
+      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Primary Urethral Carcinoma", "year": 2026 }],
+      "review": { "author": "EK", "reviewer": null, "created": "2026-09-09", "last_reviewed": "2026-09-09", "expires": "2028-09-09" },
+      "content": {
+        "de": {
+          "vignette": "Zwei Patientinnen mit Harnröhrenkarzinom gleicher Histologie und gleichem Tumorstadium. Bei der ersten sitzt der Tumor im distalen Drittel, bei der zweiten am Blasenhals mit Übergang in die proximale Harnröhre.",
+          "lead_in": "Welche Aussage zur Prognose trifft zu?",
+          "options": {
+            "A": { "text": "Die Lokalisation hat keinen Einfluss auf die Prognose", "rationale": "Sie ist neben Stadium und Lymphknotenstatus einer der wichtigsten unabhängigen Faktoren." },
+            "B": { "text": "Der distale Sitz ist prognostisch deutlich günstiger", "rationale": "Distale Tumoren fallen früher auf, sind kleiner und organerhaltend behandelbar. Proximale wachsen lange unbemerkt und sind bei Diagnose oft fortgeschritten." },
+            "C": { "text": "Der proximale Sitz ist prognostisch der günstigere", "rationale": "Die Zuordnung ist vertauscht; proximale Tumoren haben die schlechtere Prognose." },
+            "D": { "text": "Nur das Alter der Patientin bestimmt den Verlauf", "rationale": "Das Alter fließt in die Therapieplanung ein, ist aber kein bestimmender Tumorfaktor." }
+          },
+          "explanation": {
+            "core": "Prognose und Behandlung des Harnröhrenkarzinoms folgen denselben Größen: Lokalisation, Stadium, Histologie und Lymphknotenstatus. Der Zusammenhang zwischen Lokalisation und Prognose ist dabei kein biologischer Zufall, sondern eine Frage der Entdeckung: Was distal sitzt, macht früh Beschwerden und fällt auf, was proximal sitzt, wird lange als funktionelle Störung fehlgedeutet.",
+            "teaching_point": "Der distale Tumor wird früh entdeckt, der proximale spät. Das erklärt den Prognoseunterschied."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Two women with urethral carcinoma of the same histology and stage. In the first the tumour lies in the distal third, in the second at the bladder neck extending into the proximal urethra.",
+          "lead_in": "Which statement about prognosis is correct?",
+          "options": {
+            "A": { "text": "Location has no influence on the prognosis at all", "rationale": "Alongside stage and nodal status it is one of the most important independent factors." },
+            "B": { "text": "A distal location is prognostically considerably better", "rationale": "Distal tumours present earlier, are smaller and amenable to organ preservation. Proximal ones grow unnoticed and are often advanced at diagnosis." },
+            "C": { "text": "A proximal location carries the better prognosis here", "rationale": "The assignment is reversed; proximal tumours carry the worse prognosis." },
+            "D": { "text": "Only the patient's age determines the further course", "rationale": "Age informs treatment planning but is not a determining tumour factor." }
+          },
+          "explanation": {
+            "core": "Prognosis and treatment of urethral carcinoma follow the same variables: location, stage, histology and nodal status. The link between location and prognosis is not a biological accident but a question of detection: distal disease causes symptoms early and is noticed, while proximal disease is long misread as a functional disorder.",
+            "teaching_point": "Distal tumours are found early, proximal ones late. That explains the difference."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Dos mujeres con carcinoma de uretra de la misma histología y el mismo estadio. En la primera el tumor se localiza en el tercio distal; en la segunda, en el cuello vesical con extensión a la uretra proximal.",
+          "lead_in": "¿Qué afirmación sobre el pronóstico es correcta?",
+          "options": {
+            "A": { "text": "La localización no influye en absoluto en el pronóstico", "rationale": "Junto con el estadio y el estado ganglionar es uno de los factores independientes más importantes." },
+            "B": { "text": "La localización distal es claramente más favorable", "rationale": "Los tumores distales se manifiestan antes, son menores y admiten preservación de órgano. Los proximales crecen inadvertidos y suelen estar avanzados al diagnóstico." },
+            "C": { "text": "La localización proximal es aquí la de mejor pronóstico", "rationale": "La asignación está invertida; los tumores proximales tienen peor pronóstico." },
+            "D": { "text": "Solo la edad de la paciente determina la evolución", "rationale": "La edad orienta la planificación terapéutica, pero no es un factor tumoral determinante." }
+          },
+          "explanation": {
+            "core": "El pronóstico y el tratamiento del carcinoma uretral dependen de las mismas variables: localización, estadio, histología y estado ganglionar. La relación entre localización y pronóstico no es casual sino una cuestión de detección: lo distal da síntomas pronto y se advierte, mientras que lo proximal se interpreta largo tiempo como trastorno funcional.",
+            "teaching_point": "El tumor distal se descubre pronto y el proximal tarde. Eso explica la diferencia."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-ure-00010",
+      "version": 1,
+      "status": "published",
+      "taxonomy": { "subdomain": "Nachsorge", "tags": ["nachsorge", "bildgebung", "endourologisch"] },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": false }, { "key": "C", "correct": true }, { "key": "D", "correct": false }],
+      "evidence": { "level": "IIB", "certainty": "etabliert", "flag": false },
+      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Primary Urethral Carcinoma", "year": 2026 }],
+      "review": { "author": "EK", "reviewer": null, "created": "2026-09-09", "last_reviewed": "2026-09-09", "expires": "2028-09-09" },
+      "content": {
+        "de": {
+          "vignette": "Eine Patientin ist nach organerhaltender Behandlung eines distalen Harnröhrenkarzinoms tumorfrei. Sie fragt, wie die Nachsorge aussieht und worauf sie selbst achten soll.",
+          "lead_in": "Was gehört in das Nachsorgekonzept?",
+          "options": {
+            "A": { "text": "Jährliche Sonographie der Nieren als alleinige Kontrolle", "rationale": "Der Ultraschall erfasst weder ein lokales Rezidiv in der Harnröhre noch die inguinalen Stationen." },
+            "B": { "text": "Nachsorge kann nach zwei rezidivfreien Jahren enden", "rationale": "Rezidive treten auch nach Jahren auf, und nach Organerhalt bleibt das gesamte verbliebene Epithel gefährdet." },
+            "C": { "text": "Urethroskopie, Zytologie, Leistentastung und Bildgebung", "rationale": "Nach Organerhalt ist die lokale Kontrolle entscheidend, weil die Rezidivrate hoch ist. Die Tastuntersuchung der Leisten erfasst den häufigsten Ort der regionären Ausbreitung." },
+            "D": { "text": "Tumormarker im Blut in dreimonatigen Abständen bestimmen", "rationale": "Für das Harnröhrenkarzinom existiert kein etablierter Serummarker zur Verlaufskontrolle." }
+          },
+          "explanation": {
+            "core": "Der Organerhalt beim Harnröhrenkarzinom verlagert die Sicherheit von der Operation in die Nachsorge, ähnlich wie beim Urothelkarzinom des oberen Harntrakts. Kontrolliert werden lokal endoskopisch und zytologisch, regionär durch Tastbefund und Bildgebung der Leisten und des Beckens, sowie systemisch mit Schnittbildgebung. Wegen der Seltenheit erfolgt die Nachsorge bevorzugt an dem Zentrum, das behandelt hat.",
+            "teaching_point": "Wer organerhaltend behandelt, verpflichtet sich zur endoskopischen Nachsorge."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A woman is disease-free after organ-sparing treatment of a distal urethral carcinoma. She asks what follow-up involves and what she should watch for herself.",
+          "lead_in": "What belongs in the follow-up concept?",
+          "options": {
+            "A": { "text": "Annual renal ultrasound as the only follow-up test", "rationale": "Ultrasound detects neither a local recurrence in the urethra nor the inguinal stations." },
+            "B": { "text": "Follow-up may stop after two recurrence-free years", "rationale": "Recurrences occur even after years, and after organ preservation the entire retained epithelium remains at risk." },
+            "C": { "text": "Urethroscopy, cytology, groin palpation and imaging", "rationale": "After organ preservation local control is decisive, because the recurrence rate is high. Palpation of the groins covers the commonest site of regional spread." },
+            "D": { "text": "Serum tumour markers measured at three-month intervals", "rationale": "No established serum marker exists for monitoring urethral carcinoma." }
+          },
+          "explanation": {
+            "core": "Organ preservation in urethral carcinoma shifts safety from the operation to the follow-up, much as in upper tract urothelial carcinoma. Monitoring is local by endoscopy and cytology, regional by palpation and imaging of groins and pelvis, and systemic by cross-sectional imaging. Because the tumour is rare, follow-up preferably takes place at the treating centre.",
+            "teaching_point": "Choosing organ preservation commits you to endoscopic follow-up."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Una paciente está libre de enfermedad tras el tratamiento conservador de un carcinoma uretral distal. Pregunta en qué consiste el seguimiento y a qué debe estar atenta ella misma.",
+          "lead_in": "¿Qué debe incluir el plan de seguimiento?",
+          "options": {
+            "A": { "text": "Ecografía renal anual como única prueba de seguimiento", "rationale": "La ecografía no detecta ni la recidiva local en la uretra ni las estaciones inguinales." },
+            "B": { "text": "El seguimiento puede cesar tras dos años sin recidiva", "rationale": "Las recidivas aparecen incluso años después y, tras la preservación, todo el epitelio conservado sigue en riesgo." },
+            "C": { "text": "Uretroscopia, citología, palpación inguinal e imagen", "rationale": "Tras la preservación el control local es decisivo, porque la tasa de recidiva es alta. La palpación de las ingles cubre el lugar más frecuente de diseminación regional." },
+            "D": { "text": "Marcadores tumorales en sangre cada tres meses", "rationale": "No existe un marcador sérico establecido para el seguimiento del carcinoma uretral." }
+          },
+          "explanation": {
+            "core": "La preservación de órgano en el carcinoma uretral traslada la seguridad de la cirugía al seguimiento, igual que en el carcinoma urotelial del tracto superior. Se controla localmente con endoscopia y citología, regionalmente con palpación e imagen de ingles y pelvis, y sistémicamente con tomografía. Por su rareza, el seguimiento se realiza preferentemente en el centro que trató.",
+            "teaching_point": "Quien opta por preservar el órgano se compromete al seguimiento endoscópico."
+          },
+          "flag_note": null
+        }
+      }
+    }
+  ]
 }

@@ -3,7 +3,8 @@
   "session_size": 10,
   "languages": [
     "de",
-    "en"
+    "en",
+    "es"
   ],
   "tags": [
     "notfall",
@@ -30,7 +31,8 @@
       "slug": "onkologie",
       "label": {
         "de": "Uro-Onkologie",
-        "en": "Uro-oncology"
+        "en": "Uro-oncology",
+        "es": "Uro-oncología"
       }
     }
   ],
@@ -40,11 +42,13 @@
       "group": "onkologie",
       "label": {
         "de": "Prostatakarzinom",
-        "en": "Prostate cancer"
+        "en": "Prostate cancer",
+        "es": "Cáncer de próstata"
       },
       "hint": {
         "de": "Diagnostik bis mCRPC",
-        "en": "Diagnosis through mCRPC"
+        "en": "Diagnosis through mCRPC",
+        "es": "Del diagnóstico al mCRPC"
       }
     },
     {
@@ -52,11 +56,13 @@
       "group": "onkologie",
       "label": {
         "de": "NMIBC",
-        "en": "NMIBC"
+        "en": "NMIBC",
+        "es": "NMIBC"
       },
       "hint": {
         "de": "Ta, T1, Cis, Instillationstherapie",
-        "en": "Ta, T1, CIS, intravesical therapy"
+        "en": "Ta, T1, CIS, intravesical therapy",
+        "es": "Ta, T1, CIS, terapia intravesical"
       }
     },
     {
@@ -64,11 +70,13 @@
       "group": "onkologie",
       "label": {
         "de": "MIBC",
-        "en": "MIBC"
+        "en": "MIBC",
+        "es": "MIBC"
       },
       "hint": {
         "de": "Perioperative Systemtherapie, Zystektomie, Trimodalität",
-        "en": "Perioperative systemic therapy, cystectomy, trimodal therapy"
+        "en": "Perioperative systemic therapy, cystectomy, trimodal therapy",
+        "es": "Terapia perioperatoria, cistectomía, trimodal"
       }
     },
     {
@@ -76,11 +84,13 @@
       "group": "onkologie",
       "label": {
         "de": "Nierenzellkarzinom",
-        "en": "Renal cell carcinoma"
+        "en": "Renal cell carcinoma",
+        "es": "Carcinoma de células renales"
       },
       "hint": {
         "de": "Lokal, lokal fortgeschritten, metastasiert",
-        "en": "Localised, locally advanced, metastatic"
+        "en": "Localised, locally advanced, metastatic",
+        "es": "Localizado, localmente avanzado, metastásico"
       }
     },
     {
@@ -88,11 +98,13 @@
       "group": "onkologie",
       "label": {
         "de": "Hodentumor",
-        "en": "Testicular cancer"
+        "en": "Testicular cancer",
+        "es": "Tumor testicular"
       },
       "hint": {
         "de": "Seminom, Nichtseminom, Nachsorge",
-        "en": "Seminoma, non-seminoma, follow-up"
+        "en": "Seminoma, non-seminoma, follow-up",
+        "es": "Seminoma, no seminoma, seguimiento"
       }
     },
     {
@@ -100,11 +112,13 @@
       "group": "onkologie",
       "label": {
         "de": "UTUC",
-        "en": "UTUC"
+        "en": "UTUC",
+        "es": "UTUC"
       },
       "hint": {
         "de": "Urothelkarzinom des oberen Harntrakts",
-        "en": "Upper tract urothelial carcinoma"
+        "en": "Upper tract urothelial carcinoma",
+        "es": "Carcinoma urotelial del tracto superior"
       }
     },
     {
@@ -112,11 +126,13 @@
       "group": "onkologie",
       "label": {
         "de": "Peniskarzinom",
-        "en": "Penile cancer"
+        "en": "Penile cancer",
+        "es": "Cáncer de pene"
       },
       "hint": {
         "de": "Primärtumor, inguinales Staging",
-        "en": "Primary tumour, inguinal staging"
+        "en": "Primary tumour, inguinal staging",
+        "es": "Tumor primario, estadificación inguinal"
       }
     },
     {
@@ -124,99 +140,117 @@
       "group": "onkologie",
       "label": {
         "de": "Urethrakarzinom",
-        "en": "Urethral cancer"
+        "en": "Urethral cancer",
+        "es": "Cáncer de uretra"
       },
       "hint": {
         "de": "Selten, geschlechtsspezifisches Vorgehen",
-        "en": "Rare, sex-specific management"
+        "en": "Rare, sex-specific management",
+        "es": "Raro, manejo según sexo y localización"
       }
     },
     {
       "slug": "funktionell",
       "label": {
         "de": "Funktionelle Urologie & Neurourologie",
-        "en": "Functional urology & neuro-urology"
+        "en": "Functional urology & neuro-urology",
+        "es": "Urología funcional y neurourología"
       },
       "hint": {
         "de": "LUTS, OAB, Inkontinenz, Urodynamik, Neuromodulation",
-        "en": "LUTS, OAB, incontinence, urodynamics, neuromodulation"
+        "en": "LUTS, OAB, incontinence, urodynamics, neuromodulation",
+        "es": "STUI, VH, incontinencia, urodinámica"
       }
     },
     {
       "slug": "kinderurologie",
       "label": {
         "de": "Kinderurologie",
-        "en": "Paediatric urology"
+        "en": "Paediatric urology",
+        "es": "Urología pediátrica"
       },
       "hint": {
         "de": "Fehlbildungen, Reflux, Hodenhochstand",
-        "en": "Malformations, reflux, undescended testis"
+        "en": "Malformations, reflux, undescended testis",
+        "es": "Malformaciones, reflujo, criptorquidia"
       }
     },
     {
       "slug": "infektiologie",
       "label": {
         "de": "Infektiologie",
-        "en": "Infectious disease"
+        "en": "Infectious disease",
+        "es": "Infecciones"
       },
       "hint": {
         "de": "HWI, Prostatitis, sexuell übertragbare Infektionen",
-        "en": "UTI, prostatitis, sexually transmitted infections"
+        "en": "UTI, prostatitis, sexually transmitted infections",
+        "es": "ITU, prostatitis, infecciones de transmisión sexual"
       }
     },
     {
       "slug": "urolithiasis",
       "label": {
         "de": "Urolithiasis",
-        "en": "Urolithiasis"
+        "en": "Urolithiasis",
+        "es": "Urolitiasis"
       },
       "hint": {
         "de": "Diagnostik, Akuttherapie, Metaphylaxe",
-        "en": "Diagnosis, acute management, metaphylaxis"
+        "en": "Diagnosis, acute management, metaphylaxis",
+        "es": "Diagnóstico, manejo agudo, metafilaxis"
       }
     },
     {
       "slug": "trauma",
       "label": {
         "de": "Urologisches Trauma",
-        "en": "Urological trauma"
+        "en": "Urological trauma",
+        "es": "Trauma urológico"
       },
       "hint": {
         "de": "Niere, Harnleiter, Blase, Harnröhre, Genitale",
-        "en": "Kidney, ureter, bladder, urethra, genitalia"
+        "en": "Kidney, ureter, bladder, urethra, genitalia",
+        "es": "Riñón, uréter, vejiga, uretra, genitales"
       }
     },
     {
       "slug": "andrologie",
       "label": {
         "de": "Andrologie & Reproduktion",
-        "en": "Andrology & reproduction"
+        "en": "Andrology & reproduction",
+        "es": "Andrología y reproducción"
       },
       "hint": {
         "de": "Hypogonadismus, Fertilität, erektile Dysfunktion",
-        "en": "Hypogonadism, fertility, erectile dysfunction"
+        "en": "Hypogonadism, fertility, erectile dysfunction",
+        "es": "Hipogonadismo, fertilidad, disfunción eréctil"
       }
     },
     {
       "slug": "operativ",
       "label": {
         "de": "Operative Urologie",
-        "en": "Surgical urology"
+        "en": "Surgical urology",
+        "es": "Urología quirúrgica"
       },
       "hint": {
         "de": "Offen, laparoskopisch, robotisch, endourologisch",
-        "en": "Open, laparoscopic, robotic, endourological"
+        "en": "Open, laparoscopic, robotic, endourological",
+        "es": "Abierta, laparoscópica, robótica, endourológica"
       }
     },
     {
       "slug": "rekonstruktion",
       "label": {
         "de": "Rekonstruktion & Transplantation",
-        "en": "Reconstruction & transplantation"
+        "en": "Reconstruction & transplantation",
+        "es": "Reconstrucción y trasplante"
       },
       "hint": {
         "de": "Harnableitung, Urethra, Nierentransplantation",
-        "en": "Urinary diversion, urethra, kidney transplantation"
+        "en": "Urinary diversion, urethra, kidney transplantation",
+        "es": "Derivación urinaria, uretra, trasplante renal"
       }
     }
   ]

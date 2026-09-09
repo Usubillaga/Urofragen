@@ -1,6 +1,6 @@
 # Facharztfragen Urologie
 
-Zweisprachig (Deutsch / Englisch). Alle Fragen liegen in **einer** Datei.
+Dreisprachig (Deutsch / Englisch / Spanisch). Alle Fragen liegen in **einer** Datei.
 `build.py` prüft sie und baut daraus **eine einzige `index.html`** — das ist die
 einzige Datei, die zu GitHub hochgeladen wird.
 
@@ -143,7 +143,9 @@ dann `data/fragen/<slug>.json` anlegen mit `{ "gebiet": "<slug>", "fragen": [] }
 
 ## Funktionen der Seite
 
-- Umschalter DE / EN oben rechts, Auswahl bleibt gespeichert
+- Umschalter DE / EN / ES oben rechts, Auswahl bleibt gespeichert. Welche Sprachen
+  erscheinen, steht in `data/domains.json` unter `languages`. Fehlt eine Übersetzung,
+  fällt die Frage auf die erste Sprache zurück, und `build.py` meldet die Abdeckung.
 - Navigationsleiste über der Frage: zeigt richtig und falsch, erlaubt den Sprung zurück
 - Zurück-Knopf zwischen den Fragen, bereits gegebene Antworten bleiben sichtbar
 - **Als PDF drucken**: öffnet den Druckdialog des Browsers mit einem fertig gesetzten
