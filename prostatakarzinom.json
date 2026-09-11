@@ -11,7 +11,8 @@
           "pharmakologie",
           "dosierung"
         ],
-        "subdomain": "mHSPC"
+        "subdomain": "mHSPC",
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -114,6 +115,40 @@
             "teaching_point": "Metastatic burden decides prostate radiotherapy; chemotherapy fitness decides docetaxel. Answer the two questions separately."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 66 años, ECOG 0, sin comorbilidad relevante. PSA 184 ng/ml, biopsia grupo grado 5 ISUP. PSMA-PET/CT muestra nueve lesiones óseas en la columna y la pelvis, sin metástasis viscerales, sin fractura inminente ni compresión de la médula.",
+          "lead_in": "¿Qué tratamiento de primera línea concuerda con las guías?",
+          "options": {
+            "A": {
+              "text": "Privación de andrógenos más docetaxel sin ARPI",
+              "rationale": "Esto era estándar hasta ARASENS y PEACE-1. Agregar un ARPI mejora aún más la supervivencia y se prefiere en pacientes aptos para la quimioterapia."
+            },
+            "B": {
+              "text": "Privación de andrógenos más ARPI más radioterapia de próstata",
+              "rationale": "La terapia local del primario solo se establece en carga metastásica baja (grupo H de STAMPEDE); con nueve lesiones óseas no hay indicación."
+            },
+            "C": {
+              "text": "Privación de andrógenos más docetaxel más un ARPI",
+              "rationale": "Alta carga metastásica con buen estado funcional: ARASENS y PEACE-1 muestran una ventaja de supervivencia para la terapia triple sobre ADT más docetaxel. Docetaxel 75 mg/m² IV cada tres semanas durante seis ciclos, con darolutamida 600 mg dos veces al día o abiraterona 1000 mg al día más prednisona 5 mg."
+            },
+            "D": {
+              "text": "Privación de andrógenos como única monoterapia",
+              "rationale": "Se ha abandonado la monoterapia en mHSPC; Retener agentes eficaces cuesta la supervivencia general."
+            }
+          },
+          "explanation": {
+            "core": "La decisión gira en torno a dos ejes: la carga metastásica y la aptitud de la quimioterapia. Una carga alta más ECOG 0 conduce a una terapia triple. La radioterapia primaria está ligada a una carga baja y no debe tratarse como un complemento general.",
+            "teaching_point": "La carga metastásica decide la radioterapia de próstata; La aptitud de la quimioterapia decide docetaxel. Responda las dos preguntas por separado."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -128,7 +163,8 @@
           "dosierung",
           "nachsorge"
         ],
-        "subdomain": "nmCRPC"
+        "subdomain": "nmCRPC",
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -231,12 +267,46 @@
             "teaching_point": "In nmCRPC the PSA doubling time is not a follow-up parameter, it is the treatment criterion."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Hombre de 74 años tras prostatectomía radical y radioterapia de rescate, en privación de andrógenos durante cuatro años. Testosterona 18 ng/dl. El PSA ha aumentado de 4,2 a 9,8 ng/ml en seis meses. La TC y la gammagrafía ósea no muestran metástasis.",
+          "lead_in": "¿Qué está indicado?",
+          "options": {
+            "A": {
+              "text": "Observar con controles de PSA cada tres meses.",
+              "rationale": "Un tiempo de duplicación inferior a diez meses define nmCRPC de alto riesgo; esperar pierde el beneficio demostrado de la intensificación temprana."
+            },
+            "B": {
+              "text": "Continuar la privación de andrógenos y agregar un ARPI",
+              "rationale": "El tiempo de duplicación del PSA es de unos cinco meses y, por tanto, de alto riesgo; SPARTAN, PROSPER y ARAMIS muestran avances en la supervivencia general y libre de metástasis. Las opciones son apalutamida 240 mg al día, enzalutamida 160 mg al día o darolutamida 600 mg dos veces al día. La castración continúa independientemente."
+            },
+            "C": {
+              "text": "Iniciar la quimioterapia con docetaxel según el calendario estándar.",
+              "rationale": "En la enfermedad no metastásica resistente a la castración, docetaxel no está aprobado ni se ha demostrado que prolongue la supervivencia."
+            },
+            "D": {
+              "text": "Cambiar a monoterapia con bicalutamida en su lugar",
+              "rationale": "La castración nunca se reemplaza en el entorno resistente a la castración, sino que se continúa; No hay evidencia de eficacia para este cambio."
+            }
+          },
+          "explanation": {
+            "core": "Tres condiciones definen el nmCRPC: testosterona en rango de castración por debajo de 50 ng/dl, progresión del PSA y ausencia de metástasis en las imágenes convencionales. El tiempo de duplicación del PSA separa entonces el riesgo alto del bajo e impulsa la intensificación.",
+            "teaching_point": "En nmCRPC el tiempo de duplicación del PSA no es un parámetro de seguimiento, es el criterio de tratamiento."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-pca-00003",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "BCR",
@@ -245,7 +315,8 @@
           "pharmakologie",
           "dosierung",
           "nachsorge"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -290,7 +361,12 @@
         "reviewer": null,
         "created": "2026-09-05",
         "last_reviewed": "2026-09-05",
-        "expires": "2027-09-05"
+        "expires": "2027-09-05",
+        "editorial_review": {
+          "date": "2026-09-10",
+          "method": "AI-assisted editorial review",
+          "clinical_signoff": false
+        }
       },
       "content": {
         "de": {
@@ -307,7 +383,7 @@
             },
             "C": {
               "text": "Enzalutamid 160 mg täglich plus Androgendeprivation",
-              "rationale": "EMBARK schloss genau diese Konstellation ein: Hochrisiko-Rezidiv mit einer PSA-Verdopplungszeit von höchstens neun Monaten nach lokaler Therapie. Die Kombination verlängerte das metastasenfreie Überleben deutlich. EMBARK schloss genau diese Konstellation ein: Hochrisiko-Rezidiv mit einer PSA-Verdopplungszeit von höchstens neun Monaten nach lokaler Therapie."
+              "rationale": "EMBARK schloss genau diese Konstellation ein: Hochrisiko-Rezidiv mit einer PSA-Verdopplungszeit von höchstens neun Monaten nach lokaler Therapie. Die Kombination verlängerte das metastasenfreie Überleben deutlich."
             },
             "D": {
               "text": "Erneute Salvage-Radiatio einschließlich der Lymphabflusswege",
@@ -334,7 +410,7 @@
             },
             "C": {
               "text": "Enzalutamide 160 mg daily plus androgen deprivation",
-              "rationale": "EMBARK enrolled exactly this constellation: high-risk recurrence with a PSA doubling time of nine months or less after local therapy. The combination markedly prolonged metastasis-free survival. EMBARK enrolled exactly this constellation: high-risk recurrence with a PSA doubling time of nine months or less after local therapy."
+              "rationale": "EMBARK enrolled exactly this constellation: high-risk recurrence with a PSA doubling time of nine months or less after local therapy. The combination markedly prolonged metastasis-free survival."
             },
             "D": {
               "text": "Repeat salvage radiotherapy including the nodal field",
@@ -346,6 +422,40 @@
             "teaching_point": "Calculate the doubling time before any treatment decision in recurrence; do not just read off the PSA."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 69 años tras prostatectomía radical (pT3b pN0, grado ISUP grupo 4) y radioterapia de rescate del lecho prostático. El PSA es ahora de 1,2 ng/ml con un tiempo de duplicación de seis meses. PSMA-PET/CT no muestra metástasis. La testosterona está en el rango normal.",
+          "lead_in": "¿Qué tratamiento está aprobado y respaldado por un ensayo aleatorizado?",
+          "options": {
+            "A": {
+              "text": "Docetaxel 75 mg/m² cada tres semanas durante seis ciclos",
+              "rationale": "En la recurrencia no metastásica sensible a hormonas no existe aprobación ni beneficio demostrado."
+            },
+            "B": {
+              "text": "Observación con controles de PSA cada tres meses.",
+              "rationale": "Defensible con un tiempo de duplicación superior a doce meses y baja calificación ISUP. Aquí están presentes ambas características de alto riesgo."
+            },
+            "C": {
+              "text": "Enzalutamida 160 mg al día más privación de andrógenos",
+              "rationale": "EMBARK inscribió exactamente esta constelación: recurrencia de alto riesgo con un tiempo de duplicación del PSA de nueve meses o menos después de la terapia local. La combinación prolongó notablemente la supervivencia libre de metástasis."
+            },
+            "D": {
+              "text": "Repetir radioterapia de rescate incluyendo el campo ganglionar.",
+              "rationale": "El lecho prostático ya ha sido irradiado y sin una correlación PSMA-PET no hay ningún objetivo para más radioterapia."
+            }
+          },
+          "explanation": {
+            "core": "En la recurrencia bioquímica no es el valor absoluto del PSA el que decide sino su cinética junto con el grado de Gleason. El tiempo de duplicación del PSA separa al grupo que se beneficia de la intensificación sistémica temprana del grupo en el que la observación sigue siendo defendible.",
+            "teaching_point": "Calcular el tiempo de duplicación antes de cualquier decisión de tratamiento en caso de recurrencia; no se limite a leer el valor aislado del PSA."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -359,7 +469,8 @@
           "leitlinie",
           "labordiagnostik",
           "pruefungsrelevant-hoch"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -459,6 +570,40 @@
             "teaching_point": "The first PSA decides less about a biopsy than about the interval to the next check."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Un hombre de 55 años asintomático acude a cribado. Su padre desarrolló cáncer de próstata a los 62 años. Ha leído en Internet que el tacto rectal es la medida de detección más importante y lo solicita. Esperanza de vida muy superior a 15 años, sin comorbilidad relevante.",
+          "lead_in": "¿Cómo se debe organizar la detección temprana?",
+          "options": {
+            "A": {
+              "text": "Examen digital anual como único cribado.",
+              "rationale": "Esto invierte el valor relativo de las dos pruebas. PROBASE demostró que el examen digital por sí solo tiene una tasa de detección muy baja como instrumento de detección y detecta una proporción sustancial de cánceres sólo en una etapa avanzada. Para la estadificación, es decir, para distinguir cT2 de cT3, el examen digital sigue siendo importante."
+            },
+            "B": {
+              "text": "No hay detección temprana, ya que el beneficio no está probado",
+              "rationale": "ERSPC demuestra una reducción de la mortalidad específica por cáncer de próstata, al precio de un sobrediagnóstico y un sobretratamiento. El problema del cribado no es la falta de eficacia sino el equilibrio entre beneficios y daños, que ha mejorado considerablemente gracias al diagnóstico dirigido por resonancia magnética y a la vigilancia activa."
+            },
+            "C": {
+              "text": "Asesoramiento y luego uso adaptado al riesgo de un PSA de referencia",
+              "rationale": "El PSA inicial es el predictor más fuerte de riesgo posterior y permite que a los hombres con valores muy bajos se les administren intervalos prolongados mientras que a los hombres con valores más altos se les realiza un seguimiento más cercano. Además, los antecedentes familiares de primer grado reducen la edad a la que se ofrece la detección temprana. El PSA inicial es el predictor más fuerte y establece el intervalo. El examen digital lo complementa pero no lo reemplaza; la historia familiar adelanta el comienzo."
+            },
+            "D": {
+              "text": "RMN inmediata de próstata como herramienta de cribado",
+              "rationale": "La resonancia magnética se establece en el estudio de un PSA elevado y ha cambiado la decisión de la biopsia allí. Como cribado de primera línea en hombres no seleccionados no se justifica ni por la capacidad ni por la evidencia, y genera hallazgos que son difíciles de interpretar sin un contexto de PSA."
+            }
+          },
+          "explanation": {
+            "core": "La detección temprana del cáncer de próstata no es una cuestión de sí o no, sino de selección e intervalos. Tres elementos sustentan la práctica actual: la toma de decisiones compartida después de asesorar sobre el sobrediagnóstico, un PSA de referencia para la estratificación del riesgo con intervalos derivados del mismo y abstenerse de realizar pruebas de detección cuando la esperanza de vida es inferior a aproximadamente diez a quince años. La historia familiar adelanta la edad inicial.",
+            "teaching_point": "El primer PSA decide menos sobre una biopsia que sobre el intervalo hasta el siguiente control."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -473,7 +618,8 @@
           "labordiagnostik",
           "leitlinie",
           "pruefungsrelevant-hoch"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -573,6 +719,40 @@
             "teaching_point": "PI-RADS 3 is not a diagnosis but a prompt to calculate the PSA density."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 63 años, PSA 6,4 ng/ml en dos ocasiones, exploración digital normal, sin biopsia previa. La resonancia magnética multiparamétrica muestra una lesión PI-RADS 3 en la zona periférica izquierda. El volumen de la próstata es de 30 ml, lo que da una densidad de PSA de aproximadamente 0,21 ng/ml por centímetro cúbico.",
+          "lead_in": "¿Cómo debería decidirse esto?",
+          "options": {
+            "A": {
+              "text": "Sin biopsia, ya que PI-RADS 3 cuenta como normal",
+              "rationale": "PI-RADS 3 significa explícitamente equívoco, no normal. La proporción de cánceres clínicamente significativos en esta categoría varía considerablemente entre series, por lo que se debe tener en cuenta un segundo parámetro a la hora de tomar la decisión. La densidad del PSA es ese parámetro."
+            },
+            "B": {
+              "text": "Biopsia, porque la densidad del PSA está muy por encima de 0,15",
+              "rationale": "La densidad del PSA corrige el PSA según el volumen de la glándula y discrimina bien entre hiperplasia benigna y cáncer precisamente en el grupo PI-RADS 3. Además, los cilindros sistemáticos siguen siendo necesarios, porque la resonancia magnética no logra representar una proporción de cánceres importantes. La densidad del PSA resuelve la categoría equívoca de la resonancia magnética hacia un cáncer significativo. Se toman cilindros dirigidos de la lesión más cilindros sistemáticos, porque la resonancia magnética pasa por alto una proporción de cánceres importantes."
+            },
+            "C": {
+              "text": "Solo cilindros dirigidos, omitiendo el muestreo sistemático",
+              "rationale": "Omitir el muestreo sistemático aumenta la tasa de cánceres importantes que se pasan por alto, particularmente en la primera biopsia. Actualmente no se recomienda un enfoque puramente dirigido para la primera biopsia."
+            },
+            "D": {
+              "text": "PSMA-PET/CT para clarificación en lugar de biopsia",
+              "rationale": "PSMA-PET sirve para la estadificación en enfermedades confirmadas de mayor riesgo y para el estudio de recurrencia. No está establecida como sustituto de la biopsia en el diagnóstico primario y una exploración positiva no reemplaza la confirmación histológica."
+            }
+          },
+          "explanation": {
+            "core": "La resonancia magnética ha hecho que la decisión de realizar una biopsia pase de ser un juicio basado únicamente en el PSA a uno bidimensional. Los PI-RADS 4 y 5 prácticamente siempre conducen a una biopsia; Los PI-RADS 1 y 2 con baja densidad de PSA permiten la omisión después de una toma de decisiones compartida. La verdadera pregunta del examen reside en PI-RADS 3: aquí decide la densidad de PSA, con un umbral comúnmente utilizado alrededor de 0,15, y la preferencia del paciente resuelve los casos límite.",
+            "teaching_point": "PI-RADS 3 no es un diagnóstico sino un aviso para calcular la densidad del PSA."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -586,7 +766,8 @@
           "operationstechnik",
           "komplikationsmanagement",
           "leitlinie"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -682,6 +863,40 @@
             "teaching_point": "Infections are better prevented by the access route than by the antibiotic."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Un hombre de 66 años se someterá a su primera biopsia de próstata. Ha tenido dos infecciones del tracto urinario en el último año, la más reciente con Escherichia coli resistente a las quinolonas. No toma anticoagulación.",
+          "lead_in": "¿Qué enfoque debería elegirse y por qué?",
+          "options": {
+            "A": {
+              "text": "Biopsia transrectal con profilaxis con ciprofloxacina.",
+              "rationale": "La profilaxis con quinolonas es ineficaz contra un organismo resistente documentado y las fluoroquinolonas han sido excluidas de la profilaxis en toda Europa debido a su perfil de efectos adversos. Este paciente en particular conlleva un mayor riesgo de sepsis."
+            },
+            "B": {
+              "text": "Biopsia transrectal sin profilaxis antibiótica.",
+              "rationale": "Sin profilaxis, la tasa de infección febril y septicemia aumenta notablemente con la vía transrectal. La aguja necesariamente atraviesa la mucosa rectal y transporta la flora intestinal a la próstata."
+            },
+            "C": {
+              "text": "Biopsia transrectal después de hisopo y prueba de sensibilidad.",
+              "rationale": "Un concepto defendible que reduce las tasas de infección cuando sólo está disponible la vía transrectal. Gestiona el problema en lugar de eliminarlo y es más laborioso que cambiar la ruta de acceso."
+            },
+            "D": {
+              "text": "Biopsia transperineal evitando el paso por el recto.",
+              "rationale": "Abandonar la vía transrectal elimina la transferencia bacteriana del procedimiento en lugar de contrarrestarla con fármacos. Las comparaciones aleatorias muestran tasas de infección notablemente más bajas con una detección equivalente, y las lesiones apicales y anteriores son más accesibles. El abandono de la vía transrectal elimina la transferencia bacteriana del procedimiento. Se puede realizar con anestesia local y llega mejor a zonas anteriores y apicales."
+            }
+          },
+          "explanation": {
+            "core": "La vía de acceso en la biopsia de próstata no es una cuestión de estilo sino de evitar complicaciones. La vía transperineal ha prevalecido porque elimina el foco de infección, es factible con anestesia local y toma mejor muestra de la zona anterior. Cualquiera que sea la ruta, la combinación de cilindros dirigidos con cilindros sistemáticos y el asesoramiento sobre hematuria, hematospermia y retención siguen siendo parte del procedimiento.",
+            "teaching_point": "Las infecciones se previenen mejor con la vía de acceso que con el antibiótico."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -695,7 +910,8 @@
           "pathologie",
           "leitlinie",
           "pruefungsrelevant-hoch"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -791,6 +1007,40 @@
             "teaching_point": "It is not the sum that counts but which pattern predominates and whether cribriform areas are present."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Dos pacientes de la misma edad con PSA 7 ng/ml y cT1c. En el primero, la histología es Gleason 3+4=7 (ISUP 2) con un 10 por ciento de patrón 4 y sin formaciones cribiformes. En el segundo, Gleason 4+3=7 (ISUP 3) con glándulas cribiformes y carcinoma intraductal.",
+          "lead_in": "¿En qué se diferencian los dos hallazgos en importancia?",
+          "options": {
+            "A": {
+              "text": "Segundo: peor por patrón 4 y crecimiento cribiforme",
+              "rationale": "No es la suma de siete sino el orden de los patrones y su proporción lo que determina el pronóstico. Las formaciones cribiformes y el carcinoma intraductal ahora se consideran características adversas independientes y prácticamente excluyen la vigilancia activa incluso cuando se cumplen los demás criterios. El patrón predominante 4 lo eleva a un grupo ISUP superior, y el crecimiento cribiforme y el carcinoma intraductal son factores de riesgo independientes de recurrencia y metástasis. En el primero, se puede considerar la vigilancia activa después de recibir asesoramiento."
+            },
+            "B": {
+              "text": "Ambos son equivalentes, ya que ambos suman siete",
+              "rationale": "Depender únicamente de la suma es exactamente la razón por la que se introdujeron los grupos ISUP. 3+4 y 4+3 difieren notablemente en la tasa de recurrencia y la supervivencia específica del cáncer y, por lo tanto, se ubican en grupos separados."
+            },
+            "C": {
+              "text": "El primero es peor, ya que el patrón 3 es más agresivo",
+              "rationale": "La escala va en sentido contrario: los patrones más altos denotan una mayor pérdida de la arquitectura glandular y un comportamiento más agresivo. El patrón 3 todavía forma glándulas individuales reconocibles."
+            },
+            "D": {
+              "text": "El crecimiento cribiforme no tiene importancia pronóstica",
+              "rationale": "Las formaciones cribiformes se asocian con un mayor riesgo de recurrencia bioquímica, metástasis y muerte específica por cáncer y, por lo tanto, se informan explícitamente."
+            }
+          },
+          "explanation": {
+            "core": "La agrupación ISUP reemplaza la antigua lógica basada en sumas porque captura la relación entre patrones: ISUP 1 corresponde a 3+3, ISUP 2 a 3+4, ISUP 3 a 4+3, ISUP 4 a una suma de ocho y ISUP 5 a nueve y diez. Independientemente, se han establecido dos características morfológicas que deben aparecer en el informe: el crecimiento cribiforme y el carcinoma intraductal. Ambos cambian la conducta terapéutica hacia el tratamiento activo.",
+            "teaching_point": "No es la suma lo que cuenta sino qué patrón predomina y si hay áreas cribiformes presentes."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -804,7 +1054,8 @@
           "bildgebung",
           "leitlinie",
           "praeoperativ"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -904,6 +1155,40 @@
             "teaching_point": "Risk group first, imaging second. Not the other way round."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Dos pacientes recién diagnosticados. El primero tiene PSA 5,8 ng/ml, ISUP 1, cT1c. El segundo PSA 34 ng/ml, ISUP 4, cT3a en resonancia magnética. Ambos son aptos para cirugía y radioterapia.",
+          "lead_in": "¿Qué pruebas de estadificación están indicadas en cada caso?",
+          "options": {
+            "A": {
+              "text": "Gammagrafía ósea y tomografía computarizada en ambos pacientes.",
+              "rationale": "En el paciente de bajo riesgo, la probabilidad de detectar metástasis es tan pequeña que las investigaciones generan casi exclusivamente resultados falsos positivos y equívocos que desencadenan pruebas adicionales. La estadificación sin consecuencias sobrecarga al paciente y retrasa el tratamiento."
+            },
+            "B": {
+              "text": "PSMA-PET/CT en ambas como modalidad más precisa",
+              "rationale": "Una mayor precisión justifica su uso sólo cuando existe una probabilidad previa a la prueba relevante. En el paciente de bajo riesgo produce hallazgos de significado poco claro y conduce a un tratamiento excesivo."
+            },
+            "C": {
+              "text": "Sin estadificación en el primero, PSMA-PET/CT en el segundo",
+              "rationale": "La indicación sigue el grupo de riesgo: los pacientes de bajo riesgo no se estadifican porque la probabilidad previa a la prueba se acerca a cero. En casos de alto riesgo, la PSMA-PET produce resultados más correctos con una menor exposición a la radiación y influye considerablemente más a menudo en la decisión del tratamiento. En riesgo bajo, la probabilidad previa a la prueba se acerca a cero. En alto riesgo, PSMA-PET mostró una precisión notablemente mayor que la TC más gammagrafía ósea en una comparación aleatoria y cambió el tratamiento con mayor frecuencia."
+            },
+            "D": {
+              "text": "La resonancia magnética multiparamétrica de próstata es suficiente para ambos",
+              "rationale": "La resonancia magnética evalúa la extensión local y los ganglios regionales en un grado limitado, pero no cubre ni el esqueleto ni los sitios distantes. En el paciente de alto riesgo no reemplaza la estadificación sistémica."
+            }
+          },
+          "explanation": {
+            "core": "La estadificación no es una cuestión de disponibilidad sino de probabilidad previa a la prueba. La enfermedad de bajo riesgo no se clasifica por etapas, porque es más probable que cualquier hallazgo sea falso que verdadero positivo. Desde riesgo intermedio a alto se realiza estadificación, y PSMA-PET ha desplazado a la combinación convencional en precisión y en frecuencia de cambio de manejo. Sigue siendo importante que un hallazgo positivo de PSMA altere el pronóstico sin que haya consecuencias comprobadas del tratamiento en cada situación.",
+            "teaching_point": "Primero el grupo de riesgo, después las imágenes. No al revés."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -917,7 +1202,8 @@
           "leitlinie",
           "nachsorge",
           "pathologie"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -1013,6 +1299,40 @@
             "teaching_point": "Active surveillance means biopsying regularly, not waiting regularly."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 58 años, PSA 6,2 ng/ml, cT1c, ISUP 1 en dos de doce cilindros de biopsia cada uno con afectación inferior al 30 por ciento, sin formaciones cribiformes, RM PI-RADS 3. Quiere evitar cirugía y pregunta por vigilancia activa.",
+          "lead_in": "¿Cómo debería diseñarse el programa?",
+          "options": {
+            "A": {
+              "text": "Control anual del PSA y actuación sólo si surgen síntomas",
+              "rationale": "Eso describe la espera vigilante, elegida cuando la esperanza de vida es limitada, no la vigilancia activa. Este último persigue una intención curativa y detecta la progresión antes de que se vuelva sintomática."
+            },
+            "B": {
+              "text": "Vigilancia estructurada con rebiopsia planificada.",
+              "rationale": "El núcleo de la vigilancia activa es la rebiopsia planificada, porque una proporción de pacientes no reciben la calificación adecuada desde el principio. La cinética del PSA por sí sola es poco fiable como desencadenante y la resonancia magnética no reemplaza la histología. PSA cada tres a seis meses, examen digital anual, resonancia magnética y repetición de biopsia en un cronograma definido. Los factores desencadenantes son la mejora de la rebiopsia, el aumento de la extensión del tumor, la progresión de la resonancia magnética o el deseo del paciente."
+            },
+            "C": {
+              "text": "Excluido porque el PSA supera los 4 ng/ml",
+              "rationale": "Un PSA de 4 no es un límite para la vigilancia activa. Lo habitual es un umbral de alrededor de 10 ng/ml, e incluso éste se juzga junto con los demás criterios y el volumen de la próstata."
+            },
+            "D": {
+              "text": "No defendible con PI-RADS 3; se requiere cirugía",
+              "rationale": "PI-RADS 3 es una categoría equívoca y no es en sí misma un criterio de exclusión. Se excluyen principalmente el crecimiento cribiforme, el carcinoma intraductal, los grupos ISUP superiores y la afectación tumoral extensa."
+            }
+          },
+          "explanation": {
+            "core": "La vigilancia activa es una estrategia curativa con intervención diferida, no una negativa a tratar. Se sostiene o cae en tres elementos: selección correcta por grupo ISUP, extensión del tumor, densidad de PSA y ausencia de patrones de crecimiento adversos; la rebiopsia planificada que descubre una subclasificación inicial; y factores desencadenantes claramente definidos para cambiar a un tratamiento activo. En casos seleccionados con ISUP 2 y una pequeña proporción de patrón 4 sin áreas cribiformes, también se puede ofrecer después de un asesoramiento detallado.",
+            "teaching_point": "La vigilancia activa significa realizar biopsias con regularidad, no esperar con regularidad."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1026,7 +1346,8 @@
           "operationstechnik",
           "praeoperativ",
           "leitlinie"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -1122,12 +1443,46 @@
             "teaching_point": "Lymphadenectomy answers a question, it does not treat. If you do not dissect, you must answer the question another way."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Un varón de 64 años con PSA 12 ng/ml, ISUP 3 y cT2b está programado para prostatectomía radical. El nomograma da una probabilidad del 12 por ciento de afectación ganglionar. PSMA-PET no muestra nodos sospechosos.",
+          "lead_in": "¿Cómo se debe manejar la linfadenectomía?",
+          "options": {
+            "A": {
+              "text": "Omitir la linfadenectomía porque la PET de PSMA no muestra ganglios sospechosos",
+              "rationale": "PSMA-PET detecta metástasis ganglionares solo por encima de cierto tamaño y regularmente pasa por alto la afectación microscópica. Una exploración negativa reduce la probabilidad pero no excluye la afectación."
+            },
+            "B": {
+              "text": "Disección extendida de ganglios linfáticos pélvicos por nomograma",
+              "rationale": "La linfadenectomía es aquí un instrumento de estadificación cuyo contenido informativo depende directamente del número de ganglios extirpados. La disección limitada de la fosa obturatriz por sí sola pasa por alto una proporción sustancial de las estaciones afectadas, en particular a lo largo de la arteria ilíaca interna. La probabilidad de implicación calculada supera el umbral habitual de alrededor del cinco por ciento. El campo cubre las estaciones a lo largo de las arterias ilíacas externa e interna y la fosa obturatriz."
+            },
+            "C": {
+              "text": "Disección limitada únicamente de la fosa obturatriz.",
+              "rationale": "Es una estación común pero no la única. Las series centinela muestran una proporción relevante de metástasis aisladas a lo largo de la arteria ilíaca interna que pasan desapercibidas con una plantilla limitada."
+            },
+            "D": {
+              "text": "Disección debido a su beneficio demostrado en la supervivencia.",
+              "rationale": "No se ha establecido un beneficio terapéutico en ensayos aleatorios. La razón radica en la estadificación, que rige las medidas adyuvantes y el seguimiento, y debe explicarse al paciente en esos términos."
+            }
+          },
+          "explanation": {
+            "core": "La indicación de linfadenectomía se basa en un nomograma, no en la intuición o las imágenes únicamente. Por encima de una probabilidad de afectación calculada de aproximadamente el cinco por ciento, se realiza la disección, y en la plantilla ampliada, porque solo ésta captura las estaciones relevantes. El beneficio radica en la estadificación, el precio en linfoceles, trombosis y lesión del nervio obturador. Esta compensación pertenece a la discusión sobre el consentimiento.",
+            "teaching_point": "La linfadenectomía responde a una pregunta, no trata. Si no diseccionas, debes responder la pregunta de otra manera."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-pca-00011",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Strahlentherapie",
@@ -1135,7 +1490,8 @@
           "pharmakologie",
           "dosierung",
           "leitlinie"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -1168,6 +1524,12 @@
           "code": "EAU",
           "title": "EAU Guidelines on Prostate Cancer",
           "year": 2026
+        },
+        {
+          "type": "reference",
+          "title": "EAU: radiotherapy and ADT",
+          "url": "https://uroweb.org/guidelines/prostate-cancer/chapter/treatment",
+          "accessed": "2026-09-10"
         }
       ],
       "review": {
@@ -1175,11 +1537,16 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-10",
+          "method": "AI-assisted source cross-check",
+          "clinical_signoff": false
+        }
       },
       "content": {
         "de": {
-          "vignette": "Zwei Patienten entscheiden sich für eine perkutane Strahlentherapie. Der erste hat PSA 9 ng/ml, ISUP 2, cT2a und damit ein intermediäres Risiko. Der zweite PSA 28 ng/ml, ISUP 4, cT3a und damit ein hohes Risiko. Beide sind kardial und hepatisch unauffällig.",
+          "vignette": "Zwei Patienten wählen externe Bestrahlung. Der erste hat PSA 9 ng/ml, ISUP 3, cT2a und ungünstiges intermediäres Risiko. Der zweite PSA 28 ng/ml, ISUP 4, cT3a und hohes Risiko. Beide sind für ADT geeignet.",
           "lead_in": "Wie unterscheidet sich die begleitende Androgendeprivation?",
           "options": {
             "A": {
@@ -1192,7 +1559,7 @@
             },
             "C": {
               "text": "Bei beiden keine Androgendeprivation zusätzlich zur Radiatio",
-              "rationale": "Die Kombination aus Bestrahlung und Hormonentzug verbessert bei intermediärem und hohem Risiko das Überleben. Auf sie wird nur bei niedrigem Risiko verzichtet, wo eine Bestrahlung ohnehin selten indiziert ist."
+              "rationale": "Bei diesen Risikokonstellationen ist begleitende ADT begründet. Bei günstigem intermediärem Risiko kann die Entscheidung anders ausfallen."
             },
             "D": {
               "text": "Intermediär eine Langzeitgabe, hoch eine Kurzzeitgabe",
@@ -1200,13 +1567,13 @@
             }
           },
           "explanation": {
-            "core": "Die Bestrahlung des lokalisierten Prostatakarzinoms wird nicht isoliert verordnet, sondern als Paket aus Dosis, Zielvolumen und Dauer der Androgendeprivation. Bei intermediärem Risiko wird zwischen günstiger und ungünstiger Konstellation unterschieden, wobei die ungünstige die Hormongabe rechtfertigt. Bei hohem Risiko gehören eine dosiseskalierte Bestrahlung, die Einbeziehung des pelvinen Lymphabflusses und die Langzeit-Androgendeprivation zusammen. Vor jeder Langzeitgabe sind Knochendichte, Stoffwechsel und kardiovaskuläres Risiko zu erfassen.",
-            "teaching_point": "Die Risikogruppe bestimmt nicht ob, sondern wie lange die Hormontherapie läuft."
+            "core": "Ungünstiges intermediäres Risiko spricht für kurzzeitige, hohes Risiko für längerfristige ADT zur Bestrahlung. Zielvolumen, Komorbidität und zusätzliche Systemtherapie individuell festlegen.",
+            "teaching_point": "Günstiges und ungünstiges intermediäres Risiko ausdrücklich unterscheiden."
           },
           "flag_note": null
         },
         "en": {
-          "vignette": "Two patients choose external beam radiotherapy. The first has PSA 9 ng/ml, ISUP 2, cT2a and thus intermediate risk. The second PSA 28 ng/ml, ISUP 4, cT3a and thus high risk. Both are cardiologically and hepatically unremarkable.",
+          "vignette": "Two patients choose external-beam radiotherapy. The first has PSA 9 ng/ml, ISUP 3, cT2a and unfavourable intermediate risk. The second has PSA 28 ng/ml, ISUP 4, cT3a and high risk. Both are suitable for ADT.",
           "lead_in": "How does the accompanying androgen deprivation differ?",
           "options": {
             "A": {
@@ -1219,7 +1586,7 @@
             },
             "C": {
               "text": "No androgen deprivation alongside radiotherapy in either",
-              "rationale": "Combining radiotherapy with hormonal treatment improves survival in intermediate and high risk. It is omitted only in low risk, where radiotherapy is rarely indicated anyway."
+              "rationale": "Concomitant ADT is justified in these risk groups. The decision may differ in favourable intermediate-risk disease."
             },
             "D": {
               "text": "Long-course in intermediate risk, short-course in high",
@@ -1227,10 +1594,44 @@
             }
           },
           "explanation": {
-            "core": "Radiotherapy for localised prostate cancer is not prescribed in isolation but as a package of dose, target volume and duration of androgen deprivation. In intermediate risk a distinction is made between favourable and unfavourable constellations, with the unfavourable justifying hormonal treatment. In high risk, dose-escalated radiotherapy, inclusion of the pelvic nodes and long-course androgen deprivation belong together. Before any long-course treatment, bone density, metabolic status and cardiovascular risk must be assessed.",
-            "teaching_point": "The risk group determines not whether but for how long hormonal therapy runs."
+            "core": "Unfavourable intermediate risk supports short-course ADT and high risk supports longer ADT with radiotherapy. Individualise the target volume, comorbidity assessment and additional systemic therapy.",
+            "teaching_point": "Explicitly distinguish favourable from unfavourable intermediate risk."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Dos pacientes eligen la radioterapia de haz externo. El primero tiene PSA 9 ng/ml, ISUP 3, cT2a y riesgo intermedio desfavorable. El segundo tiene PSA 28 ng/ml, ISUP 4, cT3a y riesgo alto. Ambos son adecuados para ADT.",
+          "lead_in": "¿En qué se diferencia la privación de andrógenos que la acompaña?",
+          "options": {
+            "A": {
+              "text": "Intermedio de cuatro a seis meses, alto de dos a tres años",
+              "rationale": "La duración depende del grupo de riesgo, porque el beneficio añadido del tratamiento hormonal aumenta con la agresividad de la enfermedad. En casos de alto riesgo, el tratamiento de larga duración es superior al de corta duración en cuanto a supervivencia general en ensayos aleatorios, mientras que unos pocos meses son suficientes en el caso de riesgo intermedio. La duración sigue al grupo de riesgo, porque el beneficio añadido aumenta con la agresividad. En casos de alto riesgo, el tratamiento de larga duración es superior al de corta duración en cuanto a la supervivencia general."
+            },
+            "B": {
+              "text": "Privación androgénica de por vida en ambos pacientes.",
+              "rationale": "El tratamiento indefinido no está justificado en la enfermedad localizada y acumula osteoporosis, síndrome metabólico, eventos cardiovasculares y fatiga sin aumentar aún más el beneficio."
+            },
+            "C": {
+              "text": "Sin privación de andrógenos junto con radioterapia en ninguno de los dos casos.",
+              "rationale": "La TPA concomitante está justificada en estos grupos de riesgo. La decisión puede diferir en caso de enfermedad de riesgo intermedio favorable."
+            },
+            "D": {
+              "text": "Curso largo en riesgo intermedio, curso corto en riesgo alto",
+              "rationale": "La asignación se invierte y trataría en exceso al paciente de menor riesgo mientras dejaría al paciente de alto riesgo subtratado."
+            }
+          },
+          "explanation": {
+            "core": "El riesgo intermedio desfavorable respalda la ADT de corta duración y el riesgo alto respalda la ADT más prolongada con radioterapia. Individualizar el volumen objetivo, evaluación de comorbilidades y terapia sistémica adicional.",
+            "teaching_point": "Distinguir explícitamente el riesgo intermedio favorable del desfavorable."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1244,7 +1645,8 @@
           "leitlinie",
           "nachsorge",
           "labordiagnostik"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 5,
@@ -1344,6 +1746,40 @@
             "teaching_point": "Do not simply wait; observe with a trigger value agreed in advance."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Hombre de 67 años tras prostatectomía radical. Histología: pT3a, ISUP 3, R1 en el ápice, pN0 con 18 ganglios extirpados. Seis semanas después de la operación, el PSA es indetectable. Se muestra continente y pregunta si ahora necesita radioterapia.",
+          "lead_in": "¿Cómo se le debe aconsejar?",
+          "options": {
+            "A": {
+              "text": "Radioterapia adyuvante inmediata para el margen positivo",
+              "rationale": "Un margen positivo aumenta el riesgo de recurrencia, pero una proporción sustancial de estos hombres nunca recurre. La radioterapia inmediata los expondría a efectos secundarios sin beneficio, particularmente continencia y problemas intestinales."
+            },
+            "B": {
+              "text": "No más medidas ni más seguimiento del PSA",
+              "rationale": "Un valor indetectable inmediatamente después de la cirugía es el requisito previo para la estrategia, no su criterio de valoración. Sin una estrecha vigilancia se perdería la ventana decisiva para una radioterapia de rescate eficaz."
+            },
+            "C": {
+              "text": "Vigilancia estrecha con radioterapia de rescate temprana",
+              "rationale": "Tres ensayos aleatorios y su análisis conjunto no muestran inferioridad de la estrategia de rescate temprano. La palabra temprana es decisiva: el beneficio de la radioterapia de rescate disminuye a medida que aumenta el PSA, por lo que la monitorización de la intensidad y un valor desencadenante claramente definido deben ser parte del plan. La radioterapia sigue tan pronto como el PSA aumenta de manera reproducible mientras aún está bajo. En ensayos aleatorios, esto equivalió a la radioterapia adyuvante inmediata en cuanto a supervivencia libre de eventos y evitó por completo la radioterapia en muchos pacientes."
+            },
+            "D": {
+              "text": "Privación inmediata de andrógenos sin radioterapia",
+              "rationale": "El tratamiento hormonal solo con un PSA indetectable trata una enfermedad que puede no existir y renuncia a la única opción potencialmente curativa en esta situación."
+            }
+          },
+          "explanation": {
+            "core": "Adyuvante versus rescate temprano es una de las pocas preguntas en el campo respondidas en la misma dirección por varios ensayos aleatorios. La observación con un desencadenante definido evita el sobretratamiento sin sacrificar las posibilidades de curación, pero presupone un calendario de seguimiento fiable. Se discuten excepciones en constelaciones muy desfavorables, como un margen ampliamente positivo con ISUP 5 o pN1, donde todavía se considera la radioterapia adyuvante.",
+            "teaching_point": "No esperes simplemente; observar con un valor de activación acordado de antemano."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1357,7 +1793,8 @@
           "operationstechnik",
           "praeoperativ",
           "komplikationsmanagement"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -1453,6 +1890,40 @@
             "teaching_point": "Nerve sparing is a decision per side and concerns erection first, not continence."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 62 años sexualmente activo con ISUP 2, PSA 8 ng/ml, cT2a. La resonancia magnética genera sospecha de extensión extracapsular en el ápex izquierdo. Quiere una prostatectomía radical y pregunta si es posible preservar los nervios bilaterales.",
+          "lead_in": "¿Cómo se le debe responder?",
+          "options": {
+            "A": {
+              "text": "La preservación bilateral de los nervios es posible en todos los casos.",
+              "rationale": "La distancia es pequeña y con el crecimiento extracapsular el plano de disección necesariamente se acerca más al tumor. Una promesa general ignora el riesgo de un margen quirúrgico positivo."
+            },
+            "B": {
+              "text": "La preservación de los nervios es indefendible en cualquier cáncer",
+              "rationale": "En riesgo intermedio bajo e intermedio favorable, se establece la preservación de los nervios y mejora los resultados funcionales sin aumentar materialmente las tasas de márgenes positivos."
+            },
+            "C": {
+              "text": "La preservación de los nervios determina la continencia posterior",
+              "rationale": "La preservación de los nervios actúa principalmente sobre la función eréctil. La continencia depende más de la longitud y preservación de la uretra membranosa, del rabdoesfínter y de la reconstrucción, aunque se debate una influencia favorable de la preservación de los nervios."
+            },
+            "D": {
+              "text": "Decidir la preservación por separado en cada lado según los hallazgos",
+              "rationale": "La preservación de los nervios no es una decisión de todo o nada, sino que se toma para cada lado a partir de las imágenes, la distribución central y el examen. La pérdida de la eyaculación es obligatoria y habitualmente olvidada en las consultas, aunque es importante para muchos pacientes. En el lado izquierdo la preservación del nervio se omite o es parcial por sospecha de extensión extracapsular; en el lado derecho es completa. El asesoramiento cubre la incontinencia, la disfunción eréctil, la pérdida obligatoria de la eyaculación y la posible estenosis anastomótica."
+            }
+          },
+          "explanation": {
+            "core": "El asesoramiento previo a la prostatectomía radical tiene dos niveles: el objetivo oncológico y las consecuencias funcionales. La preservación de los nervios se planifica en paralelo, porque la distribución del tumor rara vez es simétrica. El asesoramiento honesto incluye la pérdida obligatoria de la eyaculación, la curva de recuperación de la continencia que dura meses, la dependencia de la función eréctil del estado inicial y la edad, y la posibilidad de que la histología requiera tratamiento adicional.",
+            "teaching_point": "La preservación de los nervios es una decisión de cada lado y se refiere primero a la erección, no a la continencia."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1466,7 +1937,8 @@
           "leitlinie",
           "pathologie",
           "pruefungsrelevant-hoch"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -1566,6 +2038,40 @@
             "teaching_point": "Burden and risk are two different axes. Both belong in the tumour board, not just one."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Hombre de 68 años con cáncer de próstata metastásico hormonosensible recién diagnosticado. ISUP 5, PSA 96 ng/ml. La gammagrafía ósea muestra tres lesiones óseas, todas en columna y pelvis. Sin metástasis viscerales. Un colega llama a esto alto riesgo y otra carga metastásica baja.",
+          "lead_in": "¿Cómo deberían conciliarse las dos declaraciones?",
+          "options": {
+            "A": {
+              "text": "Los dos términos significan lo mismo; Esta es una enfermedad de alto volumen.",
+              "rationale": "Las dos clasificaciones provienen de diferentes ensayos con diferentes definiciones y se superponen sólo parcialmente. Tratarlos como si fueran idénticos clasifica erróneamente a los pacientes y conduce a una intensidad de tratamiento incorrecta."
+            },
+            "B": {
+              "text": "Sólo cuenta el número de lesiones óseas; tres o más es alto",
+              "rationale": "La carga alta se define no por tres sino por cuatro o más lesiones óseas y, además, requiere al menos una más allá de la columna y la pelvis. Ninguno de los dos se aplica aquí."
+            },
+            "C": {
+              "text": "Bajo volumen por CHAARTED pero alto riesgo por LATITUDE",
+              "rationale": "El paciente tiene una carga baja y un riesgo alto simultáneamente. Es precisamente en esta constelación en la que entra en consideración la radioterapia primaria, mientras que no mostró ningún beneficio en la supervivencia en pacientes con carga alta. Un volumen alto según CHAARTED requiere metástasis viscerales o al menos cuatro lesiones óseas con al menos una más allá de la columna y la pelvis, lo que no se cumple aquí. El riesgo alto según LATITUDE requiere dos de tres características de ISUP 4 o 5, al menos tres lesiones óseas y una metástasis visceral mensurable; dos están presentes aquí."
+            },
+            "D": {
+              "text": "La clasificación no tiene ninguna relación práctica con el tratamiento.",
+              "rationale": "La carga metastásica rige la radioterapia hasta la primaria e influye en la elección entre doblete y triplete. Sin una clasificación correcta, esa decisión se vuelve arbitraria."
+            }
+          },
+          "explanation": {
+            "core": "En mHSPC coexisten dos clasificaciones, que surgen de diferentes ensayos y responden a diferentes preguntas. La carga de CHAARTED lleva principalmente la cuestión de la terapia local a la primaria y el peso que se le da a la quimioterapia. El riesgo de LATITUDE proviene del ensayo de abiraterona y describe el pronóstico. Un paciente puede tener una carga baja y un riesgo alto al mismo tiempo, y este grupo es el que con mayor frecuencia se clasifica erróneamente en la práctica.",
+            "teaching_point": "Carga y riesgo son dos ejes diferenciados. Ambos pertenecen a la junta de tumores, no sólo uno."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1579,7 +2085,8 @@
           "leitlinie",
           "dosierung",
           "pruefungsrelevant-hoch"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -1680,6 +2187,40 @@
             "teaching_point": "Prostate radiotherapy only in low burden, and always in addition to systemic therapy."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 71 años con cáncer de próstata metastásico hormonosensible, dos lesiones óseas en columna lumbar, sin metástasis viscerales. Baja carga metastásica. ECOG 1, buena función vesical, sin enfermedad inflamatoria intestinal.",
+          "lead_in": "¿Qué medida adicional junto con la terapia sistémica está justificada?",
+          "options": {
+            "A": {
+              "text": "Radioterapia al tumor primario además de terapia sistémica.",
+              "rationale": "El beneficio de supervivencia se limitó al grupo de carga baja y no fue demostrable en el grupo de carga alta. La radioterapia es bien tolerada, razón por la cual se ofrece de forma rutinaria en esta constelación. El beneficio de supervivencia se demostró en un ensayo aleatorizado sólo en el grupo de carga metastásica baja; estuvo ausente en carga alta."
+            },
+            "B": {
+              "text": "Prostatectomía radical como terapia local en lugar de radioterapia",
+              "rationale": "Falta evidencia de ensayos aleatorizados de un beneficio de supervivencia para la cirugía primaria en la enfermedad metastásica. La evidencia disponible se refiere a la radioterapia, que es por tanto la modalidad establecida."
+            },
+            "C": {
+              "text": "Radioterapia estereotáxica para todas las metástasis en lugar de terapia sistémica",
+              "rationale": "La terapia dirigida a metástasis está bajo investigación en la enfermedad oligometastásica, pero no reemplaza el tratamiento sistémico. Omitir la privación de andrógenos no sería defendible aquí."
+            },
+            "D": {
+              "text": "Ninguna terapia local una vez que se documentan las metástasis",
+              "rationale": "Esta opinión era habitual desde hacía mucho tiempo y ha sido refutada por STAMPEDE. En casos de carga baja, controlar el primario supone una contribución mensurable a la supervivencia."
+            }
+          },
+          "explanation": {
+            "core": "La radioterapia primaria en la enfermedad metastásica es uno de los pocos ejemplos en los que la terapia local prolonga la supervivencia en la enfermedad sistémica, y sólo en la carga metastásica baja. Se agrega a la terapia sistémica y no la reemplaza. Para el examen se deben separar tres preguntas: la terapia sistémica con privación de andrógenos más un ARPI, la cuestión de la quimioterapia según la carga y la aptitud y la cuestión de la terapia local según la carga.",
+            "teaching_point": "Radioterapia de próstata sólo en carga baja, y siempre además de la terapia sistémica."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1693,7 +2234,8 @@
           "leitlinie",
           "pharmakologie",
           "dosierung"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 5,
@@ -1793,6 +2335,40 @@
             "teaching_point": "After an ARPI comes not a second ARPI but a different drug class."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 70 años tratado hace 14 meses por mHSPC con privación androgénica más abiraterona. Actualmente presenta PSA en ascenso, nuevas lesiones óseas y testosterona de 12 ng/dl. ECOG 1, sin neuropatía, neutrófilos normales. Pregunta si podría simplemente cambiar a enzalutamida.",
+          "lead_in": "¿Cómo se le debe responder?",
+          "options": {
+            "A": {
+              "text": "Sí, cambiar de abiraterona a enzalutamida",
+              "rationale": "Ambos agentes actúan sobre el mismo eje, por lo que después del fracaso de uno, el otro sólo logra respuestas breves e infrecuentes. La resistencia cruzada dentro del eje del receptor de andrógenos es el punto central de esta pregunta."
+            },
+            "B": {
+              "text": "Sí, pero primero pausar la privación de andrógenos.",
+              "rationale": "La castración se continúa durante toda la vida en un entorno resistente a la castración, porque de lo contrario el aumento de testosterona estimula aún más la enfermedad. La abstinencia de antiandrógenos es un fenómeno diferente, descrito históricamente, de importancia clínica limitada."
+            },
+            "C": {
+              "text": "No, iniciar la terapia con radioligandos inmediatamente.",
+              "rationale": "La terapia con radioligandos se aprueba después del fracaso de un ARPI y un taxano. Este paciente no ha recibido quimioterapia por lo que no se cumple la secuencia requerida."
+            },
+            "D": {
+              "text": "No, cambie la clase de medicamento a docetaxel",
+              "rationale": "Después de la progresión con un ARPI, la quimioterapia con taxanos es la alternativa más eficaz a un segundo ARPI. CARD demostró la superioridad del cabazitaxel sobre un interruptor ARPI, lo que demuestra el principio de cambio de clase. Docetaxel se administra a razón de 75 mg/m² cada tres semanas. Las pruebas de alteraciones de recombinación homóloga deben realizarse en paralelo, ya que pueden abrir una opción dirigida por PARP."
+            }
+          },
+          "explanation": {
+            "core": "La secuenciación en mCRPC sigue un principio simple: después del fracaso de un agente, se cambia la clase de fármaco en lugar del agente dentro de la misma clase. Tanto la abiraterona como la enzalutamida actúan a través del eje del receptor de andrógenos, por lo que administradas consecutivamente sólo logran tasas de respuesta bajas y de corta duración. El cambio de clase conduce a taxanos, a terapia con radioligandos después de un taxano o, en el caso de la patología molecular correspondiente, a inhibidores de PARP.",
+            "teaching_point": "Después de un ARPI no viene un segundo ARPI sino una clase de medicamento diferente."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1807,7 +2383,8 @@
           "pharmakologie",
           "dosierung",
           "leitlinie"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -1907,12 +2484,46 @@
             "teaching_point": "Somatic for the treatment, germline for the family. Both, not one of them."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Hombre de 64 años con cáncer de próstata metastásico resistente a la castración tras abiraterona y docetaxel. Su hermana desarrolló cáncer de mama a los 44 años y su tío paterno cáncer de páncreas. Hasta el momento no se han organizado pruebas moleculares.",
+          "lead_in": "¿Qué se debe hacer?",
+          "options": {
+            "A": {
+              "text": "Nada de pruebas moleculares, ya que a esta edad no tiene ninguna consecuencia.",
+              "rationale": "La edad no es un criterio de exclusión. Se recomiendan pruebas en la enfermedad metastásica independientemente de la edad, y estos antecedentes familiares refuerzan aún más la indicación."
+            },
+            "B": {
+              "text": "Pruebe el tejido tumoral para detectar alteraciones de HRR y agregue pruebas de línea germinal",
+              "rationale": "Las pruebas somáticas abren la opción de tratamiento; Las pruebas de línea germinal permiten además asesorar a los familiares sobre las consecuencias para la vigilancia de mamas, ovarios y páncreas. Los dos niveles no son intercambiables, porque una proporción de las alteraciones son sólo somáticas. Con una alteración documentada de BRCA1 o BRCA2, olaparib 300 mg dos veces al día es una opción. También se debe evaluar la inestabilidad de los microsatélites, ya que abre una opción de inmunoterapia."
+            },
+            "C": {
+              "text": "Sólo pruebas de línea germinal, ya que sólo las variantes hereditarias son tratables",
+              "rationale": "Los inhibidores de PARP también actúan con alteraciones puramente somáticas. Las pruebas de la línea germinal por sí solas pasarían por alto una proporción sustancial de pacientes tratables."
+            },
+            "D": {
+              "text": "Iniciar un inhibidor de PARP sin pruebas previas dados los antecedentes familiares",
+              "rationale": "Los antecedentes familiares aumentan la probabilidad pero no reemplazan la demostración. Un ensayo de tratamiento sin pruebas no tendría licencia ni sería sensato, ya que la eficacia está ligada a la alteración."
+            }
+          },
+          "explanation": {
+            "core": "Las pruebas moleculares pertenecen a la atención de rutina en el cáncer de próstata metastásico y tienen dos propósitos distintos. Somáticamente abre inhibidores de PARP en alteraciones de recombinación homóloga, de las cuales BRCA2 es el más común y el más importante desde el punto de vista pronóstico, y pembrolizumab en inestabilidad de microsatélites. En la línea germinal permite el asesoramiento familiar. El momento adecuado es temprano, porque el resultado influye en la secuenciación y el análisis puede llevar semanas.",
+            "teaching_point": "Somático para el tratamiento, línea germinal para la familia. Ambos, ninguno de ellos."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-pca-00018",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Radioligandentherapie",
@@ -1921,7 +2532,8 @@
           "dosierung",
           "bildgebung",
           "zulassung"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -1958,6 +2570,12 @@
           "code": "EAU",
           "title": "EAU Guidelines on Prostate Cancer",
           "year": 2026
+        },
+        {
+          "type": "reference",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/pluvicto",
+          "title": "EMA: Pluvicto indication",
+          "accessed": "2026-09-10"
         }
       ],
       "review": {
@@ -1965,7 +2583,12 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-10",
+          "method": "AI-assisted editorial review",
+          "clinical_signoff": false
+        }
       },
       "content": {
         "de": {
@@ -1981,8 +2604,8 @@
               "rationale": "Die Szintigraphie zeigt die Knochenbeteiligung, nicht aber die Zielstruktur der Therapie. Ohne Nachweis einer ausreichenden PSMA-Expression fehlt das Bindeglied zwischen Substanz und Tumor."
             },
             "C": {
-              "text": "PSMA-Aufnahme in allen Läsionen, Vorbehandlung mit ARPI und Taxan",
-              "rationale": "Die Therapie wirkt nur, wo das Ziel exprimiert wird, weshalb PSMA-negative Läsionen ein Ausschlusskriterium darstellen. Die Sequenzvoraussetzung stammt unmittelbar aus dem Studiendesign, aus dem sich auch die Zulassung ableitet. Zusätzlich müssen Knochenmark- und Nierenfunktion ausreichen. Die Gabe erfolgt mit 7,4 GBq alle sechs Wochen über bis zu sechs Zyklen. Entscheidend ist, dass keine relevante Läsion PSMA-negativ ist, weil diese von der Therapie nicht erreicht wird."
+              "text": "Ausreichende PSMA-Expression, passende Vortherapie und Organfunktion",
+              "rationale": "Eignung anhand PSMA-PET/CT einschließlich relevanter PSMA-negativer Läsionen prüfen. Für die EU-Indikation sind ARPI- und Taxanvorbehandlung erforderlich; Knochenmark und Nierenfunktion berücksichtigen. Nicht jede mikroskopische Läsion muss bildgebend nachweisbar sein."
             },
             "D": {
               "text": "Nierenfunktionsprüfung entbehrlich, da die Substanz hepatisch eliminiert wird",
@@ -2008,8 +2631,8 @@
               "rationale": "Scintigraphy shows bone involvement but not the target of the therapy. Without evidence of sufficient PSMA expression the link between drug and tumour is missing."
             },
             "C": {
-              "text": "PSMA uptake in all lesions, prior treatment with an ARPI and a taxane",
-              "rationale": "The therapy works only where the target is expressed, so PSMA-negative lesions are an exclusion criterion. The sequence requirement comes directly from the trial design, from which the approval is derived. Bone marrow and renal function must also be adequate. Dosing is 7.4 GBq every six weeks for up to six cycles. The decisive point is that no relevant lesion is PSMA-negative, since such lesions are not reached by the therapy."
+              "text": "Sufficient PSMA expression, appropriate prior therapy and organ function",
+              "rationale": "Assess eligibility with PSMA-PET/CT, including relevant PSMA-negative lesions. The EU indication requires prior ARPI and taxane treatment; assess marrow and renal function. Every microscopic lesion need not be visible on imaging."
             },
             "D": {
               "text": "Renal function testing unnecessary, since the agent is eliminated hepatically",
@@ -2021,6 +2644,40 @@
             "teaching_point": "No PSMA on the scan, no PSMA therapy. The image is the indication."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Hombre de 73 años con mCRPC después de enzalutamida y docetaxel, que ahora progresa con múltiples metástasis óseas y algunas ganglionares. ECOG 1, hemoglobina 10,8 g/dl, plaquetas 160.000 por microlitro, TFG 62 ml/min.",
+          "lead_in": "¿Qué requisitos previos deben comprobarse antes de la terapia con radioligandos?",
+          "options": {
+            "A": {
+              "text": "PSA superior a 100 ng/ml como único umbral de tratamiento",
+              "rationale": "El PSA no rige la indicación. Lo que importa es el tratamiento previo, la expresión de PSMA en las imágenes y la función de los órganos, particularmente la reserva medular y los riñones."
+            },
+            "B": {
+              "text": "Gammagrafía ósea como única imagen antes de comenzar el tratamiento",
+              "rationale": "La gammagrafía muestra afectación ósea pero no el objetivo de la terapia. Sin evidencia de una expresión suficiente de PSMA, falta el vínculo entre el fármaco y el tumor."
+            },
+            "C": {
+              "text": "Expresión suficiente de PSMA, terapia previa adecuada y función de los órganos.",
+              "rationale": "Evaluar la elegibilidad con PSMA-PET/CT, incluidas las lesiones relevantes PSMA negativas. La indicación UE requiere tratamiento previo con ARPI y taxanos; evaluar la función medular y renal. No es necesario que todas las lesiones microscópicas sean visibles en las imágenes."
+            },
+            "D": {
+              "text": "No es necesario realizar pruebas de función renal, ya que el agente se elimina por vía hepática.",
+              "rationale": "La excreción es predominantemente renal, por lo que se debe aclarar previamente la función renal y el drenaje urinario. Las glándulas salivales, los riñones y la médula ósea son los órganos típicos afectados por los efectos secundarios."
+            }
+          },
+          "explanation": {
+            "core": "La terapia con radioligandos es el primer ejemplo de tratamiento sistémico guiado por imágenes en el cáncer de próstata: la misma molécula sirve para la obtención de imágenes y para el tratamiento. De esto se desprende la lógica de los requisitos previos. En primer lugar, el objetivo debe ser visible en las imágenes, en segundo lugar, la secuencia prescrita de ARPI y taxano debe haberse completado y, en tercer lugar, los órganos cargados por el agente deben tolerarlo. Los efectos secundarios comunes son sequedad de boca, fatiga y citopenias.",
+            "teaching_point": "No hay PSMA en la exploración, ni terapia con PSMA. La imagen es la indicación."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -2035,7 +2692,8 @@
           "dosierung",
           "nebenwirkungen",
           "komplikationsmanagement"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 5,
@@ -2135,12 +2793,46 @@
             "teaching_point": "Radium-223 goes into bone. Patients with visceral metastases do not benefit."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 76 años con mCRPC y metástasis dolorosas exclusivamente óseas. Sin metástasis viscerales, sin linfadenopatía mensurable. Un colega propone administrar radio-223 junto con abiraterona y prednisona para combinar dos mecanismos.",
+          "lead_in": "¿Cómo se debe juzgar esta propuesta?",
+          "options": {
+            "A": {
+              "text": "Rechazo: la combinación aumenta las tasas de fracturas sin una ganancia de supervivencia",
+              "rationale": "ERA-223 no fue cegado temprano debido a un exceso de fracturas. El daño se produjo principalmente en pacientes sin protección ósea concomitante, por lo que ahora es obligatoria. El radio-223 se administra para metástasis óseas sintomáticas a 55 kBq por kilogramo cada cuatro semanas durante seis ciclos, siempre junto con un agente protector óseo."
+            },
+            "B": {
+              "text": "Respaldar, porque ambos agentes actúan de forma aditiva sobre las metástasis óseas.",
+              "rationale": "El razonamiento teórico es comprensible pero fue probado y refutado. El ensayo no mostró la adición esperada sino un aumento en los eventos esqueléticos."
+            },
+            "C": {
+              "text": "Aceptar, siempre que no se administre simultáneamente un protector óseo",
+              "rationale": "Esto invierte la conclusión del juicio. Omitir la protección ósea se asoció con la mayor tasa de fracturas."
+            },
+            "D": {
+              "text": "Rechazar, porque el radio-223 requiere metástasis viscerales",
+              "rationale": "Lo contrario es cierto: las metástasis viscerales son una contraindicación, ya que, como análogo del calcio, el agente se acumula exclusivamente en áreas de recambio óseo."
+            }
+          },
+          "explanation": {
+            "core": "El radio-223 es un análogo del calcio que se acumula en áreas de mayor recambio óseo y actúa allí mediante radiación alfa de corto alcance. De aquí se desprenden indicaciones y límites: metástasis óseas sintomáticas sí, metástasis viscerales no. Se ha abandonado la combinación con abiraterona debido al exceso de fracturas y es obligatoria la protección ósea concomitante. Es recomendable una valoración odontológica antes de comenzar, ya que estos agentes pueden provocar necrosis mandibular.",
+            "teaching_point": "El radio-223 entra en los huesos. Los pacientes con metástasis viscerales no se benefician."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-pca-00020",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Knochenschutz",
@@ -2149,7 +2841,8 @@
           "dosierung",
           "nebenwirkungen",
           "pruefungsrelevant-hoch"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -2182,6 +2875,12 @@
           "code": "EAU",
           "title": "EAU Guidelines on Prostate Cancer",
           "year": 2026
+        },
+        {
+          "type": "reference",
+          "title": "EAU: bone health during ADT",
+          "url": "https://uroweb.org/guidelines/prostate-cancer/chapter/followup",
+          "accessed": "2026-09-10"
         }
       ],
       "review": {
@@ -2189,7 +2888,12 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-10",
+          "method": "AI-assisted source cross-check",
+          "clinical_signoff": false
+        }
       },
       "content": {
         "de": {
@@ -2198,24 +2902,24 @@
           "options": {
             "A": {
               "text": "Beide Patienten Denosumab 60 mg alle sechs Monate",
-              "rationale": "Die beiden Situationen verfolgen unterschiedliche Ziele und arbeiten deshalb mit unterschiedlichen Dosen und Intervallen. Eine einheitliche Gabe wäre entweder unter- oder überdosiert."
+              "rationale": "Die Osteoporosedosis ist kein gleichwertiger Ersatz für die Prävention metastasenbedingter Skelettkomplikationen."
             },
             "B": {
               "text": "Erster 120 mg alle vier Wochen, zweiter 60 mg alle sechs Monate",
-              "rationale": "Die Zuordnung ist vertauscht. Die hochdosierte Gabe gehört zum kastrationsresistenten Stadium mit manifester Skelettbeteiligung, die niedrig dosierte zur Prophylaxe des therapieinduzierten Knochenverlustes."
+              "rationale": "Die Indikationen sind vertauscht; Dosierung folgt dem Therapieziel."
             },
             "C": {
               "text": "Beide Patienten Denosumab 120 mg alle vier Wochen",
-              "rationale": "Die Androgendeprivation senkt die Knochendichte unabhängig vom Ausgangsbefund messbar, weshalb Risikoerfassung und Basismaßnahmen bei allen Patienten unter Langzeitentzug erfolgen."
+              "rationale": "Knochenmetastasen bei hormonsensitiver Erkrankung allein rechtfertigen dieses Hochdosisschema nicht."
             },
             "D": {
-              "text": "Erster 60 mg alle sechs Monate, zweiter 120 mg alle vier Wochen",
-              "rationale": "Die niedrige Dosis schützt die Knochendichte unter Hormonentzug, die hohe Dosis verhindert Frakturen, Bestrahlungen und Rückenmarkkompressionen bei manifesten Metastasen. Die Kiefernekrose ist bei der hohen Dosis deutlich häufiger, weshalb die Zahnsanierung vorher erfolgt. Alternativ zur hochdosierten Gabe kann Zoledronsäure alle drei bis vier Wochen eingesetzt werden. In beiden Situationen gehören Calcium und Vitamin D dazu, und vor Beginn ist eine zahnärztliche Untersuchung erforderlich."
+              "text": "Erster: Frakturrisiko prüfen; zweiter: Schutz vor Skelettkomplikationen",
+              "rationale": "ADT allein begründet nicht automatisch Denosumab 60 mg. Die Osteoporosetherapie richtet sich nach Frakturrisiko und Begleittherapie. Bei ossär metastasiertem mCRPC kommen Denosumab 120 mg alle vier Wochen oder Zoledronat infrage."
             }
           },
           "explanation": {
-            "core": "Knochengerichtete Therapie beim Prostatakarzinom folgt zwei getrennten Logiken, die im Alltag regelmäßig verwechselt werden. Die eine ist die Prophylaxe des durch die Androgendeprivation verursachten Knochenverlustes, mit niedriger Dosis und langem Intervall bei allen Patienten unter Langzeitentzug. Die andere ist die Prävention skelettaler Komplikationen bei manifesten Knochenmetastasen im kastrationsresistenten Stadium, mit hoher Dosis und kurzem Intervall. Beide verlangen Calcium, Vitamin D und Zahnstatus.",
-            "teaching_point": "Sechzig Milligramm halbjährlich schützt die Dichte, hundertzwanzig Milligramm monatlich verhindert Ereignisse."
+            "core": "Osteoporoseprävention und Prävention metastasenbedingter Skelettkomplikationen unterscheiden. Vor Antiresorptiva Zahnstatus, Kalzium und Vitamin D prüfen.",
+            "teaching_point": "Zuerst Indikation und Frakturrisiko, danach Präparat und Dosis."
           },
           "flag_note": null
         },
@@ -2225,26 +2929,60 @@
           "options": {
             "A": {
               "text": "Both patients denosumab 60 mg every six months",
-              "rationale": "The two situations pursue different aims and therefore use different doses and intervals. A uniform regimen would be either under- or overdosed."
+              "rationale": "The osteoporosis dose does not replace treatment to prevent metastatic skeletal complications."
             },
             "B": {
               "text": "First 120 mg every four weeks, second 60 mg every six months",
-              "rationale": "The assignment is reversed. High-dose treatment belongs to the castration-resistant setting with manifest skeletal involvement, low-dose to prophylaxis of treatment-induced bone loss."
+              "rationale": "The indications are reversed; dosing follows the treatment objective."
             },
             "C": {
               "text": "Both patients denosumab 120 mg every four weeks",
-              "rationale": "Androgen deprivation measurably lowers bone density regardless of baseline, so risk assessment and basic measures apply to all patients on long-term deprivation."
+              "rationale": "Bone metastases in hormone-sensitive disease alone do not justify this high-dose regimen."
             },
             "D": {
-              "text": "First 60 mg every six months, second 120 mg every four weeks",
-              "rationale": "The low dose protects bone density under hormonal deprivation, the high dose prevents fractures, radiotherapy and cord compression in manifest metastases. Jaw necrosis is markedly more frequent with the high dose, which is why dental treatment precedes it. Zoledronic acid every three to four weeks is an alternative to the high-dose schedule. Calcium and vitamin D belong to both situations, and a dental examination is required before starting."
+              "text": "First: assess fracture risk; second: prevent skeletal complications",
+              "rationale": "ADT alone does not automatically require denosumab 60 mg. Osteoporosis treatment depends on fracture risk and concomitant therapy. Bone-metastatic mCRPC may warrant denosumab 120 mg every four weeks or zoledronic acid."
             }
           },
           "explanation": {
-            "core": "Bone-directed treatment in prostate cancer follows two separate logics that are regularly confused in practice. One is prophylaxis of bone loss caused by androgen deprivation, at low dose and long interval in all patients on long-term treatment. The other is prevention of skeletal complications in manifest bone metastases in the castration-resistant setting, at high dose and short interval. Both require calcium, vitamin D and dental assessment.",
-            "teaching_point": "Sixty milligrams every six months protects density; one hundred and twenty milligrams monthly prevents events."
+            "core": "Distinguish osteoporosis prevention from prevention of metastatic skeletal complications. Check dental health, calcium and vitamin D before antiresorptive treatment.",
+            "teaching_point": "Establish the indication and fracture risk before choosing the drug and dose."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Dos pacientes con privación de andrógenos. El primero tiene una enfermedad hormonosensible con dos metástasis óseas y densidad ósea normal. El segundo es resistente a la castración con extensas metástasis óseas y sufrió una fractura patológica hace tres meses.",
+          "lead_in": "¿En qué se diferencia el tratamiento dirigido a los huesos?",
+          "options": {
+            "A": {
+              "text": "Ambos pacientes denosumab 60 mg cada seis meses",
+              "rationale": "La dosis para la osteoporosis no reemplaza el tratamiento para prevenir complicaciones esqueléticas metastásicas."
+            },
+            "B": {
+              "text": "Los primeros 120 mg cada cuatro semanas, los segundos 60 mg cada seis meses",
+              "rationale": "Las indicaciones se invierten; la dosificación sigue el objetivo del tratamiento."
+            },
+            "C": {
+              "text": "Ambos pacientes denosumab 120 mg cada cuatro semanas.",
+              "rationale": "Las metástasis óseas en enfermedades hormonalmente sensibles por sí solas no justifican este régimen de dosis altas."
+            },
+            "D": {
+              "text": "Primero: evaluar el riesgo de fractura; segundo: prevenir complicaciones esqueléticas",
+              "rationale": "La ADT por sí sola no requiere automáticamente 60 mg de denosumab. El tratamiento de la osteoporosis depende del riesgo de fractura y del tratamiento concomitante. El mCRPC metastásico óseo puede requerir denosumab 120 mg cada cuatro semanas o ácido zoledrónico."
+            }
+          },
+          "explanation": {
+            "core": "Distinguir la prevención de la osteoporosis de la prevención de complicaciones esqueléticas metastásicas. Comprobar la salud dental, el calcio y la vitamina D antes del tratamiento antirresortivo.",
+            "teaching_point": "Establecer la indicación y el riesgo de fractura antes de elegir el fármaco y la dosis."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -2258,7 +2996,8 @@
           "notfall",
           "bildgebung",
           "komplikationsmanagement"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -2354,6 +3093,40 @@
             "teaching_point": "Back pain plus a neurological deficit in a bone-metastatic patient means today, not next week."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Hombre de 74 años con cáncer de próstata con metástasis ósea conocida, dos días de dolor creciente en la zona media de la espalda y, desde esta mañana, marcha inestable y hormigueo en ambas piernas. La micción es difícil con un residuo de 350 ml.",
+          "lead_in": "¿Cuál es la conducta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Analgesia y resonancia magnética ambulatoria en la próxima semana.",
+              "rationale": "La recuperación neurológica depende directamente del tiempo que haya existido la compresión. Un retraso de días a menudo decide si el daño del cordón se vuelve permanente."
+            },
+            "B": {
+              "text": "Dexametasona inmediata y resonancia magnética de emergencia de la columna.",
+              "rationale": "El esteroide reduce inmediatamente el edema perifocal y acorta el tiempo hasta el tratamiento definitivo. Se obtienen imágenes de toda la columna porque pueden estar afectados varios niveles, lo que cambia la planificación de la radioterapia. La resonancia magnética debe abarcar toda la columna, porque una proporción sustancial tiene otros puntos de compresión clínicamente silenciosos. Luego se toma sin demora una decisión sobre la descompresión o la radioterapia; en las enfermedades sensibles a las hormonas, la privación de andrógenos comienza al mismo tiempo."
+            },
+            "C": {
+              "text": "Gammagrafía ósea para localizar la metástasis responsable.",
+              "rationale": "La gammagrafía muestra recambio óseo, no compresión del cordón. No responde a la pregunta decisiva y cuesta tiempo."
+            },
+            "D": {
+              "text": "Primero cateterizar la vejiga y realizar más estudios al día siguiente.",
+              "rationale": "El cateterismo es correcto pero sólo un paso. La dificultad para orinar aquí es un síntoma de compresión y una señal de advertencia de una afectación ya avanzada."
+            }
+          },
+          "explanation": {
+            "core": "La compresión metastásica de la médula espinal es la emergencia más crítica en oncología urológica. El dolor de espalda con nuevas alteraciones de la marcha, déficits sensoriales o disfunción de la vejiga y los intestinos obliga a obtener imágenes inmediatas de toda la columna. El factor pronóstico más importante es el estado neurológico al inicio del tratamiento: los pacientes que llegan caminando suelen seguir caminando, los que ya están paralizados rara vez se recuperan. Por lo tanto, uno trata en lugar de programar.",
+            "teaching_point": "El dolor de espalda más un déficit neurológico en un paciente con metástasis ósea significa hoy, no la próxima semana."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -2367,7 +3140,8 @@
           "labordiagnostik",
           "leitlinie",
           "pruefungsrelevant-hoch"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -2463,6 +3237,40 @@
             "teaching_point": "Measure testosterone before diagnosing castration resistance."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Hombre de 69 años que recibe un análogo de LHRH de depósito cada tres meses por enfermedad metastásica. El PSA aumenta en tres mediciones de 2,1 a 6,4 ng/ml. La última inyección de depósito fue hace cuatro meses porque faltó a una cita. La testosterona se midió por última vez hace dos años.",
+          "lead_in": "¿Qué se debe hacer antes de diagnosticar la resistencia a la castración?",
+          "options": {
+            "A": {
+              "text": "Inicie un ARPI de una vez, ya que se documentan tres subidas del PSA",
+              "rationale": "Un aumento del PSA por sí solo no es suficiente. Sin testosterona castrada documentada, el diagnóstico sería erróneo y el paciente empeoraría aunque sólo hubiera caducado el tratamiento básico."
+            },
+            "B": {
+              "text": "Cambiar a orquiectomía, ya que el depósito ha fracasado.",
+              "rationale": "Una conclusión prematura. Primero mida si la testosterona está realmente por encima del nivel de castración; a menudo simplemente se ha superado el intervalo."
+            },
+            "C": {
+              "text": "Mida la testosterona sérica y confirme el nivel de castración.",
+              "rationale": "La definición requiere ambas condiciones simultáneamente. Un intervalo de inyección excedido es una causa común y fácilmente corregible de un aumento de PSA que no representa resistencia. Sólo con testosterona documentada por debajo de 50 ng/dl más PSA o progresión radiológica se puede diagnosticar resistencia a la castración. La privación de andrógenos se continúa independientemente; de ​​lo contrario, el receptor de andrógenos volvería a estimularse por completo."
+            },
+            "D": {
+              "text": "Detener la privación de andrógenos, ya que evidentemente ya no es eficaz.",
+              "rationale": "Dejar de hacerlo permite que la testosterona aumente y estimula aún más la enfermedad. La castración se continúa durante toda la vida incluso cuando se añaden más agentes."
+            }
+          },
+          "explanation": {
+            "core": "La resistencia a la castración es una definición compuesta de dos condiciones, no solo de una trayectoria de PSA. Requiere testosterona por debajo de 50 ng/dl y progresión, ya sea bioquímica con varias elevaciones por encima de un nadir o radiológica con nuevas lesiones. El diagnóstico erróneo evitable más común surge de intervalos de inyección excedidos o de una supresión inadecuada. Una vez diagnosticada, la castración se continúa durante toda la vida, porque todos los agentes posteriores se basan en ella.",
+            "teaching_point": "Mida la testosterona antes de diagnosticar la resistencia a la castración."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -2476,7 +3284,8 @@
           "pathologie",
           "pharmakologie",
           "labordiagnostik"
-        ]
+        ],
+        "domain": "prostatakarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 5,
@@ -2572,6 +3381,40 @@
             "teaching_point": "When the tumour grows faster than the PSA rises, rebiopsy."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Hombre de 61 años, dos años de mCRPC con enzalutamida. Durante ocho semanas se deteriora rápidamente con metástasis hepáticas y lesiones óseas osteolíticas. El PSA sólo ha aumentado de 8 a 11 ng/ml. La lactato deshidrogenasa está marcadamente elevada.",
+          "lead_in": "¿Cuál es la explicación más probable y la consecuencia correcta?",
+          "options": {
+            "A": {
+              "text": "Error de laboratorio en el PSA; continuar el tratamiento sin cambios",
+              "rationale": "La discrepancia entre un pequeño aumento del PSA y una rápida progresión clínica no es un error de medición sino un patrón característico. Continuar sin cambios pierde un tiempo valioso."
+            },
+            "B": {
+              "text": "Progresión del adenocarcinoma; cambiar a abiraterona",
+              "rationale": "El cambio dentro del eje del receptor de andrógenos tendría una eficacia limitada incluso en un curso clásico. Con este patrón, hay muchos argumentos en contra de un crecimiento continuo dependiente de andrógenos."
+            },
+            "C": {
+              "text": "Pseudoprogresión con enzalutamida; observar y reevaluar",
+              "rationale": "La pseudoprogresión no está descrita para los antiandrógenos. Con afectación hepática y deterioro clínico, la espera no sería defendible."
+            },
+            "D": {
+              "text": "Sospechar de una variante agresiva; biopsia y terapia con platino",
+              "rationale": "Metástasis viscerales y osteolíticas, progresión rápida, aumento de lactato deshidrogenasa y un PSA desproporcionadamente bajo para la carga tumoral caracterizan a la variante agresiva. Estos tumores producen poco PSA y responden al platino, no a una mayor manipulación hormonal. La biopsia de una metástasis accesible confirma la diferenciación neuroendocrina. El tratamiento a base de platino reemplaza entonces la terapia dirigida al receptor de andrógenos, porque esa vía ya no impulsa la enfermedad."
+            }
+          },
+          "explanation": {
+            "core": "Bajo un tratamiento prolongado dirigido al receptor de andrógenos, una proporción de tumores experimentan una diferenciación neuroendocrina y, por lo tanto, se vuelven independientes del receptor de andrógenos. El patrón clínico es característico: PSA bajo a pesar de una alta carga tumoral, metástasis viscerales y osteolíticas, respuesta corta a los ARPI y progresión rápida. El paso decisivo es la obtención de tejido fresco, porque desplaza el tratamiento del eje hormonal a la quimioterapia basada en platino.",
+            "teaching_point": "Cuando el tumor crece más rápido de lo que aumenta el PSA, se realiza una nueva biopsia."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     }

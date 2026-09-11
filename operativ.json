@@ -10,7 +10,8 @@
         "tags": [
           "operationstechnik",
           "komplikationsmanagement"
-        ]
+        ],
+        "domain": "operativ"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -106,6 +107,40 @@
             "teaching_point": "Control Santorini first, then spare dorsolaterally. A bloodless field is the prerequisite for nerve sparing."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Durante la prostatectomía radical asistida por robot se planifica un abordaje bilateral con preservación de nervios. Después de dividir el cuello de la vejiga, el cirujano disecciona a lo largo de la cápsula prostática.",
+          "lead_in": "¿Por dónde discurre el haz neurovascular y qué estructura hay que controlar previamente?",
+          "options": {
+            "A": {
+              "text": "Ventralmente en la línea media debajo de la fascia de Denonvilliers",
+              "rationale": "La fascia de Denonvilliers se encuentra dorsalmente entre la próstata y el recto, no ventralmente, y los haces no se encuentran en la línea media."
+            },
+            "B": {
+              "text": "Dorsolateralmente entre la fascia prostática y elevadora",
+              "rationale": "Los haces discurren dorsolateralmente en este plano. El plexo de Santorini se encuentra ventralmente sobre la uretra y es la principal fuente de sangrado antes de la disección apical. Los bultos se encuentran aproximadamente entre las cinco y las siete. Ventralmente se debe asegurar primero el complejo venoso dorsal de Santorini, de lo contrario el campo apical queda oculto."
+            },
+            "C": {
+              "text": "Dorsalmente en la línea media entre la próstata y el recto.",
+              "rationale": "No hay ningún haz en la línea media dorsal y la ligadura de la arteria ilíaca interna no forma parte de esta operación."
+            },
+            "D": {
+              "text": "Lateralmente en la pared lateral pélvica por encima del elevador del ano",
+              "rationale": "El nervio obturador es importante durante la linfadenectomía, no como punto de referencia para preservar el nervio en la próstata."
+            }
+          },
+          "explanation": {
+            "core": "La conservación del nervio depende de un plano más que de un nervio visible: la disección se realiza en dirección dorsolateral entre la fascia prostática y la fascia elevadora. Primero se debe controlar la fuente de hemorragia ventral; de lo contrario, el ápice se oscurece y la preservación falla.",
+            "teaching_point": "Controlar el complejo venoso de Santorini y preservar el plano neurovascular dorsolateral con buena visibilidad."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -119,7 +154,8 @@
           "operationstechnik",
           "komplikationsmanagement",
           "notfall"
-        ]
+        ],
+        "domain": "operativ"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -215,6 +251,40 @@
             "teaching_point": "A lateral wall tumour plus a jerking leg means risk of perforation, not an anaesthetic problem."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Durante la resección transuretral de un tumor en la pared lateral izquierda de la vejiga, la pierna izquierda se sacude violentamente cada vez que se activa el asa. El paciente está bajo anestesia espinal.",
+          "lead_in": "¿Qué está pasando y cómo se gestiona?",
+          "options": {
+            "A": {
+              "text": "Perforación de vejiga; abortar de inmediato y proceder a la laparotomía",
+              "rationale": "La perforación es la consecuencia temida, no la causa del espasmo, y la laparotomía no se justifica sin otros signos."
+            },
+            "B": {
+              "text": "Irritación del nervio femoral; continuar la resección sin cambios",
+              "rationale": "El nervio femoral inerva la parte anterior del muslo y no corre inmediatamente adyacente a la pared lateral de la vejiga."
+            },
+            "C": {
+              "text": "Efecto secundario de la anestesia espinal sin relevancia quirúrgica",
+              "rationale": "La anestesia espinal no previene el reflejo, porque la corriente estimula el nervio directa y periféricamente."
+            },
+            "D": {
+              "text": "Reflejo obturador por estimulación directa en la pared lateral.",
+              "rationale": "El nervio corre inmediatamente lateral a la pared de la vejiga. El tirón repentino puede hacer que el bucle atraviese la pared y provoque una perforación. Los remedios son la relajación muscular bajo anestesia general, un bloqueo del nervio obturador, pulsos de corriente cortos o resección bipolar. La anestesia regional no protege porque la estimulación ocurre distal al bloqueo."
+            }
+          },
+          "explanation": {
+            "core": "El reflejo obturador es un problema anatómico: el nervio obturador pasa cerca de la pared lateral de la vejiga y es estimulado directamente por una corriente monopolar. La anestesia regional no protege porque la estimulación ocurre distal al bloqueo. Las soluciones abordan la respuesta muscular o la corriente misma.",
+            "teaching_point": "Un tumor en la pared lateral más una pierna sacudida significa riesgo de perforación, no un problema anestésico."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -227,7 +297,8 @@
         "tags": [
           "operationstechnik",
           "komplikationsmanagement"
-        ]
+        ],
+        "domain": "operativ"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -323,6 +394,40 @@
             "teaching_point": "On the left the renal vein collects; on the right everything drains separately into the cava."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Nefrectomía radical izquierda laparoscópica. Después de movilizar el colon, se expone el hilio. La vena renal es sorprendentemente larga y recibe varios afluentes.",
+          "lead_in": "¿Qué afirmación sobre la anatomía y el abordaje es correcta?",
+          "options": {
+            "A": {
+              "text": "La vena renal izquierda recibe varios afluentes; arteria primero",
+              "rationale": "La vena renal izquierda, más larga, cruza por delante de la aorta y recoge estos afluentes. Dividir primero la arteria previene la congestión venosa del riñón con tendencia a sangrar. En él drenan regularmente las venas suprarrenal, gonadal y lumbar. Estos afluentes se aseguran antes de la división y la arteria se divide antes que la vena para evitar la congestión venosa."
+            },
+            "B": {
+              "text": "La vena renal izquierda corre detrás de la aorta sin afluentes.",
+              "rationale": "El trayecto retroaórtico es una variante rara, no la regla, y los afluentes son típicos por el lado izquierdo."
+            },
+            "C": {
+              "text": "La vena se divide primero para detener el suministro de sangre.",
+              "rationale": "Esto atrapa el flujo arterial en el riñón; La hinchazón de los órganos y la tendencia al sangrado aumentan."
+            },
+            "D": {
+              "text": "A la izquierda, la vena suprarrenal desemboca en la vena cava.",
+              "rationale": "Eso se aplica al lado derecho. Por el lado izquierdo drena en la vena renal, por lo que el acceso suprarrenal izquierdo discurre por la vena renal."
+            }
+          },
+          "explanation": {
+            "core": "Las diferencias laterales en el hilio importan en los exámenes y en el quirófano: la vena renal izquierda es larga, cruza la aorta y recoge las venas suprarrenales, gonadales y lumbares. A la derecha, la vena es corta y drena directamente hacia la cava, y la vena suprarrenal derecha corre por separado hacia la cava. La arteria antes que la vena se aplica en ambos lados.",
+            "teaching_point": "La vena renal izquierda recibe varias tributarias; la anatomía venosa derecha es diferente."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -336,7 +441,8 @@
           "operationstechnik",
           "endourologisch",
           "komplikationsmanagement"
-        ]
+        ],
+        "domain": "operativ"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -432,19 +538,54 @@
             "teaching_point": "Through the calyceal tip, not the infundibulum. And the higher the rib, the closer the pleura."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Nefrolitotomía percutánea por cálculo cuerno de ciervo. El acceso debe ser lo más incruento posible y además se requiere un acceso con el poste superior.",
+          "lead_in": "¿Qué reglas anatómicas rigen la punción?",
+          "options": {
+            "A": {
+              "text": "Perfora directamente en la pelvis para obtener el espacio más grande.",
+              "rationale": "El acceso pélvico directo encuentra los vasos hiliares y es la variante más hemorrágica."
+            },
+            "B": {
+              "text": "Perforar a través del infundíbulo, donde la pared es delgada.",
+              "rationale": "Las arterias segmentarias discurren por el infundíbulo; la lesión causa hemorragia sustancial y estenosis infundibular."
+            },
+            "C": {
+              "text": "Perforación a través de la papila calicial a lo largo de la línea de Brödel.",
+              "rationale": "La punta del calicial pasa entre los territorios vasculares en lugar de atravesar un vaso. Por encima de la duodécima y más aún de la undécima costilla se cruza regularmente el hueco pleural. La línea de Brödel separa la irrigación segmentaria anterior de la posterior y es relativamente avascular. El acceso por encima de la duodécima y especialmente de la undécima costilla cruza regularmente el hueco pleural."
+            },
+            "D": {
+              "text": "El acceso por encima de la undécima costilla no conlleva riesgo pleural",
+              "rationale": "Aquí es precisamente donde las tasas de hidrotórax y neumotórax son más altas; el enfoque se elige sólo con una indicación clara y el consentimiento apropiado."
+            }
+          },
+          "explanation": {
+            "core": "Dos límites anatómicos determinan la seguridad del acceso. Dentro del riñón, la línea de Brödel separa el suministro arterial anterior del posterior, por lo que la punción pasa a través de la papila calicial. En el exterior, el nivel de las costillas determina el riesgo pulmonar, que aumenta con cada espacio intercostal más cranealmente.",
+            "teaching_point": "A través de la papila calicial, no del infundíbulo. Y cuanto más alta es la costilla, más cerca está la pleura."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-ope-00005",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Ureterverletzung",
         "tags": [
           "operationstechnik",
           "komplikationsmanagement"
-        ]
+        ],
+        "domain": "operativ"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -484,7 +625,12 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2029-09-06"
+        "expires": "2029-09-06",
+        "editorial_review": {
+          "date": "2026-09-10",
+          "method": "AI-assisted editorial review",
+          "clinical_signoff": false
+        }
       },
       "content": {
         "de": {
@@ -497,7 +643,7 @@
             },
             "B": {
               "text": "Distal, wo die A. uterina den Ureter von ventral kreuzt",
-              "rationale": "Diese Kreuzung ist die klassische Gefahrenstelle. Beim Absetzen der A. uterina wird der darunter verlaufende Ureter mitgefasst oder thermisch geschädigt. Die Kreuzung liegt etwa zwei Zentimeter lateral der Zervix. Beim Absetzen der A. uterina wird der darunter verlaufende Ureter mitgefasst oder thermisch geschädigt."
+              "rationale": "Diese Kreuzung ist die klassische Gefahrenstelle. Beim Absetzen der A. uterina wird der darunter verlaufende Ureter mitgefasst oder thermisch geschädigt. Die Kreuzung liegt etwa zwei Zentimeter lateral der Zervix."
             },
             "C": {
               "text": "An der Kreuzung mit den Iliakalgefäßen am Beckeneingang",
@@ -540,6 +686,40 @@
             "teaching_point": "Water flows under the bridge: the ureter lies beneath the uterine artery, not above it."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Después de una histerectomía laparoscópica, una mujer de 48 años presenta dolor en el flanco y secreción vaginal acuosa. La TC muestra hidronefrosis del lado izquierdo y extravasación de contraste en la pelvis.",
+          "lead_in": "¿Dónde es más probable que se produzca una lesión y por qué?",
+          "options": {
+            "A": {
+              "text": "En la unión ureteropélvica, donde la pared es más delgada.",
+              "rationale": "La unión ureteropélvica se encuentra lejos del campo operatorio de una histerectomía."
+            },
+            "B": {
+              "text": "Distalmente, donde la arteria uterina cruza por delante",
+              "rationale": "Este cruce es el clásico punto de peligro. Cuando se divide la arteria uterina, el uréter subyacente queda atrapado en la pinza o se daña térmicamente."
+            },
+            "C": {
+              "text": "En el cruce con los vasos ilíacos en el borde pélvico.",
+              "rationale": "Este cruce es un punto de referencia importante para encontrar el uréter, pero no es el sitio típico de lesión durante la histerectomía."
+            },
+            "D": {
+              "text": "En el orificio ureteral, donde comienza el trayecto intramural.",
+              "rationale": "El orificio se encuentra dentro de la pared de la vejiga y no queda expuesto durante esta operación."
+            }
+          },
+          "explanation": {
+            "core": "El uréter pasa por debajo de la arteria uterina cerca del cuello uterino, captado por la frase agua debajo del puente. Este sitio representa la mayoría de las lesiones ureterales iatrogénicas en cirugía ginecológica. Los síntomas tardíos son dolor en el flanco, fiebre, pérdida de orina por vagina e hidronefrosis silenciosa.",
+            "teaching_point": "El agua fluye por debajo del puente: el uréter se encuentra debajo de la arteria uterina, no por encima de ella."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -552,7 +732,8 @@
         "tags": [
           "operationstechnik",
           "komplikationsmanagement"
-        ]
+        ],
+        "domain": "operativ"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -648,6 +829,40 @@
             "teaching_point": "Sympathetic ejaculates, parasympathetic erects. Lymphadenectomy puts ejaculation at stake."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Un hombre de 29 años está programado para una disección de ganglios linfáticos retroperitoneales después de quimioterapia. Actualmente desea tener hijos y pregunta sobre los efectos sobre la fertilidad.",
+          "lead_in": "¿Qué estructura es decisiva y qué pasa si se divide?",
+          "options": {
+            "A": {
+              "text": "Fibras simpáticas de T12 a L3 y el plexo hipogástrico.",
+              "rationale": "La emisión y el cierre del cuello de la vejiga se controlan mediante el sistema simpático. Por lo tanto, la técnica de conservación de nervios con identificación y preservación de estas fibras es estándar cuando es oncológicamente aceptable. Su división provoca eyaculación retrógrada o aneyaculación con erección preservada, porque la emisión y el cierre del cuello de la vejiga se controlan simpáticamente."
+            },
+            "B": {
+              "text": "El nervio genitofemoral; la división causa aneyaculación",
+              "rationale": "Proporciona sensación al escroto y al muslo y el reflejo cremastérico, no la eyaculación."
+            },
+            "C": {
+              "text": "Los nervios pélvicos esplácnicos de S2 a S4; pérdida de eyaculación",
+              "rationale": "Estas fibras parasimpáticas impulsan la erección; El daño causa disfunción eréctil, no un trastorno eyaculatorio."
+            },
+            "D": {
+              "text": "El nervio obturador; El daño causa pérdida de fertilidad.",
+              "rationale": "Es puramente motor y sensorial para los aductores y la parte medial del muslo y no influye en la eyaculación."
+            }
+          },
+          "explanation": {
+            "core": "La erección y la eyaculación tienen diferentes inervaciones: parasimpática sacra para la erección, simpática toracolumbar para la emisión y cierre del cuello de la vejiga. En la disección de ganglios linfáticos retroperitoneales sólo están en riesgo las fibras simpáticas, por lo que el asesoramiento debe abordar la eyaculación en lugar de la erección.",
+            "teaching_point": "El simpático eyacula, el parasimpático erecta. La linfadenectomía pone en juego la eyaculación."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -660,7 +875,8 @@
         "tags": [
           "operationstechnik",
           "komplikationsmanagement"
-        ]
+        ],
+        "domain": "operativ"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -756,12 +972,46 @@
             "teaching_point": "The femoral triangle is the map: inguinal ligament, sartorius, adductor longus."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Linfadenectomía inguinal radical derecha por cáncer de pene con afectación ganglionar comprobada. El cirujano planifica el alcance de la disección y la cobertura.",
+          "lead_in": "¿Qué afirmación sobre los límites y la técnica es correcta?",
+          "options": {
+            "A": {
+              "text": "Disección hasta el ombligo y salida a la espina ilíaca.",
+              "rationale": "Ambos límites se encuentran muy por fuera del triángulo femoral y no describen una plantilla reconocida."
+            },
+            "B": {
+              "text": "La vena femoral se reseca de forma rutinaria.",
+              "rationale": "Se conserva la vena femoral; su resección provoca graves problemas de salida sin beneficio oncológico."
+            },
+            "C": {
+              "text": "La vena safena mayor debe ser sacrificada en todos los casos.",
+              "rationale": "De hecho, conservarlo reduce las tasas de linfedema y complicaciones de las heridas y es oncológicamente seguro."
+            },
+            "D": {
+              "text": "El campo de disección corresponde al triángulo femoral.",
+              "rationale": "Estos límites definen la plantilla reconocida. Las medidas enumeradas abordan los dos problemas principales de la operación: el linfedema y la rotura de la herida sobre los vasos. Está limitado cranealmente por el ligamento inguinal, lateralmente el sartorio y medialmente el aductor largo. Preservar la gran vena safena reduce la morbilidad y un colgajo de sartorio puede cubrir los vasos femorales."
+            }
+          },
+          "explanation": {
+            "core": "La linfadenectomía inguinal es oncológicamente eficaz pero conlleva una alta morbilidad. Los límites anatómicos del triángulo femoral definen la extensión, y varias medidas mitigan las consecuencias: preservar la vena safena mayor, colgajos de piel gruesos, evitar la tensión y cubrir los vasos con sartorio en disecciones extensas.",
+            "teaching_point": "El triángulo femoral es el mapa: ligamento inguinal, sartorio, aductor largo."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-ope-00008",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Harnableitung",
@@ -769,7 +1019,8 @@
           "operationstechnik",
           "komplikationsmanagement",
           "labordiagnostik"
-        ]
+        ],
+        "domain": "operativ"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -809,7 +1060,12 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2029-09-06"
+        "expires": "2029-09-06",
+        "editorial_review": {
+          "date": "2026-09-10",
+          "method": "AI-assisted consistency review",
+          "clinical_signoff": false
+        }
       },
       "content": {
         "de": {
@@ -834,7 +1090,7 @@
             }
           },
           "explanation": {
-            "core": "Jede Harnableitung mit Darm hat metabolische Folgen, die aus der Physiologie des verwendeten Abschnitts stammen. Ileum und Kolon führen zur hyperchlorämischen metabolischen Azidose, das Jejunum zum gegenteiligen Muster. Die Schonung des terminalen Ileums verhindert Gallensäureverlust und Vitamin-B12-Mangel, der sich erst nach Jahren manifestiert.",
+            "core": "Darmsegmente in der Harnableitung können Elektrolytstörungen verursachen. Ileum und Kolon begünstigen hyperchlorämische Azidose; Jejunum kann Hyponatriämie, Hypochlorämie, Hyperkaliämie und ebenfalls Azidose verursachen. Terminales Ileum möglichst erhalten und Vitamin B12 kontrollieren.",
             "teaching_point": "Die letzten Zentimeter vor der Bauhin-Klappe bleiben liegen. Vitamin B12 jährlich kontrollieren."
           },
           "flag_note": null
@@ -861,10 +1117,44 @@
             }
           },
           "explanation": {
-            "core": "Every bowel-based urinary diversion has metabolic consequences arising from the physiology of the segment used. Ileum and colon produce hyperchloraemic metabolic acidosis, jejunum the opposite pattern. Sparing the terminal ileum prevents bile acid loss and vitamin B12 deficiency, which only becomes manifest after years.",
+            "core": "Bowel segments in urinary diversion can cause electrolyte disturbances. Ileum and colon favour hyperchloraemic acidosis; jejunum may cause hyponatraemia, hypochloraemia, hyperkalaemia and also acidosis. Preserve terminal ileum where possible and monitor vitamin B12.",
             "teaching_point": "Leave the last centimetres before the ileocaecal valve alone. Check vitamin B12 annually."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Cistectomía radical con neovejiga ileal ortotópica. El cirujano selecciona el segmento intestinal para la reconstrucción.",
+          "lead_in": "¿Qué afirmación sobre la elección de segmento y sus consecuencias es correcta?",
+          "options": {
+            "A": {
+              "text": "Íleon terminal en la válvula ileocecal por su movilidad.",
+              "rationale": "Ese mismo segmento absorbe vitamina B12 y ácidos biliares; su recolección causa diarrea de ácidos biliares y deficiencia de vitamina B12 a largo plazo."
+            },
+            "B": {
+              "text": "Yeyuno como segmento de elección por su pared delgada",
+              "rationale": "Los segmentos yeyunales causan acidosis hiponatrémica e hipoclorémica con hiperpotasemia y se evitan."
+            },
+            "C": {
+              "text": "Un segmento ileal que respeta la porción terminal.",
+              "rationale": "Ahorrar esa longitud preserva la absorción de vitamina B12 y ácidos biliares. La reabsorción de amonio y cloruro a través de la mucosa intestinal explica la acidosis hiperclorémica típica. Los últimos aproximadamente 15 a 20 centímetros antes de la válvula ileocecal se salvan, porque allí se absorben la vitamina B12 y los ácidos biliares. El suministro proviene de la arteria mesentérica superior; Es de esperar que se produzca acidosis hiperclorémica en el postoperatorio."
+            },
+            "D": {
+              "text": "Es mejor un segmento de colon sin consecuencias metabólicas",
+              "rationale": "Los segmentos colónicos también causan acidosis hiperclorémica; La elección del segmento sigue la cirugía, la radioterapia y la anatomía previas."
+            }
+          },
+          "explanation": {
+            "core": "Los segmentos intestinales en derivaciones urinarias pueden alterar los electrolitos. Íleon y colon favorecen acidosis hiperclorémica; el yeyuno puede causar hiponatremia, hipocloremia, hiperpotasemia y también acidosis. Preservar el íleon terminal cuando sea posible y controlar la vitamina B12.",
+            "teaching_point": "Deje solos los últimos centímetros antes de la válvula ileocecal. Controle la vitamina B12 anualmente."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -877,7 +1167,8 @@
         "tags": [
           "operationstechnik",
           "bildgebung"
-        ]
+        ],
+        "domain": "operativ"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -973,6 +1264,40 @@
             "teaching_point": "A crossing vessel is transposed, not divided and not ignored."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 34 años con dolor recurrente en flanco izquierdo tras carga de líquidos. La renografía con diurético muestra retraso en el drenaje del lado izquierdo con función renal diferencial conservada. La angiografía por TC muestra un vaso situado por delante de la unión ureteropélvica.",
+          "lead_in": "¿Cuál es la causa y cómo se opera?",
+          "options": {
+            "A": {
+              "text": "Estenosis intrínseca; la incisión endoscópica es suficiente",
+              "rationale": "Con una endopielotomía de vasos que cruzan anteriormente tiene peores tasas de éxito y conlleva un riesgo de hemorragia sustancial."
+            },
+            "B": {
+              "text": "Vaso polar inferior cruzado; pieloplastia de Anderson-Hynes",
+              "rationale": "La escisión del segmento estrecho y la transposición de la anastomosis elimina la causa de forma permanente. El vaso se conserva porque irriga el parénquima renal. Se extirpa el segmento estrecho y se transpone la pelvis delante del vaso. El vaso se conserva porque como arteria terminal irriga el polo inferior."
+            },
+            "C": {
+              "text": "Seccionar el vaso cruzado para restablecer el drenaje",
+              "rationale": "Es una arteria terminal hacia el polo inferior; dividirlo causa infarto segmentario."
+            },
+            "D": {
+              "text": "Trastorno funcional; El tratamiento es la colocación de stent permanente.",
+              "rationale": "Un stent trata el síntoma más que la causa y no es una solución a largo plazo."
+            }
+          },
+          "explanation": {
+            "core": "La obstrucción de la unión ureteropélvica es intrínseca, generalmente de un segmento adinámico, o extrínseca de un vaso que cruza el polo inferior. La distinción determina el procedimiento: la pieloplastia de Anderson-Hynes resuelve ambos, porque extirpa el segmento estrecho y transpone la anastomosis delante del vaso. Las técnicas endoscópicas fallan cuando hay un vaso afectado.",
+            "teaching_point": "Preservar el vaso cruzado y reconstruir la unión sin compresión vascular."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -985,7 +1310,8 @@
         "tags": [
           "operationstechnik",
           "komplikationsmanagement"
-        ]
+        ],
+        "domain": "operativ"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -1081,6 +1407,40 @@
             "teaching_point": "Right short to the cava, left long to the renal vein. Secure the right vein first and securely."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Adrenalectomía derecha laparoscópica para un adenoma funcionante. Después de movilizar el hígado y exponer la vena cava inferior, el cirujano busca la vena suprarrenal.",
+          "lead_in": "¿Qué se debe saber sobre la anatomía venosa?",
+          "options": {
+            "A": {
+              "text": "A la derecha, la vena suprarrenal desemboca en la vena renal.",
+              "rationale": "Eso describe el lado izquierdo; confundir ambos es una fuente clásica de error."
+            },
+            "B": {
+              "text": "Ambas venas suprarrenales drenan en la vena porta.",
+              "rationale": "No hay drenaje venoso portal de las glándulas suprarrenales."
+            },
+            "C": {
+              "text": "Las venas suprarrenales se pueden dividir sin control previo",
+              "rationale": "La avulsión incontrolada en la cava provoca un sangrado muy difícil de controlar."
+            },
+            "D": {
+              "text": "A la derecha, una vena corta desemboca directamente en la cava.",
+              "rationale": "Su brevedad y entrada directa hacen que el lado derecho sea técnicamente más exigente. A la izquierda, el drenaje discurre a través de la vena más larga hasta la vena renal. Su entrada suele ser dorsolateral. Debe asegurarse de manera temprana y confiable, porque la avulsión causa sangrado en la cava que es difícil de controlar; a la izquierda el drenaje corre a través de la vena más larga hasta la vena renal."
+            }
+          },
+          "explanation": {
+            "core": "El drenaje venoso suprarrenal difiere de un lado a otro, de ahí la dificultad de la operación. A la derecha, una vena corta se encuentra directamente sobre la cava, a la izquierda una más larga corre hacia la vena renal. En los tumores funcionales, el control venoso temprano limita además la liberación de catecolaminas tras la manipulación.",
+            "teaching_point": "Derecha corta a la cava, izquierda larga a la vena renal. Asegure primero y de forma segura la vena derecha."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1093,7 +1453,8 @@
         "tags": [
           "operationstechnik",
           "komplikationsmanagement"
-        ]
+        ],
+        "domain": "operativ"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -1189,6 +1550,40 @@
             "teaching_point": "Psoas sutures shallow and longitudinal. Sensory loss means genitofemoral, motor loss means femoral."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "El segundo día después de la ureteroneocistostomía con fijación del nudo del psoas, una mujer de 54 años refiere ardor y entumecimiento en la ingle derecha y en la parte medial del muslo. La fuerza de flexión de la cadera y extensión de la rodilla son simétricas y la ecografía renal no muestra obstrucción.",
+          "lead_in": "¿Qué ha pasado y cómo se podría haber evitado?",
+          "options": {
+            "A": {
+              "text": "Radiculopatía L5 por posicionamiento durante la operación.",
+              "rationale": "El territorio L5 se encuentra en la parte lateral de la pierna y el dorso del pie, no en la ingle y la parte medial del muslo."
+            },
+            "B": {
+              "text": "Lesión del nervio obturador por movilización de la vejiga.",
+              "rationale": "La lesión del obturador provoca además debilidad de los aductores, que aquí no existe, y el nervio no se encuentra en el campo de las suturas del psoas."
+            },
+            "C": {
+              "text": "Irritación del nervio genitofemoral por las suturas del psoas.",
+              "rationale": "El nervio genitofemoral se encuentra exactamente donde se colocan las suturas de enganche. Las suturas profundas o transversales lo atrapan y producen este patrón sensorial. El nervio discurre por la superficie anterior del psoas mayor, exactamente donde se colocan las suturas de hitch. Por tanto, las suturas se colocan superficialmente y a lo largo de las fibras, con el nervio a la vista."
+            },
+            "D": {
+              "text": "Obstrucción ureteral postoperatoria con dolor capsular renal",
+              "rationale": "La obstrucción causaría dolor en el flanco e hidronefrosis, ninguno de los cuales está presente."
+            }
+          },
+          "explanation": {
+            "core": "En una fijación vesical al psoas, la vejiga movilizada se fija al psoas mayor para permitir una anastomosis sin tensión. El nervio genitofemoral discurre por la superficie anterior del músculo y, más profundamente y más lateralmente, entre el psoas y el ilíaco, se encuentra el nervio femoral. De ahí: mordidas superficiales, a lo largo de las fibras, con el nervio identificado antes del primer punto.",
+            "teaching_point": "Suturas del psoas superficiales y longitudinales. La pérdida sensorial significa genitofemoral, la pérdida motora significa femoral."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1201,7 +1596,8 @@
         "tags": [
           "operationstechnik",
           "komplikationsmanagement"
-        ]
+        ],
+        "domain": "operativ"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -1297,6 +1693,40 @@
             "teaching_point": "Reimplant distally rather than anastomose. Length comes from hitch and Boari."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Durante la resección rectal, el uréter izquierdo se secciona completamente a unos tres centímetros por encima de la vejiga y la lesión se reconoce inmediatamente. Los extremos están bien perfundidos pero no se pueden unir fácilmente sin tensión.",
+          "lead_in": "¿Cómo debería proceder la reconstrucción?",
+          "options": {
+            "A": {
+              "text": "Ureteroneocistostomía, con fijación al psoas o colgajo de Boari si es necesario",
+              "rationale": "Las lesiones distales se reimplantan porque la perfusión del muñón distal no es confiable. El tirón del psoas y el colgajo de Boari son los dos pasos de alargamiento cuando el alcance es insuficiente. La anastomosis se realiza con espátula, sin tensión y con stent. Si la tensión persiste, se realiza un tirón del psoas y un colgajo de Boari para un defecto más largo."
+            },
+            "B": {
+              "text": "Anastomosis terminoterminal de los dos extremos bajo ligera tensión.",
+              "rationale": "La tensión sobre la anastomosis es la causa más común de fuga y posterior estenosis; la reimplantación distal es superior de todos modos."
+            },
+            "C": {
+              "text": "Ligadura distal y nefrostomía como solución definitiva",
+              "rationale": "Una medida puente defendible en un paciente inestable, pero no una reconstrucción definitiva."
+            },
+            "D": {
+              "text": "Transureteroureterostomía al otro lado como primera opción",
+              "rationale": "Pone en riesgo el lado sano y se reserva para casos especiales en los que la reconstrucción vesical o ipsilateral no es factible."
+            }
+          },
+          "explanation": {
+            "core": "El nivel de lesión determina el procedimiento. Las lesiones distales se reimplantan en la vejiga y las medias y proximales se anastomosan principalmente. Se aplican cuatro principios en todo momento: libre de tensión, espatulado, bien perfundido, con stent y drenado. La fijación vesical al psoas y el colgajo de Boari son las herramientas para ganar longitud.",
+            "teaching_point": "Reimplante distal en lugar de anastomosis. La longitud proviene de Hitch y Boari."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1310,7 +1740,8 @@
           "operationstechnik",
           "komplikationsmanagement",
           "praeoperativ"
-        ]
+        ],
+        "domain": "operativ"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -1406,6 +1837,40 @@
             "teaching_point": "Foot drop after lithotomy means the fibular head until pain and creatine kinase say otherwise."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Después de una ureteroscopia de tres horas en posición de litotomía, un hombre de 62 años no puede realizar la dorsiflexión del pie derecho. Se reduce la sensibilidad sobre el dorso del pie y la parte lateral de la pierna. La pantorrilla está blanda e indolora, la creatina quinasa es normal y los pulsos pedales son palpables.",
+          "lead_in": "¿Qué lesión está presente?",
+          "options": {
+            "A": {
+              "text": "Lesión por presión del nervio peroneo común en el peroné",
+              "rationale": "El nervio se encuentra allí directamente sobre el hueso y se comprime mediante la presión lateral del soporte. El cuadro típico es el pie caído con pérdida sensorial en el dorso. El nervio se encuentra allí directamente sobre el hueso y se comprime mediante la presión lateral del soporte de la pierna."
+            },
+            "B": {
+              "text": "Síndrome compartimental de la parte inferior de la pierna después de una posición prolongada",
+              "rationale": "Ni la pantorrilla blanda e indolora ni la creatina quinasa normal encajan, aunque el síndrome compartimental sigue siendo la alternativa temida después de una litotomía prolongada."
+            },
+            "C": {
+              "text": "Lesión del nervio femoral por flexión excesiva de la cadera",
+              "rationale": "Eso causa debilidad del cuádriceps con alteración de la extensión de la rodilla y pérdida sensorial en la parte anterior del muslo."
+            },
+            "D": {
+              "text": "Lesión del nervio ciático por sobreextensión de la rodilla",
+              "rationale": "Esto también afectaría la flexión de la rodilla y la planta del pie y es poco común si se coloca correctamente."
+            }
+          },
+          "explanation": {
+            "core": "La posición de litotomía pone en peligro varios nervios en puntos característicos: el nervio peroneo común en la cabeza del peroné, el nervio femoral con flexión extrema de la cadera y el nervio cutáneo femoral lateral en el ligamento inguinal. Después de aproximadamente cuatro horas también aumenta el riesgo de síndrome compartimental, lo que justifica un cambio de posición provisional en procedimientos prolongados.",
+            "teaching_point": "El pie caído después de la litotomía significa la cabeza del peroné hasta que el dolor y la creatina quinasa indiquen lo contrario."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1419,7 +1884,8 @@
           "operationstechnik",
           "komplikationsmanagement",
           "praeoperativ"
-        ]
+        ],
+        "domain": "operativ"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -1515,6 +1981,40 @@
             "teaching_point": "The patient is held by friction, not by the shoulders."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Después de una prostatectomía radical asistida por robot de cuatro horas en posición pronunciada con la cabeza hacia abajo, el paciente presenta un marcado edema facial y conjuntival y se pospone la extubación. Al día siguiente hay debilidad en la abducción del hombro y la flexión del codo derecho con pérdida sensitiva en la parte lateral del brazo.",
+          "lead_in": "¿Cómo deben interpretarse ambos hallazgos?",
+          "options": {
+            "A": {
+              "text": "Reacción alérgica con polineuropatía acompañante.",
+              "rationale": "No se administró contraste y la alergia no explica un déficit circunscrito en un hombro."
+            },
+            "B": {
+              "text": "Isquemia cerebral con síntomas hemisféricos en el brazo.",
+              "rationale": "El patrón sigue una distribución nerviosa periférica más que un territorio cerebral; el habla y el rostro no se ven afectados."
+            },
+            "C": {
+              "text": "Sobrecarga de líquidos como única causa de ambos hallazgos.",
+              "rationale": "Contribuye al edema pero no explica un déficit motor y sensorial circunscrito en el brazo."
+            },
+            "D": {
+              "text": "Lesiones por posición de Trendelenburg pronunciada",
+              "rationale": "Ambos hallazgos surgen del mismo posicionamiento. Las hombreras sostienen el cuerpo contra la gravedad y transmiten tracción al plexo braquial, generalmente a las raíces superiores. La congestión venosa produce edema facial, conjuntival y laríngeo, mientras que las hombreras transmiten tracción al plexo braquial superior. Prevención: sin hombreras, superficie antideslizante, brazos doblados y límites de inclinación y duración."
+            }
+          },
+          "explanation": {
+            "core": "La posición pronunciada con la cabeza hacia abajo es el requisito previo para el acceso pélvico y, al mismo tiempo, la fuente de las típicas complicaciones no quirúrgicas: congestión venosa de la cabeza y el cuello con edema laríngeo, aumento de la presión intracraneal e intraocular y lesión del plexo por dispositivos antideslizantes. La prevención es puramente organizativa y no requiere tiempo de operación.",
+            "teaching_point": "El paciente es sostenido por fricción, no por los hombros."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1528,7 +2028,8 @@
           "operationstechnik",
           "komplikationsmanagement",
           "notfall"
-        ]
+        ],
+        "domain": "operativ"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -1624,6 +2125,40 @@
             "teaching_point": "Remove trocars under vision, not blindly. The bleeding shows once the plug is gone."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Después de la nefrectomía parcial laparoscópica, la pared abdominal sangra persistentemente cuando se retira el trócar de trabajo derecho. Al día siguiente hay un bulto doloroso al lado de la línea media con hemoglobina cayendo.",
+          "lead_in": "¿Qué vaso se lesiona y cómo se evita?",
+          "options": {
+            "A": {
+              "text": "La arteria epigástrica superior; trocar debajo del ombligo",
+              "rationale": "La arteria epigástrica superior irriga el recto superior y no se encuentra en el campo típico del trócar de la cirugía pélvica."
+            },
+            "B": {
+              "text": "La arteria epigástrica inferior detrás del recto abdominal.",
+              "rationale": "El vaso discurre exactamente por donde se colocan los trócares de trabajo laterales. La transiluminación y la visión interna directa revelan su curso antes de la punción. Surge de la arteria ilíaca externa medial al anillo inguinal profundo y asciende por detrás del recto. Se evita mediante transiluminación, colocación lateral a la vaina del recto e inserción bajo visión."
+            },
+            "C": {
+              "text": "La arteria ilíaca circunfleja profunda en el ligamento inguinal.",
+              "rationale": "Corre a lo largo del ligamento inguinal hacia la espina ilíaca y se afecta con menos frecuencia."
+            },
+            "D": {
+              "text": "La arteria femoral debajo del ligamento inguinal.",
+              "rationale": "Se encuentra debajo del ligamento inguinal fuera de la cavidad abdominal y no corre riesgo durante la colocación del trócar."
+            }
+          },
+          "explanation": {
+            "core": "La lesión de la arteria epigástrica inferior es la complicación vascular más común del acceso con trócar y a menudo se hace evidente sólo al retirarla, porque el trócar tapona el vaso hasta ese momento. Por tanto, todos los trócares se retiran bajo visión. El tratamiento consiste en sutura transfixiante dirigida, taponamiento con balón a través de un catéter o reparación abierta.",
+            "teaching_point": "Retire los trócares bajo visión, no a ciegas. El sangrado se nota una vez que desaparece el tapón."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1637,7 +2172,8 @@
           "komplikationsmanagement",
           "bildgebung",
           "nachsorge"
-        ]
+        ],
+        "domain": "operativ"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -1733,6 +2269,40 @@
             "teaching_point": "Not every lymphocele is treated. Treat what compresses or is infected."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Tres semanas después de una prostatectomía radical con disección extendida de los ganglios linfáticos pélvicos, un hombre de 64 años presenta hinchazón unilateral de la pierna izquierda, presión abdominal inferior y febrícula. La TC muestra una colección de líquido de 8 cm de borde liso en la pelvis izquierda que comprime la vena ilíaca.",
+          "lead_in": "¿Cuál es la conducta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Descartar trombosis y luego drenar por vía percutánea.",
+              "rationale": "La compresión predispone a la trombosis, que requeriría un tratamiento aparte. Se drenan los linfoceles sintomáticos, se observan los asintomáticos. La compresión de la vena ilíaca predispone a la trombosis venosa profunda, que requeriría un tratamiento aparte. El material para microbiología se toma durante el drenaje; la recurrencia se trata mediante marsupialización laparoscópica con ventana peritoneal."
+            },
+            "B": {
+              "text": "Revisión abierta inmediata con evacuación de la cavidad.",
+              "rationale": "Un primer paso innecesariamente invasivo; El drenaje percutáneo resuelve la mayoría de los casos."
+            },
+            "C": {
+              "text": "Tratar con antibióticos y esperar resolución espontánea.",
+              "rationale": "Esto se aplica a pequeñas colecciones asintomáticas. Aquí hay compresión y hay síntomas."
+            },
+            "D": {
+              "text": "Anticoagulación terapéutica sin mayor investigación.",
+              "rationale": "Injustificado sin trombosis comprobada y no trata la causa de la hinchazón."
+            }
+          },
+          "explanation": {
+            "core": "El linfocele es la complicación más común de la disección de los ganglios linfáticos pélvicos. La mayoría permanece asintomática y no necesita tratamiento. Se vuelven sintomáticos por la compresión de una vena, uréter o nervio, o por infección. La prevención se basa en clips o sellado de los vasos linfáticos en lugar de la coagulación bipolar y en una ventana peritoneal.",
+            "teaching_point": "No todos los linfoceles reciben tratamiento. Tratar lo que se comprime o se infecta."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1746,7 +2316,8 @@
           "operationstechnik",
           "komplikationsmanagement",
           "notfall"
-        ]
+        ],
+        "domain": "operativ"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -1842,12 +2413,46 @@
             "teaching_point": "Two suture lines must not lie on each other. Tissue belongs between them."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Durante la disección de la superficie prostática posterior se produce una lesión rectal de aproximadamente un centímetro que se reconoce inmediatamente. El paciente no ha sido irradiado, el intestino no se preparó preoperatoriamente y no hay contaminación fecal importante.",
+          "lead_in": "¿Cuál es la conducta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Deje la lesión y simplemente inserte un drenaje.",
+              "rationale": "Un defecto no cerrado suele provocar fístula rectouretral y sepsis pélvica."
+            },
+            "B": {
+              "text": "Siempre cree un estoma y repare el defecto más tarde.",
+              "rationale": "En el caso de una lesión pequeña que se reconoce inmediatamente en un paciente no irradiado, la reparación primaria sin estoma es factible; el estoma está reservado para constelaciones de alto riesgo."
+            },
+            "C": {
+              "text": "Cierre multicapa con interposición de tejido.",
+              "rationale": "La separación de las dos líneas de sutura con tejido es el paso decisivo contra la formación de fístulas, ya que de lo contrario dos líneas de sutura se encuentran directamente una sobre la otra. Se coloca epiplón o grasa entre las líneas de sutura del intestino y la uretra para que dos líneas de sutura no queden una encima de la otra. Se añade irrigación generosa, amplia cobertura antibiótica, drenaje y drenaje prolongado con catéter; un estoma sólo por un defecto grande, radioterapia previa o contaminación grave."
+            },
+            "D": {
+              "text": "Abandonar la operación y posponer la prostatectomía.",
+              "rationale": "El abandono no soluciona la lesión existente y crea un segundo evento operatorio."
+            }
+          },
+          "explanation": {
+            "core": "Una lesión rectal reconocida intraoperatoriamente es manejable; el que se pierde no lo es. Tres cosas importan: el cierre multicapa seguro, la interposición de tejido viable entre las dos líneas de sutura y la decisión del estoma basada en el tamaño del defecto, la radioterapia previa y la contaminación.",
+            "teaching_point": "Dos líneas de sutura no deben quedar una encima de la otra. El tejido pertenece entre ellos."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-ope-00018",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "TUR-Syndrom",
@@ -1856,7 +2461,8 @@
           "komplikationsmanagement",
           "labordiagnostik",
           "endourologisch"
-        ]
+        ],
+        "domain": "operativ"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -1889,6 +2495,12 @@
           "code": "EAU",
           "title": "EAU Guidelines on Management of Non-neurogenic Male LUTS",
           "year": 2026
+        },
+        {
+          "type": "reference",
+          "title": "Society for Endocrinology: emergency hyponatraemia guidance",
+          "url": "https://www.endocrinology.org/media/xhrhxhxm/emergency-management-of-severe-and-moderately-severely-symptomatic-hyponatraemia-in-adult-patients-2022.pdf",
+          "accessed": "2026-09-10"
         }
       ],
       "review": {
@@ -1896,7 +2508,12 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2029-09-06"
+        "expires": "2029-09-06",
+        "editorial_review": {
+          "date": "2026-09-10",
+          "method": "AI-assisted source cross-check",
+          "clinical_signoff": false
+        }
       },
       "content": {
         "de": {
@@ -1908,8 +2525,8 @@
               "rationale": "Die zu schnelle Korrektur kann eine osmotische Demyelinisierung auslösen; der Anstieg wird auf etwa 8 bis 10 mmol/l in 24 Stunden begrenzt."
             },
             "B": {
-              "text": "Resektion beenden, Spülung stoppen, Natrium langsam heben",
-              "rationale": "Ursache ist die Einschwemmung hypotoner Spülflüssigkeit über eröffnete Prostatasinus. Der erste und wirksamste Schritt ist, die Quelle zu schließen. Der Anstieg wird auf etwa 8 bis 10 mmol/l in 24 Stunden begrenzt, um eine osmotische Demyelinisierung zu vermeiden. Bei Volumenüberladung kommt ein Schleifendiuretikum hinzu, dazu intensivmedizinische Überwachung."
+              "text": "Resektion stoppen, engmaschig überwachen und symptomgerecht Natrium korrigieren",
+              "rationale": "Spülmittelaufnahme stoppen und intensivmedizinisch behandeln. Bei neurologisch symptomatischer Hyponatriämie hypertones NaCl nach Notfallprotokoll erwägen; initialen kontrollierten Anstieg von späterer Korrekturgrenze unterscheiden."
             },
             "C": {
               "text": "Resektion bis zur vollständigen Adenomentfernung fortsetzen",
@@ -1922,7 +2539,7 @@
           },
           "explanation": {
             "core": "Das TUR-Syndrom entsteht durch Resorption hypotoner, elektrolytfreier Spülflüssigkeit und äußert sich mit Verwirrtheit, Übelkeit, Sehstörungen, Hypertonie und Bradykardie. Risikofaktoren sind lange Resektionszeit, große Drüse, hoher Spüldruck und eröffnete Sinus. Die bipolare Resektion mit isotoner Kochsalzspülung vermeidet das Syndrom weitgehend und ist deshalb der bessere Ausgangspunkt.",
-            "teaching_point": "Erst die Spülung stoppen, dann das Natrium korrigieren, und dieses langsam."
+            "teaching_point": "Symptome akut behandeln, Natrium engmaschig messen und Überkorrektur verhindern."
           },
           "flag_note": null
         },
@@ -1935,8 +2552,8 @@
               "rationale": "Over-rapid correction can precipitate osmotic demyelination; the rise is limited to roughly 8 to 10 mmol/l over 24 hours."
             },
             "B": {
-              "text": "Stop resecting, stop irrigation, raise sodium slowly",
-              "rationale": "The cause is absorption of hypotonic irrigation fluid through opened prostatic sinuses. The first and most effective step is closing the source. The rise is limited to roughly 8 to 10 mmol/l over 24 hours to avoid osmotic demyelination. A loop diuretic is added for fluid overload, together with intensive care monitoring."
+              "text": "Stop resection, monitor closely and correct sodium according to symptoms",
+              "rationale": "Stop irrigation-fluid absorption and obtain critical-care support. Neurologically symptomatic hyponatraemia may require hypertonic saline under an emergency protocol; distinguish initial controlled correction from subsequent correction limits."
             },
             "C": {
               "text": "Continue resecting until the adenoma is fully removed",
@@ -1949,15 +2566,49 @@
           },
           "explanation": {
             "core": "TUR syndrome arises from absorption of hypotonic, electrolyte-free irrigation fluid and presents with confusion, nausea, visual disturbance, hypertension and bradycardia. Risk factors are long resection time, large gland, high irrigation pressure and opened sinuses. Bipolar resection with isotonic saline largely avoids the syndrome and is therefore the better starting point.",
-            "teaching_point": "Stop the irrigation first, then correct the sodium, and correct it slowly."
+            "teaching_point": "Treat symptoms promptly, check sodium frequently and prevent overcorrection."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Durante la resección transuretral monopolar de la próstata que dura 85 minutos, el paciente bajo anestesia espinal se vuelve cada vez más inquieto y confuso, se queja de náuseas y alteraciones visuales. La presión arterial aumenta y la frecuencia cardíaca cae a 48 por minuto. El sodio sérico es de 116 mmol/l.",
+          "lead_in": "¿Qué se debe hacer?",
+          "options": {
+            "A": {
+              "text": "Aumentar el sodio al rango normal en unas pocas horas.",
+              "rationale": "La corrección demasiado rápida puede precipitar la desmielinización osmótica; el aumento se limita a aproximadamente 8 a 10 mmol/l durante 24 horas."
+            },
+            "B": {
+              "text": "Detener la resección, controlar de cerca y corregir el sodio según los síntomas.",
+              "rationale": "Detenga la absorción del líquido de irrigación y obtenga apoyo en cuidados intensivos. La hiponatremia neurológicamente sintomática puede requerir solución salina hipertónica según un protocolo de emergencia; distinguir la corrección controlada inicial de los límites de corrección posteriores."
+            },
+            "C": {
+              "text": "Continuar resecando hasta eliminar completamente el adenoma.",
+              "rationale": "Cada minuto más de riego empeora la situación; El adenoma residual se puede resecar más tarde."
+            },
+            "D": {
+              "text": "Administrar agua libre y expansión de volumen para estabilizar la circulación",
+              "rationale": "Esto agrava aún más la hiponatremia y empeora el edema cerebral."
+            }
+          },
+          "explanation": {
+            "core": "El síndrome RTU surge de la absorción de líquido de irrigación hipotónico y libre de electrolitos y se presenta con confusión, náuseas, alteraciones visuales, hipertensión y bradicardia. Los factores de riesgo son un tiempo de resección prolongado, glándula grande, presión de irrigación alta y senos venosos prostáticos abiertos. La resección bipolar con solución salina isotónica evita en gran medida el síndrome y, por tanto, es el mejor punto de partida.",
+            "teaching_point": "Trate los síntomas con prontitud, controle el sodio con frecuencia y evite la corrección excesiva."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-ope-00019",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Blutung nach PCNL",
@@ -1966,7 +2617,8 @@
           "komplikationsmanagement",
           "bildgebung",
           "endourologisch"
-        ]
+        ],
+        "domain": "operativ"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -2006,7 +2658,12 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2029-09-06"
+        "expires": "2029-09-06",
+        "editorial_review": {
+          "date": "2026-09-10",
+          "method": "AI-assisted editorial review",
+          "clinical_signoff": false
+        }
       },
       "content": {
         "de": {
@@ -2027,7 +2684,7 @@
             },
             "D": {
               "text": "Pseudoaneurysma oder Fistel; Angiographie und Embolisation",
-              "rationale": "Die verzögerte, plötzlich einsetzende schwere Blutung ist typisch. Die superselektive Embolisation stillt die Blutung und erhält den größten Teil des Parenchyms. Die verzögerte, plötzlich einsetzende schwere Blutung nach Tagen bis Wochen ist typisch für eine arterielle Läsion nach Punktion oder Dilatation. Die superselektive Embolisation stillt die Blutung und erhält den größten Teil des Parenchyms."
+              "rationale": "Die verzögerte, plötzlich einsetzende schwere Blutung ist typisch. Die superselektive Embolisation stillt die Blutung und erhält den größten Teil des Parenchyms. Die verzögerte, plötzlich einsetzende schwere Blutung nach Tagen bis Wochen ist typisch für eine arterielle Läsion nach Punktion oder Dilatation."
             }
           },
           "explanation": {
@@ -2054,7 +2711,7 @@
             },
             "D": {
               "text": "Pseudoaneurysm or fistula; angiography and embolisation",
-              "rationale": "Delayed, sudden severe bleeding is typical. Superselective embolisation stops the bleeding and preserves most of the parenchyma. Delayed, sudden severe bleeding after days to weeks is typical of an arterial lesion following puncture or dilatation. Superselective embolisation stops the bleeding and preserves most of the parenchyma."
+              "rationale": "Delayed, sudden severe bleeding is typical. Superselective embolisation stops the bleeding and preserves most of the parenchyma. Delayed, sudden severe bleeding after days to weeks is typical of an arterial lesion following puncture or dilatation."
             }
           },
           "explanation": {
@@ -2062,6 +2719,40 @@
             "teaching_point": "Early bleeding venous and conservative, late bleeding arterial and interventional."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Diez días después de la nefrolitotomía percutánea, un hombre de 57 años presenta hematuria macroscópica grave y repentina, salida de coágulo y una reacción circulatoria. El curso postoperatorio temprano transcurrió sin incidentes; la hemoglobina ha disminuido en 3 g/dl.",
+          "lead_in": "¿Cuál es la causa más probable y la medida correcta?",
+          "options": {
+            "A": {
+              "text": "Exudación difusa; catéter de irrigación y reposo en cama son suficientes",
+              "rationale": "La supuración temprana suele detenerse espontáneamente. El sangrado intenso después de unos días indica una lesión vascular circunscrita."
+            },
+            "B": {
+              "text": "Infección urinaria con cistitis hemorrágica; antibióticos",
+              "rationale": "El momento y la reacción circulatoria no coinciden y la cistitis no explica una caída de hemoglobina de esta magnitud."
+            },
+            "C": {
+              "text": "Cálculo recurrente con lesión de la mucosa; repetir la endoscopia",
+              "rationale": "La recurrencia dentro de diez días es poco probable y no causa sangrado masivo."
+            },
+            "D": {
+              "text": "Pseudoaneurisma o fístula; angiografía y embolización",
+              "rationale": "Es típico un sangrado intenso, repentino y tardío. La embolización superselectiva detiene el sangrado y preserva la mayor parte del parénquima. El sangrado intenso, repentino y tardío después de días o semanas es típico de una lesión arterial después de una punción o dilatación."
+            }
+          },
+          "explanation": {
+            "core": "El sangrado después de la nefrolitotomía percutánea sigue dos patrones. El sangrado venoso temprano generalmente se detiene con reposo en cama y pinzamiento de la nefrostomía. El sangrado arterial tardío después de días o semanas indica pseudoaneurisma o fístula arteriovenosa y requiere angiografía con embolización. El acceso a través de la papila calicial en lugar del infundíbulo reduce el riesgo en primer lugar.",
+            "teaching_point": "Sangrado precoz venoso y conservador, sangrado tardío arterial e intervencionista."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -2074,7 +2765,8 @@
         "tags": [
           "operationstechnik",
           "komplikationsmanagement"
-        ]
+        ],
+        "domain": "operativ"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -2170,6 +2862,40 @@
             "teaching_point": "Expose first, then dissect. And if it is cut, repair it immediately."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Durante la disección extendida de los ganglios linfáticos pélvicos, el nervio obturador de la derecha se secciona por completo sin darse cuenta. El defecto es de unos pocos milímetros y los extremos quedan adyacentes sin tensión.",
+          "lead_in": "¿Cómo debería manejarse esto y qué déficit se esperaría de otro modo?",
+          "options": {
+            "A": {
+              "text": "Ninguna acción; el nervio es funcionalmente prescindible",
+              "rationale": "La pérdida causa debilidad de los aductores con marcha inestable y pérdida sensorial en la parte medial del muslo."
+            },
+            "B": {
+              "text": "Ligar ambos extremos para prevenir la formación de neuromas.",
+              "rationale": "La ligadura impide cualquier regeneración y crea exactamente el déficit que podría haberse evitado."
+            },
+            "C": {
+              "text": "Reparación microquirúrgica inmediata en la misma sesión.",
+              "rationale": "La reparación primaria de una sección transversal reciente, cortante y libre de tensión ofrece las mejores perspectivas de recuperación funcional. Un procedimiento posterior sería técnicamente más difícil y menos exitoso. La reparación epineural de extremo a extremo sin tensión de una sección transversal reciente y aguda ofrece las mejores perspectivas de recuperación. Si no se trata, se pueden esperar debilidad de los aductores y pérdida sensorial del muslo medial."
+            },
+            "D": {
+              "text": "Reconstrucción secundaria con injerto a los tres meses",
+              "rationale": "Se necesita un injerto para defectos más grandes o diagnóstico tardío; aquí se desperdicia la reparación primaria mejor y más sencilla."
+            }
+          },
+          "explanation": {
+            "core": "El nervio obturador discurre a lo largo de la pared lateral de la pelvis hasta el centro del campo de disección de la fosa obturatriz y es el nervio que se lesiona con mayor frecuencia en esta operación. Se expone antes de que comience la disección y se mantiene a la vista durante todo el proceso. Sin embargo, si se corta y se reconoce de inmediato, la reparación primaria es el tratamiento de elección.",
+            "teaching_point": "Exponga primero y luego diseccione. Y si se corta, repararlo inmediatamente."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     }

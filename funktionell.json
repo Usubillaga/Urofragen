@@ -10,7 +10,8 @@
         "tags": [
           "pharmakologie",
           "komplikationsmanagement"
-        ]
+        ],
+        "domain": "funktionell"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -113,6 +114,40 @@
             "teaching_point": "A patient who cannot or will not self-catheterise is not a candidate for botulinum toxin."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 68 años con vejiga hiperactiva idiopática. Dos antimuscarínicos en dosis y duración adecuadas y mirabegrón no produjeron efectos satisfactorios. Residual posmiccional 30 ml, urocultivo estéril, sin enfermedad neurológica.",
+          "lead_in": "¿Qué punto se debe resolver antes de la inyección intradetrusor de onabotulinumtoxina A?",
+          "options": {
+            "A": {
+              "text": "Profilaxis antibiótica continua durante cuatro semanas después de la inyección.",
+              "rationale": "Una dosis única periprocedimiento es suficiente; La profilaxis prolongada no es estándar y promueve la resistencia."
+            },
+            "B": {
+              "text": "Voluntad y capacidad para realizar un autocateterismo intermitente limpio.",
+              "rationale": "La orina residual hasta la dependencia del catéter es la complicación clínica más relevante; sin este requisito previo la indicación no es defendible."
+            },
+            "C": {
+              "text": "Pausar la anticoagulación oral durante siete días.",
+              "rationale": "El procedimiento se considera de bajo riesgo de hemorragia; un intervalo rígido de siete días no está justificado y conlleva sus propios riesgos."
+            },
+            "D": {
+              "text": "Demostración urodinámica previa de hiperactividad del detrusor.",
+              "rationale": "En la vejiga hiperactiva idiopática después del fracaso del tratamiento farmacológico, la urodinámica no es obligatoria; se utiliza cuando la imagen no está clara o antes de procedimientos más invasivos."
+            }
+          },
+          "explanation": {
+            "core": "El asesoramiento sobre el autocateterismo no es una formalidad sino parte del establecimiento de la indicación. Determina si el mecanismo de acción es aceptable para esta paciente y puede redirigirla hacia la neuromodulación sacra.",
+            "teaching_point": "Un paciente que no puede o no quiere autocateterizarse no es candidato para la toxina botulínica."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -125,7 +160,8 @@
         "tags": [
           "bildgebung",
           "leitlinie"
-        ]
+        ],
+        "domain": "funktionell"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -223,6 +259,40 @@
             "teaching_point": "Reflux alone is a snapshot; only with the corresponding detrusor pressure does it become a treatment decision."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Hombre de 22 años con espina bífida y disfunción neurogénica de la vejiga conocida durante el autocateterismo. Nueva hidronefrosis bilateral en ecografía con elevación de creatinina. Es necesario aclarar tanto el reflujo vesicoureteral como la disinergia detrusor-esfínter.",
+          "lead_in": "¿Qué prueba responde a ambas preguntas en un único procedimiento?",
+          "options": {
+            "A": {
+              "text": "Cistouretrografía miccional en proyecciones múltiples",
+              "rationale": "Muestra el reflujo pero no proporciona presiones y por lo tanto no hay evaluación de riesgos para el tracto superior."
+            },
+            "B": {
+              "text": "Cistometría con electromiografía del suelo pélvico.",
+              "rationale": "Capta la disinergia pero no dice nada sobre el reflujo."
+            },
+            "C": {
+              "text": "Uroflujometría con medición residual por ultrasonido",
+              "rationale": "Apenas interpretable bajo autocateterismo y poco informativo sobre la presión de almacenamiento o el reflujo."
+            },
+            "D": {
+              "text": "Videourodinamia con fluoroscopia simultánea.",
+              "rationale": "Sólo la medición simultánea de la presión y la fluoroscopia asignan el comportamiento del reflujo y del esfínter al mismo evento de presión."
+            }
+          },
+          "explanation": {
+            "core": "En la disfunción vesical neurógena, las presiones de almacenamiento elevadas pueden amenazar el tracto urinario superior. La videourodinámica relaciona presión y anatomía y muestra a qué presión aparece el reflujo.",
+            "teaching_point": "El reflujo por sí solo es una instantánea; sólo con la correspondiente presión del detrusor se convierte en una decisión de tratamiento."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -235,7 +305,8 @@
         "tags": [
           "bildgebung",
           "geriatrie"
-        ]
+        ],
+        "domain": "funktionell"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 2,
@@ -333,6 +404,40 @@
             "teaching_point": "A single residual volume without the voided volume is a number, not a finding."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Hombre de 74 años con síntomas moderados del tracto urinario inferior (IPSS 14). Una ecografía en una única consulta mostró un residuo posmiccional de 180 ml. El volumen vaciado anterior no estaba documentado y había estado bebiendo mucho en la sala de espera.",
+          "lead_in": "¿Cómo debe interpretarse este hallazgo?",
+          "options": {
+            "A": {
+              "text": "Disfunción miccional relevante; drenaje permanente indicado",
+              "rationale": "Una sola medición no conlleva esa consecuencia, e incluso un hallazgo confirmado no haría del cateterismo el primer paso."
+            },
+            "B": {
+              "text": "No utilizable; repetir en condiciones estandarizadas",
+              "rationale": "El residuo posmiccional varía sustancialmente dentro de un individuo y es interpretable sólo en relación con el volumen evacuado. La repetición debe documentar el volumen evacuado, porque la orina residual sólo es interpretable en relación con él."
+            },
+            "C": {
+              "text": "Sin consecuencias, ya que sólo es relevante por encima de 300 ml.",
+              "rationale": "No existe un umbral generalmente aceptado por debajo del cual se pueda ignorar la orina residual; descartarlo es tan infundado como sobreinterpretarlo."
+            },
+            "D": {
+              "text": "Establece la indicación de resección transuretral",
+              "rationale": "La orina residual por sí sola no es una indicación quirúrgica; que se deriva de la carga de síntomas, las complicaciones y el fracaso del tratamiento."
+            }
+          },
+          "explanation": {
+            "core": "El residuo posmiccional es un parámetro poco reproducible. La ingesta de líquidos, el tiempo de espera, el momento del examen y el volumen evacuado influyen sustancialmente. Sin estandarización y repetición, esto conduce regularmente a un tratamiento excesivo o insuficiente.",
+            "teaching_point": "Un único volumen residual sin el volumen evacuado es un número, no un hallazgo."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -346,7 +451,8 @@
           "leitlinie",
           "labordiagnostik",
           "praeoperativ"
-        ]
+        ],
+        "domain": "funktionell"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 2,
@@ -442,6 +548,40 @@
             "teaching_point": "The bladder diary costs nothing and prevents the commonest misattribution."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Hombre de 62 años que consulta por primera vez por síntomas del tracto urinario inferior. IPSS 18, nicturia dos veces por noche y chorro débil. Sin fiebre, hematuria ni antecedentes neurológicos.",
+          "lead_in": "¿Qué debe incluir la evaluación inicial?",
+          "options": {
+            "A": {
+              "text": "Urodinámica con estudio de presión-flujo como primer paso",
+              "rationale": "Es una prueba invasiva indicada en situaciones seleccionadas; no forma parte del estudio inicial rutinario."
+            },
+            "B": {
+              "text": "Evaluación básica que incluya un diario miccional",
+              "rationale": "Incluye anamnesis, exploración, IPSS, análisis de orina, valoración del PSA tras informar al paciente, residuo posmiccional y uroflujometría. Un diario de al menos tres días ayuda a evaluar la nicturia."
+            },
+            "C": {
+              "text": "Cistoscopia para valorar la configuración prostática",
+              "rationale": "Se reserva para indicaciones como hematuria, sospecha de estenosis o planificación de una intervención cuando el resultado pueda modificarla."
+            },
+            "D": {
+              "text": "Resonancia magnética prostática para medir el volumen glandular",
+              "rationale": "La ecografía permite estimar el volumen. La resonancia no es una prueba rutinaria inicial para estos síntomas."
+            }
+          },
+          "explanation": {
+            "core": "La evaluación inicial busca identificar causas y gravedad con pruebas principalmente no invasivas. El diario miccional registra la ingesta y los volúmenes urinarios y permite distinguir poliuria nocturna de un trastorno de almacenamiento.",
+            "teaching_point": "Antes de atribuir la nicturia a la próstata, revisar el diario miccional."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -456,7 +596,8 @@
           "pharmakologie",
           "dosierung",
           "geriatrie"
-        ]
+        ],
+        "domain": "funktionell"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -552,6 +693,40 @@
             "teaching_point": "Nocturia is not automatically a prostate symptom. Calculate first, then treat."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Hombre de 71 años con nicturia tres veces como síntoma principal, IPSS 12. Un diario de vejiga de tres días muestra volúmenes miccionales normales y un volumen de orina nocturna del 42 por ciento del total de 24 horas. Volumen de próstata 32 ml, residual posmiccional 20 ml. Toma un diurético de asa por la noche y tiene edema en el tobillo.",
+          "lead_in": "¿Cuál es la conducta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Resección transuretral de la próstata para la nicturia.",
+              "rationale": "Con una próstata pequeña, poliuria residual normal y nocturna, no se puede esperar que la cirugía mejore la nicturia."
+            },
+            "B": {
+              "text": "Administrar un antimuscarínico en dosis crecientes.",
+              "rationale": "Esto apunta a un trastorno de almacenamiento; aquí el problema es la producción nocturna de orina, no la capacidad de la vejiga."
+            },
+            "C": {
+              "text": "Un alfabloqueante en monoterapia durante tres meses.",
+              "rationale": "Mejora los síntomas miccionales pero tiene poco efecto sobre la poliuria nocturna."
+            },
+            "D": {
+              "text": "Trate la poliuria nocturna como una causa en sí misma.",
+              "rationale": "Una fracción nocturna superior a un tercio define poliuria nocturna. Sus causas suelen ser médicas o relacionadas con medicamentos; La desmopresina ocupa el último lugar y requiere controles de sodio debido al riesgo de hiponatremia. Primero se evalúan la insuficiencia cardíaca, la apnea del sueño y el edema, se pasa el diurético a la tarde y se ajusta la distribución de líquidos. Sólo entonces se cuestiona la desmopresina en dosis bajas, con monitorización del sodio sérico."
+            }
+          },
+          "explanation": {
+            "core": "La nicturia tiene tres posibles causas subyacentes: poliuria nocturna, capacidad reducida de la vejiga nocturna y trastornos del sueño. Sólo los separa el diario de la vejiga. En la poliuria nocturna la causa suele ser ajena a la urología y la cirugía de próstata no corrige por sí sola la causa extraurológica.",
+            "teaching_point": "La nicturia no es automáticamente un síntoma de próstata. Primero calcule y luego trate."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -566,7 +741,8 @@
           "dosierung",
           "leitlinie",
           "labordiagnostik"
-        ]
+        ],
+        "domain": "funktionell"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -662,6 +838,40 @@
             "teaching_point": "Double the PSA on a 5-alpha-reductase inhibitor, and take any rise seriously."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 66 años, IPSS 21 con molestias, volumen prostático 68 ml, PSA 3,2 ng/ml, residual posmiccional 90 ml, flujo máximo 9 ml/s. No quiere cirugía.",
+          "lead_in": "¿Qué tratamiento farmacológico está mejor justificado y qué se debe considerar durante el seguimiento?",
+          "options": {
+            "A": {
+              "text": "Combinar un alfabloqueante con un inhibidor de la 5-alfa-reductasa",
+              "rationale": "Volumen de próstata superior a 40 ml y riesgo elevado de progresión de la marca PSA; sólo el inhibidor de la 5-alfa-reductasa reduce las tasas de retención y cirugía. La reducción a la mitad del PSA es un efecto regular y no tranquilizador. Específicamente tamsulosina 0,4 mg al día más dutasterida 0,5 mg al día. Después de seis a doce meses, el PSA se reduce a la mitad, por lo que el valor medido debe duplicarse para su interpretación."
+            },
+            "B": {
+              "text": "Monoterapia con alfabloqueantes por su rápido efecto",
+              "rationale": "Mejora los síntomas rápidamente pero no previene el crecimiento ni la retención en una glándula grande."
+            },
+            "C": {
+              "text": "Inhibidor de la 5-alfa-reductasa como único tratamiento a largo plazo",
+              "rationale": "Eficaz contra la progresión pero con meses de latencia y, por tanto, desfavorable como terapia única cuando las molestias son elevadas."
+            },
+            "D": {
+              "text": "Monoterapia antimuscarínica dirigida a los síntomas.",
+              "rationale": "Con un residuo de 90 ml y un caudal notablemente reducido, se corre el riesgo de empeorar el vaciado."
+            }
+          },
+          "explanation": {
+            "core": "La elección del fármaco sigue el patrón de síntomas y el riesgo de progresión. Un volumen superior a 40 ml y un PSA elevado aconsejan un tratamiento combinado. El principal problema es la interpretación del PSA con inhibidores de la 5-alfa-reductasa: el valor se reduce a la mitad y cualquier aumento durante el tratamiento requiere evaluación incluso si se encuentra dentro del rango normal.",
+            "teaching_point": "Duplique el PSA con un inhibidor de la 5-alfa-reductasa y tómese en serio cualquier aumento."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -674,7 +884,8 @@
         "tags": [
           "leitlinie",
           "pharmakologie"
-        ]
+        ],
+        "domain": "funktionell"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 2,
@@ -770,6 +981,40 @@
             "teaching_point": "Three months of supervised training belong before any surgical planning."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 52 años, dos partos vaginales, dos años de pérdidas de orina por tos, estornudos y ejercicio. Sin urgencia, sin goteo posmiccional, residual 15 ml, urocultivo estéril, IMC 31.",
+          "lead_in": "¿Qué es el tratamiento de primera línea?",
+          "options": {
+            "A": {
+              "text": "Cinta vaginal sin tensión como procedimiento principal",
+              "rationale": "Los procedimientos quirúrgicos siguen al tratamiento conservador fallido, no lo preceden."
+            },
+            "B": {
+              "text": "Un antimuscarínico para amortiguar la actividad de la vejiga.",
+              "rationale": "Actúa sobre los síntomas de urgencia; en la incontinencia de esfuerzo pura no hay justificación."
+            },
+            "C": {
+              "text": "Entrenamiento supervisado de suelo pélvico durante tres meses",
+              "rationale": "El entrenamiento supervisado es eficaz y de bajo riesgo, y se ha demostrado que la pérdida de peso reduce los episodios de incontinencia con un IMC superior a 30. Se complementa con la reducción de peso y el ajuste del estilo de vida. Supervisado significa más que un folleto, porque la eficacia depende de la instrucción."
+            },
+            "D": {
+              "text": "Implantación inmediata de un esfínter artificial.",
+              "rationale": "Un procedimiento para casos graves que han agotado las opciones conservadoras y quirúrgicas, no de primera línea."
+            }
+          },
+          "explanation": {
+            "core": "La incontinencia de esfuerzo se trata paso a paso: primero el estilo de vida y el entrenamiento supervisado del suelo pélvico, luego la duloxetina como opción con un considerable perfil de efectos secundarios, y luego la cirugía. Supervisado significa más que un folleto, porque la eficacia depende de la instrucción.",
+            "teaching_point": "Antes de cualquier planificación quirúrgica es necesario realizar tres meses de formación supervisada."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -782,7 +1027,8 @@
         "tags": [
           "leitlinie",
           "praeoperativ"
-        ]
+        ],
+        "domain": "funktionell"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -878,6 +1124,40 @@
             "teaching_point": "Urodynamics where the result can change the operation."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Dos mujeres están programadas para una cirugía de incontinencia de esfuerzo. El primero presenta síntomas puramente relacionados con el estrés, sin urgencia, sin orina residual y sin cirugía previa. El segundo además reporta urgencia con fuga, tiene 120 ml residuales y le colocaron un cabestrillo hace tres años.",
+          "lead_in": "¿En qué paciente se requiere urodinámica preoperatoria y por qué?",
+          "options": {
+            "A": {
+              "text": "Solo en la segunda paciente, por síntomas mixtos y cirugía previa",
+              "rationale": "En la forma no complicada, la urodinámica no cambia la decisión quirúrgica. En síntomas mixtos, disfunción miccional o recurrencia, aclara si contribuye la hiperactividad del detrusor o un trastorno miccional. Los síntomas mixtos, la orina residual relevante y la recurrencia después de una cirugía previa justifican una evaluación invasiva. En la incontinencia de esfuerzo pura y no complicada, la urodinámica no mejora el resultado."
+            },
+            "B": {
+              "text": "En ambos, ya que es obligatorio antes de cualquier operación de este tipo.",
+              "rationale": "No existe tal requisito general; el uso rutinario en la incontinencia de esfuerzo no complicada no mejora los resultados."
+            },
+            "C": {
+              "text": "En ninguno de los dos casos, ya que de todos modos no se puede predecir la continencia.",
+              "rationale": "No predice de manera confiable el resultado, pero revela trastornos coexistentes tratables que de otro modo persistirían después de la cirugía."
+            },
+            "D": {
+              "text": "Sólo en el primero, para confirmar previamente el diagnóstico",
+              "rationale": "Con incontinencia de esfuerzo clínica inequívoca y resultados de examen coincidentes, el diagnóstico ya está establecido."
+            }
+          },
+          "explanation": {
+            "core": "La urodinámica no es un paso de rutina sino una investigación específica. Está indicado en síntomas mixtos, sospecha de hiperactividad del detrusor, orina residual relevante o disfunción miccional, tras cirugía previa fallida y en enfermedades neurológicas. Usado indiscriminadamente supone una carga para los pacientes sin ningún beneficio.",
+            "teaching_point": "Urodinámica donde el resultado puede cambiar la operación."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -892,7 +1172,8 @@
           "dosierung",
           "geriatrie",
           "nebenwirkungen"
-        ]
+        ],
+        "domain": "funktionell"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -988,6 +1269,40 @@
             "teaching_point": "Add up the patient's total anticholinergic burden before prescribing any antimuscarinic."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 78 años con vejiga hiperactiva e incontinencia de urgencia. El entrenamiento de la vejiga no produjo un efecto adecuado. Ya toma un antidepresivo tricíclico y un antihistamínico, y su puntuación Mini-Mental es 24. Presión arterial 138/82 mmHg, función renal normal.",
+          "lead_in": "¿Qué tratamiento farmacológico es el más adecuado?",
+          "options": {
+            "A": {
+              "text": "Oxibutinina de liberación inmediata en dosis crecientes",
+              "rationale": "La oxibutinina tiene la mayor penetración en el sistema nervioso central entre los antimuscarínicos y es particularmente desfavorable en el deterioro cognitivo."
+            },
+            "B": {
+              "text": "Combina dos antimuscarínicos para aumentar el efecto.",
+              "rationale": "Esto simplemente añade una carga anticolinérgica sin beneficio adicional demostrado."
+            },
+            "C": {
+              "text": "Retener todos los medicamentos únicamente debido a su edad.",
+              "rationale": "La edad por sí sola no es una contraindicación; sólo guía la elección del agente."
+            },
+            "D": {
+              "text": "Mirabegrón 50 mg al día con monitorización de la presión arterial",
+              "rationale": "Como agonista beta-3, mirabegrón no añade carga anticolinérgica y, por tanto, evita el problema central de este paciente. Se debe controlar la presión arterial, ya que la hipertensión grave no controlada es una contraindicación. Con insuficiencia renal o hepática se administran 25 mg. Como agonista beta-3 no añade carga anticolinérgica; La hipertensión grave no controlada es una contraindicación."
+            }
+          },
+          "explanation": {
+            "core": "En las personas mayores, la carga anticolinérgica acumulada importa más que la eficacia. Aumenta con cada agente añadido y está vinculado a confusión, caídas y deterioro cognitivo. Los agonistas beta-3 evitan este problema pero requieren control de la presión arterial.",
+            "teaching_point": "Sume la carga anticolinérgica total del paciente antes de prescribir cualquier antimuscarínico."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1001,7 +1316,8 @@
           "leitlinie",
           "praeoperativ",
           "operationstechnik"
-        ]
+        ],
+        "domain": "funktionell"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -1097,6 +1413,40 @@
             "teaching_point": "Exclude a stricture before implanting. Otherwise the wrong cause is operated on."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 69 años, 14 meses después de prostatectomía radical, PSA indetectable. Utiliza tres compresas al día y el entrenamiento del suelo pélvico está agotado. Quiere una solución quirúrgica.",
+          "lead_in": "¿Qué se requiere antes de elegir un procedimiento?",
+          "options": {
+            "A": {
+              "text": "Nada más; el número de compresas es suficiente para elegir un procedimiento",
+              "rationale": "El recuento de compresas estima la gravedad, pero no aclara la causa ni los requisitos previos para ninguno de los implantes."
+            },
+            "B": {
+              "text": "Cistoscopia y urodinámica antes de elegir un procedimiento.",
+              "rationale": "Una estenosis debe tratarse y estabilizarse antes de cualquier implante; de lo contrario, la hiperactividad coexistente del detrusor persistiría como síntoma después de la cirugía. La cistoscopia excluye una estenosis anastomótica, que debe tratarse antes de cualquier implante. La urodinámica confirma la incompetencia del esfínter y excluye la hiperactividad del detrusor o la disfunción miccional."
+            },
+            "C": {
+              "text": "Resonancia magnética pélvica para evaluar el esfínter antes de la implantación",
+              "rationale": "No proporciona información funcional y no tiene valor para esta decisión."
+            },
+            "D": {
+              "text": "Repetir radioterapia en el lecho prostático antes de la implantación.",
+              "rationale": "La radioterapia sin indicación oncológica está injustificada y empeora los resultados de cualquier implante."
+            }
+          },
+          "explanation": {
+            "core": "Antes de colocar un cabestrillo o un esfínter artificial se deben responder dos preguntas: si el flujo de salida no está obstruido y si la incontinencia es genuinamente esfintérica. Sólo entonces la elección depende de la gravedad, la función del detrusor y cualquier radioterapia previa, siendo el esfínter artificial la opción más sólida en la incontinencia grave y después de la radioterapia.",
+            "teaching_point": "Excluir una estenosis antes de implantar. De lo contrario, se actúa sobre la causa equivocada."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1110,7 +1460,8 @@
           "leitlinie",
           "notfall",
           "nachsorge"
-        ]
+        ],
+        "domain": "funktionell"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -1206,6 +1557,40 @@
             "teaching_point": "Pressure damages the kidneys, not the incontinence. And with a high lesion, headache during filling is an emergency sign."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Hombre de 34 años con lesión medular completa por debajo de T5, tratado con autocateterismo intermitente limpio. La urodinámica muestra hiperactividad del detrusor con una presión de almacenamiento de 55 cm H2O. Durante el llenado desarrolla dolor de cabeza, sudoración por encima de la lesión y aumento de la presión arterial a 190/110 mmHg.",
+          "lead_in": "¿Cómo debería interpretarse y tratarse esto?",
+          "options": {
+            "A": {
+              "text": "La presión de almacenamiento es inofensiva con un cateterismo regular",
+              "rationale": "El autocateterismo vacía la vejiga pero no reduce la presión durante la fase de almacenamiento."
+            },
+            "B": {
+              "text": "Un catéter permanente resuelve ambos problemas de forma permanente",
+              "rationale": "No aborda la presión de manera causal y provoca cálculos, infecciones y daños a las mucosas a largo plazo."
+            },
+            "C": {
+              "text": "Reducir la presión de almacenamiento y tratar la disreflexia autonómica",
+              "rationale": "Una presión de almacenamiento por encima de este umbral provoca con el paso de los años reflujo e insuficiencia renal. La disreflexia autónoma es una emergencia en la que primero se elimina el estímulo, generalmente una vejiga demasiado llena. Por encima de aproximadamente 40 cm H2O, el tracto superior está dañado; La presión se reduce con medicamentos o toxina botulínica. La reacción cardiovascular es la disreflexia autonómica, que se presenta con lesiones aproximadamente en T6, cuyo desencadenante debe eliminarse de inmediato."
+            },
+            "D": {
+              "text": "La reacción cardiovascular refleja ansiedad sin secuelas",
+              "rationale": "La disreflexia autónoma puede provocar crisis hipertensiva, hemorragia intracraneal y convulsiones."
+            }
+          },
+          "explanation": {
+            "core": "En neurourología el parámetro decisivo es la presión de almacenamiento, no la continencia. Por encima de aproximadamente 40 cm H2O, el tracto superior se daña, a menudo sin síntomas. A las lesiones desde T6 hacia arriba se suma la disreflexia autonómica, desencadenada por el llenado de la vejiga, el cateterismo o el estreñimiento.",
+            "teaching_point": "La presión daña los riñones, no la incontinencia. Y con una lesión alta, el dolor de cabeza durante el llenado es un signo de emergencia."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1218,7 +1603,8 @@
         "tags": [
           "leitlinie",
           "operationstechnik"
-        ]
+        ],
+        "domain": "funktionell"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -1314,6 +1700,40 @@
             "teaching_point": "Test first, implant second. The test phase is not a formality, it is the indication."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 58 años con vejiga hiperactiva refractaria. Dos antimuscarínicos y mirabegrón resultaron ineficaces y ella rechaza explícitamente el autocateterismo intermitente limpio. Pregunta sobre la neuromodulación sacra.",
+          "lead_in": "¿Cómo debería proceder esto?",
+          "options": {
+            "A": {
+              "text": "Realizar primero una fase de prueba con un electrodo temporal",
+              "rationale": "La fase de prueba es constitutiva del procedimiento. Previene la implantación en los que no responden y es al mismo tiempo el mejor criterio de selección disponible. El dispositivo permanente se implanta sólo si los síntomas mejoran en más de la mitad. De este modo, la prueba de éxito se integra en el procedimiento."
+            },
+            "B": {
+              "text": "Implantación directa sin fase de prueba para ahorrar tiempo",
+              "rationale": "Una proporción sustancial de pacientes no responde; sin pruebas, estas mujeres recibirían un implante permanente sin ningún beneficio."
+            },
+            "C": {
+              "text": "Toxina botulínica a pesar de su negativa al cateterismo",
+              "rationale": "La voluntad de autocateterizarse es un requisito previo para la inyección; su negativa es precisamente el argumento a favor de la neuromodulación."
+            },
+            "D": {
+              "text": "Cistectomía con derivación urinaria como siguiente paso",
+              "rationale": "Un procedimiento de último recurso después de que se hayan agotado todas las opciones mínimamente invasivas."
+            }
+          },
+          "explanation": {
+            "core": "Después del fracaso de la terapia farmacológica, la toxina botulínica y la neuromodulación sacra están una al lado de la otra. La elección depende en gran medida de la voluntad de autocateterizarse. La neuromodulación tiene una prueba de éxito incorporada en su fase de prueba, que ningún otro procedimiento ofrece de esta forma.",
+            "teaching_point": "Primero la prueba, después el implante. La fase de prueba no es un trámite, es la indicación."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1327,7 +1747,8 @@
           "leitlinie",
           "labordiagnostik",
           "pathologie"
-        ]
+        ],
+        "domain": "funktionell"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -1423,6 +1844,40 @@
             "teaching_point": "Pain on filling, relief after voiding, sterile culture: stop treating it as cystitis."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 41 años con dolor suprapúbico de ocho meses que empeora con el llenado de la vejiga y se alivia después de la micción. Frecuencia hasta 15 veces al día, urocultivos repetidamente estériles, citología negativa, ciclos repetidos de antibióticos sin éxito.",
+          "lead_in": "¿Cuál es la conducta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Profilaxis antibiótica a largo plazo durante seis meses.",
+              "rationale": "En cultivos repetidamente estériles no hay base; Los cursos anteriores ya han reprobado."
+            },
+            "B": {
+              "text": "Diagnosticar el síndrome de dolor de vejiga por exclusión.",
+              "rationale": "El patrón de dolor dependiente del llenado es típico. La identificación de las lesiones de Hunner separa un subgrupo que se beneficia del tratamiento endoscópico dirigido y, por lo tanto, cambia el tratamiento. Se excluyen otras causas, la cistoscopia busca lesiones de Hunner y el tratamiento comienza de forma conservadora y multimodal. La identificación de las lesiones de Hunner separa un subgrupo que se beneficia del tratamiento endoscópico dirigido."
+            },
+            "C": {
+              "text": "Antimuscarínico en dosis altas debido a la frecuencia",
+              "rationale": "La frecuencia en el síndrome de dolor de vejiga es un comportamiento que evita el dolor y responde mal a los antimuscarínicos."
+            },
+            "D": {
+              "text": "Cistectomía con derivación urinaria como siguiente medida",
+              "rationale": "Una opción de último recurso en casos refractarios seleccionados, no al inicio del tratamiento."
+            }
+          },
+          "explanation": {
+            "core": "El síndrome de dolor de vejiga se define por su patrón de síntomas y se asegura excluyendo otras causas. La micción impulsada por el dolor la distingue de la vejiga hiperactiva, donde la urgencia, más que el dolor, impulsa el comportamiento. La cistoscopia tiene dos propósitos: excluir otras enfermedades e identificar el subgrupo de Hunner.",
+            "teaching_point": "Dolor al llenar, alivio después de la micción, cultivo estéril: dejar de tratarlo como cistitis."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     }

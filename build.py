@@ -19,8 +19,8 @@ from datetime import date, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-DATA = ROOT / "data"
-FRAGEN = DATA / "fragen"
+DATA = ROOT / "data" if (ROOT / 'data' / 'domains.json').exists() else ROOT
+FRAGEN = DATA / "fragen" if DATA != ROOT else ROOT
 OUT = ROOT / "index.html"
 
 STATUS = {"draft", "review", "published", "retired", "expired"}
@@ -95,7 +95,7 @@ def check(q, slug, tags, languages, seen, today, soon, length_cue, longest_corre
     for lc in languages:
         body = content.get(lc)
         if not body:
-            if lc == languages[0]:
+            if lc == languages[0] or q.get('status') == 'published':
                 bad(f"Sprache \"{lc}\" fehlt vollstaendig")
             else:
                 coverage.setdefault(lc, [0, 0])[1] += 1
@@ -107,8 +107,12 @@ def check(q, slug, tags, languages, seen, today, soon, length_cue, longest_corre
             bad(f"[{lc}] vignette fehlt")
         if not body.get("lead_in"):
             bad(f"[{lc}] lead_in fehlt")
+        if lc == 'es' and body.get('lead_in') == (content.get('en') or {}).get('lead_in'):
+            bad('[es] lead_in ist unuebersetzt aus Englisch uebernommen')
         if not (body.get("explanation") or {}).get("core"):
             bad(f"[{lc}] explanation.core fehlt")
+        if not (body.get("explanation") or {}).get("teaching_point"):
+            bad(f"[{lc}] explanation.teaching_point fehlt")
         texts = body.get("options") or {}
         for k in keys:
             entry = texts.get(k) or {}
@@ -171,6 +175,15 @@ def main():
         return 1
 
     languages = config.get("languages", ["de"])
+    if not languages or len(set(languages)) != len(languages) or any(lc not in {'de','en','es'} for lc in languages):
+        errors.append('languages muss eine eindeutige Liste aus de, en, es sein')
+        return 1
+    for item in config.get('groups', []) + config.get('domains', []):
+        for lc in languages:
+            if not (item.get('label') or {}).get(lc):
+                errors.append(f"{item.get('slug')}: label.{lc} fehlt")
+            if 'hint' in item and not item['hint'].get(lc):
+                errors.append(f"{item.get('slug')}: hint.{lc} fehlt")
     domains = {d["slug"] for d in config["domains"]}
     tags = set(config.get("tags", []))
     today = date.today()
@@ -189,6 +202,8 @@ def main():
 
     # Dateien, die zu keinem deklarierten Gebiet gehoeren
     for f in sorted(FRAGEN.glob("*.json")):
+        if FRAGEN == ROOT and f.name == 'domains.json':
+            continue
         if f.stem not in domains:
             errors.append(f"data/fragen/{f.name}: \"{f.stem}\" ist in domains.json nicht deklariert")
 
@@ -211,6 +226,10 @@ def main():
             if check(q, slug, tags, languages, seen, today, soon, length_cue, longest_correct, coverage):
                 counts[slug] += 1
 
+    minimum = config.get('min_questions_per_domain', 10)
+    for slug, count in counts.items():
+        if count < minimum:
+            errors.append(f'{slug}: {count} aktive Fragen, mindestens {minimum} erforderlich')
     for w in warnings:
         print("Hinweis  " + w, file=sys.stderr)
     for e in errors:
@@ -446,6 +465,15 @@ body {
 
 .score { font-family: var(--sans); font-size: 1.45rem; font-weight: 700; margin: 0 0 0.3rem; }
 .score-note { color: var(--muted); margin: 0 0 2rem; }
+.learning-panel { border:1px solid var(--rule); background:var(--card); padding:1.2rem; margin:1.5rem 0; border-radius:6px; }
+.learning-panel h2 { font-size:1.15rem; margin:0 0 .75rem; }
+.learning-panel h3 { font-size:.86rem; margin:.3rem 0 .5rem; }
+.learning-summary, .live-score { font-family:var(--sans); font-size:.9rem; line-height:1.7; }
+.live-score { padding:.7rem 0; border-bottom:1px solid var(--rule); }
+.learning-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:1rem; margin:1rem 0; }
+.learning-link { display:block; border:0; background:transparent; color:var(--ink); text-align:left; font:inherit; font-size:.85rem; padding:.35rem 0; cursor:pointer; text-decoration:underline; text-underline-offset:3px; }
+.learning-link:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+.learning-panel .domain-hint { line-height:1.65; margin:.65rem 0; }
 
 .review-list { border-top: 1px solid var(--rule); }
 
@@ -488,6 +516,15 @@ STORE_JS = r'''(function () {
 
   function LocalProgressStore() {
     this.state = this._load();
+    var versions = {};
+    var today = new Date(), day = today.getFullYear() + '-' + String(today.getMonth()+1).padStart(2,'0') + '-' + String(today.getDate()).padStart(2,'0');
+    window.QUESTION_BANK.questions.forEach(function (q) {
+      if(q.status === 'published' && q.review && q.review.expires >= day) versions[q.id] = q.version;
+    });
+    Object.keys(this.state.answers).forEach(function (id) {
+      var a = this.state.answers[id];
+      if (!a || a.version !== versions[id] || !versions[id] || typeof a.correct !== 'boolean') delete this.state.answers[id];
+    }, this);
   }
 
   LocalProgressStore.prototype._load = function () {
@@ -495,7 +532,7 @@ STORE_JS = r'''(function () {
       var raw = window.localStorage.getItem(KEY);
       if (!raw) return { answers: {} };
       var parsed = JSON.parse(raw);
-      return parsed && parsed.answers ? parsed : { answers: {} };
+      return parsed && parsed.answers && typeof parsed.answers === 'object' && !Array.isArray(parsed.answers) ? parsed : { answers: {} };
     } catch (e) {
       return { answers: {} };
     }
@@ -510,11 +547,14 @@ STORE_JS = r'''(function () {
   };
 
   LocalProgressStore.prototype.recordAnswer = function (event) {
+    var old = this.state.answers[event.questionId];
     this.state.answers[event.questionId] = {
       domain: event.domain,
       version: event.questionVersion,
       correct: event.correct,
       selected: event.selected,
+      attempts: (old ? old.attempts || 1 : 0) + 1,
+      firstCorrect: old ? (typeof old.firstCorrect === 'boolean' ? old.firstCorrect : null) : event.correct,
       lastSeen: new Date().toISOString()
     };
     this._save();
@@ -527,9 +567,14 @@ STORE_JS = r'''(function () {
     for (var id in answers) {
       if (!Object.prototype.hasOwnProperty.call(answers, id)) continue;
       var a = answers[id];
-      if (!out[a.domain]) out[a.domain] = { seen: 0, correct: 0 };
+      if (!out[a.domain]) out[a.domain] = { seen: 0, correct: 0, firstCorrect: 0, firstKnown: 0, attempts: 0 };
       out[a.domain].seen += 1;
       if (a.correct) out[a.domain].correct += 1;
+      out[a.domain].attempts += a.attempts || 1;
+      if (typeof a.firstCorrect === 'boolean') {
+        out[a.domain].firstKnown += 1;
+        if (a.firstCorrect) out[a.domain].firstCorrect += 1;
+      }
     }
     return Promise.resolve(out);
   };
@@ -545,6 +590,49 @@ STORE_JS = r'''(function () {
   };
 
   window.LocalProgressStore = LocalProgressStore;
+  // Balance domains first, then interleave errors, unseen questions and old successes.
+  // Pure function so selection can be checked without rendering a session.
+  window.selectLearningQuestions = function (questions, size, answers, random) {
+    random = random || Math.random;
+    var buckets = {}, seenIds = {}, chosen = [], turns = {};
+    questions.forEach(function(q) {
+      if(seenIds[q.id]) return;
+      seenIds[q.id] = true;
+      var slug = q.taxonomy.domain;
+      if(!buckets[slug]) buckets[slug] = [];
+      buckets[slug].push(q);
+    });
+    var domains = Object.keys(buckets).map(function(slug) {
+      var qs = buckets[slug];
+      return {slug:slug, coverage:qs.filter(function(q){return !!answers[q.id];}).length/qs.length, tie:random()};
+    }).sort(function(a,b){return a.coverage-b.coverage || a.tie-b.tie;});
+    domains.forEach(function(d) {
+      buckets[d.slug] = buckets[d.slug].map(function(q){return {q:q,tie:random()};});
+      turns[d.slug] = 0;
+    });
+    while(chosen.length < size) {
+      var added = false;
+      domains.forEach(function(d) {
+        var qs = buckets[d.slug];
+        if(!qs.length || chosen.length >= size) return;
+        var mode = turns[d.slug]++ % 4;
+        function rank(q) {
+          var a = answers[q.id];
+          var kind = !a ? 'new' : a.correct ? 'review' : 'wrong';
+          return (mode === 0 ? ['wrong','new','review'] : mode === 3 ? ['review','new','wrong'] : ['new','wrong','review']).indexOf(kind);
+        }
+        qs.sort(function(a,b) {
+          var diff = rank(a.q)-rank(b.q);
+          if(diff) return diff;
+          var aa=answers[a.q.id], bb=answers[b.q.id];
+          return (aa && bb ? (Date.parse(aa.lastSeen)||0)-(Date.parse(bb.lastSeen)||0) : 0) || a.tie-b.tie;
+        });
+        chosen.push(qs.shift().q); added = true;
+      });
+      if(!added) break;
+    }
+    return chosen;
+  };
 })();
 '''
 
@@ -553,6 +641,10 @@ APP_JS = r'''(function () {
 
   var UI = {
     de: {
+      title: 'Facharztfragen Urologie',
+      section: 'Abschnitt', version: 'Version', reviewed: 'Letzte fachliche Prüfung',
+      unreviewed: 'Unabhängige fachärztliche Prüfung ausstehend',
+      certainty: { etabliert: 'etabliert', kontrovers: 'kontrovers', ohne_phase_III: 'ohne Phase-III-Bestätigung', expertenkonsens: 'Expertenkonsens' },
       intro: 'Fallbasierte Fragen auf Facharztniveau. Jede Antwortoption ist begründet, jede Frage nennt ihre Quelle und ihr Überprüfungsdatum. Der Lernfortschritt bleibt in diesem Browser.',
       inventory: function (n, d) { return n + ' Fragen in ' + d + ' Gebieten'; },
       questions: 'Fragen',
@@ -587,6 +679,10 @@ APP_JS = r'''(function () {
       disclaimer: 'Lehrmaterial zur Prüfungsvorbereitung. Keine Handlungsanweisung für die Behandlung einzelner Patienten. Arzneimitteldosierungen sind vor jeder Anwendung gegen die Fachinformation zu prüfen.'
     },
     en: {
+      title: 'Urology Board Questions',
+      section: 'Section', version: 'Version', reviewed: 'Last clinical review',
+      unreviewed: 'Independent specialist review pending',
+      certainty: { etabliert: 'established', kontrovers: 'controversial', ohne_phase_III: 'without phase III confirmation', expertenkonsens: 'expert consensus' },
       intro: 'Case-based questions at board level. Every answer option is explained, every question states its source and review date. Your progress stays in this browser.',
       inventory: function (n, d) { return n + ' questions across ' + d + ' areas'; },
       questions: 'questions',
@@ -621,6 +717,10 @@ APP_JS = r'''(function () {
       disclaimer: 'Teaching material for board exam preparation. Not a treatment instruction for individual patients. Verify all drug doses against the current product information before use.'
     },
     es: {
+      title: 'Preguntas de especialidad en Urología',
+      section: 'Sección', version: 'Versión', reviewed: 'Última revisión clínica',
+      unreviewed: 'Revisión independiente por un especialista pendiente',
+      certainty: { etabliert: 'establecida', kontrovers: 'controvertida', ohne_phase_III: 'sin confirmación en fase III', expertenkonsens: 'consenso de expertos' },
       intro: 'Preguntas basadas en casos, de nivel de especialista. Cada opción lleva su justificación y cada pregunta indica su fuente y su fecha de revisión. El progreso queda en este navegador.',
       inventory: function (n, d) { return n + ' preguntas en ' + d + ' áreas'; },
       questions: 'preguntas',
@@ -656,6 +756,11 @@ APP_JS = r'''(function () {
     }
   };
 
+  var LEARNING = {
+    de: {overview:'Dein Lernstand', latest:'Trefferquote · letzte Antwort je Frage', coverage:'Bearbeitet', first:'Erstversuche seit dieser Version', attempts:'Antwortversuche', strong:'Stärke', developing:'Weiter festigen', weak:'Übungsbedarf', little:'Noch wenig Daten', fresh:'Noch nicht begonnen', practice:'Fehler gezielt üben', adaptive:'Adaptive Runden: ausgewogene Gebiete, neue Fragen, Fehler und ältere richtige Antworten. Antworten werden jedes Mal neu angeordnet.', criteria:'Orientierung anhand letzter Antworten: ab 5 verschiedenen Fragen ≥80 % Stärke, 60–79 % weiter festigen, <60 % Übungsbedarf. Wiederholung kann die Quote erhöhen; keine Bewertung klinischer Kompetenz.', session:'Diese Runde nach Gebiet', wrong:'Falsch', open:'Offen', answered:'Beantwortet', noWrong:'Aktuell keine falsch beantworteten Fragen.', local:'Lernstand bleibt in diesem Browser. Frühere Erstversuche werden nicht rückwirkend geschätzt.'},
+    en: {overview:'Your learning progress', latest:'Accuracy · latest answer per question', coverage:'Completed', first:'First attempts since this version', attempts:'Answer attempts', strong:'Strength', developing:'Keep consolidating', weak:'Needs practice', little:'Limited data so far', fresh:'Not started', practice:'Practise incorrect answers', adaptive:'Adaptive rounds balance domains, new questions, errors and older correct answers. Answer positions are shuffled each time.', criteria:'Guide based on latest answers: at least 5 distinct questions and ≥80% strength, 60–79% keep consolidating, <60% needs practice. Repetition can raise accuracy; this does not assess clinical competence.', session:'This round by domain', wrong:'Incorrect', open:'Unanswered', answered:'Answered', noWrong:'No currently incorrect answers.', local:'Progress stays in this browser. Earlier first attempts are not retrospectively estimated.'},
+    es: {overview:'Tu progreso de aprendizaje', latest:'Aciertos · última respuesta por pregunta', coverage:'Completadas', first:'Primeros intentos desde esta versión', attempts:'Intentos de respuesta', strong:'Fortaleza', developing:'Seguir consolidando', weak:'Necesita práctica', little:'Aún hay pocos datos', fresh:'Sin empezar', practice:'Practicar los errores', adaptive:'Las rondas adaptativas equilibran áreas, preguntas nuevas, errores y aciertos antiguos. Las opciones cambian de posición en cada ronda.', criteria:'Orientación según últimas respuestas: al menos 5 preguntas distintas y ≥80 % fortaleza, 60–79 % seguir consolidando, <60 % necesita práctica. Repetir puede elevar los aciertos; no evalúa competencia clínica.', session:'Esta ronda por área', wrong:'Incorrectas', open:'Sin responder', answered:'Respondidas', noWrong:'Actualmente no hay respuestas incorrectas.', local:'El progreso se guarda en este navegador. No se estiman retrospectivamente los primeros intentos anteriores.'}
+  };
   var LANG_KEY = 'urofragen.lang.v1';
   var root = document.getElementById('app');
   var inventoryEl = document.getElementById('inventory');
@@ -666,6 +771,7 @@ APP_JS = r'''(function () {
   var pool = [];
   var counts = {};
   var session = null;
+  var screen = 'home';
   var lang = readLang();
   var t = UI[lang];
 
@@ -685,7 +791,8 @@ APP_JS = r'''(function () {
     document.documentElement.lang = next;
     renderLangSwitch();
     updateInventory();
-    if (session) renderQuestion(); else renderHome();
+    if (screen === 'result' && session) renderResult();
+    else if (session) renderQuestion(); else renderHome();
   }
 
   function el(tag, className, text) {
@@ -707,7 +814,9 @@ APP_JS = r'''(function () {
   function isLive(q) {
     if (q.status !== 'published') return false;
     var e = q.review && q.review.expires;
-    return e ? new Date(e) >= new Date() : false;
+    var now = new Date();
+    var today = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0');
+    return e ? e >= today : false;
   }
 
   /* Sprachabhängige Textfelder. Fällt auf Deutsch zurück, falls eine Übersetzung fehlt. */
@@ -735,9 +844,9 @@ APP_JS = r'''(function () {
       if (s.title) p.push(s.title);
       if (s.citation) p.push(s.citation);
       if (s.code) p.push(s.code);
-      if (s.version) p.push('Version ' + s.version);
+      if (s.version) p.push(t.version + ' ' + s.version);
       if (s.year) p.push(String(s.year));
-      if (s.section) p.push('Abschnitt ' + s.section);
+      if (s.section) p.push(t.section + ' ' + s.section);
       return p.join(', ');
     }).join(' · ');
   }
@@ -745,11 +854,15 @@ APP_JS = r'''(function () {
   /* ---------- Kopf ---------- */
 
   function renderLangSwitch() {
+    document.title = t.title;
+    document.querySelector('.masthead h1').textContent = t.title;
+    document.querySelector('meta[name="description"]').content = t.intro;
     langBox.innerHTML = '';
     (bank.languages || ['de']).forEach(function (code) {
       var b = el('button', code === lang ? 'on' : null, code.toUpperCase());
       b.type = 'button';
       b.setAttribute('aria-pressed', code === lang ? 'true' : 'false');
+      b.setAttribute('aria-label', {de:'Deutsch',en:'English',es:'Español'}[code]);
       b.addEventListener('click', function () { if (code !== lang) setLang(code); });
       langBox.appendChild(b);
     });
@@ -762,11 +875,88 @@ APP_JS = r'''(function () {
 
   /* ---------- Übersicht ---------- */
 
+  function pct(correct, seen) { return seen ? Math.round(100 * correct / seen) + '%' : '—'; }
+  function learningStatus(p) {
+    var l=LEARNING[lang];
+    return !p.seen ? l.fresh : p.seen < 5 ? l.little : p.correct/p.seen >= .8 ? l.strong : p.correct/p.seen >= .6 ? l.developing : l.weak;
+  }
+  function metric(p, total) {
+    var l=LEARNING[lang];
+    return l.latest + ': ' + pct(p.correct,p.seen) + ' (' + p.correct + '/' + p.seen + ') · ' + l.coverage + ': ' + p.seen + '/' + total;
+  }
+  function sumProgress(progress, slugs) {
+    var total={seen:0,correct:0,firstKnown:0,firstCorrect:0,attempts:0};
+    slugs.forEach(function(slug) {
+      var p=progress[slug] || {};
+      Object.keys(total).forEach(function(key){total[key] += p[key] || 0;});
+    });
+    return total;
+  }
+  function learningDashboard(progress) {
+    var l=LEARNING[lang], box=el('section','learning-panel');
+    box.appendChild(el('h2',null,l.overview));
+    var total=sumProgress(progress,bank.domains.map(function(d){return d.slug;}));
+    box.appendChild(el('p','learning-summary',metric(total,pool.length)));
+    box.appendChild(el('p','domain-hint',l.first + ': ' + pct(total.firstCorrect,total.firstKnown) + ' ('+total.firstCorrect+'/'+total.firstKnown+') · '+l.attempts+': '+total.attempts));
+    var grid=el('div','learning-grid');
+    [l.strong,l.developing,l.weak,l.little,l.fresh].forEach(function(status) {
+      var members=bank.domains.filter(function(d){return learningStatus(progress[d.slug] || {seen:0,correct:0})===status;});
+      if(!members.length) return;
+      var group=el('div','learning-category');
+      group.appendChild(el('h3',null,status+' ('+members.length+')'));
+      members.slice(0,3).forEach(function(d){
+        var p=progress[d.slug] || {seen:0,correct:0};
+        var b=el('button','learning-link',label(d.label)+' · '+pct(p.correct,p.seen)+' ('+p.correct+'/'+p.seen+')');
+        b.type='button';b.addEventListener('click',function(){startSession(d.slug,questionsOf(d.slug));});
+        group.appendChild(b);
+      });
+      grid.appendChild(group);
+    });
+    box.appendChild(grid);
+    var wrong=pool.filter(function(q){var a=store.state.answers[q.id];return a && !a.correct;});
+    if(wrong.length) {
+      var practice=el('button','btn ghost',l.practice+' ('+wrong.length+')');
+      practice.type='button';practice.addEventListener('click',function(){startSession(null,wrong);});
+      box.appendChild(practice);
+    }
+    box.appendChild(el('p','domain-hint',l.criteria));
+    box.appendChild(el('p','domain-hint',l.local));
+    return box;
+  }
+  function sessionProgress() {
+    var progress={};
+    answeredItems().forEach(function(a){
+      var slug=a.question.taxonomy.domain;
+      if(!progress[slug]) progress[slug]={seen:0,correct:0};
+      progress[slug].seen++;if(a.given.correct)progress[slug].correct++;
+    });
+    return progress;
+  }
+  function sessionSummary() {
+    var done=answeredItems(), right=done.filter(function(a){return a.given.correct;}).length, l=LEARNING[lang];
+    return l.answered+': '+done.length+'/'+session.items.length+' · '+t.sheetResult+': '+right+'/'+done.length+' ('+pct(right,done.length)+') · '+l.wrong+': '+(done.length-right)+' · '+l.open+': '+(session.items.length-done.length);
+  }
+  function sessionBreakdown() {
+    var box=el('section','learning-panel'), progress=sessionProgress();
+    box.appendChild(el('h2',null,LEARNING[lang].session));
+    var slugs=[];session.items.forEach(function(q){if(slugs.indexOf(q.taxonomy.domain)<0)slugs.push(q.taxonomy.domain);});
+    slugs.forEach(function(slug){
+      var p=progress[slug] || {seen:0,correct:0};
+      var n=session.items.filter(function(q){return q.taxonomy.domain===slug;}).length;
+      box.appendChild(el('p','domain-hint',domainLabel(slug)+' · '+p.correct+'/'+p.seen+' ('+pct(p.correct,p.seen)+') · '+LEARNING[lang].answered+': '+p.seen+'/'+n+' · '+learningStatus(p)));
+    });
+    box.appendChild(el('p','domain-hint',LEARNING[lang].criteria));
+    return box;
+  }
+
   function renderHome() {
+    screen = 'home';
     session = null;
     store.getDomainProgress().then(function (progress) {
       root.innerHTML = '';
       root.appendChild(el('p', 'intro', t.intro));
+      root.appendChild(learningDashboard(progress));
+      root.appendChild(el('p','domain-hint',LEARNING[lang].adaptive));
 
       var board = el('div', 'board');
 
@@ -791,8 +981,8 @@ APP_JS = r'''(function () {
           fill.style.width = Math.min(100, Math.round((done.seen / count) * 100)) + '%';
           bar.appendChild(fill);
           btn.appendChild(bar);
-          btn.appendChild(el('div', 'domain-hint', t.progress(done.seen, count, done.correct)));
         }
+        btn.appendChild(el('div','domain-hint',metric(done,count)+' · '+learningStatus(done)));
 
         if (open) {
           btn.addEventListener('click', function () {
@@ -817,6 +1007,7 @@ APP_JS = r'''(function () {
         hr.appendChild(el('span', 'domain-count',
           total ? total + ' ' + t.questions + ', ' + t.allEntities : t.empty));
         head.appendChild(hr);
+        head.appendChild(el('div','domain-hint',metric(sumProgress(progress,members.map(function(m){return m.slug;})),total)));
         if (total) {
           head.addEventListener('click', function () {
             var all = [];
@@ -862,12 +1053,7 @@ APP_JS = r'''(function () {
   /* ---------- Sitzung ---------- */
 
   function pick(questions, size) {
-    return store.getAnswered().then(function (answered) {
-      var fresh = shuffle(questions.filter(function (q) { return !answered.has(q.id); }));
-      if (fresh.length >= size) return fresh.slice(0, size);
-      var rest = shuffle(questions.filter(function (q) { return answered.has(q.id); }));
-      return fresh.concat(rest).slice(0, size);
-    });
+    return Promise.resolve(window.selectLearningQuestions(questions,size,store.state.answers));
   }
 
   function startSession(slug, questions) {
@@ -893,6 +1079,7 @@ APP_JS = r'''(function () {
   }
 
   function renderQuestion() {
+    screen = 'question';
     var q = session.items[session.index];
     var body = c(q);
     var given = session.given[session.index];
@@ -904,6 +1091,9 @@ APP_JS = r'''(function () {
     bar.appendChild(el('span', null, session.domain ? domainLabel(session.domain) : domainLabel(q.taxonomy.domain)));
     bar.appendChild(el('span', null, t.question(session.index + 1, session.items.length)));
     root.appendChild(bar);
+    var liveScore=el('p','live-score',sessionSummary());
+    liveScore.setAttribute('aria-live','polite');
+    root.appendChild(liveScore);
 
     /* Navigationsleiste: zeigt den Stand und erlaubt den Sprung zurück. */
     var strip = el('div', 'navstrip');
@@ -956,6 +1146,7 @@ APP_JS = r'''(function () {
           msSpent: Date.now() - shownAt
         });
         reveal(q, body, buttons, card);
+        liveScore.textContent=sessionSummary();
       });
       buttons[key] = { button: b, inner: inner, option: opt, text: text, letter: letter };
       list.appendChild(b);
@@ -975,7 +1166,7 @@ APP_JS = r'''(function () {
       e.button.disabled = true;
       if (e.option.correct) e.button.classList.add('is-correct');
       else if (key === given.key) e.button.classList.add('is-wrong');
-      if (e.option.correct || key === given.key) {
+      if ((e.option.correct || key === given.key) && e.text.rationale !== body.explanation.core) {
         e.inner.appendChild(el('span', 'rationale', e.text.rationale));
       }
     });
@@ -984,7 +1175,7 @@ APP_JS = r'''(function () {
 
     if (q.evidence && q.evidence.flag) {
       explain.appendChild(el('p', 'flagline',
-        '⚠ ' + t.evidence + ': ' + q.evidence.certainty + ' — ' + (body.flag_note || '')));
+        '⚠ ' + t.evidence + ': ' + t.certainty[q.evidence.certainty] + ' — ' + (body.flag_note || '')));
     }
 
     explain.appendChild(el('p', null, body.explanation.core));
@@ -992,6 +1183,15 @@ APP_JS = r'''(function () {
       explain.appendChild(el('p', 'teaching', body.explanation.teaching_point));
     }
     explain.appendChild(el('p', 'sourceline', sourceLine(q)));
+    q.sources.forEach(function (s) {
+      if (s.url && /^https:\/\//.test(s.url)) {
+        var a = el('a', 'sourceline', s.title || s.url);
+        a.href = s.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+        explain.appendChild(a); explain.appendChild(el('br'));
+      }
+    });
+    explain.appendChild(el('p', 'sourceline', q.review && q.review.reviewer
+      ? t.reviewed + ': ' + q.review.last_reviewed : t.unreviewed));
 
     var actions = el('div', 'actions');
 
@@ -1040,6 +1240,7 @@ APP_JS = r'''(function () {
   }
 
   function renderResult() {
+    screen = 'result';
     var done = answeredItems();
     var correct = done.filter(function (a) { return a.given.correct; }).length;
 
@@ -1047,13 +1248,20 @@ APP_JS = r'''(function () {
     root.appendChild(el('p', 'score', t.score(correct, done.length)));
     root.appendChild(el('p', 'score-note',
       session.domain ? domainLabel(session.domain) : t.mixedSession));
+    root.appendChild(el('p','live-score',sessionSummary()));
+    root.appendChild(sessionBreakdown());
 
     var list = el('div', 'review-list');
     done.forEach(function (a) {
       var item = el('div', 'review-item');
       item.appendChild(el('span', 'mark ' + (a.given.correct ? 'ok' : 'no'), a.given.correct ? '✓' : '✕'));
       var b = el('div');
-      b.appendChild(el('div', 'stem', c(a.question).lead_in));
+      var body=c(a.question);
+      b.appendChild(el('div', 'stem', body.vignette));
+      b.appendChild(el('p','domain-hint',t.yourAnswer+': '+body.options[a.given.key].text));
+      var right=a.question.options.find(function(o){return o.correct;}).key;
+      b.appendChild(el('p','domain-hint',t.correctAnswer+': '+body.options[right].text));
+      b.appendChild(el('p','domain-hint',body.explanation.core));
       b.appendChild(el('div', 'meta', domainLabel(a.question.taxonomy.domain) + ' · ' + a.question.id));
       item.appendChild(b);
       list.appendChild(item);
@@ -1132,11 +1340,21 @@ APP_JS = r'''(function () {
       'footer{margin-top:2rem;border-top:1px solid #d9ded8;padding-top:.8rem;font-size:.78em;color:#646d68}' +
       '@media print{body{margin:0;max-width:none}}' +
       '</style></head><body>');
-    p.push('<h1>Facharztfragen Urologie — ' + esc(t.sheetTitle) + '</h1>');
+    p.push('<h1>' + esc(t.title) + ' — ' + esc(t.sheetTitle) + '</h1>');
     p.push('<div class="meta">' +
-      esc(t.sheetDate) + ': ' + esc(when.toLocaleString()) + '<br>' +
+      esc(t.sheetDate) + ': ' + esc(when.toLocaleString(lang)) + '<br>' +
       esc(t.sheetArea) + ': ' + esc(area) + '<br>' +
       esc(t.sheetResult) + ': ' + correct + ' / ' + done.length + '</div>');
+    p.push('<p>'+esc(sessionSummary())+'</p>');
+    p.push('<h2>'+esc(LEARNING[lang].session)+'</h2>');
+    var breakdown=sessionProgress();
+    var slugs=[];session.items.forEach(function(q){if(slugs.indexOf(q.taxonomy.domain)<0)slugs.push(q.taxonomy.domain);});
+    slugs.forEach(function(slug){
+      var s=breakdown[slug] || {seen:0,correct:0};
+      var n=session.items.filter(function(q){return q.taxonomy.domain===slug;}).length;
+      p.push('<p>'+esc(domainLabel(slug))+' · '+s.correct+'/'+s.seen+' ('+pct(s.correct,s.seen)+') · '+esc(LEARNING[lang].answered)+': '+s.seen+'/'+n+' · '+esc(learningStatus(s))+'</p>');
+    });
+    p.push('<p>'+esc(LEARNING[lang].criteria)+'</p>');
 
     done.forEach(function (a, i) {
       var q = a.question;
@@ -1156,14 +1374,14 @@ APP_JS = r'''(function () {
         var mark = o.correct ? '✓' : (key === a.given.key ? '✕' : '·');
         var cls = o.correct ? 'ok' : (key === a.given.key ? 'no' : '');
         p.push('<div class="opt ' + cls + '">' + mark + ' ' + esc(letter) + ') ' + esc(txt.text) + '</div>');
-        if (o.correct || key === a.given.key) {
+        if ((o.correct || key === a.given.key) && txt.rationale !== body.explanation.core) {
           p.push('<div class="rat">' + esc(txt.rationale) + '</div>');
         }
       });
       p.push('<p class="note">' + esc(t.yourAnswer) + ': ' + esc(a.given.letter) +
         ' · ' + esc(t.correctAnswer) + ': ' + esc(rightLetter) + '</p>');
       if (q.evidence && q.evidence.flag) {
-        p.push('<p class="flag">⚠ ' + esc(t.evidence) + ': ' + esc(q.evidence.certainty) +
+        p.push('<p class="flag">⚠ ' + esc(t.evidence) + ': ' + esc(t.certainty[q.evidence.certainty]) +
           ' — ' + esc(body.flag_note) + '</p>');
       }
       p.push('<p>' + esc(body.explanation.core) + '</p>');
@@ -1171,6 +1389,10 @@ APP_JS = r'''(function () {
         p.push('<p class="tp">' + esc(body.explanation.teaching_point) + '</p>');
       }
       p.push('<p class="note">' + esc(sourceLine(q)) + '</p>');
+      q.sources.forEach(function (s) {
+        if (s.url && /^https:\/\//.test(s.url)) p.push('<p class="note"><a href="' + esc(s.url) + '">' + esc(s.title || s.url) + '</a></p>');
+      });
+      p.push('<p class="note">' + esc(q.review && q.review.reviewer ? t.reviewed + ': ' + q.review.last_reviewed : t.unreviewed) + '</p>');
       p.push('</div>');
     });
 
@@ -1259,7 +1481,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Facharztfragen Urologie</title>
-<meta name="description" content="Fallbasierte Fragen zur Vorbereitung auf die Facharztpruefung Urologie. Deutsch und Englisch.">
+<meta name="description" content="Fallbasierte Fragen zur Facharztprüfung Urologie. Deutsch, Englisch und Spanisch.">
 <style>
 @@CSS@@
 </style>

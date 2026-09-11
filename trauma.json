@@ -5,22 +5,76 @@
       "id": "uro-tra-00001",
       "version": 1,
       "status": "published",
-      "taxonomy": { "subdomain": "Nierentrauma", "tags": ["bildgebung", "notfall", "leitlinie"] },
+      "taxonomy": {
+        "subdomain": "Nierentrauma",
+        "tags": [
+          "bildgebung",
+          "notfall",
+          "leitlinie"
+        ],
+        "domain": "trauma"
+      },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
-      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": false }, { "key": "C", "correct": true }, { "key": "D", "correct": false }],
-      "evidence": { "level": "IIA", "certainty": "etabliert", "flag": false },
-      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Trauma", "year": 2026 }],
-      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
       "content": {
         "de": {
           "vignette": "Drei Erwachsene nach stumpfem Bauchtrauma. Der erste hat Makrohämaturie bei stabilem Kreislauf. Der zweite eine Mikrohämaturie mit systolischem Druck von 80 mmHg. Der dritte eine Mikrohämaturie ohne Kreislaufreaktion nach Sturz aus Standhöhe.",
           "lead_in": "Bei wem ist eine Computertomographie indiziert?",
           "options": {
-            "A": { "text": "Nur beim ersten Patienten mit sichtbarem Blut im Urin", "rationale": "Die Makrohämaturie ist eine Indikation, aber nicht die einzige. Auch die Kombination aus Mikrohämaturie und Schock verlangt die Bildgebung." },
-            "B": { "text": "Bei allen dreien, da jede Hämaturie abzuklären ist", "rationale": "Eine Mikrohämaturie ohne Kreislaufreaktion und ohne relevanten Unfallmechanismus rechtfertigt beim Erwachsenen keine Strahlenbelastung." },
-            "C": { "text": "Beim ersten und beim zweiten, nicht beim dritten Patienten", "rationale": "Indiziert sind Makrohämaturie sowie Mikrohämaturie mit Schock. Hinzu kommen relevante Dezelerationstraumata und schwere Begleitverletzungen, unabhängig vom Urinbefund." },
-            "D": { "text": "Nur beim zweiten Patienten wegen des niedrigen Blutdrucks", "rationale": "Der Schock ist eine Indikation, die Makrohämaturie des ersten Patienten aber ebenso." }
+            "A": {
+              "text": "Nur beim ersten Patienten mit sichtbarem Blut im Urin",
+              "rationale": "Die Makrohämaturie ist eine Indikation, aber nicht die einzige. Auch die Kombination aus Mikrohämaturie und Schock verlangt die Bildgebung."
+            },
+            "B": {
+              "text": "Bei allen dreien, da jede Hämaturie abzuklären ist",
+              "rationale": "Eine Mikrohämaturie ohne Kreislaufreaktion und ohne relevanten Unfallmechanismus rechtfertigt beim Erwachsenen keine Strahlenbelastung."
+            },
+            "C": {
+              "text": "Beim ersten und beim zweiten, nicht beim dritten Patienten",
+              "rationale": "Indiziert sind Makrohämaturie sowie Mikrohämaturie mit Schock. Hinzu kommen relevante Dezelerationstraumata und schwere Begleitverletzungen, unabhängig vom Urinbefund."
+            },
+            "D": {
+              "text": "Nur beim zweiten Patienten wegen des niedrigen Blutdrucks",
+              "rationale": "Der Schock ist eine Indikation, die Makrohämaturie des ersten Patienten aber ebenso."
+            }
           },
           "explanation": {
             "core": "Die Bildgebung beim stumpfen Nierentrauma folgt festen Auslösern: sichtbares Blut im Urin, Mikrohämaturie zusammen mit Schock, ein Dezelerationsmechanismus oder schwere Begleitverletzungen. Die Computertomographie wird mit einer verzögerten Ausscheidungsphase gefahren, weil nur diese eine Verletzung des Hohlsystems zeigt. Bei Kindern liegt die Schwelle niedriger, weil sie den Blutdruck länger halten.",
@@ -32,16 +86,62 @@
           "vignette": "Three adults after blunt abdominal trauma. The first has macroscopic haematuria and stable circulation. The second has microscopic haematuria with a systolic pressure of 80 mmHg. The third has microscopic haematuria without circulatory compromise after a fall from standing.",
           "lead_in": "In whom is computed tomography indicated?",
           "options": {
-            "A": { "text": "Only in the first patient with visible blood in the urine", "rationale": "Macroscopic haematuria is an indication but not the only one. Microscopic haematuria combined with shock also requires imaging." },
-            "B": { "text": "In all three, since any haematuria requires assessment", "rationale": "Microscopic haematuria without circulatory compromise and without a relevant mechanism does not justify radiation exposure in an adult." },
-            "C": { "text": "In the first and second patients, not in the third", "rationale": "Macroscopic haematuria and microscopic haematuria with shock are indications. Significant deceleration trauma and severe associated injuries are added, irrespective of the urine finding." },
-            "D": { "text": "Only in the second patient because of the low pressure", "rationale": "Shock is an indication, but so is the first patient's macroscopic haematuria." }
+            "A": {
+              "text": "Only in the first patient with visible blood in the urine",
+              "rationale": "Macroscopic haematuria is an indication but not the only one. Microscopic haematuria combined with shock also requires imaging."
+            },
+            "B": {
+              "text": "In all three, since any haematuria requires assessment",
+              "rationale": "Microscopic haematuria without circulatory compromise and without a relevant mechanism does not justify radiation exposure in an adult."
+            },
+            "C": {
+              "text": "In the first and second patients, not in the third",
+              "rationale": "Macroscopic haematuria and microscopic haematuria with shock are indications. Significant deceleration trauma and severe associated injuries are added, irrespective of the urine finding."
+            },
+            "D": {
+              "text": "Only in the second patient because of the low pressure",
+              "rationale": "Shock is an indication, but so is the first patient's macroscopic haematuria."
+            }
           },
           "explanation": {
             "core": "Imaging in blunt renal trauma follows defined triggers: visible blood in the urine, microscopic haematuria together with shock, a deceleration mechanism, or severe associated injuries. CT is performed with a delayed excretory phase, because only that demonstrates collecting system injury. In children the threshold is lower, because they maintain blood pressure longer.",
             "teaching_point": "Without a delayed phase on CT you miss the collecting system injury."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Tres adultos después de un traumatismo abdominal cerrado. El primero presenta hematuria macroscópica y circulación estable. El segundo presenta hematuria microscópica con una presión sistólica de 80 mmHg. El tercero presenta hematuria microscópica sin compromiso circulatorio tras una caída estando de pie.",
+          "lead_in": "¿En quién está indicada la tomografía computarizada?",
+          "options": {
+            "A": {
+              "text": "Sólo en el primer paciente con sangre visible en la orina.",
+              "rationale": "La hematuria macroscópica es una indicación pero no la única. La hematuria microscópica combinada con shock también requiere imágenes."
+            },
+            "B": {
+              "text": "En los tres, ya que cualquier hematuria requiere valoración",
+              "rationale": "La hematuria microscópica sin compromiso circulatorio y sin un mecanismo relevante no justifica la exposición a la radiación en un adulto."
+            },
+            "C": {
+              "text": "En el primer y segundo paciente, no en el tercero.",
+              "rationale": "Las indicaciones son hematuria macroscópica y hematuria microscópica con shock. Se añaden importantes traumatismos por desaceleración y graves lesiones asociadas, independientemente del hallazgo en orina."
+            },
+            "D": {
+              "text": "Sólo en el segundo paciente debido a la baja presión.",
+              "rationale": "El shock es un indicio, pero también lo es la hematuria macroscópica del primer paciente."
+            }
+          },
+          "explanation": {
+            "core": "Las imágenes en caso de traumatismo renal cerrado siguen desencadenantes definidos: sangre visible en la orina, hematuria microscópica junto con shock, un mecanismo de desaceleración o lesiones graves asociadas. La TC se realiza con una fase excretora retrasada, porque sólo eso demuestra lesión del sistema colector. En los niños el umbral es más bajo porque mantienen la presión arterial por más tiempo.",
+            "teaching_point": "Sin una fase retrasada en la TC, se pasa por alto la lesión del sistema colector."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -49,22 +149,76 @@
       "id": "uro-tra-00002",
       "version": 1,
       "status": "published",
-      "taxonomy": { "subdomain": "Nierentrauma", "tags": ["notfall", "leitlinie", "nachsorge"] },
+      "taxonomy": {
+        "subdomain": "Nierentrauma",
+        "tags": [
+          "notfall",
+          "leitlinie",
+          "nachsorge"
+        ],
+        "domain": "trauma"
+      },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
-      "options": [{ "key": "A", "correct": true }, { "key": "B", "correct": false }, { "key": "C", "correct": false }, { "key": "D", "correct": false }],
-      "evidence": { "level": "IIA", "certainty": "etabliert", "flag": false },
-      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Trauma", "year": 2026 }],
-      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
       "content": {
         "de": {
           "vignette": "28-jähriger Motorradfahrer mit isoliertem Nierentrauma rechts. Das CT zeigt eine 2 cm tiefe Parenchymlazeration ohne Beteiligung des Hohlsystems und ein begrenztes perirenales Hämatom. Blutdruck und Puls sind stabil, das Hämoglobin fällt nicht weiter.",
           "lead_in": "Wie ist zu verfahren?",
           "options": {
-            "A": { "text": "Konservativ mit Überwachung und Verlaufskontrollen", "rationale": "Bei stabilem Kreislauf gelingt der Organerhalt in der überwiegenden Mehrzahl. Überwacht werden Kreislauf, Hämoglobin und Urin; eine Kontrollbildgebung folgt bei Fieber, Schmerzzunahme oder Hämoglobinabfall." },
-            "B": { "text": "Offene Exploration mit Übernähung der Lazeration", "rationale": "Die Exploration bei stabilem Patienten führt häufig zur Nephrektomie, weil das Hämatom beim Eröffnen der Gerota-Faszie die Tamponade verliert." },
-            "C": { "text": "Angiographie mit prophylaktischer Embolisation", "rationale": "Sie ist bei aktiver arterieller Blutung oder Pseudoaneurysma indiziert, nicht prophylaktisch bei stabilem Verlauf." },
-            "D": { "text": "Doppel-J-Schiene zur Entlastung des Hohlsystems", "rationale": "Das Hohlsystem ist nicht verletzt, sodass keine Indikation zur Schienung besteht." }
+            "A": {
+              "text": "Konservativ mit Überwachung und Verlaufskontrollen",
+              "rationale": "Bei stabilem Kreislauf gelingt der Organerhalt in der überwiegenden Mehrzahl. Überwacht werden Kreislauf, Hämoglobin und Urin; eine Kontrollbildgebung folgt bei Fieber, Schmerzzunahme oder Hämoglobinabfall."
+            },
+            "B": {
+              "text": "Offene Exploration mit Übernähung der Lazeration",
+              "rationale": "Die Exploration bei stabilem Patienten führt häufig zur Nephrektomie, weil das Hämatom beim Eröffnen der Gerota-Faszie die Tamponade verliert."
+            },
+            "C": {
+              "text": "Angiographie mit prophylaktischer Embolisation",
+              "rationale": "Sie ist bei aktiver arterieller Blutung oder Pseudoaneurysma indiziert, nicht prophylaktisch bei stabilem Verlauf."
+            },
+            "D": {
+              "text": "Doppel-J-Schiene zur Entlastung des Hohlsystems",
+              "rationale": "Das Hohlsystem ist nicht verletzt, sodass keine Indikation zur Schienung besteht."
+            }
           },
           "explanation": {
             "core": "Die Behandlung des stumpfen Nierentraumas richtet sich nach der Kreislaufsituation und nicht nach dem Verletzungsgrad allein. Stabile Patienten werden auch bei höhergradigen Verletzungen konservativ geführt, weil die Niere gut tamponiert und die Exploration das Organ gefährdet. Bettruhe bis zum Sistieren der Makrohämaturie und engmaschige Kontrollen tragen dieses Vorgehen.",
@@ -76,16 +230,62 @@
           "vignette": "28-year-old motorcyclist with an isolated right renal injury. CT shows a 2 cm deep parenchymal laceration without collecting system involvement and a contained perirenal haematoma. Blood pressure and pulse are stable and haemoglobin is no longer falling.",
           "lead_in": "How should this be managed?",
           "options": {
-            "A": { "text": "Conservatively with monitoring and follow-up checks", "rationale": "With stable circulation the organ is preserved in the great majority. Circulation, haemoglobin and urine are monitored; repeat imaging follows fever, increasing pain or a falling haemoglobin." },
-            "B": { "text": "Open exploration with suture repair of the laceration", "rationale": "Exploration in a stable patient often ends in nephrectomy, because opening Gerota's fascia releases the tamponade of the haematoma." },
-            "C": { "text": "Angiography with prophylactic embolisation of the kidney", "rationale": "It is indicated for active arterial bleeding or pseudoaneurysm, not prophylactically in a stable course." },
-            "D": { "text": "Double-J stent to decompress the collecting system", "rationale": "The collecting system is not injured, so there is no indication for stenting." }
+            "A": {
+              "text": "Conservatively with monitoring and follow-up checks",
+              "rationale": "With stable circulation the organ is preserved in the great majority. Circulation, haemoglobin and urine are monitored; repeat imaging follows fever, increasing pain or a falling haemoglobin."
+            },
+            "B": {
+              "text": "Open exploration with suture repair of the laceration",
+              "rationale": "Exploration in a stable patient often ends in nephrectomy, because opening Gerota's fascia releases the tamponade of the haematoma."
+            },
+            "C": {
+              "text": "Angiography with prophylactic embolisation of the kidney",
+              "rationale": "It is indicated for active arterial bleeding or pseudoaneurysm, not prophylactically in a stable course."
+            },
+            "D": {
+              "text": "Double-J stent to decompress the collecting system",
+              "rationale": "The collecting system is not injured, so there is no indication for stenting."
+            }
           },
           "explanation": {
             "core": "Management of blunt renal trauma follows the circulatory situation rather than the injury grade alone. Stable patients are managed conservatively even with higher-grade injuries, because the kidney tamponades well and exploration endangers the organ. Bed rest until macroscopic haematuria settles and close monitoring support this approach.",
             "teaching_point": "The circulation decides, not the injury grade on CT."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Motociclista de 28 años con lesión renal derecha aislada. La TC muestra una laceración parenquimatosa de 2 cm de profundidad sin afectación del sistema colector y un hematoma perirrenal contenido. La presión arterial y el pulso son estables y la hemoglobina ya no baja.",
+          "lead_in": "¿Cuál es la conducta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Tratamiento conservador con vigilancia clínica y controles",
+              "rationale": "Con circulación estable el órgano se conserva en su gran mayoría. Se controlan la circulación, la hemoglobina y la orina; La repetición de imágenes sigue a fiebre, aumento del dolor o disminución de la hemoglobina."
+            },
+            "B": {
+              "text": "Exploración abierta con reparación con sutura de la laceración.",
+              "rationale": "La exploración en un paciente estable suele terminar en nefrectomía, porque la apertura de la fascia de Gerota libera el taponamiento del hematoma."
+            },
+            "C": {
+              "text": "Angiografía con embolización profiláctica del riñón.",
+              "rationale": "Está indicado en hemorragia arterial activa o pseudoaneurisma, no de forma profiláctica en curso estable."
+            },
+            "D": {
+              "text": "Stent doble J para descomprimir el sistema colector",
+              "rationale": "El sistema colector no resulta dañado, por lo que no hay indicación para la colocación de un stent."
+            }
+          },
+          "explanation": {
+            "core": "El tratamiento del traumatismo renal cerrado sigue la situación circulatoria y no sólo el grado de la lesión. Los pacientes estables se tratan de forma conservadora incluso con lesiones de mayor grado, porque el riñón se tapona bien y la exploración pone en peligro el órgano. El reposo en cama hasta que se calme la hematuria macroscópica y una estrecha vigilancia respaldan este enfoque.",
+            "teaching_point": "La circulación decide, no el grado de la lesión en la TC."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -93,22 +293,75 @@
       "id": "uro-tra-00003",
       "version": 1,
       "status": "published",
-      "taxonomy": { "subdomain": "Nierentrauma", "tags": ["notfall", "operationstechnik"] },
+      "taxonomy": {
+        "subdomain": "Nierentrauma",
+        "tags": [
+          "notfall",
+          "operationstechnik"
+        ],
+        "domain": "trauma"
+      },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
-      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": false }, { "key": "C", "correct": false }, { "key": "D", "correct": true }],
-      "evidence": { "level": "IIA", "certainty": "etabliert", "flag": false },
-      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Trauma", "year": 2026 }],
-      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
       "content": {
         "de": {
           "vignette": "Bei einer Laparotomie wegen Milzruptur zeigt sich zusätzlich ein retroperitoneales Hämatom über der linken Niere. Der Patient ist trotz Massivtransfusion weiter instabil, das Hämatom pulsiert und nimmt sichtbar an Größe zu.",
           "lead_in": "Welche Konsequenz hat dieser Befund?",
           "options": {
-            "A": { "text": "Hämatom belassen und postoperativ ein CT anschließen", "rationale": "Ein pulsierendes, expandierendes Hämatom bei instabilem Patienten duldet keine weitere Diagnostik; es signalisiert eine aktive arterielle Blutung." },
-            "B": { "text": "Nur eine Drainage einlegen und den Verlauf beobachten", "rationale": "Die Drainage beeinflusst die Blutung nicht und verschleiert lediglich das Ausmaß des Blutverlusts." },
-            "C": { "text": "Postoperativ eine Angiographie mit Embolisation planen", "rationale": "Die Embolisation ist die Methode der Wahl beim stabilen Patienten mit umschriebener Blutung, nicht bei anhaltender Instabilität im offenen Situs." },
-            "D": { "text": "Absolute Indikation zur Exploration der Niere", "rationale": "Kreislaufinstabilität trotz Volumen und Transfusion, ein pulsierendes oder expandierendes Hämatom und die Gefäßstielverletzung sind die drei zwingenden Gründe. Zunächst wird der Gefäßstiel kontrolliert, dann entschieden." }
+            "A": {
+              "text": "Hämatom belassen und postoperativ ein CT anschließen",
+              "rationale": "Ein pulsierendes, expandierendes Hämatom bei instabilem Patienten duldet keine weitere Diagnostik; es signalisiert eine aktive arterielle Blutung."
+            },
+            "B": {
+              "text": "Nur eine Drainage einlegen und den Verlauf beobachten",
+              "rationale": "Die Drainage beeinflusst die Blutung nicht und verschleiert lediglich das Ausmaß des Blutverlusts."
+            },
+            "C": {
+              "text": "Postoperativ eine Angiographie mit Embolisation planen",
+              "rationale": "Die Embolisation ist die Methode der Wahl beim stabilen Patienten mit umschriebener Blutung, nicht bei anhaltender Instabilität im offenen Situs."
+            },
+            "D": {
+              "text": "Absolute Indikation zur Exploration der Niere",
+              "rationale": "Kreislaufinstabilität trotz Volumen und Transfusion, ein pulsierendes oder expandierendes Hämatom und die Gefäßstielverletzung sind die drei zwingenden Gründe. Zunächst wird der Gefäßstiel kontrolliert, dann entschieden."
+            }
           },
           "explanation": {
             "core": "Die überwiegende Mehrzahl der Nierenverletzungen wird konservativ behandelt, doch drei Situationen erlauben kein Abwarten. Wird exploriert, erfolgt zuerst die Kontrolle der Gefäße vor Eröffnung der Gerota-Faszie, damit die Tamponade nicht unkontrolliert verloren geht. Die Rekonstruktion wird angestrebt, die Nephrektomie bleibt der Notfallmaßnahme vorbehalten.",
@@ -120,16 +373,62 @@
           "vignette": "During laparotomy for splenic rupture a retroperitoneal haematoma is also found over the left kidney. The patient remains unstable despite massive transfusion, and the haematoma is pulsatile and visibly expanding.",
           "lead_in": "What follows from this finding?",
           "options": {
-            "A": { "text": "Leave the haematoma and obtain a CT postoperatively", "rationale": "A pulsatile, expanding haematoma in an unstable patient permits no further investigation; it signals active arterial bleeding." },
-            "B": { "text": "Place a drain only and observe the further course", "rationale": "A drain does not influence the bleeding and merely obscures the extent of blood loss." },
-            "C": { "text": "Plan angiography with embolisation after the operation", "rationale": "Embolisation is the method of choice in a stable patient with localised bleeding, not with ongoing instability in an open field." },
-            "D": { "text": "An absolute indication for renal exploration", "rationale": "Circulatory instability despite fluids and transfusion, a pulsatile or expanding haematoma and pedicle injury are the three compelling reasons. The vascular pedicle is controlled first, then the decision is made." }
+            "A": {
+              "text": "Leave the haematoma and obtain a CT postoperatively",
+              "rationale": "A pulsatile, expanding haematoma in an unstable patient permits no further investigation; it signals active arterial bleeding."
+            },
+            "B": {
+              "text": "Place a drain only and observe the further course",
+              "rationale": "A drain does not influence the bleeding and merely obscures the extent of blood loss."
+            },
+            "C": {
+              "text": "Plan angiography with embolisation after the operation",
+              "rationale": "Embolisation is the method of choice in a stable patient with localised bleeding, not with ongoing instability in an open field."
+            },
+            "D": {
+              "text": "An absolute indication for renal exploration",
+              "rationale": "Circulatory instability despite fluids and transfusion, a pulsatile or expanding haematoma and pedicle injury are the three compelling reasons. The vascular pedicle is controlled first, then the decision is made."
+            }
           },
           "explanation": {
             "core": "The great majority of renal injuries are managed conservatively, but three situations permit no delay. If exploration is performed, the vessels are controlled before Gerota's fascia is opened, so that the tamponade is not lost uncontrollably. Reconstruction is attempted; nephrectomy remains an emergency measure.",
             "teaching_point": "Secure the vascular pedicle first, then open Gerota's fascia."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Durante la laparotomía por rotura del bazo también se encuentra un hematoma retroperitoneal sobre el riñón izquierdo. El paciente permanece inestable a pesar de la transfusión masiva y el hematoma es pulsátil y se expande visiblemente.",
+          "lead_in": "¿Qué se desprende de este hallazgo?",
+          "options": {
+            "A": {
+              "text": "Deje el hematoma y obtenga una TC postoperatoriamente.",
+              "rationale": "Un hematoma pulsátil y en expansión en un paciente inestable no permite realizar más investigaciones; indica sangrado arterial activo."
+            },
+            "B": {
+              "text": "Coloque solo un drenaje y observe el curso posterior.",
+              "rationale": "Un drenaje no influye en el sangrado y simplemente oculta el alcance de la pérdida de sangre."
+            },
+            "C": {
+              "text": "Planificar angiografía con embolización después de la operación.",
+              "rationale": "La embolización es el método de elección en un paciente estable con sangrado localizado, no con inestabilidad continua en campo abierto."
+            },
+            "D": {
+              "text": "Una indicación absoluta para la exploración renal.",
+              "rationale": "La inestabilidad circulatoria a pesar de los líquidos y las transfusiones, un hematoma pulsátil o en expansión y una lesión pedicular son las tres razones de peso. Primero se controla el pedículo vascular y luego se toma la decisión."
+            }
+          },
+          "explanation": {
+            "core": "La gran mayoría de las lesiones renales se tratan de forma conservadora, pero hay tres situaciones que no permiten demora. Si se realiza exploración, se controlan los vasos antes de abrir la fascia de Gerota, para que el taponamiento no se pierda de forma incontrolable. Se intenta la reconstrucción; la nefrectomía sigue siendo una medida de emergencia.",
+            "teaching_point": "Primero asegure el pedículo vascular y luego abra la fascia de Gerota."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -137,22 +436,76 @@
       "id": "uro-tra-00004",
       "version": 1,
       "status": "published",
-      "taxonomy": { "subdomain": "Nierentrauma", "tags": ["komplikationsmanagement", "bildgebung", "endourologisch"] },
+      "taxonomy": {
+        "subdomain": "Nierentrauma",
+        "tags": [
+          "komplikationsmanagement",
+          "bildgebung",
+          "endourologisch"
+        ],
+        "domain": "trauma"
+      },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
-      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": true }, { "key": "C", "correct": false }, { "key": "D", "correct": false }],
-      "evidence": { "level": "IIB", "certainty": "etabliert", "flag": false },
-      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Trauma", "year": 2026 }],
-      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
       "content": {
         "de": {
           "vignette": "Fünf Tage nach konservativ behandeltem Nierentrauma mit initialem Kontrastmittelaustritt entwickelt der Patient Fieber und zunehmende Flankenschmerzen. Das Kontroll-CT zeigt ein 8 cm großes perirenales Urinom, der Kreislauf ist stabil.",
           "lead_in": "Wie ist zu behandeln?",
           "options": {
-            "A": { "text": "Offene Revision mit Übernähung des Hohlsystems", "rationale": "Die offene Versorgung im entzündlich veränderten Gewebe ist schwierig und selten nötig, weil endoskopische und perkutane Verfahren fast immer ausreichen." },
-            "B": { "text": "Innere Schienung, bei Bedarf perkutane Drainage", "rationale": "Die Schiene senkt den Druck im Hohlsystem, sodass sich das Leck verschließt. Ein symptomatisches oder infiziertes Urinom wird zusätzlich perkutan drainiert." },
-            "C": { "text": "Nephrektomie wegen infizierten Urinoms links", "rationale": "Die Organentfernung ist bei erhaltener Funktion und behandelbarer Komplikation nicht zu rechtfertigen." },
-            "D": { "text": "Antibiose allein und Kontrolle in zwei Wochen", "rationale": "Ohne Druckentlastung persistiert das Leck, und das infizierte Urinom wird zum Abszess." }
+            "A": {
+              "text": "Offene Revision mit Übernähung des Hohlsystems",
+              "rationale": "Die offene Versorgung im entzündlich veränderten Gewebe ist schwierig und selten nötig, weil endoskopische und perkutane Verfahren fast immer ausreichen."
+            },
+            "B": {
+              "text": "Innere Schienung, bei Bedarf perkutane Drainage",
+              "rationale": "Die Schiene senkt den Druck im Hohlsystem, sodass sich das Leck verschließt. Ein symptomatisches oder infiziertes Urinom wird zusätzlich perkutan drainiert."
+            },
+            "C": {
+              "text": "Nephrektomie wegen infizierten Urinoms links",
+              "rationale": "Die Organentfernung ist bei erhaltener Funktion und behandelbarer Komplikation nicht zu rechtfertigen."
+            },
+            "D": {
+              "text": "Antibiose allein und Kontrolle in zwei Wochen",
+              "rationale": "Ohne Druckentlastung persistiert das Leck, und das infizierte Urinom wird zum Abszess."
+            }
           },
           "explanation": {
             "core": "Ein Kontrastmittelaustritt beim Nierentrauma ist häufig und bildet sich meist von selbst zurück. Behandlungsbedürftig wird er, wenn ein Urinom wächst, Fieber auftritt oder Schmerzen zunehmen. Das Prinzip lautet Druck senken und Flüssigkeit ableiten, nicht nähen. Deshalb steht die innere Schienung an erster Stelle, ergänzt um die perkutane Drainage.",
@@ -164,16 +517,62 @@
           "vignette": "Five days after conservatively managed renal trauma with initial contrast extravasation, the patient develops fever and increasing flank pain. Repeat CT shows an 8 cm perirenal urinoma and the circulation is stable.",
           "lead_in": "How should this be treated?",
           "options": {
-            "A": { "text": "Open revision with suture repair of the collecting system", "rationale": "Open repair in inflamed tissue is difficult and rarely necessary, because endoscopic and percutaneous measures almost always suffice." },
-            "B": { "text": "Internal stenting, with percutaneous drainage if needed", "rationale": "The stent lowers pressure in the collecting system so the leak seals. A symptomatic or infected urinoma is drained percutaneously in addition." },
-            "C": { "text": "Nephrectomy because of the infected left urinoma", "rationale": "Removing the organ is unjustifiable with preserved function and a treatable complication." },
-            "D": { "text": "Antibiotics alone with review in two weeks", "rationale": "Without decompression the leak persists and the infected urinoma becomes an abscess." }
+            "A": {
+              "text": "Open revision with suture repair of the collecting system",
+              "rationale": "Open repair in inflamed tissue is difficult and rarely necessary, because endoscopic and percutaneous measures almost always suffice."
+            },
+            "B": {
+              "text": "Internal stenting, with percutaneous drainage if needed",
+              "rationale": "The stent lowers pressure in the collecting system so the leak seals. A symptomatic or infected urinoma is drained percutaneously in addition."
+            },
+            "C": {
+              "text": "Nephrectomy because of the infected left urinoma",
+              "rationale": "Removing the organ is unjustifiable with preserved function and a treatable complication."
+            },
+            "D": {
+              "text": "Antibiotics alone with review in two weeks",
+              "rationale": "Without decompression the leak persists and the infected urinoma becomes an abscess."
+            }
           },
           "explanation": {
             "core": "Contrast extravasation in renal trauma is common and usually resolves spontaneously. It requires treatment when a urinoma enlarges, fever appears or pain increases. The principle is to lower pressure and drain fluid rather than to suture. Internal stenting therefore comes first, supplemented by percutaneous drainage.",
             "teaching_point": "The leak seals when pressure falls. Stent first, then drain."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Cinco días después de un traumatismo renal tratado de forma conservadora con extravasación inicial de contraste, el paciente presenta fiebre y dolor creciente en el flanco. La repetición de la TC muestra un urinoma perirrenal de 8 cm y la circulación es estable.",
+          "lead_in": "¿Cómo se debe tratar esto?",
+          "options": {
+            "A": {
+              "text": "Revisión abierta con reparación con sutura del sistema colector.",
+              "rationale": "La reparación abierta en tejido inflamado es difícil y rara vez necesaria, porque las medidas endoscópicas y percutáneas casi siempre son suficientes."
+            },
+            "B": {
+              "text": "Colocación de stent interno, con drenaje percutáneo si es necesario",
+              "rationale": "El stent reduce la presión en el sistema colector para sellar la fuga. Además, un urinoma sintomático o infectado se drena por vía percutánea."
+            },
+            "C": {
+              "text": "Nefrectomía por urinoma izquierdo infectado",
+              "rationale": "La extirpación del órgano es injustificable si se conserva la función y es una complicación tratable."
+            },
+            "D": {
+              "text": "Antibióticos solos con revisión en dos semanas",
+              "rationale": "Sin descompresión la fuga persiste y el urinoma infectado se convierte en un absceso."
+            }
+          },
+          "explanation": {
+            "core": "La extravasación de contraste en el traumatismo renal es frecuente y suele resolverse espontáneamente. Requiere tratamiento cuando un urinoma aumenta de tamaño, aparece fiebre o aumenta el dolor. El principio es bajar la presión y drenar el líquido en lugar de suturar. Por lo tanto, lo primero es la colocación de stents internos, complementados con drenaje percutáneo.",
+            "teaching_point": "La fuga se sella cuando cae la presión. Primero el stent y luego el drenaje."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -181,22 +580,76 @@
       "id": "uro-tra-00005",
       "version": 1,
       "status": "published",
-      "taxonomy": { "subdomain": "Nierengefäßverletzung", "tags": ["notfall", "bildgebung", "nachsorge"] },
+      "taxonomy": {
+        "subdomain": "Nierengefäßverletzung",
+        "tags": [
+          "notfall",
+          "bildgebung",
+          "nachsorge"
+        ],
+        "domain": "trauma"
+      },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
-      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": false }, { "key": "C", "correct": true }, { "key": "D", "correct": false }],
-      "evidence": { "level": "IIB", "certainty": "etabliert", "flag": false },
-      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Trauma", "year": 2026 }],
-      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
       "content": {
         "de": {
           "vignette": "35-jährige Patientin acht Stunden nach Hochrasanztrauma. Das CT zeigt eine fehlende Kontrastierung der gesamten linken Niere bei Abbruch der Nierenarterie; die rechte Niere ist unauffällig und gut perfundiert. Der Kreislauf ist stabil.",
           "lead_in": "Wie ist vorzugehen?",
           "options": {
-            "A": { "text": "Sofortige offene Revaskularisation der linken Niere", "rationale": "Nach acht Stunden warmer Ischämie ist mit einer Funktionserholung kaum zu rechnen, während der Eingriff das Blutungs- und Komplikationsrisiko deutlich erhöht." },
-            "B": { "text": "Sofortige Nephrektomie zur Vermeidung von Spätfolgen", "rationale": "Die Entfernung des stummen Organs ist beim stabilen Patienten nicht dringlich und wird nur bei Komplikationen erwogen." },
-            "C": { "text": "Konservativ vorgehen und den Blutdruck langfristig kontrollieren", "rationale": "Bei einseitigem Verschluss und gesunder Gegenniere ist das Vorgehen abwartend. Wichtig ist die spätere Kontrolle, weil sich Monate danach eine renovaskuläre Hypertonie entwickeln kann." },
-            "D": { "text": "Perkutane Angioplastie mit Stent der Nierenarterie", "rationale": "Sie kommt in den ersten Stunden bei Dissektion mit erhaltener Restperfusion infrage, nicht beim vollständigen Verschluss nach acht Stunden." }
+            "A": {
+              "text": "Sofortige offene Revaskularisation der linken Niere",
+              "rationale": "Nach acht Stunden warmer Ischämie ist mit einer Funktionserholung kaum zu rechnen, während der Eingriff das Blutungs- und Komplikationsrisiko deutlich erhöht."
+            },
+            "B": {
+              "text": "Sofortige Nephrektomie zur Vermeidung von Spätfolgen",
+              "rationale": "Die Entfernung des stummen Organs ist beim stabilen Patienten nicht dringlich und wird nur bei Komplikationen erwogen."
+            },
+            "C": {
+              "text": "Konservativ vorgehen und den Blutdruck langfristig kontrollieren",
+              "rationale": "Bei einseitigem Verschluss und gesunder Gegenniere ist das Vorgehen abwartend. Wichtig ist die spätere Kontrolle, weil sich Monate danach eine renovaskuläre Hypertonie entwickeln kann."
+            },
+            "D": {
+              "text": "Perkutane Angioplastie mit Stent der Nierenarterie",
+              "rationale": "Sie kommt in den ersten Stunden bei Dissektion mit erhaltener Restperfusion infrage, nicht beim vollständigen Verschluss nach acht Stunden."
+            }
           },
           "explanation": {
             "core": "Die Verletzung des Nierengefäßstiels ist selten und prognostisch ungünstig, weil die warme Ischämiezeit kurz ist. Nur wenige Stunden nach dem Ereignis und bei Einzelniere oder beidseitiger Verletzung lohnt der Versuch der Wiederherstellung. Einseitig und spät erkannt wird konservativ vorgegangen, mit Blutdruckkontrolle als wichtigster Nachsorgemaßnahme.",
@@ -208,16 +661,62 @@
           "vignette": "35-year-old woman eight hours after a high-speed accident. CT shows absent enhancement of the entire left kidney with cut-off of the renal artery; the right kidney is normal and well perfused. The circulation is stable.",
           "lead_in": "How should this be managed?",
           "options": {
-            "A": { "text": "Immediate open revascularisation of the left kidney", "rationale": "After eight hours of warm ischaemia functional recovery is barely to be expected, while the procedure markedly raises bleeding and complication risk." },
-            "B": { "text": "Immediate nephrectomy to prevent late consequences", "rationale": "Removing the silent organ is not urgent in a stable patient and is considered only for complications." },
-            "C": { "text": "Manage conservatively and monitor blood pressure long term", "rationale": "With unilateral occlusion and a healthy contralateral kidney the approach is expectant. Later monitoring matters, because renovascular hypertension can develop months afterwards." },
-            "D": { "text": "Percutaneous angioplasty with stenting of the renal artery", "rationale": "This applies within the first hours to dissection with residual perfusion, not to complete occlusion after eight hours." }
+            "A": {
+              "text": "Immediate open revascularisation of the left kidney",
+              "rationale": "After eight hours of warm ischaemia functional recovery is barely to be expected, while the procedure markedly raises bleeding and complication risk."
+            },
+            "B": {
+              "text": "Immediate nephrectomy to prevent late consequences",
+              "rationale": "Removing the silent organ is not urgent in a stable patient and is considered only for complications."
+            },
+            "C": {
+              "text": "Manage conservatively and monitor blood pressure long term",
+              "rationale": "With unilateral occlusion and a healthy contralateral kidney the approach is expectant. Later monitoring matters, because renovascular hypertension can develop months afterwards."
+            },
+            "D": {
+              "text": "Percutaneous angioplasty with stenting of the renal artery",
+              "rationale": "This applies within the first hours to dissection with residual perfusion, not to complete occlusion after eight hours."
+            }
           },
           "explanation": {
             "core": "Renal pedicle injury is rare and prognostically unfavourable, because warm ischaemia time is short. Only within a few hours, and in a solitary kidney or bilateral injury, is restoration worth attempting. Unilateral and late-recognised injury is managed conservatively, with blood pressure monitoring as the key follow-up measure.",
             "teaching_point": "With unilateral occlusion it is the blood pressure that matters later, not the scalpel."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 35 años ocho horas después de un accidente a alta velocidad. La TC muestra realce ausente de todo el riñón izquierdo con corte de la arteria renal; el riñón derecho es normal y bien perfundido. La circulación es estable.",
+          "lead_in": "¿Cuál es la conducta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Revascularización abierta inmediata del riñón izquierdo",
+              "rationale": "Después de ocho horas de isquemia caliente apenas se puede esperar una recuperación funcional, mientras que el procedimiento aumenta notablemente el riesgo de hemorragia y complicaciones."
+            },
+            "B": {
+              "text": "Nefrectomía inmediata para prevenir consecuencias tardías.",
+              "rationale": "La extirpación del órgano silencioso no es urgente en un paciente estable y se considera sólo en caso de complicaciones."
+            },
+            "C": {
+              "text": "Manejar de manera conservadora y monitorear la presión arterial a largo plazo.",
+              "rationale": "Con oclusión unilateral y un riñón contralateral sano el abordaje es expectante. La monitorización posterior es importante, porque meses después puede desarrollarse hipertensión renovascular."
+            },
+            "D": {
+              "text": "Angioplastia percutánea con colocación de stent en la arteria renal",
+              "rationale": "Esto se aplica dentro de las primeras horas a la disección con perfusión residual, no a la oclusión completa después de ocho horas."
+            }
+          },
+          "explanation": {
+            "core": "La lesión del pedículo renal compromete rápidamente la viabilidad del órgano. La revascularización depende del tiempo de isquemia y de la situación anatómica y funcional, especialmente en riñón único o lesión bilateral. En este caso unilateral de diagnóstico tardío y paciente estable, puede optarse por manejo conservador con control de presión arterial.",
+            "teaching_point": "En la oclusión unilateral lo que importa más adelante es la presión arterial, no el bisturí."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -225,22 +724,76 @@
       "id": "uro-tra-00006",
       "version": 1,
       "status": "published",
-      "taxonomy": { "subdomain": "penetrierendes Trauma", "tags": ["notfall", "bildgebung", "leitlinie"] },
+      "taxonomy": {
+        "subdomain": "penetrierendes Trauma",
+        "tags": [
+          "notfall",
+          "bildgebung",
+          "leitlinie"
+        ],
+        "domain": "trauma"
+      },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
-      "options": [{ "key": "A", "correct": true }, { "key": "B", "correct": false }, { "key": "C", "correct": false }, { "key": "D", "correct": false }],
-      "evidence": { "level": "IIB", "certainty": "etabliert", "flag": false },
-      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Trauma", "year": 2026 }],
-      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
       "content": {
         "de": {
           "vignette": "31-jähriger Mann mit Stichverletzung in der linken Flanke dorsal der hinteren Axillarlinie. Er ist kreislaufstabil, hat eine Mikrohämaturie und keine peritonealen Zeichen. Das CT zeigt eine Parenchymlazeration ohne aktive Blutung und ohne Hohlsystembeteiligung.",
           "lead_in": "Wie ist zu verfahren?",
           "options": {
-            "A": { "text": "Konservativ mit engmaschiger klinischer Überwachung", "rationale": "Dorsale Stichverletzungen bei stabilem Kreislauf und vollständiger Bildgebung lassen sich in der Mehrzahl konservativ führen. Voraussetzung sind wiederholte Untersuchungen und die Bereitschaft zur sofortigen Operation." },
-            "B": { "text": "Grundsätzliche Exploration bei jeder penetrierenden Wunde", "rationale": "Die pauschale Exploration führt zu vielen unnötigen Eingriffen und erhöht die Rate an Organverlusten." },
-            "C": { "text": "Sofortige Angiographie mit prophylaktischer Embolisation", "rationale": "Ohne aktive Blutung oder Pseudoaneurysma besteht keine Indikation für ein invasives Gefäßverfahren." },
-            "D": { "text": "Nephrektomie zur sicheren Blutstillung im Notfall", "rationale": "Sie ist eine Notfallmaßnahme bei nicht beherrschbarer Blutung, nicht bei stabiler Situation mit umschriebener Verletzung." }
+            "A": {
+              "text": "Konservativ mit engmaschiger klinischer Überwachung",
+              "rationale": "Dorsale Stichverletzungen bei stabilem Kreislauf und vollständiger Bildgebung lassen sich in der Mehrzahl konservativ führen. Voraussetzung sind wiederholte Untersuchungen und die Bereitschaft zur sofortigen Operation."
+            },
+            "B": {
+              "text": "Grundsätzliche Exploration bei jeder penetrierenden Wunde",
+              "rationale": "Die pauschale Exploration führt zu vielen unnötigen Eingriffen und erhöht die Rate an Organverlusten."
+            },
+            "C": {
+              "text": "Sofortige Angiographie mit prophylaktischer Embolisation",
+              "rationale": "Ohne aktive Blutung oder Pseudoaneurysma besteht keine Indikation für ein invasives Gefäßverfahren."
+            },
+            "D": {
+              "text": "Nephrektomie zur sicheren Blutstillung im Notfall",
+              "rationale": "Sie ist eine Notfallmaßnahme bei nicht beherrschbarer Blutung, nicht bei stabiler Situation mit umschriebener Verletzung."
+            }
           },
           "explanation": {
             "core": "Beim penetrierenden Nierentrauma entscheiden Mechanismus, Eintrittsstelle und Kreislauf. Dorsale Stichverletzungen verletzen seltener Nachbarorgane und sind bei Stabilität konservativ zu führen. Schussverletzungen und ventrale Stiche gehen häufiger mit Begleitverletzungen von Darm und Gefäßen einher und führen öfter zur Exploration.",
@@ -252,16 +805,62 @@
           "vignette": "31-year-old man with a stab wound to the left flank posterior to the posterior axillary line. He is haemodynamically stable, has microscopic haematuria and no peritoneal signs. CT shows a parenchymal laceration without active bleeding or collecting system involvement.",
           "lead_in": "How should this be managed?",
           "options": {
-            "A": { "text": "Conservatively with close clinical observation", "rationale": "Posterior stab wounds in a stable patient with complete imaging can mostly be managed conservatively. The prerequisites are repeated examination and readiness for immediate surgery." },
-            "B": { "text": "Routine exploration of every penetrating wound", "rationale": "Blanket exploration leads to many unnecessary operations and raises the rate of organ loss." },
-            "C": { "text": "Immediate angiography with prophylactic embolisation", "rationale": "Without active bleeding or pseudoaneurysm there is no indication for an invasive vascular procedure." },
-            "D": { "text": "Nephrectomy for definitive control of the bleeding", "rationale": "It is an emergency measure for uncontrollable bleeding, not for a stable situation with a localised injury." }
+            "A": {
+              "text": "Conservatively with close clinical observation",
+              "rationale": "Posterior stab wounds in a stable patient with complete imaging can mostly be managed conservatively. The prerequisites are repeated examination and readiness for immediate surgery."
+            },
+            "B": {
+              "text": "Routine exploration of every penetrating wound",
+              "rationale": "Blanket exploration leads to many unnecessary operations and raises the rate of organ loss."
+            },
+            "C": {
+              "text": "Immediate angiography with prophylactic embolisation",
+              "rationale": "Without active bleeding or pseudoaneurysm there is no indication for an invasive vascular procedure."
+            },
+            "D": {
+              "text": "Nephrectomy for definitive control of the bleeding",
+              "rationale": "It is an emergency measure for uncontrollable bleeding, not for a stable situation with a localised injury."
+            }
           },
           "explanation": {
             "core": "In penetrating renal trauma the mechanism, entry site and circulation decide. Posterior stab wounds less often injure neighbouring organs and can be managed conservatively when the patient is stable. Gunshot wounds and anterior stabs more often involve bowel and vascular injury and lead more frequently to exploration.",
             "teaching_point": "Not every stab wound is explored. Stability and complete imaging allow observation."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Hombre de 31 años con herida de arma blanca en el flanco izquierdo posterior a la línea axilar posterior. Se encuentra hemodinámicamente estable, presenta hematuria microscópica y sin signos peritoneales. La TC muestra una laceración parenquimatosa sin sangrado activo ni afectación del sistema colector.",
+          "lead_in": "¿Cuál es la conducta más adecuada?",
+          "options": {
+            "A": {
+              "text": "De forma conservadora con estrecha observación clínica.",
+              "rationale": "Las heridas por arma blanca posteriores en un paciente estable con imágenes completas se pueden tratar en su mayoría de manera conservadora. Los requisitos previos son exámenes repetidos y estar preparado para la cirugía inmediata."
+            },
+            "B": {
+              "text": "Exploración de rutina de cada herida penetrante.",
+              "rationale": "La exploración general conduce a muchas operaciones innecesarias y aumenta la tasa de pérdida de órganos."
+            },
+            "C": {
+              "text": "Angiografía inmediata con embolización profiláctica.",
+              "rationale": "Sin sangrado activo o pseudoaneurisma no hay indicación para un procedimiento vascular invasivo."
+            },
+            "D": {
+              "text": "Nefrectomía para control definitivo del sangrado.",
+              "rationale": "Es una medida de emergencia para un sangrado incontrolable, no para una situación estable con una lesión localizada."
+            }
+          },
+          "explanation": {
+            "core": "En el traumatismo renal penetrante deciden el mecanismo, el lugar de entrada y la circulación. Las puñaladas posteriores dañan con menos frecuencia los órganos vecinos y pueden tratarse de forma conservadora cuando el paciente está estable. Las heridas de bala y las puñaladas anteriores implican con mayor frecuencia lesiones intestinales y vasculares y requieren con mayor frecuencia exploración.",
+            "teaching_point": "No se exploran todas las heridas de arma blanca. La estabilidad y la imagen completa permiten la observación."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -269,22 +868,76 @@
       "id": "uro-tra-00007",
       "version": 1,
       "status": "published",
-      "taxonomy": { "subdomain": "Ureterverletzung", "tags": ["komplikationsmanagement", "operationstechnik", "bildgebung"] },
+      "taxonomy": {
+        "subdomain": "Ureterverletzung",
+        "tags": [
+          "komplikationsmanagement",
+          "operationstechnik",
+          "bildgebung"
+        ],
+        "domain": "trauma"
+      },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
-      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": false }, { "key": "C", "correct": false }, { "key": "D", "correct": true }],
-      "evidence": { "level": "IIB", "certainty": "etabliert", "flag": false },
-      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Trauma", "year": 2026 }],
-      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
       "content": {
         "de": {
           "vignette": "Acht Tage nach kolorektaler Resektion fördert die Bauchdrainage klare Flüssigkeit mit einem Kreatinin weit über dem Serumwert. Das CT zeigt ein Urinom und eine linksseitige Harnstauung. Die Patientin ist afebril und stabil.",
           "lead_in": "Wie ist vorzugehen?",
           "options": {
-            "A": { "text": "Sofortige offene Rekonstruktion des verletzten Ureters", "rationale": "Im entzündlich veränderten Gewebe nach acht Tagen sind Anastomosen unsicher; die Insuffizienzrate ist deutlich erhöht." },
-            "B": { "text": "Beobachten, da sich Urinlecks meist von selbst verschließen", "rationale": "Ohne Ableitung persistiert das Leck, und aus dem Urinom entsteht ein infizierter Verhalt mit Gefahr der Sepsis." },
-            "C": { "text": "Nephrektomie links wegen der drohenden Urosepsis", "rationale": "Die Niere ist funktionstüchtig und die Situation beherrschbar; die Organentfernung wäre grob unverhältnismäßig." },
-            "D": { "text": "Zunächst ableiten, Rekonstruktion nach Wochen planen", "rationale": "Abgeleitet wird mit perkutaner Nephrostomie oder, wenn möglich, mit einer inneren Schiene. Die definitive Rekonstruktion folgt nach etwa sechs bis zwölf Wochen, wenn die Entzündung abgeklungen ist." }
+            "A": {
+              "text": "Sofortige offene Rekonstruktion des verletzten Ureters",
+              "rationale": "Im entzündlich veränderten Gewebe nach acht Tagen sind Anastomosen unsicher; die Insuffizienzrate ist deutlich erhöht."
+            },
+            "B": {
+              "text": "Beobachten, da sich Urinlecks meist von selbst verschließen",
+              "rationale": "Ohne Ableitung persistiert das Leck, und aus dem Urinom entsteht ein infizierter Verhalt mit Gefahr der Sepsis."
+            },
+            "C": {
+              "text": "Nephrektomie links wegen der drohenden Urosepsis",
+              "rationale": "Die Niere ist funktionstüchtig und die Situation beherrschbar; die Organentfernung wäre grob unverhältnismäßig."
+            },
+            "D": {
+              "text": "Zunächst ableiten, Rekonstruktion nach Wochen planen",
+              "rationale": "Abgeleitet wird mit perkutaner Nephrostomie oder, wenn möglich, mit einer inneren Schiene. Die definitive Rekonstruktion folgt nach etwa sechs bis zwölf Wochen, wenn die Entzündung abgeklungen ist."
+            }
           },
           "explanation": {
             "core": "Der Zeitpunkt der Erkennung bestimmt das Vorgehen bei iatrogenen Ureterverletzungen. Intraoperativ erkannte Läsionen werden sofort versorgt. Spät erkannte Verletzungen werden zunächst nur abgeleitet, weil das umgebende Gewebe entzündlich verändert ist und jede Naht gefährdet. Erst nach Abklingen der Entzündung folgt die geplante Rekonstruktion.",
@@ -296,16 +949,62 @@
           "vignette": "Eight days after colorectal resection the abdominal drain produces clear fluid with a creatinine far above the serum value. CT shows a urinoma and left-sided hydronephrosis. The patient is afebrile and stable.",
           "lead_in": "How should this be managed?",
           "options": {
-            "A": { "text": "Immediate open reconstruction of the injured ureter", "rationale": "In inflamed tissue after eight days anastomoses are unreliable and the leak rate is markedly increased." },
-            "B": { "text": "Observe, since urine leaks usually seal spontaneously", "rationale": "Without diversion the leak persists and the urinoma becomes an infected collection with a risk of sepsis." },
-            "C": { "text": "Left nephrectomy because of impending urosepsis", "rationale": "The kidney is functioning and the situation manageable; removing the organ would be grossly disproportionate." },
-            "D": { "text": "Divert first and plan reconstruction weeks later", "rationale": "Diversion is by percutaneous nephrostomy or, where possible, an internal stent. Definitive reconstruction follows after roughly six to twelve weeks, once inflammation has settled." }
+            "A": {
+              "text": "Immediate open reconstruction of the injured ureter",
+              "rationale": "In inflamed tissue after eight days anastomoses are unreliable and the leak rate is markedly increased."
+            },
+            "B": {
+              "text": "Observe, since urine leaks usually seal spontaneously",
+              "rationale": "Without diversion the leak persists and the urinoma becomes an infected collection with a risk of sepsis."
+            },
+            "C": {
+              "text": "Left nephrectomy because of impending urosepsis",
+              "rationale": "The kidney is functioning and the situation manageable; removing the organ would be grossly disproportionate."
+            },
+            "D": {
+              "text": "Divert first and plan reconstruction weeks later",
+              "rationale": "Diversion is by percutaneous nephrostomy or, where possible, an internal stent. Definitive reconstruction follows after roughly six to twelve weeks, once inflammation has settled."
+            }
           },
           "explanation": {
             "core": "The timing of recognition determines management of iatrogenic ureteric injury. Lesions recognised intraoperatively are repaired at once. Late-recognised injuries are initially only diverted, because the surrounding tissue is inflamed and any suture is at risk. Planned reconstruction follows once inflammation has resolved.",
             "teaching_point": "Recognised at once, repaired at once. Recognised late, diverted first."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Ocho días después de la resección colorrectal, el drenaje abdominal produce un líquido claro con una creatinina muy por encima del valor sérico. La TC muestra un urinoma e hidronefrosis del lado izquierdo. El paciente se encuentra afebril y estable.",
+          "lead_in": "¿Cuál es la conducta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Reconstrucción abierta inmediata del uréter lesionado.",
+              "rationale": "En el tejido inflamado, después de ocho días, las anastomosis no son fiables y la tasa de fuga aumenta notablemente."
+            },
+            "B": {
+              "text": "Observe, ya que las pérdidas de orina suelen sellarse espontáneamente.",
+              "rationale": "Sin desviación la fuga persiste y el urinoma se convierte en una colección infectada con riesgo de sepsis."
+            },
+            "C": {
+              "text": "Nefrectomía izquierda por urosepsis inminente",
+              "rationale": "El riñón está funcionando y la situación es manejable; extraer el órgano sería tremendamente desproporcionado."
+            },
+            "D": {
+              "text": "Desviar primero y planificar la reconstrucción semanas después",
+              "rationale": "La desviación se realiza mediante nefrostomía percutánea o, cuando sea posible, mediante un stent interno. La reconstrucción definitiva se produce aproximadamente entre seis y doce semanas, una vez que la inflamación se ha calmado."
+            }
+          },
+          "explanation": {
+            "core": "El momento del reconocimiento determina el tratamiento de la lesión ureteral iatrogénica. Las lesiones reconocidas intraoperatoriamente se reparan de inmediato. Las lesiones detectadas tardíamente al principio sólo se desvían, porque el tejido circundante está inflamado y cualquier sutura está en peligro. La reconstrucción planificada sigue una vez que la inflamación se ha resuelto.",
+            "teaching_point": "Reconocido de inmediato, reparado de inmediato. Reconocido tarde, desviado primero."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -313,22 +1012,76 @@
       "id": "uro-tra-00008",
       "version": 1,
       "status": "published",
-      "taxonomy": { "subdomain": "Blasenruptur", "tags": ["notfall", "operationstechnik", "bildgebung"] },
+      "taxonomy": {
+        "subdomain": "Blasenruptur",
+        "tags": [
+          "notfall",
+          "operationstechnik",
+          "bildgebung"
+        ],
+        "domain": "trauma"
+      },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
-      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": true }, { "key": "C", "correct": false }, { "key": "D", "correct": false }],
-      "evidence": { "level": "IIA", "certainty": "etabliert", "flag": false },
-      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Trauma", "year": 2026 }],
-      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
       "content": {
         "de": {
           "vignette": "Zwei Patienten nach stumpfem Trauma mit Makrohämaturie. Beim ersten zeigt die CT-Zystographie einen flammenförmigen Kontrastaustritt im perivesikalen Fettgewebe bei Beckenfraktur. Beim zweiten läuft Kontrastmittel zwischen die Darmschlingen und in den Douglas-Raum.",
           "lead_in": "Wie werden die beiden behandelt?",
           "options": {
-            "A": { "text": "Beide werden operativ übernäht und drainiert", "rationale": "Die extraperitoneale Ruptur heilt in aller Regel unter alleiniger Katheterableitung; die Operation wäre unnötig." },
-            "B": { "text": "Der erste per Katheter, der zweite operativ versorgt", "rationale": "Die extraperitoneale Ruptur wird für etwa zwei bis drei Wochen mit einem Katheter abgeleitet und mit einem Zystogramm kontrolliert. Die intraperitoneale Ruptur wird genäht, weil Urin in die Bauchhöhle austritt." },
-            "C": { "text": "Beide werden allein mit einem Dauerkatheter behandelt", "rationale": "Bei intraperitonealer Ruptur führt die alleinige Ableitung zu Urinperitonitis, Ileus und Sepsis." },
-            "D": { "text": "Der erste operativ, der zweite mit Katheter abgeleitet", "rationale": "Die Zuordnung ist vertauscht und würde den falschen Patienten operieren und den anderen gefährden." }
+            "A": {
+              "text": "Beide werden operativ übernäht und drainiert",
+              "rationale": "Die extraperitoneale Ruptur heilt in aller Regel unter alleiniger Katheterableitung; die Operation wäre unnötig."
+            },
+            "B": {
+              "text": "Der erste per Katheter, der zweite operativ versorgt",
+              "rationale": "Die extraperitoneale Ruptur wird für etwa zwei bis drei Wochen mit einem Katheter abgeleitet und mit einem Zystogramm kontrolliert. Die intraperitoneale Ruptur wird genäht, weil Urin in die Bauchhöhle austritt."
+            },
+            "C": {
+              "text": "Beide werden allein mit einem Dauerkatheter behandelt",
+              "rationale": "Bei intraperitonealer Ruptur führt die alleinige Ableitung zu Urinperitonitis, Ileus und Sepsis."
+            },
+            "D": {
+              "text": "Der erste operativ, der zweite mit Katheter abgeleitet",
+              "rationale": "Die Zuordnung ist vertauscht und würde den falschen Patienten operieren und den anderen gefährden."
+            }
           },
           "explanation": {
             "core": "Die Unterscheidung zwischen extra- und intraperitonealer Blasenruptur entscheidet über die Behandlung. Extraperitoneal entsteht sie fast immer durch Beckenfrakturfragmente und heilt unter Ableitung. Intraperitoneal reißt die Blase an ihrem schwächsten Punkt, dem Dom, meist bei gefüllter Blase, und Urin gelangt in die Bauchhöhle. Wird zusätzlich am Becken operiert, wird auch die extraperitoneale Ruptur mitversorgt.",
@@ -340,16 +1093,62 @@
           "vignette": "Two patients after blunt trauma with macroscopic haematuria. In the first, CT cystography shows flame-shaped contrast extravasation in the perivesical fat with a pelvic fracture. In the second, contrast tracks between bowel loops and into the pouch of Douglas.",
           "lead_in": "How are the two treated?",
           "options": {
-            "A": { "text": "Both undergo surgical repair with drainage", "rationale": "Extraperitoneal rupture almost always heals on catheter drainage alone; surgery would be unnecessary." },
-            "B": { "text": "The first with a catheter, the second surgically", "rationale": "Extraperitoneal rupture is drained for roughly two to three weeks and checked by cystography. Intraperitoneal rupture is repaired, because urine enters the abdominal cavity." },
-            "C": { "text": "Both are managed with an indwelling catheter alone", "rationale": "In intraperitoneal rupture drainage alone leads to urinary peritonitis, ileus and sepsis." },
-            "D": { "text": "The first surgically, the second drained by catheter", "rationale": "The assignment is reversed and would operate on the wrong patient while endangering the other." }
+            "A": {
+              "text": "Both undergo surgical repair with drainage",
+              "rationale": "Extraperitoneal rupture almost always heals on catheter drainage alone; surgery would be unnecessary."
+            },
+            "B": {
+              "text": "The first with a catheter, the second surgically",
+              "rationale": "Extraperitoneal rupture is drained for roughly two to three weeks and checked by cystography. Intraperitoneal rupture is repaired, because urine enters the abdominal cavity."
+            },
+            "C": {
+              "text": "Both are managed with an indwelling catheter alone",
+              "rationale": "In intraperitoneal rupture drainage alone leads to urinary peritonitis, ileus and sepsis."
+            },
+            "D": {
+              "text": "The first surgically, the second drained by catheter",
+              "rationale": "The assignment is reversed and would operate on the wrong patient while endangering the other."
+            }
           },
           "explanation": {
             "core": "Distinguishing extraperitoneal from intraperitoneal bladder rupture determines treatment. Extraperitoneal rupture almost always arises from pelvic fracture fragments and heals on drainage. Intraperitoneal rupture occurs at the weakest point, the dome, usually with a full bladder, and urine enters the abdomen. If the pelvis is being operated on anyway, the extraperitoneal rupture is repaired at the same time.",
             "teaching_point": "Extraperitoneal means catheter, intraperitoneal means surgery."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Dos pacientes tras traumatismo cerrado con hematuria macroscópica. En el primero, la cistografía por TC muestra extravasación de contraste en forma de llama en la grasa perivesical con fractura pélvica. En el segundo, contraste las vías entre las asas intestinales y dentro de la bolsa de Douglas.",
+          "lead_in": "¿Cómo se tratan los dos?",
+          "options": {
+            "A": {
+              "text": "Ambos se someten a reparación quirúrgica con drenaje.",
+              "rationale": "La rotura extraperitoneal casi siempre se cura sólo con drenaje con catéter; la cirugía sería innecesaria."
+            },
+            "B": {
+              "text": "El primero con catéter, el segundo quirúrgicamente.",
+              "rationale": "La rotura extraperitoneal se drena durante aproximadamente dos o tres semanas y se controla mediante cistografía. La rotura intraperitoneal se repara porque la orina ingresa a la cavidad abdominal."
+            },
+            "C": {
+              "text": "Ambos se manejan únicamente con un catéter permanente.",
+              "rationale": "En caso de rotura intraperitoneal, el drenaje por sí solo produce peritonitis urinaria, íleo y sepsis."
+            },
+            "D": {
+              "text": "El primero quirúrgicamente, el segundo drenado mediante catéter.",
+              "rationale": "La asignación se invierte y operaría al paciente equivocado poniendo en peligro al otro."
+            }
+          },
+          "explanation": {
+            "core": "La distinción entre rotura de vejiga extraperitoneal e intraperitoneal determina el tratamiento. La rotura extraperitoneal casi siempre surge de fragmentos de fractura pélvica y cura con drenaje. La rotura intraperitoneal ocurre en el punto más débil, la cúpula, generalmente con la vejiga llena, y la orina ingresa al abdomen. Si de todos modos se opera la pelvis, se repara al mismo tiempo la rotura extraperitoneal.",
+            "teaching_point": "Extraperitoneal significa catéter, intraperitoneal significa cirugía."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -357,22 +1156,75 @@
       "id": "uro-tra-00009",
       "version": 1,
       "status": "published",
-      "taxonomy": { "subdomain": "Blasenruptur", "tags": ["bildgebung", "labordiagnostik"] },
+      "taxonomy": {
+        "subdomain": "Blasenruptur",
+        "tags": [
+          "bildgebung",
+          "labordiagnostik"
+        ],
+        "domain": "trauma"
+      },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
-      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": false }, { "key": "C", "correct": true }, { "key": "D", "correct": false }],
-      "evidence": { "level": "IIA", "certainty": "etabliert", "flag": false },
-      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Trauma", "year": 2026 }],
-      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
       "content": {
         "de": {
           "vignette": "Bei einem Patienten mit Beckenfraktur und Makrohämaturie soll eine Blasenruptur ausgeschlossen werden. Ein auswärts angefertigtes CT mit passivem Auslaufenlassen des Katheters wurde als unauffällig befundet, der klinische Verdacht besteht fort.",
           "lead_in": "Welches Vorgehen klärt die Frage zuverlässig?",
           "options": {
-            "A": { "text": "Sonographie der Blase mit Beurteilung freier Flüssigkeit", "rationale": "Freie Flüssigkeit ist unspezifisch, und der Ultraschall kann eine Ruptur weder sicher zeigen noch ausschließen." },
-            "B": { "text": "Ausscheidungsurographie mit Spätaufnahmen nach zehn Minuten", "rationale": "Die Ausscheidung erzeugt in der Blase keinen ausreichenden Füllungsdruck, sodass kleine Risse verschlossen bleiben." },
-            "C": { "text": "Retrogrades Zystogramm mit ausreichender Füllung", "rationale": "Gefüllt wird mit mindestens 300 ml, weil ein Riss sonst nicht klafft. Zum Untersuchungsgang gehört eine Aufnahme nach Entleerung, da sich Extravasate erst dann demarkieren; die CT-Zystographie erfüllt dieselben Anforderungen." },
-            "D": { "text": "Zystoskopie in Lokalanästhesie zur direkten Beurteilung", "rationale": "Sie kann Verletzungen zeigen, ist bei frischer Beckenfraktur aber schlecht durchführbar und dem Zystogramm in dieser Frage unterlegen." }
+            "A": {
+              "text": "Sonographie der Blase mit Beurteilung freier Flüssigkeit",
+              "rationale": "Freie Flüssigkeit ist unspezifisch, und der Ultraschall kann eine Ruptur weder sicher zeigen noch ausschließen."
+            },
+            "B": {
+              "text": "Ausscheidungsurographie mit Spätaufnahmen nach zehn Minuten",
+              "rationale": "Die Ausscheidung erzeugt in der Blase keinen ausreichenden Füllungsdruck, sodass kleine Risse verschlossen bleiben."
+            },
+            "C": {
+              "text": "Retrogrades Zystogramm mit ausreichender Füllung",
+              "rationale": "Gefüllt wird mit mindestens 300 ml, weil ein Riss sonst nicht klafft. Zum Untersuchungsgang gehört eine Aufnahme nach Entleerung, da sich Extravasate erst dann demarkieren; die CT-Zystographie erfüllt dieselben Anforderungen."
+            },
+            "D": {
+              "text": "Zystoskopie in Lokalanästhesie zur direkten Beurteilung",
+              "rationale": "Sie kann Verletzungen zeigen, ist bei frischer Beckenfraktur aber schlecht durchführbar und dem Zystogramm in dieser Frage unterlegen."
+            }
           },
           "explanation": {
             "core": "Der häufigste Fehler in der Blasendiagnostik ist die unzureichende Füllung. Ein passives Auslaufenlassen oder eine bloße Ausscheidungsphase erzeugen keinen Druck, sodass kleine Rupturen verborgen bleiben. Das Zystogramm braucht aktive Füllung mit mindestens 300 Millilitern und eine Aufnahme nach der Entleerung.",
@@ -384,16 +1236,62 @@
           "vignette": "In a patient with a pelvic fracture and macroscopic haematuria, bladder rupture must be excluded. An outside CT performed with passive catheter drainage was reported as normal, but clinical suspicion persists.",
           "lead_in": "Which approach settles the question reliably?",
           "options": {
-            "A": { "text": "Bladder ultrasound assessing for free fluid", "rationale": "Free fluid is non-specific, and ultrasound can neither reliably show nor exclude a rupture." },
-            "B": { "text": "Excretory urography with delayed films at ten minutes", "rationale": "Excretion does not generate sufficient filling pressure in the bladder, so small tears remain sealed." },
-            "C": { "text": "Retrograde cystography with adequate filling", "rationale": "Filling uses at least 300 ml, because otherwise a tear does not open. A post-drainage film belongs to the study, since extravasation only then becomes apparent; CT cystography meets the same requirements." },
-            "D": { "text": "Cystoscopy under local anaesthesia for direct inspection", "rationale": "It can show injuries but is poorly feasible with a fresh pelvic fracture and inferior to cystography for this question." }
+            "A": {
+              "text": "Bladder ultrasound assessing for free fluid",
+              "rationale": "Free fluid is non-specific, and ultrasound can neither reliably show nor exclude a rupture."
+            },
+            "B": {
+              "text": "Excretory urography with delayed films at ten minutes",
+              "rationale": "Excretion does not generate sufficient filling pressure in the bladder, so small tears remain sealed."
+            },
+            "C": {
+              "text": "Retrograde cystography with adequate filling",
+              "rationale": "Filling uses at least 300 ml, because otherwise a tear does not open. A post-drainage film belongs to the study, since extravasation only then becomes apparent; CT cystography meets the same requirements."
+            },
+            "D": {
+              "text": "Cystoscopy under local anaesthesia for direct inspection",
+              "rationale": "It can show injuries but is poorly feasible with a fresh pelvic fracture and inferior to cystography for this question."
+            }
           },
           "explanation": {
             "core": "The commonest error in bladder imaging is inadequate filling. Passive drainage or a mere excretory phase generate no pressure, so small ruptures remain hidden. Cystography requires active filling with at least 300 millilitres and a post-drainage film.",
             "teaching_point": "Without active filling and a post-drainage film the cystogram is not usable."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "En un paciente con fractura de pelvis y hematuria macroscópica, se debe excluir la rotura de la vejiga. Una TC externa realizada con drenaje pasivo con catéter se informó como normal, pero persiste la sospecha clínica.",
+          "lead_in": "¿Qué enfoque resuelve la cuestión de forma fiable?",
+          "options": {
+            "A": {
+              "text": "Ecografía de vejiga que evalúa el líquido libre.",
+              "rationale": "El líquido libre no es específico y la ecografía no puede mostrar ni excluir de forma fiable una rotura."
+            },
+            "B": {
+              "text": "Urografía excretora con imágenes tardías a los diez minutos.",
+              "rationale": "La excreción no genera suficiente presión de llenado en la vejiga, por lo que las pequeñas lágrimas quedan selladas."
+            },
+            "C": {
+              "text": "Cistografía retrógrada con llenado adecuado",
+              "rationale": "Para el relleno se utilizan al menos 300 ml, porque de lo contrario no se abre una lágrima. Una película post-drenaje pertenece al estudio, ya que sólo entonces se hace evidente la extravasación; La cistografía por TC cumple los mismos requisitos."
+            },
+            "D": {
+              "text": "Cistoscopia bajo anestesia local para inspección directa.",
+              "rationale": "Puede mostrar lesiones, pero es poco factible con una fractura pélvica reciente y es inferior a la cistografía para esta cuestión."
+            }
+          },
+          "explanation": {
+            "core": "El error más común en las imágenes de la vejiga es el llenado inadecuado. El drenaje pasivo o una mera fase excretora no generan presión, por lo que las pequeñas roturas quedan ocultas. La cistografía requiere un llenado activo con al menos 300 mililitros y una imagen tras el vaciado.",
+            "teaching_point": "Sin un llenado activo y una imagen tras el vaciado, la cistografía no es utilizable."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -401,22 +1299,76 @@
       "id": "uro-tra-00010",
       "version": 1,
       "status": "published",
-      "taxonomy": { "subdomain": "Harnröhrenverletzung", "tags": ["notfall", "bildgebung", "operationstechnik"] },
+      "taxonomy": {
+        "subdomain": "Harnröhrenverletzung",
+        "tags": [
+          "notfall",
+          "bildgebung",
+          "operationstechnik"
+        ],
+        "domain": "trauma"
+      },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
-      "options": [{ "key": "A", "correct": true }, { "key": "B", "correct": false }, { "key": "C", "correct": false }, { "key": "D", "correct": false }],
-      "evidence": { "level": "IIA", "certainty": "etabliert", "flag": false },
-      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Trauma", "year": 2026 }],
-      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
       "content": {
         "de": {
           "vignette": "19-jähriger Mann nach Sturz rittlings auf eine Metallstange. Es besteht ein schmetterlingsförmiges Hämatom am Damm, Blut tropft aus dem Meatus, das Wasserlassen ist nicht möglich.",
           "lead_in": "Wie ist vorzugehen?",
           "options": {
-            "A": { "text": "Retrogrades Urethrogramm vor jedem Katheterversuch", "rationale": "Es zeigt Lage und Ausmaß der Verletzung. Bei Teilruptur kann vorsichtig geschient werden, bei vollständiger Durchtrennung wird suprapubisch abgeleitet und später rekonstruiert." },
-            "B": { "text": "Transurethralen Katheter unter Sicht vorsichtig einlegen", "rationale": "Auch der vorsichtige Versuch kann eine Teilruptur vervollständigen und eine Via falsa erzeugen; die Bildgebung geht vor." },
-            "C": { "text": "Sofortige operative Rekonstruktion der Harnröhre", "rationale": "Bei der vorderen Harnröhrenverletzung durch stumpfes Trauma verschlechtert die Sofortrekonstruktion im Hämatom die Ergebnisse." },
-            "D": { "text": "Abwarten und Blasenentleerung spontan abwarten", "rationale": "Bei bestehendem Harnverhalt droht die Extravasation von Urin in das Perineum mit Infektion und Gewebsnekrose." }
+            "A": {
+              "text": "Retrogrades Urethrogramm vor jedem Katheterversuch",
+              "rationale": "Es zeigt Lage und Ausmaß der Verletzung. Bei Teilruptur kann vorsichtig geschient werden, bei vollständiger Durchtrennung wird suprapubisch abgeleitet und später rekonstruiert."
+            },
+            "B": {
+              "text": "Transurethralen Katheter unter Sicht vorsichtig einlegen",
+              "rationale": "Auch der vorsichtige Versuch kann eine Teilruptur vervollständigen und eine Via falsa erzeugen; die Bildgebung geht vor."
+            },
+            "C": {
+              "text": "Sofortige operative Rekonstruktion der Harnröhre",
+              "rationale": "Bei der vorderen Harnröhrenverletzung durch stumpfes Trauma verschlechtert die Sofortrekonstruktion im Hämatom die Ergebnisse."
+            },
+            "D": {
+              "text": "Abwarten und Blasenentleerung spontan abwarten",
+              "rationale": "Bei bestehendem Harnverhalt droht die Extravasation von Urin in das Perineum mit Infektion und Gewebsnekrose."
+            }
           },
           "explanation": {
             "core": "Blut am Meatus, ein Dammhämatom und Harnverhalt bilden die Trias der Harnröhrenverletzung. Vor jedem Katheterversuch steht das retrograde Urethrogramm. Vordere Verletzungen entstehen typischerweise durch das Aufprallen auf einen Gegenstand, hintere durch Beckenfrakturen. In beiden Fällen ist die sichere Ableitung wichtiger als die schnelle Rekonstruktion.",
@@ -428,16 +1380,62 @@
           "vignette": "19-year-old man after falling astride a metal bar. There is a butterfly-shaped perineal haematoma, blood drips from the meatus and he cannot pass urine.",
           "lead_in": "How should this be managed?",
           "options": {
-            "A": { "text": "Retrograde urethrography before any catheter attempt", "rationale": "It shows the site and extent of injury. With a partial tear gentle stenting is possible; with complete disruption suprapubic drainage is used and reconstruction follows later." },
-            "B": { "text": "Insert a transurethral catheter gently under vision", "rationale": "Even a gentle attempt can complete a partial tear and create a false passage; imaging comes first." },
-            "C": { "text": "Immediate surgical reconstruction of the urethra", "rationale": "In anterior urethral injury from blunt trauma, immediate reconstruction within the haematoma worsens outcomes." },
-            "D": { "text": "Wait and allow spontaneous bladder emptying", "rationale": "With established retention, urine extravasates into the perineum causing infection and tissue necrosis." }
+            "A": {
+              "text": "Retrograde urethrography before any catheter attempt",
+              "rationale": "It shows the site and extent of injury. With a partial tear gentle stenting is possible; with complete disruption suprapubic drainage is used and reconstruction follows later."
+            },
+            "B": {
+              "text": "Insert a transurethral catheter gently under vision",
+              "rationale": "Even a gentle attempt can complete a partial tear and create a false passage; imaging comes first."
+            },
+            "C": {
+              "text": "Immediate surgical reconstruction of the urethra",
+              "rationale": "In anterior urethral injury from blunt trauma, immediate reconstruction within the haematoma worsens outcomes."
+            },
+            "D": {
+              "text": "Wait and allow spontaneous bladder emptying",
+              "rationale": "With established retention, urine extravasates into the perineum causing infection and tissue necrosis."
+            }
           },
           "explanation": {
             "core": "Blood at the meatus, a perineal haematoma and retention form the triad of urethral injury. Retrograde urethrography precedes any catheter attempt. Anterior injuries typically arise from straddle impact, posterior ones from pelvic fractures. In both, safe diversion matters more than rapid reconstruction.",
             "teaching_point": "Blood at the meatus means urethrogram, not catheter."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Un joven de 19 años tras caer a horcajadas sobre una barra de metal. Tiene un hematoma perineal en forma de mariposa, la sangre gotea del meato y no puede orinar.",
+          "lead_in": "¿Cuál es la conducta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Uretrografía retrógrada antes de cualquier intento de catéter.",
+              "rationale": "Muestra el sitio y el alcance de la lesión. En caso de desgarro parcial, es posible colocar un stent suave; en caso de alteración completa se utiliza drenaje suprapúbico y posteriormente se realiza la reconstrucción."
+            },
+            "B": {
+              "text": "Inserte un catéter transuretral suavemente bajo visión.",
+              "rationale": "Incluso un intento suave puede completar un desgarro parcial y crear un pasaje falso; La imagen es lo primero."
+            },
+            "C": {
+              "text": "Reconstrucción quirúrgica inmediata de la uretra.",
+              "rationale": "En la lesión de la uretra anterior por traumatismo cerrado, la reconstrucción inmediata dentro del hematoma empeora los resultados."
+            },
+            "D": {
+              "text": "Esperar y permitir el vaciado espontáneo de la vejiga.",
+              "rationale": "Con retención establecida, la orina se extravasa hacia el perineo causando infección y necrosis tisular."
+            }
+          },
+          "explanation": {
+            "core": "Sangre en el meato, hematoma perineal y retención forman la tríada de lesión uretral. La uretrografía retrógrada precede a cualquier intento de catéter. Las lesiones anteriores suelen surgir de impactos a horcajadas, y las posteriores, de fracturas pélvicas. En ambos casos, la desviación segura es más importante que la reconstrucción rápida.",
+            "teaching_point": "Sangre en el meato significa uretrografía, no catéter."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -445,22 +1443,75 @@
       "id": "uro-tra-00011",
       "version": 1,
       "status": "published",
-      "taxonomy": { "subdomain": "Harnröhrenverletzung", "tags": ["notfall", "komplikationsmanagement"] },
+      "taxonomy": {
+        "subdomain": "Harnröhrenverletzung",
+        "tags": [
+          "notfall",
+          "komplikationsmanagement"
+        ],
+        "domain": "trauma"
+      },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
-      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": false }, { "key": "C", "correct": false }, { "key": "D", "correct": true }],
-      "evidence": { "level": "IIB", "certainty": "etabliert", "flag": false },
-      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Trauma", "year": 2026 }],
-      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
       "content": {
         "de": {
           "vignette": "Auf der Intensivstation wurde bei einem unruhigen Patienten mehrfach vergeblich katheterisiert. Jetzt blutet es aus der Harnröhre, der Katheter lässt sich nicht vorschieben, die Blase ist gefüllt und tastbar.",
           "lead_in": "Was ist der nächste Schritt?",
           "options": {
-            "A": { "text": "Erneuter Katheterversuch mit dickerem Katheter", "rationale": "Ein größerer Katheter erhöht die Gefahr, die Via falsa zu erweitern und die Verletzung zu vergrößern." },
-            "B": { "text": "Katheterversuch mit Führungsdraht ohne Endoskopie", "rationale": "Der blind eingeführte Draht folgt bevorzugt dem falschen Gang und verschlimmert die Situation." },
-            "C": { "text": "Abwarten, bis die Blutung von selbst zum Stillstand kommt", "rationale": "Die gefüllte Blase muss entlastet werden; Zuwarten führt zu Überdehnung und Schmerz." },
-            "D": { "text": "Suprapubische Ableitung, Harnröhre später beurteilen", "rationale": "Die suprapubische Punktion umgeht die verletzte Harnröhre und entlastet sofort. Die endoskopische oder radiologische Beurteilung erfolgt danach in Ruhe." }
+            "A": {
+              "text": "Erneuter Katheterversuch mit dickerem Katheter",
+              "rationale": "Ein größerer Katheter erhöht die Gefahr, die Via falsa zu erweitern und die Verletzung zu vergrößern."
+            },
+            "B": {
+              "text": "Katheterversuch mit Führungsdraht ohne Endoskopie",
+              "rationale": "Der blind eingeführte Draht folgt bevorzugt dem falschen Gang und verschlimmert die Situation."
+            },
+            "C": {
+              "text": "Abwarten, bis die Blutung von selbst zum Stillstand kommt",
+              "rationale": "Die gefüllte Blase muss entlastet werden; Zuwarten führt zu Überdehnung und Schmerz."
+            },
+            "D": {
+              "text": "Suprapubische Ableitung, Harnröhre später beurteilen",
+              "rationale": "Die suprapubische Punktion umgeht die verletzte Harnröhre und entlastet sofort. Die endoskopische oder radiologische Beurteilung erfolgt danach in Ruhe."
+            }
           },
           "explanation": {
             "core": "Die traumatische Katheterisierung ist die häufigste iatrogene Harnröhrenverletzung und entsteht meist durch wiederholte, forcierte Versuche. Nach dem zweiten erfolglosen Versuch gehört die Situation in urologische Hände. Die Folgen reichen von der einfachen Blutung bis zur späteren Striktur, weshalb betroffene Patienten nachverfolgt werden sollten.",
@@ -472,16 +1523,62 @@
           "vignette": "On the intensive care unit, repeated catheterisation attempts in a restless patient have failed. There is now bleeding from the urethra, the catheter cannot be advanced, and the bladder is full and palpable.",
           "lead_in": "What is the next step?",
           "options": {
-            "A": { "text": "Another attempt using a larger calibre catheter", "rationale": "A larger catheter increases the risk of widening the false passage and enlarging the injury." },
-            "B": { "text": "Catheter attempt over a guidewire without endoscopy", "rationale": "A blindly inserted wire preferentially follows the false passage and worsens the situation." },
-            "C": { "text": "Wait until the bleeding stops on its own", "rationale": "The full bladder must be drained; waiting leads to overdistension and pain." },
-            "D": { "text": "Suprapubic drainage, assess the urethra later", "rationale": "Suprapubic puncture bypasses the injured urethra and relieves the bladder at once. Endoscopic or radiological assessment follows afterwards without pressure." }
+            "A": {
+              "text": "Another attempt using a larger calibre catheter",
+              "rationale": "A larger catheter increases the risk of widening the false passage and enlarging the injury."
+            },
+            "B": {
+              "text": "Catheter attempt over a guidewire without endoscopy",
+              "rationale": "A blindly inserted wire preferentially follows the false passage and worsens the situation."
+            },
+            "C": {
+              "text": "Wait until the bleeding stops on its own",
+              "rationale": "The full bladder must be drained; waiting leads to overdistension and pain."
+            },
+            "D": {
+              "text": "Suprapubic drainage, assess the urethra later",
+              "rationale": "Suprapubic puncture bypasses the injured urethra and relieves the bladder at once. Endoscopic or radiological assessment follows afterwards without pressure."
+            }
           },
           "explanation": {
             "core": "Traumatic catheterisation is the commonest iatrogenic urethral injury and usually results from repeated forced attempts. After the second failed attempt the situation belongs in urological hands. Consequences range from simple bleeding to later stricture, so affected patients should be followed up.",
             "teaching_point": "After two failed attempts you stop pushing and drain suprapubically."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "En la unidad de cuidados intensivos, los repetidos intentos de cateterismo en un paciente inquieto han fracasado. Ahora hay sangrado por la uretra, no se puede hacer avanzar el catéter y la vejiga está llena y es palpable.",
+          "lead_in": "¿Cuál es el siguiente paso?",
+          "options": {
+            "A": {
+              "text": "Otro intento utilizando un catéter de mayor calibre.",
+              "rationale": "Un catéter más grande aumenta el riesgo de ampliar el conducto falso y agrandar la lesión."
+            },
+            "B": {
+              "text": "Intento de catéter sobre guía sin endoscopia",
+              "rationale": "Un cable insertado a ciegas sigue preferentemente el paso falso y empeora la situación."
+            },
+            "C": {
+              "text": "Espere hasta que el sangrado se detenga por sí solo.",
+              "rationale": "Se debe drenar la vejiga llena; la espera conduce a una sobredistensión y dolor."
+            },
+            "D": {
+              "text": "Drenaje suprapúbico, valorar la uretra posteriormente",
+              "rationale": "La punción suprapúbica evita la uretra lesionada y alivia la vejiga de inmediato. Posteriormente se realiza una evaluación endoscópica o radiológica sin presión."
+            }
+          },
+          "explanation": {
+            "core": "El cateterismo traumático es la lesión uretral iatrogénica más común y generalmente resulta de intentos forzados repetidos. Tras el segundo intento fallido la situación queda en manos de los urólogos. Las consecuencias van desde un simple sangrado hasta una estenosis posterior, por lo que se debe realizar un seguimiento de los pacientes afectados.",
+            "teaching_point": "Después de dos intentos fallidos se dejan de realizar maniobras forzadas y se drena por vía suprapúbica."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -489,22 +1586,76 @@
       "id": "uro-tra-00012",
       "version": 1,
       "status": "published",
-      "taxonomy": { "subdomain": "Penisfraktur", "tags": ["notfall", "operationstechnik", "bildgebung"] },
+      "taxonomy": {
+        "subdomain": "Penisfraktur",
+        "tags": [
+          "notfall",
+          "operationstechnik",
+          "bildgebung"
+        ],
+        "domain": "trauma"
+      },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
-      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": true }, { "key": "C", "correct": false }, { "key": "D", "correct": false }],
-      "evidence": { "level": "IIA", "certainty": "etabliert", "flag": false },
-      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Trauma", "year": 2026 }],
-      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
       "content": {
         "de": {
           "vignette": "33-jähriger Mann berichtet über ein hörbares Knacken beim Geschlechtsverkehr mit sofortigem Erektionsverlust. Der Penis ist stark geschwollen, livide verfärbt und zur Gegenseite abgewinkelt. Aus dem Meatus tritt etwas Blut aus.",
           "lead_in": "Wie ist vorzugehen?",
           "options": {
-            "A": { "text": "Kühlung, Analgesie und Kontrolle in 48 Stunden", "rationale": "Die konservative Behandlung führt häufiger zu Deviation, schmerzhaften Knoten und erektiler Dysfunktion als die frühe Operation." },
-            "B": { "text": "Notfalloperation mit Naht der Tunica albuginea", "rationale": "Das Blut am Meatus verlangt zusätzlich die Beurteilung der Harnröhre durch Urethrogramm oder Urethroskopie, weil in einem relevanten Anteil eine Begleitverletzung besteht." },
-            "C": { "text": "MRT zur Darstellung des Risses vor jeder Operation", "rationale": "Die Diagnose ist klinisch zu stellen; die Bildgebung kommt allenfalls bei unklarer Anamnese infrage und darf nicht verzögern." },
-            "D": { "text": "Kompressionsverband und Antibiose für sieben Tage", "rationale": "Der Riss der Tunica albuginea heilt nicht durch Kompression, und die Antibiose behandelt kein mechanisches Problem." }
+            "A": {
+              "text": "Kühlung, Analgesie und Kontrolle in 48 Stunden",
+              "rationale": "Die konservative Behandlung führt häufiger zu Deviation, schmerzhaften Knoten und erektiler Dysfunktion als die frühe Operation."
+            },
+            "B": {
+              "text": "Notfalloperation mit Naht der Tunica albuginea",
+              "rationale": "Das Blut am Meatus verlangt zusätzlich die Beurteilung der Harnröhre durch Urethrogramm oder Urethroskopie, weil in einem relevanten Anteil eine Begleitverletzung besteht."
+            },
+            "C": {
+              "text": "MRT zur Darstellung des Risses vor jeder Operation",
+              "rationale": "Die Diagnose ist klinisch zu stellen; die Bildgebung kommt allenfalls bei unklarer Anamnese infrage und darf nicht verzögern."
+            },
+            "D": {
+              "text": "Kompressionsverband und Antibiose für sieben Tage",
+              "rationale": "Der Riss der Tunica albuginea heilt nicht durch Kompression, und die Antibiose behandelt kein mechanisches Problem."
+            }
           },
           "explanation": {
             "core": "Die Penisfraktur ist eine Ruptur der Tunica albuginea des Schwellkörpers bei erigiertem Penis. Anamnese und Befund sind so typisch, dass Bildgebung selten nötig ist. Behandelt wird operativ und früh, weil die Ergebnisse deutlich besser sind als unter konservativem Vorgehen. Blut am Meatus oder Makrohämaturie machen die Untersuchung der Harnröhre zwingend.",
@@ -516,43 +1667,154 @@
           "vignette": "33-year-old man reports an audible crack during intercourse with immediate loss of erection. The penis is markedly swollen, discoloured and angulated to the opposite side. A little blood appears at the meatus.",
           "lead_in": "How should this be managed?",
           "options": {
-            "A": { "text": "Cooling, analgesia and review in 48 hours", "rationale": "Conservative treatment leads more often to curvature, painful nodules and erectile dysfunction than early surgery." },
-            "B": { "text": "Emergency surgery with repair of the tunica albuginea", "rationale": "Blood at the meatus additionally requires assessment of the urethra by urethrography or urethroscopy, because a relevant proportion have an associated injury." },
-            "C": { "text": "MRI to demonstrate the tear before any operation", "rationale": "The diagnosis is clinical; imaging applies at most to an unclear history and must not cause delay." },
-            "D": { "text": "Compression dressing and antibiotics for seven days", "rationale": "A tear of the tunica albuginea does not heal by compression, and antibiotics do not treat a mechanical problem." }
+            "A": {
+              "text": "Cooling, analgesia and review in 48 hours",
+              "rationale": "Conservative treatment leads more often to curvature, painful nodules and erectile dysfunction than early surgery."
+            },
+            "B": {
+              "text": "Emergency surgery with repair of the tunica albuginea",
+              "rationale": "Blood at the meatus additionally requires assessment of the urethra by urethrography or urethroscopy, because a relevant proportion have an associated injury."
+            },
+            "C": {
+              "text": "MRI to demonstrate the tear before any operation",
+              "rationale": "The diagnosis is clinical; imaging applies at most to an unclear history and must not cause delay."
+            },
+            "D": {
+              "text": "Compression dressing and antibiotics for seven days",
+              "rationale": "A tear of the tunica albuginea does not heal by compression, and antibiotics do not treat a mechanical problem."
+            }
           },
           "explanation": {
             "core": "Penile fracture is a rupture of the tunica albuginea of the corpus cavernosum in the erect penis. History and findings are so typical that imaging is rarely needed. Treatment is surgical and early, because outcomes are markedly better than with conservative management. Blood at the meatus or macroscopic haematuria make urethral assessment mandatory.",
             "teaching_point": "A crack, detumescence and discoloration mean surgery, not cooling."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Un hombre de 33 años refiere un crujido audible durante las relaciones sexuales con pérdida inmediata de la erección. El pene está notablemente hinchado, descolorido y angulado hacia el lado opuesto. Aparece un poco de sangre en el meato.",
+          "lead_in": "¿Cuál es la conducta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Enfriamiento, analgesia y revisión en 48 horas.",
+              "rationale": "El tratamiento conservador provoca con mayor frecuencia curvaturas, nódulos dolorosos y disfunción eréctil que la cirugía temprana."
+            },
+            "B": {
+              "text": "Cirugía de urgencia con reparación de la túnica albugínea.",
+              "rationale": "La sangre en el meato requiere además una evaluación de la uretra mediante uretrografía o uretroscopia, porque una proporción importante tiene una lesión asociada."
+            },
+            "C": {
+              "text": "Resonancia magnética para demostrar el desgarro antes de cualquier operación.",
+              "rationale": "El diagnóstico es clínico; Las imágenes se aplican como máximo a una historia poco clara y no deben causar retrasos."
+            },
+            "D": {
+              "text": "Vendaje compresivo y antibióticos durante siete días.",
+              "rationale": "Un desgarro de la túnica albugínea no se cura mediante compresión y los antibióticos no tratan un problema mecánico."
+            }
+          },
+          "explanation": {
+            "core": "La fractura de pene es una rotura de la túnica albugínea del cuerpo cavernoso del pene erecto. Los antecedentes y los hallazgos son tan típicos que rara vez se necesitan imágenes. El tratamiento es quirúrgico y temprano, porque los resultados son notablemente mejores que con el tratamiento conservador. La presencia de sangre en el meato o hematuria macroscópica hacen obligatoria la evaluación uretral.",
+            "teaching_point": "Una grieta, una detumescencia y una decoloración significan cirugía, no enfriamiento."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-tra-00013",
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "taxonomy": { "subdomain": "Hodentrauma", "tags": ["notfall", "bildgebung", "operationstechnik"] },
+      "taxonomy": {
+        "subdomain": "Hodentrauma",
+        "tags": [
+          "notfall",
+          "bildgebung",
+          "operationstechnik"
+        ],
+        "domain": "trauma"
+      },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
-      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": false }, { "key": "C", "correct": true }, { "key": "D", "correct": false }],
-      "evidence": { "level": "IIA", "certainty": "etabliert", "flag": false },
-      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Trauma", "year": 2026 }],
-      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIA",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        },
+        {
+          "type": "reference",
+          "title": "EAU: testicular trauma",
+          "url": "https://uroweb.org/guidelines/urological-trauma/chapter/urogenital-trauma-guidelines",
+          "accessed": "2026-09-10"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-10",
+          "method": "AI-assisted source cross-check",
+          "clinical_signoff": false
+        }
+      },
       "content": {
         "de": {
           "vignette": "21-jähriger Fußballspieler nach direktem Tritt gegen das Skrotum. Starke Schmerzen, ausgeprägtes Hämatom. Die Sonographie zeigt eine unterbrochene Hodenkontur mit inhomogenem Parenchym und extratestikulärem Gewebe.",
           "lead_in": "Wie ist zu verfahren?",
           "options": {
-            "A": { "text": "Konservativ mit Hochlagerung, Kühlung und Analgesie", "rationale": "Das konservative Vorgehen gilt der Kontusion ohne Ruptur. Bei durchbrochener Tunica albuginea sinkt die Erhaltungsrate mit jedem Tag." },
-            "B": { "text": "Kontrollsonographie in 48 Stunden vor der Entscheidung", "rationale": "Die Verzögerung verschlechtert die Aussicht auf Organerhalt, ohne zusätzliche Information zu liefern." },
-            "C": { "text": "Operative Freilegung innerhalb der ersten Tage", "rationale": "Reseziert wird avitales Tubulusgewebe, anschließend wird die Tunica albuginea verschlossen. Bei Versorgung innerhalb von etwa 72 Stunden liegt die Erhaltungsrate deutlich über 80 Prozent, danach fällt sie stark ab." },
-            "D": { "text": "Sofortige Ablatio testis wegen der Parenchymzerstörung", "rationale": "Die Entfernung ist nur bei vollständiger Zerstörung oder nicht rekonstruierbarer Durchblutung gerechtfertigt." }
+            "A": {
+              "text": "Konservativ mit Hochlagerung, Kühlung und Analgesie",
+              "rationale": "Das konservative Vorgehen gilt der Kontusion ohne Ruptur. Bei durchbrochener Tunica albuginea sinkt die Erhaltungsrate mit jedem Tag."
+            },
+            "B": {
+              "text": "Kontrollsonographie in 48 Stunden vor der Entscheidung",
+              "rationale": "Die Verzögerung verschlechtert die Aussicht auf Organerhalt, ohne zusätzliche Information zu liefern."
+            },
+            "C": {
+              "text": "Dringliche operative Exploration und organerhaltende Versorgung",
+              "rationale": "Reseziert wird avitales Tubulusgewebe, anschließend wird die Tunica albuginea verschlossen. Bei Versorgung innerhalb von etwa 72 Stunden liegt die Erhaltungsrate deutlich über 80 Prozent, danach fällt sie stark ab."
+            },
+            "D": {
+              "text": "Sofortige Ablatio testis wegen der Parenchymzerstörung",
+              "rationale": "Die Entfernung ist nur bei vollständiger Zerstörung oder nicht rekonstruierbarer Durchblutung gerechtfertigt."
+            }
           },
           "explanation": {
             "core": "Beim stumpfen Skrotaltrauma trennt die Sonographie die Kontusion von der Ruptur, wobei die unterbrochene Kontur und ausgetretenes Parenchym die entscheidenden Zeichen sind. Bei Verdacht auf Ruptur wird exploriert, auch wenn die Bildgebung nicht eindeutig ist, denn der Preis einer unnötigen Freilegung ist gering und der einer verpassten Ruptur hoch.",
-            "teaching_point": "Im Zweifel freilegen. Nach 72 Stunden ist der Hoden meist nicht mehr zu retten."
+            "teaching_point": "Bei Rupturverdacht rasch explorieren; auch verspätet ist Organerhalt nicht ausgeschlossen."
           },
           "flag_note": null
         },
@@ -560,16 +1822,62 @@
           "vignette": "21-year-old footballer after a direct kick to the scrotum. Severe pain and a marked haematoma. Ultrasound shows an interrupted testicular contour with heterogeneous parenchyma and extratesticular tissue.",
           "lead_in": "How should this be managed?",
           "options": {
-            "A": { "text": "Conservatively with elevation, cooling and analgesia", "rationale": "Conservative management applies to contusion without rupture. With a breached tunica albuginea the salvage rate falls with every day." },
-            "B": { "text": "Repeat ultrasound in 48 hours before deciding", "rationale": "Delay worsens the prospect of salvage without providing additional information." },
-            "C": { "text": "Surgical exploration within the first few days", "rationale": "Non-viable tubular tissue is excised and the tunica albuginea then closed. With repair within roughly 72 hours the salvage rate exceeds 80 per cent; thereafter it falls sharply." },
-            "D": { "text": "Immediate orchiectomy given the parenchymal damage", "rationale": "Removal is justified only with complete destruction or unreconstructable perfusion." }
+            "A": {
+              "text": "Conservatively with elevation, cooling and analgesia",
+              "rationale": "Conservative management applies to contusion without rupture. With a breached tunica albuginea the salvage rate falls with every day."
+            },
+            "B": {
+              "text": "Repeat ultrasound in 48 hours before deciding",
+              "rationale": "Delay worsens the prospect of salvage without providing additional information."
+            },
+            "C": {
+              "text": "Urgent surgical exploration and testis-preserving repair",
+              "rationale": "Non-viable tubular tissue is excised and the tunica albuginea then closed. With repair within roughly 72 hours the salvage rate exceeds 80 per cent; thereafter it falls sharply."
+            },
+            "D": {
+              "text": "Immediate orchiectomy given the parenchymal damage",
+              "rationale": "Removal is justified only with complete destruction or unreconstructable perfusion."
+            }
           },
           "explanation": {
             "core": "In blunt scrotal trauma ultrasound separates contusion from rupture, with an interrupted contour and extruded parenchyma as the decisive signs. When rupture is suspected, exploration follows even if imaging is equivocal, because the cost of an unnecessary exploration is low and that of a missed rupture high.",
-            "teaching_point": "When in doubt, explore. After 72 hours the testis is usually beyond salvage."
+            "teaching_point": "Explore suspected rupture promptly; delayed presentation does not rule out salvage."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Futbolista de 21 años tras un puntapié directo al escroto. Dolor intenso y hematoma marcado. La ecografía muestra un contorno testicular interrumpido con parénquima heterogéneo y tejido extratesticular.",
+          "lead_in": "¿Cuál es la conducta más adecuada?",
+          "options": {
+            "A": {
+              "text": "De forma conservadora con elevación, enfriamiento y analgesia.",
+              "rationale": "El tratamiento conservador se aplica a la contusión sin rotura. Con una túnica albugínea rota, la tasa de rescate cae cada día."
+            },
+            "B": {
+              "text": "Repetir ecografía en 48 horas antes de decidir",
+              "rationale": "La demora empeora las perspectivas de rescate sin proporcionar información adicional."
+            },
+            "C": {
+              "text": "Exploración quirúrgica urgente y reparación preservadora de testículos.",
+              "rationale": "Se extirpa el tejido tubular no viable y luego se cierra la túnica albugínea. Con una reparación en aproximadamente 72 horas, la tasa de recuperación supera el 80 por ciento; a partir de entonces cae bruscamente."
+            },
+            "D": {
+              "text": "Orquiectomía inmediata dado el daño parenquimatoso",
+              "rationale": "La eliminación sólo se justifica en caso de destrucción completa o perfusión irreconstruible."
+            }
+          },
+          "explanation": {
+            "core": "En el traumatismo escrotal cerrado, la ecografía separa la contusión de la rotura, siendo los signos decisivos un contorno interrumpido y un parénquima extruido. Cuando se sospecha una ruptura, se realiza la exploración incluso si las imágenes son equívocas, porque el costo de una exploración innecesaria es bajo y el de una ruptura perdida, alto.",
+            "teaching_point": "Explorar de inmediato la sospecha de rotura; la presentación tardía no descarta el salvamento."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -577,22 +1885,75 @@
       "id": "uro-tra-00014",
       "version": 1,
       "status": "published",
-      "taxonomy": { "subdomain": "Hodentrauma", "tags": ["notfall", "operationstechnik"] },
+      "taxonomy": {
+        "subdomain": "Hodentrauma",
+        "tags": [
+          "notfall",
+          "operationstechnik"
+        ],
+        "domain": "trauma"
+      },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
-      "options": [{ "key": "A", "correct": true }, { "key": "B", "correct": false }, { "key": "C", "correct": false }, { "key": "D", "correct": false }],
-      "evidence": { "level": "IIB", "certainty": "etabliert", "flag": false },
-      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Trauma", "year": 2026 }],
-      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
       "content": {
         "de": {
           "vignette": "29-jähriger Motorradfahrer nach Aufprall auf den Tank. Das rechte Skrotalfach ist leer, im Bereich des Leistenkanals ist eine schmerzhafte Resistenz tastbar. Die Sonographie bestätigt den intakten Hoden im Leistenkanal.",
           "lead_in": "Wie ist vorzugehen?",
           "options": {
-            "A": { "text": "Reposition und anschließend operative Fixierung", "rationale": "Der Hoden wird zurückverlagert, manuell oder offen, und danach im Skrotum fixiert. Die Fixierung verhindert die erneute Dislokation und eine Torsion des verlagerten Organs." },
-            "B": { "text": "Konservativ, da sich der Hoden von selbst zurücklegt", "rationale": "Eine spontane Rückverlagerung ist nicht zu erwarten, und die verlagerte Lage begünstigt Torsion und Schädigung." },
-            "C": { "text": "Ablatio testis wegen zu erwartender Schädigung", "rationale": "Der Hoden ist sonographisch intakt und durchblutet; seine Entfernung wäre nicht zu rechtfertigen." },
-            "D": { "text": "Erst nach drei Monaten operieren, wenn abgeschwollen", "rationale": "Die Verzögerung erhöht das Risiko von Atrophie und Torsion; verlagert wird zeitnah." }
+            "A": {
+              "text": "Reposition und anschließend operative Fixierung",
+              "rationale": "Der Hoden wird zurückverlagert, manuell oder offen, und danach im Skrotum fixiert. Die Fixierung verhindert die erneute Dislokation und eine Torsion des verlagerten Organs."
+            },
+            "B": {
+              "text": "Konservativ, da sich der Hoden von selbst zurücklegt",
+              "rationale": "Eine spontane Rückverlagerung ist nicht zu erwarten, und die verlagerte Lage begünstigt Torsion und Schädigung."
+            },
+            "C": {
+              "text": "Ablatio testis wegen zu erwartender Schädigung",
+              "rationale": "Der Hoden ist sonographisch intakt und durchblutet; seine Entfernung wäre nicht zu rechtfertigen."
+            },
+            "D": {
+              "text": "Erst nach drei Monaten operieren, wenn abgeschwollen",
+              "rationale": "Die Verzögerung erhöht das Risiko von Atrophie und Torsion; verlagert wird zeitnah."
+            }
           },
           "explanation": {
             "core": "Die traumatische Hodenluxation ist selten und wird leicht übersehen, weil das leere Skrotalfach bei ausgedehnten Verletzungen untergeht. Typisch ist ein Aufprall auf den Tank beim Motorradunfall. Nach der Rückverlagerung gehört die Fixierung dazu, und wegen der oft vorhandenen Begleitverletzungen wird gezielt nach Beckenfraktur und Blasenverletzung gesucht.",
@@ -604,16 +1965,62 @@
           "vignette": "29-year-old motorcyclist after impact against the fuel tank. The right hemiscrotum is empty and a painful mass is palpable over the inguinal canal. Ultrasound confirms an intact testis within the canal.",
           "lead_in": "How should this be managed?",
           "options": {
-            "A": { "text": "Reposition followed by surgical fixation", "rationale": "The testis is returned, manually or openly, and then fixed within the scrotum. Fixation prevents recurrent dislocation and torsion of the displaced organ." },
-            "B": { "text": "Conservatively, since the testis returns by itself", "rationale": "Spontaneous return is not to be expected, and the displaced position favours torsion and damage." },
-            "C": { "text": "Orchiectomy because of the expected damage", "rationale": "The testis is intact and perfused on ultrasound; removal would be unjustifiable." },
-            "D": { "text": "Operate only after three months, once swelling settles", "rationale": "Delay increases the risk of atrophy and torsion; repositioning is done promptly." }
+            "A": {
+              "text": "Reposition followed by surgical fixation",
+              "rationale": "The testis is returned, manually or openly, and then fixed within the scrotum. Fixation prevents recurrent dislocation and torsion of the displaced organ."
+            },
+            "B": {
+              "text": "Conservatively, since the testis returns by itself",
+              "rationale": "Spontaneous return is not to be expected, and the displaced position favours torsion and damage."
+            },
+            "C": {
+              "text": "Orchiectomy because of the expected damage",
+              "rationale": "The testis is intact and perfused on ultrasound; removal would be unjustifiable."
+            },
+            "D": {
+              "text": "Operate only after three months, once swelling settles",
+              "rationale": "Delay increases the risk of atrophy and torsion; repositioning is done promptly."
+            }
           },
           "explanation": {
             "core": "Traumatic testicular dislocation is rare and easily missed, because an empty hemiscrotum goes unnoticed among extensive injuries. Impact against the fuel tank in a motorcycle accident is typical. Fixation belongs with repositioning, and because associated injuries are common, pelvic fracture and bladder injury are actively sought.",
             "teaching_point": "An empty hemiscrotum after a motorcycle crash means search, reposition and fix."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Motociclista de 29 años tras impacto contra el tanque de combustible. El hemiscroto derecho está vacío y se palpa una masa dolorosa sobre el canal inguinal. La ecografía confirma un testículo intacto dentro del canal.",
+          "lead_in": "¿Cuál es la conducta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Reposición seguida de fijación quirúrgica.",
+              "rationale": "El testículo se devuelve, de forma manual o abierta, y luego se fija dentro del escroto. La fijación previene la dislocación y torsión recurrentes del órgano desplazado."
+            },
+            "B": {
+              "text": "De forma conservadora, ya que el testículo regresa por sí solo.",
+              "rationale": "No es de esperar un retorno espontáneo y la posición desplazada favorece la torsión y los daños."
+            },
+            "C": {
+              "text": "Orquiectomía por el daño esperado.",
+              "rationale": "El testículo está intacto y perfundido en la ecografía; la destitución sería injustificable."
+            },
+            "D": {
+              "text": "Opere sólo después de tres meses, una vez que la hinchazón desaparezca.",
+              "rationale": "El retraso aumenta el riesgo de atrofia y torsión; el reposicionamiento se realiza con prontitud."
+            }
+          },
+          "explanation": {
+            "core": "La luxación testicular traumática es rara y es fácil pasarla por alto, porque un hemiscroto vacío pasa desapercibido entre lesiones extensas. El impacto contra el depósito de combustible en un accidente de moto es típico. La fijación pertenece al reposicionamiento y, como las lesiones asociadas son comunes, se buscan activamente fracturas pélvicas y lesiones vesicales.",
+            "teaching_point": "Un hemiscroto vacío después de un accidente de motocicleta significa localizar, recolocar y fijar."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -621,22 +2028,76 @@
       "id": "uro-tra-00015",
       "version": 1,
       "status": "published",
-      "taxonomy": { "subdomain": "Nierentrauma", "tags": ["bildgebung", "paediatrisch", "pathologie"] },
+      "taxonomy": {
+        "subdomain": "Nierentrauma",
+        "tags": [
+          "bildgebung",
+          "paediatrisch",
+          "pathologie"
+        ],
+        "domain": "trauma"
+      },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
-      "options": [{ "key": "A", "correct": false }, { "key": "B", "correct": false }, { "key": "C", "correct": false }, { "key": "D", "correct": true }],
-      "evidence": { "level": "IIB", "certainty": "etabliert", "flag": false },
-      "sources": [{ "type": "leitlinie", "code": "EAU", "title": "EAU Guidelines on Urological Trauma", "year": 2026 }],
-      "review": { "author": "EK", "reviewer": null, "created": "2026-09-08", "last_reviewed": "2026-09-08", "expires": "2028-09-08" },
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "IIB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Urological Trauma",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-08",
+        "last_reviewed": "2026-09-08",
+        "expires": "2028-09-08"
+      },
       "content": {
         "de": {
           "vignette": "Neunjähriger Junge nach Sturz vom Fahrrad mit Anprall der linken Flanke. Er hat eine ausgeprägte Makrohämaturie und Flankenschmerzen, ist aber kreislaufstabil. Das Trauma erscheint gemessen an den Beschwerden gering.",
           "lead_in": "Woran ist besonders zu denken?",
           "options": {
-            "A": { "text": "An eine Blutgerinnungsstörung als eigentliche Ursache", "rationale": "Sie kann die Blutung verstärken, erklärt aber nicht das Missverhältnis zwischen Unfallmechanismus und Verletzungsausmaß." },
-            "B": { "text": "An eine Verletzung der Blase durch das stumpfe Trauma", "rationale": "Eine Blasenverletzung entsteht meist bei gefüllter Blase oder Beckenfraktur und passt nicht zum Flankenanprall." },
-            "C": { "text": "An eine Simulation der Beschwerden durch das Kind", "rationale": "Bei objektiver Makrohämaturie besteht ein fassbarer Befund; die Annahme wäre unbegründet." },
-            "D": { "text": "An eine vorbestehende Anomalie der verletzten Niere", "rationale": "Ein Missverhältnis zwischen geringem Trauma und deutlicher Verletzung weist auf Hydronephrose, Zysten, Hufeisenniere oder einen Tumor hin. Deshalb wird bei Kindern großzügiger und mit Blick auf die Grunderkrankung untersucht." }
+            "A": {
+              "text": "An eine Blutgerinnungsstörung als eigentliche Ursache",
+              "rationale": "Sie kann die Blutung verstärken, erklärt aber nicht das Missverhältnis zwischen Unfallmechanismus und Verletzungsausmaß."
+            },
+            "B": {
+              "text": "An eine Verletzung der Blase durch das stumpfe Trauma",
+              "rationale": "Eine Blasenverletzung entsteht meist bei gefüllter Blase oder Beckenfraktur und passt nicht zum Flankenanprall."
+            },
+            "C": {
+              "text": "An eine Simulation der Beschwerden durch das Kind",
+              "rationale": "Bei objektiver Makrohämaturie besteht ein fassbarer Befund; die Annahme wäre unbegründet."
+            },
+            "D": {
+              "text": "An eine vorbestehende Anomalie der verletzten Niere",
+              "rationale": "Ein Missverhältnis zwischen geringem Trauma und deutlicher Verletzung weist auf Hydronephrose, Zysten, Hufeisenniere oder einen Tumor hin. Deshalb wird bei Kindern großzügiger und mit Blick auf die Grunderkrankung untersucht."
+            }
           },
           "explanation": {
             "core": "Kinder erleiden bei gleichem Unfall häufiger relevante Nierenverletzungen, weil die Niere im Verhältnis größer ist, weniger perirenales Fett besitzt und der Rippenbogen sie schlechter schützt. Zugleich halten sie den Blutdruck länger stabil, sodass der Schock als Warnzeichen ausbleibt. Ein Missverhältnis zwischen Mechanismus und Befund lenkt den Verdacht auf eine vorbestehende Anomalie.",
@@ -648,16 +2109,62 @@
           "vignette": "Nine-year-old boy after falling from his bicycle with impact to the left flank. He has marked macroscopic haematuria and flank pain but is haemodynamically stable. The trauma appears minor relative to his symptoms.",
           "lead_in": "What in particular should be considered?",
           "options": {
-            "A": { "text": "A clotting disorder as the underlying cause", "rationale": "It may aggravate bleeding but does not explain the mismatch between mechanism and extent of injury." },
-            "B": { "text": "A bladder injury caused by the blunt trauma", "rationale": "Bladder injury usually occurs with a full bladder or pelvic fracture and does not fit a flank impact." },
-            "C": { "text": "Exaggeration of the symptoms by the child", "rationale": "With objective macroscopic haematuria there is a demonstrable finding; the assumption would be unfounded." },
-            "D": { "text": "A pre-existing abnormality of the injured kidney", "rationale": "A mismatch between minor trauma and marked injury points to hydronephrosis, cysts, horseshoe kidney or a tumour. Children are therefore imaged more liberally and with the underlying condition in mind." }
+            "A": {
+              "text": "A clotting disorder as the underlying cause",
+              "rationale": "It may aggravate bleeding but does not explain the mismatch between mechanism and extent of injury."
+            },
+            "B": {
+              "text": "A bladder injury caused by the blunt trauma",
+              "rationale": "Bladder injury usually occurs with a full bladder or pelvic fracture and does not fit a flank impact."
+            },
+            "C": {
+              "text": "Exaggeration of the symptoms by the child",
+              "rationale": "With objective macroscopic haematuria there is a demonstrable finding; the assumption would be unfounded."
+            },
+            "D": {
+              "text": "A pre-existing abnormality of the injured kidney",
+              "rationale": "A mismatch between minor trauma and marked injury points to hydronephrosis, cysts, horseshoe kidney or a tumour. Children are therefore imaged more liberally and with the underlying condition in mind."
+            }
           },
           "explanation": {
             "core": "Children sustain relevant renal injury more often from the same accident, because the kidney is proportionally larger, has less perirenal fat and is less protected by the rib cage. At the same time they maintain blood pressure longer, so shock as a warning sign is absent. A mismatch between mechanism and findings raises suspicion of a pre-existing abnormality.",
             "teaching_point": "Little trauma and much blood in a child means look for an abnormality."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Niño de nueve años tras caer de su bicicleta con impacto en el flanco izquierdo. Tiene marcada hematuria macroscópica y dolor en el flanco, pero está hemodinámicamente estable. El trauma parece menor en relación con sus síntomas.",
+          "lead_in": "¿Qué se debe considerar en particular?",
+          "options": {
+            "A": {
+              "text": "Un trastorno de la coagulación como causa subyacente.",
+              "rationale": "Puede agravar la hemorragia, pero no explica la discrepancia entre el mecanismo y la extensión de la lesión."
+            },
+            "B": {
+              "text": "Una lesión en la vejiga causada por el traumatismo cerrado.",
+              "rationale": "La lesión de la vejiga generalmente ocurre con una vejiga llena o una fractura pélvica y no se ajusta a un impacto en el flanco."
+            },
+            "C": {
+              "text": "Exageración de los síntomas por parte del niño.",
+              "rationale": "En la hematuria macroscópica objetiva hay un hallazgo demostrable; la suposición sería infundada."
+            },
+            "D": {
+              "text": "Una anomalía preexistente del riñón lesionado.",
+              "rationale": "Una discordancia entre un traumatismo menor y una lesión grave apunta a hidronefrosis, quistes, riñón en herradura o un tumor. Por lo tanto, se representa a los niños de manera más liberal y teniendo en cuenta la condición subyacente."
+            }
+          },
+          "explanation": {
+            "core": "Los niños sufren con mayor frecuencia una lesión renal importante por el mismo accidente, porque el riñón es proporcionalmente más grande, tiene menos grasa perirrenal y está menos protegido por la caja torácica. Al mismo tiempo, mantienen la presión arterial por más tiempo, por lo que no existe un shock como señal de advertencia. Una discrepancia entre el mecanismo y los hallazgos genera sospechas de una anomalía preexistente.",
+            "teaching_point": "Poco trauma y mucha sangre en un niño significa buscar una anomalía."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     }

@@ -12,7 +12,8 @@
           "pharmakologie",
           "dosierung",
           "praeoperativ"
-        ]
+        ],
+        "domain": "mibc"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -49,6 +50,12 @@
           "type": "zulassung",
           "citation": "Europäische Kommission, perioperatives Enfortumab Vedotin plus Pembrolizumab bei cisplatinungeeignetem MIBC",
           "year": 2026
+        },
+        {
+          "type": "reference",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/padcev",
+          "title": "EMA: Padcev indication",
+          "accessed": "2026-09-10"
         }
       ],
       "review": {
@@ -112,12 +119,46 @@
             "teaching_point": "Since 2026 cisplatin-ineligible no longer means treatment-free, it means platinum-free."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 71 años con carcinoma urotelial de vejiga con invasión muscular, cT2 cN0 cM0, ECOG 1. Enfermedad renal crónica con FG de 38 ml/min por nefropatía diabética. Audiometría normal, sin polineuropatía, sin insuficiencia cardiaca. Está apto para cistectomía.",
+          "lead_in": "¿Qué abordaje perioperatorio está aprobado y concuerda con las directrices en Alemania?",
+          "options": {
+            "A": {
+              "text": "Cistectomía radical primaria sin terapia sistémica",
+              "rationale": "Este fue el estándar para los pacientes no elegibles para cisplatino hasta 2025. Es inferior en cuanto a supervivencia general y libre de eventos y ahora solo es defendible cuando la combinación está contraindicada."
+            },
+            "B": {
+              "text": "Carboplatino neoadyuvante más gemcitabina, cuatro ciclos",
+              "rationale": "El carboplatino no tiene evidencia de eficacia en el entorno neoadyuvante; no sustituye al cisplatino y sólo retrasa la cirugía."
+            },
+            "C": {
+              "text": "Enfortumab vedotin perioperatorio más pembrolizumab",
+              "rationale": "EV-303 (KEYNOTE-905) mostró supervivencia libre de eventos con un índice de riesgo de 0,40 y supervivencia general con un índice de riesgo de 0,50 frente a la cirugía sola; la respuesta patológica completa fue del 57,1 frente al 8,6 por ciento. La aprobación de la UE para pacientes no elegibles para cisplatino está vigente desde junio de 2026. Se administran tres ciclos neoadyuvantes: enfortumab vedotin 1,25 mg/kg IV los días 1 y 8 más pembrolizumab 200 mg IV el día 1, cada tres semanas. Sigue cistectomía con linfadenectomía y continuación adyuvante."
+            },
+            "D": {
+              "text": "Gemcitabina/cisplatino neoadyuvante con durvalumab",
+              "rationale": "El protocolo NIAGARA requiere la elegibilidad para cisplatino. Con una TFG de 38 ml/min se cumple el criterio renal de Galsky y no se puede administrar cisplatino."
+            }
+          },
+          "explanation": {
+            "core": "La elegibilidad para cisplatino según los criterios de Galsky sigue siendo el primer punto de ramificación, pero su significado ha cambiado. Hasta 2025, la inelegibilidad conducía directamente a la cirugía únicamente. Desde EV-303 y la aprobación de la UE en junio de 2026, existe un régimen perioperatorio aprobado exactamente para este grupo.",
+            "teaching_point": "Desde 2026, no ser elegible para cisplatino ya no significa estar libre de tratamiento, sino libre de platino."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-mib-00002",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "perioperative Systemtherapie",
@@ -125,7 +166,8 @@
           "dosierung",
           "pharmakologie",
           "leitlinie"
-        ]
+        ],
+        "domain": "mibc"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -172,7 +214,12 @@
         "reviewer": null,
         "created": "2026-09-05",
         "last_reviewed": "2026-09-05",
-        "expires": "2027-09-05"
+        "expires": "2027-09-05",
+        "editorial_review": {
+          "date": "2026-09-10",
+          "method": "AI-assisted source cross-check",
+          "clinical_signoff": false
+        }
       },
       "content": {
         "de": {
@@ -192,7 +239,7 @@
               "rationale": "Neoadjuvant sind vier Zyklen etabliert; sechs Zyklen erhöhen nur die Toxizität und die perioperative Komponente fehlt vollständig."
             },
             "D": {
-              "text": "Vier Zyklen perioperativ, danach acht Zyklen Durvalumab",
+              "text": "Vier neoadjuvante Zyklen, danach acht Zyklen Durvalumab",
               "rationale": "Entspricht dem Studienprotokoll: perioperativ, mit Wechsel des Intervalls von drei auf vier Wochen nach der Operation. Präoperativ alle drei Wochen: Durvalumab 1500 mg i.v. an Tag 1, Gemcitabin 1000 mg/m² an Tag 1 und 8, Cisplatin 70 mg/m² an Tag 1. Nach der Zystektomie acht Zyklen Durvalumab 1500 mg i.v. alle vier Wochen."
             }
           },
@@ -219,7 +266,7 @@
               "rationale": "Four cycles are established neoadjuvantly; six only add toxicity, and the perioperative component is missing entirely."
             },
             "D": {
-              "text": "Four perioperative cycles, then eight of durvalumab",
+              "text": "Four neoadjuvant cycles, then eight cycles of durvalumab",
               "rationale": "This matches the trial protocol: perioperative, with the interval changing from three to four weeks after surgery. Preoperatively every three weeks: durvalumab 1500 mg IV on day 1, gemcitabine 1000 mg/m² on days 1 and 8, cisplatin 70 mg/m² on day 1. After cystectomy eight cycles of durvalumab 1500 mg IV every four weeks."
             }
           },
@@ -228,12 +275,46 @@
             "teaching_point": "Perioperative means before and after surgery. A purely adjuvant schedule is not NIAGARA."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 64 años, cT3 cN0 cM0 carcinoma urotelial de vejiga, ECOG 0, TFG 92 ml/min, sin hipoacusia, sin neuropatía, sin insuficiencia cardiaca. La junta de tumores decide sobre el protocolo NIAGARA.",
+          "lead_in": "¿Qué dosis y secuencia coinciden con el protocolo?",
+          "options": {
+            "A": {
+              "text": "Durvalumab cada cuatro semanas antes de operar y cada tres después",
+              "rationale": "Los intervalos se intercambian. Preoperatoriamente durvalumab se administra cada 3 semanas con quimioterapia, solo después de la operación cada 4 semanas."
+            },
+            "B": {
+              "text": "Quimioterapia antes de la cirugía, durvalumab solo como adyuvante",
+              "rationale": "La dosificación basada en el peso y el uso puramente adyuvante provienen de diseños de ensayos más antiguos. NIAGARA comienza a administrar durvalumab antes de la cirugía."
+            },
+            "C": {
+              "text": "Seis ciclos de quimioterapia antes de la cirugía y luego operar.",
+              "rationale": "Se establecen cuatro ciclos neoadyuvantes; seis sólo añaden toxicidad y el componente perioperatorio falta por completo."
+            },
+            "D": {
+              "text": "Cuatro ciclos neoadyuvantes, luego ocho ciclos de durvalumab",
+              "rationale": "Esto coincide con el protocolo del ensayo: perioperatorio, con un intervalo que cambia de tres a cuatro semanas después de la cirugía. Preoperatoriamente cada tres semanas: durvalumab 1500 mg IV el día 1, gemcitabina 1000 mg/m² los días 1 y 8, cisplatino 70 mg/m² el día 1. Después de la cistectomía, ocho ciclos de durvalumab 1500 mg IV cada cuatro semanas."
+            }
+          },
+          "explanation": {
+            "core": "Para los pacientes elegibles para cisplatino, NIAGARA estableció la adición perioperatoria de durvalumab a la quimioterapia estándar. Tres detalles son importantes para el examen: durvalumab comienza antes de la operación, la quimioterapia se ejecuta en cuatro ciclos y el intervalo de durvalumab cambia de tres a cuatro semanas después de la cirugía.",
+            "teaching_point": "Perioperatorio significa antes y después de la cirugía. Un esquema puramente adyuvante no es NIAGARA."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-mib-00003",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Toxizitätsmanagement",
@@ -241,7 +322,8 @@
           "nebenwirkungen",
           "pharmakologie",
           "komplikationsmanagement"
-        ]
+        ],
+        "domain": "mibc"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -278,6 +360,12 @@
           "type": "fachinformation",
           "citation": "Fachinformation Enfortumab Vedotin",
           "year": 2026
+        },
+        {
+          "type": "reference",
+          "title": "EMA: Padcev product information",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/padcev",
+          "accessed": "2026-09-10"
         }
       ],
       "review": {
@@ -285,7 +373,12 @@
         "reviewer": null,
         "created": "2026-09-05",
         "last_reviewed": "2026-09-05",
-        "expires": "2027-09-05"
+        "expires": "2027-09-05",
+        "editorial_review": {
+          "date": "2026-09-10",
+          "method": "AI-assisted source cross-check",
+          "clinical_signoff": false
+        }
       },
       "content": {
         "de": {
@@ -298,19 +391,19 @@
             },
             "B": {
               "text": "Enfortumab Vedotin nach dieser Episode dauerhaft absetzen",
-              "rationale": "Vorgesehen ist das Pausieren mit Wiederaufnahme nach Normalisierung. Dauerhaftes Absetzen bleibt wiederholten oder lebensbedrohlichen Verläufen vorbehalten."
+              "rationale": "Pausieren ist sofort erforderlich. Wiederaufnahme oder dauerhafte Beendigung nach Ursache, Schweregrad und Fachinformation individuell entscheiden."
             },
             "C": {
               "text": "Erwartete Nebenwirkung ohne Konsequenz für die Therapie",
               "rationale": "Enfortumab Vedotin hat mehrere dosislimitierende Toxizitäten: Hyperglykämie, schwere Hautreaktionen bis zum Stevens-Johnson-Syndrom, periphere Neuropathie, okuläre Toxizität und Pneumonitis."
             },
             "D": {
-              "text": "Enfortumab-typische Hyperglykämie; pausieren und behandeln",
-              "rationale": "Schwere Hyperglykämien bis zur diabetischen Ketoazidose sind eine bekannte, auch tödlich verlaufende Nebenwirkung von Enfortumab Vedotin. Vorbestehender Diabetes und erhöhtes HbA1c sind Risikofaktoren; der Blutzucker wird vor jeder Gabe kontrolliert. Die Entgleisung wird stationär behandelt; Enfortumab Vedotin wird pausiert und erst nach Normalisierung des Blutzuckers wieder angesetzt. Dauerhaftes Absetzen bleibt wiederholten oder lebensbedrohlichen Episoden vorbehalten."
+              "text": "Ketoazidose als Notfall behandeln und Krebstherapie pausieren",
+              "rationale": "Stationär Blutgase, Ketone und Elektrolyte prüfen, Flüssigkeit und Insulin nach DKA-Protokoll. Sowohl EV-assoziierte Hyperglykämie als auch pembrolizumabbedingten Insulinmangel erwägen."
             }
           },
           "explanation": {
-            "core": "Die Toxizität des perioperativen Regimes ist erheblich: In EV-303 traten Nebenwirkungen vom Grad 3 oder höher bei 71,3 Prozent gegenüber 45,9 Prozent unter alleiniger Operation auf, therapieassoziierte Todesfälle bei 7,8 gegenüber 5,7 Prozent. Wer die Kombination einsetzt, muss Blutzucker, Haut, Neurologie und Augen strukturiert überwachen.",
+            "core": "Die metabolische Notfallbehandlung hat Vorrang vor der Zuordnung zum auslösenden Medikament. Eine automatische Wiederaufnahme nach Normalisierung ist nicht angemessen.",
             "teaching_point": "Vor jeder Enfortumab-Gabe Blutzucker messen. Der Wirkstoff macht Hyperglykämien auch bei Patienten ohne bekannten Diabetes."
           },
           "flag_note": null
@@ -325,22 +418,56 @@
             },
             "B": {
               "text": "Discontinue enfortumab vedotin permanently after this",
-              "rationale": "The intended action is to withhold and resume after normalisation. Permanent discontinuation is reserved for recurrent or life-threatening episodes."
+              "rationale": "Withholding treatment is immediately necessary. Individualise resumption or permanent discontinuation according to cause, severity and the product information."
             },
             "C": {
               "text": "An expected effect without consequence for treatment",
               "rationale": "Enfortumab vedotin has several dose-limiting toxicities: hyperglycaemia, severe skin reactions including Stevens-Johnson syndrome, peripheral neuropathy, ocular toxicity and pneumonitis."
             },
             "D": {
-              "text": "Enfortumab-typical hyperglycaemia; withhold and treat",
-              "rationale": "Severe hyperglycaemia up to and including fatal diabetic ketoacidosis is a known adverse effect of enfortumab vedotin. Pre-existing diabetes and raised HbA1c are risk factors; glucose is checked before every dose. The decompensation is treated in hospital; enfortumab vedotin is withheld and resumed only after glucose normalises. Permanent discontinuation is reserved for recurrent or life-threatening episodes."
+              "text": "Treat suspected ketoacidosis urgently and withhold anticancer therapy",
+              "rationale": "Urgently assess blood gases, ketones and electrolytes in hospital; give fluids and insulin under a DKA protocol. Consider both EV-associated hyperglycaemia and pembrolizumab-associated insulin deficiency."
             }
           },
           "explanation": {
-            "core": "The toxicity of the perioperative regimen is substantial: in EV-303 grade 3 or higher adverse events occurred in 71.3 per cent versus 45.9 per cent with surgery alone, and treatment-related deaths in 7.8 versus 5.7 per cent. Anyone using the combination must monitor glucose, skin, neurology and eyes systematically.",
+            "core": "Emergency metabolic treatment takes priority over attributing the cause to a drug. Do not resume automatically after glucose normalises.",
             "teaching_point": "Measure blood glucose before every enfortumab dose. The drug causes hyperglycaemia even in patients without known diabetes."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 68 años en tratamiento neoadyuvante con enfortumab vedotin 1,25 mg/kg más pembrolizumab 200 mg. Diabetes tipo 2 conocida, HbA1c 8,4 por ciento al inicio del tratamiento. Once días después del segundo ciclo su glucosa en sangre es de 480 mg/dl con cetonuria y respiración de Kussmaul temprana.",
+          "lead_in": "¿Cómo se clasifica este cuadro y cuál es su tratamiento?",
+          "options": {
+            "A": {
+              "text": "Diabetes tipo 1 inmunomediada; dar glucocorticoides",
+              "rationale": "La diabetes autoinmune con deficiencia de insulina ocurre bajo inhibidores de puntos de control, pero es más rara. Los glucocorticoides empeoran el estado metabólico y aquí son contraproducentes."
+            },
+            "B": {
+              "text": "Suspenda enfortumab vedotin de forma permanente después de esto.",
+              "rationale": "Es inmediatamente necesario suspender el tratamiento. Individualizar la reanudación o la interrupción definitiva según la causa, la gravedad y la información del producto."
+            },
+            "C": {
+              "text": "Un efecto esperado sin consecuencias para el tratamiento.",
+              "rationale": "Enfortumab vedotin tiene varias toxicidades limitantes de la dosis: hiperglucemia, reacciones cutáneas graves, incluido el síndrome de Stevens-Johnson, neuropatía periférica, toxicidad ocular y neumonitis."
+            },
+            "D": {
+              "text": "Tratar la cetoacidosis y pausar la terapia",
+              "rationale": "Evaluar urgentemente gases en sangre, cetonas y electrolitos en el hospital; administrar líquidos e insulina según un protocolo de CAD. Considere tanto la hiperglucemia asociada a EV como la deficiencia de insulina asociada a pembrolizumab."
+            }
+          },
+          "explanation": {
+            "core": "El tratamiento metabólico de urgencia tiene prioridad sobre la atribución de la causa a un fármaco. No reanudar automáticamente después de que la glucosa se normalice.",
+            "teaching_point": "Mida la glucosa en sangre antes de cada dosis de enfortumab. El fármaco provoca hiperglucemia incluso en pacientes sin diabetes conocida."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -354,7 +481,8 @@
           "zulassung",
           "leitlinie",
           "pharmakologie"
-        ]
+        ],
+        "domain": "mibc"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 5,
@@ -391,6 +519,18 @@
           "type": "zulassung",
           "citation": "FDA-Erweiterung Juli 2026; EU-Zulassung Juni 2026 nur cisplatinungeeignet",
           "year": 2026
+        },
+        {
+          "type": "reference",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/padcev",
+          "title": "EMA: Padcev indication",
+          "accessed": "2026-09-10"
+        },
+        {
+          "type": "reference",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph-each-enfortumab-vedotin",
+          "title": "FDA: indication extension, 10 July 2026",
+          "accessed": "2026-09-10"
         }
       ],
       "review": {
@@ -454,6 +594,886 @@
             "teaching_point": "FDA approval is no evidence of prescribability in Germany."
           },
           "flag_note": "Regulatory status as of September 2026. FDA and EMA differ; an EU extension to cisplatin-eligible patients is foreseeable. Check the current status before use."
+        },
+        "es": {
+          "vignette": "Hombre de 62 años, cT2 cN0 cM0, TFG 95 ml/min, ECOG 0, no se cumplió el criterio de Galsky, por lo que es totalmente apto para cisplatino. Ha leído sobre enfortumab vedotin más pembrolizumab y pregunta si puede recibirlo en lugar de quimioterapia.",
+          "lead_in": "¿Cómo evaluar la situación en Alemania en septiembre de 2026?",
+          "options": {
+            "A": {
+              "text": "Los pacientes elegibles para cisplatino todavía solo reciben gemcitabina/cisplatino",
+              "rationale": "NIAGARA estableció la adición perioperatoria de durvalumab para este grupo; La quimioterapia por sí sola ya no es el estándar."
+            },
+            "B": {
+              "text": "Aprobado en la UE para todos los candidatos a cistectomía.",
+              "rationale": "Eso describe la aprobación de la FDA de julio de 2026. La aprobación de la UE de junio de 2026 se limita a pacientes no elegibles para cisplatino."
+            },
+            "C": {
+              "text": "Ensayo positivo; autorización de la UE limitada a pacientes no aptos para cisplatino",
+              "rationale": "EV-304 (KEYNOTE-B15) alcanzó una supervivencia libre de eventos con un índice de riesgo de 0,53 y una respuesta patológica completa de 55,8 frente a 32,5 por ciento. La FDA amplió su aprobación en julio de 2026 a todos los candidatos a cistectomía; la aprobación de la UE está restringida a pacientes no elegibles para cisplatino. EV-304 alcanzó una supervivencia libre de eventos con un índice de riesgo de 0,53 y una respuesta patológica completa de 55,8 frente a 32,5 por ciento. La FDA amplió su etiqueta en julio de 2026 a todos los candidatos a cistectomía; el estándar aprobado aquí sigue siendo el régimen perioperatorio de durvalumab."
+            },
+            "D": {
+              "text": "EV-304 no alcanzó el criterio de valoración principal del ensayo",
+              "rationale": "El ensayo fue positivo en cuanto a supervivencia libre de eventos, supervivencia general y respuesta patológica completa."
+            }
+          },
+          "explanation": {
+            "core": "Con agentes recientemente aprobados, la evidencia de los ensayos y el estatus regulatorio divergen en el tiempo y la geografía. Para el examen como en la práctica: el ensayo establece el beneficio, la autorización de comercialización establece el uso rutinario. El uso fuera de la etiqueta requiere una solicitud de reembolso.",
+            "teaching_point": "La aprobación de la FDA no es prueba de prescripción en Alemania."
+          },
+          "flag_note": "Estado regulatorio a septiembre de 2026. La FDA y la EMA difieren; Es previsible una extensión de la UE a los pacientes elegibles para cisplatino. Verifique el estado actual antes de su uso."
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-mib-00005",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "mibc",
+        "subdomain": "Muskelinvasion",
+        "tags": [
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines: Muscle Invasive And Metastatic Bladder Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/muscle-invasive-and-metastatic-bladder-cancer/chapter/diagnostic-evaluation",
+          "accessed": "2026-09-11"
+        }
+      ],
+      "review": {
+        "author": "AI-assisted editorial addition",
+        "reviewer": null,
+        "created": "2026-09-11",
+        "last_reviewed": null,
+        "expires": "2027-03-11",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "Original trilingual cases checked against EAU online chapters",
+          "clinical_signoff": false
+        }
+      },
+      "content": {
+        "de": {
+          "vignette": "Die TUR-B-Histologie zeigt Urothelkarzinom in der Muscularis propria, ohne Nachweis extravesikaler Ausbreitung im Präparat. Welcher lokale Befund ist damit mindestens gesichert?",
+          "lead_in": "Welche Antwort trifft am besten zu?",
+          "options": {
+            "A": {
+              "text": "Alleinige Lamina-propria-Invasion T1",
+              "rationale": "Invasion der Muscularis propria bedeutet Muskelinvasion, mindestens T2. Ta und CIS sind nicht invasiv; T1 betrifft das subepitheliale Bindegewebe. Das Gesamtstaging benötigt weitere Diagnostik."
+            },
+            "B": {
+              "text": "Muskelinvasion entsprechend mindestens T2",
+              "rationale": "Invasion der Muscularis propria bedeutet Muskelinvasion, mindestens T2. Ta und CIS sind nicht invasiv; T1 betrifft das subepitheliale Bindegewebe. Das Gesamtstaging benötigt weitere Diagnostik."
+            },
+            "C": {
+              "text": "Ausschließlich nichtinvasives Ta",
+              "rationale": "Invasion der Muscularis propria bedeutet Muskelinvasion, mindestens T2. Ta und CIS sind nicht invasiv; T1 betrifft das subepitheliale Bindegewebe. Das Gesamtstaging benötigt weitere Diagnostik."
+            },
+            "D": {
+              "text": "Ausschließlich Carcinoma in situ",
+              "rationale": "Invasion der Muscularis propria bedeutet Muskelinvasion, mindestens T2. Ta und CIS sind nicht invasiv; T1 betrifft das subepitheliale Bindegewebe. Das Gesamtstaging benötigt weitere Diagnostik."
+            }
+          },
+          "explanation": {
+            "core": "Invasion der Muscularis propria bedeutet Muskelinvasion, mindestens T2. Ta und CIS sind nicht invasiv; T1 betrifft das subepitheliale Bindegewebe. Das Gesamtstaging benötigt weitere Diagnostik.",
+            "teaching_point": "Invasion der Muscularis propria bedeutet Muskelinvasion, mindestens T2."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "TURBT histology shows urothelial cancer in muscularis propria, without extravesical extension demonstrated in the specimen. What minimum local finding is established?",
+          "lead_in": "Which answer is most appropriate?",
+          "options": {
+            "A": {
+              "text": "Lamina propria invasion only, T1",
+              "rationale": "Muscularis propria invasion establishes muscle-invasive disease, at least T2. Ta and CIS are non-invasive; T1 involves subepithelial connective tissue. Overall staging requires further evaluation."
+            },
+            "B": {
+              "text": "Muscle invasion corresponding to at least T2",
+              "rationale": "Muscularis propria invasion establishes muscle-invasive disease, at least T2. Ta and CIS are non-invasive; T1 involves subepithelial connective tissue. Overall staging requires further evaluation."
+            },
+            "C": {
+              "text": "Exclusively non-invasive Ta",
+              "rationale": "Muscularis propria invasion establishes muscle-invasive disease, at least T2. Ta and CIS are non-invasive; T1 involves subepithelial connective tissue. Overall staging requires further evaluation."
+            },
+            "D": {
+              "text": "Carcinoma in situ only",
+              "rationale": "Muscularis propria invasion establishes muscle-invasive disease, at least T2. Ta and CIS are non-invasive; T1 involves subepithelial connective tissue. Overall staging requires further evaluation."
+            }
+          },
+          "explanation": {
+            "core": "Muscularis propria invasion establishes muscle-invasive disease, at least T2. Ta and CIS are non-invasive; T1 involves subepithelial connective tissue. Overall staging requires further evaluation.",
+            "teaching_point": "Muscularis propria invasion establishes muscle-invasive disease, at least T2."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "La histología de la RTU muestra carcinoma urotelial en la muscular propia, sin extensión extravesical demostrada en la muestra. ¿Qué hallazgo local mínimo queda establecido?",
+          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Solo invasión de lámina propia, T1",
+              "rationale": "La invasión de muscular propia establece enfermedad músculo-invasiva, al menos T2. Ta y CIS no son invasivos; T1 afecta al tejido conjuntivo subepitelial. La estadificación completa requiere más estudios."
+            },
+            "B": {
+              "text": "Invasión muscular correspondiente al menos a T2",
+              "rationale": "La invasión de muscular propia establece enfermedad músculo-invasiva, al menos T2. Ta y CIS no son invasivos; T1 afecta al tejido conjuntivo subepitelial. La estadificación completa requiere más estudios."
+            },
+            "C": {
+              "text": "Exclusivamente Ta no invasivo",
+              "rationale": "La invasión de muscular propia establece enfermedad músculo-invasiva, al menos T2. Ta y CIS no son invasivos; T1 afecta al tejido conjuntivo subepitelial. La estadificación completa requiere más estudios."
+            },
+            "D": {
+              "text": "Solo carcinoma in situ",
+              "rationale": "La invasión de muscular propia establece enfermedad músculo-invasiva, al menos T2. Ta y CIS no son invasivos; T1 afecta al tejido conjuntivo subepitelial. La estadificación completa requiere más estudios."
+            }
+          },
+          "explanation": {
+            "core": "La invasión de muscular propia establece enfermedad músculo-invasiva, al menos T2. Ta y CIS no son invasivos; T1 afecta al tejido conjuntivo subepitelial. La estadificación completa requiere más estudios.",
+            "teaching_point": "La invasión de muscular propia establece enfermedad músculo-invasiva, al menos T2."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-mib-00006",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "mibc",
+        "subdomain": "Staging",
+        "tags": [
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines: Muscle Invasive And Metastatic Bladder Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/muscle-invasive-and-metastatic-bladder-cancer/chapter/diagnostic-evaluation",
+          "accessed": "2026-09-11"
+        }
+      ],
+      "review": {
+        "author": "AI-assisted editorial addition",
+        "reviewer": null,
+        "created": "2026-09-11",
+        "last_reviewed": null,
+        "expires": "2027-03-11",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "Original trilingual cases checked against EAU online chapters",
+          "clinical_signoff": false
+        }
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein MIBC wurde histologisch gesichert. Nierenfunktion und Kontrastmittelverträglichkeit sind unauffällig. Welche Bildgebung gehört zum regulären Ausbreitungsstaging?",
+          "lead_in": "Welche Antwort trifft am besten zu?",
+          "options": {
+            "A": {
+              "text": "Nur Röntgenaufnahme des Beckens",
+              "rationale": "CT von Thorax, Abdomen und Becken erfasst regionale und entfernte Ausbreitung; urographische Phasen beurteilen den oberen Harntrakt. Die begrenzten Alternativen ersetzen dieses Staging nicht."
+            },
+            "B": {
+              "text": "Nur MRT des Gehirns ohne Symptome",
+              "rationale": "CT von Thorax, Abdomen und Becken erfasst regionale und entfernte Ausbreitung; urographische Phasen beurteilen den oberen Harntrakt. Die begrenzten Alternativen ersetzen dieses Staging nicht."
+            },
+            "C": {
+              "text": "CT von Thorax, Abdomen und Becken",
+              "rationale": "CT von Thorax, Abdomen und Becken erfasst regionale und entfernte Ausbreitung; urographische Phasen beurteilen den oberen Harntrakt. Die begrenzten Alternativen ersetzen dieses Staging nicht."
+            },
+            "D": {
+              "text": "Nur Sonographie der Harnblase",
+              "rationale": "CT von Thorax, Abdomen und Becken erfasst regionale und entfernte Ausbreitung; urographische Phasen beurteilen den oberen Harntrakt. Die begrenzten Alternativen ersetzen dieses Staging nicht."
+            }
+          },
+          "explanation": {
+            "core": "CT von Thorax, Abdomen und Becken erfasst regionale und entfernte Ausbreitung; urographische Phasen beurteilen den oberen Harntrakt. Die begrenzten Alternativen ersetzen dieses Staging nicht.",
+            "teaching_point": "CT von Thorax, Abdomen und Becken erfasst regionale und entfernte Ausbreitung; urographische Phasen beurteilen den oberen Harntrakt."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "MIBC is histologically confirmed. Renal function and contrast tolerance are normal. Which imaging belongs to routine staging?",
+          "lead_in": "Which answer is most appropriate?",
+          "options": {
+            "A": {
+              "text": "Pelvic plain radiograph only",
+              "rationale": "CT of chest, abdomen and pelvis assesses regional and distant spread; urographic phases assess the upper tract. The limited alternatives do not replace this staging."
+            },
+            "B": {
+              "text": "Brain MRI only without symptoms",
+              "rationale": "CT of chest, abdomen and pelvis assesses regional and distant spread; urographic phases assess the upper tract. The limited alternatives do not replace this staging."
+            },
+            "C": {
+              "text": "CT of chest, abdomen and pelvis",
+              "rationale": "CT of chest, abdomen and pelvis assesses regional and distant spread; urographic phases assess the upper tract. The limited alternatives do not replace this staging."
+            },
+            "D": {
+              "text": "Bladder ultrasound only",
+              "rationale": "CT of chest, abdomen and pelvis assesses regional and distant spread; urographic phases assess the upper tract. The limited alternatives do not replace this staging."
+            }
+          },
+          "explanation": {
+            "core": "CT of chest, abdomen and pelvis assesses regional and distant spread; urographic phases assess the upper tract. The limited alternatives do not replace this staging.",
+            "teaching_point": "CT of chest, abdomen and pelvis assesses regional and distant spread; urographic phases assess the upper tract."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Se confirma TVMI por histología. La función renal y la tolerancia al contraste son normales. ¿Qué imagen forma parte de la estadificación habitual?",
+          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Solo radiografía simple de pelvis",
+              "rationale": "La TC de tórax, abdomen y pelvis valora extensión regional y a distancia; las fases urográficas evalúan la vía superior. Las alternativas limitadas no sustituyen esta estadificación."
+            },
+            "B": {
+              "text": "Solo RM cerebral sin síntomas",
+              "rationale": "La TC de tórax, abdomen y pelvis valora extensión regional y a distancia; las fases urográficas evalúan la vía superior. Las alternativas limitadas no sustituyen esta estadificación."
+            },
+            "C": {
+              "text": "TC de tórax, abdomen y pelvis",
+              "rationale": "La TC de tórax, abdomen y pelvis valora extensión regional y a distancia; las fases urográficas evalúan la vía superior. Las alternativas limitadas no sustituyen esta estadificación."
+            },
+            "D": {
+              "text": "Solo ecografía vesical",
+              "rationale": "La TC de tórax, abdomen y pelvis valora extensión regional y a distancia; las fases urográficas evalúan la vía superior. Las alternativas limitadas no sustituyen esta estadificación."
+            }
+          },
+          "explanation": {
+            "core": "La TC de tórax, abdomen y pelvis valora extensión regional y a distancia; las fases urográficas evalúan la vía superior. Las alternativas limitadas no sustituyen esta estadificación.",
+            "teaching_point": "La TC de tórax, abdomen y pelvis valora extensión regional y a distancia; las fases urográficas evalúan la vía superior."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-mib-00007",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "mibc",
+        "subdomain": "Trimodale Therapie",
+        "tags": [
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines: Muscle Invasive And Metastatic Bladder Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/muscle-invasive-and-metastatic-bladder-cancer/chapter/disease-management",
+          "accessed": "2026-09-11"
+        }
+      ],
+      "review": {
+        "author": "AI-assisted editorial addition",
+        "reviewer": null,
+        "created": "2026-09-11",
+        "last_reviewed": null,
+        "expires": "2027-03-11",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "Original trilingual cases checked against EAU online chapters",
+          "clinical_signoff": false
+        }
+      },
+      "content": {
+        "de": {
+          "vignette": "Bei solitärem cT2N0M0-Tumor und guter Blasenfunktion wird eine trimodale Blasenerhaltung besprochen. Welche Kombination ist gemeint?",
+          "lead_in": "Welche Antwort trifft am besten zu?",
+          "options": {
+            "A": {
+              "text": "TUR-B und anschließende BCG-Instillation",
+              "rationale": "Trimodale Therapie verbindet möglichst vollständige TUR-B mit simultaner radiosensibilisierender Chemotherapie und Bestrahlung. BCG behandelt kein MIBC; alleinige Bestrahlung ist keine Trimodalität, Zystektomie erhält die Blase nicht."
+            },
+            "B": {
+              "text": "Alleinige Bestrahlung und Nachsorge",
+              "rationale": "Trimodale Therapie verbindet möglichst vollständige TUR-B mit simultaner radiosensibilisierender Chemotherapie und Bestrahlung. BCG behandelt kein MIBC; alleinige Bestrahlung ist keine Trimodalität, Zystektomie erhält die Blase nicht."
+            },
+            "C": {
+              "text": "Zystektomie und orthotope Neoblase",
+              "rationale": "Trimodale Therapie verbindet möglichst vollständige TUR-B mit simultaner radiosensibilisierender Chemotherapie und Bestrahlung. BCG behandelt kein MIBC; alleinige Bestrahlung ist keine Trimodalität, Zystektomie erhält die Blase nicht."
+            },
+            "D": {
+              "text": "Maximale TUR-B und simultane Radiochemotherapie",
+              "rationale": "Trimodale Therapie verbindet möglichst vollständige TUR-B mit simultaner radiosensibilisierender Chemotherapie und Bestrahlung. BCG behandelt kein MIBC; alleinige Bestrahlung ist keine Trimodalität, Zystektomie erhält die Blase nicht."
+            }
+          },
+          "explanation": {
+            "core": "Trimodale Therapie verbindet möglichst vollständige TUR-B mit simultaner radiosensibilisierender Chemotherapie und Bestrahlung. BCG behandelt kein MIBC; alleinige Bestrahlung ist keine Trimodalität, Zystektomie erhält die Blase nicht.",
+            "teaching_point": "Trimodale Therapie verbindet möglichst vollständige TUR-B mit simultaner radiosensibilisierender Chemotherapie und Bestrahlung."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "For a solitary cT2N0M0 tumour and good bladder function, trimodality bladder preservation is discussed. Which combination is meant?",
+          "lead_in": "Which answer is most appropriate?",
+          "options": {
+            "A": {
+              "text": "TURBT followed by BCG instillation",
+              "rationale": "Trimodality combines maximal TURBT with concurrent radiosensitising chemotherapy and radiation. BCG does not treat MIBC; radiation alone is not trimodality, and cystectomy does not preserve the bladder."
+            },
+            "B": {
+              "text": "Radiotherapy alone and surveillance",
+              "rationale": "Trimodality combines maximal TURBT with concurrent radiosensitising chemotherapy and radiation. BCG does not treat MIBC; radiation alone is not trimodality, and cystectomy does not preserve the bladder."
+            },
+            "C": {
+              "text": "Cystectomy with an orthotopic neobladder",
+              "rationale": "Trimodality combines maximal TURBT with concurrent radiosensitising chemotherapy and radiation. BCG does not treat MIBC; radiation alone is not trimodality, and cystectomy does not preserve the bladder."
+            },
+            "D": {
+              "text": "Maximal TURBT and concurrent chemoradiation",
+              "rationale": "Trimodality combines maximal TURBT with concurrent radiosensitising chemotherapy and radiation. BCG does not treat MIBC; radiation alone is not trimodality, and cystectomy does not preserve the bladder."
+            }
+          },
+          "explanation": {
+            "core": "Trimodality combines maximal TURBT with concurrent radiosensitising chemotherapy and radiation. BCG does not treat MIBC; radiation alone is not trimodality, and cystectomy does not preserve the bladder.",
+            "teaching_point": "Trimodality combines maximal TURBT with concurrent radiosensitising chemotherapy and radiation."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "En un tumor único cT2N0M0 con buena función vesical se plantea preservación trimodal. ¿Qué combinación corresponde?",
+          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "options": {
+            "A": {
+              "text": "RTU seguida de instilación de BCG",
+              "rationale": "La trimodalidad combina RTU máxima, quimioterapia radiosensibilizante y radioterapia simultáneas. BCG no trata el TVMI; radioterapia sola no es trimodalidad y cistectomía no conserva la vejiga."
+            },
+            "B": {
+              "text": "Radioterapia sola y seguimiento",
+              "rationale": "La trimodalidad combina RTU máxima, quimioterapia radiosensibilizante y radioterapia simultáneas. BCG no trata el TVMI; radioterapia sola no es trimodalidad y cistectomía no conserva la vejiga."
+            },
+            "C": {
+              "text": "Cistectomía con neovejiga ortotópica",
+              "rationale": "La trimodalidad combina RTU máxima, quimioterapia radiosensibilizante y radioterapia simultáneas. BCG no trata el TVMI; radioterapia sola no es trimodalidad y cistectomía no conserva la vejiga."
+            },
+            "D": {
+              "text": "RTU máxima y quimiorradioterapia simultánea",
+              "rationale": "La trimodalidad combina RTU máxima, quimioterapia radiosensibilizante y radioterapia simultáneas. BCG no trata el TVMI; radioterapia sola no es trimodalidad y cistectomía no conserva la vejiga."
+            }
+          },
+          "explanation": {
+            "core": "La trimodalidad combina RTU máxima, quimioterapia radiosensibilizante y radioterapia simultáneas. BCG no trata el TVMI; radioterapia sola no es trimodalidad y cistectomía no conserva la vejiga.",
+            "teaching_point": "La trimodalidad combina RTU máxima, quimioterapia radiosensibilizante y radioterapia simultáneas."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-mib-00008",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "mibc",
+        "subdomain": "Salvage-Zystektomie",
+        "tags": [
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines: Muscle Invasive And Metastatic Bladder Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/muscle-invasive-and-metastatic-bladder-cancer/chapter/disease-management",
+          "accessed": "2026-09-11"
+        }
+      ],
+      "review": {
+        "author": "AI-assisted editorial addition",
+        "reviewer": null,
+        "created": "2026-09-11",
+        "last_reviewed": null,
+        "expires": "2027-03-11",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "Original trilingual cases checked against EAU online chapters",
+          "clinical_signoff": false
+        }
+      },
+      "content": {
+        "de": {
+          "vignette": "Nach trimodaler Therapie tritt ein lokal muskelinvasives Rezidiv ohne Fernmetastasen auf. Der Patient ist operabel. Welche kurative lokale Option soll angeboten werden?",
+          "lead_in": "Welche Antwort trifft am besten zu?",
+          "options": {
+            "A": {
+              "text": "Salvage-Zystektomie",
+              "rationale": "Bei invasivem Rezidiv nach Blasenerhaltung wird die Salvage-Zystektomie angeboten, sofern durchführbar. BCG, reine Kontrolle und Antibiotika bieten hier keine ausreichende kurative lokale Behandlung."
+            },
+            "B": {
+              "text": "Alleinige intravesikale BCG-Therapie",
+              "rationale": "Bei invasivem Rezidiv nach Blasenerhaltung wird die Salvage-Zystektomie angeboten, sofern durchführbar. BCG, reine Kontrolle und Antibiotika bieten hier keine ausreichende kurative lokale Behandlung."
+            },
+            "C": {
+              "text": "Alleinige jährliche Zytologiekontrolle",
+              "rationale": "Bei invasivem Rezidiv nach Blasenerhaltung wird die Salvage-Zystektomie angeboten, sofern durchführbar. BCG, reine Kontrolle und Antibiotika bieten hier keine ausreichende kurative lokale Behandlung."
+            },
+            "D": {
+              "text": "Dauerhafte Antibiotikaprophylaxe",
+              "rationale": "Bei invasivem Rezidiv nach Blasenerhaltung wird die Salvage-Zystektomie angeboten, sofern durchführbar. BCG, reine Kontrolle und Antibiotika bieten hier keine ausreichende kurative lokale Behandlung."
+            }
+          },
+          "explanation": {
+            "core": "Bei invasivem Rezidiv nach Blasenerhaltung wird die Salvage-Zystektomie angeboten, sofern durchführbar. BCG, reine Kontrolle und Antibiotika bieten hier keine ausreichende kurative lokale Behandlung.",
+            "teaching_point": "Bei invasivem Rezidiv nach Blasenerhaltung wird die Salvage-Zystektomie angeboten, sofern durchführbar."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "After trimodality therapy, a local muscle-invasive recurrence occurs without distant metastases. The patient is fit for surgery. Which curative local option should be offered?",
+          "lead_in": "Which answer is most appropriate?",
+          "options": {
+            "A": {
+              "text": "Salvage cystectomy",
+              "rationale": "Salvage cystectomy should be offered for invasive recurrence after bladder preservation when feasible. BCG, surveillance alone and antibiotics do not provide adequate curative local treatment here."
+            },
+            "B": {
+              "text": "Intravesical BCG alone",
+              "rationale": "Salvage cystectomy should be offered for invasive recurrence after bladder preservation when feasible. BCG, surveillance alone and antibiotics do not provide adequate curative local treatment here."
+            },
+            "C": {
+              "text": "Annual cytology alone",
+              "rationale": "Salvage cystectomy should be offered for invasive recurrence after bladder preservation when feasible. BCG, surveillance alone and antibiotics do not provide adequate curative local treatment here."
+            },
+            "D": {
+              "text": "Long-term antibiotic prophylaxis",
+              "rationale": "Salvage cystectomy should be offered for invasive recurrence after bladder preservation when feasible. BCG, surveillance alone and antibiotics do not provide adequate curative local treatment here."
+            }
+          },
+          "explanation": {
+            "core": "Salvage cystectomy should be offered for invasive recurrence after bladder preservation when feasible. BCG, surveillance alone and antibiotics do not provide adequate curative local treatment here.",
+            "teaching_point": "Salvage cystectomy should be offered for invasive recurrence after bladder preservation when feasible."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Tras terapia trimodal aparece recidiva local músculo-invasiva sin metástasis. El paciente es operable. ¿Qué opción local curativa debe ofrecerse?",
+          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Cistectomía de rescate",
+              "rationale": "Debe ofrecerse cistectomía de rescate en recidiva invasiva tras preservación vesical cuando sea factible. BCG, vigilancia sola y antibióticos no aportan aquí tratamiento local curativo adecuado."
+            },
+            "B": {
+              "text": "Solo BCG intravesical",
+              "rationale": "Debe ofrecerse cistectomía de rescate en recidiva invasiva tras preservación vesical cuando sea factible. BCG, vigilancia sola y antibióticos no aportan aquí tratamiento local curativo adecuado."
+            },
+            "C": {
+              "text": "Solo citología anual",
+              "rationale": "Debe ofrecerse cistectomía de rescate en recidiva invasiva tras preservación vesical cuando sea factible. BCG, vigilancia sola y antibióticos no aportan aquí tratamiento local curativo adecuado."
+            },
+            "D": {
+              "text": "Profilaxis antibiótica prolongada",
+              "rationale": "Debe ofrecerse cistectomía de rescate en recidiva invasiva tras preservación vesical cuando sea factible. BCG, vigilancia sola y antibióticos no aportan aquí tratamiento local curativo adecuado."
+            }
+          },
+          "explanation": {
+            "core": "Debe ofrecerse cistectomía de rescate en recidiva invasiva tras preservación vesical cuando sea factible. BCG, vigilancia sola y antibióticos no aportan aquí tratamiento local curativo adecuado.",
+            "teaching_point": "Debe ofrecerse cistectomía de rescate en recidiva invasiva tras preservación vesical cuando sea factible."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-mib-00009",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "mibc",
+        "subdomain": "Harnableitung",
+        "tags": [
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines: Muscle Invasive And Metastatic Bladder Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/muscle-invasive-and-metastatic-bladder-cancer/chapter/disease-management",
+          "accessed": "2026-09-11"
+        }
+      ],
+      "review": {
+        "author": "AI-assisted editorial addition",
+        "reviewer": null,
+        "created": "2026-09-11",
+        "last_reviewed": null,
+        "expires": "2027-03-11",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "Original trilingual cases checked against EAU online chapters",
+          "clinical_signoff": false
+        }
+      },
+      "content": {
+        "de": {
+          "vignette": "Bei geplanter Zystektomie wird ein invasiver Urethratumor festgestellt, der eine Urethrektomie erfordert. Welche Harnableitung ist dadurch ausgeschlossen?",
+          "lead_in": "Welche Antwort trifft am besten zu?",
+          "options": {
+            "A": {
+              "text": "Kontinente kutane Ableitung bei Eignung",
+              "rationale": "Eine orthotope Neoblase benötigt eine onkologisch erhaltbare Urethra. Bei erforderlicher Urethrektomie fehlt dieser Anschluss. Kutane Ableitungen können nach individueller Prüfung infrage kommen."
+            },
+            "B": {
+              "text": "Orthotope Neoblase mit Urethraanschluss",
+              "rationale": "Eine orthotope Neoblase benötigt eine onkologisch erhaltbare Urethra. Bei erforderlicher Urethrektomie fehlt dieser Anschluss. Kutane Ableitungen können nach individueller Prüfung infrage kommen."
+            },
+            "C": {
+              "text": "Ileum-Conduit mit kutanem Stoma",
+              "rationale": "Eine orthotope Neoblase benötigt eine onkologisch erhaltbare Urethra. Bei erforderlicher Urethrektomie fehlt dieser Anschluss. Kutane Ableitungen können nach individueller Prüfung infrage kommen."
+            },
+            "D": {
+              "text": "Kutane Ureterostomie bei geeigneter Auswahl",
+              "rationale": "Eine orthotope Neoblase benötigt eine onkologisch erhaltbare Urethra. Bei erforderlicher Urethrektomie fehlt dieser Anschluss. Kutane Ableitungen können nach individueller Prüfung infrage kommen."
+            }
+          },
+          "explanation": {
+            "core": "Eine orthotope Neoblase benötigt eine onkologisch erhaltbare Urethra. Bei erforderlicher Urethrektomie fehlt dieser Anschluss. Kutane Ableitungen können nach individueller Prüfung infrage kommen.",
+            "teaching_point": "Eine orthotope Neoblase benötigt eine onkologisch erhaltbare Urethra."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Before cystectomy, invasive urethral cancer requiring urethrectomy is identified. Which diversion is thereby excluded?",
+          "lead_in": "Which answer is most appropriate?",
+          "options": {
+            "A": {
+              "text": "Continent cutaneous diversion if suitable",
+              "rationale": "An orthotopic neobladder requires an oncologically preservable urethra. Required urethrectomy removes that outlet. Cutaneous diversions may remain options after individual assessment."
+            },
+            "B": {
+              "text": "Orthotopic neobladder connected to urethra",
+              "rationale": "An orthotopic neobladder requires an oncologically preservable urethra. Required urethrectomy removes that outlet. Cutaneous diversions may remain options after individual assessment."
+            },
+            "C": {
+              "text": "Ileal conduit with a skin stoma",
+              "rationale": "An orthotopic neobladder requires an oncologically preservable urethra. Required urethrectomy removes that outlet. Cutaneous diversions may remain options after individual assessment."
+            },
+            "D": {
+              "text": "Cutaneous ureterostomy in selected patients",
+              "rationale": "An orthotopic neobladder requires an oncologically preservable urethra. Required urethrectomy removes that outlet. Cutaneous diversions may remain options after individual assessment."
+            }
+          },
+          "explanation": {
+            "core": "An orthotopic neobladder requires an oncologically preservable urethra. Required urethrectomy removes that outlet. Cutaneous diversions may remain options after individual assessment.",
+            "teaching_point": "An orthotopic neobladder requires an oncologically preservable urethra."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Antes de cistectomía se identifica cáncer uretral invasivo que requiere uretrectomía. ¿Qué derivación queda excluida?",
+          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Derivación cutánea continente si es adecuada",
+              "rationale": "Una neovejiga ortotópica requiere una uretra preservable oncológicamente. La uretrectomía elimina esa salida. Las derivaciones cutáneas pueden valorarse individualmente."
+            },
+            "B": {
+              "text": "Neovejiga ortotópica conectada a uretra",
+              "rationale": "Una neovejiga ortotópica requiere una uretra preservable oncológicamente. La uretrectomía elimina esa salida. Las derivaciones cutáneas pueden valorarse individualmente."
+            },
+            "C": {
+              "text": "Conducto ileal con estoma cutáneo",
+              "rationale": "Una neovejiga ortotópica requiere una uretra preservable oncológicamente. La uretrectomía elimina esa salida. Las derivaciones cutáneas pueden valorarse individualmente."
+            },
+            "D": {
+              "text": "Ureterostomía cutánea en casos seleccionados",
+              "rationale": "Una neovejiga ortotópica requiere una uretra preservable oncológicamente. La uretrectomía elimina esa salida. Las derivaciones cutáneas pueden valorarse individualmente."
+            }
+          },
+          "explanation": {
+            "core": "Una neovejiga ortotópica requiere una uretra preservable oncológicamente. La uretrectomía elimina esa salida. Las derivaciones cutáneas pueden valorarse individualmente.",
+            "teaching_point": "Una neovejiga ortotópica requiere una uretra preservable oncológicamente."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-mib-00010",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "mibc",
+        "subdomain": "Nachsorge nach Blasenerhalt",
+        "tags": [
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines: Muscle Invasive And Metastatic Bladder Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/muscle-invasive-and-metastatic-bladder-cancer/chapter/disease-management",
+          "accessed": "2026-09-11"
+        }
+      ],
+      "review": {
+        "author": "AI-assisted editorial addition",
+        "reviewer": null,
+        "created": "2026-09-11",
+        "last_reviewed": null,
+        "expires": "2027-03-11",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "Original trilingual cases checked against EAU online chapters",
+          "clinical_signoff": false
+        }
+      },
+      "content": {
+        "de": {
+          "vignette": "Nach trimodaler Therapie besteht eine komplette Remission. Der Patient möchte auf weitere Blasenuntersuchungen verzichten. Welche Beratung ist richtig?",
+          "lead_in": "Welche Antwort trifft am besten zu?",
+          "options": {
+            "A": {
+              "text": "Urin-Teststreifen ersetzen alle Zystoskopien",
+              "rationale": "Blasenerhalt erfordert fortgesetzte Überwachung, um Rezidive rechtzeitig zu erkennen. Remission, Teststreifen oder das Warten auf Beschwerden ersetzen die strukturierte Nachsorge nicht."
+            },
+            "B": {
+              "text": "Kontrollen erst bei starken Schmerzen",
+              "rationale": "Blasenerhalt erfordert fortgesetzte Überwachung, um Rezidive rechtzeitig zu erkennen. Remission, Teststreifen oder das Warten auf Beschwerden ersetzen die strukturierte Nachsorge nicht."
+            },
+            "C": {
+              "text": "Regelmäßige Blasenkontrollen bleiben erforderlich",
+              "rationale": "Blasenerhalt erfordert fortgesetzte Überwachung, um Rezidive rechtzeitig zu erkennen. Remission, Teststreifen oder das Warten auf Beschwerden ersetzen die strukturierte Nachsorge nicht."
+            },
+            "D": {
+              "text": "Komplette Remission beendet jede Nachsorge",
+              "rationale": "Blasenerhalt erfordert fortgesetzte Überwachung, um Rezidive rechtzeitig zu erkennen. Remission, Teststreifen oder das Warten auf Beschwerden ersetzen die strukturierte Nachsorge nicht."
+            }
+          },
+          "explanation": {
+            "core": "Blasenerhalt erfordert fortgesetzte Überwachung, um Rezidive rechtzeitig zu erkennen. Remission, Teststreifen oder das Warten auf Beschwerden ersetzen die strukturierte Nachsorge nicht.",
+            "teaching_point": "Blasenerhalt erfordert fortgesetzte Überwachung, um Rezidive rechtzeitig zu erkennen."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "After trimodality therapy there is complete remission. The patient wants to stop bladder examinations. What is the correct advice?",
+          "lead_in": "Which answer is most appropriate?",
+          "options": {
+            "A": {
+              "text": "Urine dipsticks replace every cystoscopy",
+              "rationale": "Bladder preservation requires ongoing surveillance to identify recurrence promptly. Remission, dipsticks or waiting for symptoms do not replace structured follow-up."
+            },
+            "B": {
+              "text": "Wait for severe pain before reassessment",
+              "rationale": "Bladder preservation requires ongoing surveillance to identify recurrence promptly. Remission, dipsticks or waiting for symptoms do not replace structured follow-up."
+            },
+            "C": {
+              "text": "Regular bladder surveillance remains necessary",
+              "rationale": "Bladder preservation requires ongoing surveillance to identify recurrence promptly. Remission, dipsticks or waiting for symptoms do not replace structured follow-up."
+            },
+            "D": {
+              "text": "Complete remission ends all follow-up",
+              "rationale": "Bladder preservation requires ongoing surveillance to identify recurrence promptly. Remission, dipsticks or waiting for symptoms do not replace structured follow-up."
+            }
+          },
+          "explanation": {
+            "core": "Bladder preservation requires ongoing surveillance to identify recurrence promptly. Remission, dipsticks or waiting for symptoms do not replace structured follow-up.",
+            "teaching_point": "Bladder preservation requires ongoing surveillance to identify recurrence promptly."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Tras terapia trimodal hay remisión completa. El paciente quiere dejar los controles vesicales. ¿Qué consejo es correcto?",
+          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Las tiras de orina sustituyen toda cistoscopia",
+              "rationale": "La preservación vesical exige vigilancia continuada para detectar recidivas a tiempo. La remisión, las tiras de orina o esperar síntomas no sustituyen un seguimiento estructurado."
+            },
+            "B": {
+              "text": "Esperar dolor intenso antes de reevaluar",
+              "rationale": "La preservación vesical exige vigilancia continuada para detectar recidivas a tiempo. La remisión, las tiras de orina o esperar síntomas no sustituyen un seguimiento estructurado."
+            },
+            "C": {
+              "text": "Sigue siendo necesario el control vesical regular",
+              "rationale": "La preservación vesical exige vigilancia continuada para detectar recidivas a tiempo. La remisión, las tiras de orina o esperar síntomas no sustituyen un seguimiento estructurado."
+            },
+            "D": {
+              "text": "La remisión completa termina todo seguimiento",
+              "rationale": "La preservación vesical exige vigilancia continuada para detectar recidivas a tiempo. La remisión, las tiras de orina o esperar síntomas no sustituyen un seguimiento estructurado."
+            }
+          },
+          "explanation": {
+            "core": "La preservación vesical exige vigilancia continuada para detectar recidivas a tiempo. La remisión, las tiras de orina o esperar síntomas no sustituyen un seguimiento estructurado.",
+            "teaching_point": "La preservación vesical exige vigilancia continuada para detectar recidivas a tiempo."
+          },
+          "flag_note": null
         }
       }
     }

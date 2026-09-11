@@ -3,14 +3,15 @@
   "fragen": [
     {
       "id": "uro-nmi-00001",
-      "version": 1,
+      "version": 3,
       "status": "published",
       "taxonomy": {
         "subdomain": "T1 High Grade",
         "tags": [
           "leitlinie",
           "pathologie"
-        ]
+        ],
+        "domain": "nmibc"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -53,6 +54,14 @@
           "version": null,
           "year": 2024,
           "section": null
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Non-muscle-invasive Bladder Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/non-muscle-invasive-bladder-cancer/chapter/disease-management",
+          "accessed": "2026-09-11"
         }
       ],
       "review": {
@@ -60,7 +69,12 @@
         "reviewer": null,
         "created": "2026-09-02",
         "last_reviewed": "2026-09-02",
-        "expires": "2027-09-02"
+        "expires": "2027-09-02",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "AI-assisted consistency review",
+          "clinical_signoff": false
+        }
       },
       "content": {
         "de": {
@@ -77,7 +91,7 @@
             },
             "C": {
               "text": "Frühinstillation mit Mitomycin C nach der Resektion",
-              "rationale": "Die Frühinstillation ist Low-Risk-Tumoren vorbehalten und muss innerhalb von 24 Stunden erfolgen; bei T1 High Grade ist sie nicht indiziert."
+              "rationale": "Die Frühinstillation kann bei geeigneten Low-Risk- und ausgewählten Intermediate-Risk-Tumoren innerhalb von 24 Stunden sinnvoll sein. Sie ersetzt bei diesem T1-High-Grade-Befund die notwendige Nachresektion nicht."
             },
             "D": {
               "text": "Sofortiger Beginn der BCG-Induktion über sechs Wochen",
@@ -85,8 +99,8 @@
             }
           },
           "explanation": {
-            "core": "Die Nach-TUR-B ist keine Therapie, sondern Staging. Ihre Indikation ergibt sich aus T1-Stadium, unvollständiger Resektion oder fehlendem Detrusormuskel bei High-Grade-Tumoren. Jede Therapieentscheidung ohne dieses Staging trifft auf unsicherer Grundlage.",
-            "teaching_point": "Fehlender Detrusormuskel bei T1 High Grade heißt: Stadium unbekannt, nicht Stadium T1."
+            "core": "Die Nachresektion verbessert Staging und Vollständigkeit der Tumorentfernung. Sie ist unter anderem bei T1, unvollständiger Resektion oder fehlendem Detrusor im relevanten Kontext angezeigt.",
+            "teaching_point": "T1 High Grade ohne Detrusor im Präparat: Eine zusätzliche Muskelinvasion ist nicht sicher ausgeschlossen."
           },
           "flag_note": null
         },
@@ -104,7 +118,7 @@
             },
             "C": {
               "text": "Immediate instillation of mitomycin C after resection",
-              "rationale": "The immediate instillation is reserved for low-risk tumours and must be given within 24 hours; it is not indicated in T1 high grade."
+              "rationale": "Immediate instillation within 24 hours can be appropriate for suitable low-risk and selected intermediate-risk tumours. It does not replace the required repeat resection in this T1 high-grade case."
             },
             "D": {
               "text": "Immediate start of BCG induction over six weeks",
@@ -112,16 +126,50 @@
             }
           },
           "explanation": {
-            "core": "Repeat TURBT is staging, not treatment. Its indication follows from T1 stage, incomplete resection or absent detrusor muscle in high-grade disease. Any treatment decision without this staging rests on an uncertain basis.",
-            "teaching_point": "Absent detrusor muscle in T1 high grade means unknown stage, not stage T1."
+            "core": "Repeat TURBT improves staging and completeness of tumour removal. Indications include T1 disease, incomplete resection and absent detrusor muscle in the appropriate clinical context.",
+            "teaching_point": "T1 high grade without detrusor in the specimen: additional muscle invasion has not been reliably excluded."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 63 años tras resección transuretral de un tumor vesical multifocal de 3 cm. Histología: carcinoma urotelial pT1, de alto grado, sin músculo detrusor en la muestra, sin carcinoma in situ concomitante. La resección se describió como macroscópicamente completa.",
+          "lead_in": "¿Cuál es el siguiente paso?",
+          "options": {
+            "A": {
+              "text": "Cistectomía radical primaria con linfadenectomía",
+              "rationale": "La cistectomía temprana se analiza en constelaciones de muy alto riesgo, pero sólo después de una estadificación completa mediante resección repetida."
+            },
+            "B": {
+              "text": "Repita la TURBT dentro de dos a seis semanas.",
+              "rationale": "Sin músculo detrusor en la muestra, la etapa T1 no es segura; Las series informan una subestadificación en aproximadamente un tercio de los casos."
+            },
+            "C": {
+              "text": "Instilación inmediata de mitomicina C después de la resección.",
+              "rationale": "La instilación inmediata en 24 horas puede ser adecuada en tumores de bajo riesgo y determinados casos de riesgo intermedio. No sustituye la nueva resección necesaria en este caso T1 de alto grado."
+            },
+            "D": {
+              "text": "Inicio inmediato de la inducción de BCG durante seis semanas.",
+              "rationale": "La terapia de instilación en situaciones de estadificación incierta puede enmascarar durante meses un tumor que ya afecta a los músculos."
+            }
+          },
+          "explanation": {
+            "core": "La segunda RTU vesical mejora la estadificación y permite completar la resección tumoral. Se indica, entre otras situaciones, en T1, resección incompleta o ausencia de músculo detrusor en el contexto adecuado.",
+            "teaching_point": "T1 de alto grado sin detrusor en la muestra: no se ha descartado con certeza invasión muscular adicional."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-nmi-00002",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Instillationstherapie",
@@ -129,7 +177,8 @@
           "dosierung",
           "pharmakologie",
           "leitlinie"
-        ]
+        ],
+        "domain": "nmibc"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -166,6 +215,12 @@
         {
           "type": "studie",
           "citation": "SWOG 8507, Lamm et al."
+        },
+        {
+          "type": "reference",
+          "title": "EAUN 2026: BCG treatment schedules",
+          "url": "https://nurses-new.uroweb.org/guidelines/intravesical-instillation/chapter/common-treatment-schedules",
+          "accessed": "2026-09-10"
         }
       ],
       "review": {
@@ -173,7 +228,12 @@
         "reviewer": null,
         "created": "2026-09-05",
         "last_reviewed": "2026-09-05",
-        "expires": "2028-09-05"
+        "expires": "2028-09-05",
+        "editorial_review": {
+          "date": "2026-09-10",
+          "method": "AI-assisted source cross-check",
+          "clinical_signoff": false
+        }
       },
       "content": {
         "de": {
@@ -181,16 +241,16 @@
           "lead_in": "Welches Instillationsschema entspricht der Leitlinie?",
           "options": {
             "A": {
-              "text": "BCG-Induktion mit Erhaltung in Volldosis über drei Jahre",
-              "rationale": "Das SWOG-Erhaltungsschema über drei Jahre ist beim High-Risk-Tumor der Standard und dem alleinigen Induktionszyklus in Rezidiv- und Progressionsrate überlegen. Die Induktion umfasst sechs wöchentliche Instillationen, die Erhaltung je drei wöchentliche Gaben in den Monaten 3, 6, 12, 18, 24, 30 und 36."
+              "text": "BCG-Induktion und Erhaltung über ein bis drei Jahre",
+              "rationale": "Bei hohem Risiko volle BCG-Dosis mit Erhaltung; zusätzliche Jahre gegen Nutzen, Nebenwirkungen und Verfügbarkeit abwägen. Eine frühe Zystektomie ebenfalls besprechen."
             },
             "B": {
               "text": "Sechs wöchentliche BCG-Gaben als alleinige Induktion",
               "rationale": "Ohne Erhaltung geht ein erheblicher Teil des Effekts verloren; die Induktion allein ist beim High-Risk-Tumor unzureichend."
             },
             "C": {
-              "text": "BCG-Induktion mit anschließender Erhaltung über ein Jahr",
-              "rationale": "Ein Jahr Erhaltung ist die Option beim mittleren Risiko. Beim High-Risk-Tumor sind drei Jahre vorgesehen."
+              "text": "Nach einem Jahr jede weitere Erhaltung grundsätzlich ausschließen",
+              "rationale": "Ein Jahr kann vertretbar sein, eine pauschale Begrenzung ist aber ebenso falsch wie zwingend drei Jahre für jeden Patienten."
             },
             "D": {
               "text": "Mitomycin C wöchentlich sechsmal, dann monatlich ein Jahr",
@@ -198,8 +258,8 @@
             }
           },
           "explanation": {
-            "core": "Die Risikogruppe bestimmt sowohl die Substanz als auch die Dauer. Mittleres Risiko: BCG über ein Jahr oder Mitomycin. Hohes Risiko: BCG in Volldosis über drei Jahre. Sehr hohes Risiko: frühe Zystektomie diskutieren. Vor jeder BCG-Gabe sind traumatische Katheterisierung, Makrohämaturie und Harnwegsinfekt auszuschließen.",
-            "teaching_point": "Die Erhaltungsdauer ist keine Ermessensfrage, sondern folgt der Risikogruppe: ein Jahr oder drei Jahre."
+            "core": "BCG benötigt ein Erhaltungskonzept. Beim Hochrisiko-NMIBC sind ein bis drei Jahre vorgesehen; Dauer und Alternative Zystektomie gemeinsam besprechen.",
+            "teaching_point": "Risikoadaptierte Erhaltung, mit individueller Abwägung der Dauer."
           },
           "flag_note": null
         },
@@ -208,16 +268,16 @@
           "lead_in": "Which intravesical schedule follows the guideline?",
           "options": {
             "A": {
-              "text": "BCG induction with full-dose maintenance for three years",
-              "rationale": "The three-year SWOG maintenance schedule is standard in high-risk disease and superior to induction alone in recurrence and progression rates. Induction comprises six weekly instillations, maintenance three weekly doses each at months 3, 6, 12, 18, 24, 30 and 36."
+              "text": "BCG induction and maintenance for one to three years",
+              "rationale": "Use full-dose BCG with maintenance for high-risk disease; weigh additional years against benefit, toxicity and availability. Also discuss early cystectomy."
             },
             "B": {
               "text": "Six weekly BCG instillations as induction only",
               "rationale": "Without maintenance a substantial part of the effect is lost; induction alone is inadequate in high-risk disease."
             },
             "C": {
-              "text": "BCG induction followed by maintenance for one year",
-              "rationale": "One year of maintenance is the intermediate-risk option. High-risk disease calls for three years."
+              "text": "Categorically exclude further maintenance after one year",
+              "rationale": "One year may be reasonable, but a universal limit is as inappropriate as mandating three years for everyone."
             },
             "D": {
               "text": "Mitomycin C weekly six times, then monthly for a year",
@@ -225,8 +285,1170 @@
             }
           },
           "explanation": {
-            "core": "The risk group determines both the agent and the duration. Intermediate risk: BCG for one year or mitomycin. High risk: full-dose BCG for three years. Very high risk: discuss early cystectomy. Before every BCG instillation exclude traumatic catheterisation, macroscopic haematuria and urinary tract infection.",
-            "teaching_point": "Maintenance duration is not discretionary; it follows the risk group: one year or three years."
+            "core": "BCG requires a maintenance plan. High-risk NMIBC permits one to three years; discuss duration and the alternative of cystectomy together.",
+            "teaching_point": "Risk-adapted maintenance with individualised duration."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Hombre de 59 años con carcinoma urotelial de alto grado pT1. La TURBT repetida no muestra tumor residual ni músculo detrusor en la muestra, ni carcinoma in situ concomitante. La clasificación del riesgo es de alto riesgo. Sin inmunosupresión, sin antecedentes de tuberculosis, urocultivo estéril.",
+          "lead_in": "¿Qué esquema intravesical sigue la pauta?",
+          "options": {
+            "A": {
+              "text": "Inducción y mantenimiento de BCG durante uno a tres años.",
+              "rationale": "Utilice BCG en dosis completa con mantenimiento para enfermedades de alto riesgo; sopesar los años adicionales frente a los beneficios, la toxicidad y la disponibilidad. También analice la cistectomía temprana."
+            },
+            "B": {
+              "text": "Seis instilaciones semanales de BCG solo como inducción.",
+              "rationale": "Sin mantenimiento se pierde una parte sustancial del efecto; la inducción por sí sola es inadecuada en enfermedades de alto riesgo."
+            },
+            "C": {
+              "text": "Excluir categóricamente un mayor mantenimiento después de un año.",
+              "rationale": "Un año puede ser razonable, pero un límite universal es tan inapropiado como imponer tres años para todos."
+            },
+            "D": {
+              "text": "Mitomicina C semanalmente seis veces y luego mensualmente durante un año",
+              "rationale": "Ese es el cronograma de riesgo intermedio. En enfermedades de alto riesgo, BCG es superior a la quimioterapia."
+            }
+          },
+          "explanation": {
+            "core": "BCG requiere un plan de mantenimiento. NMIBC de alto riesgo permite de uno a tres años; discutir juntos la duración y la alternativa de la cistectomía.",
+            "teaching_point": "Mantenimiento adaptado al riesgo con duración individualizada."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-nmi-00003",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "nmibc",
+        "subdomain": "CIS-Diagnostik",
+        "tags": [
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines: Non Muscle Invasive Bladder Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/non-muscle-invasive-bladder-cancer/chapter/diagnosis",
+          "accessed": "2026-09-11"
+        }
+      ],
+      "review": {
+        "author": "AI-assisted editorial addition",
+        "reviewer": null,
+        "created": "2026-09-11",
+        "last_reviewed": null,
+        "expires": "2027-03-11",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "Original trilingual cases checked against EAU online chapters",
+          "clinical_signoff": false
+        }
+      },
+      "content": {
+        "de": {
+          "vignette": "Persistierende Dysurie, sterile Urinkultur und verdächtige Zytologie. Zystoskopisch besteht ein samtig-rotes Schleimhautareal. Wie wird ein CIS gesichert?",
+          "lead_in": "Welche Antwort trifft am besten zu?",
+          "options": {
+            "A": {
+              "text": "Erneute Urinkultur allein",
+              "rationale": "CIS wird histologisch bestätigt. Rötung und Zytologie begründen den Verdacht, ersetzen aber keine Gewebeprobe; Ultraschall und Antibiotika sichern die Diagnose nicht."
+            },
+            "B": {
+              "text": "Sonographie der Blase allein",
+              "rationale": "CIS wird histologisch bestätigt. Rötung und Zytologie begründen den Verdacht, ersetzen aber keine Gewebeprobe; Ultraschall und Antibiotika sichern die Diagnose nicht."
+            },
+            "C": {
+              "text": "Empirische Antibiotikatherapie",
+              "rationale": "CIS wird histologisch bestätigt. Rötung und Zytologie begründen den Verdacht, ersetzen aber keine Gewebeprobe; Ultraschall und Antibiotika sichern die Diagnose nicht."
+            },
+            "D": {
+              "text": "Gezielte Schleimhautbiopsie",
+              "rationale": "CIS wird histologisch bestätigt. Rötung und Zytologie begründen den Verdacht, ersetzen aber keine Gewebeprobe; Ultraschall und Antibiotika sichern die Diagnose nicht."
+            }
+          },
+          "explanation": {
+            "core": "CIS wird histologisch bestätigt. Rötung und Zytologie begründen den Verdacht, ersetzen aber keine Gewebeprobe; Ultraschall und Antibiotika sichern die Diagnose nicht.",
+            "teaching_point": "CIS wird histologisch bestätigt."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Persistent dysuria, sterile urine culture and suspicious cytology. Cystoscopy shows a velvety red mucosal patch. How is CIS confirmed?",
+          "lead_in": "Which answer is most appropriate?",
+          "options": {
+            "A": {
+              "text": "Repeat urine culture alone",
+              "rationale": "CIS requires histological confirmation. Redness and cytology raise suspicion but cannot replace tissue sampling; ultrasound and antibiotics do not establish the diagnosis."
+            },
+            "B": {
+              "text": "Bladder ultrasound alone",
+              "rationale": "CIS requires histological confirmation. Redness and cytology raise suspicion but cannot replace tissue sampling; ultrasound and antibiotics do not establish the diagnosis."
+            },
+            "C": {
+              "text": "Empirical antibiotic treatment",
+              "rationale": "CIS requires histological confirmation. Redness and cytology raise suspicion but cannot replace tissue sampling; ultrasound and antibiotics do not establish the diagnosis."
+            },
+            "D": {
+              "text": "Targeted mucosal biopsy",
+              "rationale": "CIS requires histological confirmation. Redness and cytology raise suspicion but cannot replace tissue sampling; ultrasound and antibiotics do not establish the diagnosis."
+            }
+          },
+          "explanation": {
+            "core": "CIS requires histological confirmation. Redness and cytology raise suspicion but cannot replace tissue sampling; ultrasound and antibiotics do not establish the diagnosis.",
+            "teaching_point": "CIS requires histological confirmation."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Disuria persistente, urocultivo estéril y citología sospechosa. La cistoscopia muestra una zona mucosa roja y aterciopelada. ¿Cómo se confirma un CIS?",
+          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Repetir solo el urocultivo",
+              "rationale": "El CIS se confirma mediante histología. El enrojecimiento y la citología orientan, pero no sustituyen la biopsia; ni la ecografía ni los antibióticos confirman el diagnóstico."
+            },
+            "B": {
+              "text": "Solo ecografía vesical",
+              "rationale": "El CIS se confirma mediante histología. El enrojecimiento y la citología orientan, pero no sustituyen la biopsia; ni la ecografía ni los antibióticos confirman el diagnóstico."
+            },
+            "C": {
+              "text": "Antibioterapia empírica",
+              "rationale": "El CIS se confirma mediante histología. El enrojecimiento y la citología orientan, pero no sustituyen la biopsia; ni la ecografía ni los antibióticos confirman el diagnóstico."
+            },
+            "D": {
+              "text": "Biopsia dirigida de la mucosa",
+              "rationale": "El CIS se confirma mediante histología. El enrojecimiento y la citología orientan, pero no sustituyen la biopsia; ni la ecografía ni los antibióticos confirman el diagnóstico."
+            }
+          },
+          "explanation": {
+            "core": "El CIS se confirma mediante histología. El enrojecimiento y la citología orientan, pero no sustituyen la biopsia; ni la ecografía ni los antibióticos confirman el diagnóstico.",
+            "teaching_point": "El CIS se confirma mediante histología."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-nmi-00004",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "nmibc",
+        "subdomain": "Frühinstillation",
+        "tags": [
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines: Non Muscle Invasive Bladder Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/non-muscle-invasive-bladder-cancer/chapter/disease-management",
+          "accessed": "2026-09-11"
+        }
+      ],
+      "review": {
+        "author": "AI-assisted editorial addition",
+        "reviewer": null,
+        "created": "2026-09-11",
+        "last_reviewed": null,
+        "expires": "2027-03-11",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "Original trilingual cases checked against EAU online chapters",
+          "clinical_signoff": false
+        }
+      },
+      "content": {
+        "de": {
+          "vignette": "Nach TUR-B eines kleinen papillären Tumors besteht Verdacht auf Blasenperforation. Was gilt für die geplante sofortige Chemotherapieinstillation?",
+          "lead_in": "Welche Antwort trifft am besten zu?",
+          "options": {
+            "A": {
+              "text": "Instillation auslassen",
+              "rationale": "Bei vermuteter Perforation wird die Frühinstillation unterlassen: Extravasation kann schwere Schäden verursachen. Verdünnung, Präparatewechsel oder kürzere Verweildauer beseitigen dieses Risiko nicht."
+            },
+            "B": {
+              "text": "Mitomycin verdünnt instillieren",
+              "rationale": "Bei vermuteter Perforation wird die Frühinstillation unterlassen: Extravasation kann schwere Schäden verursachen. Verdünnung, Präparatewechsel oder kürzere Verweildauer beseitigen dieses Risiko nicht."
+            },
+            "C": {
+              "text": "Gemcitabin sofort instillieren",
+              "rationale": "Bei vermuteter Perforation wird die Frühinstillation unterlassen: Extravasation kann schwere Schäden verursachen. Verdünnung, Präparatewechsel oder kürzere Verweildauer beseitigen dieses Risiko nicht."
+            },
+            "D": {
+              "text": "Verweildauer auf zehn Minuten verkürzen",
+              "rationale": "Bei vermuteter Perforation wird die Frühinstillation unterlassen: Extravasation kann schwere Schäden verursachen. Verdünnung, Präparatewechsel oder kürzere Verweildauer beseitigen dieses Risiko nicht."
+            }
+          },
+          "explanation": {
+            "core": "Bei vermuteter Perforation wird die Frühinstillation unterlassen: Extravasation kann schwere Schäden verursachen. Verdünnung, Präparatewechsel oder kürzere Verweildauer beseitigen dieses Risiko nicht.",
+            "teaching_point": "Bei vermuteter Perforation wird die Frühinstillation unterlassen: Extravasation kann schwere Schäden verursachen."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "After TURBT of a small papillary tumour, bladder perforation is suspected. What should happen to the planned immediate chemotherapy instillation?",
+          "lead_in": "Which answer is most appropriate?",
+          "options": {
+            "A": {
+              "text": "Omit the instillation",
+              "rationale": "Suspected perforation contraindicates immediate instillation because extravasation can cause severe injury. Dilution, changing the drug or shortening dwell time does not remove this risk."
+            },
+            "B": {
+              "text": "Instil diluted mitomycin",
+              "rationale": "Suspected perforation contraindicates immediate instillation because extravasation can cause severe injury. Dilution, changing the drug or shortening dwell time does not remove this risk."
+            },
+            "C": {
+              "text": "Instil gemcitabine immediately",
+              "rationale": "Suspected perforation contraindicates immediate instillation because extravasation can cause severe injury. Dilution, changing the drug or shortening dwell time does not remove this risk."
+            },
+            "D": {
+              "text": "Shorten dwell time to ten minutes",
+              "rationale": "Suspected perforation contraindicates immediate instillation because extravasation can cause severe injury. Dilution, changing the drug or shortening dwell time does not remove this risk."
+            }
+          },
+          "explanation": {
+            "core": "Suspected perforation contraindicates immediate instillation because extravasation can cause severe injury. Dilution, changing the drug or shortening dwell time does not remove this risk.",
+            "teaching_point": "Suspected perforation contraindicates immediate instillation because extravasation can cause severe injury."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Tras RTU vesical de un tumor papilar pequeño se sospecha perforación. ¿Qué debe hacerse con la quimioterapia intravesical inmediata prevista?",
+          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Omitir la instilación",
+              "rationale": "La sospecha de perforación contraindica la instilación inmediata por el riesgo de lesión grave por extravasación. Diluir, cambiar de fármaco o acortar la permanencia no elimina ese riesgo."
+            },
+            "B": {
+              "text": "Instilar mitomicina diluida",
+              "rationale": "La sospecha de perforación contraindica la instilación inmediata por el riesgo de lesión grave por extravasación. Diluir, cambiar de fármaco o acortar la permanencia no elimina ese riesgo."
+            },
+            "C": {
+              "text": "Instilar gemcitabina de inmediato",
+              "rationale": "La sospecha de perforación contraindica la instilación inmediata por el riesgo de lesión grave por extravasación. Diluir, cambiar de fármaco o acortar la permanencia no elimina ese riesgo."
+            },
+            "D": {
+              "text": "Reducir la permanencia a diez minutos",
+              "rationale": "La sospecha de perforación contraindica la instilación inmediata por el riesgo de lesión grave por extravasación. Diluir, cambiar de fármaco o acortar la permanencia no elimina ese riesgo."
+            }
+          },
+          "explanation": {
+            "core": "La sospecha de perforación contraindica la instilación inmediata por el riesgo de lesión grave por extravasación. Diluir, cambiar de fármaco o acortar la permanencia no elimina ese riesgo.",
+            "teaching_point": "La sospecha de perforación contraindica la instilación inmediata por el riesgo de lesión grave por extravasación."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-nmi-00005",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "nmibc",
+        "subdomain": "BCG-Sicherheit",
+        "tags": [
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines: Non Muscle Invasive Bladder Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/non-muscle-invasive-bladder-cancer/chapter/disease-management",
+          "accessed": "2026-09-11"
+        }
+      ],
+      "review": {
+        "author": "AI-assisted editorial addition",
+        "reviewer": null,
+        "created": "2026-09-11",
+        "last_reviewed": null,
+        "expires": "2027-03-11",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "Original trilingual cases checked against EAU online chapters",
+          "clinical_signoff": false
+        }
+      },
+      "content": {
+        "de": {
+          "vignette": "Vor einer BCG-Instillation bestehen Fieber, neue Dysurie und eine positive Urinkultur. Was ist jetzt angemessen?",
+          "lead_in": "Welche Antwort trifft am besten zu?",
+          "options": {
+            "A": {
+              "text": "BCG direkt nach Antibiotikagabe instillieren",
+              "rationale": "Ein symptomatischer Harnwegsinfekt ist eine Kontraindikation für BCG. Erst nach Abklärung und Behandlung erneut planen; Dosisreduktion oder eine erste Antibiotikadosis schaffen keine sichere Ausgangslage."
+            },
+            "B": {
+              "text": "BCG verschieben und Infektion behandeln",
+              "rationale": "Ein symptomatischer Harnwegsinfekt ist eine Kontraindikation für BCG. Erst nach Abklärung und Behandlung erneut planen; Dosisreduktion oder eine erste Antibiotikadosis schaffen keine sichere Ausgangslage."
+            },
+            "C": {
+              "text": "BCG in voller Dosis geben",
+              "rationale": "Ein symptomatischer Harnwegsinfekt ist eine Kontraindikation für BCG. Erst nach Abklärung und Behandlung erneut planen; Dosisreduktion oder eine erste Antibiotikadosis schaffen keine sichere Ausgangslage."
+            },
+            "D": {
+              "text": "BCG mit halber Dosis geben",
+              "rationale": "Ein symptomatischer Harnwegsinfekt ist eine Kontraindikation für BCG. Erst nach Abklärung und Behandlung erneut planen; Dosisreduktion oder eine erste Antibiotikadosis schaffen keine sichere Ausgangslage."
+            }
+          },
+          "explanation": {
+            "core": "Ein symptomatischer Harnwegsinfekt ist eine Kontraindikation für BCG. Erst nach Abklärung und Behandlung erneut planen; Dosisreduktion oder eine erste Antibiotikadosis schaffen keine sichere Ausgangslage.",
+            "teaching_point": "Ein symptomatischer Harnwegsinfekt ist eine Kontraindikation für BCG."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Before BCG instillation, a patient has fever, new dysuria and a positive urine culture. What is appropriate now?",
+          "lead_in": "Which answer is most appropriate?",
+          "options": {
+            "A": {
+              "text": "Instil BCG just after an antibiotic dose",
+              "rationale": "Symptomatic urinary infection contraindicates BCG. Reassess after investigation and treatment; dose reduction or a first antibiotic dose does not make instillation safe."
+            },
+            "B": {
+              "text": "Defer BCG and treat the infection",
+              "rationale": "Symptomatic urinary infection contraindicates BCG. Reassess after investigation and treatment; dose reduction or a first antibiotic dose does not make instillation safe."
+            },
+            "C": {
+              "text": "Give full-dose BCG",
+              "rationale": "Symptomatic urinary infection contraindicates BCG. Reassess after investigation and treatment; dose reduction or a first antibiotic dose does not make instillation safe."
+            },
+            "D": {
+              "text": "Give half-dose BCG",
+              "rationale": "Symptomatic urinary infection contraindicates BCG. Reassess after investigation and treatment; dose reduction or a first antibiotic dose does not make instillation safe."
+            }
+          },
+          "explanation": {
+            "core": "Symptomatic urinary infection contraindicates BCG. Reassess after investigation and treatment; dose reduction or a first antibiotic dose does not make instillation safe.",
+            "teaching_point": "Symptomatic urinary infection contraindicates BCG."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Antes de una instilación de BCG hay fiebre, disuria reciente y urocultivo positivo. ¿Qué procede?",
+          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Instilar BCG justo tras un antibiótico",
+              "rationale": "La infección urinaria sintomática contraindica BCG. Se debe reevaluar tras estudiarla y tratarla; reducir la dosis o dar una primera dosis de antibiótico no garantiza seguridad."
+            },
+            "B": {
+              "text": "Posponer BCG y tratar la infección",
+              "rationale": "La infección urinaria sintomática contraindica BCG. Se debe reevaluar tras estudiarla y tratarla; reducir la dosis o dar una primera dosis de antibiótico no garantiza seguridad."
+            },
+            "C": {
+              "text": "Administrar BCG a dosis completa",
+              "rationale": "La infección urinaria sintomática contraindica BCG. Se debe reevaluar tras estudiarla y tratarla; reducir la dosis o dar una primera dosis de antibiótico no garantiza seguridad."
+            },
+            "D": {
+              "text": "Administrar media dosis de BCG",
+              "rationale": "La infección urinaria sintomática contraindica BCG. Se debe reevaluar tras estudiarla y tratarla; reducir la dosis o dar una primera dosis de antibiótico no garantiza seguridad."
+            }
+          },
+          "explanation": {
+            "core": "La infección urinaria sintomática contraindica BCG. Se debe reevaluar tras estudiarla y tratarla; reducir la dosis o dar una primera dosis de antibiótico no garantiza seguridad.",
+            "teaching_point": "La infección urinaria sintomática contraindica BCG."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-nmi-00006",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "nmibc",
+        "subdomain": "BCG-unresponsive",
+        "tags": [
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines: Non Muscle Invasive Bladder Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/non-muscle-invasive-bladder-cancer/chapter/disease-management",
+          "accessed": "2026-09-11"
+        }
+      ],
+      "review": {
+        "author": "AI-assisted editorial addition",
+        "reviewer": null,
+        "created": "2026-09-11",
+        "last_reviewed": null,
+        "expires": "2027-03-11",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "Original trilingual cases checked against EAU online chapters",
+          "clinical_signoff": false
+        }
+      },
+      "content": {
+        "de": {
+          "vignette": "Bei ausreichender BCG-Vorbehandlung liegt ein leitliniengemäß BCG-unresponsive High-Grade-NMIBC vor. Der Patient ist zystektomiefähig und stimmt kurativer Operation zu. Welche Behandlung ist der onkologische Standard?",
+          "lead_in": "Welche Antwort trifft am besten zu?",
+          "options": {
+            "A": {
+              "text": "Alleinige Verlaufskontrolle",
+              "rationale": "Bei BCG-unresponsive Erkrankung ist die radikale Zystektomie der Standard. Weiteres BCG bietet wenig Nutzen; Beobachtung oder Antibiotika behandeln den Tumor nicht ausreichend."
+            },
+            "B": {
+              "text": "Orale Antibiotika als Tumortherapie",
+              "rationale": "Bei BCG-unresponsive Erkrankung ist die radikale Zystektomie der Standard. Weiteres BCG bietet wenig Nutzen; Beobachtung oder Antibiotika behandeln den Tumor nicht ausreichend."
+            },
+            "C": {
+              "text": "Radikale Zystektomie",
+              "rationale": "Bei BCG-unresponsive Erkrankung ist die radikale Zystektomie der Standard. Weiteres BCG bietet wenig Nutzen; Beobachtung oder Antibiotika behandeln den Tumor nicht ausreichend."
+            },
+            "D": {
+              "text": "Weitere BCG-Induktion allein",
+              "rationale": "Bei BCG-unresponsive Erkrankung ist die radikale Zystektomie der Standard. Weiteres BCG bietet wenig Nutzen; Beobachtung oder Antibiotika behandeln den Tumor nicht ausreichend."
+            }
+          },
+          "explanation": {
+            "core": "Bei BCG-unresponsive Erkrankung ist die radikale Zystektomie der Standard. Weiteres BCG bietet wenig Nutzen; Beobachtung oder Antibiotika behandeln den Tumor nicht ausreichend.",
+            "teaching_point": "Bei BCG-unresponsive Erkrankung ist die radikale Zystektomie der Standard."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "After adequate BCG, a patient has guideline-defined BCG-unresponsive high-grade NMIBC. He is fit for cystectomy and accepts curative surgery. What is the oncological standard?",
+          "lead_in": "Which answer is most appropriate?",
+          "options": {
+            "A": {
+              "text": "Surveillance alone",
+              "rationale": "Radical cystectomy is the standard for BCG-unresponsive disease. Further BCG offers little benefit; surveillance or antibiotics do not adequately treat the tumour."
+            },
+            "B": {
+              "text": "Oral antibiotics as tumour therapy",
+              "rationale": "Radical cystectomy is the standard for BCG-unresponsive disease. Further BCG offers little benefit; surveillance or antibiotics do not adequately treat the tumour."
+            },
+            "C": {
+              "text": "Radical cystectomy",
+              "rationale": "Radical cystectomy is the standard for BCG-unresponsive disease. Further BCG offers little benefit; surveillance or antibiotics do not adequately treat the tumour."
+            },
+            "D": {
+              "text": "Another BCG induction alone",
+              "rationale": "Radical cystectomy is the standard for BCG-unresponsive disease. Further BCG offers little benefit; surveillance or antibiotics do not adequately treat the tumour."
+            }
+          },
+          "explanation": {
+            "core": "Radical cystectomy is the standard for BCG-unresponsive disease. Further BCG offers little benefit; surveillance or antibiotics do not adequately treat the tumour.",
+            "teaching_point": "Radical cystectomy is the standard for BCG-unresponsive disease."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Tras BCG adecuada existe un TVNMI de alto grado clasificado como BCG-unresponsive. El paciente es apto para cistectomía y acepta cirugía curativa. ¿Cuál es el tratamiento oncológico estándar?",
+          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Vigilancia como única medida",
+              "rationale": "La cistectomía radical es el estándar en enfermedad BCG-unresponsive. Más BCG aporta poco beneficio; la vigilancia o los antibióticos no tratan adecuadamente el tumor."
+            },
+            "B": {
+              "text": "Antibióticos orales como terapia tumoral",
+              "rationale": "La cistectomía radical es el estándar en enfermedad BCG-unresponsive. Más BCG aporta poco beneficio; la vigilancia o los antibióticos no tratan adecuadamente el tumor."
+            },
+            "C": {
+              "text": "Cistectomía radical",
+              "rationale": "La cistectomía radical es el estándar en enfermedad BCG-unresponsive. Más BCG aporta poco beneficio; la vigilancia o los antibióticos no tratan adecuadamente el tumor."
+            },
+            "D": {
+              "text": "Otra inducción de BCG sola",
+              "rationale": "La cistectomía radical es el estándar en enfermedad BCG-unresponsive. Más BCG aporta poco beneficio; la vigilancia o los antibióticos no tratan adecuadamente el tumor."
+            }
+          },
+          "explanation": {
+            "core": "La cistectomía radical es el estándar en enfermedad BCG-unresponsive. Más BCG aporta poco beneficio; la vigilancia o los antibióticos no tratan adecuadamente el tumor.",
+            "teaching_point": "La cistectomía radical es el estándar en enfermedad BCG-unresponsive."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-nmi-00007",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "nmibc",
+        "subdomain": "Erste Nachsorge",
+        "tags": [
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines: Non Muscle Invasive Bladder Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/non-muscle-invasive-bladder-cancer/chapter/followup-of-patients-with-nmibc",
+          "accessed": "2026-09-11"
+        }
+      ],
+      "review": {
+        "author": "AI-assisted editorial addition",
+        "reviewer": null,
+        "created": "2026-09-11",
+        "last_reviewed": null,
+        "expires": "2027-03-11",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "Original trilingual cases checked against EAU online chapters",
+          "clinical_signoff": false
+        }
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein Ta-Low-Grade-Tumor wurde vollständig reseziert. Wann ist die erste reguläre Kontrollzystoskopie vorgesehen?",
+          "lead_in": "Welche Antwort trifft am besten zu?",
+          "options": {
+            "A": {
+              "text": "Erst nach zwölf Monaten",
+              "rationale": "Die erste Zystoskopie nach drei Monaten ist ein wichtiger Prognosepunkt. Spätere Intervalle werden risikoadaptiert festgelegt; Symptomfreiheit ersetzt diese Kontrolle nicht."
+            },
+            "B": {
+              "text": "Erst nach drei Jahren",
+              "rationale": "Die erste Zystoskopie nach drei Monaten ist ein wichtiger Prognosepunkt. Spätere Intervalle werden risikoadaptiert festgelegt; Symptomfreiheit ersetzt diese Kontrolle nicht."
+            },
+            "C": {
+              "text": "Nur bei erneuter Makrohämaturie",
+              "rationale": "Die erste Zystoskopie nach drei Monaten ist ein wichtiger Prognosepunkt. Spätere Intervalle werden risikoadaptiert festgelegt; Symptomfreiheit ersetzt diese Kontrolle nicht."
+            },
+            "D": {
+              "text": "Nach drei Monaten",
+              "rationale": "Die erste Zystoskopie nach drei Monaten ist ein wichtiger Prognosepunkt. Spätere Intervalle werden risikoadaptiert festgelegt; Symptomfreiheit ersetzt diese Kontrolle nicht."
+            }
+          },
+          "explanation": {
+            "core": "Die erste Zystoskopie nach drei Monaten ist ein wichtiger Prognosepunkt. Spätere Intervalle werden risikoadaptiert festgelegt; Symptomfreiheit ersetzt diese Kontrolle nicht.",
+            "teaching_point": "Die erste Zystoskopie nach drei Monaten ist ein wichtiger Prognosepunkt."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A Ta low-grade tumour has been completely resected. When is the first routine surveillance cystoscopy scheduled?",
+          "lead_in": "Which answer is most appropriate?",
+          "options": {
+            "A": {
+              "text": "Not until twelve months",
+              "rationale": "The first cystoscopy at three months is an important prognostic assessment. Later intervals depend on risk; absence of symptoms does not replace this examination."
+            },
+            "B": {
+              "text": "Not until three years",
+              "rationale": "The first cystoscopy at three months is an important prognostic assessment. Later intervals depend on risk; absence of symptoms does not replace this examination."
+            },
+            "C": {
+              "text": "Only if visible haematuria recurs",
+              "rationale": "The first cystoscopy at three months is an important prognostic assessment. Later intervals depend on risk; absence of symptoms does not replace this examination."
+            },
+            "D": {
+              "text": "At three months",
+              "rationale": "The first cystoscopy at three months is an important prognostic assessment. Later intervals depend on risk; absence of symptoms does not replace this examination."
+            }
+          },
+          "explanation": {
+            "core": "The first cystoscopy at three months is an important prognostic assessment. Later intervals depend on risk; absence of symptoms does not replace this examination.",
+            "teaching_point": "The first cystoscopy at three months is an important prognostic assessment."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Se ha resecado completamente un tumor Ta de bajo grado. ¿Cuándo se programa la primera cistoscopia de seguimiento?",
+          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Solo a los doce meses",
+              "rationale": "La primera cistoscopia a los tres meses aporta información pronóstica. Los intervalos posteriores dependen del riesgo; no tener síntomas no sustituye este control."
+            },
+            "B": {
+              "text": "Solo a los tres años",
+              "rationale": "La primera cistoscopia a los tres meses aporta información pronóstica. Los intervalos posteriores dependen del riesgo; no tener síntomas no sustituye este control."
+            },
+            "C": {
+              "text": "Solo si reaparece hematuria visible",
+              "rationale": "La primera cistoscopia a los tres meses aporta información pronóstica. Los intervalos posteriores dependen del riesgo; no tener síntomas no sustituye este control."
+            },
+            "D": {
+              "text": "A los tres meses",
+              "rationale": "La primera cistoscopia a los tres meses aporta información pronóstica. Los intervalos posteriores dependen del riesgo; no tener síntomas no sustituye este control."
+            }
+          },
+          "explanation": {
+            "core": "La primera cistoscopia a los tres meses aporta información pronóstica. Los intervalos posteriores dependen del riesgo; no tener síntomas no sustituye este control.",
+            "teaching_point": "La primera cistoscopia a los tres meses aporta información pronóstica."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-nmi-00008",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "nmibc",
+        "subdomain": "Zytologie",
+        "tags": [
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines: Non Muscle Invasive Bladder Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/non-muscle-invasive-bladder-cancer/chapter/diagnosis",
+          "accessed": "2026-09-11"
+        }
+      ],
+      "review": {
+        "author": "AI-assisted editorial addition",
+        "reviewer": null,
+        "created": "2026-09-11",
+        "last_reviewed": null,
+        "expires": "2027-03-11",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "Original trilingual cases checked against EAU online chapters",
+          "clinical_signoff": false
+        }
+      },
+      "content": {
+        "de": {
+          "vignette": "Bei schmerzloser Makrohämaturie ist die Urinzytologie negativ. Welche Schlussfolgerung ist richtig?",
+          "lead_in": "Welche Antwort trifft am besten zu?",
+          "options": {
+            "A": {
+              "text": "Ein Urothelkarzinom bleibt möglich",
+              "rationale": "Negative Zytologie schließt ein Urothelkarzinom nicht aus, insbesondere bei Low-Grade-Tumoren. Sie ersetzt die indizierte Hämaturieabklärung nicht und diagnostiziert keinen Infekt."
+            },
+            "B": {
+              "text": "Ein Low-Grade-Tumor ist ausgeschlossen",
+              "rationale": "Negative Zytologie schließt ein Urothelkarzinom nicht aus, insbesondere bei Low-Grade-Tumoren. Sie ersetzt die indizierte Hämaturieabklärung nicht und diagnostiziert keinen Infekt."
+            },
+            "C": {
+              "text": "Eine Zystoskopie ist damit entbehrlich",
+              "rationale": "Negative Zytologie schließt ein Urothelkarzinom nicht aus, insbesondere bei Low-Grade-Tumoren. Sie ersetzt die indizierte Hämaturieabklärung nicht und diagnostiziert keinen Infekt."
+            },
+            "D": {
+              "text": "Der Befund beweist eine Harnwegsinfektion",
+              "rationale": "Negative Zytologie schließt ein Urothelkarzinom nicht aus, insbesondere bei Low-Grade-Tumoren. Sie ersetzt die indizierte Hämaturieabklärung nicht und diagnostiziert keinen Infekt."
+            }
+          },
+          "explanation": {
+            "core": "Negative Zytologie schließt ein Urothelkarzinom nicht aus, insbesondere bei Low-Grade-Tumoren. Sie ersetzt die indizierte Hämaturieabklärung nicht und diagnostiziert keinen Infekt.",
+            "teaching_point": "Negative Zytologie schließt ein Urothelkarzinom nicht aus, insbesondere bei Low-Grade-Tumoren."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Urine cytology is negative in a patient with painless visible haematuria. Which conclusion is correct?",
+          "lead_in": "Which answer is most appropriate?",
+          "options": {
+            "A": {
+              "text": "Urothelial cancer remains possible",
+              "rationale": "Negative cytology does not exclude urothelial cancer, particularly low-grade tumours. It neither replaces indicated haematuria evaluation nor diagnoses infection."
+            },
+            "B": {
+              "text": "A low-grade tumour is excluded",
+              "rationale": "Negative cytology does not exclude urothelial cancer, particularly low-grade tumours. It neither replaces indicated haematuria evaluation nor diagnoses infection."
+            },
+            "C": {
+              "text": "Cystoscopy is therefore unnecessary",
+              "rationale": "Negative cytology does not exclude urothelial cancer, particularly low-grade tumours. It neither replaces indicated haematuria evaluation nor diagnoses infection."
+            },
+            "D": {
+              "text": "The result proves urinary infection",
+              "rationale": "Negative cytology does not exclude urothelial cancer, particularly low-grade tumours. It neither replaces indicated haematuria evaluation nor diagnoses infection."
+            }
+          },
+          "explanation": {
+            "core": "Negative cytology does not exclude urothelial cancer, particularly low-grade tumours. It neither replaces indicated haematuria evaluation nor diagnoses infection.",
+            "teaching_point": "Negative cytology does not exclude urothelial cancer, particularly low-grade tumours."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "La citología urinaria es negativa en un paciente con hematuria visible indolora. ¿Qué conclusión es correcta?",
+          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Sigue siendo posible un carcinoma urotelial",
+              "rationale": "Una citología negativa no descarta carcinoma urotelial, especialmente de bajo grado. No sustituye el estudio indicado de la hematuria ni diagnostica infección."
+            },
+            "B": {
+              "text": "Se excluye un tumor de bajo grado",
+              "rationale": "Una citología negativa no descarta carcinoma urotelial, especialmente de bajo grado. No sustituye el estudio indicado de la hematuria ni diagnostica infección."
+            },
+            "C": {
+              "text": "La cistoscopia ya no es necesaria",
+              "rationale": "Una citología negativa no descarta carcinoma urotelial, especialmente de bajo grado. No sustituye el estudio indicado de la hematuria ni diagnostica infección."
+            },
+            "D": {
+              "text": "El resultado demuestra infección urinaria",
+              "rationale": "Una citología negativa no descarta carcinoma urotelial, especialmente de bajo grado. No sustituye el estudio indicado de la hematuria ni diagnostica infección."
+            }
+          },
+          "explanation": {
+            "core": "Una citología negativa no descarta carcinoma urotelial, especialmente de bajo grado. No sustituye el estudio indicado de la hematuria ni diagnostica infección.",
+            "teaching_point": "Una citología negativa no descarta carcinoma urotelial, especialmente de bajo grado."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-nmi-00009",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "nmibc",
+        "subdomain": "Rauchstopp",
+        "tags": [
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines: Non Muscle Invasive Bladder Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/non-muscle-invasive-bladder-cancer/chapter/disease-management",
+          "accessed": "2026-09-11"
+        }
+      ],
+      "review": {
+        "author": "AI-assisted editorial addition",
+        "reviewer": null,
+        "created": "2026-09-11",
+        "last_reviewed": null,
+        "expires": "2027-03-11",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "Original trilingual cases checked against EAU online chapters",
+          "clinical_signoff": false
+        }
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein Raucher wird nach TUR-B eines NMIBC beraten. Welche Empfehlung gehört zur Betreuung?",
+          "lead_in": "Welche Antwort trifft am besten zu?",
+          "options": {
+            "A": {
+              "text": "Rauchstopp ersetzt die Zystoskopien",
+              "rationale": "Rauchstoppberatung gehört zur Versorgung. Rauchen ist mit ungünstigen Verläufen verbunden; weder BCG noch das Tumorstadium machen die Beratung überflüssig. Nachsorge bleibt notwendig."
+            },
+            "B": {
+              "text": "Strukturierte Unterstützung zum Rauchstopp",
+              "rationale": "Rauchstoppberatung gehört zur Versorgung. Rauchen ist mit ungünstigen Verläufen verbunden; weder BCG noch das Tumorstadium machen die Beratung überflüssig. Nachsorge bleibt notwendig."
+            },
+            "C": {
+              "text": "Rauchstopp erst bei Muskelinvasion",
+              "rationale": "Rauchstoppberatung gehört zur Versorgung. Rauchen ist mit ungünstigen Verläufen verbunden; weder BCG noch das Tumorstadium machen die Beratung überflüssig. Nachsorge bleibt notwendig."
+            },
+            "D": {
+              "text": "Unverändertes Rauchen bei BCG-Therapie",
+              "rationale": "Rauchstoppberatung gehört zur Versorgung. Rauchen ist mit ungünstigen Verläufen verbunden; weder BCG noch das Tumorstadium machen die Beratung überflüssig. Nachsorge bleibt notwendig."
+            }
+          },
+          "explanation": {
+            "core": "Rauchstoppberatung gehört zur Versorgung. Rauchen ist mit ungünstigen Verläufen verbunden; weder BCG noch das Tumorstadium machen die Beratung überflüssig. Nachsorge bleibt notwendig.",
+            "teaching_point": "Rauchstoppberatung gehört zur Versorgung."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A smoker receives counselling after TURBT for NMIBC. Which recommendation belongs in his care?",
+          "lead_in": "Which answer is most appropriate?",
+          "options": {
+            "A": {
+              "text": "Stopping smoking replaces cystoscopies",
+              "rationale": "Smoking-cessation counselling is part of care. Smoking is associated with adverse outcomes; BCG and tumour stage do not remove the need for counselling. Surveillance remains necessary."
+            },
+            "B": {
+              "text": "Structured smoking-cessation support",
+              "rationale": "Smoking-cessation counselling is part of care. Smoking is associated with adverse outcomes; BCG and tumour stage do not remove the need for counselling. Surveillance remains necessary."
+            },
+            "C": {
+              "text": "Stop only if muscle invasion develops",
+              "rationale": "Smoking-cessation counselling is part of care. Smoking is associated with adverse outcomes; BCG and tumour stage do not remove the need for counselling. Surveillance remains necessary."
+            },
+            "D": {
+              "text": "Continue smoking during BCG therapy",
+              "rationale": "Smoking-cessation counselling is part of care. Smoking is associated with adverse outcomes; BCG and tumour stage do not remove the need for counselling. Surveillance remains necessary."
+            }
+          },
+          "explanation": {
+            "core": "Smoking-cessation counselling is part of care. Smoking is associated with adverse outcomes; BCG and tumour stage do not remove the need for counselling. Surveillance remains necessary.",
+            "teaching_point": "Smoking-cessation counselling is part of care."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Un fumador recibe asesoramiento tras RTU de un TVNMI. ¿Qué recomendación debe incluirse?",
+          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Dejar de fumar sustituye las cistoscopias",
+              "rationale": "El apoyo para dejar de fumar forma parte de la atención. El tabaquismo se asocia a resultados desfavorables; ni BCG ni el estadio eliminan la necesidad del consejo. El seguimiento sigue siendo necesario."
+            },
+            "B": {
+              "text": "Apoyo estructurado para dejar de fumar",
+              "rationale": "El apoyo para dejar de fumar forma parte de la atención. El tabaquismo se asocia a resultados desfavorables; ni BCG ni el estadio eliminan la necesidad del consejo. El seguimiento sigue siendo necesario."
+            },
+            "C": {
+              "text": "Dejarlo solo si aparece invasión muscular",
+              "rationale": "El apoyo para dejar de fumar forma parte de la atención. El tabaquismo se asocia a resultados desfavorables; ni BCG ni el estadio eliminan la necesidad del consejo. El seguimiento sigue siendo necesario."
+            },
+            "D": {
+              "text": "Seguir fumando durante la BCG",
+              "rationale": "El apoyo para dejar de fumar forma parte de la atención. El tabaquismo se asocia a resultados desfavorables; ni BCG ni el estadio eliminan la necesidad del consejo. El seguimiento sigue siendo necesario."
+            }
+          },
+          "explanation": {
+            "core": "El apoyo para dejar de fumar forma parte de la atención. El tabaquismo se asocia a resultados desfavorables; ni BCG ni el estadio eliminan la necesidad del consejo. El seguimiento sigue siendo necesario.",
+            "teaching_point": "El apoyo para dejar de fumar forma parte de la atención."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-nmi-00010",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "nmibc",
+        "subdomain": "CIS und Resektion",
+        "tags": [
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines: Non Muscle Invasive Bladder Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/non-muscle-invasive-bladder-cancer/chapter/disease-management",
+          "accessed": "2026-09-11"
+        }
+      ],
+      "review": {
+        "author": "AI-assisted editorial addition",
+        "reviewer": null,
+        "created": "2026-09-11",
+        "last_reviewed": null,
+        "expires": "2027-03-11",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "Original trilingual cases checked against EAU online chapters",
+          "clinical_signoff": false
+        }
+      },
+      "content": {
+        "de": {
+          "vignette": "Blasenbiopsien zeigen ein ausgedehntes CIS ohne Invasion. Welche Aussage zur alleinigen endoskopischen Resektion trifft zu?",
+          "lead_in": "Welche Antwort trifft am besten zu?",
+          "options": {
+            "A": {
+              "text": "Sie macht jede Nachsorge überflüssig",
+              "rationale": "CIS ist eine flache High-Grade-Läsion und lässt sich durch endoskopische Entfernung allein nicht ausreichend behandeln. Risikoadaptierte BCG-Therapie oder Zystektomie und Nachsorge müssen besprochen werden."
+            },
+            "B": {
+              "text": "Sie ist identisch mit einer BCG-Therapie",
+              "rationale": "CIS ist eine flache High-Grade-Läsion und lässt sich durch endoskopische Entfernung allein nicht ausreichend behandeln. Risikoadaptierte BCG-Therapie oder Zystektomie und Nachsorge müssen besprochen werden."
+            },
+            "C": {
+              "text": "Sie ist als alleinige CIS-Therapie unzureichend",
+              "rationale": "CIS ist eine flache High-Grade-Läsion und lässt sich durch endoskopische Entfernung allein nicht ausreichend behandeln. Risikoadaptierte BCG-Therapie oder Zystektomie und Nachsorge müssen besprochen werden."
+            },
+            "D": {
+              "text": "Sie heilt ein ausgedehntes CIS zuverlässig",
+              "rationale": "CIS ist eine flache High-Grade-Läsion und lässt sich durch endoskopische Entfernung allein nicht ausreichend behandeln. Risikoadaptierte BCG-Therapie oder Zystektomie und Nachsorge müssen besprochen werden."
+            }
+          },
+          "explanation": {
+            "core": "CIS ist eine flache High-Grade-Läsion und lässt sich durch endoskopische Entfernung allein nicht ausreichend behandeln. Risikoadaptierte BCG-Therapie oder Zystektomie und Nachsorge müssen besprochen werden.",
+            "teaching_point": "CIS ist eine flache High-Grade-Läsion und lässt sich durch endoskopische Entfernung allein nicht ausreichend behandeln."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Bladder biopsies show extensive CIS without invasion. Which statement about endoscopic resection alone is correct?",
+          "lead_in": "Which answer is most appropriate?",
+          "options": {
+            "A": {
+              "text": "It removes the need for surveillance",
+              "rationale": "CIS is a flat high-grade lesion that is not adequately treated by endoscopic removal alone. Risk-adapted BCG or cystectomy and surveillance must be discussed."
+            },
+            "B": {
+              "text": "It is equivalent to BCG therapy",
+              "rationale": "CIS is a flat high-grade lesion that is not adequately treated by endoscopic removal alone. Risk-adapted BCG or cystectomy and surveillance must be discussed."
+            },
+            "C": {
+              "text": "It is insufficient as sole CIS treatment",
+              "rationale": "CIS is a flat high-grade lesion that is not adequately treated by endoscopic removal alone. Risk-adapted BCG or cystectomy and surveillance must be discussed."
+            },
+            "D": {
+              "text": "It reliably cures extensive CIS",
+              "rationale": "CIS is a flat high-grade lesion that is not adequately treated by endoscopic removal alone. Risk-adapted BCG or cystectomy and surveillance must be discussed."
+            }
+          },
+          "explanation": {
+            "core": "CIS is a flat high-grade lesion that is not adequately treated by endoscopic removal alone. Risk-adapted BCG or cystectomy and surveillance must be discussed.",
+            "teaching_point": "CIS is a flat high-grade lesion that is not adequately treated by endoscopic removal alone."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Las biopsias vesicales muestran CIS extenso sin invasión. ¿Qué afirmación sobre la resección endoscópica sola es correcta?",
+          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Elimina la necesidad de seguimiento",
+              "rationale": "El CIS es una lesión plana de alto grado que no se trata adecuadamente solo con resección endoscópica. Deben discutirse BCG o cistectomía según el riesgo y el seguimiento."
+            },
+            "B": {
+              "text": "Equivale al tratamiento con BCG",
+              "rationale": "El CIS es una lesión plana de alto grado que no se trata adecuadamente solo con resección endoscópica. Deben discutirse BCG o cistectomía según el riesgo y el seguimiento."
+            },
+            "C": {
+              "text": "Es insuficiente como único tratamiento del CIS",
+              "rationale": "El CIS es una lesión plana de alto grado que no se trata adecuadamente solo con resección endoscópica. Deben discutirse BCG o cistectomía según el riesgo y el seguimiento."
+            },
+            "D": {
+              "text": "Cura de forma fiable el CIS extenso",
+              "rationale": "El CIS es una lesión plana de alto grado que no se trata adecuadamente solo con resección endoscópica. Deben discutirse BCG o cistectomía según el riesgo y el seguimiento."
+            }
+          },
+          "explanation": {
+            "core": "El CIS es una lesión plana de alto grado que no se trata adecuadamente solo con resección endoscópica. Deben discutirse BCG o cistectomía según el riesgo y el seguimiento.",
+            "teaching_point": "El CIS es una lesión plana de alto grado que no se trata adecuadamente solo con resección endoscópica."
           },
           "flag_note": null
         }

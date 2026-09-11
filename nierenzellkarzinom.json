@@ -12,7 +12,8 @@
           "pharmakologie",
           "dosierung",
           "nachsorge"
-        ]
+        ],
+        "domain": "nierenzellkarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -112,12 +113,46 @@
             "teaching_point": "Not every resected renal cell carcinoma gets adjuvant therapy. Histology and risk group decide."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 58 años tras nefrectomía radical por carcinoma de células renales de células claras pT3a pN0 cM0, R0, grado nuclear 3, ECOG 0. Sin enfermedad autoinmune, sin inmunosupresión.",
+          "lead_in": "¿Qué tratamiento adyuvante está indicado?",
+          "options": {
+            "A": {
+              "text": "Sin tratamiento adyuvante, sólo vigilancia",
+              "rationale": "Correcto hasta 2021. Para un mayor riesgo de recurrencia, ahora existe una opción efectiva y aprobada."
+            },
+            "B": {
+              "text": "Pembrolizumab adyuvante hasta por un año",
+              "rationale": "KEYNOTE-564 mostró un beneficio en la supervivencia general y libre de enfermedad para un mayor riesgo de recurrencia. Un tumor pT3 cumple con los criterios de inclusión. Administrado en forma de 200 mg IV cada tres semanas o 400 mg cada seis semanas. KEYNOTE-564 mostró un beneficio en la supervivencia general y libre de enfermedad con un mayor riesgo de recurrencia."
+            },
+            "C": {
+              "text": "Adyuvante nivolumab más ipilimumab combinados",
+              "rationale": "El ensayo adyuvante de esta combinación no alcanzó su criterio de valoración principal."
+            },
+            "D": {
+              "text": "Adyuvante sunitinib 50 mg en pauta de cuatro semanas de tratamiento y dos de descanso",
+              "rationale": "La inhibición adyuvante de la tirosina quinasa no mejoró la supervivencia general y no está aprobada para esta indicación en Europa."
+            }
+          },
+          "explanation": {
+            "core": "La terapia adyuvante en el carcinoma de células renales requiere tres condiciones: histología de células claras, mayor riesgo de recurrencia después de la resección completa y ausencia de contraindicaciones para un inhibidor de puntos de control. Si falta uno, sólo queda el seguimiento.",
+            "teaching_point": "No todos los carcinomas de células renales resecados reciben terapia adyuvante. La histología y el grupo de riesgo deciden."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-rcc-00002",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "metastasiert",
@@ -126,7 +161,8 @@
           "zulassung",
           "pharmakologie",
           "dosierung"
-        ]
+        ],
+        "domain": "nierenzellkarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -163,6 +199,12 @@
           "code": "EAU",
           "title": "EAU Guidelines on Renal Cell Carcinoma",
           "year": 2026
+        },
+        {
+          "type": "reference",
+          "title": "EAU: IMDC prognostic factors",
+          "url": "https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/prognostic-factors",
+          "accessed": "2026-09-10"
         }
       ],
       "review": {
@@ -170,11 +212,16 @@
         "reviewer": null,
         "created": "2026-09-05",
         "last_reviewed": "2026-09-05",
-        "expires": "2027-09-05"
+        "expires": "2027-09-05",
+        "editorial_review": {
+          "date": "2026-09-10",
+          "method": "AI-assisted source cross-check",
+          "clinical_signoff": false
+        }
       },
       "content": {
         "de": {
-          "vignette": "62-jähriger Patient mit synchron metastasiertem klarzelligem Nierenzellkarzinom, zwei pulmonale Herde, ECOG 0, Diagnose vor zwei Monaten, Hämoglobin, Calcium, Neutrophile und Thrombozyten im Normbereich. Nach IMDC ergibt sich ein günstiges Risikoprofil.",
+          "vignette": "62-jähriger Mann mit klarzelligem Nierenzellkarzinom, Erstdiagnose und Nephrektomie vor drei Jahren. Jetzt progrediente Lungenmetastasen mit Systemtherapiebedarf. Karnofsky 100 %, Hämoglobin, Kalzium, Neutrophile und Thrombozyten normal: IMDC günstig.",
           "lead_in": "Welche Aussage zur Erstlinientherapie trifft zu?",
           "options": {
             "A": {
@@ -201,7 +248,7 @@
           "flag_note": null
         },
         "en": {
-          "vignette": "62-year-old man with synchronous metastatic clear cell renal cell carcinoma, two pulmonary lesions, ECOG 0, diagnosed two months ago, with haemoglobin, calcium, neutrophils and platelets all within range. The IMDC profile is favourable risk.",
+          "vignette": "62-year-old man with clear cell renal cell carcinoma diagnosed and resected three years ago. He now has progressive lung metastases requiring systemic therapy. Karnofsky 100%, normal haemoglobin, calcium, neutrophils and platelets: favourable IMDC risk.",
           "lead_in": "Which statement about first-line therapy is correct?",
           "options": {
             "A": {
@@ -226,6 +273,40 @@
             "teaching_point": "Calculate the IMDC score before the treatment decision, not after."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 62 años con carcinoma de células renales de células claras diagnosticado y resecado hace tres años. Ahora tiene metástasis pulmonares progresivas que requieren terapia sistémica. Karnofsky 100%, hemoglobina, calcio, neutrófilos y plaquetas normales: riesgo IMDC favorable.",
+          "lead_in": "¿Qué afirmación sobre el tratamiento de primera línea es correcta?",
+          "options": {
+            "A": {
+              "text": "Ipilimumab más nivolumab independientemente del riesgo IMDC",
+              "rationale": "La aprobación de esta combinación en el carcinoma de células renales se limita a riesgo IMDC intermedio y bajo; en el grupo favorable no fue superior al comparador."
+            },
+            "B": {
+              "text": "Un inhibidor de puntos de control más un inhibidor de tirosina quinasa",
+              "rationale": "Las combinaciones IO/TKI están aprobadas independientemente del riesgo IMDC y también mostraron altas tasas de respuesta en el grupo favorable. Lo aprobado y apropiado aquí es pembrolizumab 200 mg cada tres semanas más axitinib 5 mg dos veces al día. Estas combinaciones están aprobadas independientemente del riesgo IMDC."
+            },
+            "C": {
+              "text": "Ninguna terapia sistémica en absoluto en enfermedad de riesgo favorable.",
+              "rationale": "Un período de vigilancia activa es una opción considerada en la enfermedad asintomática y de crecimiento lento, pero esto no constituye una suspensión general del tratamiento."
+            },
+            "D": {
+              "text": "Monoterapia con sunitinib como estándar en riesgo favorable",
+              "rationale": "Sunitinib es ahora el brazo de comparación, no el estándar; las combinaciones son superiores en tasa de respuesta y supervivencia libre de progresión."
+            }
+          },
+          "explanation": {
+            "core": "En el carcinoma de células renales metastásico, el perfil IMDC rige no sólo el pronóstico sino también los límites de las autorizaciones de comercialización. La inmunoterapia dual está ligada a un riesgo intermedio o desfavorable; Las combinaciones IO/TKI no lo son. Sin determinar el riesgo no se puede comprobar la etiqueta.",
+            "teaching_point": "Calcule la puntuación IMDC antes de la decisión de tratamiento, no después."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -240,7 +321,8 @@
           "pharmakologie",
           "dosierung",
           "leitlinie"
-        ]
+        ],
+        "domain": "nierenzellkarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 5,
@@ -336,6 +418,40 @@
             "teaching_point": "Collecting duct carcinoma means chemotherapy, not checkpoint inhibition."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 54 años con tumor infiltrativo centrado en médula renal, adenopatías retroperitoneales extensas y metástasis pulmonares. Histología: carcinoma del conducto colector (Bellini) con reacción estromal desmoplásica. ECOG 1, TFG 78 ml/min.",
+          "lead_in": "¿Qué terapia sistémica está indicada?",
+          "options": {
+            "A": {
+              "text": "Ipilimumab más nivolumab como en el carcinoma de células claras",
+              "rationale": "La aprobación y la evidencia de la inmunoterapia dual se relacionan con el carcinoma de células claras; en el carcinoma del conducto colector la eficacia no está probada."
+            },
+            "B": {
+              "text": "Sunitinib como monoterapia dirigida por VEGF",
+              "rationale": "Las tasas de respuesta a los inhibidores de la tirosina cinasa son bajas en este subtipo y no justifican omitir la quimioterapia."
+            },
+            "C": {
+              "text": "Quimioterapia basada en platino como en el carcinoma urotelial",
+              "rationale": "El carcinoma del conducto colector surge de la nefrona distal y comparte comportamiento y quimiosensibilidad con el carcinoma urotelial. Específicamente gemcitabina 1000 mg/m² los días 1 y 8 con cisplatino 70 mg/m² el día 1, cada tres semanas. El tumor surge de la nefrona distal y se comporta en consecuencia."
+            },
+            "D": {
+              "text": "Vigilancia activa por el mal pronóstico",
+              "rationale": "El curso agresivo exige un tratamiento rápido, no observación."
+            }
+          },
+          "explanation": {
+            "core": "El subtipo histológico determina toda la estrategia sistémica en el carcinoma de células renales. El carcinoma de los conductos colectores y el carcinoma medular estrechamente relacionado surgen de la nefrona distal y se tratan con quimioterapia basada en platino, mientras que los inhibidores de los puntos de control y los inhibidores de la tirosina quinasa tienen su lugar en la enfermedad de células claras.",
+            "teaching_point": "El carcinoma del conducto colector significa quimioterapia, no inhibición de los puntos de control."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -349,7 +465,8 @@
           "pathologie",
           "labordiagnostik",
           "pharmakologie"
-        ]
+        ],
+        "domain": "nierenzellkarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 5,
@@ -445,6 +562,40 @@
             "teaching_point": "Young patient, sickle cell trait, central renal tumour: ask for INI1."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 23 años con hematuria macroscópica y dolor en flanco. La TC muestra un tumor renal derecho infiltrativo central con metástasis ganglionares y hepáticas. Es un conocido portador del rasgo de células falciformes. La inmunohistoquímica muestra pérdida de expresión de INI1.",
+          "lead_in": "¿Qué entidad es esta y cómo se trata?",
+          "options": {
+            "A": {
+              "text": "Carcinoma de células claras; inhibidor del punto de control más TKI",
+              "rationale": "Ni la edad ni el patrón de crecimiento ni la pérdida de INI1 se ajustan al carcinoma de células claras."
+            },
+            "B": {
+              "text": "Carcinoma medular renal; quimioterapia con platino",
+              "rationale": "Es característica la tríada de edad temprana, rasgo de células falciformes y pérdida de SMARCB1 o INI1. El tumor responde al platino, no a la terapia dirigida o de puntos de control. La tríada de edad temprana, rasgo de células falciformes y pérdida de SMARCB1 o INI1 es característica y excluye las otras entidades."
+            },
+            "C": {
+              "text": "Carcinoma papilar tipo 2; tratamiento con cabozantinib",
+              "rationale": "La pérdida de INI1 y la asociación con una hemoglobinopatía excluyen esta clasificación."
+            },
+            "D": {
+              "text": "Linfoma renal; inmunoquimioterapia basada en rituximab",
+              "rationale": "La inmunohistoquímica demuestra un tumor epitelial con pérdida de INI1, no un infiltrado linfoide."
+            }
+          },
+          "explanation": {
+            "core": "El carcinoma medular renal ocurre casi exclusivamente en portadores del rasgo de células falciformes, afecta a pacientes jóvenes y se define por la pérdida de SMARCB1. Se comporta como un carcinoma del conducto colector, del que hay que distinguirlo, y también se trata con platino.",
+            "teaching_point": "Paciente joven, rasgo falciforme, tumor renal central: consultar por INI1."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -458,7 +609,8 @@
           "pathologie",
           "pharmakologie",
           "leitlinie"
-        ]
+        ],
+        "domain": "nierenzellkarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -558,6 +710,40 @@
             "teaching_point": "Non-clear-cell is a collective label, not a treatment decision."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 61 años con carcinoma papilar de células renales metastásico, ECOG 1, riesgo IMDC intermedio. La patología molecular muestra una alteración del MET.",
+          "lead_in": "¿Qué tratamiento de primera línea está mejor justificado?",
+          "options": {
+            "A": {
+              "text": "Interferón alfa como monoterapia de primera línea",
+              "rationale": "Histórico y hoy sin relevancia de primera línea."
+            },
+            "B": {
+              "text": "Quimioterapia con platino como en el carcinoma del conducto colector",
+              "rationale": "La quimiosensibilidad se aplica al carcinoma medular y del conducto colector, no a la enfermedad papilar."
+            },
+            "C": {
+              "text": "Ipilimumab más nivolumab para todas las formas de células no claras",
+              "rationale": "La eficacia entre los subtipos de células no claras es inconsistente y está menos establecida para el carcinoma papilar que la terapia dirigida por MET."
+            },
+            "D": {
+              "text": "Cabozantinib para el eje MET en el carcinoma papilar",
+              "rationale": "El eje MET es la vía impulsora en el carcinoma papilar y cabozantinib inhibe MET y AXL además de VEGFR. En una comparación aleatoria, mostró una supervivencia libre de progresión más larga que sunitinib. Cabozantinib inhibe MET y AXL además de VEGFR."
+            }
+          },
+          "explanation": {
+            "core": "Los carcinomas de células renales de células no claras no constituyen un grupo uniforme. El carcinoma papilar está predominantemente impulsado por MET y, por lo tanto, responde mejor a cabozantinib que a la inhibición pura de VEGF. Esta diferenciación presupone que el subtipo se establece antes de la decisión de tratamiento.",
+            "teaching_point": "La categoría de células no claras es una etiqueta colectiva, no una decisión de tratamiento."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -571,7 +757,8 @@
           "pathologie",
           "pharmakologie",
           "leitlinie"
-        ]
+        ],
+        "domain": "nierenzellkarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -667,6 +854,40 @@
             "teaching_point": "Sarcomatoid is prognostically bad and predictively good. Both hold at once."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 58 años con carcinoma de células renales de células claras metastásico. Anatomía patológica reporta un componente sarcomatoide del 30 por ciento. Riesgo intermedio IMDC, ECOG 1, sin enfermedad autoinmune.",
+          "lead_in": "¿Cómo influye el componente sarcomatoide en la elección del tratamiento?",
+          "options": {
+            "A": {
+              "text": "Favorece una combinación de inmunoterapia",
+              "rationale": "Los tumores sarcomatoides expresan con mayor frecuencia PD-L1 y muestran altas tasas de respuesta y remisión completa con combinaciones inmunes en análisis de subgrupos. Los tumores sarcomatoides expresan con mayor frecuencia PD-L1 y muestran altas tasas de respuesta y remisión completa con combinaciones inmunes en análisis de subgrupos, a pesar de su mal pronóstico."
+            },
+            "B": {
+              "text": "Argumenta en contra de la inmunoterapia de cualquier tipo.",
+              "rationale": "Lo contrario es cierto; este componente es precisamente un argumento a favor de la terapia inmunitaria combinada."
+            },
+            "C": {
+              "text": "Hace que la quimioterapia con platino sea la opción de primera línea",
+              "rationale": "El sarcomatoide no es un subtipo separado sino una desdiferenciación; la quimioterapia se reserva para el carcinoma medular y del conducto colector."
+            },
+            "D": {
+              "text": "Tiene valor pronóstico pero no influye en la elección del fármaco.",
+              "rationale": "Influye tanto en el pronóstico como en la selección y, por lo tanto, pertenece explícitamente al informe."
+            }
+          },
+          "explanation": {
+            "core": "La diferenciación sarcomatoide no es un subtipo sino una desdiferenciación que puede surgir en cualquier subtipo. Empeora notablemente el pronóstico y predice una respuesta superior a la media a los inhibidores de los puntos de control. Por lo tanto, el porcentaje pertenece a cada informe de patología.",
+            "teaching_point": "La diferenciación sarcomatoide empeora el pronóstico, pero puede predecir una mayor respuesta a la inmunoterapia."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -679,7 +900,8 @@
         "tags": [
           "pathologie",
           "pharmakologie"
-        ]
+        ],
+        "domain": "nierenzellkarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -775,6 +997,40 @@
             "teaching_point": "A favourable prognosis here also means less response to immunotherapy."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Una mujer de 49 años fue sometida a nefrectomía hace tres años por un carcinoma de células renales cromófobos. Ahora han aparecido dos metástasis pulmonares de crecimiento lento. Se encuentra asintomática, ECOG 0.",
+          "lead_in": "¿Qué afirmación es correcta?",
+          "options": {
+            "A": {
+              "text": "Particularmente sensible a la doble inhibición de puntos de control inmunitario",
+              "rationale": "Las tasas de respuesta en este subtipo son más bajas que en el carcinoma de células claras."
+            },
+            "B": {
+              "text": "Pronóstico más favorable pero peor respuesta a la IO",
+              "rationale": "El subtipo se comporta de forma más indolente y la inmunoterapia es menos eficaz en este caso. Con una progresión lenta y asintomática, hay tiempo para observar. Por lo tanto, con una carga tumoral baja y sin síntomas, es defendible un período limitado de vigilancia activa antes del tratamiento dirigido por VEGF."
+            },
+            "C": {
+              "text": "Indistinguible del oncocitoma y tratado igual",
+              "rationale": "El oncocitoma es benigno; la distinción es histológica y terapéuticamente decisiva."
+            },
+            "D": {
+              "text": "La quimioterapia basada en platino es el estándar aquí",
+              "rationale": "Esto se aplica al carcinoma medular y del conducto colector, no al subtipo cromófobo."
+            }
+          },
+          "explanation": {
+            "core": "Al igual que el oncocitoma, el carcinoma cromófobo surge de las células intercaladas del sistema colector, se comporta de manera más indolente que el carcinoma de células claras y metastatiza con menos frecuencia. Cuando hace metástasis, la respuesta a los inhibidores de los puntos de control es más débil, por lo que los agentes dirigidos por VEGF y un período de observación ganan importancia.",
+            "teaching_point": "Un pronóstico favorable aquí también significa una menor respuesta a la inmunoterapia."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -788,7 +1044,8 @@
           "bildgebung",
           "pathologie",
           "leitlinie"
-        ]
+        ],
+        "domain": "nierenzellkarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -884,6 +1141,40 @@
             "teaching_point": "Biopsy when you are not operating. Do not biopsy when you are."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 82 años con importante comorbilidad y masa renal sólida, captada con contraste, incidental de 2,6 cm. Sin componente graso en la TC. Se está considerando la ablación térmica o la vigilancia activa.",
+          "lead_in": "¿Qué paso tiene sentido?",
+          "options": {
+            "A": {
+              "text": "Proceder directamente a nefrectomía radical sin estudio",
+              "rationale": "Con este tamaño la pérdida del órgano sería innecesaria y una proporción sustancial de dichas lesiones son benignas o de bajo grado."
+            },
+            "B": {
+              "text": "PET/CT para determinar si la masa es maligna",
+              "rationale": "No establecido para caracterizar masas renales sólidas."
+            },
+            "C": {
+              "text": "Biopsia renal percutánea antes de la ablación o vigilancia.",
+              "rationale": "Establece malignidad y subtipo, evita tratar lesiones benignas y orienta la intensidad de la vigilancia. El riesgo de siembra de tumores es bajo. Establece malignidad y subtipo, evita tratar lesiones benignas y orienta la intensidad de la vigilancia; el riesgo de siembra de tumores es bajo."
+            },
+            "D": {
+              "text": "Seguimiento por imágenes en doce meses sin histología.",
+              "rationale": "Sin histología, no está claro si es necesaria una vigilancia estricta y en qué medida."
+            }
+          },
+          "explanation": {
+            "core": "En masas renales pequeñas la biopsia vale la pena cuando su resultado cambia la decisión: antes de la ablación, antes de la vigilancia activa y antes de la terapia sistémica. Cuando se planifica una cirugía para una lesión inequívoca, no cambia el tratamiento. Un componente graso en la TC indica angiomiolipoma y hace innecesaria la biopsia.",
+            "teaching_point": "Biopsia cuando no esté operando. No haga una biopsia cuando lo esté."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -897,7 +1188,8 @@
           "bildgebung",
           "pharmakologie",
           "notfall"
-        ]
+        ],
+        "domain": "nierenzellkarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -993,6 +1285,40 @@
             "teaching_point": "In angiomyolipoma you treat the bleeding, not the cancer."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 35 años con esclerosis tuberosa y múltiples lesiones renales grasas bilaterales, la mayor de 6 cm. Se encuentra asintomática con función renal normal. Hace tres años la lesión más grande era de 4 cm.",
+          "lead_in": "¿Cuál es la conducta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Nefrectomía radical bilateral con diálisis posterior",
+              "rationale": "La pérdida de órganos no puede justificarse en una condición benigna con función preservada."
+            },
+            "B": {
+              "text": "Biopsia percutánea para establecer primero la malignidad",
+              "rationale": "El componente graso en las imágenes establece el diagnóstico; la biopsia es innecesaria y conlleva riesgo de hemorragia."
+            },
+            "C": {
+              "text": "Trate, ya que el tamaño y el crecimiento aumentan el riesgo de hemorragia.",
+              "rationale": "A partir de aproximadamente cuatro centímetros aumenta el riesgo de rotura con hemorragia retroperitoneal. En la esclerosis tuberosa, un inhibidor de mTOR actúa sobre todas las lesiones simultáneamente. En la esclerosis tuberosa, un inhibidor de mTOR como el everolimus actúa sobre todas las lesiones a la vez; La angioembolización selectiva se aplica en caso de hemorragia aguda o como alternativa para preservar las nefronas."
+            },
+            "D": {
+              "text": "Revisión en cinco años, ya que los angiomiolipomas son benignos",
+              "rationale": "Benigno no significa inofensivo: el principal peligro es la hemorragia espontánea, no la metástasis."
+            }
+          },
+          "explanation": {
+            "core": "El angiomiolipoma es un tumor benigno con riesgo vascular. El tamaño, la dinámica de crecimiento y los síntomas deciden el tratamiento, no la malignidad. En la esclerosis tuberosa se añade la opción sistémica con un inhibidor de mTOR, porque las lesiones suelen ser múltiples y bilaterales.",
+            "teaching_point": "En el angiomiolipoma se trata el sangrado, no el cáncer."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1006,7 +1332,8 @@
           "bildgebung",
           "leitlinie",
           "pathologie"
-        ]
+        ],
+        "domain": "nierenzellkarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -1102,6 +1429,40 @@
             "teaching_point": "Size does not decide; enhancement does."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 57 años con lesión renal quística de 4 cm. La TC muestra varios septos irregulares engrosados ​​con marcado realce de contraste y un componente sólido que también realza.",
+          "lead_in": "¿Cómo se debe clasificar y tratar la lesión?",
+          "options": {
+            "A": {
+              "text": "Bosniak I; no se requiere más evaluación",
+              "rationale": "Bosniak I describe un quiste simple sin septos y sin realce."
+            },
+            "B": {
+              "text": "Bosniak II; Seguimiento por imágenes en seis meses.",
+              "rationale": "Bosniak II cubre unos pocos septos delgados sin realce mensurable y se considera benigno."
+            },
+            "C": {
+              "text": "IIF Bosniak; imágenes de vigilancia durante cinco años",
+              "rationale": "Bosniak IIF describe quistes mínimamente complejos sin un componente sólido de realce, que es precisamente lo que está presente aquí."
+            },
+            "D": {
+              "text": "Bosniak IV; Cirugía, preferiblemente preservadora de nefronas.",
+              "rationale": "Un sólido componente potenciador define a Bosniak IV con una probabilidad muy alta de malignidad. El tratamiento sigue el del carcinoma de células renales sólidas. Un sólido componente potenciador define a Bosniak IV con una probabilidad muy alta de malignidad; el tratamiento es similar al del carcinoma de células renales sólidas."
+            }
+          },
+          "explanation": {
+            "core": "La clasificación de Bosniak clasifica las lesiones renales quísticas según el grosor del tabique, la calcificación, las características de la pared y, sobre todo, el realce con contraste. El límite crítico se encuentra entre el IIF y el III: a partir del Bosniak III la probabilidad de malignidad aumenta aproximadamente a la mitad, y en el Bosniak IV es considerablemente mayor.",
+            "teaching_point": "El realce con contraste orienta la clasificación; el tamaño por sí solo no basta."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1114,7 +1475,8 @@
         "tags": [
           "operationstechnik",
           "leitlinie"
-        ]
+        ],
+        "domain": "nierenzellkarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -1210,6 +1572,40 @@
             "teaching_point": "Size does not rule out organ preservation. Location and margin do."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 60 años con tumor renal exofítico de polo inferior de 5,5 cm, cT1b cN0 cM0. El riñón contralateral es normal, el FG es de 84 ml/min, sin daño diabético ni hipertensivo.",
+          "lead_in": "¿Qué abordaje quirúrgico es preferible?",
+          "options": {
+            "A": {
+              "text": "Nefrectomía parcial, siempre que se pueda lograr un margen claro",
+              "rationale": "La cirugía conservadora de nefronas se establece en cT1b con localización tumoral adecuada y es oncológicamente equivalente a la nefrectomía radical. La preservación del parénquima protege la función renal posterior y, por tanto, el pronóstico cardiovascular. Con una localización tumoral adecuada es oncológicamente equivalente a la nefrectomía radical."
+            },
+            "B": {
+              "text": "Nefrectomía radical, insegura por encima de los cinco centímetros",
+              "rationale": "No existe tal umbral de tamaño; La ubicación, la accesibilidad y la posibilidad de lograr un margen claro deciden."
+            },
+            "C": {
+              "text": "Ablación térmica del tumor como primera opción.",
+              "rationale": "Una opción para tumores pequeños con comorbilidad, no para un tumor de 5,5 cm en un paciente funcionalmente sano."
+            },
+            "D": {
+              "text": "Vigilancia activa con imágenes semestrales",
+              "rationale": "Apropiado para lesiones pequeñas y esperanza de vida limitada, aquí no."
+            }
+          },
+          "explanation": {
+            "core": "La cirugía conservadora de nefronas es el estándar en el carcinoma de células renales localizado siempre que sea técnicamente factible y oncológicamente segura. El beneficio radica menos en el control del tumor que en la preservación de la función renal, ya que una TFG más baja conlleva una mayor mortalidad cardiovascular.",
+            "teaching_point": "El tamaño no descarta la preservación del órgano. La ubicación y el margen sí."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -1223,7 +1619,8 @@
           "operationstechnik",
           "bildgebung",
           "praeoperativ"
-        ]
+        ],
+        "domain": "nierenzellkarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -1319,6 +1716,40 @@
             "teaching_point": "The level of the thrombus determines the operating team, not the prognosis alone."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Hombre de 66 años con un carcinoma de células renales derechos y un trombo tumoral que se extiende en la resonancia magnética por encima del diafragma hasta la aurícula derecha. Sin metástasis a distancia, ECOG 0.",
+          "lead_in": "¿Qué sigue para la planificación?",
+          "options": {
+            "A": {
+              "text": "El trombo hace que la enfermedad sea inoperable.",
+              "rationale": "Incluso los trombos extensos son resecables con intención curativa en ausencia de metástasis."
+            },
+            "B": {
+              "text": "La extensión craneal determina el abordaje y el equipo.",
+              "rationale": "El nivel del trombo determina si es suficiente un abordaje abdominal o si se requiere esternotomía y circulación extracorpórea. Ante un trombo auricular se debe planificar la colaboración con cirugía cardíaca y posible circulación extracorpórea, así como esternotomía y consentimiento."
+            },
+            "C": {
+              "text": "El trombo siempre requiere resección de cava.",
+              "rationale": "Generalmente el trombo se encuentra libre en la luz; Se produce invasión de la pared y se decide intraoperatoriamente."
+            },
+            "D": {
+              "text": "La anticoagulación preoperatoria disuelve el trombo.",
+              "rationale": "Un trombo tumoral está formado por tejido tumoral y no puede disolverse mediante anticoagulación."
+            }
+          },
+          "explanation": {
+            "core": "El trombo tumoral venoso es una peculiaridad del carcinoma de células renales y no excluye la cirugía curativa. La clasificación por extensión craneal desde la vena renal hasta la aurícula derecha determina todo el plan: abordaje, disciplinas involucradas, disponibilidad de circulación extracorpórea y consentimiento.",
+            "teaching_point": "El nivel del trombo determina el equipo quirúrgico, no solo el pronóstico."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     }

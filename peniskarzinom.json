@@ -11,7 +11,8 @@
           "leitlinie",
           "operationstechnik",
           "praeoperativ"
-        ]
+        ],
+        "domain": "peniskarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -107,6 +108,40 @@
             "teaching_point": "In cN0 disease the histology of the primary decides whether to stage invasively, not the palpation finding."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Hombre de 58 años tras glansectomía por carcinoma de células escamosas de pene. Histología: pT1, G3, sin invasión linfovascular, R0. Ambas ingles son clínica y ecográficamente anodinas; Es delgado y fácil de examinar.",
+          "lead_in": "¿Cómo se debe realizar la estadificación inguinal?",
+          "options": {
+            "A": {
+              "text": "Linfadenectomía inguinal radical bilateral",
+              "rationale": "Tratamiento excesivo en ingles clínicamente negativos, que conlleva una morbilidad sustancial por linfedema, problemas de cicatrización de heridas e infección."
+            },
+            "B": {
+              "text": "PET/CT en lugar de estadificación ganglionar invasiva",
+              "rationale": "Insuficientemente sensible para excluir metástasis ocultas en ingles clínicamente negativas; una exploración negativa no descarta la participación."
+            },
+            "C": {
+              "text": "Estadificación invasiva como biopsia dinámica del ganglio centinela",
+              "rationale": "A partir de pT1 G3 existe un riesgo importante de metástasis ocultas. La biopsia centinela los detecta con una morbilidad mucho menor que la linfadenectomía completa. Se realiza de forma bilateral. A partir de pT1 G3 existe un riesgo relevante de metástasis ocultas, y la biopsia centinela las detecta con una morbilidad mucho menor que la disección completa."
+            },
+            "D": {
+              "text": "Vigilancia con ecografía inguinal semestral",
+              "rationale": "Reservado para tumores de bajo riesgo, es decir pTis, pTa y pT1 G1. Un tumor G3 no califica."
+            }
+          },
+          "explanation": {
+            "core": "El estado ganglionar es el factor pronóstico más importante en el cáncer de pene y las imágenes son demasiado poco confiables cuando las ingles son clínicamente negativas. Por lo tanto, la estadificación se realiza de forma invasiva tan pronto como el estadio y el grado indican un riesgo relevante. La biopsia centinela es el compromiso entre certeza diagnóstica y morbilidad.",
+            "teaching_point": "En la enfermedad cN0, la histología del primario decide si se debe estadificar de forma invasiva, no el hallazgo de la palpación."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -120,7 +155,8 @@
           "leitlinie",
           "operationstechnik",
           "pathologie"
-        ]
+        ],
+        "domain": "peniskarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -216,6 +252,40 @@
             "teaching_point": "Margin width in penile cancer is not a fixed number of millimetres. What counts is R0, not how wide the margin is."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Hombre de 54 años con carcinoma de células escamosas de 1,5 cm confinado al glande. Biopsia: G1, sin invasión linfovascular, sin invasión del cuerpo esponjoso. Estadio clínico cT1a G1 cN0. Es sexualmente activo.",
+          "lead_in": "¿Qué tratamiento primario está indicado?",
+          "options": {
+            "A": {
+              "text": "Escisión preservadora de órganos con márgenes libres de tumor",
+              "rationale": "En tumores pequeños, superficiales y bien diferenciados la preservación de órganos es oncológicamente equivalente y preserva la función miccional y sexual. Las recurrencias locales pueden nuevamente tratarse con cirugía conservadora de órganos. Las opciones son la escisión local amplia y la renovación del glande, cada una con un seguimiento minucioso. En tumores pequeños, superficiales y bien diferenciados la conservación de órganos es oncológicamente equivalente."
+            },
+            "B": {
+              "text": "Quimiorradioterapia primaria del tumor primario.",
+              "rationale": "Una opción para pacientes seleccionados que rechazan la cirugía o en quienes la preservación del órgano no se puede lograr quirúrgicamente, pero no es la primera opción para un tumor pequeño resecable."
+            },
+            "C": {
+              "text": "Penectomía parcial con margen de dos centímetros",
+              "rationale": "Se ha abandonado el histórico margen de dos centímetros. Bastan márgenes estrechos pero libres de tumores; los costes de amplio margen funcionan sin beneficio oncológico."
+            },
+            "D": {
+              "text": "Penectomía radical con uretrostomía perineal",
+              "rationale": "Tratamiento excesivo grave para un tumor G1 confinado al glande, con importantes consecuencias funcionales y psicosociales."
+            }
+          },
+          "explanation": {
+            "core": "En el cáncer de pene, el tumor primario se trata con la mayor moderación posible desde el punto de vista oncológico, porque el estado ganglionar determina el pronóstico más que la radicalidad del órgano. La preservación de órganos requiere márgenes libres de tumor en la histología final y un seguimiento confiable.",
+            "teaching_point": "El ancho del margen en el cáncer de pene no es un número fijo de milímetros. Lo que cuenta es R0, no qué tan amplio sea el margen."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -229,7 +299,8 @@
           "dosierung",
           "pharmakologie",
           "leitlinie"
-        ]
+        ],
+        "domain": "peniskarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 5,
@@ -329,6 +400,40 @@
             "teaching_point": "Fixed inguinal masses are a signal for upfront chemotherapy, not for a bigger operation."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Hombre de 61 años con carcinoma de células escamosas de pene confirmado histológicamente. Masas ganglionares inguinales parcialmente fijas, palpables bilaterales, de hasta 5 cm, sin ulceración cutánea, sin metástasis a distancia en la TC. ECOG 1, TFG 80 ml/min, sin neuropatía.",
+          "lead_in": "¿Qué enfoque está indicado?",
+          "options": {
+            "A": {
+              "text": "Intención paliativa con analgesia sola",
+              "rationale": "Incluso la enfermedad ganglionar extensa sin metástasis a distancia se trata con intención curativa."
+            },
+            "B": {
+              "text": "Radioterapia inguinal primaria como tratamiento definitivo",
+              "rationale": "La radioterapia sola es inferior a la combinación de quimioterapia y cirugía en la enfermedad resecable."
+            },
+            "C": {
+              "text": "Quimioterapia neoadyuvante con el régimen TIP",
+              "rationale": "En la enfermedad ganglionar voluminosa y parcialmente fijada, la quimioterapia inicial mejora la resecabilidad y selecciona a los pacientes que se beneficiarán de la cirugía. Cuatro ciclos cada tres semanas: paclitaxel 175 mg/m² el día 1, ifosfamida 1200 mg/m² los días 1 a 3 y cisplatino 25 mg/m² los días 1 a 3. En los pacientes con respuesta sigue la linfadenectomía."
+            },
+            "D": {
+              "text": "Linfadenectomía inguinal radical bilateral primaria",
+              "rationale": "Las masas ganglionares fijas a menudo no son resecables con márgenes claros, con alta morbilidad y malos resultados a largo plazo."
+            }
+          },
+          "explanation": {
+            "core": "La afectación ganglionar determina tanto el pronóstico como la secuencia del tratamiento en el cáncer de pene. Las enfermedades de bajo volumen se someten primero a cirugía; La enfermedad voluminosa o fija recibe primero quimioterapia. El número de casos es pequeño, por lo que el tratamiento debe realizarse en un centro de referencia.",
+            "teaching_point": "Las masas inguinales fijas son una señal de quimioterapia inicial, no de una operación más importante."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -343,7 +448,8 @@
           "operationstechnik",
           "pathologie",
           "nachsorge"
-        ]
+        ],
+        "domain": "peniskarzinom"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -437,6 +543,886 @@
           "explanation": {
             "core": "Lymphatic drainage in penile cancer is stepwise: inguinal, then pelvic, and without crossing at pelvic level. The inguinal findings therefore decide side by side whether the pelvis is dissected. Extranodal extension and multiple involved nodes are the two triggers.",
             "teaching_point": "Pelvic dissection follows the groin, and it follows it side by side."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 63 años tras penectomía parcial y linfadenectomía inguinal bilateral. Histología a la derecha: 3 de 12 ganglios afectados, uno con extensión extraganglionar. Izquierda: 0 de 10 involucrados. Imágenes de pelvis y tórax sin complicaciones.",
+          "lead_in": "¿Cuál es el siguiente paso?",
+          "options": {
+            "A": {
+              "text": "No más cirugía, en su lugar seguimiento estructurado",
+              "rationale": "La extensión extranodal conlleva un alto riesgo de ganglios pélvicos ya afectados que las imágenes pasarán por alto."
+            },
+            "B": {
+              "text": "Linfadenectomía pélvica ipsilateral del lado derecho",
+              "rationale": "Varios ganglios inguinales afectados o extensión extraganglionar en un lado justifican la disección pélvica en ese mismo lado, porque allí se produce la diseminación linfática. Luego se analiza la quimioterapia adyuvante. Varios ganglios inguinales afectados o extensión extraganglionar en un lado justifican la disección pélvica en ese mismo lado."
+            },
+            "C": {
+              "text": "Linfadenectomía pélvica bilateral en el mismo procedimiento.",
+              "rationale": "Sin afectación inguinal izquierda no hay indicación para la pelvis contralateral; El drenaje linfático no cruza a nivel pélvico."
+            },
+            "D": {
+              "text": "Radioterapia adyuvante de la ingle en lugar de cirugía pélvica",
+              "rationale": "La radioterapia no sustituye a la estadificación quirúrgica de la pelvis y principalmente aumenta la tasa de linfedema en esta situación."
+            }
+          },
+          "explanation": {
+            "core": "El drenaje linfático en el cáncer de pene es escalonado: inguinal, luego pélvico y sin cruzar a nivel pélvico. Por lo tanto, los hallazgos inguinales deciden en paralelo si se diseca la pelvis. La extensión extraganglionar y los múltiples ganglios afectados son los dos factores desencadenantes.",
+            "teaching_point": "La disección pélvica sigue la ingle y la sigue de lado a lado."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-pen-00005",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "peniskarzinom",
+        "subdomain": "Biopsie",
+        "tags": [
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines: Penile Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/penile-cancer/chapter/diagnostic-evaluation-and-staging",
+          "accessed": "2026-09-11"
+        }
+      ],
+      "review": {
+        "author": "AI-assisted editorial addition",
+        "reviewer": null,
+        "created": "2026-09-11",
+        "last_reviewed": null,
+        "expires": "2027-03-11",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "Original trilingual cases checked against EAU online chapters",
+          "clinical_signoff": false
+        }
+      },
+      "content": {
+        "de": {
+          "vignette": "Eine persistierende Glansläsion soll lokal mit einer Creme behandelt werden; die Diagnose ist unklar. Welcher Schritt muss einer antitumoralen topischen Therapie vorausgehen?",
+          "lead_in": "Welche Antwort trifft am besten zu?",
+          "options": {
+            "A": {
+              "text": "Urinzytologie als alleinige Sicherung",
+              "rationale": "Vor nichtoperativer Tumortherapie ist eine histologische Diagnose erforderlich. PSA und Urinzytologie klassifizieren die Glansläsion nicht; empirische Behandlung kann ein invasives Karzinom übersehen."
+            },
+            "B": {
+              "text": "Histologische Sicherung durch Biopsie",
+              "rationale": "Vor nichtoperativer Tumortherapie ist eine histologische Diagnose erforderlich. PSA und Urinzytologie klassifizieren die Glansläsion nicht; empirische Behandlung kann ein invasives Karzinom übersehen."
+            },
+            "C": {
+              "text": "PSA-Bestimmung als Diagnosesicherung",
+              "rationale": "Vor nichtoperativer Tumortherapie ist eine histologische Diagnose erforderlich. PSA und Urinzytologie klassifizieren die Glansläsion nicht; empirische Behandlung kann ein invasives Karzinom übersehen."
+            },
+            "D": {
+              "text": "Therapieversuch ohne Gewebeprobe",
+              "rationale": "Vor nichtoperativer Tumortherapie ist eine histologische Diagnose erforderlich. PSA und Urinzytologie klassifizieren die Glansläsion nicht; empirische Behandlung kann ein invasives Karzinom übersehen."
+            }
+          },
+          "explanation": {
+            "core": "Vor nichtoperativer Tumortherapie ist eine histologische Diagnose erforderlich. PSA und Urinzytologie klassifizieren die Glansläsion nicht; empirische Behandlung kann ein invasives Karzinom übersehen.",
+            "teaching_point": "Vor nichtoperativer Tumortherapie ist eine histologische Diagnose erforderlich."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A persistent glans lesion is being considered for topical treatment, but its diagnosis is uncertain. What must precede topical antitumour therapy?",
+          "lead_in": "Which answer is most appropriate?",
+          "options": {
+            "A": {
+              "text": "Urine cytology as sole confirmation",
+              "rationale": "A histological diagnosis is required before non-surgical tumour treatment. PSA and urine cytology do not classify the glans lesion; empirical treatment may miss invasive cancer."
+            },
+            "B": {
+              "text": "Histological confirmation by biopsy",
+              "rationale": "A histological diagnosis is required before non-surgical tumour treatment. PSA and urine cytology do not classify the glans lesion; empirical treatment may miss invasive cancer."
+            },
+            "C": {
+              "text": "PSA measurement to confirm diagnosis",
+              "rationale": "A histological diagnosis is required before non-surgical tumour treatment. PSA and urine cytology do not classify the glans lesion; empirical treatment may miss invasive cancer."
+            },
+            "D": {
+              "text": "Treatment trial without tissue sampling",
+              "rationale": "A histological diagnosis is required before non-surgical tumour treatment. PSA and urine cytology do not classify the glans lesion; empirical treatment may miss invasive cancer."
+            }
+          },
+          "explanation": {
+            "core": "A histological diagnosis is required before non-surgical tumour treatment. PSA and urine cytology do not classify the glans lesion; empirical treatment may miss invasive cancer.",
+            "teaching_point": "A histological diagnosis is required before non-surgical tumour treatment."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Se plantea tratamiento tópico de una lesión persistente del glande de diagnóstico incierto. ¿Qué debe preceder a la terapia antitumoral tópica?",
+          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Solo citología urinaria como confirmación",
+              "rationale": "Antes de tratar el tumor sin cirugía se requiere diagnóstico histológico. PSA y citología urinaria no clasifican la lesión del glande; el tratamiento empírico puede pasar por alto cáncer invasivo."
+            },
+            "B": {
+              "text": "Confirmación histológica mediante biopsia",
+              "rationale": "Antes de tratar el tumor sin cirugía se requiere diagnóstico histológico. PSA y citología urinaria no clasifican la lesión del glande; el tratamiento empírico puede pasar por alto cáncer invasivo."
+            },
+            "C": {
+              "text": "PSA para confirmar el diagnóstico",
+              "rationale": "Antes de tratar el tumor sin cirugía se requiere diagnóstico histológico. PSA y citología urinaria no clasifican la lesión del glande; el tratamiento empírico puede pasar por alto cáncer invasivo."
+            },
+            "D": {
+              "text": "Prueba terapéutica sin biopsia",
+              "rationale": "Antes de tratar el tumor sin cirugía se requiere diagnóstico histológico. PSA y citología urinaria no clasifican la lesión del glande; el tratamiento empírico puede pasar por alto cáncer invasivo."
+            }
+          },
+          "explanation": {
+            "core": "Antes de tratar el tumor sin cirugía se requiere diagnóstico histológico. PSA y citología urinaria no clasifican la lesión del glande; el tratamiento empírico puede pasar por alto cáncer invasivo.",
+            "teaching_point": "Antes de tratar el tumor sin cirugía se requiere diagnóstico histológico."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-pen-00006",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "peniskarzinom",
+        "subdomain": "Lokale Ausdehnung",
+        "tags": [
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines: Penile Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/penile-cancer/chapter/diagnostic-evaluation-and-staging",
+          "accessed": "2026-09-11"
+        }
+      ],
+      "review": {
+        "author": "AI-assisted editorial addition",
+        "reviewer": null,
+        "created": "2026-09-11",
+        "last_reviewed": null,
+        "expires": "2027-03-11",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "Original trilingual cases checked against EAU online chapters",
+          "clinical_signoff": false
+        }
+      },
+      "content": {
+        "de": {
+          "vignette": "Bei Peniskarzinom bleibt nach Untersuchung unklar, ob die Corpora cavernosa infiltriert sind. Ein organerhaltender Eingriff wird erwogen. Welche Untersuchung hilft beim lokalen Staging?",
+          "lead_in": "Welche Antwort trifft am besten zu?",
+          "options": {
+            "A": {
+              "text": "Röntgenaufnahme des Thorax allein",
+              "rationale": "Bei unklarer Invasion der Corpora cavernosa kann die MRT die lokale Ausdehnung klären. Untersuchungen von Knochen oder Thorax und PSA beantworten diese lokale Frage nicht."
+            },
+            "B": {
+              "text": "PSA-Verlaufskontrolle",
+              "rationale": "Bei unklarer Invasion der Corpora cavernosa kann die MRT die lokale Ausdehnung klären. Untersuchungen von Knochen oder Thorax und PSA beantworten diese lokale Frage nicht."
+            },
+            "C": {
+              "text": "MRT des Penis",
+              "rationale": "Bei unklarer Invasion der Corpora cavernosa kann die MRT die lokale Ausdehnung klären. Untersuchungen von Knochen oder Thorax und PSA beantworten diese lokale Frage nicht."
+            },
+            "D": {
+              "text": "Skelettszintigraphie allein",
+              "rationale": "Bei unklarer Invasion der Corpora cavernosa kann die MRT die lokale Ausdehnung klären. Untersuchungen von Knochen oder Thorax und PSA beantworten diese lokale Frage nicht."
+            }
+          },
+          "explanation": {
+            "core": "Bei unklarer Invasion der Corpora cavernosa kann die MRT die lokale Ausdehnung klären. Untersuchungen von Knochen oder Thorax und PSA beantworten diese lokale Frage nicht.",
+            "teaching_point": "Bei unklarer Invasion der Corpora cavernosa kann die MRT die lokale Ausdehnung klären."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "In penile cancer, examination leaves corpus cavernosum invasion uncertain. Organ preservation is being considered. Which test helps local staging?",
+          "lead_in": "Which answer is most appropriate?",
+          "options": {
+            "A": {
+              "text": "Chest radiograph alone",
+              "rationale": "MRI can clarify local extent when corpus cavernosum invasion is uncertain. Bone or chest investigations and PSA do not answer this local staging question."
+            },
+            "B": {
+              "text": "Serial PSA measurements",
+              "rationale": "MRI can clarify local extent when corpus cavernosum invasion is uncertain. Bone or chest investigations and PSA do not answer this local staging question."
+            },
+            "C": {
+              "text": "MRI of the penis",
+              "rationale": "MRI can clarify local extent when corpus cavernosum invasion is uncertain. Bone or chest investigations and PSA do not answer this local staging question."
+            },
+            "D": {
+              "text": "Bone scintigraphy alone",
+              "rationale": "MRI can clarify local extent when corpus cavernosum invasion is uncertain. Bone or chest investigations and PSA do not answer this local staging question."
+            }
+          },
+          "explanation": {
+            "core": "MRI can clarify local extent when corpus cavernosum invasion is uncertain. Bone or chest investigations and PSA do not answer this local staging question.",
+            "teaching_point": "MRI can clarify local extent when corpus cavernosum invasion is uncertain."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "En cáncer de pene no está clara la invasión de cuerpos cavernosos y se considera preservar el órgano. ¿Qué estudio ayuda a la estadificación local?",
+          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Solo radiografía de tórax",
+              "rationale": "La RM puede aclarar la extensión local si la invasión cavernosa es incierta. Los estudios óseos o torácicos y el PSA no responden a esta cuestión local."
+            },
+            "B": {
+              "text": "Mediciones seriadas de PSA",
+              "rationale": "La RM puede aclarar la extensión local si la invasión cavernosa es incierta. Los estudios óseos o torácicos y el PSA no responden a esta cuestión local."
+            },
+            "C": {
+              "text": "RM del pene",
+              "rationale": "La RM puede aclarar la extensión local si la invasión cavernosa es incierta. Los estudios óseos o torácicos y el PSA no responden a esta cuestión local."
+            },
+            "D": {
+              "text": "Solo gammagrafía ósea",
+              "rationale": "La RM puede aclarar la extensión local si la invasión cavernosa es incierta. Los estudios óseos o torácicos y el PSA no responden a esta cuestión local."
+            }
+          },
+          "explanation": {
+            "core": "La RM puede aclarar la extensión local si la invasión cavernosa es incierta. Los estudios óseos o torácicos y el PSA no responden a esta cuestión local.",
+            "teaching_point": "La RM puede aclarar la extensión local si la invasión cavernosa es incierta."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-pen-00007",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "peniskarzinom",
+        "subdomain": "PeIN",
+        "tags": [
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines: Penile Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/penile-cancer/chapter/disease-management",
+          "accessed": "2026-09-11"
+        }
+      ],
+      "review": {
+        "author": "AI-assisted editorial addition",
+        "reviewer": null,
+        "created": "2026-09-11",
+        "last_reviewed": null,
+        "expires": "2027-03-11",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "Original trilingual cases checked against EAU online chapters",
+          "clinical_signoff": false
+        }
+      },
+      "content": {
+        "de": {
+          "vignette": "Biopsiegesicherte PeIN ohne Invasion. Nach Beratung ist eine topische organerhaltende Therapie geeignet. Welches Mittel kommt dafür infrage?",
+          "lead_in": "Welche Antwort trifft am besten zu?",
+          "options": {
+            "A": {
+              "text": "Intravesikales BCG",
+              "rationale": "Imiquimod oder 5-Fluorouracil sind topische Optionen bei ausgewählter PeIN. BCG-Instillation, Alpha-Blockade und Testosteron sind keine entsprechenden PeIN-Therapien. Ansprechen und Verlauf müssen kontrolliert werden."
+            },
+            "B": {
+              "text": "Orales Tamsulosin",
+              "rationale": "Imiquimod oder 5-Fluorouracil sind topische Optionen bei ausgewählter PeIN. BCG-Instillation, Alpha-Blockade und Testosteron sind keine entsprechenden PeIN-Therapien. Ansprechen und Verlauf müssen kontrolliert werden."
+            },
+            "C": {
+              "text": "Intramuskuläres Testosteron",
+              "rationale": "Imiquimod oder 5-Fluorouracil sind topische Optionen bei ausgewählter PeIN. BCG-Instillation, Alpha-Blockade und Testosteron sind keine entsprechenden PeIN-Therapien. Ansprechen und Verlauf müssen kontrolliert werden."
+            },
+            "D": {
+              "text": "Imiquimod",
+              "rationale": "Imiquimod oder 5-Fluorouracil sind topische Optionen bei ausgewählter PeIN. BCG-Instillation, Alpha-Blockade und Testosteron sind keine entsprechenden PeIN-Therapien. Ansprechen und Verlauf müssen kontrolliert werden."
+            }
+          },
+          "explanation": {
+            "core": "Imiquimod oder 5-Fluorouracil sind topische Optionen bei ausgewählter PeIN. BCG-Instillation, Alpha-Blockade und Testosteron sind keine entsprechenden PeIN-Therapien. Ansprechen und Verlauf müssen kontrolliert werden.",
+            "teaching_point": "Imiquimod oder 5-Fluorouracil sind topische Optionen bei ausgewählter PeIN."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Biopsy confirms PeIN without invasion. Following counselling, topical organ preservation is appropriate. Which drug is an option?",
+          "lead_in": "Which answer is most appropriate?",
+          "options": {
+            "A": {
+              "text": "Intravesical BCG",
+              "rationale": "Imiquimod or 5-fluorouracil are topical options for selected PeIN. BCG instillation, alpha blockade and testosterone are not corresponding PeIN treatments. Response and follow-up require assessment."
+            },
+            "B": {
+              "text": "Oral tamsulosin",
+              "rationale": "Imiquimod or 5-fluorouracil are topical options for selected PeIN. BCG instillation, alpha blockade and testosterone are not corresponding PeIN treatments. Response and follow-up require assessment."
+            },
+            "C": {
+              "text": "Intramuscular testosterone",
+              "rationale": "Imiquimod or 5-fluorouracil are topical options for selected PeIN. BCG instillation, alpha blockade and testosterone are not corresponding PeIN treatments. Response and follow-up require assessment."
+            },
+            "D": {
+              "text": "Imiquimod",
+              "rationale": "Imiquimod or 5-fluorouracil are topical options for selected PeIN. BCG instillation, alpha blockade and testosterone are not corresponding PeIN treatments. Response and follow-up require assessment."
+            }
+          },
+          "explanation": {
+            "core": "Imiquimod or 5-fluorouracil are topical options for selected PeIN. BCG instillation, alpha blockade and testosterone are not corresponding PeIN treatments. Response and follow-up require assessment.",
+            "teaching_point": "Imiquimod or 5-fluorouracil are topical options for selected PeIN."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "La biopsia confirma PeIN sin invasión. Tras asesoramiento se considera adecuado un tratamiento tópico conservador. ¿Qué fármaco es una opción?",
+          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "options": {
+            "A": {
+              "text": "BCG intravesical",
+              "rationale": "Imiquimod o 5-fluorouracilo son opciones tópicas en PeIN seleccionada. BCG, alfabloqueantes y testosterona no son tratamientos correspondientes para PeIN. Hay que evaluar respuesta y evolución."
+            },
+            "B": {
+              "text": "Tamsulosina oral",
+              "rationale": "Imiquimod o 5-fluorouracilo son opciones tópicas en PeIN seleccionada. BCG, alfabloqueantes y testosterona no son tratamientos correspondientes para PeIN. Hay que evaluar respuesta y evolución."
+            },
+            "C": {
+              "text": "Testosterona intramuscular",
+              "rationale": "Imiquimod o 5-fluorouracilo son opciones tópicas en PeIN seleccionada. BCG, alfabloqueantes y testosterona no son tratamientos correspondientes para PeIN. Hay que evaluar respuesta y evolución."
+            },
+            "D": {
+              "text": "Imiquimod",
+              "rationale": "Imiquimod o 5-fluorouracilo son opciones tópicas en PeIN seleccionada. BCG, alfabloqueantes y testosterona no son tratamientos correspondientes para PeIN. Hay que evaluar respuesta y evolución."
+            }
+          },
+          "explanation": {
+            "core": "Imiquimod o 5-fluorouracilo son opciones tópicas en PeIN seleccionada. BCG, alfabloqueantes y testosterona no son tratamientos correspondientes para PeIN. Hay que evaluar respuesta y evolución.",
+            "teaching_point": "Imiquimod o 5-fluorouracilo son opciones tópicas en PeIN seleccionada."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-pen-00008",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "peniskarzinom",
+        "subdomain": "cN0",
+        "tags": [
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines: Penile Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/penile-cancer/chapter/diagnostic-evaluation-and-staging",
+          "accessed": "2026-09-11"
+        }
+      ],
+      "review": {
+        "author": "AI-assisted editorial addition",
+        "reviewer": null,
+        "created": "2026-09-11",
+        "last_reviewed": null,
+        "expires": "2027-03-11",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "Original trilingual cases checked against EAU online chapters",
+          "clinical_signoff": false
+        }
+      },
+      "content": {
+        "de": {
+          "vignette": "Bei Peniskarzinom sind keine Leistenlymphknoten tastbar. Was bedeutet der Befund cN0?",
+          "lead_in": "Welche Antwort trifft am besten zu?",
+          "options": {
+            "A": {
+              "text": "Okkulte Metastasen sind weiterhin möglich",
+              "rationale": "cN0 bezeichnet einen klinischen Befund, keinen histologischen Ausschluss von Metastasen. Ob invasives Lymphknotenstaging nötig ist, hängt vom Risiko des Primärtumors ab."
+            },
+            "B": {
+              "text": "Mikrometastasen sind sicher ausgeschlossen",
+              "rationale": "cN0 bezeichnet einen klinischen Befund, keinen histologischen Ausschluss von Metastasen. Ob invasives Lymphknotenstaging nötig ist, hängt vom Risiko des Primärtumors ab."
+            },
+            "C": {
+              "text": "Der Primärtumor ist zwingend nichtinvasiv",
+              "rationale": "cN0 bezeichnet einen klinischen Befund, keinen histologischen Ausschluss von Metastasen. Ob invasives Lymphknotenstaging nötig ist, hängt vom Risiko des Primärtumors ab."
+            },
+            "D": {
+              "text": "Ein Lymphknotenstaging ist immer unnötig",
+              "rationale": "cN0 bezeichnet einen klinischen Befund, keinen histologischen Ausschluss von Metastasen. Ob invasives Lymphknotenstaging nötig ist, hängt vom Risiko des Primärtumors ab."
+            }
+          },
+          "explanation": {
+            "core": "cN0 bezeichnet einen klinischen Befund, keinen histologischen Ausschluss von Metastasen. Ob invasives Lymphknotenstaging nötig ist, hängt vom Risiko des Primärtumors ab.",
+            "teaching_point": "cN0 bezeichnet einen klinischen Befund, keinen histologischen Ausschluss von Metastasen."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "No inguinal nodes are palpable in a patient with penile cancer. What does cN0 mean?",
+          "lead_in": "Which answer is most appropriate?",
+          "options": {
+            "A": {
+              "text": "Occult metastases remain possible",
+              "rationale": "cN0 is a clinical finding, not histological exclusion of metastases. The need for invasive nodal staging depends on primary tumour risk."
+            },
+            "B": {
+              "text": "Micrometastases are definitely excluded",
+              "rationale": "cN0 is a clinical finding, not histological exclusion of metastases. The need for invasive nodal staging depends on primary tumour risk."
+            },
+            "C": {
+              "text": "The primary tumour must be non-invasive",
+              "rationale": "cN0 is a clinical finding, not histological exclusion of metastases. The need for invasive nodal staging depends on primary tumour risk."
+            },
+            "D": {
+              "text": "Nodal staging is always unnecessary",
+              "rationale": "cN0 is a clinical finding, not histological exclusion of metastases. The need for invasive nodal staging depends on primary tumour risk."
+            }
+          },
+          "explanation": {
+            "core": "cN0 is a clinical finding, not histological exclusion of metastases. The need for invasive nodal staging depends on primary tumour risk.",
+            "teaching_point": "cN0 is a clinical finding, not histological exclusion of metastases."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "No se palpan ganglios inguinales en un paciente con cáncer de pene. ¿Qué significa cN0?",
+          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Siguen siendo posibles metástasis ocultas",
+              "rationale": "cN0 es un hallazgo clínico, no exclusión histológica de metástasis. La necesidad de estadificación ganglionar invasiva depende del riesgo del tumor primario."
+            },
+            "B": {
+              "text": "Se excluyen con certeza micrometástasis",
+              "rationale": "cN0 es un hallazgo clínico, no exclusión histológica de metástasis. La necesidad de estadificación ganglionar invasiva depende del riesgo del tumor primario."
+            },
+            "C": {
+              "text": "El tumor primario debe ser no invasivo",
+              "rationale": "cN0 es un hallazgo clínico, no exclusión histológica de metástasis. La necesidad de estadificación ganglionar invasiva depende del riesgo del tumor primario."
+            },
+            "D": {
+              "text": "La estadificación ganglionar nunca es necesaria",
+              "rationale": "cN0 es un hallazgo clínico, no exclusión histológica de metástasis. La necesidad de estadificación ganglionar invasiva depende del riesgo del tumor primario."
+            }
+          },
+          "explanation": {
+            "core": "cN0 es un hallazgo clínico, no exclusión histológica de metástasis. La necesidad de estadificación ganglionar invasiva depende del riesgo del tumor primario.",
+            "teaching_point": "cN0 es un hallazgo clínico, no exclusión histológica de metástasis."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-pen-00009",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "peniskarzinom",
+        "subdomain": "Suspekte Leistenlymphknoten",
+        "tags": [
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines: Penile Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/penile-cancer/chapter/diagnostic-evaluation-and-staging",
+          "accessed": "2026-09-11"
+        }
+      ],
+      "review": {
+        "author": "AI-assisted editorial addition",
+        "reviewer": null,
+        "created": "2026-09-11",
+        "last_reviewed": null,
+        "expires": "2027-03-11",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "Original trilingual cases checked against EAU online chapters",
+          "clinical_signoff": false
+        }
+      },
+      "content": {
+        "de": {
+          "vignette": "Bei Peniskarzinom besteht ein neu tastbarer suspekter Leistenlymphknoten ohne Infektzeichen. Was ist der nächste diagnostische Schritt?",
+          "lead_in": "Welche Antwort trifft am besten zu?",
+          "options": {
+            "A": {
+              "text": "Ausschließlich Urinkultur wiederholen",
+              "rationale": "Suspekte Lymphknoten sollen histologisch oder zytologisch durch bildgesteuerte Biopsie gesichert werden. Antibiotika ohne Infektindikation verzögern das Staging; PSA und Urinkultur klären die Metastasierung nicht."
+            },
+            "B": {
+              "text": "Bildgesteuerte Lymphknotenbiopsie",
+              "rationale": "Suspekte Lymphknoten sollen histologisch oder zytologisch durch bildgesteuerte Biopsie gesichert werden. Antibiotika ohne Infektindikation verzögern das Staging; PSA und Urinkultur klären die Metastasierung nicht."
+            },
+            "C": {
+              "text": "Sechs Wochen Antibiotika vor jeder Abklärung",
+              "rationale": "Suspekte Lymphknoten sollen histologisch oder zytologisch durch bildgesteuerte Biopsie gesichert werden. Antibiotika ohne Infektindikation verzögern das Staging; PSA und Urinkultur klären die Metastasierung nicht."
+            },
+            "D": {
+              "text": "Nur PSA bestimmen und abwarten",
+              "rationale": "Suspekte Lymphknoten sollen histologisch oder zytologisch durch bildgesteuerte Biopsie gesichert werden. Antibiotika ohne Infektindikation verzögern das Staging; PSA und Urinkultur klären die Metastasierung nicht."
+            }
+          },
+          "explanation": {
+            "core": "Suspekte Lymphknoten sollen histologisch oder zytologisch durch bildgesteuerte Biopsie gesichert werden. Antibiotika ohne Infektindikation verzögern das Staging; PSA und Urinkultur klären die Metastasierung nicht.",
+            "teaching_point": "Suspekte Lymphknoten sollen histologisch oder zytologisch durch bildgesteuerte Biopsie gesichert werden."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A new suspicious inguinal node is palpable in penile cancer without infection signs. What is the next diagnostic step?",
+          "lead_in": "Which answer is most appropriate?",
+          "options": {
+            "A": {
+              "text": "Repeat urine culture only",
+              "rationale": "Suspicious nodes should undergo image-guided biopsy for histological or cytological confirmation. Antibiotics without infection delay staging; PSA and urine culture do not establish nodal spread."
+            },
+            "B": {
+              "text": "Image-guided lymph node biopsy",
+              "rationale": "Suspicious nodes should undergo image-guided biopsy for histological or cytological confirmation. Antibiotics without infection delay staging; PSA and urine culture do not establish nodal spread."
+            },
+            "C": {
+              "text": "Six weeks of antibiotics before any work-up",
+              "rationale": "Suspicious nodes should undergo image-guided biopsy for histological or cytological confirmation. Antibiotics without infection delay staging; PSA and urine culture do not establish nodal spread."
+            },
+            "D": {
+              "text": "Measure PSA alone and wait",
+              "rationale": "Suspicious nodes should undergo image-guided biopsy for histological or cytological confirmation. Antibiotics without infection delay staging; PSA and urine culture do not establish nodal spread."
+            }
+          },
+          "explanation": {
+            "core": "Suspicious nodes should undergo image-guided biopsy for histological or cytological confirmation. Antibiotics without infection delay staging; PSA and urine culture do not establish nodal spread.",
+            "teaching_point": "Suspicious nodes should undergo image-guided biopsy for histological or cytological confirmation."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Aparece un ganglio inguinal palpable sospechoso en cáncer de pene sin signos de infección. ¿Cuál es el siguiente paso diagnóstico?",
+          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Repetir únicamente el urocultivo",
+              "rationale": "Los ganglios sospechosos requieren biopsia guiada para confirmación histológica o citológica. Dar antibióticos sin infección retrasa la estadificación; PSA y urocultivo no aclaran la diseminación ganglionar."
+            },
+            "B": {
+              "text": "Biopsia ganglionar guiada por imagen",
+              "rationale": "Los ganglios sospechosos requieren biopsia guiada para confirmación histológica o citológica. Dar antibióticos sin infección retrasa la estadificación; PSA y urocultivo no aclaran la diseminación ganglionar."
+            },
+            "C": {
+              "text": "Seis semanas de antibióticos antes de estudiar",
+              "rationale": "Los ganglios sospechosos requieren biopsia guiada para confirmación histológica o citológica. Dar antibióticos sin infección retrasa la estadificación; PSA y urocultivo no aclaran la diseminación ganglionar."
+            },
+            "D": {
+              "text": "Medir solo PSA y esperar",
+              "rationale": "Los ganglios sospechosos requieren biopsia guiada para confirmación histológica o citológica. Dar antibióticos sin infección retrasa la estadificación; PSA y urocultivo no aclaran la diseminación ganglionar."
+            }
+          },
+          "explanation": {
+            "core": "Los ganglios sospechosos requieren biopsia guiada para confirmación histológica o citológica. Dar antibióticos sin infección retrasa la estadificación; PSA y urocultivo no aclaran la diseminación ganglionar.",
+            "teaching_point": "Los ganglios sospechosos requieren biopsia guiada para confirmación histológica o citológica."
+          },
+          "flag_note": null
+        }
+      }
+    },
+    {
+      "id": "uro-pen-00010",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "peniskarzinom",
+        "subdomain": "Versagen topischer Therapie",
+        "tags": [
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines: Penile Cancer",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/penile-cancer/chapter/disease-management",
+          "accessed": "2026-09-11"
+        }
+      ],
+      "review": {
+        "author": "AI-assisted editorial addition",
+        "reviewer": null,
+        "created": "2026-09-11",
+        "last_reviewed": null,
+        "expires": "2027-03-11",
+        "editorial_review": {
+          "date": "2026-09-11",
+          "method": "Original trilingual cases checked against EAU online chapters",
+          "clinical_signoff": false
+        }
+      },
+      "content": {
+        "de": {
+          "vignette": "Nach abgeschlossener topischer PeIN-Therapie verbleibt eine verdickte, indurierte Läsion. Was ist vor weiterer Therapie entscheidend?",
+          "lead_in": "Welche Antwort trifft am besten zu?",
+          "options": {
+            "A": {
+              "text": "Ohne Kontrolle ein Jahr abwarten",
+              "rationale": "Persistierende verdächtige Läsionen müssen erneut histologisch beurteilt werden, da Invasion vorliegen kann. Unkritisches Wiederholen, Abwarten oder Gleichsetzen mit Heilung kann die richtige Behandlung verzögern."
+            },
+            "B": {
+              "text": "Die Induration als sicheren Heilungsbeweis werten",
+              "rationale": "Persistierende verdächtige Läsionen müssen erneut histologisch beurteilt werden, da Invasion vorliegen kann. Unkritisches Wiederholen, Abwarten oder Gleichsetzen mit Heilung kann die richtige Behandlung verzögern."
+            },
+            "C": {
+              "text": "Erneute Biopsie zum Ausschluss einer Invasion",
+              "rationale": "Persistierende verdächtige Läsionen müssen erneut histologisch beurteilt werden, da Invasion vorliegen kann. Unkritisches Wiederholen, Abwarten oder Gleichsetzen mit Heilung kann die richtige Behandlung verzögern."
+            },
+            "D": {
+              "text": "Die gleiche Creme unbegrenzt wiederholen",
+              "rationale": "Persistierende verdächtige Läsionen müssen erneut histologisch beurteilt werden, da Invasion vorliegen kann. Unkritisches Wiederholen, Abwarten oder Gleichsetzen mit Heilung kann die richtige Behandlung verzögern."
+            }
+          },
+          "explanation": {
+            "core": "Persistierende verdächtige Läsionen müssen erneut histologisch beurteilt werden, da Invasion vorliegen kann. Unkritisches Wiederholen, Abwarten oder Gleichsetzen mit Heilung kann die richtige Behandlung verzögern.",
+            "teaching_point": "Persistierende verdächtige Läsionen müssen erneut histologisch beurteilt werden, da Invasion vorliegen kann."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "After completed topical PeIN treatment, a thickened indurated lesion remains. What is essential before further treatment?",
+          "lead_in": "Which answer is most appropriate?",
+          "options": {
+            "A": {
+              "text": "Wait one year without reassessment",
+              "rationale": "Persistent suspicious lesions require repeat histological assessment because invasion may be present. Uncritical repetition, waiting or assuming cure can delay appropriate treatment."
+            },
+            "B": {
+              "text": "Regard induration as proof of cure",
+              "rationale": "Persistent suspicious lesions require repeat histological assessment because invasion may be present. Uncritical repetition, waiting or assuming cure can delay appropriate treatment."
+            },
+            "C": {
+              "text": "Repeat biopsy to exclude invasion",
+              "rationale": "Persistent suspicious lesions require repeat histological assessment because invasion may be present. Uncritical repetition, waiting or assuming cure can delay appropriate treatment."
+            },
+            "D": {
+              "text": "Repeat the same cream indefinitely",
+              "rationale": "Persistent suspicious lesions require repeat histological assessment because invasion may be present. Uncritical repetition, waiting or assuming cure can delay appropriate treatment."
+            }
+          },
+          "explanation": {
+            "core": "Persistent suspicious lesions require repeat histological assessment because invasion may be present. Uncritical repetition, waiting or assuming cure can delay appropriate treatment.",
+            "teaching_point": "Persistent suspicious lesions require repeat histological assessment because invasion may be present."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Tras completar tratamiento tópico de PeIN persiste una lesión engrosada e indurada. ¿Qué es esencial antes de continuar tratando?",
+          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Esperar un año sin reevaluación",
+              "rationale": "Las lesiones sospechosas persistentes requieren nueva evaluación histológica por posible invasión. Repetir sin valorar, esperar o asumir curación puede retrasar el tratamiento adecuado."
+            },
+            "B": {
+              "text": "Considerar la induración prueba de curación",
+              "rationale": "Las lesiones sospechosas persistentes requieren nueva evaluación histológica por posible invasión. Repetir sin valorar, esperar o asumir curación puede retrasar el tratamiento adecuado."
+            },
+            "C": {
+              "text": "Nueva biopsia para descartar invasión",
+              "rationale": "Las lesiones sospechosas persistentes requieren nueva evaluación histológica por posible invasión. Repetir sin valorar, esperar o asumir curación puede retrasar el tratamiento adecuado."
+            },
+            "D": {
+              "text": "Repetir indefinidamente la misma crema",
+              "rationale": "Las lesiones sospechosas persistentes requieren nueva evaluación histológica por posible invasión. Repetir sin valorar, esperar o asumir curación puede retrasar el tratamiento adecuado."
+            }
+          },
+          "explanation": {
+            "core": "Las lesiones sospechosas persistentes requieren nueva evaluación histológica por posible invasión. Repetir sin valorar, esperar o asumir curación puede retrasar el tratamiento adecuado.",
+            "teaching_point": "Las lesiones sospechosas persistentes requieren nueva evaluación histológica por posible invasión."
           },
           "flag_note": null
         }

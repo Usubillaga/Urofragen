@@ -11,7 +11,8 @@
           "notfall",
           "leitlinie",
           "bildgebung"
-        ]
+        ],
+        "domain": "kinderurologie"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 2,
@@ -107,6 +108,40 @@
             "teaching_point": "The clock decides, not the ultrasound."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Niño de 13 años con dolor súbito intenso en hemiscrotal derecho de cuatro horas de duración y náuseas. El testículo es alto y se encuentra transversalmente, el reflejo cremastérico está ausente en el lado derecho. La ecografía Doppler no estará disponible hasta dentro de dos horas.",
+          "lead_in": "¿Qué se debe hacer?",
+          "options": {
+            "A": {
+              "text": "Espere el escaneo Doppler y luego decida",
+              "rationale": "La perfusión conservada en la ecografía no excluye la torsión y cada hora de retraso cuesta tejido testicular."
+            },
+            "B": {
+              "text": "Tratar con antibióticos como presunta epididimitis.",
+              "rationale": "El inicio repentino, la posición transversal elevada y la ausencia del reflejo cremastérico son argumentos en contra de la inflamación."
+            },
+            "C": {
+              "text": "Exploración escrotal inmediata sin más imágenes",
+              "rationale": "La historia y el examen son suficientemente concluyentes. Las tasas de rescate son altas en seis horas y caen rápidamente después. En la exploración siempre se fija también el lado contralateral, porque la predisposición anatómica es bilateral."
+            },
+            "D": {
+              "text": "Detorsión manual como tratamiento definitivo",
+              "rationale": "Puede intentarse como puente pero nunca reemplaza la exploración con fijación de ambos testículos."
+            }
+          },
+          "explanation": {
+            "core": "En el escroto agudo de un adolescente, se supone que hay torsión hasta que se demuestre lo contrario. Las imágenes no deben retrasar la cirugía porque pueden ser falsamente negativas. En la exploración siempre se fija también el lado contralateral, ya que la predisposición anatómica es bilateral.",
+            "teaching_point": "El reloj decide, no la ecografía."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -119,7 +154,8 @@
         "tags": [
           "leitlinie",
           "operationstechnik"
-        ]
+        ],
+        "domain": "kinderurologie"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -215,6 +251,40 @@
             "teaching_point": "Operated by the first birthday, not observed until school age."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Niño nacido a término; en el control de los nueve meses, el testículo izquierdo es palpable en la ingle y no puede llevarse al escroto. El lado derecho es normal y no ha habido descenso desde el nacimiento.",
+          "lead_in": "¿Cuál es la conducta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Espere hasta el tercer año, ya que aún puede producirse el descenso.",
+              "rationale": "Después de seis meses el descenso espontáneo es excepcional; esperar empeora la fertilidad y el riesgo de tumores."
+            },
+            "B": {
+              "text": "Orquidopexia completa a los doce meses de edad.",
+              "rationale": "La colocación temprana preserva la maduración de las células germinales y mejora la espermatogénesis posterior, y hace que los testículos sean palpables y monitorizables. A más tardar a los dieciocho meses, porque la transformación de las células germinales se produce durante el primer año y su colocación preserva la fertilidad y permite el seguimiento."
+            },
+            "C": {
+              "text": "Tratamiento hormonal con hCG para inducir primero el descenso",
+              "rationale": "Baja tasa de éxito, a menudo sin efecto duradero y posible daño a las células germinales. Ya no se recomienda para inducir el descenso."
+            },
+            "D": {
+              "text": "Orquiectomía debido al posterior aumento del riesgo de tumores",
+              "rationale": "El riesgo no justifica la extirpación de un testículo funcional; La ubicación es lo que hace posible la vigilancia."
+            }
+          },
+          "explanation": {
+            "core": "El tiempo es el verdadero marcador de calidad en los testículos no descendidos. La transformación de las células germinales se produce durante el primer año de vida, por lo que su colocación debe completarse al final de este. El riesgo de tumor sigue siendo elevado después de la orquidopexia, pero el testículo se vuelve accesible para el examen.",
+            "teaching_point": "Operado por el primer cumpleaños, no observado hasta la edad escolar."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -228,7 +298,8 @@
           "bildgebung",
           "operationstechnik",
           "leitlinie"
-        ]
+        ],
+        "domain": "kinderurologie"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -324,12 +395,46 @@
             "teaching_point": "Imaging searches; laparoscopy finds and treats."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Niño de 14 meses cuyo testículo derecho está impalpable incluso bajo anestesia. La ecografía no muestra nada inguinal ni abdominal. El testículo izquierdo es ortotópico y de tamaño normal.",
+          "lead_in": "¿Qué viene después?",
+          "options": {
+            "A": {
+              "text": "Repita la ecografía por un operador experimentado.",
+              "rationale": "La ecografía tiene una sensibilidad demasiado baja para los testículos intraabdominales; una exploración negativa no excluye nada."
+            },
+            "B": {
+              "text": "Resonancia magnética de pelvis y abdomen para localizar el testículo.",
+              "rationale": "La resonancia magnética tampoco es lo suficientemente confiable, requiere anestesia a esta edad y no cambia el tratamiento."
+            },
+            "C": {
+              "text": "Prueba de estimulación con hCG para comprobar el tejido testicular.",
+              "rationale": "Innecesario con un testículo unilateralmente impalpable y un lado contralateral normal; la cuestión es la ubicación, no la existencia."
+            },
+            "D": {
+              "text": "Laparoscopia diagnóstica actuando sobre los hallazgos.",
+              "rationale": "Es diagnóstico y tratamiento a la vez: muestra un testículo, unos vasos con extremo ciego o una protuberancia y permite una acción inmediata. Dependiendo de los hallazgos, se realiza la colocación, si es necesario en dos etapas después de Fowler-Stephens, o se retira una protuberancia. Los vasos con extremos ciegos demuestran aplasia."
+            }
+          },
+          "explanation": {
+            "core": "Para los testículos impalpables, ninguna imagen es lo suficientemente confiable como para evitar una operación, por lo que la laparoscopia se realiza directamente. Los resultados deciden entonces: un testículo con vasos se baja, si es necesario en dos etapas según Fowler-Stephens, mientras que los vasos con terminación ciega demuestran aplasia.",
+            "teaching_point": "En el testículo no palpable, la laparoscopia permite diagnosticar y orientar el tratamiento."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-kin-00004",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Harnwegsinfekt",
@@ -337,7 +442,8 @@
           "bildgebung",
           "leitlinie",
           "paediatrisch"
-        ]
+        ],
+        "domain": "kinderurologie"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -370,6 +476,12 @@
           "code": "EAU",
           "title": "EAU Guidelines on Paediatric Urology",
           "year": 2026
+        },
+        {
+          "type": "reference",
+          "url": "https://uroweb.org/guidelines/paediatric-urology/chapter/urinary-tract-infections-in-children",
+          "title": "EAU: paediatric urinary tract infection",
+          "accessed": "2026-09-10"
         }
       ],
       "review": {
@@ -377,16 +489,21 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06"
+        "expires": "2028-09-06",
+        "editorial_review": {
+          "date": "2026-09-10",
+          "method": "AI-assisted editorial review",
+          "clinical_signoff": false
+        }
       },
       "content": {
         "de": {
           "vignette": "Vier Monate alter Säugling mit erstem fieberhaftem Harnwegsinfekt, Escherichia coli im Katheterurin, gutes Ansprechen auf die Antibiose innerhalb von 48 Stunden. Pränatal war der Harntrakt unauffällig.",
-          "lead_in": "Welche Bildgebung ist nach der Akutbehandlung angezeigt?",
+          "lead_in": "Welche Bildgebung ist im Verlauf einschließlich der Nachsorge zu erwägen?",
           "options": {
             "A": {
-              "text": "Sonographie bei allen, Miktionszysturethrogramm gezielt",
-              "rationale": "Die Sonographie ist belastungsfrei und erkennt relevante Obstruktionen und Erweiterungen. Das invasive, strahlenbelastende Miktionszysturethrogramm wird gezielt eingesetzt. Das Miktionszysturethrogramm folgt nur bei auffälliger Sonographie, atypischem Verlauf oder erneutem fieberhaftem Infekt."
+              "text": "Sonographie und wegen des Alters MCU erwägen",
+              "rationale": "Bei einem Säugling unter einem Jahr ist nach febrilem Harnwegsinfekt eine MCU zu erwägen, auch bei gutem Ansprechen. Dringlichkeit und weitere Bildgebung hängen vom Verlauf ab."
             },
             "B": {
               "text": "Miktionszysturethrogramm nach jedem ersten Infekt",
@@ -402,18 +519,18 @@
             }
           },
           "explanation": {
-            "core": "Die Bildgebung nach fieberhaftem Harnwegsinfekt folgt einer Stufenlogik: zuerst die belastungsfreie Sonographie, danach gezielt weitere Verfahren, wenn Befund oder Verlauf es begründen. Ziel ist, behandelbare Fehlbildungen zu finden, ohne jedes Kind invasiv zu untersuchen.",
-            "teaching_point": "Erst Schall, dann nachdenken. Das Miktionszysturethrogramm braucht einen Grund."
+            "core": "Die Abklärung ist alters- und risikoadaptiert. Ein normaler pränataler Befund schließt einen Reflux nicht aus; unauffällige Sonographie und gutes Ansprechen beseitigen die altersbezogene MCU-Erwägung nicht.",
+            "teaching_point": "Nach febrilem Harnwegsinfekt im Säuglingsalter auch Refluxdiagnostik erwägen."
           },
           "flag_note": null
         },
         "en": {
           "vignette": "Four-month-old infant with a first febrile urinary tract infection, Escherichia coli on catheter specimen, good response to antibiotics within 48 hours. The urinary tract was normal antenatally.",
-          "lead_in": "Which imaging is indicated after acute treatment?",
+          "lead_in": "Which imaging should be considered during the episode and follow-up?",
           "options": {
             "A": {
-              "text": "Ultrasound in all, voiding study only selectively",
-              "rationale": "Ultrasound is burden-free and detects relevant obstruction and dilatation. The invasive, radiation-bearing voiding study is used selectively. The voiding cystourethrogram follows only for abnormal ultrasound, an atypical course or a further febrile infection."
+              "text": "Ultrasound and consideration of VCUG because of age",
+              "rationale": "After febrile UTI in an infant under one year, consider VCUG even with a good response. Timing and further imaging depend on the clinical course."
             },
             "B": {
               "text": "Voiding cystourethrogram after every first infection",
@@ -429,10 +546,44 @@
             }
           },
           "explanation": {
-            "core": "Imaging after febrile urinary tract infection follows a stepwise logic: burden-free ultrasound first, then further studies only when findings or course justify them. The aim is to find treatable malformations without investigating every child invasively.",
-            "teaching_point": "Ultrasound first, then think. Voiding cystourethrography needs a reason."
+            "core": "Investigation is age- and risk-adapted. A normal antenatal scan does not exclude reflux; normal ultrasound and a good response do not remove age-based consideration of VCUG.",
+            "teaching_point": "Consider reflux investigation after febrile UTI in infancy."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Lactante de cuatro meses con primera infección urinaria febril, Escherichia coli en muestra de catéter, buena respuesta a antibióticos a las 48 horas. El tracto urinario era normal prenatalmente.",
+          "lead_in": "¿Qué imágenes se deben considerar durante el episodio y el seguimiento?",
+          "options": {
+            "A": {
+              "text": "Ultrasonido y consideración de VCUG por edad.",
+              "rationale": "Después de una ITU febril en un lactante menor de un año, considerar la CUGM incluso con una buena respuesta. El momento y las imágenes adicionales dependen del curso clínico."
+            },
+            "B": {
+              "text": "Cistouretrograma miccional después de cada primera infección",
+              "rationale": "Esto sobrediagnostica el reflujo sin consecuencias del tratamiento y sobrecarga a los niños innecesariamente con cateterismos y radiación."
+            },
+            "C": {
+              "text": "Al principio no hay imágenes, solo después de una tercera infección.",
+              "rationale": "Las malformaciones relevantes permanecerían sin detectarse durante demasiado tiempo; La ecografía no tiene riesgos y forma parte del estudio."
+            },
+            "D": {
+              "text": "Gammagrafía con DMSA de forma aguda para buscar reflujo",
+              "rationale": "DMSA muestra afectación parenquimatosa y cicatrización, no reflujo, y no se realiza de forma aguda."
+            }
+          },
+          "explanation": {
+            "core": "La investigación se adapta a la edad y al riesgo. Una exploración prenatal normal no excluye el reflujo; Una ecografía normal y una buena respuesta no eliminan la consideración de CUGM basada en la edad.",
+            "teaching_point": "Considere la posibilidad de investigar el reflujo después de una ITU febril en la infancia."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -446,7 +597,8 @@
           "bildgebung",
           "leitlinie",
           "operationstechnik"
-        ]
+        ],
+        "domain": "kinderurologie"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -542,12 +694,46 @@
             "teaching_point": "Millimetres do not decide on surgery; function and drainage do."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Lactante de seis meses con dilatación pélvica izquierda conocida prenatalmente. Después del nacimiento, el diámetro anteroposterior es de 22 mm con cálices dilatados; el uréter no está dilatado. La cistouretrografía miccional no muestra reflujo y el niño está asintomático.",
+          "lead_in": "¿Qué prueba orienta la decisión quirúrgica?",
+          "options": {
+            "A": {
+              "text": "Repetir la ecografía cada tres meses como base.",
+              "rationale": "El diámetro por sí solo no dice nada sobre la función y el drenaje; Muchas dilataciones se resuelven mientras que otras dañan silenciosamente."
+            },
+            "B": {
+              "text": "Renografía diurética con MAG3 como base de decisión.",
+              "rationale": "Proporciona las dos medidas decisivas: la participación del riñón afectado en la función total y el lavado después de la furosemida. Proporciona función renal diferencial y la curva de lavado después de la furosemida, las dos medidas que determinan si se debe operar."
+            },
+            "C": {
+              "text": "Realizar ureteropielografía retrógrada bajo anestesia.",
+              "rationale": "Invasivo, puramente morfológico y sin información funcional; útil como máximo inmediatamente antes de la reconstrucción."
+            },
+            "D": {
+              "text": "Organizar tomografía computarizada con medio de contraste.",
+              "rationale": "Exposición a la radiación sin información funcional; debe evitarse en la infancia."
+            }
+          },
+          "explanation": {
+            "core": "La dilatación pélvica es un hallazgo, no un diagnóstico. La cirugía se produce por una disminución de la función renal diferencial, una proporción inferior a aproximadamente el 40 por ciento, un retraso en el drenaje o síntomas e infecciones. La pieloplastia de Anderson-Hynes es entonces el procedimiento de elección.",
+            "teaching_point": "Los milímetros no deciden la cirugía; la función y el drenaje sí lo hacen."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-kin-00006",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Phimose",
@@ -555,7 +741,8 @@
           "leitlinie",
           "pharmakologie",
           "operationstechnik"
-        ]
+        ],
+        "domain": "kinderurologie"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 2,
@@ -588,6 +775,12 @@
           "code": "EAU",
           "title": "EAU Guidelines on Paediatric Urology",
           "year": 2026
+        },
+        {
+          "type": "reference",
+          "title": "EAU: phimosis",
+          "url": "https://uroweb.org/guidelines/paediatric-urology/chapter/phimosis-and-other-abnormalities-of-the-penile-skin",
+          "accessed": "2026-09-10"
         }
       ],
       "review": {
@@ -595,7 +788,12 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06"
+        "expires": "2028-09-06",
+        "editorial_review": {
+          "date": "2026-09-10",
+          "method": "AI-assisted source cross-check",
+          "clinical_signoff": false
+        }
       },
       "content": {
         "de": {
@@ -615,13 +813,13 @@
               "rationale": "Ein Notfallverfahren bei Paraphimose oder Harnverhalt, keine Behandlung der einfachen Phimose."
             },
             "D": {
-              "text": "Topisches Kortikosteroid über vier bis acht Wochen",
-              "rationale": "Führt in einem großen Teil der Fälle zur Retraktionsfähigkeit und erhält die Vorhaut. Erst bei Versagen wird operiert. Begleitet von vorsichtigen Dehnübungen führt es in einem großen Teil der Fälle zur Retraktionsfähigkeit und erhält die Vorhaut. Erst bei Versagen wird operiert."
+              "text": "Aufklären und ohne forcierte Retraktion abwarten",
+              "rationale": "Bei diesem beschwerdefreien Kind ist die Nichtretrahierbarkeit physiologisch möglich. Leichtes Ballonieren allein verlangt keine Therapie."
             }
           },
           "explanation": {
-            "core": "Die nicht retrahierbare Vorhaut im Kindesalter ist überwiegend physiologisch. Behandlungsbedürftig wird sie bei narbiger Enge, rezidivierenden Entzündungen, symptomatischer Ballonierung oder Lichen sclerosus. Letzterer ist die klare Indikation zur Zirkumzision, weil er auf Steroide nicht ausreichend anspricht.",
-            "teaching_point": "Erst Salbe, dann Skalpell. Ausnahme ist der Lichen sclerosus."
+            "core": "Keine routinemäßige Behandlung einer beschwerdefreien physiologischen Vorhautenge. Bei symptomatischer Phimose sind topische Steroide eine Erstlinienoption; Narben oder Verdacht auf Lichen sclerosus erfordern fachärztliche Beurteilung.",
+            "teaching_point": "Beschwerdefrei und ohne Narben: aufklären, nicht gewaltsam zurückziehen."
           },
           "flag_note": null
         },
@@ -642,15 +840,49 @@
               "rationale": "An emergency procedure for paraphimosis or retention, not a treatment for simple phimosis."
             },
             "D": {
-              "text": "Topical corticosteroid for four to eight weeks",
-              "rationale": "This achieves retractability in a large proportion of cases and preserves the foreskin. Surgery follows only if it fails. Combined with gentle stretching it achieves retractability in a large proportion of cases and preserves the foreskin. Surgery follows only if it fails."
+              "text": "Reassure and observe without forced retraction",
+              "rationale": "Non-retractability can be physiological in this asymptomatic child. Mild ballooning alone does not require treatment."
             }
           },
           "explanation": {
-            "core": "A non-retractile foreskin in childhood is mostly physiological. It requires treatment when there is cicatricial narrowing, recurrent inflammation, symptomatic ballooning or lichen sclerosus. The last is the clear indication for circumcision, because it does not respond adequately to steroids.",
-            "teaching_point": "Ointment before scalpel. Lichen sclerosus is the exception."
+            "core": "Do not routinely treat asymptomatic physiological non-retractability. Topical steroids are a first-line option for symptomatic phimosis; scarring or suspected lichen sclerosus requires specialist assessment.",
+            "teaching_point": "Asymptomatic and unscarred: reassure and avoid forced retraction."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Niño de cinco años cuyo prepucio no se puede retraer. Se hincha ligeramente al orinar; no hay infección, ni cicatrices ni un anillo blanquecino firme. Los padres están preocupados.",
+          "lead_in": "¿Cuál es la primera medida adecuada?",
+          "options": {
+            "A": {
+              "text": "Realizar la circuncisión como tratamiento definitivo",
+              "rationale": "Sin cicatriz, infección o síntomas no hay indicación quirúrgica; la mayoría de los casos se resuelven espontáneamente en la pubertad."
+            },
+            "B": {
+              "text": "Retracción forzada por parte de los padres a la hora del baño.",
+              "rationale": "Esto provoca desgarros y cicatrices y, por lo tanto, crea la fimosis genuina que luego necesita tratamiento."
+            },
+            "C": {
+              "text": "Hendidura dorsal del prepucio bajo anestesia breve.",
+              "rationale": "Un procedimiento de emergencia para parafimosis o retención, no un tratamiento para fimosis simple."
+            },
+            "D": {
+              "text": "Tranquilizar y observar sin retracción forzada.",
+              "rationale": "La no retractabilidad puede ser fisiológica en este niño asintomático. La distensión leve por sí sola no requiere tratamiento."
+            }
+          },
+          "explanation": {
+            "core": "No tratar de forma rutinaria la irretractabilidad fisiológica asintomática. Los esteroides tópicos son una opción de primera línea para la fimosis sintomática; las cicatrices o la sospecha de liquen escleroso requieren una evaluación especializada.",
+            "teaching_point": "Asintomático y sin cicatrices: tranquilizar y evitar la retracción forzada."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -664,7 +896,8 @@
           "operationstechnik",
           "leitlinie",
           "praeoperativ"
-        ]
+        ],
+        "domain": "kinderurologie"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -760,6 +993,40 @@
             "teaching_point": "No circumcision in hypospadias. The foreskin belongs to the operation."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Niño recién nacido con hipospadias distal, capuchón prepucial dorsal y leve curvatura del pene. Ambos testículos son palpables en el escroto. En la sala de posparto los padres preguntan sobre la circuncisión por motivos religiosos.",
+          "lead_in": "¿Qué se les debe decir?",
+          "options": {
+            "A": {
+              "text": "La circuncisión está bien, ya que no está relacionada con el hipospadias.",
+              "rationale": "Lo contrario es cierto: el prepucio es el tejido sustituto más importante de la neouretra o de cobertura durante la reparación."
+            },
+            "B": {
+              "text": "Análisis cromosómico antes de cualquier decisión adicional.",
+              "rationale": "El hipospadias distal con ambos testículos palpables no indica una diferencia en el desarrollo sexual; ese estudio se aplica a la forma proximal con gónadas impalpables."
+            },
+            "C": {
+              "text": "Preservar el prepucio, ya que es necesario para la reparación.",
+              "rationale": "El prepucio es material de construcción. La cirugía se programa para una edad en la que la anestesia es segura y el evento no se recuerda conscientemente. La cirugía suele realizarse entre los seis y los dieciocho meses, cuando la anestesia es segura y el evento no se recuerda conscientemente."
+            },
+            "D": {
+              "text": "Aplazar la reparación hasta la pubertad debido al tamaño del pene",
+              "rationale": "Los niños operados posteriormente conllevan una mayor carga psicológica; El tamaño es adecuado dentro de la ventana recomendada."
+            }
+          },
+          "explanation": {
+            "core": "En cualquier hipospadias, el prepucio es tejido reservado hasta que se planifica la reparación. Los hallazgos también orientan el estudio: la forma distal con testículos palpables es una cuestión puramente quirúrgica, mientras que la forma proximal con gónadas impalpables exige la evaluación de una diferencia en el desarrollo sexual.",
+            "teaching_point": "No circuncisión en hipospadias. El prepucio pertenece a la operación."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -773,7 +1040,8 @@
           "notfall",
           "bildgebung",
           "leitlinie"
-        ]
+        ],
+        "domain": "kinderurologie"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -869,6 +1137,40 @@
             "teaching_point": "Catheter first, imaging second. The nadir creatinine after drainage is the prognostic parameter."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Niño de tres días con hidronefrosis bilateral, vejiga de paredes gruesas y chorro débil y goteante. La creatinina es de 1,8 mg/dl y sigue aumentando; hubo oligohidramnios prenatalmente.",
+          "lead_in": "¿Cuál es la conducta más adecuada?",
+          "options": {
+            "A": {
+              "text": "Drenaje vesical inmediato, luego imágenes y resección.",
+              "rationale": "Primero se alivia la presión y se estabiliza al niño, luego se confirma el diagnóstico y se trata. La creatinina después del drenaje es el valor pronóstico significativo. El drenaje es transuretral, tras lo cual se estabilizan los electrolitos y la función renal. Sólo entonces se sigue el estudio miccional y la resección valvular."
+            },
+            "B": {
+              "text": "Cistoscopia inmediata con resección antes de cualquier drenaje.",
+              "rationale": "Esto opera en un recién nacido inestable sin necesidad; un catéter consigue el mismo alivio de una vez y de forma más suave."
+            },
+            "C": {
+              "text": "Nefrostomía percutánea bilateral como primer paso",
+              "rationale": "En la obstrucción infravesical, el drenaje vesical aborda el problema al nivel adecuado; la nefrostomía se reserva para casos especiales."
+            },
+            "D": {
+              "text": "Espere y vuelva a controlar la creatinina en 48 horas.",
+              "rationale": "Con un aumento de la creatinina y una obstrucción bilateral, la espera no es defendible."
+            }
+          },
+          "explanation": {
+            "core": "Las válvulas uretrales posteriores son la obstrucción infravesical congénita más común en los niños. La secuencia importa: drenar, estabilizar, confirmar, resecar. El pronóstico a largo plazo no lo establece la válvula sino el daño renal ya sufrido antes del nacimiento y la disfunción vesical posterior.",
+            "teaching_point": "Primero el catéter, después las imágenes. El nadir de creatinina después del drenaje es el parámetro pronóstico."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -882,7 +1184,8 @@
           "leitlinie",
           "pharmakologie",
           "dosierung"
-        ]
+        ],
+        "domain": "kinderurologie"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 3,
@@ -978,6 +1281,40 @@
             "teaching_point": "Daytime symptoms change the diagnosis and with it the entire workup."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Niña de siete años con enuresis crónica de cuatro a cinco noches por semana. Sin urgencia ni enuresis diurna, hábito intestinal normal, ecografía normal y residuo posmiccional, orina estéril.",
+          "lead_in": "¿Qué enfoque está indicado?",
+          "options": {
+            "A": {
+              "text": "Estudio urodinámico para aclarar la función de la vejiga.",
+              "rationale": "No indicado en enuresis monosintomática sin síntomas diurnos; es una carga para el niño sin consecuencias terapéuticas."
+            },
+            "B": {
+              "text": "Terapia antimuscarínica como primer paso del tratamiento.",
+              "rationale": "Esto apunta a la urgencia en la forma no monosintomática; No hay ninguna razón aquí."
+            },
+            "C": {
+              "text": "Despertar nocturno a los padres como terapia estándar",
+              "rationale": "Noches secas a corto plazo, pero sin efecto de aprendizaje ni beneficio duradero."
+            },
+            "D": {
+              "text": "Educación y un diario, luego alarma o desmopresina.",
+              "rationale": "La terapia de alarma funciona de forma más duradera gracias a un efecto de aprendizaje; La desmopresina actúa más rápido y es práctica para las fiestas de pijamas. Ambas son opciones de primera línea. La desmopresina se administra, por ejemplo, en dosis de 120 a 240 microgramos como liofilizado oral por la noche. La terapia de alarma funciona de forma más duradera gracias a un efecto de aprendizaje; ambos son de primera línea."
+            }
+          },
+          "explanation": {
+            "core": "El primer paso es distinguir la enuresis monosintomática de la no monosintomática, porque sólo esta última necesita un estudio de la vejiga. En la forma monosintomática, el tratamiento comienza con educación y un diario, luego la elección entre alarma y desmopresina sigue la rutina y las preferencias de la familia. El estreñimiento debe tratarse antes de cualquier terapia.",
+            "teaching_point": "La presencia de síntomas diurnos modifica el diagnóstico y el tratamiento."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     },
@@ -991,7 +1328,8 @@
           "leitlinie",
           "pathologie",
           "bildgebung"
-        ]
+        ],
+        "domain": "kinderurologie"
       },
       "type": "single_best_answer",
       "difficulty_estimated": 4,
@@ -1087,6 +1425,40 @@
             "teaching_point": "In Europe, chemotherapy before the knife, and no biopsy when the picture is typical."
           },
           "flag_note": null
+        },
+        "es": {
+          "vignette": "Niña de tres años con masa abdominal superior izquierda palpable e indolora. La ecografía y la resonancia magnética muestran un gran tumor sólido que surge del riñón con una pseudocápsula, sin invasión vascular y sin metástasis pulmonares. La edad y las imágenes son típicas del nefroblastoma.",
+          "lead_in": "¿Cuál es el enfoque estándar europeo?",
+          "options": {
+            "A": {
+              "text": "Biopsia percutánea con aguja gruesa y luego decisión de tratamiento",
+              "rationale": "No es necesario en una constelación típica y conlleva los riesgos de siembra de tumores y mejora de estadio."
+            },
+            "B": {
+              "text": "Quimioterapia preoperatoria sin biopsia previa",
+              "rationale": "El concepto europeo SIOP reduce el tamaño del tumor, reduce el riesgo de rotura intraoperatoria y, por tanto, reduce el estadio y el tratamiento adyuvante. El concepto europeo SIOP reduce el tamaño del tumor y reduce el riesgo de rotura intraoperatoria, lo que reduce el estadio y el tratamiento adyuvante."
+            },
+            "C": {
+              "text": "Nefrectomía de tumor primario sin terapia sistémica",
+              "rationale": "Éste es el enfoque norteamericano. Ambos conceptos son oncológicamente equivalentes pero difieren en secuencia; lo que importa es seguir uno consistentemente."
+            },
+            "D": {
+              "text": "Iniciar radioterapia primaria al lecho renal.",
+              "rationale": "La radioterapia pertenece al tratamiento adyuvante adaptado al riesgo, no al manejo inicial."
+            }
+          },
+          "explanation": {
+            "core": "En el nefroblastoma, Europa y América del Norte difieren sistemáticamente: SIOP trata preoperatoriamente y opera después, COG opera primero y estadifica el tumor no tratado. En el concepto europeo, la biopsia se evita deliberadamente cuando la edad y las imágenes son típicas, pero se considera en constelaciones atípicas.",
+            "teaching_point": "En Europa, quimioterapia antes del bisturí, y ninguna biopsia cuando el cuadro es típico."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "es": {
+          "date": "2026-09-10",
+          "method": "machine-assisted with AI editorial corrections",
+          "clinical_signoff": false
         }
       }
     }
