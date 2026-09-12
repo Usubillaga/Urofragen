@@ -57,7 +57,13 @@
         "reviewer": null,
         "created": "2026-09-05",
         "last_reviewed": "2026-09-05",
-        "expires": "2028-09-05"
+        "expires": "2028-09-05",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -213,10 +219,11 @@
         "last_reviewed": "2026-09-05",
         "expires": "2028-09-05",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted source cross-check",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -366,7 +373,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06"
+        "expires": "2028-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -461,7 +474,7 @@
     },
     {
       "id": "uro-hod-00004",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Nichtseminom Stadium I",
@@ -511,7 +524,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06"
+        "expires": "2028-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -519,19 +538,19 @@
           "lead_in": "Welche Option senkt das Rezidivrisiko am wirksamsten bei vertretbarer Toxizität?",
           "options": {
             "A": {
-              "text": "Nervschonende retroperitoneale Lymphadenektomie",
+              "text": "Nervschonende RPLND",
               "rationale": "Der Chemotherapie in der Rezidivkontrolle unterlegen und heute Sondersituationen vorbehalten, etwa bei Teratomanteilen oder Kontraindikationen gegen Cisplatin."
             },
             "B": {
-              "text": "Adjuvante retroperitoneale Radiatio",
+              "text": "Adjuvante Radiotherapie",
               "rationale": "Beim Nichtseminom unwirksam; die Strahlentherapie hat ihren Platz allenfalls beim Seminom und ist auch dort weitgehend verlassen."
             },
             "C": {
-              "text": "Ein Zyklus BEP adjuvant",
+              "text": "Ein adjuvanter BEP-Zyklus",
               "rationale": "Bei lymphovaskulärer Invasion liegt das Rezidivrisiko unbehandelt bei etwa der Hälfte der Patienten. Ein einzelner Zyklus senkt es auf wenige Prozent und ist zwei Zyklen gleichwertig."
             },
             "D": {
-              "text": "Zwei Zyklen BEP adjuvant",
+              "text": "Zwei adjuvante BEP-Zyklen",
               "rationale": "Historisches Vorgehen. Der zweite Zyklus bringt keinen zusätzlichen Nutzen und verdoppelt die Belastung."
             }
           },
@@ -546,19 +565,19 @@
           "lead_in": "Which option reduces relapse risk most effectively at acceptable toxicity?",
           "options": {
             "A": {
-              "text": "Nerve-sparing retroperitoneal lymph node dissection",
+              "text": "Nerve-sparing RPLND",
               "rationale": "Inferior to chemotherapy for relapse control and today reserved for special situations such as teratoma components or contraindications to cisplatin."
             },
             "B": {
-              "text": "Adjuvant retroperitoneal radiotherapy",
+              "text": "Adjuvant radiotherapy",
               "rationale": "Ineffective in non-seminoma; radiotherapy has a place at most in seminoma and has largely been abandoned there too."
             },
             "C": {
-              "text": "One adjuvant cycle of BEP",
+              "text": "One adjuvant BEP cycle",
               "rationale": "With lymphovascular invasion the untreated relapse risk is around fifty per cent. A single cycle reduces it to a few per cent and is equivalent to two cycles."
             },
             "D": {
-              "text": "Two adjuvant cycles of BEP",
+              "text": "Two adjuvant BEP cycles",
               "rationale": "Historical practice. The second cycle adds no benefit and doubles the burden."
             }
           },
@@ -573,11 +592,11 @@
           "lead_in": "¿Qué opción reduce el riesgo de recaída de manera más efectiva con una toxicidad aceptable?",
           "options": {
             "A": {
-              "text": "Disección de ganglios linfáticos retroperitoneales con conservación de nervios",
+              "text": "Linfadenectomía retroperitoneal (RPLND)",
               "rationale": "Inferior a la quimioterapia para el control de recaídas y hoy reservado para situaciones especiales como componentes de teratoma o contraindicaciones del cisplatino."
             },
             "B": {
-              "text": "Radioterapia retroperitoneal adyuvante",
+              "text": "Radioterapia adyuvante",
               "rationale": "Ineficaz en pacientes tumores no seminomatosos; La radioterapia tiene cabida como máximo en el seminoma y allí también ha sido abandonada en gran medida."
             },
             "C": {
@@ -606,7 +625,7 @@
     },
     {
       "id": "uro-hod-00005",
-      "version": 2,
+      "version": 3,
       "status": "published",
       "taxonomy": {
         "subdomain": "Residualtumor",
@@ -658,10 +677,11 @@
         "last_reviewed": "2026-09-06",
         "expires": "2028-09-06",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted consistency review",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -669,19 +689,19 @@
           "lead_in": "Wie ist weiter vorzugehen?",
           "options": {
             "A": {
-              "text": "Zwei weitere Zyklen Chemotherapie zur Verkleinerung des Restbefundes",
+              "text": "Zwei weitere Chemotherapiezyklen",
               "rationale": "Ohne Markeranstieg besteht keine Indikation; Teratom ist chemotherapieresistent und schrumpft nicht."
             },
             "B": {
-              "text": "Beobachtung mit CT-Kontrolle in drei Monaten, da die Marker normalisiert sind",
+              "text": "CT-Verlaufskontrolle in drei Monaten",
               "rationale": "Normale Marker schließen weder Teratom noch vitales Karzinom im Residuum aus."
             },
             "C": {
-              "text": "Residualtumorresektion des retroperitonealen Befundes",
+              "text": "Resektion des retroperitonealen Resttumors",
               "rationale": "Beim Nichtseminom kann ein Residuum reifes Teratom oder vitales Karzinom enthalten, was die Bildgebung nicht unterscheidet. Teratom spricht auf Chemotherapie nicht an und wächst weiter."
             },
             "D": {
-              "text": "PET/CT zur Entscheidung, ob reseziert werden muss",
+              "text": "PET/CT als Grundlage der OP-Entscheidung",
               "rationale": "Die PET ist beim Seminom-Residuum ab drei Zentimetern etabliert, nicht beim Nichtseminom; sie erkennt reifes Teratom nicht."
             }
           },
@@ -696,19 +716,19 @@
           "lead_in": "How should management proceed?",
           "options": {
             "A": {
-              "text": "Two further cycles of chemotherapy to shrink the residual mass",
+              "text": "Two more chemotherapy cycles",
               "rationale": "Without rising markers there is no indication; teratoma is chemoresistant and will not shrink."
             },
             "B": {
-              "text": "Observation with repeat CT in three months, since markers have normalised",
+              "text": "Repeat CT in three months",
               "rationale": "Normal markers exclude neither teratoma nor viable carcinoma within the residual mass."
             },
             "C": {
-              "text": "Resection of the residual retroperitoneal mass",
+              "text": "Retroperitoneal mass resection",
               "rationale": "In non-seminoma a residual mass may contain mature teratoma or viable carcinoma, which imaging cannot distinguish. Teratoma does not respond to chemotherapy and continues to grow."
             },
             "D": {
-              "text": "PET/CT to decide whether resection is needed",
+              "text": "PET/CT to determine surgical indication",
               "rationale": "PET is established for seminoma residuals of three centimetres or more, not for non-seminoma; it does not detect mature teratoma."
             }
           },
@@ -723,19 +743,19 @@
           "lead_in": "¿Cuál es la conducta más adecuada?",
           "options": {
             "A": {
-              "text": "Dos ciclos más de quimioterapia para reducir la masa residual.",
+              "text": "Dos ciclos más de quimioterapia",
               "rationale": "Sin marcadores ascendentes no hay indicación; El teratoma es quimiorresistente y no se encoge."
             },
             "B": {
-              "text": "Observación con repetición de TC en tres meses, ya que los marcadores se han normalizado.",
+              "text": "Control por TC en tres meses",
               "rationale": "Los marcadores normales no excluyen ni el teratoma ni el carcinoma viable dentro de la masa residual."
             },
             "C": {
-              "text": "Resección de la masa retroperitoneal residual.",
+              "text": "Resección del residuo retroperitoneal",
               "rationale": "En los casos no seminomas, una masa residual puede contener un teratoma maduro o un carcinoma viable, que las imágenes no pueden distinguir. El teratoma no responde a la quimioterapia y continúa creciendo."
             },
             "D": {
-              "text": "PET/CT para decidir si es necesaria la resección",
+              "text": "PET/TC para decidir la indicación quirúrgica",
               "rationale": "La PET se establece para residuos de seminoma de tres centímetros o más, no para los no seminomas; no detecta teratoma maduro."
             }
           },
@@ -813,10 +833,11 @@
         "last_reviewed": "2026-09-07",
         "expires": "2028-09-07",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted source cross-check",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -911,7 +932,7 @@
     },
     {
       "id": "uro-hod-00007",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Seminom Stadium II",
@@ -959,7 +980,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2027-09-07"
+        "expires": "2027-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -975,7 +1002,7 @@
               "rationale": "Prospektive Studien haben sie geprüft; kontraindiziert ist sie nicht, sondern noch nicht als gleichwertig belegt."
             },
             "C": {
-              "text": "Studienoption mit höheren Rezidivraten, kein Standard",
+              "text": "Spezialisierte Studienoption, kein allgemeiner Standard",
               "rationale": "Der Reiz liegt im Verzicht auf beide Spätfolgenprofile. Die Rezidivraten waren in Serien höher als unter Standardtherapie, weshalb die Aufklärung darüber Teil der Entscheidung ist. Der Reiz liegt darin, weder zu bestrahlen noch zu chemotherapieren. In mehreren prospektiven Serien lagen die Rezidivraten jedoch über denen der Standardtherapie, weshalb die Behandlung an ein erfahrenes Zentrum oder in eine Studie gehört."
             },
             "D": {
@@ -1002,7 +1029,7 @@
               "rationale": "Prospective studies have examined it; it is not contraindicated but not yet shown to be equivalent."
             },
             "C": {
-              "text": "A trial option with higher relapse rates, not a standard",
+              "text": "Specialist study option, not a general standard",
               "rationale": "Its appeal lies in avoiding both late-effect profiles. Relapse rates in series exceeded those of standard treatment, so counselling about this is part of the decision. Its appeal is avoiding both radiotherapy and chemotherapy. In several prospective series relapse rates nevertheless exceeded those of standard treatment, so treatment belongs in an experienced centre or a trial."
             },
             "D": {
@@ -1029,7 +1056,7 @@
               "rationale": "Estudios prospectivos lo han examinado; no está contraindicado pero aún no se ha demostrado que sea equivalente."
             },
             "C": {
-              "text": "Una opción en investigación con mayores tasas de recaída, no un estándar",
+              "text": "Opción en estudios especializados, no estándar general",
               "rationale": "Su atractivo radica en evitar ambos perfiles de efecto tardío. Las tasas de recaída en las series excedieron las del tratamiento estándar, por lo que el asesoramiento al respecto es parte de la decisión. Su atractivo es evitar tanto la radioterapia como la quimioterapia. Sin embargo, en varias series prospectivas las tasas de recaída superaron las del tratamiento estándar, por lo que el tratamiento debe realizarse en un centro experimentado o en un ensayo."
             },
             "D": {
@@ -1103,7 +1130,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1247,7 +1280,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1391,7 +1430,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1534,7 +1579,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1678,7 +1729,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1830,10 +1887,11 @@
         "last_reviewed": "2026-09-07",
         "expires": "2028-09-07",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted source cross-check",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1928,7 +1986,7 @@
     },
     {
       "id": "uro-hod-00014",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Tumormarker",
@@ -1976,12 +2034,18 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
           "vignette": "Nach Ablatio bei Nichtseminom werden die Marker im Verlauf kontrolliert, um den Abfall zu beurteilen.",
-          "lead_in": "Welche Halbwertszeiten und welche Fehlerquellen sind zu beachten?",
+          "lead_in": "Welche Halbwertszeiten sind für die postoperative Beurteilung von AFP und β-hCG anzusetzen?",
           "options": {
             "A": {
               "text": "AFP etwa ein Tag, beta-hCG etwa zwei Wochen",
@@ -2008,7 +2072,7 @@
         },
         "en": {
           "vignette": "After orchiectomy for non-seminoma, markers are followed to assess their decline.",
-          "lead_in": "Which half-lives and which sources of error must be considered?",
+          "lead_in": "Which half-lives should be used to interpret postoperative AFP and β-hCG decline?",
           "options": {
             "A": {
               "text": "AFP about one day, beta-hCG about two weeks",
@@ -2035,7 +2099,7 @@
         },
         "es": {
           "vignette": "Después de la orquiectomía por no seminoma, se siguen los marcadores para evaluar su deterioro.",
-          "lead_in": "¿Qué vidas medias y qué fuentes de error deben considerarse?",
+          "lead_in": "¿Qué semividas se utilizan para interpretar el descenso posoperatorio de AFP y β-hCG?",
           "options": {
             "A": {
               "text": "AFP aproximadamente un día, beta-hCG aproximadamente dos semanas",
@@ -2119,7 +2183,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2262,7 +2332,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2406,7 +2482,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2501,7 +2583,7 @@
     },
     {
       "id": "uro-hod-00018",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "organerhaltende Operation",
@@ -2549,7 +2631,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2561,11 +2649,11 @@
               "rationale": "Die Anorchie mit lebenslanger Substitution und Infertilität ist bei kleinem Tumor und erhaltener Funktion vermeidbar."
             },
             "B": {
-              "text": "Organerhaltende Enukleation über inguinalen Zugang",
+              "text": "Inguinale organerhaltende Enukleation",
               "rationale": "Bei Einzelhoden oder bilateralem Befall ist der Organerhalt etabliert, wenn der Tumor klein ist und die endokrine Funktion erhalten. Die begleitende Keimzellneoplasie in situ ist häufig und wird nachbehandelt oder überwacht. Voraussetzungen sind Einzelhoden oder beidseitiger Befall, ein Durchmesser unter etwa zwei Zentimetern und erhaltene endokrine Funktion. Während des Eingriffs erfolgen Schnellschnitt und Biopsien des angrenzenden Parenchyms, weil eine begleitende Keimzellneoplasie in situ häufig ist."
             },
             "C": {
-              "text": "Perkutane Punktion zur Histologiegewinnung vorab",
+              "text": "Perkutane Biopsie vor Therapiebeginn",
               "rationale": "Der skrotale Zugang ist beim Hodentumor kontraindiziert."
             },
             "D": {
@@ -2588,11 +2676,11 @@
               "rationale": "Anorchia with lifelong replacement and infertility is avoidable with a small tumour and preserved function."
             },
             "B": {
-              "text": "Organ-sparing enucleation through an inguinal approach",
+              "text": "Inguinal testis-sparing enucleation",
               "rationale": "Organ preservation is established with a solitary testis or bilateral disease when the tumour is small and endocrine function preserved. Accompanying germ cell neoplasia in situ is common and is then treated or surveyed. Prerequisites are a solitary testis or bilateral disease, a diameter below roughly two centimetres and preserved endocrine function. Frozen section and biopsies of adjacent parenchyma are taken during surgery, because accompanying germ cell neoplasia in situ is common."
             },
             "C": {
-              "text": "Percutaneous puncture to obtain histology beforehand",
+              "text": "Percutaneous biopsy before treatment",
               "rationale": "The scrotal approach is contraindicated in testicular tumours."
             },
             "D": {
@@ -2615,11 +2703,11 @@
               "rationale": "La anorquia con reemplazo de por vida e infertilidad se puede evitar con un tumor pequeño y función preservada."
             },
             "B": {
-              "text": "Enucleación con conservación de órganos mediante abordaje inguinal",
+              "text": "Enucleación inguinal conservadora del testículo",
               "rationale": "La preservación del órgano se establece con un testículo solitario o con enfermedad bilateral cuando el tumor es pequeño y la función endocrina está preservada. La neoplasia in situ de células germinales que la acompaña es común y luego se trata o examina. Los requisitos previos son un testículo solitario o una enfermedad bilateral, un diámetro inferior a aproximadamente dos centímetros y una función endocrina preservada. Durante la cirugía se toman estudios intraoperatorios por congelación y biopsias del parénquima adyacente, porque es común la neoplasia in situ de células germinales que la acompaña."
             },
             "C": {
-              "text": "Punción percutánea para obtener histología previamente.",
+              "text": "Biopsia percutánea antes del tratamiento",
               "rationale": "El abordaje escrotal está contraindicado en tumores testiculares."
             },
             "D": {
@@ -2701,10 +2789,11 @@
         "last_reviewed": "2026-09-07",
         "expires": "2028-09-07",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted source cross-check",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2848,7 +2937,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {

@@ -1,0 +1,364 @@
+Hinweis  uro-pca-00001: published ohne Zweitpruefer
+Hinweis  uro-pca-00002: published ohne Zweitpruefer
+Hinweis  uro-pca-00003: published ohne Zweitpruefer
+Hinweis  uro-pca-00004 [es]: richtige Option ist die laengste (1.32x)
+Hinweis  uro-pca-00004: published ohne Zweitpruefer
+Hinweis  uro-pca-00005: published ohne Zweitpruefer
+Hinweis  uro-pca-00006: published ohne Zweitpruefer
+Hinweis  uro-pca-00007: published ohne Zweitpruefer
+Hinweis  uro-pca-00008: published ohne Zweitpruefer
+Hinweis  uro-pca-00009: published ohne Zweitpruefer
+Hinweis  uro-pca-00010: published ohne Zweitpruefer
+Hinweis  uro-pca-00011: published ohne Zweitpruefer
+Hinweis  uro-pca-00012: published ohne Zweitpruefer
+Hinweis  uro-pca-00013: published ohne Zweitpruefer
+Hinweis  uro-pca-00014: published ohne Zweitpruefer
+Hinweis  uro-pca-00015: published ohne Zweitpruefer
+Hinweis  uro-pca-00016: published ohne Zweitpruefer
+Hinweis  uro-pca-00017: published ohne Zweitpruefer
+Hinweis  uro-pca-00018: published ohne Zweitpruefer
+Hinweis  uro-pca-00019: published ohne Zweitpruefer
+Hinweis  uro-pca-00020 [de]: richtige Option ist die laengste (1.32x)
+Hinweis  uro-pca-00020 [en]: richtige Option ist die laengste (1.31x)
+Hinweis  uro-pca-00020 [es]: richtige Option ist die laengste (1.46x)
+Hinweis  uro-pca-00020: published ohne Zweitpruefer
+Hinweis  uro-pca-00021: published ohne Zweitpruefer
+Hinweis  uro-pca-00022: published ohne Zweitpruefer
+Hinweis  uro-pca-00023: published ohne Zweitpruefer
+Hinweis  uro-nmi-00001: published ohne Zweitpruefer
+Hinweis  uro-nmi-00002: published ohne Zweitpruefer
+Hinweis  uro-nmi-00003: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-nmi-00003: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-nmi-00003: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-nmi-00003: published ohne Zweitpruefer
+Hinweis  uro-nmi-00004: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-nmi-00004: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-nmi-00004: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-nmi-00004 [de]: richtige Option nur 66% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-nmi-00004 [es]: richtige Option nur 65% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-nmi-00004: published ohne Zweitpruefer
+Hinweis  uro-nmi-00005: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-nmi-00005: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-nmi-00005: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-nmi-00005: published ohne Zweitpruefer
+Hinweis  uro-nmi-00006: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-nmi-00006: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-nmi-00006: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-nmi-00006 [de]: richtige Option nur 67% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-nmi-00006 [en]: richtige Option nur 68% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-nmi-00006 [es]: richtige Option nur 61% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-nmi-00006: published ohne Zweitpruefer
+Hinweis  uro-nmi-00007: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-nmi-00007: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-nmi-00007: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-nmi-00007 [de]: richtige Option nur 68% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-nmi-00007 [en]: richtige Option nur 58% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-nmi-00007 [es]: richtige Option nur 63% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-nmi-00007: published ohne Zweitpruefer
+Hinweis  uro-nmi-00008: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-nmi-00008: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-nmi-00008: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-nmi-00008: published ohne Zweitpruefer
+Hinweis  uro-nmi-00009: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-nmi-00009: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-nmi-00009: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-nmi-00009: published ohne Zweitpruefer
+Hinweis  uro-nmi-00010: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-nmi-00010: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-nmi-00010: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-nmi-00010 [es]: richtige Option ist die laengste (1.37x)
+Hinweis  uro-nmi-00010: published ohne Zweitpruefer
+Hinweis  uro-mib-00001: published ohne Zweitpruefer
+Hinweis  uro-mib-00002: published ohne Zweitpruefer
+Hinweis  uro-mib-00003 [en]: richtige Option ist die laengste (1.31x)
+Hinweis  uro-mib-00003: published ohne Zweitpruefer
+Hinweis  uro-mib-00004: published ohne Zweitpruefer
+Hinweis  uro-mib-00005: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-mib-00005: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-mib-00005: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-mib-00005 [en]: richtige Option 1.6-mal so lang wie die Distraktoren — die Laenge verraet die Antwort
+Hinweis  uro-mib-00005 [es]: richtige Option 1.7-mal so lang wie die Distraktoren — die Laenge verraet die Antwort
+Hinweis  uro-mib-00005: published ohne Zweitpruefer
+Hinweis  uro-mib-00006: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-mib-00006: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-mib-00006: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-mib-00006: published ohne Zweitpruefer
+Hinweis  uro-mib-00007: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-mib-00007: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-mib-00007: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-mib-00007 [de]: richtige Option ist die laengste (1.29x)
+Hinweis  uro-mib-00007 [es]: richtige Option ist die laengste (1.29x)
+Hinweis  uro-mib-00007: published ohne Zweitpruefer
+Hinweis  uro-mib-00008: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-mib-00008: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-mib-00008: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-mib-00008 [de]: richtige Option nur 54% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-mib-00008: published ohne Zweitpruefer
+Hinweis  uro-mib-00009: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-mib-00009: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-mib-00009: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-mib-00009: published ohne Zweitpruefer
+Hinweis  uro-mib-00010: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-mib-00010: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-mib-00010: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-mib-00010: published ohne Zweitpruefer
+Hinweis  uro-rcc-00001 [es]: richtige Option nur 70% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-rcc-00001: published ohne Zweitpruefer
+Hinweis  uro-rcc-00002: published ohne Zweitpruefer
+Hinweis  uro-rcc-00003: published ohne Zweitpruefer
+Hinweis  uro-rcc-00004: published ohne Zweitpruefer
+Hinweis  uro-rcc-00005: published ohne Zweitpruefer
+Hinweis  uro-rcc-00006 [es]: richtige Option nur 64% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-rcc-00006: published ohne Zweitpruefer
+Hinweis  uro-rcc-00007: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-rcc-00007: published ohne Zweitpruefer
+Hinweis  uro-rcc-00008: published ohne Zweitpruefer
+Hinweis  uro-rcc-00009 [es]: richtige Option ist die laengste (1.30x)
+Hinweis  uro-rcc-00009: published ohne Zweitpruefer
+Hinweis  uro-rcc-00010 [es]: richtige Option ist die laengste (1.28x)
+Hinweis  uro-rcc-00010: published ohne Zweitpruefer
+Hinweis  uro-rcc-00011: published ohne Zweitpruefer
+Hinweis  uro-rcc-00012: published ohne Zweitpruefer
+Hinweis  uro-hod-00001: published ohne Zweitpruefer
+Hinweis  uro-hod-00002: published ohne Zweitpruefer
+Hinweis  uro-hod-00003: published ohne Zweitpruefer
+Hinweis  uro-hod-00004 [de]: richtige Option nur 65% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-hod-00004 [en]: richtige Option nur 66% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-hod-00004 [es]: richtige Option nur 52% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-hod-00004: published ohne Zweitpruefer
+Hinweis  uro-hod-00005 [es]: richtige Option nur 69% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-hod-00005: published ohne Zweitpruefer
+Hinweis  uro-hod-00006: published ohne Zweitpruefer
+Hinweis  uro-hod-00007 [es]: richtige Option ist die laengste (1.37x)
+Hinweis  uro-hod-00007: published ohne Zweitpruefer
+Hinweis  uro-hod-00008: published ohne Zweitpruefer
+Hinweis  uro-hod-00009: published ohne Zweitpruefer
+Hinweis  uro-hod-00010: published ohne Zweitpruefer
+Hinweis  uro-hod-00011: published ohne Zweitpruefer
+Hinweis  uro-hod-00012: published ohne Zweitpruefer
+Hinweis  uro-hod-00013: published ohne Zweitpruefer
+Hinweis  uro-hod-00014: published ohne Zweitpruefer
+Hinweis  uro-hod-00015: published ohne Zweitpruefer
+Hinweis  uro-hod-00016: published ohne Zweitpruefer
+Hinweis  uro-hod-00017: published ohne Zweitpruefer
+Hinweis  uro-hod-00018 [es]: richtige Option ist die laengste (1.29x)
+Hinweis  uro-hod-00018: published ohne Zweitpruefer
+Hinweis  uro-hod-00019: published ohne Zweitpruefer
+Hinweis  uro-hod-00020: published ohne Zweitpruefer
+Hinweis  uro-utu-00001: published ohne Zweitpruefer
+Hinweis  uro-utu-00002: published ohne Zweitpruefer
+Hinweis  uro-utu-00003: published ohne Zweitpruefer
+Hinweis  uro-utu-00004: published ohne Zweitpruefer
+Hinweis  uro-utu-00005: published ohne Zweitpruefer
+Hinweis  uro-utu-00006 [es]: richtige Option ist die laengste (1.31x)
+Hinweis  uro-utu-00006: published ohne Zweitpruefer
+Hinweis  uro-utu-00007: published ohne Zweitpruefer
+Hinweis  uro-utu-00008: published ohne Zweitpruefer
+Hinweis  uro-utu-00009: published ohne Zweitpruefer
+Hinweis  uro-utu-00010: published ohne Zweitpruefer
+Hinweis  uro-utu-00011: published ohne Zweitpruefer
+Hinweis  uro-pen-00001 [es]: richtige Option ist die laengste (1.46x)
+Hinweis  uro-pen-00001: published ohne Zweitpruefer
+Hinweis  uro-pen-00002 [es]: richtige Option ist die laengste (1.31x)
+Hinweis  uro-pen-00002: published ohne Zweitpruefer
+Hinweis  uro-pen-00003: published ohne Zweitpruefer
+Hinweis  uro-pen-00004: published ohne Zweitpruefer
+Hinweis  uro-pen-00005: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-pen-00005: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-pen-00005: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-pen-00005: published ohne Zweitpruefer
+Hinweis  uro-pen-00006: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-pen-00006: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-pen-00006: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-pen-00006 [de]: richtige Option nur 48% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-pen-00006 [es]: richtige Option nur 46% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-pen-00006: published ohne Zweitpruefer
+Hinweis  uro-pen-00007: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-pen-00007: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-pen-00007: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-pen-00007 [de]: richtige Option nur 44% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-pen-00007 [en]: richtige Option nur 47% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-pen-00007 [es]: richtige Option nur 47% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-pen-00007: published ohne Zweitpruefer
+Hinweis  uro-pen-00008: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-pen-00008: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-pen-00008: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-pen-00008: published ohne Zweitpruefer
+Hinweis  uro-pen-00009: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-pen-00009: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-pen-00009: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-pen-00009: published ohne Zweitpruefer
+Hinweis  uro-pen-00010: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-pen-00010: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-pen-00010: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-pen-00010: published ohne Zweitpruefer
+Hinweis  uro-ure-00001: published ohne Zweitpruefer
+Hinweis  uro-ure-00002: published ohne Zweitpruefer
+Hinweis  uro-ure-00003: published ohne Zweitpruefer
+Hinweis  uro-ure-00004: published ohne Zweitpruefer
+Hinweis  uro-ure-00005 [de]: richtige Option ist die laengste (1.46x)
+Hinweis  uro-ure-00005 [en]: richtige Option ist die laengste (1.29x)
+Hinweis  uro-ure-00005 [es]: richtige Option ist die laengste (1.39x)
+Hinweis  uro-ure-00005: published ohne Zweitpruefer
+Hinweis  uro-ure-00006: published ohne Zweitpruefer
+Hinweis  uro-ure-00007: published ohne Zweitpruefer
+Hinweis  uro-ure-00008 [es]: richtige Option ist die laengste (1.36x)
+Hinweis  uro-ure-00008: published ohne Zweitpruefer
+Hinweis  uro-ure-00009: published ohne Zweitpruefer
+Hinweis  uro-ure-00010: published ohne Zweitpruefer
+Hinweis  uro-fun-00001 [en]: richtige Option ist die laengste (1.37x)
+Hinweis  uro-fun-00001: published ohne Zweitpruefer
+Hinweis  uro-fun-00002: published ohne Zweitpruefer
+Hinweis  uro-fun-00003: published ohne Zweitpruefer
+Hinweis  uro-fun-00004: published ohne Zweitpruefer
+Hinweis  uro-fun-00005: published ohne Zweitpruefer
+Hinweis  uro-fun-00006: published ohne Zweitpruefer
+Hinweis  uro-fun-00007: published ohne Zweitpruefer
+Hinweis  uro-fun-00008: published ohne Zweitpruefer
+Hinweis  uro-fun-00009: published ohne Zweitpruefer
+Hinweis  uro-fun-00010: published ohne Zweitpruefer
+Hinweis  uro-fun-00011: published ohne Zweitpruefer
+Hinweis  uro-fun-00012: published ohne Zweitpruefer
+Hinweis  uro-fun-00013: published ohne Zweitpruefer
+Hinweis  uro-kin-00001: published ohne Zweitpruefer
+Hinweis  uro-kin-00002: published ohne Zweitpruefer
+Hinweis  uro-kin-00003: published ohne Zweitpruefer
+Hinweis  uro-kin-00004: published ohne Zweitpruefer
+Hinweis  uro-kin-00005: published ohne Zweitpruefer
+Hinweis  uro-kin-00006: published ohne Zweitpruefer
+Hinweis  uro-kin-00007: published ohne Zweitpruefer
+Hinweis  uro-kin-00008: published ohne Zweitpruefer
+Hinweis  uro-kin-00009: published ohne Zweitpruefer
+Hinweis  uro-kin-00010: published ohne Zweitpruefer
+Hinweis  uro-inf-00001: published ohne Zweitpruefer
+Hinweis  uro-inf-00002: published ohne Zweitpruefer
+Hinweis  uro-inf-00003: published ohne Zweitpruefer
+Hinweis  uro-inf-00004: published ohne Zweitpruefer
+Hinweis  uro-inf-00005: published ohne Zweitpruefer
+Hinweis  uro-inf-00006: published ohne Zweitpruefer
+Hinweis  uro-inf-00007: published ohne Zweitpruefer
+Hinweis  uro-inf-00008 [es]: richtige Option ist die laengste (1.25x)
+Hinweis  uro-inf-00008: published ohne Zweitpruefer
+Hinweis  uro-inf-00009: published ohne Zweitpruefer
+Hinweis  uro-inf-00010: published ohne Zweitpruefer
+Hinweis  uro-lit-00001: published ohne Zweitpruefer
+Hinweis  uro-lit-00002: published ohne Zweitpruefer
+Hinweis  uro-lit-00003: published ohne Zweitpruefer
+Hinweis  uro-lit-00004: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-lit-00004: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-lit-00004: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-lit-00004: published ohne Zweitpruefer
+Hinweis  uro-lit-00005: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-lit-00005: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-lit-00005: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-lit-00005 [de]: richtige Option nur 70% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-lit-00005 [es]: richtige Option nur 65% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-lit-00005: published ohne Zweitpruefer
+Hinweis  uro-lit-00006: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-lit-00006: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-lit-00006: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-lit-00006 [de]: richtige Option nur 31% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-lit-00006 [en]: richtige Option nur 24% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-lit-00006 [es]: richtige Option nur 23% der Distraktorlaenge - die Kuerze verraet die Antwort
+Hinweis  uro-lit-00006: published ohne Zweitpruefer
+Hinweis  uro-lit-00007: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-lit-00007: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-lit-00007: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-lit-00007: published ohne Zweitpruefer
+Hinweis  uro-lit-00008: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-lit-00008: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-lit-00008: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-lit-00008: published ohne Zweitpruefer
+Hinweis  uro-lit-00009: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-lit-00009: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-lit-00009: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-lit-00009 [es]: richtige Option ist die laengste (1.27x)
+Hinweis  uro-lit-00009: published ohne Zweitpruefer
+Hinweis  uro-lit-00010: generische Fragestellung - die Frage gehoert in lead_in, nicht in die Vignette
+Hinweis  uro-lit-00010: die Vignette endet mit einem Fragezeichen - Fall und Fragestellung sind vermischt
+Hinweis  uro-lit-00010: alle 4 Optionen teilen dieselbe Begruendung - der Lerneffekt der Einzelbegruendung entfaellt
+Hinweis  uro-lit-00010 [de]: richtige Option ist die laengste (1.32x)
+Hinweis  uro-lit-00010 [es]: richtige Option ist die laengste (1.46x)
+Hinweis  uro-lit-00010: published ohne Zweitpruefer
+Hinweis  uro-tra-00001: published ohne Zweitpruefer
+Hinweis  uro-tra-00002: published ohne Zweitpruefer
+Hinweis  uro-tra-00003: published ohne Zweitpruefer
+Hinweis  uro-tra-00004 [es]: richtige Option ist die laengste (1.31x)
+Hinweis  uro-tra-00004: published ohne Zweitpruefer
+Hinweis  uro-tra-00005 [de]: richtige Option ist die laengste (1.25x)
+Hinweis  uro-tra-00005 [es]: richtige Option ist die laengste (1.30x)
+Hinweis  uro-tra-00005: published ohne Zweitpruefer
+Hinweis  uro-tra-00006: published ohne Zweitpruefer
+Hinweis  uro-tra-00007: published ohne Zweitpruefer
+Hinweis  uro-tra-00008: published ohne Zweitpruefer
+Hinweis  uro-tra-00009: published ohne Zweitpruefer
+Hinweis  uro-tra-00010: published ohne Zweitpruefer
+Hinweis  uro-tra-00011: published ohne Zweitpruefer
+Hinweis  uro-tra-00012: published ohne Zweitpruefer
+Hinweis  uro-tra-00013 [es]: richtige Option ist die laengste (1.35x)
+Hinweis  uro-tra-00013: published ohne Zweitpruefer
+Hinweis  uro-tra-00014: published ohne Zweitpruefer
+Hinweis  uro-tra-00015: published ohne Zweitpruefer
+Hinweis  uro-and-00001: published ohne Zweitpruefer
+Hinweis  uro-and-00002 [es]: richtige Option ist die laengste (1.29x)
+Hinweis  uro-and-00002: published ohne Zweitpruefer
+Hinweis  uro-and-00003: published ohne Zweitpruefer
+Hinweis  uro-and-00004: published ohne Zweitpruefer
+Hinweis  uro-and-00005: published ohne Zweitpruefer
+Hinweis  uro-and-00006: published ohne Zweitpruefer
+Hinweis  uro-and-00007: published ohne Zweitpruefer
+Hinweis  uro-and-00008: published ohne Zweitpruefer
+Hinweis  uro-and-00009: published ohne Zweitpruefer
+Hinweis  uro-and-00010: published ohne Zweitpruefer
+Hinweis  uro-ope-00001: published ohne Zweitpruefer
+Hinweis  uro-ope-00002: published ohne Zweitpruefer
+Hinweis  uro-ope-00003: published ohne Zweitpruefer
+Hinweis  uro-ope-00004: published ohne Zweitpruefer
+Hinweis  uro-ope-00005: published ohne Zweitpruefer
+Hinweis  uro-ope-00006: published ohne Zweitpruefer
+Hinweis  uro-ope-00007: published ohne Zweitpruefer
+Hinweis  uro-ope-00008: published ohne Zweitpruefer
+Hinweis  uro-ope-00009: published ohne Zweitpruefer
+Hinweis  uro-ope-00010: published ohne Zweitpruefer
+Hinweis  uro-ope-00011: published ohne Zweitpruefer
+Hinweis  uro-ope-00012 [es]: richtige Option ist die laengste (1.32x)
+Hinweis  uro-ope-00012: published ohne Zweitpruefer
+Hinweis  uro-ope-00013: published ohne Zweitpruefer
+Hinweis  uro-ope-00014: published ohne Zweitpruefer
+Hinweis  uro-ope-00015: published ohne Zweitpruefer
+Hinweis  uro-ope-00016: published ohne Zweitpruefer
+Hinweis  uro-ope-00017: published ohne Zweitpruefer
+Hinweis  uro-ope-00018 [de]: richtige Option ist die laengste (1.36x)
+Hinweis  uro-ope-00018 [en]: richtige Option ist die laengste (1.34x)
+Hinweis  uro-ope-00018 [es]: richtige Option ist die laengste (1.26x)
+Hinweis  uro-ope-00018: published ohne Zweitpruefer
+Hinweis  uro-ope-00019: published ohne Zweitpruefer
+Hinweis  uro-ope-00020: published ohne Zweitpruefer
+Hinweis  uro-rek-00001 [de]: richtige Option ist die laengste (1.31x)
+Hinweis  uro-rek-00001 [es]: richtige Option ist die laengste (1.37x)
+Hinweis  uro-rek-00001: published ohne Zweitpruefer
+Hinweis  uro-rek-00002: published ohne Zweitpruefer
+Hinweis  uro-rek-00003: published ohne Zweitpruefer
+Hinweis  uro-rek-00004: published ohne Zweitpruefer
+Hinweis  uro-rek-00005 [de]: richtige Option ist die laengste (1.49x)
+Hinweis  uro-rek-00005 [es]: richtige Option ist die laengste (1.41x)
+Hinweis  uro-rek-00005: published ohne Zweitpruefer
+Hinweis  uro-rek-00006: published ohne Zweitpruefer
+Hinweis  uro-rek-00007: published ohne Zweitpruefer
+Hinweis  uro-rek-00008: published ohne Zweitpruefer
+Hinweis  uro-rek-00009: published ohne Zweitpruefer
+Hinweis  uro-rek-00010: published ohne Zweitpruefer
+Hinweis  uro-rek-00011: published ohne Zweitpruefer
+Hinweis  uro-rek-00012: published ohne Zweitpruefer
+Hinweis  uro-rek-00013 [de]: richtige Option ist die laengste (1.49x)
+Hinweis  uro-rek-00013 [en]: richtige Option ist die laengste (1.35x)
+Hinweis  uro-rek-00013: published ohne Zweitpruefer
+Hinweis  uro-rek-00014: published ohne Zweitpruefer
+Hinweis  uro-rek-00015: published ohne Zweitpruefer
+Hinweis  uro-rek-00016 [de]: richtige Option ist die laengste (1.28x)
+Hinweis  uro-rek-00016 [es]: richtige Option ist die laengste (1.45x)
+Hinweis  uro-rek-00016: published ohne Zweitpruefer
+Hinweis  uro-rek-00017: published ohne Zweitpruefer
+Hinweis  uro-rek-00018: published ohne Zweitpruefer
+Hinweis  uro-rek-00019: published ohne Zweitpruefer
+Hinweis  uro-rek-00020: published ohne Zweitpruefer

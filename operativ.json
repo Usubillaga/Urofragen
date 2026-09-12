@@ -3,7 +3,7 @@
   "fragen": [
     {
       "id": "uro-ope-00001",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "radikale Prostatektomie",
@@ -51,12 +51,18 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2029-09-06"
+        "expires": "2029-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
           "vignette": "Bei einer roboterassistierten radikalen Prostatektomie soll beidseits nervschonend vorgegangen werden. Der Operateur präpariert nach Absetzen der Blase entlang der Prostatakapsel.",
-          "lead_in": "Wo verläuft das neurovaskuläre Bündel, und welche Struktur muss zuvor kontrolliert werden?",
+          "lead_in": "Wo verläuft das für die Nervschonung relevante neurovaskuläre Bündel?",
           "options": {
             "A": {
               "text": "Ventral in der Mittellinie unter der Denonvillier-Faszie",
@@ -83,7 +89,7 @@
         },
         "en": {
           "vignette": "During robot-assisted radical prostatectomy a bilateral nerve-sparing approach is planned. After dividing the bladder neck the surgeon dissects along the prostatic capsule.",
-          "lead_in": "Where does the neurovascular bundle run, and which structure must be controlled beforehand?",
+          "lead_in": "Where does the neurovascular bundle relevant to nerve sparing run?",
           "options": {
             "A": {
               "text": "Ventrally in the midline beneath Denonvilliers' fascia",
@@ -110,7 +116,7 @@
         },
         "es": {
           "vignette": "Durante la prostatectomía radical asistida por robot se planifica un abordaje bilateral con preservación de nervios. Después de dividir el cuello de la vejiga, el cirujano disecciona a lo largo de la cápsula prostática.",
-          "lead_in": "¿Por dónde discurre el haz neurovascular y qué estructura hay que controlar previamente?",
+          "lead_in": "¿Dónde discurre el paquete neurovascular relevante para preservar nervios?",
           "options": {
             "A": {
               "text": "Ventralmente en la línea media debajo de la fascia de Denonvilliers",
@@ -146,7 +152,7 @@
     },
     {
       "id": "uro-ope-00002",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "transurethrale Resektion",
@@ -195,12 +201,18 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2029-09-06"
+        "expires": "2029-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
           "vignette": "Bei der transurethralen Resektion eines Tumors an der linken Seitenwand der Blase zuckt bei jeder Aktivierung der Schlinge das linke Bein heftig. Der Patient ist in Spinalanästhesie.",
-          "lead_in": "Was liegt vor und wie wird es beherrscht?",
+          "lead_in": "Welcher Mechanismus erklärt das Zucken bei Aktivierung der Resektionsschlinge?",
           "options": {
             "A": {
               "text": "Blasenperforation; sofortiger Abbruch und Laparotomie",
@@ -227,7 +239,7 @@
         },
         "en": {
           "vignette": "During transurethral resection of a tumour on the left lateral bladder wall the left leg jerks violently each time the loop is activated. The patient is under spinal anaesthesia.",
-          "lead_in": "What is happening and how is it managed?",
+          "lead_in": "Which mechanism explains the leg movement when the resection loop is activated?",
           "options": {
             "A": {
               "text": "Bladder perforation; abort at once and proceed to laparotomy",
@@ -254,7 +266,7 @@
         },
         "es": {
           "vignette": "Durante la resección transuretral de un tumor en la pared lateral izquierda de la vejiga, la pierna izquierda se sacude violentamente cada vez que se activa el asa. El paciente está bajo anestesia espinal.",
-          "lead_in": "¿Qué está pasando y cómo se gestiona?",
+          "lead_in": "¿Qué mecanismo explica la sacudida al activar el asa de resección?",
           "options": {
             "A": {
               "text": "Perforación de vejiga; abortar de inmediato y proceder a la laparotomía",
@@ -338,7 +350,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2029-09-06"
+        "expires": "2029-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -482,7 +500,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2029-09-06"
+        "expires": "2029-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -627,10 +651,11 @@
         "last_reviewed": "2026-09-06",
         "expires": "2029-09-06",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted editorial review",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -725,7 +750,7 @@
     },
     {
       "id": "uro-ope-00006",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "retroperitoneale Lymphadenektomie",
@@ -773,12 +798,18 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2029-09-06"
+        "expires": "2029-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
           "vignette": "Ein 29-jähriger Patient soll eine retroperitoneale Lymphadenektomie nach Chemotherapie erhalten. Er hat einen aktuellen Kinderwunsch und fragt nach Folgen für die Zeugungsfähigkeit.",
-          "lead_in": "Welche Struktur ist entscheidend und welche Folge droht bei ihrer Durchtrennung?",
+          "lead_in": "Welche nervalen Strukturen müssen für den Erhalt der antegraden Ejakulation geschont werden?",
           "options": {
             "A": {
               "text": "Sympathische Fasern aus Th12 bis L3 und Plexus hypogastricus",
@@ -805,7 +836,7 @@
         },
         "en": {
           "vignette": "A 29-year-old man is scheduled for post-chemotherapy retroperitoneal lymph node dissection. He currently wishes to father children and asks about effects on fertility.",
-          "lead_in": "Which structure is decisive and what happens if it is divided?",
+          "lead_in": "Which neural structures should be preserved to maintain antegrade ejaculation?",
           "options": {
             "A": {
               "text": "Sympathetic fibres from T12 to L3 and the hypogastric plexus",
@@ -832,7 +863,7 @@
         },
         "es": {
           "vignette": "Un hombre de 29 años está programado para una disección de ganglios linfáticos retroperitoneales después de quimioterapia. Actualmente desea tener hijos y pregunta sobre los efectos sobre la fertilidad.",
-          "lead_in": "¿Qué estructura es decisiva y qué pasa si se divide?",
+          "lead_in": "¿Qué estructuras nerviosas deben preservarse para mantener eyaculación anterógrada?",
           "options": {
             "A": {
               "text": "Fibras simpáticas de T12 a L3 y el plexo hipogástrico.",
@@ -916,7 +947,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2029-09-06"
+        "expires": "2029-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1011,7 +1048,7 @@
     },
     {
       "id": "uro-ope-00008",
-      "version": 2,
+      "version": 3,
       "status": "published",
       "taxonomy": {
         "subdomain": "Harnableitung",
@@ -1062,15 +1099,16 @@
         "last_reviewed": "2026-09-06",
         "expires": "2029-09-06",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted consistency review",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
           "vignette": "Radikale Zystektomie mit orthotoper Ileumneoblase. Der Operateur wählt das Darmsegment für die Rekonstruktion aus.",
-          "lead_in": "Welche Aussage zur Segmentwahl und ihren Folgen trifft zu?",
+          "lead_in": "Welches Darmsegment ist für die geplante Ileumneoblase geeignet?",
           "options": {
             "A": {
               "text": "Terminales Ileum an der Bauhin-Klappe wegen der Beweglichkeit",
@@ -1097,7 +1135,7 @@
         },
         "en": {
           "vignette": "Radical cystectomy with orthotopic ileal neobladder. The surgeon selects the bowel segment for reconstruction.",
-          "lead_in": "Which statement about segment choice and its consequences is correct?",
+          "lead_in": "Which bowel segment is suitable for the planned ileal neobladder?",
           "options": {
             "A": {
               "text": "Terminal ileum at the ileocaecal valve for its mobility",
@@ -1124,7 +1162,7 @@
         },
         "es": {
           "vignette": "Cistectomía radical con neovejiga ileal ortotópica. El cirujano selecciona el segmento intestinal para la reconstrucción.",
-          "lead_in": "¿Qué afirmación sobre la elección de segmento y sus consecuencias es correcta?",
+          "lead_in": "¿Qué segmento intestinal es adecuado para la neovejiga ileal prevista?",
           "options": {
             "A": {
               "text": "Íleon terminal en la válvula ileocecal por su movilidad.",
@@ -1208,7 +1246,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2029-09-06"
+        "expires": "2029-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1351,7 +1395,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2029-09-06"
+        "expires": "2029-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1446,7 +1496,7 @@
     },
     {
       "id": "uro-ope-00011",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Psoas Hitch",
@@ -1494,12 +1544,18 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2029-09-06"
+        "expires": "2029-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
           "vignette": "Am zweiten Tag nach Ureterozystoneostomie mit Psoas-Hitch-Fixierung klagt eine 54-jährige Patientin über Brennen und Taubheit in der rechten Leiste und an der Innenseite des Oberschenkels. Die Kraft in der Hüftbeugung und im Kniestrecker ist seitengleich erhalten, die Nierensonographie zeigt keine Stauung.",
-          "lead_in": "Was liegt vor und wie wäre es zu vermeiden gewesen?",
+          "lead_in": "Welche postoperative Nervenläsion erklärt dieses sensible Ausfallmuster am besten?",
           "options": {
             "A": {
               "text": "Radikulopathie L5 durch die Lagerung während der Operation",
@@ -1526,7 +1582,7 @@
         },
         "en": {
           "vignette": "On the second day after ureteroneocystostomy with psoas hitch fixation a 54-year-old woman reports burning and numbness in the right groin and on the medial thigh. Hip flexion and knee extension strength are symmetrical, and renal ultrasound shows no obstruction.",
-          "lead_in": "What has happened and how could it have been avoided?",
+          "lead_in": "Which postoperative nerve injury best explains this sensory deficit pattern?",
           "options": {
             "A": {
               "text": "L5 radiculopathy from positioning during the operation",
@@ -1553,7 +1609,7 @@
         },
         "es": {
           "vignette": "El segundo día después de la ureteroneocistostomía con fijación del nudo del psoas, una mujer de 54 años refiere ardor y entumecimiento en la ingle derecha y en la parte medial del muslo. La fuerza de flexión de la cadera y extensión de la rodilla son simétricas y la ecografía renal no muestra obstrucción.",
-          "lead_in": "¿Qué ha pasado y cómo se podría haber evitado?",
+          "lead_in": "¿Qué lesión nerviosa posoperatoria explica mejor este patrón sensitivo?",
           "options": {
             "A": {
               "text": "Radiculopatía L5 por posicionamiento durante la operación.",
@@ -1589,7 +1645,7 @@
     },
     {
       "id": "uro-ope-00012",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Ureterrekonstruktion",
@@ -1637,7 +1693,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2029-09-06"
+        "expires": "2029-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1645,7 +1707,7 @@
           "lead_in": "Wie wird rekonstruiert?",
           "options": {
             "A": {
-              "text": "Ureterozystoneostomie, bei Bedarf mit Hitch oder Boari-Lappen",
+              "text": "Ureterreimplantation mit bedarfsgerechter Überbrückung",
               "rationale": "Distale Verletzungen werden reimplantiert, weil die Durchblutung des distalen Stumpfes unsicher ist. Psoas Hitch und Boari-Lappen sind die beiden Verlängerungsschritte, wenn die Länge nicht reicht. Die Anastomose wird spatuliert, spannungsfrei und über eine Schiene angelegt. Bei verbleibender Spannung folgt der Psoas Hitch, bei größerem Defekt ein Boari-Lappen."
             },
             "B": {
@@ -1672,7 +1734,7 @@
           "lead_in": "How should reconstruction proceed?",
           "options": {
             "A": {
-              "text": "Ureteroneocystostomy, with hitch or Boari flap if needed",
+              "text": "Ureteric reimplantation with bridging if needed",
               "rationale": "Distal injuries are reimplanted because perfusion of the distal stump is unreliable. Psoas hitch and Boari flap are the two lengthening steps when reach is insufficient. The anastomosis is spatulated, tension-free and stented. If tension remains a psoas hitch follows, and a Boari flap for a longer defect."
             },
             "B": {
@@ -1699,7 +1761,7 @@
           "lead_in": "¿Cómo debería proceder la reconstrucción?",
           "options": {
             "A": {
-              "text": "Ureteroneocistostomía, con fijación al psoas o colgajo de Boari si es necesario",
+              "text": "Reimplante ureteral con puente si se precisa",
               "rationale": "Las lesiones distales se reimplantan porque la perfusión del muñón distal no es confiable. El tirón del psoas y el colgajo de Boari son los dos pasos de alargamiento cuando el alcance es insuficiente. La anastomosis se realiza con espátula, sin tensión y con stent. Si la tensión persiste, se realiza un tirón del psoas y un colgajo de Boari para un defecto más largo."
             },
             "B": {
@@ -1781,7 +1843,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2029-09-06"
+        "expires": "2029-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1925,7 +1993,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2029-09-06"
+        "expires": "2029-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2020,7 +2094,7 @@
     },
     {
       "id": "uro-ope-00015",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "laparoskopischer Zugang",
@@ -2069,12 +2143,18 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2029-09-06"
+        "expires": "2029-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
           "vignette": "Nach laparoskopischer Nierenteilresektion blutet es beim Entfernen des rechten Arbeitstrokars anhaltend aus der Bauchdecke. Am Folgetag zeigt sich eine schmerzhafte Vorwölbung neben der Mittellinie mit fallendem Hämoglobin.",
-          "lead_in": "Welches Gefäß ist verletzt und wie wird die Verletzung vermieden?",
+          "lead_in": "Welches verletzte Gefäß erklärt die Blutung in der Bauchdecke am besten?",
           "options": {
             "A": {
               "text": "Die A. epigastrica superior; Trokar unterhalb des Nabels",
@@ -2101,7 +2181,7 @@
         },
         "en": {
           "vignette": "After laparoscopic partial nephrectomy the abdominal wall bleeds persistently as the right working trocar is removed. The next day there is a painful bulge beside the midline with falling haemoglobin.",
-          "lead_in": "Which vessel is injured and how is this avoided?",
+          "lead_in": "Which injured vessel best explains this abdominal wall bleeding?",
           "options": {
             "A": {
               "text": "The superior epigastric artery; trocar below the umbilicus",
@@ -2128,7 +2208,7 @@
         },
         "es": {
           "vignette": "Después de la nefrectomía parcial laparoscópica, la pared abdominal sangra persistentemente cuando se retira el trócar de trabajo derecho. Al día siguiente hay un bulto doloroso al lado de la línea media con hemoglobina cayendo.",
-          "lead_in": "¿Qué vaso se lesiona y cómo se evita?",
+          "lead_in": "¿Qué vaso lesionado explica mejor esta hemorragia de pared abdominal?",
           "options": {
             "A": {
               "text": "La arteria epigástrica superior; trocar debajo del ombligo",
@@ -2213,7 +2293,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2029-09-06"
+        "expires": "2029-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2357,7 +2443,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2029-09-06"
+        "expires": "2029-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2452,7 +2544,7 @@
     },
     {
       "id": "uro-ope-00018",
-      "version": 2,
+      "version": 3,
       "status": "published",
       "taxonomy": {
         "subdomain": "TUR-Syndrom",
@@ -2510,10 +2602,11 @@
         "last_reviewed": "2026-09-06",
         "expires": "2029-09-06",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted source cross-check",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2525,7 +2618,7 @@
               "rationale": "Die zu schnelle Korrektur kann eine osmotische Demyelinisierung auslösen; der Anstieg wird auf etwa 8 bis 10 mmol/l in 24 Stunden begrenzt."
             },
             "B": {
-              "text": "Resektion stoppen, engmaschig überwachen und symptomgerecht Natrium korrigieren",
+              "text": "Resektion stoppen und Hyponatriämie kontrolliert behandeln",
               "rationale": "Spülmittelaufnahme stoppen und intensivmedizinisch behandeln. Bei neurologisch symptomatischer Hyponatriämie hypertones NaCl nach Notfallprotokoll erwägen; initialen kontrollierten Anstieg von späterer Korrekturgrenze unterscheiden."
             },
             "C": {
@@ -2552,7 +2645,7 @@
               "rationale": "Over-rapid correction can precipitate osmotic demyelination; the rise is limited to roughly 8 to 10 mmol/l over 24 hours."
             },
             "B": {
-              "text": "Stop resection, monitor closely and correct sodium according to symptoms",
+              "text": "Stop resection and treat hyponatraemia carefully",
               "rationale": "Stop irrigation-fluid absorption and obtain critical-care support. Neurologically symptomatic hyponatraemia may require hypertonic saline under an emergency protocol; distinguish initial controlled correction from subsequent correction limits."
             },
             "C": {
@@ -2579,7 +2672,7 @@
               "rationale": "La corrección demasiado rápida puede precipitar la desmielinización osmótica; el aumento se limita a aproximadamente 8 a 10 mmol/l durante 24 horas."
             },
             "B": {
-              "text": "Detener la resección, controlar de cerca y corregir el sodio según los síntomas.",
+              "text": "Detener resección y tratar hiponatremia de forma controlada",
               "rationale": "Detenga la absorción del líquido de irrigación y obtenga apoyo en cuidados intensivos. La hiponatremia neurológicamente sintomática puede requerir solución salina hipertónica según un protocolo de emergencia; distinguir la corrección controlada inicial de los límites de corrección posteriores."
             },
             "C": {
@@ -2660,10 +2753,11 @@
         "last_reviewed": "2026-09-06",
         "expires": "2029-09-06",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted editorial review",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2758,7 +2852,7 @@
     },
     {
       "id": "uro-ope-00020",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "pelvine Lymphadenektomie",
@@ -2806,12 +2900,18 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2029-09-06"
+        "expires": "2029-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
           "vignette": "Bei der erweiterten pelvinen Lymphadenektomie wird der N. obturatorius auf der rechten Seite versehentlich vollständig durchtrennt. Der Defekt beträgt wenige Millimeter, die Enden liegen spannungsfrei nebeneinander.",
-          "lead_in": "Wie ist zu verfahren, und welcher Ausfall wäre sonst zu erwarten?",
+          "lead_in": "Welche unmittelbare Versorgung ist bei diesem spannungsfrei adaptierbaren Nervendefekt angezeigt?",
           "options": {
             "A": {
               "text": "Keine Maßnahme; der Nerv ist funktionell entbehrlich",
@@ -2838,7 +2938,7 @@
         },
         "en": {
           "vignette": "During extended pelvic lymph node dissection the obturator nerve on the right is inadvertently transected completely. The defect is a few millimetres and the ends lie adjacent without tension.",
-          "lead_in": "How should this be handled, and what deficit would otherwise be expected?",
+          "lead_in": "What immediate repair is indicated for this nerve defect whose ends can be approximated without tension?",
           "options": {
             "A": {
               "text": "No action; the nerve is functionally dispensable",
@@ -2865,7 +2965,7 @@
         },
         "es": {
           "vignette": "Durante la disección extendida de los ganglios linfáticos pélvicos, el nervio obturador de la derecha se secciona por completo sin darse cuenta. El defecto es de unos pocos milímetros y los extremos quedan adyacentes sin tensión.",
-          "lead_in": "¿Cómo debería manejarse esto y qué déficit se esperaría de otro modo?",
+          "lead_in": "¿Qué reparación inmediata está indicada si los extremos nerviosos pueden aproximarse sin tensión?",
           "options": {
             "A": {
               "text": "Ninguna acción; el nervio es funcionalmente prescindible",

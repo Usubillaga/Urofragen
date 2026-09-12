@@ -63,7 +63,13 @@
         "reviewer": null,
         "created": "2026-09-05",
         "last_reviewed": "2026-09-05",
-        "expires": "2027-09-05"
+        "expires": "2027-09-05",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -216,10 +222,11 @@
         "last_reviewed": "2026-09-05",
         "expires": "2027-09-05",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted source cross-check",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -314,7 +321,7 @@
     },
     {
       "id": "uro-mib-00003",
-      "version": 2,
+      "version": 3,
       "status": "published",
       "taxonomy": {
         "subdomain": "Toxizitätsmanagement",
@@ -375,10 +382,11 @@
         "last_reviewed": "2026-09-05",
         "expires": "2027-09-05",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted source cross-check",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -398,7 +406,7 @@
               "rationale": "Enfortumab Vedotin hat mehrere dosislimitierende Toxizitäten: Hyperglykämie, schwere Hautreaktionen bis zum Stevens-Johnson-Syndrom, periphere Neuropathie, okuläre Toxizität und Pneumonitis."
             },
             "D": {
-              "text": "Ketoazidose als Notfall behandeln und Krebstherapie pausieren",
+              "text": "Ketoazidose behandeln und Tumortherapie pausieren",
               "rationale": "Stationär Blutgase, Ketone und Elektrolyte prüfen, Flüssigkeit und Insulin nach DKA-Protokoll. Sowohl EV-assoziierte Hyperglykämie als auch pembrolizumabbedingten Insulinmangel erwägen."
             }
           },
@@ -425,7 +433,7 @@
               "rationale": "Enfortumab vedotin has several dose-limiting toxicities: hyperglycaemia, severe skin reactions including Stevens-Johnson syndrome, peripheral neuropathy, ocular toxicity and pneumonitis."
             },
             "D": {
-              "text": "Treat suspected ketoacidosis urgently and withhold anticancer therapy",
+              "text": "Treat ketoacidosis and pause cancer therapy",
               "rationale": "Urgently assess blood gases, ketones and electrolytes in hospital; give fluids and insulin under a DKA protocol. Consider both EV-associated hyperglycaemia and pembrolizumab-associated insulin deficiency."
             }
           },
@@ -452,7 +460,7 @@
               "rationale": "Enfortumab vedotin tiene varias toxicidades limitantes de la dosis: hiperglucemia, reacciones cutáneas graves, incluido el síndrome de Stevens-Johnson, neuropatía periférica, toxicidad ocular y neumonitis."
             },
             "D": {
-              "text": "Tratar la cetoacidosis y pausar la terapia",
+              "text": "Tratar cetoacidosis y pausar terapia oncológica",
               "rationale": "Evaluar urgentemente gases en sangre, cetonas y electrolitos en el hospital; administrar líquidos e insulina según un protocolo de CAD. Considere tanto la hiperglucemia asociada a EV como la deficiencia de insulina asociada a pembrolizumab."
             }
           },
@@ -538,7 +546,13 @@
         "reviewer": null,
         "created": "2026-09-05",
         "last_reviewed": "2026-09-05",
-        "expires": "2027-03-05"
+        "expires": "2027-03-05",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -633,7 +647,7 @@
     },
     {
       "id": "uro-mib-00005",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "mibc",
@@ -683,90 +697,91 @@
         "last_reviewed": null,
         "expires": "2027-03-11",
         "editorial_review": {
-          "date": "2026-09-11",
-          "method": "Original trilingual cases checked against EAU online chapters",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
-          "vignette": "Die TUR-B-Histologie zeigt Urothelkarzinom in der Muscularis propria, ohne Nachweis extravesikaler Ausbreitung im Präparat. Welcher lokale Befund ist damit mindestens gesichert?",
-          "lead_in": "Welche Antwort trifft am besten zu?",
+          "vignette": "Die TUR-B-Histologie zeigt Urothelkarzinom in der Muscularis propria, ohne Nachweis extravesikaler Ausbreitung im Präparat.",
+          "lead_in": "Welcher lokale Befund ist damit mindestens gesichert?",
           "options": {
             "A": {
-              "text": "Alleinige Lamina-propria-Invasion T1",
-              "rationale": "Invasion der Muscularis propria bedeutet Muskelinvasion, mindestens T2. Ta und CIS sind nicht invasiv; T1 betrifft das subepitheliale Bindegewebe. Das Gesamtstaging benötigt weitere Diagnostik."
+              "text": "Mindestens T1: Invasion der Lamina propria",
+              "rationale": "T1 allein unterschätzt die nachgewiesene Invasion der Muscularis propria."
             },
             "B": {
-              "text": "Muskelinvasion entsprechend mindestens T2",
-              "rationale": "Invasion der Muscularis propria bedeutet Muskelinvasion, mindestens T2. Ta und CIS sind nicht invasiv; T1 betrifft das subepitheliale Bindegewebe. Das Gesamtstaging benötigt weitere Diagnostik."
+              "text": "Mindestens T2: Invasion des Detrusors",
+              "rationale": "Die Muscularis propria ist der Detrusor; dessen Invasion definiert mindestens T2."
             },
             "C": {
-              "text": "Ausschließlich nichtinvasives Ta",
-              "rationale": "Invasion der Muscularis propria bedeutet Muskelinvasion, mindestens T2. Ta und CIS sind nicht invasiv; T1 betrifft das subepitheliale Bindegewebe. Das Gesamtstaging benötigt weitere Diagnostik."
+              "text": "Mindestens T3: Invasion des perivesikalen Fetts",
+              "rationale": "Eine extravesikale Invasion ist in der Beschreibung nicht nachgewiesen."
             },
             "D": {
-              "text": "Ausschließlich Carcinoma in situ",
-              "rationale": "Invasion der Muscularis propria bedeutet Muskelinvasion, mindestens T2. Ta und CIS sind nicht invasiv; T1 betrifft das subepitheliale Bindegewebe. Das Gesamtstaging benötigt weitere Diagnostik."
+              "text": "Mindestens T4: Invasion benachbarter Organe",
+              "rationale": "Für T4 müsste eine entsprechende Organinvasion gesichert sein; reine Detrusorinvasion genügt nicht."
             }
           },
           "explanation": {
-            "core": "Invasion der Muscularis propria bedeutet Muskelinvasion, mindestens T2. Ta und CIS sind nicht invasiv; T1 betrifft das subepitheliale Bindegewebe. Das Gesamtstaging benötigt weitere Diagnostik.",
-            "teaching_point": "Invasion der Muscularis propria bedeutet Muskelinvasion, mindestens T2."
+            "core": "Die Muscularis propria ist der Detrusor; dessen Invasion definiert mindestens T2.",
+            "teaching_point": "Die Muscularis propria ist der Detrusor; dessen Invasion definiert mindestens T2."
           },
           "flag_note": null
         },
         "en": {
-          "vignette": "TURBT histology shows urothelial cancer in muscularis propria, without extravesical extension demonstrated in the specimen. What minimum local finding is established?",
-          "lead_in": "Which answer is most appropriate?",
+          "vignette": "TURBT histology shows urothelial cancer in muscularis propria, without extravesical extension demonstrated in the specimen.",
+          "lead_in": "What minimum local finding is established?",
           "options": {
             "A": {
-              "text": "Lamina propria invasion only, T1",
-              "rationale": "Muscularis propria invasion establishes muscle-invasive disease, at least T2. Ta and CIS are non-invasive; T1 involves subepithelial connective tissue. Overall staging requires further evaluation."
+              "text": "At least T1: lamina propria invasion",
+              "rationale": "T1 alone understates the demonstrated muscularis propria invasion."
             },
             "B": {
-              "text": "Muscle invasion corresponding to at least T2",
-              "rationale": "Muscularis propria invasion establishes muscle-invasive disease, at least T2. Ta and CIS are non-invasive; T1 involves subepithelial connective tissue. Overall staging requires further evaluation."
+              "text": "At least T2: detrusor invasion",
+              "rationale": "Muscularis propria is detrusor muscle; invasion establishes at least T2."
             },
             "C": {
-              "text": "Exclusively non-invasive Ta",
-              "rationale": "Muscularis propria invasion establishes muscle-invasive disease, at least T2. Ta and CIS are non-invasive; T1 involves subepithelial connective tissue. Overall staging requires further evaluation."
+              "text": "At least T3: perivesical fat invasion",
+              "rationale": "Extravesical invasion has not been demonstrated in the description."
             },
             "D": {
-              "text": "Carcinoma in situ only",
-              "rationale": "Muscularis propria invasion establishes muscle-invasive disease, at least T2. Ta and CIS are non-invasive; T1 involves subepithelial connective tissue. Overall staging requires further evaluation."
+              "text": "At least T4: adjacent organ invasion",
+              "rationale": "T4 requires relevant adjacent organ invasion; detrusor invasion alone is insufficient."
             }
           },
           "explanation": {
-            "core": "Muscularis propria invasion establishes muscle-invasive disease, at least T2. Ta and CIS are non-invasive; T1 involves subepithelial connective tissue. Overall staging requires further evaluation.",
-            "teaching_point": "Muscularis propria invasion establishes muscle-invasive disease, at least T2."
+            "core": "Muscularis propria is detrusor muscle; invasion establishes at least T2.",
+            "teaching_point": "Muscularis propria is detrusor muscle; invasion establishes at least T2."
           },
           "flag_note": null
         },
         "es": {
-          "vignette": "La histología de la RTU muestra carcinoma urotelial en la muscular propia, sin extensión extravesical demostrada en la muestra. ¿Qué hallazgo local mínimo queda establecido?",
-          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "vignette": "La histología de la RTU muestra carcinoma urotelial en la muscular propia, sin extensión extravesical demostrada en la muestra.",
+          "lead_in": "¿Qué hallazgo local mínimo queda establecido?",
           "options": {
             "A": {
-              "text": "Solo invasión de lámina propia, T1",
-              "rationale": "La invasión de muscular propia establece enfermedad músculo-invasiva, al menos T2. Ta y CIS no son invasivos; T1 afecta al tejido conjuntivo subepitelial. La estadificación completa requiere más estudios."
+              "text": "Al menos T1: invasión de lámina propia",
+              "rationale": "T1 por sí solo subestima la invasión muscular propia demostrada."
             },
             "B": {
-              "text": "Invasión muscular correspondiente al menos a T2",
-              "rationale": "La invasión de muscular propia establece enfermedad músculo-invasiva, al menos T2. Ta y CIS no son invasivos; T1 afecta al tejido conjuntivo subepitelial. La estadificación completa requiere más estudios."
+              "text": "Al menos T2: invasión del detrusor",
+              "rationale": "La muscular propia es el detrusor; su invasión establece al menos T2."
             },
             "C": {
-              "text": "Exclusivamente Ta no invasivo",
-              "rationale": "La invasión de muscular propia establece enfermedad músculo-invasiva, al menos T2. Ta y CIS no son invasivos; T1 afecta al tejido conjuntivo subepitelial. La estadificación completa requiere más estudios."
+              "text": "Al menos T3: invasión de grasa perivesical",
+              "rationale": "No se ha demostrado invasión extravesical en la descripción."
             },
             "D": {
-              "text": "Solo carcinoma in situ",
-              "rationale": "La invasión de muscular propia establece enfermedad músculo-invasiva, al menos T2. Ta y CIS no son invasivos; T1 afecta al tejido conjuntivo subepitelial. La estadificación completa requiere más estudios."
+              "text": "Al menos T4: invasión de órganos vecinos",
+              "rationale": "T4 requiere invasión correspondiente de órganos vecinos; invadir detrusor no basta."
             }
           },
           "explanation": {
-            "core": "La invasión de muscular propia establece enfermedad músculo-invasiva, al menos T2. Ta y CIS no son invasivos; T1 afecta al tejido conjuntivo subepitelial. La estadificación completa requiere más estudios.",
-            "teaching_point": "La invasión de muscular propia establece enfermedad músculo-invasiva, al menos T2."
+            "core": "La muscular propia es el detrusor; su invasión establece al menos T2.",
+            "teaching_point": "La muscular propia es el detrusor; su invasión establece al menos T2."
           },
           "flag_note": null
         }
@@ -774,7 +789,7 @@
     },
     {
       "id": "uro-mib-00006",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "mibc",
@@ -824,90 +839,91 @@
         "last_reviewed": null,
         "expires": "2027-03-11",
         "editorial_review": {
-          "date": "2026-09-11",
-          "method": "Original trilingual cases checked against EAU online chapters",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
-          "vignette": "Ein MIBC wurde histologisch gesichert. Nierenfunktion und Kontrastmittelverträglichkeit sind unauffällig. Welche Bildgebung gehört zum regulären Ausbreitungsstaging?",
-          "lead_in": "Welche Antwort trifft am besten zu?",
+          "vignette": "Ein MIBC wurde histologisch gesichert. Nierenfunktion und Kontrastmittelverträglichkeit sind unauffällig.",
+          "lead_in": "Welche Bildgebung gehört zum regulären Ausbreitungsstaging?",
           "options": {
             "A": {
-              "text": "Nur Röntgenaufnahme des Beckens",
-              "rationale": "CT von Thorax, Abdomen und Becken erfasst regionale und entfernte Ausbreitung; urographische Phasen beurteilen den oberen Harntrakt. Die begrenzten Alternativen ersetzen dieses Staging nicht."
+              "text": "MRT des Beckens ohne weitere Bildgebung",
+              "rationale": "Die lokale Beurteilung ersetzt das Fernmetastasenstaging nicht."
             },
             "B": {
-              "text": "Nur MRT des Gehirns ohne Symptome",
-              "rationale": "CT von Thorax, Abdomen und Becken erfasst regionale und entfernte Ausbreitung; urographische Phasen beurteilen den oberen Harntrakt. Die begrenzten Alternativen ersetzen dieses Staging nicht."
+              "text": "CT des Abdomens ohne Thoraxdiagnostik",
+              "rationale": "Ohne Thoraxdiagnostik bleibt ein wichtiger Metastasierungsort unbeurteilt."
             },
             "C": {
               "text": "CT von Thorax, Abdomen und Becken",
-              "rationale": "CT von Thorax, Abdomen und Becken erfasst regionale und entfernte Ausbreitung; urographische Phasen beurteilen den oberen Harntrakt. Die begrenzten Alternativen ersetzen dieses Staging nicht."
+              "rationale": "Dieses Staging erfasst thorakale und abdominopelvine Ausbreitung; urographische Phasen beurteilen zusätzlich den oberen Harntrakt."
             },
             "D": {
-              "text": "Nur Sonographie der Harnblase",
-              "rationale": "CT von Thorax, Abdomen und Becken erfasst regionale und entfernte Ausbreitung; urographische Phasen beurteilen den oberen Harntrakt. Die begrenzten Alternativen ersetzen dieses Staging nicht."
+              "text": "Skelettszintigraphie und Schädel-MRT",
+              "rationale": "Diese Untersuchungen werden indikationsbezogen ergänzt, ersetzen aber kein reguläres Thorax-Abdomen-Becken-Staging."
             }
           },
           "explanation": {
-            "core": "CT von Thorax, Abdomen und Becken erfasst regionale und entfernte Ausbreitung; urographische Phasen beurteilen den oberen Harntrakt. Die begrenzten Alternativen ersetzen dieses Staging nicht.",
-            "teaching_point": "CT von Thorax, Abdomen und Becken erfasst regionale und entfernte Ausbreitung; urographische Phasen beurteilen den oberen Harntrakt."
+            "core": "Dieses Staging erfasst thorakale und abdominopelvine Ausbreitung; urographische Phasen beurteilen zusätzlich den oberen Harntrakt.",
+            "teaching_point": "Dieses Staging erfasst thorakale und abdominopelvine Ausbreitung; urographische Phasen beurteilen zusätzlich den oberen Harntrakt."
           },
           "flag_note": null
         },
         "en": {
-          "vignette": "MIBC is histologically confirmed. Renal function and contrast tolerance are normal. Which imaging belongs to routine staging?",
-          "lead_in": "Which answer is most appropriate?",
+          "vignette": "MIBC is histologically confirmed. Renal function and contrast tolerance are normal.",
+          "lead_in": "Which imaging belongs to routine staging?",
           "options": {
             "A": {
-              "text": "Pelvic plain radiograph only",
-              "rationale": "CT of chest, abdomen and pelvis assesses regional and distant spread; urographic phases assess the upper tract. The limited alternatives do not replace this staging."
+              "text": "Pelvic MRI without further imaging",
+              "rationale": "Local assessment does not replace distant metastatic staging."
             },
             "B": {
-              "text": "Brain MRI only without symptoms",
-              "rationale": "CT of chest, abdomen and pelvis assesses regional and distant spread; urographic phases assess the upper tract. The limited alternatives do not replace this staging."
+              "text": "Abdominal CT without chest imaging",
+              "rationale": "Without chest imaging, an important metastatic site remains unassessed."
             },
             "C": {
               "text": "CT of chest, abdomen and pelvis",
-              "rationale": "CT of chest, abdomen and pelvis assesses regional and distant spread; urographic phases assess the upper tract. The limited alternatives do not replace this staging."
+              "rationale": "This staging assesses thoracic and abdominopelvic spread; urographic phases additionally assess the upper tract."
             },
             "D": {
-              "text": "Bladder ultrasound only",
-              "rationale": "CT of chest, abdomen and pelvis assesses regional and distant spread; urographic phases assess the upper tract. The limited alternatives do not replace this staging."
+              "text": "Bone scintigraphy and brain MRI",
+              "rationale": "These tests are added when indicated and do not replace routine chest-abdomen-pelvis staging."
             }
           },
           "explanation": {
-            "core": "CT of chest, abdomen and pelvis assesses regional and distant spread; urographic phases assess the upper tract. The limited alternatives do not replace this staging.",
-            "teaching_point": "CT of chest, abdomen and pelvis assesses regional and distant spread; urographic phases assess the upper tract."
+            "core": "This staging assesses thoracic and abdominopelvic spread; urographic phases additionally assess the upper tract.",
+            "teaching_point": "This staging assesses thoracic and abdominopelvic spread; urographic phases additionally assess the upper tract."
           },
           "flag_note": null
         },
         "es": {
-          "vignette": "Se confirma TVMI por histología. La función renal y la tolerancia al contraste son normales. ¿Qué imagen forma parte de la estadificación habitual?",
-          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "vignette": "Se confirma TVMI por histología. La función renal y la tolerancia al contraste son normales.",
+          "lead_in": "¿Qué imagen forma parte de la estadificación habitual?",
           "options": {
             "A": {
-              "text": "Solo radiografía simple de pelvis",
-              "rationale": "La TC de tórax, abdomen y pelvis valora extensión regional y a distancia; las fases urográficas evalúan la vía superior. Las alternativas limitadas no sustituyen esta estadificación."
+              "text": "RM pélvica sin más estudios de imagen",
+              "rationale": "La valoración local no sustituye el estudio de metástasis a distancia."
             },
             "B": {
-              "text": "Solo RM cerebral sin síntomas",
-              "rationale": "La TC de tórax, abdomen y pelvis valora extensión regional y a distancia; las fases urográficas evalúan la vía superior. Las alternativas limitadas no sustituyen esta estadificación."
+              "text": "TC abdominal sin estudio del tórax",
+              "rationale": "Sin imagen torácica queda sin valorar una localización metastásica importante."
             },
             "C": {
               "text": "TC de tórax, abdomen y pelvis",
-              "rationale": "La TC de tórax, abdomen y pelvis valora extensión regional y a distancia; las fases urográficas evalúan la vía superior. Las alternativas limitadas no sustituyen esta estadificación."
+              "rationale": "Este estudio valora extensión torácica y abdominopélvica; las fases urográficas evalúan además la vía superior."
             },
             "D": {
-              "text": "Solo ecografía vesical",
-              "rationale": "La TC de tórax, abdomen y pelvis valora extensión regional y a distancia; las fases urográficas evalúan la vía superior. Las alternativas limitadas no sustituyen esta estadificación."
+              "text": "Gammagrafía ósea y RM cerebral",
+              "rationale": "Se añaden según indicación, pero no sustituyen la estadificación habitual toracoabdominopélvica."
             }
           },
           "explanation": {
-            "core": "La TC de tórax, abdomen y pelvis valora extensión regional y a distancia; las fases urográficas evalúan la vía superior. Las alternativas limitadas no sustituyen esta estadificación.",
-            "teaching_point": "La TC de tórax, abdomen y pelvis valora extensión regional y a distancia; las fases urográficas evalúan la vía superior."
+            "core": "Este estudio valora extensión torácica y abdominopélvica; las fases urográficas evalúan además la vía superior.",
+            "teaching_point": "Este estudio valora extensión torácica y abdominopélvica; las fases urográficas evalúan además la vía superior."
           },
           "flag_note": null
         }
@@ -915,7 +931,7 @@
     },
     {
       "id": "uro-mib-00007",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "mibc",
@@ -965,90 +981,91 @@
         "last_reviewed": null,
         "expires": "2027-03-11",
         "editorial_review": {
-          "date": "2026-09-11",
-          "method": "Original trilingual cases checked against EAU online chapters",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
-          "vignette": "Bei solitärem cT2N0M0-Tumor und guter Blasenfunktion wird eine trimodale Blasenerhaltung besprochen. Welche Kombination ist gemeint?",
-          "lead_in": "Welche Antwort trifft am besten zu?",
+          "vignette": "Bei solitärem cT2N0M0-Tumor und guter Blasenfunktion wird eine trimodale Blasenerhaltung besprochen.",
+          "lead_in": "Welche Kombination ist gemeint?",
           "options": {
             "A": {
-              "text": "TUR-B und anschließende BCG-Instillation",
-              "rationale": "Trimodale Therapie verbindet möglichst vollständige TUR-B mit simultaner radiosensibilisierender Chemotherapie und Bestrahlung. BCG behandelt kein MIBC; alleinige Bestrahlung ist keine Trimodalität, Zystektomie erhält die Blase nicht."
+              "text": "Maximale TUR-B und alleinige externe Bestrahlung",
+              "rationale": "Ohne simultane Chemotherapie fehlt eine wesentliche Komponente der Trimodalität."
             },
             "B": {
-              "text": "Alleinige Bestrahlung und Nachsorge",
-              "rationale": "Trimodale Therapie verbindet möglichst vollständige TUR-B mit simultaner radiosensibilisierender Chemotherapie und Bestrahlung. BCG behandelt kein MIBC; alleinige Bestrahlung ist keine Trimodalität, Zystektomie erhält die Blase nicht."
+              "text": "Maximale TUR-B und BCG-Induktion mit Erhaltung",
+              "rationale": "BCG ist eine intravesikale NMIBC-Therapie und ersetzt keine Behandlung der Muskelinvasion."
             },
             "C": {
-              "text": "Zystektomie und orthotope Neoblase",
-              "rationale": "Trimodale Therapie verbindet möglichst vollständige TUR-B mit simultaner radiosensibilisierender Chemotherapie und Bestrahlung. BCG behandelt kein MIBC; alleinige Bestrahlung ist keine Trimodalität, Zystektomie erhält die Blase nicht."
+              "text": "Maximale TUR-B und alleinige systemische Chemotherapie",
+              "rationale": "Hier fehlt die definitive lokale Bestrahlung als Bestandteil des trimodalen Konzepts."
             },
             "D": {
               "text": "Maximale TUR-B und simultane Radiochemotherapie",
-              "rationale": "Trimodale Therapie verbindet möglichst vollständige TUR-B mit simultaner radiosensibilisierender Chemotherapie und Bestrahlung. BCG behandelt kein MIBC; alleinige Bestrahlung ist keine Trimodalität, Zystektomie erhält die Blase nicht."
+              "rationale": "Die drei Komponenten sind Resektion, Bestrahlung und gleichzeitige Radiosensibilisierung durch Chemotherapie."
             }
           },
           "explanation": {
-            "core": "Trimodale Therapie verbindet möglichst vollständige TUR-B mit simultaner radiosensibilisierender Chemotherapie und Bestrahlung. BCG behandelt kein MIBC; alleinige Bestrahlung ist keine Trimodalität, Zystektomie erhält die Blase nicht.",
-            "teaching_point": "Trimodale Therapie verbindet möglichst vollständige TUR-B mit simultaner radiosensibilisierender Chemotherapie und Bestrahlung."
+            "core": "Die drei Komponenten sind Resektion, Bestrahlung und gleichzeitige Radiosensibilisierung durch Chemotherapie.",
+            "teaching_point": "Die drei Komponenten sind Resektion, Bestrahlung und gleichzeitige Radiosensibilisierung durch Chemotherapie."
           },
           "flag_note": null
         },
         "en": {
-          "vignette": "For a solitary cT2N0M0 tumour and good bladder function, trimodality bladder preservation is discussed. Which combination is meant?",
-          "lead_in": "Which answer is most appropriate?",
+          "vignette": "For a solitary cT2N0M0 tumour and good bladder function, trimodality bladder preservation is discussed.",
+          "lead_in": "Which combination is meant?",
           "options": {
             "A": {
-              "text": "TURBT followed by BCG instillation",
-              "rationale": "Trimodality combines maximal TURBT with concurrent radiosensitising chemotherapy and radiation. BCG does not treat MIBC; radiation alone is not trimodality, and cystectomy does not preserve the bladder."
+              "text": "Maximal TURBT and external radiotherapy alone",
+              "rationale": "Without concurrent chemotherapy, an essential component of trimodality is missing."
             },
             "B": {
-              "text": "Radiotherapy alone and surveillance",
-              "rationale": "Trimodality combines maximal TURBT with concurrent radiosensitising chemotherapy and radiation. BCG does not treat MIBC; radiation alone is not trimodality, and cystectomy does not preserve the bladder."
+              "text": "Maximal TURBT and BCG induction with maintenance",
+              "rationale": "BCG is an intravesical NMIBC treatment and does not replace treatment of muscle-invasive disease."
             },
             "C": {
-              "text": "Cystectomy with an orthotopic neobladder",
-              "rationale": "Trimodality combines maximal TURBT with concurrent radiosensitising chemotherapy and radiation. BCG does not treat MIBC; radiation alone is not trimodality, and cystectomy does not preserve the bladder."
+              "text": "Maximal TURBT and systemic chemotherapy alone",
+              "rationale": "Definitive local radiation, part of trimodality treatment, is absent here."
             },
             "D": {
-              "text": "Maximal TURBT and concurrent chemoradiation",
-              "rationale": "Trimodality combines maximal TURBT with concurrent radiosensitising chemotherapy and radiation. BCG does not treat MIBC; radiation alone is not trimodality, and cystectomy does not preserve the bladder."
+              "text": "Maximal TURBT and concurrent chemoradiotherapy",
+              "rationale": "The three components are resection, radiation and concurrent chemotherapy radiosensitisation."
             }
           },
           "explanation": {
-            "core": "Trimodality combines maximal TURBT with concurrent radiosensitising chemotherapy and radiation. BCG does not treat MIBC; radiation alone is not trimodality, and cystectomy does not preserve the bladder.",
-            "teaching_point": "Trimodality combines maximal TURBT with concurrent radiosensitising chemotherapy and radiation."
+            "core": "The three components are resection, radiation and concurrent chemotherapy radiosensitisation.",
+            "teaching_point": "The three components are resection, radiation and concurrent chemotherapy radiosensitisation."
           },
           "flag_note": null
         },
         "es": {
-          "vignette": "En un tumor único cT2N0M0 con buena función vesical se plantea preservación trimodal. ¿Qué combinación corresponde?",
-          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "vignette": "En un tumor único cT2N0M0 con buena función vesical se plantea preservación trimodal.",
+          "lead_in": "¿Qué combinación corresponde?",
           "options": {
             "A": {
-              "text": "RTU seguida de instilación de BCG",
-              "rationale": "La trimodalidad combina RTU máxima, quimioterapia radiosensibilizante y radioterapia simultáneas. BCG no trata el TVMI; radioterapia sola no es trimodalidad y cistectomía no conserva la vejiga."
+              "text": "RTU máxima y radioterapia externa sola",
+              "rationale": "Sin quimioterapia simultánea falta un componente esencial de la trimodalidad."
             },
             "B": {
-              "text": "Radioterapia sola y seguimiento",
-              "rationale": "La trimodalidad combina RTU máxima, quimioterapia radiosensibilizante y radioterapia simultáneas. BCG no trata el TVMI; radioterapia sola no es trimodalidad y cistectomía no conserva la vejiga."
+              "text": "RTU máxima e inducción de BCG con mantenimiento",
+              "rationale": "BCG trata TVNMI por vía intravesical y no sustituye el tratamiento de invasión muscular."
             },
             "C": {
-              "text": "Cistectomía con neovejiga ortotópica",
-              "rationale": "La trimodalidad combina RTU máxima, quimioterapia radiosensibilizante y radioterapia simultáneas. BCG no trata el TVMI; radioterapia sola no es trimodalidad y cistectomía no conserva la vejiga."
+              "text": "RTU máxima y quimioterapia sistémica sola",
+              "rationale": "Aquí falta la radioterapia local definitiva que forma parte del concepto trimodal."
             },
             "D": {
               "text": "RTU máxima y quimiorradioterapia simultánea",
-              "rationale": "La trimodalidad combina RTU máxima, quimioterapia radiosensibilizante y radioterapia simultáneas. BCG no trata el TVMI; radioterapia sola no es trimodalidad y cistectomía no conserva la vejiga."
+              "rationale": "Los tres componentes son resección, radiación y radiosensibilización mediante quimioterapia simultánea."
             }
           },
           "explanation": {
-            "core": "La trimodalidad combina RTU máxima, quimioterapia radiosensibilizante y radioterapia simultáneas. BCG no trata el TVMI; radioterapia sola no es trimodalidad y cistectomía no conserva la vejiga.",
-            "teaching_point": "La trimodalidad combina RTU máxima, quimioterapia radiosensibilizante y radioterapia simultáneas."
+            "core": "Los tres componentes son resección, radiación y radiosensibilización mediante quimioterapia simultánea.",
+            "teaching_point": "Los tres componentes son resección, radiación y radiosensibilización mediante quimioterapia simultánea."
           },
           "flag_note": null
         }
@@ -1056,7 +1073,7 @@
     },
     {
       "id": "uro-mib-00008",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "mibc",
@@ -1106,90 +1123,91 @@
         "last_reviewed": null,
         "expires": "2027-03-11",
         "editorial_review": {
-          "date": "2026-09-11",
-          "method": "Original trilingual cases checked against EAU online chapters",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
-          "vignette": "Nach trimodaler Therapie tritt ein lokal muskelinvasives Rezidiv ohne Fernmetastasen auf. Der Patient ist operabel. Welche kurative lokale Option soll angeboten werden?",
-          "lead_in": "Welche Antwort trifft am besten zu?",
+          "vignette": "Nach trimodaler Therapie tritt ein lokal muskelinvasives Rezidiv ohne Fernmetastasen auf. Der Patient ist operabel.",
+          "lead_in": "Welche kurative lokale Option soll angeboten werden?",
           "options": {
             "A": {
-              "text": "Salvage-Zystektomie",
-              "rationale": "Bei invasivem Rezidiv nach Blasenerhaltung wird die Salvage-Zystektomie angeboten, sofern durchführbar. BCG, reine Kontrolle und Antibiotika bieten hier keine ausreichende kurative lokale Behandlung."
+              "text": "Radikale Salvage-Zystektomie",
+              "rationale": "Bei operablem, nichtmetastasiertem invasivem Rezidiv nach Trimodalität ist dies die etablierte kurative lokale Option."
             },
             "B": {
-              "text": "Alleinige intravesikale BCG-Therapie",
-              "rationale": "Bei invasivem Rezidiv nach Blasenerhaltung wird die Salvage-Zystektomie angeboten, sofern durchführbar. BCG, reine Kontrolle und Antibiotika bieten hier keine ausreichende kurative lokale Behandlung."
+              "text": "Erneute TUR-B mit BCG-Therapie",
+              "rationale": "BCG adressiert nicht die nachgewiesene Muskelinvasion."
             },
             "C": {
-              "text": "Alleinige jährliche Zytologiekontrolle",
-              "rationale": "Bei invasivem Rezidiv nach Blasenerhaltung wird die Salvage-Zystektomie angeboten, sofern durchführbar. BCG, reine Kontrolle und Antibiotika bieten hier keine ausreichende kurative lokale Behandlung."
+              "text": "Erneute alleinige Blasenbestrahlung",
+              "rationale": "Nach bereits erfolgter definitiver Bestrahlung ist dies kein gleichwertiger Standard-Salvageansatz."
             },
             "D": {
-              "text": "Dauerhafte Antibiotikaprophylaxe",
-              "rationale": "Bei invasivem Rezidiv nach Blasenerhaltung wird die Salvage-Zystektomie angeboten, sofern durchführbar. BCG, reine Kontrolle und Antibiotika bieten hier keine ausreichende kurative lokale Behandlung."
+              "text": "Alleinige systemische Chemotherapie",
+              "rationale": "Sie ersetzt bei dieser lokal kurativ behandelbaren Situation keine definitive lokale Salvagetherapie."
             }
           },
           "explanation": {
-            "core": "Bei invasivem Rezidiv nach Blasenerhaltung wird die Salvage-Zystektomie angeboten, sofern durchführbar. BCG, reine Kontrolle und Antibiotika bieten hier keine ausreichende kurative lokale Behandlung.",
-            "teaching_point": "Bei invasivem Rezidiv nach Blasenerhaltung wird die Salvage-Zystektomie angeboten, sofern durchführbar."
+            "core": "Bei operablem, nichtmetastasiertem invasivem Rezidiv nach Trimodalität ist dies die etablierte kurative lokale Option.",
+            "teaching_point": "Bei operablem, nichtmetastasiertem invasivem Rezidiv nach Trimodalität ist dies die etablierte kurative lokale Option."
           },
           "flag_note": null
         },
         "en": {
-          "vignette": "After trimodality therapy, a local muscle-invasive recurrence occurs without distant metastases. The patient is fit for surgery. Which curative local option should be offered?",
-          "lead_in": "Which answer is most appropriate?",
+          "vignette": "After trimodality therapy, a local muscle-invasive recurrence occurs without distant metastases. The patient is fit for surgery.",
+          "lead_in": "Which curative local option should be offered?",
           "options": {
             "A": {
-              "text": "Salvage cystectomy",
-              "rationale": "Salvage cystectomy should be offered for invasive recurrence after bladder preservation when feasible. BCG, surveillance alone and antibiotics do not provide adequate curative local treatment here."
+              "text": "Radical salvage cystectomy",
+              "rationale": "For operable non-metastatic invasive recurrence after trimodality, this is the established curative local option."
             },
             "B": {
-              "text": "Intravesical BCG alone",
-              "rationale": "Salvage cystectomy should be offered for invasive recurrence after bladder preservation when feasible. BCG, surveillance alone and antibiotics do not provide adequate curative local treatment here."
+              "text": "Repeat TURBT with BCG therapy",
+              "rationale": "BCG does not address the demonstrated muscle invasion."
             },
             "C": {
-              "text": "Annual cytology alone",
-              "rationale": "Salvage cystectomy should be offered for invasive recurrence after bladder preservation when feasible. BCG, surveillance alone and antibiotics do not provide adequate curative local treatment here."
+              "text": "Repeat bladder radiotherapy alone",
+              "rationale": "After prior definitive radiation, this is not an equivalent standard salvage approach."
             },
             "D": {
-              "text": "Long-term antibiotic prophylaxis",
-              "rationale": "Salvage cystectomy should be offered for invasive recurrence after bladder preservation when feasible. BCG, surveillance alone and antibiotics do not provide adequate curative local treatment here."
+              "text": "Systemic chemotherapy alone",
+              "rationale": "It does not replace definitive local salvage in this potentially curable local situation."
             }
           },
           "explanation": {
-            "core": "Salvage cystectomy should be offered for invasive recurrence after bladder preservation when feasible. BCG, surveillance alone and antibiotics do not provide adequate curative local treatment here.",
-            "teaching_point": "Salvage cystectomy should be offered for invasive recurrence after bladder preservation when feasible."
+            "core": "For operable non-metastatic invasive recurrence after trimodality, this is the established curative local option.",
+            "teaching_point": "For operable non-metastatic invasive recurrence after trimodality, this is the established curative local option."
           },
           "flag_note": null
         },
         "es": {
-          "vignette": "Tras terapia trimodal aparece recidiva local músculo-invasiva sin metástasis. El paciente es operable. ¿Qué opción local curativa debe ofrecerse?",
-          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "vignette": "Tras terapia trimodal aparece recidiva local músculo-invasiva sin metástasis. El paciente es operable.",
+          "lead_in": "¿Qué opción local curativa debe ofrecerse?",
           "options": {
             "A": {
-              "text": "Cistectomía de rescate",
-              "rationale": "Debe ofrecerse cistectomía de rescate en recidiva invasiva tras preservación vesical cuando sea factible. BCG, vigilancia sola y antibióticos no aportan aquí tratamiento local curativo adecuado."
+              "text": "Cistectomía radical de rescate",
+              "rationale": "En recidiva invasiva operable sin metástasis tras trimodalidad es la opción local curativa establecida."
             },
             "B": {
-              "text": "Solo BCG intravesical",
-              "rationale": "Debe ofrecerse cistectomía de rescate en recidiva invasiva tras preservación vesical cuando sea factible. BCG, vigilancia sola y antibióticos no aportan aquí tratamiento local curativo adecuado."
+              "text": "Nueva RTU con tratamiento BCG",
+              "rationale": "BCG no trata la invasión muscular demostrada."
             },
             "C": {
-              "text": "Solo citología anual",
-              "rationale": "Debe ofrecerse cistectomía de rescate en recidiva invasiva tras preservación vesical cuando sea factible. BCG, vigilancia sola y antibióticos no aportan aquí tratamiento local curativo adecuado."
+              "text": "Nueva radioterapia vesical sola",
+              "rationale": "Tras radioterapia definitiva previa no es un abordaje de rescate estándar equivalente."
             },
             "D": {
-              "text": "Profilaxis antibiótica prolongada",
-              "rationale": "Debe ofrecerse cistectomía de rescate en recidiva invasiva tras preservación vesical cuando sea factible. BCG, vigilancia sola y antibióticos no aportan aquí tratamiento local curativo adecuado."
+              "text": "Quimioterapia sistémica sola",
+              "rationale": "No sustituye el rescate local definitivo en esta situación local potencialmente curable."
             }
           },
           "explanation": {
-            "core": "Debe ofrecerse cistectomía de rescate en recidiva invasiva tras preservación vesical cuando sea factible. BCG, vigilancia sola y antibióticos no aportan aquí tratamiento local curativo adecuado.",
-            "teaching_point": "Debe ofrecerse cistectomía de rescate en recidiva invasiva tras preservación vesical cuando sea factible."
+            "core": "En recidiva invasiva operable sin metástasis tras trimodalidad es la opción local curativa establecida.",
+            "teaching_point": "En recidiva invasiva operable sin metástasis tras trimodalidad es la opción local curativa establecida."
           },
           "flag_note": null
         }
@@ -1197,7 +1215,7 @@
     },
     {
       "id": "uro-mib-00009",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "mibc",
@@ -1247,90 +1265,91 @@
         "last_reviewed": null,
         "expires": "2027-03-11",
         "editorial_review": {
-          "date": "2026-09-11",
-          "method": "Original trilingual cases checked against EAU online chapters",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
-          "vignette": "Bei geplanter Zystektomie wird ein invasiver Urethratumor festgestellt, der eine Urethrektomie erfordert. Welche Harnableitung ist dadurch ausgeschlossen?",
-          "lead_in": "Welche Antwort trifft am besten zu?",
+          "vignette": "Bei geplanter Zystektomie wird ein invasiver Urethratumor festgestellt, der eine Urethrektomie erfordert.",
+          "lead_in": "Welche Harnableitung ist dadurch ausgeschlossen?",
           "options": {
             "A": {
-              "text": "Kontinente kutane Ableitung bei Eignung",
-              "rationale": "Eine orthotope Neoblase benötigt eine onkologisch erhaltbare Urethra. Bei erforderlicher Urethrektomie fehlt dieser Anschluss. Kutane Ableitungen können nach individueller Prüfung infrage kommen."
+              "text": "Inkontinentes Ileum-Conduit",
+              "rationale": "Die Ableitung erfolgt über ein Hautstoma und benötigt keine erhaltene Urethra."
             },
             "B": {
-              "text": "Orthotope Neoblase mit Urethraanschluss",
-              "rationale": "Eine orthotope Neoblase benötigt eine onkologisch erhaltbare Urethra. Bei erforderlicher Urethrektomie fehlt dieser Anschluss. Kutane Ableitungen können nach individueller Prüfung infrage kommen."
+              "text": "Orthotope ileale Neoblase",
+              "rationale": "Der notwendige Urethraanschluss ist nach Urethrektomie nicht vorhanden."
             },
             "C": {
-              "text": "Ileum-Conduit mit kutanem Stoma",
-              "rationale": "Eine orthotope Neoblase benötigt eine onkologisch erhaltbare Urethra. Bei erforderlicher Urethrektomie fehlt dieser Anschluss. Kutane Ableitungen können nach individueller Prüfung infrage kommen."
+              "text": "Kontinenter kutaner Ileozökalpouch",
+              "rationale": "Ein katheterisierbarer Hautanschluss kann bei sonstiger Eignung unabhängig von der Urethra angelegt werden."
             },
             "D": {
-              "text": "Kutane Ureterostomie bei geeigneter Auswahl",
-              "rationale": "Eine orthotope Neoblase benötigt eine onkologisch erhaltbare Urethra. Bei erforderlicher Urethrektomie fehlt dieser Anschluss. Kutane Ableitungen können nach individueller Prüfung infrage kommen."
+              "text": "Kutane direkte Ureterostomie",
+              "rationale": "Die Ureteren werden an die Haut ausgeleitet; Urethrektomie schließt diese Option nicht aus."
             }
           },
           "explanation": {
-            "core": "Eine orthotope Neoblase benötigt eine onkologisch erhaltbare Urethra. Bei erforderlicher Urethrektomie fehlt dieser Anschluss. Kutane Ableitungen können nach individueller Prüfung infrage kommen.",
-            "teaching_point": "Eine orthotope Neoblase benötigt eine onkologisch erhaltbare Urethra."
+            "core": "Der notwendige Urethraanschluss ist nach Urethrektomie nicht vorhanden.",
+            "teaching_point": "Der notwendige Urethraanschluss ist nach Urethrektomie nicht vorhanden."
           },
           "flag_note": null
         },
         "en": {
-          "vignette": "Before cystectomy, invasive urethral cancer requiring urethrectomy is identified. Which diversion is thereby excluded?",
-          "lead_in": "Which answer is most appropriate?",
+          "vignette": "Before cystectomy, invasive urethral cancer requiring urethrectomy is identified.",
+          "lead_in": "Which diversion is thereby excluded?",
           "options": {
             "A": {
-              "text": "Continent cutaneous diversion if suitable",
-              "rationale": "An orthotopic neobladder requires an oncologically preservable urethra. Required urethrectomy removes that outlet. Cutaneous diversions may remain options after individual assessment."
+              "text": "Incontinent ileal conduit",
+              "rationale": "Drainage is through a skin stoma and does not require a preserved urethra."
             },
             "B": {
-              "text": "Orthotopic neobladder connected to urethra",
-              "rationale": "An orthotopic neobladder requires an oncologically preservable urethra. Required urethrectomy removes that outlet. Cutaneous diversions may remain options after individual assessment."
+              "text": "Orthotopic ileal neobladder",
+              "rationale": "The required urethral outlet is absent after urethrectomy."
             },
             "C": {
-              "text": "Ileal conduit with a skin stoma",
-              "rationale": "An orthotopic neobladder requires an oncologically preservable urethra. Required urethrectomy removes that outlet. Cutaneous diversions may remain options after individual assessment."
+              "text": "Continent cutaneous ileocaecal pouch",
+              "rationale": "A catheterisable skin outlet can be constructed independently of the urethra if otherwise suitable."
             },
             "D": {
-              "text": "Cutaneous ureterostomy in selected patients",
-              "rationale": "An orthotopic neobladder requires an oncologically preservable urethra. Required urethrectomy removes that outlet. Cutaneous diversions may remain options after individual assessment."
+              "text": "Direct cutaneous ureterostomy",
+              "rationale": "The ureters drain to the skin; urethrectomy does not exclude this option."
             }
           },
           "explanation": {
-            "core": "An orthotopic neobladder requires an oncologically preservable urethra. Required urethrectomy removes that outlet. Cutaneous diversions may remain options after individual assessment.",
-            "teaching_point": "An orthotopic neobladder requires an oncologically preservable urethra."
+            "core": "The required urethral outlet is absent after urethrectomy.",
+            "teaching_point": "The required urethral outlet is absent after urethrectomy."
           },
           "flag_note": null
         },
         "es": {
-          "vignette": "Antes de cistectomía se identifica cáncer uretral invasivo que requiere uretrectomía. ¿Qué derivación queda excluida?",
-          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "vignette": "Antes de cistectomía se identifica cáncer uretral invasivo que requiere uretrectomía.",
+          "lead_in": "¿Qué derivación queda excluida?",
           "options": {
             "A": {
-              "text": "Derivación cutánea continente si es adecuada",
-              "rationale": "Una neovejiga ortotópica requiere una uretra preservable oncológicamente. La uretrectomía elimina esa salida. Las derivaciones cutáneas pueden valorarse individualmente."
+              "text": "Conducto ileal incontinente",
+              "rationale": "Drena por un estoma cutáneo y no requiere uretra conservada."
             },
             "B": {
-              "text": "Neovejiga ortotópica conectada a uretra",
-              "rationale": "Una neovejiga ortotópica requiere una uretra preservable oncológicamente. La uretrectomía elimina esa salida. Las derivaciones cutáneas pueden valorarse individualmente."
+              "text": "Neovejiga ileal ortotópica",
+              "rationale": "Tras uretrectomía falta la salida uretral necesaria."
             },
             "C": {
-              "text": "Conducto ileal con estoma cutáneo",
-              "rationale": "Una neovejiga ortotópica requiere una uretra preservable oncológicamente. La uretrectomía elimina esa salida. Las derivaciones cutáneas pueden valorarse individualmente."
+              "text": "Reservorio ileocecal cutáneo continente",
+              "rationale": "Puede crearse una salida cutánea cateterizable independiente de la uretra si hay idoneidad."
             },
             "D": {
-              "text": "Ureterostomía cutánea en casos seleccionados",
-              "rationale": "Una neovejiga ortotópica requiere una uretra preservable oncológicamente. La uretrectomía elimina esa salida. Las derivaciones cutáneas pueden valorarse individualmente."
+              "text": "Ureterostomía cutánea directa",
+              "rationale": "Los uréteres drenan a piel; la uretrectomía no excluye esta opción."
             }
           },
           "explanation": {
-            "core": "Una neovejiga ortotópica requiere una uretra preservable oncológicamente. La uretrectomía elimina esa salida. Las derivaciones cutáneas pueden valorarse individualmente.",
-            "teaching_point": "Una neovejiga ortotópica requiere una uretra preservable oncológicamente."
+            "core": "Tras uretrectomía falta la salida uretral necesaria.",
+            "teaching_point": "Tras uretrectomía falta la salida uretral necesaria."
           },
           "flag_note": null
         }
@@ -1338,7 +1357,7 @@
     },
     {
       "id": "uro-mib-00010",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "mibc",
@@ -1388,90 +1407,91 @@
         "last_reviewed": null,
         "expires": "2027-03-11",
         "editorial_review": {
-          "date": "2026-09-11",
-          "method": "Original trilingual cases checked against EAU online chapters",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
-          "vignette": "Nach trimodaler Therapie besteht eine komplette Remission. Der Patient möchte auf weitere Blasenuntersuchungen verzichten. Welche Beratung ist richtig?",
-          "lead_in": "Welche Antwort trifft am besten zu?",
+          "vignette": "Nach trimodaler Therapie besteht eine komplette Remission. Der Patient möchte auf weitere Blasenuntersuchungen verzichten.",
+          "lead_in": "Welche Beratung ist richtig?",
           "options": {
             "A": {
-              "text": "Urin-Teststreifen ersetzen alle Zystoskopien",
-              "rationale": "Blasenerhalt erfordert fortgesetzte Überwachung, um Rezidive rechtzeitig zu erkennen. Remission, Teststreifen oder das Warten auf Beschwerden ersetzen die strukturierte Nachsorge nicht."
+              "text": "Bildgebung ohne endoskopische Kontrollen",
+              "rationale": "Bildgebung allein kann kleine oder flache intravesikale Rezidive übersehen."
             },
             "B": {
-              "text": "Kontrollen erst bei starken Schmerzen",
-              "rationale": "Blasenerhalt erfordert fortgesetzte Überwachung, um Rezidive rechtzeitig zu erkennen. Remission, Teststreifen oder das Warten auf Beschwerden ersetzen die strukturierte Nachsorge nicht."
+              "text": "Urinzytologie ohne endoskopische Kontrollen",
+              "rationale": "Die begrenzte Sensitivität der Zytologie macht sie nicht zum Ersatz der Blasenkontrolle."
             },
             "C": {
-              "text": "Regelmäßige Blasenkontrollen bleiben erforderlich",
-              "rationale": "Blasenerhalt erfordert fortgesetzte Überwachung, um Rezidive rechtzeitig zu erkennen. Remission, Teststreifen oder das Warten auf Beschwerden ersetzen die strukturierte Nachsorge nicht."
+              "text": "Zystoskopische und bildgebende Nachsorge",
+              "rationale": "Blasenrezidive und extravesikale Progression müssen nach Blasenerhalt weiter überwacht werden."
             },
             "D": {
-              "text": "Komplette Remission beendet jede Nachsorge",
-              "rationale": "Blasenerhalt erfordert fortgesetzte Überwachung, um Rezidive rechtzeitig zu erkennen. Remission, Teststreifen oder das Warten auf Beschwerden ersetzen die strukturierte Nachsorge nicht."
+              "text": "Symptomorientierte Wiedervorstellung",
+              "rationale": "Asymptomatische Rezidive würden bei diesem Vorgehen erst verspätet erfasst."
             }
           },
           "explanation": {
-            "core": "Blasenerhalt erfordert fortgesetzte Überwachung, um Rezidive rechtzeitig zu erkennen. Remission, Teststreifen oder das Warten auf Beschwerden ersetzen die strukturierte Nachsorge nicht.",
-            "teaching_point": "Blasenerhalt erfordert fortgesetzte Überwachung, um Rezidive rechtzeitig zu erkennen."
+            "core": "Blasenrezidive und extravesikale Progression müssen nach Blasenerhalt weiter überwacht werden.",
+            "teaching_point": "Blasenrezidive und extravesikale Progression müssen nach Blasenerhalt weiter überwacht werden."
           },
           "flag_note": null
         },
         "en": {
-          "vignette": "After trimodality therapy there is complete remission. The patient wants to stop bladder examinations. What is the correct advice?",
-          "lead_in": "Which answer is most appropriate?",
+          "vignette": "After trimodality therapy there is complete remission. The patient wants to stop bladder examinations.",
+          "lead_in": "What is the correct advice?",
           "options": {
             "A": {
-              "text": "Urine dipsticks replace every cystoscopy",
-              "rationale": "Bladder preservation requires ongoing surveillance to identify recurrence promptly. Remission, dipsticks or waiting for symptoms do not replace structured follow-up."
+              "text": "Imaging without endoscopic examinations",
+              "rationale": "Imaging alone can miss small or flat intravesical recurrences."
             },
             "B": {
-              "text": "Wait for severe pain before reassessment",
-              "rationale": "Bladder preservation requires ongoing surveillance to identify recurrence promptly. Remission, dipsticks or waiting for symptoms do not replace structured follow-up."
+              "text": "Urine cytology without endoscopic examinations",
+              "rationale": "The limited sensitivity of cytology prevents it replacing bladder examination."
             },
             "C": {
-              "text": "Regular bladder surveillance remains necessary",
-              "rationale": "Bladder preservation requires ongoing surveillance to identify recurrence promptly. Remission, dipsticks or waiting for symptoms do not replace structured follow-up."
+              "text": "Cystoscopic and imaging surveillance",
+              "rationale": "Bladder recurrence and extravesical progression require continued surveillance after bladder preservation."
             },
             "D": {
-              "text": "Complete remission ends all follow-up",
-              "rationale": "Bladder preservation requires ongoing surveillance to identify recurrence promptly. Remission, dipsticks or waiting for symptoms do not replace structured follow-up."
+              "text": "Symptom-triggered reassessment",
+              "rationale": "This approach would delay detection of asymptomatic recurrences."
             }
           },
           "explanation": {
-            "core": "Bladder preservation requires ongoing surveillance to identify recurrence promptly. Remission, dipsticks or waiting for symptoms do not replace structured follow-up.",
-            "teaching_point": "Bladder preservation requires ongoing surveillance to identify recurrence promptly."
+            "core": "Bladder recurrence and extravesical progression require continued surveillance after bladder preservation.",
+            "teaching_point": "Bladder recurrence and extravesical progression require continued surveillance after bladder preservation."
           },
           "flag_note": null
         },
         "es": {
-          "vignette": "Tras terapia trimodal hay remisión completa. El paciente quiere dejar los controles vesicales. ¿Qué consejo es correcto?",
-          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "vignette": "Tras terapia trimodal hay remisión completa. El paciente quiere dejar los controles vesicales.",
+          "lead_in": "¿Qué consejo es correcto?",
           "options": {
             "A": {
-              "text": "Las tiras de orina sustituyen toda cistoscopia",
-              "rationale": "La preservación vesical exige vigilancia continuada para detectar recidivas a tiempo. La remisión, las tiras de orina o esperar síntomas no sustituyen un seguimiento estructurado."
+              "text": "Imagen sin controles endoscópicos",
+              "rationale": "La imagen sola puede omitir recidivas intravesicales pequeñas o planas."
             },
             "B": {
-              "text": "Esperar dolor intenso antes de reevaluar",
-              "rationale": "La preservación vesical exige vigilancia continuada para detectar recidivas a tiempo. La remisión, las tiras de orina o esperar síntomas no sustituyen un seguimiento estructurado."
+              "text": "Citología sin controles endoscópicos",
+              "rationale": "La sensibilidad limitada de citología impide que sustituya la exploración vesical."
             },
             "C": {
-              "text": "Sigue siendo necesario el control vesical regular",
-              "rationale": "La preservación vesical exige vigilancia continuada para detectar recidivas a tiempo. La remisión, las tiras de orina o esperar síntomas no sustituyen un seguimiento estructurado."
+              "text": "Seguimiento cistoscópico y por imagen",
+              "rationale": "Tras conservar vejiga hay que seguir vigilando recidivas vesicales y progresión extravesical."
             },
             "D": {
-              "text": "La remisión completa termina todo seguimiento",
-              "rationale": "La preservación vesical exige vigilancia continuada para detectar recidivas a tiempo. La remisión, las tiras de orina o esperar síntomas no sustituyen un seguimiento estructurado."
+              "text": "Reevaluación solo ante síntomas",
+              "rationale": "Este enfoque retrasaría la detección de recidivas asintomáticas."
             }
           },
           "explanation": {
-            "core": "La preservación vesical exige vigilancia continuada para detectar recidivas a tiempo. La remisión, las tiras de orina o esperar síntomas no sustituyen un seguimiento estructurado.",
-            "teaching_point": "La preservación vesical exige vigilancia continuada para detectar recidivas a tiempo."
+            "core": "Tras conservar vejiga hay que seguir vigilando recidivas vesicales y progresión extravesical.",
+            "teaching_point": "Tras conservar vejiga hay que seguir vigilando recidivas vesicales y progresión extravesical."
           },
           "flag_note": null
         }

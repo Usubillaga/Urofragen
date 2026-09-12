@@ -52,7 +52,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -196,7 +202,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -339,7 +351,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -434,7 +452,7 @@
     },
     {
       "id": "uro-tra-00004",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Nierentrauma",
@@ -483,7 +501,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -495,7 +519,7 @@
               "rationale": "Die offene Versorgung im entzündlich veränderten Gewebe ist schwierig und selten nötig, weil endoskopische und perkutane Verfahren fast immer ausreichen."
             },
             "B": {
-              "text": "Innere Schienung, bei Bedarf perkutane Drainage",
+              "text": "Ureterschiene, gegebenenfalls Urinomdrainage",
               "rationale": "Die Schiene senkt den Druck im Hohlsystem, sodass sich das Leck verschließt. Ein symptomatisches oder infiziertes Urinom wird zusätzlich perkutan drainiert."
             },
             "C": {
@@ -522,7 +546,7 @@
               "rationale": "Open repair in inflamed tissue is difficult and rarely necessary, because endoscopic and percutaneous measures almost always suffice."
             },
             "B": {
-              "text": "Internal stenting, with percutaneous drainage if needed",
+              "text": "Ureteric stent, with urinoma drainage if needed",
               "rationale": "The stent lowers pressure in the collecting system so the leak seals. A symptomatic or infected urinoma is drained percutaneously in addition."
             },
             "C": {
@@ -549,7 +573,7 @@
               "rationale": "La reparación abierta en tejido inflamado es difícil y rara vez necesaria, porque las medidas endoscópicas y percutáneas casi siempre son suficientes."
             },
             "B": {
-              "text": "Colocación de stent interno, con drenaje percutáneo si es necesario",
+              "text": "Stent ureteral y eventual drenaje del urinoma",
               "rationale": "El stent reduce la presión en el sistema colector para sellar la fuga. Además, un urinoma sintomático o infectado se drena por vía percutánea."
             },
             "C": {
@@ -578,7 +602,7 @@
     },
     {
       "id": "uro-tra-00005",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Nierengefäßverletzung",
@@ -627,7 +651,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -643,7 +673,7 @@
               "rationale": "Die Entfernung des stummen Organs ist beim stabilen Patienten nicht dringlich und wird nur bei Komplikationen erwogen."
             },
             "C": {
-              "text": "Konservativ vorgehen und den Blutdruck langfristig kontrollieren",
+              "text": "Konservative Behandlung mit Blutdrucknachsorge",
               "rationale": "Bei einseitigem Verschluss und gesunder Gegenniere ist das Vorgehen abwartend. Wichtig ist die spätere Kontrolle, weil sich Monate danach eine renovaskuläre Hypertonie entwickeln kann."
             },
             "D": {
@@ -670,7 +700,7 @@
               "rationale": "Removing the silent organ is not urgent in a stable patient and is considered only for complications."
             },
             "C": {
-              "text": "Manage conservatively and monitor blood pressure long term",
+              "text": "Conservative care with blood pressure follow-up",
               "rationale": "With unilateral occlusion and a healthy contralateral kidney the approach is expectant. Later monitoring matters, because renovascular hypertension can develop months afterwards."
             },
             "D": {
@@ -697,7 +727,7 @@
               "rationale": "La extirpación del órgano silencioso no es urgente en un paciente estable y se considera sólo en caso de complicaciones."
             },
             "C": {
-              "text": "Manejar de manera conservadora y monitorear la presión arterial a largo plazo.",
+              "text": "Tratamiento conservador con control tensional",
               "rationale": "Con oclusión unilateral y un riñón contralateral sano el abordaje es expectante. La monitorización posterior es importante, porque meses después puede desarrollarse hipertensión renovascular."
             },
             "D": {
@@ -771,7 +801,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -915,7 +951,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1059,7 +1101,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1202,7 +1250,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1346,7 +1400,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1489,7 +1549,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1633,7 +1699,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1728,7 +1800,7 @@
     },
     {
       "id": "uro-tra-00013",
-      "version": 2,
+      "version": 3,
       "status": "published",
       "taxonomy": {
         "subdomain": "Hodentrauma",
@@ -1785,10 +1857,11 @@
         "last_reviewed": "2026-09-08",
         "expires": "2028-09-08",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted source cross-check",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1804,7 +1877,7 @@
               "rationale": "Die Verzögerung verschlechtert die Aussicht auf Organerhalt, ohne zusätzliche Information zu liefern."
             },
             "C": {
-              "text": "Dringliche operative Exploration und organerhaltende Versorgung",
+              "text": "Dringliche Exploration mit Erhaltungsversuch",
               "rationale": "Reseziert wird avitales Tubulusgewebe, anschließend wird die Tunica albuginea verschlossen. Bei Versorgung innerhalb von etwa 72 Stunden liegt die Erhaltungsrate deutlich über 80 Prozent, danach fällt sie stark ab."
             },
             "D": {
@@ -1831,7 +1904,7 @@
               "rationale": "Delay worsens the prospect of salvage without providing additional information."
             },
             "C": {
-              "text": "Urgent surgical exploration and testis-preserving repair",
+              "text": "Urgent exploration with attempted testis preservation",
               "rationale": "Non-viable tubular tissue is excised and the tunica albuginea then closed. With repair within roughly 72 hours the salvage rate exceeds 80 per cent; thereafter it falls sharply."
             },
             "D": {
@@ -1858,7 +1931,7 @@
               "rationale": "La demora empeora las perspectivas de rescate sin proporcionar información adicional."
             },
             "C": {
-              "text": "Exploración quirúrgica urgente y reparación preservadora de testículos.",
+              "text": "Exploración urgente con intento de conservación",
               "rationale": "Se extirpa el tejido tubular no viable y luego se cierra la túnica albugínea. Con una reparación en aproximadamente 72 horas, la tasa de recuperación supera el 80 por ciento; a partir de entonces cae bruscamente."
             },
             "D": {
@@ -1931,7 +2004,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2075,7 +2154,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {

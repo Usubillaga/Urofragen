@@ -3,7 +3,7 @@
   "fragen": [
     {
       "id": "uro-ure-00001",
-      "version": 2,
+      "version": 3,
       "status": "published",
       "taxonomy": {
         "subdomain": "Histologie",
@@ -53,15 +53,16 @@
         "last_reviewed": "2026-09-09",
         "expires": "2028-09-09",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted editorial review",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
           "vignette": "Zwei Männer mit primärem Harnröhrenkarzinom. Beim ersten sitzt der Tumor in der prostatischen Harnröhre, beim zweiten in der Penisurethra.",
-          "lead_in": "Welche Histologie ist jeweils zu erwarten?",
+          "lead_in": "Welche Zuordnung der typischen Histologie zu diesen Lokalisationen ist am ehesten zutreffend?",
           "options": {
             "A": {
               "text": "Bei beiden ein Adenokarzinom aus periurethralen Drüsen",
@@ -88,7 +89,7 @@
         },
         "en": {
           "vignette": "Two men with primary urethral carcinoma. In the first the tumour lies in the prostatic urethra, in the second in the penile urethra.",
-          "lead_in": "Which histology is expected in each?",
+          "lead_in": "Which association between typical histology and these sites is most appropriate?",
           "options": {
             "A": {
               "text": "Adenocarcinoma from periurethral glands in both men",
@@ -115,7 +116,7 @@
         },
         "es": {
           "vignette": "Dos hombres con carcinoma uretral primario. En el primero el tumor se encuentra en la uretra prostática, en el segundo en la uretra del pene.",
-          "lead_in": "¿Qué histología se espera en cada uno?",
+          "lead_in": "¿Qué asociación entre histología típica y estas localizaciones es más adecuada?",
           "options": {
             "A": {
               "text": "Adenocarcinoma de glándulas periuretrales en ambos hombres",
@@ -199,7 +200,13 @@
         "reviewer": null,
         "created": "2026-09-09",
         "last_reviewed": "2026-09-09",
-        "expires": "2028-09-09"
+        "expires": "2028-09-09",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -335,7 +342,13 @@
         "reviewer": null,
         "created": "2026-09-09",
         "last_reviewed": "2026-09-09",
-        "expires": "2028-09-09"
+        "expires": "2028-09-09",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -471,7 +484,13 @@
         "reviewer": null,
         "created": "2026-09-09",
         "last_reviewed": "2026-09-09",
-        "expires": "2028-09-09"
+        "expires": "2028-09-09",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -559,7 +578,7 @@
     },
     {
       "id": "uro-ure-00005",
-      "version": 2,
+      "version": 3,
       "status": "published",
       "taxonomy": {
         "subdomain": "lokal fortgeschritten",
@@ -616,10 +635,11 @@
         "last_reviewed": "2026-09-09",
         "expires": "2028-09-09",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted editorial review",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -631,7 +651,7 @@
               "rationale": "Bei ausgedehntem Lokalbefund und Lymphknotenbefall sind die Ergebnisse der alleinigen Operation schlecht, und die Resektabilität ist oft unsicher."
             },
             "B": {
-              "text": "Multimodale Therapie, einschließlich definitiver Radiochemotherapie erwägen",
+              "text": "Definitive Radiochemotherapie im multimodalen Konzept",
               "rationale": "Ein Plattenepithelkarzinom kann mit definitiver Radiochemotherapie behandelt werden; eine anschließende Operation ist nicht in jedem Fall zwingend. Im spezialisierten Tumorboard planen."
             },
             "C": {
@@ -658,7 +678,7 @@
               "rationale": "With extensive local disease and nodal involvement the results of surgery alone are poor and resectability is often uncertain."
             },
             "B": {
-              "text": "Consider multimodal treatment, including definitive chemoradiotherapy",
+              "text": "Definitive chemoradiotherapy in a multimodal plan",
               "rationale": "Squamous carcinoma may be treated with definitive chemoradiotherapy; subsequent surgery is not mandatory in every case. Plan treatment at a specialist multidisciplinary meeting."
             },
             "C": {
@@ -685,7 +705,7 @@
               "rationale": "Cuando la enfermedad local es extensa y la afectación ganglionar, los resultados de la cirugía sola son deficientes y la resecabilidad a menudo es incierta."
             },
             "B": {
-              "text": "Considere el tratamiento multimodal, incluida la quimiorradioterapia definitiva.",
+              "text": "Quimiorradioterapia definitiva en plan multimodal",
               "rationale": "El carcinoma escamoso puede tratarse con quimiorradioterapia definitiva; La cirugía posterior no es obligatoria en todos los casos. Planificar el tratamiento en una reunión multidisciplinaria de especialistas."
             },
             "C": {
@@ -762,7 +782,13 @@
         "reviewer": null,
         "created": "2026-09-09",
         "last_reviewed": "2026-09-09",
-        "expires": "2028-09-09"
+        "expires": "2028-09-09",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -899,7 +925,13 @@
         "reviewer": null,
         "created": "2026-09-09",
         "last_reviewed": "2026-09-09",
-        "expires": "2028-09-09"
+        "expires": "2028-09-09",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -987,7 +1019,7 @@
     },
     {
       "id": "uro-ure-00008",
-      "version": 2,
+      "version": 3,
       "status": "published",
       "taxonomy": {
         "subdomain": "Systemtherapie",
@@ -1044,10 +1076,11 @@
         "last_reviewed": "2026-09-09",
         "expires": "2028-09-09",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted editorial review",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1067,7 +1100,7 @@
               "rationale": "Die alleinige Bestrahlung ist der Kombination bei lokal fortgeschrittener Erkrankung unterlegen."
             },
             "D": {
-              "text": "Urothelial platinbasiert, plattenepithelial mit Radiochemotherapie",
+              "text": "Urothelial: Platin; plattenepithelial: Radiochemotherapie",
               "rationale": "Bei urothelialer Histologie an Blasenkarzinom-Konzepten orientieren. Beim Plattenepithelkarzinom definitive Radiochemotherapie erwägen; publizierte Serien verwenden unter anderem 5-FU und Mitomycin C."
             }
           },
@@ -1094,7 +1127,7 @@
               "rationale": "Radiotherapy alone is inferior to combined treatment in locally advanced disease."
             },
             "D": {
-              "text": "Urothelial platinum-based, squamous with chemoradiotherapy",
+              "text": "Urothelial: platinum; squamous: chemoradiotherapy",
               "rationale": "Urothelial histology follows bladder-cancer approaches. For squamous carcinoma consider definitive chemoradiotherapy; published series include 5-FU and mitomycin C."
             }
           },
@@ -1121,7 +1154,7 @@
               "rationale": "La radioterapia sola es inferior al tratamiento combinado en la enfermedad localmente avanzada."
             },
             "D": {
-              "text": "Carcinoma urotelial: tratamiento basado en platino, escamoso con quimiorradioterapia",
+              "text": "Urotelial: platino; escamoso: quimiorradioterapia",
               "rationale": "La histología urotelial sigue los enfoques del cáncer de vejiga. Para el carcinoma escamoso, considere la quimiorradioterapia definitiva; Las series publicadas incluyen 5-FU y mitomicina C."
             }
           },
@@ -1190,7 +1223,13 @@
         "reviewer": null,
         "created": "2026-09-09",
         "last_reviewed": "2026-09-09",
-        "expires": "2028-09-09"
+        "expires": "2028-09-09",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1327,7 +1366,13 @@
         "reviewer": null,
         "created": "2026-09-09",
         "last_reviewed": "2026-09-09",
-        "expires": "2028-09-09"
+        "expires": "2028-09-09",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {

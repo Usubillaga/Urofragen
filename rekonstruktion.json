@@ -3,7 +3,7 @@
   "fragen": [
     {
       "id": "uro-rek-00001",
-      "version": 2,
+      "version": 3,
       "status": "published",
       "taxonomy": {
         "subdomain": "Harnröhrenstriktur",
@@ -59,10 +59,11 @@
         "last_reviewed": "2026-09-08",
         "expires": "2028-09-08",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted source cross-check",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -74,7 +75,7 @@
               "rationale": "Eine erneute Urethrotomie kann bei ausgewählten Befunden erwogen werden, ist aber weniger dauerhaft als eine geeignete Rekonstruktion. Die Erfolgsrate ist nicht pauschal null."
             },
             "B": {
-              "text": "Urethroplastik; Technik nach Ursache und Spongiofibrose",
+              "text": "Urethroplastik mit individuell gewählter Technik",
               "rationale": "Bei rezidivierter kurzer bulbärer Striktur eine definitive Rekonstruktion besprechen. Nichttransektionelle Techniken oder Mundschleimhaut können geeignet sein; transezierende Anastomosen sind nicht für jeden kurzen Befund die beste Wahl."
             },
             "C": {
@@ -101,7 +102,7 @@
               "rationale": "Repeat urethrotomy may be considered in selected cases but is less durable than appropriate reconstruction. Its success rate is not universally zero."
             },
             "B": {
-              "text": "Urethroplasty tailored to the stricture",
+              "text": "Urethroplasty with an individualised technique",
               "rationale": "Discuss definitive repair for this recurrent short bulbar stricture. Non-transecting repair or oral mucosa may be suitable; transecting anastomosis is not best for every short stricture."
             },
             "C": {
@@ -128,7 +129,7 @@
               "rationale": "En casos seleccionados se puede considerar repetir la uretrotomía, pero es menos duradera que la reconstrucción adecuada. Su tasa de éxito no es universalmente cero."
             },
             "B": {
-              "text": "Uretroplastia con técnica adaptada a la causa y espongiofibrosis",
+              "text": "Uretroplastia con técnica individualizada",
               "rationale": "Analice la reparación definitiva de esta estenosis bulbar corta recurrente. Puede ser adecuada la reparación sin transección o la mucosa oral; seccionar la anastomosis no es lo mejor para todas las estenosis cortas."
             },
             "C": {
@@ -205,7 +206,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -349,7 +356,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -492,7 +505,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -587,7 +606,7 @@
     },
     {
       "id": "uro-rek-00005",
-      "version": 2,
+      "version": 3,
       "status": "published",
       "taxonomy": {
         "subdomain": "Harnableitung",
@@ -644,10 +663,11 @@
         "last_reviewed": "2026-09-08",
         "expires": "2028-09-08",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted source cross-check",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -659,7 +679,7 @@
               "rationale": "Der Wunsch allein genügt nicht; insbesondere der urethrale Absetzungsrand muss tumorfrei sein."
             },
             "B": {
-              "text": "Neoblase bei negativem urethralem Rand und geeigneter Funktion erwägen",
+              "text": "Neoblase nach Prüfung von Rand und Funktion",
               "rationale": "CIS der prostatischen Urethra schließt eine Neoblase nicht automatisch aus. Negative Randhistologie, funktionelle Eignung und urethrale Nachsorge sind entscheidend."
             },
             "C": {
@@ -686,7 +706,7 @@
               "rationale": "Preference alone is insufficient; the urethral resection margin must be negative."
             },
             "B": {
-              "text": "Consider neobladder if the urethral margin is negative",
+              "text": "Neobladder after margin and function assessment",
               "rationale": "Prostatic urethral CIS does not automatically exclude a neobladder. Negative margin histology, functional suitability and urethral follow-up are crucial."
             },
             "C": {
@@ -713,7 +733,7 @@
               "rationale": "La preferencia por sí sola es insuficiente; el margen de resección uretral debe ser negativo."
             },
             "B": {
-              "text": "Considerar una neovejiga con margen uretral negativo y función adecuada",
+              "text": "Neovejiga tras valorar margen y función",
               "rationale": "El CIS uretral prostático no excluye automáticamente una neovejiga. La histología de margen negativo, la idoneidad funcional y el seguimiento uretral son cruciales."
             },
             "C": {
@@ -791,7 +811,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -934,7 +960,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1078,7 +1110,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1222,7 +1260,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1365,7 +1409,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1508,7 +1558,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1652,7 +1708,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1747,7 +1809,7 @@
     },
     {
       "id": "uro-rek-00013",
-      "version": 2,
+      "version": 3,
       "status": "published",
       "taxonomy": {
         "subdomain": "Transplantation",
@@ -1803,10 +1865,11 @@
         "last_reviewed": "2026-09-08",
         "expires": "2028-09-08",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted source cross-check",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1814,25 +1877,25 @@
           "lead_in": "Welche Bewertung ist vor einer Listung erforderlich?",
           "options": {
             "A": {
-              "text": "Das Alter von 58 Jahren bei Dialysepflicht",
-              "rationale": "Ein Alter von 58 Jahren ist kein Ausschlussgrund; entscheidend sind biologisches Alter, Komorbidität und Lebenserwartung."
+              "text": "Listung wegen des Alters von 58 Jahren ausschließen",
+              "rationale": "Dieses Lebensalter allein ist keine Kontraindikation; entscheidend sind Gesamtrisiko und Nutzen."
             },
             "B": {
-              "text": "Der reizlose, komplikationslose Dialysekatheter",
-              "rationale": "Ein reizloser Katheter ist kein Hinderungsgrund. Eine aktive, unbehandelte Infektion wäre einer."
+              "text": "Listung wegen des reizlosen Dialysekatheters ausschließen",
+              "rationale": "Ein reizloser Katheter allein begründet keinen pauschalen Ausschluss; aktive Infektion wäre anders zu bewerten."
             },
             "C": {
-              "text": "Kardiologische Risikobeurteilung und genaue Tumorrisikoklassifikation",
-              "rationale": "Eine unbehandelte Zweigefäßerkrankung allein ist kein automatischer Ausschluss. Symptome, Ischämie, Herzfunktion und leitliniengerechte Therapie prüfen; beim Blasentumor Stadium, Grad und Rezidivfreiheit klären."
+              "text": "Kardiales und onkologisches Risiko differenziert prüfen",
+              "rationale": "Weder eine stabile koronare Erkrankung noch die unspezifische Angabe eines oberflächlichen Blasentumors erlaubt allein eine endgültige Entscheidung. Tumorrisiko und kardiale Belastbarkeit müssen geklärt werden."
             },
             "D": {
-              "text": "Das oberflächliche Blasenkarzinom vor acht Monaten",
-              "rationale": "„Oberflächlich“ ist keine ausreichende Risikoklassifikation. Die Wartezeit muss anhand genauer Tumordaten individuell beurteilt werden."
+              "text": "Listung wegen acht Monaten Tumorfreiheit direkt zusagen",
+              "rationale": "Die Wartezeit kann nicht ohne Histologie, Stadium und Rezidiv-/Progressionsrisiko bewertet werden."
             }
           },
           "explanation": {
-            "core": "Listung folgt einer individuellen Nutzen-Risiko-Bewertung. Stabile asymptomatische KHK verlangt nicht automatisch Revaskularisation. Aktive Tumorerkrankung oder instabile Herzerkrankung benötigen gesonderte Abklärung.",
-            "teaching_point": "Die meisten Gegenanzeigen sind Aufträge, keine Ausschlüsse."
+            "core": "Weder eine stabile koronare Erkrankung noch die unspezifische Angabe eines oberflächlichen Blasentumors erlaubt allein eine endgültige Entscheidung. Tumorrisiko und kardiale Belastbarkeit müssen geklärt werden.",
+            "teaching_point": "Weder eine stabile koronare Erkrankung noch die unspezifische Angabe eines oberflächlichen Blasentumors erlaubt allein eine endgültige Entscheidung."
           },
           "flag_note": null
         },
@@ -1841,25 +1904,25 @@
           "lead_in": "What assessment is required before listing?",
           "options": {
             "A": {
-              "text": "His age of 58 years while requiring dialysis",
-              "rationale": "Age 58 is not an exclusion; biological age, comorbidity and life expectancy are what matter."
+              "text": "Exclude listing because the patient is aged 58",
+              "rationale": "This age alone is not a contraindication; overall risk and benefit determine suitability."
             },
             "B": {
-              "text": "The uninflamed, uncomplicated dialysis catheter",
-              "rationale": "An uninflamed catheter is not an obstacle. An active untreated infection would be."
+              "text": "Exclude listing because of the uninflamed dialysis catheter",
+              "rationale": "An uninflamed catheter alone does not justify blanket exclusion; active infection would be different."
             },
             "C": {
-              "text": "Cardiac risk assessment and precise tumour risk classification",
-              "rationale": "Untreated two-vessel disease alone is not an automatic exclusion. Assess symptoms, ischaemia, cardiac function and appropriate treatment; establish bladder tumour stage, grade and recurrence status."
+              "text": "Assess cardiac and oncological risk individually",
+              "rationale": "Neither stable coronary disease nor an unspecified superficial bladder tumour alone permits a final decision. Tumour risk and cardiac fitness need clarification."
             },
             "D": {
-              "text": "The superficial bladder cancer eight months ago",
-              "rationale": "“Superficial” is not an adequate risk classification. Assess the waiting interval individually using precise tumour data."
+              "text": "Approve listing directly after eight tumour-free months",
+              "rationale": "The interval cannot be interpreted without histology, stage and recurrence/progression risk."
             }
           },
           "explanation": {
-            "core": "Listing requires individual benefit-risk assessment. Stable asymptomatic coronary disease does not automatically require revascularisation. Active malignancy or unstable heart disease requires specific evaluation.",
-            "teaching_point": "Most contraindications are tasks rather than exclusions."
+            "core": "Neither stable coronary disease nor an unspecified superficial bladder tumour alone permits a final decision. Tumour risk and cardiac fitness need clarification.",
+            "teaching_point": "Neither stable coronary disease nor an unspecified superficial bladder tumour alone permits a final decision."
           },
           "flag_note": null
         },
@@ -1868,25 +1931,25 @@
           "lead_in": "¿Qué evaluación se requiere antes de cotizar?",
           "options": {
             "A": {
-              "text": "Su edad de 58 años mientras requería diálisis",
-              "rationale": "58 años no es una exclusión; Lo que importa es la edad biológica, la comorbilidad y la esperanza de vida."
+              "text": "Excluir de lista por tener 58 años",
+              "rationale": "La edad por sí sola no contraindica; importan riesgo global y beneficio."
             },
             "B": {
-              "text": "El catéter de diálisis no inflamado y sin complicaciones",
-              "rationale": "Un catéter no inflamado no es un obstáculo. Una infección activa no tratada sería."
+              "text": "Excluir de lista por el catéter de diálisis sin inflamación",
+              "rationale": "Un catéter sin inflamación no justifica exclusión general; una infección activa sería otra situación."
             },
             "C": {
-              "text": "Evaluar el riesgo cardíaco y el riesgo tumoral",
-              "rationale": "La enfermedad de dos vasos no tratada por sí sola no es una exclusión automática. Evaluar síntomas, isquemia, función cardíaca y tratamiento adecuado; establecer el estadio, el grado y el estado de recurrencia del tumor de vejiga."
+              "text": "Valorar riesgos cardíaco y oncológico individualmente",
+              "rationale": "Ni coronariopatía estable ni un tumor vesical superficial sin especificar permiten decidir por sí solos. Hay que precisar riesgo tumoral y capacidad cardíaca."
             },
             "D": {
-              "text": "El cáncer de vejiga superficial hace ocho meses",
-              "rationale": "“Superficial” no es una clasificación de riesgo adecuada. Evalúe el intervalo de espera individualmente utilizando datos precisos del tumor."
+              "text": "Aceptar directamente tras ocho meses sin tumor",
+              "rationale": "No se interpreta el intervalo sin histología, estadio y riesgo de recidiva/progresión."
             }
           },
           "explanation": {
-            "core": "La cotización requiere una evaluación individual de beneficios y riesgos. La enfermedad coronaria estable y asintomática no requiere automáticamente revascularización. La malignidad activa o la enfermedad cardíaca inestable requieren una evaluación específica.",
-            "teaching_point": "La mayoría de las contraindicaciones son tareas más que exclusiones."
+            "core": "Ni coronariopatía estable ni un tumor vesical superficial sin especificar permiten decidir por sí solos. Hay que precisar riesgo tumoral y capacidad cardíaca.",
+            "teaching_point": "Ni coronariopatía estable ni un tumor vesical superficial sin especificar permiten decidir por sí solos."
           },
           "flag_note": null
         }
@@ -1948,7 +2011,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2092,7 +2161,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2187,7 +2262,7 @@
     },
     {
       "id": "uro-rek-00016",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Transplantation",
@@ -2236,7 +2311,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2244,7 +2325,7 @@
           "lead_in": "Was liegt am wahrscheinlichsten vor?",
           "options": {
             "A": {
-              "text": "Transplantatnierenarterienstenose; Duplex und Angioplastie",
+              "text": "Nierenarterienstenose; vaskuläre Abklärung",
               "rationale": "Der Kreatininanstieg nach Blockade des Renin-Angiotensin-Systems ist typisch, weil der Filtrationsdruck hinter der Enge von der Angiotensin-vermittelten Vasokonstriktion abhängt. Bestätigt wird sonographisch, behandelt meist interventionell."
             },
             "B": {
@@ -2271,7 +2352,7 @@
           "lead_in": "What is the most likely diagnosis?",
           "options": {
             "A": {
-              "text": "Transplant renal artery stenosis; duplex and angioplasty",
+              "text": "Renal artery stenosis; vascular assessment",
               "rationale": "A creatinine rise after blockade of the renin-angiotensin system is typical, because filtration pressure beyond the stenosis depends on angiotensin-mediated vasoconstriction. Confirmation is by ultrasound and treatment usually interventional."
             },
             "B": {
@@ -2298,7 +2379,7 @@
           "lead_in": "¿Cuál es el diagnóstico más probable?",
           "options": {
             "A": {
-              "text": "Estenosis de la arteria del injerto renal; ecografía Doppler y valoración de angioplastia",
+              "text": "Estenosis arterial renal; evaluación vascular",
               "rationale": "Es típico un aumento de creatinina después del bloqueo del sistema renina-angiotensina, porque la presión de filtración más allá de la estenosis depende de la vasoconstricción mediada por la angiotensina. La confirmación se realiza mediante ecografía y el tratamiento suele ser intervencionista."
             },
             "B": {
@@ -2379,7 +2460,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2523,7 +2610,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2666,7 +2759,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2810,7 +2909,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {

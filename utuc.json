@@ -52,7 +52,13 @@
         "reviewer": null,
         "created": "2026-09-05",
         "last_reviewed": "2026-09-05",
-        "expires": "2028-09-05"
+        "expires": "2028-09-05",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -204,10 +210,11 @@
         "last_reviewed": "2026-09-06",
         "expires": "2028-09-06",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted consistency review",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -351,7 +358,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06"
+        "expires": "2028-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -497,10 +510,11 @@
         "last_reviewed": "2026-09-06",
         "expires": "2028-09-06",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted editorial review",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -645,10 +659,11 @@
         "last_reviewed": "2026-09-06",
         "expires": "2028-09-06",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted editorial review",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -743,7 +758,7 @@
     },
     {
       "id": "uro-utu-00006",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Lymphadenektomie",
@@ -792,7 +807,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06"
+        "expires": "2028-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -808,7 +829,7 @@
               "rationale": "Sie verbessert die Stadienzuordnung und ist bei invasiven Tumoren mit einem Überlebensvorteil verknüpft."
             },
             "C": {
-              "text": "Template abhängig von der Höhe des Tumors",
+              "text": "Lageabhängiges anatomisches Lymphknotentemplate",
               "rationale": "Der Lymphabfluss folgt der Höhe des Tumors. Ein starres Template verfehlt entweder die betroffenen Stationen oder räumt unnötig aus. Linkes Nierenbecken und proximaler Ureter drainieren paraaortal und hilär, rechts parakaval und interaortokaval, der distale Ureter in die ipsilateralen iliakalen Stationen."
             },
             "D": {
@@ -835,7 +856,7 @@
               "rationale": "It improves staging and is associated with a survival benefit in invasive tumours."
             },
             "C": {
-              "text": "A template determined by the level of the tumour",
+              "text": "Site-specific anatomical lymph node template",
               "rationale": "Lymphatic drainage follows the level of the tumour. A rigid template either misses the involved stations or removes nodes unnecessarily. Left renal pelvis and proximal ureter drain para-aortic and hilar, the right side paracaval and interaortocaval, and the distal ureter to the ipsilateral iliac stations."
             },
             "D": {
@@ -862,7 +883,7 @@
               "rationale": "Mejora la estadificación y se asocia con un beneficio de supervivencia en tumores invasivos."
             },
             "C": {
-              "text": "Un territorio de linfadenectomía definido por la localización del tumor",
+              "text": "Plantilla ganglionar anatómica según localización",
               "rationale": "El drenaje linfático sigue el nivel del tumor. Una plantilla rígida omite las estaciones involucradas o elimina nodos innecesariamente. La pelvis renal izquierda y el uréter proximal drenan paraaórtico e hiliar, el paracavo e interaortocavo del lado derecho y el uréter distal a las estaciones ilíacas ipsilaterales."
             },
             "D": {
@@ -937,7 +958,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06"
+        "expires": "2028-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1085,7 +1112,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06"
+        "expires": "2028-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1233,7 +1266,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2027-09-06"
+        "expires": "2027-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1377,7 +1416,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06"
+        "expires": "2028-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1521,7 +1566,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06"
+        "expires": "2028-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {

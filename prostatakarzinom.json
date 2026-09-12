@@ -59,7 +59,13 @@
         "reviewer": null,
         "created": "2026-09-02",
         "last_reviewed": "2026-09-02",
-        "expires": "2027-09-02"
+        "expires": "2027-09-02",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -211,7 +217,13 @@
         "reviewer": null,
         "created": "2026-09-02",
         "last_reviewed": "2026-09-02",
-        "expires": "2027-09-02"
+        "expires": "2027-09-02",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -363,10 +375,11 @@
         "last_reviewed": "2026-09-05",
         "expires": "2027-09-05",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted editorial review",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -461,7 +474,7 @@
     },
     {
       "id": "uro-pca-00004",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Früherkennung",
@@ -514,7 +527,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -530,7 +549,7 @@
               "rationale": "ERSPC belegt eine Senkung der prostatakarzinomspezifischen Sterblichkeit, allerdings um den Preis von Überdiagnose und Überbehandlung. Das Problem des Screenings ist nicht die fehlende Wirksamkeit, sondern das Verhältnis von Nutzen und Schaden, das sich durch MRT-gestützte Diagnostik und aktive Überwachung deutlich verbessert hat."
             },
             "C": {
-              "text": "Aufklärung, dann risikoadaptiert nach Basis-PSA-Wert",
+              "text": "Beratung und risikoadaptierte PSA-Früherkennung",
               "rationale": "Der Basis-PSA-Wert ist der stärkste einzelne Prädiktor für das spätere Erkrankungsrisiko und erlaubt es, Männer mit sehr niedrigen Werten in lange Intervalle zu entlassen und Männer mit höheren Werten enger zu kontrollieren. Die positive Familienanamnese mit einem erstgradig Verwandten senkt zusätzlich das Alter, ab dem die Früherkennung angeboten wird. Der Basis-PSA-Wert ist der stärkste einzelne Prädiktor und bestimmt das Kontrollintervall. Die Tastuntersuchung ergänzt, ersetzt ihn aber nicht; die Familienanamnese verschiebt den Beginn nach vorn."
             },
             "D": {
@@ -557,7 +576,7 @@
               "rationale": "ERSPC demonstrates a reduction in prostate cancer specific mortality, at the price of overdiagnosis and overtreatment. The problem with screening is not a lack of efficacy but the balance of benefit and harm, which has improved considerably through MRI-directed diagnosis and active surveillance."
             },
             "C": {
-              "text": "Counselling, then risk-adapted use of a baseline PSA",
+              "text": "Counselling and risk-adapted PSA screening",
               "rationale": "Baseline PSA is the single strongest predictor of later risk and allows men with very low values to be given long intervals while men with higher values are followed more closely. A first-degree family history additionally lowers the age at which early detection is offered. Baseline PSA is the single strongest predictor and sets the interval. Digital examination complements but does not replace it; family history brings the start forward."
             },
             "D": {
@@ -584,7 +603,7 @@
               "rationale": "ERSPC demuestra una reducción de la mortalidad específica por cáncer de próstata, al precio de un sobrediagnóstico y un sobretratamiento. El problema del cribado no es la falta de eficacia sino el equilibrio entre beneficios y daños, que ha mejorado considerablemente gracias al diagnóstico dirigido por resonancia magnética y a la vigilancia activa."
             },
             "C": {
-              "text": "Asesoramiento y luego uso adaptado al riesgo de un PSA de referencia",
+              "text": "Asesoramiento y cribado con PSA según riesgo",
               "rationale": "El PSA inicial es el predictor más fuerte de riesgo posterior y permite que a los hombres con valores muy bajos se les administren intervalos prolongados mientras que a los hombres con valores más altos se les realiza un seguimiento más cercano. Además, los antecedentes familiares de primer grado reducen la edad a la que se ofrece la detección temprana. El PSA inicial es el predictor más fuerte y establece el intervalo. El examen digital lo complementa pero no lo reemplaza; la historia familiar adelanta el comienzo."
             },
             "D": {
@@ -663,7 +682,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -807,7 +832,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -951,7 +982,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1099,7 +1136,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1243,7 +1286,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1387,7 +1436,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1539,10 +1594,11 @@
         "last_reviewed": "2026-09-07",
         "expires": "2028-09-07",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted source cross-check",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1690,7 +1746,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1834,7 +1896,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1982,7 +2050,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2131,7 +2205,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2279,7 +2359,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2428,7 +2514,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2585,10 +2677,11 @@
         "last_reviewed": "2026-09-07",
         "expires": "2028-09-07",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted editorial review",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2737,7 +2830,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2832,7 +2931,7 @@
     },
     {
       "id": "uro-pca-00020",
-      "version": 2,
+      "version": 3,
       "status": "published",
       "taxonomy": {
         "subdomain": "Knochenschutz",
@@ -2890,10 +2989,11 @@
         "last_reviewed": "2026-09-07",
         "expires": "2028-09-07",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted source cross-check",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -2913,7 +3013,7 @@
               "rationale": "Knochenmetastasen bei hormonsensitiver Erkrankung allein rechtfertigen dieses Hochdosisschema nicht."
             },
             "D": {
-              "text": "Erster: Frakturrisiko prüfen; zweiter: Schutz vor Skelettkomplikationen",
+              "text": "Erster risikoadaptiert, zweiter Schutz vor Skelettkomplikationen",
               "rationale": "ADT allein begründet nicht automatisch Denosumab 60 mg. Die Osteoporosetherapie richtet sich nach Frakturrisiko und Begleittherapie. Bei ossär metastasiertem mCRPC kommen Denosumab 120 mg alle vier Wochen oder Zoledronat infrage."
             }
           },
@@ -2940,7 +3040,7 @@
               "rationale": "Bone metastases in hormone-sensitive disease alone do not justify this high-dose regimen."
             },
             "D": {
-              "text": "First: assess fracture risk; second: prevent skeletal complications",
+              "text": "First risk-adapted, second skeletal-event prevention",
               "rationale": "ADT alone does not automatically require denosumab 60 mg. Osteoporosis treatment depends on fracture risk and concomitant therapy. Bone-metastatic mCRPC may warrant denosumab 120 mg every four weeks or zoledronic acid."
             }
           },
@@ -2967,7 +3067,7 @@
               "rationale": "Las metástasis óseas en enfermedades hormonalmente sensibles por sí solas no justifican este régimen de dosis altas."
             },
             "D": {
-              "text": "Primero: evaluar el riesgo de fractura; segundo: prevenir complicaciones esqueléticas",
+              "text": "Primero según riesgo; segundo prevención de eventos óseos",
               "rationale": "La ADT por sí sola no requiere automáticamente 60 mg de denosumab. El tratamiento de la osteoporosis depende del riesgo de fractura y del tratamiento concomitante. El mCRPC metastásico óseo puede requerir denosumab 120 mg cada cuatro semanas o ácido zoledrónico."
             }
           },
@@ -3037,7 +3137,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -3181,7 +3287,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -3325,7 +3437,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {

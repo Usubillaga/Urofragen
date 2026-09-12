@@ -53,7 +53,13 @@
         "reviewer": null,
         "created": "2026-09-02",
         "last_reviewed": "2026-09-02",
-        "expires": "2027-09-02"
+        "expires": "2027-09-02",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -207,10 +213,11 @@
         "last_reviewed": "2026-09-02",
         "expires": "2027-09-02",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted source cross-check",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -369,10 +376,11 @@
         "last_reviewed": "2026-09-02",
         "expires": "2027-03-02",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted source cross-check",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -467,7 +475,7 @@
     },
     {
       "id": "uro-lit-00004",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "urolithiasis",
@@ -517,90 +525,91 @@
         "last_reviewed": null,
         "expires": "2027-03-11",
         "editorial_review": {
-          "date": "2026-09-11",
-          "method": "Original trilingual cases checked against EAU online chapters",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
-          "vignette": "Akute Nierenkolik, normale Nierenfunktion, keine Schwangerschaft und keine gastrointestinalen oder kardiovaskulären Gegenanzeigen. Welche medikamentöse Analgesie ist erste Wahl?",
-          "lead_in": "Welche Antwort trifft am besten zu?",
+          "vignette": "Akute Nierenkolik, normale Nierenfunktion, keine Schwangerschaft und keine gastrointestinalen oder kardiovaskulären Gegenanzeigen.",
+          "lead_in": "Welche medikamentöse Analgesie ist erste Wahl?",
           "options": {
             "A": {
-              "text": "Ein nichtsteroidales Antirheumatikum",
-              "rationale": "NSAR sind bei fehlenden Kontraindikationen erste Wahl für die Nierenkolik. Antibiotika behandeln keinen sterilen Schmerz; forcierte Diurese ist keine Analgesie, Spasmolytika ersetzen NSAR nicht."
+              "text": "Diclofenac als initiale Analgesie",
+              "rationale": "Ein NSAR ist bei fehlenden Kontraindikationen erste Wahl und reduziert den Bedarf an zusätzlicher Analgesie."
             },
             "B": {
-              "text": "Ein Antibiotikum ohne Infekt",
-              "rationale": "NSAR sind bei fehlenden Kontraindikationen erste Wahl für die Nierenkolik. Antibiotika behandeln keinen sterilen Schmerz; forcierte Diurese ist keine Analgesie, Spasmolytika ersetzen NSAR nicht."
+              "text": "Tramadol als initiale Analgesie",
+              "rationale": "Opioide sind eine Alternative oder Ergänzung, wenn Erstlinienanalgesie nicht möglich oder unzureichend ist."
             },
             "C": {
-              "text": "Ein Diuretikum zur forcierten Diurese",
-              "rationale": "NSAR sind bei fehlenden Kontraindikationen erste Wahl für die Nierenkolik. Antibiotika behandeln keinen sterilen Schmerz; forcierte Diurese ist keine Analgesie, Spasmolytika ersetzen NSAR nicht."
+              "text": "Pethidin als initiale Analgesie",
+              "rationale": "Pethidin verursacht häufiger Erbrechen und ist gegenüber einem geeigneten NSAR nicht bevorzugt."
             },
             "D": {
-              "text": "Ein Spasmolytikum als alleiniger Standard",
-              "rationale": "NSAR sind bei fehlenden Kontraindikationen erste Wahl für die Nierenkolik. Antibiotika behandeln keinen sterilen Schmerz; forcierte Diurese ist keine Analgesie, Spasmolytika ersetzen NSAR nicht."
+              "text": "Butylscopolamin als alleinige Analgesie",
+              "rationale": "Ein Spasmolytikum allein ersetzt die wirksame Kolikanalgesie durch NSAR nicht."
             }
           },
           "explanation": {
-            "core": "NSAR sind bei fehlenden Kontraindikationen erste Wahl für die Nierenkolik. Antibiotika behandeln keinen sterilen Schmerz; forcierte Diurese ist keine Analgesie, Spasmolytika ersetzen NSAR nicht.",
-            "teaching_point": "NSAR sind bei fehlenden Kontraindikationen erste Wahl für die Nierenkolik."
+            "core": "Ein NSAR ist bei fehlenden Kontraindikationen erste Wahl und reduziert den Bedarf an zusätzlicher Analgesie.",
+            "teaching_point": "Ein NSAR ist bei fehlenden Kontraindikationen erste Wahl und reduziert den Bedarf an zusätzlicher Analgesie."
           },
           "flag_note": null
         },
         "en": {
-          "vignette": "Acute renal colic, normal renal function, no pregnancy and no gastrointestinal or cardiovascular contraindications. Which drug analgesia is first-line?",
-          "lead_in": "Which answer is most appropriate?",
+          "vignette": "Acute renal colic, normal renal function, no pregnancy and no gastrointestinal or cardiovascular contraindications.",
+          "lead_in": "Which drug analgesia is first-line?",
           "options": {
             "A": {
-              "text": "A non-steroidal anti-inflammatory drug",
-              "rationale": "NSAIDs are first-line for renal colic when not contraindicated. Antibiotics do not treat sterile pain; forced diuresis is not analgesia, and antispasmodics do not replace NSAIDs."
+              "text": "Diclofenac as initial analgesia",
+              "rationale": "An NSAID is first-line when not contraindicated and reduces the need for additional analgesia."
             },
             "B": {
-              "text": "An antibiotic without infection",
-              "rationale": "NSAIDs are first-line for renal colic when not contraindicated. Antibiotics do not treat sterile pain; forced diuresis is not analgesia, and antispasmodics do not replace NSAIDs."
+              "text": "Tramadol as initial analgesia",
+              "rationale": "Opioids are alternatives or additions when first-line analgesia is unsuitable or insufficient."
             },
             "C": {
-              "text": "A diuretic to force urine output",
-              "rationale": "NSAIDs are first-line for renal colic when not contraindicated. Antibiotics do not treat sterile pain; forced diuresis is not analgesia, and antispasmodics do not replace NSAIDs."
+              "text": "Pethidine as initial analgesia",
+              "rationale": "Pethidine causes more vomiting and is not preferred over a suitable NSAID."
             },
             "D": {
-              "text": "An antispasmodic as sole standard therapy",
-              "rationale": "NSAIDs are first-line for renal colic when not contraindicated. Antibiotics do not treat sterile pain; forced diuresis is not analgesia, and antispasmodics do not replace NSAIDs."
+              "text": "Hyoscine butylbromide as sole analgesia",
+              "rationale": "An antispasmodic alone does not replace effective NSAID analgesia for colic."
             }
           },
           "explanation": {
-            "core": "NSAIDs are first-line for renal colic when not contraindicated. Antibiotics do not treat sterile pain; forced diuresis is not analgesia, and antispasmodics do not replace NSAIDs.",
-            "teaching_point": "NSAIDs are first-line for renal colic when not contraindicated."
+            "core": "An NSAID is first-line when not contraindicated and reduces the need for additional analgesia.",
+            "teaching_point": "An NSAID is first-line when not contraindicated and reduces the need for additional analgesia."
           },
           "flag_note": null
         },
         "es": {
-          "vignette": "Cólico renal agudo con función renal normal, sin embarazo ni contraindicaciones digestivas o cardiovasculares. ¿Cuál es la analgesia farmacológica de primera elección?",
-          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "vignette": "Cólico renal agudo con función renal normal, sin embarazo ni contraindicaciones digestivas o cardiovasculares.",
+          "lead_in": "¿Cuál es la analgesia farmacológica de primera elección?",
           "options": {
             "A": {
-              "text": "Un antiinflamatorio no esteroideo",
-              "rationale": "Los AINE son primera elección en cólico renal si no hay contraindicaciones. Los antibióticos no tratan dolor estéril; forzar diuresis no es analgesia y los espasmolíticos no sustituyen AINE."
+              "text": "Diclofenaco como analgesia inicial",
+              "rationale": "Un AINE es primera elección sin contraindicaciones y reduce necesidad de analgesia adicional."
             },
             "B": {
-              "text": "Un antibiótico sin infección",
-              "rationale": "Los AINE son primera elección en cólico renal si no hay contraindicaciones. Los antibióticos no tratan dolor estéril; forzar diuresis no es analgesia y los espasmolíticos no sustituyen AINE."
+              "text": "Tramadol como analgesia inicial",
+              "rationale": "Los opioides son alternativas o complementos si la primera línea es inadecuada o insuficiente."
             },
             "C": {
-              "text": "Un diurético para forzar la diuresis",
-              "rationale": "Los AINE son primera elección en cólico renal si no hay contraindicaciones. Los antibióticos no tratan dolor estéril; forzar diuresis no es analgesia y los espasmolíticos no sustituyen AINE."
+              "text": "Petidina como analgesia inicial",
+              "rationale": "Petidina causa más vómitos y no se prefiere a un AINE adecuado."
             },
             "D": {
-              "text": "Un espasmolítico como único estándar",
-              "rationale": "Los AINE son primera elección en cólico renal si no hay contraindicaciones. Los antibióticos no tratan dolor estéril; forzar diuresis no es analgesia y los espasmolíticos no sustituyen AINE."
+              "text": "Butilescopolamina como analgesia única",
+              "rationale": "Un espasmolítico solo no sustituye la analgesia eficaz del cólico con AINE."
             }
           },
           "explanation": {
-            "core": "Los AINE son primera elección en cólico renal si no hay contraindicaciones. Los antibióticos no tratan dolor estéril; forzar diuresis no es analgesia y los espasmolíticos no sustituyen AINE.",
-            "teaching_point": "Los AINE son primera elección en cólico renal si no hay contraindicaciones."
+            "core": "Un AINE es primera elección sin contraindicaciones y reduce necesidad de analgesia adicional.",
+            "teaching_point": "Un AINE es primera elección sin contraindicaciones y reduce necesidad de analgesia adicional."
           },
           "flag_note": null
         }
@@ -608,7 +617,7 @@
     },
     {
       "id": "uro-lit-00005",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "urolithiasis",
@@ -658,90 +667,91 @@
         "last_reviewed": null,
         "expires": "2027-03-11",
         "editorial_review": {
-          "date": "2026-09-11",
-          "method": "Original trilingual cases checked against EAU online chapters",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
-          "vignette": "Ein Erwachsener hat einen 28-mm-Nierenbeckenstein. Keine Infektion, normale Gerinnung und geeigneter perkutaner Zugang. Welches Verfahren ist regulär erste Wahl?",
-          "lead_in": "Welche Antwort trifft am besten zu?",
+          "vignette": "Ein Erwachsener hat einen 28-mm-Nierenbeckenstein. Keine Infektion, normale Gerinnung und geeigneter perkutaner Zugang.",
+          "lead_in": "Welches Verfahren ist regulär erste Wahl?",
           "options": {
             "A": {
-              "text": "Stoßwellenlithotripsie als bevorzugte Erstlinie",
-              "rationale": "Nierensteine über 2 cm werden primär perkutan behandelt, sofern geeignet. Expulsion ist für diese Steinlast unzureichend, Nephrektomie unangemessen; SWL benötigt häufiger Folgeeingriffe."
+              "text": "Flexible Ureterorenoskopie (RIRS)",
+              "rationale": "RIRS kann bei ungeeigneter PCNL eingesetzt werden, benötigt bei dieser Größe aber häufiger mehrere Sitzungen."
             },
             "B": {
-              "text": "Perkutane Nephrolithotomie",
-              "rationale": "Nierensteine über 2 cm werden primär perkutan behandelt, sofern geeignet. Expulsion ist für diese Steinlast unzureichend, Nephrektomie unangemessen; SWL benötigt häufiger Folgeeingriffe."
+              "text": "Perkutane Nephrolithotomie (PCNL)",
+              "rationale": "Bei dieser Steinlast über 2 cm bietet PCNL im geeigneten Fall die bevorzugte primäre Steinentfernung."
             },
             "C": {
-              "text": "Alleinige medikamentöse Expulsion",
-              "rationale": "Nierensteine über 2 cm werden primär perkutan behandelt, sofern geeignet. Expulsion ist für diese Steinlast unzureichend, Nephrektomie unangemessen; SWL benötigt häufiger Folgeeingriffe."
+              "text": "Extrakorporale Stoßwellenlithotripsie",
+              "rationale": "Große Steine haben schlechtere Steinfreiheitsraten und ein erhöhtes Steinstrassenrisiko nach SWL."
             },
             "D": {
-              "text": "Offene Nephrektomie als Standard",
-              "rationale": "Nierensteine über 2 cm werden primär perkutan behandelt, sofern geeignet. Expulsion ist für diese Steinlast unzureichend, Nephrektomie unangemessen; SWL benötigt häufiger Folgeeingriffe."
+              "text": "Laparoskopische Pyelolithotomie",
+              "rationale": "Dieses Verfahren bleibt ausgewählten Situationen vorbehalten und ist bei geeignetem perkutanem Zugang nicht die reguläre Erstwahl."
             }
           },
           "explanation": {
-            "core": "Nierensteine über 2 cm werden primär perkutan behandelt, sofern geeignet. Expulsion ist für diese Steinlast unzureichend, Nephrektomie unangemessen; SWL benötigt häufiger Folgeeingriffe.",
-            "teaching_point": "Nierensteine über 2 cm werden primär perkutan behandelt, sofern geeignet."
+            "core": "Bei dieser Steinlast über 2 cm bietet PCNL im geeigneten Fall die bevorzugte primäre Steinentfernung.",
+            "teaching_point": "Bei dieser Steinlast über 2 cm bietet PCNL im geeigneten Fall die bevorzugte primäre Steinentfernung."
           },
           "flag_note": null
         },
         "en": {
-          "vignette": "An adult has a 28-mm renal pelvic stone, no infection, normal coagulation and suitable percutaneous access. Which procedure is usually first-line?",
-          "lead_in": "Which answer is most appropriate?",
+          "vignette": "An adult has a 28-mm renal pelvic stone, no infection, normal coagulation and suitable percutaneous access.",
+          "lead_in": "Which procedure is usually first-line?",
           "options": {
             "A": {
-              "text": "Shock wave lithotripsy as preferred first-line",
-              "rationale": "Renal stones over 2 cm are primarily treated percutaneously when suitable. Expulsive therapy is insufficient for this burden, nephrectomy is inappropriate, and SWL more often requires repeat procedures."
+              "text": "Flexible ureterorenoscopy (RIRS)",
+              "rationale": "RIRS may be used if PCNL is unsuitable but more often requires multiple sessions for this size."
             },
             "B": {
-              "text": "Percutaneous nephrolithotomy",
-              "rationale": "Renal stones over 2 cm are primarily treated percutaneously when suitable. Expulsive therapy is insufficient for this burden, nephrectomy is inappropriate, and SWL more often requires repeat procedures."
+              "text": "Percutaneous nephrolithotomy (PCNL)",
+              "rationale": "For this burden over 2 cm, PCNL is the preferred primary removal in a suitable patient."
             },
             "C": {
-              "text": "Medical expulsive therapy alone",
-              "rationale": "Renal stones over 2 cm are primarily treated percutaneously when suitable. Expulsive therapy is insufficient for this burden, nephrectomy is inappropriate, and SWL more often requires repeat procedures."
+              "text": "Extracorporeal shock wave lithotripsy",
+              "rationale": "Large stones have lower stone-free rates and a higher steinstrasse risk after SWL."
             },
             "D": {
-              "text": "Open nephrectomy as standard",
-              "rationale": "Renal stones over 2 cm are primarily treated percutaneously when suitable. Expulsive therapy is insufficient for this burden, nephrectomy is inappropriate, and SWL more often requires repeat procedures."
+              "text": "Laparoscopic pyelolithotomy",
+              "rationale": "This is reserved for selected situations and is not routine first-line when percutaneous access is suitable."
             }
           },
           "explanation": {
-            "core": "Renal stones over 2 cm are primarily treated percutaneously when suitable. Expulsive therapy is insufficient for this burden, nephrectomy is inappropriate, and SWL more often requires repeat procedures.",
-            "teaching_point": "Renal stones over 2 cm are primarily treated percutaneously when suitable."
+            "core": "For this burden over 2 cm, PCNL is the preferred primary removal in a suitable patient.",
+            "teaching_point": "For this burden over 2 cm, PCNL is the preferred primary removal in a suitable patient."
           },
           "flag_note": null
         },
         "es": {
-          "vignette": "Un adulto presenta cálculo de pelvis renal de 28 mm, sin infección, coagulación normal y acceso percutáneo adecuado. ¿Qué procedimiento suele ser primera elección?",
-          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "vignette": "Un adulto presenta cálculo de pelvis renal de 28 mm, sin infección, coagulación normal y acceso percutáneo adecuado.",
+          "lead_in": "¿Qué procedimiento suele ser primera elección?",
           "options": {
             "A": {
-              "text": "Litotricia por ondas como primera opción preferida",
-              "rationale": "Los cálculos renales mayores de 2 cm se tratan principalmente por vía percutánea si es adecuada. La expulsión médica es insuficiente, la nefrectomía inapropiada y las ondas suelen requerir más intervenciones."
+              "text": "Ureterorrenoscopia flexible (RIRS)",
+              "rationale": "RIRS puede usarse si NLPC no es adecuada, pero con este tamaño requiere más sesiones."
             },
             "B": {
-              "text": "Nefrolitotomía percutánea",
-              "rationale": "Los cálculos renales mayores de 2 cm se tratan principalmente por vía percutánea si es adecuada. La expulsión médica es insuficiente, la nefrectomía inapropiada y las ondas suelen requerir más intervenciones."
+              "text": "Nefrolitotomía percutánea (NLPC)",
+              "rationale": "Para esta carga mayor de 2 cm, NLPC es la extracción primaria preferida si es adecuada."
             },
             "C": {
-              "text": "Solo tratamiento médico expulsivo",
-              "rationale": "Los cálculos renales mayores de 2 cm se tratan principalmente por vía percutánea si es adecuada. La expulsión médica es insuficiente, la nefrectomía inapropiada y las ondas suelen requerir más intervenciones."
+              "text": "Litotricia extracorpórea por ondas",
+              "rationale": "Los cálculos grandes tienen menor tasa libre de litiasis y mayor riesgo de calle litiásica tras ondas."
             },
             "D": {
-              "text": "Nefrectomía abierta como estándar",
-              "rationale": "Los cálculos renales mayores de 2 cm se tratan principalmente por vía percutánea si es adecuada. La expulsión médica es insuficiente, la nefrectomía inapropiada y las ondas suelen requerir más intervenciones."
+              "text": "Pielolitotomía laparoscópica",
+              "rationale": "Se reserva para situaciones seleccionadas y no es primera elección habitual con acceso percutáneo adecuado."
             }
           },
           "explanation": {
-            "core": "Los cálculos renales mayores de 2 cm se tratan principalmente por vía percutánea si es adecuada. La expulsión médica es insuficiente, la nefrectomía inapropiada y las ondas suelen requerir más intervenciones.",
-            "teaching_point": "Los cálculos renales mayores de 2 cm se tratan principalmente por vía percutánea si es adecuada."
+            "core": "Para esta carga mayor de 2 cm, NLPC es la extracción primaria preferida si es adecuada.",
+            "teaching_point": "Para esta carga mayor de 2 cm, NLPC es la extracción primaria preferida si es adecuada."
           },
           "flag_note": null
         }
@@ -749,7 +759,7 @@
     },
     {
       "id": "uro-lit-00006",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "urolithiasis",
@@ -799,90 +809,91 @@
         "last_reviewed": null,
         "expires": "2027-03-11",
         "editorial_review": {
-          "date": "2026-09-11",
-          "method": "Original trilingual cases checked against EAU online chapters",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
-          "vignette": "Eine Schwangere mit Verdacht auf Harnleiterstein ist kreislaufstabil und afebril. Welche Bildgebung wird zuerst eingesetzt?",
-          "lead_in": "Welche Antwort trifft am besten zu?",
+          "vignette": "Eine Schwangere mit Verdacht auf Harnleiterstein ist kreislaufstabil und afebril.",
+          "lead_in": "Welche Bildgebung wird zuerst eingesetzt?",
           "options": {
             "A": {
-              "text": "Intravenöse Urographie als Routinebeginn",
-              "rationale": "Sonographie ist die erste Bildgebung bei Steinverdacht in der Schwangerschaft. Bei Unklarheit folgen individuell weitere Verfahren; CT ist eine letzte Option, Gadolinium wird nicht routinemäßig eingesetzt."
+              "text": "Native Low-Dose-CT",
+              "rationale": "CT kann bei weiter unklarer, entscheidungsrelevanter Situation als letzte Option gerechtfertigt sein, ist hier aber nicht Erstwahl."
             },
             "B": {
-              "text": "Gadolinium-MRT als Routinebeginn",
-              "rationale": "Sonographie ist die erste Bildgebung bei Steinverdacht in der Schwangerschaft. Bei Unklarheit folgen individuell weitere Verfahren; CT ist eine letzte Option, Gadolinium wird nicht routinemäßig eingesetzt."
+              "text": "MR-Urographie ohne Kontrastmittel",
+              "rationale": "MRT ist bei unklarem Ultraschall eine mögliche zweite Stufe."
             },
             "C": {
-              "text": "Sonographie",
-              "rationale": "Sonographie ist die erste Bildgebung bei Steinverdacht in der Schwangerschaft. Bei Unklarheit folgen individuell weitere Verfahren; CT ist eine letzte Option, Gadolinium wird nicht routinemäßig eingesetzt."
+              "text": "Sonographie der Harnwege",
+              "rationale": "Sonographie ist das primäre Verfahren bei Steinverdacht in der Schwangerschaft und benötigt keine ionisierende Strahlung."
             },
             "D": {
-              "text": "Kontrastmittel-CT als Routinebeginn",
-              "rationale": "Sonographie ist die erste Bildgebung bei Steinverdacht in der Schwangerschaft. Bei Unklarheit folgen individuell weitere Verfahren; CT ist eine letzte Option, Gadolinium wird nicht routinemäßig eingesetzt."
+              "text": "Intravenöse Ausscheidungsurographie",
+              "rationale": "Sie ist für diese Erstabklärung gegenüber strahlungsfreier Sonographie nicht bevorzugt."
             }
           },
           "explanation": {
-            "core": "Sonographie ist die erste Bildgebung bei Steinverdacht in der Schwangerschaft. Bei Unklarheit folgen individuell weitere Verfahren; CT ist eine letzte Option, Gadolinium wird nicht routinemäßig eingesetzt.",
-            "teaching_point": "Sonographie ist die erste Bildgebung bei Steinverdacht in der Schwangerschaft."
+            "core": "Sonographie ist das primäre Verfahren bei Steinverdacht in der Schwangerschaft und benötigt keine ionisierende Strahlung.",
+            "teaching_point": "Sonographie ist das primäre Verfahren bei Steinverdacht in der Schwangerschaft und benötigt keine ionisierende Strahlung."
           },
           "flag_note": null
         },
         "en": {
-          "vignette": "A pregnant patient with suspected ureteric stone is haemodynamically stable and afebrile. Which imaging is used first?",
-          "lead_in": "Which answer is most appropriate?",
+          "vignette": "A pregnant patient with suspected ureteric stone is haemodynamically stable and afebrile.",
+          "lead_in": "Which imaging is used first?",
           "options": {
             "A": {
-              "text": "Intravenous urography as the routine first test",
-              "rationale": "Ultrasound is first-line for suspected stones in pregnancy. Further tests are selected individually if needed; CT is a last-line option and gadolinium is not routinely used."
+              "text": "Non-contrast low-dose CT",
+              "rationale": "CT may be justified as a last option if clinically important uncertainty persists, but is not first-line here."
             },
             "B": {
-              "text": "Gadolinium MRI as the routine first test",
-              "rationale": "Ultrasound is first-line for suspected stones in pregnancy. Further tests are selected individually if needed; CT is a last-line option and gadolinium is not routinely used."
+              "text": "Non-contrast MR urography",
+              "rationale": "MRI is a possible second-line test after inconclusive ultrasound."
             },
             "C": {
-              "text": "Ultrasound",
-              "rationale": "Ultrasound is first-line for suspected stones in pregnancy. Further tests are selected individually if needed; CT is a last-line option and gadolinium is not routinely used."
+              "text": "Urinary tract ultrasound",
+              "rationale": "Ultrasound is first-line for suspected stones in pregnancy and uses no ionising radiation."
             },
             "D": {
-              "text": "Contrast CT as the routine first test",
-              "rationale": "Ultrasound is first-line for suspected stones in pregnancy. Further tests are selected individually if needed; CT is a last-line option and gadolinium is not routinely used."
+              "text": "Intravenous excretory urography",
+              "rationale": "It is not preferred over radiation-free ultrasound for this initial assessment."
             }
           },
           "explanation": {
-            "core": "Ultrasound is first-line for suspected stones in pregnancy. Further tests are selected individually if needed; CT is a last-line option and gadolinium is not routinely used.",
-            "teaching_point": "Ultrasound is first-line for suspected stones in pregnancy."
+            "core": "Ultrasound is first-line for suspected stones in pregnancy and uses no ionising radiation.",
+            "teaching_point": "Ultrasound is first-line for suspected stones in pregnancy and uses no ionising radiation."
           },
           "flag_note": null
         },
         "es": {
-          "vignette": "Una embarazada con sospecha de cálculo ureteral está estable y afebril. ¿Qué imagen se utiliza primero?",
-          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "vignette": "Una embarazada con sospecha de cálculo ureteral está estable y afebril.",
+          "lead_in": "¿Qué imagen se utiliza primero?",
           "options": {
             "A": {
-              "text": "Urografía intravenosa como inicio rutinario",
-              "rationale": "La ecografía es la primera imagen ante sospecha de litiasis en embarazo. Otros estudios se individualizan si hace falta; TC es última opción y gadolinio no se usa de rutina."
+              "text": "TC de baja dosis sin contraste",
+              "rationale": "TC puede justificarse como última opción si persiste incertidumbre relevante, pero aquí no es primera línea."
             },
             "B": {
-              "text": "RM con gadolinio como inicio rutinario",
-              "rationale": "La ecografía es la primera imagen ante sospecha de litiasis en embarazo. Otros estudios se individualizan si hace falta; TC es última opción y gadolinio no se usa de rutina."
+              "text": "Urografía por RM sin contraste",
+              "rationale": "La RM puede ser segunda línea tras ecografía no concluyente."
             },
             "C": {
-              "text": "Ecografía",
-              "rationale": "La ecografía es la primera imagen ante sospecha de litiasis en embarazo. Otros estudios se individualizan si hace falta; TC es última opción y gadolinio no se usa de rutina."
+              "text": "Ecografía de la vía urinaria",
+              "rationale": "La ecografía es primera línea ante sospecha de litiasis en embarazo y no usa radiación ionizante."
             },
             "D": {
-              "text": "TC con contraste como inicio rutinario",
-              "rationale": "La ecografía es la primera imagen ante sospecha de litiasis en embarazo. Otros estudios se individualizan si hace falta; TC es última opción y gadolinio no se usa de rutina."
+              "text": "Urografía excretora intravenosa",
+              "rationale": "No se prefiere a ecografía sin radiación para esta valoración inicial."
             }
           },
           "explanation": {
-            "core": "La ecografía es la primera imagen ante sospecha de litiasis en embarazo. Otros estudios se individualizan si hace falta; TC es última opción y gadolinio no se usa de rutina.",
-            "teaching_point": "La ecografía es la primera imagen ante sospecha de litiasis en embarazo."
+            "core": "La ecografía es primera línea ante sospecha de litiasis en embarazo y no usa radiación ionizante.",
+            "teaching_point": "La ecografía es primera línea ante sospecha de litiasis en embarazo y no usa radiación ionizante."
           },
           "flag_note": null
         }
@@ -890,7 +901,7 @@
     },
     {
       "id": "uro-lit-00007",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "urolithiasis",
@@ -940,90 +951,91 @@
         "last_reviewed": null,
         "expires": "2027-03-11",
         "editorial_review": {
-          "date": "2026-09-11",
-          "method": "Original trilingual cases checked against EAU online chapters",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
-          "vignette": "Distaler Harnleiterstein von 7 mm, kontrollierte Schmerzen, keine Infektion und stabile Nierenfunktion. Beobachtung mit Kontrollen ist vereinbart. Welche Zusatztherapie kann nach Aufklärung angeboten werden?",
-          "lead_in": "Welche Antwort trifft am besten zu?",
+          "vignette": "Distaler Harnleiterstein von 7 mm, kontrollierte Schmerzen, keine Infektion und stabile Nierenfunktion. Beobachtung mit Kontrollen ist vereinbart.",
+          "lead_in": "Welche Zusatztherapie kann nach Aufklärung angeboten werden?",
           "options": {
             "A": {
-              "text": "BCG zur Steinauflösung",
-              "rationale": "Alpha-Blocker können den Abgang distaler Steine über 5 mm fördern und werden hierfür off-label eingesetzt. Bei Infektion, anhaltenden Schmerzen oder Funktionsverlust muss neu entschieden werden. Die anderen Mittel sind keine MET."
+              "text": "Kaliumcitrat als empirische Chemolyse",
+              "rationale": "Chemolyse setzt eine passende Steinart voraus; aus Lage und Größe folgt kein Harnsäurestein."
             },
             "B": {
-              "text": "Ein Antibiotikum trotz steriler Kultur",
-              "rationale": "Alpha-Blocker können den Abgang distaler Steine über 5 mm fördern und werden hierfür off-label eingesetzt. Bei Infektion, anhaltenden Schmerzen oder Funktionsverlust muss neu entschieden werden. Die anderen Mittel sind keine MET."
+              "text": "Nifedipin als bevorzugte Expulsionstherapie",
+              "rationale": "Für diese Indikation werden Alpha-Blocker empfohlen; Nifedipin ist keine bevorzugte MET-Erstwahl."
             },
             "C": {
-              "text": "Ein Schleifendiuretikum zur Zwangsexpulsion",
-              "rationale": "Alpha-Blocker können den Abgang distaler Steine über 5 mm fördern und werden hierfür off-label eingesetzt. Bei Infektion, anhaltenden Schmerzen oder Funktionsverlust muss neu entschieden werden. Die anderen Mittel sind keine MET."
+              "text": "Furosemid zur medikamentösen Austreibung",
+              "rationale": "Forcierte Diurese ist keine etablierte MET und kann den Druck bei Obstruktion erhöhen."
             },
             "D": {
-              "text": "Ein Alpha-Blocker als Off-label-Option",
-              "rationale": "Alpha-Blocker können den Abgang distaler Steine über 5 mm fördern und werden hierfür off-label eingesetzt. Bei Infektion, anhaltenden Schmerzen oder Funktionsverlust muss neu entschieden werden. Die anderen Mittel sind keine MET."
+              "text": "Tamsulosin als expulsive Off-label-Therapie",
+              "rationale": "Der Nutzen von Alpha-Blockern ist insbesondere bei distalen Steinen über 5 mm belegt; Aufklärung und Verlaufskontrolle sind nötig."
             }
           },
           "explanation": {
-            "core": "Alpha-Blocker können den Abgang distaler Steine über 5 mm fördern und werden hierfür off-label eingesetzt. Bei Infektion, anhaltenden Schmerzen oder Funktionsverlust muss neu entschieden werden. Die anderen Mittel sind keine MET.",
-            "teaching_point": "Alpha-Blocker können den Abgang distaler Steine über 5 mm fördern und werden hierfür off-label eingesetzt."
+            "core": "Der Nutzen von Alpha-Blockern ist insbesondere bei distalen Steinen über 5 mm belegt; Aufklärung und Verlaufskontrolle sind nötig.",
+            "teaching_point": "Der Nutzen von Alpha-Blockern ist insbesondere bei distalen Steinen über 5 mm belegt; Aufklärung und Verlaufskontrolle sind nötig."
           },
           "flag_note": null
         },
         "en": {
-          "vignette": "A distal 7-mm ureteric stone causes controlled pain with no infection and stable renal function. Observation with follow-up is agreed. Which additional treatment may be offered after counselling?",
-          "lead_in": "Which answer is most appropriate?",
+          "vignette": "A distal 7-mm ureteric stone causes controlled pain with no infection and stable renal function. Observation with follow-up is agreed.",
+          "lead_in": "Which additional treatment may be offered after counselling?",
           "options": {
             "A": {
-              "text": "BCG to dissolve the stone",
-              "rationale": "Alpha blockers can aid passage of distal stones over 5 mm and are used off-label for this purpose. Infection, persistent pain or declining function require reassessment. The other drugs are not MET."
+              "text": "Potassium citrate as empirical chemolysis",
+              "rationale": "Chemolysis requires suitable stone composition; size and location do not establish uric acid composition."
             },
             "B": {
-              "text": "An antibiotic despite sterile culture",
-              "rationale": "Alpha blockers can aid passage of distal stones over 5 mm and are used off-label for this purpose. Infection, persistent pain or declining function require reassessment. The other drugs are not MET."
+              "text": "Nifedipine as preferred expulsive therapy",
+              "rationale": "Alpha blockers are recommended for this indication; nifedipine is not the preferred first-line MET."
             },
             "C": {
-              "text": "A loop diuretic to force expulsion",
-              "rationale": "Alpha blockers can aid passage of distal stones over 5 mm and are used off-label for this purpose. Infection, persistent pain or declining function require reassessment. The other drugs are not MET."
+              "text": "Furosemide to promote stone expulsion",
+              "rationale": "Forced diuresis is not established MET and may raise pressure during obstruction."
             },
             "D": {
-              "text": "An alpha blocker as an off-label option",
-              "rationale": "Alpha blockers can aid passage of distal stones over 5 mm and are used off-label for this purpose. Infection, persistent pain or declining function require reassessment. The other drugs are not MET."
+              "text": "Tamsulosin as off-label expulsive therapy",
+              "rationale": "Benefit from alpha blockers is most evident for distal stones over 5 mm; counselling and follow-up are needed."
             }
           },
           "explanation": {
-            "core": "Alpha blockers can aid passage of distal stones over 5 mm and are used off-label for this purpose. Infection, persistent pain or declining function require reassessment. The other drugs are not MET.",
-            "teaching_point": "Alpha blockers can aid passage of distal stones over 5 mm and are used off-label for this purpose."
+            "core": "Benefit from alpha blockers is most evident for distal stones over 5 mm; counselling and follow-up are needed.",
+            "teaching_point": "Benefit from alpha blockers is most evident for distal stones over 5 mm; counselling and follow-up are needed."
           },
           "flag_note": null
         },
         "es": {
-          "vignette": "Cálculo ureteral distal de 7 mm, dolor controlado, sin infección y función renal estable. Se acuerda observación con controles. ¿Qué tratamiento adicional puede ofrecerse tras informar?",
-          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "vignette": "Cálculo ureteral distal de 7 mm, dolor controlado, sin infección y función renal estable. Se acuerda observación con controles.",
+          "lead_in": "¿Qué tratamiento adicional puede ofrecerse tras informar?",
           "options": {
             "A": {
-              "text": "BCG para disolver el cálculo",
-              "rationale": "Los alfabloqueantes pueden facilitar la expulsión de cálculos distales mayores de 5 mm, fuera de ficha técnica. Infección, dolor persistente o deterioro renal exigen reevaluar. Los otros fármacos no son terapia expulsiva."
+              "text": "Citrato potásico como quimiólisis empírica",
+              "rationale": "La quimiólisis requiere composición adecuada; tamaño y localización no demuestran ácido úrico."
             },
             "B": {
-              "text": "Antibiótico pese a cultivo estéril",
-              "rationale": "Los alfabloqueantes pueden facilitar la expulsión de cálculos distales mayores de 5 mm, fuera de ficha técnica. Infección, dolor persistente o deterioro renal exigen reevaluar. Los otros fármacos no son terapia expulsiva."
+              "text": "Nifedipino como terapia expulsiva preferida",
+              "rationale": "Se recomiendan alfabloqueantes en esta indicación; nifedipino no es primera opción expulsiva preferida."
             },
             "C": {
-              "text": "Diurético de asa para forzar expulsión",
-              "rationale": "Los alfabloqueantes pueden facilitar la expulsión de cálculos distales mayores de 5 mm, fuera de ficha técnica. Infección, dolor persistente o deterioro renal exigen reevaluar. Los otros fármacos no son terapia expulsiva."
+              "text": "Furosemida para favorecer expulsión",
+              "rationale": "La diuresis forzada no es terapia expulsiva establecida y puede elevar presión con obstrucción."
             },
             "D": {
-              "text": "Un alfabloqueante fuera de ficha técnica",
-              "rationale": "Los alfabloqueantes pueden facilitar la expulsión de cálculos distales mayores de 5 mm, fuera de ficha técnica. Infección, dolor persistente o deterioro renal exigen reevaluar. Los otros fármacos no son terapia expulsiva."
+              "text": "Tamsulosina como terapia expulsiva fuera de ficha",
+              "rationale": "El beneficio de alfabloqueantes destaca en cálculos distales mayores de 5 mm; requiere información y controles."
             }
           },
           "explanation": {
-            "core": "Los alfabloqueantes pueden facilitar la expulsión de cálculos distales mayores de 5 mm, fuera de ficha técnica. Infección, dolor persistente o deterioro renal exigen reevaluar. Los otros fármacos no son terapia expulsiva.",
-            "teaching_point": "Los alfabloqueantes pueden facilitar la expulsión de cálculos distales mayores de 5 mm, fuera de ficha técnica."
+            "core": "El beneficio de alfabloqueantes destaca en cálculos distales mayores de 5 mm; requiere información y controles.",
+            "teaching_point": "El beneficio de alfabloqueantes destaca en cálculos distales mayores de 5 mm; requiere información y controles."
           },
           "flag_note": null
         }
@@ -1031,7 +1043,7 @@
     },
     {
       "id": "uro-lit-00008",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "urolithiasis",
@@ -1081,90 +1093,91 @@
         "last_reviewed": null,
         "expires": "2027-03-11",
         "editorial_review": {
-          "date": "2026-09-11",
-          "method": "Original trilingual cases checked against EAU online chapters",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
-          "vignette": "Ein nichtobstruierender Harnsäurestein soll medikamentös aufgelöst werden. Welches Prinzip ist dafür entscheidend?",
-          "lead_in": "Welche Antwort trifft am besten zu?",
+          "vignette": "Ein nichtobstruierender Harnsäurestein soll medikamentös aufgelöst werden.",
+          "lead_in": "Welches Prinzip ist dafür entscheidend?",
           "options": {
             "A": {
-              "text": "Kontrollierte Alkalisierung des Urins",
-              "rationale": "Harnsäuresteine können durch kontrollierte Urinalkalisierung aufgelöst werden. Urin-pH und Steinverlauf werden überwacht; zu hoher pH begünstigt Calciumphosphat. Ansäuerung, Antibiotika und Flüssigkeitsmangel bewirken keine geeignete Chemolyse."
+              "text": "Urinalkalisierung mit pH-Selbstkontrolle",
+              "rationale": "Harnsäure wird in alkalischem Urin besser löslich; die Dosis wird anhand des pH und des Verlaufs angepasst."
             },
             "B": {
-              "text": "Gezielte Ansäuerung des Urins",
-              "rationale": "Harnsäuresteine können durch kontrollierte Urinalkalisierung aufgelöst werden. Urin-pH und Steinverlauf werden überwacht; zu hoher pH begünstigt Calciumphosphat. Ansäuerung, Antibiotika und Flüssigkeitsmangel bewirken keine geeignete Chemolyse."
+              "text": "Urinansäuerung mit pH-Selbstkontrolle",
+              "rationale": "Saurer Urin begünstigt die Ausfällung von Harnsäure statt deren Auflösung."
             },
             "C": {
-              "text": "Dauerantibiotika ohne Infektion",
-              "rationale": "Harnsäuresteine können durch kontrollierte Urinalkalisierung aufgelöst werden. Urin-pH und Steinverlauf werden überwacht; zu hoher pH begünstigt Calciumphosphat. Ansäuerung, Antibiotika und Flüssigkeitsmangel bewirken keine geeignete Chemolyse."
+              "text": "Allopurinol ohne Anpassung des Urin-pH",
+              "rationale": "Allopurinol kann bei Hyperurikosurie präventiv sinnvoll sein, ersetzt aber nicht die pH-abhängige Chemolyse."
             },
             "D": {
-              "text": "Flüssigkeitsrestriktion bis zur Auflösung",
-              "rationale": "Harnsäuresteine können durch kontrollierte Urinalkalisierung aufgelöst werden. Urin-pH und Steinverlauf werden überwacht; zu hoher pH begünstigt Calciumphosphat. Ansäuerung, Antibiotika und Flüssigkeitsmangel bewirken keine geeignete Chemolyse."
+              "text": "Thiazidtherapie ohne Anpassung des Urin-pH",
+              "rationale": "Thiazide richten sich gegen Hyperkalziurie, nicht gegen die Löslichkeit von Harnsäuresteinen."
             }
           },
           "explanation": {
-            "core": "Harnsäuresteine können durch kontrollierte Urinalkalisierung aufgelöst werden. Urin-pH und Steinverlauf werden überwacht; zu hoher pH begünstigt Calciumphosphat. Ansäuerung, Antibiotika und Flüssigkeitsmangel bewirken keine geeignete Chemolyse.",
-            "teaching_point": "Harnsäuresteine können durch kontrollierte Urinalkalisierung aufgelöst werden."
+            "core": "Harnsäure wird in alkalischem Urin besser löslich; die Dosis wird anhand des pH und des Verlaufs angepasst.",
+            "teaching_point": "Harnsäure wird in alkalischem Urin besser löslich; die Dosis wird anhand des pH und des Verlaufs angepasst."
           },
           "flag_note": null
         },
         "en": {
-          "vignette": "A non-obstructing uric acid stone is to undergo medical dissolution. Which principle is essential?",
-          "lead_in": "Which answer is most appropriate?",
+          "vignette": "A non-obstructing uric acid stone is to undergo medical dissolution.",
+          "lead_in": "Which principle is essential?",
           "options": {
             "A": {
-              "text": "Monitored urinary alkalinisation",
-              "rationale": "Uric acid stones can dissolve with monitored urinary alkalinisation. Urine pH and stone response are followed; excessive pH favours calcium phosphate. Acidification, antibiotics and dehydration are not appropriate chemolysis."
+              "text": "Urinary alkalinisation with pH self-monitoring",
+              "rationale": "Uric acid is more soluble in alkaline urine; dosing is adjusted using pH and follow-up."
             },
             "B": {
-              "text": "Deliberate urinary acidification",
-              "rationale": "Uric acid stones can dissolve with monitored urinary alkalinisation. Urine pH and stone response are followed; excessive pH favours calcium phosphate. Acidification, antibiotics and dehydration are not appropriate chemolysis."
+              "text": "Urinary acidification with pH self-monitoring",
+              "rationale": "Acidic urine favours uric acid precipitation rather than dissolution."
             },
             "C": {
-              "text": "Long-term antibiotics without infection",
-              "rationale": "Uric acid stones can dissolve with monitored urinary alkalinisation. Urine pH and stone response are followed; excessive pH favours calcium phosphate. Acidification, antibiotics and dehydration are not appropriate chemolysis."
+              "text": "Allopurinol without modifying urine pH",
+              "rationale": "Allopurinol may aid prevention in hyperuricosuria but does not replace pH-dependent chemolysis."
             },
             "D": {
-              "text": "Fluid restriction until dissolution",
-              "rationale": "Uric acid stones can dissolve with monitored urinary alkalinisation. Urine pH and stone response are followed; excessive pH favours calcium phosphate. Acidification, antibiotics and dehydration are not appropriate chemolysis."
+              "text": "Thiazide therapy without modifying urine pH",
+              "rationale": "Thiazides target hypercalciuria, not the solubility of uric acid stones."
             }
           },
           "explanation": {
-            "core": "Uric acid stones can dissolve with monitored urinary alkalinisation. Urine pH and stone response are followed; excessive pH favours calcium phosphate. Acidification, antibiotics and dehydration are not appropriate chemolysis.",
-            "teaching_point": "Uric acid stones can dissolve with monitored urinary alkalinisation."
+            "core": "Uric acid is more soluble in alkaline urine; dosing is adjusted using pH and follow-up.",
+            "teaching_point": "Uric acid is more soluble in alkaline urine; dosing is adjusted using pH and follow-up."
           },
           "flag_note": null
         },
         "es": {
-          "vignette": "Se plantea disolución médica de un cálculo de ácido úrico no obstructivo. ¿Qué principio es esencial?",
-          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "vignette": "Se plantea disolución médica de un cálculo de ácido úrico no obstructivo.",
+          "lead_in": "¿Qué principio es esencial?",
           "options": {
             "A": {
-              "text": "Alcalinización urinaria controlada",
-              "rationale": "Los cálculos de ácido úrico pueden disolverse mediante alcalinización controlada. Se vigilan pH y respuesta; un pH excesivo favorece fosfato cálcico. Acidificar, dar antibióticos o deshidratar no constituye quimiólisis adecuada."
+              "text": "Alcalinización urinaria con autocontrol del pH",
+              "rationale": "El ácido úrico es más soluble en orina alcalina; se ajusta dosis según pH y evolución."
             },
             "B": {
-              "text": "Acidificación deliberada de la orina",
-              "rationale": "Los cálculos de ácido úrico pueden disolverse mediante alcalinización controlada. Se vigilan pH y respuesta; un pH excesivo favorece fosfato cálcico. Acidificar, dar antibióticos o deshidratar no constituye quimiólisis adecuada."
+              "text": "Acidificación urinaria con autocontrol del pH",
+              "rationale": "La orina ácida favorece precipitación de ácido úrico en vez de disolverlo."
             },
             "C": {
-              "text": "Antibióticos prolongados sin infección",
-              "rationale": "Los cálculos de ácido úrico pueden disolverse mediante alcalinización controlada. Se vigilan pH y respuesta; un pH excesivo favorece fosfato cálcico. Acidificar, dar antibióticos o deshidratar no constituye quimiólisis adecuada."
+              "text": "Alopurinol sin modificar el pH urinario",
+              "rationale": "Alopurinol puede ayudar a prevenir con hiperuricosuria, pero no sustituye quimiólisis dependiente de pH."
             },
             "D": {
-              "text": "Restringir líquidos hasta disolverlo",
-              "rationale": "Los cálculos de ácido úrico pueden disolverse mediante alcalinización controlada. Se vigilan pH y respuesta; un pH excesivo favorece fosfato cálcico. Acidificar, dar antibióticos o deshidratar no constituye quimiólisis adecuada."
+              "text": "Tiazidas sin modificar el pH urinario",
+              "rationale": "Las tiazidas tratan hipercalciuria, no la solubilidad de cálculos de ácido úrico."
             }
           },
           "explanation": {
-            "core": "Los cálculos de ácido úrico pueden disolverse mediante alcalinización controlada. Se vigilan pH y respuesta; un pH excesivo favorece fosfato cálcico. Acidificar, dar antibióticos o deshidratar no constituye quimiólisis adecuada.",
-            "teaching_point": "Los cálculos de ácido úrico pueden disolverse mediante alcalinización controlada."
+            "core": "El ácido úrico es más soluble en orina alcalina; se ajusta dosis según pH y evolución.",
+            "teaching_point": "El ácido úrico es más soluble en orina alcalina; se ajusta dosis según pH y evolución."
           },
           "flag_note": null
         }
@@ -1172,7 +1185,7 @@
     },
     {
       "id": "uro-lit-00009",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "urolithiasis",
@@ -1222,90 +1235,91 @@
         "last_reviewed": null,
         "expires": "2027-03-11",
         "editorial_review": {
-          "date": "2026-09-11",
-          "method": "Original trilingual cases checked against EAU online chapters",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
-          "vignette": "Ein zufällig entdeckter 4-mm-Kelchstein ist asymptomatisch, nichtobstruierend und im Verlauf stabil. Keine Infektion, verlässliche Kontrollen. Welche Strategie ist vertretbar?",
-          "lead_in": "Welche Antwort trifft am besten zu?",
+          "vignette": "Ein zufällig entdeckter 4-mm-Kelchstein ist asymptomatisch, nichtobstruierend und im Verlauf stabil. Keine Infektion, verlässliche Kontrollen.",
+          "lead_in": "Welche Strategie vermeidet derzeit einen nicht zwingend erforderlichen Eingriff?",
           "options": {
             "A": {
-              "text": "Dauerhafte Entlassung ohne Verlaufskontrolle",
-              "rationale": "Bei ausgewählten kleinen asymptomatischen Nierensteinen ist Beobachtung mit vereinbarten Kontrollen möglich. Wachstum, Symptome, Obstruktion oder Infektion können eine Intervention begründen; völliger Kontrollverzicht ist keine aktive Überwachung."
+              "text": "Primäre flexible Ureterorenoskopie",
+              "rationale": "Eine Intervention kann bei anderen Risiken oder Patientenpräferenz sinnvoll sein, ist in dieser Konstellation aber nicht zwingend."
             },
             "B": {
-              "text": "Aktive Überwachung nach gemeinsamer Entscheidung",
-              "rationale": "Bei ausgewählten kleinen asymptomatischen Nierensteinen ist Beobachtung mit vereinbarten Kontrollen möglich. Wachstum, Symptome, Obstruktion oder Infektion können eine Intervention begründen; völliger Kontrollverzicht ist keine aktive Überwachung."
+              "text": "Überwachung mit vereinbarter Bildgebung",
+              "rationale": "Bei einem kleinen, stabilen, asymptomatischen Kelchstein ist Beobachtung nach Aufklärung vertretbar; Wachstum oder Beschwerden ändern die Abwägung."
             },
             "C": {
-              "text": "Sofortige Nephrektomie ohne weitere Prüfung",
-              "rationale": "Bei ausgewählten kleinen asymptomatischen Nierensteinen ist Beobachtung mit vereinbarten Kontrollen möglich. Wachstum, Symptome, Obstruktion oder Infektion können eine Intervention begründen; völliger Kontrollverzicht ist keine aktive Überwachung."
+              "text": "Primäre Stoßwellenlithotripsie",
+              "rationale": "SWL ist eine mögliche aktive Behandlung, aber der stabile symptomlose Befund begründet keine automatische Interventionspflicht."
             },
             "D": {
-              "text": "Dauerantibiose trotz fehlender Infektion",
-              "rationale": "Bei ausgewählten kleinen asymptomatischen Nierensteinen ist Beobachtung mit vereinbarten Kontrollen möglich. Wachstum, Symptome, Obstruktion oder Infektion können eine Intervention begründen; völliger Kontrollverzicht ist keine aktive Überwachung."
+              "text": "Primäre perkutane Steinentfernung",
+              "rationale": "PCNL wäre für diese geringe Steinlast ohne weitere Indikation unverhältnismäßig invasiv."
             }
           },
           "explanation": {
-            "core": "Bei ausgewählten kleinen asymptomatischen Nierensteinen ist Beobachtung mit vereinbarten Kontrollen möglich. Wachstum, Symptome, Obstruktion oder Infektion können eine Intervention begründen; völliger Kontrollverzicht ist keine aktive Überwachung.",
-            "teaching_point": "Bei ausgewählten kleinen asymptomatischen Nierensteinen ist Beobachtung mit vereinbarten Kontrollen möglich."
+            "core": "Bei einem kleinen, stabilen, asymptomatischen Kelchstein ist Beobachtung nach Aufklärung vertretbar; Wachstum oder Beschwerden ändern die Abwägung.",
+            "teaching_point": "Bei einem kleinen, stabilen, asymptomatischen Kelchstein ist Beobachtung nach Aufklärung vertretbar; Wachstum oder Beschwerden ändern die Abwägung."
           },
           "flag_note": null
         },
         "en": {
-          "vignette": "An incidental 4-mm calyceal stone is asymptomatic, non-obstructing and stable over time. There is no infection and follow-up is reliable. Which strategy is reasonable?",
-          "lead_in": "Which answer is most appropriate?",
+          "vignette": "An incidental 4-mm calyceal stone is asymptomatic, non-obstructing and stable over time. There is no infection and follow-up is reliable.",
+          "lead_in": "Which strategy currently avoids an intervention that is not mandatory?",
           "options": {
             "A": {
-              "text": "Permanent discharge without follow-up",
-              "rationale": "Selected small asymptomatic renal stones can be observed with planned follow-up. Growth, symptoms, obstruction or infection may prompt intervention; abandoning follow-up is not active surveillance."
+              "text": "Primary flexible ureterorenoscopy",
+              "rationale": "Intervention may suit other risks or patient preference but is not mandatory in this setting."
             },
             "B": {
-              "text": "Active surveillance after shared decision-making",
-              "rationale": "Selected small asymptomatic renal stones can be observed with planned follow-up. Growth, symptoms, obstruction or infection may prompt intervention; abandoning follow-up is not active surveillance."
+              "text": "Surveillance with planned imaging",
+              "rationale": "Observation after counselling is reasonable for a small stable asymptomatic calyceal stone; growth or symptoms change the balance."
             },
             "C": {
-              "text": "Immediate nephrectomy without further assessment",
-              "rationale": "Selected small asymptomatic renal stones can be observed with planned follow-up. Growth, symptoms, obstruction or infection may prompt intervention; abandoning follow-up is not active surveillance."
+              "text": "Primary shock wave lithotripsy",
+              "rationale": "SWL is a possible active treatment, but a stable asymptomatic finding does not automatically require intervention."
             },
             "D": {
-              "text": "Long-term antibiotics without infection",
-              "rationale": "Selected small asymptomatic renal stones can be observed with planned follow-up. Growth, symptoms, obstruction or infection may prompt intervention; abandoning follow-up is not active surveillance."
+              "text": "Primary percutaneous stone removal",
+              "rationale": "PCNL would be disproportionately invasive for this small burden without another indication."
             }
           },
           "explanation": {
-            "core": "Selected small asymptomatic renal stones can be observed with planned follow-up. Growth, symptoms, obstruction or infection may prompt intervention; abandoning follow-up is not active surveillance.",
-            "teaching_point": "Selected small asymptomatic renal stones can be observed with planned follow-up."
+            "core": "Observation after counselling is reasonable for a small stable asymptomatic calyceal stone; growth or symptoms change the balance.",
+            "teaching_point": "Observation after counselling is reasonable for a small stable asymptomatic calyceal stone; growth or symptoms change the balance."
           },
           "flag_note": null
         },
         "es": {
-          "vignette": "Un cálculo calicial incidental de 4 mm es asintomático, no obstructivo y estable. No hay infección y los controles son fiables. ¿Qué estrategia es razonable?",
-          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "vignette": "Un cálculo calicial incidental de 4 mm es asintomático, no obstructivo y estable. No hay infección y los controles son fiables.",
+          "lead_in": "¿Qué estrategia evita por ahora una intervención que no es obligatoria?",
           "options": {
             "A": {
-              "text": "Alta definitiva sin seguimiento",
-              "rationale": "Se pueden observar cálculos renales pequeños asintomáticos seleccionados con controles previstos. Crecimiento, síntomas, obstrucción o infección pueden motivar intervención; abandonar controles no es vigilancia activa."
+              "text": "Ureterorrenoscopia flexible primaria",
+              "rationale": "Intervenir puede convenir por otros riesgos o preferencias, pero no es obligatorio aquí."
             },
             "B": {
-              "text": "Vigilancia activa mediante decisión compartida",
-              "rationale": "Se pueden observar cálculos renales pequeños asintomáticos seleccionados con controles previstos. Crecimiento, síntomas, obstrucción o infección pueden motivar intervención; abandonar controles no es vigilancia activa."
+              "text": "Vigilancia con imagen programada",
+              "rationale": "En un cálculo calicial pequeño, estable y asintomático cabe observar tras informar; crecimiento o síntomas cambian la valoración."
             },
             "C": {
-              "text": "Nefrectomía inmediata sin más valoración",
-              "rationale": "Se pueden observar cálculos renales pequeños asintomáticos seleccionados con controles previstos. Crecimiento, síntomas, obstrucción o infección pueden motivar intervención; abandonar controles no es vigilancia activa."
+              "text": "Litotricia primaria por ondas",
+              "rationale": "Las ondas son una opción activa, pero un hallazgo estable asintomático no obliga automáticamente a intervenir."
             },
             "D": {
-              "text": "Antibióticos prolongados sin infección",
-              "rationale": "Se pueden observar cálculos renales pequeños asintomáticos seleccionados con controles previstos. Crecimiento, síntomas, obstrucción o infección pueden motivar intervención; abandonar controles no es vigilancia activa."
+              "text": "Extracción percutánea primaria",
+              "rationale": "NLPC sería desproporcionadamente invasiva para esta carga pequeña sin otra indicación."
             }
           },
           "explanation": {
-            "core": "Se pueden observar cálculos renales pequeños asintomáticos seleccionados con controles previstos. Crecimiento, síntomas, obstrucción o infección pueden motivar intervención; abandonar controles no es vigilancia activa.",
-            "teaching_point": "Se pueden observar cálculos renales pequeños asintomáticos seleccionados con controles previstos."
+            "core": "En un cálculo calicial pequeño, estable y asintomático cabe observar tras informar; crecimiento o síntomas cambian la valoración.",
+            "teaching_point": "En un cálculo calicial pequeño, estable y asintomático cabe observar tras informar; crecimiento o síntomas cambian la valoración."
           },
           "flag_note": null
         }
@@ -1313,7 +1327,7 @@
     },
     {
       "id": "uro-lit-00010",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "urolithiasis",
@@ -1363,90 +1377,91 @@
         "last_reviewed": null,
         "expires": "2027-03-11",
         "editorial_review": {
-          "date": "2026-09-11",
-          "method": "Original trilingual cases checked against EAU online chapters",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
-          "vignette": "Nach dem ersten Steinabgang bringt ein Patient den geborgenen Stein mit. Welche Untersuchung ist zur Bestimmung der Zusammensetzung geeignet?",
-          "lead_in": "Welche Antwort trifft am besten zu?",
+          "vignette": "Nach dem ersten Steinabgang bringt ein Patient den geborgenen Stein mit.",
+          "lead_in": "Welche Untersuchung ist zur Bestimmung der Zusammensetzung geeignet?",
           "options": {
             "A": {
-              "text": "Nur makroskopische Farbbeurteilung",
-              "rationale": "Eine valide Steinanalyse mittels Infrarotspektroskopie oder Röntgendiffraktion ermöglicht eine gezielte Einordnung und Prävention. Farbe, Hämaturie und Kreatinin bestimmen die chemische Zusammensetzung nicht zuverlässig."
+              "text": "Nasschemische Analyse des geborgenen Steins",
+              "rationale": "Nasschemische Verfahren sind gegenüber den empfohlenen mineralogischen Methoden unzuverlässiger."
             },
             "B": {
-              "text": "Nur Messung des Serumkreatinins",
-              "rationale": "Eine valide Steinanalyse mittels Infrarotspektroskopie oder Röntgendiffraktion ermöglicht eine gezielte Einordnung und Prävention. Farbe, Hämaturie und Kreatinin bestimmen die chemische Zusammensetzung nicht zuverlässig."
+              "text": "CT-Dichtemessung statt Untersuchung des Steins",
+              "rationale": "Dichtewerte erlauben Hinweise, ersetzen bei verfügbarer Probe aber keine valide Steinanalyse."
             },
             "C": {
-              "text": "Infrarotspektroskopie oder Röntgendiffraktion",
-              "rationale": "Eine valide Steinanalyse mittels Infrarotspektroskopie oder Röntgendiffraktion ermöglicht eine gezielte Einordnung und Prävention. Farbe, Hämaturie und Kreatinin bestimmen die chemische Zusammensetzung nicht zuverlässig."
+              "text": "Infrarotspektroskopie des geborgenen Steins",
+              "rationale": "Sie identifiziert die mineralische Zusammensetzung; Röntgendiffraktion ist eine ebenfalls geeignete Methode."
             },
             "D": {
-              "text": "Nur Urinteststreifen auf Erythrozyten",
-              "rationale": "Eine valide Steinanalyse mittels Infrarotspektroskopie oder Röntgendiffraktion ermöglicht eine gezielte Einordnung und Prävention. Farbe, Hämaturie und Kreatinin bestimmen die chemische Zusammensetzung nicht zuverlässig."
+              "text": "24-Stunden-Urin statt Untersuchung des Steins",
+              "rationale": "Die metabolische Untersuchung ergänzt die Analyse, bestimmt aber nicht zuverlässig die Zusammensetzung dieses Steins."
             }
           },
           "explanation": {
-            "core": "Eine valide Steinanalyse mittels Infrarotspektroskopie oder Röntgendiffraktion ermöglicht eine gezielte Einordnung und Prävention. Farbe, Hämaturie und Kreatinin bestimmen die chemische Zusammensetzung nicht zuverlässig.",
-            "teaching_point": "Eine valide Steinanalyse mittels Infrarotspektroskopie oder Röntgendiffraktion ermöglicht eine gezielte Einordnung und Prävention."
+            "core": "Sie identifiziert die mineralische Zusammensetzung; Röntgendiffraktion ist eine ebenfalls geeignete Methode.",
+            "teaching_point": "Sie identifiziert die mineralische Zusammensetzung; Röntgendiffraktion ist eine ebenfalls geeignete Methode."
           },
           "flag_note": null
         },
         "en": {
-          "vignette": "After a first stone passage, a patient brings the retrieved stone. Which test appropriately determines composition?",
-          "lead_in": "Which answer is most appropriate?",
+          "vignette": "After a first stone passage, a patient brings the retrieved stone.",
+          "lead_in": "Which test appropriately determines composition?",
           "options": {
             "A": {
-              "text": "Visual colour assessment alone",
-              "rationale": "Valid analysis using infrared spectroscopy or X-ray diffraction supports classification and targeted prevention. Colour, haematuria and creatinine do not reliably identify chemical composition."
+              "text": "Wet chemical analysis of the retrieved stone",
+              "rationale": "Wet chemical methods are less reliable than the recommended mineralogical methods."
             },
             "B": {
-              "text": "Serum creatinine measurement alone",
-              "rationale": "Valid analysis using infrared spectroscopy or X-ray diffraction supports classification and targeted prevention. Colour, haematuria and creatinine do not reliably identify chemical composition."
+              "text": "CT density measurement instead of stone analysis",
+              "rationale": "Density provides clues but does not replace valid analysis when a specimen is available."
             },
             "C": {
-              "text": "Infrared spectroscopy or X-ray diffraction",
-              "rationale": "Valid analysis using infrared spectroscopy or X-ray diffraction supports classification and targeted prevention. Colour, haematuria and creatinine do not reliably identify chemical composition."
+              "text": "Infrared spectroscopy of the retrieved stone",
+              "rationale": "It identifies mineral composition; X-ray diffraction is another suitable method."
             },
             "D": {
-              "text": "Urine dipstick for erythrocytes alone",
-              "rationale": "Valid analysis using infrared spectroscopy or X-ray diffraction supports classification and targeted prevention. Colour, haematuria and creatinine do not reliably identify chemical composition."
+              "text": "24-hour urine testing instead of stone analysis",
+              "rationale": "Metabolic testing complements analysis but does not reliably establish this stone’s composition."
             }
           },
           "explanation": {
-            "core": "Valid analysis using infrared spectroscopy or X-ray diffraction supports classification and targeted prevention. Colour, haematuria and creatinine do not reliably identify chemical composition.",
-            "teaching_point": "Valid analysis using infrared spectroscopy or X-ray diffraction supports classification and targeted prevention."
+            "core": "It identifies mineral composition; X-ray diffraction is another suitable method.",
+            "teaching_point": "It identifies mineral composition; X-ray diffraction is another suitable method."
           },
           "flag_note": null
         },
         "es": {
-          "vignette": "Tras expulsar su primer cálculo, el paciente trae la muestra. ¿Qué prueba determina adecuadamente su composición?",
-          "lead_in": "¿Cuál es la respuesta más adecuada?",
+          "vignette": "Tras expulsar su primer cálculo, el paciente trae la muestra.",
+          "lead_in": "¿Qué prueba determina adecuadamente su composición?",
           "options": {
             "A": {
-              "text": "Solo valoración visual del color",
-              "rationale": "El análisis válido por infrarrojos o difracción de rayos X permite clasificar y orientar prevención. Color, hematuria y creatinina no identifican de forma fiable la composición química."
+              "text": "Análisis químico húmedo del cálculo recuperado",
+              "rationale": "Los métodos químicos húmedos son menos fiables que los mineralógicos recomendados."
             },
             "B": {
-              "text": "Solo medición de creatinina sérica",
-              "rationale": "El análisis válido por infrarrojos o difracción de rayos X permite clasificar y orientar prevención. Color, hematuria y creatinina no identifican de forma fiable la composición química."
+              "text": "Densidad por TC en lugar de analizar el cálculo",
+              "rationale": "La densidad orienta, pero no sustituye análisis válido cuando hay muestra."
             },
             "C": {
-              "text": "Espectroscopia infrarroja o difracción de rayos X",
-              "rationale": "El análisis válido por infrarrojos o difracción de rayos X permite clasificar y orientar prevención. Color, hematuria y creatinina no identifican de forma fiable la composición química."
+              "text": "Espectroscopia infrarroja del cálculo recuperado",
+              "rationale": "Identifica composición mineral; la difracción de rayos X es otro método adecuado."
             },
             "D": {
-              "text": "Solo tira urinaria para eritrocitos",
-              "rationale": "El análisis válido por infrarrojos o difracción de rayos X permite clasificar y orientar prevención. Color, hematuria y creatinina no identifican de forma fiable la composición química."
+              "text": "Orina de 24 horas en lugar de analizar el cálculo",
+              "rationale": "El estudio metabólico complementa el análisis, pero no establece fiablemente la composición de este cálculo."
             }
           },
           "explanation": {
-            "core": "El análisis válido por infrarrojos o difracción de rayos X permite clasificar y orientar prevención. Color, hematuria y creatinina no identifican de forma fiable la composición química.",
-            "teaching_point": "El análisis válido por infrarrojos o difracción de rayos X permite clasificar y orientar prevención."
+            "core": "Identifica composición mineral; la difracción de rayos X es otro método adecuado.",
+            "teaching_point": "Identifica composición mineral; la difracción de rayos X es otro método adecuado."
           },
           "flag_note": null
         }

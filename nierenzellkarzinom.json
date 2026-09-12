@@ -3,7 +3,7 @@
   "fragen": [
     {
       "id": "uro-rcc-00001",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "adjuvant",
@@ -57,7 +57,13 @@
         "reviewer": null,
         "created": "2026-09-05",
         "last_reviewed": "2026-09-05",
-        "expires": "2027-09-05"
+        "expires": "2027-09-05",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -77,7 +83,7 @@
               "rationale": "Die adjuvante Prüfung dieser Kombination verfehlte ihren primären Endpunkt."
             },
             "D": {
-              "text": "Adjuvantes Sunitinib 50 mg im Vier-Zwei-Schema",
+              "text": "Adjuvantes Sunitinib im 4/2-Schema",
               "rationale": "Die adjuvante Tyrosinkinasehemmung verbesserte das Gesamtüberleben nicht und ist in Europa dafür nicht zugelassen."
             }
           },
@@ -104,7 +110,7 @@
               "rationale": "The adjuvant trial of this combination missed its primary endpoint."
             },
             "D": {
-              "text": "Adjuvant sunitinib 50 mg on a four-two schedule",
+              "text": "Adjuvant sunitinib on a 4/2 schedule",
               "rationale": "Adjuvant tyrosine kinase inhibition did not improve overall survival and is not approved for this indication in Europe."
             }
           },
@@ -131,7 +137,7 @@
               "rationale": "El ensayo adyuvante de esta combinación no alcanzó su criterio de valoración principal."
             },
             "D": {
-              "text": "Adyuvante sunitinib 50 mg en pauta de cuatro semanas de tratamiento y dos de descanso",
+              "text": "Sunitinib adyuvante en pauta 4/2",
               "rationale": "La inhibición adyuvante de la tirosina quinasa no mejoró la supervivencia general y no está aprobada para esta indicación en Europa."
             }
           },
@@ -214,10 +220,11 @@
         "last_reviewed": "2026-09-05",
         "expires": "2027-09-05",
         "editorial_review": {
-          "date": "2026-09-10",
-          "method": "AI-assisted source cross-check",
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
-        }
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -362,7 +369,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -506,7 +519,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -654,7 +673,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -749,7 +774,7 @@
     },
     {
       "id": "uro-rcc-00006",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "sarkomatoide Differenzierung",
@@ -798,7 +823,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -806,19 +837,19 @@
           "lead_in": "Wie beeinflusst der sarkomatoide Anteil die Therapiewahl?",
           "options": {
             "A": {
-              "text": "Er spricht für eine checkpointbasierte Kombination",
+              "text": "Er stützt eine checkpointbasierte Kombination",
               "rationale": "Sarkomatoide Tumoren zeigen häufiger eine PD-L1-Expression und in Subgruppenanalysen hohe Ansprech- und Komplettremissionsraten unter Immunkombinationen. Sarkomatoide Tumoren exprimieren häufiger PD-L1 und zeigen in Subgruppenanalysen hohe Ansprech- und Komplettremissionsraten unter Immunkombinationen, obwohl sie prognostisch ungünstig sind."
             },
             "B": {
-              "text": "Er spricht gegen jede Form der Immuntherapie",
+              "text": "Er spricht gegen eine Checkpointtherapie",
               "rationale": "Das Gegenteil ist der Fall; gerade dieser Anteil ist ein Argument für die Immunkombination."
             },
             "C": {
-              "text": "Er macht platinbasierte Chemotherapie zur Erstlinie",
+              "text": "Er stützt eine platinbasierte Chemotherapie",
               "rationale": "Sarkomatoid ist kein eigener Subtyp, sondern eine Entdifferenzierung; die Chemotherapie ist dem Sammelrohr- und medullären Karzinom vorbehalten."
             },
             "D": {
-              "text": "Er ist prognostisch relevant, aber ohne Therapiefolge",
+              "text": "Er ist ohne Bedeutung für die Therapiewahl",
               "rationale": "Er beeinflusst beides, Prognose und Auswahl, und ist deshalb im Befund ausdrücklich zu nennen."
             }
           },
@@ -833,19 +864,19 @@
           "lead_in": "How does the sarcomatoid component influence treatment choice?",
           "options": {
             "A": {
-              "text": "It argues for a checkpoint-based combination",
+              "text": "It supports a checkpoint-based combination",
               "rationale": "Sarcomatoid tumours more often express PD-L1 and show high response and complete remission rates with immune combinations in subgroup analyses. Sarcomatoid tumours more often express PD-L1 and show high response and complete remission rates with immune combinations in subgroup analyses, despite their poor prognosis."
             },
             "B": {
-              "text": "It argues against immunotherapy of any kind",
+              "text": "It argues against checkpoint therapy",
               "rationale": "The opposite is true; this component is precisely an argument for immune combination therapy."
             },
             "C": {
-              "text": "It makes platinum chemotherapy the first-line choice",
+              "text": "It supports platinum-based chemotherapy",
               "rationale": "Sarcomatoid is not a separate subtype but a dedifferentiation; chemotherapy is reserved for collecting duct and medullary carcinoma."
             },
             "D": {
-              "text": "It is prognostic but has no bearing on drug choice",
+              "text": "It has no relevance to treatment selection",
               "rationale": "It influences both prognosis and selection and therefore belongs explicitly in the report."
             }
           },
@@ -860,19 +891,19 @@
           "lead_in": "¿Cómo influye el componente sarcomatoide en la elección del tratamiento?",
           "options": {
             "A": {
-              "text": "Favorece una combinación de inmunoterapia",
+              "text": "Apoya una combinación basada en inmunoterapia",
               "rationale": "Los tumores sarcomatoides expresan con mayor frecuencia PD-L1 y muestran altas tasas de respuesta y remisión completa con combinaciones inmunes en análisis de subgrupos. Los tumores sarcomatoides expresan con mayor frecuencia PD-L1 y muestran altas tasas de respuesta y remisión completa con combinaciones inmunes en análisis de subgrupos, a pesar de su mal pronóstico."
             },
             "B": {
-              "text": "Argumenta en contra de la inmunoterapia de cualquier tipo.",
+              "text": "Desaconseja el tratamiento con inmunoterapia",
               "rationale": "Lo contrario es cierto; este componente es precisamente un argumento a favor de la terapia inmunitaria combinada."
             },
             "C": {
-              "text": "Hace que la quimioterapia con platino sea la opción de primera línea",
+              "text": "Apoya una quimioterapia basada en platino",
               "rationale": "El sarcomatoide no es un subtipo separado sino una desdiferenciación; la quimioterapia se reserva para el carcinoma medular y del conducto colector."
             },
             "D": {
-              "text": "Tiene valor pronóstico pero no influye en la elección del fármaco.",
+              "text": "Carece de relevancia para elegir tratamiento",
               "rationale": "Influye tanto en el pronóstico como en la selección y, por lo tanto, pertenece explícitamente al informe."
             }
           },
@@ -893,7 +924,7 @@
     },
     {
       "id": "uro-rcc-00007",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "chromophobes Karzinom",
@@ -904,7 +935,7 @@
         "domain": "nierenzellkarzinom"
       },
       "type": "single_best_answer",
-      "difficulty_estimated": 4,
+      "difficulty_estimated": 3,
       "options": [
         {
           "key": "A",
@@ -924,16 +955,17 @@
         }
       ],
       "evidence": {
-        "level": "IIB",
-        "certainty": "etabliert",
-        "flag": false
+        "certainty": "kontrovers",
+        "flag": true
       },
       "sources": [
         {
           "type": "leitlinie",
           "code": "EAU",
-          "title": "EAU Guidelines on Renal Cell Carcinoma",
-          "year": 2026
+          "title": "EAU Guidelines on Renal Cell Carcinoma, systemic therapy in chromophobe and unclassified RCC",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/disease-management",
+          "accessed": "2026-09-12"
         }
       ],
       "review": {
@@ -941,89 +973,95 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
           "vignette": "Eine 49-jährige Patientin wurde vor drei Jahren wegen eines chromophoben Nierenzellkarzinoms nephrektomiert. Jetzt zeigen sich zwei langsam wachsende Lungenmetastasen. Sie ist beschwerdefrei, ECOG 0.",
-          "lead_in": "Welche Aussage trifft zu?",
+          "lead_in": "Welche Einordnung des chromophoben Subtyps ist für die Systemtherapieplanung zutreffend?",
           "options": {
             "A": {
-              "text": "Besonders empfindlich gegenüber dualer Checkpointinhibition",
-              "rationale": "Die Ansprechraten sind bei diesem Subtyp niedriger als beim klarzelligen Karzinom."
+              "text": "Klarzellstudien belegen identische IO-Wirksamkeit",
+              "rationale": "Eine histologische Subgruppe muss in den relevanten Studien vertreten sein; identische Wirkung ist aus Klarzelldaten nicht ableitbar."
             },
             "B": {
-              "text": "Günstigere Prognose, aber schlechteres Ansprechen auf IO",
-              "rationale": "Der Subtyp verhält sich indolenter, und die Immuntherapie ist hier weniger wirksam. Bei langsamer Progression ohne Symptome bleibt Zeit für eine Verlaufsbeobachtung. Bei geringer Tumorlast ohne Symptome ist deshalb eine zeitlich begrenzte aktive Überwachung vertretbar, bevor VEGF-gerichtet behandelt wird."
+              "text": "Subtypspezifische Daten statt pauschaler IO-Ausschluss",
+              "rationale": "Aktuelle Empfehlungen enthalten auch IO-basierte Optionen für nichtklarzellige RCC. Kleine Subgruppen und heterogene Studien erlauben aber keine undifferenzierte Übertragung aller Klarzelldaten."
             },
             "C": {
-              "text": "Nicht von Onkozytomen zu unterscheiden und gleich behandelt",
-              "rationale": "Das Onkozytom ist gutartig; die Abgrenzung erfolgt histologisch und ist therapeutisch entscheidend."
+              "text": "Onkozytomdaten rechtfertigen onkologischen Therapieverzicht",
+              "rationale": "Das gutartige Onkozytom ist keine Vorlage für die Behandlung eines metastasierten chromophoben Karzinoms."
             },
             "D": {
-              "text": "Platinbasierte Chemotherapie ist hier der Standard",
-              "rationale": "Sie gilt für Sammelrohr- und medulläres Karzinom, nicht für den chromophoben Subtyp."
+              "text": "Sammelrohrdaten begründen Platin als Routineerstlinie",
+              "rationale": "Chromophobes und Sammelrohrkarzinom sind unterschiedliche Entitäten; das platinbasierte Konzept wird nicht automatisch übertragen."
             }
           },
           "explanation": {
-            "core": "Das chromophobe Karzinom entstammt wie das Onkozytom den Schaltzellen des Sammelrohrsystems, verhält sich indolenter als das klarzellige Karzinom und metastasiert seltener. Wenn es metastasiert, ist das Ansprechen auf Checkpointinhibitoren schwächer, sodass VEGF-gerichtete Substanzen und die zeitliche Verlaufsbeobachtung an Bedeutung gewinnen.",
-            "teaching_point": "Günstige Prognose bedeutet hier auch: weniger Ansprechen auf Immuntherapie."
+            "core": "Aktuelle Empfehlungen enthalten auch IO-basierte Optionen für nichtklarzellige RCC. Kleine Subgruppen und heterogene Studien erlauben aber keine undifferenzierte Übertragung aller Klarzelldaten.",
+            "teaching_point": "Aktuelle Empfehlungen enthalten auch IO-basierte Optionen für nichtklarzellige RCC."
           },
-          "flag_note": null
+          "flag_note": "Die Evidenz beim chromophoben Subtyp ist begrenzt und entwickelt sich; Therapieentscheidung im erfahrenen Tumorboard."
         },
         "en": {
           "vignette": "A 49-year-old woman underwent nephrectomy three years ago for chromophobe renal cell carcinoma. Two slowly growing pulmonary metastases have now appeared. She is asymptomatic, ECOG 0.",
-          "lead_in": "Which statement is correct?",
+          "lead_in": "Which assessment of the chromophobe subtype is relevant to systemic treatment planning?",
           "options": {
             "A": {
-              "text": "Particularly sensitive to dual checkpoint inhibition",
-              "rationale": "Response rates in this subtype are lower than in clear cell carcinoma."
+              "text": "Clear-cell trials establish identical IO efficacy",
+              "rationale": "A histological subgroup must be represented in relevant trials; identical benefit cannot be inferred from clear-cell data."
             },
             "B": {
-              "text": "More favourable prognosis but poorer response to IO",
-              "rationale": "The subtype behaves more indolently and immunotherapy is less effective here. With slow, asymptomatic progression there is time to observe. With low tumour burden and no symptoms a limited period of active surveillance is therefore defensible before VEGF-directed treatment."
+              "text": "Subtype-specific evidence, not blanket IO exclusion",
+              "rationale": "Current recommendations include IO-based options for non-clear-cell RCC. Small subgroups and heterogeneous studies do not permit indiscriminate transfer of all clear-cell evidence."
             },
             "C": {
-              "text": "Indistinguishable from oncocytoma and treated the same",
-              "rationale": "Oncocytoma is benign; the distinction is histological and therapeutically decisive."
+              "text": "Oncocytoma data justify withholding cancer treatment",
+              "rationale": "Benign oncocytoma is not a model for treating metastatic chromophobe carcinoma."
             },
             "D": {
-              "text": "Platinum-based chemotherapy is the standard here",
-              "rationale": "That applies to collecting duct and medullary carcinoma, not to the chromophobe subtype."
+              "text": "Collecting-duct data establish platinum as routine first-line",
+              "rationale": "Chromophobe and collecting-duct carcinoma are different entities; the platinum-based strategy is not automatically transferable."
             }
           },
           "explanation": {
-            "core": "Like oncocytoma, chromophobe carcinoma arises from the intercalated cells of the collecting system, behaves more indolently than clear cell carcinoma and metastasises less often. When it does metastasise, response to checkpoint inhibitors is weaker, so VEGF-directed agents and a period of observation gain importance.",
-            "teaching_point": "A favourable prognosis here also means less response to immunotherapy."
+            "core": "Current recommendations include IO-based options for non-clear-cell RCC. Small subgroups and heterogeneous studies do not permit indiscriminate transfer of all clear-cell evidence.",
+            "teaching_point": "Current recommendations include IO-based options for non-clear-cell RCC."
           },
-          "flag_note": null
+          "flag_note": "Evidence for the chromophobe subtype is limited and evolving; treatment requires an experienced multidisciplinary team."
         },
         "es": {
           "vignette": "Una mujer de 49 años fue sometida a nefrectomía hace tres años por un carcinoma de células renales cromófobos. Ahora han aparecido dos metástasis pulmonares de crecimiento lento. Se encuentra asintomática, ECOG 0.",
-          "lead_in": "¿Qué afirmación es correcta?",
+          "lead_in": "¿Qué valoración del subtipo cromófobo es pertinente al planificar tratamiento sistémico?",
           "options": {
             "A": {
-              "text": "Particularmente sensible a la doble inhibición de puntos de control inmunitario",
-              "rationale": "Las tasas de respuesta en este subtipo son más bajas que en el carcinoma de células claras."
+              "text": "Ensayos de células claras demuestran igual eficacia IO",
+              "rationale": "El subtipo debe estar representado en ensayos relevantes; no se infiere beneficio idéntico de datos de células claras."
             },
             "B": {
-              "text": "Pronóstico más favorable pero peor respuesta a la IO",
-              "rationale": "El subtipo se comporta de forma más indolente y la inmunoterapia es menos eficaz en este caso. Con una progresión lenta y asintomática, hay tiempo para observar. Por lo tanto, con una carga tumoral baja y sin síntomas, es defendible un período limitado de vigilancia activa antes del tratamiento dirigido por VEGF."
+              "text": "Evidencia del subtipo, no excluir inmunoterapia en bloque",
+              "rationale": "Las recomendaciones actuales incluyen opciones con inmunoterapia en RCC no claro. Subgrupos pequeños y estudios heterogéneos impiden extrapolar sin matices toda la evidencia de células claras."
             },
             "C": {
-              "text": "Indistinguible del oncocitoma y tratado igual",
-              "rationale": "El oncocitoma es benigno; la distinción es histológica y terapéuticamente decisiva."
+              "text": "Datos de oncocitoma justifican omitir terapia oncológica",
+              "rationale": "El oncocitoma benigno no sirve de modelo para tratar carcinoma cromófobo metastásico."
             },
             "D": {
-              "text": "La quimioterapia basada en platino es el estándar aquí",
-              "rationale": "Esto se aplica al carcinoma medular y del conducto colector, no al subtipo cromófobo."
+              "text": "Datos de conductos colectores establecen platino inicial",
+              "rationale": "Cromófobo y carcinoma de conductos colectores son entidades distintas; no se transfiere automáticamente el enfoque con platino."
             }
           },
           "explanation": {
-            "core": "Al igual que el oncocitoma, el carcinoma cromófobo surge de las células intercaladas del sistema colector, se comporta de manera más indolente que el carcinoma de células claras y metastatiza con menos frecuencia. Cuando hace metástasis, la respuesta a los inhibidores de los puntos de control es más débil, por lo que los agentes dirigidos por VEGF y un período de observación ganan importancia.",
-            "teaching_point": "Un pronóstico favorable aquí también significa una menor respuesta a la inmunoterapia."
+            "core": "Las recomendaciones actuales incluyen opciones con inmunoterapia en RCC no claro. Subgrupos pequeños y estudios heterogéneos impiden extrapolar sin matices toda la evidencia de células claras.",
+            "teaching_point": "Las recomendaciones actuales incluyen opciones con inmunoterapia en RCC no claro."
           },
-          "flag_note": null
+          "flag_note": "La evidencia del subtipo cromófobo es limitada y evoluciona; decidir en comité experimentado."
         }
       },
       "translation": {
@@ -1085,7 +1123,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1180,7 +1224,7 @@
     },
     {
       "id": "uro-rcc-00009",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Angiomyolipom",
@@ -1229,7 +1273,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1245,7 +1295,7 @@
               "rationale": "Der Fettanteil in der Bildgebung sichert die Diagnose; eine Biopsie ist entbehrlich und birgt Blutungsrisiken."
             },
             "C": {
-              "text": "Behandeln, da Größe und Wachstum das Blutungsrisiko erhöhen",
+              "text": "Nierenerhaltende Behandlung wegen Blutungsrisikos",
               "rationale": "Ab etwa vier Zentimetern steigt das Risiko einer Ruptur mit retroperitonealer Blutung. Bei tuberöser Sklerose wirkt der mTOR-Inhibitor auf alle Läsionen gleichzeitig. Bei tuberöser Sklerose wirkt ein mTOR-Inhibitor wie Everolimus auf alle Läsionen zugleich; bei akuter Blutung oder als organsparende Alternative kommt die selektive Angioembolisation infrage."
             },
             "D": {
@@ -1272,7 +1322,7 @@
               "rationale": "The fat component on imaging establishes the diagnosis; biopsy is unnecessary and carries bleeding risk."
             },
             "C": {
-              "text": "Treat, since size and growth raise the bleeding risk",
+              "text": "Nephron-sparing treatment for bleeding risk",
               "rationale": "Above roughly four centimetres the risk of rupture with retroperitoneal haemorrhage rises. In tuberous sclerosis an mTOR inhibitor acts on all lesions simultaneously. In tuberous sclerosis an mTOR inhibitor such as everolimus acts on all lesions at once; selective angioembolisation applies to acute bleeding or as a nephron-sparing alternative."
             },
             "D": {
@@ -1299,7 +1349,7 @@
               "rationale": "El componente graso en las imágenes establece el diagnóstico; la biopsia es innecesaria y conlleva riesgo de hemorragia."
             },
             "C": {
-              "text": "Trate, ya que el tamaño y el crecimiento aumentan el riesgo de hemorragia.",
+              "text": "Tratamiento conservador renal por riesgo hemorrágico",
               "rationale": "A partir de aproximadamente cuatro centímetros aumenta el riesgo de rotura con hemorragia retroperitoneal. En la esclerosis tuberosa, un inhibidor de mTOR actúa sobre todas las lesiones simultáneamente. En la esclerosis tuberosa, un inhibidor de mTOR como el everolimus actúa sobre todas las lesiones a la vez; La angioembolización selectiva se aplica en caso de hemorragia aguda o como alternativa para preservar las nefronas."
             },
             "D": {
@@ -1324,7 +1374,7 @@
     },
     {
       "id": "uro-rcc-00010",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "zystische Läsionen",
@@ -1373,7 +1423,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1393,7 +1449,7 @@
               "rationale": "Bosniak IIF beschreibt minimal komplexe Zysten ohne soliden kontrastierenden Anteil; genau dieser liegt hier aber vor."
             },
             "D": {
-              "text": "Bosniak IV; operative Behandlung, möglichst organerhaltend",
+              "text": "Bosniak IV; nierenerhaltende Operation anstreben",
               "rationale": "Ein solider kontrastierender Anteil definiert Bosniak IV mit sehr hoher Malignitätswahrscheinlichkeit. Die Behandlung folgt dem Vorgehen beim soliden Nierenzellkarzinom. Ein solider kontrastierender Anteil definiert Bosniak IV mit sehr hoher Malignitätswahrscheinlichkeit; das Vorgehen folgt dem soliden Nierenzellkarzinom."
             }
           },
@@ -1420,7 +1476,7 @@
               "rationale": "Bosniak IIF describes minimally complex cysts without a solid enhancing component, which is precisely what is present here."
             },
             "D": {
-              "text": "Bosniak IV; surgery, preferably nephron-sparing",
+              "text": "Bosniak IV; aim for nephron-sparing surgery",
               "rationale": "A solid enhancing component defines Bosniak IV with a very high probability of malignancy. Management follows that of solid renal cell carcinoma. A solid enhancing component defines Bosniak IV with a very high probability of malignancy; management follows that of solid renal cell carcinoma."
             }
           },
@@ -1447,7 +1503,7 @@
               "rationale": "Bosniak IIF describe quistes mínimamente complejos sin un componente sólido de realce, que es precisamente lo que está presente aquí."
             },
             "D": {
-              "text": "Bosniak IV; Cirugía, preferiblemente preservadora de nefronas.",
+              "text": "Bosniak IV; cirugía conservadora renal",
               "rationale": "Un sólido componente potenciador define a Bosniak IV con una probabilidad muy alta de malignidad. El tratamiento sigue el del carcinoma de células renales sólidas. Un sólido componente potenciador define a Bosniak IV con una probabilidad muy alta de malignidad; el tratamiento es similar al del carcinoma de células renales sólidas."
             }
           },
@@ -1516,7 +1572,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1660,7 +1722,13 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07"
+        "expires": "2028-09-07",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {

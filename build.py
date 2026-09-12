@@ -17,6 +17,7 @@ import json
 import sys
 from datetime import date, timedelta
 from pathlib import Path
+from quality import issues as quality_issues
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data" if (ROOT / 'data' / 'domains.json').exists() else ROOT
@@ -40,15 +41,7 @@ def load(path):
     return None
 
 
-GENERISCHE_FRAGEN = {
-    "Welche Antwort trifft am besten zu?",
-    "Which answer is most correct?",
-    "Was trifft zu?",
-    "Welche Aussage trifft zu?",
-}
-
-
-def check(q, slug, tags, languages, seen, today, soon, length_cue, longest_correct, coverage, itemform):
+def check(q, slug, tags, languages, seen, today, soon, length_cue, longest_correct, coverage):
     qid = q.get("id") or "(ohne id)"
 
     def bad(msg):
@@ -133,22 +126,6 @@ def check(q, slug, tags, languages, seen, today, soon, length_cue, longest_corre
             bad(f"[{lc}] unbekannte Optionsschluessel: {', '.join(extra)}")
         if ev.get("flag") is True and not body.get("flag_note"):
             bad(f"[{lc}] flag: true ohne flag_note")
-        # --- Itemqualitaet: Aufbau der Frage ---
-        if lc == languages[0]:
-            if (body.get("lead_in") or "").strip() in GENERISCHE_FRAGEN:
-                warnings.append(f"{qid}: generische Fragestellung - die Frage gehoert in lead_in, "
-                                f"nicht in die Vignette")
-                itemform.append(qid)
-            if (body.get("vignette") or "").rstrip().endswith("?"):
-                warnings.append(f"{qid}: die Vignette endet mit einem Fragezeichen - "
-                                f"Fall und Fragestellung sind vermischt")
-                itemform.append(qid)
-            begruendungen = {(texts.get(k) or {}).get("rationale") for k in keys}
-            if len(begruendungen) == 1 and len(keys) > 1:
-                warnings.append(f"{qid}: alle {len(keys)} Optionen teilen dieselbe Begruendung - "
-                                f"der Lerneffekt der Einzelbegruendung entfaellt")
-                itemform.append(qid)
-
         lengths = {k: len((texts.get(k) or {}).get("text") or "") for k in keys}
         ck = correct[0].get("key") if correct else None
         if lc == languages[0] and ck in lengths and len(lengths) > 1:
@@ -162,11 +139,6 @@ def check(q, slug, tags, languages, seen, today, soon, length_cue, longest_corre
                 warnings.append(
                     f"{qid} [{lc}]: richtige Option {lengths[ck]/avg:.1f}-mal so lang wie die Distraktoren "
                     f"— die Laenge verraet die Antwort")
-                length_cue.append(qid)
-            elif avg > 0 and lengths[ck] / avg <= 0.7:
-                warnings.append(
-                    f"{qid} [{lc}]: richtige Option nur {lengths[ck]/avg:.0%} der Distraktorlaenge "
-                    f"- die Kuerze verraet die Antwort")
                 length_cue.append(qid)
             elif lengths[ck] == max(lengths.values()) and lengths[ck] / avg >= 1.25:
                 warnings.append(
@@ -192,6 +164,12 @@ def check(q, slug, tags, languages, seen, today, soon, length_cue, longest_corre
 
     if q.get("status") == "published" and not review.get("reviewer"):
         warnings.append(f"{qid}: published ohne Zweitpruefer")
+
+    for lc, kind, description in quality_issues(q):
+        if kind in {'generic_lead','mixed_stem','duplicate_rationale','duplicate_option'}:
+            bad(f'[{lc}] {description}')
+        elif kind == 'short_cue':
+            warnings.append(f'{qid} [{lc}]: {description}')
 
     return live
 
@@ -220,7 +198,6 @@ def main():
     seen = set()
     counts = {slug: 0 for slug in domains}
     length_cue = []
-    itemform = []
     longest_correct = [0, 0]
     coverage = {}
 
@@ -253,7 +230,7 @@ def main():
         for q in doc.get("fragen", []) or []:
             q.setdefault("taxonomy", {})["domain"] = slug
             questions.append(q)
-            if check(q, slug, tags, languages, seen, today, soon, length_cue, longest_correct, coverage, itemform):
+            if check(q, slug, tags, languages, seen, today, soon, length_cue, longest_correct, coverage):
                 counts[slug] += 1
 
     minimum = config.get('min_questions_per_domain', 10)
@@ -291,7 +268,9 @@ def main():
 
     print()
     print(f"index.html geschrieben — {size_kb} KB, Sprachen: {', '.join(languages)}")
-    print(f"{live} freigegebene Fragen von {len(questions)} in {len(config['domains'])} Dateien")
+    print(f"{live} verfuegbare Lernfragen von {len(questions)} in {len(config['domains'])} Dateien")
+    pending = sum(not q.get('review',{}).get('reviewer') for q in questions)
+    print(f'{pending} Fragen ohne unabhaengige fachaerztliche Freigabe; Verfuegbarkeit ist keine Freigabe.')
     for g in config.get("groups", []):
         total = sum(counts[d["slug"]] for d in config["domains"] if d.get("group") == g["slug"])
         print(f"  {total:>4}  {g['label'][languages[0]]}")
@@ -311,9 +290,6 @@ def main():
         mark = "  <-- Zufallserwartung liegt bei 25 %" if share > 40 else ""
         print(f"richtige Antwort ist die laengste Option: {longest_correct[0]}/{longest_correct[1]} "
               f"({share:.0f} %){mark}")
-    if itemform:
-        print(f"{len(set(itemform))} Fragen mit Maengeln im Aufbau "
-              f"(generische Fragestellung, Frage in der Vignette, geteilte Begruendung)")
     if length_cue:
         print(f"{len(set(length_cue))} Fragen, in denen die Optionslaenge die Antwort verraet")
     if warnings:
@@ -988,6 +964,7 @@ APP_JS = r'''(function () {
     store.getDomainProgress().then(function (progress) {
       root.innerHTML = '';
       root.appendChild(el('p', 'intro', t.intro));
+      root.appendChild(el('p','notice',t.unreviewed));
       root.appendChild(learningDashboard(progress));
       root.appendChild(el('p','domain-hint',LEARNING[lang].adaptive));
 
@@ -1199,7 +1176,7 @@ APP_JS = r'''(function () {
       e.button.disabled = true;
       if (e.option.correct) e.button.classList.add('is-correct');
       else if (key === given.key) e.button.classList.add('is-wrong');
-      if ((e.option.correct || key === given.key) && e.text.rationale !== body.explanation.core) {
+      if (e.text.rationale) {
         e.inner.appendChild(el('span', 'rationale', e.text.rationale));
       }
     });
@@ -1407,7 +1384,7 @@ APP_JS = r'''(function () {
         var mark = o.correct ? '✓' : (key === a.given.key ? '✕' : '·');
         var cls = o.correct ? 'ok' : (key === a.given.key ? 'no' : '');
         p.push('<div class="opt ' + cls + '">' + mark + ' ' + esc(letter) + ') ' + esc(txt.text) + '</div>');
-        if ((o.correct || key === a.given.key) && txt.rationale !== body.explanation.core) {
+        if (txt.rationale) {
           p.push('<div class="rat">' + esc(txt.rationale) + '</div>');
         }
       });

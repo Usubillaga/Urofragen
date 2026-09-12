@@ -52,7 +52,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -196,7 +202,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -340,7 +352,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -484,7 +502,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -628,7 +652,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -772,7 +802,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -916,7 +952,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1011,7 +1053,7 @@
     },
     {
       "id": "uro-inf-00008",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Epididymitis",
@@ -1060,7 +1102,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1080,7 +1128,7 @@
               "rationale": "Bei jungen, sexuell aktiven Männern werden sexuell übertragbare Erreger nicht ausreichend erfasst, und die Partnerbehandlung fehlt."
             },
             "D": {
-              "text": "Ceftriaxon einmalig plus Doxycyclin über zehn bis vierzehn Tage",
+              "text": "Ceftriaxon einmalig und Doxycyclin für 10–14 Tage",
               "rationale": "Bei Männern unter etwa 35 Jahren dominieren Chlamydia trachomatis und Neisseria gonorrhoeae. Die Kombination deckt beide ab; Partner werden mitbehandelt und weitere sexuell übertragbare Infektionen mitgetestet."
             }
           },
@@ -1107,7 +1155,7 @@
               "rationale": "In young sexually active men this does not adequately cover sexually transmitted organisms, and partner treatment is missing."
             },
             "D": {
-              "text": "Single-dose ceftriaxone plus doxycycline for ten to fourteen days",
+              "text": "One ceftriaxone dose and 10–14 days doxycycline",
               "rationale": "In men under roughly 35, Chlamydia trachomatis and Neisseria gonorrhoeae predominate. The combination covers both; partners are treated and other sexually transmitted infections tested for."
             }
           },
@@ -1134,7 +1182,7 @@
               "rationale": "En los hombres jóvenes sexualmente activos, esto no cubre adecuadamente los organismos de transmisión sexual y falta el tratamiento de la pareja."
             },
             "D": {
-              "text": "Ceftriaxona en dosis única más doxiciclina durante diez a catorce días",
+              "text": "Ceftriaxona una dosis y doxiciclina 10–14 días",
               "rationale": "En hombres menores de 35 años, predominan Chlamydia trachomatis y Neisseria gonorrhoeae. La combinación cubre ambos; las parejas reciben tratamiento y se hacen pruebas para detectar otras infecciones de transmisión sexual."
             }
           },
@@ -1204,7 +1252,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1348,7 +1402,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {

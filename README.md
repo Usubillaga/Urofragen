@@ -1,69 +1,43 @@
-# Facharztfragen Urologie · Preguntas de Urología
+# Urofragen – überarbeitete Fragenqualität
 
-214 fallbasierte Fragen in 16 Gebieten, vollständig auf Deutsch, Englisch und
-Spanisch. Die Website besteht aus einer eigenständigen `index.html`.
-Jedes Gebiet enthält mindestens zehn Fragen; NMIBC und MIBC jeweils genau zehn.
+Stand: 12. September 2026. 214 Fragen, 16 Gebiete, Deutsch/Englisch/Spanisch.
+Jedes Gebiet mindestens zehn Fragen, NMIBC und MIBC jeweils zehn.
 
-## Bearbeiten und bauen
+Die Anmerkungen aus `pruefprotokoll-original.txt` sind vollständig in
+[review/ANTHROPIC-RESPONSE.md](review/ANTHROPIC-RESPONSE.md) zugeordnet.
+68 Fragen wurden redaktionell oder inhaltlich geändert; alle 27 zuletzt ergänzten
+Fragen erhielten eigene Antwortbegründungen und plausiblere Alternativen.
+Die unveränderten Eingangsdaten liegen unter `review/baseline/`.
 
-Die Gebietsarchive und `domains.json` können wie im bisherigen Repository neben
-`build.py` liegen. Alternativ wird `data/domains.json` mit `data/fragen/*.json`
-unterstützt; falls vorhanden, hat diese Struktur Vorrang. Nicht beide pflegen.
+`index.html` ist die fertige Website. Zum ausführlichen Lesen aller Fragen und
+aller Sprachfassungen dient [review/review-questions.html](review/review-questions.html).
+Die Website zeigt nach einer Antwort jetzt die Begründungen aller vier Optionen.
+Bestehende Lernfortschritte zu unveränderten Fragen bleiben erhalten; geänderte
+Fragenversionen werden neu bewertet. Erstversuche und Wiederholungen bleiben getrennt.
+
+## Bauen und prüfen
 
 ```text
 python build.py
-python tests/validate_bank.py
+python tests/test_quality.py
 node tests/app.test.cjs
+python review/report.py
 ```
 
-Python 3.8+ und für den Anwendungstest Node.js mit Blob-Unterstützung erforderlich.
-Keine zusätzlichen Bibliotheken nötig. `index.html` ist die veröffentlichte Datei.
-Der Build lädt weder Fragen noch Übersetzungen aus externen Diensten nach.
+Keine Zusatzpakete erforderlich. Python 3.8+ und Node.js mit Blob-Unterstützung.
+`build.py` benötigt die mitgelieferte `quality.py`. Nach manuellen Inhaltsänderungen
+die betroffenen Fragenversionen erhöhen. Die Skripte `review/revise.py` und
+`review/finalize.py` dokumentieren diesen konkreten Bearbeitungslauf; sie gehören
+nicht zum regulären Build und würden spätere manuelle Textänderungen überschreiben.
 
-Jedes Archiv hat `gebiet` und `fragen`. IDs bleiben stabil. Richtige Antworten,
-Quellen und Prüfdaten existieren einmal; Texte stehen unter `content.de`,
-`content.en` und `content.es`. Bei inhaltlichen Änderungen die Version erhöhen,
-damit frühere Antworten erneut geübt werden können.
+## Grenzen
 
-Veröffentlichte Fragen benötigen alle drei vollständigen Sprachfassungen,
-genau eine richtige Antwort, Begründungen, Merksatz und gültiges Ablaufdatum.
-Bei Fehlern bleibt die bisherige `index.html` erhalten. Entwürfe und abgelaufene
-Fragen werden in der Oberfläche nicht angeboten.
+150 redaktionelle Protokollhinweise wurden bearbeitet. 214 Hinweise auf fehlende
+unabhängige fachärztliche Zweitprüfung bleiben offen und werden nicht als behoben
+ausgegeben. Die formalen Prüfungen sind kein Nachweis klinischer Richtigkeit oder
+psychometrischer Validität. Quellen wurden gezielt für neu gefasste oder auffällige
+Inhalte abgeglichen; eine externe Prüfung aller Angaben steht aus.
 
-## Bedienung
-
-DE / EN / ES wechselt die Sprache; Auswahl und Lernfortschritt bleiben lokal im
-Browser. Antworten werden pro Sitzung gemischt. Der Sprachwechsel erhält auch
-die Ergebnisseite. Ergebnisbögen können gedruckt oder als HTML gespeichert werden.
-Im Browserdruckdialog ist „Als PDF speichern“ möglich.
-Offizielle Quellentitel bleiben in ihrer Originalsprache zitierfähig.
-
-Die Übersicht zeigt Trefferquote und Bearbeitungsstand getrennt, insgesamt,
-pro Gruppe und pro Gebiet. Jede Frage zählt dabei einmal mit ihrer letzten Antwort.
-Erstversuche seit dieser Version bleiben separat erhalten; ältere Erstversuche
-werden nicht geschätzt. Eine Stärke wird ab fünf verschiedenen Fragen und 80 %
-Trefferquote angezeigt, 60–79 % als „Weiter festigen“, darunter „Übungsbedarf“.
-Diese Orientierung ist keine klinische Kompetenzprüfung.
-
-Runden gleichen zunächst die Gebiete aus und bevorzugen bislang weniger
-bearbeitete Gebiete. Innerhalb eines Gebiets wechseln Fehler, neue Fragen und
-ältere richtige Antworten; fehlende Kategorien werden aufgefüllt. Pro Runde
-erscheint jede Frage höchstens einmal. „Fehler gezielt üben“ nutzt die aktuell
-falschen Antworten; am Rundenende können die Fehler dieser Runde wiederholt werden.
-Laufende Runde, Ergebnis und Export zeigen richtige, falsche und offene Fragen.
-Der Ergebnisbogen enthält außerdem eine Auswertung nach Gebiet und Lernhinweise.
-
-## Inhaltsprüfung
-
-Siehe [Prüfbericht](REVIEW.md). Die Ergänzungen sind KI-gestützt redigiert,
-einschließlich maschineller spanischer Vorübersetzung. 32 Fragen erhielten
-inhaltliche oder redaktionelle Änderungen am Ausgangstext.
-Eine unabhängige fachärztliche Zweitfreigabe steht aus und wird nicht behauptet.
-Die 27 neuen Fälle vom 11. September wurden direkt dreisprachig verfasst und
-an den verlinkten EAU-Kapiteln abgeglichen. Der Build verhindert Gebiete mit
-weniger als zehn aktiven Fragen. Ablaufende Inhalte müssen daher ersetzt werden.
-Quellenverweise ersetzen nicht die Prüfung aktueller Fachinformationen.
-
-Die Schriftarten werden wie bisher von Google Fonts angefragt. Ohne Zugriff
-werden Systemschriften verwendet. Der gesamte Fragenbestand ist eingebettet;
-für den Fragenbetrieb sind weder Konto noch Backend erforderlich.
+Die Dateien sind lokal bereitgestellt. Eine Veröffentlichung auf GitHub wurde in
+diesem Bearbeitungslauf nicht durchgeführt. Die vorherige Verbindung verweigerte
+Schreibzugriff. Die unveränderten Ausgangsdateien im Downloads-Ordner bleiben bestehen.

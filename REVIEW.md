@@ -1,4 +1,8 @@
-# Prüfbericht – aktualisiert am 11. September 2026
+# Historischer Prüfbericht bis 11. September 2026
+
+Der aktuelle Bearbeitungsstand vom 12. September steht in
+[review/ANTHROPIC-RESPONSE.md](review/ANTHROPIC-RESPONSE.md).
+Der folgende Text dokumentiert den früheren Stand vor Bearbeitung des neuen Prüfprotokolls.
 
 ## Erweiterung und Lernfortschritt vom 11. September
 

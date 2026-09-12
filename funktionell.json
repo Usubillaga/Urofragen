@@ -3,7 +3,7 @@
   "fragen": [
     {
       "id": "uro-fun-00001",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "oab",
@@ -58,7 +58,13 @@
         "reviewer": null,
         "created": "2026-09-02",
         "last_reviewed": "2026-09-02",
-        "expires": "2028-09-02"
+        "expires": "2028-09-02",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -70,7 +76,7 @@
               "rationale": "Eine periinterventionelle Gabe genügt; eine mehrwöchige Prophylaxe ist nicht Standard und fördert Resistenzen."
             },
             "B": {
-              "text": "Bereitschaft und Fähigkeit zum intermittierenden Selbstkatheterismus",
+              "text": "Bereitschaft und Fähigkeit zum Selbstkatheterismus",
               "rationale": "Restharnbildung bis zur Katheterpflichtigkeit ist die klinisch relevanteste Komplikation; ohne diese Voraussetzung ist die Indikation nicht vertretbar."
             },
             "C": {
@@ -97,7 +103,7 @@
               "rationale": "A single periprocedural dose suffices; prolonged prophylaxis is not standard and promotes resistance."
             },
             "B": {
-              "text": "Willingness and ability to perform clean intermittent self-catheterisation",
+              "text": "Ability and willingness to self-catheterise",
               "rationale": "Residual urine up to catheter dependence is the clinically most relevant complication; without this prerequisite the indication is not defensible."
             },
             "C": {
@@ -124,7 +130,7 @@
               "rationale": "Una dosis única periprocedimiento es suficiente; La profilaxis prolongada no es estándar y promueve la resistencia."
             },
             "B": {
-              "text": "Voluntad y capacidad para realizar un autocateterismo intermitente limpio.",
+              "text": "Capacidad y disposición para el autocateterismo",
               "rationale": "La orina residual hasta la dependencia del catéter es la complicación clínica más relevante; sin este requisito previo la indicación no es defendible."
             },
             "C": {
@@ -203,7 +209,13 @@
         "reviewer": null,
         "created": "2026-09-02",
         "last_reviewed": "2026-09-02",
-        "expires": "2028-09-02"
+        "expires": "2028-09-02",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -298,7 +310,7 @@
     },
     {
       "id": "uro-fun-00003",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "luts",
@@ -348,7 +360,13 @@
         "reviewer": null,
         "created": "2026-09-02",
         "last_reviewed": "2026-09-02",
-        "expires": "2028-09-02"
+        "expires": "2028-09-02",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -360,7 +378,7 @@
               "rationale": "Eine Einzelmessung trägt diese Konsequenz nicht; die Dauerableitung wäre zudem auch bei bestätigtem Befund nicht der erste Schritt."
             },
             "B": {
-              "text": "Nicht verwertbar; standardisiert zu wiederholen",
+              "text": "Vor Therapieentscheidung standardisiert wiederholen",
               "rationale": "Der Restharn schwankt intraindividuell erheblich und ist nur im Verhältnis zum Miktionsvolumen interpretierbar. Zur Wiederholung gehört das dokumentierte Miktionsvolumen, weil der Restharn nur im Verhältnis dazu interpretierbar ist."
             },
             "C": {
@@ -387,7 +405,7 @@
               "rationale": "A single measurement does not carry that consequence, and even a confirmed finding would not make catheterisation the first step."
             },
             "B": {
-              "text": "Not usable; repeat under standardised conditions",
+              "text": "Repeat under standard conditions before treatment",
               "rationale": "Post-void residual varies substantially within an individual and is interpretable only in relation to the voided volume. The repeat must document the voided volume, because residual urine is interpretable only in relation to it."
             },
             "C": {
@@ -414,7 +432,7 @@
               "rationale": "Una sola medición no conlleva esa consecuencia, e incluso un hallazgo confirmado no haría del cateterismo el primer paso."
             },
             "B": {
-              "text": "No utilizable; repetir en condiciones estandarizadas",
+              "text": "Repetir en condiciones estándar antes de tratar",
               "rationale": "El residuo posmiccional varía sustancialmente dentro de un individuo y es interpretable sólo en relación con el volumen evacuado. La repetición debe documentar el volumen evacuado, porque la orina residual sólo es interpretable en relación con él."
             },
             "C": {
@@ -492,7 +510,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06"
+        "expires": "2028-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -637,7 +661,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06"
+        "expires": "2028-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -732,7 +762,7 @@
     },
     {
       "id": "uro-fun-00006",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "medikamentöse LUTS-Therapie",
@@ -782,12 +812,18 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06"
+        "expires": "2028-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
           "vignette": "66-jähriger Mann, IPSS 21 mit Leidensdruck, Prostatavolumen 68 ml, PSA 3,2 ng/ml, Restharn 90 ml, maximaler Harnfluss 9 ml/s. Keine Operation gewünscht.",
-          "lead_in": "Welche medikamentöse Therapie ist am besten begründet, und was ist bei der Verlaufskontrolle zu beachten?",
+          "lead_in": "Welche medikamentöse Kombination adressiert Symptome und Progressionsrisiko am besten?",
           "options": {
             "A": {
               "text": "Alphablocker plus 5-Alpha-Reduktasehemmer kombinieren",
@@ -814,7 +850,7 @@
         },
         "en": {
           "vignette": "66-year-old man, IPSS 21 with bother, prostate volume 68 ml, PSA 3.2 ng/ml, post-void residual 90 ml, maximum flow rate 9 ml/s. He does not want surgery.",
-          "lead_in": "Which drug treatment is best justified, and what must be considered at follow-up?",
+          "lead_in": "Which drug combination best addresses symptoms and progression risk?",
           "options": {
             "A": {
               "text": "Combine an alpha-blocker with a 5-alpha-reductase inhibitor",
@@ -841,7 +877,7 @@
         },
         "es": {
           "vignette": "Varón de 66 años, IPSS 21 con molestias, volumen prostático 68 ml, PSA 3,2 ng/ml, residual posmiccional 90 ml, flujo máximo 9 ml/s. No quiere cirugía.",
-          "lead_in": "¿Qué tratamiento farmacológico está mejor justificado y qué se debe considerar durante el seguimiento?",
+          "lead_in": "¿Qué combinación farmacológica aborda mejor síntomas y riesgo de progresión?",
           "options": {
             "A": {
               "text": "Combinar un alfabloqueante con un inhibidor de la 5-alfa-reductasa",
@@ -925,7 +961,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06"
+        "expires": "2028-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1068,7 +1110,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06"
+        "expires": "2028-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1213,7 +1261,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06"
+        "expires": "2028-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1357,7 +1411,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06"
+        "expires": "2028-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1501,7 +1561,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06"
+        "expires": "2028-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1644,7 +1710,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06"
+        "expires": "2028-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1788,7 +1860,13 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06"
+        "expires": "2028-09-06",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {

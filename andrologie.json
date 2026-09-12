@@ -51,7 +51,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -146,7 +152,7 @@
     },
     {
       "id": "uro-and-00002",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Testosterontherapie",
@@ -195,7 +201,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -207,7 +219,7 @@
               "rationale": "Eine unbehandelte schwere Schlafapnoe gilt als Gegenanzeige, weil Testosteron sie verschlechtern kann. Unter wirksamer CPAP-Therapie ist sie kein Hinderungsgrund, verlangt aber eine Verlaufskontrolle."
             },
             "B": {
-              "text": "Der Hämatokrit von 56 Prozent vor Therapiebeginn",
+              "text": "Hämatokrit von 56 % vor Therapiebeginn",
               "rationale": "Oberhalb von etwa 54 Prozent besteht ein erhöhtes thromboembolisches Risiko, und Testosteron steigert die Erythropoese zusätzlich. Vor Beginn muss die Polyglobulie abgeklärt und gesenkt werden."
             },
             "C": {
@@ -234,7 +246,7 @@
               "rationale": "Untreated severe sleep apnoea is a contraindication, because testosterone can worsen it. On effective CPAP it is not an obstacle but does require follow-up."
             },
             "B": {
-              "text": "The haematocrit of 56 per cent before starting",
+              "text": "Pretreatment haematocrit of 56%",
               "rationale": "Above roughly 54 per cent thromboembolic risk is increased, and testosterone further stimulates erythropoiesis. The polycythaemia must be investigated and lowered before starting."
             },
             "C": {
@@ -261,7 +273,7 @@
               "rationale": "La apnea del sueño grave no tratada es una contraindicación porque la testosterona puede empeorarla. En una CPAP eficaz no supone un obstáculo pero sí requiere un seguimiento."
             },
             "B": {
-              "text": "El hematocrito del 56 por ciento antes de comenzar.",
+              "text": "Hematocrito del 56 % antes del tratamiento",
               "rationale": "Por encima de aproximadamente el 54 por ciento el riesgo tromboembólico aumenta y la testosterona estimula aún más la eritropoyesis. La policitemia debe ser investigada y bajada antes de comenzar."
             },
             "C": {
@@ -339,7 +351,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -483,7 +501,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -627,7 +651,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -771,7 +801,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -915,7 +951,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1060,7 +1102,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1204,7 +1252,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1299,7 +1353,7 @@
     },
     {
       "id": "uro-and-00010",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Spermiogramm",
@@ -1347,7 +1401,13 @@
         "reviewer": null,
         "created": "2026-09-08",
         "last_reviewed": "2026-09-08",
-        "expires": "2028-09-08"
+        "expires": "2028-09-08",
+        "editorial_review": {
+          "date": "2026-09-12",
+          "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+          "clinical_signoff": false
+        },
+        "clinical_review_status": "pending_independent_review"
       },
       "content": {
         "de": {
@@ -1359,7 +1419,7 @@
               "rationale": "Eine einzelne Analyse unter ungünstigen Bedingungen trägt keine Diagnose. Die Werte schwanken beim selben Mann erheblich, und die Referenzgrenzen beschreiben Perzentile fruchtbarer Männer, nicht eine Schwelle zur Unfruchtbarkeit."
             },
             "B": {
-              "text": "Nicht verwertbar; Wiederholung unter standardisierten Bedingungen",
+              "text": "Eingeschränkt beurteilbar; standardisiert wiederholen",
               "rationale": "Die Karenzzeit soll zwei bis sieben Tage betragen, die Probe innerhalb einer Stunde bei Körpertemperatur ins Labor gelangen. Fieber wirkt sich zudem über etwa drei Monate aus, entsprechend der Dauer der Spermatogenese."
             },
             "C": {
@@ -1386,7 +1446,7 @@
               "rationale": "A single analysis under unfavourable conditions does not carry a diagnosis. Values vary considerably within the same man, and the reference limits describe percentiles of fertile men rather than a threshold for infertility."
             },
             "B": {
-              "text": "Not usable; repeat under standardised conditions",
+              "text": "Limited interpretability; repeat under standard conditions",
               "rationale": "Abstinence should be two to seven days and the sample should reach the laboratory within an hour at body temperature. Fever also exerts an effect for about three months, matching the duration of spermatogenesis."
             },
             "C": {
@@ -1413,7 +1473,7 @@
               "rationale": "Un solo análisis en condiciones desfavorables no conlleva un diagnóstico. Los valores varían considerablemente dentro de un mismo hombre y los límites de referencia describen percentiles de hombres fértiles en lugar de un umbral de infertilidad."
             },
             "B": {
-              "text": "No utilizable; repetir en condiciones estandarizadas",
+              "text": "Interpretación limitada; repetir en condiciones estándar",
               "rationale": "La abstinencia debe ser de dos a siete días y la muestra debe llegar al laboratorio en el plazo de una hora a temperatura corporal. La fiebre también ejerce un efecto durante unos tres meses, coincidiendo con la duración de la espermatogénesis."
             },
             "C": {
