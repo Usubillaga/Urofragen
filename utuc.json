@@ -1213,7 +1213,7 @@
     },
     {
       "id": "uro-utu-00009",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "perioperatives Konzept",
@@ -1265,14 +1265,15 @@
         "author": "EK",
         "reviewer": null,
         "created": "2026-09-06",
-        "last_reviewed": "2026-09-06",
+        "last_reviewed": null,
         "expires": "2027-09-06",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
         },
-        "clinical_review_status": "pending_independent_review"
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Imported rationale revisions now assigned a new question version."
       },
       "content": {
         "de": {
@@ -1281,7 +1282,7 @@
           "options": {
             "A": {
               "text": "Die Nierenfunktion fällt nach der Operation regelhaft ab",
-              "rationale": "Der Verlust einer Niere senkt die GFR typischerweise um etwa ein Viertel. Wer präoperativ knapp über der Grenze liegt, unterschreitet sie danach häufig. Der Verlust einer Niere senkt die GFR typischerweise um etwa ein Viertel, sodass ein erheblicher Teil der Patienten postoperativ nicht mehr cisplatinfähig ist."
+              "rationale": "Der Verlust einer Niere senkt die GFR typischerweise um etwa ein Viertel. Wer präoperativ knapp über der Grenze liegt, unterschreitet sie danach häufig."
             },
             "B": {
               "text": "Randomisierte Studie mit Überlebensvorteil belegt es",
@@ -1335,7 +1336,7 @@
           "options": {
             "A": {
               "text": "La función renal cae regularmente después de la operación",
-              "rationale": "La pérdida de un riñón normalmente reduce la TFG en aproximadamente una cuarta parte. Los pacientes que se encuentran justo por encima del umbral antes de la cirugía a menudo caen por debajo de él después. La pérdida de un riñón normalmente reduce la TFG en aproximadamente una cuarta parte, por lo que una proporción sustancial de pacientes ya no son elegibles para recibir cisplatino después de la operación."
+              "rationale": "La pérdida de un riñón normalmente reduce la TFG en aproximadamente una cuarta parte. Los pacientes que se encuentran justo por encima del umbral antes de la cirugía a menudo caen por debajo de él después."
             },
             "B": {
               "text": "Un ensayo aleatorizado con beneficio en supervivencia lo demuestra",

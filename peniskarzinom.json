@@ -153,7 +153,7 @@
     },
     {
       "id": "uro-pen-00002",
-      "version": 2,
+      "version": 3,
       "status": "published",
       "taxonomy": {
         "subdomain": "Primärtumor",
@@ -201,14 +201,15 @@
         "author": "EK",
         "reviewer": null,
         "created": "2026-09-06",
-        "last_reviewed": "2026-09-06",
+        "last_reviewed": null,
         "expires": "2028-09-06",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
         },
-        "clinical_review_status": "pending_independent_review"
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Imported rationale revisions now assigned a new question version."
       },
       "content": {
         "de": {
@@ -217,7 +218,7 @@
           "options": {
             "A": {
               "text": "Organerhaltende Exzision mit freien Rändern",
-              "rationale": "Bei kleinen, oberflächlichen und gut differenzierten Tumoren ist der Organerhalt onkologisch gleichwertig und erhält Miktion und Sexualfunktion. Lokalrezidive sind erneut organerhaltend behandelbar. Infrage kommen die weite lokale Exzision und das Glansresurfacing, jeweils mit engmaschiger Nachsorge. Bei kleinen, oberflächlichen und gut differenzierten Tumoren ist der Organerhalt onkologisch gleichwertig."
+              "rationale": "Bei kleinen, oberflächlichen und gut differenzierten Tumoren ist der Organerhalt onkologisch gleichwertig und erhält Miktion und Sexualfunktion. Lokalrezidive sind erneut organerhaltend behandelbar. Infrage kommen die weite lokale Exzision und das Glansresurfacing, jeweils mit engmaschiger Nachsorge."
             },
             "B": {
               "text": "Primäre Radiochemotherapie des Primärtumors",
@@ -244,7 +245,7 @@
           "options": {
             "A": {
               "text": "Organ-sparing excision with clear margins",
-              "rationale": "In small, superficial, well-differentiated tumours organ preservation is oncologically equivalent and preserves voiding and sexual function. Local recurrences can again be treated with organ-sparing surgery. Wide local excision and glans resurfacing are the options, each with close follow-up. In small, superficial, well-differentiated tumours organ preservation is oncologically equivalent."
+              "rationale": "In small, superficial, well-differentiated tumours organ preservation is oncologically equivalent and preserves voiding and sexual function. Local recurrences can again be treated with organ-sparing surgery. Wide local excision and glans resurfacing are the options, each with close follow-up."
             },
             "B": {
               "text": "Primary chemoradiotherapy of the primary tumour",
@@ -457,7 +458,7 @@
     },
     {
       "id": "uro-pen-00004",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Lymphknotenstaging",
@@ -506,14 +507,15 @@
         "author": "EK",
         "reviewer": null,
         "created": "2026-09-06",
-        "last_reviewed": "2026-09-06",
+        "last_reviewed": null,
         "expires": "2028-09-06",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
         },
-        "clinical_review_status": "pending_independent_review"
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Imported rationale revisions now assigned a new question version."
       },
       "content": {
         "de": {
@@ -526,7 +528,7 @@
             },
             "B": {
               "text": "Ipsilaterale pelvine Lymphadenektomie auf der rechten Seite",
-              "rationale": "Mehrere befallene inguinale Lymphknoten oder extranodales Wachstum auf einer Seite begründen die pelvine Ausräumung derselben Seite, weil der Lymphabfluss dorthin fortschreitet. Anschließend wird eine adjuvante Chemotherapie besprochen. Mehrere befallene inguinale Lymphknoten oder extranodales Wachstum auf einer Seite begründen die pelvine Ausräumung derselben Seite."
+              "rationale": "Mehrere befallene inguinale Lymphknoten oder extranodales Wachstum auf einer Seite begründen die pelvine Ausräumung derselben Seite, weil der Lymphabfluss dorthin fortschreitet. Anschließend wird eine adjuvante Chemotherapie besprochen. M"
             },
             "C": {
               "text": "Beidseitige pelvine Lymphadenektomie im selben Eingriff",
@@ -553,7 +555,7 @@
             },
             "B": {
               "text": "Ipsilateral pelvic lymphadenectomy on the right side",
-              "rationale": "Several involved inguinal nodes or extranodal extension on one side justify pelvic dissection on that same side, because lymphatic spread proceeds there. Adjuvant chemotherapy is then discussed. Several involved inguinal nodes or extranodal extension on one side justify pelvic dissection on that same side."
+              "rationale": "Several involved inguinal nodes or extranodal extension on one side justify pelvic dissection on that same side, because lymphatic spread proceeds there. Adjuvant chemotherapy is then discussed."
             },
             "C": {
               "text": "Bilateral pelvic lymphadenectomy in the same procedure",
@@ -580,7 +582,7 @@
             },
             "B": {
               "text": "Linfadenectomía pélvica ipsilateral del lado derecho",
-              "rationale": "Varios ganglios inguinales afectados o extensión extraganglionar en un lado justifican la disección pélvica en ese mismo lado, porque allí se produce la diseminación linfática. Luego se analiza la quimioterapia adyuvante. Varios ganglios inguinales afectados o extensión extraganglionar en un lado justifican la disección pélvica en ese mismo lado."
+              "rationale": "Varios ganglios inguinales afectados o extensión extraganglionar en un lado justifican la disección pélvica en ese mismo lado, porque allí se produce la diseminación linfática. Luego se analiza la quimioterapia adyuvante."
             },
             "C": {
               "text": "Linfadenectomía pélvica bilateral en el mismo procedimiento.",

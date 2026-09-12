@@ -3,7 +3,7 @@
   "fragen": [
     {
       "id": "uro-rcc-00001",
-      "version": 2,
+      "version": 3,
       "status": "published",
       "taxonomy": {
         "subdomain": "adjuvant",
@@ -56,14 +56,15 @@
         "author": "EK",
         "reviewer": null,
         "created": "2026-09-05",
-        "last_reviewed": "2026-09-05",
+        "last_reviewed": null,
         "expires": "2027-09-05",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
         },
-        "clinical_review_status": "pending_independent_review"
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Imported rationale revisions now assigned a new question version."
       },
       "content": {
         "de": {
@@ -130,7 +131,7 @@
             },
             "B": {
               "text": "Pembrolizumab adyuvante hasta por un año",
-              "rationale": "KEYNOTE-564 mostró un beneficio en la supervivencia general y libre de enfermedad para un mayor riesgo de recurrencia. Un tumor pT3 cumple con los criterios de inclusión. Administrado en forma de 200 mg IV cada tres semanas o 400 mg cada seis semanas. KEYNOTE-564 mostró un beneficio en la supervivencia general y libre de enfermedad con un mayor riesgo de recurrencia."
+              "rationale": "KEYNOTE-564 mostró un beneficio en la supervivencia general y libre de enfermedad para un mayor riesgo de recurrencia. Un tumor pT3 cumple con los criterios de inclusión. Administrado en forma de 200 mg IV cada tres semanas o 400 mg cada seis semanas."
             },
             "C": {
               "text": "Adyuvante nivolumab más ipilimumab combinados",
@@ -470,7 +471,7 @@
     },
     {
       "id": "uro-rcc-00004",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "medulläres Nierenkarzinom",
@@ -518,14 +519,15 @@
         "author": "EK",
         "reviewer": null,
         "created": "2026-09-07",
-        "last_reviewed": "2026-09-07",
+        "last_reviewed": null,
         "expires": "2028-09-07",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
         },
-        "clinical_review_status": "pending_independent_review"
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Imported rationale revisions now assigned a new question version."
       },
       "content": {
         "de": {
@@ -565,7 +567,7 @@
             },
             "B": {
               "text": "Renal medullary carcinoma; platinum chemotherapy",
-              "rationale": "The triad of young age, sickle cell trait and loss of SMARCB1 or INI1 is characteristic. The tumour responds to platinum, not to targeted or checkpoint therapy. The triad of young age, sickle cell trait and loss of SMARCB1 or INI1 is characteristic and excludes the other entities."
+              "rationale": "The triad of young age, sickle cell trait and loss of SMARCB1 or INI1 is characteristic. The tumour responds to platinum, not to targeted or checkpoint therapy."
             },
             "C": {
               "text": "Papillary carcinoma type 2; treatment with cabozantinib",
@@ -774,7 +776,7 @@
     },
     {
       "id": "uro-rcc-00006",
-      "version": 2,
+      "version": 3,
       "status": "published",
       "taxonomy": {
         "subdomain": "sarkomatoide Differenzierung",
@@ -822,14 +824,15 @@
         "author": "EK",
         "reviewer": null,
         "created": "2026-09-07",
-        "last_reviewed": "2026-09-07",
+        "last_reviewed": null,
         "expires": "2028-09-07",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
         },
-        "clinical_review_status": "pending_independent_review"
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Imported rationale revisions now assigned a new question version."
       },
       "content": {
         "de": {
@@ -865,7 +868,7 @@
           "options": {
             "A": {
               "text": "It supports a checkpoint-based combination",
-              "rationale": "Sarcomatoid tumours more often express PD-L1 and show high response and complete remission rates with immune combinations in subgroup analyses. Sarcomatoid tumours more often express PD-L1 and show high response and complete remission rates with immune combinations in subgroup analyses, despite their poor prognosis."
+              "rationale": "Sarcomatoid tumours more often express PD-L1 and show high response and complete remission rates with immune combinations in subgroup analyses."
             },
             "B": {
               "text": "It argues against checkpoint therapy",
@@ -892,7 +895,7 @@
           "options": {
             "A": {
               "text": "Apoya una combinación basada en inmunoterapia",
-              "rationale": "Los tumores sarcomatoides expresan con mayor frecuencia PD-L1 y muestran altas tasas de respuesta y remisión completa con combinaciones inmunes en análisis de subgrupos. Los tumores sarcomatoides expresan con mayor frecuencia PD-L1 y muestran altas tasas de respuesta y remisión completa con combinaciones inmunes en análisis de subgrupos, a pesar de su mal pronóstico."
+              "rationale": "Los tumores sarcomatoides expresan con mayor frecuencia PD-L1 y muestran altas tasas de respuesta y remisión completa con combinaciones inmunes en análisis de subgrupos."
             },
             "B": {
               "text": "Desaconseja el tratamiento con inmunoterapia",
@@ -1074,7 +1077,7 @@
     },
     {
       "id": "uro-rcc-00008",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "kleine Nierenraumforderung",
@@ -1122,14 +1125,15 @@
         "author": "EK",
         "reviewer": null,
         "created": "2026-09-07",
-        "last_reviewed": "2026-09-07",
+        "last_reviewed": null,
         "expires": "2028-09-07",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
         },
-        "clinical_review_status": "pending_independent_review"
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Imported rationale revisions now assigned a new question version."
       },
       "content": {
         "de": {
@@ -1146,7 +1150,7 @@
             },
             "C": {
               "text": "Perkutane Nierenbiopsie vor Ablation oder Überwachung",
-              "rationale": "Sie klärt Dignität und Subtyp, verhindert die Behandlung gutartiger Läsionen und steuert die Intensität der Überwachung. Das Risiko einer Tumorzellverschleppung ist gering. Sie klärt Dignität und Subtyp, verhindert die Behandlung gutartiger Läsionen und steuert die Intensität der Überwachung; das Risiko einer Tumorzellverschleppung ist gering."
+              "rationale": "Sie klärt Dignität und Subtyp, verhindert die Behandlung gutartiger Läsionen und steuert die Intensität der Überwachung. Das Risiko einer Tumorzellverschleppung ist gering."
             },
             "D": {
               "text": "Bildgebende Kontrolle in zwölf Monaten ohne Histologie",
@@ -1173,7 +1177,7 @@
             },
             "C": {
               "text": "Percutaneous renal biopsy before ablation or surveillance",
-              "rationale": "It establishes malignancy and subtype, avoids treating benign lesions and guides surveillance intensity. The risk of tumour seeding is low. It establishes malignancy and subtype, avoids treating benign lesions and guides surveillance intensity; the risk of tumour seeding is low."
+              "rationale": "It establishes malignancy and subtype, avoids treating benign lesions and guides surveillance intensity. The risk of tumour seeding is low."
             },
             "D": {
               "text": "Imaging follow-up in twelve months without histology",
@@ -1200,7 +1204,7 @@
             },
             "C": {
               "text": "Biopsia renal percutánea antes de la ablación o vigilancia.",
-              "rationale": "Establece malignidad y subtipo, evita tratar lesiones benignas y orienta la intensidad de la vigilancia. El riesgo de siembra de tumores es bajo. Establece malignidad y subtipo, evita tratar lesiones benignas y orienta la intensidad de la vigilancia; el riesgo de siembra de tumores es bajo."
+              "rationale": "Establece malignidad y subtipo, evita tratar lesiones benignas y orienta la intensidad de la vigilancia. El riesgo de siembra de tumores es bajo."
             },
             "D": {
               "text": "Seguimiento por imágenes en doce meses sin histología.",
@@ -1374,7 +1378,7 @@
     },
     {
       "id": "uro-rcc-00010",
-      "version": 2,
+      "version": 3,
       "status": "published",
       "taxonomy": {
         "subdomain": "zystische Läsionen",
@@ -1422,14 +1426,15 @@
         "author": "EK",
         "reviewer": null,
         "created": "2026-09-07",
-        "last_reviewed": "2026-09-07",
+        "last_reviewed": null,
         "expires": "2028-09-07",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
         },
-        "clinical_review_status": "pending_independent_review"
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Imported rationale revisions now assigned a new question version."
       },
       "content": {
         "de": {
@@ -1450,7 +1455,7 @@
             },
             "D": {
               "text": "Bosniak IV; nierenerhaltende Operation anstreben",
-              "rationale": "Ein solider kontrastierender Anteil definiert Bosniak IV mit sehr hoher Malignitätswahrscheinlichkeit. Die Behandlung folgt dem Vorgehen beim soliden Nierenzellkarzinom. Ein solider kontrastierender Anteil definiert Bosniak IV mit sehr hoher Malignitätswahrscheinlichkeit; das Vorgehen folgt dem soliden Nierenzellkarzinom."
+              "rationale": "Ein solider kontrastierender Anteil definiert Bosniak IV mit sehr hoher Malignitätswahrscheinlichkeit. Die Behandlung folgt dem Vorgehen beim soliden Nierenzellkarzinom."
             }
           },
           "explanation": {
@@ -1477,7 +1482,7 @@
             },
             "D": {
               "text": "Bosniak IV; aim for nephron-sparing surgery",
-              "rationale": "A solid enhancing component defines Bosniak IV with a very high probability of malignancy. Management follows that of solid renal cell carcinoma. A solid enhancing component defines Bosniak IV with a very high probability of malignancy; management follows that of solid renal cell carcinoma."
+              "rationale": "A solid enhancing component defines Bosniak IV with a very high probability of malignancy. Management follows that of solid renal cell carcinoma."
             }
           },
           "explanation": {
@@ -1504,7 +1509,7 @@
             },
             "D": {
               "text": "Bosniak IV; cirugía conservadora renal",
-              "rationale": "Un sólido componente potenciador define a Bosniak IV con una probabilidad muy alta de malignidad. El tratamiento sigue el del carcinoma de células renales sólidas. Un sólido componente potenciador define a Bosniak IV con una probabilidad muy alta de malignidad; el tratamiento es similar al del carcinoma de células renales sólidas."
+              "rationale": "Un sólido componente potenciador define a Bosniak IV con una probabilidad muy alta de malignidad. El tratamiento sigue el del carcinoma de células renales sólidas."
             }
           },
           "explanation": {

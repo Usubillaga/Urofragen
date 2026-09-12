@@ -1,31 +1,9 @@
 {
-  "schema_version": "2.0",
   "session_size": 10,
-  "min_questions_per_domain": 10,
   "languages": [
     "de",
     "en",
     "es"
-  ],
-  "tags": [
-    "notfall",
-    "leitlinie",
-    "bildgebung",
-    "pharmakologie",
-    "labordiagnostik",
-    "dosierung",
-    "nebenwirkungen",
-    "zulassung",
-    "operationstechnik",
-    "komplikationsmanagement",
-    "endourologisch",
-    "pathologie",
-    "nachsorge",
-    "praeoperativ",
-    "pruefungsrelevant-hoch",
-    "geriatrie",
-    "paediatrisch",
-    "schwangerschaft"
   ],
   "groups": [
     {
@@ -254,5 +232,25 @@
         "es": "Derivación urinaria, uretra, trasplante renal"
       }
     }
+  ],
+  "min_questions_per_domain": 10,
+  "tags": [
+    "bildgebung",
+    "dosierung",
+    "endourologisch",
+    "geriatrie",
+    "komplikationsmanagement",
+    "labordiagnostik",
+    "leitlinie",
+    "nachsorge",
+    "nebenwirkungen",
+    "notfall",
+    "operationstechnik",
+    "paediatrisch",
+    "pathologie",
+    "pharmakologie",
+    "praeoperativ",
+    "pruefungsrelevant-hoch",
+    "zulassung"
   ]
 }

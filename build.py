@@ -19,6 +19,8 @@ from datetime import date, timedelta
 from pathlib import Path
 from quality import issues as quality_issues
 from quality import corpus_issues as quality_corpus_issues
+from approval import valid_approval
+from review_ui import write_review_page
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data" if (ROOT / 'data' / 'domains.json').exists() else ROOT
@@ -163,13 +165,14 @@ def check(q, slug, tags, languages, seen, today, soon, length_cue, longest_corre
                     warnings.append(f"{qid}: laeuft am {expires} ab")
                 live = q.get("status") == "published"
 
-    if q.get("status") == "published" and not review.get("reviewer"):
-        warnings.append(f"{qid}: published ohne Zweitpruefer")
+    if q.get("status") == "published" and not valid_approval(q):
+        warnings.append(f"{qid}: fachärztliche Freigabe ausstehend")
+    review['approval_valid'] = valid_approval(q)
 
     for lc, kind, description in quality_issues(q):
         if kind in {'generic_lead','mixed_stem','duplicate_rationale','duplicate_option'}:
             bad(f'[{lc}] {description}')
-        elif kind == 'short_cue':
+        elif kind != 'long_cue':
             warnings.append(f'{qid} [{lc}]: {description}')
 
     return live
@@ -263,6 +266,7 @@ def main():
             .replace("@@STORE@@", STORE_JS)
             .replace("@@APP@@", APP_JS))
     OUT.write_text(html, encoding="utf-8")
+    write_review_page(bank, ROOT)
 
     live = sum(counts.values())
     size_kb = round(len(html.encode("utf-8")) / 1024)
@@ -270,7 +274,7 @@ def main():
     print()
     print(f"index.html geschrieben — {size_kb} KB, Sprachen: {', '.join(languages)}")
     print(f"{live} verfuegbare Lernfragen von {len(questions)} in {len(config['domains'])} Dateien")
-    pending = sum(not q.get('review',{}).get('reviewer') for q in questions)
+    pending = sum(not valid_approval(q) for q in questions)
     print(f'{pending} Fragen ohne unabhaengige fachaerztliche Freigabe; Verfuegbarkeit ist keine Freigabe.')
     for g in config.get("groups", []):
         total = sum(counts[d["slug"]] for d in config["domains"] if d.get("group") == g["slug"])
@@ -289,8 +293,9 @@ def main():
     paare = quality_corpus_issues(questions)
     for a, b, r in paare:
         warnings.append(f"{a} und {b}: Fragestellung und richtige Antwort fast gleich ({r})")
+        print(f"Hinweis  {a} / {b}: ähnliche Fragestellung ({r}); klinischen Kontext vergleichen")
     if paare:
-        print(f"{len(paare)} Fragenpaare pruefen dieselbe Aussage")
+        print(f"{len(paare)} ähnliche Fragenpaare zur manuellen Prüfung")
     if longest_correct[1]:
         share = longest_correct[0] / longest_correct[1] * 100
         mark = "  <-- Zufallserwartung liegt bei 25 %" if share > 40 else ""
@@ -301,7 +306,7 @@ def main():
     if warnings:
         print(f"{len(warnings)} Hinweise (siehe oben)")
     print()
-    print("Jetzt nur diese eine Datei zu GitHub hochladen: index.html")
+    print("Für Lern- und Prüfmodus beide Dateien hochladen: index.html und pruefung.html")
     return 0
 
 
@@ -971,6 +976,9 @@ APP_JS = r'''(function () {
       root.innerHTML = '';
       root.appendChild(el('p', 'intro', t.intro));
       root.appendChild(el('p','notice',t.unreviewed));
+      var reviewLink = el('a', 'btn ghost', {de:'✓ Fragen fachlich prüfen',en:'✓ Review questions',es:'✓ Revisar preguntas'}[lang]);
+      reviewLink.href = 'pruefung.html';
+      root.appendChild(reviewLink);
       root.appendChild(learningDashboard(progress));
       root.appendChild(el('p','domain-hint',LEARNING[lang].adaptive));
 
@@ -1206,8 +1214,7 @@ APP_JS = r'''(function () {
         explain.appendChild(a); explain.appendChild(el('br'));
       }
     });
-    explain.appendChild(el('p', 'sourceline', q.review && q.review.reviewer
-      ? t.reviewed + ': ' + q.review.last_reviewed : t.unreviewed));
+    explain.appendChild(el('p', 'sourceline', approvalLine(q)));
 
     var actions = el('div', 'actions');
 
@@ -1327,6 +1334,13 @@ APP_JS = r'''(function () {
 
   /* ---------- Ergebnis als Datei ---------- */
 
+  function approvalLine(q) {
+    var r = q.review || {}, a = r.approval || {};
+    var today = new Date().toISOString().slice(0,10);
+    return r.approval_valid === true && (a.languages || []).indexOf(lang) >= 0 && r.expires >= today
+      ? UI[lang].reviewed + ': ' + r.last_reviewed + ' · ' + r.reviewer + ' · ' + a.languages.join(', ').toUpperCase()
+      : UI[lang].unreviewed;
+  }
   function esc(s) {
     return String(s == null ? '' : s)
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -1408,7 +1422,7 @@ APP_JS = r'''(function () {
       q.sources.forEach(function (s) {
         if (s.url && /^https:\/\//.test(s.url)) p.push('<p class="note"><a href="' + esc(s.url) + '">' + esc(s.title || s.url) + '</a></p>');
       });
-      p.push('<p class="note">' + esc(q.review && q.review.reviewer ? t.reviewed + ': ' + q.review.last_reviewed : t.unreviewed) + '</p>');
+      p.push('<p class="note">' + esc(approvalLine(q)) + '</p>');
       p.push('</div>');
     });
 

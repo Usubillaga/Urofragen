@@ -1794,7 +1794,7 @@
     },
     {
       "id": "uro-ope-00013",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Lagerungsschäden",
@@ -1842,14 +1842,15 @@
         "author": "EK",
         "reviewer": null,
         "created": "2026-09-06",
-        "last_reviewed": "2026-09-06",
+        "last_reviewed": null,
         "expires": "2029-09-06",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
         },
-        "clinical_review_status": "pending_independent_review"
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Imported rationale revisions now assigned a new question version."
       },
       "content": {
         "de": {
@@ -1858,7 +1859,7 @@
           "options": {
             "A": {
               "text": "Druckschädigung des N. peroneus communis am Fibulaköpfchen",
-              "rationale": "Der Nerv liegt dort unmittelbar dem Knochen an und wird durch seitlichen Druck der Halterung komprimiert. Fußheberschwäche mit Sensibilitätsstörung am Fußrücken ist das typische Bild. Der Nerv liegt dort unmittelbar dem Knochen an und wird durch seitlichen Druck der Beinhalterung komprimiert."
+              "rationale": "Der Nerv liegt dort unmittelbar dem Knochen an und wird durch seitlichen Druck der Halterung komprimiert. Fußheberschwäche mit Sensibilitätsstörung am Fußrücken ist das typische Bild. De"
             },
             "B": {
               "text": "Kompartmentsyndrom des Unterschenkels nach langer Lagerung",
@@ -1885,7 +1886,7 @@
           "options": {
             "A": {
               "text": "Pressure injury to the common peroneal nerve at the fibula",
-              "rationale": "The nerve lies directly on bone there and is compressed by lateral pressure from the holder. Foot drop with sensory loss over the dorsum is the typical picture. The nerve lies directly on bone there and is compressed by lateral pressure from the leg holder."
+              "rationale": "The nerve lies directly on bone there and is compressed by lateral pressure from the holder. Foot drop with sensory loss over the dorsum is the typical picture."
             },
             "B": {
               "text": "Compartment syndrome of the lower leg after long positioning",
@@ -1912,7 +1913,7 @@
           "options": {
             "A": {
               "text": "Lesión por presión del nervio peroneo común en el peroné",
-              "rationale": "El nervio se encuentra allí directamente sobre el hueso y se comprime mediante la presión lateral del soporte. El cuadro típico es el pie caído con pérdida sensorial en el dorso. El nervio se encuentra allí directamente sobre el hueso y se comprime mediante la presión lateral del soporte de la pierna."
+              "rationale": "El nervio se encuentra allí directamente sobre el hueso y se comprime mediante la presión lateral del soporte. El cuadro típico es el pie caído con pérdida sensorial en el dorso."
             },
             "B": {
               "text": "Síndrome compartimental de la parte inferior de la pierna después de una posición prolongada",

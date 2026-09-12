@@ -1214,7 +1214,7 @@
     },
     {
       "id": "uro-kin-00009",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Enuresis",
@@ -1262,14 +1262,15 @@
         "author": "EK",
         "reviewer": null,
         "created": "2026-09-06",
-        "last_reviewed": "2026-09-06",
+        "last_reviewed": null,
         "expires": "2028-09-06",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
         },
-        "clinical_review_status": "pending_independent_review"
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Imported rationale revisions now assigned a new question version."
       },
       "content": {
         "de": {
@@ -1344,7 +1345,7 @@
             },
             "D": {
               "text": "Educación y un diario, luego alarma o desmopresina.",
-              "rationale": "La terapia de alarma funciona de forma más duradera gracias a un efecto de aprendizaje; La desmopresina actúa más rápido y es práctica para las fiestas de pijamas. Ambas son opciones de primera línea. La desmopresina se administra, por ejemplo, en dosis de 120 a 240 microgramos como liofilizado oral por la noche. La terapia de alarma funciona de forma más duradera gracias a un efecto de aprendizaje; ambos son de primera línea."
+              "rationale": "La terapia de alarma funciona de forma más duradera gracias a un efecto de aprendizaje; La desmopresina actúa más rápido y es práctica para las fiestas de pijamas. Ambas son opciones de primera línea. La desmopresina se administra, por ejemplo, en dosis de 120 a 240 microgramos como liofilizado oral por la noche."
             }
           },
           "explanation": {

@@ -783,7 +783,7 @@
     },
     {
       "id": "uro-pca-00006",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Biopsietechnik",
@@ -831,14 +831,15 @@
         "author": "EK",
         "reviewer": null,
         "created": "2026-09-07",
-        "last_reviewed": "2026-09-07",
+        "last_reviewed": null,
         "expires": "2028-09-07",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
         },
-        "clinical_review_status": "pending_independent_review"
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Imported rationale revisions now assigned a new question version."
       },
       "content": {
         "de": {
@@ -859,7 +860,7 @@
             },
             "D": {
               "text": "Transperineale Biopsie ohne Durchtritt durch das Rektum",
-              "rationale": "Der Verzicht auf den transrektalen Weg entfernt den Keimtransport aus dem Verfahren, statt ihn medikamentös aufzufangen. Randomisierte Vergleiche zeigen eine deutlich geringere Infektionsrate bei gleichwertiger Detektion, und die apexnahen sowie anterioren Läsionen sind besser erreichbar. Der Verzicht auf den transrektalen Weg entfernt den Keimtransport aus dem Verfahren. Sie ist in Lokalanästhesie durchführbar und erreicht die ventralen und apikalen Anteile besser."
+              "rationale": "Der Verzicht auf den transrektalen Weg entfernt den Keimtransport aus dem Verfahren, statt ihn medikamentös aufzufangen. Randomisierte Vergleiche zeigen eine deutlich geringere Infektionsrate bei gleichwertiger Detektion, und die apexnahen sowie anterioren Läsionen sind besser erreichbar."
             }
           },
           "explanation": {
@@ -886,7 +887,7 @@
             },
             "D": {
               "text": "Transperineal biopsy avoiding passage through the rectum",
-              "rationale": "Abandoning the transrectal route removes bacterial transfer from the procedure instead of countering it with drugs. Randomised comparisons show markedly lower infection rates with equivalent detection, and apical and anterior lesions are more accessible. Abandoning the transrectal route removes bacterial transfer from the procedure. It can be done under local anaesthesia and reaches anterior and apical areas better."
+              "rationale": "Abandoning the transrectal route removes bacterial transfer from the procedure instead of countering it with drugs. Randomised comparisons show markedly lower infection rates with equivalent detection, and apical and anterior lesions are more accessible."
             }
           },
           "explanation": {

@@ -3,7 +3,7 @@
   "fragen": [
     {
       "id": "uro-hod-00001",
-      "version": 2,
+      "version": 3,
       "status": "published",
       "taxonomy": {
         "subdomain": "Seminom Stadium I",
@@ -43,27 +43,36 @@
           "type": "leitlinie",
           "code": "EAU",
           "title": "EAU Guidelines on Testicular Cancer",
-          "year": 2026
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/testicular-cancer/chapter/disease-management"
         },
         {
           "type": "leitlinie",
           "code": "AWMF 043-049OL",
           "title": "S3-Leitlinie Keimzelltumoren des Hodens",
           "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Testicular Cancer: Follow Up After Curative Therapy",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/testicular-cancer/chapter/followup-after-curative-therapy"
         }
       ],
       "review": {
         "author": "EK",
         "reviewer": null,
         "created": "2026-09-05",
-        "last_reviewed": "2026-09-05",
+        "last_reviewed": null,
         "expires": "2028-09-05",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
         },
-        "clinical_review_status": "pending_independent_review"
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Removed incorrect low-risk relapse estimate; clarified structured follow-up."
       },
       "content": {
         "de": {
@@ -80,7 +89,7 @@
             },
             "C": {
               "text": "Aktive Surveillance mit bildgebungsgestützter Nachsorge",
-              "rationale": "Ohne Risikomerkmale liegt das Rezidivrisiko bei etwa 15 Prozent, und Rezidive sind fast immer heilbar. Getragen wird die Überwachung von der Schnittbildgebung, weil die Marker beim Seminom meist im Normbereich bleiben."
+              "rationale": "Bei diesem Niedrigrisikobefund vermeidet Surveillance eine adjuvante Therapie bei vielen bereits geheilten Patienten. Rezidive sind meist erfolgreich behandelbar. Die strukturierte Nachsorge umfasst Schnittbildgebung und Tumormarker; normale Marker schließen ein Rezidiv nicht aus."
             },
             "D": {
               "text": "Nachsorge allein mit Tumormarkern ohne Bildgebung",
@@ -89,7 +98,7 @@
           },
           "explanation": {
             "core": "Im Stadium I entscheidet nicht die maximale Tumorkontrolle, sondern das Verhältnis von Nutzen zu Langzeittoxizität bei jungen Männern mit einer Heilungsrate nahe hundert Prozent. Surveillance verlagert die Behandlung auf die Minderheit mit Rezidiv, statt alle zu therapieren.",
-            "teaching_point": "Beim Seminom im Stadium I ist Nichtstun unter engmaschiger Kontrolle die aktive Entscheidung, nicht das Versäumnis."
+            "teaching_point": "Surveillance setzt verlässliche Termine für Bildgebung und Tumormarker voraus."
           },
           "flag_note": null
         },
@@ -107,7 +116,7 @@
             },
             "C": {
               "text": "Active surveillance based on cross-sectional imaging",
-              "rationale": "Without risk features the relapse risk is around 15 per cent and relapses are almost always curable. Surveillance rests on imaging, because markers usually stay normal in seminoma."
+              "rationale": "For this low-risk presentation, surveillance avoids adjuvant treatment in many patients already cured. Relapses can usually be treated successfully. Structured follow-up includes cross-sectional imaging and tumour markers; normal markers do not exclude relapse."
             },
             "D": {
               "text": "Follow-up with tumour markers alone, without imaging",
@@ -116,12 +125,12 @@
           },
           "explanation": {
             "core": "In stage I the decision is not about maximum tumour control but about the balance of benefit against long-term toxicity in young men whose cure rate approaches one hundred per cent. Surveillance shifts treatment onto the minority who relapse instead of treating everyone.",
-            "teaching_point": "In stage I seminoma, doing nothing under close monitoring is the active decision, not an omission."
+            "teaching_point": "Surveillance requires reliable attendance for imaging and tumour marker measurements."
           },
           "flag_note": null
         },
         "es": {
-          "vignette": "Hombre de 32 años tras orquiectomía inguinal. Histología: seminoma puro, pT1, sin invasión de la rete testis, diámetro del tumor 2,8 cm. Marcadores tumorales normales antes y después de la cirugía, TC de tórax, abdomen y pelvis sin complicaciones. Estadio clínico I.",
+          "vignette": "Hombre de 32 años tras orquiectomía inguinal. Histología: seminoma puro, pT1, sin invasión de la rete testis, diámetro del tumor 2,8 cm. Marcadores tumorales normales antes y después de la cirugía, TC de tórax, abdomen y pelvis sin hallazgos patológicos. Estadio clínico I.",
           "lead_in": "¿Cuál es el enfoque estándar en el seminoma puro en estadio I?",
           "options": {
             "A": {
@@ -134,7 +143,7 @@
             },
             "C": {
               "text": "Vigilancia activa apoyada en pruebas de imagen seriadas",
-              "rationale": "Sin factores de riesgo el riesgo de recidiva ronda el 15 por ciento y las recidivas son casi siempre curables. La vigilancia se apoya en la imagen, porque en el seminoma los marcadores suelen ser normales."
+              "rationale": "En este caso de bajo riesgo, la vigilancia evita el tratamiento adyuvante en muchos pacientes ya curados. Las recidivas suelen tratarse con éxito. El seguimiento estructurado incluye pruebas de imagen y marcadores tumorales; unos marcadores normales no excluyen una recidiva."
             },
             "D": {
               "text": "Seguimiento solo con marcadores tumorales, sin imagen",
@@ -143,7 +152,7 @@
           },
           "explanation": {
             "core": "En la etapa I, la decisión no se trata del control máximo del tumor sino del equilibrio entre el beneficio y la toxicidad a largo plazo en hombres jóvenes cuya tasa de curación se acerca al cien por ciento. La vigilancia dirige el tratamiento a la minoría que recae en lugar de tratar a todos.",
-            "teaching_point": "En el seminoma en etapa I, no hacer nada bajo estrecha supervisión es una decisión activa, no una omisión."
+            "teaching_point": "La vigilancia requiere acudir de forma fiable a los controles de imagen y marcadores tumorales."
           },
           "flag_note": null
         }
@@ -1081,7 +1090,7 @@
     },
     {
       "id": "uro-hod-00008",
-      "version": 2,
+      "version": 3,
       "status": "published",
       "taxonomy": {
         "subdomain": "Nichtseminom Stadium I",
@@ -1122,21 +1131,30 @@
           "type": "leitlinie",
           "code": "EAU",
           "title": "EAU Guidelines on Testicular Cancer",
-          "year": 2026
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/testicular-cancer/chapter/disease-management"
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Testicular Cancer: Follow Up After Curative Therapy",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/testicular-cancer/chapter/followup-after-curative-therapy"
         }
       ],
       "review": {
         "author": "EK",
         "reviewer": null,
         "created": "2026-09-07",
-        "last_reviewed": "2026-09-07",
+        "last_reviewed": null,
         "expires": "2028-09-07",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
         },
-        "clinical_review_status": "pending_independent_review"
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Added imaging to surveillance; removed marker overstatement and absolute restriction of adjuvant BEP to LVI-positive disease."
       },
       "content": {
         "de": {
@@ -1145,7 +1163,7 @@
           "options": {
             "A": {
               "text": "Ein Zyklus BEP adjuvant für alle Patienten im Stadium I",
-              "rationale": "Die adjuvante Gabe ist der Hochrisikogruppe mit lymphovaskulärer Invasion vorbehalten; ohne sie würde die Mehrheit unnötig behandelt."
+              "rationale": "Ein Zyklus BEP ist eine Alternative, wenn Surveillance abgelehnt wird oder nicht durchführbar ist. Eine routinemäßige Gabe an alle Patienten würde viele bereits geheilte Männer unnötig behandeln."
             },
             "B": {
               "text": "Primäre retroperitoneale Lymphadenektomie einseitig",
@@ -1156,13 +1174,13 @@
               "rationale": "Beim Nichtseminom unwirksam."
             },
             "D": {
-              "text": "Aktive Surveillance mit engmaschigen Markerkontrollen",
-              "rationale": "Ohne lymphovaskuläre Invasion liegt das Rezidivrisiko bei etwa 15 Prozent. Anders als beim Seminom tragen hier AFP und beta-hCG die Überwachung, weil sie ein Rezidiv oft vor der Bildgebung anzeigen."
+              "text": "Aktive Surveillance mit Tumormarkern und Schnittbildgebung",
+              "rationale": "Bei zuverlässiger Nachsorge ist Surveillance ohne lymphovaskuläre Invasion bevorzugt. AFP, hCG und LDH ergänzen die Bildgebung; normale Werte schließen ein Rezidiv nicht aus. Marker können nur bei einem kleinen Teil der Patienten vor der Bildgebung auffällig werden."
             }
           },
           "explanation": {
-            "core": "Im Stadium I des Nichtseminoms teilt die lymphovaskuläre Invasion die Patienten in zwei Gruppen mit sehr unterschiedlichem Rezidivrisiko. Ohne sie ist Surveillance der Standard, mit ihr wird ein Zyklus BEP empfohlen. In beiden Fällen liegt die Heilungsrate nahe hundert Prozent, es unterscheidet sich nur, wer behandelt wird.",
-            "teaching_point": "Ohne lymphovaskuläre Invasion wird beobachtet, nicht behandelt."
+            "core": "Ohne lymphovaskuläre Invasion wird bei zuverlässiger Teilnahme Surveillance empfohlen. Ein Zyklus BEP kann nach Beratung gewählt werden, wenn Surveillance nicht geeignet ist. Bei lymphovaskulärer Invasion ist das Rezidivrisiko höher; Surveillance und adjuvantes BEP werden unter Abwägung der Vor- und Nachteile besprochen.",
+            "teaching_point": "Surveillance bedeutet geplante Kontrollen mit Markern und Bildgebung."
           },
           "flag_note": null
         },
@@ -1172,7 +1190,7 @@
           "options": {
             "A": {
               "text": "One adjuvant cycle of BEP for all stage I patients",
-              "rationale": "Adjuvant treatment is reserved for the high-risk group with lymphovascular invasion; otherwise the majority would be treated unnecessarily."
+              "rationale": "One cycle of BEP is an alternative when surveillance is declined or cannot be performed. Routine treatment of all patients would expose many already cured men to unnecessary therapy."
             },
             "B": {
               "text": "Primary unilateral retroperitoneal lymph node dissection",
@@ -1183,13 +1201,13 @@
               "rationale": "Ineffective in non-seminoma."
             },
             "D": {
-              "text": "Active surveillance with close tumour marker checks",
-              "rationale": "Without lymphovascular invasion the relapse risk is around 15 per cent. Unlike seminoma, AFP and beta-hCG carry surveillance here, because they often signal relapse before imaging does."
+              "text": "Active surveillance with tumour markers and imaging",
+              "rationale": "With reliable follow-up, surveillance is preferred without lymphovascular invasion. AFP, hCG and LDH complement imaging; normal values do not exclude relapse. Markers become abnormal before imaging in only a small proportion of patients."
             }
           },
           "explanation": {
-            "core": "In stage I non-seminoma, lymphovascular invasion splits patients into two groups with very different relapse risk. Without it surveillance is standard; with it one cycle of BEP is recommended. Cure rates approach one hundred per cent either way; only who gets treated differs.",
-            "teaching_point": "Without lymphovascular invasion you observe rather than treat."
+            "core": "Without lymphovascular invasion, surveillance is recommended when follow-up is reliable. One cycle of BEP may be chosen after counselling if surveillance is unsuitable. Lymphovascular invasion increases relapse risk; surveillance and adjuvant BEP are discussed with their respective benefits and harms.",
+            "teaching_point": "Surveillance means scheduled marker measurements and imaging."
           },
           "flag_note": null
         },
@@ -1199,7 +1217,7 @@
           "options": {
             "A": {
               "text": "Un ciclo adyuvante de BEP para todos los pacientes en etapa I",
-              "rationale": "El tratamiento adyuvante se reserva para el grupo de alto riesgo con invasión linfovascular; de lo contrario, la mayoría sería tratada innecesariamente."
+              "rationale": "Un ciclo de BEP es una alternativa si se rechaza la vigilancia o esta no es viable. Tratar sistemáticamente a todos expondría a muchos hombres ya curados a un tratamiento innecesario."
             },
             "B": {
               "text": "Linfadenectomía retroperitoneal primaria unilateral",
@@ -1207,16 +1225,16 @@
             },
             "C": {
               "text": "Radioterapia retroperitoneal adyuvante a campo fijo",
-              "rationale": "Ineficaz en pacientes tumores no seminomatosos."
+              "rationale": "La radioterapia no es un tratamiento adyuvante estándar eficaz para los tumores no seminomatosos."
             },
             "D": {
-              "text": "Vigilancia activa con controles estrechos de marcadores",
-              "rationale": "Sin invasión linfovascular el riesgo de recidiva ronda el 15 por ciento. A diferencia del seminoma, aquí la AFP y la beta-hCG sostienen la vigilancia, porque a menudo señalan la recidiva antes que la imagen."
+              "text": "Vigilancia activa con marcadores tumorales e imagen",
+              "rationale": "Con un seguimiento fiable, se prefiere la vigilancia si no hay invasión linfovascular. La AFP, la hCG y la LDH complementan las pruebas de imagen; unos valores normales no excluyen una recidiva. Los marcadores se alteran antes que la imagen solo en una pequeña proporción de pacientes."
             }
           },
           "explanation": {
-            "core": "En el estadio I no seminoma, la invasión linfovascular divide a los pacientes en dos grupos con riesgos de recaída muy diferentes. Sin ella, la vigilancia es estándar; con él se recomienda un ciclo de BEP. Las tasas de curación se acercan al cien por cien en ambos sentidos; Sólo difiere quién recibe tratamiento.",
-            "teaching_point": "Sin invasión linfovascular, se observa en lugar de tratar."
+            "core": "Sin invasión linfovascular se recomienda vigilancia cuando el seguimiento es fiable. Tras informar al paciente, puede elegirse un ciclo de BEP si la vigilancia no resulta adecuada. La invasión linfovascular aumenta el riesgo de recidiva; se discuten la vigilancia y el BEP adyuvante con sus beneficios y riesgos.",
+            "teaching_point": "La vigilancia requiere controles programados de marcadores e imagen."
           },
           "flag_note": null
         }

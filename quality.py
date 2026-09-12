@@ -64,6 +64,10 @@ def issues(q):
             paare=[(SequenceMatcher(None,a,c).ratio(),a,c) for i,a in enumerate(reasons) for c in reasons[i+1:]]
             if paare and max(paare)[0]>=RATIONALE_SIMILARITY:
                 result.append((lc,'near_duplicate_rationale',f'zwei Begründungen fast wortgleich ({max(paare)[0]:.2f})'))
+        for k,o in opts.items():
+            t=norm(o.get('rationale',''))
+            if len(t)>=140 and t.count(t[:70])>1:
+                result.append((lc,'repeated_block',f'Option {k}: Textblock doppelt in der Begründung'))
         texts=[norm(o.get('text','')) for o in opts.values()]
         if len(set(texts))!=len(texts):result.append((lc,'duplicate_option','doppelte Antwortoption'))
         if len(correct)==1 and correct[0] in opts and len(opts)>1:
