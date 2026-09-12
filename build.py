@@ -40,7 +40,15 @@ def load(path):
     return None
 
 
-def check(q, slug, tags, languages, seen, today, soon, length_cue, longest_correct, coverage):
+GENERISCHE_FRAGEN = {
+    "Welche Antwort trifft am besten zu?",
+    "Which answer is most correct?",
+    "Was trifft zu?",
+    "Welche Aussage trifft zu?",
+}
+
+
+def check(q, slug, tags, languages, seen, today, soon, length_cue, longest_correct, coverage, itemform):
     qid = q.get("id") or "(ohne id)"
 
     def bad(msg):
@@ -125,6 +133,22 @@ def check(q, slug, tags, languages, seen, today, soon, length_cue, longest_corre
             bad(f"[{lc}] unbekannte Optionsschluessel: {', '.join(extra)}")
         if ev.get("flag") is True and not body.get("flag_note"):
             bad(f"[{lc}] flag: true ohne flag_note")
+        # --- Itemqualitaet: Aufbau der Frage ---
+        if lc == languages[0]:
+            if (body.get("lead_in") or "").strip() in GENERISCHE_FRAGEN:
+                warnings.append(f"{qid}: generische Fragestellung - die Frage gehoert in lead_in, "
+                                f"nicht in die Vignette")
+                itemform.append(qid)
+            if (body.get("vignette") or "").rstrip().endswith("?"):
+                warnings.append(f"{qid}: die Vignette endet mit einem Fragezeichen - "
+                                f"Fall und Fragestellung sind vermischt")
+                itemform.append(qid)
+            begruendungen = {(texts.get(k) or {}).get("rationale") for k in keys}
+            if len(begruendungen) == 1 and len(keys) > 1:
+                warnings.append(f"{qid}: alle {len(keys)} Optionen teilen dieselbe Begruendung - "
+                                f"der Lerneffekt der Einzelbegruendung entfaellt")
+                itemform.append(qid)
+
         lengths = {k: len((texts.get(k) or {}).get("text") or "") for k in keys}
         ck = correct[0].get("key") if correct else None
         if lc == languages[0] and ck in lengths and len(lengths) > 1:
@@ -138,6 +162,11 @@ def check(q, slug, tags, languages, seen, today, soon, length_cue, longest_corre
                 warnings.append(
                     f"{qid} [{lc}]: richtige Option {lengths[ck]/avg:.1f}-mal so lang wie die Distraktoren "
                     f"— die Laenge verraet die Antwort")
+                length_cue.append(qid)
+            elif avg > 0 and lengths[ck] / avg <= 0.7:
+                warnings.append(
+                    f"{qid} [{lc}]: richtige Option nur {lengths[ck]/avg:.0%} der Distraktorlaenge "
+                    f"- die Kuerze verraet die Antwort")
                 length_cue.append(qid)
             elif lengths[ck] == max(lengths.values()) and lengths[ck] / avg >= 1.25:
                 warnings.append(
@@ -191,6 +220,7 @@ def main():
     seen = set()
     counts = {slug: 0 for slug in domains}
     length_cue = []
+    itemform = []
     longest_correct = [0, 0]
     coverage = {}
 
@@ -223,7 +253,7 @@ def main():
         for q in doc.get("fragen", []) or []:
             q.setdefault("taxonomy", {})["domain"] = slug
             questions.append(q)
-            if check(q, slug, tags, languages, seen, today, soon, length_cue, longest_correct, coverage):
+            if check(q, slug, tags, languages, seen, today, soon, length_cue, longest_correct, coverage, itemform):
                 counts[slug] += 1
 
     minimum = config.get('min_questions_per_domain', 10)
@@ -281,6 +311,9 @@ def main():
         mark = "  <-- Zufallserwartung liegt bei 25 %" if share > 40 else ""
         print(f"richtige Antwort ist die laengste Option: {longest_correct[0]}/{longest_correct[1]} "
               f"({share:.0f} %){mark}")
+    if itemform:
+        print(f"{len(set(itemform))} Fragen mit Maengeln im Aufbau "
+              f"(generische Fragestellung, Frage in der Vignette, geteilte Begruendung)")
     if length_cue:
         print(f"{len(set(length_cue))} Fragen, in denen die Optionslaenge die Antwort verraet")
     if warnings:
