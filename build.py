@@ -18,6 +18,7 @@ import sys
 from datetime import date, timedelta
 from pathlib import Path
 from quality import issues as quality_issues
+from quality import corpus_issues as quality_corpus_issues
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data" if (ROOT / 'data' / 'domains.json').exists() else ROOT
@@ -285,6 +286,11 @@ def main():
         if ges and ok < ges:
             print(f"Sprache {lc}: {ok}/{ges} Fragen uebersetzt ({ok/ges*100:.0f} %), "
                   f"der Rest faellt auf {languages[0]} zurueck")
+    paare = quality_corpus_issues(questions)
+    for a, b, r in paare:
+        warnings.append(f"{a} und {b}: Fragestellung und richtige Antwort fast gleich ({r})")
+    if paare:
+        print(f"{len(paare)} Fragenpaare pruefen dieselbe Aussage")
     if longest_correct[1]:
         share = longest_correct[0] / longest_correct[1] * 100
         mark = "  <-- Zufallserwartung liegt bei 25 %" if share > 40 else ""

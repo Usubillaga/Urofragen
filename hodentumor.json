@@ -3,7 +3,7 @@
   "fragen": [
     {
       "id": "uro-hod-00001",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Seminom Stadium I",
@@ -68,7 +68,7 @@
       "content": {
         "de": {
           "vignette": "32-jähriger Patient nach inguinaler Ablatio testis. Histologie: reines Seminom, pT1, keine Rete-testis-Invasion, Tumordurchmesser 2,8 cm. Tumormarker vor und nach Operation im Normbereich, CT von Thorax, Abdomen und Becken unauffällig. Klinisches Stadium I.",
-          "lead_in": "Welches Vorgehen ist Standard?",
+          "lead_in": "Welches Vorgehen ist beim reinen Seminom im Stadium I Standard?",
           "options": {
             "A": {
               "text": "Adjuvante paraaortale Radiatio mit 20 Gy in Standardfraktionierung",
@@ -79,12 +79,12 @@
               "rationale": "Eine Alternative, die die Rezidivrate senkt, das Gesamtüberleben aber nicht verbessert. Sie kommt vor allem infrage, wenn eine engmaschige Nachsorge nicht sicherzustellen ist."
             },
             "C": {
-              "text": "Aktive Surveillance nach festem Nachsorgeschema",
-              "rationale": "Etwa 82 bis 85 Prozent der Patienten im Stadium I sind bereits geheilt. Surveillance vermeidet die Übertherapie der Mehrheit; Rezidive sind im Verlauf sehr gut behandelbar."
+              "text": "Aktive Surveillance mit bildgebungsgestützter Nachsorge",
+              "rationale": "Ohne Risikomerkmale liegt das Rezidivrisiko bei etwa 15 Prozent, und Rezidive sind fast immer heilbar. Getragen wird die Überwachung von der Schnittbildgebung, weil die Marker beim Seminom meist im Normbereich bleiben."
             },
             "D": {
-              "text": "Nervschonende retroperitoneale Lymphadenektomie beidseits",
-              "rationale": "Beim Seminom im Stadium I kein Standardverfahren; sie gehört in den Bereich des Nichtseminoms und ausgewählter Sondersituationen."
+              "text": "Nachsorge allein mit Tumormarkern ohne Bildgebung",
+              "rationale": "Beim Seminom sind AFP definitionsgemäß normal und beta-hCG nur bei einem Teil erhöht. Eine markergestützte Nachsorge ohne Bildgebung übersieht das retroperitoneale Rezidiv."
             }
           },
           "explanation": {
@@ -95,7 +95,7 @@
         },
         "en": {
           "vignette": "32-year-old man after inguinal orchiectomy. Histology: pure seminoma, pT1, no rete testis invasion, tumour diameter 2.8 cm. Tumour markers normal before and after surgery, CT of chest, abdomen and pelvis unremarkable. Clinical stage I.",
-          "lead_in": "What is the standard approach?",
+          "lead_in": "What is the standard approach in pure stage I seminoma?",
           "options": {
             "A": {
               "text": "Adjuvant para-aortic radiotherapy with 20 Gy in standard fractions",
@@ -106,12 +106,12 @@
               "rationale": "An alternative that lowers the relapse rate but does not improve overall survival. It mainly applies when close follow-up cannot be assured."
             },
             "C": {
-              "text": "Active surveillance following a defined follow-up schedule",
-              "rationale": "Roughly 82 to 85 per cent of stage I patients are already cured. Surveillance avoids overtreating the majority, and relapses remain highly treatable."
+              "text": "Active surveillance based on cross-sectional imaging",
+              "rationale": "Without risk features the relapse risk is around 15 per cent and relapses are almost always curable. Surveillance rests on imaging, because markers usually stay normal in seminoma."
             },
             "D": {
-              "text": "Bilateral nerve-sparing retroperitoneal lymph node dissection",
-              "rationale": "Not a standard procedure in stage I seminoma; it belongs to non-seminoma and selected special situations."
+              "text": "Follow-up with tumour markers alone, without imaging",
+              "rationale": "In seminoma AFP is normal by definition and beta-hCG raised in only a proportion. Marker-based follow-up without imaging misses the retroperitoneal relapse."
             }
           },
           "explanation": {
@@ -122,7 +122,7 @@
         },
         "es": {
           "vignette": "Hombre de 32 años tras orquiectomía inguinal. Histología: seminoma puro, pT1, sin invasión de la rete testis, diámetro del tumor 2,8 cm. Marcadores tumorales normales antes y después de la cirugía, TC de tórax, abdomen y pelvis sin complicaciones. Estadio clínico I.",
-          "lead_in": "¿Cuál es el enfoque estándar?",
+          "lead_in": "¿Cuál es el enfoque estándar en el seminoma puro en estadio I?",
           "options": {
             "A": {
               "text": "Radioterapia paraaórtica adyuvante con 20 Gy en fracciones estándar",
@@ -133,12 +133,12 @@
               "rationale": "Una alternativa que reduce la tasa de recaída pero no mejora la supervivencia general. Se aplica principalmente cuando no se puede garantizar un seguimiento estrecho."
             },
             "C": {
-              "text": "Vigilancia activa siguiendo un calendario de seguimiento definido",
-              "rationale": "Aproximadamente entre el 82 y el 85 por ciento de los pacientes en etapa I ya están curados. La vigilancia evita tratar excesivamente a la mayoría y las recaídas siguen siendo altamente tratables."
+              "text": "Vigilancia activa apoyada en pruebas de imagen seriadas",
+              "rationale": "Sin factores de riesgo el riesgo de recidiva ronda el 15 por ciento y las recidivas son casi siempre curables. La vigilancia se apoya en la imagen, porque en el seminoma los marcadores suelen ser normales."
             },
             "D": {
-              "text": "Disección bilateral de ganglios linfáticos retroperitoneales con preservación de nervios",
-              "rationale": "No es un procedimiento estándar en el seminoma en etapa I; pertenece a situaciones especiales no seminomatosas y seleccionadas."
+              "text": "Seguimiento solo con marcadores tumorales, sin imagen",
+              "rationale": "En el seminoma la AFP es normal por definición y la beta-hCG se eleva solo en una parte. Un seguimiento basado en marcadores sin imagen pasa por alto la recidiva retroperitoneal."
             }
           },
           "explanation": {
@@ -1081,7 +1081,7 @@
     },
     {
       "id": "uro-hod-00008",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Nichtseminom Stadium I",
@@ -1141,23 +1141,23 @@
       "content": {
         "de": {
           "vignette": "26-jähriger Patient nach Ablatio, Histologie Nichtseminom pT1 ohne lymphovaskuläre Invasion. Marker vollständig normalisiert, CT unauffällig, klinisches Stadium I. Der Patient ist zuverlässig und wohnortnah angebunden.",
-          "lead_in": "Welches Vorgehen ist Standard?",
+          "lead_in": "Welches Vorgehen ist beim Nichtseminom ohne lymphovaskuläre Invasion Standard?",
           "options": {
             "A": {
               "text": "Ein Zyklus BEP adjuvant für alle Patienten im Stadium I",
               "rationale": "Die adjuvante Gabe ist der Hochrisikogruppe mit lymphovaskulärer Invasion vorbehalten; ohne sie würde die Mehrheit unnötig behandelt."
             },
             "B": {
-              "text": "Nervschonende retroperitoneale Lymphadenektomie beidseits",
-              "rationale": "Sie ist heute Sondersituationen vorbehalten und der Surveillance im Niedrigrisikostadium nicht überlegen."
+              "text": "Primäre retroperitoneale Lymphadenektomie einseitig",
+              "rationale": "Sie bleibt Sonderfällen vorbehalten: Ablehnung oder Kontraindikation der Chemotherapie, hoher Teratomanteil oder eine nicht sicherzustellende Nachsorge."
             },
             "C": {
               "text": "Adjuvante Radiatio des Retroperitoneums nach festem Feld",
               "rationale": "Beim Nichtseminom unwirksam."
             },
             "D": {
-              "text": "Aktive Surveillance nach festem Nachsorgeschema",
-              "rationale": "Ohne lymphovaskuläre Invasion liegt das Rezidivrisiko bei etwa 15 Prozent, und Rezidive sind mit Chemotherapie sehr gut heilbar. Damit bleiben rund 85 Prozent unbehandelt. Ohne lymphovaskuläre Invasion liegt das Rezidivrisiko bei etwa 15 Prozent. Das Schema umfasst Markerkontrollen und Bildgebung in festgelegten Abständen."
+              "text": "Aktive Surveillance mit engmaschigen Markerkontrollen",
+              "rationale": "Ohne lymphovaskuläre Invasion liegt das Rezidivrisiko bei etwa 15 Prozent. Anders als beim Seminom tragen hier AFP und beta-hCG die Überwachung, weil sie ein Rezidiv oft vor der Bildgebung anzeigen."
             }
           },
           "explanation": {
@@ -1168,23 +1168,23 @@
         },
         "en": {
           "vignette": "26-year-old man after orchiectomy, histology non-seminoma pT1 without lymphovascular invasion. Markers fully normalised, CT unremarkable, clinical stage I. He is reliable and lives close to the centre.",
-          "lead_in": "What is the standard approach?",
+          "lead_in": "What is the standard approach in non-seminoma without lymphovascular invasion?",
           "options": {
             "A": {
               "text": "One adjuvant cycle of BEP for all stage I patients",
               "rationale": "Adjuvant treatment is reserved for the high-risk group with lymphovascular invasion; otherwise the majority would be treated unnecessarily."
             },
             "B": {
-              "text": "Bilateral nerve-sparing retroperitoneal lymph node dissection",
-              "rationale": "Today reserved for special situations and not superior to surveillance in low-risk stage I."
+              "text": "Primary unilateral retroperitoneal lymph node dissection",
+              "rationale": "It is reserved for special situations: refusal of or contraindication to chemotherapy, high teratoma content, or follow-up that cannot be assured."
             },
             "C": {
               "text": "Adjuvant retroperitoneal radiotherapy to a fixed field",
               "rationale": "Ineffective in non-seminoma."
             },
             "D": {
-              "text": "Active surveillance on a defined follow-up schedule",
-              "rationale": "Without lymphovascular invasion the relapse risk is around 15 per cent, and relapses are highly curable with chemotherapy. Around 85 per cent thus remain untreated. Without lymphovascular invasion the relapse risk is around 15 per cent. The schedule comprises marker checks and imaging at defined intervals."
+              "text": "Active surveillance with close tumour marker checks",
+              "rationale": "Without lymphovascular invasion the relapse risk is around 15 per cent. Unlike seminoma, AFP and beta-hCG carry surveillance here, because they often signal relapse before imaging does."
             }
           },
           "explanation": {
@@ -1195,23 +1195,23 @@
         },
         "es": {
           "vignette": "Varón de 26 años postorquiectomía, histología no seminoma pT1 sin invasión linfovascular. Marcadores totalmente normalizados, TC normal, estadio clínico I. Es fiable y vive cerca del centro.",
-          "lead_in": "¿Cuál es el enfoque estándar?",
+          "lead_in": "¿Cuál es el enfoque estándar en el no seminoma sin invasión linfovascular?",
           "options": {
             "A": {
               "text": "Un ciclo adyuvante de BEP para todos los pacientes en etapa I",
               "rationale": "El tratamiento adyuvante se reserva para el grupo de alto riesgo con invasión linfovascular; de lo contrario, la mayoría sería tratada innecesariamente."
             },
             "B": {
-              "text": "Disección bilateral de ganglios linfáticos retroperitoneales con preservación de nervios",
-              "rationale": "Hoy reservado para situaciones especiales y no superior a la vigilancia en estadio I de bajo riesgo."
+              "text": "Linfadenectomía retroperitoneal primaria unilateral",
+              "rationale": "Se reserva para situaciones especiales: rechazo o contraindicación de la quimioterapia, alto componente de teratoma, o un seguimiento que no pueda asegurarse."
             },
             "C": {
               "text": "Radioterapia retroperitoneal adyuvante a campo fijo",
               "rationale": "Ineficaz en pacientes tumores no seminomatosos."
             },
             "D": {
-              "text": "Vigilancia activa con un calendario de seguimiento definido",
-              "rationale": "Sin invasión linfovascular, el riesgo de recaída es de alrededor del 15 por ciento y las recaídas son altamente curables con quimioterapia. Por lo tanto, alrededor del 85 por ciento siguen sin recibir tratamiento. Sin invasión linfovascular, el riesgo de recaída es de alrededor del 15 por ciento. El programa comprende comprobaciones de marcadores e imágenes a intervalos definidos."
+              "text": "Vigilancia activa con controles estrechos de marcadores",
+              "rationale": "Sin invasión linfovascular el riesgo de recidiva ronda el 15 por ciento. A diferencia del seminoma, aquí la AFP y la beta-hCG sostienen la vigilancia, porque a menudo señalan la recidiva antes que la imagen."
             }
           },
           "explanation": {
