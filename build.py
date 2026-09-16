@@ -662,8 +662,8 @@ APP_JS = r'''(function () {
   var UI = {
     de: {
       title: 'Facharztfragen Urologie',
-      section: 'Abschnitt', version: 'Version', reviewed: 'Letzte fachliche Prüfung',
-      unreviewed: 'Unabhängige fachärztliche Prüfung ausstehend',
+      section: 'Abschnitt', version: 'Version', reviewed: 'Fachärztliche Freigabe',
+      unreviewed: 'Fachärztliche Freigabe ausstehend',
       certainty: { etabliert: 'etabliert', kontrovers: 'kontrovers', ohne_phase_III: 'ohne Phase-III-Bestätigung', expertenkonsens: 'Expertenkonsens' },
       intro: 'Fallbasierte Fragen auf Facharztniveau. Jede Antwortoption ist begründet, jede Frage nennt ihre Quelle und ihr Überprüfungsdatum. Der Lernfortschritt bleibt in diesem Browser.',
       inventory: function (n, d) { return n + ' Fragen in ' + d + ' Gebieten'; },
@@ -700,8 +700,8 @@ APP_JS = r'''(function () {
     },
     en: {
       title: 'Urology Board Questions',
-      section: 'Section', version: 'Version', reviewed: 'Last clinical review',
-      unreviewed: 'Independent specialist review pending',
+      section: 'Section', version: 'Version', reviewed: 'Clinical approval',
+      unreviewed: 'Clinical approval pending',
       certainty: { etabliert: 'established', kontrovers: 'controversial', ohne_phase_III: 'without phase III confirmation', expertenkonsens: 'expert consensus' },
       intro: 'Case-based questions at board level. Every answer option is explained, every question states its source and review date. Your progress stays in this browser.',
       inventory: function (n, d) { return n + ' questions across ' + d + ' areas'; },
@@ -738,8 +738,8 @@ APP_JS = r'''(function () {
     },
     es: {
       title: 'Preguntas de especialidad en Urología',
-      section: 'Sección', version: 'Versión', reviewed: 'Última revisión clínica',
-      unreviewed: 'Revisión independiente por un especialista pendiente',
+      section: 'Sección', version: 'Versión', reviewed: 'Aprobación clínica',
+      unreviewed: 'Aprobación clínica pendiente',
       certainty: { etabliert: 'establecida', kontrovers: 'controvertida', ohne_phase_III: 'sin confirmación en fase III', expertenkonsens: 'consenso de expertos' },
       intro: 'Preguntas basadas en casos, de nivel de especialista. Cada opción lleva su justificación y cada pregunta indica su fuente y su fecha de revisión. El progreso queda en este navegador.',
       inventory: function (n, d) { return n + ' preguntas en ' + d + ' áreas'; },
@@ -975,7 +975,8 @@ APP_JS = r'''(function () {
     store.getDomainProgress().then(function (progress) {
       root.innerHTML = '';
       root.appendChild(el('p', 'intro', t.intro));
-      root.appendChild(el('p','notice',t.unreviewed));
+      var signed = bank.questions.filter(function(q){return approvalLine(q) !== t.unreviewed;}).length;
+      root.appendChild(el('p','notice', {de:'Fachärztlich freigegeben',en:'Clinically approved',es:'Aprobadas clínicamente'}[lang] + ': ' + signed + '/' + bank.questions.length + ' · ' + lang.toUpperCase()));
       var reviewLink = el('a', 'btn ghost', {de:'✓ Fragen fachlich prüfen',en:'✓ Review questions',es:'✓ Revisar preguntas'}[lang]);
       reviewLink.href = 'pruefung.html';
       root.appendChild(reviewLink);
@@ -1203,6 +1204,9 @@ APP_JS = r'''(function () {
     }
 
     explain.appendChild(el('p', null, body.explanation.core));
+    var tableSection = el('div', 'reference-tables');
+    tableSection.innerHTML = tablesHtml(body);
+    explain.appendChild(tableSection);
     if (body.explanation.teaching_point) {
       explain.appendChild(el('p', 'teaching', body.explanation.teaching_point));
     }
@@ -1334,6 +1338,14 @@ APP_JS = r'''(function () {
 
   /* ---------- Ergebnis als Datei ---------- */
 
+  function tablesHtml(body) {
+    return ((body.explanation || {}).tables || []).map(function(t) {
+      return '<div style="overflow-x:auto;margin:16px 0"><table style="border-collapse:collapse;width:100%;font-size:0.9em"><caption style="text-align:left;font-weight:bold">' + esc(t.title) + '</caption><thead><tr>' +
+        t.headers.map(function(h){return '<th scope="col" style="text-align:left;border:1px solid #bccbc5;padding:8px">'+esc(h)+'</th>';}).join('') + '</tr></thead><tbody>' +
+        t.rows.map(function(row){return '<tr>'+row.map(function(cell){return '<td style="vertical-align:top;border:1px solid #bccbc5;padding:8px">'+esc(cell)+'</td>';}).join('')+'</tr>';}).join('')+
+        '</tbody></table><p style="font-size:0.9em">'+esc(t.note || '')+'</p></div>';
+    }).join('');
+  }
   function approvalLine(q) {
     var r = q.review || {}, a = r.approval || {};
     var today = new Date().toISOString().slice(0,10);
@@ -1415,6 +1427,7 @@ APP_JS = r'''(function () {
           ' — ' + esc(body.flag_note) + '</p>');
       }
       p.push('<p>' + esc(body.explanation.core) + '</p>');
+      p.push(tablesHtml(body));
       if (body.explanation.teaching_point) {
         p.push('<p class="tp">' + esc(body.explanation.teaching_point) + '</p>');
       }

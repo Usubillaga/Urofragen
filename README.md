@@ -6,9 +6,9 @@ Stand: 12. September 2026. Zum Öffnen: `index.html`.
 
 ## Freigabestand
 
-**0 von 214 Fragen sind fachärztlich freigegeben.** Die Verfügbarkeit zum Lernen bedeutet keine Freigabe.
+Stand 14. September 2026: **52 von 214 Fragen sind in der deutschen Fassung fachärztlich freigegeben.** 13 Fragen wurden nach deinen Kommentaren überarbeitet und benötigen erneut deine Prüfung. 149 weitere Fragen hatten noch keine Entscheidung. Für Englisch und Spanisch liegt noch keine Freigabe vor.
 
-Der unberechtigte importierte Freigabeeintrag für `uro-mib-00004` wurde nach ausdrücklicher Rückmeldung des Nutzers entfernt. Die ursprünglichen Importkopien und personenbezogenen Auditdetails sind nicht Teil dieses Uploadpakets.
+Die Importdatei und der versionsbezogene Verlauf sind unter `review/` und in den Fragendaten dokumentiert. Einzelheiten stehen in `KORREKTUREN-2026-09-14.md`. Die ursprünglichen Entscheidungen gelten für die geprüften Versionen, nicht automatisch für spätere Änderungen.
 
 ## Änderungen
 
@@ -44,9 +44,9 @@ Nach jeder Freigabe oder Textänderung `build.py` ausführen, damit die Website 
 
 ## Geprüft und noch offen
 
-Der Aufbau ist erfolgreich. Acht Regressionstests für Freigaben und Speichern sowie fünf Prüfungen der sprachabhängigen Anzeige bestehen. Die JavaScript-Syntax wurde geprüft. Es fand in diesem Durchgang keine vollständige visuelle Browserprüfung statt.
+Der Aufbau ist erfolgreich. Acht Regressionstests für Freigaben und Speichern sowie fünf Prüfungen der sprachabhängigen Anzeige bestehen. Die JavaScript-Syntax wurde geprüft. Die technische Prüfung ersetzt keine fachärztliche Freigabe.
 
-Die automatische Prüfung meldet neben 214 ausstehenden Freigaben vier sprachliche Zahlenhinweise und ein ähnliches Fragenpaar (`uro-ope-00017` / `uro-rek-00004`). Zahlenhinweise sind Suchhilfen; beispielsweise können „16 Uhr“, „4 pm“ und „16:00“ fälschlich als unterschiedlich erscheinen. Der Zahlenprüfer erfasst noch nicht alle einstelligen Zahlen zuverlässig. Die komplette fachärztliche Prüfung aller 214 Fragen ist offen. Erfolgreiche technische Tests bestätigen keine medizinische Richtigkeit.
+Die automatische Prüfung meldet neben ausstehenden Freigaben vier sprachliche Zahlenhinweise und ein ähnliches Fragenpaar (`uro-ope-00017` / `uro-rek-00004`). Zahlenhinweise sind Suchhilfen; beispielsweise können „16 Uhr“, „4 pm“ und „16:00“ fälschlich als unterschiedlich erscheinen. Der Zahlenprüfer erfasst noch nicht alle einstelligen Zahlen zuverlässig. Die fachärztliche Prüfung der verbleibenden Fassungen ist offen. Erfolgreiche technische Tests bestätigen keine medizinische Richtigkeit.
 
 Details: `review/build-check.txt`, `review/change-log.json`. Tests: `python review/check_release.py`.
 

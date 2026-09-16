@@ -1,14 +1,9 @@
-# Upload auf GitHub
+# Upload: Stand 14. September 2026
 
-1. ZIP auf deinem Computer entpacken.
-2. Den Inhalt in das bestehende Urofragen-Repository hochladen. `index.html` und `pruefung.html` müssen direkt im bisherigen Website-Ordner liegen, nicht in einem zusätzlichen Unterordner. Die ZIP selbst nicht als Website hochladen.
-3. Änderungen auf GitHub speichern. Die bisherige GitHub-Pages-Konfiguration weiterverwenden.
+ZIP entpacken und den Inhalt in den bisherigen Website-Ordner des GitHub-Repositorys hochladen. `index.html` und `pruefung.html` gehören direkt in diesen Ordner.
 
-Lernseite: index.html
-Prüfmodus: pruefung.html
+52 deutsche Freigaben sind übernommen. 13 Fragen sind überarbeitet und erneut zu prüfen; keine Freigabe für Englisch oder Spanisch. Der bisherige Prüfverlauf ist enthalten. Die neue Website ist nicht automatisch veröffentlicht.
 
-Enthalten sind die aktuelle Website, alle 214 Fragen in drei Sprachen, die Werkzeuge für Aufbau und Freigabe sowie die Prüfunterlagen und Tests. Alte Import-Websites und temporäre Dateien sind ausgeschlossen.
+Zum Weiterprüfen `pruefung.html` öffnen und „Überarbeitet – erneut prüfen“ auswählen. Deine bisherigen Entscheidungen sind bereits eingebunden. Nach der Sitzung „Prüfungen als Datei sichern“ verwenden.
 
-Deine persönlichen, im Browser gespeicherten Prüfentscheidungen sind nicht in diesem Paket. Sichere diese separat mit „Prüfungen als Datei sichern“. Namen und Kommentare einer hochgeladenen Prüfdatei sind in einem öffentlichen Repository öffentlich sichtbar.
-
-Aktueller Fragenbestand: 0 fachärztliche Freigaben. Der Upload selbst erteilt keine Freigabe.
+Änderungen: KORREKTUREN-2026-09-14.md
