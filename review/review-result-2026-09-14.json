@@ -1,0 +1,141 @@
+{
+  "source_sha256": "3250375eba7d57d53a7a5f3c93059f4aee807d01b36ef1cf3ad869a288322cb2",
+  "imported_decisions": 65,
+  "approved_original_versions": 60,
+  "current_approvals_de": 52,
+  "current_approvals_en": 0,
+  "current_approvals_es": 0,
+  "revised_questions": {
+    "uro-pca-00008": {
+      "previous_version": 1,
+      "note": "PSA über 20 ng/ml benötigt eine Abklärung mittels Bildgebung. Das wäre ein besserer Merksatz",
+      "new_version": 2,
+      "current_fingerprints": {
+        "de": "ad2258b583154fd5fefe4b3d14479599e1166d89730518ae0c17565f163b9f3c",
+        "en": "b4671b9d9264db73e831f3ec2fe9ddff050aae9731a0a9478e1a7b91afa8454e",
+        "es": "72826ce0cc89f6c70b1da54712e0c8927ab17c61db7578011cee5c023583ff69"
+      }
+    },
+    "uro-pca-00009": {
+      "previous_version": 1,
+      "note": "In Kernaussage, eine Tabelle mit der empfohlenen Schema der Überwachung nach ISUP Gruppe",
+      "new_version": 2,
+      "current_fingerprints": {
+        "de": "e874cc836c0566df5ec108f37b01e259a185f0c7820f57d6a0b325c316c19c21",
+        "en": "f794adc3b73f6ed957719c3b5ceee2382ca1cf6c13a6cff4e985df5c6b14a24a",
+        "es": "6ecc70bd8a0354bf6ab2eb995450de785d1620d05917ee19213b6f92e8b02143"
+      }
+    },
+    "uro-pca-00010": {
+      "previous_version": 1,
+      "note": "Ein negatives PSMA-PET/CT bei einem Prostatakarzinom mit mittlerem Risiko (Intermediate Risk) bietet eine sehr hohe Sicherheit, dass aktuell keine klinisch relevanten Lymphknotenmetastasen vorliegen.",
+      "new_version": 2,
+      "current_fingerprints": {
+        "de": "ebd2c88418e98dae584f9582e54ca29b578bca819c880effa27dbc388a8ae025",
+        "en": "edea782df3abc4286ec7e0997d9713071bf4d4813135a605e3c934e5e946f228",
+        "es": "c432fce078a6eef69f0a6df86040fa51e98bbc260fe6f4d05d85a44c8e7466c9"
+      }
+    },
+    "uro-pca-00011": {
+      "previous_version": 2,
+      "note": "Merksatz: ADT bei kurativer Bestrahlung der Prostata ab intermediäres Risiko nötig",
+      "new_version": 3,
+      "current_fingerprints": {
+        "de": "17ed090e8b7821ce27eed96636c7ee4441ccea5995b50a08217aa127388570d8",
+        "en": "d627b0ca5a5165c16b3f67bb930addd2aad7a12aeab80ddd69c9e45fe1197ca4",
+        "es": "869517453f54584d8fe2faaa7859d473555e213bb0d386a0abccdfb1f49adae9"
+      }
+    },
+    "uro-pca-00015": {
+      "previous_version": 1,
+      "note": "Wenn der prostatische Befund lokal ohne Ausdehnung unter T3, kann man eine radikale Prostatektomie oder Bestrahlung und Systemische Therapie mit Bestrahlung der ossären Befunden anbieten",
+      "new_version": 2,
+      "current_fingerprints": {
+        "de": "2aacbe689c88b355fbc2441fbc14e597e49f87fd0a0a28441ea416ba273fcd90",
+        "en": "a4a6f07fecf521b6b7894d3cc3ea6e71f72f2733cb6540954d3054e59c683fb0",
+        "es": "1986184ba8ed4da45ac2ebe60a8d762767c091ea058bc941d88e3b1f405e05c3"
+      }
+    },
+    "uro-pca-00018": {
+      "previous_version": 2,
+      "note": "Es wurde eine Therapie Option mit Parib vor Radioligandtherapie vergessen. Oliparib mit Abirateron oder Talzoparib mit Enzalutamid.",
+      "new_version": 3,
+      "current_fingerprints": {
+        "de": "74b3fb6d3eaf7fcb05c5a102d2a3cc15ac09e626f5bffe453e0eef7040297f50",
+        "en": "620a732d07ae3c70216dfdf86a9de772b8cb7094ef98b2fb7ebb89c1b0a029b9",
+        "es": "ea9b835f3902768876055f93a11ddc9fd1697862f9aeec0746f42c71c2af0052"
+      }
+    },
+    "uro-pca-00022": {
+      "previous_version": 1,
+      "note": "Kastrationsresistenz: Testosteron unter 50 ng/dl und Biochemisch: Der PSA-Wert steigt in drei aufeinanderfolgenden Messungen (im Abstand von je mindestens einer Woche) an, wobei zwei dieser Anstiege um 50 % über dem niedrigsten jemals gemessenen Wert (Nadir) liegen müssen (und der PSA-Wert insgesamt > 2 ng/ml beträgt).",
+      "new_version": 2,
+      "current_fingerprints": {
+        "de": "fef865716e2386a3f960f8a030e0ddb6625663b9bacd20a052cc135033398538",
+        "en": "1f300fa09141610c1de66cce9e83be7555612e889474081b45ea6c4cbccf3cfc",
+        "es": "bf38be715f0a915b2dc78bb1a884c26152f69e33689836a26ab232d8bc3d0471"
+      }
+    },
+    "uro-nmi-00010": {
+      "previous_version": 2,
+      "note": "Trimodale Therapy hier als Antwort benutzen, genau erklären wie die Trimodale Therapy arbeitet",
+      "new_version": 3,
+      "current_fingerprints": {
+        "de": "cefc10dec9717d093bbd441d9ae9fc9dbe346b167b03f41c9d0d6c28f8940813",
+        "en": "0bb829cb7baaff8883531e2b2b9444ba513255e8dbb16886e1e4e6bddc5180d1",
+        "es": "554cc0827e758e9ab1a5180a3e9ff788000e2473229a5d004658e00bba5c6576"
+      }
+    },
+    "uro-mib-00002": {
+      "previous_version": 2,
+      "note": "VIer Neoadjuvante Zyklen Cisplatin/Gemcitabin mit Durvalumab als Antwort, danach 8 Zyklen Darvulomab.",
+      "new_version": 3,
+      "current_fingerprints": {
+        "de": "7d814144174e712a2fd43e5a0e028c49f31e81ee18b17d10780f951a38b5cfe1",
+        "en": "fc52d877437f7b3f17f0cbb37a4ab1fe3dc9a9ab3b4c7d9191e493f714034828",
+        "es": "9b2d0691ab002809444f5af754097cd9ba8d71ff6d8b62bfaeb1f84cd4e991ac"
+      }
+    },
+    "uro-rcc-00002": {
+      "previous_version": 2,
+      "note": "Dosierung von Nivo/Ipi auch bezeichnet",
+      "new_version": 3,
+      "current_fingerprints": {
+        "de": "c6aa34e2c095027d0a86de93bc550ac3d8ee6c13ef46a1ea3df758ff20f12038",
+        "en": "77bc188d1ae6d3d01e0742faeeb3c0d0771ab44f89929a1462584edb351c9b41",
+        "es": "d792c744f01c34bacdc3aa28f325e18b3bd566b0c4bd3f01223b74a3aaa3e522"
+      }
+    },
+    "uro-hod-00002": {
+      "previous_version": 2,
+      "note": "Tabelle mit der Risiko Gruppe Einteilung, was macht gute Prognose?",
+      "new_version": 3,
+      "current_fingerprints": {
+        "de": "b158255b06646cf1ece11265a38f4cbe491cfb628a3290c0859c68f10ee74f9b",
+        "en": "fef6e8d583683065dc4b45e961ba9b6a53dd5152d7cf21276e15e6425d674aa3",
+        "es": "baab8ec5c9a1dee1697aa9532ff424f761eb2abcbdefe56e60fe4c5a0b29af61"
+      }
+    },
+    "uro-hod-00009": {
+      "previous_version": 1,
+      "note": "IGCCCG-Gruppe zur Therapie Tabelle hinzufügen",
+      "new_version": 2,
+      "current_fingerprints": {
+        "de": "beceda1f7a548d68a76371f6e5c8f1881b002e52cad14f26aea365c9ebcde923",
+        "en": "e71b3b98edc2f8d557ae835b92ff128c07ed56d9e60ea4cfd654b4d07660294d",
+        "es": "8dacbc58b943b18cf86390d8f110ad4be47faf7e49852fb1bbbbee43d68a5461"
+      }
+    },
+    "uro-hod-00008": {
+      "previous_version": 3,
+      "note": "Tumormarkers alle 3 Monaten, Active Survillance Schema bitte hinzufügen",
+      "new_version": 4,
+      "current_fingerprints": {
+        "de": "80cfe9df6570d7453a26aa5f44045b9eb81b6c1c90b2afc3833f0d5717ba593e",
+        "en": "0ffeb400990ddcf6b140e2c13c6594906554c293a85a1c06f1ac3021a5a25062",
+        "es": "109859880bd3652bede0d99c8e33391febbf0a15467cce2d7bea13825b1e53b2"
+      }
+    }
+  },
+  "validation": "Build, 8 integrity tests, 5 approval display checks and isolated review UI tests passed; browser showed 52 approvals, 13 revised items and the AS table."
+}

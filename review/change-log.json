@@ -1,0 +1,96 @@
+{
+  "date": "2026-09-12",
+  "changes": [
+    {
+      "id": "uro-hod-00001",
+      "from_version": 2,
+      "to_version": 3,
+      "reason": "Removed incorrect low-risk relapse estimate; clarified structured follow-up.",
+      "clinical_signoff": false
+    },
+    {
+      "id": "uro-hod-00008",
+      "from_version": 2,
+      "to_version": 3,
+      "reason": "Added imaging to surveillance; removed marker overstatement and absolute restriction of adjuvant BEP to LVI-positive disease.",
+      "clinical_signoff": false
+    },
+    {
+      "id": "uro-kin-00009",
+      "from_version": 1,
+      "to_version": 2,
+      "reason": "Imported rationale revisions now assigned a new question version.",
+      "clinical_signoff": false
+    },
+    {
+      "id": "uro-rcc-00001",
+      "from_version": 2,
+      "to_version": 3,
+      "reason": "Imported rationale revisions now assigned a new question version.",
+      "clinical_signoff": false
+    },
+    {
+      "id": "uro-rcc-00004",
+      "from_version": 1,
+      "to_version": 2,
+      "reason": "Imported rationale revisions now assigned a new question version.",
+      "clinical_signoff": false
+    },
+    {
+      "id": "uro-rcc-00006",
+      "from_version": 2,
+      "to_version": 3,
+      "reason": "Imported rationale revisions now assigned a new question version.",
+      "clinical_signoff": false
+    },
+    {
+      "id": "uro-rcc-00008",
+      "from_version": 1,
+      "to_version": 2,
+      "reason": "Imported rationale revisions now assigned a new question version.",
+      "clinical_signoff": false
+    },
+    {
+      "id": "uro-rcc-00010",
+      "from_version": 2,
+      "to_version": 3,
+      "reason": "Imported rationale revisions now assigned a new question version.",
+      "clinical_signoff": false
+    },
+    {
+      "id": "uro-ope-00013",
+      "from_version": 1,
+      "to_version": 2,
+      "reason": "Imported rationale revisions now assigned a new question version.",
+      "clinical_signoff": false
+    },
+    {
+      "id": "uro-pen-00002",
+      "from_version": 2,
+      "to_version": 3,
+      "reason": "Imported rationale revisions now assigned a new question version.",
+      "clinical_signoff": false
+    },
+    {
+      "id": "uro-pen-00004",
+      "from_version": 1,
+      "to_version": 2,
+      "reason": "Imported rationale revisions now assigned a new question version.",
+      "clinical_signoff": false
+    },
+    {
+      "id": "uro-pca-00006",
+      "from_version": 1,
+      "to_version": 2,
+      "reason": "Imported rationale revisions now assigned a new question version.",
+      "clinical_signoff": false
+    },
+    {
+      "id": "uro-utu-00009",
+      "from_version": 1,
+      "to_version": 2,
+      "reason": "Imported rationale revisions now assigned a new question version.",
+      "clinical_signoff": false
+    }
+  ]
+}
