@@ -236,6 +236,7 @@
   "min_questions_per_domain": 10,
   "tags": [
     "bildgebung",
+    "diagnostik",
     "dosierung",
     "endourologisch",
     "geriatrie",
@@ -247,10 +248,15 @@
     "notfall",
     "operationstechnik",
     "paediatrisch",
+    "palliativmedizin",
     "pathologie",
     "pharmakologie",
     "praeoperativ",
     "pruefungsrelevant-hoch",
+    "strahlentherapie",
+    "studienlage",
+    "systemtherapie",
+    "tumormarker",
     "zulassung"
   ]
 }
