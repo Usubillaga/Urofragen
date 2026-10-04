@@ -1,0 +1,447 @@
+{
+  "added": [
+    {
+      "id": "uro-hod-00040",
+      "source_id": "uro-hod-00040",
+      "block": "hodentumor-heft3-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00041",
+      "source_id": "uro-hod-00041",
+      "block": "hodentumor-heft3-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00042",
+      "source_id": "uro-hod-00042",
+      "block": "hodentumor-heft3-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00043",
+      "source_id": "uro-hod-00043",
+      "block": "hodentumor-heft3-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00044",
+      "source_id": "uro-hod-00044",
+      "block": "hodentumor-heft3-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00045",
+      "source_id": "uro-hod-00045",
+      "block": "hodentumor-heft3-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00046",
+      "source_id": "uro-hod-00046",
+      "block": "hodentumor-heft3-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00047",
+      "source_id": "uro-hod-00047",
+      "block": "hodentumor-heft3-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00048",
+      "source_id": "uro-hod-00048",
+      "block": "hodentumor-heft3-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00049",
+      "source_id": "uro-hod-00049",
+      "block": "hodentumor-heft3-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00050",
+      "source_id": "uro-hod-00050",
+      "block": "hodentumor-heft3-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00051",
+      "source_id": "uro-hod-00051",
+      "block": "hodentumor-heft3-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00052",
+      "source_id": "uro-hod-00052",
+      "block": "hodentumor-heft3-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00053",
+      "source_id": "uro-hod-00053",
+      "block": "hodentumor-heft3-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00030",
+      "source_id": "uro-hod-00030",
+      "block": "hodentumor-nachsorge-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00031",
+      "source_id": "uro-hod-00031",
+      "block": "hodentumor-nachsorge-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00032",
+      "source_id": "uro-hod-00032",
+      "block": "hodentumor-nachsorge-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00033",
+      "source_id": "uro-hod-00033",
+      "block": "hodentumor-nachsorge-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00034",
+      "source_id": "uro-hod-00034",
+      "block": "hodentumor-nachsorge-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00035",
+      "source_id": "uro-hod-00035",
+      "block": "hodentumor-nachsorge-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00036",
+      "source_id": "uro-hod-00036",
+      "block": "hodentumor-nachsorge-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00037",
+      "source_id": "uro-hod-00037",
+      "block": "hodentumor-nachsorge-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00038",
+      "source_id": "uro-hod-00038",
+      "block": "hodentumor-nachsorge-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00039",
+      "source_id": "uro-hod-00039",
+      "block": "hodentumor-nachsorge-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00021",
+      "source_id": "uro-hod-00021",
+      "block": "hodentumor-seminom-IIAB-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00022",
+      "source_id": "uro-hod-00022",
+      "block": "hodentumor-seminom-IIAB-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00023",
+      "source_id": "uro-hod-00023",
+      "block": "hodentumor-seminom-IIAB-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00024",
+      "source_id": "uro-hod-00024",
+      "block": "hodentumor-seminom-IIAB-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00025",
+      "source_id": "uro-hod-00025",
+      "block": "hodentumor-seminom-IIAB-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00026",
+      "source_id": "uro-hod-00026",
+      "block": "hodentumor-seminom-IIAB-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00027",
+      "source_id": "uro-hod-00027",
+      "block": "hodentumor-seminom-IIAB-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00028",
+      "source_id": "uro-hod-00028",
+      "block": "hodentumor-seminom-IIAB-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-hod-00029",
+      "source_id": "uro-hod-00029",
+      "block": "hodentumor-seminom-IIAB-block.json",
+      "domain": "hodentumor"
+    },
+    {
+      "id": "uro-ope-00021",
+      "source_id": "uro-sal-90001",
+      "block": "operationskenntnisse-salvage-block.json",
+      "domain": "operativ"
+    },
+    {
+      "id": "uro-ope-00022",
+      "source_id": "uro-sal-90002",
+      "block": "operationskenntnisse-salvage-block.json",
+      "domain": "operativ"
+    },
+    {
+      "id": "uro-ope-00023",
+      "source_id": "uro-sal-90003",
+      "block": "operationskenntnisse-salvage-block.json",
+      "domain": "operativ"
+    },
+    {
+      "id": "uro-ope-00024",
+      "source_id": "uro-sal-90004",
+      "block": "operationskenntnisse-salvage-block.json",
+      "domain": "operativ"
+    },
+    {
+      "id": "uro-ope-00025",
+      "source_id": "uro-sal-90005",
+      "block": "operationskenntnisse-salvage-block.json",
+      "domain": "operativ"
+    },
+    {
+      "id": "uro-ope-00026",
+      "source_id": "uro-sal-90006",
+      "block": "operationskenntnisse-salvage-block.json",
+      "domain": "operativ"
+    },
+    {
+      "id": "uro-ope-00027",
+      "source_id": "uro-sal-90007",
+      "block": "operationskenntnisse-salvage-block.json",
+      "domain": "operativ"
+    },
+    {
+      "id": "uro-ope-00028",
+      "source_id": "uro-sal-90008",
+      "block": "operationskenntnisse-salvage-block.json",
+      "domain": "operativ"
+    },
+    {
+      "id": "uro-ope-00029",
+      "source_id": "uro-sal-90009",
+      "block": "operationskenntnisse-salvage-block.json",
+      "domain": "operativ"
+    },
+    {
+      "id": "uro-ope-00030",
+      "source_id": "uro-sal-90010",
+      "block": "operationskenntnisse-salvage-block.json",
+      "domain": "operativ"
+    }
+  ],
+  "replaced": [
+    {
+      "id": "uro-hod-00007",
+      "old_version": 2,
+      "new_version": 3,
+      "old_approval": true,
+      "previous_question": {
+        "id": "uro-hod-00007",
+        "version": 2,
+        "status": "published",
+        "taxonomy": {
+          "subdomain": "Seminom Stadium II",
+          "tags": [
+            "operationstechnik",
+            "leitlinie"
+          ],
+          "domain": "hodentumor"
+        },
+        "type": "single_best_answer",
+        "difficulty_estimated": 5,
+        "options": [
+          {
+            "key": "A",
+            "correct": false
+          },
+          {
+            "key": "B",
+            "correct": false
+          },
+          {
+            "key": "C",
+            "correct": true
+          },
+          {
+            "key": "D",
+            "correct": false
+          }
+        ],
+        "evidence": {
+          "level": "IIB",
+          "certainty": "kontrovers",
+          "flag": true
+        },
+        "sources": [
+          {
+            "type": "leitlinie",
+            "code": "EAU",
+            "title": "EAU Guidelines on Testicular Cancer",
+            "year": 2026
+          }
+        ],
+        "review": {
+          "author": "EK",
+          "reviewer": "Enrique Alberto Usubillaga Fonseca",
+          "created": "2026-09-07",
+          "last_reviewed": "2026-09-14",
+          "expires": "2027-09-07",
+          "editorial_review": {
+            "date": "2026-09-12",
+            "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
+            "clinical_signoff": true
+          },
+          "clinical_review_status": "approved",
+          "imported_decisions": [
+            {
+              "question_id": "uro-hod-00007",
+              "question_version": 2,
+              "language": "de",
+              "content_sha256": "e685614fac88021414924861905e87c4c5ed1880d8f3509956163232db97175a",
+              "reviewer": "Enrique Alberto Usubillaga Fonseca",
+              "date": "2026-09-14",
+              "updated_at": "2026-09-13T23:29:06.623Z",
+              "expires": "2027-09-07",
+              "decision": "approved",
+              "note": "",
+              "history": []
+            }
+          ],
+          "approval": {
+            "reviewer": "Enrique Alberto Usubillaga Fonseca",
+            "date": "2026-09-14",
+            "expires": "2027-09-07",
+            "languages": [
+              "de"
+            ],
+            "question_version": 2,
+            "content_sha256": "e685614fac88021414924861905e87c4c5ed1880d8f3509956163232db97175a",
+            "scope": "Explicit human approval imported from review export"
+          }
+        },
+        "content": {
+          "de": {
+            "vignette": "Ein 30-jähriger Patient mit Seminom im Stadium IIA möchte weder eine Bestrahlung noch eine Chemotherapie und fragt nach der retroperitonealen Lymphadenektomie als Alternative.",
+            "lead_in": "Wie ist diese Option einzuordnen?",
+            "options": {
+              "A": {
+                "text": "Etablierter Standard und den anderen Verfahren überlegen",
+                "rationale": "Ein Überlegenheitsnachweis existiert nicht; Standard sind weiterhin Radiatio und Chemotherapie."
+              },
+              "B": {
+                "text": "Beim Seminom grundsätzlich kontraindiziert",
+                "rationale": "Prospektive Studien haben sie geprüft; kontraindiziert ist sie nicht, sondern noch nicht als gleichwertig belegt."
+              },
+              "C": {
+                "text": "Spezialisierte Studienoption, kein allgemeiner Standard",
+                "rationale": "Der Reiz liegt im Verzicht auf beide Spätfolgenprofile. Die Rezidivraten waren in Serien höher als unter Standardtherapie, weshalb die Aufklärung darüber Teil der Entscheidung ist. Der Reiz liegt darin, weder zu bestrahlen noch zu chemotherapieren. In mehreren prospektiven Serien lagen die Rezidivraten jedoch über denen der Standardtherapie, weshalb die Behandlung an ein erfahrenes Zentrum oder in eine Studie gehört."
+              },
+              "D": {
+                "text": "Ersetzt die Nachsorge, da kein Rezidiv mehr möglich ist",
+                "rationale": "Rezidive treten auch außerhalb des Ausräumungsgebietes auf; die Nachsorge bleibt unverzichtbar."
+              }
+            },
+            "explanation": {
+              "core": "Die retroperitoneale Lymphadenektomie beim Seminom im Stadium II ist ein Versuch, junge Männer weder zu bestrahlen noch zu chemotherapieren. Die vorliegenden prospektiven Serien zeigen eine hohe Rate an Tumorfreiheit ohne Systemtherapie, aber auch relevante Rezidivraten. Sie ist damit eine begründbare, aber erklärungsbedürftige Option.",
+              "teaching_point": "Beim Seminom im Stadium II ist die Lymphadenektomie eine Studienoption, kein Standard."
+            },
+            "flag_note": "Die Datenlage stützt sich auf prospektive Serien ohne randomisierten Vergleich; die Empfehlungen unterscheiden sich zwischen Zentren und Ländern. Vor Verwendung aktuellen Stand prüfen."
+          },
+          "en": {
+            "vignette": "A 30-year-old man with stage IIA seminoma wants neither radiotherapy nor chemotherapy and asks about retroperitoneal lymph node dissection as an alternative.",
+            "lead_in": "How should this option be judged?",
+            "options": {
+              "A": {
+                "text": "An established standard and superior to the alternatives",
+                "rationale": "No superiority evidence exists; radiotherapy and chemotherapy remain standard."
+              },
+              "B": {
+                "text": "Fundamentally contraindicated in seminoma",
+                "rationale": "Prospective studies have examined it; it is not contraindicated but not yet shown to be equivalent."
+              },
+              "C": {
+                "text": "Specialist study option, not a general standard",
+                "rationale": "Its appeal lies in avoiding both late-effect profiles. Relapse rates in series exceeded those of standard treatment, so counselling about this is part of the decision. Its appeal is avoiding both radiotherapy and chemotherapy. In several prospective series relapse rates nevertheless exceeded those of standard treatment, so treatment belongs in an experienced centre or a trial."
+              },
+              "D": {
+                "text": "Replaces follow-up, since relapse is no longer possible",
+                "rationale": "Relapses also occur outside the dissection field; follow-up remains indispensable."
+              }
+            },
+            "explanation": {
+              "core": "Retroperitoneal lymph node dissection in stage II seminoma is an attempt to spare young men both radiotherapy and chemotherapy. Available prospective series show high rates of disease control without systemic therapy but also relevant relapse rates. It is therefore a defensible option that requires explanation.",
+              "teaching_point": "In stage II seminoma, lymphadenectomy is a trial option, not a standard."
+            },
+            "flag_note": "The evidence rests on prospective series without randomised comparison; recommendations differ between centres and countries. Check the current position before use."
+          },
+          "es": {
+            "vignette": "Un hombre de 30 años con seminoma en estadio IIA no quiere radioterapia ni quimioterapia y pregunta sobre la disección de los ganglios linfáticos retroperitoneales como alternativa.",
+            "lead_in": "¿Cómo se debe juzgar esta opción?",
+            "options": {
+              "A": {
+                "text": "Un estándar establecido y superior a las alternativas",
+                "rationale": "No existe evidencia de superioridad; La radioterapia y la quimioterapia siguen siendo estándar."
+              },
+              "B": {
+                "text": "Fundamentalmente contraindicado en seminoma.",
+                "rationale": "Estudios prospectivos lo han examinado; no está contraindicado pero aún no se ha demostrado que sea equivalente."
+              },
+              "C": {
+                "text": "Opción en estudios especializados, no estándar general",
+                "rationale": "Su atractivo radica en evitar ambos perfiles de efecto tardío. Las tasas de recaída en las series excedieron las del tratamiento estándar, por lo que el asesoramiento al respecto es parte de la decisión. Su atractivo es evitar tanto la radioterapia como la quimioterapia. Sin embargo, en varias series prospectivas las tasas de recaída superaron las del tratamiento estándar, por lo que el tratamiento debe realizarse en un centro experimentado o en un ensayo."
+              },
+              "D": {
+                "text": "Reemplaza el seguimiento, ya que la recaída ya no es posible.",
+                "rationale": "Las recaídas también ocurren fuera del campo de disección; el seguimiento sigue siendo indispensable."
+              }
+            },
+            "explanation": {
+              "core": "La disección de los ganglios linfáticos retroperitoneales en el seminoma en estadio II es un intento de ahorrar a los hombres jóvenes tanto la radioterapia como la quimioterapia. Las series prospectivas disponibles muestran altas tasas de control de la enfermedad sin terapia sistémica, pero también tasas de recaída relevantes. Por tanto, es una opción defendible que requiere explicación.",
+              "teaching_point": "En el seminoma en estadio II, la linfadenectomía es una opción en investigación, no un estándar."
+            },
+            "flag_note": "La evidencia se basa en series prospectivas sin comparación aleatoria; Las recomendaciones difieren entre centros y países. Verifique la posición actual antes de su uso."
+          }
+        },
+        "translation": {
+          "es": {
+            "date": "2026-09-10",
+            "method": "machine-assisted with AI editorial corrections",
+            "clinical_signoff": false
+          }
+        }
+      }
+    }
+  ],
+  "skipped": [],
+  "date": "2026-10-04"
+}

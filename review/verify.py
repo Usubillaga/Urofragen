@@ -51,10 +51,10 @@ class Integrity(unittest.TestCase):
     def test_production_bank_preserves_explicit_approvals(self):
         docs=[json.loads(p.read_text(encoding='utf-8')) for p in (ROOT/'data/fragen').glob('*.json')]
         qs=[q for d in docs for q in d['fragen']]
-        self.assertEqual(len(qs),214);self.assertTrue(all(len(d['fragen'])>=10 for d in docs))
+        self.assertEqual(len(qs),267);self.assertTrue(all(len(d['fragen'])>=10 for d in docs))
         self.assertTrue(all(set(q['content'])=={'de','en','es'} for q in qs))
         approved=[q for q in qs if valid_approval(q)]
-        self.assertEqual(len(approved),52)
+        self.assertEqual(len(approved),51)
         for q in approved:
             self.assertEqual(q['review']['approval']['languages'],['de'])
             d=q['review']['imported_decisions'][-1]
@@ -62,7 +62,7 @@ class Integrity(unittest.TestCase):
             self.assertEqual(fingerprint(q,['de']),d['content_sha256'])
             self.assertEqual(q['review']['last_reviewed'],d['date'])
         revised=[q for q in qs if q['review'].get('revision')]
-        self.assertEqual(len(revised),13)
+        self.assertEqual(len(revised),57)
         self.assertFalse(any(valid_approval(q) for q in revised))
-        self.assertEqual(sum(bool(q['review'].get('approval_history')) for q in revised),8)
+        self.assertEqual(sum(bool(q['review'].get('approval_history')) for q in revised),9)
 if __name__=='__main__':unittest.main()

@@ -22,7 +22,7 @@ index.html geschrieben — 1904 KB, Sprachen: de, en, es
 Hinweis  uro-ope-00017 / uro-rek-00004: ähnliche Fragestellung (0.87); klinischen Kontext vergleichen
 1 ähnliche Fragenpaare zur manuellen Prüfung
 richtige Antwort ist die laengste Option: 73/267 (27 %)
-215 Hinweise (siehe oben)
+211 Hinweise (siehe oben)
 
 Für Lern- und Prüfmodus beide Dateien hochladen: index.html und pruefung.html
 
@@ -119,8 +119,6 @@ Hinweis  uro-fun-00002: fachärztliche Freigabe ausstehend
 Hinweis  uro-fun-00003: fachärztliche Freigabe ausstehend
 Hinweis  uro-fun-00004: fachärztliche Freigabe ausstehend
 Hinweis  uro-fun-00005: fachärztliche Freigabe ausstehend
-Hinweis  uro-fun-00005 [en]: Zahlenvergleich mit Deutsch prüfen (Schreibweisen können abweichen)
-Hinweis  uro-fun-00005 [es]: Zahlenvergleich mit Deutsch prüfen (Schreibweisen können abweichen)
 Hinweis  uro-fun-00006: fachärztliche Freigabe ausstehend
 Hinweis  uro-fun-00007: fachärztliche Freigabe ausstehend
 Hinweis  uro-fun-00008: fachärztliche Freigabe ausstehend
@@ -175,8 +173,6 @@ Hinweis  uro-tra-00013: fachärztliche Freigabe ausstehend
 Hinweis  uro-tra-00014: fachärztliche Freigabe ausstehend
 Hinweis  uro-tra-00015: fachärztliche Freigabe ausstehend
 Hinweis  uro-and-00001: fachärztliche Freigabe ausstehend
-Hinweis  uro-and-00001 [en]: Zahlenvergleich mit Deutsch prüfen (Schreibweisen können abweichen)
-Hinweis  uro-and-00001 [es]: Zahlenvergleich mit Deutsch prüfen (Schreibweisen können abweichen)
 Hinweis  uro-and-00002: fachärztliche Freigabe ausstehend
 Hinweis  uro-and-00003: fachärztliche Freigabe ausstehend
 Hinweis  uro-and-00004: fachärztliche Freigabe ausstehend
