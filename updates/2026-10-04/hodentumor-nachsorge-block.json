@@ -1,0 +1,1578 @@
+{
+  "gebiet": "hodentumor",
+  "titel": "Nachsorge von Hodentumoren",
+  "quelle": "Dieckmann, Angerer, Bremmer & Soave, Urologie 2025;64:1024-1036; EAU Testicular Cancer 2026, Kap. 7",
+  "erstellt": "2026-09-20",
+  "gegenlesen": {
+    "alle": [],
+    "eines": "Nachsorge|Surveillance|aktive[rn]? Überwachung|\\bLDH\\b|Röntgen|Gegenhoden|kontralateral|M371|miR-371|Oberbauchsonographie"
+  },
+  "neu": [
+    {
+      "id": "uro-hod-00030",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Nachsorge",
+        "tags": [
+          "nachsorge",
+          "bildgebung",
+          "diagnostik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "1b",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Nachsorge von Hodentumoren – ein Update",
+          "citation": "Dieckmann KP, Angerer M, Bremmer F, Soave A. Urologie 2025;64:1024–1036. doi:10.1007/s00120-025-02675-6",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "7.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-20",
+        "last_reviewed": "2026-09-20",
+        "expires": "2027-09-20"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 24-jähriger Mann mit Seminom im klinischen Stadium I (pT1, 2,5 cm) ist unter aktiver Überwachung. Die Nachsorge erfolgt an einem Hodentumorzentrum, dessen onkologische Radiologie regelmäßig MRT-Untersuchungen bei Keimzelltumoren befundet. Der Patient fragt nach der Strahlenbelastung. Festlegung der abdominellen Bildgebung für den Termin nach 6 Monaten.",
+          "lead_in": "Welche abdominelle Bildgebung ist für die Nachsorge zu wählen?",
+          "options": {
+            "A": {
+              "text": "Low-dose-CT von Abdomen und Becken zur Dosissenkung",
+              "rationale": "Fehlannahme: Low-dose löse das Strahlenproblem. Schon ein einzelnes Low-dose-CT überschreitet den Jahresgrenzwert von 1 mSv (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "Kontrastmittel-CT von Thorax, Abdomen und Becken",
+              "rationale": "Fehlannahme: Der Thorax gehöre immer dazu. Eine Ganzkörper-CT appliziert 10–20 mSv (Dieckmann et al. 2025), und beim Seminom im Stadium I sieht die EAU keine Thoraxbildgebung vor (EAU 2026, 7.1)."
+            },
+            "C": {
+              "text": "Oberbauchsonographie als strahlenfreie CT-Alternative",
+              "rationale": "Fehlannahme aus der S3-Leitlinie von 2019. Die Oberbauchsonographie ist nur in geübten Händen ausreichend sensitiv und leidet unter Adipositas und Darmgas (Dieckmann et al. 2025)."
+            },
+            "D": {
+              "text": "MRT von Abdomen und Becken, ohne Kontrastmittel möglich",
+              "rationale": "Die MRT erkennt abdominelle Metastasen so zuverlässig wie die CT, ohne Strahlung und ohne Gadolinium (Dieckmann et al. 2025); die EAU nennt sie als Alternative zur Kontrastmittel-CT in erfahrenen Zentren (EAU 2026, 7.1)."
+            },
+            "E": {
+              "text": "FDG-PET-CT zur gleichzeitigen Beurteilung aller Regionen",
+              "rationale": "Fehlannahme: Mehr Technik bringe mehr Sicherheit. Die EAU empfiehlt FDG-PET-CT während der Überwachung ausdrücklich nicht (EAU 2026, 7.1)."
+            }
+          },
+          "explanation": {
+            "core": "Bei erfahrener onkologischer Radiologie ist die MRT die bessere Wahl für die abdominelle Nachsorge: gleiche Erkennungsrate wie die CT, keine Strahlung bei geheilten jungen Männern (Dieckmann et al. 2025; EAU 2026, 7.1). In der randomisierten TRISST-Studie war die MRT in der Nachsorge des Seminoms der CT nicht unterlegen (Dieckmann et al. 2025). Eine einzelne Abdomen-CT erhöht das Lebenszeitkrebsrisiko eines 30-Jährigen um 0,08 % (Dieckmann et al. 2025). Die EAU nennt bis zu 1 zu 300 Zweitmalignome allein durch CT-Nachsorge und für die MRT eine Sensitivität von 97 % bei erfahrenen Radiologen gegenüber 80 % bei Befundern in Weiterbildung (EAU 2026, 7.1). Voraussetzung ist ein Befunder mit Erfahrung bei Keimzelltumoren; fehlt er, bleibt die CT nach EAU zulässig (EAU 2026, 7.1). Der Artikel geht weiter und verzichtet ganz auf Routine-CT (Dieckmann et al. 2025).",
+            "teaching_point": "Abdomen in der Nachsorge: MRT bei erfahrenem Befunder; CT nur, wo diese Voraussetzung fehlt."
+          }
+        },
+        "en": {
+          "vignette": "A 24-year-old man with clinical stage I seminoma (pT1, 2.5 cm) is on active surveillance. Follow-up takes place at a testicular cancer centre whose oncological radiologists routinely report MRI in germ cell tumours. He asks about radiation exposure. Abdominal imaging for the 6-month visit is to be defined.",
+          "lead_in": "Which abdominal imaging should be chosen for follow-up?",
+          "options": {
+            "A": {
+              "text": "Low-dose CT of abdomen and pelvis to reduce dose",
+              "rationale": "Misconception: low-dose solves the radiation problem. A single low-dose CT already exceeds the annual limit of 1 mSv (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "Contrast-enhanced CT of chest, abdomen and pelvis",
+              "rationale": "Misconception: the chest always belongs to it. Whole-body CT delivers 10–20 mSv (Dieckmann et al. 2025), and the EAU foresees no chest imaging in stage I seminoma (EAU 2026, 7.1)."
+            },
+            "C": {
+              "text": "Upper abdominal ultrasound as radiation-free CT alternative",
+              "rationale": "Misconception from the 2019 S3 guideline. Upper abdominal ultrasound is sufficiently sensitive only in experienced hands and is impaired by obesity and bowel gas (Dieckmann et al. 2025)."
+            },
+            "D": {
+              "text": "MRI of abdomen and pelvis, feasible without contrast",
+              "rationale": "MRI detects abdominal metastases as reliably as CT, without radiation and without gadolinium (Dieckmann et al. 2025); the EAU names it as an alternative to contrast-enhanced CT in experienced centres (EAU 2026, 7.1)."
+            },
+            "E": {
+              "text": "FDG-PET/CT to assess all regions at once",
+              "rationale": "Misconception: more technology brings more safety. The EAU explicitly does not recommend FDG-PET/CT during surveillance (EAU 2026, 7.1)."
+            }
+          },
+          "explanation": {
+            "core": "With experienced oncological radiology, MRI is the better choice for abdominal follow-up: the same detection rate as CT, no radiation in cured young men (Dieckmann et al. 2025; EAU 2026, 7.1). In the randomised TRISST trial, MRI was non-inferior to CT in seminoma follow-up (Dieckmann et al. 2025). A single abdominal CT raises the lifetime cancer risk of a 30-year-old by 0.08% (Dieckmann et al. 2025). The EAU cites up to 1 in 300 second malignancies from CT follow-up alone and an MRI sensitivity of 97% with experienced radiologists versus 80% with trainee readers (EAU 2026, 7.1). A reader experienced in germ cell tumours is a prerequisite; without one, CT remains acceptable per EAU (EAU 2026, 7.1). The article goes further and omits routine CT altogether (Dieckmann et al. 2025).",
+            "teaching_point": "Abdomen in follow-up: MRI with an experienced reader; CT only where that prerequisite is missing."
+          }
+        },
+        "es": {
+          "vignette": "Un varón de 24 años con seminoma en estadio clínico I (pT1, 2,5 cm) está en vigilancia activa. El seguimiento se realiza en un centro de tumores testiculares cuya radiología oncológica informa de forma habitual RM en tumores germinales. Pregunta por la exposición a radiación. Debe definirse la imagen abdominal para la visita de los 6 meses.",
+          "lead_in": "¿Qué imagen abdominal debe elegirse para el seguimiento?",
+          "options": {
+            "A": {
+              "text": "TC de baja dosis de abdomen y pelvis para reducir la dosis",
+              "rationale": "Error de concepto: la baja dosis resolvería el problema de la radiación. Una sola TC de baja dosis ya supera el límite anual de 1 mSv (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "TC con contraste de tórax, abdomen y pelvis",
+              "rationale": "Error de concepto: el tórax siempre formaría parte. Una TC corporal completa aplica 10–20 mSv (Dieckmann et al. 2025) y la EAU no prevé imagen torácica en el seminoma en estadio I (EAU 2026, 7.1)."
+            },
+            "C": {
+              "text": "Ecografía abdominal como alternativa a la TC sin radiación",
+              "rationale": "Error de concepto de la guía S3 de 2019. La ecografía abdominal solo es suficientemente sensible en manos expertas y se ve limitada por la obesidad y el gas intestinal (Dieckmann et al. 2025)."
+            },
+            "D": {
+              "text": "RM de abdomen y pelvis, posible sin contraste",
+              "rationale": "La RM detecta metástasis abdominales con la misma fiabilidad que la TC, sin radiación y sin gadolinio (Dieckmann et al. 2025); la EAU la cita como alternativa a la TC con contraste en centros con experiencia (EAU 2026, 7.1)."
+            },
+            "E": {
+              "text": "PET-TC con FDG para valorar todas las regiones a la vez",
+              "rationale": "Error de concepto: más tecnología daría más seguridad. La EAU no recomienda expresamente la PET-TC con FDG durante la vigilancia (EAU 2026, 7.1)."
+            }
+          },
+          "explanation": {
+            "core": "Con una radiología oncológica experta, la RM es la mejor opción para el seguimiento abdominal: la misma tasa de detección que la TC y sin radiación en varones jóvenes curados (Dieckmann et al. 2025; EAU 2026, 7.1). En el ensayo aleatorizado TRISST, la RM no fue inferior a la TC en el seguimiento del seminoma (Dieckmann et al. 2025). Una sola TC abdominal aumenta el riesgo de cáncer a lo largo de la vida de un paciente de 30 años en un 0,08 % (Dieckmann et al. 2025). La EAU cita hasta 1 de cada 300 segundas neoplasias solo por el seguimiento con TC y una sensibilidad de la RM del 97 % con radiólogos expertos frente al 80 % con lectores en formación (EAU 2026, 7.1). Es imprescindible un lector con experiencia en tumores germinales; si falta, la TC sigue siendo aceptable según la EAU (EAU 2026, 7.1). El artículo va más allá y prescinde por completo de la TC rutinaria (Dieckmann et al. 2025).",
+            "teaching_point": "Abdomen en el seguimiento: RM con lector experto; TC solo donde falte esa condición."
+          }
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00031",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Nachsorge",
+        "tags": [
+          "nachsorge",
+          "bildgebung",
+          "diagnostik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Nachsorge von Hodentumoren – ein Update",
+          "citation": "Dieckmann KP, Angerer M, Bremmer F, Soave A. Urologie 2025;64:1024–1036. doi:10.1007/s00120-025-02675-6",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "7.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-20",
+        "last_reviewed": "2026-09-20",
+        "expires": "2027-09-20"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 31-jähriger Mann ist nach Orchiektomie wegen eines Seminoms im klinischen Stadium I seit zwei Jahren unter aktiver Überwachung. Marker und abdominelle MRT waren bisher stets unauffällig. Der Hausarzt schlägt vor, zusätzlich jährlich ein Röntgenbild des Thorax anzufertigen. Festlegung der Thoraxdiagnostik für die weitere Nachsorge.",
+          "lead_in": "Welche Thoraxdiagnostik ist in der weiteren Nachsorge angemessen?",
+          "options": {
+            "A": {
+              "text": "Jährliches Röntgen des Thorax in zwei Ebenen ergänzen",
+              "rationale": "Fehlannahme: Röntgen-Thorax als harmlose Routine. In einer britischen Serie wurde keines von 159 Rezidiven durch das Röntgenbild entdeckt; die Sensitivität für Lungenmetastasen liegt bei 30 % (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "Jährliche Low-dose-CT des Thorax zur höheren Sensitivität",
+              "rationale": "Fehlannahme: Niedrige Einzeldosis mache Routine unbedenklich. Auch die Low-dose-CT führt bei regelmäßiger Anwendung zu einer relevanten kumulativen Dosis (Dieckmann et al. 2025)."
+            },
+            "C": {
+              "text": "Keine Routine; Thorax erst bei retroperitonealem Befund",
+              "rationale": "Supradiaphragmale Seminommetastasen traten in einer kanadischen Serie von 527 Patienten nur bei abdominellen Herden auf (Dieckmann et al. 2025); die EAU sieht beim Seminom im Stadium I kein Röntgen-Thorax vor (EAU 2026, 7.1)."
+            },
+            "D": {
+              "text": "MRT des Thorax gemeinsam mit jeder abdominellen MRT",
+              "rationale": "Fehlannahme: Die MRT ersetze auch die Thoraxbildgebung. Wegen der Atemexkursionen bei langen Messzeiten bildet sie die Lunge nur unpräzise ab (Dieckmann et al. 2025)."
+            },
+            "E": {
+              "text": "Thorax-CT halbjährlich bis zum Ende des dritten Jahres",
+              "rationale": "Fehlannahme: Übertragung eines Schemas für metastasierte Erkrankung. Eine planmäßige Thorax-CT sieht die EAU nur nach Chemotherapie bei Lungenmetastasen zum Diagnosezeitpunkt vor (EAU 2026, 7.1)."
+            }
+          },
+          "explanation": {
+            "core": "Beim Seminom im Stadium I entstehen supradiaphragmale Metastasen praktisch nur nach abdominellen Herden (Dieckmann et al. 2025). Die Thoraxdiagnostik folgt deshalb dem abdominellen Befund statt einem festen Takt. Eine britische Untersuchung fand in der Nachsorge des Stadiums I keines von 159 Rezidiven durch das Röntgenbild, eine kanadische Studie an 527 Seminompatienten bestätigte dies (Dieckmann et al. 2025). Die Metastasierung verläuft fast immer zuerst lymphogen, Sprungmetastasen betreffen unter 5 % (Dieckmann et al. 2025). Die EAU-Tabelle 8 enthält für das Seminom im Stadium I in keinem Jahr ein Röntgen-Thorax (EAU 2026, 7.1). Zeigt die abdominelle MRT einen Befund, wird der Thorax mituntersucht (Dieckmann et al. 2025). Für Patienten nach Chemotherapie gilt diese Zurückhaltung nicht (EAU 2026, 7.1).",
+            "teaching_point": "Seminom Stadium I: kein Routine-Thorax; Thorax erst, wenn retroperitoneal etwas auftaucht."
+          }
+        },
+        "en": {
+          "vignette": "A 31-year-old man has been on active surveillance for two years after orchiectomy for clinical stage I seminoma. Markers and abdominal MRI have always been normal. His general practitioner suggests adding an annual chest X-ray. Chest imaging for further follow-up is to be defined.",
+          "lead_in": "Which chest imaging is appropriate for further follow-up?",
+          "options": {
+            "A": {
+              "text": "Add an annual two-view chest X-ray to follow-up",
+              "rationale": "Misconception: chest X-ray as harmless routine. In a British series none of 159 relapses was detected by X-ray; sensitivity for lung metastases is 30% (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "Annual low-dose chest CT for higher sensitivity",
+              "rationale": "Misconception: a low single dose makes routine use harmless. Even low-dose CT leads to a relevant cumulative dose when used regularly (Dieckmann et al. 2025)."
+            },
+            "C": {
+              "text": "No routine; chest only after a retroperitoneal finding",
+              "rationale": "In a Canadian series of 527 patients, supradiaphragmatic seminoma metastases occurred only with abdominal disease (Dieckmann et al. 2025); the EAU foresees no chest X-ray in stage I seminoma (EAU 2026, 7.1)."
+            },
+            "D": {
+              "text": "Chest MRI together with every abdominal MRI scan",
+              "rationale": "Misconception: MRI also replaces chest imaging. Because of respiratory motion during long acquisitions it images the lung only imprecisely (Dieckmann et al. 2025)."
+            },
+            "E": {
+              "text": "Chest CT every six months until the end of year three",
+              "rationale": "Misconception: transfer of a schedule for metastatic disease. The EAU foresees scheduled chest CT only after chemotherapy for lung metastases at diagnosis (EAU 2026, 7.1)."
+            }
+          },
+          "explanation": {
+            "core": "In stage I seminoma, supradiaphragmatic metastases arise practically only after abdominal disease (Dieckmann et al. 2025). Chest imaging therefore follows the abdominal finding rather than a fixed schedule. A British study found none of 159 relapses in stage I follow-up by chest X-ray, and a Canadian study of 527 seminoma patients confirmed this (Dieckmann et al. 2025). Spread is almost always lymphatic first; skip metastases account for under 5% (Dieckmann et al. 2025). EAU Table 8 contains no chest X-ray in any year for stage I seminoma (EAU 2026, 7.1). If abdominal MRI shows a finding, the chest is imaged as well (Dieckmann et al. 2025). This restraint does not apply to patients after chemotherapy (EAU 2026, 7.1).",
+            "teaching_point": "Stage I seminoma: no routine chest imaging; image the chest once something appears retroperitoneally."
+          }
+        },
+        "es": {
+          "vignette": "Un varón de 31 años lleva dos años en vigilancia activa tras la orquiectomía por un seminoma en estadio clínico I. Los marcadores y la RM abdominal han sido siempre normales. Su médico de familia propone añadir una radiografía de tórax anual. Debe definirse la imagen torácica para el resto del seguimiento.",
+          "lead_in": "¿Qué imagen torácica es adecuada en el resto del seguimiento?",
+          "options": {
+            "A": {
+              "text": "Añadir una radiografía de tórax anual en dos proyecciones",
+              "rationale": "Error de concepto: la radiografía de tórax como rutina inocua. En una serie británica ninguna de 159 recaídas se detectó por radiografía; su sensibilidad para metástasis pulmonares es del 30 % (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "TC de tórax de baja dosis anual para mayor sensibilidad",
+              "rationale": "Error de concepto: una dosis unitaria baja haría inocua la rutina. También la TC de baja dosis conduce con el uso regular a una dosis acumulada relevante (Dieckmann et al. 2025)."
+            },
+            "C": {
+              "text": "Nada rutinario; tórax solo ante un hallazgo retroperitoneal",
+              "rationale": "En una serie canadiense de 527 pacientes, las metástasis supradiafragmáticas del seminoma solo aparecieron con enfermedad abdominal (Dieckmann et al. 2025); la EAU no prevé radiografía de tórax en el seminoma en estadio I (EAU 2026, 7.1)."
+            },
+            "D": {
+              "text": "RM de tórax junto con cada RM abdominal",
+              "rationale": "Error de concepto: la RM sustituiría también la imagen torácica. Por los movimientos respiratorios en adquisiciones largas, el pulmón se representa de forma imprecisa (Dieckmann et al. 2025)."
+            },
+            "E": {
+              "text": "TC de tórax semestral hasta el final del tercer año",
+              "rationale": "Error de concepto: trasladar un esquema de enfermedad metastásica. La EAU solo prevé TC de tórax programada tras quimioterapia con metástasis pulmonares al diagnóstico (EAU 2026, 7.1)."
+            }
+          },
+          "explanation": {
+            "core": "En el seminoma en estadio I, las metástasis supradiafragmáticas surgen prácticamente solo tras enfermedad abdominal (Dieckmann et al. 2025). Por eso la imagen torácica sigue al hallazgo abdominal y no a un calendario fijo. Un estudio británico no detectó por radiografía ninguna de 159 recaídas en el seguimiento del estadio I y un estudio canadiense en 527 pacientes con seminoma lo confirmó (Dieckmann et al. 2025). La diseminación es casi siempre linfática primero; las metástasis salteadas suponen menos del 5 % (Dieckmann et al. 2025). La tabla 8 de la EAU no incluye radiografía de tórax en ningún año para el seminoma en estadio I (EAU 2026, 7.1). Si la RM abdominal muestra un hallazgo, se explora también el tórax (Dieckmann et al. 2025). Esta contención no se aplica a los pacientes tras quimioterapia (EAU 2026, 7.1).",
+            "teaching_point": "Seminoma en estadio I: sin tórax rutinario; tórax solo cuando aparece algo en el retroperitoneo."
+          }
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00032",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Nachsorge",
+        "tags": [
+          "nachsorge",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 7,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "4",
+        "certainty": "kontrovers",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Nachsorge von Hodentumoren – ein Update",
+          "citation": "Dieckmann KP, Angerer M, Bremmer F, Soave A. Urologie 2025;64:1024–1036. doi:10.1007/s00120-025-02675-6",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "7.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-20",
+        "last_reviewed": "2026-09-20",
+        "expires": "2027-03-31"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 36-jähriger Mann hat wegen eines Seminoms im Stadium IIB drei Zyklen BEP erhalten und ist in kompletter Remission; bei Diagnose bestanden keine Lungenmetastasen. Die Praxis will die Nachsorge nach einer publizierten Expertentabelle führen, die für Seminome aller Stadien keine Thoraxbildgebung vorsieht. Festlegung der Thoraxdiagnostik im ersten Nachsorgejahr.",
+          "lead_in": "Welche Thoraxdiagnostik ist im ersten Nachsorgejahr angemessen?",
+          "options": {
+            "A": {
+              "text": "Keine Thoraxbildgebung, analog zum Seminom im Stadium I",
+              "rationale": "Fehlannahme: Die Daten des Stadiums I gälten für jedes Seminom. Die Belege für den Verzicht stammen aus dem Stadium I; nach Cisplatin-Chemotherapie im Stadium IIA/B liegen 25 % der Rezidive mediastinal (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "Röntgen-Thorax ein- bis zweimal im ersten Nachsorgejahr",
+              "rationale": "Die EAU sieht nach kurativer Chemotherapie mit kompletter Remission ein Röntgen-Thorax ein- bis zweimal im ersten Jahr und im zweiten und dritten Jahr je einmal vor, Seminome eingeschlossen (EAU 2026, 7.1)."
+            },
+            "C": {
+              "text": "Thorax-CT alle drei Monate zusammen mit den Markern",
+              "rationale": "Fehlannahme: Maximale Dichte sei maximale Sicherheit. Kumulative CT-Dosen belasten geheilte junge Männer (Dieckmann et al. 2025); eine Thorax-CT sieht die EAU nur bei Lungenmetastasen zum Diagnosezeitpunkt vor (EAU 2026, 7.1)."
+            },
+            "D": {
+              "text": "FDG-PET-CT nach drei Monaten zur Remissionsbestätigung",
+              "rationale": "Fehlannahme: PET gehöre in jede Remissionskontrolle. Die EAU empfiehlt FDG-PET-CT beim Seminom für Residuen über 3 cm frühestens zwei Monate nach Chemotherapie, nicht als Routine (EAU 2026, 7.1)."
+            },
+            "E": {
+              "text": "MRT des Thorax halbjährlich als strahlenfreie Lösung",
+              "rationale": "Fehlannahme: Die MRT sei für die Lunge gleichwertig. Atemexkursionen bei langen Messzeiten erlauben nur eine unpräzise Lungenbildgebung (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Nach Chemotherapie eines metastasierten Seminoms gehört ein Röntgen-Thorax zur Nachsorge (EAU 2026, 7.1). Der Verzicht auf Thoraxbildgebung ist nur für das Stadium I belegt (Dieckmann et al. 2025). Die EAU fasst alle Patienten nach kurativer Chemotherapie mit kompletter Remission in einer Gruppe zusammen, Seminome eingeschlossen, und sieht dort Röntgen-Thorax vor (Tabelle 10) (EAU 2026, 7.1). Der Artikel führt Seminome aller Stadien ohne Thoraxbildgebung, stützt den Verzicht aber auf Studien zum Stadium I (Dieckmann et al. 2025). Seine eigene Rezidivtabelle nennt nach Cisplatin-Chemotherapie im Stadium IIA/B einen mediastinalen Anteil von 25 % bei insgesamt unter 5 % Rezidiven (Dieckmann et al. 2025). Wo ein Expertenschema von der Leitlinie abweicht und dabei Daten aus einem anderen Stadium überträgt, gilt die Leitlinie. Lagen bei Diagnose Lungenmetastasen vor, kommt die Thorax-CT hinzu (EAU 2026, 7.1).",
+            "teaching_point": "Seminom nach Chemotherapie: Röntgen-Thorax in der Nachsorge; der Thoraxverzicht gilt nur für das Stadium I."
+          },
+          "flag_note": "Artikel und EAU 2026 weichen ab: Der Artikel sieht für Seminome aller Stadien keine Thoraxbildgebung vor, die EAU nach Chemotherapie ein Röntgen-Thorax. Die richtige Antwort folgt der Leitlinie."
+        },
+        "en": {
+          "vignette": "A 36-year-old man received three cycles of BEP for stage IIB seminoma and is in complete remission; there were no lung metastases at diagnosis. The practice wants to follow a published expert table that foresees no chest imaging for seminoma of any stage. Chest imaging in the first follow-up year is to be defined.",
+          "lead_in": "Which chest imaging is appropriate in the first follow-up year?",
+          "options": {
+            "A": {
+              "text": "No chest imaging, as for stage I seminoma",
+              "rationale": "Misconception: stage I data apply to every seminoma. The evidence for omission comes from stage I; after cisplatin chemotherapy in stage IIA/B, 25% of relapses are mediastinal (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "Chest X-ray once or twice in the first follow-up year",
+              "rationale": "After curative chemotherapy with complete remission, the EAU foresees a chest X-ray once or twice in the first year and once each in years two and three, seminoma included (EAU 2026, 7.1)."
+            },
+            "C": {
+              "text": "Chest CT every three months together with markers",
+              "rationale": "Misconception: maximum density means maximum safety. Cumulative CT doses burden cured young men (Dieckmann et al. 2025); the EAU foresees chest CT only for lung metastases at diagnosis (EAU 2026, 7.1)."
+            },
+            "D": {
+              "text": "FDG-PET/CT after three months to confirm remission",
+              "rationale": "Misconception: PET belongs in every remission check. The EAU recommends FDG-PET/CT in seminoma for residual masses over 3 cm at least two months after chemotherapy, not as routine (EAU 2026, 7.1)."
+            },
+            "E": {
+              "text": "Chest MRI every six months as radiation-free option",
+              "rationale": "Misconception: MRI is equivalent for the lung. Respiratory motion during long acquisitions allows only imprecise lung imaging (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "After chemotherapy for metastatic seminoma, a chest X-ray belongs in follow-up (EAU 2026, 7.1). Omitting chest imaging is supported only for stage I (Dieckmann et al. 2025). The EAU groups all patients after curative chemotherapy with complete remission together, seminoma included, and foresees chest X-ray for them (Table 10) (EAU 2026, 7.1). The article lists seminoma of all stages without chest imaging but bases the omission on stage I studies (Dieckmann et al. 2025). Its own relapse table reports a mediastinal share of 25% after cisplatin chemotherapy in stage IIA/B, with under 5% relapses overall (Dieckmann et al. 2025). Where an expert schedule deviates from the guideline by transferring data from another stage, the guideline applies. If lung metastases were present at diagnosis, chest CT is added (EAU 2026, 7.1).",
+            "teaching_point": "Seminoma after chemotherapy: chest X-ray in follow-up; omitting chest imaging applies only to stage I."
+          },
+          "flag_note": "The article and the EAU 2026 differ: the article foresees no chest imaging for seminoma of any stage, the EAU a chest X-ray after chemotherapy. The correct answer follows the guideline."
+        },
+        "es": {
+          "vignette": "Un varón de 36 años recibió tres ciclos de BEP por un seminoma en estadio IIB y está en remisión completa; al diagnóstico no había metástasis pulmonares. La consulta quiere seguir una tabla de expertos publicada que no prevé imagen torácica para el seminoma de ningún estadio. Debe definirse la imagen torácica del primer año de seguimiento.",
+          "lead_in": "¿Qué imagen torácica es adecuada en el primer año de seguimiento?",
+          "options": {
+            "A": {
+              "text": "Sin imagen torácica, igual que en el seminoma en estadio I",
+              "rationale": "Error de concepto: los datos del estadio I valdrían para todo seminoma. La evidencia para omitirla procede del estadio I; tras quimioterapia con cisplatino en el estadio IIA/B, el 25 % de las recaídas son mediastínicas (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "Radiografía de tórax una o dos veces en el primer año",
+              "rationale": "Tras quimioterapia curativa con remisión completa, la EAU prevé una radiografía de tórax una o dos veces el primer año y una vez en el segundo y en el tercer año, incluido el seminoma (EAU 2026, 7.1)."
+            },
+            "C": {
+              "text": "TC de tórax cada tres meses junto con los marcadores",
+              "rationale": "Error de concepto: máxima densidad sería máxima seguridad. Las dosis acumuladas de TC gravan a varones jóvenes curados (Dieckmann et al. 2025); la EAU solo prevé TC de tórax con metástasis pulmonares al diagnóstico (EAU 2026, 7.1)."
+            },
+            "D": {
+              "text": "PET-TC con FDG a los tres meses para confirmar la remisión",
+              "rationale": "Error de concepto: la PET formaría parte de todo control de remisión. La EAU recomienda la PET-TC con FDG en el seminoma para masas residuales de más de 3 cm al menos dos meses tras la quimioterapia, no como rutina (EAU 2026, 7.1)."
+            },
+            "E": {
+              "text": "RM de tórax semestral como opción sin radiación",
+              "rationale": "Error de concepto: la RM sería equivalente para el pulmón. Los movimientos respiratorios en adquisiciones largas solo permiten una imagen pulmonar imprecisa (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Tras quimioterapia de un seminoma metastásico, la radiografía de tórax forma parte del seguimiento (EAU 2026, 7.1). Prescindir de la imagen torácica solo está respaldado en el estadio I (Dieckmann et al. 2025). La EAU agrupa a todos los pacientes tras quimioterapia curativa con remisión completa, incluido el seminoma, y prevé para ellos radiografía de tórax (tabla 10) (EAU 2026, 7.1). El artículo sitúa el seminoma de todos los estadios sin imagen torácica, pero basa esa omisión en estudios del estadio I (Dieckmann et al. 2025). Su propia tabla de recaídas recoge una proporción mediastínica del 25 % tras quimioterapia con cisplatino en el estadio IIA/B, con menos del 5 % de recaídas en total (Dieckmann et al. 2025). Cuando un esquema de expertos se aparta de la guía trasladando datos de otro estadio, prevalece la guía. Si había metástasis pulmonares al diagnóstico, se añade la TC de tórax (EAU 2026, 7.1).",
+            "teaching_point": "Seminoma tras quimioterapia: radiografía de tórax en el seguimiento; omitir el tórax solo vale para el estadio I."
+          },
+          "flag_note": "El artículo y la EAU 2026 difieren: el artículo no prevé imagen torácica para el seminoma de ningún estadio; la EAU, una radiografía de tórax tras quimioterapia. La respuesta correcta sigue la guía."
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00033",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Nachsorge",
+        "tags": [
+          "nachsorge",
+          "tumormarker",
+          "diagnostik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Nachsorge von Hodentumoren – ein Update",
+          "citation": "Dieckmann KP, Angerer M, Bremmer F, Soave A. Urologie 2025;64:1024–1036. doi:10.1007/s00120-025-02675-6",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "7.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-20",
+        "last_reviewed": "2026-09-20",
+        "expires": "2027-09-20"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 27-jähriger Mann mit Nichtseminom im klinischen Stadium I ist unter aktiver Überwachung. Nach 9 Monaten ist das AFP von zuvor normalen Werten auf 38 ng/ml gestiegen, β-hCG normal. Abdominelle MRT und Röntgen-Thorax sind unauffällig, der Patient ist beschwerdefrei. Vorstellung zur Bewertung des Markerbefundes.",
+          "lead_in": "Wie ist mit dem Markerbefund weiter zu verfahren?",
+          "options": {
+            "A": {
+              "text": "Marker nach 2–4 Wochen wiederholen, dann entscheiden",
+              "rationale": "Bei unauffälliger Bildgebung wird der Marker nach 2–4 Wochen kontrolliert; erst ein weiterer Anstieg sichert das Marker-only-Rezidiv (Dieckmann et al. 2025). Die EAU verlangt Serienmessung oder Korrelation mit der Bildgebung (EAU 2026, 7.1)."
+            },
+            "B": {
+              "text": "Sofort drei Zyklen BEP wegen Marker-only-Rezidivs",
+              "rationale": "Fehlannahme: Jede Markererhöhung sei ein Rezidiv. Falsch positive Werte kommen vor, eine einmalige Erhöhung genügt nicht (Dieckmann et al. 2025)."
+            },
+            "C": {
+              "text": "LDH bestimmen und bei Erhöhung das Rezidiv sichern",
+              "rationale": "Fehlannahme: LDH als Bestätigungsmarker. In einer kanadischen Studie waren 24 % der LDH-Erhöhungen falsch positiv, allein zeigte sie nie ein Rezidiv an (Dieckmann et al. 2025)."
+            },
+            "D": {
+              "text": "FDG-PET-CT zur Suche nach dem Ursprung des Markers",
+              "rationale": "Fehlannahme: PET kläre isolierte Markeranstiege. Die EAU empfiehlt FDG-PET-CT während der Überwachung nicht (EAU 2026, 7.1); die Klärung erfolgt über den Markerverlauf (Dieckmann et al. 2025)."
+            },
+            "E": {
+              "text": "Befund bis zur nächsten regulären Kontrolle abwarten",
+              "rationale": "Fehlannahme: Ein Befund zwischen zwei Terminen könne warten. Markererhöhungen gehen etwa einem Viertel der bildgebend erkennbaren Rezidive voraus (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Ein Marker-only-Rezidiv wird über den Verlauf gesichert, nicht über einen Einzelwert. Erst ein konstanter Anstieg innerhalb weniger Wochen trägt Diagnose und Therapieentscheidung (Dieckmann et al. 2025). Der Artikel verlangt bei isolierter Markererhöhung zuerst Bildgebung, ohne Herdbefund eine Kontrolle nach 2–4 Wochen und erst bei weiterem Anstieg die Diagnose; bei starkem Anstieg über 100 U/l bzw. ng/ml genügt der Einzelwert (Dieckmann et al. 2025). Nur in etwa 20 % sind Marker allein für die Rezidivdiagnose ausschlaggebend (Dieckmann et al. 2025). Die EAU nennt falsch positive Befunde bei AFP, hCG und LDH (EAU 2026, 7.1). Der Kontrolltermin wird fest vereinbart und nicht an die nächste Routinevisite gekoppelt. Mit 38 ng/ml liegt der Wert zudem oberhalb des typischen Bereichs idiopathischer AFP-Erhöhungen von 8–20 ng/ml (Dieckmann et al. 2025).",
+            "teaching_point": "Marker-only-Rezidiv: ein Einzelwert reicht nicht; Kontrolle nach 2–4 Wochen, Ausnahme starker Anstieg über 100."
+          }
+        },
+        "en": {
+          "vignette": "A 27-year-old man with clinical stage I non-seminoma is on active surveillance. After 9 months, AFP has risen from previously normal values to 38 ng/ml, β-hCG is normal. Abdominal MRI and chest X-ray are unremarkable and he is asymptomatic. He is seen to assess the marker finding.",
+          "lead_in": "How should the marker finding be handled next?",
+          "options": {
+            "A": {
+              "text": "Repeat the marker after 2–4 weeks, then decide",
+              "rationale": "With unremarkable imaging, the marker is rechecked after 2–4 weeks; only a further rise confirms marker-only relapse (Dieckmann et al. 2025). The EAU requires serial measurement or correlation with imaging (EAU 2026, 7.1)."
+            },
+            "B": {
+              "text": "Three cycles of BEP now for marker-only relapse",
+              "rationale": "Misconception: every marker rise is a relapse. False-positive values occur, and a single elevation is not sufficient (Dieckmann et al. 2025)."
+            },
+            "C": {
+              "text": "Measure LDH and confirm relapse if it is raised",
+              "rationale": "Misconception: LDH as confirmatory marker. In a Canadian study 24% of LDH elevations were false positive, and LDH alone never indicated a relapse (Dieckmann et al. 2025)."
+            },
+            "D": {
+              "text": "FDG-PET/CT to search for the source of the marker",
+              "rationale": "Misconception: PET clarifies isolated marker rises. The EAU does not recommend FDG-PET/CT during surveillance (EAU 2026, 7.1); clarification comes from the marker course (Dieckmann et al. 2025)."
+            },
+            "E": {
+              "text": "Wait for the next regular follow-up visit",
+              "rationale": "Misconception: a finding between two visits can wait. Marker rises precede about a quarter of relapses that become visible on imaging (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "A marker-only relapse is confirmed by the course, not by a single value. Only a consistent rise within a few weeks supports diagnosis and treatment decision (Dieckmann et al. 2025). The article requires imaging first for an isolated marker rise, a recheck after 2–4 weeks if no lesion is found and diagnosis only after a further rise; with a strong rise above 100 U/l or ng/ml the single value suffices (Dieckmann et al. 2025). Markers alone are decisive for the diagnosis of relapse in only about 20% (Dieckmann et al. 2025). The EAU notes false-positive results for AFP, hCG and LDH (EAU 2026, 7.1). The recheck is scheduled as a fixed appointment, not tied to the next routine visit. At 38 ng/ml the value also lies above the typical range of idiopathic AFP elevation of 8–20 ng/ml (Dieckmann et al. 2025).",
+            "teaching_point": "Marker-only relapse: a single value is not enough; recheck after 2–4 weeks, except for a strong rise above 100."
+          }
+        },
+        "es": {
+          "vignette": "Un varón de 27 años con no seminoma en estadio clínico I está en vigilancia activa. A los 9 meses, la AFP ha subido de valores previamente normales a 38 ng/ml; β-hCG normal. La RM abdominal y la radiografía de tórax son normales y está asintomático. Acude para valorar el hallazgo de marcadores.",
+          "lead_in": "¿Cómo debe manejarse a continuación el hallazgo de marcadores?",
+          "options": {
+            "A": {
+              "text": "Repetir el marcador en 2–4 semanas y después decidir",
+              "rationale": "Con imagen normal, el marcador se repite a las 2–4 semanas; solo un nuevo ascenso confirma la recaída solo de marcadores (Dieckmann et al. 2025). La EAU exige mediciones seriadas o correlación con la imagen (EAU 2026, 7.1)."
+            },
+            "B": {
+              "text": "Tres ciclos de BEP ya por recaída solo de marcadores",
+              "rationale": "Error de concepto: toda elevación de marcadores sería una recaída. Existen valores falsamente positivos y una elevación aislada no basta (Dieckmann et al. 2025)."
+            },
+            "C": {
+              "text": "Medir la LDH y confirmar la recaída si está elevada",
+              "rationale": "Error de concepto: la LDH como marcador de confirmación. En un estudio canadiense el 24 % de las elevaciones de LDH fueron falsos positivos y por sí sola nunca indicó una recaída (Dieckmann et al. 2025)."
+            },
+            "D": {
+              "text": "PET-TC con FDG para buscar el origen del marcador",
+              "rationale": "Error de concepto: la PET aclararía ascensos aislados de marcadores. La EAU no recomienda la PET-TC con FDG durante la vigilancia (EAU 2026, 7.1); la aclaración viene de la evolución del marcador (Dieckmann et al. 2025)."
+            },
+            "E": {
+              "text": "Esperar hasta la próxima visita ordinaria de control",
+              "rationale": "Error de concepto: un hallazgo entre dos visitas podría esperar. Las elevaciones de marcadores preceden a alrededor de una cuarta parte de las recaídas visibles en la imagen (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "La recaída solo de marcadores se confirma por la evolución, no por un valor aislado. Solo un ascenso constante en pocas semanas sustenta el diagnóstico y la decisión terapéutica (Dieckmann et al. 2025). El artículo exige primero imagen ante una elevación aislada de marcadores, repetición a las 2–4 semanas si no hay lesión y diagnóstico solo tras un nuevo ascenso; con un ascenso intenso por encima de 100 U/l o ng/ml basta el valor aislado (Dieckmann et al. 2025). Los marcadores solos son decisivos para el diagnóstico de recaída en solo un 20 % aproximadamente (Dieckmann et al. 2025). La EAU señala resultados falsamente positivos de AFP, hCG y LDH (EAU 2026, 7.1). La repetición se cita como cita fija y no se vincula a la siguiente visita rutinaria. Con 38 ng/ml el valor está además por encima del rango típico de la elevación idiopática de AFP de 8–20 ng/ml (Dieckmann et al. 2025).",
+            "teaching_point": "Recaída solo de marcadores: un valor aislado no basta; repetir a las 2–4 semanas, salvo ascenso intenso por encima de 100."
+          }
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00034",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Nachsorge",
+        "tags": [
+          "nachsorge",
+          "tumormarker",
+          "diagnostik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "4",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Nachsorge von Hodentumoren – ein Update",
+          "citation": "Dieckmann KP, Angerer M, Bremmer F, Soave A. Urologie 2025;64:1024–1036. doi:10.1007/s00120-025-02675-6",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "7.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-20",
+        "last_reviewed": "2026-09-20",
+        "expires": "2027-09-20"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 38-jähriger Mann, 4 Jahre nach Orchiektomie eines Seminoms im Stadium I, klagt über Müdigkeit und Libidoverlust. β-hCG 4,2 U/l (Referenz unter 2), nach 3 Wochen 4,5 U/l; AFP normal. Testosteron erniedrigt, LH deutlich erhöht, abdominelle MRT unauffällig. Vorstellung zur Bewertung der β-hCG-Erhöhung.",
+          "lead_in": "Welcher nächste Schritt ist angemessen?",
+          "options": {
+            "A": {
+              "text": "Chemotherapie wegen bestätigten Marker-only-Rezidivs",
+              "rationale": "Fehlannahme: Ein wiederholt leicht erhöhtes β-hCG sei beweisend. Bei hypergonadotropem Hypogonadismus kann β-hCG falsch erhöht gemessen werden (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "FDG-PET-CT zur Suche nach einem okkulten Rezidiv",
+              "rationale": "Fehlannahme: Unklare Marker verlangten PET. Die EAU empfiehlt FDG-PET-CT in der Überwachung nicht (EAU 2026, 7.1); hier fehlt zudem jeder bildgebende Hinweis."
+            },
+            "C": {
+              "text": "Thorax-CT und Schädel-MRT zum Ausschluss von Metastasen",
+              "rationale": "Fehlannahme: Suche abseits der üblichen Metastasierungswege. Schädel-MRT und ähnliche Verfahren sind in der Routinenachsorge wegen der Seltenheit solcher Metastasen unnötig (Dieckmann et al. 2025)."
+            },
+            "D": {
+              "text": "Weitere Kontrollen alle 3 Wochen ohne zusätzlichen Test",
+              "rationale": "Fehlannahme: Die Serienregel gelte ohne Differenzialdiagnose. Niedriges Testosteron und hohes LH liefern eine Erklärung, die sich gezielt prüfen lässt (Dieckmann et al. 2025)."
+            },
+            "E": {
+              "text": "Testosterongabe und erneute β-hCG-Messung danach",
+              "rationale": "LH ähnelt β-hCG strukturell und wird von unspezifischen Tests mitgemessen; Testosteron senkt LH rasch, und normalisiert sich β-hCG, war die Erhöhung vorgetäuscht (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Bei erniedrigtem Testosteron und hohem LH ist eine leichte β-hCG-Erhöhung verdächtig auf eine Kreuzreaktion. Der Testosterontest trennt vorgetäuschte von echter Markererhöhung, bevor eine Rezidivdiagnose gestellt wird (Dieckmann et al. 2025). Falsch positive Markererhöhungen kommen vor; β-hCG kann bei hypergonadotropem Hypogonadismus falsch erhöht gemessen werden, weil das reaktiv erhöhte LH strukturell ähnlich ist (Dieckmann et al. 2025). Nach Testosterongabe normalisiert sich LH rasch, und eine vorgetäuschte β-hCG-Erhöhung verschwindet (Dieckmann et al. 2025). Die EAU nennt falsch positive Befunde der etablierten Marker und verlangt Korrelation mit Bildgebung oder Serienmessung (EAU 2026, 7.1). Ein klinisch relevanter Hypogonadismus entwickelt sich langfristig bei 25–38 % der Patienten und ist in der Nachsorge keine Rarität (Dieckmann et al. 2025). Testosteron gehört deshalb ohnehin ins Nachsorgelabor (Dieckmann et al. 2025).",
+            "teaching_point": "Leichtes β-hCG plus hohes LH und niedriges Testosteron: erst Testosterontest, dann Rezidivdiagnose."
+          }
+        },
+        "en": {
+          "vignette": "A 38-year-old man, 4 years after orchiectomy for stage I seminoma, reports fatigue and loss of libido. β-hCG 4.2 U/l (reference below 2), after 3 weeks 4.5 U/l; AFP normal. Testosterone is low, LH markedly raised, abdominal MRI unremarkable. He is seen to assess the β-hCG elevation.",
+          "lead_in": "Which next step is appropriate?",
+          "options": {
+            "A": {
+              "text": "Chemotherapy for confirmed marker-only relapse",
+              "rationale": "Misconception: a repeatedly mildly raised β-hCG is conclusive. In hypergonadotropic hypogonadism β-hCG can be measured falsely high (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "FDG-PET/CT to search for an occult relapse",
+              "rationale": "Misconception: unclear markers require PET. The EAU does not recommend FDG-PET/CT during surveillance (EAU 2026, 7.1); there is also no imaging clue here."
+            },
+            "C": {
+              "text": "Chest CT and brain MRI to exclude metastases",
+              "rationale": "Misconception: searching outside the usual routes of spread. Brain MRI and similar tests are unnecessary in routine follow-up because such metastases are rare (Dieckmann et al. 2025)."
+            },
+            "D": {
+              "text": "Further checks every 3 weeks without additional tests",
+              "rationale": "Misconception: the serial rule applies without differential diagnosis. Low testosterone and high LH provide an explanation that can be tested directly (Dieckmann et al. 2025)."
+            },
+            "E": {
+              "text": "Testosterone administration, then repeat β-hCG",
+              "rationale": "LH resembles β-hCG structurally and is co-measured by unspecific assays; testosterone lowers LH quickly, and if β-hCG normalises, the elevation was spurious (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "With low testosterone and high LH, a mild β-hCG elevation is suspicious for cross-reactivity. The testosterone test separates spurious from true marker elevation before a relapse is diagnosed (Dieckmann et al. 2025). False-positive marker elevations occur; in hypergonadotropic hypogonadism β-hCG can be measured falsely high because the reactively raised LH is structurally similar (Dieckmann et al. 2025). After testosterone administration LH normalises quickly and a spurious β-hCG elevation disappears (Dieckmann et al. 2025). The EAU notes false-positive results of the established markers and requires correlation with imaging or serial measurement (EAU 2026, 7.1). Clinically relevant hypogonadism develops in the long term in 25–38% of patients and is no rarity in follow-up (Dieckmann et al. 2025). Testosterone therefore belongs in the follow-up laboratory anyway (Dieckmann et al. 2025).",
+            "teaching_point": "Mild β-hCG plus high LH and low testosterone: testosterone test first, relapse diagnosis second."
+          }
+        },
+        "es": {
+          "vignette": "Un varón de 38 años, 4 años tras la orquiectomía por un seminoma en estadio I, refiere cansancio y pérdida de libido. β-hCG 4,2 U/l (referencia inferior a 2), a las 3 semanas 4,5 U/l; AFP normal. Testosterona baja, LH claramente elevada, RM abdominal normal. Acude para valorar la elevación de β-hCG.",
+          "lead_in": "¿Qué paso siguiente es adecuado?",
+          "options": {
+            "A": {
+              "text": "Quimioterapia por recaída confirmada solo de marcadores",
+              "rationale": "Error de concepto: una β-hCG levemente elevada de forma repetida sería concluyente. En el hipogonadismo hipergonadotrópico la β-hCG puede medirse falsamente elevada (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "PET-TC con FDG para buscar una recaída oculta",
+              "rationale": "Error de concepto: los marcadores dudosos exigirían PET. La EAU no recomienda la PET-TC con FDG durante la vigilancia (EAU 2026, 7.1); además aquí no hay ningún indicio en la imagen."
+            },
+            "C": {
+              "text": "TC de tórax y RM craneal para descartar metástasis",
+              "rationale": "Error de concepto: buscar fuera de las vías habituales de diseminación. La RM craneal y pruebas similares son innecesarias en el seguimiento rutinario por la rareza de esas metástasis (Dieckmann et al. 2025)."
+            },
+            "D": {
+              "text": "Más controles cada 3 semanas sin pruebas adicionales",
+              "rationale": "Error de concepto: la regla seriada se aplicaría sin diagnóstico diferencial. La testosterona baja y la LH alta ofrecen una explicación que puede comprobarse de forma dirigida (Dieckmann et al. 2025)."
+            },
+            "E": {
+              "text": "Administrar testosterona y repetir después la β-hCG",
+              "rationale": "La LH se parece estructuralmente a la β-hCG y la miden también los ensayos poco específicos; la testosterona reduce rápido la LH y, si la β-hCG se normaliza, la elevación era espuria (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Con testosterona baja y LH alta, una elevación leve de β-hCG hace sospechar una reacción cruzada. La prueba con testosterona separa la elevación espuria de la real antes de diagnosticar una recaída (Dieckmann et al. 2025). Existen elevaciones falsamente positivas de marcadores; en el hipogonadismo hipergonadotrópico la β-hCG puede medirse falsamente elevada porque la LH elevada de forma reactiva es estructuralmente similar (Dieckmann et al. 2025). Tras administrar testosterona la LH se normaliza rápido y una elevación espuria de β-hCG desaparece (Dieckmann et al. 2025). La EAU señala resultados falsamente positivos de los marcadores establecidos y exige correlación con la imagen o mediciones seriadas (EAU 2026, 7.1). Un hipogonadismo clínicamente relevante aparece a largo plazo en el 25–38 % de los pacientes y no es una rareza en el seguimiento (Dieckmann et al. 2025). Por eso la testosterona forma parte del laboratorio de seguimiento en cualquier caso (Dieckmann et al. 2025).",
+            "teaching_point": "β-hCG levemente elevada con LH alta y testosterona baja: primero prueba con testosterona, después diagnóstico de recaída."
+          }
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00035",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Nachsorge",
+        "tags": [
+          "nachsorge",
+          "tumormarker",
+          "diagnostik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 7,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "4",
+        "certainty": "expertenkonsens",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Nachsorge von Hodentumoren – ein Update",
+          "citation": "Dieckmann KP, Angerer M, Bremmer F, Soave A. Urologie 2025;64:1024–1036. doi:10.1007/s00120-025-02675-6",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "7.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-20",
+        "last_reviewed": "2026-09-20",
+        "expires": "2027-09-20"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 42-jähriger Mann ist nach Orchiektomie eines referenzpathologisch bestätigten reinen Seminoms im Stadium I unter Überwachung. Präoperativ und in allen halbjährlichen Kontrollen lag das AFP zwischen 11 und 13 ng/ml, β-hCG normal, Bildgebung unauffällig. Der Befund fällt erstmals in der Nachsorgesprechstunde auf. Festlegung des weiteren Vorgehens.",
+          "lead_in": "Welches Vorgehen klärt die Bedeutung des AFP-Wertes?",
+          "options": {
+            "A": {
+              "text": "Als Nichtseminom werten und adjuvant einen Zyklus BEP geben",
+              "rationale": "Fehlannahme: Jede AFP-Erhöhung beweise einen nichtseminomatösen Anteil. Etwa 3 % aller Männer haben idiopathisch leicht erhöhte Werte, meist zwischen 8 und 20 ng/ml (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "FDG-PET-CT zur Suche nach einer nichtseminomatösen Metastase",
+              "rationale": "Fehlannahme: Unklare Marker verlangten PET. Die EAU empfiehlt FDG-PET-CT in der Überwachung nicht (EAU 2026, 7.1); die Frage beantwortet der Markerverlauf (Dieckmann et al. 2025)."
+            },
+            "C": {
+              "text": "Dreimal im Abstand von 3–4 Wochen messen, dann bewerten",
+              "rationale": "Die idiopathische Erhöhung wird durch Wiederholung gesichert: Steigt das AFP in drei Messungen im Abstand von 3–4 Wochen nicht signifikant an, darf sie diagnostiziert werden (Dieckmann et al. 2025)."
+            },
+            "D": {
+              "text": "Retroperitoneale Lymphadenektomie zur Sicherung des Stadiums",
+              "rationale": "Fehlannahme: Operatives Staging kläre einen Laborbefund. Ohne Herdbefund und ohne Anstieg fehlt die Grundlage; über die Bedeutung entscheidet der Verlauf (Dieckmann et al. 2025)."
+            },
+            "E": {
+              "text": "AFP als seminomtypisch ansehen und nicht weiter beachten",
+              "rationale": "Fehlannahme: AFP gehöre zum Seminom. Seminome exprimieren kein AFP, allenfalls β-hCG in maximal 30 % der Fälle (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Ein konstant leicht erhöhtes AFP beim histologisch reinen Seminom kann idiopathisch sein. Bevor der Befund als nichtseminomatöser Anteil gewertet und behandelt wird, sichert eine standardisierte Serienmessung die Einordnung (Dieckmann et al. 2025). Seminome exprimieren kein AFP (Dieckmann et al. 2025). Etwa 3 % aller Männer haben idiopathisch leicht erhöhte AFP-Werte, meist zwischen 8 und 20 ng/ml; bewiesen wird dies nur durch drei aufeinanderfolgende Messungen im Abstand von 3–4 Wochen ohne signifikanten Anstieg (Dieckmann et al. 2025). Die EAU verlangt bei Markerbefunden allgemein Serienmessung oder Korrelation mit der Bildgebung (EAU 2026, 7.1). Steigt der Wert in der Serie, trägt die idiopathische Erklärung nicht mehr (Dieckmann et al. 2025). Die gesicherte Einordnung gehört in den Befund, damit spätere Kontrollen nicht erneut eine Therapiediskussion auslösen.",
+            "teaching_point": "Reines Seminom mit stabil leicht erhöhtem AFP: dreimal im 3–4-Wochen-Abstand messen, bevor umklassifiziert wird."
+          },
+          "flag_note": "Die Abgrenzung idiopathischer AFP-Erhöhungen beruht auf Fallserien der Autorengruppe, nicht auf Leitlinienempfehlungen; bei steigenden Werten gilt sie nicht."
+        },
+        "en": {
+          "vignette": "A 42-year-old man is on surveillance after orchiectomy for a reference-confirmed pure stage I seminoma. Before surgery and at all six-monthly visits, AFP has been between 11 and 13 ng/ml, β-hCG normal, imaging unremarkable. The finding is noticed for the first time in the follow-up clinic. Further management is to be defined.",
+          "lead_in": "Which approach clarifies the meaning of the AFP value?",
+          "options": {
+            "A": {
+              "text": "Classify as non-seminoma and give one adjuvant cycle of BEP",
+              "rationale": "Misconception: any AFP elevation proves a non-seminomatous component. About 3% of all men have idiopathically mildly raised values, mostly between 8 and 20 ng/ml (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "FDG-PET/CT to search for a non-seminomatous metastasis",
+              "rationale": "Misconception: unclear markers require PET. The EAU does not recommend FDG-PET/CT during surveillance (EAU 2026, 7.1); the marker course answers the question (Dieckmann et al. 2025)."
+            },
+            "C": {
+              "text": "Measure three times 3–4 weeks apart, then assess",
+              "rationale": "Idiopathic elevation is confirmed by repetition: if AFP does not rise significantly in three measurements 3–4 weeks apart, it may be diagnosed (Dieckmann et al. 2025)."
+            },
+            "D": {
+              "text": "Retroperitoneal lymph node dissection to confirm the stage",
+              "rationale": "Misconception: surgical staging clarifies a laboratory finding. Without a lesion and without a rise there is no basis; the course decides its meaning (Dieckmann et al. 2025)."
+            },
+            "E": {
+              "text": "Regard AFP as typical of seminoma and disregard it",
+              "rationale": "Misconception: AFP belongs to seminoma. Seminomas do not express AFP, at most β-hCG in up to 30% of cases (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "A constantly mildly raised AFP in histologically pure seminoma may be idiopathic. Before the finding is taken as a non-seminomatous component and treated, standardised serial measurement secures the classification (Dieckmann et al. 2025). Seminomas do not express AFP (Dieckmann et al. 2025). About 3% of all men have idiopathically mildly raised AFP, mostly between 8 and 20 ng/ml; this is proven only by three consecutive measurements 3–4 weeks apart without a significant rise (Dieckmann et al. 2025). The EAU generally requires serial measurement or correlation with imaging for marker findings (EAU 2026, 7.1). If the value rises in the series, the idiopathic explanation no longer holds (Dieckmann et al. 2025). The confirmed classification belongs in the record so that later visits do not trigger a new treatment discussion.",
+            "teaching_point": "Pure seminoma with stable mildly raised AFP: measure three times 3–4 weeks apart before reclassifying."
+          },
+          "flag_note": "The distinction of idiopathic AFP elevation is based on case series by the author group, not on guideline recommendations; it does not apply to rising values."
+        },
+        "es": {
+          "vignette": "Un varón de 42 años está en vigilancia tras la orquiectomía de un seminoma puro en estadio I confirmado por patología de referencia. Antes de la cirugía y en todos los controles semestrales, la AFP ha estado entre 11 y 13 ng/ml, β-hCG normal, imagen normal. El hallazgo se advierte por primera vez en la consulta de seguimiento. Debe definirse la conducta.",
+          "lead_in": "¿Qué conducta aclara el significado del valor de AFP?",
+          "options": {
+            "A": {
+              "text": "Considerarlo no seminoma y dar un ciclo adyuvante de BEP",
+              "rationale": "Error de concepto: toda elevación de AFP probaría un componente no seminomatoso. Alrededor del 3 % de todos los varones tienen valores idiopáticamente algo elevados, en su mayoría entre 8 y 20 ng/ml (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "PET-TC con FDG para buscar una metástasis no seminomatosa",
+              "rationale": "Error de concepto: los marcadores dudosos exigirían PET. La EAU no recomienda la PET-TC con FDG durante la vigilancia (EAU 2026, 7.1); la evolución del marcador responde a la pregunta (Dieckmann et al. 2025)."
+            },
+            "C": {
+              "text": "Medir tres veces con 3–4 semanas de intervalo y valorar",
+              "rationale": "La elevación idiopática se confirma repitiendo: si la AFP no asciende de forma significativa en tres mediciones con 3–4 semanas de intervalo, puede diagnosticarse (Dieckmann et al. 2025)."
+            },
+            "D": {
+              "text": "Linfadenectomía retroperitoneal para confirmar el estadio",
+              "rationale": "Error de concepto: la estadificación quirúrgica aclararía un hallazgo de laboratorio. Sin lesión y sin ascenso no hay base; la evolución decide su significado (Dieckmann et al. 2025)."
+            },
+            "E": {
+              "text": "Considerar la AFP propia del seminoma y no darle importancia",
+              "rationale": "Error de concepto: la AFP formaría parte del seminoma. Los seminomas no expresan AFP, como mucho β-hCG en hasta el 30 % de los casos (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Una AFP levemente elevada de forma constante en un seminoma histológicamente puro puede ser idiopática. Antes de considerarla un componente no seminomatoso y tratarla, una medición seriada estandarizada asegura la clasificación (Dieckmann et al. 2025). Los seminomas no expresan AFP (Dieckmann et al. 2025). Alrededor del 3 % de todos los varones tienen una AFP idiopáticamente algo elevada, en su mayoría entre 8 y 20 ng/ml; solo se demuestra con tres mediciones consecutivas con 3–4 semanas de intervalo sin ascenso significativo (Dieckmann et al. 2025). La EAU exige en general mediciones seriadas o correlación con la imagen ante hallazgos de marcadores (EAU 2026, 7.1). Si el valor asciende en la serie, la explicación idiopática deja de sostenerse (Dieckmann et al. 2025). La clasificación confirmada debe constar en la historia para que controles posteriores no reabran la discusión terapéutica.",
+            "teaching_point": "Seminoma puro con AFP estable y levemente elevada: medir tres veces con 3–4 semanas de intervalo antes de reclasificar."
+          },
+          "flag_note": "La distinción de la elevación idiopática de AFP se basa en series de casos del grupo de autores, no en recomendaciones de guías; no se aplica a valores en ascenso."
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00036",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Nachsorge",
+        "tags": [
+          "nachsorge",
+          "tumormarker",
+          "diagnostik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "4",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Nachsorge von Hodentumoren – ein Update",
+          "citation": "Dieckmann KP, Angerer M, Bremmer F, Soave A. Urologie 2025;64:1024–1036. doi:10.1007/s00120-025-02675-6",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "7.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-20",
+        "last_reviewed": "2026-09-20",
+        "expires": "2027-03-31"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 29-jähriger Mann mit Nichtseminom im klinischen Stadium I ist unter aktiver Überwachung, alle Befunde sind bisher unauffällig. Er hat vom Bluttest microRNA-371a-3p (M371) gelesen und möchte künftig auf die MRT-Termine verzichten, solange der Test negativ ist. Beratung vor dem Nachsorgetermin nach 12 Monaten.",
+          "lead_in": "Welche Empfehlung ist für die weitere Nachsorge begründet?",
+          "options": {
+            "A": {
+              "text": "M371 statt MRT, da die Sensitivität in der Nachsorge 100 % betrug",
+              "rationale": "Fehlannahme: Hohe Studiensensitivität sei schon Standard. Die 100 % stammen aus einer Studie mit 39 Rezidiven bei 258 Patienten (Dieckmann et al. 2025); die EAU-Nachsorgetabellen enthalten den Test nicht (EAU 2026, 7.1)."
+            },
+            "B": {
+              "text": "M371 statt AFP und β-hCG, Bildgebung nur noch jährlich",
+              "rationale": "Fehlannahme: Ein neuer Marker verdränge die etablierten. AFP und β-hCG bleiben in den Nachsorgeschemata von Artikel und EAU fester Bestandteil (Dieckmann et al. 2025; EAU 2026, 7.1)."
+            },
+            "C": {
+              "text": "LDH statt M371 ergänzen, da LDH breiter verfügbar ist",
+              "rationale": "Fehlannahme: LDH sei ein brauchbarer Nachsorgemarker. 24 % der LDH-Erhöhungen waren falsch positiv, allein zeigte sie nie ein Rezidiv an (Dieckmann et al. 2025)."
+            },
+            "D": {
+              "text": "Bildgebung nach Schema fortführen, M371 ersetzt sie noch nicht",
+              "rationale": "Die Einsparung von Bildgebung leiten die Autoren aus Modellrechnungen ab und nennen die Implementierung wünschenswert (Dieckmann et al. 2025); die EAU-Nachsorge beruht weiter auf Markern und Bildgebung (EAU 2026, 7.1)."
+            },
+            "E": {
+              "text": "M371 nur einmalig bestimmen und bei Negativität Nachsorge beenden",
+              "rationale": "Fehlannahme: Ein Einzelwert erlaube das Ende der Überwachung. Die Schemata reichen bis 60 Monate, weil Rezidive über Jahre auftreten (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "M371 ist ein vielversprechender Marker, aber noch kein Ersatz für die Bildgebung (Dieckmann et al. 2025; EAU 2026, 7.1). Bis Leitlinien den Wechsel tragen, bleibt die Nachsorge bei Markern plus Bildgebung. In einer prospektiven Nachsorgestudie an 258 Patienten im Stadium I waren alle 39 Rezidive M371-positiv, Sensitivität 100 %, Spezifität 96,3 %; eine kanadische Studie fand 94,1 % (Dieckmann et al. 2025). Erstautor Dieckmann hält 5,7 % der Anteile an der miRdetect GmbH (Dieckmann et al. 2025). Die EAU-Tabellen 8 bis 10 enthalten Marker und Bildgebung, keinen M371-Test (EAU 2026, 7.1). Wer den Test zusätzlich nutzt, streicht deshalb keinen Bildgebungstermin. Die Interessenkonflikterklärung gehört zur Bewertung der Empfehlung (Dieckmann et al. 2025).",
+            "teaching_point": "M371: vielversprechend, aber noch kein Ersatz für MRT und Röntgen-Thorax in der Nachsorge."
+          }
+        },
+        "en": {
+          "vignette": "A 29-year-old man with clinical stage I non-seminoma is on active surveillance; all findings so far are normal. He has read about the blood test microRNA-371a-3p (M371) and wants to skip the MRI appointments as long as the test is negative. Counselling before the 12-month visit.",
+          "lead_in": "Which recommendation for further follow-up is justified?",
+          "options": {
+            "A": {
+              "text": "M371 instead of MRI, as sensitivity in follow-up was 100%",
+              "rationale": "Misconception: high study sensitivity is already standard. The 100% comes from a study with 39 relapses in 258 patients (Dieckmann et al. 2025); the EAU follow-up tables do not include the test (EAU 2026, 7.1)."
+            },
+            "B": {
+              "text": "M371 instead of AFP and β-hCG, imaging only yearly",
+              "rationale": "Misconception: a new marker displaces the established ones. AFP and β-hCG remain a fixed part of the follow-up schedules of both article and EAU (Dieckmann et al. 2025; EAU 2026, 7.1)."
+            },
+            "C": {
+              "text": "Add LDH instead of M371, as LDH is more widely available",
+              "rationale": "Misconception: LDH is a useful follow-up marker. 24% of LDH elevations were false positive, and alone it never indicated a relapse (Dieckmann et al. 2025)."
+            },
+            "D": {
+              "text": "Continue imaging per schedule; M371 does not yet replace it",
+              "rationale": "The authors derive savings in imaging from model calculations and call implementation desirable (Dieckmann et al. 2025); EAU follow-up still relies on markers and imaging (EAU 2026, 7.1)."
+            },
+            "E": {
+              "text": "Measure M371 once and end follow-up if negative",
+              "rationale": "Misconception: a single value allows surveillance to end. The schedules extend to 60 months because relapses occur over years (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "M371 is a promising marker but not yet a substitute for imaging (Dieckmann et al. 2025; EAU 2026, 7.1). Until guidelines support the switch, follow-up remains markers plus imaging. In a prospective follow-up study of 258 stage I patients, all 39 relapses were M371-positive, sensitivity 100%, specificity 96.3%; a Canadian study found 94.1% (Dieckmann et al. 2025). First author Dieckmann holds 5.7% of the shares in miRdetect GmbH (Dieckmann et al. 2025). EAU Tables 8 to 10 contain markers and imaging, no M371 test (EAU 2026, 7.1). Anyone who uses the test additionally does not cancel an imaging appointment because of it. The conflict-of-interest statement belongs in the appraisal of the recommendation (Dieckmann et al. 2025).",
+            "teaching_point": "M371: promising, but not yet a substitute for MRI and chest X-ray in follow-up."
+          }
+        },
+        "es": {
+          "vignette": "Un varón de 29 años con no seminoma en estadio clínico I está en vigilancia activa; todos los hallazgos han sido normales. Ha leído sobre la prueba en sangre microRNA-371a-3p (M371) y quiere prescindir de las citas de RM mientras la prueba sea negativa. Asesoramiento antes de la visita de los 12 meses.",
+          "lead_in": "¿Qué recomendación está justificada para el resto del seguimiento?",
+          "options": {
+            "A": {
+              "text": "M371 en lugar de RM, pues su sensibilidad en seguimiento fue del 100 %",
+              "rationale": "Error de concepto: una alta sensibilidad en un estudio ya sería estándar. El 100 % procede de un estudio con 39 recaídas en 258 pacientes (Dieckmann et al. 2025); las tablas de seguimiento de la EAU no incluyen la prueba (EAU 2026, 7.1)."
+            },
+            "B": {
+              "text": "M371 en lugar de AFP y β-hCG, imagen solo una vez al año",
+              "rationale": "Error de concepto: un marcador nuevo desplazaría a los establecidos. La AFP y la β-hCG siguen siendo parte fija de los esquemas de seguimiento del artículo y de la EAU (Dieckmann et al. 2025; EAU 2026, 7.1)."
+            },
+            "C": {
+              "text": "Añadir LDH en lugar de M371, por estar más disponible",
+              "rationale": "Error de concepto: la LDH sería un marcador útil de seguimiento. El 24 % de sus elevaciones fueron falsos positivos y por sí sola nunca indicó una recaída (Dieckmann et al. 2025)."
+            },
+            "D": {
+              "text": "Mantener la imagen según el esquema; M371 aún no la sustituye",
+              "rationale": "Los autores deducen el ahorro de imagen de cálculos de modelos y califican de deseable su implantación (Dieckmann et al. 2025); el seguimiento de la EAU sigue basándose en marcadores e imagen (EAU 2026, 7.1)."
+            },
+            "E": {
+              "text": "Medir M371 una sola vez y, si es negativo, terminar el seguimiento",
+              "rationale": "Error de concepto: un valor aislado permitiría terminar la vigilancia. Los esquemas llegan hasta los 60 meses porque las recaídas aparecen a lo largo de años (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "M371 es un marcador prometedor, pero aún no sustituye a la imagen (Dieckmann et al. 2025; EAU 2026, 7.1). Hasta que las guías respalden el cambio, el seguimiento sigue siendo marcadores más imagen. En un estudio prospectivo de seguimiento en 258 pacientes en estadio I, las 39 recaídas fueron M371 positivas, sensibilidad del 100 %, especificidad del 96,3 %; un estudio canadiense halló un 94,1 % (Dieckmann et al. 2025). El primer autor, Dieckmann, posee el 5,7 % de las participaciones de miRdetect GmbH (Dieckmann et al. 2025). Las tablas 8 a 10 de la EAU incluyen marcadores e imagen, ninguna prueba M371 (EAU 2026, 7.1). Quien use la prueba de forma adicional no suprime por ello ninguna cita de imagen. La declaración de conflicto de intereses forma parte de la valoración de la recomendación (Dieckmann et al. 2025).",
+            "teaching_point": "M371: prometedor, pero aún no sustituye a la RM ni a la radiografía de tórax en el seguimiento."
+          }
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00037",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Nachsorge",
+        "tags": [
+          "nachsorge",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "4",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Nachsorge von Hodentumoren – ein Update",
+          "citation": "Dieckmann KP, Angerer M, Bremmer F, Soave A. Urologie 2025;64:1024–1036. doi:10.1007/s00120-025-02675-6",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "7.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-20",
+        "last_reviewed": "2026-09-20",
+        "expires": "2027-09-20"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 23-jähriger Mann mit Nichtseminom im klinischen Stadium I und Gefäßinvasion entscheidet sich nach Aufklärung gegen einen adjuvanten Zyklus BEP und für die aktive Überwachung. Die Marker haben sich nach der Orchiektomie normalisiert, das Staging ist unauffällig. Festlegung des Nachsorgeplans für das erste Jahr.",
+          "lead_in": "Welcher Plan für das erste Jahr ist angemessen?",
+          "options": {
+            "A": {
+              "text": "Marker und Abdomen-MRT halbjährlich wie beim Seminom im Stadium I",
+              "rationale": "Fehlannahme: Übertragung des Seminomschemas. Nichtseminome mit Gefäßinvasion rezidivieren unter Überwachung zu 50 %, im Median nach 6 Monaten (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "Marker und CT von Thorax und Abdomen jeweils vierteljährlich",
+              "rationale": "Fehlannahme: Hohes Risiko rechtfertige CT-Dauerbildgebung. Kumulative CT-Dosen erhöhen bei jungen Männern das Lebenszeitkrebsrisiko (Dieckmann et al. 2025); die EAU sieht zwei Bildgebungen im ersten Jahr vor (EAU 2026, 7.1)."
+            },
+            "C": {
+              "text": "Marker vierteljährlich, Bildgebung erst bei einem Markeranstieg",
+              "rationale": "Fehlannahme: Marker genügten allein. Die Bildgebung erkannte in einer Metaanalyse 70,5 % der Rezidive allein, die Marker nur 20 % (Dieckmann et al. 2025)."
+            },
+            "D": {
+              "text": "Marker vierteljährlich plus FDG-PET-CT nach sechs Monaten",
+              "rationale": "Fehlannahme: PET verbessere die Überwachung. Die EAU empfiehlt FDG-PET-CT während der Überwachung nicht (EAU 2026, 7.1)."
+            },
+            "E": {
+              "text": "Marker vierteljährlich, MRT und Röntgen-Thorax halbjährlich",
+              "rationale": "Die EAU sieht beim Nichtseminom unter Überwachung im ersten Jahr viermal Marker sowie je zweimal abdominelle Bildgebung und Röntgen-Thorax vor (EAU 2026, 7.1); der Artikel empfiehlt dasselbe Raster mit MRT (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Mit Gefäßinvasion liegt das Rezidivrisiko unter Überwachung bei etwa 50 %, meist früh (Dieckmann et al. 2025). Das erste Jahr ist deshalb dicht getaktet: Marker vierteljährlich, Abdomen und Thorax halbjährlich (EAU 2026, 7.1). Beim Nichtseminom im Stadium I gilt die vaskuläre Invasion als Risikofaktor; unter Überwachung rezidivieren Hochrisikopatienten zu 50 % nach median 6 Monaten, vorwiegend retroperitoneal, seltener pulmonal oder nur über Marker (Dieckmann et al. 2025). Die EAU-Tabelle 9 sieht im ersten Jahr viermal Marker, zweimal Röntgen-Thorax und zweimal MRT oder CT vor; bei Gefäßinvasion empfahl eine Mehrheit des Konsensus zusätzliche Bildgebung nach 18 Monaten (EAU 2026, 7.1). Wer die Adjuvanz ablehnt, übernimmt die Pflicht zu dieser Terminfolge; ein Nachsorgeabbruch wiegt hier schwerer als beim Seminom. Steigt ein Marker isoliert, gilt die Regel zum Marker-only-Rezidiv (Dieckmann et al. 2025).",
+            "teaching_point": "Nichtseminom Stadium I mit Gefäßinvasion unter Überwachung: Marker alle 3 Monate, MRT und Röntgen-Thorax alle 6 Monate im ersten Jahr."
+          }
+        },
+        "en": {
+          "vignette": "A 23-year-old man with clinical stage I non-seminoma and vascular invasion decides against one adjuvant cycle of BEP after counselling and opts for active surveillance. Markers normalised after orchiectomy and staging is unremarkable. The follow-up plan for the first year is to be defined.",
+          "lead_in": "Which plan for the first year is appropriate?",
+          "options": {
+            "A": {
+              "text": "Markers and abdominal MRI six-monthly as in stage I seminoma",
+              "rationale": "Misconception: transfer of the seminoma schedule. Non-seminomas with vascular invasion relapse on surveillance in 50%, at a median of 6 months (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "Markers and CT of chest and abdomen, each every three months",
+              "rationale": "Misconception: high risk justifies continuous CT imaging. Cumulative CT doses raise the lifetime cancer risk of young men (Dieckmann et al. 2025); the EAU foresees two imaging studies in the first year (EAU 2026, 7.1)."
+            },
+            "C": {
+              "text": "Markers every three months, imaging only after a marker rise",
+              "rationale": "Misconception: markers alone are sufficient. In a meta-analysis imaging alone detected 70.5% of relapses, markers alone only 20% (Dieckmann et al. 2025)."
+            },
+            "D": {
+              "text": "Markers every three months plus FDG-PET/CT at six months",
+              "rationale": "Misconception: PET improves surveillance. The EAU does not recommend FDG-PET/CT during surveillance (EAU 2026, 7.1)."
+            },
+            "E": {
+              "text": "Markers every three months, MRI and chest X-ray six-monthly",
+              "rationale": "For non-seminoma on surveillance, the EAU foresees markers four times and abdominal imaging and chest X-ray twice each in the first year (EAU 2026, 7.1); the article recommends the same grid with MRI (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "With vascular invasion the relapse risk on surveillance is about 50%, mostly early (Dieckmann et al. 2025). The first year is therefore tightly scheduled: markers every three months, abdomen and chest every six months (EAU 2026, 7.1). In stage I non-seminoma vascular invasion counts as the risk factor; on surveillance high-risk patients relapse in 50% at a median of 6 months, mainly retroperitoneally, less often in the lung or by markers only (Dieckmann et al. 2025). EAU Table 9 foresees markers four times, chest X-ray twice and MRI or CT twice in the first year; with vascular invasion a majority of the consensus recommended additional imaging at 18 months (EAU 2026, 7.1). Whoever declines adjuvant therapy takes on the obligation of this schedule; dropping out of follow-up weighs heavier here than in seminoma. If a marker rises in isolation, the marker-only relapse rule applies (Dieckmann et al. 2025).",
+            "teaching_point": "Stage I non-seminoma with vascular invasion on surveillance: markers every 3 months, MRI and chest X-ray every 6 months in year one."
+          }
+        },
+        "es": {
+          "vignette": "Un varón de 23 años con no seminoma en estadio clínico I e invasión vascular decide, tras ser informado, no recibir un ciclo adyuvante de BEP y opta por la vigilancia activa. Los marcadores se normalizaron tras la orquiectomía y la estadificación es normal. Debe definirse el plan de seguimiento del primer año.",
+          "lead_in": "¿Qué plan para el primer año es adecuado?",
+          "options": {
+            "A": {
+              "text": "Marcadores y RM abdominal semestrales como en el seminoma en estadio I",
+              "rationale": "Error de concepto: trasladar el esquema del seminoma. Los no seminomas con invasión vascular recaen en vigilancia en el 50 %, con una mediana de 6 meses (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "Marcadores y TC de tórax y abdomen, ambos cada tres meses",
+              "rationale": "Error de concepto: el riesgo alto justificaría TC continuas. Las dosis acumuladas de TC aumentan el riesgo de cáncer a lo largo de la vida en varones jóvenes (Dieckmann et al. 2025); la EAU prevé dos estudios de imagen el primer año (EAU 2026, 7.1)."
+            },
+            "C": {
+              "text": "Marcadores trimestrales, imagen solo tras un ascenso de marcador",
+              "rationale": "Error de concepto: los marcadores bastarían solos. En un metaanálisis la imagen sola detectó el 70,5 % de las recaídas y los marcadores solos solo el 20 % (Dieckmann et al. 2025)."
+            },
+            "D": {
+              "text": "Marcadores trimestrales más PET-TC con FDG a los seis meses",
+              "rationale": "Error de concepto: la PET mejoraría la vigilancia. La EAU no recomienda la PET-TC con FDG durante la vigilancia (EAU 2026, 7.1)."
+            },
+            "E": {
+              "text": "Marcadores trimestrales, RM y radiografía de tórax semestrales",
+              "rationale": "En el no seminoma en vigilancia, la EAU prevé el primer año marcadores cuatro veces e imagen abdominal y radiografía de tórax dos veces cada una (EAU 2026, 7.1); el artículo recomienda la misma pauta con RM (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Con invasión vascular, el riesgo de recaída en vigilancia es de alrededor del 50 %, casi siempre precoz (Dieckmann et al. 2025). Por eso el primer año es denso: marcadores cada tres meses, abdomen y tórax cada seis meses (EAU 2026, 7.1). En el no seminoma en estadio I la invasión vascular es el factor de riesgo; en vigilancia, los pacientes de alto riesgo recaen en el 50 % con una mediana de 6 meses, sobre todo en el retroperitoneo y con menos frecuencia en el pulmón o solo por marcadores (Dieckmann et al. 2025). La tabla 9 de la EAU prevé el primer año marcadores cuatro veces, radiografía de tórax dos veces y RM o TC dos veces; con invasión vascular, una mayoría del consenso recomendó una imagen adicional a los 18 meses (EAU 2026, 7.1). Quien rechaza la adyuvancia asume la obligación de este calendario; abandonar el seguimiento pesa aquí más que en el seminoma. Si un marcador asciende de forma aislada, se aplica la regla de la recaída solo de marcadores (Dieckmann et al. 2025).",
+            "teaching_point": "No seminoma en estadio I con invasión vascular en vigilancia: marcadores cada 3 meses, RM y radiografía de tórax cada 6 meses el primer año."
+          }
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00038",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Nachsorge",
+        "tags": [
+          "nachsorge",
+          "operationstechnik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "4",
+        "certainty": "ohne_phase_III",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Nachsorge von Hodentumoren – ein Update",
+          "citation": "Dieckmann KP, Angerer M, Bremmer F, Soave A. Urologie 2025;64:1024–1036. doi:10.1007/s00120-025-02675-6",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "7.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-20",
+        "last_reviewed": "2026-09-20",
+        "expires": "2027-03-31"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 29-jähriger Mann hatte vor 3 Jahren ein Nichtseminom des rechten Hodens; eine kontralaterale Biopsie erfolgte nicht. In der Nachsorgesonographie zeigt sich im linken Hoden ein 7 mm großer hypoechogener Herd mit Dopplersignal. Marker normal, Testosteron im Normbereich, Kinderwunsch. Vorstellung zur Festlegung des operativen Vorgehens.",
+          "lead_in": "Welches operative Vorgehen ist anzustreben?",
+          "options": {
+            "A": {
+              "text": "Organerhaltende Exzision, danach Bestrahlung des Resthodens",
+              "rationale": "Bei früh erkanntem, kleinem Zweittumor kann oft organerhaltend exzidiert und der Hoden anschließend bestrahlt werden; so bleibt die lebenslange Testosteronsubstitution erspart (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "Inguinale Orchiektomie links, danach Testosteronersatz",
+              "rationale": "Fehlannahme: Der Zweittumor verlange immer die Orchiektomie. Beim klein erkannten Zweittumor ist oft ein organerhaltendes Vorgehen möglich, das die endokrine Funktion bewahrt (Dieckmann et al. 2025)."
+            },
+            "C": {
+              "text": "Sonographische Kontrolle nach 3 Monaten, erst dann entscheiden",
+              "rationale": "Fehlannahme: Ein kleiner Herd dürfe beobachtet werden. Genau dieser Befund ist das Ziel der Früherkennung, das Zweittumorrisiko liegt bei 5–6 % (Dieckmann et al. 2025); Abwarten verschenkt die organerhaltende Chance."
+            },
+            "D": {
+              "text": "Kontralaterale Biopsie nachholen, bei GCNIS bestrahlen",
+              "rationale": "Fehlannahme: Die Biopsie diene hier der Diagnose. Sie dient der Früherkennung der Keimzellneoplasie in situ (Dieckmann et al. 2025); ein sichtbarer Herd wird entfernt."
+            },
+            "E": {
+              "text": "Drei Zyklen BEP als testiserhaltende Primärtherapie",
+              "rationale": "Fehlannahme: Chemotherapie schütze den Gegenhoden. Auch eine Chemotherapie kann den Zweittumor nicht sicher verhindern (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Ein früh erkannter kleiner Zweittumor im Gegenhoden kann oft organerhaltend exzidiert und der Hoden anschließend bestrahlt werden (Dieckmann et al. 2025). Das erspart die lebenslange Testosteronsubstitution. Das Risiko eines kontralateralen Zweittumors liegt bei 5–6 % und besteht über die 5-jährige Nachsorge hinaus; nach unauffälliger Biopsie verbleibt höchstens 1 % (Dieckmann et al. 2025). Die Autoren empfehlen Palpation und Sonographie des Gegenhodens bei jeder Nachsorge (Dieckmann et al. 2025). Die EAU weicht ab: Die Mehrheit ihres Konsensus unterstützte keine wiederholte Sonographie des Gegenhodens, weder nach negativer noch ohne Biopsie (EAU 2026, 7.1). Strittig ist, ob routinemäßig sonographiert wird, nicht die Konsequenz eines gefundenen kleinen Herdes. Der Eingriff gehört an ein Zentrum mit Erfahrung in organerhaltender Hodenchirurgie.",
+            "teaching_point": "Kleiner Zweittumor im Gegenhoden: organerhaltende Exzision plus Bestrahlung statt Orchiektomie, wo möglich."
+          },
+          "flag_note": "Organerhaltende Hodenchirurgie beruht auf Fallserien. Ob der Gegenhoden routinemäßig sonographiert wird, ist strittig: Der Artikel empfiehlt es bei jeder Nachsorge, die Mehrheit des EAU-Konsensus nicht."
+        },
+        "en": {
+          "vignette": "A 29-year-old man had a non-seminoma of the right testis 3 years ago; no contralateral biopsy was taken. Follow-up ultrasound shows a 7 mm hypoechoic lesion with Doppler signal in the left testis. Markers normal, testosterone within the normal range, he wishes to father children. He is seen to decide on surgery.",
+          "lead_in": "Which surgical approach should be pursued?",
+          "options": {
+            "A": {
+              "text": "Organ-sparing excision, then radiotherapy of the remaining testis",
+              "rationale": "An early detected small second tumour can often be excised organ-sparingly and the testis irradiated afterwards, sparing lifelong testosterone substitution (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "Left inguinal orchiectomy, then testosterone replacement",
+              "rationale": "Misconception: a second tumour always requires orchiectomy. When detected small, an organ-sparing approach that preserves endocrine function is often possible (Dieckmann et al. 2025)."
+            },
+            "C": {
+              "text": "Ultrasound check after 3 months, decide only then",
+              "rationale": "Misconception: a small lesion may be observed. Exactly this finding is the goal of early detection, the second-tumour risk is 5–6% (Dieckmann et al. 2025); waiting forfeits the organ-sparing chance."
+            },
+            "D": {
+              "text": "Take the contralateral biopsy now, irradiate if GCNIS",
+              "rationale": "Misconception: the biopsy serves diagnosis here. It serves early detection of germ cell neoplasia in situ (Dieckmann et al. 2025); a visible lesion is removed."
+            },
+            "E": {
+              "text": "Three cycles of BEP as testis-sparing primary therapy",
+              "rationale": "Misconception: chemotherapy protects the contralateral testis. Even chemotherapy cannot reliably prevent the second tumour (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "An early detected small second tumour in the contralateral testis can often be excised organ-sparingly and the testis irradiated afterwards (Dieckmann et al. 2025). This spares lifelong testosterone substitution. The risk of a contralateral second tumour is 5–6% and persists beyond the 5-year follow-up; after a negative biopsy at most 1% remains (Dieckmann et al. 2025). The authors recommend palpation and ultrasound of the contralateral testis at every follow-up visit (Dieckmann et al. 2025). The EAU differs: the majority of its consensus did not support repeat ultrasound of the contralateral testis, either after a negative biopsy or without biopsy (EAU 2026, 7.1). What is disputed is whether routine ultrasound is done, not the consequence of a detected small lesion. The procedure belongs in a centre experienced in testis-sparing surgery.",
+            "teaching_point": "Small second tumour in the contralateral testis: organ-sparing excision plus radiotherapy instead of orchiectomy, where feasible."
+          },
+          "flag_note": "Testis-sparing surgery is based on case series. Whether the contralateral testis is scanned routinely is disputed: the article recommends it at every visit, the majority of the EAU consensus does not."
+        },
+        "es": {
+          "vignette": "Un varón de 29 años tuvo hace 3 años un no seminoma del testículo derecho; no se realizó biopsia contralateral. La ecografía de seguimiento muestra en el testículo izquierdo una lesión hipoecoica de 7 mm con señal Doppler. Marcadores normales, testosterona normal, desea tener hijos. Acude para decidir la cirugía.",
+          "lead_in": "¿Qué abordaje quirúrgico debe buscarse?",
+          "options": {
+            "A": {
+              "text": "Exéresis conservadora del órgano y después radioterapia del testículo",
+              "rationale": "Un segundo tumor pequeño detectado precozmente a menudo puede extirparse conservando el órgano e irradiarse después el testículo, lo que evita la sustitución de testosterona de por vida (Dieckmann et al. 2025)."
+            },
+            "B": {
+              "text": "Orquiectomía inguinal izquierda y después sustitución de testosterona",
+              "rationale": "Error de concepto: un segundo tumor exigiría siempre orquiectomía. Detectado pequeño, a menudo es posible un abordaje conservador que preserva la función endocrina (Dieckmann et al. 2025)."
+            },
+            "C": {
+              "text": "Control ecográfico a los 3 meses y decidir solo entonces",
+              "rationale": "Error de concepto: una lesión pequeña podría observarse. Precisamente este hallazgo es el objetivo de la detección precoz; el riesgo de segundo tumor es del 5–6 % (Dieckmann et al. 2025); esperar desperdicia la opción conservadora."
+            },
+            "D": {
+              "text": "Hacer ahora la biopsia contralateral e irradiar si hay GCNIS",
+              "rationale": "Error de concepto: la biopsia serviría aquí para el diagnóstico. Sirve para la detección precoz de la neoplasia germinal in situ (Dieckmann et al. 2025); una lesión visible se extirpa."
+            },
+            "E": {
+              "text": "Tres ciclos de BEP como tratamiento primario conservador",
+              "rationale": "Error de concepto: la quimioterapia protegería el testículo contralateral. Ni siquiera la quimioterapia puede evitar con seguridad el segundo tumor (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Un segundo tumor pequeño detectado precozmente en el testículo contralateral a menudo puede extirparse conservando el órgano e irradiarse después el testículo (Dieckmann et al. 2025). Así se evita la sustitución de testosterona de por vida. El riesgo de un segundo tumor contralateral es del 5–6 % y persiste más allá de los 5 años de seguimiento; tras una biopsia negativa queda como máximo un 1 % (Dieckmann et al. 2025). Los autores recomiendan palpación y ecografía del testículo contralateral en cada visita de seguimiento (Dieckmann et al. 2025). La EAU difiere: la mayoría de su consenso no apoyó repetir la ecografía del testículo contralateral, ni tras biopsia negativa ni sin biopsia (EAU 2026, 7.1). Lo discutido es si se hace ecografía rutinaria, no la consecuencia de una lesión pequeña hallada. La intervención corresponde a un centro con experiencia en cirugía testicular conservadora.",
+            "teaching_point": "Segundo tumor pequeño en el testículo contralateral: exéresis conservadora más radioterapia en lugar de orquiectomía, cuando sea posible."
+          },
+          "flag_note": "La cirugía testicular conservadora se basa en series de casos. Si el testículo contralateral debe explorarse con ecografía de rutina es discutido: el artículo lo recomienda en cada visita; la mayoría del consenso de la EAU, no."
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00039",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Nachsorge",
+        "tags": [
+          "nachsorge",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Nachsorge von Hodentumoren – ein Update",
+          "citation": "Dieckmann KP, Angerer M, Bremmer F, Soave A. Urologie 2025;64:1024–1036. doi:10.1007/s00120-025-02675-6",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "7.1, 7.2"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-20",
+        "last_reviewed": "2026-09-20",
+        "expires": "2027-09-20"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 41-jähriger Mann hat vor 6 Jahren wegen eines Nichtseminoms im Stadium IIB drei Zyklen BEP erhalten und ist seither rezidivfrei. Er raucht, BMI 31, Blutdruck bei der letzten Messung 152/94 mmHg. Er fragt, ob die Nachsorge nun beendet werden kann. Festlegung des weiteren Vorgehens.",
+          "lead_in": "Welches Vorgehen ist nach Ablauf der 5 Jahre angemessen?",
+          "options": {
+            "A": {
+              "text": "Nachsorge beenden, da nach 5 Jahren kaum noch Rezidive auftreten",
+              "rationale": "Fehlannahme: Nachsorge diene nur der Rezidivsuche. Nach 5 Jahren verschiebt sich das Ziel auf Spätfolgen, und die Nachsorge wird jährlich fortgeführt (Dieckmann et al. 2025; EAU 2026, 7.1)."
+            },
+            "B": {
+              "text": "Jährlich weiter mit Blick auf Kreislauf, Stoffwechsel, Testosteron",
+              "rationale": "Die EAU verlangt Screening und Behandlung von Hypertonie, Hyperlipidämie und Testosteronmangel (EAU 2026, 7.2); der Artikel sieht jährlich Klinik und ein erweitertes Labor mit Lipiden, Blutzucker und Testosteron vor (Dieckmann et al. 2025)."
+            },
+            "C": {
+              "text": "Jährliche Abdomen-MRT und Röntgen-Thorax unbefristet fortführen",
+              "rationale": "Fehlannahme: Späte Rezidive verlangten Dauerbildgebung. Sehr späte Rezidive betreffen etwa 0,5 % der Patienten; nach 5 Jahren ist Bildgebung nicht routinemäßig empfohlen (EAU 2026, 7.1)."
+            },
+            "D": {
+              "text": "Nur noch jährliche Tumormarker ohne weitere Untersuchungen",
+              "rationale": "Fehlannahme: Marker seien das Wesentliche. Das Risiko liegt jetzt bei metabolischen und kardiovaskulären Spätfolgen (Dieckmann et al. 2025); sehr späte Rezidive werden meist über Symptome erkannt (EAU 2026, 7.1)."
+            },
+            "E": {
+              "text": "Halbjährliche Nachsorge wie in den ersten Jahren unverändert fortsetzen",
+              "rationale": "Fehlannahme: Mehr Termine brächten mehr Sicherheit. Risikogesteuerte Nachsorge soll ein Zuviel an Terminen vermeiden, um die Compliance zu erhalten (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Nach 5 Jahren endet die Nachsorge nicht, sie ändert ihr Ziel: jährliche Termine mit Fokus auf Spätfolgen statt Rezidivsuche (Dieckmann et al. 2025; EAU 2026, 7.1). Nach Chemotherapie treten kardiovaskuläre Erkrankungen etwa doppelt so häufig auf wie unter Überwachung, bei Rauchern und Adipösen nochmals doppelt so oft (Dieckmann et al. 2025). Ein metabolisches Syndrom entwickeln 17 % nach 5 und 28 % nach 10 Jahren, einen Hypogonadismus 25–38 % (Dieckmann et al. 2025). Die EAU nennt sehr späte Rezidive bei etwa 0,5 % und empfiehlt nach 5 Jahren keine Routinebildgebung (EAU 2026, 7.1). Blutdruck, Rauchen und Adipositas sind hier die eigentlichen Nachsorgebefunde und verlangen Behandlung und Lebensstilberatung (EAU 2026, 7.2). Zweittumoren treten oft erst nach über 10 Jahren auf (Dieckmann et al. 2025).",
+            "teaching_point": "Nach 5 Jahren: jährlich weiter, Fokus Spätfolgen, keine Routinebildgebung."
+          }
+        },
+        "en": {
+          "vignette": "A 41-year-old man received three cycles of BEP for stage IIB non-seminoma 6 years ago and has been relapse-free since. He smokes, BMI 31, blood pressure at the last measurement 152/94 mmHg. He asks whether follow-up can now end. Further management is to be defined.",
+          "lead_in": "Which approach is appropriate after the 5 years have passed?",
+          "options": {
+            "A": {
+              "text": "End follow-up, as relapses hardly occur after 5 years",
+              "rationale": "Misconception: follow-up only serves to detect relapse. After 5 years the aim shifts to late effects, and follow-up continues yearly (Dieckmann et al. 2025; EAU 2026, 7.1)."
+            },
+            "B": {
+              "text": "Continue yearly, focusing on circulation, metabolism, testosterone",
+              "rationale": "The EAU requires screening and treatment of hypertension, hyperlipidaemia and testosterone deficiency (EAU 2026, 7.2); the article foresees yearly clinical review and an extended laboratory profile with lipids, glucose and testosterone (Dieckmann et al. 2025)."
+            },
+            "C": {
+              "text": "Continue annual abdominal MRI and chest X-ray indefinitely",
+              "rationale": "Misconception: late relapses require continuous imaging. Very late relapses affect about 0.5% of patients; after 5 years imaging is not routinely recommended (EAU 2026, 7.1)."
+            },
+            "D": {
+              "text": "Only annual tumour markers without further examinations",
+              "rationale": "Misconception: markers are what matters. The risk now lies in metabolic and cardiovascular late effects (Dieckmann et al. 2025); very late relapses are mostly detected through symptoms (EAU 2026, 7.1)."
+            },
+            "E": {
+              "text": "Continue six-monthly follow-up unchanged as in the first years",
+              "rationale": "Misconception: more visits bring more safety. Risk-adapted follow-up aims to avoid too many appointments to preserve compliance (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "After 5 years follow-up does not end but changes its aim: yearly visits focusing on late effects instead of relapse detection (Dieckmann et al. 2025; EAU 2026, 7.1). After chemotherapy, cardiovascular disease occurs about twice as often as under surveillance, and twice as often again in smokers and obese patients (Dieckmann et al. 2025). Metabolic syndrome develops in 17% after 5 and 28% after 10 years, hypogonadism in 25–38% (Dieckmann et al. 2025). The EAU reports very late relapses in about 0.5% and recommends no routine imaging after 5 years (EAU 2026, 7.1). Blood pressure, smoking and obesity are the real follow-up findings here and require treatment and lifestyle counselling (EAU 2026, 7.2). Second tumours often appear only after more than 10 years (Dieckmann et al. 2025).",
+            "teaching_point": "After 5 years: continue yearly, focus on late effects, no routine imaging."
+          }
+        },
+        "es": {
+          "vignette": "Un varón de 41 años recibió hace 6 años tres ciclos de BEP por un no seminoma en estadio IIB y desde entonces está libre de recaída. Fuma, IMC 31, presión arterial en la última medición 152/94 mmHg. Pregunta si el seguimiento puede terminar ya. Debe definirse la conducta.",
+          "lead_in": "¿Qué conducta es adecuada una vez transcurridos los 5 años?",
+          "options": {
+            "A": {
+              "text": "Terminar el seguimiento, pues tras 5 años apenas hay recaídas",
+              "rationale": "Error de concepto: el seguimiento solo serviría para detectar recaídas. Tras 5 años el objetivo pasa a los efectos tardíos y el seguimiento continúa anualmente (Dieckmann et al. 2025; EAU 2026, 7.1)."
+            },
+            "B": {
+              "text": "Seguir anualmente con foco en circulación, metabolismo, testosterona",
+              "rationale": "La EAU exige cribado y tratamiento de hipertensión, hiperlipidemia y déficit de testosterona (EAU 2026, 7.2); el artículo prevé una revisión clínica anual y un laboratorio ampliado con lípidos, glucemia y testosterona (Dieckmann et al. 2025)."
+            },
+            "C": {
+              "text": "Mantener indefinidamente RM abdominal y radiografía de tórax anuales",
+              "rationale": "Error de concepto: las recaídas tardías exigirían imagen continua. Las recaídas muy tardías afectan a alrededor del 0,5 % de los pacientes; tras 5 años no se recomienda imagen rutinaria (EAU 2026, 7.1)."
+            },
+            "D": {
+              "text": "Solo marcadores tumorales anuales sin otras exploraciones",
+              "rationale": "Error de concepto: lo esencial serían los marcadores. El riesgo reside ahora en efectos tardíos metabólicos y cardiovasculares (Dieckmann et al. 2025); las recaídas muy tardías se detectan sobre todo por síntomas (EAU 2026, 7.1)."
+            },
+            "E": {
+              "text": "Seguir sin cambios con el seguimiento semestral de los primeros años",
+              "rationale": "Error de concepto: más citas darían más seguridad. El seguimiento adaptado al riesgo pretende evitar un exceso de citas para mantener la adherencia (Dieckmann et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Tras 5 años el seguimiento no termina, cambia de objetivo: visitas anuales centradas en los efectos tardíos en lugar de en la detección de recaídas (Dieckmann et al. 2025; EAU 2026, 7.1). Tras quimioterapia, las enfermedades cardiovasculares aparecen aproximadamente el doble que en vigilancia, y de nuevo el doble en fumadores y obesos (Dieckmann et al. 2025). El síndrome metabólico aparece en el 17 % a los 5 años y en el 28 % a los 10 años, el hipogonadismo en el 25–38 % (Dieckmann et al. 2025). La EAU cifra las recaídas muy tardías en alrededor del 0,5 % y no recomienda imagen rutinaria tras 5 años (EAU 2026, 7.1). La presión arterial, el tabaquismo y la obesidad son aquí los verdaderos hallazgos del seguimiento y requieren tratamiento y consejo sobre estilo de vida (EAU 2026, 7.2). Los segundos tumores a menudo aparecen solo tras más de 10 años (Dieckmann et al. 2025).",
+            "teaching_point": "Tras 5 años: seguir anualmente, con foco en efectos tardíos y sin imagen rutinaria."
+          }
+        }
+      }
+    }
+  ],
+  "ersatz": {}
+}

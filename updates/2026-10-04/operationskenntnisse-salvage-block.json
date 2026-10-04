@@ -1,0 +1,1530 @@
+{
+  "gebiet": "operationskenntnisse",
+  "gebiet_alternativen": [
+    "operationskenntnis",
+    "operative-urologie",
+    "operationslehre",
+    "chirurgie"
+  ],
+  "titel": "Salvage-Operationen im Urogenitaltrakt",
+  "quelle": "Heidenreich J et al., Urologie 2026;65:145-154; EAU Testicular Cancer 2026, Kap. 6 (nur Frage 10)",
+  "erstellt": "2026-09-21",
+  "gegenlesen": {
+    "alle": [],
+    "eines": "Salvage|Rezidiv|Metastasektomie|Metastasenresektion|Residual|Lymphadenektomie|zytoreduktiv|Exenteration"
+  },
+  "neu": [
+    {
+      "id": "uro-sal-90001",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Prostatakarzinom",
+        "tags": [
+          "operationstechnik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "ohne_phase_III",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "In welchem Ausmaß sind Salvage-Operationen bei Tumoren des Urogenitaltrakts sinnvoll?",
+          "citation": "Heidenreich J, Pfister D, Steenbock O, Rieger C, Heidenreich A. Urologie 2026;65:145–154. doi:10.1007/s00120-025-02748-6",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-09-21"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 68-jähriger Mann hat sechs Jahre nach perkutaner Strahlentherapie ein biopsiegesichertes Lokalrezidiv, Gleason 3+4. PSA 3,2 ng/ml mit einer Verdopplungszeit von 14 Monaten. Das mpMRT zeigt einen organbegrenzten Herd, das PSMA-PET-CT keine Lymphknoten- oder Fernmetastasen. Er ist kontinent, ECOG 0. Festlegung der Therapie.",
+          "lead_in": "Welches Vorgehen ist am besten begründet?",
+          "options": {
+            "A": {
+              "text": "Lebenslange Androgendeprivation ohne lokale Therapie",
+              "rationale": "Fehlannahme: Ein Rezidiv nach Bestrahlung sei nicht mehr kurabel. Über 90 % der Patienten erhalten dennoch eine nichtkurative Androgendeprivation (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Salvage-Prostatektomie an einem erfahrenen Zentrum",
+              "rationale": "Organbegrenztes Rezidiv, negative Lymphknoten und lange Verdopplungszeit sind genau die Konstellation, in der die Salvage-Prostatektomie trägt (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "Salvage-Prostatektomie ohne weitere Bildgebung sofort",
+              "rationale": "Fehlannahme: Die Bildgebung sei verzichtbar. mpMRT und PSMA-PET-CT sind vor der Entscheidung unabdingbar (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Beobachtung bis zum Nachweis von Fernmetastasen",
+              "rationale": "Fehlannahme: Abwarten koste nichts. Mit dem Nachweis von Fernmetastasen entfällt die kurative Option."
+            },
+            "E": {
+              "text": "Chemotherapie mit Docetaxel wegen des Rezidivs",
+              "rationale": "Fehlannahme: Systemtherapie als nächste Eskalation. Beim lokal begrenzten Rezidiv ist sie nicht die erste Wahl (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "Das Profil passt: lokal begrenztes Rezidiv, bildgebend negative Lymphknoten, lange PSA-Verdopplungszeit und langer Abstand zur Bestrahlung (Heidenreich et al. 2026). In großen Einzelzentrumsserien liegt das metastasenfreie Überleben nach zehn Jahren bei 75 bis 80 %, das tumorspezifische bei 80 bis 90 % (Heidenreich et al. 2026). Die Komplikationsrate wird mit 2 bis 5 % angegeben, Rektumläsionen mit unter 1,5 % (Heidenreich et al. 2026). Die biochemische Rezidivfreiheit nach fünf Jahren beträgt beim organbegrenzten Rezidiv 71,4 % (Heidenreich et al. 2026). Die Inkontinenz ist das zentrale Thema der Aufklärung: je nach Vorbestrahlung 20 bis 40 %, mit einer Rekonvaleszenz von durchschnittlich acht Monaten (Heidenreich et al. 2026). Die Indikation gehört ins interdisziplinäre Tumorboard, der Eingriff an ein Zentrum mit Erfahrung in der Salvage-Chirurgie (Heidenreich et al. 2026).",
+            "teaching_point": "Salvage-Prostatektomie: organbegrenzt, lymphknotennegativ, lange Verdopplungszeit, Bildgebung komplett."
+          },
+          "flag_note": "Die Ergebnisse stammen aus retrospektiven Einzelzentrumsserien mit erheblicher Patientenselektion; randomisierte Vergleiche mit anderen Salvage-Verfahren fehlen."
+        },
+        "en": {
+          "vignette": "A 68-year-old man has a biopsy-proven local recurrence six years after external beam radiotherapy, Gleason 3+4. PSA is 3.2 ng/ml with a doubling time of 14 months. Multiparametric MRI shows an organ-confined lesion, PSMA-PET/CT no nodal or distant metastases. He is continent, ECOG 0. Treatment is to be defined.",
+          "lead_in": "Which approach is best justified?",
+          "options": {
+            "A": {
+              "text": "Lifelong androgen deprivation without local therapy",
+              "rationale": "Misconception: recurrence after radiotherapy is no longer curable. More than 90% of patients nevertheless receive non-curative androgen deprivation (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Salvage prostatectomy at an experienced centre",
+              "rationale": "Organ-confined recurrence, negative nodes and a long doubling time are exactly the constellation in which salvage prostatectomy works (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "Salvage prostatectomy at once, without further imaging",
+              "rationale": "Misconception: imaging can be skipped. Multiparametric MRI and PSMA-PET/CT are indispensable before the decision (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Observation until distant metastases appear",
+              "rationale": "Misconception: waiting costs nothing. Once distant metastases appear, the curative option is gone."
+            },
+            "E": {
+              "text": "Docetaxel chemotherapy because of the recurrence",
+              "rationale": "Misconception: systemic therapy as the next escalation. For a locally confined recurrence it is not the first choice (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "The profile fits: locally confined recurrence, imaging-negative nodes, long PSA doubling time and a long interval since radiotherapy (Heidenreich et al. 2026). In large single-centre series, metastasis-free survival at ten years is 75 to 80% and cancer-specific survival 80 to 90% (Heidenreich et al. 2026). Complication rates are given as 2 to 5%, rectal injury below 1.5% (Heidenreich et al. 2026). Biochemical recurrence-free survival at five years is 71.4% for organ-confined recurrence (Heidenreich et al. 2026). Incontinence is the central counselling issue: 20 to 40% depending on the preceding radiotherapy, with recovery taking eight months on average (Heidenreich et al. 2026). The indication belongs in the multidisciplinary tumour board and the operation in a centre experienced in salvage surgery (Heidenreich et al. 2026).",
+            "teaching_point": "Salvage prostatectomy: organ-confined, node-negative, long doubling time, imaging complete."
+          },
+          "flag_note": "The results come from retrospective single-centre series with substantial patient selection; randomised comparisons with other salvage modalities are lacking."
+        },
+        "es": {
+          "vignette": "Un varón de 68 años presenta, seis años después de la radioterapia externa, una recidiva local confirmada por biopsia, Gleason 3+4. PSA 3,2 ng/ml con un tiempo de duplicación de 14 meses. La RM multiparamétrica muestra una lesión limitada al órgano y la PET-TC con PSMA no muestra metástasis ganglionares ni a distancia. Está continente, ECOG 0. Debe definirse el tratamiento.",
+          "lead_in": "¿Qué conducta está mejor fundamentada?",
+          "options": {
+            "A": {
+              "text": "Deprivación androgénica de por vida sin terapia local",
+              "rationale": "Error de concepto: la recidiva tras radioterapia ya no sería curable. Aun así, más del 90 % de los pacientes reciben deprivación androgénica no curativa (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Prostatectomía de rescate en un centro con experiencia",
+              "rationale": "Recidiva limitada al órgano, ganglios negativos y tiempo de duplicación largo son justamente la constelación en la que la prostatectomía de rescate funciona (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "Prostatectomía de rescate ya, sin más pruebas de imagen",
+              "rationale": "Error de concepto: la imagen sería prescindible. La RM multiparamétrica y la PET-TC con PSMA son imprescindibles antes de decidir (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Observación hasta que aparezcan metástasis a distancia",
+              "rationale": "Error de concepto: esperar no cuesta nada. Con metástasis a distancia desaparece la opción curativa."
+            },
+            "E": {
+              "text": "Quimioterapia con docetaxel por la recidiva",
+              "rationale": "Error de concepto: la terapia sistémica como siguiente escalón. En la recidiva local no es la primera opción (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "El perfil encaja: recidiva local, ganglios negativos en la imagen, tiempo de duplicación largo e intervalo amplio desde la radioterapia (Heidenreich et al. 2026). En grandes series de un solo centro, la supervivencia libre de metástasis a diez años es del 75 al 80 % y la específica de cáncer del 80 al 90 % (Heidenreich et al. 2026). Las tasas de complicaciones se cifran entre el 2 y el 5 %, con lesiones rectales por debajo del 1,5 % (Heidenreich et al. 2026). La supervivencia libre de recidiva bioquímica a cinco años es del 71,4 % en la recidiva limitada al órgano (Heidenreich et al. 2026). La incontinencia es el tema central de la información: del 20 al 40 % según la radioterapia previa, con una recuperación media de ocho meses (Heidenreich et al. 2026). La indicación corresponde al comité multidisciplinar y la cirugía a un centro con experiencia en cirugía de rescate (Heidenreich et al. 2026).",
+            "teaching_point": "Prostatectomía de rescate: limitada al órgano, ganglios negativos, duplicación lenta e imagen completa."
+          },
+          "flag_note": "Los resultados proceden de series retrospectivas de un solo centro con fuerte selección; faltan comparaciones aleatorizadas con otras modalidades de rescate."
+        }
+      }
+    },
+    {
+      "id": "uro-sal-90002",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Prostatakarzinom",
+        "tags": [
+          "operationstechnik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 7,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "ohne_phase_III",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "In welchem Ausmaß sind Salvage-Operationen bei Tumoren des Urogenitaltrakts sinnvoll?",
+          "citation": "Heidenreich J, Pfister D, Steenbock O, Rieger C, Heidenreich A. Urologie 2026;65:145–154. doi:10.1007/s00120-025-02748-6",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-09-21"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 71-jähriger Mann wünscht nach Strahlentherapie eine Salvage-Prostatektomie. Das mpMRT zeigt ein Rezidiv mit Samenblaseninfiltration, das PSMA-PET-CT einen suspekten pelvinen Lymphknoten. PSA 6,8 ng/ml, Verdopplungszeit 4 Monate, ECOG 1. Festlegung des Vorgehens.",
+          "lead_in": "Wie ist der Wunsch zu bewerten?",
+          "options": {
+            "A": {
+              "text": "Salvage-Prostatektomie wie gewünscht durchführen",
+              "rationale": "Fehlannahme: Der Patientenwunsch ersetze die Selektion. Genau diese Konstellation spricht gegen den kurativen Anspruch (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Salvage-Prostatektomie mit ausgedehnter Lymphadenektomie",
+              "rationale": "Fehlannahme: Mehr Chirurgie gleiche die Ausgangslage aus. Positive Lymphknoten waren mit mehr Rezidiven, mehr Metastasierung und höherer Mortalität verbunden (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "Fokale Salvage-Therapie des Rezidivherdes anbieten",
+              "rationale": "Fehlannahme: Fokale Therapie als schonende Lösung. Sie adressiert weder die Samenblasen noch den Lymphknoten."
+            },
+            "D": {
+              "text": "Zurückhaltung, Systemtherapie im Tumorboard besprechen",
+              "rationale": "Samenblaseninfiltration, positiver Lymphknoten und kurze Verdopplungszeit kennzeichnen die Gruppe mit dem geringsten Nutzen (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Erneute Bestrahlung des Rezidivs ohne weitere Abklärung",
+              "rationale": "Fehlannahme: Erneute Bestrahlung ohne Konzept. Vor jeder Salvage-Entscheidung stehen Bildgebung und Tumorboard (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "Resezierbarkeit ist nicht gleichbedeutend mit Heilungschance: Diese Risikomerkmale senken den Nutzen der Operation erheblich (Heidenreich et al. 2026). Bei Samenblaseninvasion sinkt die biochemische Rezidivfreiheit nach fünf Jahren auf 50 %, bei Lymphknotenbefall auf 30 %, gegenüber 71,4 % beim organbegrenzten Rezidiv (Heidenreich et al. 2026). Das mittlere biochemisch progressionsfreie Überleben beträgt mit Lymphknotenmetastasen 31,4 gegenüber 61,8 Monaten ohne (Heidenreich et al. 2026). In einer Serie von 334 Patienten war der Nachweis positiver Lymphknoten mit erhöhter Gesamtmortalität assoziiert (Heidenreich et al. 2026). Die Indikation zur Salvage-Operation gehört immer ins interdisziplinäre Tumorboard, gemeinsam mit der Alternative einer Systemtherapie (Heidenreich et al. 2026). Die Aufklärung benennt die realistische Kurationschance, nicht nur die technische Machbarkeit (Heidenreich et al. 2026).",
+            "teaching_point": "Samenblaseninvasion oder positiver Lymphknoten: Salvage-Prostatektomie verliert ihren kurativen Anspruch."
+          },
+          "flag_note": "Die Risikoabschätzung beruht auf retrospektiven Serien; eine Operation im Einzelfall bleibt nach Tumorboardentscheidung möglich."
+        },
+        "en": {
+          "vignette": "A 71-year-old man requests salvage prostatectomy after radiotherapy. Multiparametric MRI shows recurrence with seminal vesicle infiltration, PSMA-PET/CT a suspicious pelvic node. PSA is 6.8 ng/ml, doubling time 4 months, ECOG 1. Management is to be defined.",
+          "lead_in": "How should his request be judged?",
+          "options": {
+            "A": {
+              "text": "Perform salvage prostatectomy as requested",
+              "rationale": "Misconception: the patient's wish replaces selection. This very constellation argues against a curative claim (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Salvage prostatectomy with extended lymphadenectomy",
+              "rationale": "Misconception: more surgery compensates for the starting position. Positive nodes were associated with more recurrences, more metastatic spread and higher mortality (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "Offer focal salvage therapy of the recurrent lesion",
+              "rationale": "Misconception: focal therapy as the gentle solution. It addresses neither the seminal vesicles nor the node."
+            },
+            "D": {
+              "text": "Restraint; discuss systemic therapy in the tumour board",
+              "rationale": "Seminal vesicle infiltration, a positive node and a short doubling time mark the group with the least benefit (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Repeat radiotherapy of the recurrence without further work-up",
+              "rationale": "Misconception: repeat radiotherapy without a concept. Imaging and the tumour board precede every salvage decision (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "Resectability is not the same as a chance of cure: these risk features markedly reduce the benefit of surgery (Heidenreich et al. 2026). With seminal vesicle invasion, biochemical recurrence-free survival at five years falls to 50%, with nodal involvement to 30%, compared with 71.4% for organ-confined recurrence (Heidenreich et al. 2026). Mean biochemical progression-free survival is 31.4 months with nodal metastases versus 61.8 months without (Heidenreich et al. 2026). In a series of 334 patients, positive nodes were associated with increased overall mortality (Heidenreich et al. 2026). The indication for salvage surgery always belongs in the multidisciplinary tumour board, together with the alternative of systemic therapy (Heidenreich et al. 2026). Counselling names the realistic chance of cure, not only technical feasibility (Heidenreich et al. 2026).",
+            "teaching_point": "Seminal vesicle invasion or a positive node: salvage prostatectomy loses its curative claim."
+          },
+          "flag_note": "The risk estimates come from retrospective series; surgery in an individual case remains possible after a tumour board decision."
+        },
+        "es": {
+          "vignette": "Un varón de 71 años solicita una prostatectomía de rescate tras radioterapia. La RM multiparamétrica muestra una recidiva con infiltración de vesículas seminales y la PET-TC con PSMA un ganglio pélvico sospechoso. PSA 6,8 ng/ml, tiempo de duplicación 4 meses, ECOG 1. Debe definirse la conducta.",
+          "lead_in": "¿Cómo debe valorarse su petición?",
+          "options": {
+            "A": {
+              "text": "Realizar la prostatectomía de rescate como él desea",
+              "rationale": "Error de concepto: el deseo del paciente sustituiría a la selección. Justo esta constelación va en contra de la intención curativa (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Prostatectomía de rescate con linfadenectomía ampliada",
+              "rationale": "Error de concepto: más cirugía compensaría el punto de partida. Los ganglios positivos se asociaron a más recidivas, más metástasis y mayor mortalidad (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "Ofrecer terapia focal de rescate de la lesión recidivante",
+              "rationale": "Error de concepto: la terapia focal como solución suave. No aborda ni las vesículas seminales ni el ganglio."
+            },
+            "D": {
+              "text": "Prudencia: plantear terapia sistémica en el comité",
+              "rationale": "La infiltración de vesículas seminales, un ganglio positivo y un tiempo de duplicación corto marcan al grupo con menor beneficio (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Repetir la radioterapia de la recidiva sin más estudio",
+              "rationale": "Error de concepto: repetir la radioterapia sin un plan. La imagen y el comité preceden a toda decisión de rescate (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "Resecable no significa curable: estos factores de riesgo reducen notablemente el beneficio de la cirugía (Heidenreich et al. 2026). Con invasión de vesículas seminales, la supervivencia libre de recidiva bioquímica a cinco años baja al 50 %, y con afectación ganglionar al 30 %, frente al 71,4 % en la recidiva limitada al órgano (Heidenreich et al. 2026). La supervivencia media libre de progresión bioquímica es de 31,4 meses con metástasis ganglionares frente a 61,8 meses sin ellas (Heidenreich et al. 2026). En una serie de 334 pacientes, los ganglios positivos se asociaron a mayor mortalidad global (Heidenreich et al. 2026). La indicación de cirugía de rescate siempre corresponde al comité multidisciplinar, junto con la alternativa de la terapia sistémica (Heidenreich et al. 2026). La información debe incluir la probabilidad real de curación, no solo la viabilidad técnica (Heidenreich et al. 2026).",
+            "teaching_point": "Invasión de vesículas seminales o ganglio positivo: la prostatectomía de rescate pierde su intención curativa."
+          },
+          "flag_note": "La estimación del riesgo procede de series retrospectivas; una intervención en casos concretos sigue siendo posible tras la decisión del comité."
+        }
+      }
+    },
+    {
+      "id": "uro-sal-90003",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Prostatakarzinom",
+        "tags": [
+          "operationstechnik",
+          "studienlage"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 7,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "1b",
+        "certainty": "kontrovers",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "In welchem Ausmaß sind Salvage-Operationen bei Tumoren des Urogenitaltrakts sinnvoll?",
+          "citation": "Heidenreich J, Pfister D, Steenbock O, Rieger C, Heidenreich A. Urologie 2026;65:145–154. doi:10.1007/s00120-025-02748-6",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-03-31"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 64-jähriger Mann hat zwei Jahre nach radikaler Prostatektomie ein biochemisches Rezidiv, PSA 1,8 ng/ml. Das PSMA-PET-CT zeigt zwei suspekte pelvine Lymphknoten, keine Fernmetastasen. Er ist hormonnaiv und wünscht eine metastasengerichtete Therapie. Festlegung des Vorgehens.",
+          "lead_in": "Welches Vorgehen ist am besten begründet?",
+          "options": {
+            "A": {
+              "text": "Pelvine Bestrahlung mit Boost plus Androgendeprivation",
+              "rationale": "In der randomisierten Studie lag das metastasenfreie Überleben nach vier Jahren bei 76 % nach pelviner Bestrahlung gegenüber 63 % nach metastasengerichteter Therapie (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Salvage-Lymphadenektomie mit kurativer Zielsetzung",
+              "rationale": "Fehlannahme: Sichtbare Lymphknoten seien chirurgisch heilbar. Eine Kuration erreichen die wenigsten Patienten (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "PSMA-radiogeführte Salvage-Lymphadenektomie als Standard",
+              "rationale": "Fehlannahme: Die radiogeführte Technik mache den Eingriff zum Standard. In der größten Kohorte mit 364 Patienten erreichten nur 45 % einen PSA-Nadir unter 0,2 ng/ml (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Alleinige Androgendeprivation ohne lokale Maßnahme",
+              "rationale": "Fehlannahme: Ohne Operation bleibe nur die Hormontherapie. Die Kombination aus Bestrahlung und Androgendeprivation war im Vergleich überlegen (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Beobachtung bis zum Auftreten von Knochenmetastasen",
+              "rationale": "Fehlannahme: Niedriges PSA erlaube Abwarten. Die Studienlage stützt die frühe Behandlung des nodalen Rezidivs (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "Für das oligonodale Rezidiv liegt eine randomisierte Studie vor, und sie fällt nicht zugunsten der Chirurgie aus (Heidenreich et al. 2026). In PEACE V-STORM wurden 196 Patienten entweder einer metastasengerichteten Therapie durch Lymphadenektomie oder stereotaktische Bestrahlung mit sechsmonatiger Androgendeprivation oder einer pelvinen Bestrahlung mit 45 Gy und einem Boost von 65 Gy auf die PET-positiven Lymphknoten zugeführt; primärer Endpunkt war das metastasenfreie Überleben (Heidenreich et al. 2026). Retrospektive Serien zur Salvage-Lymphadenektomie zeigen eine biochemische Rezidivfreiheit nach zwei Jahren von nur 32 % (Heidenreich et al. 2026). Wird dennoch operiert, ist das realistische Ziel der Aufschub der Hormontherapie (Heidenreich et al. 2026). Der Artikel nennt die Ergebnisse dieser Studie exzellent, ohne zu benennen, dass sie gegen das chirurgische Vorgehen ausfielen.",
+            "teaching_point": "Oligonodales Rezidiv: pelvine Bestrahlung mit Boost und Hormontherapie schlägt die metastasengerichtete Chirurgie."
+          },
+          "flag_note": "Der Artikel führt die PEACE-V-STORM-Daten als Beleg für die Salvage-Chirurgie an, obwohl die berichteten Zahlen zugunsten der pelvinen Bestrahlung ausfallen."
+        },
+        "en": {
+          "vignette": "A 64-year-old man has biochemical recurrence two years after radical prostatectomy, PSA 1.8 ng/ml. PSMA-PET/CT shows two suspicious pelvic nodes and no distant metastases. He is hormone-naive and asks for metastasis-directed therapy. Management is to be defined.",
+          "lead_in": "Which approach is best justified?",
+          "options": {
+            "A": {
+              "text": "Pelvic radiotherapy with a boost plus androgen deprivation",
+              "rationale": "In the randomised trial, metastasis-free survival at four years was 76% after pelvic radiotherapy versus 63% after metastasis-directed therapy (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Salvage lymph node dissection with curative intent",
+              "rationale": "Misconception: visible nodes are surgically curable. Very few patients achieve cure (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "PSMA-radioguided salvage lymphadenectomy as the standard",
+              "rationale": "Misconception: the radioguided technique makes the procedure a standard. In the largest cohort of 364 patients only 45% reached a PSA nadir below 0.2 ng/ml (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Androgen deprivation alone without any local measure",
+              "rationale": "Misconception: without surgery only hormones remain. The combination of radiotherapy and androgen deprivation was superior in the comparison (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Observation until bone metastases appear",
+              "rationale": "Misconception: a low PSA permits waiting. The evidence supports early treatment of nodal recurrence (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "For oligonodal recurrence a randomised trial exists, and it does not favour surgery (Heidenreich et al. 2026). In PEACE V-STORM, 196 patients received either metastasis-directed therapy by lymphadenectomy or stereotactic radiotherapy with six months of androgen deprivation, or pelvic radiotherapy with 45 Gy plus a boost of 65 Gy to the PET-positive nodes; the primary endpoint was metastasis-free survival (Heidenreich et al. 2026). Retrospective series of salvage lymphadenectomy show biochemical recurrence-free survival at two years of only 32% (Heidenreich et al. 2026). If surgery is performed nonetheless, the realistic aim is deferral of hormone therapy (Heidenreich et al. 2026). The article calls the results of this trial excellent without stating that they came out against the surgical approach.",
+            "teaching_point": "Oligonodal recurrence: pelvic radiotherapy with a boost plus hormone therapy beats metastasis-directed surgery."
+          },
+          "flag_note": "The article cites the PEACE V-STORM data in support of salvage surgery although the figures it reports favour pelvic radiotherapy."
+        },
+        "es": {
+          "vignette": "Un varón de 64 años presenta una recidiva bioquímica dos años después de la prostatectomía radical, PSA 1,8 ng/ml. La PET-TC con PSMA muestra dos ganglios pélvicos sospechosos y ninguna metástasis a distancia. No ha recibido hormonoterapia y desea una terapia dirigida a las metástasis. Debe definirse la conducta.",
+          "lead_in": "¿Qué conducta está mejor fundamentada?",
+          "options": {
+            "A": {
+              "text": "Radioterapia pélvica con sobreimpresión y hormonoterapia",
+              "rationale": "En el ensayo aleatorizado, la supervivencia libre de metástasis a cuatro años fue del 76 % con radioterapia pélvica frente al 63 % con terapia dirigida a las metástasis (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Linfadenectomía de rescate con intención curativa",
+              "rationale": "Error de concepto: los ganglios visibles serían curables con cirugía. Muy pocos pacientes alcanzan la curación (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "Linfadenectomía de rescate guiada por PSMA como estándar",
+              "rationale": "Error de concepto: la técnica radioguiada convertiría la intervención en estándar. En la mayor cohorte, de 364 pacientes, solo el 45 % alcanzó un nadir de PSA inferior a 0,2 ng/ml (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Deprivación androgénica sola, sin medida local alguna",
+              "rationale": "Error de concepto: sin cirugía solo quedaría la hormonoterapia. La combinación de radioterapia y deprivación androgénica fue superior en la comparación (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Observación hasta que aparezcan metástasis óseas",
+              "rationale": "Error de concepto: un PSA bajo permitiría esperar. La evidencia respalda el tratamiento precoz de la recidiva ganglionar (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "Para la recidiva oligoganglionar existe un ensayo aleatorizado, y no favorece a la cirugía (Heidenreich et al. 2026). En PEACE V-STORM, 196 pacientes recibieron terapia dirigida a las metástasis mediante linfadenectomía o radioterapia estereotáctica con seis meses de deprivación androgénica, o bien radioterapia pélvica con 45 Gy y una sobreimpresión de 65 Gy sobre los ganglios PET positivos; la variable principal fue la supervivencia libre de metástasis (Heidenreich et al. 2026). Las series retrospectivas de linfadenectomía de rescate muestran una supervivencia libre de recidiva bioquímica a dos años de solo el 32 % (Heidenreich et al. 2026). Si aun así se opera, el objetivo realista es retrasar la hormonoterapia (Heidenreich et al. 2026). El artículo califica de excelentes los resultados de ese ensayo sin señalar que fueron contrarios a la cirugía.",
+            "teaching_point": "Recidiva oligoganglionar: radioterapia pélvica con sobreimpresión y hormonoterapia por delante de la cirugía dirigida."
+          },
+          "flag_note": "El artículo cita los datos de PEACE V-STORM en apoyo de la cirugía de rescate aunque las cifras que recoge favorecen a la radioterapia pélvica."
+        }
+      }
+    },
+    {
+      "id": "uro-sal-90004",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Prostatakarzinom",
+        "tags": [
+          "operationstechnik",
+          "studienlage"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "ohne_phase_III",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "In welchem Ausmaß sind Salvage-Operationen bei Tumoren des Urogenitaltrakts sinnvoll?",
+          "citation": "Heidenreich J, Pfister D, Steenbock O, Rieger C, Heidenreich A. Urologie 2026;65:145–154. doi:10.1007/s00120-025-02748-6",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-09-21"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 66-jähriger Mann soll nach interdisziplinärer Beratung eine Salvage-Lymphadenektomie bei zwei PSMA-positiven pelvinen Lymphknoten erhalten. Er fragt, was der Eingriff für ihn realistisch bedeutet. Aufklärungsgespräch vor der Operation.",
+          "lead_in": "Wie ist aufzuklären?",
+          "options": {
+            "A": {
+              "text": "Heilung ist bei der Mehrzahl der Patienten zu erwarten",
+              "rationale": "Fehlannahme: Sichtbare Metastasen seien chirurgisch heilbar. Die klinische Rezidivfreiheit nach zehn Jahren liegt bei 31 % (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Nach dem Eingriff ist keine Hormontherapie mehr nötig",
+              "rationale": "Fehlannahme: Die Operation erspare die Hormontherapie dauerhaft. 77 % der Patienten erhielten sie im Verlauf (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "Realistisch ist eine längere Zeit ohne Hormontherapie",
+              "rationale": "Die wesentliche Indikation liegt in der Verlängerung der systemtherapiefreien Zeit, die bei guter Selektion bis zu 42 Monate betragen kann (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Ein PSA-Nadir unter 0,2 wird fast immer erreicht",
+              "rationale": "Fehlannahme: Der Nadir sei die Regel. In der größten Serie erreichten ihn 45 % innerhalb von drei Monaten (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Das Rezidivrisiko im ersten Jahr liegt unter fünf Prozent",
+              "rationale": "Fehlannahme: Frühe Rezidive seien selten. Ein Viertel der Patienten rezidiviert im ersten Jahr (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "Der Eingriff verschiebt den Beginn der Androgendeprivation, er heilt in der Regel nicht (Heidenreich et al. 2026). In einer Kohorte von 189 Patienten betrugen die klinische und die biochemische Rezidivfreiheit nach zehn Jahren 31 % und 11 %; 145 Patienten erhielten im Median nach 41 Monaten eine Androgendeprivation (Heidenreich et al. 2026). Ein frühes Rezidiv im ersten Jahr war mit einer tumorspezifischen Mortalität nach drei Jahren von 20 % gegenüber 1,4 % verbunden (Heidenreich et al. 2026). Prädiktoren sind Gleason-Grad 5, der PSA-Wert und drei oder mehr positive Herde im PET-CT (Heidenreich et al. 2026). Ein postoperativer PSA-Wert über 0,3 ng/ml ist mit mehr Rezidiven und höherer tumorspezifischer Mortalität verbunden; dann verbessert die frühe Androgendeprivation das Überleben (Heidenreich et al. 2026). Die Aufklärung sollte das Ziel benennen, bevor der Patient Heilung erwartet.",
+            "teaching_point": "Salvage-Lymphadenektomie: Aufschub der Hormontherapie als Ziel, Heilung ist die Ausnahme."
+          },
+          "flag_note": "Alle genannten Zahlen stammen aus retrospektiven, teils multiinstitutionellen Serien ohne Kontrollgruppe."
+        },
+        "en": {
+          "vignette": "A 66-year-old man is scheduled for salvage lymph node dissection for two PSMA-positive pelvic nodes after multidisciplinary discussion. He asks what the procedure realistically means for him. Consent discussion before surgery.",
+          "lead_in": "How should he be counselled?",
+          "options": {
+            "A": {
+              "text": "Cure is to be expected in the majority of patients",
+              "rationale": "Misconception: visible metastases are surgically curable. Clinical recurrence-free survival at ten years is 31% (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "After the procedure, hormone therapy is no longer needed",
+              "rationale": "Misconception: the operation spares hormone therapy for good. 77% of patients received it during follow-up (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "Realistically, a longer time without hormone therapy",
+              "rationale": "The main indication lies in extending the systemic therapy-free interval, which with good selection can reach 42 months (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "A PSA nadir below 0.2 is reached almost always",
+              "rationale": "Misconception: the nadir is the rule. In the largest series 45% reached it within three months (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "The risk of recurrence in the first year is under five percent",
+              "rationale": "Misconception: early recurrence is rare. One in four patients recurs within the first year (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "The procedure postpones the start of androgen deprivation; as a rule it does not cure (Heidenreich et al. 2026). In a cohort of 189 patients, clinical and biochemical recurrence-free survival at ten years were 31% and 11%; 145 patients received androgen deprivation at a median of 41 months (Heidenreich et al. 2026). Early recurrence within the first year was associated with cancer-specific mortality at three years of 20% versus 1.4% (Heidenreich et al. 2026). Predictors are Gleason grade 5, the PSA level and three or more positive spots on PET/CT (Heidenreich et al. 2026). A postoperative PSA above 0.3 ng/ml is associated with more recurrences and higher cancer-specific mortality; early androgen deprivation then improves survival (Heidenreich et al. 2026). Counselling should name the aim before the patient expects cure.",
+            "teaching_point": "Salvage lymphadenectomy: deferral of hormone therapy as the aim, cure is the exception."
+          },
+          "flag_note": "All figures quoted come from retrospective, partly multi-institutional series without a control group."
+        },
+        "es": {
+          "vignette": "Un varón de 66 años va a someterse a una linfadenectomía de rescate por dos ganglios pélvicos PSMA positivos tras la valoración multidisciplinar. Pregunta qué significa realmente la intervención para él. Consentimiento informado antes de la cirugía.",
+          "lead_in": "¿Cómo debe informarse?",
+          "options": {
+            "A": {
+              "text": "Cabe esperar la curación en la mayoría de los pacientes",
+              "rationale": "Error de concepto: las metástasis visibles serían curables con cirugía. La supervivencia libre de recidiva clínica a diez años es del 31 % (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Tras la intervención ya no hará falta hormonoterapia",
+              "rationale": "Error de concepto: la cirugía evitaría la hormonoterapia de forma definitiva. El 77 % de los pacientes la recibió durante el seguimiento (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "Lo realista es un periodo más largo sin hormonoterapia",
+              "rationale": "La indicación esencial es prolongar el periodo sin terapia sistémica, que con buena selección puede llegar a 42 meses (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Un nadir de PSA por debajo de 0,2 se alcanza casi siempre",
+              "rationale": "Error de concepto: el nadir sería la norma. En la mayor serie lo alcanzó el 45 % en tres meses (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "El riesgo de recidiva en el primer año es inferior al cinco por ciento",
+              "rationale": "Error de concepto: las recidivas precoces serían raras. Uno de cada cuatro pacientes recae en el primer año (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "La intervención retrasa el inicio de la deprivación androgénica; por regla general no cura (Heidenreich et al. 2026). En una cohorte de 189 pacientes, la supervivencia libre de recidiva clínica y bioquímica a diez años fue del 31 % y del 11 %; 145 pacientes recibieron deprivación androgénica a una mediana de 41 meses (Heidenreich et al. 2026). Una recidiva precoz en el primer año se asoció a una mortalidad específica de cáncer a tres años del 20 % frente al 1,4 % (Heidenreich et al. 2026). Son predictores el grado 5 de Gleason, el valor de PSA y tres o más focos positivos en la PET-TC (Heidenreich et al. 2026). Un PSA posoperatorio superior a 0,3 ng/ml se asocia a más recidivas y mayor mortalidad específica; entonces la deprivación androgénica precoz mejora la supervivencia (Heidenreich et al. 2026). La información debe fijar el objetivo antes de que el paciente espere curación.",
+            "teaching_point": "Linfadenectomía de rescate: el objetivo es retrasar la hormonoterapia; la curación es la excepción."
+          },
+          "flag_note": "Todas las cifras citadas proceden de series retrospectivas, en parte multiinstitucionales, sin grupo de control."
+        }
+      }
+    },
+    {
+      "id": "uro-sal-90005",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Prostatakarzinom",
+        "tags": [
+          "operationstechnik",
+          "studienlage"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 7,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "kontrovers",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "In welchem Ausmaß sind Salvage-Operationen bei Tumoren des Urogenitaltrakts sinnvoll?",
+          "citation": "Heidenreich J, Pfister D, Steenbock O, Rieger C, Heidenreich A. Urologie 2026;65:145–154. doi:10.1007/s00120-025-02748-6",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-03-31"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 62-jähriger Mann mit de novo metastasiertem, hormonsensitivem Prostatakarzinom und drei ossären Herden hat unter sechs Monaten Systemtherapie einen PSA-Abfall auf 0,1 ng/ml. Er hat über die zytoreduktive Prostatektomie gelesen und fragt danach. Festlegung des Vorgehens.",
+          "lead_in": "Wie ist der Wunsch zu bewerten?",
+          "options": {
+            "A": {
+              "text": "Zytoreduktive Prostatektomie als Standardtherapie anbieten",
+              "rationale": "Fehlannahme: Günstige Registerdaten machten einen Standard. Prospektiv randomisierte Belege fehlen (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Operation ablehnen, ein Nutzen ist nirgends belegt",
+              "rationale": "Fehlannahme: Ohne Randomisierung kein Signal. Mehrere Serien zeigen bei stark selektierten Patienten konsistente Vorteile (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "Operation unabhängig vom Therapieansprechen durchführen",
+              "rationale": "Fehlannahme: Das Ansprechen sei nebensächlich. Es ist das entscheidende Selektionskriterium (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Operation ausschließlich bei lokaler Symptomatik erwägen",
+              "rationale": "Fehlannahme: Nur die Palliation zähle. Die lokale Symptomkontrolle ist ein zusätzliches Argument, nicht das einzige (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Einzelfallentscheidung im Tumorboard, bevorzugt in Studien",
+              "rationale": "Der Artikel selbst bezeichnet die Operation als sehr individuelle Therapieentscheidung auf retrospektiver Datenbasis (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "Der Patient erfüllt die publizierten Auswahlkriterien, die Evidenz bleibt aber retrospektiv: Entscheidung im Tumorboard, möglichst innerhalb einer Studie (Heidenreich et al. 2026). In der SEER-Analyse lagen Gesamt- und tumorspezifisches Überleben nach fünf Jahren bei 67,4 % und 75,8 % gegenüber 22,5 % und 48,7 % unter alleiniger Androgendeprivation (Heidenreich et al. 2026). In der größten Serie mit 113 selektierten Patienten betrug das mediane Gesamtüberleben 85,4 Monate (Heidenreich et al. 2026). Als Voraussetzung nennt der Artikel einen PSA-Nadir unter 0,2 ng/ml oder einen Abfall über 80 % nach Induktionstherapie sowie eine geringe Metastasenlast (Heidenreich et al. 2026). Ein Vorteil liegt in der Vermeidung späterer Obstruktionen: In der Fall-Kontroll-Studie benötigten 71 % der nur hormonell behandelten Patienten eine palliative Intervention, in der Operationsgruppe keiner (Heidenreich et al. 2026). Die fehlende randomisierte Evidenz gehört in die Aufklärung.",
+            "teaching_point": "Zytoreduktive Prostatektomie: nur nach gutem Ansprechen, bei geringer Last, im Tumorboard und möglichst in Studien."
+          },
+          "flag_note": "Die Empfehlung stützt sich überwiegend auf retrospektive Serien derselben Arbeitsgruppe. Leitlinien sehen die Operation beim metastasierten Prostatakarzinom außerhalb von Studien zurückhaltend; die lokale Bestrahlung bei geringer Metastasenlast ist dort verankert."
+        },
+        "en": {
+          "vignette": "A 62-year-old man with de novo metastatic hormone-sensitive prostate cancer and three bone lesions has a PSA fall to 0.1 ng/ml after six months of systemic therapy. He has read about cytoreductive prostatectomy and asks for it. Management is to be defined.",
+          "lead_in": "How should his request be judged?",
+          "options": {
+            "A": {
+              "text": "Offer cytoreductive prostatectomy as standard therapy",
+              "rationale": "Misconception: favourable registry data make a standard. Prospective randomised evidence is lacking (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Decline surgery, no benefit has been shown anywhere",
+              "rationale": "Misconception: no randomisation, no signal. Several series show consistent advantages in highly selected patients (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "Perform surgery irrespective of treatment response",
+              "rationale": "Misconception: response is a side issue. It is the decisive selection criterion (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Consider surgery only for local symptoms",
+              "rationale": "Misconception: only palliation counts. Local symptom control is an additional argument, not the only one (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Individual decision in the tumour board or in a trial",
+              "rationale": "The article itself calls the operation a highly individual treatment decision resting on retrospective data (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "The patient meets the published selection criteria, but the evidence remains retrospective: decide in the tumour board, preferably within a trial (Heidenreich et al. 2026). In the SEER analysis, overall and cancer-specific survival at five years were 67.4% and 75.8% versus 22.5% and 48.7% under androgen deprivation alone (Heidenreich et al. 2026). In the largest series of 113 selected patients, median overall survival was 85.4 months (Heidenreich et al. 2026). As prerequisites the article names a PSA nadir below 0.2 ng/ml or a fall of more than 80% after induction therapy, plus a low metastatic burden (Heidenreich et al. 2026). One advantage lies in avoiding later obstruction: in the case-control study 71% of patients treated with hormones alone needed a palliative intervention, none in the surgical group (Heidenreich et al. 2026). The lack of randomised evidence belongs in the consent discussion.",
+            "teaching_point": "Cytoreductive prostatectomy: only after good response, with low burden, in the tumour board and preferably in trials."
+          },
+          "flag_note": "The recommendation rests largely on retrospective series from the same group. Guidelines are reserved about surgery in metastatic prostate cancer outside trials; local radiotherapy for low-volume disease is established there."
+        },
+        "es": {
+          "vignette": "Un varón de 62 años con cáncer de próstata metastásico hormonosensible de novo y tres lesiones óseas presenta un descenso del PSA a 0,1 ng/ml tras seis meses de terapia sistémica. Ha leído sobre la prostatectomía citorreductora y la solicita. Debe definirse la conducta.",
+          "lead_in": "¿Cómo debe valorarse su petición?",
+          "options": {
+            "A": {
+              "text": "Ofrecer la prostatectomía citorreductora como terapia estándar",
+              "rationale": "Error de concepto: unos datos de registro favorables bastarían para crear un estándar. Falta evidencia prospectiva aleatorizada (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Rechazar la cirugía, su beneficio no está demostrado en ningún sitio",
+              "rationale": "Error de concepto: sin aleatorización no habría señal. Varias series muestran ventajas constantes en pacientes muy seleccionados (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "Operar con independencia de la respuesta al tratamiento",
+              "rationale": "Error de concepto: la respuesta sería secundaria. Es justamente el criterio de selección (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Plantear la cirugía solo ante síntomas locales",
+              "rationale": "Error de concepto: solo contaría la paliación. El control local de síntomas es un argumento añadido, no el único (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Decisión individual en el comité, preferentemente en un ensayo",
+              "rationale": "El propio artículo califica la cirugía de decisión terapéutica muy individual, basada en datos retrospectivos (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "El paciente cumple los criterios publicados, pero la evidencia sigue siendo retrospectiva: decidir en el comité y, a ser posible, dentro de un ensayo (Heidenreich et al. 2026). En el análisis SEER, la supervivencia global y la específica de cáncer a cinco años fueron del 67,4 % y del 75,8 % frente al 22,5 % y el 48,7 % con deprivación androgénica sola (Heidenreich et al. 2026). En la mayor serie, con 113 pacientes seleccionados, la mediana de supervivencia global fue de 85,4 meses (Heidenreich et al. 2026). Como requisitos, el artículo cita un nadir de PSA inferior a 0,2 ng/ml o un descenso superior al 80 % tras la terapia de inducción y una carga metastásica baja (Heidenreich et al. 2026). Una ventaja está en evitar obstrucciones posteriores: en el estudio de casos y controles, el 71 % de los tratados solo con hormonoterapia necesitó una intervención paliativa, y ninguno del grupo quirúrgico (Heidenreich et al. 2026). La ausencia de evidencia aleatorizada forma parte de la información.",
+            "teaching_point": "Prostatectomía citorreductora: solo tras buena respuesta, con carga baja, en comité y preferentemente en ensayos."
+          },
+          "flag_note": "La recomendación se apoya sobre todo en series retrospectivas del propio grupo. Las guías son prudentes con la cirugía en el cáncer de próstata metastásico fuera de ensayos; allí está establecida la radioterapia local en la enfermedad de bajo volumen."
+        }
+      }
+    },
+    {
+      "id": "uro-sal-90006",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Prostatakarzinom",
+        "tags": [
+          "operationstechnik",
+          "palliativmedizin"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "ohne_phase_III",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "In welchem Ausmaß sind Salvage-Operationen bei Tumoren des Urogenitaltrakts sinnvoll?",
+          "citation": "Heidenreich J, Pfister D, Steenbock O, Rieger C, Heidenreich A. Urologie 2026;65:145–154. doi:10.1007/s00120-025-02748-6",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-09-21"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 74-jähriger Mann mit kastrationsresistentem, lokal fortgeschrittenem Prostatakarzinom hat rezidivierende Blasentamponaden, einen Dauerkatheter und beidseitige Nephrostomien. ECOG 1, CRP und Albumin normwertig, das MRT zeigt einen resektablen Befund im kleinen Becken. Festlegung des Vorgehens.",
+          "lead_in": "Welches Vorgehen ist begründet?",
+          "options": {
+            "A": {
+              "text": "Palliative radikale Beckenchirurgie am Zentrum",
+              "rationale": "Bei Resektabilität, ECOG 1 und normwertigen Entzündungs- und Ernährungsparametern kann der Eingriff Symptome dauerhaft kontrollieren (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Fortsetzung von Katheter und wiederholten Ausräumungen",
+              "rationale": "Fehlannahme: Wiederholte Interventionen seien der schonendere Weg. Sie binden Transfusionen und Klinikaufenthalte ohne Lösung."
+            },
+            "C": {
+              "text": "Nur palliative Systemtherapie ohne lokale Maßnahme",
+              "rationale": "Fehlannahme: Systemtherapie löse das lokale Problem. Bei Kastrationsresistenz mit Obstruktion gelingt das meist nicht (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Beckenchirurgie unabhängig vom Allgemeinzustand",
+              "rationale": "Fehlannahme: Der Zustand sei nachrangig. Erhöhtes CRP und niedriges Albumin sprechen gegen den Eingriff (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Alleinige Harnableitung ohne Tumorresektion",
+              "rationale": "Fehlannahme: Die Harnableitung genüge. Blutungsquelle und rektale Kompression bleiben bestehen."
+            }
+          },
+          "explanation": {
+            "core": "Die palliative Tumorchirurgie im kleinen Becken ist hier keine Übertherapie, sondern die wirksamste Symptomkontrolle (Heidenreich et al. 2026). In der Erfahrung der Autoren benötigen 80 % der Patienten eine radikale Zystoprostatektomie mit Ileumconduit, je 10 % eine Prostatektomie mit Blasenhalsverschluss oder eine Exenteration (Heidenreich et al. 2026). Das symptomfreie Überleben lag nach einem und drei Jahren bei 89 % und 66 %, das Gesamtüberleben bei 89 % und 42,4 % (Heidenreich et al. 2026). Die Morbidität entsprach der einer klassischen radikalen Zystektomie (Heidenreich et al. 2026). Die Resektabilität wird im MRT des kleinen Beckens geklärt, bevor über den Umfang entschieden wird (Heidenreich et al. 2026). Der Eingriff gehört an ein Zentrum mit Erfahrung in der Beckenchirurgie und in der Harnableitung (Heidenreich et al. 2026).",
+            "teaching_point": "Symptomatisches Beckenrezidiv mit gutem Allgemeinzustand: palliative radikale Chirurgie statt Dauerkatheter."
+          },
+          "flag_note": "Die Ergebnisse stammen aus Einzelzentrumsserien derselben Arbeitsgruppe; prospektive Vergleiche mit rein konservativem Vorgehen fehlen."
+        },
+        "en": {
+          "vignette": "A 74-year-old man with castration-resistant, locally advanced prostate cancer has recurrent bladder tamponade, an indwelling catheter and bilateral nephrostomies. ECOG 1, CRP and albumin within range, pelvic MRI shows a resectable finding. Management is to be defined.",
+          "lead_in": "Which approach is justified?",
+          "options": {
+            "A": {
+              "text": "Palliative radical pelvic surgery at a centre",
+              "rationale": "With a resectable finding, ECOG 1 and normal inflammatory and nutritional parameters, the procedure can control symptoms durably (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Continuing the catheter and repeated clot evacuations",
+              "rationale": "Misconception: repeated interventions are the gentler route. They consume transfusions and hospital days without solving anything."
+            },
+            "C": {
+              "text": "Palliative systemic therapy only, without local measures",
+              "rationale": "Misconception: systemic therapy solves the local problem. With castration resistance and obstruction it usually does not (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Pelvic surgery irrespective of performance status",
+              "rationale": "Misconception: performance status is secondary. Raised CRP and low albumin argue against the procedure (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Urinary diversion alone without tumour resection",
+              "rationale": "Misconception: diversion suffices. The bleeding source and rectal compression remain."
+            }
+          },
+          "explanation": {
+            "core": "Palliative tumour surgery in the pelvis is not overtreatment here but the most effective symptom control (Heidenreich et al. 2026). In the authors' experience, 80% of patients need radical cystoprostatectomy with an ileal conduit, and 10% each a prostatectomy with bladder neck closure or an exenteration (Heidenreich et al. 2026). Symptom-free survival at one and three years was 89% and 66%, overall survival 89% and 42.4% (Heidenreich et al. 2026). Morbidity corresponded to that of classical radical cystectomy (Heidenreich et al. 2026). Resectability is clarified on pelvic MRI before the extent is decided (Heidenreich et al. 2026). The procedure belongs in a centre experienced in pelvic surgery and urinary diversion (Heidenreich et al. 2026).",
+            "teaching_point": "Symptomatic pelvic recurrence with good performance status: palliative radical surgery instead of a permanent catheter."
+          },
+          "flag_note": "The results come from single-centre series by the same group; prospective comparisons with conservative management are lacking."
+        },
+        "es": {
+          "vignette": "Un varón de 74 años con cáncer de próstata localmente avanzado y resistente a la castración presenta taponamientos vesicales de repetición, sonda permanente y nefrostomías bilaterales. ECOG 1, PCR y albúmina normales, y la RM muestra un hallazgo resecable en la pelvis menor. Debe definirse la conducta.",
+          "lead_in": "¿Qué conducta está justificada?",
+          "options": {
+            "A": {
+              "text": "Cirugía pélvica radical paliativa en un centro",
+              "rationale": "Con un hallazgo resecable, ECOG 1 y parámetros inflamatorios y nutricionales normales, la intervención puede controlar los síntomas de forma duradera (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Mantener la sonda y las evacuaciones repetidas de coágulos",
+              "rationale": "Error de concepto: las intervenciones repetidas serían lo más suave. Consumen transfusiones y días de hospital sin resolver nada."
+            },
+            "C": {
+              "text": "Solo terapia sistémica paliativa, sin medida local",
+              "rationale": "Error de concepto: la terapia sistémica resolvería el problema local. Con resistencia a la castración y obstrucción rara vez lo consigue (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Cirugía pélvica con independencia del estado general",
+              "rationale": "Error de concepto: el estado general sería secundario. Una PCR elevada y una albúmina baja desaconsejan la intervención (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Derivación urinaria aislada sin resección tumoral",
+              "rationale": "Error de concepto: bastaría la derivación. Persisten el foco de sangrado y la compresión rectal."
+            }
+          },
+          "explanation": {
+            "core": "La cirugía tumoral paliativa en la pelvis no es aquí un exceso terapéutico, sino el control sintomático más eficaz (Heidenreich et al. 2026). En la experiencia de los autores, el 80 % de los pacientes necesita una cistoprostatectomía radical con conducto ileal, y un 10 % en cada caso una prostatectomía con cierre del cuello vesical o una exenteración (Heidenreich et al. 2026). La supervivencia libre de síntomas al año y a los tres años fue del 89 % y del 66 %, y la global del 89 % y del 42,4 % (Heidenreich et al. 2026). La morbilidad equivalió a la de una cistectomía radical clásica (Heidenreich et al. 2026). La resecabilidad se aclara con la RM de pelvis antes de decidir el alcance (Heidenreich et al. 2026). La intervención corresponde a un centro con experiencia en cirugía pélvica y derivación urinaria (Heidenreich et al. 2026).",
+            "teaching_point": "Recidiva pélvica sintomática con buen estado general: cirugía radical paliativa en lugar de sonda permanente."
+          },
+          "flag_note": "Los resultados proceden de series de un solo centro del mismo grupo; faltan comparaciones prospectivas con el manejo conservador."
+        }
+      }
+    },
+    {
+      "id": "uro-sal-90007",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Urothelkarzinom",
+        "tags": [
+          "operationstechnik",
+          "studienlage"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 7,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "kontrovers",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "In welchem Ausmaß sind Salvage-Operationen bei Tumoren des Urogenitaltrakts sinnvoll?",
+          "citation": "Heidenreich J, Pfister D, Steenbock O, Rieger C, Heidenreich A. Urologie 2026;65:145–154. doi:10.1007/s00120-025-02748-6",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-09-21"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 61-jähriger Mann hat nach vier Zyklen cisplatinhaltiger Chemotherapie eines metastasierten Urothelkarzinoms eine stabile solitäre Lungenmetastase, sonst keinen Tumornachweis. ECOG 0, keine relevanten Begleiterkrankungen. Ein Kollege schlägt die Metastasektomie vor. Festlegung des Vorgehens.",
+          "lead_in": "Welches Vorgehen ist begründet?",
+          "options": {
+            "A": {
+              "text": "Metastasektomie als Standardvorgehen nach Ansprechen",
+              "rationale": "Fehlannahme: Ansprechen rechtfertige die Operation generell. Eindeutige Kriterien lassen sich aus der Datenlage nicht ableiten (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Metastasektomie ablehnen, ein Nutzen ist widerlegt",
+              "rationale": "Fehlannahme: Eine negative Datenbankanalyse widerlege den Nutzen. Andere Auswertungen zeigen deutliche Vorteile (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "Im Tumorboard als Einzelfall bei kompletter Resektion",
+              "rationale": "Am ehesten profitieren Patienten mit isolierter Lungen- oder Lymphknotenmetastase und kompletter Resektabilität (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Resektion auch bei mehreren Metastasenlokalisationen anbieten",
+              "rationale": "Fehlannahme: Mehr Resektion sei besser. Extrapulmonale Zusatzbefunde verschlechtern das Ergebnis deutlich (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Erneute Chemotherapie statt jeder lokalen Maßnahme",
+              "rationale": "Fehlannahme: Systemtherapie ersetze die lokale Entscheidung. Bei stabiler solitärer Metastase ist die Operation zu diskutieren (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "Die Studienlage trägt keine Regel, nur eine Auswahl: isolierte Metastase, komplette Resektabilität, stabiler Befund unter Systemtherapie (Heidenreich et al. 2026). Eine Metaanalyse von acht Publikationen mit 15.139 Patienten fand einen Überlebensvorteil der Metastasektomie, eine Analyse der National Cancer Database nach Propensity-Score-Matching dagegen keinen (Heidenreich et al. 2026). In einer Auswertung von 19 retrospektiven Studien mit 616 Patienten war das mediane Gesamtüberleben bei Lungenmetastasen mit 46,2 Monaten am günstigsten, bei Lymphknoten 31,2 und bei anderen Lokalisationen 29 Monate (Heidenreich et al. 2026). Günstig sind weniger als fünf befallene Lymphknoten und ein CRP unter 1,0 mg/dl (Heidenreich et al. 2026). Die Entscheidung gehört ins Tumorboard, nicht in die Sprechstunde allein (Heidenreich et al. 2026). Bleibt extrapulmonaler Tumor zurück, entfällt die Grundlage für den Eingriff (Heidenreich et al. 2026).",
+            "teaching_point": "Urothelkarzinom: Metastasektomie nur bei isolierter, komplett resektabler Metastase und stabilem Verlauf."
+          },
+          "flag_note": "Zwei Metaanalysen kommen zu gegensätzlichen Ergebnissen; prospektive Daten fehlen, und die Selektion erklärt einen Teil des berichteten Vorteils."
+        },
+        "en": {
+          "vignette": "A 61-year-old man has a stable solitary lung metastasis after four cycles of cisplatin-based chemotherapy for metastatic urothelial carcinoma, with no other evidence of tumour. ECOG 0, no relevant comorbidity. A colleague proposes metastasectomy. Management is to be defined.",
+          "lead_in": "Which approach is justified?",
+          "options": {
+            "A": {
+              "text": "Metastasectomy as standard practice after response",
+              "rationale": "Misconception: response justifies surgery in general. Clear criteria cannot be derived from the data (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Decline metastasectomy, the benefit has been refuted",
+              "rationale": "Misconception: one negative database analysis refutes the benefit. Other analyses show clear advantages (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "In the tumour board as a single case with complete resection",
+              "rationale": "Those most likely to benefit have an isolated lung or nodal metastasis and complete resectability (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Offer resection even with several metastatic sites",
+              "rationale": "Misconception: more resection is better. Extrapulmonary disease markedly worsens the outcome (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Repeat chemotherapy instead of any local measure",
+              "rationale": "Misconception: systemic therapy replaces the local decision. With a stable solitary metastasis surgery is worth discussing (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "The evidence supports no rule, only a selection: isolated metastasis, complete resectability, stable disease on systemic therapy (Heidenreich et al. 2026). A meta-analysis of eight publications with 15,139 patients found a survival benefit of metastasectomy, whereas an analysis of the National Cancer Database after propensity score matching found none (Heidenreich et al. 2026). In an analysis of 19 retrospective studies with 616 patients, median overall survival was most favourable for lung metastases at 46.2 months, 31.2 months for nodal and 29 months for other sites (Heidenreich et al. 2026). Fewer than five involved nodes and a CRP below 1.0 mg/dl are favourable (Heidenreich et al. 2026). The decision belongs in the tumour board, not in the clinic alone (Heidenreich et al. 2026). If extrapulmonary tumour remains, the rationale for surgery falls away (Heidenreich et al. 2026).",
+            "teaching_point": "Urothelial carcinoma: metastasectomy only for an isolated, completely resectable metastasis with stable disease."
+          },
+          "flag_note": "Two meta-analyses reach opposite conclusions; prospective data are lacking and selection explains part of the reported benefit."
+        },
+        "es": {
+          "vignette": "Un varón de 61 años presenta, tras cuatro ciclos de quimioterapia con platino por un carcinoma urotelial metastásico, una metástasis pulmonar única y estable, sin otra evidencia de tumor. ECOG 0, sin comorbilidad relevante. Un colega propone la metastasectomía. Debe definirse la conducta.",
+          "lead_in": "¿Qué conducta está justificada?",
+          "options": {
+            "A": {
+              "text": "Metastasectomía como procedimiento estándar tras la respuesta",
+              "rationale": "Error de concepto: la respuesta justificaría la cirugía en general. De los datos no se derivan criterios claros (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Rechazar la metastasectomía, su beneficio está refutado",
+              "rationale": "Error de concepto: un análisis de base de datos negativo refutaría el beneficio. Otros análisis muestran ventajas claras (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "En el comité, como caso único con resección completa",
+              "rationale": "Quienes más se benefician son los pacientes con metástasis pulmonar o ganglionar aislada y resecabilidad completa (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Ofrecer la resección incluso con varias localizaciones",
+              "rationale": "Error de concepto: más resección sería mejor. La enfermedad extrapulmonar empeora claramente el resultado (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Repetir la quimioterapia en lugar de cualquier medida local",
+              "rationale": "Error de concepto: la terapia sistémica sustituiría a la decisión local. Con una metástasis única y estable, la cirugía merece discutirse (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "Los datos no sostienen una regla, solo una selección: metástasis aislada, resecabilidad completa y enfermedad estable bajo terapia sistémica (Heidenreich et al. 2026). Un metaanálisis de ocho publicaciones con 15.139 pacientes halló un beneficio en supervivencia de la metastasectomía, mientras que un análisis de la National Cancer Database con emparejamiento por puntuación de propensión no lo encontró (Heidenreich et al. 2026). En un análisis de 19 estudios retrospectivos con 616 pacientes, la mediana de supervivencia global fue más favorable en las metástasis pulmonares, con 46,2 meses, frente a 31,2 meses en las ganglionares y 29 meses en otras localizaciones (Heidenreich et al. 2026). Son favorables menos de cinco ganglios afectados y una PCR por debajo de 1,0 mg/dl (Heidenreich et al. 2026). La decisión corresponde al comité, no a la consulta en solitario (Heidenreich et al. 2026). Si queda tumor extrapulmonar, desaparece la base para la intervención (Heidenreich et al. 2026).",
+            "teaching_point": "Carcinoma urotelial: metastasectomía solo con metástasis aislada, completamente resecable y enfermedad estable."
+          },
+          "flag_note": "Dos metaanálisis llegan a conclusiones opuestas; faltan datos prospectivos y la selección explica parte del beneficio descrito."
+        }
+      }
+    },
+    {
+      "id": "uro-sal-90008",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Nierenzellkarzinom",
+        "tags": [
+          "operationstechnik",
+          "systemtherapie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "In welchem Ausmaß sind Salvage-Operationen bei Tumoren des Urogenitaltrakts sinnvoll?",
+          "citation": "Heidenreich J, Pfister D, Steenbock O, Rieger C, Heidenreich A. Urologie 2026;65:145–154. doi:10.1007/s00120-025-02748-6",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-09-21"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 63-jähriger Mann hat drei Jahre nach Nephrektomie drei resektable Lungenmetastasen eines klarzelligen Nierenzellkarzinoms und zusätzlich eine nicht resektable Metastase im Os ilium. ECOG 0, keine Beschwerden. Festlegung des Vorgehens.",
+          "lead_in": "Welches Vorgehen ist begründet?",
+          "options": {
+            "A": {
+              "text": "Alle Lungenmetastasen resezieren, Knochenherd belassen",
+              "rationale": "Fehlannahme: Teilresektion bringe Teilnutzen. Der Überlebensvorteil hängt an der vollständigen Resektion (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Thorakoskopische Resektion vor jeder Systemtherapie",
+              "rationale": "Fehlannahme: Chirurgie zuerst, unabhängig vom Gesamtbild. Bei nicht resektablem Restbefund fehlt die kurative Perspektive (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "Knochenmetastase und Lungenherde gemeinsam resezieren",
+              "rationale": "Fehlannahme: Alles müsse operiert werden. Der Knochenherd ist nicht resektabel, aber stereotaktisch behandelbar (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Systemtherapie und fokale Therapie des Knochenherdes",
+              "rationale": "Ohne die Möglichkeit einer R0-Situation für alle Herde tritt die Systemtherapie in den Vordergrund, ergänzt um fokale Maßnahmen (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Beobachtung, bis Symptome oder Progress auftreten",
+              "rationale": "Fehlannahme: Abwarten sei neutral. Die Erkrankung ist metastasiert und behandlungsbedürftig."
+            }
+          },
+          "explanation": {
+            "core": "Eine Metastasektomie mit kurativer Absicht setzt voraus, dass alle Herde in sano entfernbar sind; das ist hier nicht der Fall (Heidenreich et al. 2026). Eine Auswertung von acht Studien zeigte nach kompletter Resektion ein medianes Gesamtüberleben von 40,75 Monaten gegenüber 14,8 Monaten nach inkompletter Resektion (Heidenreich et al. 2026). Die R0-Resektion gilt als der Prognosefaktor mit der größten Relevanz (Heidenreich et al. 2026). Skelettale Oligometastasen werden nach Einschätzung des Artikels besser stereotaktisch bestrahlt (Heidenreich et al. 2026). Lungenmetastasen sind mit 70 % die häufigste Lokalisation (Heidenreich et al. 2026). Bleibt nach Systemtherapie nur eine resektable Lokalisation, kann die Metastasektomie erneut geprüft werden. Isolierte Lungenmetastasen lassen sich videoassistiert thorakoskopisch komplikationsarm entfernen (Heidenreich et al. 2026). Ein langes krankheitsfreies Intervall zwischen Nephrektomie und Metastasierung spricht für ein günstigeres Ergebnis (Heidenreich et al. 2026).",
+            "teaching_point": "Nierenzellkarzinom: Metastasektomie nur, wenn alle Herde R0 entfernbar sind."
+          }
+        },
+        "en": {
+          "vignette": "A 63-year-old man has three resectable lung metastases of clear cell renal cell carcinoma three years after nephrectomy, plus a non-resectable metastasis in the iliac bone. ECOG 0, no symptoms. Management is to be defined.",
+          "lead_in": "Which approach is justified?",
+          "options": {
+            "A": {
+              "text": "Resect all lung metastases and leave the bone lesion",
+              "rationale": "Misconception: partial resection brings partial benefit. The survival advantage depends on complete resection (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Thoracoscopic resection before any systemic therapy",
+              "rationale": "Misconception: surgery first, regardless of the overall picture. With non-resectable residual disease the curative perspective is missing (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "Resect bone metastasis and lung lesions together",
+              "rationale": "Misconception: everything must be operated. The bone lesion is not resectable but can be treated stereotactically (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Systemic therapy plus focal treatment of the bone lesion",
+              "rationale": "Without the possibility of an R0 situation for all lesions, systemic therapy takes precedence, supplemented by focal measures (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Observation until symptoms or progression occur",
+              "rationale": "Misconception: waiting is neutral. The disease is metastatic and requires treatment."
+            }
+          },
+          "explanation": {
+            "core": "Metastasectomy with curative intent presupposes that all lesions can be removed completely; that is not the case here (Heidenreich et al. 2026). An analysis of eight studies showed median overall survival of 40.75 months after complete resection versus 14.8 months after incomplete resection (Heidenreich et al. 2026). R0 resection is considered the prognostic factor of greatest relevance (Heidenreich et al. 2026). Skeletal oligometastases are, in the article's view, better treated with stereotactic radiotherapy (Heidenreich et al. 2026). Lung metastases are the most common site at 70% (Heidenreich et al. 2026). If only one resectable site remains after systemic therapy, metastasectomy can be reconsidered. Isolated lung metastases can be removed thoracoscopically with low morbidity (Heidenreich et al. 2026). A long disease-free interval between nephrectomy and metastasis predicts a more favourable outcome (Heidenreich et al. 2026).",
+            "teaching_point": "Renal cell carcinoma: metastasectomy only if all lesions can be removed R0."
+          }
+        },
+        "es": {
+          "vignette": "Un varón de 63 años presenta, tres años después de la nefrectomía, tres metástasis pulmonares resecables de un carcinoma renal de células claras y además una metástasis no resecable en el hueso ilíaco. ECOG 0, sin síntomas. Debe definirse la conducta.",
+          "lead_in": "¿Qué conducta está justificada?",
+          "options": {
+            "A": {
+              "text": "Resecar todas las metástasis pulmonares y dejar la ósea",
+              "rationale": "Error de concepto: una resección parcial daría un beneficio parcial. La ventaja en supervivencia depende de la resección completa (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Resección toracoscópica antes de cualquier terapia sistémica",
+              "rationale": "Error de concepto: cirugía primero, al margen del conjunto. Con enfermedad residual no resecable falta la perspectiva curativa (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "Resecar juntas la metástasis ósea y las pulmonares",
+              "rationale": "Error de concepto: habría que operarlo todo. La lesión ósea no es resecable, pero sí tratable de forma estereotáctica (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Terapia sistémica y tratamiento focal de la lesión ósea",
+              "rationale": "Sin posibilidad de una situación R0 para todas las lesiones, pasa a primer plano la terapia sistémica, completada con medidas focales (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Observación hasta que aparezcan síntomas o progresión",
+              "rationale": "Error de concepto: esperar sería neutral. La enfermedad está metastatizada y requiere tratamiento."
+            }
+          },
+          "explanation": {
+            "core": "La metastasectomía con intención curativa presupone que todas las lesiones puedan extirparse por completo, y aquí no es el caso (Heidenreich et al. 2026). Un análisis de ocho estudios mostró una mediana de supervivencia global de 40,75 meses tras resección completa frente a 14,8 meses tras resección incompleta (Heidenreich et al. 2026). La resección R0 se considera el factor pronóstico de mayor relevancia (Heidenreich et al. 2026). Las oligometástasis esqueléticas, según el artículo, se tratan mejor con radioterapia estereotáctica (Heidenreich et al. 2026). Las metástasis pulmonares son la localización más frecuente, con un 70 % (Heidenreich et al. 2026). Si tras la terapia sistémica queda una sola localización resecable, puede replantearse la metastasectomía. Las metástasis pulmonares aisladas se extirpan por toracoscopia con poca morbilidad (Heidenreich et al. 2026). Un intervalo libre de enfermedad largo entre nefrectomía y metástasis anticipa un resultado más favorable (Heidenreich et al. 2026).",
+            "teaching_point": "Carcinoma renal: metastasectomía solo si todas las lesiones pueden extirparse con R0."
+          }
+        }
+      }
+    },
+    {
+      "id": "uro-sal-90009",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Nierenzellkarzinom",
+        "tags": [
+          "operationstechnik",
+          "systemtherapie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "ohne_phase_III",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "In welchem Ausmaß sind Salvage-Operationen bei Tumoren des Urogenitaltrakts sinnvoll?",
+          "citation": "Heidenreich J, Pfister D, Steenbock O, Rieger C, Heidenreich A. Urologie 2026;65:145–154. doi:10.1007/s00120-025-02748-6",
+          "year": 2026
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-09-21"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 70-jähriger Mann stellt sich neun Jahre nach Nephrektomie mit einer solitären, 3 cm großen Metastase im Pankreasschwanz vor. Keine weiteren Herde in der Bildgebung, ECOG 0, operabler Allgemeinzustand. Festlegung des Vorgehens.",
+          "lead_in": "Welches Vorgehen ist begründet?",
+          "options": {
+            "A": {
+              "text": "Alleinige Systemtherapie wegen der Pankreaslage",
+              "rationale": "Fehlannahme: Die Lokalisation verbiete die Chirurgie. Gerade hier sind die Langzeitergebnisse günstig (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Resektion anbieten, über die Morbidität aufklären",
+              "rationale": "Solitäre Pankreasmetastase und ein langes Intervall sprechen für die Resektion, bei allerdings hoher Komplikationsrate (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "Biopsie und Verlaufskontrolle in sechs Monaten",
+              "rationale": "Fehlannahme: Indolentes Wachstum erlaube Abwarten. Der Vorteil liegt in der kompletten Resektion (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Stereotaktische Bestrahlung statt jeder Resektion",
+              "rationale": "Fehlannahme: Bestrahlung als gleichwertiger Ersatz. Die vorgelegten Daten stützen die Resektion (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Totale Pankreatektomie wegen Multifokalitätsrisiko",
+              "rationale": "Fehlannahme: Maximale Radikalität. Am häufigsten, nämlich in der Hälfte der Fälle, wird distal reseziert (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "Pankreasmetastasen des Nierenzellkarzinoms wachsen indolent; bei solitärem Befund und langem Intervall ist die Resektion gut begründet (Heidenreich et al. 2026). In der PANMEDIC-Studie mit 116 resezierten Patienten lag das Gesamtüberleben nach einem, drei und fünf Jahren bei 96 %, 88 % und 83 %, das krankheitsfreie Überleben bei 73 %, 49 % und 35 % (Heidenreich et al. 2026). Die mittlere Zeit zwischen Nephrektomie und Pankreasmetastase betrug 87 Monate (Heidenreich et al. 2026). Ungünstig sind ein Intervall unter zehn Jahren und frühere extrapankreatische Metastasen (Heidenreich et al. 2026). Die Morbidität ist erheblich: 60,9 % postoperative Komplikationen, davon 14 % ab Clavien-Dindo IIIa (Heidenreich et al. 2026). Die Entscheidung fällt gemeinsam mit der Viszeralchirurgie.",
+            "teaching_point": "Solitäre Pankreasmetastase nach langem Intervall: resezieren, aber über 60 % Komplikationsrate aufklären."
+          },
+          "flag_note": "Die Daten stammen aus retrospektiven multizentrischen Serien; ein randomisierter Vergleich mit alleiniger Systemtherapie fehlt."
+        },
+        "en": {
+          "vignette": "A 70-year-old man presents nine years after nephrectomy with a solitary 3 cm metastasis in the pancreatic tail. No other lesions on imaging, ECOG 0, fit for surgery. Management is to be defined.",
+          "lead_in": "Which approach is justified?",
+          "options": {
+            "A": {
+              "text": "Systemic therapy alone because of the pancreatic site",
+              "rationale": "Misconception: the site forbids surgery. Long-term results are particularly favourable here (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Offer resection and counsel about the morbidity",
+              "rationale": "A solitary pancreatic metastasis after a long interval argues for resection, albeit with a high complication rate (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "Biopsy and follow-up imaging in six months",
+              "rationale": "Misconception: indolent growth permits waiting. The advantage lies in complete resection (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Stereotactic radiotherapy instead of any resection",
+              "rationale": "Misconception: radiotherapy as an equivalent substitute. The data presented support resection (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Total pancreatectomy because of multifocality risk",
+              "rationale": "Misconception: maximum radicality. Distal pancreatectomy is the most common technique, used in half of cases (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "Pancreatic metastases of renal cell carcinoma grow indolently; with a solitary lesion and a long interval, resection is well justified (Heidenreich et al. 2026). In the PANMEDIC study of 116 resected patients, overall survival at one, three and five years was 96%, 88% and 83%, and disease-free survival 73%, 49% and 35% (Heidenreich et al. 2026). The mean time between nephrectomy and pancreatic metastasis was 87 months (Heidenreich et al. 2026). An interval under ten years and previous extrapancreatic metastases are unfavourable (Heidenreich et al. 2026). Morbidity is substantial: 60.9% postoperative complications, of which 14% are Clavien-Dindo IIIa or higher (Heidenreich et al. 2026). The decision is taken together with visceral surgery.",
+            "teaching_point": "Solitary pancreatic metastasis after a long interval: resect, but counsel about a complication rate above 60%."
+          },
+          "flag_note": "The data come from retrospective multicentre series; a randomised comparison with systemic therapy alone is lacking."
+        },
+        "es": {
+          "vignette": "Un varón de 70 años acude nueve años después de la nefrectomía con una metástasis única de 3 cm en la cola del páncreas. No hay otras lesiones en la imagen, ECOG 0 y estado general operable. Debe definirse la conducta.",
+          "lead_in": "¿Qué conducta está justificada?",
+          "options": {
+            "A": {
+              "text": "Solo terapia sistémica por la localización pancreática",
+              "rationale": "Error de concepto: la localización prohibiría la cirugía. Precisamente aquí los resultados a largo plazo son favorables (Heidenreich et al. 2026)."
+            },
+            "B": {
+              "text": "Ofrecer la resección e informar sobre la morbilidad",
+              "rationale": "Una metástasis pancreática única tras un intervalo largo justifica la resección, aunque con una elevada tasa de complicaciones (Heidenreich et al. 2026)."
+            },
+            "C": {
+              "text": "Biopsia y control evolutivo en seis meses",
+              "rationale": "Error de concepto: el crecimiento indolente permitiría esperar. La ventaja está en la resección completa (Heidenreich et al. 2026)."
+            },
+            "D": {
+              "text": "Radioterapia estereotáctica en lugar de cualquier resección",
+              "rationale": "Error de concepto: la radioterapia como sustituto equivalente. Los datos presentados respaldan la resección (Heidenreich et al. 2026)."
+            },
+            "E": {
+              "text": "Pancreatectomía total por el riesgo de multifocalidad",
+              "rationale": "Error de concepto: máxima radicalidad. La técnica más frecuente, en la mitad de los casos, es la pancreatectomía distal (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "Las metástasis pancreáticas del carcinoma renal crecen de forma indolente; con una lesión única y un intervalo largo, la resección está bien fundamentada (Heidenreich et al. 2026). En el estudio PANMEDIC, con 116 pacientes resecados, la supervivencia global al año, a los tres y a los cinco años fue del 96 %, 88 % y 83 %, y la libre de enfermedad del 73 %, 49 % y 35 % (Heidenreich et al. 2026). El tiempo medio entre la nefrectomía y la metástasis pancreática fue de 87 meses (Heidenreich et al. 2026). Son desfavorables un intervalo inferior a diez años y metástasis extrapancreáticas previas (Heidenreich et al. 2026). La morbilidad es considerable: un 60,9 % de complicaciones posoperatorias, de las cuales el 14 % son Clavien-Dindo IIIa o superiores (Heidenreich et al. 2026). La decisión se toma junto con cirugía visceral.",
+            "teaching_point": "Metástasis pancreática única tras un intervalo largo: resecar, pero informando de más del 60 % de complicaciones."
+          },
+          "flag_note": "Los datos proceden de series retrospectivas multicéntricas; falta una comparación aleatorizada con la terapia sistémica sola."
+        }
+      }
+    },
+    {
+      "id": "uro-sal-90010",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Keimzelltumor",
+        "tags": [
+          "operationstechnik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "In welchem Ausmaß sind Salvage-Operationen bei Tumoren des Urogenitaltrakts sinnvoll?",
+          "citation": "Heidenreich J, Pfister D, Steenbock O, Rieger C, Heidenreich A. Urologie 2026;65:145–154. doi:10.1007/s00120-025-02748-6",
+          "year": 2026
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.3.2.2, 6.3.3.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-09-21"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 29-jähriger Mann mit metastasiertem Nichtseminom hat nach Chemotherapie ein komplexes retroperitoneales Residuum mit Gefäßkontakt. Auswärts wurde er als inoperabel eingestuft und soll weitere Chemotherapie erhalten. Die Marker sind normalisiert, ECOG 0. Festlegung des Vorgehens.",
+          "lead_in": "Welches Vorgehen ist begründet?",
+          "options": {
+            "A": {
+              "text": "Zwei weitere Zyklen Chemotherapie wie vorgeschlagen",
+              "rationale": "Fehlannahme: Mehr Chemotherapie löse das chirurgische Problem. Residuen mit Teratomanteil sprechen nicht an."
+            },
+            "B": {
+              "text": "Bestrahlung des Residuums als Alternative zur Operation",
+              "rationale": "Fehlannahme: Bestrahlung ersetze die Resektion beim Nichtseminom. Dafür fehlt die Grundlage."
+            },
+            "C": {
+              "text": "Beobachtung, solange die Marker normal bleiben",
+              "rationale": "Fehlannahme: Normale Marker erlaubten Abwarten. Residuen über 1 cm werden reseziert (EAU 2026, 6.3.2.2)."
+            },
+            "D": {
+              "text": "Biopsie des Residuums zur Therapieentscheidung",
+              "rationale": "Fehlannahme: Die Biopsie entscheide. Sie ist nicht repräsentativ und ändert die Resektionsindikation nicht."
+            },
+            "E": {
+              "text": "Zweitmeinung und Resektion an einem Zentrum",
+              "rationale": "Auch potenziell inoperable Szenarien sind an spezialisierten Zentren bei geringer Morbidität kurativ beherrschbar (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "Inoperabilität ist beim Keimzelltumor häufig eine Frage des Zentrums, nicht des Befundes (Heidenreich et al. 2026; EAU 2026, 6.3.3.1). Die Residualtumorresektion ist integraler Bestandteil der kurativen Therapie, und anders als beim Nierenzellkarzinom gilt die Resektion aller Metastasen unabhängig von ihrer Lokalisation (Heidenreich et al. 2026). Der Artikel verweist darauf, dass die 30-Tage-Mortalität außerhalb spezialisierter Zentren signifikant steigt und dort häufiger inkomplette Resektionen und Rezidive auftreten (Heidenreich et al. 2026). Die Leitlinie beziffert den Unterschied: An spezialisierten Zentren sinkt die perioperative Sterblichkeit von 6 % auf 0,8 % und die Lokalrezidivrate von 16 % auf 3 % (EAU 2026, 6.3.3.1). Der Artikel nennt eine Leitliniendiskordanz von knapp 40 % als eigentliches Versorgungsproblem (Heidenreich et al. 2026). Die Grenze liegt in der fehlenden Zentralisierung, nicht im chirurgisch Machbaren (Heidenreich et al. 2026). Die Zweitmeinung kostet Tage, die fehlende Resektion kostet die Heilungschance.",
+            "teaching_point": "Komplexes Residuum und auswärtige Inoperabilität: Zweitmeinung am Zentrum vor jeder weiteren Chemotherapie."
+          }
+        },
+        "en": {
+          "vignette": "A 29-year-old man with metastatic non-seminoma has a complex retroperitoneal residual mass with vascular contact after chemotherapy. Elsewhere he was deemed inoperable and is to receive further chemotherapy. Markers have normalised, ECOG 0. Management is to be defined.",
+          "lead_in": "Which approach is justified?",
+          "options": {
+            "A": {
+              "text": "Two further cycles of chemotherapy as proposed",
+              "rationale": "Misconception: more chemotherapy solves the surgical problem. Residual masses with teratoma do not respond."
+            },
+            "B": {
+              "text": "Radiotherapy of the residual mass as an alternative to surgery",
+              "rationale": "Misconception: radiotherapy replaces resection in non-seminoma. There is no basis for this."
+            },
+            "C": {
+              "text": "Observation as long as markers remain normal",
+              "rationale": "Misconception: normal markers permit waiting. Residual masses above 1 cm are resected (EAU 2026, 6.3.2.2)."
+            },
+            "D": {
+              "text": "Biopsy of the residual mass to guide treatment",
+              "rationale": "Misconception: the biopsy decides. It is not representative and does not change the indication for resection."
+            },
+            "E": {
+              "text": "Second opinion and resection at a centre",
+              "rationale": "Even potentially inoperable scenarios can be managed curatively with low morbidity at specialised centres (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "In germ cell tumours, inoperability is often a question of the centre rather than of the finding (Heidenreich et al. 2026; EAU 2026, 6.3.3.1). Residual tumour resection is an integral part of curative treatment, and unlike in renal cell carcinoma all metastases are resected regardless of site (Heidenreich et al. 2026). The article notes that 30-day mortality rises significantly outside specialised centres, where incomplete resections and recurrences are also more frequent (Heidenreich et al. 2026). The guideline quantifies the difference: at specialised centres perioperative mortality falls from 6% to 0.8% and local recurrence from 16% to 3% (EAU 2026, 6.3.3.1). The article names a guideline discordance of nearly 40% as the real problem of care (Heidenreich et al. 2026). The limit lies in missing centralisation, not in what is surgically feasible (Heidenreich et al. 2026). A second opinion costs days; a missing resection costs the chance of cure.",
+            "teaching_point": "Complex residual mass declared inoperable elsewhere: second opinion at a centre before any further chemotherapy."
+          }
+        },
+        "es": {
+          "vignette": "Un varón de 29 años con no seminoma metastásico presenta tras la quimioterapia un residuo retroperitoneal complejo en contacto con los vasos. En otro centro se consideró inoperable y se le propone más quimioterapia. Los marcadores están normalizados, ECOG 0. Debe definirse la conducta.",
+          "lead_in": "¿Qué conducta está justificada?",
+          "options": {
+            "A": {
+              "text": "Dos ciclos más de quimioterapia, como se propone",
+              "rationale": "Error de concepto: más quimioterapia resolvería el problema quirúrgico. Los residuos con componente teratomatoso no responden."
+            },
+            "B": {
+              "text": "Radioterapia del residuo como alternativa a la cirugía",
+              "rationale": "Error de concepto: la radioterapia sustituiría a la resección en el no seminoma. No hay base para ello."
+            },
+            "C": {
+              "text": "Observación mientras los marcadores sigan normales",
+              "rationale": "Error de concepto: unos marcadores normales permitirían esperar. Los residuos de más de 1 cm se resecan (EAU 2026, 6.3.2.2)."
+            },
+            "D": {
+              "text": "Biopsia del residuo para decidir el tratamiento",
+              "rationale": "Error de concepto: la biopsia decidiría. No es representativa y no modifica la indicación de resección."
+            },
+            "E": {
+              "text": "Segunda opinión y resección en un centro",
+              "rationale": "Incluso los escenarios potencialmente inoperables pueden resolverse con intención curativa y poca morbilidad en centros especializados (Heidenreich et al. 2026)."
+            }
+          },
+          "explanation": {
+            "core": "En los tumores germinales, la inoperabilidad suele ser una cuestión del centro y no del hallazgo (Heidenreich et al. 2026; EAU 2026, 6.3.3.1). La resección del tumor residual es parte integral del tratamiento curativo y, a diferencia del carcinoma renal, se resecan todas las metástasis con independencia de su localización (Heidenreich et al. 2026). El artículo señala que la mortalidad a 30 días aumenta de forma significativa fuera de los centros especializados, donde también son más frecuentes las resecciones incompletas y las recaídas (Heidenreich et al. 2026). La guía cuantifica la diferencia: en centros especializados la mortalidad perioperatoria cae del 6 % al 0,8 % y la recidiva local del 16 % al 3 % (EAU 2026, 6.3.3.1). El artículo señala una discordancia con las guías de casi el 40 % como verdadero problema asistencial (Heidenreich et al. 2026). El límite está en la falta de centralización, no en lo quirúrgicamente posible (Heidenreich et al. 2026). Una segunda opinión cuesta días; una resección no realizada cuesta la opción curativa.",
+            "teaching_point": "Residuo complejo declarado inoperable en otro centro: segunda opinión antes de cualquier quimioterapia adicional."
+          }
+        }
+      }
+    }
+  ],
+  "ersatz": {}
+}

@@ -1,0 +1,2199 @@
+{
+  "gebiet": "hodentumor",
+  "titel": "Schwerpunktheft 10/2025, Teil 3: Marker, Sonderformen, Lymphadenektomie",
+  "quelle": "Witte & Majewski, Urologie 2025;64:1064-1073; Skowron et al. 64:1055-1063; Angerer et al. 64:1046-1054; Heidenreich & Pfister 64:1037-1045; EAU Testicular Cancer 2026, Kap. 6 und 7",
+  "erstellt": "2026-09-21",
+  "gegenlesen": {
+    "alle": [],
+    "eines": "hCG|Marker|Lymphadenektomie|\\bRLA\\b|\\bRPLND\\b|robotisch|Teratom|somatische|Residual|Residu"
+  },
+  "neu": [
+    {
+      "id": "uro-hod-00040",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Tumormarker",
+        "tags": [
+          "tumormarker",
+          "diagnostik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "4",
+        "certainty": "expertenkonsens",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Erhöhung der β-Untereinheit des humanen Choriongonadotropins bei urologischen Patienten – nicht immer ein Keimzelltumor",
+          "citation": "Witte L, Majewski M. Urologie 2025;64:1064–1073. doi:10.1007/s00120-025-02679-2",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.2.1, 7.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-09-21"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 34-jähriger Mann ist zwei Jahre nach Orchiektomie eines Seminoms im Stadium I in der Nachsorge. β-hCG liegt in drei Messungen zwischen 6 und 8 U/l, AFP normal, Testosteron und LH im Normbereich, MRT von Abdomen und Becken unauffällig. Bekannt ist ein selektiver IgA-Mangel. Vorstellung zur Klärung des Markerbefundes.",
+          "lead_in": "Welcher Schritt klärt den Markerbefund?",
+          "options": {
+            "A": {
+              "text": "Drei Zyklen BEP wegen Marker-only-Rezidivs beginnen",
+              "rationale": "Fehlannahme: Drei gleichsinnige Werte seien beweisend. Ohne Anstieg und ohne Herdbefund trägt die Diagnose nicht (Witte & Majewski 2025)."
+            },
+            "B": {
+              "text": "Testosterongabe und anschließende Kontrolle des β-hCG",
+              "rationale": "Fehlannahme: Übertragung der LH-Kreuzreaktion. Dieser Weg setzt hohes LH bei niedrigem Testosteron voraus, beides liegt hier nicht vor (Witte & Majewski 2025)."
+            },
+            "C": {
+              "text": "Messung in einem Assay mit anderem Antikörperformat",
+              "rationale": "Bei IgA-Mangel liegen vermehrt heterophile Antikörper vor, die mit den Messverfahren kreuzreagieren und β-hCG falsch positiv erhöht erscheinen lassen (Witte & Majewski 2025)."
+            },
+            "D": {
+              "text": "FDG-PET-CT zur Suche nach dem Ursprung des Markers",
+              "rationale": "Fehlannahme: Unklare Marker verlangten PET. Die EAU empfiehlt FDG-PET-CT in der Überwachung nicht (EAU 2026, 7.1)."
+            },
+            "E": {
+              "text": "Kontrolle des β-hCG erst in der nächsten Jahresvisite",
+              "rationale": "Fehlannahme: Ein unklarer Marker könne ein Jahr warten. Die Ursache gehört geklärt, nicht vertagt."
+            }
+          },
+          "explanation": {
+            "core": "Der Befund ist vor jeder Therapie laborseitig zu prüfen: Heterophile Antikörper bei IgA-Mangel erklären eine konstante, nicht ansteigende β-hCG-Erhöhung (Witte & Majewski 2025). Knight et al. untersuchten 54 Seren von Patienten mit IgA-Mangelsyndrom und führten die gemessenen Erhöhungen auf heterophile Antikörper zurück, nachdem andere Ursachen ausgeschlossen waren (Witte & Majewski 2025). Welche hCG-Unterform ein Assay erfasst, unterscheidet sich zwischen den Herstellern und ist vorher zu klären (Witte & Majewski 2025). Die EAU nennt falsch positive Befunde der etablierten Marker (EAU 2026, 7.1) und lässt stabile, leicht erhöhte Werte zunächst beobachten (EAU 2026, 6.2.1). Der Wechsel des Messverfahrens kostet wenig und verhindert eine Chemotherapie ohne Tumor. Biotinpräparate gehören in dieselbe Anamnese, sie senken Messwerte falsch (Witte & Majewski 2025).",
+            "teaching_point": "Konstant leicht erhöhtes β-hCG bei IgA-Mangel: erst anderer Assay, dann Rezidivdiagnose."
+          },
+          "flag_note": "Die Datenlage zu heterophilen Antikörpern stammt aus kleinen Serien und Fallberichten; der Ausschluss anderer Ursachen bleibt Voraussetzung."
+        },
+        "en": {
+          "vignette": "A 34-year-old man is in follow-up two years after orchiectomy for stage I seminoma. β-hCG is between 6 and 8 U/l on three measurements, AFP normal, testosterone and LH within range, MRI of abdomen and pelvis unremarkable. He is known to have selective IgA deficiency. He is seen to clarify the marker finding.",
+          "lead_in": "Which step clarifies the marker finding?",
+          "options": {
+            "A": {
+              "text": "Start three cycles of BEP for marker-only relapse",
+              "rationale": "Misconception: three concordant values are conclusive. Without a rise and without a lesion the diagnosis does not hold (Witte & Majewski 2025)."
+            },
+            "B": {
+              "text": "Give testosterone and then recheck β-hCG afterwards",
+              "rationale": "Misconception: transferring the LH cross-reaction. That route requires high LH with low testosterone, neither of which is present here (Witte & Majewski 2025)."
+            },
+            "C": {
+              "text": "Measure in an assay with a different antibody format",
+              "rationale": "In IgA deficiency, heterophile antibodies are abundant, cross-react with the assays and make β-hCG appear falsely elevated (Witte & Majewski 2025)."
+            },
+            "D": {
+              "text": "FDG-PET/CT to search for the source of the marker",
+              "rationale": "Misconception: unclear markers require PET. The EAU does not recommend FDG-PET/CT during surveillance (EAU 2026, 7.1)."
+            },
+            "E": {
+              "text": "Recheck β-hCG only at the next annual visit",
+              "rationale": "Misconception: an unclear marker can wait a year. The cause belongs clarified, not postponed."
+            }
+          },
+          "explanation": {
+            "core": "The finding must be checked in the laboratory before any treatment: heterophile antibodies in IgA deficiency explain a constant, non-rising β-hCG elevation (Witte & Majewski 2025). Knight et al. examined 54 sera from patients with IgA deficiency syndrome and attributed the measured elevations to heterophile antibodies after other causes had been excluded (Witte & Majewski 2025). Which hCG subform an assay detects differs between manufacturers and must be checked beforehand (Witte & Majewski 2025). The EAU notes false-positive results of the established markers (EAU 2026, 7.1) and allows stable, mildly raised values to be observed initially (EAU 2026, 6.2.1). Changing the assay costs little and prevents chemotherapy without a tumour. Biotin supplements belong in the same history, as they lower measured values falsely (Witte & Majewski 2025).",
+            "teaching_point": "Constantly mildly raised β-hCG in IgA deficiency: another assay first, relapse diagnosis second."
+          },
+          "flag_note": "Evidence on heterophile antibodies comes from small series and case reports; exclusion of other causes remains a prerequisite."
+        },
+        "es": {
+          "vignette": "Un varón de 34 años está en seguimiento dos años después de la orquiectomía por un seminoma en estadio I. La β-hCG se sitúa entre 6 y 8 U/l en tres mediciones, AFP normal, testosterona y LH normales, RM de abdomen y pelvis sin hallazgos. Se conoce un déficit selectivo de IgA. Acude para aclarar el hallazgo de marcadores.",
+          "lead_in": "¿Qué paso aclara el hallazgo de marcadores?",
+          "options": {
+            "A": {
+              "text": "Iniciar tres ciclos de BEP por recaída solo de marcadores",
+              "rationale": "Error de concepto: tres valores concordantes serían concluyentes. Sin ascenso y sin lesión, el diagnóstico no se sostiene (Witte & Majewski 2025)."
+            },
+            "B": {
+              "text": "Administrar testosterona y repetir después la β-hCG",
+              "rationale": "Error de concepto: trasladar la reacción cruzada con la LH. Esa vía exige LH alta con testosterona baja, y aquí no se da ninguna de las dos (Witte & Majewski 2025)."
+            },
+            "C": {
+              "text": "Medir con un ensayo de formato de anticuerpo distinto",
+              "rationale": "En el déficit de IgA abundan los anticuerpos heterófilos, que reaccionan de forma cruzada con los ensayos y hacen que la β-hCG parezca falsamente elevada (Witte & Majewski 2025)."
+            },
+            "D": {
+              "text": "PET-TC con FDG para buscar el origen del marcador",
+              "rationale": "Error de concepto: los marcadores dudosos exigirían PET. La EAU no recomienda la PET-TC con FDG durante la vigilancia (EAU 2026, 7.1)."
+            },
+            "E": {
+              "text": "Repetir la β-hCG solo en la visita anual siguiente",
+              "rationale": "Error de concepto: un marcador dudoso podría esperar un año. La causa debe aclararse, no aplazarse."
+            }
+          },
+          "explanation": {
+            "core": "El hallazgo debe comprobarse en el laboratorio antes de cualquier tratamiento: los anticuerpos heterófilos en el déficit de IgA explican una elevación constante de β-hCG que no asciende (Witte & Majewski 2025). Knight et al. analizaron 54 sueros de pacientes con síndrome de déficit de IgA y atribuyeron las elevaciones medidas a anticuerpos heterófilos tras excluir otras causas (Witte & Majewski 2025). Qué subforma de hCG detecta cada ensayo difiere entre fabricantes y debe comprobarse de antemano (Witte & Majewski 2025). La EAU señala resultados falsamente positivos de los marcadores establecidos (EAU 2026, 7.1) y permite observar al inicio valores estables levemente elevados (EAU 2026, 6.2.1). Cambiar de ensayo cuesta poco y evita una quimioterapia sin tumor. Los suplementos de biotina entran en la misma anamnesis, porque bajan falsamente los valores (Witte & Majewski 2025).",
+            "teaching_point": "β-hCG levemente elevada y constante con déficit de IgA: primero otro ensayo, después el diagnóstico de recaída."
+          },
+          "flag_note": "Los datos sobre anticuerpos heterófilos proceden de series pequeñas y casos aislados; excluir otras causas sigue siendo un requisito."
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00041",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Tumormarker",
+        "tags": [
+          "tumormarker",
+          "diagnostik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "4",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Erhöhung der β-Untereinheit des humanen Choriongonadotropins bei urologischen Patienten – nicht immer ein Keimzelltumor",
+          "citation": "Witte L, Majewski M. Urologie 2025;64:1064–1073. doi:10.1007/s00120-025-02679-2",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.2.2.2.1, 6.3.2.2"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-09-21"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 30-jähriger Mann unter Überwachung eines Nichtseminoms im Stadium I kommt zur Kontrolle nach 6 Monaten. Die MRT zeigt neu einen paraaortalen Lymphknoten von 2,4 cm, AFP und β-hCG sind normal. Er nimmt seit Monaten ein hoch dosiertes Biotinpräparat. Festlegung des weiteren Vorgehens.",
+          "lead_in": "Wie ist mit dem Befund umzugehen?",
+          "options": {
+            "A": {
+              "text": "Befund als Stadium IIA werten, Marker ohne Biotin nachmessen",
+              "rationale": "Entscheidend ist der Bildbefund: Ein neuer Lymphknoten von 2,4 cm entspricht einem Stadium IIA und wird als solches behandelt (EAU 2026, 6.2.2.2.1); Biotin kann die Marker zusätzlich falsch niedrig erscheinen lassen (Witte & Majewski 2025)."
+            },
+            "B": {
+              "text": "Normale Marker als Ausschluss werten, Kontrolle in 3 Monaten",
+              "rationale": "Fehlannahme: Normale Marker schlössen ein Rezidiv aus. Seminome sezernieren nur in etwa 30 % hCG, und Biotin senkt Messwerte zusätzlich (Witte & Majewski 2025)."
+            },
+            "C": {
+              "text": "LDH ergänzen, um die normalen Markerwerte zu bestätigen",
+              "rationale": "Fehlannahme: LDH als Absicherung. Sie ist unspezifisch und klärt weder die Diskrepanz noch den Bildbefund."
+            },
+            "D": {
+              "text": "Biopsie des Lymphknotens vor jeder weiteren Entscheidung",
+              "rationale": "Fehlannahme: Die Histologie müsse vor jeder Therapie stehen. Im eindeutigen Stadium IIA ist die nervschonende Lymphadenektomie selbst der diagnostische und therapeutische Schritt (EAU 2026, 6.2.2.2.1)."
+            },
+            "E": {
+              "text": "FDG-PET-CT zur Klärung der Diskrepanz zwischen Bild und Labor",
+              "rationale": "Fehlannahme: PET löse die Diskrepanz. Beim Nichtseminom ist die FDG-PET-CT zum Restaging nicht indiziert (EAU 2026, 6.3.2.2)."
+            }
+          },
+          "explanation": {
+            "core": "Ein normaler Marker schließt ein Rezidiv nicht aus, und Biotin verschiebt die Messung zusätzlich nach unten. Die Entscheidung folgt dem Bild, die Marker werden ohne Störfaktor wiederholt (Witte & Majewski 2025; EAU 2026, 6.2.2.2.1). Die regelmäßige Substitution von Biotin führt in der Laboranalytik zu falsch niedrigen Messwerten (Witte & Majewski 2025). Auch ohne Störfaktor sind Marker nur bei einem Teil der Keimzelltumoren erhöht; Seminome sezernieren hCG in maximal 30 % der Fälle (Witte & Majewski 2025). Die EAU empfiehlt beim markernegativen Nichtseminom im Stadium IIA die nervschonende Lymphadenektomie im spezialisierten Zentrum als initiale Therapie und erlaubt bei Knoten unter 2 cm eine Kontrolle nach sechs Wochen (EAU 2026, 6.2.2.2.1). Die Präparateanamnese gehört zu jeder unplausiblen Markerkonstellation, und die Messung wird nach Pause wiederholt (Witte & Majewski 2025). Der weitere Weg richtet sich nach dem Bildbefund, nicht nach dem Laborwert (EAU 2026, 6.2.2.2.1).",
+            "teaching_point": "Diskrepanz zwischen Bild und Marker: nach Biotin fragen, Marker ohne Präparat wiederholen, Bildbefund behandeln."
+          }
+        },
+        "en": {
+          "vignette": "A 30-year-old man on surveillance for stage I non-seminoma attends the 6-month visit. MRI shows a new para-aortic lymph node of 2.4 cm, AFP and β-hCG are normal. He has been taking a high-dose biotin supplement for months. Further management is to be defined.",
+          "lead_in": "How should this finding be handled?",
+          "options": {
+            "A": {
+              "text": "Treat as stage IIA and recheck markers without biotin",
+              "rationale": "The imaging finding decides: a new lymph node of 2.4 cm corresponds to stage IIA and is treated as such (EAU 2026, 6.2.2.2.1); biotin can additionally make markers appear falsely low (Witte & Majewski 2025)."
+            },
+            "B": {
+              "text": "Take normal markers as exclusion, recheck in 3 months",
+              "rationale": "Misconception: normal markers exclude relapse. Seminomas secrete hCG in only about 30%, and biotin lowers measured values further (Witte & Majewski 2025)."
+            },
+            "C": {
+              "text": "Add LDH to confirm the normal marker values",
+              "rationale": "Misconception: LDH as reassurance. It is unspecific and clarifies neither the mismatch nor the imaging finding."
+            },
+            "D": {
+              "text": "Biopsy of the lymph node before any further decision",
+              "rationale": "Misconception: histology must precede any treatment. In unequivocal stage IIA, nerve-sparing lymph node dissection is itself the diagnostic and therapeutic step (EAU 2026, 6.2.2.2.1)."
+            },
+            "E": {
+              "text": "FDG-PET/CT to clarify the imaging-laboratory mismatch",
+              "rationale": "Misconception: PET resolves the mismatch. In non-seminoma, FDG-PET/CT is not indicated for restaging (EAU 2026, 6.3.2.2)."
+            }
+          },
+          "explanation": {
+            "core": "A normal marker does not exclude relapse, and biotin shifts the measurement downwards. The decision follows the imaging, and markers are repeated without the interfering substance (Witte & Majewski 2025; EAU 2026, 6.2.2.2.1). Regular biotin supplementation leads to falsely low laboratory values (Witte & Majewski 2025). Even without interference, markers are raised in only a proportion of germ cell tumours; seminomas secrete hCG in up to 30% of cases (Witte & Majewski 2025). For marker-negative stage IIA non-seminoma the EAU recommends nerve-sparing lymph node dissection in a specialised centre as initial treatment, and allows a recheck after six weeks for nodes under 2 cm (EAU 2026, 6.2.2.2.1). Asking about supplements belongs to every implausible marker constellation, and the measurement is repeated after a pause (Witte & Majewski 2025). Further management follows the imaging finding, not the laboratory value (EAU 2026, 6.2.2.2.1).",
+            "teaching_point": "Mismatch between imaging and markers: ask about biotin, repeat markers without it, treat the imaging finding."
+          }
+        },
+        "es": {
+          "vignette": "Un varón de 30 años en vigilancia por un no seminoma en estadio I acude al control de los 6 meses. La RM muestra un ganglio paraaórtico nuevo de 2,4 cm; AFP y β-hCG son normales. Desde hace meses toma un suplemento de biotina en dosis altas. Debe definirse la conducta.",
+          "lead_in": "¿Cómo debe manejarse este hallazgo?",
+          "options": {
+            "A": {
+              "text": "Tratarlo como estadio IIA y repetir marcadores sin biotina",
+              "rationale": "Decide la imagen: un ganglio nuevo de 2,4 cm corresponde a un estadio IIA y se trata como tal (EAU 2026, 6.2.2.2.1); además la biotina puede hacer que los marcadores parezcan falsamente bajos (Witte & Majewski 2025)."
+            },
+            "B": {
+              "text": "Tomar los marcadores normales como exclusión y control en 3 meses",
+              "rationale": "Error de concepto: marcadores normales excluirían la recaída. Los seminomas secretan hCG solo en torno al 30 % y la biotina baja aún más los valores (Witte & Majewski 2025)."
+            },
+            "C": {
+              "text": "Añadir LDH para confirmar los valores normales de marcadores",
+              "rationale": "Error de concepto: la LDH como respaldo. Es inespecífica y no aclara ni la discrepancia ni el hallazgo de imagen."
+            },
+            "D": {
+              "text": "Biopsia del ganglio antes de cualquier otra decisión",
+              "rationale": "Error de concepto: la histología debería preceder a todo tratamiento. En un estadio IIA inequívoco, la linfadenectomía con preservación nerviosa es a la vez el paso diagnóstico y terapéutico (EAU 2026, 6.2.2.2.1)."
+            },
+            "E": {
+              "text": "PET-TC con FDG para aclarar la discrepancia imagen-laboratorio",
+              "rationale": "Error de concepto: la PET resolvería la discrepancia. En el no seminoma no está indicada para la reestadificación (EAU 2026, 6.3.2.2)."
+            }
+          },
+          "explanation": {
+            "core": "Un marcador normal no excluye la recaída y la biotina desplaza la medición hacia abajo. La decisión sigue a la imagen y los marcadores se repiten sin el interferente (Witte & Majewski 2025; EAU 2026, 6.2.2.2.1). La toma regular de biotina produce valores falsamente bajos en el laboratorio (Witte & Majewski 2025). Incluso sin interferencia, los marcadores solo están elevados en una parte de los tumores germinales; los seminomas secretan hCG como mucho en el 30 % de los casos (Witte & Majewski 2025). En el no seminoma en estadio IIA sin marcadores, la EAU recomienda como tratamiento inicial la linfadenectomía con preservación nerviosa en un centro especializado y permite un control a las seis semanas con ganglios menores de 2 cm (EAU 2026, 6.2.2.2.1). Preguntar por los suplementos forma parte de toda constelación de marcadores poco plausible, y la medición se repite tras una pausa (Witte & Majewski 2025). La conducta se guía por la imagen, no por el valor de laboratorio (EAU 2026, 6.2.2.2.1).",
+            "teaching_point": "Discrepancia entre imagen y marcadores: preguntar por la biotina, repetir sin ella y tratar el hallazgo de imagen."
+          }
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00042",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Tumormarker",
+        "tags": [
+          "tumormarker",
+          "nachsorge",
+          "diagnostik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "4",
+        "certainty": "expertenkonsens",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Erhöhung der β-Untereinheit des humanen Choriongonadotropins bei urologischen Patienten – nicht immer ein Keimzelltumor",
+          "citation": "Witte L, Majewski M. Urologie 2025;64:1064–1073. doi:10.1007/s00120-025-02679-2",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.2.1, 6.3.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-09-21"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 46-jähriger Mann ist acht Jahre nach Chemotherapie eines Nichtseminoms rezidivfrei und seit einem Jahr dialysepflichtig. In zwei Messungen liegt β-hCG bei 14 und 15 U/l, AFP normal, MRT von Abdomen und Becken sowie Röntgen-Thorax unauffällig, Testosteron und LH normal. Vorstellung zur Bewertung des Markerbefundes.",
+          "lead_in": "Welche Einordnung und welches Vorgehen sind angemessen?",
+          "options": {
+            "A": {
+              "text": "Spätrezidiv annehmen und Salvage-Chemotherapie beginnen",
+              "rationale": "Fehlannahme: Jede Erhöhung nach Jahren sei ein Spätrezidiv. Salvage-Therapie ist nur bei dokumentierter Markerprogression indiziert (EAU 2026, 6.3.1)."
+            },
+            "B": {
+              "text": "Rezidivsuche mit FDG-PET-CT und Schädel-MRT ergänzen",
+              "rationale": "Fehlannahme: Breite Bildgebung ersetze die Differenzialdiagnose. FDG-PET-CT ist in der Überwachung nicht empfohlen (EAU 2026, 7.1), und der Laborbefund wird dadurch nicht erklärt."
+            },
+            "C": {
+              "text": "Testosteron geben und β-hCG danach erneut bestimmen",
+              "rationale": "Fehlannahme: Übertragung der LH-Kreuzreaktion. Sie setzt hohes LH voraus; bei normalem LH und Testosteron trägt dieser Mechanismus nicht (Witte & Majewski 2025)."
+            },
+            "D": {
+              "text": "Renale Retention annehmen und den Verlauf kontrollieren",
+              "rationale": "Bei terminaler Niereninsuffizienz ist die Filtration des Moleküls auf ein Minimum herabgesetzt, der Spiegel kann um den Faktor 10 steigen (Witte & Majewski 2025)."
+            },
+            "E": {
+              "text": "Residualtumorresektion im Retroperitoneum veranlassen",
+              "rationale": "Fehlannahme: Operation als Diagnostik. Ohne Residuum in der Bildgebung gibt es nichts zu resezieren."
+            }
+          },
+          "explanation": {
+            "core": "Stabile Werte ohne Dynamik und ohne Herdbefund bei Dialysepflicht sprechen für fehlende renale Elimination, nicht für ein Rezidiv (Witte & Majewski 2025). Das hCG-Molekül wird renal filtriert und teilweise ausgeschieden; bei dialysepflichtiger Erkrankung ist diese Filtration auf ein nicht mehr messbares Minimum herabgesetzt, und der Plasmaspiegel kann um den Faktor 10 ansteigen (Witte & Majewski 2025). Umgekehrt können Werte bei exzellenter Nierenfunktion falsch niedrig ausfallen (Witte & Majewski 2025). Die EAU lässt stabile, leicht erhöhte Marker zunächst beobachten und verlangt Therapie erst bei Anstieg oder bildgebendem Korrelat (EAU 2026, 6.2.1). Der Ausgangswert unter Dialyse gehört dokumentiert, damit spätere Kontrollen eine echte Dynamik erkennen lassen. Steigt der Wert, gilt wieder die Regel zur Markerprogression (EAU 2026, 6.3.1).",
+            "teaching_point": "Dialyse und erhöhtes β-hCG: erst Retention denken, Verlauf kontrollieren, nicht behandeln."
+          },
+          "flag_note": "Die Datengrundlage ist eine Serie von 44 Patienten und Expertenmeinung; ein steigender Wert bleibt abklärungsbedürftig."
+        },
+        "en": {
+          "vignette": "A 46-year-old man is relapse-free eight years after chemotherapy for non-seminoma and has been on dialysis for a year. β-hCG is 14 and 15 U/l on two measurements, AFP normal, MRI of abdomen and pelvis and chest X-ray unremarkable, testosterone and LH normal. He is seen to assess the marker finding.",
+          "lead_in": "Which interpretation and management are appropriate?",
+          "options": {
+            "A": {
+              "text": "Assume late relapse and start salvage chemotherapy",
+              "rationale": "Misconception: any elevation after years is a late relapse. Salvage therapy is indicated only for documented marker progression (EAU 2026, 6.3.1)."
+            },
+            "B": {
+              "text": "Add FDG-PET/CT and brain MRI to search for relapse",
+              "rationale": "Misconception: broad imaging replaces differential diagnosis. FDG-PET/CT is not recommended during surveillance (EAU 2026, 7.1), and the laboratory finding is not explained by it."
+            },
+            "C": {
+              "text": "Give testosterone and then measure β-hCG again",
+              "rationale": "Misconception: transferring the LH cross-reaction. It requires high LH; with normal LH and testosterone this mechanism does not hold (Witte & Majewski 2025)."
+            },
+            "D": {
+              "text": "Assume renal retention and monitor the course",
+              "rationale": "In end-stage renal disease, filtration of the molecule is reduced to a minimum and the level can rise by a factor of 10 (Witte & Majewski 2025)."
+            },
+            "E": {
+              "text": "Arrange residual tumour resection in the retroperitoneum",
+              "rationale": "Misconception: surgery as diagnostics. Without a residual mass on imaging there is nothing to resect."
+            }
+          },
+          "explanation": {
+            "core": "Stable values without dynamics and without a lesion in a dialysis patient point to absent renal elimination rather than relapse (Witte & Majewski 2025). The hCG molecule is filtered renally and partly excreted; in dialysis-dependent disease this filtration is reduced to an unmeasurable minimum and the plasma level can rise by a factor of 10 (Witte & Majewski 2025). Conversely, values may be falsely low with excellent renal function (Witte & Majewski 2025). The EAU allows stable, mildly raised markers to be observed initially and requires treatment only on a rise or with an imaging correlate (EAU 2026, 6.2.1). The baseline value on dialysis should be documented so that later checks can show true dynamics. If the value rises, the rule on marker progression applies again (EAU 2026, 6.3.1).",
+            "teaching_point": "Dialysis with raised β-hCG: think retention first, monitor the course, do not treat."
+          },
+          "flag_note": "The evidence base is a series of 44 patients and expert opinion; a rising value still requires work-up."
+        },
+        "es": {
+          "vignette": "Un varón de 46 años lleva ocho años libre de recaída tras quimioterapia por un no seminoma y desde hace un año está en diálisis. La β-hCG es de 14 y 15 U/l en dos mediciones, AFP normal, RM de abdomen y pelvis y radiografía de tórax normales, testosterona y LH normales. Acude para valorar el hallazgo de marcadores.",
+          "lead_in": "¿Qué interpretación y qué conducta son adecuadas?",
+          "options": {
+            "A": {
+              "text": "Asumir una recaída tardía e iniciar quimioterapia de rescate",
+              "rationale": "Error de concepto: toda elevación tras años sería una recaída tardía. El rescate solo está indicado ante progresión documentada de marcadores (EAU 2026, 6.3.1)."
+            },
+            "B": {
+              "text": "Añadir PET-TC con FDG y RM craneal para buscar recaída",
+              "rationale": "Error de concepto: una imagen amplia sustituiría al diagnóstico diferencial. La PET-TC con FDG no se recomienda en la vigilancia (EAU 2026, 7.1) y no explica el hallazgo de laboratorio."
+            },
+            "C": {
+              "text": "Administrar testosterona y volver a medir la β-hCG",
+              "rationale": "Error de concepto: trasladar la reacción cruzada con la LH. Exige LH alta; con LH y testosterona normales ese mecanismo no se sostiene (Witte & Majewski 2025)."
+            },
+            "D": {
+              "text": "Asumir retención renal y controlar la evolución",
+              "rationale": "En la insuficiencia renal terminal la filtración de la molécula queda reducida al mínimo y el nivel puede subir por un factor de 10 (Witte & Majewski 2025)."
+            },
+            "E": {
+              "text": "Solicitar la resección de un residuo retroperitoneal",
+              "rationale": "Error de concepto: la cirugía como diagnóstico. Sin residuo en la imagen no hay nada que resecar."
+            }
+          },
+          "explanation": {
+            "core": "Valores estables sin dinámica y sin lesión en un paciente en diálisis apuntan a falta de eliminación renal, no a una recaída (Witte & Majewski 2025). La molécula de hCG se filtra por el riñón y se excreta en parte; en la enfermedad renal en diálisis esa filtración queda reducida a un mínimo no medible y el nivel plasmático puede subir por un factor de 10 (Witte & Majewski 2025). A la inversa, con función renal excelente los valores pueden ser falsamente bajos (Witte & Majewski 2025). La EAU permite observar al inicio marcadores estables levemente elevados y exige tratamiento solo ante ascenso o correlato en la imagen (EAU 2026, 6.2.1). Conviene documentar el valor basal en diálisis para que los controles posteriores muestren una dinámica real. Si el valor asciende, vuelve a regir la norma sobre progresión de marcadores (EAU 2026, 6.3.1).",
+            "teaching_point": "Diálisis con β-hCG elevada: pensar primero en retención, controlar la evolución y no tratar."
+          },
+          "flag_note": "La base de datos es una serie de 44 pacientes y opinión de expertos; un valor en ascenso sigue exigiendo estudio."
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00043",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Tumormarker",
+        "tags": [
+          "tumormarker",
+          "diagnostik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "4",
+        "certainty": "expertenkonsens",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Erhöhung der β-Untereinheit des humanen Choriongonadotropins bei urologischen Patienten – nicht immer ein Keimzelltumor",
+          "citation": "Witte L, Majewski M. Urologie 2025;64:1064–1073. doi:10.1007/s00120-025-02679-2",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.2.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-09-21"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 71-jähriger Mann mit lokal fortgeschrittenem Prostatakarzinom erhielt vor vier Wochen die erste Injektion eines LHRH-Agonisten. Im Labor fällt ein leicht erhöhtes hCG auf, AFP normal, die Hoden sind sonographisch unauffällig, kein Anhalt für eine weitere Tumorerkrankung. Vorstellung zur Bewertung des Befundes.",
+          "lead_in": "Welches Vorgehen ist angemessen?",
+          "options": {
+            "A": {
+              "text": "Hodenfreilegung zur Abklärung eines okkulten Keimzelltumors",
+              "rationale": "Fehlannahme: Erhöhtes hCG bedeute Hodentumor. Die Sonographie ist unauffällig, und die Konstellation erklärt sich aus der Kastration (Witte & Majewski 2025)."
+            },
+            "B": {
+              "text": "Verlaufskontrolle, Normalisierung binnen drei Monaten erwarten",
+              "rationale": "Die Erhöhung trat in der zitierten Serie nur nach der ersten Applikation auf und lag nach drei Monaten wieder im Normbereich (Witte & Majewski 2025)."
+            },
+            "C": {
+              "text": "Keimzelltumormarker komplett und Schnittbildgebung veranlassen",
+              "rationale": "Fehlannahme: Vollständige Tumorsuche sei der sicherste Weg. Sie erzeugt Zufallsbefunde, ohne die naheliegende Ursache zu prüfen."
+            },
+            "D": {
+              "text": "LHRH-Agonist absetzen und auf einen Antagonisten wechseln",
+              "rationale": "Fehlannahme: Der Agonist sei schädlich. Der Effekt ist passager und kein Grund, eine wirksame Therapie zu wechseln (Witte & Majewski 2025)."
+            },
+            "E": {
+              "text": "hCG im Urin bestimmen, um die Erhöhung zu bestätigen",
+              "rationale": "Fehlannahme: Die Urinmessung bestätige den Serumwert. Im Urin wird das β-Core-Fragment gemessen; die Messung ist nur zur Schwangerschaftsdetektion zugelassen (Witte & Majewski 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Nach der ersten Gabe eines LHRH-Agonisten kann hCG passager ektop aus der Hypophyse stammen. Ohne weiteren Anhalt folgt die Verlaufskontrolle, keine Keimzelltumordiagnostik (Witte & Majewski 2025). Yoshimura et al. untersuchten 44 Patienten mit lokal fortgeschrittenem Prostatakarzinom ohne Fernmetastasen: Nachweisbar war ausschließlich natives hCG, nicht die freie β-Untereinheit, und erhöhte Werte traten nur nach der ersten Applikation des LHRH-Agonisten auf; drei Monate nach Therapiebeginn lagen sie im Normbereich (Witte & Majewski 2025). Verantwortlich gemacht werden die erhöhten GnRH-Spiegel, die eine ektope hypophysäre Produktion stimulieren (Witte & Majewski 2025). Die EAU behandelt stabile leichte Erhöhungen zunächst beobachtend (EAU 2026, 6.2.1). Bleibt der Wert erhöht oder steigt er, beginnt die Differenzialdiagnostik erneut. Eine fehlgeleitete Hodentumordiagnostik belastet den Patienten ohne Nutzen.",
+            "teaching_point": "hCG-Anstieg kurz nach dem ersten LHRH-Agonisten: passager hypophysär, Kontrolle statt Tumorsuche."
+          },
+          "flag_note": "Die Erklärung beruht auf einer Serie von 44 Patienten und ist pathophysiologisch abgeleitet, nicht prospektiv bestätigt."
+        },
+        "en": {
+          "vignette": "A 71-year-old man with locally advanced prostate cancer received the first injection of an LHRH agonist four weeks ago. Laboratory testing shows mildly raised hCG, AFP normal, testes unremarkable on ultrasound, no evidence of another malignancy. He is seen to assess the finding.",
+          "lead_in": "Which management is appropriate?",
+          "options": {
+            "A": {
+              "text": "Testicular exploration to rule out an occult germ cell tumour",
+              "rationale": "Misconception: raised hCG means testicular tumour. Ultrasound is unremarkable and the constellation is explained by castration (Witte & Majewski 2025)."
+            },
+            "B": {
+              "text": "Monitor the course, expect normalisation within three months",
+              "rationale": "In the cited series the elevation occurred only after the first application and had returned to normal after three months (Witte & Majewski 2025)."
+            },
+            "C": {
+              "text": "Order a full germ cell marker panel and cross-sectional imaging",
+              "rationale": "Misconception: a complete tumour search is the safest route. It generates incidental findings without testing the obvious cause."
+            },
+            "D": {
+              "text": "Stop the LHRH agonist and switch to an antagonist",
+              "rationale": "Misconception: the agonist is harmful. The effect is transient and no reason to change effective treatment (Witte & Majewski 2025)."
+            },
+            "E": {
+              "text": "Measure hCG in urine to confirm the elevation",
+              "rationale": "Misconception: urine measurement confirms the serum value. In urine the β-core fragment is measured; the test is approved only for pregnancy detection (Witte & Majewski 2025)."
+            }
+          },
+          "explanation": {
+            "core": "After the first dose of an LHRH agonist, hCG can transiently be of ectopic pituitary origin. Without further evidence the next step is monitoring, not germ cell tumour work-up (Witte & Majewski 2025). Yoshimura et al. studied 44 patients with locally advanced prostate cancer without distant metastases: only native hCG was detectable, not the free β-subunit, and raised values occurred only after the first application of the LHRH agonist; three months after the start of treatment they were back to normal (Witte & Majewski 2025). The raised GnRH levels are held responsible for stimulating ectopic pituitary production (Witte & Majewski 2025). The EAU manages stable mild elevations by observation initially (EAU 2026, 6.2.1). If the value stays raised or rises, differential diagnosis starts again. Misdirected testicular tumour work-up burdens the patient without benefit.",
+            "teaching_point": "hCG rise shortly after the first LHRH agonist: transient pituitary origin, monitor instead of tumour search."
+          },
+          "flag_note": "The explanation rests on a series of 44 patients and pathophysiological reasoning, not on prospective confirmation."
+        },
+        "es": {
+          "vignette": "Un varón de 71 años con cáncer de próstata localmente avanzado recibió hace cuatro semanas la primera inyección de un agonista de LHRH. En el laboratorio destaca una hCG levemente elevada, AFP normal, testículos normales en la ecografía y sin indicios de otra neoplasia. Acude para valorar el hallazgo.",
+          "lead_in": "¿Qué conducta es adecuada?",
+          "options": {
+            "A": {
+              "text": "Exploración testicular para descartar un tumor germinal oculto",
+              "rationale": "Error de concepto: una hCG elevada significaría tumor testicular. La ecografía es normal y la constelación se explica por la castración (Witte & Majewski 2025)."
+            },
+            "B": {
+              "text": "Controlar la evolución y esperar normalización en tres meses",
+              "rationale": "En la serie citada la elevación apareció solo tras la primera aplicación y a los tres meses los valores ya eran normales (Witte & Majewski 2025)."
+            },
+            "C": {
+              "text": "Solicitar el panel completo de marcadores y una TC",
+              "rationale": "Error de concepto: la búsqueda tumoral completa sería lo más seguro. Genera hallazgos incidentales sin comprobar la causa evidente."
+            },
+            "D": {
+              "text": "Suspender el agonista de LHRH y pasar a un antagonista",
+              "rationale": "Error de concepto: el agonista sería perjudicial. El efecto es pasajero y no justifica cambiar un tratamiento eficaz (Witte & Majewski 2025)."
+            },
+            "E": {
+              "text": "Medir la hCG en orina para confirmar la elevación",
+              "rationale": "Error de concepto: la medición en orina confirmaría el valor sérico. En orina se mide el fragmento β-core y la prueba solo está autorizada para detectar embarazo (Witte & Majewski 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Tras la primera dosis de un agonista de LHRH la hCG puede ser de origen hipofisario ectópico y pasajero. Sin más indicios procede el control evolutivo, no el estudio de tumor germinal (Witte & Majewski 2025). Yoshimura et al. estudiaron a 44 pacientes con cáncer de próstata localmente avanzado sin metástasis a distancia: solo se detectó hCG nativa, no la subunidad β libre, y los valores elevados aparecieron únicamente tras la primera aplicación del agonista; tres meses después del inicio ya eran normales (Witte & Majewski 2025). Se responsabiliza a los niveles elevados de GnRH, que estimulan la producción hipofisaria ectópica (Witte & Majewski 2025). La EAU maneja las elevaciones leves y estables con observación inicial (EAU 2026, 6.2.1). Si el valor sigue elevado o asciende, el diagnóstico diferencial vuelve a empezar. Un estudio de tumor testicular mal orientado carga al paciente sin beneficio.",
+            "teaching_point": "Ascenso de hCG poco después del primer agonista de LHRH: origen hipofisario pasajero, controlar en vez de buscar tumor."
+          },
+          "flag_note": "La explicación se basa en una serie de 44 pacientes y en un razonamiento fisiopatológico, sin confirmación prospectiva."
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00044",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Tumormarker",
+        "tags": [
+          "tumormarker",
+          "diagnostik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 7,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "4",
+        "certainty": "expertenkonsens",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Erhöhung der β-Untereinheit des humanen Choriongonadotropins bei urologischen Patienten – nicht immer ein Keimzelltumor",
+          "citation": "Witte L, Majewski M. Urologie 2025;64:1064–1073. doi:10.1007/s00120-025-02679-2",
+          "year": 2025
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-09-21"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 68-jähriger Mann mit metastasiertem Urothelkarzinom der Blase erhält Chemotherapie. Auswärts wurde β-hCG bestimmt und ist deutlich erhöht; die Hoden sind klinisch und sonographisch unauffällig, AFP normal. Die Kollegen fragen, ob ein zweiter Tumor vorliegt und ob der Marker zur Therapiesteuerung genutzt werden soll.",
+          "lead_in": "Wie ist der Befund einzuordnen?",
+          "options": {
+            "A": {
+              "text": "Zweitmalignom im Sinne eines Keimzelltumors annehmen",
+              "rationale": "Fehlannahme: β-hCG sei für Keimzelltumoren spezifisch. Genau das widerlegt die Übersicht: Die Erhöhung kommt bei zahlreichen Entitäten vor (Witte & Majewski 2025)."
+            },
+            "B": {
+              "text": "Therapieentscheidungen künftig am β-hCG-Verlauf ausrichten",
+              "rationale": "Fehlannahme: Ein plausibler Marker sei schon ein Steuerungsinstrument. Die Verlaufsdaten stammen aus Einzelfallbeschreibungen (Witte & Majewski 2025)."
+            },
+            "C": {
+              "text": "Hodenbiopsie beidseits zur Klärung der Markerquelle",
+              "rationale": "Fehlannahme: Die Markerquelle müsse histologisch gesichert werden. Unauffällige Hoden und ein bekanntes metastasiertes Karzinom erklären den Befund (Witte & Majewski 2025)."
+            },
+            "D": {
+              "text": "β-hCG im Urin als Frühmarker der Blasentumoren einsetzen",
+              "rationale": "Fehlannahme: Ein Marker mit 35 bis 73 % Nachweisrate im Urin tauge zur Früherkennung (Witte & Majewski 2025)."
+            },
+            "E": {
+              "text": "Ektope Produktion durch das Urothelkarzinom annehmen",
+              "rationale": "β-hCG wird von 10–30 % aller malignen Nicht-Keimzelltumoren autokrin produziert, beim Urothelkarzinom besonders häufig (Witte & Majewski 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Der Wert ist hier Ausdruck des bekannten Karzinoms, nicht eines zweiten Tumors. Für die Therapiesteuerung fehlt dem Marker die Validierung (Witte & Majewski 2025). Die Nachweisrate beim Urothelkarzinom liegt zwischen 30 und 76 % im Serum, 35 bis 73 % im Urin und bei etwa 35 % immunhistochemisch (Witte & Majewski 2025). Eine Erhöhung ist mit geringerer Differenzierung, höherer Invasivität, höherem Metastasierungsgrad und Strahlenresistenz assoziiert (Witte & Majewski 2025). Weder die deutsche S3-Leitlinie zum Blasentumor noch die EAU-Leitlinien erwähnen den Marker; größere Studien fehlen (Witte & Majewski 2025). Vor jeder Markerbestimmung gehört die Frage, welche Konsequenz das Ergebnis hätte. Umgekehrt lohnt bei unplausibler Erhöhung in der Hodentumornachsorge der Blick auf andere Malignome (Witte & Majewski 2025).",
+            "teaching_point": "β-hCG ist nicht keimzelltumorspezifisch: 10–30 % aller Nicht-Keimzelltumoren produzieren es, ohne dass es Therapie steuert."
+          },
+          "flag_note": "Der Stellenwert von β-hCG beim Urothelkarzinom beruht auf Fallserien und Einzelfallberichten; als Verlaufsmarker ist er nicht validiert und in keiner Leitlinie verankert."
+        },
+        "en": {
+          "vignette": "A 68-year-old man with metastatic urothelial carcinoma of the bladder is receiving chemotherapy. β-hCG was measured elsewhere and is clearly raised; the testes are unremarkable clinically and on ultrasound, AFP is normal. Colleagues ask whether a second tumour is present and whether the marker should guide treatment.",
+          "lead_in": "How should the finding be interpreted?",
+          "options": {
+            "A": {
+              "text": "Assume a second malignancy in the sense of a germ cell tumour",
+              "rationale": "Misconception: β-hCG is specific for germ cell tumours. The review refutes exactly that: elevation occurs across many entities (Witte & Majewski 2025)."
+            },
+            "B": {
+              "text": "Base future treatment decisions on the β-hCG course",
+              "rationale": "Misconception: a plausible marker is already a steering instrument. The course data come from case reports (Witte & Majewski 2025)."
+            },
+            "C": {
+              "text": "Bilateral testicular biopsy to clarify the marker source",
+              "rationale": "Misconception: the marker source must be confirmed histologically. Unremarkable testes and a known metastatic carcinoma explain the finding (Witte & Majewski 2025)."
+            },
+            "D": {
+              "text": "Use urinary β-hCG as an early marker of bladder tumours",
+              "rationale": "Misconception: a marker with a urinary detection rate of 35 to 73% is fit for early detection (Witte & Majewski 2025)."
+            },
+            "E": {
+              "text": "Assume ectopic production by the urothelial carcinoma",
+              "rationale": "β-hCG is produced autocrinely by 10–30% of all malignant non-germ cell tumours, particularly often in urothelial carcinoma (Witte & Majewski 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Here the value reflects the known carcinoma, not a second tumour. For treatment steering the marker lacks validation (Witte & Majewski 2025). In urothelial carcinoma the detection rate lies between 30 and 76% in serum, 35 to 73% in urine and about 35% immunohistochemically (Witte & Majewski 2025). Elevation is associated with poorer differentiation, higher invasiveness, greater metastatic spread and radioresistance (Witte & Majewski 2025). Neither the German S3 guideline on bladder cancer nor the EAU guidelines mention the marker, and larger studies are lacking (Witte & Majewski 2025). Before every marker request comes the question of what the result would change. Conversely, an implausible elevation during testicular cancer follow-up warrants a look at other malignancies (Witte & Majewski 2025).",
+            "teaching_point": "β-hCG is not specific for germ cell tumours: 10–30% of non-germ cell tumours produce it without steering treatment."
+          },
+          "flag_note": "The role of β-hCG in urothelial carcinoma rests on case series and case reports; as a course marker it is neither validated nor anchored in any guideline."
+        },
+        "es": {
+          "vignette": "Un varón de 68 años con carcinoma urotelial de vejiga metastásico recibe quimioterapia. En otro centro se midió la β-hCG y está claramente elevada; los testículos son normales clínica y ecográficamente, la AFP es normal. Los colegas preguntan si hay un segundo tumor y si el marcador debe guiar el tratamiento.",
+          "lead_in": "¿Cómo debe interpretarse el hallazgo?",
+          "options": {
+            "A": {
+              "text": "Asumir una segunda neoplasia en forma de tumor germinal",
+              "rationale": "Error de concepto: la β-hCG sería específica de tumores germinales. La revisión refuta justamente eso: la elevación aparece en numerosas entidades (Witte & Majewski 2025)."
+            },
+            "B": {
+              "text": "Guiar en adelante las decisiones por la evolución de la β-hCG",
+              "rationale": "Error de concepto: un marcador plausible ya sería un instrumento de guía. Los datos evolutivos proceden de casos aislados (Witte & Majewski 2025)."
+            },
+            "C": {
+              "text": "Biopsia testicular bilateral para aclarar el origen del marcador",
+              "rationale": "Error de concepto: el origen del marcador debería confirmarse histológicamente. Unos testículos normales y un carcinoma metastásico conocido explican el hallazgo (Witte & Majewski 2025)."
+            },
+            "D": {
+              "text": "Usar la β-hCG en orina como marcador precoz de tumor vesical",
+              "rationale": "Error de concepto: un marcador con una tasa de detección en orina del 35 al 73 % serviría para la detección precoz (Witte & Majewski 2025)."
+            },
+            "E": {
+              "text": "Asumir producción ectópica por el carcinoma urotelial",
+              "rationale": "La β-hCG la producen de forma autocrina entre el 10 y el 30 % de los tumores malignos no germinales, con especial frecuencia en el carcinoma urotelial (Witte & Majewski 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Aquí el valor refleja el carcinoma conocido, no un segundo tumor. Para guiar el tratamiento, al marcador le falta validación (Witte & Majewski 2025). En el carcinoma urotelial la tasa de detección está entre el 30 y el 76 % en suero, del 35 al 73 % en orina y en torno al 35 % en inmunohistoquímica (Witte & Majewski 2025). La elevación se asocia a menor diferenciación, mayor invasividad, mayor grado de metastatización y radiorresistencia (Witte & Majewski 2025). Ni la guía alemana S3 del tumor vesical ni las guías de la EAU mencionan el marcador, y faltan estudios amplios (Witte & Majewski 2025). Antes de cada petición de marcador está la pregunta de qué cambiaría el resultado. A la inversa, una elevación poco plausible en el seguimiento del tumor testicular invita a mirar otras neoplasias (Witte & Majewski 2025).",
+            "teaching_point": "La β-hCG no es específica de tumores germinales: del 10 al 30 % de los no germinales la producen sin que guíe el tratamiento."
+          },
+          "flag_note": "El papel de la β-hCG en el carcinoma urotelial se basa en series y casos aislados; como marcador evolutivo no está validado ni recogido en ninguna guía."
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00045",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Pathologie und Sonderformen",
+        "tags": [
+          "operationstechnik",
+          "systemtherapie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Neues aus der Grundlagenforschung bei den Keimzelltumoren des Hodens und aktualisierte Tumorigenese",
+          "citation": "Skowron MA, Schneider L, Prokakis E et al. Urologie 2025;64:1055–1063. doi:10.1007/s00120-025-02674-7",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.3.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-09-21"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 28-jähriger Mann erhält wegen eines metastasierten Nichtseminoms die dritte Serie BEP. AFP und β-hCG sind normalisiert, die retroperitoneale Raumforderung ist innerhalb von zwei Monaten von 3 auf 7 cm gewachsen. Er ist beschwerdefrei. Festlegung des weiteren Vorgehens.",
+          "lead_in": "Welches Vorgehen ist angemessen?",
+          "options": {
+            "A": {
+              "text": "Chemotherapie abschließen, dann zeitnah resezieren",
+              "rationale": "Bei fallenden oder normalen Markern und wachsendem Tumor ist die vollständige Resektion die einzige wirksame Strategie (Skowron et al. 2025); die EAU empfiehlt in dieser Konstellation die frühe operative Entfernung (EAU 2026, 6.3.1)."
+            },
+            "B": {
+              "text": "Sofort auf Salvage-Chemotherapie mit TIP umstellen",
+              "rationale": "Fehlannahme: Wachstum bedeute vitalen Tumor. Salvage-Therapie ist nur bei dokumentierter Markerprogression indiziert (EAU 2026, 6.3.1)."
+            },
+            "C": {
+              "text": "Zwei weitere Zyklen BEP anhängen und dann bewerten",
+              "rationale": "Fehlannahme: Mehr Zyklen erreichten das Teratom. Teratomgewebe spricht nicht an, weitere Zyklen verzögern nur die Operation (Skowron et al. 2025)."
+            },
+            "D": {
+              "text": "Zunächst beobachten und in drei Monaten erneut messen",
+              "rationale": "Fehlannahme: Beschwerdefreiheit erlaube Abwarten. Okkulte nichtseminomatöse Anteile können erneut wachsen (Skowron et al. 2025), und die Resektion wird technisch schwieriger."
+            },
+            "E": {
+              "text": "Bestrahlung der wachsenden Raumforderung veranlassen",
+              "rationale": "Fehlannahme: Bestrahlung ersetze die Resektion. Für das wachsende Teratom ist die Operation die einzige wirksame Behandlung (Skowron et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Die Konstellation aus normalisierten Markern und wachsender Raumforderung ist kein Therapieversagen der Chemotherapie, sondern die Indikation zur zeitnahen vollständigen Resektion (Skowron et al. 2025; EAU 2026, 6.3.1). Bei 2–8 % der Patienten mit metastasiertem Nichtseminom wächst der Tumor unter Chemotherapie, während die Marker fallen oder normal bleiben; histologisch finden sich ausschließlich reife Teratome (Skowron et al. 2025). Pongratanakul et al. ordneten 50 Fälle nach Wachstumsrate: über 1,5 cm pro Monat kennzeichnet die schnell wachsende Gruppe mit erhöhter Migrationsaktivität und aggressiverem Verlauf (Skowron et al. 2025). Die erweiterte Definition versteht das Syndrom als Teratom mit okkulten nichtseminomatösen Anteilen, die später erneut wachsen können (Skowron et al. 2025). Das Tempo gehört dokumentiert: Zentimeter pro Monat trennt die Verlaufsgruppen und begründet die Dringlichkeit (Skowron et al. 2025). Die Operation erfolgt in den Feldgrenzen, nicht als Ausschälung des Herdes (EAU 2026, 6.3.2.2).",
+            "teaching_point": "Wachsende Masse bei normalen Markern: Teratom, keine Chemotherapieeskalation, zeitnahe komplette Resektion."
+          }
+        },
+        "en": {
+          "vignette": "A 28-year-old man is receiving his third cycle of BEP for metastatic non-seminoma. AFP and β-hCG have normalised, while the retroperitoneal mass has grown from 3 to 7 cm within two months. He is asymptomatic. Further management is to be defined.",
+          "lead_in": "Which management is appropriate?",
+          "options": {
+            "A": {
+              "text": "Complete chemotherapy, then resect promptly",
+              "rationale": "With falling or normal markers and a growing tumour, complete resection is the only effective strategy (Skowron et al. 2025); the EAU recommends early surgical removal in this constellation (EAU 2026, 6.3.1)."
+            },
+            "B": {
+              "text": "Switch immediately to salvage chemotherapy with TIP",
+              "rationale": "Misconception: growth means viable tumour. Salvage therapy is indicated only for documented marker progression (EAU 2026, 6.3.1)."
+            },
+            "C": {
+              "text": "Add two further cycles of BEP and then reassess",
+              "rationale": "Misconception: more cycles reach the teratoma. Teratoma tissue does not respond; further cycles only delay surgery (Skowron et al. 2025)."
+            },
+            "D": {
+              "text": "Observe for now and measure again in three months",
+              "rationale": "Misconception: absence of symptoms allows waiting. Occult non-seminomatous components can regrow (Skowron et al. 2025), and resection becomes technically harder."
+            },
+            "E": {
+              "text": "Arrange radiotherapy of the growing mass",
+              "rationale": "Misconception: radiotherapy replaces resection. For growing teratoma, surgery is the only effective treatment (Skowron et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Normalised markers with a growing mass are not chemotherapy failure but the indication for prompt complete resection (Skowron et al. 2025; EAU 2026, 6.3.1). In 2–8% of patients with metastatic non-seminoma the tumour grows during chemotherapy while markers fall or stay normal; histology shows exclusively mature teratoma (Skowron et al. 2025). Pongratanakul et al. grouped 50 cases by growth rate: more than 1.5 cm per month characterises the rapidly growing group with increased migratory activity and a more aggressive course (Skowron et al. 2025). The extended definition regards the syndrome as a teratoma with occult non-seminomatous components that may regrow later (Skowron et al. 2025). The pace belongs in the record: centimetres per month separate the course groups and justify urgency (Skowron et al. 2025). Surgery follows the template boundaries rather than shelling out the lesion (EAU 2026, 6.3.2.2).",
+            "teaching_point": "Growing mass with normal markers: teratoma, no chemotherapy escalation, prompt complete resection."
+          }
+        },
+        "es": {
+          "vignette": "Un varón de 28 años recibe el tercer ciclo de BEP por un no seminoma metastásico. La AFP y la β-hCG se han normalizado, mientras que la masa retroperitoneal ha crecido de 3 a 7 cm en dos meses. Está asintomático. Debe definirse la conducta.",
+          "lead_in": "¿Qué conducta es adecuada?",
+          "options": {
+            "A": {
+              "text": "Terminar la quimioterapia y resecar sin demora",
+              "rationale": "Con marcadores en descenso o normales y tumor en crecimiento, la resección completa es la única estrategia eficaz (Skowron et al. 2025); la EAU recomienda en esta situación la extirpación quirúrgica precoz (EAU 2026, 6.3.1)."
+            },
+            "B": {
+              "text": "Pasar de inmediato a quimioterapia de rescate con TIP",
+              "rationale": "Error de concepto: el crecimiento significaría tumor viable. El rescate solo está indicado ante progresión documentada de marcadores (EAU 2026, 6.3.1)."
+            },
+            "C": {
+              "text": "Añadir dos ciclos más de BEP y volver a valorar",
+              "rationale": "Error de concepto: más ciclos alcanzarían al teratoma. El tejido teratomatoso no responde y los ciclos solo retrasan la cirugía (Skowron et al. 2025)."
+            },
+            "D": {
+              "text": "Observar por ahora y medir de nuevo en tres meses",
+              "rationale": "Error de concepto: la ausencia de síntomas permitiría esperar. Los componentes no seminomatosos ocultos pueden volver a crecer (Skowron et al. 2025) y la resección se complica técnicamente."
+            },
+            "E": {
+              "text": "Solicitar radioterapia de la masa en crecimiento",
+              "rationale": "Error de concepto: la radioterapia sustituiría a la resección. En el teratoma en crecimiento la cirugía es el único tratamiento eficaz (Skowron et al. 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Marcadores normalizados con masa en crecimiento no son un fracaso de la quimioterapia, sino la indicación de una resección completa y sin demora (Skowron et al. 2025; EAU 2026, 6.3.1). En el 2 al 8 % de los pacientes con no seminoma metastásico el tumor crece durante la quimioterapia mientras los marcadores caen o permanecen normales; la histología muestra exclusivamente teratoma maduro (Skowron et al. 2025). Pongratanakul et al. agruparon 50 casos por velocidad de crecimiento: más de 1,5 cm al mes caracteriza al grupo de crecimiento rápido, con mayor actividad migratoria y curso más agresivo (Skowron et al. 2025). La definición ampliada entiende el síndrome como un teratoma con componentes no seminomatosos ocultos que pueden volver a crecer (Skowron et al. 2025). El ritmo debe constar: los centímetros por mes separan los grupos evolutivos y justifican la urgencia (Skowron et al. 2025). La cirugía sigue los límites del campo y no consiste en enuclear la lesión (EAU 2026, 6.3.2.2).",
+            "teaching_point": "Masa en crecimiento con marcadores normales: teratoma, sin escalar quimioterapia y con resección completa precoz."
+          }
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00046",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Pathologie und Sonderformen",
+        "tags": [
+          "operationstechnik",
+          "systemtherapie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 7,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "4",
+        "certainty": "expertenkonsens",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Neues aus der Grundlagenforschung bei den Keimzelltumoren des Hodens und aktualisierte Tumorigenese",
+          "citation": "Skowron MA, Schneider L, Prokakis E et al. Urologie 2025;64:1055–1063. doi:10.1007/s00120-025-02674-7",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.3.3.3, 6.3.5"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-09-21"
+      },
+      "content": {
+        "de": {
+          "vignette": "Bei einem 33-jährigen Mann wurde nach drei Zyklen BEP ein retroperitoneales Residuum von 4 cm in den Feldgrenzen reseziert, R0. Die Histologie zeigt neben Teratom ein Adenokarzinom als somatische Malignität. Marker sind normal, die Bildgebung zeigt keinen weiteren Befund. Vorstellung zur Festlegung der postoperativen Therapie.",
+          "lead_in": "Welches postoperative Vorgehen ist begründet?",
+          "options": {
+            "A": {
+              "text": "Zwei adjuvante Zyklen nach Keimzelltumorschema anschließen",
+              "rationale": "Fehlannahme: Das Keimzelltumorschema erreiche auch den somatischen Anteil. Genau dessen Chemoresistenz prägt die Prognose (Skowron et al. 2025)."
+            },
+            "B": {
+              "text": "Checkpointinhibitor wegen der somatischen Komponente geben",
+              "rationale": "Fehlannahme: Somatische Tumoren sprächen generell auf Checkpointinhibitoren an. Bei Keimzelltumoren spricht nur eine kleine refraktäre Subgruppe an (Skowron et al. 2025), und zielgerichtete Substanzen sind in dieser Situation gescheitert (EAU 2026, 6.3.5)."
+            },
+            "C": {
+              "text": "Keine weitere Systemtherapie, engmaschige Nachsorge",
+              "rationale": "Nach vollständiger Resektion ist keine weitere Systemtherapie von Nutzen; die Kontrolle erfolgt über die Nachsorge (EAU 2026, 6.3.3.3; Skowron et al. 2025)."
+            },
+            "D": {
+              "text": "Nachbestrahlung des Operationsgebiets veranlassen",
+              "rationale": "Fehlannahme: Bestrahlung sichere die R0-Situation ab. Für dieses Vorgehen fehlt die Datengrundlage."
+            },
+            "E": {
+              "text": "Hochdosischemotherapie mit Stammzellsupport planen",
+              "rationale": "Fehlannahme: Maximale Systemtherapie bei ungünstiger Prognose. Hochdosistherapie ist für platinsensible Rezidive gedacht (EAU 2026, 6.3.5)."
+            }
+          },
+          "explanation": {
+            "core": "Somatische Malignitäten sprechen auf die Chemotherapie des Keimzelltumors nicht an; ihre Therapie ist die komplette Resektion. Danach folgt Nachsorge, keine adjuvante Systemtherapie (Skowron et al. 2025; EAU 2026, 6.3.3.3). Somatische Malignitäten treten bei 1–8 % der primären und metastasierten Keimzelltumoren auf, überwiegend nach Chemotherapie, und sind mit einer 5-Jahres-Überlebensrate von 50–60 % verbunden (Skowron et al. 2025). Histologisch reichen sie von Rhabdomyosarkomen über Adenokarzinome bis zu neuroektodermalen Tumoren (Skowron et al. 2025). Die EAU sieht nach Resektion von Nekrose oder postpubertärem Teratom keine weitere Therapie vor und hält adjuvante Chemotherapie bei kompletter Resektion für nicht nutzbringend (EAU 2026, 6.3.3.3). Bei Teratom und somatischen Anteilen ist die referenzpathologische Beurteilung empfohlen (EAU 2026, 6.1.3.5). Nicht vollständig resezierbare somatische Anteile gehören ins interdisziplinäre Tumorboard.",
+            "teaching_point": "Somatische Malignität im Resektat: chirurgisch behandeln, nach R0 keine Keimzelltumor-Chemotherapie anhängen."
+          },
+          "flag_note": "Für somatische Malignitäten im Resektat gibt es keine prospektiven Therapiedaten; die Empfehlung stützt sich auf retrospektive Serien."
+        },
+        "en": {
+          "vignette": "In a 33-year-old man a 4 cm retroperitoneal residual mass was resected within the template after three cycles of BEP, R0. Histology shows teratoma plus an adenocarcinoma as somatic-type malignancy. Markers are normal and imaging shows no further lesion. He is seen to define postoperative treatment.",
+          "lead_in": "Which postoperative management is justified?",
+          "options": {
+            "A": {
+              "text": "Add two adjuvant cycles of germ cell tumour chemotherapy",
+              "rationale": "Misconception: the germ cell tumour regimen also reaches the somatic component. Its chemoresistance is precisely what drives prognosis (Skowron et al. 2025)."
+            },
+            "B": {
+              "text": "Give a checkpoint inhibitor for the somatic component",
+              "rationale": "Misconception: somatic tumours generally respond to checkpoint inhibitors. In germ cell tumours only a small refractory subgroup responds (Skowron et al. 2025), and targeted agents have failed in this setting (EAU 2026, 6.3.5)."
+            },
+            "C": {
+              "text": "No further systemic therapy, close follow-up",
+              "rationale": "After complete resection no further systemic therapy is of benefit; control follows through surveillance (EAU 2026, 6.3.3.3; Skowron et al. 2025)."
+            },
+            "D": {
+              "text": "Arrange postoperative radiotherapy of the surgical field",
+              "rationale": "Misconception: radiotherapy secures the R0 situation. Evidence for this approach is lacking."
+            },
+            "E": {
+              "text": "Plan high-dose chemotherapy with stem cell support",
+              "rationale": "Misconception: maximal systemic therapy for an unfavourable prognosis. High-dose therapy is intended for platinum-sensitive relapse (EAU 2026, 6.3.5)."
+            }
+          },
+          "explanation": {
+            "core": "Somatic-type malignancies do not respond to germ cell tumour chemotherapy; their treatment is complete resection. Afterwards comes surveillance, not adjuvant systemic therapy (Skowron et al. 2025; EAU 2026, 6.3.3.3). Somatic-type malignancies occur in 1–8% of primary and metastatic germ cell tumours, mostly after chemotherapy, and carry a five-year survival of 50–60% (Skowron et al. 2025). Histologically they range from rhabdomyosarcoma through adenocarcinoma to neuroectodermal tumours (Skowron et al. 2025). The EAU requires no further treatment after resection of necrosis or post-pubertal teratoma and considers adjuvant chemotherapy not beneficial after complete resection (EAU 2026, 6.3.3.3). With teratoma and somatic components, central pathology review is recommended (EAU 2026, 6.1.3.5). Somatic components that cannot be fully resected belong in the multidisciplinary tumour board.",
+            "teaching_point": "Somatic-type malignancy in the specimen: treat surgically; after R0 do not add germ cell tumour chemotherapy."
+          },
+          "flag_note": "There are no prospective treatment data for somatic-type malignancies in the specimen; the recommendation rests on retrospective series."
+        },
+        "es": {
+          "vignette": "A un varón de 33 años se le resecó dentro de los límites del campo un residuo retroperitoneal de 4 cm tras tres ciclos de BEP, con R0. La histología muestra teratoma y un adenocarcinoma como neoplasia de tipo somático. Los marcadores son normales y la imagen no muestra otras lesiones. Acude para definir el tratamiento posoperatorio.",
+          "lead_in": "¿Qué conducta posoperatoria está justificada?",
+          "options": {
+            "A": {
+              "text": "Añadir dos ciclos adyuvantes según el esquema del tumor germinal",
+              "rationale": "Error de concepto: el esquema del tumor germinal alcanzaría también al componente somático. Precisamente su quimiorresistencia marca el pronóstico (Skowron et al. 2025)."
+            },
+            "B": {
+              "text": "Administrar un inhibidor de punto de control por el componente somático",
+              "rationale": "Error de concepto: los tumores somáticos responderían en general a los inhibidores de punto de control. En los tumores germinales solo responde un pequeño subgrupo refractario (Skowron et al. 2025) y los fármacos dirigidos han fracasado en esa situación (EAU 2026, 6.3.5)."
+            },
+            "C": {
+              "text": "Ninguna terapia sistémica adicional y seguimiento estrecho",
+              "rationale": "Tras una resección completa ninguna terapia sistémica adicional aporta beneficio; el control se hace mediante el seguimiento (EAU 2026, 6.3.3.3; Skowron et al. 2025)."
+            },
+            "D": {
+              "text": "Solicitar radioterapia posoperatoria del lecho quirúrgico",
+              "rationale": "Error de concepto: la radioterapia aseguraría la situación R0. Falta base de datos para este proceder."
+            },
+            "E": {
+              "text": "Planificar quimioterapia a dosis altas con soporte de progenitores",
+              "rationale": "Error de concepto: máxima terapia sistémica ante un pronóstico desfavorable. Las dosis altas están pensadas para recaídas sensibles al platino (EAU 2026, 6.3.5)."
+            }
+          },
+          "explanation": {
+            "core": "Las neoplasias de tipo somático no responden a la quimioterapia del tumor germinal; su tratamiento es la resección completa. Después viene el seguimiento, no la terapia sistémica adyuvante (Skowron et al. 2025; EAU 2026, 6.3.3.3). Las neoplasias de tipo somático aparecen en el 1 al 8 % de los tumores germinales primarios y metastásicos, sobre todo tras quimioterapia, y conllevan una supervivencia a 5 años del 50 al 60 % (Skowron et al. 2025). Histológicamente abarcan desde rabdomiosarcomas hasta adenocarcinomas y tumores neuroectodérmicos (Skowron et al. 2025). La EAU no prevé más tratamiento tras resecar necrosis o teratoma pospuberal y considera que la quimioterapia adyuvante no aporta beneficio tras una resección completa (EAU 2026, 6.3.3.3). Con teratoma y componentes somáticos se recomienda la revisión por patología de referencia (EAU 2026, 6.1.3.5). Los componentes somáticos no resecables por completo corresponden al comité multidisciplinar.",
+            "teaching_point": "Neoplasia de tipo somático en la pieza: tratamiento quirúrgico; tras R0 no se añade quimioterapia del tumor germinal."
+          },
+          "flag_note": "No hay datos terapéuticos prospectivos para las neoplasias de tipo somático en la pieza; la recomendación se apoya en series retrospectivas."
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00047",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Pathologie und Sonderformen",
+        "tags": [
+          "systemtherapie",
+          "studienlage",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 7,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "4",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Neues aus der Grundlagenforschung bei den Keimzelltumoren des Hodens und aktualisierte Tumorigenese",
+          "citation": "Skowron MA, Schneider L, Prokakis E et al. Urologie 2025;64:1055–1063. doi:10.1007/s00120-025-02674-7",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.3.5"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-09-21"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 35-jähriger Mann hat nach Erstlinien- und Salvage-Chemotherapie ein zweites Rezidiv eines Nichtseminoms mit Dottersacktumoranteil. Er hat von Antikörper-Wirkstoff-Konjugaten gegen CLDN6 und von FGFR-Inhibitoren gelesen und fragt, ob diese Substanzen für ihn infrage kommen. Vorstellung zur Festlegung des weiteren Vorgehens.",
+          "lead_in": "Welche Empfehlung ist begründet?",
+          "options": {
+            "A": {
+              "text": "CLDN6-gerichtetes Konjugat im Heilversuch einsetzen",
+              "rationale": "Fehlannahme: Präklinische Wirksamkeit rechtfertige den Heilversuch. Für den Einsatz am Patienten fehlen Dosis, Sicherheit und Wirksamkeit (Skowron et al. 2025)."
+            },
+            "B": {
+              "text": "Vorstellung im Zentrum, Therapie innerhalb einer Studie",
+              "rationale": "Die beschriebenen Substanzen stammen aus Zellmodellen; die EAU ermutigt in dieser Lage zum Einschluss in klinische Studien an Zentren (EAU 2026, 6.3.5; Skowron et al. 2025)."
+            },
+            "C": {
+              "text": "FGFR-Inhibitor off label nach Genpanel einsetzen",
+              "rationale": "Fehlannahme: Ein Panelbefund begründe die Therapie. Die genannten Signalwege stammen aus Resistenzmodellen, nicht aus klinischen Studien (Skowron et al. 2025)."
+            },
+            "D": {
+              "text": "Checkpointinhibitor als nächste Therapielinie geben",
+              "rationale": "Fehlannahme: Immuntherapie als Standardreserve. Zielgerichtete Substanzen einschließlich Checkpointinhibitoren sind in der refraktären Situation gescheitert (EAU 2026, 6.3.5)."
+            },
+            "E": {
+              "text": "Cisplatinhaltige Chemotherapie in gleicher Dosis fortsetzen",
+              "rationale": "Fehlannahme: Unveränderte Fortführung nach Versagen zweier Linien. Dafür gibt es keine Begründung (EAU 2026, 6.3.5)."
+            }
+          },
+          "explanation": {
+            "core": "CLDN6- und CXCR4-gerichtete Konjugate sowie Kinaseinhibitoren sind experimentelle Ansätze aus Zellmodellen (Skowron et al. 2025). Der begründete Weg führt an ein Zentrum und in eine Studie (EAU 2026, 6.3.5). Der Artikel beschreibt für resistente Dottersacktumoren FGFR-, CHEK1- und PARP-gerichtete Substanzen, Multikinaseinhibitoren sowie CLDN6- und CXCR4-gerichtete Konjugate, geprüft in Zelllinien und Modellsystemen (Skowron et al. 2025). Zugleich hält er fest, dass bei Keimzelltumoren nur eine kleine refraktäre Subgruppe auf Checkpointinhibitoren anspricht (Skowron et al. 2025). Die EAU stellt fest, dass zielgerichtete Substanzen in der refraktären Situation bislang gescheitert sind, und ermutigt zum Studieneinschluss (EAU 2026, 6.3.5). Nach gutem Ansprechen kann die Resektion von Residuen auch im Zweitrezidiv noch heilen (EAU 2026, 6.3.5). Die Erwartung an neue Substanzen gehört offen und ohne Versprechen benannt.",
+            "teaching_point": "Zielgerichtete Ansätze beim Dottersacktumor sind präklinisch: Zentrum und Studie statt Heilversuch."
+          }
+        },
+        "en": {
+          "vignette": "A 35-year-old man has a second relapse of non-seminoma with a yolk-sac tumour component after first-line and salvage chemotherapy. He has read about antibody-drug conjugates against CLDN6 and about FGFR inhibitors and asks whether these agents are an option for him. He is seen to define further management.",
+          "lead_in": "Which recommendation is justified?",
+          "options": {
+            "A": {
+              "text": "Use a CLDN6-directed conjugate as compassionate use",
+              "rationale": "Misconception: preclinical efficacy justifies compassionate use. Dose, safety and efficacy in patients are lacking (Skowron et al. 2025)."
+            },
+            "B": {
+              "text": "Referral to a centre, treatment within a clinical trial",
+              "rationale": "The agents described come from cell models; in this situation the EAU encourages inclusion in clinical trials at centres (EAU 2026, 6.3.5; Skowron et al. 2025)."
+            },
+            "C": {
+              "text": "Use an FGFR inhibitor off label based on a gene panel",
+              "rationale": "Misconception: a panel result justifies treatment. The pathways named come from resistance models, not from clinical trials (Skowron et al. 2025)."
+            },
+            "D": {
+              "text": "Give a checkpoint inhibitor as the next line of therapy",
+              "rationale": "Misconception: immunotherapy as the standard reserve. Targeted agents including checkpoint inhibitors have failed in the refractory setting (EAU 2026, 6.3.5)."
+            },
+            "E": {
+              "text": "Continue cisplatin-based chemotherapy at the same dose",
+              "rationale": "Misconception: unchanged continuation after two lines have failed. There is no rationale for this (EAU 2026, 6.3.5)."
+            }
+          },
+          "explanation": {
+            "core": "CLDN6- and CXCR4-directed conjugates and kinase inhibitors are experimental approaches from cell models (Skowron et al. 2025). The justified route leads to a centre and into a trial (EAU 2026, 6.3.5). For resistant yolk-sac tumours the article describes FGFR-, CHEK1- and PARP-directed agents, multikinase inhibitors and CLDN6- and CXCR4-directed conjugates, tested in cell lines and model systems (Skowron et al. 2025). It also states that only a small refractory subgroup of germ cell tumours responds to checkpoint inhibitors (Skowron et al. 2025). The EAU notes that targeted agents have so far failed in the refractory setting and encourages trial inclusion (EAU 2026, 6.3.5). After a good response, resection of residual lesions can still cure even at second relapse (EAU 2026, 6.3.5). Expectations of new agents belong on the table openly and without promises.",
+            "teaching_point": "Targeted approaches in yolk-sac tumour are preclinical: centre and trial instead of compassionate use."
+          }
+        },
+        "es": {
+          "vignette": "Un varón de 35 años presenta una segunda recaída de un no seminoma con componente de tumor del saco vitelino tras quimioterapia de primera línea y de rescate. Ha leído sobre conjugados anticuerpo-fármaco contra CLDN6 y sobre inhibidores de FGFR y pregunta si son una opción para él. Acude para definir la conducta.",
+          "lead_in": "¿Qué recomendación está justificada?",
+          "options": {
+            "A": {
+              "text": "Usar un conjugado dirigido a CLDN6 como uso compasivo",
+              "rationale": "Error de concepto: la eficacia preclínica justificaría el uso compasivo. Faltan dosis, seguridad y eficacia en pacientes (Skowron et al. 2025)."
+            },
+            "B": {
+              "text": "Derivación a un centro y tratamiento dentro de un ensayo",
+              "rationale": "Los fármacos descritos proceden de modelos celulares; en esta situación la EAU anima a incluir al paciente en ensayos clínicos en centros (EAU 2026, 6.3.5; Skowron et al. 2025)."
+            },
+            "C": {
+              "text": "Usar un inhibidor de FGFR fuera de ficha según panel génico",
+              "rationale": "Error de concepto: un resultado de panel justificaría el tratamiento. Las vías citadas proceden de modelos de resistencia, no de ensayos clínicos (Skowron et al. 2025)."
+            },
+            "D": {
+              "text": "Administrar un inhibidor de punto de control como siguiente línea",
+              "rationale": "Error de concepto: la inmunoterapia como reserva estándar. Los fármacos dirigidos, incluidos los inhibidores de punto de control, han fracasado en la situación refractaria (EAU 2026, 6.3.5)."
+            },
+            "E": {
+              "text": "Continuar la quimioterapia con platino a la misma dosis",
+              "rationale": "Error de concepto: continuar sin cambios tras el fallo de dos líneas. No hay fundamento para ello (EAU 2026, 6.3.5)."
+            }
+          },
+          "explanation": {
+            "core": "Los conjugados dirigidos a CLDN6 y CXCR4 y los inhibidores de cinasas son enfoques experimentales de modelos celulares (Skowron et al. 2025). La vía justificada lleva a un centro y a un ensayo (EAU 2026, 6.3.5). Para los tumores del saco vitelino resistentes, el artículo describe fármacos dirigidos a FGFR, CHEK1 y PARP, multiinhibidores de cinasas y conjugados dirigidos a CLDN6 y CXCR4, evaluados en líneas celulares y modelos (Skowron et al. 2025). También constata que solo un pequeño subgrupo refractario de tumores germinales responde a los inhibidores de punto de control (Skowron et al. 2025). La EAU señala que los fármacos dirigidos han fracasado hasta ahora en la situación refractaria y anima a la inclusión en ensayos (EAU 2026, 6.3.5). Tras una buena respuesta, la resección de lesiones residuales todavía puede curar incluso en la segunda recaída (EAU 2026, 6.3.5). Las expectativas sobre fármacos nuevos deben plantearse con claridad y sin promesas.",
+            "teaching_point": "Los enfoques dirigidos en el tumor del saco vitelino son preclínicos: centro y ensayo en lugar de uso compasivo."
+          }
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00048",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Operative Therapie",
+        "tags": [
+          "operationstechnik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 7,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "4",
+        "certainty": "kontrovers",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Die retroperitoneale Lymphadenektomie: robotisch-assistiert oder offen – zwei Standpunkte",
+          "citation": "Angerer M, Dieckmann KP, Wülfing C. Urologie 2025;64:1046–1054, doi:10.1007/s00120-025-02678-3; Heidenreich A, Pfister D. Urologie 2025;64:1037–1045, doi:10.1007/s00120-025-02673-8",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.1.3.2, 6.2.2.2.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-03-31"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 29-jähriger Mann mit Nichtseminom hat bei normalisierten Markern einen paraaortalen Lymphknoten von 2,5 cm. Am Hodentumorzentrum wird die nervschonende Lymphadenektomie geplant; der dortige Operateur beherrscht beide Zugänge. Der Patient fragt, ob robotisch operiert werden sollte. Festlegung des Zugangs.",
+          "lead_in": "Welche Empfehlung ist begründet?",
+          "options": {
+            "A": {
+              "text": "Robotisch, da Blutverlust und Verweildauer geringer sind",
+              "rationale": "Fehlannahme: Perioperative Vorteile belegten onkologische Gleichwertigkeit. Die Nachbeobachtung der robotischen Serien ist kurz (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "B": {
+              "text": "Offen, da die robotische Technik onkologisch unterlegen ist",
+              "rationale": "Fehlannahme: Fehlende Langzeitdaten seien ein Beleg für Unterlegenheit. In den Vergleichsarbeiten sind die Rezidivraten identisch (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "C": {
+              "text": "Primäre Chemotherapie statt Operation, da besser steuerbar",
+              "rationale": "Fehlannahme: Chemotherapie sei die einfachere Lösung. Beim markernegativen Stadium IIA ist die Operation die empfohlene Erstbehandlung und kann Chemotherapie ersparen (EAU 2026, 6.2.2.2.1)."
+            },
+            "D": {
+              "text": "Beide Zugänge am Zentrum vertretbar, Erfahrung entscheidet",
+              "rationale": "Die Leitlinie bindet die Empfehlung an Nervschonung, Erfahrung und Zentrum, nicht an ein Instrument (EAU 2026, 6.2.2.2.1; EAU 2026, 6.1.3.2)."
+            },
+            "E": {
+              "text": "Robotisch an jeder Klinik mit robotischer Prostatachirurgie",
+              "rationale": "Fehlannahme: Robotische Routine aus anderen Eingriffen genüge. Sie ersetzt die hodentumorspezifische Expertise nicht (Angerer et al. 2025 / Heidenreich & Pfister 2025; EAU 2026, 6.1.3.2)."
+            }
+          },
+          "explanation": {
+            "core": "Entscheidend sind Templategrenzen, Nervschonung und Fallzahl des Zentrums. Wo beide Techniken beherrscht werden, ist die Wahl des Zugangs zulässig (EAU 2026, 6.2.2.2.1; Angerer et al. 2025 / Heidenreich & Pfister 2025). Beim markernegativen Nichtseminom im Stadium IIA empfiehlt die EAU die nervschonende Lymphadenektomie durch einen erfahrenen Operateur im spezialisierten Zentrum als initiale Therapie (EAU 2026, 6.2.2.2.1). Minimalinvasive Verfahren gelten in erfahrenen Händen als machbar und sicher, dürfen aber nur an Zentren mit hohem Eingriffsvolumen und minimalinvasiver Expertise erfolgen (EAU 2026, 6.1.3.2). Metaanalysen zeigen robotisch weniger Blutverlust und kürzere Verweildauer bei vergleichbaren Rezidivraten (Angerer et al. 2025 / Heidenreich & Pfister 2025); die Gegenposition verweist auf längere Operationszeiten und kurze Nachbeobachtung (Angerer et al. 2025 / Heidenreich & Pfister 2025). In multizentrischen Daten wurden bei nervschonendem Vorgehen höhere In-field-Rezidivraten berichtet, was die Bindung an Zentren begründet (EAU 2026, 6.1.3.2). Wer den Zugang wählt, dokumentiert die Feldgrenzen.",
+            "teaching_point": "Zugangswahl: erst Zentrum und Expertise, dann Instrument; die Leitlinie favorisiert kein Verfahren."
+          },
+          "flag_note": "Die beiden Quellartikel bewerten dieselben Daten gegensätzlich, die EAU legt keinen Zugang fest. Die richtige Antwort folgt der Leitlinie."
+        },
+        "en": {
+          "vignette": "A 29-year-old man with non-seminoma has a para-aortic lymph node of 2.5 cm with normalised markers. Nerve-sparing lymph node dissection is planned at the testicular cancer centre, where the surgeon commands both approaches. The patient asks whether robotic surgery should be used. The approach is to be defined.",
+          "lead_in": "Which recommendation is justified?",
+          "options": {
+            "A": {
+              "text": "Robotic, as blood loss and hospital stay are lower",
+              "rationale": "Misconception: perioperative advantages prove oncological equivalence. Follow-up in the robotic series is short (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "B": {
+              "text": "Open, as the robotic technique is oncologically inferior",
+              "rationale": "Misconception: missing long-term data prove inferiority. In the comparative studies recurrence rates are identical (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "C": {
+              "text": "Primary chemotherapy instead of surgery, as easier to steer",
+              "rationale": "Misconception: chemotherapy is the simpler solution. In marker-negative stage IIA, surgery is the recommended initial treatment and can spare chemotherapy (EAU 2026, 6.2.2.2.1)."
+            },
+            "D": {
+              "text": "Both approaches acceptable at the centre; experience decides",
+              "rationale": "The guideline ties its recommendation to nerve-sparing, experience and centre, not to an instrument (EAU 2026, 6.2.2.2.1; EAU 2026, 6.1.3.2)."
+            },
+            "E": {
+              "text": "Robotic at any clinic with robotic prostate surgery",
+              "rationale": "Misconception: robotic routine from other procedures suffices. It does not replace testicular cancer-specific expertise (Angerer et al. 2025 / Heidenreich & Pfister 2025; EAU 2026, 6.1.3.2)."
+            }
+          },
+          "explanation": {
+            "core": "What counts are template boundaries, nerve-sparing and the centre's caseload. Where both techniques are mastered, the choice of approach is permissible (EAU 2026, 6.2.2.2.1; Angerer et al. 2025 / Heidenreich & Pfister 2025). For marker-negative stage IIA non-seminoma the EAU recommends nerve-sparing lymph node dissection by an experienced surgeon in a specialised centre as initial treatment (EAU 2026, 6.2.2.2.1). Minimally invasive procedures are considered feasible and safe in experienced hands but must only be performed in centres with high procedure volume and minimally invasive expertise (EAU 2026, 6.1.3.2). Meta-analyses show less blood loss and shorter stay with robotic surgery at comparable recurrence rates (Angerer et al. 2025 / Heidenreich & Pfister 2025); the opposing position points to longer operating times and short follow-up (Angerer et al. 2025 / Heidenreich & Pfister 2025). Multicentre data reported higher in-field recurrence rates with nerve-sparing procedures, which justifies tying the operation to centres (EAU 2026, 6.1.3.2). Whoever chooses the approach documents the template boundaries.",
+            "teaching_point": "Choice of approach: centre and expertise first, instrument second; the guideline favours no technique."
+          },
+          "flag_note": "The two source articles judge the same data in opposite ways, and the EAU specifies no approach. The correct answer follows the guideline."
+        },
+        "es": {
+          "vignette": "Un varón de 29 años con no seminoma presenta un ganglio paraaórtico de 2,5 cm con marcadores normalizados. En el centro de tumores testiculares se planifica la linfadenectomía con preservación nerviosa; el cirujano domina ambos abordajes. El paciente pregunta si debería operarse con robot. Debe definirse el abordaje.",
+          "lead_in": "¿Qué recomendación está justificada?",
+          "options": {
+            "A": {
+              "text": "Robótico, porque el sangrado y la estancia son menores",
+              "rationale": "Error de concepto: las ventajas perioperatorias probarían la equivalencia oncológica. El seguimiento de las series robóticas es corto (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "B": {
+              "text": "Abierto, porque la técnica robótica es oncológicamente inferior",
+              "rationale": "Error de concepto: la falta de datos a largo plazo probaría la inferioridad. En los trabajos comparativos las tasas de recaída son idénticas (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "C": {
+              "text": "Quimioterapia primaria en vez de cirugía, por ser más manejable",
+              "rationale": "Error de concepto: la quimioterapia sería la solución más sencilla. En el estadio IIA sin marcadores, la cirugía es el tratamiento inicial recomendado y puede evitar la quimioterapia (EAU 2026, 6.2.2.2.1)."
+            },
+            "D": {
+              "text": "Ambos abordajes son admisibles en el centro; decide la experiencia",
+              "rationale": "La guía vincula su recomendación a la preservación nerviosa, la experiencia y el centro, no a un instrumento (EAU 2026, 6.2.2.2.1; EAU 2026, 6.1.3.2)."
+            },
+            "E": {
+              "text": "Robótico en cualquier clínica con cirugía prostática robótica",
+              "rationale": "Error de concepto: la rutina robótica de otras intervenciones bastaría. No sustituye la experiencia específica en tumores testiculares (Angerer et al. 2025 / Heidenreich & Pfister 2025; EAU 2026, 6.1.3.2)."
+            }
+          },
+          "explanation": {
+            "core": "Lo decisivo son los límites del campo, la preservación nerviosa y el volumen del centro. Donde se dominan ambas técnicas, la elección del abordaje es admisible (EAU 2026, 6.2.2.2.1; Angerer et al. 2025 / Heidenreich & Pfister 2025). En el no seminoma en estadio IIA sin marcadores, la EAU recomienda como tratamiento inicial la linfadenectomía con preservación nerviosa por un cirujano experimentado en un centro especializado (EAU 2026, 6.2.2.2.1). Los procedimientos mínimamente invasivos se consideran factibles y seguros en manos expertas, pero solo deben realizarse en centros con alto volumen y experiencia mínimamente invasiva (EAU 2026, 6.1.3.2). Los metaanálisis muestran con robot menos sangrado y estancias más cortas con tasas de recaída comparables (Angerer et al. 2025 / Heidenreich & Pfister 2025); la posición contraria señala tiempos quirúrgicos más largos y seguimiento breve (Angerer et al. 2025 / Heidenreich & Pfister 2025). Los datos multicéntricos describieron más recaídas dentro del campo con la preservación nerviosa, lo que justifica vincular la intervención a centros (EAU 2026, 6.1.3.2). Quien elige el abordaje documenta los límites del campo.",
+            "teaching_point": "Elección del abordaje: primero centro y experiencia, después instrumento; la guía no favorece ninguna técnica."
+          },
+          "flag_note": "Los dos artículos de origen valoran los mismos datos de forma opuesta y la EAU no fija ningún abordaje. La respuesta correcta sigue la guía."
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00049",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Operative Therapie",
+        "tags": [
+          "operationstechnik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "2b",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Die retroperitoneale Lymphadenektomie: robotisch-assistiert oder offen – zwei Standpunkte",
+          "citation": "Angerer M, Dieckmann KP, Wülfing C. Urologie 2025;64:1046–1054, doi:10.1007/s00120-025-02678-3; Heidenreich A, Pfister D. Urologie 2025;64:1037–1045, doi:10.1007/s00120-025-02673-8",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.1.3.2, 6.1.3.7"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-09-21"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 27-jähriger Mann hat ein Nichtseminom im Stadium IA ohne Gefäßinvasion, die Marker sind normalisiert, die Bildgebung ist unauffällig. Auswärts wird ihm eine robotisch assistierte Sentinel-Lymphadenektomie im Rahmen einer Studie als genaueres Staging angeboten. Er ist zuverlässig in der Nachsorge. Beratung zum weiteren Vorgehen.",
+          "lead_in": "Welche Empfehlung ist begründet?",
+          "options": {
+            "A": {
+              "text": "Aktive Überwachung; Studieneinschluss nur nach Aufklärung",
+              "rationale": "Ohne Gefäßinvasion ist die Überwachung die bevorzugte Option; ein Staging-Eingriff bleibt hochselektierten Fällen oder Studien vorbehalten (EAU 2026, 6.1.3.7; Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "B": {
+              "text": "Robotische Sentinel-Lymphadenektomie zum genaueren Staging",
+              "rationale": "Fehlannahme: Genaueres Staging sei automatisch Nutzen. In der zitierten Studie würden 70–80 % der Patienten mit Nichtseminom unnötig operiert (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "C": {
+              "text": "Nervschonende Lymphadenektomie beidseits als Staging-Eingriff",
+              "rationale": "Fehlannahme: Der beidseitige Eingriff sei sicherer. Er erhöht Morbidität und Ejakulationsrisiko ohne onkologischen Gewinn im Stadium IA (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "D": {
+              "text": "Adjuvant einen Zyklus BEP wegen des Rezidivrisikos geben",
+              "rationale": "Fehlannahme: Jedes Stadium I brauche eine Adjuvanz. Ohne Gefäßinvasion wird zur Überwachung geraten (EAU 2026, 6.1.3.7)."
+            },
+            "E": {
+              "text": "Adjuvante Carboplatingabe analog zum Seminom im Stadium I",
+              "rationale": "Fehlannahme: Übertragung des Seminomschemas. Carboplatin ist beim Nichtseminom keine adjuvante Option (EAU 2026, 6.1.3.7)."
+            }
+          },
+          "explanation": {
+            "core": "Im Stadium IA ohne Gefäßinvasion trägt die Überwachung. Operative Staging-Konzepte operieren die Mehrheit ohne Nutzen und gehören in Studien mit klarer Aufklärung (EAU 2026, 6.1.3.7; Angerer et al. 2025 / Heidenreich & Pfister 2025). Die EAU empfiehlt im Stadium IA Überwachung, sofern der Patient mitarbeitet, und die nervschonende Lymphadenektomie nur für hochselektierte Patienten mit Kontraindikation gegen adjuvante Chemotherapie (EAU 2026, 6.1.3.7). Als Indikationen im Stadium I nennt sie Teratome mit somatischer Malignität sowie Patienten, für die eine Chemotherapie im Rezidivfall nicht infrage kommt (EAU 2026, 6.1.3.2). In einer robotischen Serie im Stadium I hatten nur 17 von 56 Patienten Lymphknotenmetastasen (Angerer et al. 2025 / Heidenreich & Pfister 2025). Die Zuverlässigkeit in der Nachsorge ist die Voraussetzung der Überwachung und gehört aktiv geprüft (EAU 2026, 6.1.3.7). Wird eine Studie erwogen, gehört die Rate unnötiger Eingriffe in die Aufklärung (Angerer et al. 2025 / Heidenreich & Pfister 2025).",
+            "teaching_point": "Stadium IA ohne Gefäßinvasion: Überwachung; Staging-Operationen bringen der Mehrheit nur Risiko."
+          }
+        },
+        "en": {
+          "vignette": "A 27-year-old man has stage IA non-seminoma without vascular invasion, markers normalised, imaging unremarkable. Elsewhere he is offered robot-assisted sentinel lymph node dissection within a study as more accurate staging. He is reliable in follow-up. Counselling on further management.",
+          "lead_in": "Which recommendation is justified?",
+          "options": {
+            "A": {
+              "text": "Active surveillance; study inclusion only after counselling",
+              "rationale": "Without vascular invasion, surveillance is the preferred option; a staging procedure remains reserved for highly selected cases or trials (EAU 2026, 6.1.3.7; Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "B": {
+              "text": "Robotic sentinel lymph node dissection for accurate staging",
+              "rationale": "Misconception: more accurate staging is automatically a benefit. In the cited study 70–80% of non-seminoma patients would be operated on unnecessarily (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "C": {
+              "text": "Bilateral nerve-sparing lymph node dissection as staging",
+              "rationale": "Misconception: the bilateral procedure is safer. It raises morbidity and ejaculation risk without oncological gain in stage IA (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "D": {
+              "text": "Give one adjuvant cycle of BEP because of relapse risk",
+              "rationale": "Misconception: every stage I needs adjuvant treatment. Without vascular invasion, surveillance is advised (EAU 2026, 6.1.3.7)."
+            },
+            "E": {
+              "text": "Adjuvant carboplatin as for stage I seminoma",
+              "rationale": "Misconception: transfer of the seminoma schedule. Carboplatin is not an adjuvant option in non-seminoma (EAU 2026, 6.1.3.7)."
+            }
+          },
+          "explanation": {
+            "core": "In stage IA without vascular invasion surveillance carries the day. Surgical staging concepts operate on the majority without benefit and belong in trials with clear counselling (EAU 2026, 6.1.3.7; Angerer et al. 2025 / Heidenreich & Pfister 2025). In stage IA the EAU recommends surveillance provided the patient complies, and nerve-sparing lymph node dissection only for highly selected patients with a contraindication to adjuvant chemotherapy (EAU 2026, 6.1.3.7). As indications in stage I it names teratoma with a somatic malignant component and patients for whom chemotherapy at relapse is not an option (EAU 2026, 6.1.3.2). In a robotic stage I series only 17 of 56 patients had nodal metastases (Angerer et al. 2025 / Heidenreich & Pfister 2025). Reliability in follow-up is the prerequisite for surveillance and should be actively checked (EAU 2026, 6.1.3.7). If a trial is considered, the rate of unnecessary procedures belongs in the consent discussion (Angerer et al. 2025 / Heidenreich & Pfister 2025).",
+            "teaching_point": "Stage IA without vascular invasion: surveillance; staging operations bring the majority only risk."
+          }
+        },
+        "es": {
+          "vignette": "Un varón de 27 años tiene un no seminoma en estadio IA sin invasión vascular, marcadores normalizados e imagen sin hallazgos. En otro centro le ofrecen una linfadenectomía de ganglio centinela asistida por robot dentro de un estudio como estadificación más precisa. Es fiable en el seguimiento. Asesoramiento sobre la conducta.",
+          "lead_in": "¿Qué recomendación está justificada?",
+          "options": {
+            "A": {
+              "text": "Vigilancia activa; inclusión en el estudio solo tras informarle",
+              "rationale": "Sin invasión vascular, la vigilancia es la opción preferente; la cirugía de estadificación queda para casos muy seleccionados o para estudios (EAU 2026, 6.1.3.7; Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "B": {
+              "text": "Linfadenectomía de centinela robótica para estadificar mejor",
+              "rationale": "Error de concepto: estadificar mejor sería automáticamente un beneficio. En el estudio citado se operaría innecesariamente al 70 u 80 % de los pacientes con no seminoma (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "C": {
+              "text": "Linfadenectomía bilateral con preservación nerviosa para estadificar",
+              "rationale": "Error de concepto: la intervención bilateral sería más segura. Aumenta la morbilidad y el riesgo eyaculatorio sin ganancia oncológica en el estadio IA (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "D": {
+              "text": "Administrar un ciclo adyuvante de BEP por el riesgo de recaída",
+              "rationale": "Error de concepto: todo estadio I necesitaría adyuvancia. Sin invasión vascular se aconseja la vigilancia (EAU 2026, 6.1.3.7)."
+            },
+            "E": {
+              "text": "Carboplatino adyuvante como en el seminoma en estadio I",
+              "rationale": "Error de concepto: trasladar el esquema del seminoma. El carboplatino no es una opción adyuvante en el no seminoma (EAU 2026, 6.1.3.7)."
+            }
+          },
+          "explanation": {
+            "core": "En el estadio IA sin invasión vascular basta la vigilancia. Los conceptos de estadificación quirúrgica operan a la mayoría sin beneficio y corresponden a estudios con información clara (EAU 2026, 6.1.3.7; Angerer et al. 2025 / Heidenreich & Pfister 2025). En el estadio IA la EAU recomienda vigilancia si el paciente colabora, y la linfadenectomía con preservación nerviosa solo en pacientes muy seleccionados con contraindicación para la quimioterapia adyuvante (EAU 2026, 6.1.3.7). Como indicaciones en el estadio I cita el teratoma con componente maligno somático y los pacientes para quienes la quimioterapia en la recaída no es viable (EAU 2026, 6.1.3.2). En una serie robótica en estadio I solo 17 de 56 pacientes tenían metástasis ganglionares (Angerer et al. 2025 / Heidenreich & Pfister 2025). La fiabilidad en el seguimiento es el requisito de la vigilancia y debe comprobarse activamente (EAU 2026, 6.1.3.7). Si se plantea un estudio, la tasa de intervenciones innecesarias forma parte de la información (Angerer et al. 2025 / Heidenreich & Pfister 2025).",
+            "teaching_point": "Estadio IA sin invasión vascular: vigilancia; las cirugías de estadificación solo aportan riesgo a la mayoría."
+          }
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00050",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Operative Therapie",
+        "tags": [
+          "operationstechnik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Die retroperitoneale Lymphadenektomie: robotisch-assistiert oder offen – zwei Standpunkte",
+          "citation": "Angerer M, Dieckmann KP, Wülfing C. Urologie 2025;64:1046–1054, doi:10.1007/s00120-025-02678-3; Heidenreich A, Pfister D. Urologie 2025;64:1037–1045, doi:10.1007/s00120-025-02673-8",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.3.2.2"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-09-21"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 31-jähriger Mann ist nach drei Zyklen BEP wegen eines Nichtseminoms markernegativ. Die Bildgebung zeigt ein solitäres Residuum von 2 cm links paraaortal, ventral der Aorta gelegen; retroperitoneale Voroperationen bestehen nicht. Das Zentrum beherrscht offene und robotische Technik. Festlegung des operativen Vorgehens.",
+          "lead_in": "Welches Vorgehen ist begründet?",
+          "options": {
+            "A": {
+              "text": "Beobachtung, da das Residuum kleiner als 3 cm ist",
+              "rationale": "Fehlannahme: Kleine Residuen dürften bleiben. Die Resektionspflicht beginnt über 1 cm, nicht über 3 cm (EAU 2026, 6.3.2.2)."
+            },
+            "B": {
+              "text": "Nur den sichtbaren Herd entfernen und das Feld belassen",
+              "rationale": "Fehlannahme: Die Entfernung des sichtbaren Herdes genüge. Die reine Ausschälung ist ausdrücklich nicht statthaft (EAU 2026, 6.3.2.2)."
+            },
+            "C": {
+              "text": "FDG-PET-CT und Entscheidung anhand des Ergebnisses",
+              "rationale": "Fehlannahme: PET kläre das Restaging beim Nichtseminom. Dafür ist es nicht indiziert (EAU 2026, 6.3.2.2)."
+            },
+            "D": {
+              "text": "Zwei weitere Zyklen Chemotherapie statt Operation",
+              "rationale": "Fehlannahme: Mehr Chemotherapie ersetze die Operation. Teratomanteile sprechen nicht an, die Resektion ist der kurative Schritt (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "E": {
+              "text": "Template-Resektion, robotisch am Zentrum vertretbar",
+              "rationale": "Größe, Lage und fehlende Voroperation erfüllen die publizierten Auswahlkriterien; laparoskopisch oder robotisch sind vergleichbare Ergebnisse möglich (Angerer et al. 2025 / Heidenreich & Pfister 2025; EAU 2026, 6.3.2.2)."
+            }
+          },
+          "explanation": {
+            "core": "Reseziert wird in den Feldgrenzen, weil das Residuum über 1 cm misst und die Marker normal sind (EAU 2026, 6.3.2.2). Bei kleinem, günstig gelegenem Befund ist der robotische Zugang am Zentrum vertretbar (Angerer et al. 2025 / Heidenreich & Pfister 2025). Die EAU verlangt die Resektion sichtbarer Residuen über 1 cm bei normalen oder sich normalisierenden Markern, innerhalb von sechs bis acht Wochen nach dem letzten Zyklus, und hält laparoskopische oder robotische Eingriffe bei geringem Residualvolumen in sehr erfahrenen Händen für gleichwertig (EAU 2026, 6.3.2.2). Der Artikel nennt als Auswahlkriterien ein bis zwei Residuen von 10 bis 50 mm, Lage ventral oder lateral der großen Gefäße, normalisierte Marker und keine retroperitoneale Voroperation; damit lag das rezidivfreie Überleben nach zwei Jahren bei 98 % (Angerer et al. 2025 / Heidenreich & Pfister 2025). Atypische Rezidivmuster nach minimalinvasivem Vorgehen sind berichtet; das spricht für Zentren, die beide Techniken beherrschen (EAU 2026, 6.3.2.2; Angerer et al. 2025 / Heidenreich & Pfister 2025). Die Feldgrenzen bleiben unabhängig vom Instrument dieselben (Angerer et al. 2025 / Heidenreich & Pfister 2025).",
+            "teaching_point": "Kleines Residuum, günstige Lage, keine Voroperation: robotische Template-Resektion am Zentrum vertretbar."
+          }
+        },
+        "en": {
+          "vignette": "A 31-year-old man is marker-negative after three cycles of BEP for non-seminoma. Imaging shows a solitary 2 cm residual mass left para-aortic, ventral to the aorta; there is no previous retroperitoneal surgery. The centre commands both open and robotic technique. The surgical approach is to be defined.",
+          "lead_in": "Which management is justified?",
+          "options": {
+            "A": {
+              "text": "Observation, as the residual mass is smaller than 3 cm",
+              "rationale": "Misconception: small residual masses may be left. The duty to resect starts above 1 cm, not above 3 cm (EAU 2026, 6.3.2.2)."
+            },
+            "B": {
+              "text": "Remove only the visible lesion and leave the field",
+              "rationale": "Misconception: removing the visible lesion suffices. Mere lumpectomy is explicitly not permissible (EAU 2026, 6.3.2.2)."
+            },
+            "C": {
+              "text": "FDG-PET/CT and decision based on the result",
+              "rationale": "Misconception: PET clarifies restaging in non-seminoma. It is not indicated for this (EAU 2026, 6.3.2.2)."
+            },
+            "D": {
+              "text": "Two further cycles of chemotherapy instead of surgery",
+              "rationale": "Misconception: more chemotherapy replaces surgery. Teratoma components do not respond; resection is the curative step (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "E": {
+              "text": "Template resection, robotic acceptable at the centre",
+              "rationale": "Size, location and absence of previous surgery meet the published selection criteria; laparoscopic or robotic surgery can achieve comparable outcomes (Angerer et al. 2025 / Heidenreich & Pfister 2025; EAU 2026, 6.3.2.2)."
+            }
+          },
+          "explanation": {
+            "core": "Resection follows the template boundaries because the residual mass exceeds 1 cm and markers are normal (EAU 2026, 6.3.2.2). With a small, favourably located lesion the robotic approach is acceptable at the centre (Angerer et al. 2025 / Heidenreich & Pfister 2025). The EAU requires resection of visible residual masses above 1 cm when markers are normal or normalising, within six to eight weeks of the last cycle, and regards laparoscopic or robotic procedures as equivalent for low-volume residual disease in highly experienced hands (EAU 2026, 6.3.2.2). The article names as selection criteria one to two residual masses of 10 to 50 mm, location ventral or lateral to the great vessels, normalised markers and no previous retroperitoneal surgery; with these, two-year relapse-free survival was 98% (Angerer et al. 2025 / Heidenreich & Pfister 2025). Atypical recurrence patterns after minimally invasive surgery have been reported, which argues for centres that command both techniques (EAU 2026, 6.3.2.2; Angerer et al. 2025 / Heidenreich & Pfister 2025). Template boundaries remain the same whatever the instrument (Angerer et al. 2025 / Heidenreich & Pfister 2025).",
+            "teaching_point": "Small residual mass, favourable location, no previous surgery: robotic template resection acceptable at the centre."
+          }
+        },
+        "es": {
+          "vignette": "Un varón de 31 años está sin marcadores tras tres ciclos de BEP por un no seminoma. La imagen muestra un residuo único de 2 cm paraaórtico izquierdo, ventral a la aorta; no hay cirugía retroperitoneal previa. El centro domina la técnica abierta y la robótica. Debe definirse el abordaje quirúrgico.",
+          "lead_in": "¿Qué conducta está justificada?",
+          "options": {
+            "A": {
+              "text": "Observación, puesto que el residuo mide menos de 3 cm",
+              "rationale": "Error de concepto: los residuos pequeños podrían dejarse. La obligación de resecar empieza por encima de 1 cm, no de 3 cm (EAU 2026, 6.3.2.2)."
+            },
+            "B": {
+              "text": "Extirpar solo la lesión visible y dejar el campo",
+              "rationale": "Error de concepto: bastaría con extirpar la lesión visible. La simple enucleación no es admisible (EAU 2026, 6.3.2.2)."
+            },
+            "C": {
+              "text": "PET-TC con FDG y decisión según el resultado",
+              "rationale": "Error de concepto: la PET aclararía la reestadificación en el no seminoma. No está indicada para ello (EAU 2026, 6.3.2.2)."
+            },
+            "D": {
+              "text": "Dos ciclos más de quimioterapia en lugar de cirugía",
+              "rationale": "Error de concepto: más quimioterapia sustituiría a la cirugía. Los componentes teratomatosos no responden y la resección es el paso curativo (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "E": {
+              "text": "Resección del campo, robótica admisible en el centro",
+              "rationale": "Tamaño, localización y ausencia de cirugía previa cumplen los criterios de selección publicados; por vía laparoscópica o robótica se logran resultados comparables (Angerer et al. 2025 / Heidenreich & Pfister 2025; EAU 2026, 6.3.2.2)."
+            }
+          },
+          "explanation": {
+            "core": "Se reseca dentro de los límites del campo porque el residuo supera 1 cm y los marcadores son normales (EAU 2026, 6.3.2.2). Con una lesión pequeña y bien situada, el abordaje robótico es admisible en el centro (Angerer et al. 2025 / Heidenreich & Pfister 2025). La EAU exige resecar los residuos visibles de más de 1 cm con marcadores normales o en normalización, dentro de las seis a ocho semanas posteriores al último ciclo, y considera equivalentes los procedimientos laparoscópicos o robóticos en enfermedad residual de bajo volumen y en manos muy expertas (EAU 2026, 6.3.2.2). El artículo cita como criterios de selección uno o dos residuos de 10 a 50 mm, situados ventral o lateralmente a los grandes vasos, marcadores normalizados y ausencia de cirugía retroperitoneal previa; con ellos la supervivencia libre de recaída a dos años fue del 98 % (Angerer et al. 2025 / Heidenreich & Pfister 2025). Se han descrito patrones de recaída atípicos tras la cirugía mínimamente invasiva, lo que respalda a los centros que dominan ambas técnicas (EAU 2026, 6.3.2.2; Angerer et al. 2025 / Heidenreich & Pfister 2025). Los límites del campo son los mismos con cualquier instrumento (Angerer et al. 2025 / Heidenreich & Pfister 2025).",
+            "teaching_point": "Residuo pequeño, bien situado y sin cirugía previa: resección robótica del campo admisible en el centro."
+          }
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00051",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Operative Therapie",
+        "tags": [
+          "operationstechnik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 7,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Die retroperitoneale Lymphadenektomie: robotisch-assistiert oder offen – zwei Standpunkte",
+          "citation": "Angerer M, Dieckmann KP, Wülfing C. Urologie 2025;64:1046–1054, doi:10.1007/s00120-025-02678-3; Heidenreich A, Pfister D. Urologie 2025;64:1037–1045, doi:10.1007/s00120-025-02673-8",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.3.2.2, 6.3.3.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-09-21"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 38-jähriger Mann mit intermediärer Prognose hat nach vier Zyklen BEP ein interaortocavales Residuum von 7 cm mit Kontakt zur V. cava; retroperitoneal wurde er bereits voroperiert. Die Marker sind normalisiert. Das Zentrum bietet beide Zugänge an. Festlegung des operativen Vorgehens.",
+          "lead_in": "Welches Vorgehen ist begründet?",
+          "options": {
+            "A": {
+              "text": "Robotisch beginnen und bei Bedarf offen konvertieren",
+              "rationale": "Fehlannahme: Die Konversion sei ein gleichwertiger Plan. Bei absehbar komplexem Situs beginnt man nicht mit dem ungeeigneten Zugang."
+            },
+            "B": {
+              "text": "Nur die gut erreichbaren Anteile robotisch entfernen",
+              "rationale": "Fehlannahme: Teilresektion sei ein Kompromiss. Unvollständige Resektion erhöht die Rezidivrate, und die Zweitoperation ist mit erhöhter Sterberate verbunden (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "C": {
+              "text": "Offene Resektion mit interdisziplinärer Bereitschaft",
+              "rationale": "Größe, zentrale Lage, Gefäßkontakt und Voroperation sprechen für den offenen Zugang mit interdisziplinärer Bereitschaft (Angerer et al. 2025 / Heidenreich & Pfister 2025; EAU 2026, 6.3.3.1)."
+            },
+            "D": {
+              "text": "Zwei Zyklen Salvage-Chemotherapie vor der Operation",
+              "rationale": "Fehlannahme: Mehr Chemotherapie verkleinere das Problem. Ohne Markerprogression ist Salvage-Therapie nicht indiziert (EAU 2026, 6.3.1)."
+            },
+            "E": {
+              "text": "Beobachtung mit dreimonatiger Bildgebungskontrolle",
+              "rationale": "Fehlannahme: Abwarten bei normalen Markern. Residuen über 1 cm werden reseziert, unabhängig von der Markerlage (EAU 2026, 6.3.2.2)."
+            }
+          },
+          "explanation": {
+            "core": "Die komplette Resektion in den Feldgrenzen ist der kurative Schritt, und dieser Situs verlangt den offenen Zugang mit Bereitschaft zu Gefäß- und Viszeralchirurgie (EAU 2026, 6.3.3.1; Angerer et al. 2025 / Heidenreich & Pfister 2025). Bei intermediärer oder schlechter Prognose und Residuen über 5 cm liegt die Wahrscheinlichkeit gefäßchirurgischer Maßnahmen bei bis zu 20 %; solche Fälle gehören an Zentren mit interdisziplinärer Chirurgie (EAU 2026, 6.3.3.1). Minimalinvasive Eingriffe kommen nur bei geringem Residualvolumen infrage (EAU 2026, 6.3.2.2). Der Artikel benennt großvolumige oder multifokale Befunde und abdominelle Voreingriffe ausdrücklich als Domäne der offenen Chirurgie (Angerer et al. 2025 / Heidenreich & Pfister 2025). Eine suboptimale erste Operation lässt sich durch nachfolgende Chemotherapie nicht ausgleichen (Angerer et al. 2025 / Heidenreich & Pfister 2025). Die Planung schließt Gefäß-, Viszeral- und gegebenenfalls Wirbelsäulenchirurgie ein (EAU 2026, 6.3.3.1).",
+            "teaching_point": "Großvolumig, zentral, voroperiert: offener Zugang mit interdisziplinärer Bereitschaft statt minimalinvasivem Versuch."
+          }
+        },
+        "en": {
+          "vignette": "A 38-year-old man with intermediate prognosis has a 7 cm interaortocaval residual mass in contact with the vena cava after four cycles of BEP; he has had previous retroperitoneal surgery. Markers have normalised. The centre offers both approaches. The surgical approach is to be defined.",
+          "lead_in": "Which management is justified?",
+          "options": {
+            "A": {
+              "text": "Start robotically and convert to open if needed",
+              "rationale": "Misconception: conversion is an equivalent plan. With a foreseeably complex field one does not start with the unsuitable approach."
+            },
+            "B": {
+              "text": "Remove only the easily accessible parts robotically",
+              "rationale": "Misconception: partial resection is a compromise. Incomplete resection raises the recurrence rate, and reoperation carries increased mortality (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "C": {
+              "text": "Open resection with multidisciplinary standby",
+              "rationale": "Size, central location, vascular contact and previous surgery argue for the open approach with multidisciplinary standby (Angerer et al. 2025 / Heidenreich & Pfister 2025; EAU 2026, 6.3.3.1)."
+            },
+            "D": {
+              "text": "Two cycles of salvage chemotherapy before surgery",
+              "rationale": "Misconception: more chemotherapy shrinks the problem. Without marker progression salvage therapy is not indicated (EAU 2026, 6.3.1)."
+            },
+            "E": {
+              "text": "Observation with imaging control every three months",
+              "rationale": "Misconception: waiting with normal markers. Residual masses above 1 cm are resected regardless of marker status (EAU 2026, 6.3.2.2)."
+            }
+          },
+          "explanation": {
+            "core": "Complete resection within the template boundaries is the curative step, and this field requires the open approach with readiness for vascular and visceral surgery (EAU 2026, 6.3.3.1; Angerer et al. 2025 / Heidenreich & Pfister 2025). With intermediate or poor prognosis and residual masses above 5 cm, the probability of vascular procedures is as high as 20%; such cases belong in centres capable of multidisciplinary surgery (EAU 2026, 6.3.3.1). Minimally invasive procedures are an option only for low-volume residual disease (EAU 2026, 6.3.2.2). The article names high-volume or multifocal findings and previous abdominal surgery explicitly as the domain of open surgery (Angerer et al. 2025 / Heidenreich & Pfister 2025). A suboptimal first operation cannot be compensated by subsequent chemotherapy (Angerer et al. 2025 / Heidenreich & Pfister 2025). Planning includes vascular, visceral and, if needed, spinal surgery (EAU 2026, 6.3.3.1).",
+            "teaching_point": "High-volume, central, previously operated: open approach with multidisciplinary standby instead of a minimally invasive attempt."
+          }
+        },
+        "es": {
+          "vignette": "Un varón de 38 años con pronóstico intermedio presenta tras cuatro ciclos de BEP un residuo interaortocavo de 7 cm en contacto con la vena cava; ya fue operado en el retroperitoneo. Los marcadores están normalizados. El centro ofrece ambos abordajes. Debe definirse el abordaje quirúrgico.",
+          "lead_in": "¿Qué conducta está justificada?",
+          "options": {
+            "A": {
+              "text": "Empezar por vía robótica y convertir a abierta si hace falta",
+              "rationale": "Error de concepto: la conversión sería un plan equivalente. Ante un campo previsiblemente complejo no se empieza por el abordaje inadecuado."
+            },
+            "B": {
+              "text": "Extirpar por vía robótica solo las porciones accesibles",
+              "rationale": "Error de concepto: la resección parcial sería un compromiso. La resección incompleta aumenta la recaída y la reintervención conlleva mayor mortalidad (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "C": {
+              "text": "Resección abierta con disponibilidad multidisciplinar",
+              "rationale": "El tamaño, la localización central, el contacto vascular y la cirugía previa hablan a favor del abordaje abierto con disponibilidad multidisciplinar (Angerer et al. 2025 / Heidenreich & Pfister 2025; EAU 2026, 6.3.3.1)."
+            },
+            "D": {
+              "text": "Dos ciclos de quimioterapia de rescate antes de operar",
+              "rationale": "Error de concepto: más quimioterapia reduciría el problema. Sin progresión de marcadores el rescate no está indicado (EAU 2026, 6.3.1)."
+            },
+            "E": {
+              "text": "Observación con control de imagen cada tres meses",
+              "rationale": "Error de concepto: esperar con marcadores normales. Los residuos de más de 1 cm se resecan con independencia de los marcadores (EAU 2026, 6.3.2.2)."
+            }
+          },
+          "explanation": {
+            "core": "La resección completa dentro de los límites del campo es el paso curativo, y este campo exige el abordaje abierto con disponibilidad para cirugía vascular y visceral (EAU 2026, 6.3.3.1; Angerer et al. 2025 / Heidenreich & Pfister 2025). Con pronóstico intermedio o desfavorable y residuos de más de 5 cm, la probabilidad de maniobras vasculares llega al 20 %; estos casos corresponden a centros con cirugía multidisciplinar (EAU 2026, 6.3.3.1). Los procedimientos mínimamente invasivos solo entran en juego con enfermedad residual de bajo volumen (EAU 2026, 6.3.2.2). El artículo señala expresamente los hallazgos voluminosos o multifocales y la cirugía abdominal previa como dominio de la cirugía abierta (Angerer et al. 2025 / Heidenreich & Pfister 2025). Una primera operación subóptima no se compensa con quimioterapia posterior (Angerer et al. 2025 / Heidenreich & Pfister 2025). La planificación incluye cirugía vascular, visceral y, si procede, de columna (EAU 2026, 6.3.3.1).",
+            "teaching_point": "Voluminoso, central y con cirugía previa: abordaje abierto con disponibilidad multidisciplinar en lugar de intento mínimamente invasivo."
+          }
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00052",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Operative Therapie",
+        "tags": [
+          "operationstechnik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "2b",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Die retroperitoneale Lymphadenektomie: robotisch-assistiert oder offen – zwei Standpunkte",
+          "citation": "Angerer M, Dieckmann KP, Wülfing C. Urologie 2025;64:1046–1054, doi:10.1007/s00120-025-02678-3; Heidenreich A, Pfister D. Urologie 2025;64:1037–1045, doi:10.1007/s00120-025-02673-8",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.1.3.2, 6.3.2.2, 6.3.3.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-09-21"
+      },
+      "content": {
+        "de": {
+          "vignette": "Eine Klinik führt etwa drei retroperitoneale Lymphadenektomien pro Jahr durch, hat aber große Erfahrung mit robotischer Prostatachirurgie. Vorgestellt wird ein 32-jähriger Mann mit einem 5 cm großen Residuum nach Chemotherapie eines Nichtseminoms, Marker normalisiert. Festlegung, wo operiert wird.",
+          "lead_in": "Welches Vorgehen ist begründet?",
+          "options": {
+            "A": {
+              "text": "Vor Ort robotisch operieren, die Konsole ist vertraut",
+              "rationale": "Fehlannahme: Robotische Routine sei übertragbar. Sie ersetzt die hodentumorspezifische Expertise nicht (Angerer et al. 2025 / Heidenreich & Pfister 2025; EAU 2026, 6.1.3.2)."
+            },
+            "B": {
+              "text": "Verlegung an ein Zentrum für Hodentumorchirurgie",
+              "rationale": "Fallzahl und Ergebnisqualität hängen zusammen: An spezialisierten Zentren sinkt die perioperative Sterblichkeit deutlich (EAU 2026, 6.3.3.1; Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "C": {
+              "text": "Vor Ort offen operieren mit auswärtiger Assistenz",
+              "rationale": "Fehlannahme: Ein Gastoperateur löse das Volumenproblem. Zentrumsqualität umfasst Team, Intensivmedizin und Nachsorge."
+            },
+            "D": {
+              "text": "Zwei weitere Zyklen Chemotherapie vor der Operation",
+              "rationale": "Fehlannahme: Chemotherapie schaffe bessere Bedingungen. Ohne Markerprogression ist sie nicht indiziert und verzögert die Resektion (EAU 2026, 6.3.1)."
+            },
+            "E": {
+              "text": "Beobachten und erst bei Größenzunahme operieren",
+              "rationale": "Fehlannahme: Wachstum abwarten. Residuen über 1 cm werden nach Markernormalisierung reseziert (EAU 2026, 6.3.2.2)."
+            }
+          },
+          "explanation": {
+            "core": "Nicht das Instrument entscheidet, sondern die Fallzahl. Ein 5 cm großes Residuum gehört an ein Zentrum mit Hodentumorchirurgie (EAU 2026, 6.3.3.1; Angerer et al. 2025 / Heidenreich & Pfister 2025). In Deutschland führen 150 urologische Kliniken solche Eingriffe durch, über 80 % davon höchstens vier pro Jahr, und nur 15 % der Patienten werden an ausgewiesenen Zentren behandelt (Angerer et al. 2025 / Heidenreich & Pfister 2025). Die EAU beziffert den Unterschied: An spezialisierten Zentren sinkt die perioperative Sterblichkeit von 6 % auf 0,8 %, und spezialisierte Operateure senken die Lokalrezidivrate von 16 % auf 3 % bei höherer Rate kompletter Resektionen (EAU 2026, 6.3.3.1). Die Verlegung ist keine Schwäche, sondern die erste Qualitätsentscheidung (Angerer et al. 2025 / Heidenreich & Pfister 2025). Der Eingriff sollte innerhalb von sechs bis acht Wochen nach dem letzten Zyklus erfolgen, das begrenzt den Zeitrahmen der Organisation (EAU 2026, 6.3.2.2).",
+            "teaching_point": "Drei Eingriffe pro Jahr sind kein Zentrum: Verlegung vor Instrumentenwahl."
+          }
+        },
+        "en": {
+          "vignette": "A hospital performs about three retroperitoneal lymph node dissections per year but has broad experience with robotic prostate surgery. A 32-year-old man presents with a 5 cm residual mass after chemotherapy for non-seminoma, markers normalised. Where to operate is to be decided.",
+          "lead_in": "Which management is justified?",
+          "options": {
+            "A": {
+              "text": "Operate robotically on site, the console is familiar",
+              "rationale": "Misconception: robotic routine is transferable. It does not replace testicular cancer-specific expertise (Angerer et al. 2025 / Heidenreich & Pfister 2025; EAU 2026, 6.1.3.2)."
+            },
+            "B": {
+              "text": "Transfer to a centre for testicular cancer surgery",
+              "rationale": "Caseload and outcome quality are linked: at specialised centres perioperative mortality falls markedly (EAU 2026, 6.3.3.1; Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "C": {
+              "text": "Operate openly on site with a visiting surgeon",
+              "rationale": "Misconception: a visiting surgeon solves the volume problem. Centre quality includes team, intensive care and follow-up."
+            },
+            "D": {
+              "text": "Two further cycles of chemotherapy before surgery",
+              "rationale": "Misconception: chemotherapy creates better conditions. Without marker progression it is not indicated and delays resection (EAU 2026, 6.3.1)."
+            },
+            "E": {
+              "text": "Observe and operate only if the mass increases",
+              "rationale": "Misconception: wait for growth. Residual masses above 1 cm are resected once markers have normalised (EAU 2026, 6.3.2.2)."
+            }
+          },
+          "explanation": {
+            "core": "It is not the instrument that decides but the caseload. A 5 cm residual mass belongs in a centre for testicular cancer surgery (EAU 2026, 6.3.3.1; Angerer et al. 2025 / Heidenreich & Pfister 2025). In Germany 150 urological departments perform such procedures, more than 80% of them at most four per year, and only 15% of patients are treated at designated centres (Angerer et al. 2025 / Heidenreich & Pfister 2025). The EAU quantifies the difference: at specialised centres perioperative mortality falls from 6% to 0.8%, and specialised surgeons reduce the local recurrence rate from 16% to 3% with a higher rate of complete resections (EAU 2026, 6.3.3.1). Transfer is not a weakness but the first quality decision (Angerer et al. 2025 / Heidenreich & Pfister 2025). Surgery should take place within six to eight weeks of the last cycle, which limits the organisational window (EAU 2026, 6.3.2.2).",
+            "teaching_point": "Three procedures a year is not a centre: transfer before choosing the instrument."
+          }
+        },
+        "es": {
+          "vignette": "Un hospital realiza unas tres linfadenectomías retroperitoneales al año, pero tiene amplia experiencia en cirugía prostática robótica. Se presenta un varón de 32 años con un residuo de 5 cm tras quimioterapia por un no seminoma, con marcadores normalizados. Debe decidirse dónde se opera.",
+          "lead_in": "¿Qué conducta está justificada?",
+          "options": {
+            "A": {
+              "text": "Operar in situ con robot, la consola resulta familiar",
+              "rationale": "Error de concepto: la rutina robótica sería trasladable. No sustituye la experiencia específica en tumores testiculares (Angerer et al. 2025 / Heidenreich & Pfister 2025; EAU 2026, 6.1.3.2)."
+            },
+            "B": {
+              "text": "Traslado a un centro de cirugía de tumores testiculares",
+              "rationale": "El volumen y la calidad de los resultados van unidos: en los centros especializados la mortalidad perioperatoria baja de forma marcada (EAU 2026, 6.3.3.1; Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "C": {
+              "text": "Operar in situ por vía abierta con un cirujano invitado",
+              "rationale": "Error de concepto: un cirujano invitado resolvería el problema de volumen. La calidad del centro incluye equipo, cuidados intensivos y seguimiento."
+            },
+            "D": {
+              "text": "Dos ciclos más de quimioterapia antes de la cirugía",
+              "rationale": "Error de concepto: la quimioterapia crearía mejores condiciones. Sin progresión de marcadores no está indicada y retrasa la resección (EAU 2026, 6.3.1)."
+            },
+            "E": {
+              "text": "Observar y operar solo si la masa aumenta de tamaño",
+              "rationale": "Error de concepto: esperar al crecimiento. Los residuos de más de 1 cm se resecan una vez normalizados los marcadores (EAU 2026, 6.3.2.2)."
+            }
+          },
+          "explanation": {
+            "core": "No decide el instrumento, sino el volumen de casos. Un residuo de 5 cm corresponde a un centro de cirugía de tumores testiculares (EAU 2026, 6.3.3.1; Angerer et al. 2025 / Heidenreich & Pfister 2025). En Alemania 150 servicios de urología realizan estas intervenciones, más del 80 % de ellos como mucho cuatro al año, y solo el 15 % de los pacientes se trata en centros acreditados (Angerer et al. 2025 / Heidenreich & Pfister 2025). La EAU cuantifica la diferencia: en los centros especializados la mortalidad perioperatoria cae del 6 % al 0,8 %, y los cirujanos especializados reducen la recaída local del 16 % al 3 % con más resecciones completas (EAU 2026, 6.3.3.1). El traslado no es una debilidad, sino la primera decisión de calidad (Angerer et al. 2025 / Heidenreich & Pfister 2025). La intervención debería realizarse en las seis a ocho semanas posteriores al último ciclo, lo que acota el margen organizativo (EAU 2026, 6.3.2.2).",
+            "teaching_point": "Tres intervenciones al año no son un centro: trasladar antes de elegir el instrumento."
+          }
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00053",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Operative Therapie",
+        "tags": [
+          "operationstechnik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "kontrovers",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Die retroperitoneale Lymphadenektomie: robotisch-assistiert oder offen – zwei Standpunkte",
+          "citation": "Angerer M, Dieckmann KP, Wülfing C. Urologie 2025;64:1046–1054, doi:10.1007/s00120-025-02678-3; Heidenreich A, Pfister D. Urologie 2025;64:1037–1045, doi:10.1007/s00120-025-02673-8",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.1.3.2, 6.2.2.2.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-21",
+        "last_reviewed": "2026-09-21",
+        "expires": "2027-03-31"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 26-jähriger Mann mit Kinderwunsch soll wegen eines markernegativen Nichtseminoms im Stadium IIA eine nervschonende Lymphadenektomie erhalten. Er fragt, wie wahrscheinlich die antegrade Ejakulation erhalten bleibt, und hat dazu widersprüchliche Zahlen gelesen. Aufklärungsgespräch vor dem Eingriff.",
+          "lead_in": "Wie ist die Aufklärung zu gestalten?",
+          "options": {
+            "A": {
+              "text": "Erhalt zusichern, Einzelzentren berichten 100 %",
+              "rationale": "Fehlannahme: Die beste publizierte Zahl sei die erwartbare. Einzelzentrumsserien sind selektiert und nicht übertragbar (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "B": {
+              "text": "Ejakulationsverlust als Regelfolge des Eingriffs nennen",
+              "rationale": "Fehlannahme: Der Eingriff koste regelhaft die Ejakulation. Nervschonend bleibt sie in der Mehrzahl der Fälle erhalten (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "C": {
+              "text": "Zahlen offenlassen, die Datenlage ist widersprüchlich",
+              "rationale": "Fehlannahme: Widersprüchliche Daten entbänden von der Aufklärung. Gerade dann gehört die Spannbreite ins Gespräch."
+            },
+            "D": {
+              "text": "Spannbreite von 65 bis 100 % je nach Serie benennen",
+              "rationale": "Die publizierten Raten reichen von 100 % in Einzelzentrumsserien bis 65 bis 71 % in multizentrischen Daten und Metaanalysen (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "E": {
+              "text": "Auf die Nervschonung verzichten, um radikaler zu sein",
+              "rationale": "Fehlannahme: Radikalität schlage Funktion. Die Nervschonung ist Teil des empfohlenen Vorgehens im markernegativen Stadium IIA (EAU 2026, 6.2.2.2.1)."
+            }
+          },
+          "explanation": {
+            "core": "Aufgeklärt wird mit der Spannbreite der publizierten Raten und mit dem Hinweis, dass Technik und Zentrumserfahrung die Rate bestimmen (Angerer et al. 2025 / Heidenreich & Pfister 2025; EAU 2026, 6.1.3.2). Einzelzentrumsserien zur primären robotischen Lymphadenektomie berichten antegrade Ejakulation in 100 % (Angerer et al. 2025 / Heidenreich & Pfister 2025). Multizentrische Daten und Metaanalysen nennen 65 bis 71 %, einzelne Serien 67 und 74 % (Angerer et al. 2025 / Heidenreich & Pfister 2025). Nach offener nervschonender Operation beim Seminom im Stadium II blieb sie in 90 bis 97 % erhalten (Angerer et al. 2025 / Heidenreich & Pfister 2025). Die EAU berichtet aus multizentrischen Daten höhere In-field-Rezidiv- und Komplikationsraten beim nervschonenden Vorgehen und bindet den Eingriff an erfahrene Operateure im Zentrum (EAU 2026, 6.1.3.2). Die Kryokonservierung wird vor dem Eingriff angesprochen. Wer beide Zahlenwelten kennt, kann die Erwartung des Patienten realistisch einordnen und Enttäuschungen vermeiden.",
+            "teaching_point": "Ejakulationserhalt: Einzelzentren 100 %, multizentrisch 65 bis 71 % — aufgeklärt wird mit der Spannbreite."
+          },
+          "flag_note": "Die beiden Quellartikel nennen für dieselbe Frage 100 % gegenüber 65 bis 71 %; die Differenz beruht auf Selektion und Studiendesign, nicht auf neuen Daten."
+        },
+        "en": {
+          "vignette": "A 26-year-old man who wishes to father children is to undergo nerve-sparing lymph node dissection for marker-negative stage IIA non-seminoma. He asks how likely antegrade ejaculation is to be preserved and has read conflicting figures. Consent discussion before surgery.",
+          "lead_in": "How should the counselling be framed?",
+          "options": {
+            "A": {
+              "text": "Promise preservation, single centres report 100%",
+              "rationale": "Misconception: the best published figure is the expected one. Single-centre series are selected and not transferable (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "B": {
+              "text": "Present loss of ejaculation as a regular consequence",
+              "rationale": "Misconception: the procedure regularly costs ejaculation. With nerve-sparing it is preserved in the majority of cases (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "C": {
+              "text": "Leave figures open, the data are contradictory",
+              "rationale": "Misconception: contradictory data exempt from counselling. Precisely then the range belongs in the conversation."
+            },
+            "D": {
+              "text": "State the range of 65 to 100% depending on series",
+              "rationale": "Published rates range from 100% in single-centre series to 65 to 71% in multicentre data and meta-analyses (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "E": {
+              "text": "Omit nerve-sparing in order to be more radical",
+              "rationale": "Misconception: radicality beats function. Nerve-sparing is part of the recommended approach in marker-negative stage IIA (EAU 2026, 6.2.2.2.1)."
+            }
+          },
+          "explanation": {
+            "core": "Counselling uses the range of published rates and the point that technique and centre experience determine it (Angerer et al. 2025 / Heidenreich & Pfister 2025; EAU 2026, 6.1.3.2). Single-centre series of primary robotic lymph node dissection report antegrade ejaculation in 100% (Angerer et al. 2025 / Heidenreich & Pfister 2025). Multicentre data and meta-analyses give 65 to 71%, individual series 67 and 74% (Angerer et al. 2025 / Heidenreich & Pfister 2025). After open nerve-sparing surgery in stage II seminoma it was preserved in 90 to 97% (Angerer et al. 2025 / Heidenreich & Pfister 2025). From multicentre data the EAU reports higher in-field recurrence and complication rates with nerve-sparing procedures and ties the operation to experienced surgeons in centres (EAU 2026, 6.1.3.2). Sperm cryopreservation is addressed before the procedure. Knowing both sets of figures allows the patient's expectation to be set realistically.",
+            "teaching_point": "Ejaculation preservation: single centres 100%, multicentre 65 to 71% — counsel with the range."
+          },
+          "flag_note": "The two source articles give 100% versus 65 to 71% for the same question; the difference rests on selection and study design, not on new data."
+        },
+        "es": {
+          "vignette": "Un varón de 26 años con deseo de paternidad va a someterse a una linfadenectomía con preservación nerviosa por un no seminoma en estadio IIA sin marcadores. Pregunta con qué probabilidad se conserva la eyaculación anterógrada y ha leído cifras contradictorias. Consentimiento informado antes de la intervención.",
+          "lead_in": "¿Cómo debe plantearse la información?",
+          "options": {
+            "A": {
+              "text": "Asegurar la conservación, algunos centros describen el 100 %",
+              "rationale": "Error de concepto: la mejor cifra publicada sería la esperable. Las series de un solo centro están seleccionadas y no son trasladables (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "B": {
+              "text": "Presentar la pérdida de eyaculación como consecuencia habitual",
+              "rationale": "Error de concepto: la intervención costaría por norma la eyaculación. Con preservación nerviosa se conserva en la mayoría de los casos (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "C": {
+              "text": "Dejar las cifras abiertas, los datos son contradictorios",
+              "rationale": "Error de concepto: los datos contradictorios eximirían de informar. Precisamente entonces el rango forma parte de la conversación."
+            },
+            "D": {
+              "text": "Indicar el rango del 65 al 100 % según la serie",
+              "rationale": "Las tasas publicadas van del 100 % en series de un solo centro al 65 o 71 % en datos multicéntricos y metaanálisis (Angerer et al. 2025 / Heidenreich & Pfister 2025)."
+            },
+            "E": {
+              "text": "Renunciar a la preservación nerviosa para ser más radical",
+              "rationale": "Error de concepto: la radicalidad primaría sobre la función. La preservación nerviosa forma parte del proceder recomendado en el estadio IIA sin marcadores (EAU 2026, 6.2.2.2.1)."
+            }
+          },
+          "explanation": {
+            "core": "Se informa con el rango de las tasas publicadas y con la idea de que la técnica y la experiencia del centro determinan el resultado (Angerer et al. 2025 / Heidenreich & Pfister 2025; EAU 2026, 6.1.3.2). Las series de un solo centro sobre linfadenectomía robótica primaria describen eyaculación anterógrada en el 100 % (Angerer et al. 2025 / Heidenreich & Pfister 2025). Los datos multicéntricos y los metaanálisis indican del 65 al 71 %, y algunas series el 67 y el 74 % (Angerer et al. 2025 / Heidenreich & Pfister 2025). Tras cirugía abierta con preservación nerviosa en el seminoma en estadio II se conservó en el 90 al 97 % (Angerer et al. 2025 / Heidenreich & Pfister 2025). A partir de datos multicéntricos, la EAU describe más recaídas dentro del campo y más complicaciones con la preservación nerviosa y vincula la intervención a cirujanos experimentados en centros (EAU 2026, 6.1.3.2). La criopreservación de semen se plantea antes de la intervención. Conocer ambos conjuntos de cifras permite ajustar la expectativa del paciente.",
+            "teaching_point": "Conservación de la eyaculación: centros aislados el 100 %, datos multicéntricos del 65 al 71 % — se informa con el rango."
+          },
+          "flag_note": "Los dos artículos de origen dan el 100 % frente al 65 o 71 % para la misma pregunta; la diferencia se debe a la selección y al diseño de los estudios, no a datos nuevos."
+        }
+      }
+    }
+  ],
+  "ersatz": {}
+}

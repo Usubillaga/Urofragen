@@ -1,0 +1,1549 @@
+{
+  "gebiet": "hodentumor",
+  "titel": "Seminom Stadium IIA/B",
+  "quelle": "Che & Papachristofilou, Urologie 2025;64:1018-1023; EAU Testicular Cancer 2026, Kap. 6",
+  "erstellt": "2026-09-19",
+  "neu": [
+    {
+      "id": "uro-hod-00021",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Seminom Stadium II",
+        "tags": [
+          "diagnostik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Aktuelle operative und strahlentherapeutische Entwicklungen bei der Therapie des Seminoms im Stadium IIA/B",
+          "citation": "Che Y, Papachristofilou A. Urologie 2025;64:1018–1023. doi:10.1007/s00120-025-02672-9",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.2.2.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-19",
+        "last_reviewed": "2026-09-19",
+        "expires": "2027-09-19"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 42-jähriger Mann ist nach inguinaler Orchiektomie links (Seminom pT1, 42 mm, ohne Rete-testis-Infiltration) seit 12 Monaten unter aktiver Überwachung. Das Kontroll-CT zeigt neu einen einzelnen links paraaortalen Lymphknoten mit knapp 1 cm Querdurchmesser. AFP, β-hCG und LDH liegen im Normbereich, der Patient ist beschwerdefrei. Vorstellung im Tumorboard zur Festlegung des weiteren Vorgehens.",
+          "lead_in": "Welches Vorgehen ist bei diesem Befund angemessen?",
+          "options": {
+            "A": {
+              "text": "Sofortige Chemotherapie mit drei Zyklen BEP beginnen",
+              "rationale": "Fehlannahme: Jeder neue Lymphknoten sei ein Rezidiv. Ohne Markererhöhung ist eine reaktive Vergrößerung möglich (Che & Papachristofilou 2025); im Mittel sind etwa 10 % solcher Knoten nicht metastatisch (EAU 2026, 6.2.2.1)."
+            },
+            "B": {
+              "text": "Einmalig Carboplatin AUC 7 als nachgeholte Adjuvanz",
+              "rationale": "Fehlannahme: Das adjuvante Konzept des Stadiums I lasse sich auf einen möglichen Rückfall übertragen. Carboplatin-Monotherapie gehört nicht zu den Standardoptionen im Stadium IIA/B (Che & Papachristofilou 2025)."
+            },
+            "C": {
+              "text": "Paraaortale und ipsilateral pelvine Radiatio mit 30 Gy",
+              "rationale": "Fehlannahme: Kleiner Befund, kleine Therapie. Die Bestrahlung ist Standard für ein gesichertes Stadium IIA (Che & Papachristofilou 2025); hier würde ein unbestätigter Befund behandelt."
+            },
+            "D": {
+              "text": "Schnittbildkontrolle nach etwa acht Wochen abwarten",
+              "rationale": "Die erneute Schnittbildgebung nach etwa 8 Wochen bestätigt oder widerlegt das Stadium (Che & Papachristofilou 2025); behandelt wird erst bei Größenzunahme, Markeranstieg oder Biopsienachweis (EAU 2026, 6.2.2.1)."
+            },
+            "E": {
+              "text": "Weiter reguläre Nachsorge im bisher geplanten Intervall",
+              "rationale": "Fehlannahme: Ein neuer Befund ändere den Nachsorgetakt nicht. Er verlangt eine gezielte, vorgezogene Kontrolle statt des regulären Intervalls (Che & Papachristofilou 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Ein markernegativer Knoten unter 2 cm sichert kein Stadium IIA (Che & Papachristofilou 2025). Erst die Verlaufskontrolle trennt reaktive Vergrößerung von Metastase und entscheidet, ob überhaupt behandelt werden muss. Die Autoren empfehlen im Stadium IIA ohne Markererhöhung eine Wiederholung der Schnittbildgebung nach etwa 8 Wochen (Che & Papachristofilou 2025). Die EAU nennt 6–8 Wochen und beginnt die Therapie erst bei eindeutiger Metastasierung durch Biopsie, Größen- oder Zahlenzunahme oder Markeranstieg (EAU 2026, 6.2.2.1). Im Fallbeispiel des Artikels war der Knoten nach 2 Monaten auf 23 mm gewachsen (Che & Papachristofilou 2025). Sofortige Therapie bedeutet für einen Teil der Patienten Übertherapie mit dem Spättoxizitätsprofil der Standardverfahren. Das Kontrollintervall gehört deshalb ausdrücklich in den Tumorboardbeschluss.",
+            "teaching_point": "Markernegativ und unter 2 cm: erst Kontrolle nach 6–8 Wochen, dann Therapieentscheidung."
+          }
+        },
+        "en": {
+          "vignette": "A 42-year-old man has been on active surveillance for 12 months after left inguinal orchiectomy (seminoma pT1, 42 mm, no rete testis invasion). Follow-up CT shows a new solitary left para-aortic lymph node just under 1 cm in short axis. AFP, β-hCG and LDH are normal and he is asymptomatic. He is presented at the tumour board to decide on further management.",
+          "lead_in": "Which approach is appropriate for this finding?",
+          "options": {
+            "A": {
+              "text": "Start chemotherapy with three cycles of BEP immediately",
+              "rationale": "Misconception: every new node is a relapse. Without marker elevation the enlargement may be reactive (Che & Papachristofilou 2025); on average about 10% of such nodes are not metastatic (EAU 2026, 6.2.2.1)."
+            },
+            "B": {
+              "text": "Single dose of carboplatin AUC 7 as delayed adjuvant therapy",
+              "rationale": "Misconception: the stage I adjuvant concept can be applied to a possible relapse. Carboplatin monotherapy is not among the standard options in stage IIA/B (Che & Papachristofilou 2025)."
+            },
+            "C": {
+              "text": "Para-aortic and ipsilateral pelvic radiotherapy with 30 Gy",
+              "rationale": "Misconception: small finding, small treatment. Radiotherapy is a standard for confirmed stage IIA (Che & Papachristofilou 2025); here an unconfirmed finding would be treated."
+            },
+            "D": {
+              "text": "Repeat cross-sectional imaging in about eight weeks",
+              "rationale": "Repeat imaging after about 8 weeks confirms or refutes the stage (Che & Papachristofilou 2025); treatment starts only with growth, marker rise or biopsy proof (EAU 2026, 6.2.2.1)."
+            },
+            "E": {
+              "text": "Continue routine follow-up at the originally planned interval",
+              "rationale": "Misconception: a new finding does not change the follow-up schedule. It requires a targeted, earlier re-evaluation instead of the routine interval (Che & Papachristofilou 2025)."
+            }
+          },
+          "explanation": {
+            "core": "A marker-negative node under 2 cm does not establish stage IIA (Che & Papachristofilou 2025). Only re-imaging separates reactive enlargement from metastasis and decides whether any treatment is needed. The authors recommend repeat cross-sectional imaging after about 8 weeks in marker-negative stage IIA (Che & Papachristofilou 2025). The EAU states 6–8 weeks and starts treatment only once metastatic disease is unequivocal by biopsy, increase in nodal size or number, or marker rise (EAU 2026, 6.2.2.1). In the article's case, the node had grown to 23 mm after 2 months (Che & Papachristofilou 2025). Immediate treatment means overtreatment for some patients, with the late-toxicity profile of the standard options. The re-imaging interval should therefore be stated explicitly in the tumour board decision.",
+            "teaching_point": "Marker-negative and under 2 cm: re-image after 6–8 weeks, then decide on treatment."
+          }
+        },
+        "es": {
+          "vignette": "Un varón de 42 años está en vigilancia activa desde hace 12 meses tras una orquiectomía inguinal izquierda (seminoma pT1, 42 mm, sin invasión de la rete testis). La TC de control muestra un nuevo ganglio paraaórtico izquierdo solitario de algo menos de 1 cm de eje corto. AFP, β-hCG y LDH son normales y está asintomático. Se presenta en el comité de tumores para decidir la conducta.",
+          "lead_in": "¿Qué conducta es adecuada ante este hallazgo?",
+          "options": {
+            "A": {
+              "text": "Iniciar de inmediato quimioterapia con tres ciclos de BEP",
+              "rationale": "Error de concepto: todo ganglio nuevo sería una recaída. Sin elevación de marcadores el aumento puede ser reactivo (Che & Papachristofilou 2025); de media, alrededor del 10 % de estos ganglios no son metastásicos (EAU 2026, 6.2.2.1)."
+            },
+            "B": {
+              "text": "Dosis única de carboplatino AUC 7 como adyuvancia diferida",
+              "rationale": "Error de concepto: el enfoque adyuvante del estadio I sería aplicable a una posible recaída. La monoterapia con carboplatino no figura entre las opciones estándar del estadio IIA/B (Che & Papachristofilou 2025)."
+            },
+            "C": {
+              "text": "Radioterapia paraaórtica y pélvica ipsilateral con 30 Gy",
+              "rationale": "Error de concepto: hallazgo pequeño, tratamiento pequeño. La radioterapia es estándar en el estadio IIA confirmado (Che & Papachristofilou 2025); aquí se trataría un hallazgo no confirmado."
+            },
+            "D": {
+              "text": "Repetir la imagen seccional en unas ocho semanas",
+              "rationale": "Repetir la imagen a las 8 semanas aproximadamente confirma o descarta el estadio (Che & Papachristofilou 2025); solo se trata si hay crecimiento, ascenso de marcadores o confirmación por biopsia (EAU 2026, 6.2.2.1)."
+            },
+            "E": {
+              "text": "Mantener el seguimiento rutinario en el intervalo previsto",
+              "rationale": "Error de concepto: un hallazgo nuevo no cambiaría el calendario de seguimiento. Exige una reevaluación dirigida y adelantada en lugar del intervalo habitual (Che & Papachristofilou 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Un ganglio de menos de 2 cm con marcadores normales no establece un estadio IIA (Che & Papachristofilou 2025). Solo la imagen de control distingue un aumento reactivo de una metástasis y decide si hace falta tratar. Los autores recomiendan repetir la imagen seccional a las 8 semanas aproximadamente en el estadio IIA sin elevación de marcadores (Che & Papachristofilou 2025). La EAU indica 6–8 semanas y solo inicia el tratamiento cuando la enfermedad metastásica es inequívoca por biopsia, aumento del tamaño o del número de ganglios o ascenso de marcadores (EAU 2026, 6.2.2.1). En el caso del artículo, el ganglio había crecido a 23 mm a los 2 meses (Che & Papachristofilou 2025). Tratar de inmediato supone sobretratar a una parte de los pacientes con el perfil de toxicidad tardía de las opciones estándar. Por eso el intervalo de control debe constar expresamente en la decisión del comité.",
+            "teaching_point": "Marcadores normales y menos de 2 cm: imagen de control a las 6–8 semanas y después decidir el tratamiento."
+          }
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00022",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Seminom Stadium II",
+        "tags": [
+          "diagnostik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "1b",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Aktuelle operative und strahlentherapeutische Entwicklungen bei der Therapie des Seminoms im Stadium IIA/B",
+          "citation": "Che Y, Papachristofilou A. Urologie 2025;64:1018–1023. doi:10.1007/s00120-025-02672-9",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.2.2.1.2, 6.3.6.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-19",
+        "last_reviewed": "2026-09-19",
+        "expires": "2027-09-19"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 33-jähriger Mann mit reinem Seminom wird nach Orchiektomie zum Staging vorgestellt. Das CT zeigt einen links paraaortalen Lymphknoten von 2,6 cm und zusätzlich einen 1,4 cm großen links supraklavikulären Lymphknoten; Lunge und viszerale Organe sind unauffällig. AFP normal, β-hCG und LDH gering erhöht, innerhalb S1. Der Patient möchte eine Chemotherapie möglichst vermeiden. Festlegung der Primärtherapie.",
+          "lead_in": "Welches Vorgehen ist bei dieser Ausbreitung indiziert?",
+          "options": {
+            "A": {
+              "text": "Hockey-stick-Bestrahlung mit 36 Gy und supraklavikulärem Boost",
+              "rationale": "Fehlannahme: Das Feld lasse sich auf supradiaphragmale Herde erweitern. Die klassische Bestrahlung ist ein lokales infradiaphragmales Konzept; bei supraklavikulärer Metastase ist sie nicht zielführend (Che & Papachristofilou 2025)."
+            },
+            "B": {
+              "text": "Cisplatin-basierte Chemotherapie nach IGCCCG-Prognosegruppe",
+              "rationale": "Mit dem supraklavikulären Knoten liegt kein lokoregionärer Befall mehr vor (Che & Papachristofilou 2025). Seminome ab Stadium IIC werden primär chemotherapeutisch nach IGCCCG behandelt (EAU 2026, 6.3.6.1)."
+            },
+            "C": {
+              "text": "Carboplatin AUC 7, danach Involved-node-Bestrahlung beider Herde",
+              "rationale": "Fehlannahme: SAKK 01/10 sei auf jede geringe Tumorlast übertragbar. Das Schema wurde nur im Stadium IIA/B geprüft (Che & Papachristofilou 2025) und ist selbst dort nicht für den Routineeinsatz belegt (EAU 2026, 6.2.2.1.2)."
+            },
+            "D": {
+              "text": "Primäre RLA und Exstirpation des supraklavikulären Knotens",
+              "rationale": "Fehlannahme: Chirurgische Deeskalation gelte für jede Lymphknotenlokalisation. Die primäre RLA wurde bei retroperitonealem Befall im Stadium IIA/B untersucht (Che & Papachristofilou 2025), nicht bei supradiaphragmaler Aussaat."
+            },
+            "E": {
+              "text": "Bestrahlung paraaortal mit 36 Gy, supraklavikulär beobachten",
+              "rationale": "Fehlannahme: Der kleinere Herd sei vernachlässigbar. Genau dieses Szenario nennen die Autoren als Grund, warum eine lokale Bestrahlung ohne vollständiges Staging scheitert (Che & Papachristofilou 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Die Stadienzuordnung bestimmt das Therapieprinzip. Mit dem supraklavikulären Knoten ist die Erkrankung nicht mehr lokoregionär, und alle lokalen oder deeskalierten Konzepte für IIA/B verlieren ihre Grundlage. Stadium IIA/B bedeutet retroperitoneale Lymphknotenmetastasen ohne Fernmetastasen bei Markern höchstens auf S1-Niveau (Che & Papachristofilou 2025). Die infradiaphragmale Radiotherapie ist lokal und bei zusätzlicher supraklavikulärer Metastase nicht zielführend (Che & Papachristofilou 2025). Für Seminome ab Stadium IIC empfiehlt die EAU die primäre Chemotherapie nach IGCCCG, in guter Prognose BEP x 3 (EAU 2026, 6.3.6.1). Vor jeder Bestrahlung oder Deeskalation muss das Staging Thorax und supraklavikuläre Region erfassen; im Fallbeispiel erfolgte deshalb ein CT des Rumpfes (Che & Papachristofilou 2025). Der Wunsch, Chemotherapie zu vermeiden, verschiebt die Indikation hier nicht.",
+            "teaching_point": "Supraklavikulärer Knoten beim Seminom: kein Stadium II, Chemotherapie nach IGCCCG statt Bestrahlung."
+          }
+        },
+        "en": {
+          "vignette": "A 33-year-old man with pure seminoma is referred for staging after orchiectomy. CT shows a 2.6 cm left para-aortic lymph node and, in addition, a 1.4 cm left supraclavicular lymph node; lungs and viscera are unremarkable. AFP is normal, β-hCG and LDH are mildly elevated within S1. He would prefer to avoid chemotherapy. Primary treatment is to be decided.",
+          "lead_in": "Which approach is indicated for this extent of disease?",
+          "options": {
+            "A": {
+              "text": "Hockey-stick radiotherapy with 36 Gy plus a supraclavicular boost",
+              "rationale": "Misconception: the field can be extended to supradiaphragmatic disease. Classic radiotherapy is a local infradiaphragmatic concept and does not achieve its aim with a supraclavicular metastasis (Che & Papachristofilou 2025)."
+            },
+            "B": {
+              "text": "Cisplatin-based chemotherapy according to IGCCCG prognostic group",
+              "rationale": "With the supraclavicular node the disease is no longer locoregional (Che & Papachristofilou 2025). Seminoma of stage IIC and higher is treated with primary chemotherapy according to IGCCCG (EAU 2026, 6.3.6.1)."
+            },
+            "C": {
+              "text": "Carboplatin AUC 7 followed by involved-node radiotherapy to both sites",
+              "rationale": "Misconception: SAKK 01/10 applies to any low tumour burden. The regimen was tested only in stage IIA/B (Che & Papachristofilou 2025) and is not established for routine use even there (EAU 2026, 6.2.2.1.2)."
+            },
+            "D": {
+              "text": "Primary RPLND plus excision of the supraclavicular node",
+              "rationale": "Misconception: surgical de-escalation applies to any nodal site. Primary RPLND was studied for retroperitoneal disease in stage IIA/B (Che & Papachristofilou 2025), not for supradiaphragmatic spread."
+            },
+            "E": {
+              "text": "Para-aortic radiotherapy with 36 Gy, observe the supraclavicular node",
+              "rationale": "Misconception: the smaller lesion can be ignored. The authors cite exactly this scenario as the reason why local radiotherapy fails without complete staging (Che & Papachristofilou 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Stage assignment determines the treatment principle. With the supraclavicular node the disease is no longer locoregional, and every local or de-escalated concept for stage IIA/B loses its basis. Stage IIA/B means retroperitoneal nodal metastases without distant spread and markers no higher than S1 (Che & Papachristofilou 2025). Infradiaphragmatic radiotherapy is local and does not achieve its aim with an additional supraclavicular metastasis (Che & Papachristofilou 2025). For seminoma of stage IIC and higher the EAU recommends primary chemotherapy according to IGCCCG, BEP x 3 in good prognosis (EAU 2026, 6.3.6.1). Before any radiotherapy or de-escalation, staging must include the chest and supraclavicular region; the article's case therefore used CT of the trunk (Che & Papachristofilou 2025). The wish to avoid chemotherapy does not change the indication here.",
+            "teaching_point": "Supraclavicular node in seminoma: not stage II, chemotherapy according to IGCCCG instead of radiotherapy."
+          }
+        },
+        "es": {
+          "vignette": "Un varón de 33 años con seminoma puro acude para estadificación tras la orquiectomía. La TC muestra un ganglio paraaórtico izquierdo de 2,6 cm y, además, un ganglio supraclavicular izquierdo de 1,4 cm; pulmones y vísceras sin hallazgos. AFP normal, β-hCG y LDH discretamente elevadas, dentro de S1. Prefiere evitar la quimioterapia. Debe decidirse el tratamiento primario.",
+          "lead_in": "¿Qué conducta está indicada con esta extensión?",
+          "options": {
+            "A": {
+              "text": "Radioterapia en palo de hockey con 36 Gy y sobreimpresión supraclavicular",
+              "rationale": "Error de concepto: el campo podría ampliarse a la enfermedad supradiafragmática. La radioterapia clásica es un concepto local infradiafragmático y no cumple su objetivo con una metástasis supraclavicular (Che & Papachristofilou 2025)."
+            },
+            "B": {
+              "text": "Quimioterapia basada en cisplatino según el grupo pronóstico IGCCCG",
+              "rationale": "Con el ganglio supraclavicular la enfermedad ya no es locorregional (Che & Papachristofilou 2025). El seminoma a partir del estadio IIC se trata con quimioterapia primaria según IGCCCG (EAU 2026, 6.3.6.1)."
+            },
+            "C": {
+              "text": "Carboplatino AUC 7 y después radioterapia de campo afectado en ambos focos",
+              "rationale": "Error de concepto: SAKK 01/10 serviría para cualquier carga tumoral baja. El esquema se estudió solo en el estadio IIA/B (Che & Papachristofilou 2025) y ni siquiera allí está establecido para uso rutinario (EAU 2026, 6.2.2.1.2)."
+            },
+            "D": {
+              "text": "RPLND primaria con exéresis del ganglio supraclavicular",
+              "rationale": "Error de concepto: la desescalada quirúrgica valdría para cualquier localización ganglionar. La RPLND primaria se estudió en la afectación retroperitoneal del estadio IIA/B (Che & Papachristofilou 2025), no en la diseminación supradiafragmática."
+            },
+            "E": {
+              "text": "Radioterapia paraaórtica con 36 Gy y observación del ganglio supraclavicular",
+              "rationale": "Error de concepto: la lesión menor sería despreciable. Los autores citan precisamente este escenario como la razón por la que la radioterapia local fracasa sin una estadificación completa (Che & Papachristofilou 2025)."
+            }
+          },
+          "explanation": {
+            "core": "La asignación del estadio determina el principio terapéutico. Con el ganglio supraclavicular la enfermedad deja de ser locorregional y todo concepto local o desescalado para el estadio IIA/B pierde su base. Estadio IIA/B significa metástasis ganglionares retroperitoneales sin enfermedad a distancia y marcadores como máximo en S1 (Che & Papachristofilou 2025). La radioterapia infradiafragmática es local y no cumple su objetivo si existe además una metástasis supraclavicular (Che & Papachristofilou 2025). Para el seminoma a partir del estadio IIC la EAU recomienda quimioterapia primaria según IGCCCG, BEP x 3 en pronóstico favorable (EAU 2026, 6.3.6.1). Antes de cualquier radioterapia o desescalada, la estadificación debe incluir el tórax y la región supraclavicular; por eso en el caso del artículo se realizó una TC de tronco (Che & Papachristofilou 2025). El deseo de evitar la quimioterapia no cambia aquí la indicación.",
+            "teaching_point": "Ganglio supraclavicular en el seminoma: no es estadio II; quimioterapia según IGCCCG en lugar de radioterapia."
+          }
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00023",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Seminom Stadium II",
+        "tags": [
+          "systemtherapie",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "1b",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Aktuelle operative und strahlentherapeutische Entwicklungen bei der Therapie des Seminoms im Stadium IIA/B",
+          "citation": "Che Y, Papachristofilou A. Urologie 2025;64:1018–1023. doi:10.1007/s00120-025-02672-9",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.2.2.1, 6.2.3.1.2"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-19",
+        "last_reviewed": "2026-09-19",
+        "expires": "2027-09-19"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 45-jähriger Mann mit Seminom im Stadium IIA (solitärer paraaortaler Lymphknoten 1,8 cm, Wachstum in der Kontrolle bestätigt, Marker normal) entscheidet sich nach Aufklärung über alle Optionen für eine Chemotherapie. Die Pneumologie rät wegen einer vorbestehenden Lungenerkrankung ausdrücklich von Bleomycin ab. Festlegung des Chemotherapieschemas.",
+          "lead_in": "Welches Schema ist für diesen Patienten angemessen?",
+          "options": {
+            "A": {
+              "text": "Drei Zyklen BEP in Standarddosierung",
+              "rationale": "Fehlannahme: Das Standardschema gelte unabhängig von Kontraindikationen. Für Patienten ohne Bleomycin-Eignung sehen Artikel und EAU ausdrücklich eine Alternative vor (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1)."
+            },
+            "B": {
+              "text": "Drei Zyklen EP ohne weiteren Zyklus",
+              "rationale": "Fehlannahme: Bleomycin lasse sich ersatzlos streichen. Als Alternative nennt der Artikel vier Zyklen EP (Che & Papachristofilou 2025); der zusätzliche Zyklus gleicht den Verzicht aus."
+            },
+            "C": {
+              "text": "Vier Zyklen VIP mit G-CSF-Prophylaxe",
+              "rationale": "Fehlannahme: Verwechslung der Prognosegruppen. VIP ist die bleomycinfreie Alternative in der intermediären Prognosegruppe (EAU 2026, 6.2.3.1.2), nicht im Stadium IIA."
+            },
+            "D": {
+              "text": "Ein Zyklus Carboplatin, dosiert AUC 7",
+              "rationale": "Fehlannahme: Übertragung der Stadium-I-Adjuvanz. Carboplatin-Monotherapie gehört im Stadium IIA/B nicht zu den Standardoptionen (Che & Papachristofilou 2025)."
+            },
+            "E": {
+              "text": "Vier Zyklen EP (Etoposid, Cisplatin)",
+              "rationale": "Vier Zyklen Etoposid und Cisplatin ersetzen drei Zyklen BEP, wenn Bleomycin kontraindiziert ist (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1)."
+            }
+          },
+          "explanation": {
+            "core": "Die Kontraindikation gegen Bleomycin ändert nicht das Therapieprinzip, sondern das Schema: vier Zyklen EP statt drei Zyklen BEP. Leitliniengerecht sind im Stadium IIA/B drei Zyklen BEP, alternativ vier Zyklen EP bei Kontraindikation gegen Bleomycin, oder die Radiotherapie (Che & Papachristofilou 2025). Die EAU nennt ebenfalls BEP x 3 oder EP x 4 bei Bedenken gegen Bleomycin und für die Chemotherapie im Stadium IIA Rezidivraten von 0–8 % (EAU 2026, 6.2.2.1). Die pulmonale Vorgeschichte gehört vor Therapiebeginn in die Schemawahl; wer sie übersieht, nimmt ein vermeidbares Lungenrisiko in Kauf. Aufzuklären ist zudem über die Spättoxizität der Cisplatin-Therapie, kardiovaskulär, renal und mit Zweitmalignomen (Che & Papachristofilou 2025).",
+            "teaching_point": "Bleomycin kontraindiziert: vier Zyklen EP statt drei Zyklen BEP."
+          }
+        },
+        "en": {
+          "vignette": "A 45-year-old man with stage IIA seminoma (solitary 1.8 cm para-aortic node, growth confirmed on re-imaging, normal markers) chooses chemotherapy after counselling on all options. Pulmonology explicitly advises against bleomycin because of pre-existing lung disease. The chemotherapy regimen is to be chosen.",
+          "lead_in": "Which regimen is appropriate for this patient?",
+          "options": {
+            "A": {
+              "text": "Three cycles of BEP at standard dose",
+              "rationale": "Misconception: the standard regimen applies regardless of contraindications. For patients unsuitable for bleomycin, both the article and the EAU name an explicit alternative (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1)."
+            },
+            "B": {
+              "text": "Three cycles of EP without a further cycle",
+              "rationale": "Misconception: bleomycin can simply be dropped. The article names four cycles of EP as the alternative (Che & Papachristofilou 2025); the additional cycle compensates for the omission."
+            },
+            "C": {
+              "text": "Four cycles of VIP with G-CSF prophylaxis",
+              "rationale": "Misconception: confusion of prognostic groups. VIP is the bleomycin-free alternative in the intermediate prognosis group (EAU 2026, 6.2.3.1.2), not in stage IIA."
+            },
+            "D": {
+              "text": "One cycle of carboplatin dosed at AUC 7",
+              "rationale": "Misconception: transfer of stage I adjuvant therapy. Carboplatin monotherapy is not a standard option in stage IIA/B (Che & Papachristofilou 2025)."
+            },
+            "E": {
+              "text": "Four cycles of EP (etoposide, cisplatin)",
+              "rationale": "Four cycles of etoposide and cisplatin replace three cycles of BEP when bleomycin is contraindicated (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1)."
+            }
+          },
+          "explanation": {
+            "core": "A contraindication to bleomycin does not change the treatment principle, only the regimen: four cycles of EP instead of three cycles of BEP. Guideline-based options in stage IIA/B are three cycles of BEP, four cycles of EP if bleomycin is contraindicated, or radiotherapy (Che & Papachristofilou 2025). The EAU likewise states BEP x 3 or EP x 4 when there are concerns about bleomycin, with relapse rates of 0–8% for chemotherapy in stage IIA (EAU 2026, 6.2.2.1). Pulmonary history belongs in the regimen choice before treatment starts; overlooking it accepts an avoidable lung risk. Counselling must also cover the late toxicity of cisplatin therapy: cardiovascular, renal and second malignancies (Che & Papachristofilou 2025).",
+            "teaching_point": "Bleomycin contraindicated: four cycles of EP instead of three cycles of BEP."
+          }
+        },
+        "es": {
+          "vignette": "Un varón de 45 años con seminoma en estadio IIA (ganglio paraaórtico solitario de 1,8 cm, crecimiento confirmado en la imagen de control, marcadores normales) elige quimioterapia tras ser informado de todas las opciones. Neumología desaconseja expresamente la bleomicina por una enfermedad pulmonar previa. Debe elegirse el esquema de quimioterapia.",
+          "lead_in": "¿Qué esquema es adecuado para este paciente?",
+          "options": {
+            "A": {
+              "text": "Tres ciclos de BEP a dosis estándar",
+              "rationale": "Error de concepto: el esquema estándar valdría con independencia de las contraindicaciones. Para quien no puede recibir bleomicina, el artículo y la EAU prevén una alternativa explícita (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1)."
+            },
+            "B": {
+              "text": "Tres ciclos de EP sin ciclo adicional",
+              "rationale": "Error de concepto: la bleomicina podría suprimirse sin más. El artículo propone cuatro ciclos de EP como alternativa (Che & Papachristofilou 2025); el ciclo adicional compensa la omisión."
+            },
+            "C": {
+              "text": "Cuatro ciclos de VIP con profilaxis con G-CSF",
+              "rationale": "Error de concepto: confusión de grupos pronósticos. VIP es la alternativa sin bleomicina en el grupo de pronóstico intermedio (EAU 2026, 6.2.3.1.2), no en el estadio IIA."
+            },
+            "D": {
+              "text": "Un ciclo de carboplatino dosificado a AUC 7",
+              "rationale": "Error de concepto: trasladar la adyuvancia del estadio I. La monoterapia con carboplatino no es una opción estándar en el estadio IIA/B (Che & Papachristofilou 2025)."
+            },
+            "E": {
+              "text": "Cuatro ciclos de EP (etopósido, cisplatino)",
+              "rationale": "Cuatro ciclos de etopósido y cisplatino sustituyen a tres ciclos de BEP cuando la bleomicina está contraindicada (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1)."
+            }
+          },
+          "explanation": {
+            "core": "La contraindicación de la bleomicina no cambia el principio terapéutico, solo el esquema: cuatro ciclos de EP en lugar de tres de BEP. Las opciones conformes a la guía en el estadio IIA/B son tres ciclos de BEP, cuatro ciclos de EP si la bleomicina está contraindicada, o la radioterapia (Che & Papachristofilou 2025). La EAU indica igualmente BEP x 3 o EP x 4 si hay reservas frente a la bleomicina, con tasas de recaída del 0–8 % tras quimioterapia en el estadio IIA (EAU 2026, 6.2.2.1). Los antecedentes pulmonares deben pesar en la elección del esquema antes de empezar; pasarlos por alto supone un riesgo pulmonar evitable. Hay que informar además de la toxicidad tardía del cisplatino: cardiovascular, renal y segundas neoplasias (Che & Papachristofilou 2025).",
+            "teaching_point": "Bleomicina contraindicada: cuatro ciclos de EP en lugar de tres ciclos de BEP."
+          }
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00024",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Seminom Stadium II",
+        "tags": [
+          "strahlentherapie",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "2a",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Aktuelle operative und strahlentherapeutische Entwicklungen bei der Therapie des Seminoms im Stadium IIA/B",
+          "citation": "Che Y, Papachristofilou A. Urologie 2025;64:1018–1023. doi:10.1007/s00120-025-02672-9",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.2.2.1, 6.3.6.1"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-19",
+        "last_reviewed": "2026-09-19",
+        "expires": "2027-09-19"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 38-jähriger Mann mit Seminom im Stadium IIA (einzelner paraaortaler Lymphknoten 1,6 cm, Wachstum in der Kontrolle bestätigt, Marker normal, übriges Staging von Thorax bis Becken unauffällig) lehnt Chemotherapie und Operation ab. Er entscheidet sich für die Strahlentherapie. Festlegung von Zielvolumen und Dosis.",
+          "lead_in": "Welches Bestrahlungskonzept ist leitliniengerecht?",
+          "options": {
+            "A": {
+              "text": "Paraaortal und ipsilateral pelvin, Gesamtdosis 30 Gy",
+              "rationale": "Das klassische Feld erfasst die retroperitonealen und ipsilateral pelvinen Lymphabflusswege, im Stadium IIA mit 30 Gy (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1)."
+            },
+            "B": {
+              "text": "Paraaortal und ipsilateral pelvin, Gesamtdosis 36 Gy",
+              "rationale": "Fehlannahme: Verwechslung der Stadien. 36 Gy sind die Dosis für das Stadium IIB (Che & Papachristofilou 2025); im Stadium IIA bedeutet das mehr Dosis ohne belegten Zusatznutzen."
+            },
+            "C": {
+              "text": "Paraaortal und ipsilateral pelvin, Gesamtdosis 27 Gy",
+              "rationale": "Fehlannahme: Weniger Dosis senke nur die Toxizität. Eine auf 27 Gy reduzierte Dosis ist im Stadium IIA mit einer höheren Rezidivrate verbunden (EAU 2026, 6.2.2.1)."
+            },
+            "D": {
+              "text": "Nur paraaortal ohne pelvines Feld, Gesamtdosis 30 Gy",
+              "rationale": "Fehlannahme: Ein rein paraaortales Feld genüge auch im metastasierten Stadium. Im Stadium IIA gehören die ipsilateral pelvinen Lymphabflusswege zum Standardfeld (Che & Papachristofilou 2025)."
+            },
+            "E": {
+              "text": "Nur Involved-node ohne Carboplatin, Gesamtdosis 30 Gy",
+              "rationale": "Fehlannahme: Die kleinvolumige Bestrahlung stehe für sich. In SAKK 01/10 folgte sie stets auf einen Zyklus Carboplatin (Che & Papachristofilou 2025); allein fehlt die Wirkung außerhalb des Feldes."
+            }
+          },
+          "explanation": {
+            "core": "Im Stadium IIA ist die Bestrahlung eine Standardoption neben der Chemotherapie: Feld paraaortal und ipsilateral pelvin, Dosis 30 Gy (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1). Der Artikel nennt 30 Gy für das Stadium IIA und 36 Gy für IIB bei paraaortaler und ipsilateral pelviner Bestrahlung (Che & Papachristofilou 2025). Die EAU empfiehlt dieselben Dosen, berichtet ein rezidivfreies Überleben nach fünf Jahren von 92 % im Stadium IIA und eine höhere Rezidivrate nach Reduktion auf 27 Gy (EAU 2026, 6.2.2.1). Das große Feld von etwa 1200 cm³ erhöht das Risiko für Zweitmalignome (Che & Papachristofilou 2025); die EAU verlangt, über die Spätfolgen beider Optionen aufzuklären (EAU 2026, 6.3.6.1). Voraussetzung ist ein vollständiges Staging, weil die Bestrahlung nur lokal wirkt (Che & Papachristofilou 2025).",
+            "teaching_point": "Stadium IIA: paraaortal plus ipsilateral pelvin mit 30 Gy, nicht 27 Gy und nicht 36 Gy."
+          }
+        },
+        "en": {
+          "vignette": "A 38-year-old man with stage IIA seminoma (single 1.6 cm para-aortic node, growth confirmed on re-imaging, normal markers, otherwise unremarkable staging from chest to pelvis) declines chemotherapy and surgery. He opts for radiotherapy. Target volume and dose are to be defined.",
+          "lead_in": "Which radiotherapy concept is guideline-based?",
+          "options": {
+            "A": {
+              "text": "Para-aortic and ipsilateral pelvic, total dose 30 Gy",
+              "rationale": "The classic field covers the retroperitoneal and ipsilateral pelvic lymphatic drainage, at 30 Gy in stage IIA (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1)."
+            },
+            "B": {
+              "text": "Para-aortic and ipsilateral pelvic, total dose 36 Gy",
+              "rationale": "Misconception: confusion of stages. 36 Gy is the dose for stage IIB (Che & Papachristofilou 2025); in stage IIA it adds dose without proven benefit."
+            },
+            "C": {
+              "text": "Para-aortic and ipsilateral pelvic, total dose 27 Gy",
+              "rationale": "Misconception: a lower dose only reduces toxicity. A dose reduced to 27 Gy in stage IIA is associated with a higher relapse rate (EAU 2026, 6.2.2.1)."
+            },
+            "D": {
+              "text": "Para-aortic only without pelvic field, total dose 30 Gy",
+              "rationale": "Misconception: a para-aortic field alone suffices in metastatic disease. In stage IIA the ipsilateral pelvic drainage is part of the standard field (Che & Papachristofilou 2025)."
+            },
+            "E": {
+              "text": "Involved-node only, no carboplatin, total dose 30 Gy",
+              "rationale": "Misconception: small-volume radiotherapy stands on its own. In SAKK 01/10 it always followed one cycle of carboplatin (Che & Papachristofilou 2025); alone, the effect outside the field is missing."
+            }
+          },
+          "explanation": {
+            "core": "In stage IIA, radiotherapy is a standard option alongside chemotherapy: para-aortic and ipsilateral pelvic field, dose 30 Gy (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1). The article states 30 Gy for stage IIA and 36 Gy for IIB with para-aortic and ipsilateral pelvic radiotherapy (Che & Papachristofilou 2025). The EAU recommends the same doses, reports five-year relapse-free survival of 92% in stage IIA and a higher relapse rate after reduction to 27 Gy (EAU 2026, 6.2.2.1). The large field of about 1200 cm³ raises the risk of second malignancies (Che & Papachristofilou 2025); the EAU requires counselling on the late effects of both options (EAU 2026, 6.3.6.1). Complete staging is a prerequisite because radiotherapy acts only locally (Che & Papachristofilou 2025).",
+            "teaching_point": "Stage IIA: para-aortic plus ipsilateral pelvic at 30 Gy, not 27 Gy and not 36 Gy."
+          }
+        },
+        "es": {
+          "vignette": "Un varón de 38 años con seminoma en estadio IIA (ganglio paraaórtico único de 1,6 cm, crecimiento confirmado en el control, marcadores normales, resto de la estadificación de tórax a pelvis sin hallazgos) rechaza quimioterapia y cirugía. Opta por radioterapia. Deben definirse el volumen blanco y la dosis.",
+          "lead_in": "¿Qué esquema de radioterapia se ajusta a la guía?",
+          "options": {
+            "A": {
+              "text": "Paraaórtica y pélvica ipsilateral, dosis total 30 Gy",
+              "rationale": "El campo clásico abarca el drenaje linfático retroperitoneal y pélvico ipsilateral, con 30 Gy en el estadio IIA (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1)."
+            },
+            "B": {
+              "text": "Paraaórtica y pélvica ipsilateral, dosis total 36 Gy",
+              "rationale": "Error de concepto: confusión de estadios. 36 Gy es la dosis del estadio IIB (Che & Papachristofilou 2025); en el estadio IIA añade dosis sin beneficio demostrado."
+            },
+            "C": {
+              "text": "Paraaórtica y pélvica ipsilateral, dosis total 27 Gy",
+              "rationale": "Error de concepto: una dosis menor solo reduciría la toxicidad. Reducir la dosis a 27 Gy en el estadio IIA se asocia a una mayor tasa de recaída (EAU 2026, 6.2.2.1)."
+            },
+            "D": {
+              "text": "Solo paraaórtica sin campo pélvico, dosis total 30 Gy",
+              "rationale": "Error de concepto: un campo solo paraaórtico bastaría en la enfermedad metastásica. En el estadio IIA el drenaje pélvico ipsilateral forma parte del campo estándar (Che & Papachristofilou 2025)."
+            },
+            "E": {
+              "text": "Solo campo afectado, sin carboplatino, dosis total 30 Gy",
+              "rationale": "Error de concepto: la radioterapia de pequeño volumen sería autosuficiente. En SAKK 01/10 siempre siguió a un ciclo de carboplatino (Che & Papachristofilou 2025); sola, falta el efecto fuera del campo."
+            }
+          },
+          "explanation": {
+            "core": "En el estadio IIA la radioterapia es una opción estándar junto a la quimioterapia: campo paraaórtico y pélvico ipsilateral, dosis de 30 Gy (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1). El artículo indica 30 Gy para el estadio IIA y 36 Gy para el IIB con radioterapia paraaórtica y pélvica ipsilateral (Che & Papachristofilou 2025). La EAU recomienda las mismas dosis, comunica una supervivencia libre de recaída a cinco años del 92 % en el estadio IIA y una mayor tasa de recaída al reducir a 27 Gy (EAU 2026, 6.2.2.1). El campo amplio, de unos 1200 cm³, aumenta el riesgo de segundas neoplasias (Che & Papachristofilou 2025); la EAU exige informar de los efectos tardíos de ambas opciones (EAU 2026, 6.3.6.1). La estadificación completa es imprescindible porque la radioterapia solo actúa localmente (Che & Papachristofilou 2025).",
+            "teaching_point": "Estadio IIA: paraaórtica más pélvica ipsilateral con 30 Gy, ni 27 Gy ni 36 Gy."
+          }
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00025",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Seminom Stadium II",
+        "tags": [
+          "operationstechnik"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "ohne_phase_III",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Aktuelle operative und strahlentherapeutische Entwicklungen bei der Therapie des Seminoms im Stadium IIA/B",
+          "citation": "Che Y, Papachristofilou A. Urologie 2025;64:1018–1023. doi:10.1007/s00120-025-02672-9",
+          "year": 2025
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-19",
+        "last_reviewed": "2026-09-19",
+        "expires": "2027-09-19"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 28-jähriger Mann mit Seminom links hat einen solitären links paraaortalen Lymphknoten von 2,2 cm bei normalen Markern. Das Tumorboard empfiehlt die primäre RLA; das Zentrum operiert offen und robotisch mit vergleichbarer Erfahrung. Der Patient hat Kinderwunsch und fragt nach dem Erhalt der Ejakulation. Festlegung der Operationsplanung.",
+          "lead_in": "Welche Operationsplanung ist am besten begründet?",
+          "options": {
+            "A": {
+              "text": "Bilaterales Template, weil nur so die Radikalität gesichert ist",
+              "rationale": "Fehlannahme: Mehr Resektion bedeute mehr Sicherheit. Bilaterale Templates wurden nur bei einem Teil der SEMS-Patienten eingesetzt und zeigten keinen onkologischen Vorteil (Che & Papachristofilou 2025)."
+            },
+            "B": {
+              "text": "Robotischer Zugang zwingend, weil er onkologisch überlegen ist",
+              "rationale": "Fehlannahme: Technische Vorteile seien onkologische Vorteile. Robotisch zeigten sich geringerer Blutverlust, kürzerer Aufenthalt und bessere Kosmetik; randomisierte Vergleiche fehlen (Che & Papachristofilou 2025)."
+            },
+            "C": {
+              "text": "Offener Zugang zwingend, weil robotisch mehr Rezidive auftreten",
+              "rationale": "Fehlannahme in umgekehrter Richtung. Ein onkologischer Nachteil der robotischen Technik wurde nicht nachgewiesen (Che & Papachristofilou 2025); beide Zugänge gelten als machbar und sicher."
+            },
+            "D": {
+              "text": "Einseitiges Template plus ipsilaterale pelvine Lymphadenektomie",
+              "rationale": "Fehlannahme: Das Bestrahlungsfeld lasse sich auf die Operation übertragen. Die ipsilateral pelvine Ausdehnung gehört zur Radiotherapie (Che & Papachristofilou 2025); das RLA-Template folgt dem retroperitonealen Befund (Che & Papachristofilou 2025)."
+            },
+            "E": {
+              "text": "Linksseitiges modifiziertes Template, Zugang nach Expertise",
+              "rationale": "Das modifizierte einseitige Template folgt der Seite der radiologisch nachgewiesenen Knoten und zielt auf Tumorkontrolle bei minimaler Funktionseinbuße (Che & Papachristofilou 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Das Template richtet sich nach der Seite des Befundes, der Zugang nach der Expertise des Zentrums. Beides dient maximaler Tumorkontrolle bei minimaler funktioneller Einschränkung. In den Studien wurde überwiegend ein modifiziertes einseitiges Template verwendet; in PRIMETEST blieb die antegrade Ejakulation bei 94 % der Patienten erhalten, bilaterale Templates zeigten in SEMS keinen onkologischen Vorteil (Che & Papachristofilou 2025). Offener und robotischer Zugang sind machbar und sicher; ein randomisierter Vergleich fehlt, und die robotische RLA setzt entsprechende Expertise voraus (Che & Papachristofilou 2025). Bei Kinderwunsch gehören das Restrisiko des Ejakulationsverlusts und die Kryokonservierung vor dem Eingriff ins Gespräch. Fehlt robotische Erfahrung, ist der offene Zugang die sichere Wahl (Che & Papachristofilou 2025).",
+            "teaching_point": "Template nach Befundseite, Zugang nach Expertise, nicht nach vermuteter onkologischer Überlegenheit."
+          },
+          "flag_note": "Template- und Zugangsdaten stammen aus einarmigen Phase-II-Studien und einer Matched-Pair-Analyse; randomisierte Vergleiche fehlen."
+        },
+        "en": {
+          "vignette": "A 28-year-old man with left-sided seminoma has a solitary 2.2 cm left para-aortic lymph node with normal markers. The tumour board recommends primary RPLND; the centre performs open and robotic surgery with comparable experience. He wishes to father children and asks about preserving ejaculation. Surgical planning is to be decided.",
+          "lead_in": "Which surgical plan is best justified?",
+          "options": {
+            "A": {
+              "text": "Bilateral template, as only this secures radicality",
+              "rationale": "Misconception: more resection means more safety. Bilateral templates were used in only some SEMS patients and showed no oncological benefit (Che & Papachristofilou 2025)."
+            },
+            "B": {
+              "text": "Robotic approach mandatory, as it is oncologically superior",
+              "rationale": "Misconception: technical advantages are oncological advantages. Robotic surgery showed less blood loss, shorter stay and better cosmesis; randomised comparisons are lacking (Che & Papachristofilou 2025)."
+            },
+            "C": {
+              "text": "Open approach mandatory, as robotic surgery causes more relapses",
+              "rationale": "Misconception in the opposite direction. An oncological disadvantage of the robotic technique has not been shown (Che & Papachristofilou 2025); both approaches are considered feasible and safe."
+            },
+            "D": {
+              "text": "Unilateral template plus ipsilateral pelvic lymphadenectomy",
+              "rationale": "Misconception: the radiotherapy field can be transferred to surgery. The ipsilateral pelvic extension belongs to radiotherapy (Che & Papachristofilou 2025); the RPLND template follows the retroperitoneal finding (Che & Papachristofilou 2025)."
+            },
+            "E": {
+              "text": "Left-sided modified template, approach by centre expertise",
+              "rationale": "The modified unilateral template follows the side of the radiologically detected nodes and aims at tumour control with minimal functional loss (Che & Papachristofilou 2025)."
+            }
+          },
+          "explanation": {
+            "core": "The template follows the side of the finding, the approach follows the centre's expertise. Both serve maximal tumour control with minimal functional impairment. The trials mostly used a modified unilateral template; in PRIMETEST antegrade ejaculation was preserved in 94% of patients, and bilateral templates showed no oncological benefit in SEMS (Che & Papachristofilou 2025). Open and robotic approaches are feasible and safe; a randomised comparison is lacking, and robotic RPLND requires appropriate expertise (Che & Papachristofilou 2025). With a wish for children, the residual risk of ejaculatory loss and sperm cryopreservation before surgery belong in the discussion. Without robotic experience, the open approach is the safe choice (Che & Papachristofilou 2025).",
+            "teaching_point": "Template by side of the finding, approach by expertise, not by presumed oncological superiority."
+          },
+          "flag_note": "Template and approach data come from single-arm phase II trials and a matched-pair analysis; randomised comparisons are lacking."
+        },
+        "es": {
+          "vignette": "Un varón de 28 años con seminoma izquierdo presenta un ganglio paraaórtico izquierdo solitario de 2,2 cm con marcadores normales. El comité recomienda RPLND primaria; el centro opera por vía abierta y robótica con experiencia comparable. Desea tener hijos y pregunta por la preservación de la eyaculación. Debe decidirse la planificación quirúrgica.",
+          "lead_in": "¿Qué planificación quirúrgica está mejor justificada?",
+          "options": {
+            "A": {
+              "text": "Plantilla bilateral, porque solo así se asegura la radicalidad",
+              "rationale": "Error de concepto: más resección significaría más seguridad. Las plantillas bilaterales se usaron solo en parte de los pacientes de SEMS y no mostraron beneficio oncológico (Che & Papachristofilou 2025)."
+            },
+            "B": {
+              "text": "Abordaje robótico obligatorio por su superioridad oncológica",
+              "rationale": "Error de concepto: las ventajas técnicas serían ventajas oncológicas. La robótica mostró menor sangrado, estancia más corta y mejor resultado estético; faltan comparaciones aleatorizadas (Che & Papachristofilou 2025)."
+            },
+            "C": {
+              "text": "Abordaje abierto obligatorio porque la robótica causa más recaídas",
+              "rationale": "Error de concepto en sentido contrario. No se ha demostrado una desventaja oncológica de la técnica robótica (Che & Papachristofilou 2025); ambos abordajes se consideran factibles y seguros."
+            },
+            "D": {
+              "text": "Plantilla unilateral más linfadenectomía pélvica ipsilateral",
+              "rationale": "Error de concepto: el campo de radioterapia podría trasladarse a la cirugía. La extensión pélvica ipsilateral corresponde a la radioterapia (Che & Papachristofilou 2025); la plantilla de RPLND sigue el hallazgo retroperitoneal (Che & Papachristofilou 2025)."
+            },
+            "E": {
+              "text": "Plantilla izquierda modificada, abordaje según la experiencia",
+              "rationale": "La plantilla unilateral modificada sigue el lado de los ganglios detectados radiológicamente y busca el control tumoral con mínima pérdida funcional (Che & Papachristofilou 2025)."
+            }
+          },
+          "explanation": {
+            "core": "La plantilla depende del lado del hallazgo y el abordaje de la experiencia del centro. Ambos buscan el máximo control tumoral con la mínima limitación funcional. Los ensayos usaron sobre todo una plantilla unilateral modificada; en PRIMETEST se preservó la eyaculación anterógrada en el 94 % de los pacientes y las plantillas bilaterales no mostraron beneficio oncológico en SEMS (Che & Papachristofilou 2025). Los abordajes abierto y robótico son factibles y seguros; falta una comparación aleatorizada y la RPLND robótica requiere la experiencia correspondiente (Che & Papachristofilou 2025). Si hay deseo de paternidad, el riesgo residual de pérdida de la eyaculación y la criopreservación de semen antes de la cirugía deben formar parte de la conversación. Sin experiencia robótica, el abordaje abierto es la opción segura (Che & Papachristofilou 2025).",
+            "teaching_point": "Plantilla según el lado del hallazgo y abordaje según la experiencia, no según una supuesta superioridad oncológica."
+          },
+          "flag_note": "Los datos de plantilla y abordaje proceden de ensayos de fase II de un solo brazo y de un análisis de pares emparejados; faltan comparaciones aleatorizadas."
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00026",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Seminom Stadium II",
+        "tags": [
+          "systemtherapie",
+          "studienlage"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 7,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "ohne_phase_III",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Aktuelle operative und strahlentherapeutische Entwicklungen bei der Therapie des Seminoms im Stadium IIA/B",
+          "citation": "Che Y, Papachristofilou A. Urologie 2025;64:1018–1023. doi:10.1007/s00120-025-02672-9",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.2.2.1.1, 6.2.2.1.2"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-19",
+        "last_reviewed": "2026-09-19",
+        "expires": "2027-03-31"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 35-jähriger Mann mit Seminom im Stadium IIB hat eine primäre RLA erhalten. Histologie: drei befallene Lymphknoten, größter Herd 2,4 cm, R0. Die Marker sind postoperativ normal, der Verlauf ist komplikationslos. Der Patient möchte das Rückfallrisiko senken, aber keine unnötige Therapie. Vorstellung im Tumorboard zur Festlegung des postoperativen Vorgehens.",
+          "lead_in": "Welches postoperative Vorgehen ist am besten begründet?",
+          "options": {
+            "A": {
+              "text": "Drei Zyklen BEP wie bei primär metastasierter Erkrankung",
+              "rationale": "Fehlannahme: Positive Knoten verlangten die volle Therapie des metastasierten Stadiums. Bei Risikomarkern wurde ein einziger adjuvanter Zyklus BEP untersucht (Che & Papachristofilou 2025)."
+            },
+            "B": {
+              "text": "Einen adjuvanten Zyklus BEP anbieten und Nutzen abwägen",
+              "rationale": "Mehr als zwei befallene Lymphknoten sind ein Risikomarker; in der skandinavischen Studie senkte ein Zyklus BEP die Rezidivrate maßgeblich (Che & Papachristofilou 2025)."
+            },
+            "C": {
+              "text": "Zwei Zyklen Carboplatin AUC 7 als adjuvante Monotherapie",
+              "rationale": "Fehlannahme: Übertragung des Carboplatin-Konzepts aus dem Stadium I. Nach RLA wurde bei Risikomarkern das cisplatinhaltige BEP geprüft, nicht Carboplatin (Che & Papachristofilou 2025)."
+            },
+            "D": {
+              "text": "Adjuvante Bestrahlung des Operationsgebiets mit 30 Gy",
+              "rationale": "Fehlannahme: Operation und Bestrahlung ergänzten sich. Adjuvante Ansätze nach primärer RLA sind systemisch (Che & Papachristofilou 2025); eine Bestrahlung höbe den strahlenfreien Ansatz auf."
+            },
+            "E": {
+              "text": "Nachsorge ohne Risikobewertung, da die RLA kurativ war",
+              "rationale": "Fehlannahme: Nach R0-Resektion bestehe kein relevantes Rückfallrisiko. Das rezidivfreie Überleben nach RLA lag in den Studien bei 70–90 % (Che & Papachristofilou 2025); Risikomarker verschieben dieses Risiko."
+            }
+          },
+          "explanation": {
+            "core": "Drei befallene Lymphknoten erfüllen ein pathologisches Risikokriterium. Ein einzelner adjuvanter Zyklus BEP senkt dann das Rezidivrisiko und ist gegen die Chance abzuwägen, ganz ohne Chemotherapie auszukommen. Eine multizentrische skandinavische Studie gab bei mehr als zwei positiven Lymphknoten oder Knoten über 3 cm einen adjuvanten Zyklus BEP und senkte damit die Rezidivrate maßgeblich (Che & Papachristofilou 2025). Welche Faktoren eine adjuvante Therapie rechtfertigen, prüft die laufende PRIMETEST-II-Studie (Che & Papachristofilou 2025). Die EAU nennt RLA-Serien mit und ohne adjuvante Chemotherapie (EAU 2026, 6.2.2.1.1) und sieht alle Deeskalationsstrategien noch in Evaluation (EAU 2026, 6.2.2.1.2). Die Entscheidung ist eine Abwägung, kein Automatismus: Ohne Adjuvanz bleibt ein Teil der Patienten chemotherapiefrei, und ein Rezidiv wäre mit Chemotherapie behandelbar (Che & Papachristofilou 2025). Anzahl befallener Knoten und größter Durchmesser müssen deshalb ausdrücklich im Pathologiebefund stehen.",
+            "teaching_point": "Nach RLA mit Risikomarkern, also mehr als zwei positiven Knoten oder Knoten über 3 cm: einen Zyklus BEP abwägen, nicht drei."
+          },
+          "flag_note": "Die Risikokriterien stammen aus einer populationsbasierten Kohorte und sind nicht prospektiv validiert; PRIMETEST II läuft."
+        },
+        "en": {
+          "vignette": "A 35-year-old man with stage IIB seminoma has undergone primary RPLND. Histology: three involved lymph nodes, largest deposit 2.4 cm, R0. Markers are normal after surgery and recovery was uneventful. He wants to lower his relapse risk but avoid unnecessary treatment. He is presented at the tumour board to decide on postoperative management.",
+          "lead_in": "Which postoperative approach is best justified?",
+          "options": {
+            "A": {
+              "text": "Three cycles of BEP as for primary metastatic disease",
+              "rationale": "Misconception: positive nodes demand full treatment of metastatic disease. With risk markers, a single adjuvant cycle of BEP was studied (Che & Papachristofilou 2025)."
+            },
+            "B": {
+              "text": "Offer one adjuvant cycle of BEP and weigh the benefit",
+              "rationale": "More than two involved lymph nodes are a risk marker; in the Scandinavian study one cycle of BEP substantially reduced the relapse rate (Che & Papachristofilou 2025)."
+            },
+            "C": {
+              "text": "Two cycles of carboplatin AUC 7 as adjuvant monotherapy",
+              "rationale": "Misconception: transfer of the carboplatin concept from stage I. After RPLND with risk markers, cisplatin-based BEP was evaluated, not carboplatin (Che & Papachristofilou 2025)."
+            },
+            "D": {
+              "text": "Adjuvant radiotherapy to the surgical field with 30 Gy",
+              "rationale": "Misconception: surgery and radiotherapy complement each other. Adjuvant approaches after primary RPLND are systemic (Che & Papachristofilou 2025); radiotherapy would negate the radiation-free concept."
+            },
+            "E": {
+              "text": "Follow-up without risk assessment, as RPLND was curative",
+              "rationale": "Misconception: after R0 resection there is no relevant relapse risk. Relapse-free survival after RPLND in the trials was 70–90% (Che & Papachristofilou 2025); risk markers shift this risk."
+            }
+          },
+          "explanation": {
+            "core": "Three involved lymph nodes meet a pathological risk criterion. A single adjuvant cycle of BEP then lowers the relapse risk and must be weighed against the chance of avoiding chemotherapy altogether. A multicentre Scandinavian study gave one adjuvant cycle of BEP for more than two positive nodes or nodes over 3 cm and thereby substantially reduced the relapse rate (Che & Papachristofilou 2025). Which factors justify adjuvant therapy is being tested in the ongoing PRIMETEST II trial (Che & Papachristofilou 2025). The EAU describes RPLND series with and without adjuvant chemotherapy (EAU 2026, 6.2.2.1.1) and considers all de-escalation strategies still under evaluation (EAU 2026, 6.2.2.1.2). The decision is a trade-off, not an automatism: without adjuvant therapy some patients remain chemotherapy-free, and a relapse could be treated with chemotherapy (Che & Papachristofilou 2025). The number of involved nodes and the largest diameter must therefore be stated explicitly in the pathology report.",
+            "teaching_point": "After RPLND with risk markers, i.e. more than two positive nodes or nodes over 3 cm: weigh one cycle of BEP, not three."
+          },
+          "flag_note": "The risk criteria come from a population-based cohort and have not been prospectively validated; PRIMETEST II is ongoing."
+        },
+        "es": {
+          "vignette": "Un varón de 35 años con seminoma en estadio IIB ha sido sometido a RPLND primaria. Histología: tres ganglios afectados, depósito mayor de 2,4 cm, R0. Los marcadores son normales tras la cirugía y la evolución ha sido sin complicaciones. Desea reducir el riesgo de recaída sin recibir tratamiento innecesario. Se presenta en el comité para decidir la conducta posoperatoria.",
+          "lead_in": "¿Qué conducta posoperatoria está mejor justificada?",
+          "options": {
+            "A": {
+              "text": "Tres ciclos de BEP como en la enfermedad metastásica primaria",
+              "rationale": "Error de concepto: los ganglios positivos exigirían el tratamiento completo de la enfermedad metastásica. Con marcadores de riesgo se estudió un único ciclo adyuvante de BEP (Che & Papachristofilou 2025)."
+            },
+            "B": {
+              "text": "Ofrecer un ciclo adyuvante de BEP y sopesar el beneficio",
+              "rationale": "Más de dos ganglios afectados son un marcador de riesgo; en el estudio escandinavo un ciclo de BEP redujo de forma notable la tasa de recaída (Che & Papachristofilou 2025)."
+            },
+            "C": {
+              "text": "Dos ciclos de carboplatino AUC 7 como monoterapia adyuvante",
+              "rationale": "Error de concepto: trasladar el carboplatino del estadio I. Tras la RPLND con marcadores de riesgo se evaluó BEP con cisplatino, no carboplatino (Che & Papachristofilou 2025)."
+            },
+            "D": {
+              "text": "Radioterapia adyuvante del lecho quirúrgico con 30 Gy",
+              "rationale": "Error de concepto: cirugía y radioterapia se complementarían. Los enfoques adyuvantes tras la RPLND primaria son sistémicos (Che & Papachristofilou 2025); la radioterapia anularía el concepto sin radiación."
+            },
+            "E": {
+              "text": "Seguimiento sin valorar el riesgo, pues la RPLND fue curativa",
+              "rationale": "Error de concepto: tras una resección R0 no habría riesgo relevante de recaída. La supervivencia sin recaída tras RPLND en los ensayos fue del 70–90 % (Che & Papachristofilou 2025); los marcadores de riesgo desplazan ese riesgo."
+            }
+          },
+          "explanation": {
+            "core": "Tres ganglios afectados cumplen un criterio patológico de riesgo. Un único ciclo adyuvante de BEP reduce entonces el riesgo de recaída y debe sopesarse frente a la posibilidad de evitar por completo la quimioterapia. Un estudio escandinavo multicéntrico administró un ciclo adyuvante de BEP con más de dos ganglios positivos o ganglios de más de 3 cm y redujo así de forma notable la tasa de recaída (Che & Papachristofilou 2025). Qué factores justifican el tratamiento adyuvante lo analiza el ensayo PRIMETEST II, en curso (Che & Papachristofilou 2025). La EAU describe series de RPLND con y sin quimioterapia adyuvante (EAU 2026, 6.2.2.1.1) y considera todas las estrategias de desescalada aún en evaluación (EAU 2026, 6.2.2.1.2). La decisión es una ponderación, no un automatismo: sin adyuvancia una parte de los pacientes queda libre de quimioterapia y una recaída podría tratarse con quimioterapia (Che & Papachristofilou 2025). Por eso el informe anatomopatológico debe indicar expresamente el número de ganglios afectados y el diámetro mayor.",
+            "teaching_point": "Tras RPLND con marcadores de riesgo, es decir, más de dos ganglios positivos o ganglios de más de 3 cm: sopesar un ciclo de BEP, no tres."
+          },
+          "flag_note": "Los criterios de riesgo proceden de una cohorte poblacional y no están validados prospectivamente; PRIMETEST II está en curso."
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00027",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Seminom Stadium II",
+        "tags": [
+          "systemtherapie",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Aktuelle operative und strahlentherapeutische Entwicklungen bei der Therapie des Seminoms im Stadium IIA/B",
+          "citation": "Che Y, Papachristofilou A. Urologie 2025;64:1018–1023. doi:10.1007/s00120-025-02672-9",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.2.2.1.1, 6.2.3.1.1, 6.3.4"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-19",
+        "last_reviewed": "2026-09-19",
+        "expires": "2027-09-19"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 31-jähriger Mann hat vor neun Monaten wegen eines Seminoms im Stadium IIA eine linksseitige primäre RLA ohne adjuvante Therapie erhalten. Das Nachsorge-CT zeigt einen neuen, 2,8 cm großen rechts parakavalen Lymphknoten außerhalb des Templates, sonst keinen Befund; AFP normal, β-hCG gering erhöht. Eine Chemotherapie hat er bisher nicht erhalten. Vorstellung zur Festlegung der Rezidivtherapie.",
+          "lead_in": "Welche Rezidivtherapie ist angemessen?",
+          "options": {
+            "A": {
+              "text": "Erstlinie nach IGCCCG, in der Regel drei Zyklen BEP",
+              "rationale": "Der Patient ist chemotherapienaiv. Das Rezidiv nach RLA wird mit Standardchemotherapie behandelt, die nach EAU fast immer heilt (EAU 2026, 6.2.2.1.1); in den Studien gelang dies bei allen Rezidiven (Che & Papachristofilou 2025)."
+            },
+            "B": {
+              "text": "Salvage-Schema mit vier Zyklen TIP oder alternativ VIP",
+              "rationale": "Fehlannahme: Das Wort Salvage bedeute Zweitlinie. TIP und VIP sind für Rezidive nach cisplatinbasierter Erstlinie vorgesehen (EAU 2026, 6.3.4); dieser Patient hatte keine Chemotherapie."
+            },
+            "C": {
+              "text": "Erneute RLA mit Erweiterung auf ein bilaterales Template",
+              "rationale": "Fehlannahme: Chirurgische Rezidivlogik aus dem Nichtseminom. Für Rezidive nach primärer RLA beim Seminom ist die Chemotherapie der belegte Weg (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1.1)."
+            },
+            "D": {
+              "text": "Carboplatin AUC 7, danach Involved-node-Bestrahlung 36 Gy",
+              "rationale": "Fehlannahme: Deeskalation sei auch im Rezidiv erste Wahl. Das kombinierte Schema wurde als Primärtherapie im Stadium IIA/B geprüft, nicht nach RLA (Che & Papachristofilou 2025)."
+            },
+            "E": {
+              "text": "Bestrahlung paraaortal und ipsilateral pelvin mit 36 Gy",
+              "rationale": "Fehlannahme: Nach Operation sei die Bestrahlung als lokale Option gleichwertig. Belegt ist für Rezidive nach RLA die Standardchemotherapie (Che & Papachristofilou 2025); zur Bestrahlung in dieser Lage liefert die Quelle keine Daten."
+            }
+          },
+          "explanation": {
+            "core": "Ein Rezidiv nach primärer RLA trifft einen chemotherapienaiven Patienten. Er erhält deshalb die stadiengerechte Erstlinienchemotherapie, kein Salvage-Schema der Zweitlinie. In SEMS, COTRIMS und PRIMETEST wurden sämtliche Rezidive erfolgreich durch Salvage-Chemotherapie behandelt (Che & Papachristofilou 2025). Laut EAU werden Rezidive nach primärer RLA fast immer durch Standardchemotherapie geheilt (EAU 2026, 6.2.2.1.1); ifosfamidhaltige Kombinationen wie TIP oder VIP sind Rezidiven nach cisplatinbasierter Erstlinie vorbehalten (EAU 2026, 6.3.4). In guter Prognose ist BEP x 3 Standard (EAU 2026, 6.2.3.1.1). Salvage bedeutet im RLA-Kontext Rettung nach Operation, nicht Zweitlinie. Die IGCCCG-Zuordnung erfolgt anhand der Befunde zum Rezidivzeitpunkt.",
+            "teaching_point": "Rezidiv nach primärer RLA: chemotherapienaiv, also Erstlinie nach IGCCCG, meist drei Zyklen BEP."
+          }
+        },
+        "en": {
+          "vignette": "A 31-year-old man underwent left-sided primary RPLND without adjuvant therapy nine months ago for stage IIA seminoma. Follow-up CT shows a new 2.8 cm right paracaval lymph node outside the template and no other findings; AFP is normal, β-hCG mildly elevated. He has never received chemotherapy. He is referred to decide on treatment of the relapse.",
+          "lead_in": "Which treatment of the relapse is appropriate?",
+          "options": {
+            "A": {
+              "text": "First-line per IGCCCG, usually three cycles of BEP",
+              "rationale": "The patient is chemotherapy-naive. Relapse after RPLND is treated with standard chemotherapy, which according to the EAU almost always cures (EAU 2026, 6.2.2.1.1); in the trials this succeeded in every relapse (Che & Papachristofilou 2025)."
+            },
+            "B": {
+              "text": "Salvage regimen of four cycles of TIP or alternatively VIP",
+              "rationale": "Misconception: salvage means second line. TIP and VIP are intended for relapse after cisplatin-based first-line therapy (EAU 2026, 6.3.4); this patient has had no chemotherapy."
+            },
+            "C": {
+              "text": "Repeat RPLND with extension to a bilateral template",
+              "rationale": "Misconception: surgical relapse logic borrowed from non-seminoma. For relapse after primary RPLND in seminoma, chemotherapy is the evidence-based route (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1.1)."
+            },
+            "D": {
+              "text": "Carboplatin AUC 7, then involved-node radiotherapy 36 Gy",
+              "rationale": "Misconception: de-escalation remains the first choice at relapse. The combined regimen was tested as primary therapy in stage IIA/B, not after RPLND (Che & Papachristofilou 2025)."
+            },
+            "E": {
+              "text": "Para-aortic and ipsilateral pelvic radiotherapy with 36 Gy",
+              "rationale": "Misconception: after surgery, radiotherapy is an equivalent local option. For relapse after RPLND the evidence supports standard chemotherapy (Che & Papachristofilou 2025); the source gives no data on radiotherapy in this setting."
+            }
+          },
+          "explanation": {
+            "core": "A relapse after primary RPLND occurs in a chemotherapy-naive patient. He therefore receives stage-appropriate first-line chemotherapy, not a second-line salvage regimen. In SEMS, COTRIMS and PRIMETEST all relapses were treated successfully with salvage chemotherapy (Che & Papachristofilou 2025). According to the EAU, relapses after primary RPLND are almost always cured by standard chemotherapy (EAU 2026, 6.2.2.1.1); ifosfamide-containing combinations such as TIP or VIP are reserved for relapse after cisplatin-based first-line therapy (EAU 2026, 6.3.4). In good prognosis, BEP x 3 is standard (EAU 2026, 6.2.3.1.1). In the RPLND context, salvage means rescue after surgery, not second line. IGCCCG assignment is based on the findings at relapse.",
+            "teaching_point": "Relapse after primary RPLND: chemotherapy-naive, so first-line per IGCCCG, usually three cycles of BEP."
+          }
+        },
+        "es": {
+          "vignette": "Un varón de 31 años fue sometido hace nueve meses a RPLND primaria izquierda sin tratamiento adyuvante por un seminoma en estadio IIA. La TC de seguimiento muestra un nuevo ganglio paracavo derecho de 2,8 cm fuera de la plantilla, sin otros hallazgos; AFP normal, β-hCG discretamente elevada. Nunca ha recibido quimioterapia. Se remite para decidir el tratamiento de la recaída.",
+          "lead_in": "¿Qué tratamiento de la recaída es adecuado?",
+          "options": {
+            "A": {
+              "text": "Primera línea según IGCCCG, por lo general tres ciclos de BEP",
+              "rationale": "El paciente no ha recibido quimioterapia. La recaída tras RPLND se trata con quimioterapia estándar, que según la EAU casi siempre cura (EAU 2026, 6.2.2.1.1); en los ensayos se logró en todas las recaídas (Che & Papachristofilou 2025)."
+            },
+            "B": {
+              "text": "Esquema de rescate con cuatro ciclos de TIP o bien VIP",
+              "rationale": "Error de concepto: rescate significaría segunda línea. TIP y VIP están previstos para la recaída tras una primera línea con cisplatino (EAU 2026, 6.3.4); este paciente no ha recibido quimioterapia."
+            },
+            "C": {
+              "text": "Nueva RPLND ampliando a una plantilla bilateral",
+              "rationale": "Error de concepto: lógica quirúrgica de recaída tomada del no seminoma. Para la recaída tras RPLND primaria en el seminoma, la vía respaldada es la quimioterapia (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1.1)."
+            },
+            "D": {
+              "text": "Carboplatino AUC 7 y luego radioterapia de campo afectado 36 Gy",
+              "rationale": "Error de concepto: la desescalada seguiría siendo la primera opción en la recaída. El esquema combinado se estudió como tratamiento primario en el estadio IIA/B, no tras RPLND (Che & Papachristofilou 2025)."
+            },
+            "E": {
+              "text": "Radioterapia paraaórtica y pélvica ipsilateral con 36 Gy",
+              "rationale": "Error de concepto: tras la cirugía, la radioterapia sería una opción local equivalente. Para la recaída tras RPLND lo respaldado es la quimioterapia estándar (Che & Papachristofilou 2025); la fuente no aporta datos de radioterapia en esta situación."
+            }
+          },
+          "explanation": {
+            "core": "La recaída tras RPLND primaria afecta a un paciente sin quimioterapia previa. Por eso recibe quimioterapia de primera línea adaptada al estadio, no un esquema de rescate de segunda línea. En SEMS, COTRIMS y PRIMETEST todas las recaídas se trataron con éxito con quimioterapia de rescate (Che & Papachristofilou 2025). Según la EAU, las recaídas tras RPLND primaria se curan casi siempre con quimioterapia estándar (EAU 2026, 6.2.2.1.1); las combinaciones con ifosfamida como TIP o VIP se reservan para la recaída tras una primera línea con cisplatino (EAU 2026, 6.3.4). En pronóstico favorable, BEP x 3 es el estándar (EAU 2026, 6.2.3.1.1). En el contexto de la RPLND, rescate significa rescate tras la cirugía, no segunda línea. La asignación IGCCCG se basa en los hallazgos en el momento de la recaída.",
+            "teaching_point": "Recaída tras RPLND primaria: sin quimioterapia previa, por tanto primera línea según IGCCCG, habitualmente tres ciclos de BEP."
+          }
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00028",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Seminom Stadium II",
+        "tags": [
+          "strahlentherapie",
+          "studienlage"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 5,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "ohne_phase_III",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Aktuelle operative und strahlentherapeutische Entwicklungen bei der Therapie des Seminoms im Stadium IIA/B",
+          "citation": "Che Y, Papachristofilou A. Urologie 2025;64:1018–1023. doi:10.1007/s00120-025-02672-9",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.2.2.1.2"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-19",
+        "last_reviewed": "2026-09-19",
+        "expires": "2027-03-31"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 40-jähriger Mann mit Seminom im Stadium IIA (einzelner paraaortaler Knoten 1,7 cm, Wachstum bestätigt, Marker normal, vollständiges Staging sonst unauffällig) wird in einem Hodentumorzentrum betreut. Nach Tumorboardbeschluss und Aufklärung über die Datenlage soll er eine deeskalierte Radiochemotherapie analog SAKK 01/10 erhalten. Festlegung des Behandlungsablaufs.",
+          "lead_in": "Wie ist die Behandlung analog SAKK 01/10 durchzuführen?",
+          "options": {
+            "A": {
+              "text": "Involved-node-Bestrahlung, danach ein Zyklus Carboplatin AUC 7",
+              "rationale": "Fehlannahme: Die Reihenfolge sei beliebig. Geprüft wurde ein Zyklus Carboplatin, gefolgt von der kleinvolumigen Bestrahlung (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1.2)."
+            },
+            "B": {
+              "text": "Ein Zyklus Carboplatin AUC 7, danach klassisches Dog-leg-Feld",
+              "rationale": "Fehlannahme: Verwechslung mit der britischen Studie, die Carboplatin mit klassischer Bestrahlung kombinierte (Che & Papachristofilou 2025). SAKK 01/10 verkleinert gerade das Volumen, im Schnitt auf etwa ein Viertel (Che & Papachristofilou 2025)."
+            },
+            "C": {
+              "text": "Ein Zyklus Carboplatin AUC 7, dann Involved-node-Bestrahlung",
+              "rationale": "Ein Zyklus Carboplatin AUC 7, danach Bestrahlung nur der befallenen Knoten mit kleinem Sicherheitssaum; im Stadium IIA 30 Gy in 15 Fraktionen (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1.2)."
+            },
+            "D": {
+              "text": "Ein Zyklus Etoposid und Cisplatin, danach Involved-node 30 Gy",
+              "rationale": "Fehlannahme: Verwechslung mit SAKK 01/18. Dort wird ein Zyklus Etoposid und Cisplatin experimentell im Stadium IIB geprüft, Ergebnisse stehen aus (Che & Papachristofilou 2025)."
+            },
+            "E": {
+              "text": "Zwei Zyklen Carboplatin AUC 7 ohne anschließende Bestrahlung",
+              "rationale": "Fehlannahme: Übertragung der Stadium-I-Adjuvanz. Ohne Bestrahlung der befallenen Knoten fehlt die lokale Komponente des geprüften Schemas (Che & Papachristofilou 2025)."
+            }
+          },
+          "explanation": {
+            "core": "SAKK 01/10 ersetzt hohe kumulative Chemotherapiedosen und große Felder durch eine abgeschwächte Kombination: zuerst ein Zyklus Carboplatin, dann die Bestrahlung nur der befallenen Knoten (Che & Papachristofilou 2025). In der bislang größten Studie dieser Art erhielten 120 Patienten einen Zyklus Carboplatin AUC 7 und danach eine Involved-node-Radiotherapie; das Volumen betrug etwa ein Viertel des Dog-leg-Feldes, das progressionsfreie Überleben nach mindestens 3 Jahren knapp 94 % (Che & Papachristofilou 2025). Die EAU nennt 30 Gy in 15 Fraktionen für IIA und 36 Gy in 18 Fraktionen für IIB sowie ein 3-Jahres-PFS von 93,7 %, womit der primäre Endpunkt von 95 % knapp verfehlt wurde (EAU 2026, 6.2.2.1.2). Die NCCN führt das Schema als Alternative (Che & Papachristofilou 2025), die EAU hält es noch nicht für den Routineeinsatz belegt (EAU 2026, 6.2.2.1.2); die Indikation gehört ins Tumorboard eines spezialisierten Zentrums (Che & Papachristofilou 2025).",
+            "teaching_point": "SAKK 01/10: ein Zyklus Carboplatin AUC 7, dann Involved-node-Bestrahlung; Volumen etwa ein Viertel des Dog-leg-Feldes."
+          },
+          "flag_note": "Einarmige Phase-II-Studie, primärer Endpunkt knapp verfehlt; die NCCN führt das Schema als Alternative, die EAU 2026 nicht für den Routineeinsatz."
+        },
+        "en": {
+          "vignette": "A 40-year-old man with stage IIA seminoma (single 1.7 cm para-aortic node, growth confirmed, normal markers, otherwise unremarkable complete staging) is treated at a testicular cancer centre. After a tumour board decision and counselling on the evidence, he is to receive de-escalated chemoradiotherapy as in SAKK 01/10. The treatment sequence is to be defined.",
+          "lead_in": "How is treatment as in SAKK 01/10 carried out?",
+          "options": {
+            "A": {
+              "text": "Involved-node radiotherapy, then one cycle of carboplatin AUC 7",
+              "rationale": "Misconception: the sequence is arbitrary. The trial tested one cycle of carboplatin followed by small-volume radiotherapy (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1.2)."
+            },
+            "B": {
+              "text": "One cycle of carboplatin AUC 7, then a classic dog-leg field",
+              "rationale": "Misconception: confusion with the British study, which combined carboplatin with classic radiotherapy (Che & Papachristofilou 2025). SAKK 01/10 deliberately reduces the volume, on average to about one quarter (Che & Papachristofilou 2025)."
+            },
+            "C": {
+              "text": "One cycle of carboplatin AUC 7, then involved-node radiotherapy",
+              "rationale": "One cycle of carboplatin AUC 7, then radiotherapy to the involved nodes only with a small margin; in stage IIA 30 Gy in 15 fractions (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1.2)."
+            },
+            "D": {
+              "text": "One cycle of etoposide and cisplatin, then involved-node 30 Gy",
+              "rationale": "Misconception: confusion with SAKK 01/18. That trial tests one cycle of etoposide and cisplatin experimentally in stage IIB; results are pending (Che & Papachristofilou 2025)."
+            },
+            "E": {
+              "text": "Two cycles of carboplatin AUC 7 without subsequent radiotherapy",
+              "rationale": "Misconception: transfer of stage I adjuvant therapy. Without radiotherapy of the involved nodes the local component of the tested regimen is missing (Che & Papachristofilou 2025)."
+            }
+          },
+          "explanation": {
+            "core": "SAKK 01/10 replaces high cumulative chemotherapy doses and large fields with an attenuated combination: first one cycle of carboplatin, then radiotherapy to the involved nodes only (Che & Papachristofilou 2025). In the largest trial of its kind so far, 120 patients received one cycle of carboplatin AUC 7 followed by involved-node radiotherapy; the volume was about one quarter of the dog-leg field and progression-free survival after at least 3 years just under 94% (Che & Papachristofilou 2025). The EAU states 30 Gy in 15 fractions for IIA and 36 Gy in 18 fractions for IIB and a 3-year PFS of 93.7%, narrowly missing the primary endpoint of 95% (EAU 2026, 6.2.2.1.2). The NCCN lists the regimen as an alternative (Che & Papachristofilou 2025), whereas the EAU does not yet consider it established for routine use (EAU 2026, 6.2.2.1.2); the indication belongs to the tumour board of a specialised centre (Che & Papachristofilou 2025).",
+            "teaching_point": "SAKK 01/10: one cycle of carboplatin AUC 7, then involved-node radiotherapy; volume about one quarter of the dog-leg field."
+          },
+          "flag_note": "Single-arm phase II trial, primary endpoint narrowly missed; the NCCN lists the regimen as an alternative, the EAU 2026 not for routine use."
+        },
+        "es": {
+          "vignette": "Un varón de 40 años con seminoma en estadio IIA (ganglio paraaórtico único de 1,7 cm, crecimiento confirmado, marcadores normales, resto de la estadificación completa sin hallazgos) se trata en un centro de tumores testiculares. Tras la decisión del comité y la información sobre la evidencia, recibirá quimiorradioterapia desescalada como en SAKK 01/10. Debe definirse la secuencia del tratamiento.",
+          "lead_in": "¿Cómo se aplica el tratamiento como en SAKK 01/10?",
+          "options": {
+            "A": {
+              "text": "Radioterapia de campo afectado y después un ciclo de carboplatino",
+              "rationale": "Error de concepto: el orden sería indiferente. Se estudió un ciclo de carboplatino seguido de radioterapia de pequeño volumen (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1.2)."
+            },
+            "B": {
+              "text": "Un ciclo de carboplatino AUC 7, luego campo clásico en palo de hockey",
+              "rationale": "Error de concepto: confusión con el estudio británico, que combinó carboplatino con radioterapia clásica (Che & Papachristofilou 2025). SAKK 01/10 reduce precisamente el volumen, de media a una cuarta parte (Che & Papachristofilou 2025)."
+            },
+            "C": {
+              "text": "Un ciclo de carboplatino AUC 7, luego radioterapia de campo afectado",
+              "rationale": "Un ciclo de carboplatino AUC 7 y después radioterapia solo de los ganglios afectados con un margen pequeño; en el estadio IIA, 30 Gy en 15 fracciones (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1.2)."
+            },
+            "D": {
+              "text": "Un ciclo de etopósido y cisplatino, luego campo afectado con 30 Gy",
+              "rationale": "Error de concepto: confusión con SAKK 01/18. Ese ensayo estudia de forma experimental un ciclo de etopósido y cisplatino en el estadio IIB; los resultados están pendientes (Che & Papachristofilou 2025)."
+            },
+            "E": {
+              "text": "Dos ciclos de carboplatino AUC 7 sin radioterapia posterior",
+              "rationale": "Error de concepto: trasladar la adyuvancia del estadio I. Sin radioterapia de los ganglios afectados falta el componente local del esquema estudiado (Che & Papachristofilou 2025)."
+            }
+          },
+          "explanation": {
+            "core": "SAKK 01/10 sustituye dosis acumuladas altas de quimioterapia y campos amplios por una combinación atenuada: primero un ciclo de carboplatino y después radioterapia solo de los ganglios afectados (Che & Papachristofilou 2025). En el mayor estudio de este tipo hasta ahora, 120 pacientes recibieron un ciclo de carboplatino AUC 7 seguido de radioterapia de campo afectado; el volumen fue de una cuarta parte del campo en palo de hockey y la supervivencia libre de progresión tras al menos 3 años, de casi el 94 % (Che & Papachristofilou 2025). La EAU indica 30 Gy en 15 fracciones para IIA y 36 Gy en 18 fracciones para IIB y una SLP a 3 años del 93,7 %, con lo que se quedó cerca del objetivo primario del 95 % sin alcanzarlo (EAU 2026, 6.2.2.1.2). La NCCN recoge el esquema como alternativa (Che & Papachristofilou 2025), mientras que la EAU aún no lo considera establecido para uso rutinario (EAU 2026, 6.2.2.1.2); la indicación corresponde al comité de un centro especializado (Che & Papachristofilou 2025).",
+            "teaching_point": "SAKK 01/10: un ciclo de carboplatino AUC 7 y después radioterapia de campo afectado; volumen de una cuarta parte del campo en palo de hockey."
+          },
+          "flag_note": "Ensayo de fase II de un solo brazo, objetivo primario no alcanzado por poco; la NCCN recoge el esquema como alternativa, la EAU 2026 no para uso rutinario."
+        }
+      }
+    },
+    {
+      "id": "uro-hod-00029",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "subdomain": "Seminom Stadium II",
+        "tags": [
+          "systemtherapie",
+          "studienlage"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 7,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "kontrovers",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Aktuelle operative und strahlentherapeutische Entwicklungen bei der Therapie des Seminoms im Stadium IIA/B",
+          "citation": "Che Y, Papachristofilou A. Urologie 2025;64:1018–1023. doi:10.1007/s00120-025-02672-9",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.2.2.1, 6.2.2.1.2"
+        }
+      ],
+      "review": {
+        "author": "EK",
+        "reviewer": null,
+        "created": "2026-09-19",
+        "last_reviewed": "2026-09-19",
+        "expires": "2027-03-31"
+      },
+      "content": {
+        "de": {
+          "vignette": "Ein 36-jähriger Mann mit Seminom hat einen solitären paraaortalen Lymphknoten von 4,1 cm (Stadium IIB), Marker normal, übriges Staging unauffällig. Er hat von der kombinierten Carboplatin-Bestrahlung gelesen und möchte die Standardchemotherapie vermeiden. Eine passende Studie ist am Zentrum nicht offen. Beratung vor der Therapieentscheidung.",
+          "lead_in": "Welche Empfehlung ist für diesen Patienten am besten begründet?",
+          "options": {
+            "A": {
+              "text": "Carboplatin plus Involved-node-Bestrahlung als gleichwertiger Weg",
+              "rationale": "Fehlannahme: NCCN-Aufnahme bedeute Gleichwertigkeit. In SAKK 01/10 traten die Rezidive fast ausschließlich im Stadium IIB auf (Che & Papachristofilou 2025); die EAU sieht keine Evidenz für den Routineeinsatz (EAU 2026, 6.2.2.1.2)."
+            },
+            "B": {
+              "text": "Ein Zyklus EP plus 30 Gy Involved-node außerhalb einer Studie",
+              "rationale": "Fehlannahme: Ein Studienkonzept sei bereits Praxis. SAKK 01/18 prüft diese Anpassung für das Stadium IIB; Ergebnisse werden 2026/2027 erwartet (Che & Papachristofilou 2025)."
+            },
+            "C": {
+              "text": "Primäre RLA mit bilateralem Template wegen der Knotengröße",
+              "rationale": "Fehlannahme: Ein größerer Knoten rechtfertige ein größeres Template. Die NCCN nennt die primäre RLA nur für Knoten unter 3 cm, bilaterale Templates brachten keinen onkologischen Vorteil (Che & Papachristofilou 2025)."
+            },
+            "D": {
+              "text": "Drei Zyklen BEP; Deeskalation nur im Studienkontext erwägen",
+              "rationale": "Im Stadium IIB wird die Polychemotherapie bevorzugt (Che & Papachristofilou 2025); Deeskalationsstrategien gehören nach EAU in spezialisierte Zentren mit Studie oder prospektiver Kohorte (EAU 2026, 6.2.2.1.2)."
+            },
+            "E": {
+              "text": "Bestrahlung paraaortal und pelvin mit 36 Gy als bevorzugte Wahl",
+              "rationale": "Fehlannahme: Beide Standards seien im Stadium IIB gleichrangig. Die Bestrahlung mit 36 Gy ist möglich, die Chemotherapie wird aber bevorzugt (Che & Papachristofilou 2025); die EAU sieht einen nicht signifikanten Wirksamkeitstrend zu ihren Gunsten (EAU 2026, 6.2.2.1)."
+            }
+          },
+          "explanation": {
+            "core": "Bei einem Knoten über 4 cm im Stadium IIB und ohne Studienoption ist die Chemotherapie die am besten belegte Wahl (Che & Papachristofilou 2025). Die Deeskalationskonzepte sind gerade in dieser Gruppe am schwächsten abgesichert (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1.2). Im Stadium IIB wird die Polychemotherapie bevorzugt; mehr als 90 % der Patienten werden mit der Ersttherapie geheilt (Che & Papachristofilou 2025). Die EAU ordnet alle Deeskalationsstrategien einschließlich RLA spezialisierten Zentren mit Studie oder prospektiver Kohorte zu (EAU 2026, 6.2.2.1.2). Der Wunsch nach Deeskalation ist legitim, verschiebt aber nicht die Evidenz: Die Aufklärung umfasst die Spättoxizität der Chemotherapie ebenso wie die fehlende Absicherung der Alternativen (Che & Papachristofilou 2025). Eine Zuweisung an ein Zentrum mit offener Studie bleibt möglich.",
+            "teaching_point": "Großes IIB ohne Studie: drei Zyklen BEP; Deeskalation ist hier am schwächsten belegt."
+          },
+          "flag_note": "Die Bewertung der Deeskalation unterscheidet sich zwischen NCCN und EAU 2026; Ergebnisse von SAKK 01/18 werden 2026/2027 erwartet."
+        },
+        "en": {
+          "vignette": "A 36-year-old man with seminoma has a solitary 4.1 cm para-aortic lymph node (stage IIB), normal markers and otherwise unremarkable staging. He has read about combined carboplatin and radiotherapy and wants to avoid standard chemotherapy. No suitable trial is open at the centre. Counselling takes place before the treatment decision.",
+          "lead_in": "Which recommendation is best justified for this patient?",
+          "options": {
+            "A": {
+              "text": "Carboplatin plus involved-node radiotherapy as an equivalent route",
+              "rationale": "Misconception: NCCN inclusion means equivalence. In SAKK 01/10 relapses occurred almost exclusively in stage IIB (Che & Papachristofilou 2025); the EAU sees no evidence for routine use (EAU 2026, 6.2.2.1.2)."
+            },
+            "B": {
+              "text": "One cycle of EP plus 30 Gy involved-node outside a trial",
+              "rationale": "Misconception: a trial concept is already practice. SAKK 01/18 tests this modification for stage IIB; results are expected in 2026/2027 (Che & Papachristofilou 2025)."
+            },
+            "C": {
+              "text": "Primary RPLND with a bilateral template because of node size",
+              "rationale": "Misconception: a larger node justifies a larger template. The NCCN lists primary RPLND only for nodes under 3 cm, and bilateral templates showed no oncological benefit (Che & Papachristofilou 2025)."
+            },
+            "D": {
+              "text": "Three cycles of BEP; consider de-escalation only within a trial",
+              "rationale": "In stage IIB polychemotherapy is preferred (Che & Papachristofilou 2025); according to the EAU, de-escalation strategies belong in specialised centres within a trial or prospective cohort (EAU 2026, 6.2.2.1.2)."
+            },
+            "E": {
+              "text": "Para-aortic and pelvic radiotherapy with 36 Gy as preferred choice",
+              "rationale": "Misconception: both standards rank equally in stage IIB. Radiotherapy with 36 Gy is possible, but chemotherapy is preferred (Che & Papachristofilou 2025); the EAU reports a non-significant efficacy trend in its favour (EAU 2026, 6.2.2.1)."
+            }
+          },
+          "explanation": {
+            "core": "With a node over 4 cm in stage IIB and no trial available, chemotherapy is the best-supported choice (Che & Papachristofilou 2025). The de-escalation concepts are least secured precisely in this group (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1.2). In stage IIB polychemotherapy is preferred; more than 90% of patients are cured with first-line treatment (Che & Papachristofilou 2025). The EAU assigns all de-escalation strategies, including RPLND, to specialised centres within a trial or prospective cohort (EAU 2026, 6.2.2.1.2). The wish for de-escalation is legitimate but does not shift the evidence: counselling covers the late toxicity of chemotherapy as well as the lack of support for the alternatives (Che & Papachristofilou 2025). Referral to a centre with an open trial remains possible.",
+            "teaching_point": "Large stage IIB without a trial: three cycles of BEP; de-escalation is least supported here."
+          },
+          "flag_note": "The assessment of de-escalation differs between the NCCN and the EAU 2026; SAKK 01/18 results are expected in 2026/2027."
+        },
+        "es": {
+          "vignette": "Un varón de 36 años con seminoma presenta un ganglio paraaórtico solitario de 4,1 cm (estadio IIB), marcadores normales y el resto de la estadificación sin hallazgos. Ha leído sobre la combinación de carboplatino y radioterapia y quiere evitar la quimioterapia estándar. No hay ningún ensayo adecuado abierto en el centro. La información tiene lugar antes de decidir el tratamiento.",
+          "lead_in": "¿Qué recomendación está mejor justificada para este paciente?",
+          "options": {
+            "A": {
+              "text": "Carboplatino más radioterapia de campo afectado como vía equivalente",
+              "rationale": "Error de concepto: figurar en la NCCN equivaldría a equivalencia. En SAKK 01/10 las recaídas se dieron casi solo en el estadio IIB (Che & Papachristofilou 2025); la EAU no ve evidencia para el uso rutinario (EAU 2026, 6.2.2.1.2)."
+            },
+            "B": {
+              "text": "Un ciclo de EP más 30 Gy de campo afectado fuera de un ensayo",
+              "rationale": "Error de concepto: un concepto en ensayo ya sería práctica. SAKK 01/18 estudia esta modificación en el estadio IIB; los resultados se esperan en 2026/2027 (Che & Papachristofilou 2025)."
+            },
+            "C": {
+              "text": "RPLND primaria con plantilla bilateral por el tamaño del ganglio",
+              "rationale": "Error de concepto: un ganglio mayor justificaría una plantilla mayor. La NCCN recoge la RPLND primaria solo para ganglios de menos de 3 cm y las plantillas bilaterales no mostraron beneficio oncológico (Che & Papachristofilou 2025)."
+            },
+            "D": {
+              "text": "Tres ciclos de BEP; desescalada solo en el contexto de un ensayo",
+              "rationale": "En el estadio IIB se prefiere la poliquimioterapia (Che & Papachristofilou 2025); según la EAU, las estrategias de desescalada corresponden a centros especializados dentro de un ensayo o cohorte prospectiva (EAU 2026, 6.2.2.1.2)."
+            },
+            "E": {
+              "text": "Radioterapia paraaórtica y pélvica con 36 Gy como opción preferente",
+              "rationale": "Error de concepto: ambos estándares tendrían el mismo rango en el estadio IIB. La radioterapia con 36 Gy es posible, pero se prefiere la quimioterapia (Che & Papachristofilou 2025); la EAU describe una tendencia no significativa de eficacia a su favor (EAU 2026, 6.2.2.1)."
+            }
+          },
+          "explanation": {
+            "core": "Con un ganglio de más de 4 cm en estadio IIB y sin ensayo disponible, la quimioterapia es la opción mejor respaldada (Che & Papachristofilou 2025). Los conceptos de desescalada están menos asegurados precisamente en este grupo (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1.2). En el estadio IIB se prefiere la poliquimioterapia; más del 90 % de los pacientes se curan con el primer tratamiento (Che & Papachristofilou 2025). La EAU asigna todas las estrategias de desescalada, incluida la RPLND, a centros especializados dentro de un ensayo o cohorte prospectiva (EAU 2026, 6.2.2.1.2). El deseo de desescalar es legítimo, pero no cambia la evidencia: la información incluye la toxicidad tardía de la quimioterapia y también la falta de respaldo de las alternativas (Che & Papachristofilou 2025). Sigue siendo posible derivar a un centro con un ensayo abierto.",
+            "teaching_point": "Estadio IIB grande sin ensayo: tres ciclos de BEP; aquí la desescalada es la opción menos respaldada."
+          },
+          "flag_note": "La valoración de la desescalada difiere entre la NCCN y la EAU 2026; los resultados de SAKK 01/18 se esperan en 2026/2027."
+        }
+      }
+    }
+  ],
+  "ersatz": {
+    "uro-hod-00007": {
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "3",
+        "certainty": "kontrovers",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "artikel",
+          "title": "Aktuelle operative und strahlentherapeutische Entwicklungen bei der Therapie des Seminoms im Stadium IIA/B",
+          "citation": "Che Y, Papachristofilou A. Urologie 2025;64:1018–1023. doi:10.1007/s00120-025-02672-9",
+          "year": 2025
+        },
+        {
+          "type": "leitlinie",
+          "code": "EAU",
+          "title": "EAU Guidelines on Testicular Cancer",
+          "year": 2026,
+          "section": "6.2.2.1.1, 6.2.2.1.2"
+        }
+      ],
+      "content": {
+        "de": {
+          "vignette": "Ein 30-jähriger Mann mit Seminom im Stadium IIA (solitärer Lymphknoten 1,9 cm, Wachstum in der Kontrolle bestätigt, Marker normal) möchte weder Chemotherapie noch Bestrahlung und fragt nach der retroperitonealen Lymphadenektomie. Die Klinik ist ein Hodentumorzentrum mit RLA-Expertise. Aufklärungsgespräch vor der Tumorboardentscheidung.",
+          "lead_in": "Wie ist die primäre RLA für diesen Patienten einzuordnen?",
+          "options": {
+            "A": {
+              "text": "Etablierter Standard mit gleicher Rezidivfreiheit wie Chemotherapie",
+              "rationale": "Fehlannahme: Leitlinienaufnahme bedeute Gleichwertigkeit. Das rezidivfreie Überleben lag in den Studien bei 70–90 % (Che & Papachristofilou 2025); nach EAU fehlen längere Nachbeobachtung und Vergleichsstudien (EAU 2026, 6.2.2.1.1)."
+            },
+            "B": {
+              "text": "Beim Seminom kontraindiziert, weil nur systemische Therapie heilt",
+              "rationale": "Fehlannahme aus der Zeit vor den prospektiven Studien. SEMS, COTRIMS und PRIMETEST haben die primäre RLA im Stadium IIA/B geprüft (Che & Papachristofilou 2025); kontraindiziert ist sie nicht."
+            },
+            "C": {
+              "text": "Alternative im Zentrum mit Expertise, idealerweise in Studien",
+              "rationale": "Artikel und EAU knüpfen die primäre RLA an Patientenselektion, chirurgische Qualität und ein spezialisiertes Zentrum, nach EAU idealerweise in Studie oder prospektiver Kohorte (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1.1)."
+            },
+            "D": {
+              "text": "Nur als Residualtumorresektion nach vorheriger Chemotherapie sinnvoll",
+              "rationale": "Fehlannahme: Verwechslung mit der Resektion nach Chemotherapie. Hier geht es um die primäre RLA als Alternative zur Chemotherapie (Che & Papachristofilou 2025)."
+            },
+            "E": {
+              "text": "Gleichwertig, sofern routinemäßig drei Zyklen BEP nachfolgen",
+              "rationale": "Fehlannahme: Routinemäßige Nachbehandlung sichere das Ergebnis. Das hebt den Zweck auf; erwogen wird adjuvant nur bei Risikomarkern ein einzelner Zyklus BEP (Che & Papachristofilou 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Die primäre RLA ist eine potenziell kurative Alternative ohne Chemotherapie und Bestrahlung, aber nur unter Bedingungen: selektionierter Patient, erfahrener Operateur, spezialisiertes Zentrum. In SEMS, COTRIMS und PRIMETEST lag das rezidivfreie Überleben bei 70–90 %; alle Rezidive wurden durch Chemotherapie erfolgreich behandelt (Che & Papachristofilou 2025). Die NCCN-Leitlinie (Version 2.2025) führt die primäre RLA für Seminome im Stadium IIA/B unter 3 cm als Option (Che & Papachristofilou 2025). Die EAU beschreibt Zweijahres-Rezidivraten von 5–30 % und empfiehlt den Eingriff nur durch sehr erfahrene Operateure in spezialisierten Zentren, idealerweise in prospektiver Kohorte oder Studie (EAU 2026, 6.2.2.1.1). Die Aufklärung benennt das höhere Rezidivrisiko gegenüber den Standardtherapien und die dann nötige Chemotherapie (Che & Papachristofilou 2025). Die Indikation gehört ins interdisziplinäre Tumorboard (Che & Papachristofilou 2025).",
+            "teaching_point": "Primäre RLA beim Seminom IIA/B: Alternative mit Bedingungen, kein Standard; Zentrum, Selektion, möglichst Studie."
+          },
+          "flag_note": "Keine randomisierten Daten. Die NCCN (Version 2.2025) führt die primäre RLA unter 3 cm als Option, die EAU 2026 nur im Studien- oder Kohortenkontext. Nach Ergebnissen von PRIMETEST II neu bewerten."
+        },
+        "en": {
+          "vignette": "A 30-year-old man with stage IIA seminoma (solitary 1.9 cm node, growth confirmed on re-imaging, normal markers) wants neither chemotherapy nor radiotherapy and asks about retroperitoneal lymph node dissection. The hospital is a testicular cancer centre with RPLND expertise. Counselling takes place before the tumour board decision.",
+          "lead_in": "How should primary RPLND be positioned for this patient?",
+          "options": {
+            "A": {
+              "text": "Established standard with relapse-free rates equal to chemotherapy",
+              "rationale": "Misconception: inclusion in a guideline means equivalence. Relapse-free survival in the trials was 70–90% (Che & Papachristofilou 2025); according to the EAU, longer follow-up and comparative studies are lacking (EAU 2026, 6.2.2.1.1)."
+            },
+            "B": {
+              "text": "Contraindicated in seminoma because only systemic therapy cures",
+              "rationale": "Misconception from before the prospective trials. SEMS, COTRIMS and PRIMETEST have evaluated primary RPLND in stage IIA/B (Che & Papachristofilou 2025); it is not contraindicated."
+            },
+            "C": {
+              "text": "An alternative in an expert centre, ideally within a trial",
+              "rationale": "The article and the EAU tie primary RPLND to patient selection, surgical quality and a specialised centre, per EAU ideally within a trial or prospective cohort (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1.1)."
+            },
+            "D": {
+              "text": "Useful only as residual mass resection after prior chemotherapy",
+              "rationale": "Misconception: confusion with resection after chemotherapy. The question concerns primary RPLND as an alternative to chemotherapy (Che & Papachristofilou 2025)."
+            },
+            "E": {
+              "text": "Equivalent provided three cycles of BEP follow routinely",
+              "rationale": "Misconception: routine additional treatment secures the result. That defeats the purpose; adjuvant therapy is considered only with risk markers, as a single cycle of BEP (Che & Papachristofilou 2025)."
+            }
+          },
+          "explanation": {
+            "core": "Primary RPLND is a potentially curative alternative without chemotherapy or radiotherapy, but only under conditions: selected patient, experienced surgeon, specialised centre. In SEMS, COTRIMS and PRIMETEST relapse-free survival was 70–90%; all relapses were treated successfully with chemotherapy (Che & Papachristofilou 2025). The NCCN guideline (version 2.2025) lists primary RPLND as an option for stage IIA/B seminoma under 3 cm (Che & Papachristofilou 2025). The EAU reports two-year recurrence rates of 5–30% and recommends the procedure only by highly experienced surgeons in specialised centres, ideally within a prospective cohort or trial (EAU 2026, 6.2.2.1.1). Counselling must state the higher relapse risk compared with standard treatment and the chemotherapy then required (Che & Papachristofilou 2025). The indication belongs to the multidisciplinary tumour board (Che & Papachristofilou 2025).",
+            "teaching_point": "Primary RPLND in stage IIA/B seminoma: an alternative with conditions, not a standard; centre, selection, ideally a trial."
+          },
+          "flag_note": "No randomised data. The NCCN (version 2.2025) lists primary RPLND under 3 cm as an option, the EAU 2026 only within a trial or cohort. Reassess once PRIMETEST II reports."
+        },
+        "es": {
+          "vignette": "Un varón de 30 años con seminoma en estadio IIA (ganglio solitario de 1,9 cm, crecimiento confirmado en el control, marcadores normales) no desea quimioterapia ni radioterapia y pregunta por la linfadenectomía retroperitoneal. El hospital es un centro de tumores testiculares con experiencia en RPLND. La información tiene lugar antes de la decisión del comité de tumores.",
+          "lead_in": "¿Cómo debe situarse la RPLND primaria para este paciente?",
+          "options": {
+            "A": {
+              "text": "Estándar establecido con la misma supervivencia sin recaída que la quimioterapia",
+              "rationale": "Error de concepto: figurar en una guía equivaldría a equivalencia. La supervivencia sin recaída en los ensayos fue del 70–90 % (Che & Papachristofilou 2025); según la EAU faltan seguimiento más largo y estudios comparativos (EAU 2026, 6.2.2.1.1)."
+            },
+            "B": {
+              "text": "Contraindicada en el seminoma porque solo cura el tratamiento sistémico",
+              "rationale": "Error de concepto anterior a los ensayos prospectivos. SEMS, COTRIMS y PRIMETEST han evaluado la RPLND primaria en el estadio IIA/B (Che & Papachristofilou 2025); no está contraindicada."
+            },
+            "C": {
+              "text": "Alternativa en un centro experto, idealmente dentro de un ensayo",
+              "rationale": "El artículo y la EAU vinculan la RPLND primaria a la selección del paciente, la calidad quirúrgica y un centro especializado, según la EAU idealmente en un ensayo o cohorte prospectiva (Che & Papachristofilou 2025; EAU 2026, 6.2.2.1.1)."
+            },
+            "D": {
+              "text": "Útil solo como resección de masa residual tras quimioterapia previa",
+              "rationale": "Error de concepto: confusión con la resección tras quimioterapia. Aquí se trata de la RPLND primaria como alternativa a la quimioterapia (Che & Papachristofilou 2025)."
+            },
+            "E": {
+              "text": "Equivalente siempre que sigan de rutina tres ciclos de BEP",
+              "rationale": "Error de concepto: un tratamiento adicional rutinario aseguraría el resultado. Eso anula el propósito; la adyuvancia solo se plantea con marcadores de riesgo, como un único ciclo de BEP (Che & Papachristofilou 2025)."
+            }
+          },
+          "explanation": {
+            "core": "La RPLND primaria es una alternativa potencialmente curativa sin quimioterapia ni radioterapia, pero solo con condiciones: paciente seleccionado, cirujano experto y centro especializado. En SEMS, COTRIMS y PRIMETEST la supervivencia sin recaída fue del 70–90 %; todas las recaídas se trataron con éxito con quimioterapia (Che & Papachristofilou 2025). La guía NCCN (versión 2.2025) recoge la RPLND primaria como opción para el seminoma en estadio IIA/B de menos de 3 cm (Che & Papachristofilou 2025). La EAU describe tasas de recaída a dos años del 5–30 % y recomienda la intervención solo por cirujanos muy experimentados en centros especializados, idealmente en una cohorte prospectiva o un ensayo (EAU 2026, 6.2.2.1.1). La información debe mencionar el mayor riesgo de recaída frente al tratamiento estándar y la quimioterapia que entonces sería necesaria (Che & Papachristofilou 2025). La indicación corresponde al comité multidisciplinar de tumores (Che & Papachristofilou 2025).",
+            "teaching_point": "RPLND primaria en el seminoma IIA/B: alternativa con condiciones, no estándar; centro, selección y, a ser posible, ensayo."
+          },
+          "flag_note": "Sin datos aleatorizados. La NCCN (versión 2.2025) recoge la RPLND primaria por debajo de 3 cm como opción; la EAU 2026, solo en ensayo o cohorte. Reevaluar cuando se publique PRIMETEST II."
+        }
+      },
+      "review_expires": "2027-03-31"
+    }
+  }
+}

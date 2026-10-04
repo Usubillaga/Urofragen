@@ -1,0 +1,1337 @@
+{
+  "schema_version": "2.1",
+  "gebiete": {
+    "operativ": [
+      {
+        "id": "uro-op-00101",
+        "version": 1,
+        "status": "draft",
+        "taxonomy": {
+          "domain": "operativ",
+          "subdomain": "",
+          "tags": []
+        },
+        "type": "single_best_answer",
+        "difficulty_estimated": 2,
+        "options": [
+          {
+            "key": "A",
+            "correct": false
+          },
+          {
+            "key": "B",
+            "correct": true
+          },
+          {
+            "key": "C",
+            "correct": false
+          },
+          {
+            "key": "D",
+            "correct": false
+          }
+        ],
+        "evidence": {
+          "level": "V",
+          "certainty": "etabliert",
+          "flag": false
+        },
+        "sources": [
+          {
+            "type": "artikel",
+            "code": "10.1007/s00120-025-02627-0",
+            "title": "Rassweiler J, Sander S. Operative Techniken zur Verbesserung der Kontinenz nach RALP anhand von videoanatomischen Strukturen. Die Urologie 2025;64:1173-1186",
+            "year": 2025
+          }
+        ],
+        "review": {
+          "author": "EK",
+          "reviewer": null,
+          "created": "2026-09-14",
+          "last_reviewed": "",
+          "expires": "2029-09-14"
+        },
+        "content": {
+          "de": {
+            "vignette": "In einem OP-Bericht zur roboterassistierten radikalen Prostatektomie wird der Erhalt des puboprostatischen Kragens dokumentiert. Ein Weiterbildungsassistent findet diesen Begriff in der Terminologia Anatomica nicht.",
+            "lead_in": "Welche anatomische Struktur ist damit gemeint?",
+            "options": {
+              "A": {
+                "text": "Fascia levatoris ani",
+                "rationale": "Falsch. Die Levatorfaszie, chirurgisch periprostatische Faszie und nach Myers äußere Schicht der lateralen pelvinen Faszie nach Walsh, liegt lateral und wird bei interfaszialer Präparation erhalten. Sie ist eine eigenständige Struktur; unter ihr verläuft der intrapelvine Ast des N. pudendus."
+              },
+              "B": {
+                "text": "Arcus tendineus fasciae pelvis",
+                "rationale": "Richtig. Der Sehnenbogen der Fascia pelvis bildet beidseits lateral die ventrale Aufhängung der Harnröhre. Takenaka prägte dafür den chirurgischen Begriff puboprostatic collar, weil das erhaltene Gewebe zusammen mit den Ligg. puboprostatica und dem umgebenden fibromuskulären Gewebe einem Hemdkragen ähnelt. Operativ wird er geschont, indem der dorsale Venenkomplex proximal am basalen Prostataende umstochen und dann nach apikal präpariert wird, statt die Ligamente abzusetzen."
+              },
+              "C": {
+                "text": "Septum rectovesicale",
+                "rationale": "Falsch. Das Septum rectovesicale, eponymisch Denonvilliers'sche Faszie, bedeckt Prostata und Samenblasen nach dorsal. Es ist Bezugspunkt der posterioren Präparation und der posterioren Rekonstruktion, nicht der ventralen Aufhängung."
+              },
+              "D": {
+                "text": "Plexus venosus dorsalis penis",
+                "rationale": "Falsch. Der Santorini-Plexus liegt unterhalb der Symphyse zwischen den Ligg. puboprostatica. Er wird beim Kragenerhalt proximal umstochen, ist aber selbst kein Aufhängeapparat, sondern eine venöse Struktur."
+              }
+            },
+            "explanation": {
+              "core": "Chirurgische, anatomische und eponymische Nomenklatur bezeichnen dieselbe Struktur unterschiedlich. Der puboprostatische Kragen entspricht dem Arcus tendineus fasciae pelvis.",
+              "teaching_point": "Technikbeschreibungen ohne anatomische Nomenklatur sind zwischen Zentren nicht reproduzierbar. Dasselbe Problem besteht bei periprostatischer Faszie und Levatorfaszie, die häufig synonym gebraucht werden."
+            },
+            "flag_note": null
+          },
+          "en": {
+            "vignette": "An operative report for robot-assisted radical prostatectomy documents preservation of the puboprostatic collar. A resident cannot find the term in the Terminologia Anatomica.",
+            "lead_in": "Which anatomical structure does it denote?",
+            "options": {
+              "A": {
+                "text": "Levator ani fascia",
+                "rationale": "Incorrect. The levator fascia, called periprostatic fascia in surgical usage and, according to Myers, the outer layer of Walsh's lateral pelvic fascia, lies laterally and is preserved during interfascial dissection. It is a separate structure; the intrapelvic branch of the pudendal nerve runs beneath it."
+              },
+              "B": {
+                "text": "Arcus tendineus fasciae pelvis",
+                "rationale": "Correct. The tendinous arch of the pelvic fascia forms the lateral ventral suspension of the urethra on both sides. Takenaka coined the surgical term puboprostatic collar because the preserved tissue, together with the puboprostatic ligaments and the surrounding fibromuscular tissue, resembles a shirt collar. It is spared by ligating the dorsal venous complex proximally at the prostatic base and dissecting towards the apex instead of dividing the ligaments."
+              },
+              "C": {
+                "text": "Rectovesical septum",
+                "rationale": "Incorrect. The rectovesical septum, eponymously Denonvilliers' fascia, covers prostate and seminal vesicles posteriorly. It is the landmark for posterior dissection and posterior reconstruction, not for ventral suspension."
+              },
+              "D": {
+                "text": "Dorsal venous plexus of the penis",
+                "rationale": "Incorrect. Santorini's plexus lies beneath the symphysis between the puboprostatic ligaments. It is ligated proximally when the collar is preserved, but it is a venous structure and not a suspensory apparatus."
+              }
+            },
+            "explanation": {
+              "core": "Surgical, anatomical and eponymic nomenclature describe the same structure differently. The puboprostatic collar corresponds to the arcus tendineus fasciae pelvis.",
+              "teaching_point": "Technique descriptions without anatomical nomenclature are not reproducible between centres. The same problem applies to periprostatic fascia and levator fascia, which are often used interchangeably."
+            },
+            "flag_note": null
+          },
+          "es": {
+            "vignette": "Un informe quirúrgico de prostatectomía radical asistida por robot documenta la preservación del collar puboprostático. Un residente no encuentra el término en la Terminologia Anatomica.",
+            "lead_in": "¿A qué estructura anatómica corresponde?",
+            "options": {
+              "A": {
+                "text": "Fascia del elevador del ano",
+                "rationale": "Incorrecto. La fascia del elevador, llamada fascia periprostática en el lenguaje quirúrgico y, según Myers, capa externa de la fascia pélvica lateral de Walsh, se sitúa lateralmente y se conserva en la disección interfascial. Es una estructura independiente; por debajo discurre la rama intrapélvica del nervio pudendo."
+              },
+              "B": {
+                "text": "Arco tendinoso de la fascia pélvica",
+                "rationale": "Correcto. El arco tendinoso de la fascia pélvica forma a ambos lados la suspensión ventral de la uretra. Takenaka acuñó el término quirúrgico collar puboprostático porque el tejido conservado, junto con los ligamentos puboprostáticos y el tejido fibromuscular circundante, recuerda al cuello de una camisa. Se preserva ligando el complejo venoso dorsal de forma proximal en la base prostática y disecando hacia el ápex, en lugar de seccionar los ligamentos."
+              },
+              "C": {
+                "text": "Tabique rectovesical",
+                "rationale": "Incorrecto. El tabique rectovesical, epónimamente fascia de Denonvilliers, cubre próstata y vesículas seminales por detrás. Es la referencia de la disección y de la reconstrucción posterior, no de la suspensión ventral."
+              },
+              "D": {
+                "text": "Plexo venoso dorsal del pene",
+                "rationale": "Incorrecto. El plexo de Santorini se sitúa bajo la sínfisis, entre los ligamentos puboprostáticos. Se liga de forma proximal al preservar el collar, pero es una estructura venosa y no un aparato de suspensión."
+              }
+            },
+            "explanation": {
+              "core": "La nomenclatura quirúrgica, anatómica y epónima describe la misma estructura de forma distinta. El collar puboprostático corresponde al arco tendinoso de la fascia pélvica.",
+              "teaching_point": "Las descripciones técnicas sin nomenclatura anatómica no son reproducibles entre centros. El mismo problema afecta a fascia periprostática y fascia del elevador, usadas a menudo como sinónimos."
+            },
+            "flag_note": null
+          }
+        }
+      },
+      {
+        "id": "uro-op-00102",
+        "version": 1,
+        "status": "draft",
+        "taxonomy": {
+          "domain": "operativ",
+          "subdomain": "",
+          "tags": []
+        },
+        "type": "single_best_answer",
+        "difficulty_estimated": 3,
+        "options": [
+          {
+            "key": "A",
+            "correct": false
+          },
+          {
+            "key": "B",
+            "correct": false
+          },
+          {
+            "key": "C",
+            "correct": false
+          },
+          {
+            "key": "D",
+            "correct": true
+          }
+        ],
+        "evidence": {
+          "level": "IV",
+          "certainty": "etabliert",
+          "flag": false
+        },
+        "sources": [
+          {
+            "type": "artikel",
+            "code": "10.1007/s00120-025-02627-0",
+            "title": "Rassweiler J, Sander S. Operative Techniken zur Verbesserung der Kontinenz nach RALP anhand von videoanatomischen Strukturen. Die Urologie 2025;64:1173-1186",
+            "year": 2025
+          }
+        ],
+        "review": {
+          "author": "EK",
+          "reviewer": null,
+          "created": "2026-09-14",
+          "last_reviewed": "",
+          "expires": "2029-09-14"
+        },
+        "content": {
+          "de": {
+            "vignette": "Bei einem cT2a-Karzinom, ISUP 1, wird bilateral nerverhaltend operiert. Der Operateur präpariert konsequent in der Schicht zwischen Prostatafaszie und Levatorfaszie und lässt letztere auf dem M. levator ani zurück.",
+            "lead_in": "Welche zusätzliche kontinenzrelevante Struktur wird durch diese Schichtwahl geschont?",
+            "options": {
+              "A": {
+                "text": "Die Ausläufer des Plexus hypogastricus inferior",
+                "rationale": "Falsch, jedenfalls nicht durch diesen Schritt. Diese Fasern ziehen posterolateral zwischen Prostata- und Denonvilliers'scher Faszie. Gefährdet werden sie durch eine zu proximale Kontrolle der Prostatapfeiler, weshalb dort Clips statt thermischer Energie empfohlen werden."
+              },
+              "B": {
+                "text": "Der quergestreifte Rhabdosphinkter selbst",
+                "rationale": "Falsch. Der Rhabdosphinkter wird nicht durch die laterale Schichtwahl geschont, sondern durch die apikale Dissektion und die Höhe der Urethradurchtrennung. Die Schichtwahl schützt seine Innervation, nicht den Muskel."
+              },
+              "C": {
+                "text": "Der Detrusor-Apron",
+                "rationale": "Falsch. Die Detrusorschürze ist eine ventrale Struktur und liegt außerhalb der lateralen interfaszialen Ebene. Ihr Erhalt hängt vom Umgang mit dem dorsalen Venenkomplex und von der Präparation auf der Prostatavorderfläche ab."
+              },
+              "D": {
+                "text": "Der intrapelvine Ast des N. pudendus",
+                "rationale": "Richtig. Unterhalb der Levatorfaszie verläuft der intrapelvine Ast des N. pudendus, der den M. sphincter urethrae externus innerviert. Die interfasziale Schicht enthält außer apikal perforierenden Fasern des M. levator ani keine muskulären Strukturen, sodass diese Äste unberührt bleiben. Grenze der Methode sind lokal fortgeschrittene, vor allem apikal die Prostatafaszie perforierende Tumoren, die nur extrafaszial und damit unter Mitnahme der Levatorfaszie reseziert werden können."
+              }
+            },
+            "explanation": {
+              "core": "Intrafaszial bedeutet Präparation unterhalb der inneren nerventragenden Faszie direkt auf der Prostatakapsel, interfaszial zwischen Prostata- und Levatorfaszie. Beide erhalten die Levatorfaszie und damit die darunterliegenden Pudendusäste.",
+              "teaching_point": "Kontinenz nach RALP hängt nicht nur am neurovaskulären Bündel: Rhabdosphinkter aus dem N. pudendus, innerer Sphinkter sympathisch aus dem Plexus hypogastricus inferior, dazu die afferente Versorgung der membranösen Harnröhre über kavernöse Nerven."
+            },
+            "flag_note": null
+          },
+          "en": {
+            "vignette": "In a cT2a tumour, ISUP 1, a bilateral nerve-sparing procedure is performed. The surgeon dissects consistently in the plane between prostatic fascia and levator fascia and leaves the latter on the levator ani muscle.",
+            "lead_in": "Which additional continence-relevant structure is spared by this choice of plane?",
+            "options": {
+              "A": {
+                "text": "The branches of the inferior hypogastric plexus",
+                "rationale": "Incorrect, at least not through this step. These fibres run posterolaterally between the prostatic and Denonvilliers' fascia. They are endangered by controlling the prostatic pedicles too proximally, which is why clips rather than thermal energy are recommended there."
+              },
+              "B": {
+                "text": "The striated rhabdosphincter itself",
+                "rationale": "Incorrect. The rhabdosphincter is spared by the apical dissection and by the level of urethral division, not by the lateral plane. The plane protects its innervation, not the muscle."
+              },
+              "C": {
+                "text": "The detrusor apron",
+                "rationale": "Incorrect. The detrusor apron is a ventral structure and lies outside the lateral interfascial plane. Its preservation depends on the handling of the dorsal venous complex and on the dissection over the anterior prostatic surface."
+              },
+              "D": {
+                "text": "The intrapelvic branch of the pudendal nerve",
+                "rationale": "Correct. The intrapelvic branch of the pudendal nerve runs beneath the levator fascia and innervates the external urethral sphincter. Apart from apically perforating fibres of the levator ani, the interfascial plane contains no muscular structures, so these branches remain untouched. The limit of the method is locally advanced disease that has already perforated the prostatic fascia, particularly apically; such tumours can only be resected extrafascially, taking the levator fascia with the specimen."
+              }
+            },
+            "explanation": {
+              "core": "Intrafascial means dissection beneath the inner nerve-carrying fascia directly on the prostatic capsule, interfascial between prostatic and levator fascia. Both preserve the levator fascia and with it the underlying pudendal branches.",
+              "teaching_point": "Continence after RARP does not depend on the neurovascular bundle alone: rhabdosphincter from the pudendal nerve, internal sphincter sympathetically from the inferior hypogastric plexus, plus the afferent supply of the membranous urethra through cavernous nerves."
+            },
+            "flag_note": null
+          },
+          "es": {
+            "vignette": "En un tumor cT2a, ISUP 1, se opera con preservación nerviosa bilateral. El cirujano diseca de forma constante en el plano entre la fascia prostática y la fascia del elevador y deja esta última sobre el músculo elevador del ano.",
+            "lead_in": "¿Qué estructura adicional relevante para la continencia se preserva con esta elección de plano?",
+            "options": {
+              "A": {
+                "text": "Las ramas del plexo hipogástrico inferior",
+                "rationale": "Incorrecto, al menos no por este paso. Esas fibras discurren posterolateralmente entre la fascia prostática y la de Denonvilliers. Se ponen en riesgo al controlar los pedículos prostáticos demasiado proximalmente, por lo que allí se recomiendan clips en lugar de energía térmica."
+              },
+              "B": {
+                "text": "El propio rabdoesfínter estriado",
+                "rationale": "Incorrecto. El rabdoesfínter se preserva mediante la disección apical y la altura de la sección uretral, no mediante el plano lateral. El plano protege su inervación, no el músculo."
+              },
+              "C": {
+                "text": "El delantal del detrusor",
+                "rationale": "Incorrecto. El delantal del detrusor es una estructura ventral y queda fuera del plano interfascial lateral. Su preservación depende del manejo del complejo venoso dorsal y de la disección sobre la cara anterior de la próstata."
+              },
+              "D": {
+                "text": "La rama intrapélvica del nervio pudendo",
+                "rationale": "Correcto. La rama intrapélvica del nervio pudendo discurre por debajo de la fascia del elevador e inerva el esfínter uretral externo. Salvo las fibras del elevador que perforan apicalmente, el plano interfascial no contiene estructuras musculares, de modo que esas ramas quedan intactas. El límite del método son los tumores localmente avanzados que ya han perforado la fascia prostática, sobre todo a nivel apical; solo pueden resecarse de forma extrafascial, incluyendo la fascia del elevador en la pieza."
+              }
+            },
+            "explanation": {
+              "core": "Intrafascial significa disecar por debajo de la fascia interna portadora de nervios, directamente sobre la cápsula prostática; interfascial, entre la fascia prostática y la del elevador. Ambas conservan la fascia del elevador y con ella las ramas pudendas subyacentes.",
+              "teaching_point": "La continencia tras la prostatectomía radical asistida por robot no depende solo del haz neurovascular: rabdoesfínter desde el nervio pudendo, esfínter interno por vía simpática desde el plexo hipogástrico inferior y la inervación aferente de la uretra membranosa a través de los nervios cavernosos."
+            },
+            "flag_note": null
+          }
+        }
+      },
+      {
+        "id": "uro-op-00103",
+        "version": 1,
+        "status": "draft",
+        "taxonomy": {
+          "domain": "operativ",
+          "subdomain": "",
+          "tags": []
+        },
+        "type": "single_best_answer",
+        "difficulty_estimated": 3,
+        "options": [
+          {
+            "key": "A",
+            "correct": true
+          },
+          {
+            "key": "B",
+            "correct": false
+          },
+          {
+            "key": "C",
+            "correct": false
+          },
+          {
+            "key": "D",
+            "correct": false
+          }
+        ],
+        "evidence": {
+          "level": "III",
+          "certainty": "etabliert",
+          "flag": false
+        },
+        "sources": [
+          {
+            "type": "artikel",
+            "code": "10.1007/s00120-025-02627-0",
+            "title": "Rassweiler J, Sander S. Operative Techniken zur Verbesserung der Kontinenz nach RALP anhand von videoanatomischen Strukturen. Die Urologie 2025;64:1173-1186",
+            "year": 2025
+          }
+        ],
+        "review": {
+          "author": "EK",
+          "reviewer": null,
+          "created": "2026-09-14",
+          "last_reviewed": "",
+          "expires": "2029-09-14"
+        },
+        "content": {
+          "de": {
+            "vignette": "Bei der Apexpräparation soll die funktionelle Harnröhrenlänge maximal erhalten werden. Die Urethra wird von posterior nach anterior durchtrennt, der glattmuskuläre Lissosphinkter und seine autonome Innervation sollen erhalten bleiben.",
+            "lead_in": "Welcher anatomische Landmark begrenzt den Erhalt der prostatischen Harnröhre nach proximal?",
+            "options": {
+              "A": {
+                "text": "Der Colliculus seminalis (Samenhügel)",
+                "rationale": "Richtig. Der Samenhügel dient als Orientierungspunkt der von posterior nach anterior geführten Durchtrennung und als distale Begrenzung. So bleiben Lissosphinkter und Mukosa erhalten, gleichzeitig entsteht ausreichend Abstand zwischen Prostataapex und Rhabdosphinkter. Der Vergleich einer maximalen Schonung, full functional length of urethra, mit einer historischen Kontrolle ergab nach 450 Tagen 90,5 gegenüber 63,2 Prozent kontinenter Patienten."
+              },
+              "B": {
+                "text": "Die Ostien beider Ureteren in der Blase",
+                "rationale": "Falsch. Die Ostien sind Orientierungspunkt beim Absetzen der Prostata vom Detrusor und bei der Entscheidung über einen Blasenhalserhalt, nicht bei der apikalen Präparation."
+              },
+              "C": {
+                "text": "Der Übergang zur bulbären Harnröhre",
+                "rationale": "Falsch. Dieser Punkt liegt distal des Rhabdosphinkters und spielt für die Länge des verbleibenden Harnröhrenstumpfs keine Rolle."
+              },
+              "D": {
+                "text": "Der apikale Rand der Detrusorschürze",
+                "rationale": "Falsch. Der Detrusor-Apron ist eine ventrale glattmuskuläre Struktur der Blasenwand und markiert nicht die proximale Grenze des Urethraerhalts."
+              }
+            },
+            "explanation": {
+              "core": "Maximaler Erhalt der funktionellen Harnröhre heißt langer Stumpf plus erhaltener Lissosphinkter plus geschonter Rhabdosphinkter. Der Colliculus seminalis ist dabei die anatomische Grenze.",
+              "teaching_point": "Die funktionelle Harnröhrenlänge lässt sich präoperativ in der mpMRT abschätzen und korreliert mit der Länge des pelvinen Diaphragmas. Sie gehört in die Aufklärung über das individuelle Kontinenzrisiko."
+            },
+            "flag_note": null
+          },
+          "en": {
+            "vignette": "During apical dissection the functional urethral length is to be preserved as far as possible. The urethra is divided from posterior to anterior, and the smooth muscle lissosphincter with its autonomic innervation is to be kept intact.",
+            "lead_in": "Which anatomical landmark limits preservation of the prostatic urethra proximally?",
+            "options": {
+              "A": {
+                "text": "The verumontanum (seminal colliculus)",
+                "rationale": "Correct. The seminal colliculus serves as the orientation point for the posterior-to-anterior division and as its distal limit. Lissosphincter and mucosa are preserved while an adequate distance between the prostatic apex and the rhabdosphincter is maintained. Comparing maximal preservation, full functional length of urethra, with a historical control gave 90.5 versus 63.2 per cent continent patients after 450 days."
+              },
+              "B": {
+                "text": "The ureteric orifices in the bladder",
+                "rationale": "Incorrect. The orifices guide the separation of the prostate from the detrusor and the decision on bladder neck preservation, not the apical dissection."
+              },
+              "C": {
+                "text": "The junction with the bulbar urethra",
+                "rationale": "Incorrect. This point lies distal to the rhabdosphincter and has no bearing on the length of the remaining urethral stump."
+              },
+              "D": {
+                "text": "The apical edge of the detrusor apron",
+                "rationale": "Incorrect. The detrusor apron is a ventral smooth muscle structure of the bladder wall and does not mark the proximal limit of urethral preservation."
+              }
+            },
+            "explanation": {
+              "core": "Maximal preservation of the functional urethra means a long stump plus an intact lissosphincter plus a spared rhabdosphincter. The verumontanum is the anatomical limit.",
+              "teaching_point": "Functional urethral length can be estimated preoperatively on mpMRI and correlates with the length of the pelvic diaphragm. It belongs in the discussion of individual continence risk."
+            },
+            "flag_note": null
+          },
+          "es": {
+            "vignette": "En la disección apical se busca conservar al máximo la longitud funcional de la uretra. La uretra se secciona de posterior a anterior y deben mantenerse el lisoesfínter y su inervación autónoma.",
+            "lead_in": "¿Qué referencia anatómica limita proximalmente la conservación de la uretra prostática?",
+            "options": {
+              "A": {
+                "text": "El verumontanum (colículo seminal)",
+                "rationale": "Correcto. El colículo seminal sirve de punto de orientación para la sección de posterior a anterior y como su límite distal. Así se conservan el lisoesfínter y la mucosa y se mantiene una distancia suficiente entre el ápex prostático y el rabdoesfínter. La comparación de la preservación máxima, longitud funcional completa de la uretra, con un control histórico dio un 90,5 frente a un 63,2 por ciento de pacientes continentes a los 450 días."
+              },
+              "B": {
+                "text": "Los orificios ureterales en la vejiga",
+                "rationale": "Incorrecto. Los meatos orientan la separación de la próstata respecto del detrusor y la decisión sobre preservar el cuello vesical, no la disección apical."
+              },
+              "C": {
+                "text": "La transición hacia la uretra bulbar",
+                "rationale": "Incorrecto. Ese punto queda distal al rabdoesfínter y no influye en la longitud del muñón uretral restante."
+              },
+              "D": {
+                "text": "El borde apical del delantal del detrusor",
+                "rationale": "Incorrecto. El delantal del detrusor es una estructura ventral de músculo liso de la pared vesical y no marca el límite proximal de la conservación uretral."
+              }
+            },
+            "explanation": {
+              "core": "Conservar al máximo la uretra funcional significa muñón largo más lisoesfínter íntegro más rabdoesfínter respetado. El verumontanum es el límite anatómico.",
+              "teaching_point": "La longitud funcional de la uretra puede estimarse antes de la cirugía en la RM multiparamétrica y se correlaciona con la longitud del diafragma pélvico. Forma parte de la información sobre el riesgo individual de incontinencia."
+            },
+            "flag_note": null
+          }
+        }
+      },
+      {
+        "id": "uro-op-00104",
+        "version": 1,
+        "status": "draft",
+        "taxonomy": {
+          "domain": "operativ",
+          "subdomain": "",
+          "tags": []
+        },
+        "type": "single_best_answer",
+        "difficulty_estimated": 2,
+        "options": [
+          {
+            "key": "A",
+            "correct": false
+          },
+          {
+            "key": "B",
+            "correct": false
+          },
+          {
+            "key": "C",
+            "correct": true
+          },
+          {
+            "key": "D",
+            "correct": false
+          }
+        ],
+        "evidence": {
+          "level": "III",
+          "certainty": "etabliert",
+          "flag": false
+        },
+        "sources": [
+          {
+            "type": "artikel",
+            "code": "10.1007/s00120-025-02627-0",
+            "title": "Rassweiler J, Sander S. Operative Techniken zur Verbesserung der Kontinenz nach RALP anhand von videoanatomischen Strukturen. Die Urologie 2025;64:1173-1186",
+            "year": 2025
+          }
+        ],
+        "review": {
+          "author": "EK",
+          "reviewer": null,
+          "created": "2026-09-14",
+          "last_reviewed": "",
+          "expires": "2029-09-14"
+        },
+        "content": {
+          "de": {
+            "vignette": "Vor Anlage der vesikourethralen Anastomose soll der posteriore Sphinkterapparat verstärkt werden. Dafür werden auch paraurethrale Reste der Denonvilliers'schen Faszie mitgefasst.",
+            "lead_in": "Welche Strukturen werden bei der posterioren Rekonstruktion nach Rocco adaptiert?",
+            "options": {
+              "A": {
+                "text": "Detrusor-Apron und Ligg. puboprostatica",
+                "rationale": "Falsch. Das beschreibt die anteriore Rekonstruktion mit vorderer Verankerung der Anastomose. Sie wird ergänzend, nicht anstelle der posterioren Naht eingesetzt."
+              },
+              "B": {
+                "text": "M. puboperinealis und Arcus tendineus fasciae pelvis",
+                "rationale": "Falsch. Beide gehören zum dorsalen Schlingenmechanismus beziehungsweise zum lateralen Aufhängeapparat. Der M. puboperinealis, anteromedialer Anteil des M. pubococcygeus, wird geschont, aber nicht rekonstruiert."
+              },
+              "C": {
+                "text": "M. vesicoprostaticus und M. rectourethralis",
+                "rationale": "Richtig. Der kraniale Stumpf des glattmuskulären M. vesicoprostaticus, der dorsal des Blasenhalses liegt, wird mit dem Stumpf des M. rectourethralis vernäht, der zwischen membranöser Harnröhre und Rektum verläuft. Die Naht stellt das posteriore Widerlager der Harnröhre wieder her und entlastet die Anastomose. Die berichteten Kontinenzraten nach drei Monaten liegen zwischen 92,3 und 96,9 Prozent gegenüber 76,9 beziehungsweise 33,3 Prozent in den jeweiligen Kontrollgruppen."
+              },
+              "D": {
+                "text": "Fascia prostatica und Fascia levatoris",
+                "rationale": "Falsch. Diese Faszien werden bei interfaszialer Präparation getrennt und erhalten, aber nicht miteinander vernäht."
+              }
+            },
+            "explanation": {
+              "core": "Die Rocco-Naht verbindet den M. vesicoprostaticus mit dem M. rectourethralis und rekonstruiert damit den posterioren Halteapparat des Sphinkters.",
+              "teaching_point": "M. puboperinealis und M. rectourethralis wirken als urethraler Schlingenmechanismus; der M. puboperinealis gilt als Korrelat des Quick-Stop-Phänomens beim Mann."
+            },
+            "flag_note": null
+          },
+          "en": {
+            "vignette": "Before the vesicourethral anastomosis is completed, the posterior sphincter complex is to be reinforced. Periurethral remnants of Denonvilliers' fascia are included in the suture.",
+            "lead_in": "Which structures are approximated in the posterior reconstruction described by Rocco?",
+            "options": {
+              "A": {
+                "text": "Detrusor apron and puboprostatic ligaments",
+                "rationale": "Incorrect. That describes the anterior reconstruction with ventral fixation of the anastomosis. It is used in addition to, not instead of, the posterior suture."
+              },
+              "B": {
+                "text": "Puboperinealis muscle and arcus tendineus fasciae pelvis",
+                "rationale": "Incorrect. These belong to the posterior sling mechanism and to the lateral suspensory apparatus respectively. The puboperinealis muscle, the anteromedial part of the pubococcygeus, is spared but not reconstructed."
+              },
+              "C": {
+                "text": "Vesicoprostatic muscle and rectourethralis muscle",
+                "rationale": "Correct. The cranial stump of the smooth muscle vesicoprostatic muscle, which lies dorsal to the bladder neck, is sutured to the stump of the rectourethralis muscle running between the membranous urethra and the rectum. The suture restores the posterior support of the urethra and takes tension off the anastomosis. Reported three-month continence rates range from 92.3 to 96.9 per cent versus 76.9 and 33.3 per cent in the respective control groups."
+              },
+              "D": {
+                "text": "Prostatic fascia and levator fascia",
+                "rationale": "Incorrect. These fasciae are separated and preserved during interfascial dissection, but they are not sutured to each other."
+              }
+            },
+            "explanation": {
+              "core": "The Rocco stitch joins the vesicoprostatic muscle to the rectourethralis muscle and thereby reconstructs the posterior support of the sphincter.",
+              "teaching_point": "Puboperinealis and rectourethralis muscles act as a urethral sling; the puboperinealis muscle is regarded as the correlate of the quick-stop phenomenon in men."
+            },
+            "flag_note": null
+          },
+          "es": {
+            "vignette": "Antes de completar la anastomosis vesicouretral se quiere reforzar el aparato esfinteriano posterior. Para ello se incluyen también restos periuretrales de la fascia de Denonvilliers.",
+            "lead_in": "¿Qué estructuras se aproximan en la reconstrucción posterior descrita por Rocco?",
+            "options": {
+              "A": {
+                "text": "Delantal del detrusor y ligamentos puboprostáticos",
+                "rationale": "Incorrecto. Eso describe la reconstrucción anterior con fijación ventral de la anastomosis. Se emplea como complemento, no en lugar de la sutura posterior."
+              },
+              "B": {
+                "text": "Músculo puboperineal y arco tendinoso de la fascia pélvica",
+                "rationale": "Incorrecto. Pertenecen al mecanismo de cabestrillo posterior y al aparato de suspensión lateral, respectivamente. El músculo puboperineal, porción anteromedial del pubococcígeo, se respeta pero no se reconstruye."
+              },
+              "C": {
+                "text": "Músculo vesicoprostático y músculo rectouretral",
+                "rationale": "Correcto. El muñón craneal del músculo vesicoprostático, de fibra lisa y situado dorsal al cuello vesical, se sutura al muñón del músculo rectouretral, que discurre entre la uretra membranosa y el recto. La sutura restablece el apoyo posterior de la uretra y descarga la anastomosis. Las tasas de continencia comunicadas a los tres meses oscilan entre el 92,3 y el 96,9 por ciento, frente al 76,9 y el 33,3 por ciento de los respectivos grupos control."
+              },
+              "D": {
+                "text": "Fascia prostática y fascia del elevador",
+                "rationale": "Incorrecto. Esas fascias se separan y se conservan en la disección interfascial, pero no se suturan entre sí."
+              }
+            },
+            "explanation": {
+              "core": "El punto de Rocco une el músculo vesicoprostático con el músculo rectouretral y reconstruye así el soporte posterior del esfínter.",
+              "teaching_point": "Los músculos puboperineal y rectouretral actúan como cabestrillo uretral; el puboperineal se considera el correlato del fenómeno de interrupción rápida de la micción en el varón."
+            },
+            "flag_note": null
+          }
+        }
+      },
+      {
+        "id": "uro-op-00105",
+        "version": 1,
+        "status": "draft",
+        "taxonomy": {
+          "domain": "operativ",
+          "subdomain": "",
+          "tags": []
+        },
+        "type": "single_best_answer",
+        "difficulty_estimated": 3,
+        "options": [
+          {
+            "key": "A",
+            "correct": false
+          },
+          {
+            "key": "B",
+            "correct": false
+          },
+          {
+            "key": "C",
+            "correct": false
+          },
+          {
+            "key": "D",
+            "correct": true
+          }
+        ],
+        "evidence": {
+          "level": "III",
+          "certainty": "eingeschraenkt",
+          "flag": true
+        },
+        "sources": [
+          {
+            "type": "artikel",
+            "code": "10.1007/s00120-025-02627-0",
+            "title": "Rassweiler J, Sander S. Operative Techniken zur Verbesserung der Kontinenz nach RALP anhand von videoanatomischen Strukturen. Die Urologie 2025;64:1173-1186",
+            "year": 2025
+          }
+        ],
+        "review": {
+          "author": "EK",
+          "reviewer": null,
+          "created": "2026-09-14",
+          "last_reviewed": "",
+          "expires": "2029-09-14"
+        },
+        "content": {
+          "de": {
+            "vignette": "Noch während des stationären Aufenthalts wird unmittelbar nach Entfernung des Dauerkatheters der Urinverlust im Pad auf das tägliche Miktionsvolumen bezogen. Der Quotient beträgt 0,03. Der Patient fragt nach seiner Prognose.",
+            "lead_in": "Welche Aussage ist auf dieser Grundlage am ehesten angemessen?",
+            "options": {
+              "A": {
+                "text": "Vor zwölf Monaten ist keine Prognose möglich",
+                "rationale": "Falsch. Genau dafür wurde der Parameter entwickelt: eine Aussage bereits am Tag der Katheterentfernung statt eines Abwartens über Monate."
+              },
+              "B": {
+                "text": "Eine intrinsische Sphinkterinsuffizienz ist damit belegt",
+                "rationale": "Falsch. Eine intrinsische Sphinkterinsuffizienz lässt sich nur urodynamisch belegen; nach offener radikaler Prostatektomie findet sie sich in 40 bis 80 Prozent. Ein niedriger Quotient spricht ohnehin gegen einen relevanten Sphinkterschaden."
+              },
+              "C": {
+                "text": "Eine frühe Urodynamik ist jetzt indiziert",
+                "rationale": "Falsch. Eine Urodynamik ist erst bei persistierender oder unklarer Inkontinenz nach Abschluss der Rehabilitationsphase sinnvoll, nicht bei günstigem Frühparameter."
+              },
+              "D": {
+                "text": "Eine Kontinenz nach drei Monaten ist wahrscheinlich",
+                "rationale": "Richtig. Die urine loss ratio nach Ates ist definiert als Gewicht des Urinverlusts im Pad geteilt durch das tägliche Miktionsvolumen, gemessen direkt nach Katheterentfernung. Bei einem Wert unter 0,05 waren in der Originalkohorte 89 Prozent der Patienten nach drei Monaten kontinent, definiert als null bis eine Sicherheitsvorlage. Der Wert dient der Beratung und Verlaufsplanung, nicht der Diagnostik."
+              }
+            },
+            "explanation": {
+              "core": "Der Quotient aus Padgewicht und täglichem Miktionsvolumen nach Katheterentfernung ist ein Frühprädiktor. Unter 0,05 ist die Kontinenz nach drei Monaten wahrscheinlich.",
+              "teaching_point": "Die meisten Studien zur Kontinenz nach RALP setzen null Vorlagen und null bis eine Sicherheitsvorlage gleich. Quantitative Maße wie Padgewicht pro Stunde sind vergleichbarer als Fragebogenangaben."
+            },
+            "flag_note": "Der Parameter stammt aus einer monozentrischen Kohorte von 2007 und ist extern nicht validiert. Der Schwellenwert eignet sich zur Beratung, nicht als Entscheidungsgrenze."
+          },
+          "en": {
+            "vignette": "Still on the ward, immediately after removal of the indwelling catheter, urine loss into the pad is related to the daily voided volume. The ratio is 0.03. The patient asks about his prognosis.",
+            "lead_in": "Which statement is most appropriate on this basis?",
+            "options": {
+              "A": {
+                "text": "No prognosis is possible before twelve months",
+                "rationale": "Incorrect. That is precisely what the parameter was developed for: a statement on the day of catheter removal instead of waiting for months."
+              },
+              "B": {
+                "text": "Intrinsic sphincter deficiency is thereby established",
+                "rationale": "Incorrect. Intrinsic sphincter deficiency can only be established urodynamically; after open radical prostatectomy it is found in 40 to 80 per cent. A low ratio argues against relevant sphincter damage in any case."
+              },
+              "C": {
+                "text": "Early urodynamic assessment is now indicated",
+                "rationale": "Incorrect. Urodynamics are reserved for persistent or unclear incontinence after the rehabilitation phase, not for a favourable early parameter."
+              },
+              "D": {
+                "text": "Continence at three months is likely",
+                "rationale": "Correct. The urine loss ratio described by Ates is the weight of urine lost into the pad divided by the daily voided volume, measured directly after catheter removal. Below 0.05, 89 per cent of patients in the original cohort were continent at three months, defined as none to one safety pad. The value serves counselling and follow-up planning, not diagnosis."
+              }
+            },
+            "explanation": {
+              "core": "The ratio of pad weight to daily voided volume after catheter removal is an early predictor. Below 0.05 continence at three months is likely.",
+              "teaching_point": "Most studies on continence after RARP treat no pad and none to one safety pad as equivalent. Quantitative measures such as pad weight per hour are more comparable than questionnaire data."
+            },
+            "flag_note": "The parameter comes from a single-centre cohort published in 2007 and has not been externally validated. The threshold is suitable for counselling, not as a decision limit."
+          },
+          "es": {
+            "vignette": "Todavía durante el ingreso, inmediatamente después de retirar la sonda permanente, se relaciona la pérdida de orina en la compresa con el volumen miccional diario. El cociente es de 0,03. El paciente pregunta por su pronóstico.",
+            "lead_in": "¿Qué afirmación es la más adecuada sobre esta base?",
+            "options": {
+              "A": {
+                "text": "Antes de doce meses no cabe ningún pronóstico",
+                "rationale": "Incorrecto. Precisamente para eso se desarrolló el parámetro: ofrecer una estimación el mismo día de la retirada de la sonda en lugar de esperar meses."
+              },
+              "B": {
+                "text": "Queda demostrada una insuficiencia esfinteriana intrínseca",
+                "rationale": "Incorrecto. La insuficiencia esfinteriana intrínseca solo se demuestra por urodinamia; tras prostatectomía radical abierta se encuentra en el 40 al 80 por ciento. Además, un cociente bajo va en contra de un daño esfinteriano relevante."
+              },
+              "C": {
+                "text": "Está indicada una urodinamia precoz",
+                "rationale": "Incorrecto. La urodinamia se reserva para la incontinencia persistente o poco clara una vez concluida la fase de rehabilitación, no ante un parámetro precoz favorable."
+              },
+              "D": {
+                "text": "La continencia a los tres meses es probable",
+                "rationale": "Correcto. El urine loss ratio descrito por Ates es el peso de la orina perdida en la compresa dividido por el volumen miccional diario, medido justo tras retirar la sonda. Por debajo de 0,05, el 89 por ciento de los pacientes de la cohorte original estaban continentes a los tres meses, definido como ninguna o una compresa de seguridad. El valor sirve para informar y planificar el seguimiento, no para diagnosticar."
+              }
+            },
+            "explanation": {
+              "core": "El cociente entre el peso de la compresa y el volumen miccional diario tras retirar la sonda es un predictor precoz. Por debajo de 0,05 la continencia a los tres meses es probable.",
+              "teaching_point": "La mayoría de los estudios sobre continencia tras prostatectomía radical asistida por robot equiparan ninguna compresa con ninguna o una compresa de seguridad. Las medidas cuantitativas, como el peso de la compresa por hora, son más comparables que los cuestionarios."
+            },
+            "flag_note": "El parámetro procede de una cohorte de un solo centro publicada en 2007 y no ha sido validado externamente. El umbral sirve para informar, no como límite de decisión."
+          }
+        }
+      },
+      {
+        "id": "uro-op-00106",
+        "version": 1,
+        "status": "draft",
+        "taxonomy": {
+          "domain": "operativ",
+          "subdomain": "",
+          "tags": []
+        },
+        "type": "single_best_answer",
+        "difficulty_estimated": 4,
+        "options": [
+          {
+            "key": "A",
+            "correct": false
+          },
+          {
+            "key": "B",
+            "correct": true
+          },
+          {
+            "key": "C",
+            "correct": false
+          },
+          {
+            "key": "D",
+            "correct": false
+          }
+        ],
+        "evidence": {
+          "level": "IIA",
+          "certainty": "eingeschraenkt",
+          "flag": true
+        },
+        "sources": [
+          {
+            "type": "artikel",
+            "code": "10.1007/s00120-025-02627-0",
+            "title": "Rassweiler J, Sander S. Operative Techniken zur Verbesserung der Kontinenz nach RALP anhand von videoanatomischen Strukturen. Die Urologie 2025;64:1173-1186",
+            "year": 2025
+          }
+        ],
+        "review": {
+          "author": "EK",
+          "reviewer": null,
+          "created": "2026-09-14",
+          "last_reviewed": "",
+          "expires": "2029-09-14"
+        },
+        "content": {
+          "de": {
+            "vignette": "62-jähriger Patient, cT2c, ISUP 3, PSA 12 ng/ml, in der mpMRT apikal fragliche Kapselüberschreitung. Er wünscht ausdrücklich eine Retzius-sparende RALP, weil er von einer schnelleren Kontinenzerholung gelesen hat.",
+            "lead_in": "Wie ist er zu beraten?",
+            "options": {
+              "A": {
+                "text": "Die Technik ist onkologisch gleichwertig und generell vorzuziehen",
+                "rationale": "Falsch. Die Datenlage zeigt konsistent höhere Raten positiver Schnittränder, im Review mit 14 bis 42 gegenüber 10 bis 29 Prozent angegeben. Die Lernkurve erklärt einen Teil, aber nicht die gesamte Differenz."
+              },
+              "B": {
+                "text": "Der Frühkontinenzvorteil geht mit mehr positiven Rändern einher",
+                "rationale": "Richtig. Die Technik erhält praktisch den gesamten anterioren Halteapparat, also endopelvine Faszie, Levatorfaszie, Detrusorschürze, dorsalen Venenkomplex und Ligg. puboprostatica, und erreichte nach drei Monaten 79,2 gegenüber 66,7 Prozent, nach einem Jahr 95,8 gegenüber 87,5 Prozent. Zwei Metaanalysen zeigen jedoch höhere Raten positiver Schnittränder; in der MASTER-Analyse war der Unterschied für Tumoren bis pT2 signifikant, RR 1,39 bei einem 95-Prozent-Konfidenzintervall von 1,01 bis 1,91, für Tumoren ab pT3 nicht, RR 1,36 bei 0,74 bis 2,50. Bei fraglicher apikaler Kapselüberschreitung hat der negative Rand Vorrang, die Indikation bleibt selektiv."
+              },
+              "C": {
+                "text": "Der Vorteil betrifft vor allem die Kontinenz nach 24 Monaten",
+                "rationale": "Falsch. Der belegte Vorteil liegt in der Frühkontinenz. Die Langzeitraten nähern sich denen der deszendierenden Technik mit konsequenter Schonung des Sphinkterapparats an."
+              },
+              "D": {
+                "text": "Bei fraglicher Kapselüberschreitung ist sie das sicherere Verfahren",
+                "rationale": "Falsch. Das kehrt den Befund um. Gerade der anterior und apikal eingeschränkte Zugang erschwert eine großzügige Resektion bei Kapselüberschreitung."
+              }
+            },
+            "explanation": {
+              "core": "Retzius-sparend verbessert die Frühkontinenz, erhöht aber die Rate positiver Schnittränder. Tumorfreiheit bleibt primäres Ziel, die Indikation ist selektiv.",
+              "teaching_point": "Die Hood-Technik verfolgt dasselbe Ziel des anterioren Strukturerhalts im klassischen deszendierenden Vorgehen und berichtet 83 Prozent Kontinenz nach einem Monat ohne erhöhte Randrate."
+            },
+            "flag_note": "Die Evidenz beruht auf Metaanalysen überwiegend nicht randomisierter Studien mit heterogenen Kontinenzdefinitionen und starkem Lernkurveneffekt."
+          },
+          "en": {
+            "vignette": "A 62-year-old man, cT2c, ISUP 3, PSA 12 ng/ml, with questionable apical extracapsular extension on mpMRI. He explicitly asks for a Retzius-sparing procedure because he has read about faster recovery of continence.",
+            "lead_in": "How should he be counselled?",
+            "options": {
+              "A": {
+                "text": "The technique is oncologically equivalent and generally preferable",
+                "rationale": "Incorrect. The data consistently show higher rates of positive surgical margins, given in the review as 14 to 42 versus 10 to 29 per cent. The learning curve explains part, but not all, of the difference."
+              },
+              "B": {
+                "text": "The early continence advantage comes with more positive margins",
+                "rationale": "Correct. The technique preserves virtually the entire anterior supporting apparatus, that is endopelvic fascia, levator fascia, detrusor apron, dorsal venous complex and puboprostatic ligaments, and achieved 79.2 versus 66.7 per cent at three months and 95.8 versus 87.5 per cent at one year. Two meta-analyses nevertheless show higher rates of positive surgical margins; in the MASTER analysis the difference was significant for tumours up to pT2, RR 1.39 with a 95 per cent confidence interval of 1.01 to 1.91, and not significant from pT3 onwards, RR 1.36 with 0.74 to 2.50. With questionable apical extracapsular extension the negative margin takes priority and the indication remains selective."
+              },
+              "C": {
+                "text": "The advantage mainly concerns continence at 24 months",
+                "rationale": "Incorrect. The documented advantage lies in early continence. Long-term rates approach those of the descending technique with consistent preservation of the sphincter complex."
+              },
+              "D": {
+                "text": "With questionable extracapsular extension it is the safer option",
+                "rationale": "Incorrect. That reverses the finding. The anteriorly and apically restricted access makes a generous resection in extracapsular disease more difficult."
+              }
+            },
+            "explanation": {
+              "core": "Retzius-sparing improves early continence but raises the rate of positive surgical margins. Tumour clearance remains the primary goal and the indication is selective.",
+              "teaching_point": "The Hood technique pursues the same preservation of anterior structures within the classical descending approach and reports 83 per cent continence at one month without an increased margin rate."
+            },
+            "flag_note": "The evidence rests on meta-analyses of predominantly non-randomised studies with heterogeneous continence definitions and a strong learning-curve effect."
+          },
+          "es": {
+            "vignette": "Varón de 62 años, cT2c, ISUP 3, PSA 12 ng/ml, con extensión extracapsular apical dudosa en la RM multiparamétrica. Pide expresamente una técnica con preservación del espacio de Retzius porque ha leído que la continencia se recupera antes.",
+            "lead_in": "¿Cómo debe informarse al paciente?",
+            "options": {
+              "A": {
+                "text": "La técnica es oncológicamente equivalente y preferible en general",
+                "rationale": "Incorrecto. Los datos muestran de forma constante tasas más altas de márgenes quirúrgicos positivos, del 14 al 42 frente al 10 al 29 por ciento según la revisión. La curva de aprendizaje explica una parte, pero no toda la diferencia."
+              },
+              "B": {
+                "text": "La ventaja en continencia precoz conlleva más márgenes positivos",
+                "rationale": "Correcto. La técnica conserva prácticamente todo el aparato de sostén anterior, es decir fascia endopélvica, fascia del elevador, delantal del detrusor, complejo venoso dorsal y ligamentos puboprostáticos, y alcanzó un 79,2 frente a un 66,7 por ciento a los tres meses y un 95,8 frente a un 87,5 por ciento al año. Sin embargo, dos metanálisis muestran tasas más altas de márgenes positivos; en el análisis MASTER la diferencia fue significativa para tumores hasta pT2, RR 1,39 con intervalo de confianza del 95 por ciento de 1,01 a 1,91, y no significativa a partir de pT3, RR 1,36 con 0,74 a 2,50. Ante una extensión extracapsular apical dudosa prima el margen negativo y la indicación sigue siendo selectiva."
+              },
+              "C": {
+                "text": "La ventaja afecta sobre todo a la continencia a los 24 meses",
+                "rationale": "Incorrecto. La ventaja documentada está en la continencia precoz. Las tasas a largo plazo se aproximan a las de la técnica descendente con preservación sistemática del aparato esfinteriano."
+              },
+              "D": {
+                "text": "Ante una extensión extracapsular dudosa es la opción más segura",
+                "rationale": "Incorrecto. Eso invierte el hallazgo. Precisamente el acceso limitado por delante y en el ápex dificulta una resección amplia cuando hay extensión extracapsular."
+              }
+            },
+            "explanation": {
+              "core": "La preservación del espacio de Retzius mejora la continencia precoz, pero aumenta la tasa de márgenes quirúrgicos positivos. La ausencia de tumor sigue siendo el objetivo primario y la indicación es selectiva.",
+              "teaching_point": "La técnica Hood persigue la misma conservación de las estructuras anteriores dentro del abordaje descendente clásico y comunica un 83 por ciento de continencia al mes sin aumentar la tasa de márgenes."
+            },
+            "flag_note": "La evidencia procede de metanálisis de estudios mayoritariamente no aleatorizados, con definiciones heterogéneas de continencia y un fuerte efecto de la curva de aprendizaje."
+          }
+        }
+      },
+      {
+        "id": "uro-op-00107",
+        "version": 1,
+        "status": "draft",
+        "taxonomy": {
+          "domain": "operativ",
+          "subdomain": "",
+          "tags": []
+        },
+        "type": "single_best_answer",
+        "difficulty_estimated": 3,
+        "options": [
+          {
+            "key": "A",
+            "correct": false
+          },
+          {
+            "key": "B",
+            "correct": false
+          },
+          {
+            "key": "C",
+            "correct": true
+          },
+          {
+            "key": "D",
+            "correct": false
+          }
+        ],
+        "evidence": {
+          "level": "IIA",
+          "certainty": "etabliert",
+          "flag": false
+        },
+        "sources": [
+          {
+            "type": "artikel",
+            "code": "10.1007/s00120-025-02627-0",
+            "title": "Rassweiler J, Sander S. Operative Techniken zur Verbesserung der Kontinenz nach RALP anhand von videoanatomischen Strukturen. Die Urologie 2025;64:1173-1186",
+            "year": 2025
+          }
+        ],
+        "review": {
+          "author": "EK",
+          "reviewer": null,
+          "created": "2026-09-14",
+          "last_reviewed": "",
+          "expires": "2029-09-14"
+        },
+        "content": {
+          "de": {
+            "vignette": "Ein Patient fragt im Aufklärungsgespräch, ob der beidseitige Nerverhalt neben der Potenz auch seine Kontinenz dauerhaft verbessert.",
+            "lead_in": "Was entspricht der vorliegenden Metaanalyse-Evidenz?",
+            "options": {
+              "A": {
+                "text": "Der Vorteil bleibt über fünf Jahre erhalten",
+                "rationale": "Falsch. Genau das ließ sich nicht bestätigen. Für die Langzeitkontinenz ist die schonende Schnittführung entscheidender als der morphologische Erhalt der Bündel."
+              },
+              "B": {
+                "text": "Der Vorteil zeigt sich erst nach zwölf Monaten",
+                "rationale": "Falsch. Das kehrt das zeitliche Muster um. Kontinenzgewinne durch gewebeschonende Schritte zeigen sich regelhaft früh und gleichen sich später an."
+              },
+              "C": {
+                "text": "Der Vorteil betrifft vor allem die ersten sechs Monate",
+                "rationale": "Richtig. In einer Metaanalyse von 27 Studien mit 13.749 Patienten verkürzte der Erhalt der neurovaskulären Bündel die Zeit bis zur Kontinenz, ohne die Langzeitraten zu verbessern; nach sechs Monaten bestand kein signifikanter Vorteil mehr. Hinzu kommt, dass sich Kollektive mit und ohne Nerverhalt systematisch unterscheiden, was den Effekt überschätzt."
+              },
+              "D": {
+                "text": "Ein Einfluss auf die Kontinenz besteht nicht",
+                "rationale": "Falsch. Der Früheffekt ist real. Die kavernösen Nerven liefern unter anderem die afferente Versorgung der membranösen Harnröhre und tragen so zur Kontinenz bei."
+              }
+            },
+            "explanation": {
+              "core": "Nerverhalt beschleunigt die Kontinenzerholung, verbessert aber nicht die Langzeitrate. Entscheidend ist die Technik, nicht der bloße Erhalt der Bündel.",
+              "teaching_point": "Rhabdosphinkter: N. pudendus. Innerer Sphinkter: sympathisch aus dem Plexus hypogastricus inferior. Membranöse Harnröhre: sensible Afferenzen aus kavernösen Nerven. Alle drei sind operativ getrennt gefährdet."
+            },
+            "flag_note": null
+          },
+          "en": {
+            "vignette": "During the consent discussion a patient asks whether bilateral nerve sparing improves his continence in the long term as well as his potency.",
+            "lead_in": "What corresponds to the available meta-analysis evidence?",
+            "options": {
+              "A": {
+                "text": "The advantage persists beyond five years",
+                "rationale": "Incorrect. This could not be confirmed. For long-term continence the gentle dissection technique matters more than the morphological preservation of the bundles."
+              },
+              "B": {
+                "text": "The advantage only appears after twelve months",
+                "rationale": "Incorrect. That reverses the time course. Continence gains from tissue-sparing steps regularly appear early and level off later."
+              },
+              "C": {
+                "text": "The advantage mainly concerns the first six months",
+                "rationale": "Correct. In a meta-analysis of 27 studies with 13,749 patients, preservation of the neurovascular bundles shortened the time to continence without improving long-term rates; beyond six months no significant advantage remained. In addition, cohorts with and without nerve sparing differ systematically, which overstates the effect."
+              },
+              "D": {
+                "text": "There is no influence on continence",
+                "rationale": "Incorrect. The early effect is real. Among other things, the cavernous nerves provide the afferent supply of the membranous urethra and thus contribute to continence."
+              }
+            },
+            "explanation": {
+              "core": "Nerve sparing accelerates recovery of continence but does not improve the long-term rate. The technique matters, not the mere preservation of the bundles.",
+              "teaching_point": "Rhabdosphincter: pudendal nerve. Internal sphincter: sympathetic from the inferior hypogastric plexus. Membranous urethra: sensory afferents from cavernous nerves. Each is endangered by a different operative step."
+            },
+            "flag_note": null
+          },
+          "es": {
+            "vignette": "Durante el consentimiento informado, un paciente pregunta si la preservación nerviosa bilateral mejora también su continencia a largo plazo, además de la potencia.",
+            "lead_in": "¿Qué se corresponde con la evidencia disponible de los metanálisis?",
+            "options": {
+              "A": {
+                "text": "La ventaja se mantiene más allá de cinco años",
+                "rationale": "Incorrecto. Eso no pudo confirmarse. Para la continencia a largo plazo pesa más una disección cuidadosa que la conservación morfológica de los haces."
+              },
+              "B": {
+                "text": "La ventaja aparece solo después de doce meses",
+                "rationale": "Incorrecto. Eso invierte la secuencia temporal. Las mejoras de continencia por pasos que respetan el tejido se manifiestan pronto y se igualan después."
+              },
+              "C": {
+                "text": "La ventaja afecta sobre todo a los primeros seis meses",
+                "rationale": "Correcto. En un metanálisis de 27 estudios con 13.749 pacientes, la conservación de los haces neurovasculares acortó el tiempo hasta la continencia sin mejorar las tasas a largo plazo; más allá de los seis meses no persistía ninguna ventaja significativa. Además, las cohortes con y sin preservación nerviosa difieren de forma sistemática, lo que sobrestima el efecto."
+              },
+              "D": {
+                "text": "No existe influencia alguna sobre la continencia",
+                "rationale": "Incorrecto. El efecto precoz es real. Entre otras cosas, los nervios cavernosos aportan la inervación aferente de la uretra membranosa y contribuyen así a la continencia."
+              }
+            },
+            "explanation": {
+              "core": "La preservación nerviosa acelera la recuperación de la continencia, pero no mejora la tasa a largo plazo. Lo decisivo es la técnica, no la mera conservación de los haces.",
+              "teaching_point": "Rabdoesfínter: nervio pudendo. Esfínter interno: simpático desde el plexo hipogástrico inferior. Uretra membranosa: aferencias sensitivas de los nervios cavernosos. Cada uno se pone en riesgo en un paso quirúrgico distinto."
+            },
+            "flag_note": null
+          }
+        }
+      },
+      {
+        "id": "uro-op-00108",
+        "version": 1,
+        "status": "draft",
+        "taxonomy": {
+          "domain": "operativ",
+          "subdomain": "",
+          "tags": []
+        },
+        "type": "single_best_answer",
+        "difficulty_estimated": 3,
+        "options": [
+          {
+            "key": "A",
+            "correct": true
+          },
+          {
+            "key": "B",
+            "correct": false
+          },
+          {
+            "key": "C",
+            "correct": false
+          },
+          {
+            "key": "D",
+            "correct": false
+          }
+        ],
+        "evidence": {
+          "level": "IIA",
+          "certainty": "etabliert",
+          "flag": false
+        },
+        "sources": [
+          {
+            "type": "artikel",
+            "code": "10.1007/s00120-025-02627-0",
+            "title": "Rassweiler J, Sander S. Operative Techniken zur Verbesserung der Kontinenz nach RALP anhand von videoanatomischen Strukturen. Die Urologie 2025;64:1173-1186",
+            "year": 2025
+          }
+        ],
+        "review": {
+          "author": "EK",
+          "reviewer": null,
+          "created": "2026-09-14",
+          "last_reviewed": "",
+          "expires": "2029-09-14"
+        },
+        "content": {
+          "de": {
+            "vignette": "78-ml-Prostata mit ausgeprägtem intravesikalem Mittellappen. Der Operateur plant eine blasenhalserhaltende RALP und begründet dies mit der besseren Kontinenz.",
+            "lead_in": "Welche Einschätzung trifft hier zu?",
+            "options": {
+              "A": {
+                "text": "Der Erhalt stößt in dieser Konstellation an technische Grenzen",
+                "rationale": "Richtig. Der Blasenhalserhalt beruht darauf, die aus Fettbindegewebe bestehende Zone zwischen Blasenhals und Prostata stumpf zu entwickeln und so die Urethra und die Muskelfasern des inneren Sphinkters darzustellen. Ein großer intravesikaler Mittellappen verschiebt diese Grenze und macht das Manöver unsicher; dann ist eine Blasenhalsrekonstruktion einzuplanen. Eine Metaanalyse zeigt eine Kontinenz nach einem Jahr von 83,5 gegenüber 71,2 Prozent zugunsten des Erhalts."
+              },
+              "B": {
+                "text": "Der Mittellappen ist für den Blasenhalserhalt ohne Bedeutung",
+                "rationale": "Falsch. Er ist die im Review ausdrücklich genannte technische Grenze des Verfahrens."
+              },
+              "C": {
+                "text": "Der Blasenhals muss grundsätzlich weit reseziert werden",
+                "rationale": "Falsch. Eine routinemäßig weite Resektion schädigt den Detrusor unnötig. Weit reseziert wird bei basisnahem Tumor oder unklarem Rand."
+              },
+              "D": {
+                "text": "Der Erhalt ersetzt die posteriore Rekonstruktion",
+                "rationale": "Falsch. Die Schritte adressieren unterschiedliche Anteile des Halteapparats und sind additiv gedacht. Eine aktuelle Technik besteht in der konsekutiven Anwendung mehrerer Einzelschritte."
+              }
+            },
+            "explanation": {
+              "core": "Der Blasenhalserhalt schont den Detrusor und verbessert die Kontinenz, ist aber bei großem Mittellappen technisch limitiert und darf den basalen Rand nicht kompromittieren.",
+              "teaching_point": "Serien mit 100 Prozent Kontinenz bereits nach Katheterentfernung sind mit Vorsicht zu lesen: dort fehlt häufig eine explizite Kontinenzdefinition."
+            },
+            "flag_note": null
+          },
+          "en": {
+            "vignette": "A 78 ml prostate with a pronounced intravesical median lobe. The surgeon plans a bladder neck-sparing procedure and argues that continence will be better.",
+            "lead_in": "Which assessment applies here?",
+            "options": {
+              "A": {
+                "text": "Preservation reaches technical limits in this constellation",
+                "rationale": "Correct. Bladder neck preservation relies on bluntly developing the fatty connective tissue zone between bladder neck and prostate, exposing the urethra and the muscle fibres of the internal sphincter. A large intravesical median lobe displaces this border and makes the manoeuvre unsafe; a bladder neck reconstruction should then be planned. A meta-analysis shows one-year continence of 83.5 versus 71.2 per cent in favour of preservation."
+              },
+              "B": {
+                "text": "The median lobe is irrelevant for bladder neck preservation",
+                "rationale": "Incorrect. It is the technical limit of the procedure explicitly named in the review."
+              },
+              "C": {
+                "text": "The bladder neck must be widely resected as a rule",
+                "rationale": "Incorrect. Routine wide resection damages the detrusor unnecessarily. Wide resection is reserved for tumour near the base or an unclear margin."
+              },
+              "D": {
+                "text": "Preservation replaces the posterior reconstruction",
+                "rationale": "Incorrect. The steps address different parts of the supporting apparatus and are meant to be additive. A current technique consists of the consecutive application of several individual steps."
+              }
+            },
+            "explanation": {
+              "core": "Bladder neck preservation spares the detrusor and improves continence, but it is technically limited with a large median lobe and must not compromise the basal margin.",
+              "teaching_point": "Series reporting 100 per cent continence as early as catheter removal should be read with caution: an explicit continence definition is often missing."
+            },
+            "flag_note": null
+          },
+          "es": {
+            "vignette": "Próstata de 78 ml con un lóbulo medio intravesical marcado. El cirujano planea preservar el cuello vesical y lo justifica por una mejor continencia.",
+            "lead_in": "¿Qué valoración es correcta en este caso?",
+            "options": {
+              "A": {
+                "text": "La preservación alcanza aquí sus límites técnicos",
+                "rationale": "Correcto. La preservación del cuello vesical se basa en desarrollar de forma roma la zona de tejido conjuntivo graso entre el cuello y la próstata, exponiendo la uretra y las fibras musculares del esfínter interno. Un lóbulo medio intravesical grande desplaza ese límite y hace insegura la maniobra; entonces debe preverse una reconstrucción del cuello vesical. Un metanálisis muestra una continencia al año del 83,5 frente al 71,2 por ciento a favor de la preservación."
+              },
+              "B": {
+                "text": "El lóbulo medio es irrelevante para preservar el cuello vesical",
+                "rationale": "Incorrecto. Es precisamente el límite técnico del procedimiento que la revisión menciona de forma expresa."
+              },
+              "C": {
+                "text": "El cuello vesical debe resecarse ampliamente por norma",
+                "rationale": "Incorrecto. Una resección amplia sistemática daña el detrusor sin necesidad. Se reserva para el tumor próximo a la base o para un margen dudoso."
+              },
+              "D": {
+                "text": "La preservación sustituye a la reconstrucción posterior",
+                "rationale": "Incorrecto. Los pasos abordan partes distintas del aparato de sostén y están pensados como aditivos. Una técnica actual consiste en aplicar varios pasos de forma consecutiva."
+              }
+            },
+            "explanation": {
+              "core": "La preservación del cuello vesical respeta el detrusor y mejora la continencia, pero está limitada técnicamente ante un lóbulo medio grande y no debe comprometer el margen basal.",
+              "teaching_point": "Las series que comunican un 100 por ciento de continencia ya al retirar la sonda deben leerse con cautela: a menudo falta una definición explícita de continencia."
+            },
+            "flag_note": null
+          }
+        }
+      },
+      {
+        "id": "uro-op-00109",
+        "version": 1,
+        "status": "draft",
+        "taxonomy": {
+          "domain": "operativ",
+          "subdomain": "",
+          "tags": []
+        },
+        "type": "single_best_answer",
+        "difficulty_estimated": 2,
+        "options": [
+          {
+            "key": "A",
+            "correct": false
+          },
+          {
+            "key": "B",
+            "correct": true
+          },
+          {
+            "key": "C",
+            "correct": false
+          },
+          {
+            "key": "D",
+            "correct": false
+          }
+        ],
+        "evidence": {
+          "level": "III",
+          "certainty": "etabliert",
+          "flag": false
+        },
+        "sources": [
+          {
+            "type": "artikel",
+            "code": "10.1007/s00120-025-02627-0",
+            "title": "Rassweiler J, Sander S. Operative Techniken zur Verbesserung der Kontinenz nach RALP anhand von videoanatomischen Strukturen. Die Urologie 2025;64:1173-1186",
+            "year": 2025
+          }
+        ],
+        "review": {
+          "author": "EK",
+          "reviewer": null,
+          "created": "2026-09-14",
+          "last_reviewed": "",
+          "expires": "2029-09-14"
+        },
+        "content": {
+          "de": {
+            "vignette": "Im OP-Bericht einer antegraden RALP heißt es: nach Ligatur des dorsalen Venenkomplexes stumpfe Dissektion unterhalb der Detrusorschürze, danach Durchtrennung der Urethra.",
+            "lead_in": "Welche Struktur wird durch dieses Manöver erhalten?",
+            "options": {
+              "A": {
+                "text": "Die innere Schicht der Denonvilliers'schen Faszie",
+                "rationale": "Falsch. Diese entspricht nach Gil-Vernet dem M. vesicoprostaticus und liegt dorsal des Blasenhalses. Sie ist Partner der posterioren, nicht der anterioren Rekonstruktion."
+              },
+              "B": {
+                "text": "Die glattmuskuläre Fortsetzung der vorderen Blasenwand",
+                "rationale": "Richtig. Der Detrusor-Apron ist die glattmuskuläre Extension der anterioren Blasenwand, steht in direkter Verbindung mit dem Schambein und legt sich schürzenförmig über die Prostatavorderfläche, bedeckt von der Fascia pelvis visceralis. Er gehört mit dem anterioren fibromuskulären Stroma zum ventralen Halteapparat. Mit dem komplett antegraden Vorgehen der Ultradissektionstechnik wurden nach zwölf Monaten 95,7 Prozent Kontinenz berichtet, bei 6,5 Prozent R1 in den Stadien unter pT3."
+              },
+              "C": {
+                "text": "Der quergestreifte urethrale Rhabdosphinkter",
+                "rationale": "Falsch. Der Rhabdosphinkter liegt distal und hufeisenförmig um die membranöse Harnröhre. Er wird über die Höhe der Urethradurchtrennung geschont, nicht über die Dissektion unter der Schürze."
+              },
+              "D": {
+                "text": "Der anteromediale Anteil des M. pubococcygeus",
+                "rationale": "Falsch. Das ist der M. puboperinealis, Teil des dorsalen Schlingenmechanismus, der über den Erhalt des M. levator ani und seiner Faszie geschont wird."
+              }
+            },
+            "explanation": {
+              "core": "Die Detrusorschürze ist eine glattmuskuläre Fortsetzung der Blasenvorderwand. Ihr Erhalt zählt zum ventralen Sphinkter- und Halteapparat.",
+              "teaching_point": "Ventral unterhalb des dorsalen Venenkomplexes existiert keine echte Prostatafaszie, sondern anteriores fibromuskuläres Stroma und Detrusorschürze. Dort gibt es keine Faszienebene als Schutz."
+            },
+            "flag_note": null
+          },
+          "en": {
+            "vignette": "The operative report of an antegrade procedure states: after ligation of the dorsal venous complex, blunt dissection beneath the detrusor apron, then division of the urethra.",
+            "lead_in": "Which structure is preserved by this manoeuvre?",
+            "options": {
+              "A": {
+                "text": "The inner layer of Denonvilliers' fascia",
+                "rationale": "Incorrect. According to Gil-Vernet this corresponds to the vesicoprostatic muscle and lies dorsal to the bladder neck. It is a partner in the posterior, not the anterior, reconstruction."
+              },
+              "B": {
+                "text": "The smooth muscle continuation of the anterior bladder wall",
+                "rationale": "Correct. The detrusor apron is the smooth muscle extension of the anterior bladder wall, is directly connected to the pubic bone and drapes over the anterior prostatic surface, covered by the visceral pelvic fascia. Together with the anterior fibromuscular stroma it belongs to the ventral supporting apparatus. The completely antegrade ultra-preservation technique reported 95.7 per cent continence at twelve months, with R1 in 6.5 per cent of cases below pT3."
+              },
+              "C": {
+                "text": "The striated urethral rhabdosphincter",
+                "rationale": "Incorrect. The rhabdosphincter lies distally and horseshoe-shaped around the membranous urethra. It is spared through the level of urethral division, not through dissection beneath the apron."
+              },
+              "D": {
+                "text": "The anteromedial part of the pubococcygeus muscle",
+                "rationale": "Incorrect. That is the puboperinealis muscle, part of the posterior sling mechanism, which is spared by preserving the levator ani and its fascia."
+              }
+            },
+            "explanation": {
+              "core": "The detrusor apron is a smooth muscle continuation of the anterior bladder wall. Its preservation belongs to the ventral sphincter and support complex.",
+              "teaching_point": "Ventrally, beneath the dorsal venous complex, there is no true prostatic fascia but anterior fibromuscular stroma and the detrusor apron. There is no fascial plane for protection there."
+            },
+            "flag_note": null
+          },
+          "es": {
+            "vignette": "El informe quirúrgico de una intervención anterógrada indica: tras la ligadura del complejo venoso dorsal, disección roma por debajo del delantal del detrusor y después sección de la uretra.",
+            "lead_in": "¿Qué estructura se conserva con esta maniobra?",
+            "options": {
+              "A": {
+                "text": "La capa interna de la fascia de Denonvilliers",
+                "rationale": "Incorrecto. Según Gil-Vernet corresponde al músculo vesicoprostático y se sitúa dorsal al cuello vesical. Participa en la reconstrucción posterior, no en la anterior."
+              },
+              "B": {
+                "text": "La continuación de músculo liso de la pared vesical anterior",
+                "rationale": "Correcto. El delantal del detrusor es la extensión de músculo liso de la pared vesical anterior, mantiene conexión directa con el pubis y se dispone sobre la cara anterior de la próstata, cubierto por la fascia pélvica visceral. Junto con el estroma fibromuscular anterior forma parte del aparato de sostén ventral. Con la técnica de ultrapreservación, completamente anterógrada, se comunicó un 95,7 por ciento de continencia a los doce meses, con R1 en el 6,5 por ciento de los estadios inferiores a pT3."
+              },
+              "C": {
+                "text": "El rabdoesfínter uretral estriado",
+                "rationale": "Incorrecto. El rabdoesfínter se sitúa distalmente, en herradura alrededor de la uretra membranosa. Se preserva por la altura de la sección uretral, no por la disección bajo el delantal."
+              },
+              "D": {
+                "text": "La porción anteromedial del músculo pubococcígeo",
+                "rationale": "Incorrecto. Ese es el músculo puboperineal, parte del mecanismo de cabestrillo posterior, que se respeta conservando el elevador del ano y su fascia."
+              }
+            },
+            "explanation": {
+              "core": "El delantal del detrusor es una continuación de músculo liso de la pared vesical anterior. Su conservación forma parte del aparato esfinteriano y de sostén ventral.",
+              "teaching_point": "Por delante, bajo el complejo venoso dorsal, no existe una verdadera fascia prostática, sino estroma fibromuscular anterior y delantal del detrusor. Allí no hay plano fascial que sirva de protección."
+            },
+            "flag_note": null
+          }
+        }
+      },
+      {
+        "id": "uro-op-00110",
+        "version": 1,
+        "status": "draft",
+        "taxonomy": {
+          "domain": "operativ",
+          "subdomain": "",
+          "tags": []
+        },
+        "type": "single_best_answer",
+        "difficulty_estimated": 4,
+        "options": [
+          {
+            "key": "A",
+            "correct": false
+          },
+          {
+            "key": "B",
+            "correct": false
+          },
+          {
+            "key": "C",
+            "correct": true
+          },
+          {
+            "key": "D",
+            "correct": false
+          }
+        ],
+        "evidence": {
+          "level": "IIA",
+          "certainty": "eingeschraenkt",
+          "flag": true
+        },
+        "sources": [
+          {
+            "type": "artikel",
+            "code": "10.1007/s00120-025-02627-0",
+            "title": "Rassweiler J, Sander S. Operative Techniken zur Verbesserung der Kontinenz nach RALP anhand von videoanatomischen Strukturen. Die Urologie 2025;64:1173-1186",
+            "year": 2025
+          }
+        ],
+        "review": {
+          "author": "EK",
+          "reviewer": null,
+          "created": "2026-09-14",
+          "last_reviewed": "",
+          "expires": "2029-09-14"
+        },
+        "content": {
+          "de": {
+            "vignette": "In der Abteilungsbesprechung wird vorgeschlagen, die posteriore Rekonstruktion regelhaft um eine vordere Verankerung der Anastomose am puboprostatischen Band zu ergänzen.",
+            "lead_in": "Welcher Nutzen dieser vollständigen Rekonstruktion ist am ehesten belegt?",
+            "options": {
+              "A": {
+                "text": "Eine bessere Kontinenz nach 24 Monaten",
+                "rationale": "Falsch. Für diesen Zeitpunkt liegen keine konsistenten Vorteile vor; die Kurven gleichen sich an."
+              },
+              "B": {
+                "text": "Eine niedrigere Rate positiver Schnittränder",
+                "rationale": "Falsch. Rekonstruktive Schritte erfolgen nach Entfernung des Präparats und können den Schnittrand nicht mehr beeinflussen."
+              },
+              "C": {
+                "text": "Eine schnellere Erholung der Kontinenz",
+                "rationale": "Richtig. Die zusätzliche anteriore Rekonstruktion wirkt sich vor allem auf die Frühkontinenz aus: nach sechs Monaten 72,9 gegenüber 51,1 Prozent, während nach einem Jahr kein signifikanter Unterschied mehr bestand, 79,2 gegenüber 66 Prozent. Ziel ist ein engerer vorderer und hinterer vesikourethraler Winkel."
+              },
+              "D": {
+                "text": "Ein geringeres Risiko für eine Anastomoseninsuffizienz",
+                "rationale": "Falsch. Eine Zugentlastung ist plausibel, wurde aber nicht als Endpunkt belegt. Die Studien berichten Kontinenz, nicht Insuffizienzraten."
+              }
+            },
+            "explanation": {
+              "core": "Die vollständige Rekonstruktion beschleunigt die Kontinenzerholung; der Vorteil ist nach einem Jahr meist nicht mehr nachweisbar.",
+              "teaching_point": "Beim transperitonealen Vorgehen lässt sich die vordere Rekonstruktion mit einer Pexie des Blasenperitoneums zur Lymphozelenprophylaxe kombinieren."
+            },
+            "flag_note": "Die Ein-Jahres-Daten sind widersprüchlich: eine Serie fand 86,3 gegenüber 64,7 Prozent zugunsten der kombinierten Rekonstruktion, eine andere keinen signifikanten Unterschied."
+          },
+          "en": {
+            "vignette": "In a departmental meeting it is proposed that the posterior reconstruction should routinely be supplemented by anterior fixation of the anastomosis to the puboprostatic ligament.",
+            "lead_in": "Which benefit of this complete reconstruction is best supported?",
+            "options": {
+              "A": {
+                "text": "Better continence at 24 months",
+                "rationale": "Incorrect. No consistent advantage is available for this time point; the curves converge."
+              },
+              "B": {
+                "text": "A lower rate of positive surgical margins",
+                "rationale": "Incorrect. Reconstructive steps take place after the specimen has been removed and can no longer influence the margin."
+              },
+              "C": {
+                "text": "Faster recovery of continence",
+                "rationale": "Correct. The additional anterior reconstruction mainly affects early continence: 72.9 versus 51.1 per cent at six months, while at one year no significant difference remained, 79.2 versus 66 per cent. The aim is a tighter anterior and posterior vesicourethral angle."
+              },
+              "D": {
+                "text": "A lower risk of anastomotic leakage",
+                "rationale": "Incorrect. Tension relief is plausible but has not been demonstrated as an endpoint. The studies report continence, not leakage rates."
+              }
+            },
+            "explanation": {
+              "core": "Complete reconstruction accelerates recovery of continence; the advantage is usually no longer detectable at one year.",
+              "teaching_point": "In a transperitoneal approach the anterior reconstruction can be combined with a bladder peritoneal flap for lymphocele prophylaxis."
+            },
+            "flag_note": "The one-year data are contradictory: one series found 86.3 versus 64.7 per cent in favour of combined reconstruction, another no significant difference."
+          },
+          "es": {
+            "vignette": "En una sesión del servicio se propone complementar de forma sistemática la reconstrucción posterior con una fijación anterior de la anastomosis al ligamento puboprostático.",
+            "lead_in": "¿Qué beneficio de esta reconstrucción completa está mejor respaldado?",
+            "options": {
+              "A": {
+                "text": "Una mejor continencia a los 24 meses",
+                "rationale": "Incorrecto. Para ese momento no hay ventajas consistentes; las curvas se igualan."
+              },
+              "B": {
+                "text": "Una menor tasa de márgenes quirúrgicos positivos",
+                "rationale": "Incorrecto. Los pasos reconstructivos se realizan tras extraer la pieza y ya no pueden influir en el margen."
+              },
+              "C": {
+                "text": "Una recuperación más rápida de la continencia",
+                "rationale": "Correcto. La reconstrucción anterior añadida influye sobre todo en la continencia precoz: 72,9 frente a 51,1 por ciento a los seis meses, mientras que al año no persistía diferencia significativa, 79,2 frente a 66 por ciento. El objetivo es un ángulo vesicouretral anterior y posterior más cerrado."
+              },
+              "D": {
+                "text": "Un menor riesgo de dehiscencia de la anastomosis",
+                "rationale": "Incorrecto. La descarga de tensión es plausible, pero no se ha demostrado como variable de resultado. Los estudios comunican continencia, no tasas de dehiscencia."
+              }
+            },
+            "explanation": {
+              "core": "La reconstrucción completa acelera la recuperación de la continencia; al año la ventaja ya no suele ser detectable.",
+              "teaching_point": "En el abordaje transperitoneal, la reconstrucción anterior puede combinarse con una pexia del peritoneo vesical para prevenir linfoceles."
+            },
+            "flag_note": "Los datos al año son contradictorios: una serie halló un 86,3 frente a un 64,7 por ciento a favor de la reconstrucción combinada y otra ninguna diferencia significativa."
+          }
+        }
+      }
+    ]
+  }
+}
