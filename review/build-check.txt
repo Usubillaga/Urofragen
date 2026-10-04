@@ -1,6 +1,6 @@
 Four CME modules built in German, English and Spanish.
 
-index.html geschrieben — 1907 KB, Sprachen: de, en, es
+index.html geschrieben — 1899 KB, Sprachen: de, en, es
 257 verfuegbare Lernfragen von 267 in 16 Dateien
 216 Fragen ohne unabhaengige fachaerztliche Freigabe; Verfuegbarkeit ist keine Freigabe.
    139  Uro-Onkologie

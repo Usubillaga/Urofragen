@@ -52,7 +52,6 @@
         "reviewer": null,
         "created": "2026-09-05",
         "last_reviewed": "2026-09-05",
-        "expires": "2028-09-05",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -202,7 +201,6 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": null,
-        "expires": "2028-09-06",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -357,7 +355,6 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": "2026-09-06",
-        "expires": "2028-09-06",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -508,7 +505,6 @@
         "reviewer": null,
         "created": "2026-09-06",
         "last_reviewed": null,
-        "expires": "2028-09-06",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -658,7 +654,6 @@
         "reviewer": null,
         "created": "2026-09-11",
         "last_reviewed": null,
-        "expires": "2027-03-11",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -800,7 +795,6 @@
         "reviewer": null,
         "created": "2026-09-11",
         "last_reviewed": null,
-        "expires": "2027-03-11",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -942,7 +936,6 @@
         "reviewer": null,
         "created": "2026-09-11",
         "last_reviewed": null,
-        "expires": "2027-03-11",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -1084,7 +1077,6 @@
         "reviewer": null,
         "created": "2026-09-11",
         "last_reviewed": null,
-        "expires": "2027-03-11",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -1226,7 +1218,6 @@
         "reviewer": null,
         "created": "2026-09-11",
         "last_reviewed": null,
-        "expires": "2027-03-11",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -1368,7 +1359,6 @@
         "reviewer": null,
         "created": "2026-09-11",
         "last_reviewed": null,
-        "expires": "2027-03-11",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",

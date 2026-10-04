@@ -65,7 +65,6 @@
         "reviewer": "Enrique Alberto Usubillaga Fonseca",
         "created": "2026-09-05",
         "last_reviewed": "2026-09-13",
-        "expires": "2028-09-05",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -91,7 +90,6 @@
         "approval": {
           "reviewer": "Enrique Alberto Usubillaga Fonseca",
           "date": "2026-09-13",
-          "expires": "2028-09-05",
           "languages": [
             "de"
           ],
@@ -258,7 +256,6 @@
         "reviewer": null,
         "created": "2026-09-05",
         "last_reviewed": null,
-        "expires": "2028-09-05",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -546,7 +543,6 @@
         "reviewer": "Enrique Alberto Usubillaga Fonseca",
         "created": "2026-09-06",
         "last_reviewed": "2026-09-13",
-        "expires": "2028-09-06",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -571,7 +567,6 @@
         "approval": {
           "reviewer": "Enrique Alberto Usubillaga Fonseca",
           "date": "2026-09-13",
-          "expires": "2028-09-06",
           "languages": [
             "de"
           ],
@@ -723,7 +718,6 @@
         "reviewer": "Enrique Alberto Usubillaga Fonseca",
         "created": "2026-09-06",
         "last_reviewed": "2026-09-14",
-        "expires": "2028-09-06",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -748,7 +742,6 @@
         "approval": {
           "reviewer": "Enrique Alberto Usubillaga Fonseca",
           "date": "2026-09-14",
-          "expires": "2028-09-06",
           "languages": [
             "de"
           ],
@@ -900,7 +893,6 @@
         "reviewer": "Enrique Alberto Usubillaga Fonseca",
         "created": "2026-09-06",
         "last_reviewed": "2026-09-14",
-        "expires": "2028-09-06",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -925,7 +917,6 @@
         "approval": {
           "reviewer": "Enrique Alberto Usubillaga Fonseca",
           "date": "2026-09-14",
-          "expires": "2028-09-06",
           "languages": [
             "de"
           ],
@@ -1082,7 +1073,6 @@
         "reviewer": "Enrique Alberto Usubillaga Fonseca",
         "created": "2026-09-07",
         "last_reviewed": "2026-09-14",
-        "expires": "2028-09-07",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -1107,7 +1097,6 @@
         "approval": {
           "reviewer": "Enrique Alberto Usubillaga Fonseca",
           "date": "2026-09-14",
-          "expires": "2028-09-07",
           "languages": [
             "de"
           ],
@@ -1268,7 +1257,6 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": null,
-        "expires": "2027-03-31",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -1478,7 +1466,6 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": null,
-        "expires": "2028-09-07",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -1796,7 +1783,6 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": null,
-        "expires": "2028-09-07",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -2090,7 +2076,6 @@
         "reviewer": "Enrique Alberto Usubillaga Fonseca",
         "created": "2026-09-07",
         "last_reviewed": "2026-09-14",
-        "expires": "2028-09-07",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -2115,7 +2100,6 @@
         "approval": {
           "reviewer": "Enrique Alberto Usubillaga Fonseca",
           "date": "2026-09-14",
-          "expires": "2028-09-07",
           "languages": [
             "de"
           ],
@@ -2265,7 +2249,6 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -2415,7 +2398,6 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -2571,7 +2553,6 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -2720,7 +2701,6 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -2869,7 +2849,6 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -3018,7 +2997,6 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -3168,7 +3146,6 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -3317,7 +3294,6 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -3473,7 +3449,6 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -3623,7 +3598,6 @@
         "reviewer": null,
         "created": "2026-09-07",
         "last_reviewed": "2026-09-07",
-        "expires": "2028-09-07",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -3783,7 +3757,6 @@
         "reviewer": null,
         "created": "2026-09-21",
         "last_reviewed": null,
-        "expires": "2027-09-21",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -3957,7 +3930,6 @@
         "reviewer": null,
         "created": "2026-09-21",
         "last_reviewed": null,
-        "expires": "2027-09-21",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -4129,7 +4101,6 @@
         "reviewer": null,
         "created": "2026-09-21",
         "last_reviewed": null,
-        "expires": "2027-09-21",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -4303,7 +4274,6 @@
         "reviewer": null,
         "created": "2026-09-21",
         "last_reviewed": null,
-        "expires": "2027-09-21",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -4470,7 +4440,6 @@
         "reviewer": null,
         "created": "2026-09-21",
         "last_reviewed": null,
-        "expires": "2027-09-21",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -4644,7 +4613,6 @@
         "reviewer": null,
         "created": "2026-09-21",
         "last_reviewed": null,
-        "expires": "2027-09-21",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -4815,7 +4783,6 @@
         "reviewer": null,
         "created": "2026-09-21",
         "last_reviewed": null,
-        "expires": "2027-09-21",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -4990,7 +4957,6 @@
         "reviewer": null,
         "created": "2026-09-21",
         "last_reviewed": null,
-        "expires": "2027-09-21",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -5161,7 +5127,6 @@
         "reviewer": null,
         "created": "2026-09-21",
         "last_reviewed": null,
-        "expires": "2027-03-31",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -5335,7 +5300,6 @@
         "reviewer": null,
         "created": "2026-09-21",
         "last_reviewed": null,
-        "expires": "2027-09-21",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -5506,7 +5470,6 @@
         "reviewer": null,
         "created": "2026-09-21",
         "last_reviewed": null,
-        "expires": "2027-09-21",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -5677,7 +5640,6 @@
         "reviewer": null,
         "created": "2026-09-21",
         "last_reviewed": null,
-        "expires": "2027-09-21",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -5848,7 +5810,6 @@
         "reviewer": null,
         "created": "2026-09-21",
         "last_reviewed": null,
-        "expires": "2027-09-21",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -6019,7 +5980,6 @@
         "reviewer": null,
         "created": "2026-09-21",
         "last_reviewed": null,
-        "expires": "2027-03-31",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -6194,7 +6154,6 @@
         "reviewer": null,
         "created": "2026-09-20",
         "last_reviewed": null,
-        "expires": "2027-09-20",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -6366,7 +6325,6 @@
         "reviewer": null,
         "created": "2026-09-20",
         "last_reviewed": null,
-        "expires": "2027-09-20",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -6537,7 +6495,6 @@
         "reviewer": null,
         "created": "2026-09-20",
         "last_reviewed": null,
-        "expires": "2027-03-31",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -6712,7 +6669,6 @@
         "reviewer": null,
         "created": "2026-09-20",
         "last_reviewed": null,
-        "expires": "2027-09-20",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -6884,7 +6840,6 @@
         "reviewer": null,
         "created": "2026-09-20",
         "last_reviewed": null,
-        "expires": "2027-09-20",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -7056,7 +7011,6 @@
         "reviewer": null,
         "created": "2026-09-20",
         "last_reviewed": null,
-        "expires": "2027-09-20",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -7231,7 +7185,6 @@
         "reviewer": null,
         "created": "2026-09-20",
         "last_reviewed": null,
-        "expires": "2027-03-31",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -7402,7 +7355,6 @@
         "reviewer": null,
         "created": "2026-09-20",
         "last_reviewed": null,
-        "expires": "2027-09-20",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -7573,7 +7525,6 @@
         "reviewer": null,
         "created": "2026-09-20",
         "last_reviewed": null,
-        "expires": "2027-03-31",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -7747,7 +7698,6 @@
         "reviewer": null,
         "created": "2026-09-20",
         "last_reviewed": null,
-        "expires": "2027-09-20",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -7918,7 +7868,6 @@
         "reviewer": null,
         "created": "2026-09-19",
         "last_reviewed": null,
-        "expires": "2027-09-19",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -8089,7 +8038,6 @@
         "reviewer": null,
         "created": "2026-09-19",
         "last_reviewed": null,
-        "expires": "2027-09-19",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -8260,7 +8208,6 @@
         "reviewer": null,
         "created": "2026-09-19",
         "last_reviewed": null,
-        "expires": "2027-09-19",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -8431,7 +8378,6 @@
         "reviewer": null,
         "created": "2026-09-19",
         "last_reviewed": null,
-        "expires": "2027-09-19",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -8594,7 +8540,6 @@
         "reviewer": null,
         "created": "2026-09-19",
         "last_reviewed": null,
-        "expires": "2027-09-19",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -8768,7 +8713,6 @@
         "reviewer": null,
         "created": "2026-09-19",
         "last_reviewed": null,
-        "expires": "2027-03-31",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -8942,7 +8886,6 @@
         "reviewer": null,
         "created": "2026-09-19",
         "last_reviewed": null,
-        "expires": "2027-09-19",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -9113,7 +9056,6 @@
         "reviewer": null,
         "created": "2026-09-19",
         "last_reviewed": null,
-        "expires": "2027-03-31",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false
@@ -9287,7 +9229,6 @@
         "reviewer": null,
         "created": "2026-09-19",
         "last_reviewed": null,
-        "expires": "2027-03-31",
         "clinical_review_status": "pending_independent_review",
         "editorial_review": {
           "clinical_signoff": false

@@ -16,7 +16,7 @@ class Integrity(unittest.TestCase):
         self.q=self.doc['fragen'][0];self.qid=self.q['id']
         freigabe.atomic_json(self.path,self.doc)
     def approve(self):
-        freigabe.entscheiden(self.path,self.doc,self.qid,'TEST ONLY',['de'],'approved','2099-12-31')
+        freigabe.entscheiden(self.path,self.doc,self.qid,'TEST ONLY',['de'],'approved')
         return self.doc['fragen'][0]
     def test_imported_name_is_not_approval(self):
         self.q['review'].update(reviewer='TEST ONLY',clinical_review_status='approved')
@@ -26,8 +26,9 @@ class Integrity(unittest.TestCase):
         q['content']['es']['lead_in']+=' Cambio';self.assertTrue(valid_approval(q))
         q['content']['de']['lead_in']+=' Änderung';self.assertFalse(valid_approval(q))
         q=self.approve();q['version']+=1;self.assertFalse(valid_approval(q))
-    def test_expiry_and_rejection(self):
-        q=self.approve();q['review']['expires']='2000-01-01';self.assertFalse(valid_approval(q))
+    def test_no_expiry_and_rejection(self):
+        q=self.approve();self.assertNotIn('expires',q['review']);self.assertNotIn('expires',q['review']['approval'])
+        self.assertTrue(valid_approval(q,date(2099,12,31)))
         freigabe.entscheiden(self.path,self.doc,self.qid,'TEST ONLY',['de'],'rejected',note='Test')
         q=self.doc['fragen'][0];self.assertFalse(valid_approval(q));self.assertIsNone(q['review']['reviewer']);self.assertEqual(q['status'],'retired')
     def test_atomic_failure_preserves_file_and_memory(self):
@@ -41,7 +42,7 @@ class Integrity(unittest.TestCase):
             freigabe.sync_log({self.path:self.doc});freigabe.sync_log({self.path:self.doc})
         self.assertEqual(len(log.read_text(encoding='utf-8').splitlines()),1)
     def test_eof_preserves_confirmed_decision(self):
-        with patch.object(freigabe,'FRAGEN',Path(self.tmp.name)),patch.object(freigabe,'PROTOKOLL',Path(self.tmp.name)/'log.jsonl'),patch('builtins.print'),patch('builtins.input',side_effect=['j','2099-12-31',EOFError()]):
+        with patch.object(freigabe,'FRAGEN',Path(self.tmp.name)),patch.object(freigabe,'PROTOKOLL',Path(self.tmp.name)/'log.jsonl'),patch('builtins.print'),patch('builtins.input',side_effect=['j',EOFError()]):
             freigabe.main(['--reviewer','TEST ONLY'])
         saved=json.loads(self.path.read_text(encoding='utf-8'))
         self.assertEqual(sum(valid_approval(q) for q in saved['fragen']),1)
@@ -54,7 +55,8 @@ class Integrity(unittest.TestCase):
         qs=[q for d in docs for q in d['fragen']]
         self.assertEqual(len(qs),267);self.assertTrue(all(len(d['fragen'])>=10 for d in docs))
         self.assertTrue(all(set(q['content'])=={'de','en','es'} for q in qs))
-        approved=[q for q in qs if valid_approval(q,date(2026,10,4))]  # release date, not today
+        self.assertFalse(any('expires' in q['review'] or 'expires' in (q['review'].get('approval') or {}) for q in qs))
+        approved=[q for q in qs if valid_approval(q)]
         self.assertEqual(len(approved),51)
         for q in approved:
             self.assertEqual(q['review']['approval']['languages'],['de'])

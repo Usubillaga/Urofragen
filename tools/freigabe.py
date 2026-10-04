@@ -11,6 +11,7 @@ Sprachfassungen. Du bestätigst Lösung, Eindeutigkeit im beschriebenen Fall,
 Begründungen, Quellen und medizinische Zahlenangaben. Die anderen Optionen
 müssen im konkreten Fall nicht die beste Antwort sein, nicht überall falsch.
 Nicht angezeigte Sprachen und andere Fragen sind nicht mitfreigegeben.
+Die Freigabe läuft nicht ab; sie endet erst mit einer neuen Fragenversion.
 Jede Entscheidung wird sofort gespeichert. Kein Name wird voreingetragen.
 '''
 def atomic_json(path,obj):
@@ -46,22 +47,21 @@ def sync_log(dateien):
         os.replace(name,PROTOKOLL)
     finally:
         if os.path.exists(name):os.unlink(name)
-def entscheiden(path,doc,qid,reviewer,languages,decision,expires=None,note=''):
+def entscheiden(path,doc,qid,reviewer,languages,decision,note=''):
     if not reviewer.strip():raise ValueError('Prüfername fehlt.')
     if decision not in {'approved','changes_requested','rejected'}:raise ValueError('Unbekannte Entscheidung.')
     work=copy.deepcopy(doc);q=next(q for q in work['fragen'] if q['id']==qid)
     if not languages or not set(languages)<=set(q['content']):raise ValueError('Ungültiger Sprachumfang.')
     now=date.today().isoformat();r=q.setdefault('review',{})
     if decision=='approved':
-        if not expires or date.fromisoformat(expires)<date.today():raise ValueError('Gültiges Ablaufdatum erforderlich.')
         if r.get('approval'):r.setdefault('approval_history',[]).append(r['approval'])
-        r.update(reviewer=reviewer.strip(),last_reviewed=now,expires=expires,clinical_review_status='approved')
+        r.update(reviewer=reviewer.strip(),last_reviewed=now,clinical_review_status='approved');r.pop('expires',None)
         r.setdefault('editorial_review',{})['clinical_signoff']=True
-        r['approval']={'reviewer':reviewer.strip(),'date':now,'expires':expires,'languages':sorted(languages),'question_version':q['version'],'content_sha256':fingerprint(q,languages),'scope':'Medical correctness of displayed languages; explicit reviewer decision'}
+        r['approval']={'reviewer':reviewer.strip(),'date':now,'languages':sorted(languages),'question_version':q['version'],'content_sha256':fingerprint(q,languages),'scope':'Medical correctness of displayed languages; explicit reviewer decision'}
         r.pop('review_note',None);q['status']='published'
     else:
         invalidate(q,note);r['clinical_review_status']=decision;q['status']='review' if decision=='changes_requested' else 'retired'
-    event={'event_id':str(uuid.uuid4()),'date':now,'question_id':qid,'question_version':q['version'],'reviewer':reviewer.strip(),'languages':sorted(languages),'decision':decision,'expires':expires if decision=='approved' else None,'note':note,'content_sha256':fingerprint(q,languages)}
+    event={'event_id':str(uuid.uuid4()),'date':now,'question_id':qid,'question_version':q['version'],'reviewer':reviewer.strip(),'languages':sorted(languages),'decision':decision,'note':note,'content_sha256':fingerprint(q,languages)}
     r.setdefault('decision_history',[]).append(event)
     atomic_json(path,work)
     doc.clear();doc.update(work)
@@ -80,7 +80,7 @@ def zeige(q,languages):
         print('\nKernaussage: '+b['explanation']['core']);print('Merksatz: '+b['explanation']['teaching_point'])
         if b.get('flag_note'):print('Vorbehalt: '+b['flag_note'])
     for s in q['sources']:print('\nQuelle:',s.get('title',s.get('citation','')),s.get('year',''),s.get('url',''))
-    print('Evidenz:',q.get('evidence'));print('Ablaufdatum:',q['review'].get('expires'));print('Prüffingerabdruck:',fingerprint(q,languages))
+    print('Evidenz:',q.get('evidence'));print('Prüffingerabdruck:',fingerprint(q,languages))
 def main(argv=None):
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--reviewer');p.add_argument('--gebiet');p.add_argument('--id');p.add_argument('--limit',type=int,default=0)
@@ -95,7 +95,7 @@ def main(argv=None):
     if not tasks:print('Keine passenden offenen Fragen. Filter und Prüfstand kontrollieren.');return
     def priority(item):
         path,qid=item;q=next(q for q in docs[path]['fragen'] if q['id']==qid)
-        return (not q['evidence'].get('flag'),not bool({'dosierung','zulassung'}&set(q['taxonomy'].get('tags',[]))),q['review'].get('expires','9999'),qid)
+        return (not q['evidence'].get('flag'),not bool({'dosierung','zulassung'}&set(q['taxonomy'].get('tags',[]))),qid)
     tasks.sort(key=priority);sync_log(docs);print(UMFANG);print('Prüfer:',args.reviewer,'· Sprachen:',','.join(langs));saved=0
     try:
         for path,qid in tasks:
@@ -106,19 +106,13 @@ def main(argv=None):
                 if answer in {'j','ä','ae','n','s','b'}:break
             if answer=='b':break
             if answer=='s':continue
-            note='';expires=None
+            note=''
             if answer=='j':
-                while True:
-                    default=q['review'].get('expires','');expires=input('Freigabe gültig bis YYYY-MM-DD ['+default+']: ').strip() or default
-                    try:
-                        if date.fromisoformat(expires)>=date.today():break
-                    except ValueError:pass
-                    print('Bitte ein gültiges Datum ab heute eingeben.')
                 decision='approved'
             else:
                 decision='changes_requested' if answer in {'ä','ae'} else 'rejected'
                 while not note:note=input('Begründung: ').strip()
-            entscheiden(path,docs[path],qid,args.reviewer,langs,decision,expires,note);saved+=1;sync_log(docs);print('Entscheidung gespeichert.')
+            entscheiden(path,docs[path],qid,args.reviewer,langs,decision,note);saved+=1;sync_log(docs);print('Entscheidung gespeichert.')
     except (KeyboardInterrupt,EOFError):print('\nAbgebrochen. Alle zuvor bestätigten Entscheidungen sind gespeichert.')
     stand(docs)
 if __name__=='__main__':

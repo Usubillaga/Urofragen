@@ -28,7 +28,7 @@ def prepare(paths,root=ROOT):
             old=copy.deepcopy(q);version=q['version'];signed=valid_approval(q)
             for field in ['options','evidence','sources','content']:q[field]=copy.deepcopy(rep[field])
             q['version']=version+1;invalidate(q,'Neue Seminom-IIA/B-Fassung; erneute fachärztliche Prüfung erforderlich.')
-            q['review']['expires']=rep['review_expires']
+            q['review'].pop('expires',None)
             q['review']['revision']={'date':report['date'],'based_on_version':version,'reason':'Seminom IIA/B: Stellenwert der primären RLA aktualisiert.','requires_review':True}
             q['import_record']={'source_key':token,'block_sha256':digest,'source_id':sourceid}
             report['replaced'].append({'id':sourceid,'old_version':version,'new_version':q['version'],'old_approval':signed,'previous_question':old})
@@ -43,7 +43,7 @@ def prepare(paths,root=ROOT):
                 n=max([int(x[len(prefix):]) for x in allids if x.startswith(prefix) and x[len(prefix):].isdigit()]+[0])+1
                 q['id']=prefix+str(n).zfill(5)
             q['taxonomy']['domain']=domain;tags.update(q['taxonomy'].get('tags',[]))
-            invalidate(q,'Neu importiert; fachärztliche Prüfung ausstehend.')
+            invalidate(q,'Neu importiert; fachärztliche Prüfung ausstehend.');q['review'].pop('expires',None)
             q['status']='published'
             q['review']['revision']={'date':report['date'],'reason':'Neue Frage: '+block.get('titel',path.stem),'requires_review':True}
             q['import_record']={'source_key':token,'block_sha256':digest,'source_id':sourceid}

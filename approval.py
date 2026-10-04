@@ -1,4 +1,5 @@
-"""Content-bound review records; not identity verification or a digital signature."""
+"""Content-bound review records; not identity verification or a digital signature.
+Approvals have no expiry date; a new question version or changed content ends them."""
 import hashlib,json
 from datetime import date
 def fingerprint(q,languages):
@@ -8,7 +9,7 @@ def fingerprint(q,languages):
 def valid_approval(q,today=None):
     r=q.get('review') or {};a=r.get('approval') or {};langs=a.get('languages')
     try:
-        return bool(r.get('reviewer') and r.get('clinical_review_status')=='approved' and a.get('reviewer')==r['reviewer'] and a.get('question_version')==q.get('version') and isinstance(langs,list) and langs and len(set(langs))==len(langs) and all(lc in q.get('content',{}) for lc in langs) and date.fromisoformat(r['last_reviewed']) <= (today or date.today()) <= date.fromisoformat(r['expires']) and a.get('expires')==r['expires'] and a.get('date')==r['last_reviewed'] and a.get('content_sha256')==fingerprint(q,langs))
+        return bool(r.get('reviewer') and r.get('clinical_review_status')=='approved' and a.get('reviewer')==r['reviewer'] and a.get('question_version')==q.get('version') and isinstance(langs,list) and langs and len(set(langs))==len(langs) and all(lc in q.get('content',{}) for lc in langs) and date.fromisoformat(r['last_reviewed']) <= (today or date.today()) and a.get('date')==r['last_reviewed'] and a.get('content_sha256')==fingerprint(q,langs))
     except (KeyError,TypeError,ValueError):return False
 def invalidate(q,reason):
     r=q.setdefault('review',{})
