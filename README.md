@@ -68,7 +68,7 @@ Die betroffenen Fragen vorher erneut fachärztlich prüfen und `review.expires` 
 
 ## Automatische Prüfung
 
-Bei jedem Push und Pull Request führt GitHub Actions `.github/workflows/pruefung.yml` aus: Neuaufbau, Abgleich der hochgeladenen HTML- und `assets`-Dateien mit den Quelldaten, alle Python- und Node-Tests sowie die Browsertests mit Chromium. Ein rotes Kreuz am Commit bedeutet meist: Fragen, Übersetzungen oder Vorlagen geändert, aber die mit `python build.py` erzeugten Dateien nicht mit hochgeladen. Lokal:
+Bei jedem Push auf `main` und bei jedem Pull Request führt GitHub Actions `.github/workflows/pruefung.yml` aus: Neuaufbau, Abgleich der hochgeladenen HTML- und `assets`-Dateien mit den Quelldaten, alle Python- und Node-Tests sowie die Browsertests mit Chromium. Ein rotes Kreuz am Commit bedeutet meist: Fragen, Übersetzungen oder Vorlagen geändert, aber die mit `python build.py` erzeugten Dateien nicht mit hochgeladen. Lokal:
 
 ```text
 python tools/check_generated.py
