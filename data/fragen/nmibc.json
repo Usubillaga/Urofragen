@@ -69,7 +69,6 @@
         "reviewer": "Enrique Alberto Usubillaga Fonseca",
         "created": "2026-09-02",
         "last_reviewed": "2026-09-13",
-        "expires": "2027-09-02",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -94,7 +93,6 @@
         "approval": {
           "reviewer": "Enrique Alberto Usubillaga Fonseca",
           "date": "2026-09-13",
-          "expires": "2027-09-02",
           "languages": [
             "de"
           ],
@@ -255,7 +253,6 @@
         "reviewer": "Enrique Alberto Usubillaga Fonseca",
         "created": "2026-09-05",
         "last_reviewed": "2026-09-13",
-        "expires": "2028-09-05",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -280,7 +277,6 @@
         "approval": {
           "reviewer": "Enrique Alberto Usubillaga Fonseca",
           "date": "2026-09-13",
-          "expires": "2028-09-05",
           "languages": [
             "de"
           ],
@@ -430,7 +426,6 @@
         "reviewer": "Enrique Alberto Usubillaga Fonseca",
         "created": "2026-09-11",
         "last_reviewed": "2026-09-13",
-        "expires": "2027-03-11",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -455,7 +450,6 @@
         "approval": {
           "reviewer": "Enrique Alberto Usubillaga Fonseca",
           "date": "2026-09-13",
-          "expires": "2027-03-11",
           "languages": [
             "de"
           ],
@@ -598,7 +592,6 @@
         "reviewer": "Enrique Alberto Usubillaga Fonseca",
         "created": "2026-09-11",
         "last_reviewed": "2026-09-13",
-        "expires": "2027-03-11",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -623,7 +616,6 @@
         "approval": {
           "reviewer": "Enrique Alberto Usubillaga Fonseca",
           "date": "2026-09-13",
-          "expires": "2027-03-11",
           "languages": [
             "de"
           ],
@@ -766,7 +758,6 @@
         "reviewer": "Enrique Alberto Usubillaga Fonseca",
         "created": "2026-09-11",
         "last_reviewed": "2026-09-13",
-        "expires": "2027-03-11",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -791,7 +782,6 @@
         "approval": {
           "reviewer": "Enrique Alberto Usubillaga Fonseca",
           "date": "2026-09-13",
-          "expires": "2027-03-11",
           "languages": [
             "de"
           ],
@@ -934,7 +924,6 @@
         "reviewer": "Enrique Alberto Usubillaga Fonseca",
         "created": "2026-09-11",
         "last_reviewed": "2026-09-13",
-        "expires": "2027-03-11",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -959,7 +948,6 @@
         "approval": {
           "reviewer": "Enrique Alberto Usubillaga Fonseca",
           "date": "2026-09-13",
-          "expires": "2027-03-11",
           "languages": [
             "de"
           ],
@@ -1102,7 +1090,6 @@
         "reviewer": "Enrique Alberto Usubillaga Fonseca",
         "created": "2026-09-11",
         "last_reviewed": "2026-09-13",
-        "expires": "2027-03-11",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -1127,7 +1114,6 @@
         "approval": {
           "reviewer": "Enrique Alberto Usubillaga Fonseca",
           "date": "2026-09-13",
-          "expires": "2027-03-11",
           "languages": [
             "de"
           ],
@@ -1270,7 +1256,6 @@
         "reviewer": "Enrique Alberto Usubillaga Fonseca",
         "created": "2026-09-11",
         "last_reviewed": "2026-09-13",
-        "expires": "2027-03-11",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -1295,7 +1280,6 @@
         "approval": {
           "reviewer": "Enrique Alberto Usubillaga Fonseca",
           "date": "2026-09-13",
-          "expires": "2027-03-11",
           "languages": [
             "de"
           ],
@@ -1438,7 +1422,6 @@
         "reviewer": "Enrique Alberto Usubillaga Fonseca",
         "created": "2026-09-11",
         "last_reviewed": "2026-09-13",
-        "expires": "2027-03-11",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
@@ -1463,7 +1446,6 @@
         "approval": {
           "reviewer": "Enrique Alberto Usubillaga Fonseca",
           "date": "2026-09-13",
-          "expires": "2027-03-11",
           "languages": [
             "de"
           ],
@@ -1612,7 +1594,6 @@
         "reviewer": null,
         "created": "2026-09-11",
         "last_reviewed": null,
-        "expires": "2027-03-11",
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",

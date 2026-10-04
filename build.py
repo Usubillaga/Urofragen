@@ -7,7 +7,7 @@ eine einzelne index.html.
     python3 build.py
 
 Pro Gebiet eine Datei unter data/fragen/, benannt wie der Slug in domains.json.
-Richtigkeit, Quellen und Ablaufdatum existieren pro Frage genau einmal,
+Richtigkeit und Quellen existieren pro Frage genau einmal,
 uebersetzt werden nur die Texte unter "content".
 
 Keine Bibliotheken noetig, Python 3.8 oder neuer.
@@ -15,7 +15,7 @@ Keine Bibliotheken noetig, Python 3.8 oder neuer.
 
 import json
 import sys
-from datetime import date, timedelta
+from datetime import date
 from pathlib import Path
 from quality import issues as quality_issues
 from quality import corpus_issues as quality_corpus_issues
@@ -45,7 +45,7 @@ def load(path):
     return None
 
 
-def check(q, slug, tags, languages, seen, today, soon, length_cue, longest_correct, coverage):
+def check(q, slug, tags, languages, seen, length_cue, longest_correct, coverage):
     qid = q.get("id") or "(ohne id)"
 
     def bad(msg):
@@ -148,23 +148,13 @@ def check(q, slug, tags, languages, seen, today, soon, length_cue, longest_corre
                 warnings.append(
                     f"{qid} [{lc}]: richtige Option ist die laengste ({lengths[ck]/avg:.2f}x)")
 
+    if not isinstance(q.get("review"), dict):
+        bad("review fehlt (Pflichtfeld)")
     review = q.get("review") or {}
-    expires = review.get("expires")
-    live = False
-    if not expires:
-        bad("review.expires fehlt (Pflichtfeld)")
-    else:
-        try:
-            d = date.fromisoformat(expires)
-        except ValueError:
-            bad(f"review.expires \"{expires}\" ist kein gueltiges Datum")
-        else:
-            if d < today:
-                warnings.append(f"{qid}: abgelaufen am {expires}, wird nicht ausgeliefert")
-            else:
-                if d < soon:
-                    warnings.append(f"{qid}: laeuft am {expires} ab")
-                live = q.get("status") == "published"
+    # Fragen und Freigaben laufen nicht ab; veroeffentlicht heisst ausgeliefert.
+    if "expires" in review or "expires" in (review.get("approval") or {}):
+        warnings.append(f"{qid}: Ablaufdatum wird nicht mehr verwendet und kann entfernt werden")
+    live = q.get("status") == "published"
 
     if q.get("status") == "published" and not valid_approval(q):
         warnings.append(f"{qid}: fachärztliche Freigabe ausstehend")
@@ -199,7 +189,6 @@ def main():
     domains = {d["slug"] for d in config["domains"]}
     tags = set(config.get("tags", []))
     today = date.today()
-    soon = today + timedelta(days=90)
     seen = set()
     counts = {slug: 0 for slug in domains}
     length_cue = []
@@ -235,7 +224,7 @@ def main():
         for q in doc.get("fragen", []) or []:
             q.setdefault("taxonomy", {})["domain"] = slug
             questions.append(q)
-            if check(q, slug, tags, languages, seen, today, soon, length_cue, longest_correct, coverage):
+            if check(q, slug, tags, languages, seen, length_cue, longest_correct, coverage):
                 counts[slug] += 1
 
     minimum = config.get('min_questions_per_domain', 10)
@@ -548,9 +537,8 @@ STORE_JS = r'''(function () {
   function LocalProgressStore() {
     this.state = this._load();
     var versions = {};
-    var today = new Date(), day = today.getFullYear() + '-' + String(today.getMonth()+1).padStart(2,'0') + '-' + String(today.getDate()).padStart(2,'0');
     window.QUESTION_BANK.questions.forEach(function (q) {
-      if(q.status === 'published' && q.review && q.review.expires >= day) versions[q.id] = q.version;
+      if(q.status === 'published') versions[q.id] = q.version;
     });
     Object.keys(this.state.answers).forEach(function (id) {
       var a = this.state.answers[id];
@@ -845,11 +833,7 @@ APP_JS = r'''(function () {
   }
 
   function isLive(q) {
-    if (q.status !== 'published') return false;
-    var e = q.review && q.review.expires;
-    var now = new Date();
-    var today = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0');
-    return e ? e >= today : false;
+    return q.status === 'published';
   }
 
   /* Sprachabhängige Textfelder. Fällt auf Deutsch zurück, falls eine Übersetzung fehlt. */
@@ -1379,8 +1363,7 @@ APP_JS = r'''(function () {
   }
   function approvalLine(q) {
     var r = q.review || {}, a = r.approval || {};
-    var today = new Date().toISOString().slice(0,10);
-    return r.approval_valid === true && (a.languages || []).indexOf(lang) >= 0 && r.expires >= today
+    return r.approval_valid === true && (a.languages || []).indexOf(lang) >= 0
       ? UI[lang].reviewed + ': ' + r.last_reviewed + ' · ' + r.reviewer + ' · ' + a.languages.join(', ').toUpperCase()
       : UI[lang].unreviewed;
   }

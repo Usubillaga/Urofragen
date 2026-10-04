@@ -53,18 +53,9 @@ python build.py
 
 Ohne `--apply` nur Vorschau. Wiederholtes Einspielen erzeugt keine Duplikate. Ein fehlgeschlagener Aufbau stellt Fragendateien und HTML-Ausgaben wieder her. Veränderte Quelldateien bereits importierter Blöcke verlangen einen ausdrücklichen Abgleich statt stillen Überschreibens.
 
-## Ablauf der Prüfdaten
+## Keine Ablaufdaten
 
-Fragen mit überschrittenem `review.expires` blendet die veröffentlichte Seite ab diesem Tag selbst aus, auch ohne Neuaufbau. `python build.py` warnt 90 Tage vorher und bricht ab, sobald ein Gebiet unter 10 aktive Fragen fällt. Stand 04.10.2026:
-
-| ab | ausgeblendet | Gebiete unter 10 Fragen |
-| --- | ---: | --- |
-| 03.03.2027 | 1 | Urolithiasis |
-| 12.03.2027 | 28 | MIBC, NMIBC, Peniskarzinom, Urolithiasis |
-| 01.04.2027 | 40 | MIBC, NMIBC, Peniskarzinom, Urolithiasis |
-| 22.09.2027 | 85 | MIBC, NMIBC, Peniskarzinom, Urolithiasis |
-
-Die betroffenen Fragen vorher erneut fachärztlich prüfen und `review.expires` verlängern.
+Seit dem 04.10.2026 haben Fragen und fachärztliche Freigaben kein Ablaufdatum mehr. Veröffentlichte Fragen bleiben dauerhaft sichtbar, und `python build.py` scheitert nicht mehr an Ablaufdaten. Eine Freigabe gilt unbefristet für die geprüfte Fragenversion und Sprache; sie endet nur, wenn sich Version oder Inhalt der Frage ändern. Nach einem Leitlinien-Update markiert die Seite betroffene Fragen deshalb nicht mehr von selbst als ungeprüft: Diese Fragen aktiv überarbeiten (neue Version) oder erneut prüfen. Frühere Ablaufdaten bleiben in Freigabe-Historie und Importbericht zur Nachvollziehbarkeit erhalten.
 
 ## Automatische Prüfung
 
