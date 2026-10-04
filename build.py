@@ -148,6 +148,8 @@ def check(q, slug, tags, languages, seen, length_cue, longest_correct, coverage)
                 warnings.append(
                     f"{qid} [{lc}]: richtige Option ist die laengste ({lengths[ck]/avg:.2f}x)")
 
+    if not isinstance(q.get("review"), dict):
+        bad("review fehlt (Pflichtfeld)")
     review = q.get("review") or {}
     # Fragen und Freigaben laufen nicht ab; veroeffentlicht heisst ausgeliefert.
     if "expires" in review or "expires" in (review.get("approval") or {}):

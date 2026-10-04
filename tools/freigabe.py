@@ -11,7 +11,7 @@ Sprachfassungen. Du bestätigst Lösung, Eindeutigkeit im beschriebenen Fall,
 Begründungen, Quellen und medizinische Zahlenangaben. Die anderen Optionen
 müssen im konkreten Fall nicht die beste Antwort sein, nicht überall falsch.
 Nicht angezeigte Sprachen und andere Fragen sind nicht mitfreigegeben.
-Die Freigabe läuft nicht ab; sie endet erst mit einer neuen Fragenversion.
+Die Freigabe läuft nicht ab; sie endet erst, wenn sich Version oder Inhalt der Frage ändern.
 Jede Entscheidung wird sofort gespeichert. Kein Name wird voreingetragen.
 '''
 def atomic_json(path,obj):
