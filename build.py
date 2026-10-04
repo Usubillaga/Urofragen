@@ -28,7 +28,7 @@ FRAGEN = DATA / "fragen" if DATA != ROOT else ROOT
 OUT = ROOT / "index.html"
 
 STATUS = {"draft", "review", "published", "retired", "expired"}
-CERTAINTY = {"etabliert", "kontrovers", "ohne_phase_III", "expertenkonsens"}
+CERTAINTY = {"etabliert", "kontrovers", "ohne_phase_III", "expertenkonsens", "eingeschraenkt"}
 
 errors = []
 warnings = []
@@ -664,7 +664,7 @@ APP_JS = r'''(function () {
       title: 'Facharztfragen Urologie',
       section: 'Abschnitt', version: 'Version', reviewed: 'Fachärztliche Freigabe',
       unreviewed: 'Fachärztliche Freigabe ausstehend',
-      certainty: { etabliert: 'etabliert', kontrovers: 'kontrovers', ohne_phase_III: 'ohne Phase-III-Bestätigung', expertenkonsens: 'Expertenkonsens' },
+      certainty: { etabliert: 'etabliert', kontrovers: 'kontrovers', ohne_phase_III: 'ohne Phase-III-Bestätigung', expertenkonsens: 'Expertenkonsens', eingeschraenkt: 'eingeschränkte Evidenz' },
       intro: 'Fallbasierte Fragen auf Facharztniveau. Jede Antwortoption ist begründet, jede Frage nennt ihre Quelle und ihr Überprüfungsdatum. Der Lernfortschritt bleibt in diesem Browser.',
       inventory: function (n, d) { return n + ' Fragen in ' + d + ' Gebieten'; },
       questions: 'Fragen',
@@ -702,7 +702,7 @@ APP_JS = r'''(function () {
       title: 'Urology Board Questions',
       section: 'Section', version: 'Version', reviewed: 'Clinical approval',
       unreviewed: 'Clinical approval pending',
-      certainty: { etabliert: 'established', kontrovers: 'controversial', ohne_phase_III: 'without phase III confirmation', expertenkonsens: 'expert consensus' },
+      certainty: { etabliert: 'established', kontrovers: 'controversial', ohne_phase_III: 'without phase III confirmation', expertenkonsens: 'expert consensus', eingeschraenkt: 'limited evidence' },
       intro: 'Case-based questions at board level. Every answer option is explained, every question states its source and review date. Your progress stays in this browser.',
       inventory: function (n, d) { return n + ' questions across ' + d + ' areas'; },
       questions: 'questions',
@@ -740,7 +740,7 @@ APP_JS = r'''(function () {
       title: 'Preguntas de especialidad en Urología',
       section: 'Sección', version: 'Versión', reviewed: 'Aprobación clínica',
       unreviewed: 'Aprobación clínica pendiente',
-      certainty: { etabliert: 'establecida', kontrovers: 'controvertida', ohne_phase_III: 'sin confirmación en fase III', expertenkonsens: 'consenso de expertos' },
+      certainty: { etabliert: 'establecida', kontrovers: 'controvertida', ohne_phase_III: 'sin confirmación en fase III', expertenkonsens: 'consenso de expertos', eingeschraenkt: 'evidencia limitada' },
       intro: 'Preguntas basadas en casos, de nivel de especialista. Cada opción lleva su justificación y cada pregunta indica su fuente y su fecha de revisión. El progreso queda en este navegador.',
       inventory: function (n, d) { return n + ' preguntas en ' + d + ' áreas'; },
       questions: 'preguntas',
@@ -980,6 +980,9 @@ APP_JS = r'''(function () {
       var reviewLink = el('a', 'btn ghost', {de:'✓ Fragen fachlich prüfen',en:'✓ Review questions',es:'✓ Revisar preguntas'}[lang]);
       reviewLink.href = 'pruefung.html';
       root.appendChild(reviewLink);
+      var cmeLink = el('a','btn ghost',{de:'CME: Seminom IIA/B (Deutsch)',en:'CME: stage IIA/B seminoma (German)',es:'CME: seminoma IIA/B (alemán)'}[lang]);
+      cmeLink.href='cme-seminom-IIAB.html';
+      root.appendChild(cmeLink);
       root.appendChild(learningDashboard(progress));
       root.appendChild(el('p','domain-hint',LEARNING[lang].adaptive));
 

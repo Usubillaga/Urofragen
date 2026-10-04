@@ -1,53 +1,59 @@
-# Urofragen – zusammengeführte Arbeitsfassung
+# Urofragen – Aktualisierung 04.10.2026
 
-Stand: 12. September 2026. Zum Öffnen: `index.html`.
+Die ZIP enthält die komplette Website und alle zum erneuten Aufbau benötigten Projektdateien. Die fertigen HTML-Dateien können direkt hochgeladen werden; Python wird auf GitHub Pages nicht benötigt.
 
-214 Lernfragen in 16 Abschnitten, vollständig auf Deutsch, Englisch und Spanisch. Jeder Abschnitt enthält mindestens 10 Fragen; NMIBC und MIBC jeweils 10. Die vorhandene adaptive Fragenauswahl und Auswertung mit Stärken, Schwächen und bearbeiteten Fragen wurden übernommen.
+## Inhalt
 
-## Freigabestand
+- 257 verfügbare Lernfragen in 16 Abschnitten, jeweils Deutsch, Englisch und Spanisch.
+- 43 neue Fragen: 9 Seminom IIA/B, 10 Hodentumor-Nachsorge, 14 Schwerpunktheft Teil 3, 10 Salvage-Operationen.
+- Hodentumor jetzt 53, Operative Urologie 30 verfügbare Fragen. NMIBC und MIBC weiterhin jeweils 10.
+- 10 zusätzliche dreisprachige OP-Entwürfe aus dem bestehenden Repository erhalten; im Prüfmodus verfügbar, im Lernmodus nicht ausgeliefert. Insgesamt 267 Datensätze.
+- `uro-hod-00007` ersetzt und versioniert. Die alte Freigabe ist im Verlauf erhalten; die neue Fassung muss erneut geprüft werden. 51 übrige deutsche Freigaben unverändert erhalten.
+- Alle neuen Fragen ohne fachärztliche Freigabe. Es wurde keine pauschale Freigabe aus Autorennamen oder Dateiinhalten abgeleitet.
+- `cme-seminom-IIAB.html`: mitgelieferte eigenständige CME-Lerneinheit auf Deutsch, von der Startseite verlinkt. Ihre separate Auswertung wird nicht mit dem Urofragen-Lernkonto zusammengeführt. Die integrierten Fragenblöcke sind vollständig dreisprachig.
 
-Stand 14. September 2026: **52 von 214 Fragen sind in der deutschen Fassung fachärztlich freigegeben.** 13 Fragen wurden nach deinen Kommentaren überarbeitet und benötigen erneut deine Prüfung. 149 weitere Fragen hatten noch keine Entscheidung. Für Englisch und Spanisch liegt noch keine Freigabe vor.
+## Hochladen
 
-Die Importdatei und der versionsbezogene Verlauf sind unter `review/` und in den Fragendaten dokumentiert. Einzelheiten stehen in `KORREKTUREN-2026-09-14.md`. Die ursprünglichen Entscheidungen gelten für die geprüften Versionen, nicht automatisch für spätere Änderungen.
+ZIP entpacken. **Den Inhalt**, nicht die ZIP und nicht den äußeren Ordner, in den bisherigen Website-Ordner des Repositorys `Usubillaga/Urofragen` hochladen. Vorhandene gleichnamige Dateien durch diese zusammengehörige Fassung ersetzen.
 
-## Änderungen
+Diese drei Dateien müssen nebeneinander liegen:
 
-- Beide gelieferten Dateistände zusammengeführt. Das separate Hodentumor-JSON stimmt mit dem neueren Import überein.
-- Elf importierte Änderungen an Begründungen mit neuen Fragenversionen versehen.
-- Zwei Hodentumor-Fragen fachlich und sprachlich korrigiert: unpassende Rezidivzahl entfernt, Bildgebung in der Surveillance ergänzt, absolute Aussagen über adjuvantes BEP korrigiert. Quellen: [EAU Behandlung](https://uroweb.org/guidelines/testicular-cancer/chapter/disease-management), [EAU Nachsorge](https://uroweb.org/guidelines/testicular-cancer/chapter/followup-after-curative-therapy).
-- Freigaben werden erst nach ausdrücklicher Entscheidung gespeichert und an Name, Datum, Ablaufdatum, Version und ausgewählte Sprachen gebunden. Ein Textvergleich über einen Prüffingerabdruck erkennt nachträgliche Änderungen. Das ist keine Identitätsprüfung oder digitale Signatur.
-- Jede Entscheidung wird unmittelbar gespeichert. Ein Abbruch verliert bereits bestätigte Entscheidungen nicht. Das Protokoll lässt sich aus gespeicherten Entscheidungen wiederherstellen.
-- Website und Druckansicht zeigen einen bloßen Prüfernamen nicht mehr als gültige Freigabe an. Eine deutsche Freigabe gilt nicht automatisch für Spanisch oder Englisch.
-- Das Kürzungswerkzeug zeigt standardmäßig nur eine Vorschau, bewahrt einzigartige Folgesätze und hebt nach einer Änderung die alte Freigabe auf.
+- `index.html` – Lernwebsite
+- `pruefung.html` – fachärztliche Prüfung
+- `cme-seminom-IIAB.html` – CME-Lerneinheit
 
-## Eigene fachärztliche Prüfung
+Die Ordner `data`, `tools`, `review` und `updates` sowie die Python-Dateien gehören zum vollständigen Projekt. Die bisherige GitHub-Pages-Konfiguration bleibt verwendbar. Diese Fassung wurde nur lokal vorbereitet, nicht in das Repository geschrieben.
 
-Am einfachsten: **`pruefung.html` öffnen**, oben den eigenen Namen, Sprache und Abschnitt wählen. Unter jeder Frage **✓ Fachlich korrekt** oder **✗ Korrektur nötig** anklicken. Bei ✗ eine kurze Fehlerbeschreibung eintragen. Entscheidungen lassen sich zurücknehmen. Mit „Weiter“ zur nächsten Frage gehen.
+## Weiterprüfen und Verlauf
 
-Nach jeder Sitzung **„Prüfungen als Datei sichern“** anklicken. Diese JSON-Datei enthält die Entscheidungen mit Name, Version, Sprache und Datum. Sie kann später über „Gesicherte Prüfungen laden“ wieder eingelesen oder zur Übernahme in die Fragendaten weitergegeben werden. Die Website selbst erhält durch das Anklicken noch keine veröffentlichte Freigabe. Die lokale Speicherung gilt nur für den verwendeten Browser und die jeweilige Adresse; die exportierte Datei dient zur Sicherung und Übertragung.
+Im Prüfmodus den Filter **„Neu oder überarbeitet – prüfen“** wählen. Er enthält die 44 neuen/geänderten Fragen dieses Updates und die 13 noch offenen Überarbeitungen aus September. Die anderen 51 deutschen Freigaben bleiben gültig. Englisch und Spanisch sind separat freizugeben.
 
-Der Prüfmodus wurde im Browser auf Deutsch und Spanisch angesehen. Die isolierten Funktionstests prüfen Pflichtfelder, Korrektur, Freigabe, Ablaufdatum, getrennte Sprachen, Rücknahme, Speicherfehler, Export, Wiederherstellung und geänderte Versionen. Dabei wurden keine tatsächlichen Fragen freigegeben.
+Nach jeder Sitzung „Prüfungen als Datei sichern“ verwenden. Browserdaten sind nicht automatisch mit GitHub synchronisiert. Bei einem öffentlichen Repository sind die enthaltenen Prüfernamen und Kommentare öffentlich einsehbar.
 
-Alternativ über das bisherige Prüfwerkzeug:
+## Technische Wiederherstellung
 
-Im Projektordner mit installiertem Python:
+Im heruntergeladenen GitHub-Stand fehlten `approval.py` und `quality.py`; diese wurden wiederhergestellt. Die Gebietsdatei `operativ.json` enthielt nur 10 neue Entwürfe in einem anderen Format. Die 20 zuvor vorhandenen OP-Fragen wurden aus der ausgelieferten Website rekonstruiert und zusammen mit den Entwürfen in das unterstützte Format überführt.
+
+Die beiden Heft-3-Dateien waren bytegleich und wurden nur einmal importiert. Salvage-IDs `uro-sal-90001` bis `uro-sal-90010` sind im vorhandenen operativen Bereich auf `uro-ope-00021` bis `uro-ope-00030` abgebildet. Die ursprünglichen IDs stehen in `import_record` und im Importbericht.
+
+Das mitgelieferte ursprüngliche Merge-Skript unterstützte mehrere Gebiete nicht gemeinsam und entfernte vorhandene Freigabefelder nicht ausdrücklich. Es liegt unverändert unter `updates/2026-10-04/` zur Nachvollziehbarkeit. Für künftige Wiederholungen das neue Skript im Projektstamm verwenden:
 
 ```text
-python tools/freigabe.py --stand
-python tools/freigabe.py --reviewer "Eigener vollständiger Name" --gebiet mibc --sprachen de --limit 10
+python merge-fragen.py
+python merge-fragen.py --apply
 python build.py
 ```
 
-Das Werkzeug zeigt die Frage, alle Antworten und Begründungen, Quellen und Merksätze. Erst `j` und das bestätigte Ablaufdatum erteilen die Freigabe. `ä` fordert Änderungen an, `n` lehnt ab, `s` überspringt, `b` beendet. Für eine bestimmte Frage `--id uro-mib-00004` verwenden. Für die gemeinsame Prüfung aller Fassungen `--sprachen de,en,es` wählen. Eine erneute Freigabe ersetzt den aktuellen Sprachumfang; die vorherige bleibt im Verlauf dokumentiert.
+Ohne `--apply` nur Vorschau. Wiederholtes Einspielen erzeugt keine Duplikate. Ein fehlgeschlagener Aufbau stellt Fragendateien und HTML-Ausgaben wieder her. Veränderte Quelldateien bereits importierter Blöcke verlangen einen ausdrücklichen Abgleich statt stillen Überschreibens.
 
-Nach jeder Freigabe oder Textänderung `build.py` ausführen, damit die Website den neuen Stand enthält. Abgelehnte Fragen werden nicht als aktive Lernfragen ausgeliefert. Sinkt ein Abschnitt dadurch unter 10, verlangt der Aufbau Ersatzfragen.
+## Prüfung
 
-## Geprüft und noch offen
+Aufbau erfolgreich; fünf Importtests, acht Freigabe-/Speichertests, fünf Anzeigeprüfungen und die isolierten Prüfmodus-Tests bestanden. JavaScript-Syntax aller drei HTML-Dateien geprüft. Keine vollständige visuelle Browserprüfung in diesem Durchgang.
 
-Der Aufbau ist erfolgreich. Acht Regressionstests für Freigaben und Speichern sowie fünf Prüfungen der sprachabhängigen Anzeige bestehen. Die JavaScript-Syntax wurde geprüft. Die technische Prüfung ersetzt keine fachärztliche Freigabe.
+Die gelieferten medizinischen Fragen wurden inhaltlich übernommen; dies ist keine vollständige neue Leitlinienprüfung sämtlicher 43 Fragen. Der Seminom-IIA/B-Rahmen wurde mit der EAU-Therapieseite und der Nachsorge-Rahmen mit der EAU-Nachsorgeseite abgeglichen. Artikelbezogene Aussagen, Zahlen und Einzelfallempfehlungen benötigen deine fachärztliche Prüfung. Formale Hinweise sind unter `review/build-check.txt` dokumentiert; Tests bestätigen keine medizinische Richtigkeit.
 
-Die automatische Prüfung meldet neben ausstehenden Freigaben vier sprachliche Zahlenhinweise und ein ähnliches Fragenpaar (`uro-ope-00017` / `uro-rek-00004`). Zahlenhinweise sind Suchhilfen; beispielsweise können „16 Uhr“, „4 pm“ und „16:00“ fälschlich als unterschiedlich erscheinen. Der Zahlenprüfer erfasst noch nicht alle einstelligen Zahlen zuverlässig. Die fachärztliche Prüfung der verbleibenden Fassungen ist offen. Erfolgreiche technische Tests bestätigen keine medizinische Richtigkeit.
+Quellen für den orientierenden Abgleich (04.10.2026):
+- https://uroweb.org/guidelines/testicular-cancer/chapter/disease-management
+- https://uroweb.org/guidelines/testicular-cancer/chapter/followup-after-curative-therapy
 
-Details: `review/build-check.txt`, `review/change-log.json`. Tests: `python review/check_release.py`.
-
-Diese Fassung wurde lokal erstellt und nicht auf GitHub veröffentlicht.
+Importbericht einschließlich vorheriger Ersatzfrage: `review/import-2026-10-04.json`. Mitgelieferte Quelldateien: `updates/2026-10-04/`.
