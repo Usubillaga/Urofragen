@@ -1,0 +1,619 @@
+{
+  "meta": [
+    [
+      "Sources",
+      "Spreda M, Protzel C. Urologie 2025;64:1261–1269 (organ preservation). Dräger DL et al. Urologie 2025;64:1270–1279 (lymphadenectomy). von Amsberg G. Urologie 2025;64:1280–1287 (systemic therapy)."
+    ],
+    [
+      "Guideline",
+      "EAU/ASCO Penile Cancer 2026, Chapter 5 (5.1.2, 5.1.3, 5.2, 5.2.2, 5.2.3) and Chapter 6 (6.1.2, 6.1.3, 6.1.5, 6.2.1, 6.2.2, 6.2.3, 6.3.5, 6.4.1, 6.4.2, 6.5.2, 6.5.4), full text checked on 21.09.2026."
+    ],
+    [
+      "Scope",
+      "16 questions across 8 topic areas, approximately 45 minutes"
+    ],
+    [
+      "Reading guidance",
+      "Four questions are marked ⚠. Where the source articles differ from the guideline, the correct answer follows the guideline: minimally invasive lymphadenectomy for cN1 and cN2 only in trials, sentinel biopsy rather than modified lymphadenectomy for staging, no biomarker selection for checkpoint blockade. The systemic therapy article's table values that contradict its own text are excluded; its biochemical section contains several factual errors. The author of that article declares consultancy and speaking fees from numerous manufacturers."
+    ]
+  ],
+  "sources": [
+    "Primary source 1: Spreda M, Protzel C (2025) Organerhalt oder Radikalität? Moderne chirurgische Konzepte im Spannungsfeld von Funktion und Onkologie. Urologie 64:1261–1269. https://doi.org/10.1007/s00120-025-02705-3",
+    "Primary source 2: Dräger DL, Rinderknecht E, Held J, Völler MM, Bürk BT, Borkowetz A (2025) Inguinale und pelvine Lymphknotendissektion beim Peniskarzinom. Urologie 64:1270–1279. https://doi.org/10.1007/s00120-025-02702-6",
+    "Primary source 3: von Amsberg G (2025) Personalisierte Systemtherapie beim Peniskarzinom. Urologie 64:1280–1287. https://doi.org/10.1007/s00120-025-02717-z",
+    "Guideline: EAU-ASCO Collaborative Guidelines on Penile Cancer 2026, Chapter 5 Diagnostic Evaluation and Staging and Chapter 6 Disease Management. Online full text, accessed 21.09.2026.",
+    "Study: Roussel E et al. (2021) Predictors of local recurrence and its effect on survival after glansectomy. BJU Int 127:606–613 (cited in primary source 1).",
+    "Study: Sri D et al. (2018) Resection margins and local recurrence in organ-preserving surgery. BJU Int 122:576–582; Yunis MZ et al. (2025) Frozen section in penile cancer, systematic review. Int J Impot Res (cited in primary source 1).",
+    "Study: Lee EWC et al. (2023) J Urol 210:778–781 and Jazayeri SB et al. (2025) World J Urol 43:1–8 on PeIN at the resection margin (cited in primary source 1).",
+    "Study: Sadeghi R et al. (2012) Accuracy of sentinel biopsy, systematic review and meta-analysis. J Urol 187:25–31; Spiess PE et al. (2009) World J Urol 27:205–212 on lymphadenectomy morbidity (cited in primary source 2).",
+    "Study: Singh A et al. (2018) Robotic versus open inguinal lymphadenectomy. J Urol 199:1518–1525 (cited in primary source 2).",
+    "Study: Knight AK et al. (2005) False-positive hCG tests in IgA deficiency. Clin Exp Immunol 141:333–337; Yoshimura K et al. (2019) pituitary hCG production under androgen deprivation. Int Braz J Urol 45:38–44 (cited in primary source 3).",
+    "Study: Necchi A et al. (2018) Dacomitinib in advanced penile cancer, Phase II. BJU Int 121:348–356; Cotait Maluf F et al. (2025) HERCULES, JAMA Oncol; García Del Muro X et al. (2025) ORPHEUS, Eur Urol Oncol 8:278–286 (cited in primary source 3).",
+    "Study: Iles RK (2007) Ectopic β-hCG expression in epithelial carcinomas. Mol Cell Endocrinol 260–262:264–270 (cited in primary source 3)."
+  ],
+  "axes": {
+    "A": "First line and progression",
+    "B": "Expectations and patient selection",
+    "C": "Biomarkers and targeted approaches",
+    "D": "Locoregionally advanced disease",
+    "E": "Primary tumour: organ preservation and margins",
+    "F": "PeIN and local recurrence",
+    "G": "Staging in cN0",
+    "H": "Inguinal and pelvic surgery"
+  },
+  "merk": {
+    "A": [
+      "First line for distant metastases: platinum-based chemotherapy; doublets are less toxic than triplets [LL EAU 2026, 6.5.4].",
+      "Bleomycin is no longer given because of pulmonary toxicity [LL EAU 2026, 6.5.4].",
+      "Effective second-line therapies are lacking (median survival six months or less); offer trial enrolment at progression, including a basket trial if necessary [LL EAU 2026, 6.5.4]."
+    ],
+    "B": [
+      "Checkpoint inhibitor monotherapy: 13 to 17 % response in unselected patients, 35 % with exclusively nodal metastases [Q].",
+      "Unfavourable predictors: visceral metastases, ECOG of 1 or higher, elevated neutrophil-to-lymphocyte ratio [Q].",
+      "Chemotherapy plus a checkpoint inhibitor raises the response rate to around 40 %, without proven long-term benefit; Phase II, not standard care [Q] [LL EAU 2026, 6.5.2]."
+    ],
+    "C": [
+      "HPV status, tumour mutational burden and PD-L1 are insufficient selection criteria for checkpoint blockade [LL EAU 2026, 6.5.2].",
+      "EGFR is overexpressed in 85 to 95 %, mutations are rare; expression does not distinguish responders from non-responders [Q].",
+      "Nectin-4 and TROP2 data conflict (expression 89.4 % versus 28 %); antibody–drug conjugates are in Phase II [Q]."
+    ],
+    "D": [
+      "cN3 and bulky or bilateral cN2: neoadjuvant cisplatin- and taxane-based chemotherapy before surgery [LL EAU 2026, 6.4.1].",
+      "Surgery five to eight weeks after chemotherapy ends; nodal management within three months [LL EAU 2026, 6.3.4].",
+      "Unresectable primary tumour: induction chemotherapy, surgery for a response, otherwise chemoradiotherapy [LL EAU 2026, 6.1.5]."
+    ],
+    "E": [
+      "Surgical margin: a few millimetres suffice, adapted to risk; 10 to 20 mm is outdated [Q] [LL EAU 2026, 6.1.2].",
+      "Frozen section when complete excision is uncertain, not routinely; accuracy above 95 % [Q] [LL EAU 2026, 6.1.5].",
+      "Confirm histology before non-surgical treatment (topical, laser, radiotherapy) [LL EAU 2026, 5.1.3]."
+    ],
+    "F": [
+      "PeIN: topical treatment or laser, assess after a treatment-free interval; do not repeat treatment after failure [LL EAU 2026, 6.1.5].",
+      "PeIN at the resection margin: conflicting data, close surveillance rather than reflex re-excision [Q] [LL EAU 2026, 6.1.2].",
+      "Local recurrence after glansectomy lowers 5-year cancer-specific survival to 68 % versus 93.1 % [Q]."
+    ],
+    "G": [
+      "From T1b onwards, surgical staging is standard, preferably sentinel biopsy after inguinal ultrasound [LL EAU 2026, 5.2.2].",
+      "CT, MRI and PET-CT do not detect micrometastases and do not replace surgical staging [LL EAU 2026, 5.2.2].",
+      "Sentinel biopsy: sensitivity 92 to 96 %, false-negative rate 4 to 8 % in experienced centres, learning curve approximately 25 procedures [Q] [LL EAU 2026, 5.2.2]."
+    ],
+    "H": [
+      "Three or more involved inguinal nodes on one side plus extranodal extension: ipsilateral pelvic lymphadenectomy [LL EAU 2026, 6.2.3].",
+      "Minimally invasive inguinal lymphadenectomy for cN1 and cN2 only in trials, never for cN3 [LL EAU 2026, 6.2.2].",
+      "Complete nodal management within three months; lymphoedema risk 15 to 57 % [Q] [LL EAU 2026, 6.2.2]."
+    ]
+  },
+  "questions": [
+    {
+      "n": 1,
+      "axis": "A",
+      "diff": 1,
+      "correct": "B",
+      "objective": "Can choose guideline-concordant first-line treatment for penile cancer with distant metastases.",
+      "reference": "Article: introduction to the topic; EAU/ASCO 2026, 6.5.2 and 6.5.4",
+      "vignette": "A 69-year-old man has squamous cell carcinoma of the penis with pulmonary and hepatic metastases. ECOG 1, glomerular filtration rate 78 ml/min, no neuropathy, no relevant comorbidities. The primary tumour has been resected. Select palliative first-line therapy.",
+      "lead": "Which first-line treatment is appropriate?",
+      "opts": {
+        "A": "Pembrolizumab monotherapy because of the high PD-L1 rate",
+        "B": "Platinum-based combination chemotherapy as first line",
+        "C": "Bleomycin, methotrexate and cisplatin as in the older studies",
+        "D": "Cemiplimab by analogy with cutaneous squamous cell carcinoma",
+        "E": "Best supportive care because of limited efficacy"
+      },
+      "rat": {
+        "A": "Misconception: high PD-L1 expression justifies immunotherapy monotherapy. Response rates in unselected patients are 13 to 17 % [Q], and biomarkers are insufficient for selection [LL EAU 2026, 6.5.2].",
+        "B": "For distant metastases, the guideline recommends platinum-based chemotherapy as the preferred first line [LL EAU 2026, 6.5.4].",
+        "C": "Misconception: older regimens are equivalent. Bleomycin should not be given because of pulmonary toxicity [LL EAU 2026, 6.5.4].",
+        "D": "Misconception: the approval for cutaneous squamous cell carcinoma applies by analogy. It does not cover penile cancer [Q].",
+        "E": "Misconception: limited efficacy justifies withholding treatment. Median survival with first-line chemotherapy was 7.2 months versus two months without it [LL EAU 2026, 6.5.2]."
+      },
+      "core": "Despite moderate efficacy, the platinum-based combination remains the recommended first line; the choice between a triplet and a doublet depends on comorbidity [LL EAU 2026, 6.5.4].",
+      "ev": "The guideline lists TPF, TIP, cisplatin with 5-fluorouracil, and paclitaxel with carboplatin, with doublets being less toxic; TPF and TIP combine two neurotoxic agents and are unsuitable in neuropathy or impaired renal function [LL EAU 2026, 6.5.2]. Published response rates for conventional regimens are 31 to 38.5 %, with median overall survival between seven and 14 months [Q].",
+      "prax": "Assess renal function, neuropathy and general condition before selecting treatment [LL EAU 2026, 6.5.2]. Discuss trial participation in parallel [LL EAU 2026, 6.5.4].",
+      "merk": "Penile cancer with distant metastases: platinum-based chemotherapy first, no bleomycin, immunotherapy is not standard first-line care.",
+      "flag": null
+    },
+    {
+      "n": 2,
+      "axis": "A",
+      "diff": 2,
+      "correct": "A",
+      "objective": "Can implement trial participation as the strongest recommendation for progression on platinum chemotherapy.",
+      "reference": "Article: introduction and outlook; EAU/ASCO 2026, 6.5.2 and 6.5.4",
+      "vignette": "A 66-year-old man with metastatic penile cancer has radiological progression in the lung and pelvis after four cycles of cisplatin and 5-fluorouracil. ECOG 1, organ function preserved, he wishes to continue treatment. Select the next treatment line.",
+      "lead": "Which approach is justified?",
+      "opts": {
+        "A": "Offer trial enrolment, including early-phase or basket trials",
+        "B": "Give an off-label checkpoint inhibitor as second line",
+        "C": "Off-label cetuximab after EGFR immunohistochemistry",
+        "D": "The same platinum regimen for four more cycles",
+        "E": "Supportive care alone without further options"
+      },
+      "rat": {
+        "A": "The guideline makes its strongest recommendation here: patients progressing on platinum should be offered trial enrolment, including early-phase and basket trials [LL EAU 2026, 6.5.4].",
+        "B": "Misconception: a checkpoint inhibitor is the established second line. Response rates are 13 to 17 %, without approval for this indication [Q].",
+        "C": "Misconception: EGFR staining justifies treatment. No data support targeted agents outside trials [LL EAU 2026, 6.5.2].",
+        "D": "Misconception: repeat treatment despite progression. Progression during ongoing treatment argues against the same regimen [X].",
+        "E": "Misconception: without approval, only supportive care remains. Palliative radiotherapy is also available for symptom control [LL EAU 2026, 6.5.4]."
+      },
+      "core": "Effective second-line therapies are lacking; the guideline therefore makes access to trials the routine recommendation rather than an exception [LL EAU 2026, 6.5.4].",
+      "ev": "In several studies, second-line chemotherapy achieved median overall survival of six months or less [LL EAU 2026, 6.5.2]. The article describes the same shortage and lists ongoing Phase II trials of antibody–drug conjugates and PARP inhibitors as the currently structured access route [Q]. If no penile cancer trial is available, the guideline explicitly recommends enrolment in an early-phase basket trial [LL EAU 2026, 6.5.2].",
+      "prax": "Organise the trial search promptly because general condition can deteriorate rapidly [X]. If no trial is available, taxane or vinflunine monotherapy are palliative alternatives, with response rates of 20 to 27 % and median survival around 8.4 months [LL EAU 2026, 6.5.2].",
+      "merk": "Progression on platinum: a trial first, including basket trials; off-label immunotherapy is not a substitute.",
+      "flag": null
+    },
+    {
+      "n": 3,
+      "axis": "B",
+      "diff": 2,
+      "correct": "C",
+      "objective": "Can quantify the prospects of checkpoint blockade realistically according to the pattern of metastases.",
+      "reference": "Article: tumour mutational burden and immunotherapeutic approaches; EAU/ASCO 2026, 6.5.2",
+      "vignette": "A 63-year-old man with penile cancer has exclusively inguinal and pelvic nodal metastases, ECOG 0. He has read about immunotherapy and asks about its prospects. The centre has an ongoing trial of a checkpoint inhibitor. Counselling before the treatment decision.",
+      "lead": "How should the patient be counselled?",
+      "opts": {
+        "A": "Suggest a response rate of approximately 50 %",
+        "B": "Present immunotherapy as more effective than chemotherapy",
+        "C": "Quote approximately 13 to 17 %, higher for nodal disease, offer a trial",
+        "D": "Do not mention immunotherapy because of its low efficacy",
+        "E": "Quote the same response rate regardless of metastatic pattern"
+      },
+      "rat": {
+        "A": "Misconception: combination-trial results apply to monotherapy. Approximately 50 % was achieved only with additional platinum chemotherapy [Q].",
+        "B": "Misconception: a newer agent is more effective. Platinum-based chemotherapy remains recommended for first line [LL EAU 2026, 6.5.4].",
+        "C": "Response in unselected patients is 13 to 17 %, with 35 % reported for exclusively nodal metastases; this supports offering a trial [Q] [LL EAU 2026, 6.5.2].",
+        "D": "Misconception: low response rates justify withholding information. The guideline recommends access to trials for all patients [LL EAU 2026, 6.5.2].",
+        "E": "Misconception: the metastatic pattern is irrelevant. This very factor separates 13 from 35 % [Q]."
+      },
+      "core": "Counselling gives the actual response ranges and relates them to the metastatic pattern, rather than promoting the combination-trial figures [Q].",
+      "ev": "In a multicentre retrospective analysis of 92 patients, the response rate was 13 %, and 35 % for exclusively nodal metastases; median overall survival was 9.8 months [Q]. Unfavourable predictors were visceral metastases, ECOG of 1 or higher and an elevated neutrophil-to-lymphocyte ratio [Q]. Prospectively, monotherapies in ORPHEUS and PERICLES each achieved 16.7 % [Q] [LL EAU 2026, 6.5.2].",
+      "prax": "The figures come mainly from retrospective series and small Phase II trials; this should be discussed [Q]. Durable remissions occur but are rare [LL EAU 2026, 6.5.2].",
+      "merk": "Checkpoint blockade in penile cancer: 13 to 17 % in unselected patients, 35 % with exclusively nodal metastases.",
+      "flag": "The figures come from retrospective series and single-arm Phase II trials with 18 to 92 patients; randomised comparisons are lacking."
+    },
+    {
+      "n": 4,
+      "axis": "B",
+      "diff": 3,
+      "correct": "D",
+      "objective": "Can classify chemotherapy plus a checkpoint inhibitor as an investigational approach rather than standard care.",
+      "reference": "Article: HERCULES and EPIC-A; EAU/ASCO 2026, 6.5.2",
+      "vignette": "A 58-year-old man with newly diagnosed metastatic penile cancer is to receive cisplatin and 5-fluorouracil. A colleague proposes adding pembrolizumab by analogy with the HERCULES trial; no trial is running at the hospital. Select first-line treatment.",
+      "lead": "Which approach is justified?",
+      "opts": {
+        "A": "Add pembrolizumab because response rises to 39 %",
+        "B": "Pembrolizumab alone instead of the planned chemotherapy",
+        "C": "Chemotherapy plus cemiplimab by analogy with the EPIC-A trial",
+        "D": "Platinum chemotherapy as planned, combination only in trials",
+        "E": "Carboplatin monotherapy to reduce toxicity"
+      },
+      "rat": {
+        "A": "Misconception: a higher response rate already demonstrates benefit. A randomised comparison is lacking [LL EAU 2026, 6.5.2].",
+        "B": "Misconception: immunotherapy replaces chemotherapy. Monotherapies achieve 13 to 17 % [Q].",
+        "C": "Misconception: a second Phase II trial makes the approach standard care. EPIC-A enrolled 29 patients [Q].",
+        "D": "Outside trials, platinum-based chemotherapy remains the recommended first line [LL EAU 2026, 6.5.4].",
+        "E": "Misconception: carboplatin alone is the less burdensome solution. Combinations are recommended, with doublets such as paclitaxel and carboplatin if needed [LL EAU 2026, 6.5.2]."
+      },
+      "core": "The combination comes from single-arm Phase II trials and is not standard care; it belongs in a trial or a documented individual treatment decision [LL EAU 2026, 6.5.2] [Q].",
+      "ev": "In HERCULES, response with cisplatin, 5-fluorouracil and pembrolizumab was 39.4 %, median progression-free survival 5.4 months and median overall survival 9.6 months [Q] [LL EAU 2026, 6.5.2]. The guideline states that the combination increases response rates but does not demonstrate a long-term advantage over immunotherapy alone [LL EAU 2026, 6.5.2]. Grade 3 or 4 adverse events occurred in 51 % [Q].",
+      "prax": "Anyone nevertheless considering the combination should document the off-label situation and toxicity risk [X]. The primary publications, rather than the summary, are decisive [X].",
+      "merk": "Chemotherapy plus a checkpoint inhibitor: higher response, but Phase II without long-term benefit and with 51 % grade 3/4 toxicity.",
+      "flag": "The review lists 37 patients for HERCULES, the guideline 33; both refer to a single-arm Phase II trial without a randomised comparison."
+    },
+    {
+      "n": 5,
+      "axis": "C",
+      "diff": 2,
+      "correct": "E",
+      "objective": "Can recognise PD-L1 and tumour mutational burden as unvalidated selection criteria in penile cancer.",
+      "reference": "Article: tumour mutational burden and HPV; EAU/ASCO 2026, 6.5.2",
+      "vignette": "In a 71-year-old man with metastatic penile cancer, molecular profiling shows PD-L1 expression of 40 % and a tumour mutational burden of 12 mutations per megabase. There is no microsatellite instability. He is fit for chemotherapy and first-line treatment is due. Select treatment.",
+      "lead": "What consequence does the molecular profile have?",
+      "opts": {
+        "A": "A checkpoint inhibitor instead of chemotherapy in first line",
+        "B": "A combination of checkpoint inhibitor and chemotherapy",
+        "C": "Add an EGFR antibody because HPV status is unclear",
+        "D": "Await repeat testing on a metastasis",
+        "E": "None; first line remains platinum-based chemotherapy"
+      },
+      "rat": {
+        "A": "Misconception: a high biomarker value replaces the evidence. The first-line recommendation remains chemotherapy [LL EAU 2026, 6.5.4].",
+        "B": "Misconception: use the combination as a compromise. It is supported by Phase II evidence without a randomised comparison [Q].",
+        "C": "Misconception: an EGFR antibody as an addition. No data support targeted agents in this disease [LL EAU 2026, 6.5.2].",
+        "D": "Misconception: repeat testing would change the decision. No validated threshold exists for any of these markers [LL EAU 2026, 6.5.2].",
+        "E": "Neither PD-L1 nor tumour mutational burden are validated selection criteria in penile cancer [LL EAU 2026, 6.5.2]."
+      },
+      "core": "The profile does not change first line: the guideline considers available biomarker data insufficient to select patients for checkpoint blockade [LL EAU 2026, 6.5.2].",
+      "ev": "The review shows why: in a cohort of 397 patients, high mutational burden was associated with higher HPV positivity, but in an analysis of 165 tumours with HPV negativity [Q]. 40 to 60 % of tumours strongly express PD-L1, without an established predictive value [Q]. Tumour-agnostic options exist in some countries for mismatch repair deficiency or very high mutational burden; neither is present here [LL EAU 2026, 6.5.2].",
+      "prax": "The profile remains useful because it enables access to basket trials [LL EAU 2026, 6.5.2]. Germline findings in repair genes occurred in 6.9 % and are a reason for genetic counselling [Q].",
+      "merk": "PD-L1 and tumour mutational burden do not guide treatment decisions in penile cancer.",
+      "flag": null
+    },
+    {
+      "n": 6,
+      "axis": "C",
+      "diff": 3,
+      "correct": "A",
+      "objective": "Can recognise EGFR overexpression as non-predictive and avoid off-label therapies.",
+      "reference": "Article: EGFR-targeted therapy and antibody conjugates; EAU/ASCO 2026, 6.5.2",
+      "vignette": "In a 64-year-old man with progressive metastatic penile cancer after platinum chemotherapy, immunohistochemistry shows strong EGFR expression. No mutation or amplification was found. The patient insists on targeted therapy. Select the approach.",
+      "lead": "Which approach is justified?",
+      "opts": {
+        "A": "Offer trial enrolment, no off-label EGFR therapy",
+        "B": "Off-label cetuximab because of strong EGFR expression",
+        "C": "Off-label dacomitinib; 32 % responded in the Phase II trial",
+        "D": "Off-label panitumumab because alternatives are lacking",
+        "E": "Give trastuzumab deruxtecan regardless of HER2 findings"
+      },
+      "rat": {
+        "A": "Expression is almost universal and therefore not a selection feature; the guideline refers to trials, including early-phase trials [Q] [LL EAU 2026, 6.5.4].",
+        "B": "Misconception: strong staining means response. Expression does not separate responders from non-responders [Q].",
+        "C": "Misconception: a single-arm Phase II trial justifies off-label use. Remissions were mostly brief [Q].",
+        "D": "Misconception: lack of alternatives justifies any attempt. No data support targeted agents in this disease [LL EAU 2026, 6.5.2].",
+        "E": "Misconception: tumour-agnostic approvals apply without a finding. They require demonstrated HER2 positivity [LL EAU 2026, 6.5.2]."
+      },
+      "core": "EGFR overexpression occurs in 85 to 95 % of penile cancers and does not justify therapy outside trials [Q] [LL EAU 2026, 6.5.2].",
+      "ev": "EGFR gene mutations or amplifications are rare, whereas protein overexpression is almost universal [Q]. In the Phase II dacomitinib trial, response was 32.1 %, but EGFR amplifications were found in both responders and non-responders [Q]. Retrospective cetuximab series reported partial remissions in 23.5 %, mostly of short duration [Q].",
+      "prax": "Molecular profiling is still worthwhile because it enables access to basket trials [LL EAU 2026, 6.5.2]. In penile cancer, Nectin-4 or TROP2 conjugates are currently supported only by case reports and ongoing Phase II trials [Q].",
+      "merk": "EGFR overexpression is the rule in penile cancer, not a predictor: do not base off-label therapy on it.",
+      "flag": null
+    },
+    {
+      "n": 7,
+      "axis": "D",
+      "diff": 2,
+      "correct": "B",
+      "objective": "Can prioritise neoadjuvant chemotherapy before surgery for fixed inguinal or pelvic involvement.",
+      "reference": "EAU/ASCO 2026, 6.3.2, 6.3.5 and 6.4.1",
+      "vignette": "A 62-year-old man has penile cancer with a fixed 6 cm left inguinal nodal mass and enlarged pelvic lymph nodes on CT. No distant metastases, ECOG 1, glomerular filtration rate 80 ml/min, no neuropathy. The primary tumour has been resected. Select the approach.",
+      "lead": "Which approach is justified?",
+      "opts": {
+        "A": "Upfront radical inguinal and pelvic lymphadenectomy",
+        "B": "Neoadjuvant cisplatin- and taxane-based chemotherapy",
+        "C": "Primary groin radiotherapy without systemic treatment",
+        "D": "Bilateral videoendoscopic inguinal lymphadenectomy",
+        "E": "Palliative systemic treatment alone without a surgical goal"
+      },
+      "rat": {
+        "A": "Misconception: the tumour must be removed first. Upfront surgery is not routine in cN3 and has complication rates of 65 to 77 % [LL EAU 2026, 6.3.2].",
+        "B": "For pelvic or extensive inguinal involvement, the guideline recommends neoadjuvant chemotherapy before surgery [LL EAU 2026, 6.4.1].",
+        "C": "Misconception: radiotherapy replaces systemic treatment. It is an option for patients unfit for multi-agent chemotherapy [LL EAU 2026, 6.4.2].",
+        "D": "Misconception: minimally invasive surgery is less burdensome. Videoendoscopic lymphadenectomy should not be offered in cN3 [LL EAU 2026, 6.3.5].",
+        "E": "Misconception: extensive disease permits only palliation. Approximately half respond, and responders have a chance of cure [LL EAU 2026, 6.3.5]."
+      },
+      "core": "For a fixed inguinal mass or pelvic involvement, neoadjuvant chemotherapy is preferable to upfront surgery; a response is followed by consolidating lymphadenectomy [LL EAU 2026, 6.3.5].",
+      "ev": "Systematic reviews report radiological response around 53 % and pathological complete remission around 12.8 % [LL EAU 2026, 6.3.2]. Responders undergoing subsequent surgical consolidation achieve an average 5-year survival of 56.9 % [LL EAU 2026, 6.3.3]. A cisplatin- and taxane-based doublet or triplet is preferred [LL EAU 2026, 6.4.1].",
+      "prax": "Surgery follows five to eight weeks after chemotherapy completion [LL EAU 2026, 6.3.4]. If there is no response, reassess the benefit of surgery [LL EAU 2026, 6.4.1].",
+      "merk": "Fixed inguinal mass or pelvic involvement: chemotherapy first, then surgery if there is a response.",
+      "flag": null
+    },
+    {
+      "n": 8,
+      "axis": "D",
+      "diff": 1,
+      "correct": "C",
+      "objective": "Can plan induction chemotherapy followed by surgery for an unresectable primary tumour.",
+      "reference": "EAU/ASCO 2026, 6.1.3 and 6.1.5",
+      "vignette": "A 74-year-old man has extensive penile cancer infiltrating the scrotum and pubic symphysis region; resection with clear margins is impossible. No distant metastases, ECOG 1, fit for chemotherapy. Select the approach.",
+      "lead": "Which approach is justified?",
+      "opts": {
+        "A": "Immediate total penectomy with perineal urethrostomy",
+        "B": "Palliative radiotherapy without any further treatment goal",
+        "C": "Induction chemotherapy, surgery for a response",
+        "D": "Primary immunotherapy with a checkpoint inhibitor",
+        "E": "Brachytherapy alone for the primary tumour, without chemotherapy"
+      },
+      "rat": {
+        "A": "Misconception: radicality at any cost. Without clear margins the goal cannot be achieved, but morbidity is high [LL EAU 2026, 6.1.3].",
+        "B": "Misconception: unresectable means palliative. Some patients become resectable after induction [LL EAU 2026, 6.1.3].",
+        "C": "Induction chemotherapy enables downstaging; responders undergo surgery, with chemoradiotherapy as an alternative [LL EAU 2026, 6.1.5].",
+        "D": "Misconception: immunotherapy for downstaging. Response rates of 13 to 17 % do not support this goal [Q].",
+        "E": "Misconception: brachytherapy provides sufficient organ preservation. It has been studied for lesions below 4 cm in T1 and T2 disease [LL EAU 2026, 6.1.2]."
+      },
+      "core": "For an unresectable primary tumour, systemic therapy comes before surgery: downstaging, then surgery for a response [LL EAU 2026, 6.1.5].",
+      "ev": "Objective response with combination regimens ranges from 29 to 60 %, pooled 53 to 57 %, with pathological complete remission in 4 to 10 % [LL EAU 2026, 6.1.3]. The guideline recommends induction chemotherapy followed by surgery for a response, or chemoradiotherapy, also for patients declining surgery [LL EAU 2026, 6.1.5]. Without a sufficient response, palliative chemoradiotherapy remains [LL EAU 2026, 6.1.3].",
+      "prax": "The decision belongs at the multidisciplinary tumour board with radiation oncology and plastic surgery [X]. Regimen selection follows the first-line rationale with cisplatin and a taxane [LL EAU 2026, 6.4.1].",
+      "merk": "Unresectable primary tumour: induction chemotherapy, surgery for a response, otherwise chemoradiotherapy.",
+      "flag": null
+    },
+    {
+      "n": 9,
+      "axis": "E",
+      "diff": 2,
+      "correct": "D",
+      "objective": "Can select a risk-adapted surgical margin and use frozen section selectively.",
+      "reference": "Article: surgical margin and frozen-section assessment; EAU/ASCO 2026, 6.1.2 and 6.1.5",
+      "vignette": "A 58-year-old man has penile cancer confined to the glans, biopsy pT1b G2, cN0. MRI shows no invasion of the corpora cavernosa. He explicitly requests an organ-preserving approach and agrees to close follow-up. Select the surgical approach.",
+      "lead": "Which approach is appropriate?",
+      "opts": {
+        "A": "Partial penectomy with a 20 mm macroscopic margin",
+        "B": "Laser ablation without prior histological confirmation",
+        "C": "Primary external beam radiotherapy instead of any surgery",
+        "D": "Organ-preserving resection with a margin of a few millimetres",
+        "E": "Glansectomy only after MRI demonstrates invasion"
+      },
+      "rat": {
+        "A": "Misconception: the old 10 to 20 mm standard still applies. It is outdated, without increased recurrence rates [Q].",
+        "B": "Misconception: ablation without histology. A biopsy is required before non-surgical treatment [LL EAU 2026, 5.1.3], and local recurrence after laser is higher [LL EAU 2026, 6.1.2].",
+        "C": "Misconception: radiotherapy is an equivalent substitute. It is offered to selected T1 and T2 patients, but surgical outcomes remain better [LL EAU 2026, 6.1.2] [Q].",
+        "D": "A few millimetres of macroscopic clearance suffice; if uncertain, frozen section clarifies the margin [Q] [LL EAU 2026, 6.1.2].",
+        "E": "Misconception: no glansectomy without demonstrated invasion. MRI assesses corporal involvement, not the choice of organ-preserving procedure [LL EAU 2026, 5.1.2]."
+      },
+      "core": "Organ preservation is possible here: select a narrow risk-adapted margin and confirm complete tumour removal by frozen section [Q] [LL EAU 2026, 6.1.2].",
+      "ev": "Recurrence remains low with resection margins below 5 mm; Sri et al. reported 4 % with 1 mm clearance [Q]. The guideline identifies substantially higher local recurrence only below 1 mm and recommends wider margins for high-grade tumours [LL EAU 2026, 6.1.2]. A meta-analysis estimates frozen-section accuracy above 95 % [Q]; it is not routinely recommended, but is advised when complete removal is uncertain [LL EAU 2026, 6.1.5].",
+      "prax": "If final histology shows a positive invasive margin, identify its location at the clinicopathological meeting and perform targeted re-excision [Q]. Organ preservation requires willingness to attend close follow-up [LL EAU 2026, 6.1.5].",
+      "merk": "Surgical margins in millimetres rather than centimetres, frozen section when uncertain, histology before every non-surgical treatment.",
+      "flag": null
+    },
+    {
+      "n": 10,
+      "axis": "E",
+      "diff": 3,
+      "correct": "E",
+      "objective": "Can manage PeIN at the resection margin without reflex re-excision.",
+      "reference": "Article: surgical margin and frozen-section assessment; EAU/ASCO 2026, 6.1.2",
+      "vignette": "In a 63-year-old man, final histology after glansectomy shows a pT2 G2 tumour with clear invasive margins, but penile intraepithelial neoplasia at the margin. The patient is asymptomatic and reliable with follow-up. Select further management.",
+      "lead": "Which approach is justified?",
+      "opts": {
+        "A": "Immediate re-excision of the entire glans region",
+        "B": "Adjuvant radiotherapy to the resection area",
+        "C": "Add topical treatment without further surveillance",
+        "D": "No consequence; continue usual follow-up",
+        "E": "Close surveillance, topical treatment or laser if needed"
+      },
+      "rat": {
+        "A": "Misconception: every positive margin requires re-excision. This is not proven for intraepithelial neoplasia at the margin and costs function [LL EAU 2026, 6.1.2].",
+        "B": "Misconception: radiotherapy provides reassurance. Evidence for this situation is lacking [X].",
+        "C": "Misconception: treat it and consider it finished. Assessment and biopsy when uncertain are required before and after topical treatment [Q] [LL EAU 2026, 6.1.5].",
+        "D": "Misconception: the finding is insignificant. Some data show higher local recurrence rates [Q].",
+        "E": "The guideline considers surveillance with or without topical treatment acceptable and requires shared decision-making [LL EAU 2026, 6.1.2]."
+      },
+      "core": "Evidence for intraepithelial neoplasia at the margin is conflicting; close surveillance with targeted topical or ablative treatment is acceptable instead of immediate re-excision [Q] [LL EAU 2026, 6.1.2].",
+      "ev": "Lee et al. found significantly higher local recurrence with intraepithelial neoplasia at the margin, whereas Jazayeri et al. found no increased risk [Q]. The guideline considers the evidence heterogeneous, identifies re-excision as potentially damaging to function and lists surveillance with or without topical treatment as a reasonable strategy [LL EAU 2026, 6.1.2]. Differentiated intraepithelial lesions and lichen sclerosus at the margin are common and have no effect on cancer-specific survival [LL EAU 2026, 6.1.2].",
+      "prax": "After organ-preserving therapy, follow-up is every three months for the first two years, then every six months [Q]. The opposite applies to invasive margins: targeted re-excision is required [Q].",
+      "merk": "Intraepithelial neoplasia at the margin: monitor and treat selectively; invasive margin: re-excise.",
+      "flag": "The evidence is conflicting (Lee versus Jazayeri); the guideline permits both approaches and requires shared decision-making."
+    },
+    {
+      "n": 11,
+      "axis": "F",
+      "diff": 1,
+      "correct": "A",
+      "objective": "Can treat biopsy-confirmed PeIN according to stage and assess treatment success.",
+      "reference": "Article: treatment of non-invasive tumours; EAU/ASCO 2026, 6.1.5",
+      "vignette": "A 55-year-old man has biopsy-confirmed penile intraepithelial neoplasia of the glans; circumcision has been performed, but the lesion persists three months later. No evidence of invasion, and the patient requests the least burdensome approach possible. Select treatment.",
+      "lead": "Which treatment is appropriate?",
+      "opts": {
+        "A": "Topical treatment with 5-fluorouracil or imiquimod",
+        "B": "Partial penectomy because of the risk of progression",
+        "C": "Repeat the same cream after treatment failure",
+        "D": "Observation without treatment or surveillance biopsies",
+        "E": "External beam radiotherapy to the entire glans region"
+      },
+      "rat": {
+        "A": "For biopsy-confirmed intraepithelial neoplasia, the guideline recommends topical 5-fluorouracil or imiquimod and assessment of the effect after a treatment-free interval [LL EAU 2026, 6.1.5].",
+        "B": "Misconception: treat precancerous disease like carcinoma. Progression risk is below 10 % [Q].",
+        "C": "Misconception: a second attempt with the same agent. Topical treatment should not be repeated after failure [LL EAU 2026, 6.1.5].",
+        "D": "Misconception: the lesion needs no treatment. Despite treatment, 2.6 to 13 % progress to invasive carcinoma [LL EAU 2026, 6.1.5].",
+        "E": "Misconception: radiotherapy for precancerous disease. There is no indication [X]."
+      },
+      "core": "After circumcision and a persistent lesion, topical treatment is the guideline-concordant next step, with planned response assessment [LL EAU 2026, 6.1.5].",
+      "ev": "Response and recurrence rates are 40 to 100 % and 20 % for imiquimod, and 48 to 74 % and 11 % for 5-fluorouracil [LL EAU 2026, 6.1.5]. The article reports substantial local adverse effects causing treatment discontinuation and local recurrence in up to 50 % [Q]. For extensive or treatment-refractory disease, glans resurfacing is the surgical option; invasive carcinoma was nevertheless found in 20 % of cases [Q].",
+      "prax": "Insufficient response may indicate undetected invasion; perform a biopsy rather than another treatment cycle [LL EAU 2026, 6.1.5]. Long-term surveillance is part of the approach [Q].",
+      "merk": "PeIN: circumcision first, then topical treatment or laser, assess success, switch methods after failure rather than repeating treatment.",
+      "flag": null
+    },
+    {
+      "n": 12,
+      "axis": "F",
+      "diff": 2,
+      "correct": "C",
+      "objective": "Can treat local recurrence after glansectomy and explain its prognostic significance.",
+      "reference": "Article: overall survival unaffected by local recurrence?; EAU/ASCO 2026, 6.1.2",
+      "vignette": "A 61-year-old man has an 8 mm local recurrence at the neoglans 14 months after glansectomy for pT2 G2. MRI shows no invasion of the corpora cavernosa, and the groins are unremarkable. He asks whether the recurrence changes his prognosis. Select treatment and counselling.",
+      "lead": "Which approach is justified?",
+      "opts": {
+        "A": "Repeat organ-preserving resection; prognosis remains unchanged",
+        "B": "Total penectomy because organ preservation has failed",
+        "C": "Repeat organ preservation, then closer follow-up",
+        "D": "Add adjuvant radiotherapy to the recurrence area",
+        "E": "Bilateral inguinal lymphadenectomy because of the recurrence"
+      },
+      "rat": {
+        "A": "Misconception: the dogma of prognostically neutral local recurrence. It comes from cohorts containing mainly superficial tumours [Q].",
+        "B": "Misconception: recurrence means amputation. Without corporal involvement, repeat organ-preserving resection is recommended [LL EAU 2026, 6.1.5].",
+        "C": "A small recurrence without corporal involvement is treated with organ preservation again; counselling explains the increased risk [LL EAU 2026, 6.1.5] [Q].",
+        "D": "Misconception: radiotherapy provides reassurance after resection. Supporting data for the primary tumour are lacking [X].",
+        "E": "Misconception: local recurrence justifies lymphadenectomy. The indication depends on nodal status and risk profile [LL EAU 2026, 5.2.2]."
+      },
+      "core": "Treatment changes little, prognosis considerably: local recurrence independently predicts poorer survival and warrants closer follow-up [Q] [LL EAU 2026, 6.1.2].",
+      "ev": "In the multicentre cohort of Roussel et al. with over 800 invasive tumours, 5-year cancer-specific survival with local recurrence was 68 % versus 93.1 %; it remained an independent predictor even after excluding positive margins, T3 disease and clinical nodal metastases [Q]. The guideline cites the same data and notes that local recurrence is associated with poorer survival in higher-risk cohorts [LL EAU 2026, 6.1.2].",
+      "prax": "Predictors of recurrence after glansectomy are perineural invasion, carcinoma in situ, positive margins and high-grade tumours; these determine follow-up intensity [Q]. Explain both aspects to the patient: repeat organ preservation is possible, and the risk is real [X].",
+      "merk": "Local recurrence after glansectomy: repeat organ preservation is possible, but it has prognostic significance and warrants closer follow-up.",
+      "flag": null
+    },
+    {
+      "n": 13,
+      "axis": "G",
+      "diff": 2,
+      "correct": "B",
+      "objective": "Can indicate surgical lymph-node staging for cN0 from T1b onwards and choose the procedure.",
+      "reference": "Article: management of non-palpable inguinal lymph nodes; EAU/ASCO 2026, 5.2.2",
+      "vignette": "A 66-year-old man underwent glansectomy for penile cancer; histology shows pT1b G2 with lymphovascular invasion. Both groins are clinically unremarkable, but obesity makes palpation difficult. Select lymph-node staging.",
+      "lead": "Which approach is appropriate?",
+      "opts": {
+        "A": "Surveillance of both groins with clinical examinations",
+        "B": "Inguinal ultrasound, followed by sentinel biopsy",
+        "C": "Pelvic CT to exclude micrometastases",
+        "D": "Bilateral radical inguinal lymphadenectomy",
+        "E": "FDG-PET-CT before any surgical decision"
+      },
+      "rat": {
+        "A": "Misconception: unremarkable groins permit surveillance. It is reserved for low-risk tumours, with individual assessment for T1a G2 [LL EAU 2026, 5.2.2].",
+        "B": "From T1b onwards, the guideline recommends surgical staging, preferably sentinel biopsy, preceded by inguinal ultrasound with fine-needle aspiration of suspicious nodes [LL EAU 2026, 5.2.2].",
+        "C": "Misconception: cross-sectional imaging detects micrometastases. Neither CT nor MRI can do so, and they are not recommended in cN0 [LL EAU 2026, 5.2.2].",
+        "D": "Misconception: greater radicality is safer. Radical lymphadenectomy has the highest morbidity and unnecessarily operates on the majority [LL EAU 2026, 5.2.2].",
+        "E": "Misconception: PET resolves staging. Metastases below 10 mm are not reliably detected [LL EAU 2026, 5.2.2]."
+      },
+      "core": "From T1b onwards there is a high risk of occult metastases; the guideline recommends surgical staging, with sentinel biopsy as the procedure of choice [LL EAU 2026, 5.2.2].",
+      "ev": "Micrometastasis probability is 22 to 30 % in pT1b G2 versus 6 to 8 % in pT1a G2 [LL EAU 2026, 5.2.2]. In experienced centres, sentinel biopsy has sensitivity of 92 to 96 %, false-negative rates of 4 to 8 % and complications in 6 to 14 %, compared with false-negative rates of 15 to 20 % for modified lymphadenectomy [LL EAU 2026, 5.2.2]. The article reports 4.8 % false negatives for sentinel biopsy [Q].",
+      "prax": "Difficult palpation is a reason for ultrasound but does not replace surgical staging [LL EAU 2026, 5.2.2]. A positive sentinel is followed by ipsilateral radical lymphadenectomy [LL EAU 2026, 5.2.2].",
+      "merk": "cN0 from T1b onwards: ultrasound, then sentinel biopsy; surveillance only for low-risk disease.",
+      "flag": null
+    },
+    {
+      "n": 14,
+      "axis": "G",
+      "diff": 2,
+      "correct": "E",
+      "objective": "Can explain the need for an experienced centre and the time window for lymph-node staging.",
+      "reference": "Article: DSLNB learning curve and centralisation; EAU/ASCO 2026, 5.2 and 5.2.2",
+      "vignette": "A hospital without its own sentinel programme cares for a 59-year-old man with pT2 G3 and clinically unremarkable groins. A colleague has assisted in two sentinel biopsies and offers to perform the procedure locally. Prompt referral to a reference centre is possible. Select the approach.",
+      "lead": "Which approach is justified?",
+      "opts": {
+        "A": "Local sentinel biopsy; the technique is well standardised",
+        "B": "Surveillance until the groins become palpably abnormal",
+        "C": "Local radical lymphadenectomy instead of referral",
+        "D": "Wait and decide again in six months",
+        "E": "Prompt referral to a centre with a sentinel programme"
+      },
+      "rat": {
+        "A": "Misconception: assisting twice is enough. The learning curve is estimated at approximately 25 procedures [Q].",
+        "B": "Misconception: wait until nodes are palpable. Delayed nodal surgery halves survival [LL EAU 2026, 5.2].",
+        "C": "Misconception: radicality replaces experience. It means the highest morbidity and is a second-choice staging method [LL EAU 2026, 5.2.2].",
+        "D": "Misconception: half a year is unproblematic. Nodal management should be completed within three months [LL EAU 2026, 6.2.2].",
+        "E": "The false-negative rate of sentinel biopsy falls with the centre's case volume, and prompt referral is possible [LL EAU 2026, 5.2.2]."
+      },
+      "core": "The procedure is right, the location is not: sentinel biopsy belongs in a centre with an established programme, and should be arranged promptly [LL EAU 2026, 5.2.2].",
+      "ev": "A meta-analysis found a pooled false-negative rate of 12 %, substantially lower in high-volume centres; this supports a learning curve and centralisation [LL EAU 2026, 5.2.2]. The article estimates the learning curve at approximately 25 procedures and calls mastery of the technique outside specialised centres challenging [Q]. Early lymph-node surgery produced 3-year survival of 84 % versus 35 % with delayed management [LL EAU 2026, 5.2].",
+      "prax": "If neither sentinel biopsy nor referral is possible, inguinal lymphadenectomy may be performed after discussing its higher morbidity [LL EAU 2026, 5.2.2]. Treatment at a centre is associated with better outcomes in penile cancer [Q].",
+      "merk": "Sentinel biopsy requires an experienced centre: refer promptly rather than learning on the patient.",
+      "flag": null
+    },
+    {
+      "n": 15,
+      "axis": "H",
+      "diff": 2,
+      "correct": "D",
+      "objective": "Can derive the indication for pelvic lymphadenectomy from the inguinal findings.",
+      "reference": "Article: pelvic lymphadenectomy; EAU/ASCO 2026, 6.2.3",
+      "vignette": "After left radical inguinal lymphadenectomy, histology shows three involved nodes with extranodal extension; sentinel biopsy on the right was negative. Imaging shows no enlarged pelvic nodes. Select further surgical management.",
+      "lead": "Which approach is justified?",
+      "opts": {
+        "A": "No further surgery, follow-up only",
+        "B": "Proceed with bilateral pelvic lymphadenectomy",
+        "C": "Adjuvant chemotherapy instead of any further surgery",
+        "D": "Proceed with ipsilateral pelvic lymphadenectomy",
+        "E": "Add contralateral radical lymphadenectomy"
+      },
+      "rat": {
+        "A": "Misconception: surgery ends after the groin. This very constellation predicts pelvic involvement [LL EAU 2026, 6.2.3].",
+        "B": "Misconception: bilateral is safer. The opposite side is sentinel-negative, and spread to the contralateral pelvis is rare [LL EAU 2026, 6.2.1].",
+        "C": "Misconception: systemic therapy replaces surgery. Adjuvant chemotherapy evidence is weak; it is additionally discussed for pN3 [LL EAU 2026, 6.4.1].",
+        "D": "Three or more involved inguinal nodes on one side and extranodal extension justify ipsilateral pelvic lymphadenectomy [LL EAU 2026, 6.2.3].",
+        "E": "Misconception: the opposite side needs prophylactic clearance. It is not indicated after negative sentinel biopsy [LL EAU 2026, 5.2.2]."
+      },
+      "core": "Inguinal findings guide pelvic surgery: with three or more involved nodes or extranodal extension, ipsilateral pelvic lymphadenectomy follows [LL EAU 2026, 6.2.3].",
+      "ev": "Without these risk features, 0 to 6.5 % of pelvic nodes are involved, versus 33 to 67 % with them [LL EAU 2026, 6.2.3]. Pelvic involvement does not occur without ipsilateral inguinal metastases; there is no direct drainage from the primary tumour into the pelvis [Q] [LL EAU 2026, 6.2.1]. Patients with pelvic involvement have a substantially poorer prognosis than those with inguinal disease alone [Q].",
+      "prax": "Complete all nodal management within three months [LL EAU 2026, 6.2.2]. For pN3, also discuss adjuvant radiotherapy [LL EAU 2026, 6.4.1].",
+      "merk": "Three involved groin nodes or extranodal extension: ipsilateral pelvic lymphadenectomy, not bilateral.",
+      "flag": null
+    },
+    {
+      "n": 16,
+      "axis": "H",
+      "diff": 3,
+      "correct": "C",
+      "objective": "Can choose the surgical approach for cN1 according to the guideline, even when surrogate arguments suggest otherwise.",
+      "reference": "Article: minimally invasive ILND; EAU/ASCO 2026, 6.2.2",
+      "vignette": "A 57-year-old man has a unilateral palpable, mobile, biopsy-confirmed inguinal nodal metastasis without fixation. The hospital offers robot-assisted inguinal lymphadenectomy and cites fewer wound complications. The patient asks which procedure to choose. Select the approach.",
+      "lead": "Which approach is justified?",
+      "opts": {
+        "A": "Robotic lymphadenectomy; it is considered equivalent",
+        "B": "Videoendoscopic lymphadenectomy as a compromise",
+        "C": "Open lymphadenectomy, minimally invasive only in trials",
+        "D": "Chemotherapy first instead of primary surgery",
+        "E": "Ipsilateral sentinel biopsy instead of lymphadenectomy"
+      },
+      "rat": {
+        "A": "Misconception: fewer wound complications prove equivalence. Oncological follow-up in comparative series is short [LL EAU 2026, 6.2.2].",
+        "B": "Misconception: videoendoscopy is a middle way. It too is restricted to trials in cN1 and cN2, and should be rejected in cN3 [LL EAU 2026, 6.3.5].",
+        "C": "For cN1, open surgery is standard, fascia-sparing or radical with saphenous vein preservation; minimally invasive approaches belong in trials [LL EAU 2026, 6.2.2].",
+        "D": "Misconception: chemotherapy before every lymph-node operation. Neoadjuvant treatment is for extensive disease [LL EAU 2026, 6.4.1].",
+        "E": "Misconception: sentinel biopsy for palpable disease. It is a staging method for clinically unremarkable groins [LL EAU 2026, 5.2.2]."
+      },
+      "core": "The benefits of minimally invasive techniques are established perioperatively, not oncologically; the guideline explicitly restricts them to trials in cN1 and cN2 [LL EAU 2026, 6.2.2].",
+      "ev": "A meta-analysis of 16 comparative studies with 1054 patients found comparable lymph-node yield, fewer complications and shorter hospital stay, but longer operating times, with limited evidence quality; follow-up was short and the proportion of prophylactic procedures high [LL EAU 2026, 6.2.2]. The article interprets the same evidence differently and describes robotic procedures as equivalent with fewer complications [Q].",
+      "prax": "Morbidity can also be reduced in open surgery: preserve the saphenous vein, avoid S-shaped incisions, retain drainage until output is below 30 ml per 24 hours [Q]. Lymphoedema risk is 15 to 57 % [Q].",
+      "merk": "cN1: open lymphadenectomy; robotic or videoendoscopic only within a trial.",
+      "flag": "The article and guideline interpret the same comparative studies differently. The correct answer follows the guideline, which restricts minimally invasive procedures for cN1 and cN2 to trials."
+    }
+  ],
+  "hcg": [
+    {
+      "label": "PeIN and Ta",
+      "mech": "Topical 5-fluorouracil or imiquimod, laser ablation or glans resurfacing; with circumcision [Q] [LL EAU 2026, 6.1.5].",
+      "step": "Confirm histology before treatment, assess the effect after a treatment-free interval, switch methods after failure rather than repeating treatment [LL EAU 2026, 6.1.5].",
+      "data": "Response 40 to 100 % for imiquimod and 48 to 74 % for 5-fluorouracil, recurrence up to 50 %; progression risk below 10 % [Q] [LL EAU 2026, 6.1.5]."
+    },
+    {
+      "label": "T1a, confined to the glans",
+      "mech": "Local excision, laser ablation or glans resurfacing with reconstruction [Q].",
+      "step": "A macroscopic margin of a few millimetres, frozen section if uncertain; inguinal surveillance is acceptable for T1a G2 without risk factors [Q] [LL EAU 2026, 5.2.2].",
+      "data": "Recurrence rates 0 to 30 % depending on the method; micrometastasis risk in pT1a G2 6 to 8 % [Q] [LL EAU 2026, 5.2.2]."
+    },
+    {
+      "label": "T1b and T2, confined to the glans",
+      "mech": "Glansectomy with a neoglans from a split-thickness skin graft, with additional resection of the distal corporal tips if involvement is suspected [Q].",
+      "step": "Concurrent surgical lymph-node staging, preferably sentinel biopsy after inguinal ultrasound [LL EAU 2026, 5.2.2].",
+      "data": "Recurrence after glansectomy approximately 5 %, erectile and orgasmic function usually preserved; micrometastasis risk from T1b onwards 22 to 30 % [Q] [LL EAU 2026, 5.2.2]."
+    },
+    {
+      "label": "T3 with corporal involvement",
+      "mech": "Partial penectomy with a neoglans; organ-preserving procedures only in exceptional cases [Q].",
+      "step": "Assess residual length: if standing urination is impossible, usually below 4 cm, consider perineal urethrostomy [Q].",
+      "data": "Recurrence rates 4.6 to 24.2 %; local recurrence in invasive tumours has prognostic significance [Q]."
+    },
+    {
+      "label": "T4 or unresectable",
+      "mech": "Induction chemotherapy with cisplatin and a taxane, surgery for a response; alternatively chemoradiotherapy [LL EAU 2026, 6.1.5].",
+      "step": "Decision at the multidisciplinary tumour board, clarify resectability with pelvic MRI [Q].",
+      "data": "Pooled objective response rates 53 to 57 %, pathological complete responses 4 to 10 % [LL EAU 2026, 6.1.3]."
+    },
+    {
+      "label": "Radiotherapy as an alternative",
+      "mech": "Brachytherapy for lesions up to 4 cm, external beam radiotherapy for larger tumours or comorbidity [Q].",
+      "step": "Biopsy before treatment; the guideline offers radiotherapy to selected T1 and T2 patients [LL EAU 2026, 6.1.5].",
+      "data": "Local control at 5 years 80 to 86 % for brachytherapy, 44 to 70 % for external beam radiotherapy [Q]."
+    },
+    {
+      "label": "Local recurrence after organ preservation",
+      "mech": "Repeat organ-preserving resection if the corpora cavernosa are uninvolved [LL EAU 2026, 6.1.5].",
+      "step": "Intensify follow-up: every three months for the first two years, then every six months [Q].",
+      "data": "5-year cancer-specific survival with local recurrence 68 % versus 93.1 % without [Q]."
+    }
+  ],
+  "rplnd": {
+    "criteria": [
+      "A centre with an established sentinel programme is accessible",
+      "Tumour pT1b or higher, or G3",
+      "Groins clinically and sonographically unremarkable",
+      "No distant metastases on imaging",
+      "Patient fit for surgery"
+    ],
+    "verdicts": {
+      "transfer": {
+        "title": "First clarify referral",
+        "note": "Without an established sentinel programme, the false-negative rate rises; the pooled rate is 12 % and falls with the centre's case volume [LL EAU 2026, 5.2.2]. If referral is impossible, inguinal lymphadenectomy may be performed after discussing its higher morbidity [LL EAU 2026, 5.2.2]."
+      },
+      "robotic": {
+        "title": "Surgical staging: sentinel biopsy",
+        "note": "All criteria met: inguinal ultrasound with fine-needle aspiration of suspicious nodes, followed by dynamic sentinel biopsy [LL EAU 2026, 5.2.2]. Sensitivity 92 to 96 % with false-negative rates of 4 to 8 % and complications in 6 to 14 % [LL EAU 2026, 5.2.2]. A positive sentinel is followed by ipsilateral radical lymphadenectomy [LL EAU 2026, 5.2.2]."
+      },
+      "open": {
+        "title": "Criteria incomplete: reassess risk",
+        "note": "For low-risk disease, namely pT1a G2 without lymphovascular or perineural invasion, surveillance is acceptable after counselling [LL EAU 2026, 5.2.2]. Palpably abnormal groins follow the cN-positive pathway with image-guided biopsy and subsequent lymphadenectomy, rather than the sentinel procedure [LL EAU 2026, 5.2.3]. Nodal management should be completed within three months [LL EAU 2026, 6.2.2]."
+      }
+    }
+  }
+}

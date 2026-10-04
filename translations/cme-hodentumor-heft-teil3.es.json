@@ -1,0 +1,563 @@
+{
+  "meta": [
+    [
+      "Fuentes",
+      "Witte L, Majewski M. Urologie 2025;64:1064–1073 (β-hCG). Skowron MA et al. Urologie 2025;64:1055–1063 (investigación básica). Angerer M, Dieckmann KP, Wülfing C. Urologie 2025;64:1046–1054 (RPLND, a favor de la robótica). Heidenreich A, Pfister D. Urologie 2025;64:1037–1045 (RPLND, a favor de la cirugía abierta)."
+    ],
+    [
+      "Guías",
+      "EAU Guidelines on Testicular Cancer 2026, capítulo 6 (6.1.3.2, 6.1.3.5, 6.1.3.7, 6.2.1, 6.2.2.2.1, 6.3.1, 6.3.2.2, 6.3.3.1, 6.3.3.3, 6.3.5) y capítulo 7 (7.1), texto completo revisado el 21.09.2026."
+    ],
+    [
+      "Contenido",
+      "14 preguntas en 8 ejes temáticos, unos 40 minutos"
+    ],
+    [
+      "Nota de lectura",
+      "Los dos artículos de RPLND presentan posturas a favor y en contra y valoran los mismos datos de forma opuesta; cuando discrepan, la respuesta correcta sigue la guía. Estas preguntas se señalan con ⚠. Del artículo de investigación básica solo se utilizan los tres puntos que permiten una decisión clínica; los fármacos preclínicos nunca son la respuesta correcta. Se excluye la sección bioquímica del artículo sobre β-hCG porque contiene varios errores factuales."
+    ]
+  ],
+  "sources": [
+    "Fuente primaria 1: Witte L, Majewski M (2025) Erhöhung der β-Untereinheit des humanen Choriongonadotropins bei urologischen Patienten – nicht immer ein Keimzelltumor. Urologie 64:1064–1073. https://doi.org/10.1007/s00120-025-02679-2",
+    "Fuente primaria 2: Skowron MA, Schneider L, Prokakis E, Fichtner A, Nestler T, Bremmer F, Nettersheim D (2025) Neues aus der Grundlagenforschung bei den Keimzelltumoren des Hodens und aktualisierte Tumorigenese. Urologie 64:1055–1063. https://doi.org/10.1007/s00120-025-02674-7",
+    "Fuente primaria 3: Angerer M, Dieckmann KP, Wülfing C (2025) Die retroperitoneale Lymphadenektomie in der Therapie testikulärer Keimzelltumoren – ist die robotisch-assistierte Technik besser? Urologie 64:1046–1054. https://doi.org/10.1007/s00120-025-02678-3",
+    "Fuente primaria 4: Heidenreich A, Pfister D (2025) Die retroperitoneale Lymphadenektomie – offen oder robotisch? Pro offene Chirurgie. Urologie 64:1037–1045. https://doi.org/10.1007/s00120-025-02673-8",
+    "Guía: EAU Guidelines on Testicular Cancer 2026, capítulo 6 Disease Management y capítulo 7 Follow-up. Texto completo en línea, consultado el 21.09.2026.",
+    "Estudio: Knight AK et al. (2005) Pruebas de β-hCG falsamente positivas frecuentes en el déficit de IgA. Clin Exp Immunol 141:333–337 (citado en la fuente primaria 1).",
+    "Estudio: Yoshimura K et al. (2019) Presunta producción hipofisaria de hCG durante la deprivación androgénica. Int Braz J Urol 45:38–44 (citado en la fuente primaria 1).",
+    "Estudio: Iles RK (2007) Expresión ectópica de β-hCG en carcinomas epiteliales. Mol Cell Endocrinol 260–262:264–270 (citado en la fuente primaria 1).",
+    "Estudio: Pongratanakul P et al. (2024) Subtipificación molecular y epigenética del síndrome de teratoma en crecimiento. Cancer Lett (citado en la fuente primaria 2).",
+    "Estudio: Bremmer F et al. (2023) Carga mutacional, metiloma y proteoma de neoplasias de tipo somático. Br J Cancer 129:1580–1589 (citado en la fuente primaria 2).",
+    "Estudio: Rocco NR et al. (2020) RPLND robótica primaria en el estadio I. World J Urol 38:859–867; Taylor J et al. (2021) Eur Urol Focus 7:1403–1408 (citado en las fuentes primarias 3 y 4).",
+    "Estudio: Ge S et al. (2023) Int J Surg 109:2808–2818 y Yuan Y et al. (2023) Front Oncol 13:1257528, metaanálisis de RPLND robótica (citado en la fuente primaria 3).",
+    "Estudio: Garg H et al. (2023) BJU Int 132:9–30, revisión sistemática de RPLND robótica; Fankhauser CD et al. (2022) World J Urol 40:1505–1512 (citado en la fuente primaria 4).",
+    "Datos asistenciales: Groeben C et al. (2020) Tendencias de centralización de la RPLND en Alemania. World J Urol 38:1765–1772 (citado en la fuente primaria 4)."
+  ],
+  "axes": {
+    "A": "Errores de medición y ensayos",
+    "B": "Elevación de hCG no tumoral",
+    "C": "hCG fuera del tumor germinal",
+    "D": "Subtipos especiales de tumores germinales",
+    "E": "Subtipos resistentes y opciones de ensayos clínicos",
+    "F": "Elección del abordaje de la RPLND primaria",
+    "G": "RPLND posquimioterapia",
+    "H": "Organización asistencial e información al paciente"
+  },
+  "merk": {
+    "A": [
+      "Los anticuerpos heterófilos en el déficit de IgA causan β-hCG falsamente positiva; la comprobación se realiza con un ensayo de formato de anticuerpo distinto [Q].",
+      "La biotina reduce falsamente los valores medidos; ante discrepancia entre imagen y marcadores hay que preguntar por los suplementos [Q].",
+      "La subforma de hCG detectada por un ensayo difiere entre fabricantes y debe aclararse antes de interpretar el resultado [Q]."
+    ],
+    "B": [
+      "Insuficiencia renal en diálisis: la hCG puede aumentar por un factor de 10; a la inversa, con una función renal excelente puede ser falsamente baja [Q].",
+      "Tras la primera dosis de un agonista de LHRH, la hCG puede ser transitoriamente de origen hipofisario; los valores se normalizan en tres meses [Q].",
+      "Las elevaciones leves y estables pueden observarse; se trata ante ascenso o correlato en la imagen [LL EAU 2026, 6.2.1]."
+    ],
+    "C": [
+      "El 10–30 % de todos los tumores malignos no germinales produce β-hCG, especialmente en estadio avanzado [Q].",
+      "En el carcinoma urotelial, la tasa de detección es del 30–76 % en suero y del 35–73 % en orina; no sirve como marcador precoz [Q].",
+      "Fuera del tumor testicular, la determinación de β-hCG no tiene un papel establecido y no figura en ninguna guía [Q]."
+    ],
+    "D": [
+      "Teratoma en crecimiento durante la quimioterapia con marcadores normales: completar el tratamiento y después resecarlo por completo sin demora [Q] [LL EAU 2026, 6.3.1].",
+      "Un crecimiento superior a 1,5 cm por mes identifica al grupo de crecimiento rápido y curso más agresivo [Q].",
+      "Neoplasia de tipo somático en la pieza: quimiorresistente, supervivencia a 5 años del 50–60 %; ninguna terapia sistémica adicional tras resección R0 [Q] [LL EAU 2026, 6.3.3.3]."
+    ],
+    "E": [
+      "Los conjugados dirigidos a CLDN6 y CXCR4 y los inhibidores de cinasas para tumores del saco vitelino son preclínicos [Q].",
+      "Los fármacos dirigidos, incluidos los inhibidores de puntos de control, han fracasado hasta ahora en la situación refractaria [LL EAU 2026, 6.3.5].",
+      "Las segundas recaídas deben tratarse en centros y, si es posible, en ensayos; la resección tras una buena respuesta todavía puede ser curativa [LL EAU 2026, 6.3.5]."
+    ],
+    "F": [
+      "No seminoma en estadio IIA con marcadores negativos: RPLND con preservación nerviosa por cirujanos experimentados en un centro [LL EAU 2026, 6.2.2.2.1].",
+      "Cirugía mínimamente invasiva solo en centros con alto volumen de RPLND y experiencia mínimamente invasiva; la experiencia robótica habitual de otras intervenciones no basta [LL EAU 2026, 6.1.3.2].",
+      "Estadio IA sin invasión vascular: vigilancia; las intervenciones de estadificación operan a la mayoría sin beneficio [LL EAU 2026, 6.1.3.7] [Q]."
+    ],
+    "G": [
+      "Los residuos de más de 1 cm con marcadores normalizados se resecan dentro de las seis a ocho semanas posteriores al último ciclo [LL EAU 2026, 6.3.2.2].",
+      "No es admisible extirpar únicamente la lesión visible; deben respetarse los límites del campo [LL EAU 2026, 6.3.2.2].",
+      "Cirugía robótica solo con un residuo pequeño, localización favorable y sin cirugía previa; la enfermedad voluminosa y central sigue correspondiendo a cirugía abierta [Q] [LL EAU 2026, 6.3.3.1]."
+    ],
+    "H": [
+      "Más del 80 % de los 150 servicios que realizan RPLND operan como máximo cuatro casos al año; solo el 15 % de los pacientes se trata en centros [Q].",
+      "En los centros especializados, la mortalidad perioperatoria baja del 6 % al 0,8 % y la tasa de recaída local del 16 % al 3 % [LL EAU 2026, 6.3.3.1].",
+      "Eyaculación anterógrada: los centros individuales describen un 100 % y los datos multicéntricos un 65–71 %; debe informarse del rango [Q]."
+    ]
+  },
+  "questions": [
+    {
+      "n": 1,
+      "axis": "A",
+      "diff": 2,
+      "correct": "C",
+      "objective": "Puede reconocer una elevación falsamente positiva de β-hCG causada por anticuerpos heterófilos y aclararla mediante pruebas de laboratorio.",
+      "reference": "Artículo: síndrome de déficit de IgA y anticuerpos heterófilos, método de medición; EAU 2026, 6.2.1 y 7.1",
+      "vignette": "Un varón de 34 años está en seguimiento dos años después de la orquiectomía por un seminoma en estadio I. La β-hCG se sitúa entre 6 y 8 U/l en tres mediciones, AFP normal, testosterona y LH normales, RM de abdomen y pelvis sin hallazgos. Se conoce un déficit selectivo de IgA. Acude para aclarar el hallazgo de marcadores.",
+      "lead": "¿Qué paso aclara el hallazgo de marcadores?",
+      "opts": {
+        "A": "Iniciar tres ciclos de BEP por recaída solo de marcadores",
+        "B": "Administrar testosterona y repetir después la β-hCG",
+        "C": "Medir con un ensayo de formato de anticuerpo distinto",
+        "D": "PET-TC con FDG para buscar el origen del marcador",
+        "E": "Repetir la β-hCG solo en la visita anual siguiente"
+      },
+      "rat": {
+        "A": "Error de concepto: tres valores concordantes serían concluyentes. Sin ascenso y sin lesión, el diagnóstico no se sostiene [Q].",
+        "B": "Error de concepto: trasladar la reacción cruzada con la LH. Esa vía exige LH alta con testosterona baja, y aquí no se da ninguna de las dos [Q].",
+        "C": "En el déficit de IgA abundan los anticuerpos heterófilos, que reaccionan de forma cruzada con los ensayos y hacen que la β-hCG parezca falsamente elevada [Q].",
+        "D": "Error de concepto: los marcadores dudosos exigirían PET. La EAU no recomienda la PET-TC con FDG durante la vigilancia [LL EAU 2026, 7.1].",
+        "E": "Error de concepto: un marcador dudoso podría esperar un año. La causa debe aclararse, no aplazarse [X]."
+      },
+      "core": "El hallazgo debe comprobarse en el laboratorio antes de cualquier tratamiento: los anticuerpos heterófilos en el déficit de IgA explican una elevación constante de β-hCG que no asciende [Q].",
+      "ev": "Knight et al. analizaron 54 sueros de pacientes con síndrome de déficit de IgA y atribuyeron las elevaciones medidas a anticuerpos heterófilos tras excluir otras causas [Q]. Qué subforma de hCG detecta cada ensayo difiere entre fabricantes y debe comprobarse de antemano [Q]. La EAU señala resultados falsamente positivos de los marcadores establecidos [LL EAU 2026, 7.1] y permite observar al inicio valores estables levemente elevados [LL EAU 2026, 6.2.1].",
+      "prax": "Cambiar de ensayo cuesta poco y evita una quimioterapia sin tumor [X]. Los suplementos de biotina entran en la misma anamnesis, porque bajan falsamente los valores [Q].",
+      "merk": "β-hCG levemente elevada y constante con déficit de IgA: primero otro ensayo, después el diagnóstico de recaída.",
+      "flag": "Los datos sobre anticuerpos heterófilos proceden de series pequeñas y casos aislados; excluir otras causas sigue siendo un requisito."
+    },
+    {
+      "n": 2,
+      "axis": "A",
+      "diff": 2,
+      "correct": "A",
+      "objective": "Puede reconocer un resultado de marcadores falsamente bajo y basar la decisión terapéutica en los hallazgos de imagen.",
+      "reference": "Artículo: método de medición y factores de interferencia; EAU 2026, 6.2.2.2.1",
+      "vignette": "Un varón de 30 años en vigilancia por un no seminoma en estadio I acude al control de los 6 meses. La RM muestra un ganglio paraaórtico nuevo de 2,4 cm; AFP y β-hCG son normales. Desde hace meses toma un suplemento de biotina en dosis altas. Debe definirse la conducta.",
+      "lead": "¿Cómo debe manejarse este hallazgo?",
+      "opts": {
+        "A": "Tratarlo como estadio IIA y repetir marcadores sin biotina",
+        "B": "Tomar los marcadores normales como exclusión y control en 3 meses",
+        "C": "Añadir LDH para confirmar los valores normales de marcadores",
+        "D": "Biopsia del ganglio antes de cualquier otra decisión",
+        "E": "PET-TC con FDG para aclarar la discrepancia imagen-laboratorio"
+      },
+      "rat": {
+        "A": "Decide la imagen: un ganglio nuevo de 2,4 cm corresponde a un estadio IIA y se trata como tal [LL EAU 2026, 6.2.2.2.1]; además la biotina puede hacer que los marcadores parezcan falsamente bajos [Q].",
+        "B": "Error de concepto: marcadores normales excluirían la recaída. Los seminomas secretan hCG solo en torno al 30 % y la biotina baja aún más los valores [Q].",
+        "C": "Error de concepto: la LDH como respaldo. Es inespecífica y no aclara ni la discrepancia ni el hallazgo de imagen [X].",
+        "D": "Error de concepto: la histología debería preceder a todo tratamiento. En un estadio IIA inequívoco, la linfadenectomía con preservación nerviosa es a la vez el paso diagnóstico y terapéutico [LL EAU 2026, 6.2.2.2.1].",
+        "E": "Error de concepto: la PET resolvería la discrepancia. En el no seminoma no está indicada para la reestadificación [LL EAU 2026, 6.3.2.2]."
+      },
+      "core": "Un marcador normal no excluye la recaída y la biotina desplaza la medición hacia abajo. La decisión sigue a la imagen y los marcadores se repiten sin el interferente [Q] [LL EAU 2026, 6.2.2.2.1].",
+      "ev": "La toma regular de biotina produce valores falsamente bajos en el laboratorio [Q]. Incluso sin interferencia, los marcadores solo están elevados en una parte de los tumores germinales; los seminomas secretan hCG como mucho en el 30 % de los casos [Q]. En el no seminoma en estadio IIA sin marcadores, la EAU recomienda como tratamiento inicial la linfadenectomía con preservación nerviosa en un centro especializado y permite un control a las seis semanas con ganglios menores de 2 cm [LL EAU 2026, 6.2.2.2.1].",
+      "prax": "Ante cualquier resultado de marcadores poco plausible debe preguntarse por los suplementos, y la medición se repite tras suspenderlos [Q]. La conducta se guía por la imagen, no por el valor de laboratorio [LL EAU 2026, 6.2.2.2.1].",
+      "merk": "Discrepancia entre imagen y marcadores: preguntar por la biotina, repetir sin ella y tratar el hallazgo de imagen.",
+      "flag": null
+    },
+    {
+      "n": 3,
+      "axis": "B",
+      "diff": 2,
+      "correct": "D",
+      "objective": "Puede interpretar una elevación de β-hCG en la insuficiencia renal terminal como un fenómeno de retención.",
+      "reference": "Artículo: insuficiencia renal terminal; EAU 2026, 6.2.1 y 6.3.1",
+      "vignette": "Un varón de 46 años lleva ocho años libre de recaída tras quimioterapia por un no seminoma y desde hace un año está en diálisis. La β-hCG es de 14 y 15 U/l en dos mediciones, AFP normal, RM de abdomen y pelvis y radiografía de tórax normales, testosterona y LH normales. Acude para valorar el hallazgo de marcadores.",
+      "lead": "¿Qué interpretación y qué conducta son adecuadas?",
+      "opts": {
+        "A": "Asumir una recaída tardía e iniciar quimioterapia de rescate",
+        "B": "Añadir PET-TC con FDG y RM craneal para buscar recaída",
+        "C": "Administrar testosterona y volver a medir la β-hCG",
+        "D": "Asumir retención renal y controlar la evolución",
+        "E": "Solicitar la resección de un residuo retroperitoneal"
+      },
+      "rat": {
+        "A": "Error de concepto: toda elevación tras años sería una recaída tardía. El rescate solo está indicado ante progresión documentada de marcadores [LL EAU 2026, 6.3.1].",
+        "B": "Error de concepto: una imagen amplia sustituiría al diagnóstico diferencial. La PET-TC con FDG no se recomienda en la vigilancia [LL EAU 2026, 7.1] y no explica el hallazgo de laboratorio [X].",
+        "C": "Error de concepto: trasladar la reacción cruzada con la LH. Exige LH alta; con LH y testosterona normales ese mecanismo no se sostiene [Q].",
+        "D": "En la insuficiencia renal terminal la filtración de la molécula queda reducida al mínimo y el nivel puede subir por un factor de 10 [Q].",
+        "E": "Error de concepto: la cirugía como diagnóstico. Sin residuo en la imagen no hay nada que resecar [X]."
+      },
+      "core": "Valores estables sin dinámica y sin lesión en un paciente en diálisis apuntan a falta de eliminación renal, no a una recaída [Q].",
+      "ev": "La molécula de hCG se filtra por el riñón y se excreta en parte; en la enfermedad renal en diálisis esa filtración queda reducida a un mínimo no medible y el nivel plasmático puede subir por un factor de 10 [Q]. A la inversa, con función renal excelente los valores pueden ser falsamente bajos [Q]. La EAU permite observar al inicio marcadores estables levemente elevados y exige tratamiento solo ante ascenso o correlato en la imagen [LL EAU 2026, 6.2.1].",
+      "prax": "Conviene documentar el valor basal en diálisis para que los controles posteriores muestren una dinámica real [X]. Si el valor asciende, vuelve a regir la norma sobre progresión de marcadores [LL EAU 2026, 6.3.1].",
+      "merk": "Diálisis con β-hCG elevada: pensar primero en retención, controlar la evolución y no tratar.",
+      "flag": "La base de datos es una serie de 44 pacientes y opinión de expertos; un valor en ascenso sigue exigiendo estudio."
+    },
+    {
+      "n": 4,
+      "axis": "B",
+      "diff": 1,
+      "correct": "B",
+      "objective": "Puede interpretar un ascenso transitorio de hCG tras iniciar la deprivación androgénica y evitar pruebas innecesarias.",
+      "reference": "Artículo: elevación durante la terapia de deprivación androgénica; EAU 2026, 6.2.1",
+      "vignette": "Un varón de 71 años con cáncer de próstata localmente avanzado recibió hace cuatro semanas la primera inyección de un agonista de LHRH. En el laboratorio destaca una hCG levemente elevada, AFP normal, testículos normales en la ecografía y sin indicios de otra neoplasia. Acude para valorar el hallazgo.",
+      "lead": "¿Qué conducta es adecuada?",
+      "opts": {
+        "A": "Exploración testicular para descartar un tumor germinal oculto",
+        "B": "Controlar la evolución y esperar normalización en tres meses",
+        "C": "Solicitar el panel completo de marcadores y una TC",
+        "D": "Suspender el agonista de LHRH y pasar a un antagonista",
+        "E": "Medir la hCG en orina para confirmar la elevación"
+      },
+      "rat": {
+        "A": "Error de concepto: una hCG elevada significaría tumor testicular. La ecografía es normal y la constelación se explica por la castración [Q].",
+        "B": "En la serie citada la elevación apareció solo tras la primera aplicación y a los tres meses los valores ya eran normales [Q].",
+        "C": "Error de concepto: la búsqueda tumoral completa sería lo más seguro. Genera hallazgos incidentales sin comprobar la causa evidente [X].",
+        "D": "Error de concepto: el agonista sería perjudicial. El efecto es pasajero y no justifica cambiar un tratamiento eficaz [Q].",
+        "E": "Error de concepto: la medición en orina confirmaría el valor sérico. En orina se mide el fragmento β-core y la prueba solo está autorizada para detectar embarazo [Q]."
+      },
+      "core": "Tras la primera dosis de un agonista de LHRH la hCG puede ser de origen hipofisario ectópico y pasajero. Sin más indicios procede el control evolutivo, no el estudio de tumor germinal [Q].",
+      "ev": "Yoshimura et al. estudiaron a 44 pacientes con cáncer de próstata localmente avanzado sin metástasis a distancia: solo se detectó hCG nativa, no la subunidad β libre, y los valores elevados aparecieron únicamente tras la primera aplicación del agonista; tres meses después del inicio ya eran normales [Q]. Se responsabiliza a los niveles elevados de GnRH, que estimulan la producción hipofisaria ectópica [Q]. La EAU maneja las elevaciones leves y estables con observación inicial [LL EAU 2026, 6.2.1].",
+      "prax": "Si el valor sigue elevado o asciende, el diagnóstico diferencial vuelve a empezar [X]. Un estudio de tumor testicular mal orientado carga al paciente sin beneficio [X].",
+      "merk": "Ascenso de hCG poco después del primer agonista de LHRH: origen hipofisario pasajero, controlar en vez de buscar tumor.",
+      "flag": "La explicación se basa en una serie de 44 pacientes y en un razonamiento fisiopatológico, sin confirmación prospectiva."
+    },
+    {
+      "n": 5,
+      "axis": "C",
+      "diff": 3,
+      "correct": "E",
+      "objective": "Puede interpretar una elevación de β-hCG en un tumor no germinal y explicar sus limitaciones como marcador de seguimiento.",
+      "reference": "Artículo: elevación de hCG en tumores no germinales, hCG en el carcinoma urotelial",
+      "vignette": "Un varón de 68 años con carcinoma urotelial de vejiga metastásico recibe quimioterapia. En otro centro se midió la β-hCG y está claramente elevada; los testículos son normales clínica y ecográficamente, la AFP es normal. Los colegas preguntan si hay un segundo tumor y si el marcador debe guiar el tratamiento.",
+      "lead": "¿Cómo debe interpretarse el hallazgo?",
+      "opts": {
+        "A": "Asumir una segunda neoplasia en forma de tumor germinal",
+        "B": "Guiar en adelante las decisiones por la evolución de la β-hCG",
+        "C": "Biopsia testicular bilateral para aclarar el origen del marcador",
+        "D": "Usar la β-hCG en orina como marcador precoz de tumor vesical",
+        "E": "Asumir producción ectópica por el carcinoma urotelial"
+      },
+      "rat": {
+        "A": "Error de concepto: la β-hCG sería específica de tumores germinales. La revisión refuta justamente eso: la elevación aparece en numerosas entidades [Q].",
+        "B": "Error de concepto: un marcador plausible ya sería un instrumento de guía. Los datos evolutivos proceden de casos aislados [Q].",
+        "C": "Error de concepto: el origen del marcador debería confirmarse histológicamente. Unos testículos normales y un carcinoma metastásico conocido explican el hallazgo [Q].",
+        "D": "Error de concepto: un marcador con una tasa de detección en orina del 35 al 73 % serviría para la detección precoz [Q].",
+        "E": "La β-hCG la producen de forma autocrina entre el 10 y el 30 % de los tumores malignos no germinales, con especial frecuencia en el carcinoma urotelial [Q]."
+      },
+      "core": "Aquí el valor refleja el carcinoma conocido, no un segundo tumor. Para guiar el tratamiento, al marcador le falta validación [Q].",
+      "ev": "En el carcinoma urotelial la tasa de detección está entre el 30 y el 76 % en suero, del 35 al 73 % en orina y en torno al 35 % en inmunohistoquímica [Q]. La elevación se asocia a menor diferenciación, mayor invasividad, mayor grado de metastatización y radiorresistencia [Q]. Ni la guía alemana S3 del tumor vesical ni las guías de la EAU mencionan el marcador, y faltan estudios amplios [Q].",
+      "prax": "Antes de cada petición de marcador está la pregunta de qué cambiaría el resultado [X]. A la inversa, una elevación poco plausible en el seguimiento del tumor testicular invita a mirar otras neoplasias [Q].",
+      "merk": "La β-hCG no es específica de tumores germinales: del 10 al 30 % de los no germinales la producen sin que guíe el tratamiento.",
+      "flag": "El papel de la β-hCG en el carcinoma urotelial se basa en series y casos aislados; como marcador evolutivo no está validado ni recogido en ninguna guía."
+    },
+    {
+      "n": 6,
+      "axis": "D",
+      "diff": 2,
+      "correct": "A",
+      "objective": "Puede reconocer un teratoma en crecimiento durante la quimioterapia y determinar el momento de la resección.",
+      "reference": "Artículo: síndrome de teratoma en crecimiento; EAU 2026, 6.3.1",
+      "vignette": "Un varón de 28 años recibe el tercer ciclo de BEP por un no seminoma metastásico. La AFP y la β-hCG se han normalizado, mientras que la masa retroperitoneal ha crecido de 3 a 7 cm en dos meses. Está asintomático. Debe definirse la conducta.",
+      "lead": "¿Qué conducta es adecuada?",
+      "opts": {
+        "A": "Terminar la quimioterapia y resecar sin demora",
+        "B": "Pasar de inmediato a quimioterapia de rescate con TIP",
+        "C": "Añadir dos ciclos más de BEP y volver a valorar",
+        "D": "Observar por ahora y medir de nuevo en tres meses",
+        "E": "Solicitar radioterapia de la masa en crecimiento"
+      },
+      "rat": {
+        "A": "Con marcadores en descenso o normales y tumor en crecimiento, la resección completa es la única estrategia eficaz [Q]; la EAU recomienda en esta situación la extirpación quirúrgica precoz [LL EAU 2026, 6.3.1].",
+        "B": "Error de concepto: el crecimiento significaría tumor viable. El rescate solo está indicado ante progresión documentada de marcadores [LL EAU 2026, 6.3.1].",
+        "C": "Error de concepto: más ciclos alcanzarían al teratoma. El tejido teratomatoso no responde y los ciclos solo retrasan la cirugía [Q].",
+        "D": "Error de concepto: la ausencia de síntomas permitiría esperar. Los componentes no seminomatosos ocultos pueden volver a crecer [Q] y la resección se complica técnicamente [X].",
+        "E": "Error de concepto: la radioterapia sustituiría a la resección. En el teratoma en crecimiento la cirugía es el único tratamiento eficaz [Q]."
+      },
+      "core": "Marcadores normalizados con masa en crecimiento no son un fracaso de la quimioterapia, sino la indicación de una resección completa y sin demora [Q] [LL EAU 2026, 6.3.1].",
+      "ev": "En el 2 al 8 % de los pacientes con no seminoma metastásico el tumor crece durante la quimioterapia mientras los marcadores caen o permanecen normales; la histología muestra exclusivamente teratoma maduro [Q]. Pongratanakul et al. agruparon 50 casos por velocidad de crecimiento: más de 1,5 cm al mes caracteriza al grupo de crecimiento rápido, con mayor actividad migratoria y curso más agresivo [Q]. La definición ampliada entiende el síndrome como un teratoma con componentes no seminomatosos ocultos que pueden volver a crecer [Q].",
+      "prax": "El ritmo debe constar: los centímetros por mes separan los grupos evolutivos y justifican la urgencia [Q]. La cirugía sigue los límites del campo y no consiste en enuclear la lesión [LL EAU 2026, 6.3.2.2].",
+      "merk": "Masa en crecimiento con marcadores normales: teratoma, sin escalar quimioterapia y con resección completa precoz.",
+      "flag": null
+    },
+    {
+      "n": 7,
+      "axis": "D",
+      "diff": 3,
+      "correct": "C",
+      "objective": "Puede valorar correctamente el papel de la terapia sistémica tras resecar una neoplasia de tipo somático.",
+      "reference": "Artículo: neoplasia de tipo somático; EAU 2026, 6.3.3.3 y 6.3.5",
+      "vignette": "A un varón de 33 años se le resecó dentro de los límites del campo un residuo retroperitoneal de 4 cm tras tres ciclos de BEP, con R0. La histología muestra teratoma y un adenocarcinoma como neoplasia de tipo somático. Los marcadores son normales y la imagen no muestra otras lesiones. Acude para definir el tratamiento posoperatorio.",
+      "lead": "¿Qué conducta posoperatoria está justificada?",
+      "opts": {
+        "A": "Añadir dos ciclos adyuvantes según el esquema del tumor germinal",
+        "B": "Administrar un inhibidor de punto de control por el componente somático",
+        "C": "Ninguna terapia sistémica adicional y seguimiento estrecho",
+        "D": "Solicitar radioterapia posoperatoria del lecho quirúrgico",
+        "E": "Planificar quimioterapia a dosis altas con soporte de progenitores"
+      },
+      "rat": {
+        "A": "Error de concepto: el esquema del tumor germinal alcanzaría también al componente somático. Precisamente su quimiorresistencia marca el pronóstico [Q].",
+        "B": "Error de concepto: los tumores somáticos responderían en general a los inhibidores de punto de control. En los tumores germinales solo responde un pequeño subgrupo refractario [Q] y los fármacos dirigidos han fracasado en esa situación [LL EAU 2026, 6.3.5].",
+        "C": "Tras una resección completa ninguna terapia sistémica adicional aporta beneficio; el control se hace mediante el seguimiento [LL EAU 2026, 6.3.3.3] [Q].",
+        "D": "Error de concepto: la radioterapia aseguraría la situación R0. Falta base de datos para este proceder [X].",
+        "E": "Error de concepto: máxima terapia sistémica ante un pronóstico desfavorable. Las dosis altas están pensadas para recaídas sensibles al platino [LL EAU 2026, 6.3.5]."
+      },
+      "core": "Las neoplasias de tipo somático no responden a la quimioterapia del tumor germinal; su tratamiento es la resección completa. Después viene el seguimiento, no la terapia sistémica adyuvante [Q] [LL EAU 2026, 6.3.3.3].",
+      "ev": "Las neoplasias de tipo somático aparecen en el 1 al 8 % de los tumores germinales primarios y metastásicos, sobre todo tras quimioterapia, y conllevan una supervivencia a 5 años del 50 al 60 % [Q]. Histológicamente abarcan desde rabdomiosarcomas hasta adenocarcinomas y tumores neuroectodérmicos [Q]. La EAU no prevé más tratamiento tras resecar necrosis o teratoma pospuberal y considera que la quimioterapia adyuvante no aporta beneficio tras una resección completa [LL EAU 2026, 6.3.3.3].",
+      "prax": "Con teratoma y componentes somáticos se recomienda la revisión por patología de referencia [LL EAU 2026, 6.1.3.5]. Los componentes somáticos no resecables por completo corresponden al comité multidisciplinar [X].",
+      "merk": "Neoplasia de tipo somático en la pieza: tratamiento quirúrgico; tras R0 no se añade quimioterapia del tumor germinal.",
+      "flag": "No hay datos terapéuticos prospectivos para las neoplasias de tipo somático en la pieza; la recomendación se apoya en series retrospectivas."
+    },
+    {
+      "n": 8,
+      "axis": "E",
+      "diff": 3,
+      "correct": "B",
+      "objective": "Puede valorar de forma realista los enfoques dirigidos preclínicos para tumores del saco vitelino resistentes.",
+      "reference": "Artículo: tumor del saco vitelino, resistencia y opciones terapéuticas; EAU 2026, 6.3.5",
+      "vignette": "Un varón de 35 años presenta una segunda recaída de un no seminoma con componente de tumor del saco vitelino tras quimioterapia de primera línea y de rescate. Ha leído sobre conjugados anticuerpo-fármaco contra CLDN6 y sobre inhibidores de FGFR y pregunta si son una opción para él. Acude para definir la conducta.",
+      "lead": "¿Qué recomendación está justificada?",
+      "opts": {
+        "A": "Usar un conjugado dirigido a CLDN6 como uso compasivo",
+        "B": "Derivación a un centro y tratamiento dentro de un ensayo",
+        "C": "Usar un inhibidor de FGFR fuera de ficha según panel génico",
+        "D": "Administrar un inhibidor de punto de control como siguiente línea",
+        "E": "Continuar la quimioterapia con platino a la misma dosis"
+      },
+      "rat": {
+        "A": "Error de concepto: la eficacia preclínica justificaría el uso compasivo. Faltan dosis, seguridad y eficacia en pacientes [Q].",
+        "B": "Los fármacos descritos proceden de modelos celulares; en esta situación la EAU anima a incluir al paciente en ensayos clínicos en centros [LL EAU 2026, 6.3.5] [Q].",
+        "C": "Error de concepto: un resultado de panel justificaría el tratamiento. Las vías citadas proceden de modelos de resistencia, no de ensayos clínicos [Q].",
+        "D": "Error de concepto: la inmunoterapia como reserva estándar. Los fármacos dirigidos, incluidos los inhibidores de punto de control, han fracasado en la situación refractaria [LL EAU 2026, 6.3.5].",
+        "E": "Error de concepto: continuar sin cambios tras el fallo de dos líneas. No hay fundamento para ello [LL EAU 2026, 6.3.5]."
+      },
+      "core": "Los conjugados dirigidos a CLDN6 y CXCR4 y los inhibidores de cinasas son enfoques experimentales de modelos celulares [Q]. La vía justificada lleva a un centro y a un ensayo [LL EAU 2026, 6.3.5].",
+      "ev": "Para los tumores del saco vitelino resistentes, el artículo describe fármacos dirigidos a FGFR, CHEK1 y PARP, multiinhibidores de cinasas y conjugados dirigidos a CLDN6 y CXCR4, evaluados en líneas celulares y modelos [Q]. También constata que solo un pequeño subgrupo refractario de tumores germinales responde a los inhibidores de punto de control [Q]. La EAU señala que los fármacos dirigidos han fracasado hasta ahora en la situación refractaria y anima a la inclusión en ensayos [LL EAU 2026, 6.3.5].",
+      "prax": "Tras una buena respuesta, la resección de lesiones residuales todavía puede curar incluso en la segunda recaída [LL EAU 2026, 6.3.5]. Las expectativas sobre fármacos nuevos deben plantearse con claridad y sin promesas [X].",
+      "merk": "Los enfoques dirigidos en el tumor del saco vitelino son preclínicos: centro y ensayo en lugar de uso compasivo.",
+      "flag": null
+    },
+    {
+      "n": 9,
+      "axis": "F",
+      "diff": 3,
+      "correct": "D",
+      "objective": "Puede basar la elección entre linfadenectomía abierta y robótica en los criterios de las guías y no en parámetros indirectos.",
+      "reference": "Artículos: Angerer et al. y Heidenreich/Pfister; EAU 2026, 6.1.3.2 y 6.2.2.2.1",
+      "vignette": "Un varón de 29 años con no seminoma presenta un ganglio paraaórtico de 2,5 cm con marcadores normalizados. En el centro de tumores testiculares se planifica la linfadenectomía con preservación nerviosa; el cirujano domina ambos abordajes. El paciente pregunta si debería operarse con robot. Debe definirse el abordaje.",
+      "lead": "¿Qué recomendación está justificada?",
+      "opts": {
+        "A": "Robótico, porque el sangrado y la estancia son menores",
+        "B": "Abierto, porque la técnica robótica es oncológicamente inferior",
+        "C": "Quimioterapia primaria en vez de cirugía, por ser más manejable",
+        "D": "Ambos abordajes son admisibles en el centro; decide la experiencia",
+        "E": "Robótico en cualquier clínica con cirugía prostática robótica"
+      },
+      "rat": {
+        "A": "Error de concepto: las ventajas perioperatorias probarían la equivalencia oncológica. El seguimiento de las series robóticas es corto [Q].",
+        "B": "Error de concepto: la falta de datos a largo plazo probaría la inferioridad. En los trabajos comparativos las tasas de recaída son idénticas [Q].",
+        "C": "Error de concepto: la quimioterapia sería la solución más sencilla. En el estadio IIA sin marcadores, la cirugía es el tratamiento inicial recomendado y puede evitar la quimioterapia [LL EAU 2026, 6.2.2.2.1].",
+        "D": "La guía vincula su recomendación a la preservación nerviosa, la experiencia y el centro, no a un instrumento [LL EAU 2026, 6.2.2.2.1] [LL EAU 2026, 6.1.3.2].",
+        "E": "Error de concepto: la rutina robótica de otras intervenciones bastaría. No sustituye la experiencia específica en tumores testiculares [Q] [LL EAU 2026, 6.1.3.2]."
+      },
+      "core": "Lo decisivo son los límites del campo, la preservación nerviosa y el volumen del centro. Donde se dominan ambas técnicas, la elección del abordaje es admisible [LL EAU 2026, 6.2.2.2.1] [Q].",
+      "ev": "En el no seminoma en estadio IIA sin marcadores, la EAU recomienda como tratamiento inicial la linfadenectomía con preservación nerviosa por un cirujano experimentado en un centro especializado [LL EAU 2026, 6.2.2.2.1]. Los procedimientos mínimamente invasivos se consideran factibles y seguros en manos expertas, pero solo deben realizarse en centros con alto volumen y experiencia mínimamente invasiva [LL EAU 2026, 6.1.3.2]. Los metaanálisis muestran con robot menos sangrado y estancias más cortas con tasas de recaída comparables [Q]; la posición contraria señala tiempos quirúrgicos más largos y seguimiento breve [Q].",
+      "prax": "Los datos multicéntricos describieron más recaídas dentro del campo con la preservación nerviosa, lo que justifica vincular la intervención a centros [LL EAU 2026, 6.1.3.2]. Quien elige el abordaje documenta los límites del campo [X].",
+      "merk": "Elección del abordaje: primero centro y experiencia, después instrumento; la guía no favorece ninguna técnica.",
+      "flag": "Los dos artículos de origen valoran los mismos datos de forma opuesta y la EAU no fija ningún abordaje. La respuesta correcta sigue la guía."
+    },
+    {
+      "n": 10,
+      "axis": "F",
+      "diff": 2,
+      "correct": "A",
+      "objective": "Puede diferenciar la vigilancia de las estrategias de estadificación quirúrgica en el estadio IA.",
+      "reference": "Artículo: RPLND primaria en estadio clínico I (Heidenreich/Pfister); EAU 2026, 6.1.3.7",
+      "vignette": "Un varón de 27 años tiene un no seminoma en estadio IA sin invasión vascular, marcadores normalizados e imagen sin hallazgos. En otro centro le ofrecen una linfadenectomía de ganglio centinela asistida por robot dentro de un estudio como estadificación más precisa. Es fiable en el seguimiento. Asesoramiento sobre la conducta.",
+      "lead": "¿Qué recomendación está justificada?",
+      "opts": {
+        "A": "Vigilancia activa; inclusión en el estudio solo tras informarle",
+        "B": "Linfadenectomía de centinela robótica para estadificar mejor",
+        "C": "Linfadenectomía bilateral con preservación nerviosa para estadificar",
+        "D": "Administrar un ciclo adyuvante de BEP por el riesgo de recaída",
+        "E": "Carboplatino adyuvante como en el seminoma en estadio I"
+      },
+      "rat": {
+        "A": "Sin invasión vascular, la vigilancia es la opción preferente; la cirugía de estadificación queda para casos muy seleccionados o para estudios [LL EAU 2026, 6.1.3.7] [Q].",
+        "B": "Error de concepto: estadificar mejor sería automáticamente un beneficio. En el estudio citado se operaría innecesariamente al 70 u 80 % de los pacientes con no seminoma [Q].",
+        "C": "Error de concepto: la intervención bilateral sería más segura. Aumenta la morbilidad y el riesgo eyaculatorio sin ganancia oncológica en el estadio IA [Q].",
+        "D": "Error de concepto: todo estadio I necesitaría adyuvancia. Sin invasión vascular se aconseja la vigilancia [LL EAU 2026, 6.1.3.7].",
+        "E": "Error de concepto: trasladar el esquema del seminoma. El carboplatino no es una opción adyuvante en el no seminoma [LL EAU 2026, 6.1.3.7]."
+      },
+      "core": "En el estadio IA sin invasión vascular procede la vigilancia. Las estrategias de estadificación quirúrgica operan a la mayoría sin beneficio y corresponden a ensayos con información clara [LL EAU 2026, 6.1.3.7] [Q].",
+      "ev": "En el estadio IA la EAU recomienda vigilancia si el paciente colabora, y la linfadenectomía con preservación nerviosa solo en pacientes muy seleccionados con contraindicación para la quimioterapia adyuvante [LL EAU 2026, 6.1.3.7]. Como indicaciones en el estadio I cita el teratoma con componente maligno somático y los pacientes para quienes la quimioterapia en la recaída no es viable [LL EAU 2026, 6.1.3.2]. En una serie robótica en estadio I solo 17 de 56 pacientes tenían metástasis ganglionares [Q].",
+      "prax": "La fiabilidad en el seguimiento es el requisito de la vigilancia y debe comprobarse activamente [LL EAU 2026, 6.1.3.7]. Si se plantea un estudio, la tasa de intervenciones innecesarias forma parte de la información [Q].",
+      "merk": "Estadio IA sin invasión vascular: vigilancia; las cirugías de estadificación solo aportan riesgo a la mayoría.",
+      "flag": null
+    },
+    {
+      "n": 11,
+      "axis": "G",
+      "diff": 2,
+      "correct": "E",
+      "objective": "Puede aplicar los criterios de selección de un abordaje mínimamente invasivo para la resección posquimioterapia.",
+      "reference": "Artículo: RPLND posquimioterapia y resección del tumor residual (Angerer et al.); EAU 2026, 6.3.2.2",
+      "vignette": "Un varón de 31 años está sin marcadores tras tres ciclos de BEP por un no seminoma. La imagen muestra un residuo único de 2 cm paraaórtico izquierdo, ventral a la aorta; no hay cirugía retroperitoneal previa. El centro domina la técnica abierta y la robótica. Debe definirse el abordaje quirúrgico.",
+      "lead": "¿Qué conducta está justificada?",
+      "opts": {
+        "A": "Observación, puesto que el residuo mide menos de 3 cm",
+        "B": "Extirpar solo la lesión visible y dejar el campo",
+        "C": "PET-TC con FDG y decisión según el resultado",
+        "D": "Dos ciclos más de quimioterapia en lugar de cirugía",
+        "E": "Resección del campo, robótica admisible en el centro"
+      },
+      "rat": {
+        "A": "Error de concepto: los residuos pequeños podrían dejarse. La obligación de resecar empieza por encima de 1 cm, no de 3 cm [LL EAU 2026, 6.3.2.2].",
+        "B": "Error de concepto: bastaría con extirpar la lesión visible. La simple enucleación no es admisible [LL EAU 2026, 6.3.2.2].",
+        "C": "Error de concepto: la PET aclararía la reestadificación en el no seminoma. No está indicada para ello [LL EAU 2026, 6.3.2.2].",
+        "D": "Error de concepto: más quimioterapia sustituiría a la cirugía. Los componentes teratomatosos no responden y la resección es el paso curativo [Q].",
+        "E": "Tamaño, localización y ausencia de cirugía previa cumplen los criterios de selección publicados; por vía laparoscópica o robótica se logran resultados comparables [Q] [LL EAU 2026, 6.3.2.2]."
+      },
+      "core": "Se reseca dentro de los límites del campo porque el residuo supera 1 cm y los marcadores son normales [LL EAU 2026, 6.3.2.2]. Con una lesión pequeña y bien situada, el abordaje robótico es admisible en el centro [Q].",
+      "ev": "La EAU exige resecar los residuos visibles de más de 1 cm con marcadores normales o en normalización, dentro de las seis a ocho semanas posteriores al último ciclo, y considera equivalentes los procedimientos laparoscópicos o robóticos en enfermedad residual de bajo volumen y en manos muy expertas [LL EAU 2026, 6.3.2.2]. El artículo cita como criterios de selección uno o dos residuos de 10 a 50 mm, situados ventral o lateralmente a los grandes vasos, marcadores normalizados y ausencia de cirugía retroperitoneal previa; con ellos la supervivencia libre de recaída a dos años fue del 98 % [Q].",
+      "prax": "Se han descrito patrones de recaída atípicos tras la cirugía mínimamente invasiva, lo que respalda a los centros que dominan ambas técnicas [LL EAU 2026, 6.3.2.2] [Q]. Los límites del campo son los mismos con cualquier instrumento [Q].",
+      "merk": "Residuo pequeño, bien situado y sin cirugía previa: resección robótica del campo admisible en el centro.",
+      "flag": null
+    },
+    {
+      "n": 12,
+      "axis": "G",
+      "diff": 3,
+      "correct": "C",
+      "objective": "Puede justificar el abordaje abierto y la preparación multidisciplinar ante enfermedad residual compleja.",
+      "reference": "Artículo: RPLND posquimioterapia (Heidenreich/Pfister); EAU 2026, 6.3.2.2 y 6.3.3.1",
+      "vignette": "Un varón de 38 años con pronóstico intermedio presenta tras cuatro ciclos de BEP un residuo interaortocavo de 7 cm en contacto con la vena cava; ya fue operado en el retroperitoneo. Los marcadores están normalizados. El centro ofrece ambos abordajes. Debe definirse el abordaje quirúrgico.",
+      "lead": "¿Qué conducta está justificada?",
+      "opts": {
+        "A": "Empezar por vía robótica y convertir a abierta si hace falta",
+        "B": "Extirpar por vía robótica solo las porciones accesibles",
+        "C": "Resección abierta con disponibilidad multidisciplinar",
+        "D": "Dos ciclos de quimioterapia de rescate antes de operar",
+        "E": "Observación con control de imagen cada tres meses"
+      },
+      "rat": {
+        "A": "Error de concepto: la conversión sería un plan equivalente. Ante un campo previsiblemente complejo no se empieza por el abordaje inadecuado [X].",
+        "B": "Error de concepto: la resección parcial sería un compromiso. La resección incompleta aumenta la recaída y la reintervención conlleva mayor mortalidad [Q].",
+        "C": "El tamaño, la localización central, el contacto vascular y la cirugía previa hablan a favor del abordaje abierto con disponibilidad multidisciplinar [Q] [LL EAU 2026, 6.3.3.1].",
+        "D": "Error de concepto: más quimioterapia reduciría el problema. Sin progresión de marcadores el rescate no está indicado [LL EAU 2026, 6.3.1].",
+        "E": "Error de concepto: esperar con marcadores normales. Los residuos de más de 1 cm se resecan con independencia de los marcadores [LL EAU 2026, 6.3.2.2]."
+      },
+      "core": "La resección completa dentro de los límites del campo es el paso curativo, y este campo exige el abordaje abierto con disponibilidad para cirugía vascular y visceral [LL EAU 2026, 6.3.3.1] [Q].",
+      "ev": "Con pronóstico intermedio o desfavorable y residuos de más de 5 cm, la probabilidad de maniobras vasculares llega al 20 %; estos casos corresponden a centros con cirugía multidisciplinar [LL EAU 2026, 6.3.3.1]. Los procedimientos mínimamente invasivos solo entran en juego con enfermedad residual de bajo volumen [LL EAU 2026, 6.3.2.2]. El artículo señala expresamente los hallazgos voluminosos o multifocales y la cirugía abdominal previa como dominio de la cirugía abierta [Q].",
+      "prax": "Una primera operación subóptima no se compensa con quimioterapia posterior [Q]. La planificación incluye cirugía vascular, visceral y, si procede, de columna [LL EAU 2026, 6.3.3.1].",
+      "merk": "Voluminoso, central y con cirugía previa: abordaje abierto con disponibilidad multidisciplinar en lugar de intento mínimamente invasivo.",
+      "flag": null
+    },
+    {
+      "n": 13,
+      "axis": "H",
+      "diff": 1,
+      "correct": "B",
+      "objective": "Puede basar la derivación a un centro de tumores testiculares en el volumen de casos y la calidad de los resultados.",
+      "reference": "Artículo: qué dicen las guías, centralización; EAU 2026, 6.3.3.1",
+      "vignette": "Un hospital realiza unas tres linfadenectomías retroperitoneales al año, pero tiene amplia experiencia en cirugía prostática robótica. Se presenta un varón de 32 años con un residuo de 5 cm tras quimioterapia por un no seminoma, con marcadores normalizados. Debe decidirse dónde se opera.",
+      "lead": "¿Qué conducta está justificada?",
+      "opts": {
+        "A": "Operar in situ con robot, la consola resulta familiar",
+        "B": "Traslado a un centro de cirugía de tumores testiculares",
+        "C": "Operar in situ por vía abierta con un cirujano invitado",
+        "D": "Dos ciclos más de quimioterapia antes de la cirugía",
+        "E": "Observar y operar solo si la masa aumenta de tamaño"
+      },
+      "rat": {
+        "A": "Error de concepto: la rutina robótica sería trasladable. No sustituye la experiencia específica en tumores testiculares [Q] [LL EAU 2026, 6.1.3.2].",
+        "B": "El volumen y la calidad de los resultados van unidos: en los centros especializados la mortalidad perioperatoria baja de forma marcada [LL EAU 2026, 6.3.3.1] [Q].",
+        "C": "Error de concepto: un cirujano invitado resolvería el problema de volumen. La calidad del centro incluye equipo, cuidados intensivos y seguimiento [X].",
+        "D": "Error de concepto: la quimioterapia crearía mejores condiciones. Sin progresión de marcadores no está indicada y retrasa la resección [LL EAU 2026, 6.3.1].",
+        "E": "Error de concepto: esperar al crecimiento. Los residuos de más de 1 cm se resecan una vez normalizados los marcadores [LL EAU 2026, 6.3.2.2]."
+      },
+      "core": "No decide el instrumento, sino el volumen de casos. Un residuo de 5 cm corresponde a un centro de cirugía de tumores testiculares [LL EAU 2026, 6.3.3.1] [Q].",
+      "ev": "En Alemania 150 servicios de urología realizan estas intervenciones, más del 80 % de ellos como mucho cuatro al año, y solo el 15 % de los pacientes se trata en centros acreditados [Q]. La EAU cuantifica la diferencia: en los centros especializados la mortalidad perioperatoria cae del 6 % al 0,8 %, y los cirujanos especializados reducen la recaída local del 16 % al 3 % con más resecciones completas [LL EAU 2026, 6.3.3.1].",
+      "prax": "El traslado no es una debilidad, sino la primera decisión de calidad [Q]. La intervención debería realizarse en las seis a ocho semanas posteriores al último ciclo, lo que acota el margen organizativo [LL EAU 2026, 6.3.2.2].",
+      "merk": "Tres intervenciones al año no son un centro: trasladar antes de elegir el instrumento.",
+      "flag": null
+    },
+    {
+      "n": 14,
+      "axis": "H",
+      "diff": 2,
+      "correct": "D",
+      "objective": "Puede informar sobre la preservación de la eyaculación anterógrada utilizando el rango real de resultados publicados.",
+      "reference": "Artículos: Angerer et al. y Heidenreich/Pfister, tasas de eyaculación; EAU 2026, 6.1.3.2",
+      "vignette": "Un varón de 26 años con deseo de paternidad va a someterse a una linfadenectomía con preservación nerviosa por un no seminoma en estadio IIA sin marcadores. Pregunta con qué probabilidad se conserva la eyaculación anterógrada y ha leído cifras contradictorias. Consentimiento informado antes de la intervención.",
+      "lead": "¿Cómo debe plantearse la información?",
+      "opts": {
+        "A": "Asegurar la conservación, algunos centros describen el 100 %",
+        "B": "Presentar la pérdida de eyaculación como consecuencia habitual",
+        "C": "Dejar las cifras abiertas, los datos son contradictorios",
+        "D": "Indicar el rango del 65 al 100 % según la serie",
+        "E": "Renunciar a la preservación nerviosa para ser más radical"
+      },
+      "rat": {
+        "A": "Error de concepto: la mejor cifra publicada sería la esperable. Las series de un solo centro están seleccionadas y no son trasladables [Q].",
+        "B": "Error de concepto: la intervención costaría por norma la eyaculación. Con preservación nerviosa se conserva en la mayoría de los casos [Q].",
+        "C": "Error de concepto: los datos contradictorios eximirían de informar. Precisamente entonces el rango forma parte de la conversación [X].",
+        "D": "Las tasas publicadas van del 100 % en series de un solo centro al 65 o 71 % en datos multicéntricos y metaanálisis [Q].",
+        "E": "Error de concepto: la radicalidad primaría sobre la función. La preservación nerviosa forma parte del proceder recomendado en el estadio IIA sin marcadores [LL EAU 2026, 6.2.2.2.1]."
+      },
+      "core": "Se informa con el rango de las tasas publicadas y con la idea de que la técnica y la experiencia del centro determinan el resultado [Q] [LL EAU 2026, 6.1.3.2].",
+      "ev": "Las series de un solo centro sobre linfadenectomía robótica primaria describen eyaculación anterógrada en el 100 % [Q]. Los datos multicéntricos y los metaanálisis indican del 65 al 71 %, y algunas series el 67 y el 74 % [Q]. Tras cirugía abierta con preservación nerviosa en el seminoma en estadio II se conservó en el 90 al 97 % [Q]. A partir de datos multicéntricos, la EAU describe más recaídas dentro del campo y más complicaciones con la preservación nerviosa y vincula la intervención a cirujanos experimentados en centros [LL EAU 2026, 6.1.3.2].",
+      "prax": "La criopreservación de semen se comenta antes de la intervención [X]. Conocer ambos conjuntos de cifras permite situar las expectativas del paciente en una perspectiva realista y evitar decepciones [X].",
+      "merk": "Conservación de la eyaculación: centros aislados el 100 %, datos multicéntricos del 65 al 71 % — se informa con el rango.",
+      "flag": "Los dos artículos de origen dan el 100 % frente al 65 a 71 % para la misma pregunta; la diferencia se debe a la selección y al diseño de los estudios, no a datos nuevos."
+    }
+  ],
+  "hcg": [
+    {
+      "label": "Hipogonadismo hipergonadotrópico",
+      "mech": "La LH es estructuralmente similar a la β-hCG y también es detectada por los ensayos inespecíficos [Q].",
+      "step": "Administrar testosterona; si después se normaliza la β-hCG, la elevación era espuria [Q].",
+      "data": "Artículo de revisión; mecanismo deducido de la fisiopatología [Q]."
+    },
+    {
+      "label": "Insuficiencia renal en diálisis",
+      "mech": "La filtración renal se reduce al mínimo; el nivel puede subir por un factor de 10 [Q].",
+      "step": "Documentar el valor basal, controlar la evolución y no tratar [LL EAU 2026, 6.2.1].",
+      "data": "Serie de 44 pacientes [Q]."
+    },
+    {
+      "label": "Inicio de la deprivación androgénica",
+      "mech": "Los niveles elevados de GnRH estimulan una producción hipofisaria ectópica [Q].",
+      "step": "Esperar la medición de control; tres meses después del inicio del tratamiento, los valores estaban dentro del rango normal [Q].",
+      "data": "Serie de 44 pacientes; solo se detectó hCG nativa [Q]."
+    },
+    {
+      "label": "Déficit de IgA, anticuerpos heterófilos",
+      "mech": "Los anticuerpos heterófilos reaccionan de forma cruzada con el ensayo [Q].",
+      "step": "Repetir la medición con un ensayo de formato de anticuerpo distinto [Q].",
+      "data": "54 muestras de suero de pacientes analizadas [Q]."
+    },
+    {
+      "label": "Consumo de marihuana",
+      "mech": "Se ha descrito una elevación que desapareció tras suspender el consumo [Q].",
+      "step": "Recoger la anamnesis, suspender el consumo y repetir la medición [Q].",
+      "data": "Caso clínico de dos pacientes; la evidencia es, por tanto, débil [Q]."
+    },
+    {
+      "label": "Suplementación con biotina",
+      "mech": "La biotina causa valores medidos falsamente bajos en los análisis de laboratorio [Q].",
+      "step": "Suspender el suplemento, repetir la medición y valorar la imagen de forma independiente [Q].",
+      "data": "Boletín de seguridad citado en el artículo [Q]."
+    },
+    {
+      "label": "Tumor no germinal",
+      "mech": "El 10–30 % de todos los tumores malignos no germinales produce β-hCG de forma autocrina, sobre todo en estadio avanzado [Q].",
+      "step": "Valorar la neoplasia conocida como origen; no guiar el tratamiento mediante este marcador [Q].",
+      "data": "Tasas de detección en el carcinoma urotelial del 30–76 % en suero; estudios con varios cientos de pacientes [Q]."
+    }
+  ],
+  "rplnd": {
+    "criteria": [
+      "Centro de cirugía de tumores testiculares con experiencia mínimamente invasiva",
+      "Lesión pequeña: ganglio de hasta 3 cm o residuo de 10–50 mm",
+      "Localización anterior o lateral a los grandes vasos",
+      "Marcadores tumorales normalizados",
+      "Sin cirugía retroperitoneal o abdominal previa"
+    ],
+    "verdicts": {
+      "transfer": {
+        "title": "Primero, derivación a un centro",
+        "note": "La linfadenectomía mínimamente invasiva solo debe realizarse en centros con alto volumen de intervenciones y experiencia mínimamente invasiva [LL EAU 2026, 6.1.3.2]. En los centros especializados, la mortalidad perioperatoria baja del 6 % al 0,8 % y la tasa de recaída local del 16 % al 3 % [LL EAU 2026, 6.3.3.1]."
+      },
+      "robotic": {
+        "title": "Abordaje robótico admisible",
+        "note": "Se cumplen los criterios de selección publicados: uno o dos residuos de 10 a 50 mm, localización anterior o lateral a los vasos, marcadores normalizados y ausencia de cirugía previa; con estos criterios, la supervivencia libre de recaída a dos años fue del 98 % [Q]. La EAU considera equivalentes los procedimientos mínimamente invasivos con bajo volumen residual en manos muy expertas [LL EAU 2026, 6.3.2.2]."
+      },
+      "open": {
+        "title": "Abordaje abierto",
+        "note": "Si falta alguno de los criterios, se favorece el abordaje abierto: la enfermedad voluminosa o multifocal y la cirugía abdominal previa son su ámbito [Q]. Con residuos de más de 5 cm, la probabilidad de maniobras de cirugía vascular llega al 20 % [LL EAU 2026, 6.3.3.1]."
+      }
+    }
+  }
+}

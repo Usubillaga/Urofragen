@@ -1,0 +1,12 @@
+Abgeschlossene Übersetzungsprüfung – 04.10.2026
+
+Alle 100 EN/ES-Fragefassungen einschließlich Zusatzdaten vollständig. Struktur, Antwortschlüssel, Quellenmarker und Zahlen geprüft. Fünf sprachlich gleichwertige Zahlenschreibweisen sind in verify_cme_languages.py dokumentiert.
+
+Korrigierte Übersetzungsdetails:
+- Spanisch Seminom, Frage 9 Option A: AUC 7 ergänzt; falsche Reihenfolge als Distraktor erhalten.
+- Spanische Seminom-Terminologie: Involved-node als Bestrahlung der betroffenen Lymphknoten präzisiert.
+- Englisch Peniskarzinom Frage 7: Operation bei Ansprechen eindeutig formuliert.
+- Spanisch Salvage-Lernhilfe: Erholung im Verlauf von acht Monaten, ohne zusätzliche Aussage >8 Monate.
+- Spanisch Teil 3 Frage 14: 65 bis 71 % als Spanne erhalten.
+
+Browserprüfung: vier Module DE→EN→ES, alle englischen/spanischen Druckfragen, interaktive Lernhilfen, Erstquote, Fehlerwiederholung und Handyansicht bestanden. Deutsche Originaldaten unverändert. Keine neue fachärztliche Freigabe.

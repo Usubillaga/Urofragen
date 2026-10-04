@@ -1,0 +1,563 @@
+{
+  "meta": [
+    [
+      "Sources",
+      "Witte L, Majewski M. Urologie 2025;64:1064–1073 (β-hCG). Skowron MA et al. Urologie 2025;64:1055–1063 (basic research). Angerer M, Dieckmann KP, Wülfing C. Urologie 2025;64:1046–1054 (RPLND, in favour of robotics). Heidenreich A, Pfister D. Urologie 2025;64:1037–1045 (RPLND, in favour of open surgery)."
+    ],
+    [
+      "Guidelines",
+      "EAU Guidelines on Testicular Cancer 2026, Chapter 6 (6.1.3.2, 6.1.3.5, 6.1.3.7, 6.2.1, 6.2.2.2.1, 6.3.1, 6.3.2.2, 6.3.3.1, 6.3.3.3, 6.3.5) and Chapter 7 (7.1), full text checked on 21.09.2026."
+    ],
+    [
+      "Scope",
+      "14 questions across 8 topics, approximately 40 minutes"
+    ],
+    [
+      "Reading note",
+      "The two RPLND articles form a pro-and-con pair and interpret the same data in opposing ways; where they disagree, the correct answer follows the guideline. These questions are marked ⚠. Only the three points permitting a clinical decision are used from the basic research article; preclinical agents are never the correct answer. The biochemical section of the β-hCG article is excluded because it contains several factual errors."
+    ]
+  ],
+  "sources": [
+    "Primary source 1: Witte L, Majewski M (2025) Erhöhung der β-Untereinheit des humanen Choriongonadotropins bei urologischen Patienten – nicht immer ein Keimzelltumor. Urologie 64:1064–1073. https://doi.org/10.1007/s00120-025-02679-2",
+    "Primary source 2: Skowron MA, Schneider L, Prokakis E, Fichtner A, Nestler T, Bremmer F, Nettersheim D (2025) Neues aus der Grundlagenforschung bei den Keimzelltumoren des Hodens und aktualisierte Tumorigenese. Urologie 64:1055–1063. https://doi.org/10.1007/s00120-025-02674-7",
+    "Primary source 3: Angerer M, Dieckmann KP, Wülfing C (2025) Die retroperitoneale Lymphadenektomie in der Therapie testikulärer Keimzelltumoren – ist die robotisch-assistierte Technik besser? Urologie 64:1046–1054. https://doi.org/10.1007/s00120-025-02678-3",
+    "Primary source 4: Heidenreich A, Pfister D (2025) Die retroperitoneale Lymphadenektomie – offen oder robotisch? Pro offene Chirurgie. Urologie 64:1037–1045. https://doi.org/10.1007/s00120-025-02673-8",
+    "Guideline: EAU Guidelines on Testicular Cancer 2026, Chapter 6 Disease Management and Chapter 7 Follow-up. Full text online, accessed 21.09.2026.",
+    "Study: Knight AK et al. (2005) Frequent false-positive β-hCG tests in IgA deficiency. Clin Exp Immunol 141:333–337 (cited in primary source 1).",
+    "Study: Yoshimura K et al. (2019) Presumed pituitary hCG production during androgen deprivation. Int Braz J Urol 45:38–44 (cited in primary source 1).",
+    "Study: Iles RK (2007) Ectopic β-hCG expression in epithelial carcinomas. Mol Cell Endocrinol 260–262:264–270 (cited in primary source 1).",
+    "Study: Pongratanakul P et al. (2024) Molecular and epigenetic subtyping of growing teratoma syndrome. Cancer Lett (cited in primary source 2).",
+    "Study: Bremmer F et al. (2023) Mutational burden, methylome and proteome of somatic-type malignancies. Br J Cancer 129:1580–1589 (cited in primary source 2).",
+    "Study: Rocco NR et al. (2020) Primary robotic RPLND in stage I. World J Urol 38:859–867; Taylor J et al. (2021) Eur Urol Focus 7:1403–1408 (cited in primary sources 3 and 4).",
+    "Study: Ge S et al. (2023) Int J Surg 109:2808–2818 and Yuan Y et al. (2023) Front Oncol 13:1257528, meta-analyses of robotic RPLND (cited in primary source 3).",
+    "Study: Garg H et al. (2023) BJU Int 132:9–30, systematic review of robotic RPLND; Fankhauser CD et al. (2022) World J Urol 40:1505–1512 (cited in primary source 4).",
+    "Healthcare data: Groeben C et al. (2020) Trends towards centralisation of RPLND in Germany. World J Urol 38:1765–1772 (cited in primary source 4)."
+  ],
+  "axes": {
+    "A": "Measurement errors and assays",
+    "B": "Non-tumour-related hCG elevation",
+    "C": "hCG outside germ cell tumours",
+    "D": "Special germ cell tumour subtypes",
+    "E": "Resistant subtypes and trial options",
+    "F": "Choosing the approach for primary RPLND",
+    "G": "Post-chemotherapy RPLND",
+    "H": "Service organisation and informed consent"
+  },
+  "merk": {
+    "A": [
+      "Heterophile antibodies in IgA deficiency cause false-positive β-hCG; the cross-check is an assay with a different antibody format [Q].",
+      "Biotin falsely lowers measured values; a discrepancy between imaging and markers requires a supplement history [Q].",
+      "The hCG subform detected by an assay differs between manufacturers and must be established before interpretation [Q]."
+    ],
+    "B": [
+      "Dialysis-dependent renal failure: hCG can rise by a factor of 10; conversely, with excellent renal function it can be falsely low [Q].",
+      "After the first dose of an LHRH agonist, hCG can transiently be of pituitary origin; values normalise within three months [Q].",
+      "Stable mild elevations may be observed; treatment is initiated if values rise or there is an imaging correlate [LL EAU 2026, 6.2.1]."
+    ],
+    "C": [
+      "β-hCG is produced by 10–30 % of all malignant non-germ-cell tumours, particularly at an advanced stage [Q].",
+      "In urothelial carcinoma, the detection rate is 30–76 % in serum and 35–73 % in urine; this is not suitable as an early marker [Q].",
+      "Outside testicular cancer, β-hCG measurement has no established role and appears in no guideline [Q]."
+    ],
+    "D": [
+      "Growing teratoma during chemotherapy with normal markers: complete treatment, then perform prompt complete resection [Q] [LL EAU 2026, 6.3.1].",
+      "Growth of more than 1.5 cm per month identifies the rapidly growing group with a more aggressive course [Q].",
+      "Somatic-type malignancy in the resection specimen: chemoresistant, 5-year survival 50–60 %; no further systemic therapy after R0 resection [Q] [LL EAU 2026, 6.3.3.3]."
+    ],
+    "E": [
+      "CLDN6- and CXCR4-directed conjugates and kinase inhibitors for yolk-sac tumours are preclinical [Q].",
+      "Targeted agents, including checkpoint inhibitors, have so far failed in the refractory setting [LL EAU 2026, 6.3.5].",
+      "Second relapses should be managed at centres and, where possible, in trials; resection after a good response may still be curative [LL EAU 2026, 6.3.5]."
+    ],
+    "F": [
+      "Marker-negative stage IIA non-seminoma: nerve-sparing RPLND by experienced surgeons at a centre [LL EAU 2026, 6.2.2.2.1].",
+      "Minimally invasive surgery only at centres with a high RPLND caseload and minimally invasive expertise; routine robotic experience from other procedures is insufficient [LL EAU 2026, 6.1.3.2].",
+      "Stage IA without vascular invasion: surveillance; staging operations expose the majority to surgery without benefit [LL EAU 2026, 6.1.3.7] [Q]."
+    ],
+    "G": [
+      "Residual masses above 1 cm with normalised markers are resected within six to eight weeks after the last cycle [LL EAU 2026, 6.3.2.2].",
+      "Removal of the visible lesion alone is not acceptable; template boundaries apply [LL EAU 2026, 6.3.2.2].",
+      "Robotic surgery only for a small residual mass, favourable location and no previous surgery; bulky central disease remains an indication for open surgery [Q] [LL EAU 2026, 6.3.3.1]."
+    ],
+    "H": [
+      "More than 80 % of the 150 departments performing RPLND operate on at most four cases per year; only 15 % of patients are treated at centres [Q].",
+      "At specialised centres, perioperative mortality falls from 6 % to 0.8 % and the local recurrence rate from 16 % to 3 % [LL EAU 2026, 6.3.3.1].",
+      "Antegrade ejaculation: single centres report 100 %, multicentre data 65–71 %; counselling should present the range [Q]."
+    ]
+  },
+  "questions": [
+    {
+      "n": 1,
+      "axis": "A",
+      "diff": 2,
+      "correct": "C",
+      "objective": "Can identify a false-positive β-hCG elevation caused by heterophile antibodies and clarify it through laboratory testing.",
+      "reference": "Article: IgA deficiency syndrome and heterophile antibodies, assay method; EAU 2026, 6.2.1 and 7.1",
+      "vignette": "A 34-year-old man is in follow-up two years after orchiectomy for stage I seminoma. β-hCG is between 6 and 8 U/l on three measurements, AFP normal, testosterone and LH within range, MRI of abdomen and pelvis unremarkable. He is known to have selective IgA deficiency. He is seen to clarify the marker finding.",
+      "lead": "Which step clarifies the marker finding?",
+      "opts": {
+        "A": "Start three cycles of BEP for marker-only relapse",
+        "B": "Give testosterone and then recheck β-hCG afterwards",
+        "C": "Measure in an assay with a different antibody format",
+        "D": "FDG-PET/CT to search for the source of the marker",
+        "E": "Recheck β-hCG only at the next annual visit"
+      },
+      "rat": {
+        "A": "Misconception: three concordant values are conclusive. Without a rise and without a lesion the diagnosis does not hold [Q].",
+        "B": "Misconception: transferring the LH cross-reaction. That route requires high LH with low testosterone, neither of which is present here [Q].",
+        "C": "In IgA deficiency, heterophile antibodies are abundant, cross-react with the assays and make β-hCG appear falsely elevated [Q].",
+        "D": "Misconception: unclear markers require PET. The EAU does not recommend FDG-PET/CT during surveillance [LL EAU 2026, 7.1].",
+        "E": "Misconception: an unclear marker can wait a year. The cause belongs clarified, not postponed [X]."
+      },
+      "core": "The finding must be checked in the laboratory before any treatment: heterophile antibodies in IgA deficiency explain a constant, non-rising β-hCG elevation [Q].",
+      "ev": "Knight et al. examined 54 sera from patients with IgA deficiency syndrome and attributed the measured elevations to heterophile antibodies after other causes had been excluded [Q]. Which hCG subform an assay detects differs between manufacturers and must be checked beforehand [Q]. The EAU notes false-positive results of the established markers [LL EAU 2026, 7.1] and allows stable, mildly raised values to be observed initially [LL EAU 2026, 6.2.1].",
+      "prax": "Changing the assay costs little and prevents chemotherapy without a tumour [X]. Biotin supplements belong in the same history, as they lower measured values falsely [Q].",
+      "merk": "Constantly mildly raised β-hCG in IgA deficiency: another assay first, relapse diagnosis second.",
+      "flag": "Evidence on heterophile antibodies comes from small series and case reports; exclusion of other causes remains a prerequisite."
+    },
+    {
+      "n": 2,
+      "axis": "A",
+      "diff": 2,
+      "correct": "A",
+      "objective": "Can identify a falsely low marker result and base the treatment decision on imaging findings.",
+      "reference": "Article: assay method and interfering factors; EAU 2026, 6.2.2.2.1",
+      "vignette": "A 30-year-old man on surveillance for stage I non-seminoma attends the 6-month visit. MRI shows a new para-aortic lymph node of 2.4 cm, AFP and β-hCG are normal. He has been taking a high-dose biotin supplement for months. Further management is to be defined.",
+      "lead": "How should this finding be handled?",
+      "opts": {
+        "A": "Treat as stage IIA and recheck markers without biotin",
+        "B": "Take normal markers as exclusion, recheck in 3 months",
+        "C": "Add LDH to confirm the normal marker values",
+        "D": "Biopsy of the lymph node before any further decision",
+        "E": "FDG-PET/CT to clarify the imaging-laboratory mismatch"
+      },
+      "rat": {
+        "A": "The imaging finding decides: a new lymph node of 2.4 cm corresponds to stage IIA and is treated as such [LL EAU 2026, 6.2.2.2.1]; biotin can additionally make markers appear falsely low [Q].",
+        "B": "Misconception: normal markers exclude relapse. Seminomas secrete hCG in only about 30%, and biotin lowers measured values further [Q].",
+        "C": "Misconception: LDH as reassurance. It is unspecific and clarifies neither the mismatch nor the imaging finding [X].",
+        "D": "Misconception: histology must precede any treatment. In unequivocal stage IIA, nerve-sparing lymph node dissection is itself the diagnostic and therapeutic step [LL EAU 2026, 6.2.2.2.1].",
+        "E": "Misconception: PET resolves the mismatch. In non-seminoma, FDG-PET/CT is not indicated for restaging [LL EAU 2026, 6.3.2.2]."
+      },
+      "core": "A normal marker does not exclude relapse, and biotin shifts the measurement downwards. The decision follows the imaging, and markers are repeated without the interfering substance [Q] [LL EAU 2026, 6.2.2.2.1].",
+      "ev": "Regular biotin supplementation leads to falsely low laboratory values [Q]. Even without interference, markers are raised in only a proportion of germ cell tumours; seminomas secrete hCG in up to 30% of cases [Q]. For marker-negative stage IIA non-seminoma the EAU recommends nerve-sparing lymph node dissection in a specialised centre as initial treatment, and allows a recheck after six weeks for nodes under 2 cm [LL EAU 2026, 6.2.2.2.1].",
+      "prax": "A supplement history should be taken whenever marker findings are implausible, and the measurement is repeated after a pause [Q]. Further management follows the imaging finding, not the laboratory value [LL EAU 2026, 6.2.2.2.1].",
+      "merk": "Mismatch between imaging and markers: ask about biotin, repeat markers without it, treat the imaging finding.",
+      "flag": null
+    },
+    {
+      "n": 3,
+      "axis": "B",
+      "diff": 2,
+      "correct": "D",
+      "objective": "Can interpret a β-hCG elevation in end-stage renal failure as a retention phenomenon.",
+      "reference": "Article: end-stage renal failure; EAU 2026, 6.2.1 and 6.3.1",
+      "vignette": "A 46-year-old man is relapse-free eight years after chemotherapy for non-seminoma and has been on dialysis for a year. β-hCG is 14 and 15 U/l on two measurements, AFP normal, MRI of abdomen and pelvis and chest X-ray unremarkable, testosterone and LH normal. He is seen to assess the marker finding.",
+      "lead": "Which interpretation and management are appropriate?",
+      "opts": {
+        "A": "Assume late relapse and start salvage chemotherapy",
+        "B": "Add FDG-PET/CT and brain MRI to search for relapse",
+        "C": "Give testosterone and then measure β-hCG again",
+        "D": "Assume renal retention and monitor the course",
+        "E": "Arrange residual tumour resection in the retroperitoneum"
+      },
+      "rat": {
+        "A": "Misconception: any elevation after years is a late relapse. Salvage therapy is indicated only for documented marker progression [LL EAU 2026, 6.3.1].",
+        "B": "Misconception: broad imaging replaces differential diagnosis. FDG-PET/CT is not recommended during surveillance [LL EAU 2026, 7.1], and the laboratory finding is not explained by it [X].",
+        "C": "Misconception: transferring the LH cross-reaction. It requires high LH; with normal LH and testosterone this mechanism does not hold [Q].",
+        "D": "In end-stage renal disease, filtration of the molecule is reduced to a minimum and the level can rise by a factor of 10 [Q].",
+        "E": "Misconception: surgery as diagnostics. Without a residual mass on imaging there is nothing to resect [X]."
+      },
+      "core": "Stable values without a changing trend and without a lesion in a dialysis-dependent patient suggest absent renal elimination rather than relapse [Q].",
+      "ev": "The hCG molecule is filtered renally and partly excreted; in dialysis-dependent disease this filtration is reduced to an unmeasurable minimum and the plasma level can rise by a factor of 10 [Q]. Conversely, values may be falsely low with excellent renal function [Q]. The EAU allows stable, mildly raised markers to be observed initially and requires treatment only on a rise or with an imaging correlate [LL EAU 2026, 6.2.1].",
+      "prax": "The baseline value on dialysis should be documented so that later checks can show true dynamics [X]. If the value rises, the rule on marker progression applies again [LL EAU 2026, 6.3.1].",
+      "merk": "Dialysis with raised β-hCG: think retention first, monitor the course, do not treat.",
+      "flag": "The evidence base is a series of 44 patients and expert opinion; a rising value still requires work-up."
+    },
+    {
+      "n": 4,
+      "axis": "B",
+      "diff": 1,
+      "correct": "B",
+      "objective": "Can interpret a transient hCG rise after initiation of androgen deprivation and avoid unnecessary investigations.",
+      "reference": "Article: elevation during androgen deprivation therapy; EAU 2026, 6.2.1",
+      "vignette": "A 71-year-old man with locally advanced prostate cancer received the first injection of an LHRH agonist four weeks ago. Laboratory testing shows mildly raised hCG, AFP normal, testes unremarkable on ultrasound, no evidence of another malignancy. He is seen to assess the finding.",
+      "lead": "Which management is appropriate?",
+      "opts": {
+        "A": "Testicular exploration to rule out an occult germ cell tumour",
+        "B": "Monitor the course, expect normalisation within three months",
+        "C": "Order a full germ cell marker panel and cross-sectional imaging",
+        "D": "Stop the LHRH agonist and switch to an antagonist",
+        "E": "Measure hCG in urine to confirm the elevation"
+      },
+      "rat": {
+        "A": "Misconception: raised hCG means testicular tumour. Ultrasound is unremarkable and the constellation is explained by castration [Q].",
+        "B": "In the cited series the elevation occurred only after the first application and had returned to normal after three months [Q].",
+        "C": "Misconception: a complete tumour search is the safest route. It generates incidental findings without testing the obvious cause [X].",
+        "D": "Misconception: the agonist is harmful. The effect is transient and no reason to change effective treatment [Q].",
+        "E": "Misconception: urine measurement confirms the serum value. In urine the β-core fragment is measured; the test is approved only for pregnancy detection [Q]."
+      },
+      "core": "After the first dose of an LHRH agonist, hCG can transiently be of ectopic pituitary origin. Without further evidence the next step is monitoring, not germ cell tumour work-up [Q].",
+      "ev": "Yoshimura et al. studied 44 patients with locally advanced prostate cancer without distant metastases: only native hCG was detectable, not the free β-subunit, and raised values occurred only after the first application of the LHRH agonist; three months after the start of treatment they were back to normal [Q]. The raised GnRH levels are held responsible for stimulating ectopic pituitary production [Q]. The EAU manages stable mild elevations by observation initially [LL EAU 2026, 6.2.1].",
+      "prax": "If the value stays raised or rises, differential diagnosis starts again [X]. Misdirected testicular tumour work-up burdens the patient without benefit [X].",
+      "merk": "hCG rise shortly after the first LHRH agonist: transient pituitary origin, monitor instead of tumour search.",
+      "flag": "The explanation rests on a series of 44 patients and pathophysiological reasoning, not on prospective confirmation."
+    },
+    {
+      "n": 5,
+      "axis": "C",
+      "diff": 3,
+      "correct": "E",
+      "objective": "Can interpret a β-hCG elevation in a non-germ-cell tumour and explain its limitations as a monitoring marker.",
+      "reference": "Article: hCG elevation in non-germ-cell tumours, hCG in urothelial carcinoma",
+      "vignette": "A 68-year-old man with metastatic urothelial carcinoma of the bladder is receiving chemotherapy. β-hCG was measured elsewhere and is clearly raised; the testes are unremarkable clinically and on ultrasound, AFP is normal. Colleagues ask whether a second tumour is present and whether the marker should guide treatment.",
+      "lead": "How should the finding be interpreted?",
+      "opts": {
+        "A": "Assume a second malignancy in the sense of a germ cell tumour",
+        "B": "Base future treatment decisions on the β-hCG course",
+        "C": "Bilateral testicular biopsy to clarify the marker source",
+        "D": "Use urinary β-hCG as an early marker of bladder tumours",
+        "E": "Assume ectopic production by the urothelial carcinoma"
+      },
+      "rat": {
+        "A": "Misconception: β-hCG is specific for germ cell tumours. The review refutes exactly that: elevation occurs across many entities [Q].",
+        "B": "Misconception: a plausible marker is already a steering instrument. The course data come from case reports [Q].",
+        "C": "Misconception: the marker source must be confirmed histologically. Unremarkable testes and a known metastatic carcinoma explain the finding [Q].",
+        "D": "Misconception: a marker with a urinary detection rate of 35 to 73% is fit for early detection [Q].",
+        "E": "β-hCG is produced autocrinely by 10–30% of all malignant non-germ cell tumours, particularly often in urothelial carcinoma [Q]."
+      },
+      "core": "Here the value reflects the known carcinoma, not a second tumour. The marker has not been validated for guiding treatment [Q].",
+      "ev": "In urothelial carcinoma the detection rate lies between 30 and 76% in serum, 35 to 73% in urine and about 35% immunohistochemically [Q]. Elevation is associated with poorer differentiation, higher invasiveness, greater metastatic spread and radioresistance [Q]. Neither the German S3 guideline on bladder cancer nor the EAU guidelines mention the marker, and larger studies are lacking [Q].",
+      "prax": "Before every marker request comes the question of what the result would change [X]. Conversely, an implausible elevation during testicular cancer follow-up warrants a look at other malignancies [Q].",
+      "merk": "β-hCG is not specific for germ cell tumours: 10–30% of non-germ cell tumours produce it without steering treatment.",
+      "flag": "The role of β-hCG in urothelial carcinoma rests on case series and case reports; as a course marker it is neither validated nor anchored in any guideline."
+    },
+    {
+      "n": 6,
+      "axis": "D",
+      "diff": 2,
+      "correct": "A",
+      "objective": "Can recognise a teratoma growing during chemotherapy and determine the timing of resection.",
+      "reference": "Article: growing teratoma syndrome; EAU 2026, 6.3.1",
+      "vignette": "A 28-year-old man is receiving his third cycle of BEP for metastatic non-seminoma. AFP and β-hCG have normalised, while the retroperitoneal mass has grown from 3 to 7 cm within two months. He is asymptomatic. Further management is to be defined.",
+      "lead": "Which management is appropriate?",
+      "opts": {
+        "A": "Complete chemotherapy, then resect promptly",
+        "B": "Switch immediately to salvage chemotherapy with TIP",
+        "C": "Add two further cycles of BEP and then reassess",
+        "D": "Observe for now and measure again in three months",
+        "E": "Arrange radiotherapy of the growing mass"
+      },
+      "rat": {
+        "A": "With falling or normal markers and a growing tumour, complete resection is the only effective strategy [Q]; the EAU recommends early surgical removal in this constellation [LL EAU 2026, 6.3.1].",
+        "B": "Misconception: growth means viable tumour. Salvage therapy is indicated only for documented marker progression [LL EAU 2026, 6.3.1].",
+        "C": "Misconception: more cycles reach the teratoma. Teratoma tissue does not respond; further cycles only delay surgery [Q].",
+        "D": "Misconception: absence of symptoms allows waiting. Occult non-seminomatous components can regrow [Q], and resection becomes technically harder [X].",
+        "E": "Misconception: radiotherapy replaces resection. For growing teratoma, surgery is the only effective treatment [Q]."
+      },
+      "core": "Normalised markers with a growing mass are not chemotherapy failure but the indication for prompt complete resection [Q] [LL EAU 2026, 6.3.1].",
+      "ev": "In 2–8% of patients with metastatic non-seminoma the tumour grows during chemotherapy while markers fall or stay normal; histology shows exclusively mature teratoma [Q]. Pongratanakul et al. grouped 50 cases by growth rate: more than 1.5 cm per month characterises the rapidly growing group with increased migratory activity and a more aggressive course [Q]. The extended definition regards the syndrome as a teratoma with occult non-seminomatous components that may regrow later [Q].",
+      "prax": "The pace belongs in the record: centimetres per month separate the course groups and justify urgency [Q]. Surgery follows the template boundaries rather than shelling out the lesion [LL EAU 2026, 6.3.2.2].",
+      "merk": "Growing mass with normal markers: teratoma, no chemotherapy escalation, prompt complete resection.",
+      "flag": null
+    },
+    {
+      "n": 7,
+      "axis": "D",
+      "diff": 3,
+      "correct": "C",
+      "objective": "Can correctly assess the role of systemic therapy after resection of a somatic-type malignancy.",
+      "reference": "Article: somatic-type malignancy; EAU 2026, 6.3.3.3 and 6.3.5",
+      "vignette": "In a 33-year-old man a 4 cm retroperitoneal residual mass was resected within the template after three cycles of BEP, R0. Histology shows teratoma plus an adenocarcinoma as somatic-type malignancy. Markers are normal and imaging shows no further lesion. He is seen to define postoperative treatment.",
+      "lead": "Which postoperative management is justified?",
+      "opts": {
+        "A": "Add two adjuvant cycles of germ cell tumour chemotherapy",
+        "B": "Give a checkpoint inhibitor for the somatic component",
+        "C": "No further systemic therapy, close follow-up",
+        "D": "Arrange postoperative radiotherapy of the surgical field",
+        "E": "Plan high-dose chemotherapy with stem cell support"
+      },
+      "rat": {
+        "A": "Misconception: the germ cell tumour regimen also reaches the somatic component. Its chemoresistance is precisely what drives prognosis [Q].",
+        "B": "Misconception: somatic tumours generally respond to checkpoint inhibitors. In germ cell tumours only a small refractory subgroup responds [Q], and targeted agents have failed in this setting [LL EAU 2026, 6.3.5].",
+        "C": "After complete resection no further systemic therapy is of benefit; control follows through surveillance [LL EAU 2026, 6.3.3.3] [Q].",
+        "D": "Misconception: radiotherapy secures the R0 situation. Evidence for this approach is lacking [X].",
+        "E": "Misconception: maximal systemic therapy for an unfavourable prognosis. High-dose therapy is intended for platinum-sensitive relapse [LL EAU 2026, 6.3.5]."
+      },
+      "core": "Somatic-type malignancies do not respond to germ cell tumour chemotherapy; their treatment is complete resection. Afterwards comes surveillance, not adjuvant systemic therapy [Q] [LL EAU 2026, 6.3.3.3].",
+      "ev": "Somatic-type malignancies occur in 1–8% of primary and metastatic germ cell tumours, mostly after chemotherapy, and carry a 5-year survival of 50–60% [Q]. Histologically they range from rhabdomyosarcoma through adenocarcinoma to neuroectodermal tumours [Q]. The EAU requires no further treatment after resection of necrosis or post-pubertal teratoma and considers adjuvant chemotherapy not beneficial after complete resection [LL EAU 2026, 6.3.3.3].",
+      "prax": "With teratoma and somatic components, central pathology review is recommended [LL EAU 2026, 6.1.3.5]. Somatic components that cannot be fully resected belong in the multidisciplinary tumour board [X].",
+      "merk": "Somatic-type malignancy in the specimen: treat surgically; after R0 do not add germ cell tumour chemotherapy.",
+      "flag": "There are no prospective treatment data for somatic-type malignancies in the specimen; the recommendation rests on retrospective series."
+    },
+    {
+      "n": 8,
+      "axis": "E",
+      "diff": 3,
+      "correct": "B",
+      "objective": "Can realistically assess preclinical targeted approaches for resistant yolk-sac tumours.",
+      "reference": "Article: yolk-sac tumour, resistance and treatment options; EAU 2026, 6.3.5",
+      "vignette": "A 35-year-old man has a second relapse of non-seminoma with a yolk-sac tumour component after first-line and salvage chemotherapy. He has read about antibody-drug conjugates against CLDN6 and about FGFR inhibitors and asks whether these agents are an option for him. He is seen to define further management.",
+      "lead": "Which recommendation is justified?",
+      "opts": {
+        "A": "Use a CLDN6-directed conjugate as compassionate use",
+        "B": "Referral to a centre, treatment within a clinical trial",
+        "C": "Use an FGFR inhibitor off label based on a gene panel",
+        "D": "Give a checkpoint inhibitor as the next line of therapy",
+        "E": "Continue cisplatin-based chemotherapy at the same dose"
+      },
+      "rat": {
+        "A": "Misconception: preclinical efficacy justifies compassionate use. Dose, safety and efficacy in patients are lacking [Q].",
+        "B": "The agents described come from cell models; in this situation the EAU encourages inclusion in clinical trials at centres [LL EAU 2026, 6.3.5] [Q].",
+        "C": "Misconception: a panel result justifies treatment. The pathways named come from resistance models, not from clinical trials [Q].",
+        "D": "Misconception: immunotherapy as the standard reserve. Targeted agents including checkpoint inhibitors have failed in the refractory setting [LL EAU 2026, 6.3.5].",
+        "E": "Misconception: unchanged continuation after two lines have failed. There is no rationale for this [LL EAU 2026, 6.3.5]."
+      },
+      "core": "CLDN6- and CXCR4-directed conjugates and kinase inhibitors are experimental approaches from cell models [Q]. The justified route leads to a centre and into a trial [LL EAU 2026, 6.3.5].",
+      "ev": "For resistant yolk-sac tumours the article describes FGFR-, CHEK1- and PARP-directed agents, multikinase inhibitors and CLDN6- and CXCR4-directed conjugates, tested in cell lines and model systems [Q]. It also states that only a small refractory subgroup of germ cell tumours responds to checkpoint inhibitors [Q]. The EAU notes that targeted agents have so far failed in the refractory setting and encourages trial inclusion [LL EAU 2026, 6.3.5].",
+      "prax": "After a good response, resection of residual lesions can still cure even at second relapse [LL EAU 2026, 6.3.5]. Expectations of new agents belong on the table openly and without promises [X].",
+      "merk": "Targeted approaches in yolk-sac tumour are preclinical: centre and trial instead of compassionate use.",
+      "flag": null
+    },
+    {
+      "n": 9,
+      "axis": "F",
+      "diff": 3,
+      "correct": "D",
+      "objective": "Can base the choice between open and robotic lymph node dissection on guideline criteria rather than surrogate parameters.",
+      "reference": "Articles: Angerer et al. and Heidenreich/Pfister; EAU 2026, 6.1.3.2 and 6.2.2.2.1",
+      "vignette": "A 29-year-old man with non-seminoma has a para-aortic lymph node of 2.5 cm with normalised markers. Nerve-sparing lymph node dissection is planned at the testicular cancer centre, where the surgeon commands both approaches. The patient asks whether robotic surgery should be used. The approach is to be defined.",
+      "lead": "Which recommendation is justified?",
+      "opts": {
+        "A": "Robotic, as blood loss and hospital stay are lower",
+        "B": "Open, as the robotic technique is oncologically inferior",
+        "C": "Primary chemotherapy instead of surgery, as easier to steer",
+        "D": "Both approaches acceptable at the centre; experience decides",
+        "E": "Robotic at any clinic with robotic prostate surgery"
+      },
+      "rat": {
+        "A": "Misconception: perioperative advantages prove oncological equivalence. Follow-up in the robotic series is short [Q].",
+        "B": "Misconception: missing long-term data prove inferiority. In the comparative studies recurrence rates are identical [Q].",
+        "C": "Misconception: chemotherapy is the simpler solution. In marker-negative stage IIA, surgery is the recommended initial treatment and can spare chemotherapy [LL EAU 2026, 6.2.2.2.1].",
+        "D": "The guideline ties its recommendation to nerve-sparing, experience and centre, not to an instrument [LL EAU 2026, 6.2.2.2.1] [LL EAU 2026, 6.1.3.2].",
+        "E": "Misconception: robotic routine from other procedures suffices. It does not replace testicular cancer-specific expertise [Q] [LL EAU 2026, 6.1.3.2]."
+      },
+      "core": "What counts are template boundaries, nerve-sparing and the centre's caseload. Where both techniques are mastered, the choice of approach is permissible [LL EAU 2026, 6.2.2.2.1] [Q].",
+      "ev": "For marker-negative stage IIA non-seminoma the EAU recommends nerve-sparing lymph node dissection by an experienced surgeon in a specialised centre as initial treatment [LL EAU 2026, 6.2.2.2.1]. Minimally invasive procedures are considered feasible and safe in experienced hands but must only be performed in centres with high procedure volume and minimally invasive expertise [LL EAU 2026, 6.1.3.2]. Meta-analyses show less blood loss and shorter stay with robotic surgery at comparable recurrence rates [Q]; the opposing position points to longer operating times and short follow-up [Q].",
+      "prax": "Multicentre data reported higher in-field recurrence rates with nerve-sparing procedures, which justifies tying the operation to centres [LL EAU 2026, 6.1.3.2]. Whoever chooses the approach documents the template boundaries [X].",
+      "merk": "Choice of approach: centre and expertise first, instrument second; the guideline favours no technique.",
+      "flag": "The two source articles judge the same data in opposite ways, and the EAU specifies no approach. The correct answer follows the guideline."
+    },
+    {
+      "n": 10,
+      "axis": "F",
+      "diff": 2,
+      "correct": "A",
+      "objective": "Can distinguish surveillance from surgical staging strategies in stage IA.",
+      "reference": "Article: primary RPLND in clinical stage I (Heidenreich/Pfister); EAU 2026, 6.1.3.7",
+      "vignette": "A 27-year-old man has stage IA non-seminoma without vascular invasion, markers normalised, imaging unremarkable. Elsewhere he is offered robot-assisted sentinel lymph node dissection within a study as more accurate staging. He is reliable in follow-up. Counselling on further management.",
+      "lead": "Which recommendation is justified?",
+      "opts": {
+        "A": "Active surveillance; study inclusion only after counselling",
+        "B": "Robotic sentinel lymph node dissection for accurate staging",
+        "C": "Bilateral nerve-sparing lymph node dissection as staging",
+        "D": "Give one adjuvant cycle of BEP because of relapse risk",
+        "E": "Adjuvant carboplatin as for stage I seminoma"
+      },
+      "rat": {
+        "A": "Without vascular invasion, surveillance is the preferred option; a staging procedure remains reserved for highly selected cases or trials [LL EAU 2026, 6.1.3.7] [Q].",
+        "B": "Misconception: more accurate staging is automatically a benefit. In the cited study 70–80% of non-seminoma patients would be operated on unnecessarily [Q].",
+        "C": "Misconception: the bilateral procedure is safer. It raises morbidity and ejaculation risk without oncological gain in stage IA [Q].",
+        "D": "Misconception: every stage I needs adjuvant treatment. Without vascular invasion, surveillance is advised [LL EAU 2026, 6.1.3.7].",
+        "E": "Misconception: transfer of the seminoma schedule. Carboplatin is not an adjuvant option in non-seminoma [LL EAU 2026, 6.1.3.7]."
+      },
+      "core": "In stage IA without vascular invasion, surveillance is appropriate. Surgical staging strategies expose the majority to surgery without benefit and belong in trials with clear counselling [LL EAU 2026, 6.1.3.7] [Q].",
+      "ev": "In stage IA the EAU recommends surveillance provided the patient complies, and nerve-sparing lymph node dissection only for highly selected patients with a contraindication to adjuvant chemotherapy [LL EAU 2026, 6.1.3.7]. As indications in stage I it names teratoma with a somatic malignant component and patients for whom chemotherapy at relapse is not an option [LL EAU 2026, 6.1.3.2]. In a robotic stage I series only 17 of 56 patients had nodal metastases [Q].",
+      "prax": "Reliability in follow-up is the prerequisite for surveillance and should be actively checked [LL EAU 2026, 6.1.3.7]. If a trial is considered, the rate of unnecessary procedures belongs in the consent discussion [Q].",
+      "merk": "Stage IA without vascular invasion: surveillance; staging operations bring the majority only risk.",
+      "flag": null
+    },
+    {
+      "n": 11,
+      "axis": "G",
+      "diff": 2,
+      "correct": "E",
+      "objective": "Can apply selection criteria for a minimally invasive approach to post-chemotherapy resection.",
+      "reference": "Article: post-chemotherapy RPLND and residual tumour resection (Angerer et al.); EAU 2026, 6.3.2.2",
+      "vignette": "A 31-year-old man is marker-negative after three cycles of BEP for non-seminoma. Imaging shows a solitary 2 cm residual mass left para-aortic, ventral to the aorta; there is no previous retroperitoneal surgery. The centre commands both open and robotic technique. The surgical approach is to be defined.",
+      "lead": "Which management is justified?",
+      "opts": {
+        "A": "Observation, as the residual mass is smaller than 3 cm",
+        "B": "Remove only the visible lesion and leave the field",
+        "C": "FDG-PET/CT and decision based on the result",
+        "D": "Two further cycles of chemotherapy instead of surgery",
+        "E": "Template resection, robotic acceptable at the centre"
+      },
+      "rat": {
+        "A": "Misconception: small residual masses may be left. The duty to resect starts above 1 cm, not above 3 cm [LL EAU 2026, 6.3.2.2].",
+        "B": "Misconception: removing the visible lesion suffices. Mere lumpectomy is explicitly not permissible [LL EAU 2026, 6.3.2.2].",
+        "C": "Misconception: PET clarifies restaging in non-seminoma. It is not indicated for this [LL EAU 2026, 6.3.2.2].",
+        "D": "Misconception: more chemotherapy replaces surgery. Teratoma components do not respond; resection is the curative step [Q].",
+        "E": "Size, location and absence of previous surgery meet the published selection criteria; laparoscopic or robotic surgery can achieve comparable outcomes [Q] [LL EAU 2026, 6.3.2.2]."
+      },
+      "core": "Resection follows the template boundaries because the residual mass exceeds 1 cm and markers are normal [LL EAU 2026, 6.3.2.2]. With a small, favourably located lesion the robotic approach is acceptable at the centre [Q].",
+      "ev": "The EAU requires resection of visible residual masses above 1 cm when markers are normal or normalising, within six to eight weeks of the last cycle, and regards laparoscopic or robotic procedures as equivalent for low-volume residual disease in highly experienced hands [LL EAU 2026, 6.3.2.2]. The article names as selection criteria one to two residual masses of 10 to 50 mm, location ventral or lateral to the great vessels, normalised markers and no previous retroperitoneal surgery; with these, two-year relapse-free survival was 98% [Q].",
+      "prax": "Atypical recurrence patterns after minimally invasive surgery have been reported, which argues for centres that command both techniques [LL EAU 2026, 6.3.2.2] [Q]. Template boundaries remain the same whatever the instrument [Q].",
+      "merk": "Small residual mass, favourable location, no previous surgery: robotic template resection acceptable at the centre.",
+      "flag": null
+    },
+    {
+      "n": 12,
+      "axis": "G",
+      "diff": 3,
+      "correct": "C",
+      "objective": "Can justify an open approach and multidisciplinary preparation for complex residual disease.",
+      "reference": "Article: post-chemotherapy RPLND (Heidenreich/Pfister); EAU 2026, 6.3.2.2 and 6.3.3.1",
+      "vignette": "A 38-year-old man with intermediate prognosis has a 7 cm interaortocaval residual mass in contact with the vena cava after four cycles of BEP; he has had previous retroperitoneal surgery. Markers have normalised. The centre offers both approaches. The surgical approach is to be defined.",
+      "lead": "Which management is justified?",
+      "opts": {
+        "A": "Start robotically and convert to open if needed",
+        "B": "Remove only the easily accessible parts robotically",
+        "C": "Open resection with multidisciplinary standby",
+        "D": "Two cycles of salvage chemotherapy before surgery",
+        "E": "Observation with imaging control every three months"
+      },
+      "rat": {
+        "A": "Misconception: conversion is an equivalent plan. With a foreseeably complex field one does not start with the unsuitable approach [X].",
+        "B": "Misconception: partial resection is a compromise. Incomplete resection raises the recurrence rate, and reoperation carries increased mortality [Q].",
+        "C": "Size, central location, vascular contact and previous surgery argue for the open approach with multidisciplinary standby [Q] [LL EAU 2026, 6.3.3.1].",
+        "D": "Misconception: more chemotherapy shrinks the problem. Without marker progression salvage therapy is not indicated [LL EAU 2026, 6.3.1].",
+        "E": "Misconception: waiting with normal markers. Residual masses above 1 cm are resected regardless of marker status [LL EAU 2026, 6.3.2.2]."
+      },
+      "core": "Complete resection within the template boundaries is the curative step, and this field requires the open approach with readiness for vascular and visceral surgery [LL EAU 2026, 6.3.3.1] [Q].",
+      "ev": "With intermediate or poor prognosis and residual masses above 5 cm, the probability of vascular procedures is as high as 20%; such cases belong in centres capable of multidisciplinary surgery [LL EAU 2026, 6.3.3.1]. Minimally invasive procedures are an option only for low-volume residual disease [LL EAU 2026, 6.3.2.2]. The article names high-volume or multifocal findings and previous abdominal surgery explicitly as the domain of open surgery [Q].",
+      "prax": "A suboptimal first operation cannot be compensated by subsequent chemotherapy [Q]. Planning includes vascular, visceral and, if needed, spinal surgery [LL EAU 2026, 6.3.3.1].",
+      "merk": "High-volume, central, previously operated: open approach with multidisciplinary standby instead of a minimally invasive attempt.",
+      "flag": null
+    },
+    {
+      "n": 13,
+      "axis": "H",
+      "diff": 1,
+      "correct": "B",
+      "objective": "Can base referral to a testicular cancer centre on caseload and outcome quality.",
+      "reference": "Article: what the guidelines say, centralisation; EAU 2026, 6.3.3.1",
+      "vignette": "A hospital performs about three retroperitoneal lymph node dissections per year but has broad experience with robotic prostate surgery. A 32-year-old man presents with a 5 cm residual mass after chemotherapy for non-seminoma, markers normalised. Where to operate is to be decided.",
+      "lead": "Which management is justified?",
+      "opts": {
+        "A": "Operate robotically on site, the console is familiar",
+        "B": "Transfer to a centre for testicular cancer surgery",
+        "C": "Operate openly on site with a visiting surgeon",
+        "D": "Two further cycles of chemotherapy before surgery",
+        "E": "Observe and operate only if the mass increases"
+      },
+      "rat": {
+        "A": "Misconception: robotic routine is transferable. It does not replace testicular cancer-specific expertise [Q] [LL EAU 2026, 6.1.3.2].",
+        "B": "Caseload and outcome quality are linked: at specialised centres perioperative mortality falls markedly [LL EAU 2026, 6.3.3.1] [Q].",
+        "C": "Misconception: a visiting surgeon solves the volume problem. Centre quality includes team, intensive care and follow-up [X].",
+        "D": "Misconception: chemotherapy creates better conditions. Without marker progression it is not indicated and delays resection [LL EAU 2026, 6.3.1].",
+        "E": "Misconception: wait for growth. Residual masses above 1 cm are resected once markers have normalised [LL EAU 2026, 6.3.2.2]."
+      },
+      "core": "It is not the instrument that decides but the caseload. A 5 cm residual mass belongs in a centre for testicular cancer surgery [LL EAU 2026, 6.3.3.1] [Q].",
+      "ev": "In Germany 150 urological departments perform such procedures, more than 80% of them at most four per year, and only 15% of patients are treated at designated centres [Q]. The EAU quantifies the difference: at specialised centres perioperative mortality falls from 6% to 0.8%, and specialised surgeons reduce the local recurrence rate from 16% to 3% with a higher rate of complete resections [LL EAU 2026, 6.3.3.1].",
+      "prax": "Transfer is not a weakness but the first quality decision [Q]. Surgery should take place within six to eight weeks of the last cycle, which limits the organisational window [LL EAU 2026, 6.3.2.2].",
+      "merk": "Three procedures a year is not a centre: transfer before choosing the instrument.",
+      "flag": null
+    },
+    {
+      "n": 14,
+      "axis": "H",
+      "diff": 2,
+      "correct": "D",
+      "objective": "Can counsel about preservation of antegrade ejaculation using the actual range of reported outcomes.",
+      "reference": "Articles: Angerer et al. and Heidenreich/Pfister, ejaculation rates; EAU 2026, 6.1.3.2",
+      "vignette": "A 26-year-old man who wishes to father children is to undergo nerve-sparing lymph node dissection for marker-negative stage IIA non-seminoma. He asks how likely antegrade ejaculation is to be preserved and has read conflicting figures. Consent discussion before surgery.",
+      "lead": "How should the counselling be framed?",
+      "opts": {
+        "A": "Promise preservation, single centres report 100%",
+        "B": "Present loss of ejaculation as a regular consequence",
+        "C": "Leave figures open, the data are contradictory",
+        "D": "State the range of 65 to 100% depending on series",
+        "E": "Omit nerve-sparing in order to be more radical"
+      },
+      "rat": {
+        "A": "Misconception: the best published figure is the expected one. Single-centre series are selected and not transferable [Q].",
+        "B": "Misconception: the procedure regularly costs ejaculation. With nerve-sparing it is preserved in the majority of cases [Q].",
+        "C": "Misconception: contradictory data exempt from counselling. Precisely then the range belongs in the conversation [X].",
+        "D": "Published rates range from 100% in single-centre series to 65 to 71% in multicentre data and meta-analyses [Q].",
+        "E": "Misconception: radicality beats function. Nerve-sparing is part of the recommended approach in marker-negative stage IIA [LL EAU 2026, 6.2.2.2.1]."
+      },
+      "core": "Counselling uses the range of published rates and the point that technique and centre experience determine it [Q] [LL EAU 2026, 6.1.3.2].",
+      "ev": "Single-centre series of primary robotic lymph node dissection report antegrade ejaculation in 100% [Q]. Multicentre data and meta-analyses give 65 to 71%, individual series 67 and 74% [Q]. After open nerve-sparing surgery in stage II seminoma it was preserved in 90 to 97% [Q]. From multicentre data the EAU reports higher in-field recurrence and complication rates with nerve-sparing procedures and ties the operation to experienced surgeons in centres [LL EAU 2026, 6.1.3.2].",
+      "prax": "Sperm cryopreservation is discussed before the procedure [X]. Knowing both sets of figures allows the patient's expectations to be put into realistic perspective and helps prevent disappointment [X].",
+      "merk": "Ejaculation preservation: single centres 100%, multicentre 65 to 71% — counsel with the range.",
+      "flag": "The two source articles give 100% versus 65 to 71% for the same question; the difference rests on selection and study design, not on new data."
+    }
+  ],
+  "hcg": [
+    {
+      "label": "Hypergonadotropic hypogonadism",
+      "mech": "LH is structurally similar to β-hCG and is also detected by nonspecific assays [Q].",
+      "step": "Give testosterone; if β-hCG subsequently normalises, the elevation was spurious [Q].",
+      "data": "Review article; mechanism inferred from pathophysiology [Q]."
+    },
+    {
+      "label": "Dialysis-dependent renal failure",
+      "mech": "Renal filtration is reduced to a minimum; the level can rise by a factor of 10 [Q].",
+      "step": "Document the baseline value, monitor the course and do not treat [LL EAU 2026, 6.2.1].",
+      "data": "Series of 44 patients [Q]."
+    },
+    {
+      "label": "Initiation of androgen deprivation",
+      "mech": "Raised GnRH levels stimulate ectopic pituitary production [Q].",
+      "step": "Await the follow-up measurement; three months after treatment initiation the values were within the normal range [Q].",
+      "data": "Series of 44 patients; only native hCG was detectable [Q]."
+    },
+    {
+      "label": "IgA deficiency, heterophile antibodies",
+      "mech": "Heterophile antibodies cross-react with the assay [Q].",
+      "step": "Repeat the measurement using an assay with a different antibody format [Q].",
+      "data": "54 patient serum samples examined [Q]."
+    },
+    {
+      "label": "Marijuana use",
+      "mech": "An elevation that disappeared after cessation of use has been reported [Q].",
+      "step": "Take a history, pause use and repeat the measurement [Q].",
+      "data": "Case report involving two patients; accordingly, the evidence is weak [Q]."
+    },
+    {
+      "label": "Biotin supplementation",
+      "mech": "Biotin causes falsely low measured values in laboratory testing [Q].",
+      "step": "Pause the supplement, repeat the measurement and assess the imaging findings independently [Q].",
+      "data": "Safety bulletin cited in the article [Q]."
+    },
+    {
+      "label": "Non-germ-cell tumour",
+      "mech": "10–30 % of all malignant non-germ-cell tumours produce β-hCG in an autocrine manner, especially at an advanced stage [Q].",
+      "step": "Assess the known malignancy as the source; do not guide treatment using this marker [Q].",
+      "data": "Detection rates in urothelial carcinoma of 30–76 % in serum; studies involving several hundred patients [Q]."
+    }
+  ],
+  "rplnd": {
+    "criteria": [
+      "Centre for testicular cancer surgery with minimally invasive expertise",
+      "Small lesion: lymph node up to 3 cm or residual mass of 10–50 mm",
+      "Location anterior or lateral to the great vessels",
+      "Tumour markers normalised",
+      "No previous retroperitoneal or abdominal surgery"
+    ],
+    "verdicts": {
+      "transfer": {
+        "title": "First, transfer to a centre",
+        "note": "Minimally invasive lymph node dissection must only be performed at centres with a high procedure volume and minimally invasive expertise [LL EAU 2026, 6.1.3.2]. At specialised centres, perioperative mortality falls from 6 % to 0.8 % and the local recurrence rate from 16 % to 3 % [LL EAU 2026, 6.3.3.1]."
+      },
+      "robotic": {
+        "title": "Robotic approach acceptable",
+        "note": "The published selection criteria are met: one to two residual masses of 10 to 50 mm, location anterior or lateral to the vessels, normalised markers and no previous surgery; with these criteria, two-year relapse-free survival was 98 % [Q]. The EAU considers minimally invasive procedures equivalent for low-volume residual disease in highly experienced hands [LL EAU 2026, 6.3.2.2]."
+      },
+      "open": {
+        "title": "Open approach",
+        "note": "If any criterion is missing, the open approach is favoured: bulky or multifocal disease and previous abdominal surgery are its domain [Q]. With residual masses above 5 cm, the probability of vascular procedures is as high as 20 % [LL EAU 2026, 6.3.3.1]."
+      }
+    }
+  }
+}

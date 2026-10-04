@@ -1,0 +1,198 @@
+{
+  "Urofragen und Lernmodule": {
+    "en": "Urofragen and learning modules",
+    "es": "Urofragen y módulos de aprendizaje"
+  },
+  "Fragen fachlich prüfen": {
+    "en": "Review questions clinically",
+    "es": "Revisar las preguntas clínicamente"
+  },
+  "Seminom IIA/B": {
+    "en": "Stage IIA/B seminoma",
+    "es": "Seminoma IIA/B"
+  },
+  "Hodentumor, Teil 3": {
+    "en": "Testicular cancer, part 3",
+    "es": "Tumor testicular, parte 3"
+  },
+  "Peniskarzinom": {
+    "en": "Penile cancer",
+    "es": "Cáncer de pene"
+  },
+  "Salvage-Operationen": {
+    "en": "Salvage surgery",
+    "es": "Cirugía de rescate"
+  },
+  "CME-Modul Urologie, Facharztniveau": {
+    "en": "Urology CME module, specialist level",
+    "es": "Módulo CME de urología, nivel de especialista"
+  },
+  "Provenienz in den Begründungen: ": {
+    "en": "Provenance in the explanations: ",
+    "es": "Procedencia en las explicaciones: "
+  },
+  " steht so im Artikel, ": {
+    "en": " stated in the article, ",
+    "es": " figura en el artículo, "
+  },
+  "LL EAU 2026, Abschnitt": {
+    "en": "LL EAU 2026, section",
+    "es": "LL EAU 2026, apartado"
+  },
+  " Leitlinie im Volltext geprüft, ": {
+    "en": " guideline full text checked, ",
+    "es": " texto completo de la guía revisado, "
+  },
+  " eigene Einordnung ohne direkten Beleg. Richtige Antworten stützen sich nur auf Q oder LL.": {
+    "en": " our interpretation without direct supporting evidence. Correct answers rely only on Q or LL.",
+    "es": " interpretación propia sin respaldo directo. Las respuestas correctas se apoyan únicamente en Q o LL."
+  },
+  "Importiertes Lernmodul auf Deutsch. Quellenhinweise stammen aus der bereitgestellten Datei; eine fachärztliche Freigabe dieses Moduls ist hier noch nicht dokumentiert.": {
+    "en": "Learning module translated from German. Source references come from the supplied file; specialist clinical approval of this module is not yet documented here.",
+    "es": "Módulo de aprendizaje traducido del alemán. Las referencias proceden del archivo facilitado; aquí aún no consta la aprobación clínica de este módulo por un especialista."
+  },
+  "Lernziele nach Themenachse": {
+    "en": "Learning objectives by topic area",
+    "es": "Objetivos de aprendizaje por área temática"
+  },
+  "Fragen": {
+    "en": "Questions",
+    "es": "Preguntas"
+  },
+  "Quellen": {
+    "en": "Sources",
+    "es": "Fuentes"
+  },
+  "Standard": {
+    "en": "Standard",
+    "es": "Estándar"
+  },
+  "Standard, nachrangig": {
+    "en": "Standard, lower priority",
+    "es": "Estándar, menor prioridad"
+  },
+  "Option mit Bedingungen": {
+    "en": "Option with conditions",
+    "es": "Opción con condiciones"
+  },
+  "Abwarten": {
+    "en": "Observation",
+    "es": "Observación"
+  },
+  "Nicht indiziert": {
+    "en": "Not indicated",
+    "es": "No indicado"
+  },
+  "Steht so im Quellartikel": {
+    "en": "Stated in the source article",
+    "es": "Figura en el artículo fuente"
+  },
+  "Eigene Einordnung ohne direkten Beleg": {
+    "en": "Our interpretation without direct supporting evidence",
+    "es": "Interpretación propia sin respaldo directo"
+  },
+  "Leitlinie im Volltext geprüft": {
+    "en": "Guideline full text checked",
+    "es": "Texto completo de la guía revisado"
+  },
+  "<li>Frage ": {
+    "en": "<li>Question ",
+    "es": "<li>Pregunta "
+  },
+  "Frage ": {
+    "en": "Question ",
+    "es": "Pregunta "
+  },
+  "Richtig.": {
+    "en": "Correct.",
+    "es": "Correcto."
+  },
+  "Nicht richtig. Richtig ist ": {
+    "en": "Incorrect. The correct answer is ",
+    "es": "Incorrecto. La respuesta correcta es "
+  },
+  "Kernaussage": {
+    "en": "Key point",
+    "es": "Idea clave"
+  },
+  "Evidenz": {
+    "en": "Evidence",
+    "es": "Evidencia"
+  },
+  "Distraktoren": {
+    "en": "Distractors",
+    "es": "Distractores"
+  },
+  "Praxiskonsequenz": {
+    "en": "Implications for practice",
+    "es": "Consecuencia práctica"
+  },
+  "Lernziel: ": {
+    "en": "Learning objective: ",
+    "es": "Objetivo de aprendizaje: "
+  },
+  "Referenz: ": {
+    "en": "Reference: ",
+    "es": "Referencia: "
+  },
+  "Merkkasten ": {
+    "en": "Summary box ",
+    "es": "Cuadro de resumen "
+  },
+  "Alle Fragen mit Lösung und Begründung": {
+    "en": "All questions with answers and explanations",
+    "es": "Todas las preguntas con respuesta y explicación"
+  },
+  ", Schwierigkeit ": {
+    "en": ", difficulty ",
+    "es": ", dificultad "
+  },
+  ", ⚠ Evidenz begrenzt": {
+    "en": ", ⚠ limited evidence",
+    "es": ", ⚠ evidencia limitada"
+  },
+  " (richtig)": {
+    "en": " (correct)",
+    "es": " (correcta)"
+  },
+  "Konstellation": {
+    "en": "Clinical scenario",
+    "es": "Situación clínica"
+  },
+  "Datenbasis": {
+    "en": "Evidence base",
+    "es": "Base de evidencia"
+  },
+  "Peniskarzinom: CME-Modul Facharztniveau": {
+    "en": "Penile cancer: specialist-level CME module",
+    "es": "Cáncer de pene: módulo CME de nivel de especialista"
+  },
+  "Peniskarzinom: Organerhalt, Lymphknoten und Systemtherapie": {
+    "en": "Penile cancer: organ preservation, lymph nodes and systemic therapy",
+    "es": "Cáncer de pene: preservación del órgano, ganglios linfáticos y tratamiento sistémico"
+  },
+  "Primärtumor: stadiengerechtes Vorgehen": {
+    "en": "Primary tumour: stage-appropriate management",
+    "es": "Tumor primario: tratamiento según el estadio"
+  },
+  "Stadium wählen. Angezeigt werden Verfahren, Entscheidung am Rand und Datenbasis. Quellen: Spreda & Protzel 2025, EAU/ASCO 2026.": {
+    "en": "Select a stage. The procedures, margin-related decision and evidence base are shown. Sources: Spreda & Protzel 2025, EAU/ASCO 2026.",
+    "es": "Selecciona un estadio. Se muestran los procedimientos, la decisión sobre los márgenes y la base de evidencia. Fuentes: Spreda y Protzel 2025, EAU/ASCO 2026."
+  },
+  "cN0: operatives Staging oder Überwachung?": {
+    "en": "cN0: surgical staging or surveillance?",
+    "es": "cN0: ¿estadificación quirúrgica o vigilancia?"
+  },
+  "Zutreffende Kriterien ankreuzen. Quellen: Dräger et al. 2025, EAU/ASCO 2026, Abschnitt 5.2.2.": {
+    "en": "Select the applicable criteria. Sources: Dräger et al. 2025, EAU/ASCO 2026, section 5.2.2.",
+    "es": "Marca los criterios que se cumplen. Fuentes: Dräger et al. 2025, EAU/ASCO 2026, apartado 5.2.2."
+  },
+  "Verfahren": {
+    "en": "Procedure",
+    "es": "Procedimiento"
+  },
+  "Entscheidung": {
+    "en": "Decision",
+    "es": "Decisión"
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "meta": [
+    [
+      "Fuente",
+      "Che Y, Papachristofilou A. Aktuelle operative und strahlentherapeutische Entwicklungen bei der Therapie des Seminoms im Stadium IIA/B. Die Urologie 2025;64:1018–1023. DOI 10.1007/s00120-025-02672-9"
+    ],
+    [
+      "Guías",
+      "EAU Guidelines on Testicular Cancer 2026, capítulo 6, texto completo revisado el 19.09.2026. Citadas únicamente a través del artículo: NCCN versión 2.2025 y guía S3 043/049OL (versión 1.1 de 2020, caducada y en revisión según AWMF)."
+    ],
+    [
+      "Contenido",
+      "10 preguntas en 5 áreas temáticas, unos 30 minutos"
+    ],
+    [
+      "Nota de lectura",
+      "Ambos autores son coautores de los estudios comentados: Che en PRIMETEST y Papachristofilou en SAKK 01/10 [Q]. Cuando el artículo y la EAU 2026 difieren, la respuesta correcta sigue la guía; estas preguntas llevan ⚠."
+    ]
+  ],
+  "sources": [
+    "Fuente primaria: Che Y, Papachristofilou A (2025) Aktuelle operative und strahlentherapeutische Entwicklungen bei der Therapie des Seminoms im Stadium IIA/B. Urologie 64:1018–1023. https://doi.org/10.1007/s00120-025-02672-9",
+    "EAU Guidelines on Testicular Cancer 2026, capítulo 6 Disease Management, apartados 6.2.2.1, 6.2.2.1.1, 6.2.2.1.2, 6.2.3.1.1, 6.2.3.1.2, 6.3.4 y 6.3.6.1. Texto completo en línea, consulta 19.09.2026.",
+    "Hiester A et al. (2023) PRIMETEST, RPLND primaria en el estadio IIA/B. Eur Urol 84:25–31 (citado a partir de la fuente primaria).",
+    "Daneshmand S et al. (2023) SEMS, estudio de fase II sobre RPLND en el seminoma. J Clin Oncol, doi 10.1200/JCO.22.00624 (citado a partir de la fuente primaria).",
+    "Heidenreich A et al. (2024) COTRIMS. Eur Urol Oncol 7:122–127 (citado a partir de la fuente primaria).",
+    "Thor A et al. (2024) RPLND primaria en una cohorte poblacional sueco-noruega (SWENOTECA). Eur Urol Open Sci 65:13–19 (citado a partir de la fuente primaria).",
+    "Papachristofilou A et al. (2022) SAKK 01/10, carboplatino y radioterapia de ganglios afectados. Lancet Oncol 23:1441–1450 (citado a partir de la fuente primaria).",
+    "Horwich A et al. (2013) Carboplatino neoadyuvante antes de radioterapia en el estadio IIA/B. Ann Oncol 24:2104–2107 (citado a partir de la fuente primaria).",
+    "Pongratanakul P et al. (2025) Análisis de pares emparejados: RPLND robótica frente a abierta. BJU Int, doi 10.1111/bju.16747 (citado a partir de la fuente primaria).",
+    "No se consultó el texto completo; citadas solo a través de la fuente primaria: NCCN Guidelines Testicular Cancer Version 2.2025; S3-Leitlinie Keimzelltumoren des Hodens, AWMF 043/049OL."
+  ],
+  "axes": {
+    "A": "Confirmación del estadio",
+    "B": "Tratamiento estándar",
+    "C": "RPLND primaria",
+    "D": "Después de la RPLND",
+    "E": "Radioquimioterapia desescalada"
+  },
+  "merk": {
+    "A": [
+      "Ganglio de menos de 2 cm con marcadores normales: imagen seccional de control a las 6–8 semanas antes de cualquier tratamiento [Q] [LL EAU 2026, 6.2.2.1].",
+      "Estadio IIA/B significa afectación retroperitoneal sin metástasis a distancia, con marcadores como máximo S1 (LDH inferior a 1,5 veces el límite normal, β-hCG inferior a 5000 mIU/ml) [Q].",
+      "Las lesiones supradiafragmáticas excluyen la radioterapia y la desescalada IIA/B: quimioterapia según IGCCCG [Q] [LL EAU 2026, 6.3.6.1]."
+    ],
+    "B": [
+      "Quimioterapia: tres ciclos de BEP o cuatro de EP si la bleomicina está contraindicada [Q] [LL EAU 2026, 6.2.2.1].",
+      "Radioterapia: paraaórtica y pélvica ipsilateral, 30 Gy en estadio IIA y 36 Gy en IIB; 27 Gy aumenta la tasa de recaída [Q] [LL EAU 2026, 6.2.2.1].",
+      "Ambos tratamientos estándar curan a más del 90 %, pero producen toxicidad tardía, incluidas segundas neoplasias (2 % tras radioterapia, 4 % tras quimioterapia en una revisión) [Q]."
+    ],
+    "C": [
+      "La RPLND primaria es una alternativa con condiciones: selección, cirujano experimentado, centro especializado, preferiblemente un estudio [Q] [LL EAU 2026, 6.2.2.1.1].",
+      "Plantilla unilateral modificada según el lado afectado; en PRIMETEST se conservó la eyaculación anterógrada en el 94 % [Q].",
+      "Los abordajes abierto y robótico son factibles y seguros; no hay comparación aleatorizada, y el robótico exige experiencia [Q]."
+    ],
+    "D": [
+      "Marcadores de riesgo tras RPLND: más de dos ganglios positivos o ganglios de más de 3 cm [Q].",
+      "En ese caso, valorar un ciclo adyuvante de BEP; PRIMETEST II estudia qué factores lo justifican [Q].",
+      "La recaída tras RPLND ocurre sin quimioterapia previa: primera línea según IGCCCG, no un esquema de segunda línea [Q] [LL EAU 2026, 6.3.4]."
+    ],
+    "E": [
+      "SAKK 01/10: un ciclo de carboplatino AUC 7 y después radioterapia de ganglios afectados; volumen aproximado de una cuarta parte del campo dog-leg [Q].",
+      "SLP a 3 años del 93,7 %, sin alcanzar por poco el objetivo primario del 95 %; la EAU no lo recomienda para uso rutinario [LL EAU 2026, 6.2.2.1.2].",
+      "Las recaídas se produjeron casi exclusivamente en estadio IIB; SAKK 01/18 estudia allí un ciclo de EP y 30 Gy, resultados en 2026/2027 [Q]."
+    ]
+  },
+  "questions": [
+    {
+      "n": 1,
+      "axis": "A",
+      "diff": 1,
+      "correct": "D",
+      "objective": "Puede distinguir el control evolutivo del tratamiento inmediato ante un ganglio retroperitoneal de tamaño limítrofe y marcadores normales.",
+      "reference": "Artículo: caso clínico, antecedentes, conclusiones para la práctica; EAU 2026, 6.2.2.1",
+      "vignette": "Un varón de 42 años está en vigilancia activa desde hace 12 meses tras una orquiectomía inguinal izquierda (seminoma pT1, 42 mm, sin invasión de la rete testis). La TC de control muestra un nuevo ganglio paraaórtico izquierdo solitario de algo menos de 1 cm de eje corto. AFP, β-hCG y LDH son normales y está asintomático. Se presenta en el comité de tumores para decidir la conducta.",
+      "lead": "¿Qué conducta es adecuada ante este hallazgo?",
+      "opts": {
+        "A": "Iniciar de inmediato quimioterapia con tres ciclos de BEP",
+        "B": "Dosis única de carboplatino AUC 7 como adyuvancia diferida",
+        "C": "Radioterapia paraaórtica y pélvica ipsilateral con 30 Gy",
+        "D": "Repetir la imagen seccional en unas ocho semanas",
+        "E": "Mantener el seguimiento rutinario en el intervalo previsto"
+      },
+      "rat": {
+        "A": "Error de concepto: todo ganglio nuevo sería una recaída. Sin elevación de marcadores el aumento puede ser reactivo [Q]; de media, alrededor del 10 % de estos ganglios no son metastásicos [LL EAU 2026, 6.2.2.1].",
+        "B": "Error de concepto: el enfoque adyuvante del estadio I sería aplicable a una posible recaída. La monoterapia con carboplatino no figura entre las opciones estándar del estadio IIA/B [Q].",
+        "C": "Error de concepto: hallazgo pequeño, tratamiento pequeño. La radioterapia es estándar en el estadio IIA confirmado [Q]; aquí se trataría un hallazgo no confirmado.",
+        "D": "Repetir la imagen a las 8 semanas aproximadamente confirma o descarta el estadio [Q]; solo se trata si hay crecimiento, ascenso de marcadores o confirmación por biopsia [LL EAU 2026, 6.2.2.1].",
+        "E": "Error de concepto: un hallazgo nuevo no cambiaría el calendario de seguimiento. Exige una reevaluación dirigida y adelantada en lugar del intervalo habitual [Q]."
+      },
+      "core": "Un ganglio de menos de 2 cm con marcadores normales no establece un estadio IIA [Q]. Solo la imagen de control distingue un aumento reactivo de una metástasis y decide si hace falta tratar.",
+      "ev": "Los autores recomiendan repetir la imagen seccional a las 8 semanas aproximadamente en el estadio IIA sin elevación de marcadores [Q]. La EAU indica 6–8 semanas y solo inicia el tratamiento cuando la enfermedad metastásica es inequívoca por biopsia, aumento del tamaño o del número de ganglios o ascenso de marcadores [LL EAU 2026, 6.2.2.1]. En el caso del artículo, el ganglio había crecido a 23 mm a los 2 meses [Q].",
+      "prax": "Tratar de inmediato supone sobretratar a una parte de los pacientes con el perfil de toxicidad tardía de las opciones estándar. Por eso el intervalo de control debe constar expresamente en la decisión del comité [X].",
+      "merk": "Marcadores normales y menos de 2 cm: imagen de control a las 6–8 semanas y después decidir el tratamiento.",
+      "flag": null
+    },
+    {
+      "n": 2,
+      "axis": "A",
+      "diff": 2,
+      "correct": "B",
+      "objective": "Reconoce que la afectación supradiafragmática excluye la radioterapia infradiafragmática y los conceptos de desescalada estudiados para IIA/B.",
+      "reference": "Artículo: antecedentes, radioterapia; EAU 2026, 6.3.6.1",
+      "vignette": "Un varón de 33 años con seminoma puro acude para estadificación tras la orquiectomía. La TC muestra un ganglio paraaórtico izquierdo de 2,6 cm y, además, un ganglio supraclavicular izquierdo de 1,4 cm; pulmones y vísceras sin hallazgos. AFP normal, β-hCG y LDH discretamente elevadas, dentro de S1. Prefiere evitar la quimioterapia. Debe decidirse el tratamiento primario.",
+      "lead": "¿Qué conducta está indicada con esta extensión?",
+      "opts": {
+        "A": "Radioterapia en palo de hockey con 36 Gy y sobreimpresión supraclavicular",
+        "B": "Quimioterapia basada en cisplatino según el grupo pronóstico IGCCCG",
+        "C": "Carboplatino AUC 7 y después radioterapia dirigida a los ganglios afectados en ambos focos",
+        "D": "RPLND primaria con exéresis del ganglio supraclavicular",
+        "E": "Radioterapia paraaórtica con 36 Gy y observación del ganglio supraclavicular"
+      },
+      "rat": {
+        "A": "Error de concepto: el campo podría ampliarse a la enfermedad supradiafragmática. La radioterapia clásica es un concepto local infradiafragmático y no cumple su objetivo con una metástasis supraclavicular [Q].",
+        "B": "Con el ganglio supraclavicular la enfermedad ya no es locorregional [Q]. El seminoma a partir del estadio IIC se trata con quimioterapia primaria según IGCCCG [LL EAU 2026, 6.3.6.1].",
+        "C": "Error de concepto: SAKK 01/10 serviría para cualquier carga tumoral baja. El esquema se estudió solo en el estadio IIA/B [Q] y ni siquiera allí está establecido para uso rutinario [LL EAU 2026, 6.2.2.1.2].",
+        "D": "Error de concepto: la desescalada quirúrgica valdría para cualquier localización ganglionar. La RPLND primaria se estudió en la afectación retroperitoneal del estadio IIA/B [Q], no en la diseminación supradiafragmática.",
+        "E": "Error de concepto: la lesión menor sería despreciable. Los autores citan precisamente este escenario como la razón por la que la radioterapia local fracasa sin una estadificación completa [Q]."
+      },
+      "core": "La asignación del estadio determina el principio terapéutico. Con el ganglio supraclavicular la enfermedad deja de ser locorregional y todo concepto local o desescalado para el estadio IIA/B pierde su base.",
+      "ev": "Estadio IIA/B significa metástasis ganglionares retroperitoneales sin enfermedad a distancia y marcadores como máximo en S1 [Q]. La radioterapia infradiafragmática es local y no cumple su objetivo si existe además una metástasis supraclavicular [Q]. Para el seminoma a partir del estadio IIC la EAU recomienda quimioterapia primaria según IGCCCG, BEP x 3 en pronóstico favorable [LL EAU 2026, 6.3.6.1].",
+      "prax": "Antes de cualquier radioterapia o desescalada, la estadificación debe incluir el tórax y la región supraclavicular; por eso en el caso del artículo se realizó una TC de tronco [Q]. El deseo de evitar la quimioterapia no cambia aquí la indicación [X].",
+      "merk": "Ganglio supraclavicular en el seminoma: no es estadio II; quimioterapia según IGCCCG en lugar de radioterapia.",
+      "flag": null
+    },
+    {
+      "n": 3,
+      "axis": "B",
+      "diff": 1,
+      "correct": "E",
+      "objective": "Puede elegir el esquema equivalente de quimioterapia en estadio IIA/B cuando la bleomicina está contraindicada.",
+      "reference": "Artículo: tratamientos estándar; EAU 2026, 6.2.2.1 y 6.2.3.1.2",
+      "vignette": "Un varón de 45 años con seminoma en estadio IIA (ganglio paraaórtico solitario de 1,8 cm, crecimiento confirmado en la imagen de control, marcadores normales) elige quimioterapia tras ser informado de todas las opciones. Neumología desaconseja expresamente la bleomicina por una enfermedad pulmonar previa. Debe elegirse el esquema de quimioterapia.",
+      "lead": "¿Qué esquema es adecuado para este paciente?",
+      "opts": {
+        "A": "Tres ciclos de BEP a dosis estándar",
+        "B": "Tres ciclos de EP sin ciclo adicional",
+        "C": "Cuatro ciclos de VIP con profilaxis con G-CSF",
+        "D": "Un ciclo de carboplatino dosificado a AUC 7",
+        "E": "Cuatro ciclos de EP (etopósido, cisplatino)"
+      },
+      "rat": {
+        "A": "Error de concepto: el esquema estándar valdría con independencia de las contraindicaciones. Para quien no puede recibir bleomicina, el artículo y la EAU prevén una alternativa explícita [Q] [LL EAU 2026, 6.2.2.1].",
+        "B": "Error de concepto: la bleomicina podría suprimirse sin más. El artículo propone cuatro ciclos de EP como alternativa [Q]; el ciclo adicional compensa la omisión [X].",
+        "C": "Error de concepto: confusión de grupos pronósticos. VIP es la alternativa sin bleomicina en el grupo de pronóstico intermedio [LL EAU 2026, 6.2.3.1.2], no en el estadio IIA.",
+        "D": "Error de concepto: trasladar la adyuvancia del estadio I. La monoterapia con carboplatino no es una opción estándar en el estadio IIA/B [Q].",
+        "E": "Cuatro ciclos de etopósido y cisplatino sustituyen a tres ciclos de BEP cuando la bleomicina está contraindicada [Q] [LL EAU 2026, 6.2.2.1]."
+      },
+      "core": "La contraindicación de la bleomicina no cambia el principio terapéutico, solo el esquema: cuatro ciclos de EP en lugar de tres de BEP.",
+      "ev": "Las opciones conformes a la guía en el estadio IIA/B son tres ciclos de BEP, cuatro ciclos de EP si la bleomicina está contraindicada, o la radioterapia [Q]. La EAU indica igualmente BEP x 3 o EP x 4 si hay reservas frente a la bleomicina, con tasas de recaída del 0–8 % tras quimioterapia en el estadio IIA [LL EAU 2026, 6.2.2.1].",
+      "prax": "Los antecedentes pulmonares deben pesar en la elección del esquema antes de empezar; pasarlos por alto supone un riesgo pulmonar evitable [X]. Hay que informar además de la toxicidad tardía del cisplatino: cardiovascular, renal y segundas neoplasias [Q].",
+      "merk": "Bleomicina contraindicada: cuatro ciclos de EP en lugar de tres ciclos de BEP.",
+      "flag": null
+    },
+    {
+      "n": 4,
+      "axis": "B",
+      "diff": 1,
+      "correct": "A",
+      "objective": "Puede definir el campo y la dosis de radioterapia conformes a la guía para el estadio IIA.",
+      "reference": "Artículo: tratamientos estándar, radioterapia; EAU 2026, 6.2.2.1",
+      "vignette": "Un varón de 38 años con seminoma en estadio IIA (ganglio paraaórtico único de 1,6 cm, crecimiento confirmado en el control, marcadores normales, resto de la estadificación de tórax a pelvis sin hallazgos) rechaza quimioterapia y cirugía. Opta por radioterapia. Deben definirse el volumen blanco y la dosis.",
+      "lead": "¿Qué esquema de radioterapia se ajusta a la guía?",
+      "opts": {
+        "A": "Paraaórtica y pélvica ipsilateral, dosis total 30 Gy",
+        "B": "Paraaórtica y pélvica ipsilateral, dosis total 36 Gy",
+        "C": "Paraaórtica y pélvica ipsilateral, dosis total 27 Gy",
+        "D": "Solo paraaórtica sin campo pélvico, dosis total 30 Gy",
+        "E": "Solo campo afectado, sin carboplatino, dosis total 30 Gy"
+      },
+      "rat": {
+        "A": "El campo clásico abarca el drenaje linfático retroperitoneal y pélvico ipsilateral, con 30 Gy en el estadio IIA [Q] [LL EAU 2026, 6.2.2.1].",
+        "B": "Error de concepto: confusión de estadios. 36 Gy es la dosis del estadio IIB [Q]; en el estadio IIA añade dosis sin beneficio demostrado [X].",
+        "C": "Error de concepto: una dosis menor solo reduciría la toxicidad. Reducir la dosis a 27 Gy en el estadio IIA se asocia a una mayor tasa de recaída [LL EAU 2026, 6.2.2.1].",
+        "D": "Error de concepto: un campo solo paraaórtico bastaría en la enfermedad metastásica. En el estadio IIA el drenaje pélvico ipsilateral forma parte del campo estándar [Q].",
+        "E": "Error de concepto: la radioterapia de pequeño volumen sería autosuficiente. En SAKK 01/10 siempre siguió a un ciclo de carboplatino [Q]; sola, falta el efecto fuera del campo [X]."
+      },
+      "core": "En el estadio IIA la radioterapia es una opción estándar junto a la quimioterapia: campo paraaórtico y pélvico ipsilateral, dosis de 30 Gy [Q] [LL EAU 2026, 6.2.2.1].",
+      "ev": "El artículo indica 30 Gy para el estadio IIA y 36 Gy para el IIB con radioterapia paraaórtica y pélvica ipsilateral [Q]. La EAU recomienda las mismas dosis, comunica una supervivencia libre de recaída a cinco años del 92 % en el estadio IIA y una mayor tasa de recaída al reducir a 27 Gy [LL EAU 2026, 6.2.2.1].",
+      "prax": "El campo amplio, de unos 1200 cm³, aumenta el riesgo de segundas neoplasias [Q]; la EAU exige informar de los efectos tardíos de ambas opciones [LL EAU 2026, 6.3.6.1]. La estadificación completa es imprescindible porque la radioterapia solo actúa localmente [Q].",
+      "merk": "Estadio IIA: paraaórtica más pélvica ipsilateral con 30 Gy, ni 27 Gy ni 36 Gy.",
+      "flag": null
+    },
+    {
+      "n": 5,
+      "axis": "C",
+      "diff": 2,
+      "correct": "C",
+      "objective": "Puede clasificar la RPLND primaria en el seminoma IIA/B como alternativa con condiciones y explicar el riesgo de recaída.",
+      "reference": "Artículo: evidencia, conclusiones sobre RPLND; EAU 2026, 6.2.2.1.1",
+      "vignette": "Un varón de 30 años con seminoma en estadio IIA (ganglio solitario de 1,9 cm, crecimiento confirmado en el control, marcadores normales) no desea quimioterapia ni radioterapia y pregunta por la linfadenectomía retroperitoneal. El hospital es un centro de tumores testiculares con experiencia en RPLND. La información tiene lugar antes de la decisión del comité de tumores.",
+      "lead": "¿Cómo debe situarse la RPLND primaria para este paciente?",
+      "opts": {
+        "A": "Estándar establecido con la misma supervivencia sin recaída que la quimioterapia",
+        "B": "Contraindicada en el seminoma porque solo cura el tratamiento sistémico",
+        "C": "Alternativa en un centro experto, idealmente dentro de un ensayo",
+        "D": "Útil solo como resección de masa residual tras quimioterapia previa",
+        "E": "Equivalente siempre que sigan de rutina tres ciclos de BEP"
+      },
+      "rat": {
+        "A": "Error de concepto: figurar en una guía equivaldría a equivalencia. La supervivencia sin recaída en los ensayos fue del 70–90 % [Q]; según la EAU faltan seguimiento más largo y estudios comparativos [LL EAU 2026, 6.2.2.1.1].",
+        "B": "Error de concepto anterior a los ensayos prospectivos. SEMS, COTRIMS y PRIMETEST han evaluado la RPLND primaria en el estadio IIA/B [Q]; no está contraindicada.",
+        "C": "El artículo y la EAU vinculan la RPLND primaria a la selección del paciente, la calidad quirúrgica y un centro especializado, según la EAU idealmente en un ensayo o cohorte prospectiva [Q] [LL EAU 2026, 6.2.2.1.1].",
+        "D": "Error de concepto: confusión con la resección tras quimioterapia. Aquí se trata de la RPLND primaria como alternativa a la quimioterapia [Q].",
+        "E": "Error de concepto: un tratamiento adicional rutinario aseguraría el resultado. Eso anula el propósito; la adyuvancia solo se plantea con marcadores de riesgo, como un único ciclo de BEP [Q]."
+      },
+      "core": "La RPLND primaria es una alternativa potencialmente curativa sin quimioterapia ni radioterapia, pero solo con condiciones: paciente seleccionado, cirujano experto y centro especializado.",
+      "ev": "En SEMS, COTRIMS y PRIMETEST la supervivencia sin recaída fue del 70–90 %; todas las recaídas se trataron con éxito con quimioterapia [Q]. La guía NCCN (versión 2.2025) recoge la RPLND primaria como opción para el seminoma en estadio IIA/B de menos de 3 cm [Q]. La EAU describe tasas de recaída a dos años del 5–30 % y recomienda la intervención solo por cirujanos muy experimentados en centros especializados, idealmente en una cohorte prospectiva o un ensayo [LL EAU 2026, 6.2.2.1.1].",
+      "prax": "La información debe mencionar el mayor riesgo de recaída frente al tratamiento estándar y la quimioterapia que entonces sería necesaria [Q]. La indicación corresponde al comité multidisciplinar de tumores [Q].",
+      "merk": "RPLND primaria en el seminoma IIA/B: alternativa con condiciones, no estándar; centro, selección y, a ser posible, ensayo.",
+      "flag": "No hay datos aleatorizados. La NCCN (versión 2.2025) recoge la RPLND primaria para ganglios de menos de 3 cm como opción; la EAU 2026 la limita al contexto de estudio o cohorte. Reevaluar tras los resultados de PRIMETEST II."
+    },
+    {
+      "n": 6,
+      "axis": "C",
+      "diff": 2,
+      "correct": "E",
+      "objective": "Puede planificar la plantilla y el abordaje de la RPLND primaria según el lado afectado, la preservación funcional y la experiencia del centro.",
+      "reference": "Artículo: aspectos técnicos (abordaje, plantilla), fig. 3",
+      "vignette": "Un varón de 28 años con seminoma izquierdo presenta un ganglio paraaórtico izquierdo solitario de 2,2 cm con marcadores normales. El comité recomienda RPLND primaria; el centro opera por vía abierta y robótica con experiencia comparable. Desea tener hijos y pregunta por la preservación de la eyaculación. Debe decidirse la planificación quirúrgica.",
+      "lead": "¿Qué planificación quirúrgica está mejor justificada?",
+      "opts": {
+        "A": "Plantilla bilateral, porque solo así se asegura la radicalidad",
+        "B": "Abordaje robótico obligatorio por su superioridad oncológica",
+        "C": "Abordaje abierto obligatorio porque la robótica causa más recaídas",
+        "D": "Plantilla unilateral más linfadenectomía pélvica ipsilateral",
+        "E": "Plantilla izquierda modificada, abordaje según la experiencia"
+      },
+      "rat": {
+        "A": "Error de concepto: más resección significaría más seguridad. Las plantillas bilaterales se usaron solo en parte de los pacientes de SEMS y no mostraron beneficio oncológico [Q].",
+        "B": "Error de concepto: las ventajas técnicas serían ventajas oncológicas. La robótica mostró menor sangrado, estancia más corta y mejor resultado estético; faltan comparaciones aleatorizadas [Q].",
+        "C": "Error de concepto en sentido contrario. No se ha demostrado una desventaja oncológica de la técnica robótica [Q]; ambos abordajes se consideran factibles y seguros.",
+        "D": "Error de concepto: el campo de radioterapia podría trasladarse a la cirugía. La extensión pélvica ipsilateral corresponde a la radioterapia [Q]; la plantilla de RPLND sigue el hallazgo retroperitoneal [Q].",
+        "E": "La plantilla unilateral modificada sigue el lado de los ganglios detectados radiológicamente y busca el control tumoral con mínima pérdida funcional [Q]."
+      },
+      "core": "La plantilla depende del lado del hallazgo y el abordaje de la experiencia del centro. Ambos buscan el máximo control tumoral con la mínima limitación funcional.",
+      "ev": "Los ensayos usaron sobre todo una plantilla unilateral modificada; en PRIMETEST se preservó la eyaculación anterógrada en el 94 % de los pacientes y las plantillas bilaterales no mostraron beneficio oncológico en SEMS [Q]. Los abordajes abierto y robótico son factibles y seguros; falta una comparación aleatorizada y la RPLND robótica requiere la experiencia correspondiente [Q].",
+      "prax": "Si hay deseo de paternidad, el riesgo residual de pérdida de la eyaculación y la criopreservación de semen antes de la cirugía deben formar parte de la conversación [X]. Sin experiencia robótica, el abordaje abierto es la opción segura [Q].",
+      "merk": "Plantilla según el lado del hallazgo y abordaje según la experiencia, no según una supuesta superioridad oncológica.",
+      "flag": "Los datos sobre plantilla y abordaje proceden de estudios de fase II de un solo brazo y de un análisis de pares emparejados; faltan comparaciones aleatorizadas."
+    },
+    {
+      "n": 7,
+      "axis": "D",
+      "diff": 3,
+      "correct": "B",
+      "objective": "Puede valorar la indicación de un ciclo adyuvante de BEP tras RPLND primaria según los marcadores patológicos de riesgo.",
+      "reference": "Artículo: evidencia, tratamiento adyuvante tras RPLND; EAU 2026, 6.2.2.1.1",
+      "vignette": "Un varón de 35 años con seminoma en estadio IIB ha sido sometido a RPLND primaria. Histología: tres ganglios afectados, depósito mayor de 2,4 cm, R0. Los marcadores son normales tras la cirugía y la evolución ha sido sin complicaciones. Desea reducir el riesgo de recaída sin recibir tratamiento innecesario. Se presenta en el comité para decidir la conducta posoperatoria.",
+      "lead": "¿Qué conducta posoperatoria está mejor justificada?",
+      "opts": {
+        "A": "Tres ciclos de BEP como en la enfermedad metastásica primaria",
+        "B": "Ofrecer un ciclo adyuvante de BEP y sopesar el beneficio",
+        "C": "Dos ciclos de carboplatino AUC 7 como monoterapia adyuvante",
+        "D": "Radioterapia adyuvante del lecho quirúrgico con 30 Gy",
+        "E": "Seguimiento sin valorar el riesgo, pues la RPLND fue curativa"
+      },
+      "rat": {
+        "A": "Error de concepto: los ganglios positivos exigirían el tratamiento completo de la enfermedad metastásica. Con marcadores de riesgo se estudió un único ciclo adyuvante de BEP [Q].",
+        "B": "Más de dos ganglios afectados son un marcador de riesgo; en el estudio escandinavo un ciclo de BEP redujo de forma notable la tasa de recaída [Q].",
+        "C": "Error de concepto: trasladar el carboplatino del estadio I. Tras la RPLND con marcadores de riesgo se evaluó BEP con cisplatino, no carboplatino [Q].",
+        "D": "Error de concepto: cirugía y radioterapia se complementarían. Los enfoques adyuvantes tras la RPLND primaria son sistémicos [Q]; la radioterapia anularía el concepto sin radiación [X].",
+        "E": "Error de concepto: tras una resección R0 no habría riesgo relevante de recaída. La supervivencia sin recaída tras RPLND en los ensayos fue del 70–90 % [Q]; los marcadores de riesgo desplazan ese riesgo."
+      },
+      "core": "Tres ganglios afectados cumplen un criterio patológico de riesgo. Un único ciclo adyuvante de BEP reduce entonces el riesgo de recaída y debe sopesarse frente a la posibilidad de evitar por completo la quimioterapia.",
+      "ev": "Un estudio escandinavo multicéntrico administró un ciclo adyuvante de BEP con más de dos ganglios positivos o ganglios de más de 3 cm y redujo así de forma notable la tasa de recaída [Q]. Qué factores justifican el tratamiento adyuvante lo analiza el ensayo PRIMETEST II, en curso [Q]. La EAU describe series de RPLND con y sin quimioterapia adyuvante [LL EAU 2026, 6.2.2.1.1] y considera todas las estrategias de desescalada aún en evaluación [LL EAU 2026, 6.2.2.1.2].",
+      "prax": "La decisión es una ponderación, no un automatismo: sin adyuvancia una parte de los pacientes queda libre de quimioterapia y una recaída podría tratarse con quimioterapia [Q]. Por eso el informe anatomopatológico debe indicar expresamente el número de ganglios afectados y el diámetro mayor [X].",
+      "merk": "Tras RPLND con marcadores de riesgo, es decir, más de dos ganglios positivos o ganglios de más de 3 cm: sopesar un ciclo de BEP, no tres.",
+      "flag": "Los criterios de riesgo proceden de una cohorte poblacional y no se han validado prospectivamente; PRIMETEST II está en curso."
+    },
+    {
+      "n": 8,
+      "axis": "D",
+      "diff": 2,
+      "correct": "A",
+      "objective": "Puede reconocer la recaída tras RPLND primaria como una situación sin quimioterapia previa y tratar según el estadio.",
+      "reference": "Artículo: evidencia; EAU 2026, 6.2.2.1.1 y 6.3.4",
+      "vignette": "Un varón de 31 años fue sometido hace nueve meses a RPLND primaria izquierda sin tratamiento adyuvante por un seminoma en estadio IIA. La TC de seguimiento muestra un nuevo ganglio paracavo derecho de 2,8 cm fuera de la plantilla, sin otros hallazgos; AFP normal, β-hCG discretamente elevada. Nunca ha recibido quimioterapia. Se remite para decidir el tratamiento de la recaída.",
+      "lead": "¿Qué tratamiento de la recaída es adecuado?",
+      "opts": {
+        "A": "Primera línea según IGCCCG, por lo general tres ciclos de BEP",
+        "B": "Esquema de rescate con cuatro ciclos de TIP o bien VIP",
+        "C": "Nueva RPLND ampliando a una plantilla bilateral",
+        "D": "Carboplatino AUC 7 y luego radioterapia dirigida a los ganglios afectados 36 Gy",
+        "E": "Radioterapia paraaórtica y pélvica ipsilateral con 36 Gy"
+      },
+      "rat": {
+        "A": "El paciente no ha recibido quimioterapia. La recaída tras RPLND se trata con quimioterapia estándar, que según la EAU casi siempre cura [LL EAU 2026, 6.2.2.1.1]; en los ensayos se logró en todas las recaídas [Q].",
+        "B": "Error de concepto: rescate significaría segunda línea. TIP y VIP están previstos para la recaída tras una primera línea con cisplatino [LL EAU 2026, 6.3.4]; este paciente no ha recibido quimioterapia.",
+        "C": "Error de concepto: lógica quirúrgica de recaída tomada del no seminoma. Para la recaída tras RPLND primaria en el seminoma, la vía respaldada es la quimioterapia [Q] [LL EAU 2026, 6.2.2.1.1].",
+        "D": "Error de concepto: la desescalada seguiría siendo la primera opción en la recaída. El esquema combinado se estudió como tratamiento primario en el estadio IIA/B, no tras RPLND [Q].",
+        "E": "Error de concepto: tras la cirugía, la radioterapia sería una opción local equivalente. Para la recaída tras RPLND lo respaldado es la quimioterapia estándar [Q]; la fuente no aporta datos de radioterapia en esta situación [X]."
+      },
+      "core": "La recaída tras RPLND primaria afecta a un paciente sin quimioterapia previa. Por eso recibe quimioterapia de primera línea adaptada al estadio, no un esquema de rescate de segunda línea.",
+      "ev": "En SEMS, COTRIMS y PRIMETEST todas las recaídas se trataron con éxito con quimioterapia de rescate [Q]. Según la EAU, las recaídas tras RPLND primaria se curan casi siempre con quimioterapia estándar [LL EAU 2026, 6.2.2.1.1]; las combinaciones con ifosfamida como TIP o VIP se reservan para la recaída tras una primera línea con cisplatino [LL EAU 2026, 6.3.4]. En pronóstico favorable, BEP x 3 es el estándar [LL EAU 2026, 6.2.3.1.1].",
+      "prax": "En el contexto de la RPLND, rescate significa rescate tras la cirugía, no segunda línea. La asignación IGCCCG se basa en los hallazgos en el momento de la recaída [X].",
+      "merk": "Recaída tras RPLND primaria: sin quimioterapia previa, por tanto primera línea según IGCCCG, habitualmente tres ciclos de BEP.",
+      "flag": null
+    },
+    {
+      "n": 9,
+      "axis": "E",
+      "diff": 2,
+      "correct": "C",
+      "objective": "Puede distinguir el esquema SAKK 01/10 de la radioterapia convencional, la adyuvancia del estadio I y SAKK 01/18.",
+      "reference": "Artículo: radioterapia, fig. 4; EAU 2026, 6.2.2.1.2",
+      "vignette": "Un varón de 40 años con seminoma en estadio IIA (ganglio paraaórtico único de 1,7 cm, crecimiento confirmado, marcadores normales, resto de la estadificación completa sin hallazgos) se trata en un centro de tumores testiculares. Tras la decisión del comité y la información sobre la evidencia, recibirá quimiorradioterapia desescalada como en SAKK 01/10. Debe definirse la secuencia del tratamiento.",
+      "lead": "¿Cómo se aplica el tratamiento como en SAKK 01/10?",
+      "opts": {
+        "A": "Radioterapia dirigida a los ganglios afectados y después un ciclo de carboplatino AUC 7",
+        "B": "Un ciclo de carboplatino AUC 7, luego campo clásico en palo de hockey",
+        "C": "Un ciclo de carboplatino AUC 7, luego radioterapia dirigida a los ganglios afectados",
+        "D": "Un ciclo de etopósido y cisplatino, después radioterapia dirigida a los ganglios afectados con 30 Gy",
+        "E": "Dos ciclos de carboplatino AUC 7 sin radioterapia posterior"
+      },
+      "rat": {
+        "A": "Error de concepto: el orden sería indiferente. Se estudió un ciclo de carboplatino seguido de radioterapia de pequeño volumen [Q] [LL EAU 2026, 6.2.2.1.2].",
+        "B": "Error de concepto: confusión con el estudio británico, que combinó carboplatino con radioterapia clásica [Q]. SAKK 01/10 reduce precisamente el volumen, de media a una cuarta parte [Q].",
+        "C": "Un ciclo de carboplatino AUC 7 y después radioterapia solo de los ganglios afectados con un margen pequeño; en el estadio IIA, 30 Gy en 15 fracciones [Q] [LL EAU 2026, 6.2.2.1.2].",
+        "D": "Error de concepto: confusión con SAKK 01/18. Ese ensayo estudia de forma experimental un ciclo de etopósido y cisplatino en el estadio IIB; los resultados están pendientes [Q].",
+        "E": "Error de concepto: trasladar la adyuvancia del estadio I. Sin radioterapia de los ganglios afectados falta el componente local del esquema estudiado [Q]."
+      },
+      "core": "SAKK 01/10 sustituye dosis acumuladas altas de quimioterapia y campos amplios por una combinación atenuada: primero un ciclo de carboplatino y después radioterapia solo de los ganglios afectados [Q].",
+      "ev": "En el mayor estudio de este tipo hasta ahora, 120 pacientes recibieron un ciclo de carboplatino AUC 7 seguido de radioterapia dirigida a los ganglios afectados; el volumen fue de una cuarta parte del campo en palo de hockey y la supervivencia libre de progresión tras al menos 3 años, de casi el 94 % [Q]. La EAU indica 30 Gy en 15 fracciones para IIA y 36 Gy en 18 fracciones para IIB y una SLP a 3 años del 93,7 %, con lo que se quedó cerca del objetivo primario del 95 % sin alcanzarlo [LL EAU 2026, 6.2.2.1.2].",
+      "prax": "La NCCN recoge el esquema como alternativa [Q], mientras que la EAU aún no lo considera establecido para uso rutinario [LL EAU 2026, 6.2.2.1.2]; la indicación corresponde al comité de un centro especializado [Q].",
+      "merk": "SAKK 01/10: un ciclo de carboplatino AUC 7 y después radioterapia dirigida a los ganglios afectados; volumen de una cuarta parte del campo en palo de hockey.",
+      "flag": "Estudio de fase II de un solo brazo; no se alcanzó por poco el objetivo primario. La NCCN recoge el esquema como alternativa; la EAU 2026 no apoya su uso rutinario."
+    },
+    {
+      "n": 10,
+      "axis": "E",
+      "diff": 3,
+      "correct": "D",
+      "objective": "Puede justificar la quimioterapia estándar frente a la desescalada en enfermedad IIB de mayor volumen.",
+      "reference": "Artículo: tratamientos estándar, radioterapia, conclusiones sobre RPLND; EAU 2026, 6.2.2.1 y 6.2.2.1.2",
+      "vignette": "Un varón de 36 años con seminoma presenta un ganglio paraaórtico solitario de 4,1 cm (estadio IIB), marcadores normales y el resto de la estadificación sin hallazgos. Ha leído sobre la combinación de carboplatino y radioterapia y quiere evitar la quimioterapia estándar. No hay ningún ensayo adecuado abierto en el centro. La información tiene lugar antes de decidir el tratamiento.",
+      "lead": "¿Qué recomendación está mejor justificada para este paciente?",
+      "opts": {
+        "A": "Carboplatino más radioterapia dirigida a los ganglios afectados como vía equivalente",
+        "B": "Un ciclo de EP más 30 Gy de campo afectado fuera de un ensayo",
+        "C": "RPLND primaria con plantilla bilateral por el tamaño del ganglio",
+        "D": "Tres ciclos de BEP; desescalada solo en el contexto de un ensayo",
+        "E": "Radioterapia paraaórtica y pélvica con 36 Gy como opción preferente"
+      },
+      "rat": {
+        "A": "Error de concepto: figurar en la NCCN equivaldría a equivalencia. En SAKK 01/10 las recaídas se dieron casi solo en el estadio IIB [Q]; la EAU no ve evidencia para el uso rutinario [LL EAU 2026, 6.2.2.1.2].",
+        "B": "Error de concepto: un concepto en ensayo ya sería práctica. SAKK 01/18 estudia esta modificación en el estadio IIB; los resultados se esperan en 2026/2027 [Q].",
+        "C": "Error de concepto: un ganglio mayor justificaría una plantilla mayor. La NCCN recoge la RPLND primaria solo para ganglios de menos de 3 cm y las plantillas bilaterales no mostraron beneficio oncológico [Q].",
+        "D": "En el estadio IIB se prefiere la poliquimioterapia [Q]; según la EAU, las estrategias de desescalada corresponden a centros especializados dentro de un ensayo o cohorte prospectiva [LL EAU 2026, 6.2.2.1.2].",
+        "E": "Error de concepto: ambos estándares tendrían el mismo rango en el estadio IIB. La radioterapia con 36 Gy es posible, pero se prefiere la quimioterapia [Q]; la EAU describe una tendencia no significativa de eficacia a su favor [LL EAU 2026, 6.2.2.1]."
+      },
+      "core": "Con un ganglio de más de 4 cm en estadio IIB y sin ensayo disponible, la quimioterapia es la opción mejor respaldada [Q]. Los conceptos de desescalada están menos asegurados precisamente en este grupo [Q] [LL EAU 2026, 6.2.2.1.2].",
+      "ev": "En el estadio IIB se prefiere la poliquimioterapia; más del 90 % de los pacientes se curan con el primer tratamiento [Q]. La EAU asigna todas las estrategias de desescalada, incluida la RPLND, a centros especializados dentro de un ensayo o cohorte prospectiva [LL EAU 2026, 6.2.2.1.2].",
+      "prax": "El deseo de desescalar es legítimo, pero no cambia la evidencia: la información incluye la toxicidad tardía de la quimioterapia y también la falta de respaldo de las alternativas [Q]. Sigue siendo posible derivar a un centro con un ensayo abierto [X].",
+      "merk": "Estadio IIB grande sin ensayo: tres ciclos de BEP; aquí la desescalada es la opción menos respaldada.",
+      "flag": "La valoración de la desescalada difiere entre NCCN y EAU 2026; los resultados de SAKK 01/18 se esperan en 2026/2027."
+    }
+  ]
+}

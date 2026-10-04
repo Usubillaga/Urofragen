@@ -1,0 +1,430 @@
+{
+  "meta": [
+    [
+      "Fuente",
+      "Heidenreich J, Pfister D, Steenbock O, Rieger C, Heidenreich A. In welchem Ausmaß sind Salvage-Operationen bei Tumoren des Urogenitaltrakts sinnvoll? Die Urologie 2026;65:145–154. DOI 10.1007/s00120-025-02748-6"
+    ],
+    [
+      "Guía",
+      "EAU Guidelines on Testicular Cancer 2026, capítulo 6 (6.3.2.2 y 6.3.3.1), texto completo revisado el 21.09.2026. Sigue pendiente la comparación con el texto completo de las respectivas guías EAU para carcinoma de próstata, urotelial y de células renales; las respuestas correctas de esas preguntas se apoyan en el artículo fuente."
+    ],
+    [
+      "Contenido",
+      "10 preguntas en 6 áreas temáticas, unos 30 minutos"
+    ],
+    [
+      "Nota de lectura",
+      "Tres preguntas llevan ⚠. Gran parte del artículo resume series del mismo grupo de trabajo. Se cita el estudio PEACE-V-STORM como respaldo de la cirugía de rescate, aunque las cifras reproducidas favorecen la radioterapia pélvica; las preguntas siguen las cifras. No se utilizaron datos contradictorios dentro del artículo, por ejemplo una probabilidad de recidiva bioquímica a diez años inferior a la de cinco años."
+    ]
+  ],
+  "sources": [
+    "Fuente primaria: Heidenreich J, Pfister D, Steenbock O, Rieger C, Heidenreich A (2026) In welchem Ausmaß sind Salvage-Operationen bei Tumoren des Urogenitaltrakts sinnvoll? Urologie 65:145–154. https://doi.org/10.1007/s00120-025-02748-6",
+    "Guía: EAU Guidelines on Testicular Cancer 2026, capítulo 6 Disease Management, apartados 6.3.2.2 y 6.3.3.1. Texto completo en línea, consulta 21.09.2026.",
+    "Estudio: Ost P et al. (2025) PEACE V-STORM, estudio aleatorizado de fase II de terapia dirigida a metástasis frente a irradiación ganglionar electiva. Lancet Oncol 26:695–706 (citado a partir de la fuente primaria).",
+    "Estudio: Bravi CA et al. (2020) Resultados a largo plazo de la linfadenectomía de rescate. Eur Urol 78:661–669; Knipper S et al. (2023) Linfadenectomía de rescate radioguiada por PSMA. Eur Urol 83:62–69; Fossati N et al. (2019) Eur Urol 75:176–183 (citado a partir de la fuente primaria).",
+    "Estudio: Chade DC et al. (2011) Eur Urol 60:205–210 y Heidenreich A et al. (2010) Eur Urol 57:437–443 sobre prostatectomía de rescate; Grubmüller B et al. (2021) Curr Oncol 28:2881–2892, revisión sistemática (citado a partir de la fuente primaria).",
+    "Estudio: Culp SH et al. (2014) Tratamiento local en cáncer de próstata metastásico, análisis SEER. Eur Urol 65:1058–1066; Heidenreich A et al. (2018) Prostatectomía citorreductora con metástasis óseas. Eur Urol Oncol 1:46–53 (citado a partir de la fuente primaria).",
+    "Estudio: Ji J et al. (2025) Metastasectomía en cáncer de vejiga, revisión sistemática y metaanálisis. Int J Urol 32:1552–1560; Dursun F et al. (2022) Urol Oncol 40:61.e21–e28, análisis de la National Cancer Database (citado a partir de la fuente primaria).",
+    "Estudio: Blanco-Fernández G et al. (2022) PANMEKID, resección de metástasis pancreáticas del carcinoma de células renales. Eur J Surg Oncol 48:133–141; Macherey S et al. (2017) Cirugía de metástasis pulmonares, metaanálisis. Urologe 56:1025–1030 (citado a partir de la fuente primaria).",
+    "Estudio: Capitanio U et al. (2009) Mortalidad perioperatoria tras linfadenectomía retroperitoneal, estudio poblacional. Urology 74:373–377; Fléchon A et al. (2010) BJU Int 106:779–785 (citado a partir de la fuente primaria)."
+  ],
+  "axes": {
+    "A": "Prostatectomía de rescate tras radioterapia",
+    "B": "Linfadenectomía de rescate",
+    "C": "Tratamiento local en cáncer de próstata metastásico",
+    "D": "Cirugía de metástasis del carcinoma urotelial",
+    "E": "Cirugía de metástasis del carcinoma de células renales",
+    "F": "Tumor germinal y centralización"
+  },
+  "merk": {
+    "A": [
+      "Candidato a prostatectomía de rescate: recidiva limitada al órgano, ganglios negativos en la imagen, tiempo de duplicación del PSA largo [Q].",
+      "La RM multiparamétrica y la PET-TC con PSMA son imprescindibles antes de decidir [Q].",
+      "Supervivencia libre de recidiva bioquímica a 5 años: 71,4 % si está limitada al órgano, 50 % con invasión de vesículas seminales, 30 % con afectación ganglionar [Q]."
+    ],
+    "B": [
+      "PEACE V-STORM: supervivencia libre de metástasis a 4 años del 63 % tras terapia dirigida a metástasis frente al 76 % tras radioterapia pélvica [Q].",
+      "El objetivo realista de la linfadenectomía de rescate es retrasar la hormonoterapia, no curar [Q].",
+      "PSA posoperatorio superior a 0,3 ng/ml: más recidivas y mayor mortalidad específica; la deprivación androgénica precoz mejora la supervivencia [Q]."
+    ],
+    "C": [
+      "Prostatectomía citorreductora: solo datos retrospectivos; la respuesta a la inducción es el criterio de selección [Q].",
+      "La cirugía pélvica paliativa requiere ECOG 0 a 1, PCR y albúmina normales y resecabilidad en la RM [Q].",
+      "Tras cirugía pélvica paliativa, supervivencia libre de síntomas del 89 % al año y del 66 % a los tres años [Q]."
+    ],
+    "D": [
+      "No hay criterios claros en el carcinoma urotelial: los metaanálisis se contradicen y el análisis de la base de datos no muestra beneficio [Q].",
+      "Es más probable que se beneficien las metástasis pulmonares o ganglionares aisladas completamente resecables [Q].",
+      "Marcadores favorables: menos de cinco ganglios afectados, PCR inferior a 1,0 mg/dl, metástasis visceral única [Q]."
+    ],
+    "E": [
+      "Metastasectomía curativa significa R0 de todas las lesiones: mediana de supervivencia de 40,75 frente a 14,8 meses tras resección incompleta [Q].",
+      "Las metástasis pancreáticas crecen de forma indolente; supervivencia a 5 años del 83 % tras resección, pero morbilidad del 60,9 % [Q].",
+      "Metástasis cerebrales: tratamiento focal más terapia sistémica; la irradiación holocraneal es inferior [Q]."
+    ],
+    "F": [
+      "Resección de tumor residual fuera de centros especializados: mayor mortalidad a 30 días, más resecciones incompletas y recidivas [Q].",
+      "En centros especializados, la mortalidad perioperatoria baja del 6 % al 0,8 % [LL EAU 2026, 6.3.3.1].",
+      "La discordancia con las guías de casi el 40 % es el verdadero problema asistencial, no la viabilidad quirúrgica [Q]."
+    ]
+  },
+  "questions": [
+    {
+      "n": 1,
+      "axis": "A",
+      "diff": 2,
+      "correct": "B",
+      "objective": "Puede identificar al candidato adecuado para prostatectomía de rescate tras radioterapia.",
+      "reference": "Artículo: prostatectomía radical de rescate tras radioterapia",
+      "vignette": "Un varón de 68 años presenta, seis años después de la radioterapia externa, una recidiva local confirmada por biopsia, Gleason 3+4. PSA 3,2 ng/ml con un tiempo de duplicación de 14 meses. La RM multiparamétrica muestra una lesión limitada al órgano y la PET-TC con PSMA no muestra metástasis ganglionares ni a distancia. Está continente, ECOG 0. Debe definirse el tratamiento.",
+      "lead": "¿Qué conducta está mejor fundamentada?",
+      "opts": {
+        "A": "Deprivación androgénica de por vida sin terapia local",
+        "B": "Prostatectomía de rescate en un centro con experiencia",
+        "C": "Prostatectomía de rescate ya, sin más pruebas de imagen",
+        "D": "Observación hasta que aparezcan metástasis a distancia",
+        "E": "Quimioterapia con docetaxel por la recidiva"
+      },
+      "rat": {
+        "A": "Error de concepto: la recidiva tras radioterapia ya no sería curable. Aun así, más del 90 % de los pacientes reciben deprivación androgénica no curativa [Q].",
+        "B": "Recidiva limitada al órgano, ganglios negativos y tiempo de duplicación largo son justamente la constelación en la que la prostatectomía de rescate funciona [Q].",
+        "C": "Error de concepto: la imagen sería prescindible. La RM multiparamétrica y la PET-TC con PSMA son imprescindibles antes de decidir [Q].",
+        "D": "Error de concepto: esperar no cuesta nada. Con metástasis a distancia desaparece la opción curativa [X].",
+        "E": "Error de concepto: la terapia sistémica como siguiente escalón. En la recidiva local no es la primera opción [Q]."
+      },
+      "core": "El perfil encaja: recidiva local, ganglios negativos en la imagen, tiempo de duplicación largo e intervalo amplio desde la radioterapia [Q].",
+      "ev": "En grandes series de un solo centro, la supervivencia libre de metástasis a diez años es del 75 al 80 % y la específica de cáncer del 80 al 90 % [Q]. Las tasas de complicaciones se cifran entre el 2 y el 5 %, con lesiones rectales por debajo del 1,5 % [Q]. La supervivencia libre de recidiva bioquímica a cinco años es del 71,4 % en la recidiva limitada al órgano [Q].",
+      "prax": "La incontinencia es el tema central de la información: del 20 al 40 % según la radioterapia previa, con una recuperación media de ocho meses [Q]. La indicación corresponde al comité multidisciplinar y la cirugía a un centro con experiencia en cirugía de rescate [Q].",
+      "merk": "Prostatectomía de rescate: limitada al órgano, ganglios negativos, duplicación lenta e imagen completa.",
+      "flag": "Los resultados proceden de series retrospectivas de un solo centro con selección importante de pacientes; faltan comparaciones aleatorizadas con otros procedimientos de rescate."
+    },
+    {
+      "n": 2,
+      "axis": "A",
+      "diff": 3,
+      "correct": "D",
+      "objective": "Puede reconocer factores de selección desfavorables antes de una prostatectomía de rescate y deducir la necesidad de prudencia.",
+      "reference": "Artículo: prostatectomía radical de rescate, factores de riesgo",
+      "vignette": "Un varón de 71 años solicita una prostatectomía de rescate tras radioterapia. La RM multiparamétrica muestra una recidiva con infiltración de vesículas seminales y la PET-TC con PSMA un ganglio pélvico sospechoso. PSA 6,8 ng/ml, tiempo de duplicación 4 meses, ECOG 1. Debe definirse la conducta.",
+      "lead": "¿Cómo debe valorarse su petición?",
+      "opts": {
+        "A": "Realizar la prostatectomía de rescate como él desea",
+        "B": "Prostatectomía de rescate con linfadenectomía ampliada",
+        "C": "Ofrecer terapia focal de rescate de la lesión recidivante",
+        "D": "Prudencia: plantear terapia sistémica en el comité",
+        "E": "Repetir la radioterapia de la recidiva sin más estudio"
+      },
+      "rat": {
+        "A": "Error de concepto: el deseo del paciente sustituiría a la selección. Justo esta constelación va en contra de la intención curativa [Q].",
+        "B": "Error de concepto: más cirugía compensaría el punto de partida. Los ganglios positivos se asociaron a más recidivas, más metástasis y mayor mortalidad [Q].",
+        "C": "Error de concepto: la terapia focal como solución suave. No aborda ni las vesículas seminales ni el ganglio [X].",
+        "D": "La infiltración de vesículas seminales, un ganglio positivo y un tiempo de duplicación corto marcan al grupo con menor beneficio [Q].",
+        "E": "Error de concepto: repetir la radioterapia sin un plan. La imagen y el comité preceden a toda decisión de rescate [Q]."
+      },
+      "core": "Resecable no significa curable: estos factores de riesgo reducen notablemente el beneficio de la cirugía [Q].",
+      "ev": "Con invasión de vesículas seminales, la supervivencia libre de recidiva bioquímica a cinco años baja al 50 %, y con afectación ganglionar al 30 %, frente al 71,4 % en la recidiva limitada al órgano [Q]. La supervivencia media libre de progresión bioquímica es de 31,4 meses con metástasis ganglionares frente a 61,8 meses sin ellas [Q]. En una serie de 334 pacientes, los ganglios positivos se asociaron a mayor mortalidad global [Q].",
+      "prax": "La indicación de cirugía de rescate siempre corresponde al comité multidisciplinar, junto con la alternativa de la terapia sistémica [Q]. La información debe incluir la probabilidad real de curación, no solo la viabilidad técnica [Q].",
+      "merk": "Invasión de vesículas seminales o ganglio positivo: la prostatectomía de rescate pierde su intención curativa.",
+      "flag": null
+    },
+    {
+      "n": 3,
+      "axis": "B",
+      "diff": 3,
+      "correct": "A",
+      "objective": "Puede ponderar la evidencia aleatorizada contraria a la cirugía dirigida a metástasis en la recidiva ganglionar.",
+      "reference": "Artículo: linfadenectomía de rescate, PEACE V-STORM",
+      "vignette": "Un varón de 64 años presenta una recidiva bioquímica dos años después de la prostatectomía radical, PSA 1,8 ng/ml. La PET-TC con PSMA muestra dos ganglios pélvicos sospechosos y ninguna metástasis a distancia. No ha recibido hormonoterapia y desea una terapia dirigida a las metástasis. Debe definirse la conducta.",
+      "lead": "¿Qué conducta está mejor fundamentada?",
+      "opts": {
+        "A": "Radioterapia pélvica con sobreimpresión y hormonoterapia",
+        "B": "Linfadenectomía de rescate con intención curativa",
+        "C": "Linfadenectomía de rescate guiada por PSMA como estándar",
+        "D": "Deprivación androgénica sola, sin medida local alguna",
+        "E": "Observación hasta que aparezcan metástasis óseas"
+      },
+      "rat": {
+        "A": "En el ensayo aleatorizado, la supervivencia libre de metástasis a cuatro años fue del 76 % con radioterapia pélvica frente al 63 % con terapia dirigida a las metástasis [Q].",
+        "B": "Error de concepto: los ganglios visibles serían curables con cirugía. Muy pocos pacientes alcanzan la curación [Q].",
+        "C": "Error de concepto: la técnica radioguiada convertiría la intervención en estándar. En la mayor cohorte, de 364 pacientes, solo el 45 % alcanzó un nadir de PSA inferior a 0,2 ng/ml [Q].",
+        "D": "Error de concepto: sin cirugía solo quedaría la hormonoterapia. La combinación de radioterapia y deprivación androgénica fue superior en la comparación [Q].",
+        "E": "Error de concepto: un PSA bajo permitiría esperar. La evidencia respalda el tratamiento precoz de la recidiva ganglionar [Q]."
+      },
+      "core": "Para la recidiva oligoganglionar existe un ensayo aleatorizado, y no favorece a la cirugía [Q].",
+      "ev": "En PEACE V-STORM, 196 pacientes recibieron terapia dirigida a las metástasis mediante linfadenectomía o radioterapia estereotáctica con seis meses de deprivación androgénica, o bien radioterapia pélvica con 45 Gy y una sobreimpresión de 65 Gy sobre los ganglios PET positivos; la variable principal fue la supervivencia libre de metástasis [Q]. Las series retrospectivas de linfadenectomía de rescate muestran una supervivencia libre de recidiva bioquímica a dos años de solo el 32 % [Q].",
+      "prax": "Si aun así se opera, el objetivo realista es retrasar la hormonoterapia [Q]. El artículo califica de excelentes los resultados de ese ensayo sin señalar que fueron contrarios a la cirugía [X].",
+      "merk": "Recidiva oligoganglionar: radioterapia pélvica con sobreimpresión y hormonoterapia por delante de la cirugía dirigida.",
+      "flag": "El artículo cita los datos de PEACE-V-STORM como respaldo de la cirugía de rescate, aunque las cifras comunicadas favorecen la radioterapia pélvica."
+    },
+    {
+      "n": 4,
+      "axis": "B",
+      "diff": 2,
+      "correct": "C",
+      "objective": "Puede indicar el objetivo terapéutico realista de una linfadenectomía de rescate.",
+      "reference": "Artículo: linfadenectomía de rescate, resultados a largo plazo",
+      "vignette": "Un varón de 66 años va a someterse a una linfadenectomía de rescate por dos ganglios pélvicos PSMA positivos tras la valoración multidisciplinar. Pregunta qué significa realmente la intervención para él. Consentimiento informado antes de la cirugía.",
+      "lead": "¿Cómo debe informarse?",
+      "opts": {
+        "A": "Cabe esperar la curación en la mayoría de los pacientes",
+        "B": "Tras la intervención ya no hará falta hormonoterapia",
+        "C": "Lo realista es un periodo más largo sin hormonoterapia",
+        "D": "Un nadir de PSA por debajo de 0,2 se alcanza casi siempre",
+        "E": "El riesgo de recidiva en el primer año es inferior al cinco por ciento"
+      },
+      "rat": {
+        "A": "Error de concepto: las metástasis visibles serían curables con cirugía. La supervivencia libre de recidiva clínica a diez años es del 31 % [Q].",
+        "B": "Error de concepto: la cirugía evitaría la hormonoterapia de forma definitiva. El 77 % de los pacientes la recibió durante el seguimiento [Q].",
+        "C": "La indicación esencial es prolongar el periodo sin terapia sistémica, que con buena selección puede llegar a 42 meses [Q].",
+        "D": "Error de concepto: el nadir sería la norma. En la mayor serie lo alcanzó el 45 % en tres meses [Q].",
+        "E": "Error de concepto: las recidivas precoces serían raras. Uno de cada cuatro pacientes recae en el primer año [Q]."
+      },
+      "core": "La intervención retrasa el inicio de la deprivación androgénica; por regla general no cura [Q].",
+      "ev": "En una cohorte de 189 pacientes, la supervivencia libre de recidiva clínica y bioquímica a diez años fue del 31 % y del 11 %; 145 pacientes recibieron deprivación androgénica a una mediana de 41 meses [Q]. Una recidiva precoz en el primer año se asoció a una mortalidad específica de cáncer a tres años del 20 % frente al 1,4 % [Q]. Son predictores el grado 5 de Gleason, el valor de PSA y tres o más focos positivos en la PET-TC [Q].",
+      "prax": "Un PSA posoperatorio superior a 0,3 ng/ml se asocia a más recidivas y mayor mortalidad específica; entonces la deprivación androgénica precoz mejora la supervivencia [Q]. La información debe fijar el objetivo antes de que el paciente espere curación [X].",
+      "merk": "Linfadenectomía de rescate: el objetivo es retrasar la hormonoterapia; la curación es la excepción.",
+      "flag": null
+    },
+    {
+      "n": 5,
+      "axis": "C",
+      "diff": 3,
+      "correct": "E",
+      "objective": "Puede clasificar la prostatectomía citorreductora como una decisión individual y de investigación.",
+      "reference": "Artículo: prostatectomía radical citorreductora",
+      "vignette": "Un varón de 62 años con cáncer de próstata metastásico hormonosensible de novo y tres lesiones óseas presenta un descenso del PSA a 0,1 ng/ml tras seis meses de terapia sistémica. Ha leído sobre la prostatectomía citorreductora y la solicita. Debe definirse la conducta.",
+      "lead": "¿Cómo debe valorarse su petición?",
+      "opts": {
+        "A": "Ofrecer la prostatectomía citorreductora como terapia estándar",
+        "B": "Rechazar la cirugía, su beneficio no está demostrado en ningún sitio",
+        "C": "Operar con independencia de la respuesta al tratamiento",
+        "D": "Plantear la cirugía solo ante síntomas locales",
+        "E": "Decisión individual en el comité, preferentemente en un ensayo"
+      },
+      "rat": {
+        "A": "Error de concepto: unos datos de registro favorables bastarían para crear un estándar. Falta evidencia prospectiva aleatorizada [Q].",
+        "B": "Error de concepto: sin aleatorización no habría señal. Varias series muestran ventajas constantes en pacientes muy seleccionados [Q].",
+        "C": "Error de concepto: la respuesta sería secundaria. Es justamente el criterio de selección [Q].",
+        "D": "Error de concepto: solo contaría la paliación. El control local de síntomas es un argumento añadido, no el único [Q].",
+        "E": "El propio artículo califica la cirugía de decisión terapéutica muy individual, basada en datos retrospectivos [Q]."
+      },
+      "core": "El paciente cumple los criterios publicados, pero la evidencia sigue siendo retrospectiva: decidir en el comité y, a ser posible, dentro de un ensayo [Q].",
+      "ev": "En el análisis SEER, la supervivencia global y la específica de cáncer a cinco años fueron del 67,4 % y del 75,8 % frente al 22,5 % y el 48,7 % con deprivación androgénica sola [Q]. En la mayor serie, con 113 pacientes seleccionados, la mediana de supervivencia global fue de 85,4 meses [Q]. Como requisitos, el artículo cita un nadir de PSA inferior a 0,2 ng/ml o un descenso superior al 80 % tras la terapia de inducción y una carga metastásica baja [Q].",
+      "prax": "Una ventaja está en evitar obstrucciones posteriores: en el estudio de casos y controles, el 71 % de los tratados solo con hormonoterapia necesitó una intervención paliativa, y ninguno del grupo quirúrgico [Q]. La ausencia de evidencia aleatorizada forma parte de la información [X].",
+      "merk": "Prostatectomía citorreductora: solo tras buena respuesta, con carga baja, en comité y preferentemente en ensayos.",
+      "flag": "La recomendación se apoya sobre todo en series retrospectivas del mismo grupo. Las guías son prudentes con la cirugía en cáncer de próstata metastásico fuera de estudios; la radioterapia local con baja carga metastásica sí está recogida."
+    },
+    {
+      "n": 6,
+      "axis": "C",
+      "diff": 2,
+      "correct": "A",
+      "objective": "Puede indicar cirugía pélvica paliativa en cáncer de próstata localmente avanzado sintomático.",
+      "reference": "Artículo: exenteración anterior y posterior",
+      "vignette": "Un varón de 74 años con cáncer de próstata localmente avanzado y resistente a la castración presenta taponamientos vesicales de repetición, sonda permanente y nefrostomías bilaterales. ECOG 1, PCR y albúmina normales, y la RM muestra un hallazgo resecable en la pelvis menor. Debe definirse la conducta.",
+      "lead": "¿Qué conducta está justificada?",
+      "opts": {
+        "A": "Cirugía pélvica radical paliativa en un centro",
+        "B": "Mantener la sonda y las evacuaciones repetidas de coágulos",
+        "C": "Solo terapia sistémica paliativa, sin medida local",
+        "D": "Cirugía pélvica con independencia del estado general",
+        "E": "Derivación urinaria aislada sin resección tumoral"
+      },
+      "rat": {
+        "A": "Con un hallazgo resecable, ECOG 1 y parámetros inflamatorios y nutricionales normales, la intervención puede controlar los síntomas de forma duradera [Q].",
+        "B": "Error de concepto: las intervenciones repetidas serían lo más suave. Consumen transfusiones y días de hospital sin resolver nada [X].",
+        "C": "Error de concepto: la terapia sistémica resolvería el problema local. Con resistencia a la castración y obstrucción rara vez lo consigue [Q].",
+        "D": "Error de concepto: el estado general sería secundario. Una PCR elevada y una albúmina baja desaconsejan la intervención [Q].",
+        "E": "Error de concepto: bastaría la derivación. Persisten el foco de sangrado y la compresión rectal [X]."
+      },
+      "core": "La cirugía tumoral paliativa en la pelvis no es aquí un exceso terapéutico, sino el control sintomático más eficaz [Q].",
+      "ev": "En la experiencia de los autores, el 80 % de los pacientes necesita una cistoprostatectomía radical con conducto ileal, y un 10 % en cada caso una prostatectomía con cierre del cuello vesical o una exenteración [Q]. La supervivencia libre de síntomas al año y a los tres años fue del 89 % y del 66 %, y la global del 89 % y del 42,4 % [Q]. La morbilidad equivalió a la de una cistectomía radical clásica [Q].",
+      "prax": "La resecabilidad se aclara con la RM de pelvis antes de decidir el alcance [Q]. La intervención corresponde a un centro con experiencia en cirugía pélvica y derivación urinaria [Q].",
+      "merk": "Recidiva pélvica sintomática con buen estado general: cirugía radical paliativa en lugar de sonda permanente.",
+      "flag": null
+    },
+    {
+      "n": 7,
+      "axis": "D",
+      "diff": 3,
+      "correct": "C",
+      "objective": "Puede convertir la evidencia contradictoria sobre cirugía de metástasis del carcinoma urotelial en una decisión individual.",
+      "reference": "Artículo: cirugía de metástasis del carcinoma urotelial de vejiga",
+      "vignette": "Un varón de 61 años presenta, tras cuatro ciclos de quimioterapia con platino por un carcinoma urotelial metastásico, una metástasis pulmonar única y estable, sin otra evidencia de tumor. ECOG 0, sin comorbilidad relevante. Un colega propone la metastasectomía. Debe definirse la conducta.",
+      "lead": "¿Qué conducta está justificada?",
+      "opts": {
+        "A": "Metastasectomía como procedimiento estándar tras la respuesta",
+        "B": "Rechazar la metastasectomía, su beneficio está refutado",
+        "C": "En el comité, como caso único con resección completa",
+        "D": "Ofrecer la resección incluso con varias localizaciones",
+        "E": "Repetir la quimioterapia en lugar de cualquier medida local"
+      },
+      "rat": {
+        "A": "Error de concepto: la respuesta justificaría la cirugía en general. De los datos no se derivan criterios claros [Q].",
+        "B": "Error de concepto: un análisis de base de datos negativo refutaría el beneficio. Otros análisis muestran ventajas claras [Q].",
+        "C": "Quienes más se benefician son los pacientes con metástasis pulmonar o ganglionar aislada y resecabilidad completa [Q].",
+        "D": "Error de concepto: más resección sería mejor. La enfermedad extrapulmonar empeora claramente el resultado [Q].",
+        "E": "Error de concepto: la terapia sistémica sustituiría a la decisión local. Con una metástasis única y estable, la cirugía merece discutirse [Q]."
+      },
+      "core": "Los datos no sostienen una regla, solo una selección: metástasis aislada, resecabilidad completa y enfermedad estable bajo terapia sistémica [Q].",
+      "ev": "Un metaanálisis de ocho publicaciones con 15.139 pacientes halló un beneficio en supervivencia de la metastasectomía, mientras que un análisis de la National Cancer Database con emparejamiento por puntuación de propensión no lo encontró [Q]. En un análisis de 19 estudios retrospectivos con 616 pacientes, la mediana de supervivencia global fue más favorable en las metástasis pulmonares, con 46,2 meses, frente a 31,2 meses en las ganglionares y 29 meses en otras localizaciones [Q]. Son favorables menos de cinco ganglios afectados y una PCR por debajo de 1,0 mg/dl [Q].",
+      "prax": "La decisión corresponde al comité, no a la consulta en solitario [Q]. Si queda tumor extrapulmonar, desaparece la base para la intervención [Q].",
+      "merk": "Carcinoma urotelial: metastasectomía solo con metástasis aislada, completamente resecable y enfermedad estable.",
+      "flag": "Dos metaanálisis llegan a conclusiones opuestas; faltan datos prospectivos y la selección explica parte del beneficio comunicado."
+    },
+    {
+      "n": 8,
+      "axis": "E",
+      "diff": 1,
+      "correct": "D",
+      "objective": "Puede aplicar el principio de resección completa de metástasis en el carcinoma de células renales.",
+      "reference": "Artículo: siempre se requiere una resección completa de las metástasis",
+      "vignette": "Un varón de 63 años presenta, tres años después de la nefrectomía, tres metástasis pulmonares resecables de un carcinoma renal de células claras y además una metástasis no resecable en el hueso ilíaco. ECOG 0, sin síntomas. Debe definirse la conducta.",
+      "lead": "¿Qué conducta está justificada?",
+      "opts": {
+        "A": "Resecar todas las metástasis pulmonares y dejar la ósea",
+        "B": "Resección toracoscópica antes de cualquier terapia sistémica",
+        "C": "Resecar juntas la metástasis ósea y las pulmonares",
+        "D": "Terapia sistémica y tratamiento focal de la lesión ósea",
+        "E": "Observación hasta que aparezcan síntomas o progresión"
+      },
+      "rat": {
+        "A": "Error de concepto: una resección parcial daría un beneficio parcial. La ventaja en supervivencia depende de la resección completa [Q].",
+        "B": "Error de concepto: cirugía primero, al margen del conjunto. Con enfermedad residual no resecable falta la perspectiva curativa [Q].",
+        "C": "Error de concepto: habría que operarlo todo. La lesión ósea no es resecable, pero sí tratable de forma estereotáctica [Q].",
+        "D": "Sin posibilidad de una situación R0 para todas las lesiones, pasa a primer plano la terapia sistémica, completada con medidas focales [Q].",
+        "E": "Error de concepto: esperar sería neutral. La enfermedad está metastatizada y requiere tratamiento [X]."
+      },
+      "core": "La metastasectomía con intención curativa presupone que todas las lesiones puedan extirparse por completo, y aquí no es el caso [Q].",
+      "ev": "Un análisis de ocho estudios mostró una mediana de supervivencia global de 40,75 meses tras resección completa frente a 14,8 meses tras resección incompleta [Q]. La resección R0 se considera el factor pronóstico de mayor relevancia [Q]. Las oligometástasis esqueléticas, según el artículo, se tratan mejor con radioterapia estereotáctica [Q]. Las metástasis pulmonares son la localización más frecuente, con un 70 % [Q].",
+      "prax": "Si tras la terapia sistémica queda una sola localización resecable, puede replantearse la metastasectomía [X]. Las metástasis pulmonares aisladas se extirpan por toracoscopia con poca morbilidad [Q]. Un intervalo libre de enfermedad largo entre nefrectomía y metástasis anticipa un resultado más favorable [Q].",
+      "merk": "Carcinoma renal: metastasectomía solo si todas las lesiones pueden extirparse con R0.",
+      "flag": null
+    },
+    {
+      "n": 9,
+      "axis": "E",
+      "diff": 2,
+      "correct": "B",
+      "objective": "Puede indicar resección de una metástasis pancreática del carcinoma renal y señalar su morbilidad.",
+      "reference": "Artículo: metástasis pancreáticas, estudio PANMEDIC",
+      "vignette": "Un varón de 70 años acude nueve años después de la nefrectomía con una metástasis única de 3 cm en la cola del páncreas. No hay otras lesiones en la imagen, ECOG 0 y estado general operable. Debe definirse la conducta.",
+      "lead": "¿Qué conducta está justificada?",
+      "opts": {
+        "A": "Solo terapia sistémica por la localización pancreática",
+        "B": "Ofrecer la resección e informar sobre la morbilidad",
+        "C": "Biopsia y control evolutivo en seis meses",
+        "D": "Radioterapia estereotáctica en lugar de cualquier resección",
+        "E": "Pancreatectomía total por el riesgo de multifocalidad"
+      },
+      "rat": {
+        "A": "Error de concepto: la localización prohibiría la cirugía. Precisamente aquí los resultados a largo plazo son favorables [Q].",
+        "B": "Una metástasis pancreática única tras un intervalo largo justifica la resección, aunque con una elevada tasa de complicaciones [Q].",
+        "C": "Error de concepto: el crecimiento indolente permitiría esperar. La ventaja está en la resección completa [Q].",
+        "D": "Error de concepto: la radioterapia como sustituto equivalente. Los datos presentados respaldan la resección [Q].",
+        "E": "Error de concepto: máxima radicalidad. La técnica más frecuente, en la mitad de los casos, es la pancreatectomía distal [Q]."
+      },
+      "core": "Las metástasis pancreáticas del carcinoma renal crecen de forma indolente; con una lesión única y un intervalo largo, la resección está bien fundamentada [Q].",
+      "ev": "En el estudio PANMEDIC, con 116 pacientes resecados, la supervivencia global al año, a los tres y a los cinco años fue del 96 %, 88 % y 83 %, y la libre de enfermedad del 73 %, 49 % y 35 % [Q]. El tiempo medio entre la nefrectomía y la metástasis pancreática fue de 87 meses [Q]. Son desfavorables un intervalo inferior a diez años y metástasis extrapancreáticas previas [Q].",
+      "prax": "La morbilidad es considerable: un 60,9 % de complicaciones posoperatorias, de las cuales el 14 % son Clavien-Dindo IIIa o superiores [Q]. La decisión se toma junto con cirugía visceral [X].",
+      "merk": "Metástasis pancreática única tras un intervalo largo: resecar, pero informando de más del 60 % de complicaciones.",
+      "flag": null
+    },
+    {
+      "n": 10,
+      "axis": "F",
+      "diff": 2,
+      "correct": "E",
+      "objective": "Puede reconocer un residuo considerado inoperable en otro hospital como motivo para pedir una segunda opinión en un centro especializado.",
+      "reference": "Artículo: cirugía de rescate en tumores germinales testiculares; EAU Testicular Cancer 2026, 6.3.3.1",
+      "vignette": "Un varón de 29 años con no seminoma metastásico presenta tras la quimioterapia un residuo retroperitoneal complejo en contacto con los vasos. En otro centro se consideró inoperable y se le propone más quimioterapia. Los marcadores están normalizados, ECOG 0. Debe definirse la conducta.",
+      "lead": "¿Qué conducta está justificada?",
+      "opts": {
+        "A": "Dos ciclos más de quimioterapia, como se propone",
+        "B": "Radioterapia del residuo como alternativa a la cirugía",
+        "C": "Observación mientras los marcadores sigan normales",
+        "D": "Biopsia del residuo para decidir el tratamiento",
+        "E": "Segunda opinión y resección en un centro"
+      },
+      "rat": {
+        "A": "Error de concepto: más quimioterapia resolvería el problema quirúrgico. Los residuos con componente teratomatoso no responden [X].",
+        "B": "Error de concepto: la radioterapia sustituiría a la resección en el no seminoma. No hay base para ello [X].",
+        "C": "Error de concepto: unos marcadores normales permitirían esperar. Los residuos de más de 1 cm se resecan [LL EAU 2026, 6.3.2.2].",
+        "D": "Error de concepto: la biopsia decidiría. No es representativa y no modifica la indicación de resección [X].",
+        "E": "Incluso los escenarios potencialmente inoperables pueden resolverse con intención curativa y poca morbilidad en centros especializados [Q]."
+      },
+      "core": "En los tumores germinales, la inoperabilidad suele ser una cuestión del centro y no del hallazgo [Q] [LL EAU 2026, 6.3.3.1].",
+      "ev": "La resección del tumor residual es parte integral del tratamiento curativo y, a diferencia del carcinoma renal, se resecan todas las metástasis con independencia de su localización [Q]. El artículo señala que la mortalidad a 30 días aumenta de forma significativa fuera de los centros especializados, donde también son más frecuentes las resecciones incompletas y las recaídas [Q]. La guía cuantifica la diferencia: en centros especializados la mortalidad perioperatoria cae del 6 % al 0,8 % y la recidiva local del 16 % al 3 % [LL EAU 2026, 6.3.3.1].",
+      "prax": "El artículo señala una discordancia con las guías de casi el 40 % como verdadero problema asistencial [Q]. El límite está en la falta de centralización, no en lo quirúrgicamente posible [Q]. Una segunda opinión cuesta días; una resección no realizada cuesta la opción curativa [X].",
+      "merk": "Residuo complejo declarado inoperable en otro centro: segunda opinión antes de cualquier quimioterapia adicional.",
+      "flag": null
+    }
+  ],
+  "hcg": [
+    {
+      "label": "Próstata: recidiva local tras radioterapia",
+      "mech": "Curación: supervivencia libre de metástasis a 10 años del 75 al 80 %, específica de cáncer del 80 al 90 % [Q].",
+      "step": "Recidiva limitada al órgano, ganglios negativos en la imagen, tiempo de duplicación del PSA largo; RM multiparamétrica y PET-TC con PSMA antes de decidir [Q].",
+      "data": "Series de un solo centro, sin aleatorización; incontinencia del 20 al 40 %, con recuperación a lo largo de ocho meses [Q]."
+    },
+    {
+      "label": "Próstata: recidiva ganglionar tras prostatectomía",
+      "mech": "Retrasar la deprivación androgénica, hasta 42 meses con buena selección; la curación es rara [Q].",
+      "step": "Pocos focos positivos en la PET, PSA bajo, grado de Gleason favorable; alternativa: radioterapia pélvica con sobreimpresión [Q].",
+      "data": "Supervivencia libre de recidiva bioquímica del 32 % a dos años y del 11 % a diez años; en el ensayo aleatorizado, supervivencia libre de metástasis a cuatro años del 63 % frente al 76 % con radioterapia [Q]."
+    },
+    {
+      "label": "Próstata: prostatectomía citorreductora",
+      "mech": "Prolongar el intervalo libre de progresión y evitar complicaciones locales; sin evidencia aleatorizada de supervivencia [Q].",
+      "step": "Buena respuesta a la inducción, con nadir de PSA inferior a 0,2 ng/ml o descenso superior al 80 %, baja carga metastásica, comité de tumores [Q].",
+      "data": "Datos de registros y estudios de casos y controles; el 71 % tratado solo con hormonas necesitó una intervención paliativa, ninguno del grupo quirúrgico [Q]."
+    },
+    {
+      "label": "Próstata: cirugía pélvica paliativa",
+      "mech": "Control sintomático de sangrado, obstrucción y compresión rectal [Q].",
+      "step": "ECOG 0 a 1, PCR y albúmina normales, resecabilidad en la RM pélvica [Q].",
+      "data": "Supervivencia libre de síntomas al año y a los tres años del 89 % y del 66 %, supervivencia global del 89 % y del 42,4 % [Q]."
+    },
+    {
+      "label": "Carcinoma urotelial: cirugía de metástasis",
+      "mech": "Prolongar la supervivencia en casos seleccionados; sin pretensión curativa generalizada [Q].",
+      "step": "Metástasis pulmonar o ganglionar aislada, resecabilidad completa, enfermedad estable tras terapia sistémica [Q].",
+      "data": "Contradictoria: un metaanálisis con 15.139 pacientes muestra beneficio; el análisis de la base de datos tras emparejamiento por puntuación de propensión, no [Q]."
+    },
+    {
+      "label": "Carcinoma renal: metastasectomía",
+      "mech": "Curación solo con resección completa de todas las lesiones [Q].",
+      "step": "Buen estado general, R0 posible en todas las localizaciones, intervalo libre de enfermedad largo [Q].",
+      "data": "Mediana de supervivencia de 40,75 meses tras resección completa frente a 14,8 tras incompleta; metástasis pancreáticas con supervivencia a 5 años del 83 % [Q]."
+    },
+    {
+      "label": "Tumor germinal: resección de tumor residual",
+      "mech": "Curativa, parte integral de la terapia multimodal, con independencia de la localización [Q].",
+      "step": "Marcadores normalizados, resección de todos los residuos, intervención en un centro especializado reconocido [Q] [LL EAU 2026, 6.3.2.2].",
+      "data": "En centros especializados, la mortalidad perioperatoria baja del 6 % al 0,8 % y la recidiva local del 16 % al 3 % [LL EAU 2026, 6.3.3.1]."
+    }
+  ],
+  "rplnd": {
+    "criteria": [
+      "Indicación debatida en el comité multidisciplinar de tumores",
+      "Todas las lesiones resecables con márgenes libres o un objetivo paliativo claro",
+      "ECOG 0 a 1 y comorbilidad compatible con la intervención",
+      "Objetivo terapéutico realista explicado al paciente",
+      "Intervención en un centro con la experiencia correspondiente"
+    ],
+    "verdicts": {
+      "transfer": {
+        "title": "Primero, comité de tumores",
+        "note": "El artículo exige asesoramiento multidisciplinar antes de toda indicación de rescate y aclara que resecabilidad no equivale a una mayor posibilidad de curación [Q]."
+      },
+      "robotic": {
+        "title": "Cirugía de rescate razonable",
+        "note": "Se cumplen todas las condiciones: comité de tumores, objetivo curativo o paliativo claramente definido, estado general adecuado, paciente informado y cirujano experimentado [Q]. En escenarios complejos, la experiencia del centro determina la tasa de complicaciones y la integridad de la resección [Q]."
+      },
+      "open": {
+        "title": "Valorar alternativas",
+        "note": "Si falta una condición, la terapia sistémica, la radioterapia estereotáctica o la observación son opciones más realistas [Q]. En la recidiva ganglionar del cáncer de próstata, la radioterapia pélvica fue superior a la cirugía dirigida a metástasis en la comparación aleatorizada [Q], y las oligometástasis óseas se tratan mejor con irradiación estereotáctica [Q]."
+      }
+    }
+  }
+}
