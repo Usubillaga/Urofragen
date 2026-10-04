@@ -1,0 +1,43 @@
+name: Prüfung
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pruefung:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Erzeugte Dateien passen zu den Quelldaten
+        run: python -X utf8 tools/check_generated.py
+
+      - name: Fragen-, Freigabe- und CME-Tests
+        run: |
+          python -X utf8 review/verify_update.py
+          python -X utf8 review/verify_cme.py
+          python -X utf8 review/verify_cme_languages.py
+          python -X utf8 review/check_release.py
+          node review/test_cme.cjs
+
+      - name: Browsertests (Chromium)
+        env:
+          CME_BROWSER_CHANNEL: ''
+        run: |
+          npm install --no-save playwright@1
+          npx playwright install --with-deps chromium
+          node review/test_cme_browser.cjs
+          node review/test_cme_languages_browser.cjs

@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seminom IIA/B: CME-Modul Facharztniveau</title>
+<style>
+:root{
+ --ground:#eef2f4;--paper:#fbfcfd;--ink:#16232d;--muted:#5a6873;--line:#cad4db;--soft:#e1e8ec;
+ --accent:#1d6682;--accent-soft:#e2eef3;--node:#c8372d;--ok:#25704a;--ok-soft:#e5f1ea;
+ --bad:#8b2d29;--bad-soft:#f6e8e6;--flag:#8e6212;--flag-soft:#f5ecd9;
+ --serif:Charter,"Bitstream Charter","Sitka Text",Cambria,Georgia,serif;
+ --sans:"Avenir Next","Segoe UI","Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ground);color:var(--ink);font:17px/1.62 var(--serif)}
+.wrap{max-width:46rem;margin:0 auto;padding:2.2rem 1.2rem 5rem}
+h1{font:600 2.05rem/1.18 var(--serif);letter-spacing:-.012em;margin:.35rem 0 1.3rem;max-width:36rem}
+h2{font:600 1.2rem/1.3 var(--sans);margin:0 0 .55rem}
+.kicker{font:500 .9rem/1.4 var(--sans);color:var(--muted);margin:0}
+.meta{margin:0 0 1rem;display:grid;gap:.6rem}
+.meta div{display:grid;grid-template-columns:7.2rem 1fr;gap:.8rem}
+.meta dt{font:600 .82rem/1.5 var(--sans);color:var(--muted);padding-top:.15rem}
+.meta dd{margin:0;font-size:.95rem}
+.legend{font:.86rem/1.9 var(--sans);color:var(--muted);margin:.4rem 0 0}
+.pv{display:inline-block;font:600 .68rem/1 var(--sans);padding:.2rem .34rem;border-radius:3px;vertical-align:.12em;margin:0 .1rem;white-space:nowrap}
+.pv-q{background:#e6ebef;color:#33434f;border:1px solid #c9d2d9}
+.pv-ll{background:var(--accent-soft);color:var(--accent);border:1px solid #bcd6e1}
+.pv-x{background:#f1ede4;color:#6f5d3a;border:1px solid #ddd2bb}
+section{margin-top:2.6rem}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:1.4rem}
+.lede{margin:0 0 1rem;font-size:.97rem}
+.ruler svg{width:100%;max-width:560px;height:auto;display:block;font-family:var(--sans)}
+.controls{display:grid;gap:1rem;margin-top:.9rem;font:.92rem/1.45 var(--sans)}
+.controls .size{display:grid;gap:.25rem}
+.controls .size output{font-weight:600;color:var(--node)}
+input[type=range]{width:100%;accent-color:var(--node)}
+fieldset{border:0;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.35rem 1.1rem}
+legend{font-weight:600;padding:0;margin-bottom:.3rem;width:100%}
+.checks{display:grid;gap:.35rem}
+.controls label{display:flex;gap:.5rem;align-items:baseline;cursor:pointer}
+.verdict{margin-top:1.2rem;border-top:1px solid var(--line);padding-top:1rem}
+.verdict .stage{font:600 1.12rem/1.3 var(--sans);margin:0}
+.verdict .note{color:var(--muted);font:.9rem/1.4 var(--sans);margin:.15rem 0 .8rem}
+.verdict ul{list-style:none;margin:0;padding:0;display:grid;gap:.6rem}
+.verdict li{display:grid;grid-template-columns:9.6rem 1fr;gap:.8rem;align-items:start}
+.chip{font:600 .74rem/1.25 var(--sans);padding:.3rem .45rem;border-radius:3px;text-align:center}
+.st-std{background:var(--ok-soft);color:var(--ok)}
+.st-sec{background:#edf1e2;color:#55672a}
+.st-alt{background:var(--flag-soft);color:var(--flag)}
+.st-wait{background:var(--accent-soft);color:var(--accent)}
+.st-no{background:var(--bad-soft);color:var(--bad)}
+.verdict b{font:600 .93rem/1.4 var(--sans)}
+.verdict p{margin:.1rem 0 0;font-size:.92rem}
+details{border-top:1px solid var(--line);padding:.65rem 0}
+details:last-of-type{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font:600 .97rem/1.4 var(--sans)}
+details ul{margin:.5rem 0 .2rem;padding-left:1.15rem}
+details li{margin:.25rem 0}
+.progress{display:flex;gap:4px;margin:.35rem 0 1.1rem}
+.progress span{flex:1;height:6px;border-radius:2px;background:var(--soft)}
+.progress .ok{background:var(--ok)}
+.progress .bad{background:var(--bad)}
+.progress .here{background:var(--accent)}
+.qhead{display:flex;flex-wrap:wrap;gap:.3rem 1rem;font:.86rem/1.4 var(--sans);color:var(--muted);margin-bottom:.8rem}
+.qhead .ax{color:var(--ink);font-weight:600}
+.qhead .fl{color:var(--flag);font-weight:600}
+.vignette{margin:0 0 1rem}
+.lead{font-weight:600;margin:0 0 1.1rem}
+.opts{display:grid;gap:.5rem}
+.opt{display:grid;grid-template-columns:1.6rem 1fr;gap:.7rem;width:100%;text-align:left;font:inherit;color:inherit;background:var(--paper);border:1px solid var(--line);border-left:4px solid var(--line);border-radius:4px;padding:.75rem .9rem;cursor:pointer}
+.opt:hover:not(:disabled){border-color:var(--accent)}
+.opt:disabled{cursor:default}
+.opt .k{font:600 .9rem/1.6 var(--sans);color:var(--muted)}
+.opt.is-ok{border-left-color:var(--ok);background:var(--ok-soft)}
+.opt.is-bad{border-left-color:var(--bad);background:var(--bad-soft)}
+.fb{margin-top:1.4rem;border-top:1px solid var(--line);padding-top:1.1rem}
+.verdictline{font:600 1rem/1.4 var(--sans);margin:0 0 .9rem}
+.verdictline.ok{color:var(--ok)}
+.verdictline.bad{color:var(--bad)}
+.slot{margin:0 0 1rem}
+.slot h3{font:600 .86rem/1.4 var(--sans);color:var(--muted);margin:0 0 .25rem}
+.slot p{margin:0}
+.dist{list-style:none;margin:0;padding:0;display:grid;gap:.6rem}
+.dist li{display:grid;grid-template-columns:1.6rem 1fr;gap:.6rem}
+.dist .k{font:600 .9rem/1.55 var(--sans);color:var(--bad)}
+.dist .ot{font-style:italic}
+.dist p{margin:.1rem 0 0;font-size:.95rem}
+.merksatz{border-left:4px solid var(--accent);background:var(--accent-soft);padding:.7rem .9rem;margin:0 0 1rem}
+.flagnote{border-left:4px solid var(--flag);background:var(--flag-soft);padding:.7rem .9rem;margin:0 0 1rem;font-size:.93rem}
+.qmeta{font:.84rem/1.55 var(--sans);color:var(--muted);margin:0}
+.merkkasten{border:1px solid var(--accent);border-radius:6px;padding:1rem 1.1rem;margin:1.3rem 0 0;background:#f4f9fb}
+.merkkasten h3{font:600 .98rem/1.4 var(--sans);margin:0 0 .5rem;color:var(--accent)}
+.merkkasten ol{margin:0;padding-left:1.2rem}
+.merkkasten li{margin:.25rem 0}
+.actions{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.3rem}
+.btn{font:600 .92rem/1 var(--sans);padding:.72rem 1.1rem;border-radius:4px;border:1px solid var(--accent);background:var(--accent);color:#fff;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent)}
+.score{font:700 1.6rem/1.2 var(--sans);margin:0 0 .4rem}
+.rows{display:grid;gap:.55rem;margin:.5rem 0 1.3rem}
+.row{display:grid;grid-template-columns:14rem 1fr 3.4rem;gap:.7rem;align-items:center;font:.9rem/1.3 var(--sans)}
+.bar{height:8px;background:var(--soft);border-radius:2px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent)}
+.hint{font:.93rem/1.55 var(--sans);color:var(--bad);margin:.2rem 0 0}
+.sources ol{padding-left:1.3rem;font-size:.93rem}
+.sources li{margin:.35rem 0}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.print-only{display:none}
+@media (max-width:36rem){
+ body{font-size:16px}
+ h1{font-size:1.62rem}
+ .meta div{grid-template-columns:1fr;gap:.1rem}
+ .verdict li{grid-template-columns:1fr;gap:.3rem}
+ .chip{justify-self:start}
+ .row{grid-template-columns:1fr 3rem}
+ .row .bar{grid-column:1/-1;grid-row:2}
+ .panel{padding:1.05rem}
+}
+@media (prefers-reduced-motion:no-preference){
+ .fb{animation:rv .2s ease-out}
+ @keyframes rv{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:none}}
+}
+@media print{
+ body{background:#fff;font-size:10.5pt}
+ .wrap{max-width:none;padding:0}
+ .ruler,.quiz{display:none!important}
+ .print-only{display:block}
+ .pq{break-inside:avoid;border-top:1px solid #999;padding-top:.6rem;margin-top:.9rem}
+ .panel{border:0;padding:0;background:#fff}
+}
+</style>
+<link rel="stylesheet" href="assets/cme.css">
+</head>
+<body>
+<main class="wrap">
+<nav class="cme-nav" aria-label="Urofragen und Lernmodule"><div class="cme-nav-top"><a href="index.html">← Urofragen</a><a href="pruefung.html">Fragen fachlich prüfen</a></div><div class="cme-nav-modules"><a href="cme-seminom-IIAB.html" aria-current="page">Seminom IIA/B</a><a href="cme-hodentumor-heft-teil3.html">Hodentumor, Teil 3</a><a href="cme-peniskarzinom.html">Peniskarzinom</a><a href="cme-salvage-operationen.html">Salvage-Operationen</a></div></nav>
+<header>
+ <p class="kicker">CME-Modul Urologie, Facharztniveau</p>
+ <h1>Seminom im Stadium IIA/B: operieren, bestrahlen oder deeskalieren?</h1>
+ <dl class="meta" id="meta"></dl>
+ <p class="legend">Provenienz in den Begründungen: <span class="pv pv-q">Q</span> steht so im Artikel, <span class="pv pv-ll">LL EAU 2026, Abschnitt</span> Leitlinie im Volltext geprüft, <span class="pv pv-x">X</span> eigene Einordnung ohne direkten Beleg. Richtige Antworten stützen sich nur auf Q oder LL.</p>
+<p class="cme-review">Importiertes Lernmodul auf Deutsch. Quellenhinweise stammen aus der bereitgestellten Datei; eine fachärztliche Freigabe dieses Moduls ist hier noch nicht dokumentiert.</p>
+</header>
+
+<section class="ruler" aria-labelledby="ruler-h">
+ <h2 id="ruler-h">Entscheidungspfad am Knotenlineal</h2>
+ <div class="panel">
+  <p class="lede">Die Knotengröße entscheidet fast jede Weiche: 2 cm trennt IIA von IIB, 3 cm begrenzt die RLA-Option der NCCN, 5 cm beendet das Stadium IIB. Befund einstellen und die Einordnung lesen.</p>
+  <div id="rulerSvg"></div>
+  <div class="controls">
+   <div class="size">
+    <label for="size">Querdurchmesser des größten Knotens: <output id="sizeOut">2,3 cm</output></label>
+    <input id="size" type="range" min="0.5" max="6" step="0.1" value="2.3">
+   </div>
+   <fieldset>
+    <legend>Tumormarker</legend>
+    <label><input type="radio" name="mk" value="neg" checked> normal</label>
+    <label><input type="radio" name="mk" value="s1"> erhöht, innerhalb S1</label>
+    <label><input type="radio" name="mk" value="hi"> über S1</label>
+   </fieldset>
+   <div class="checks">
+    <label><input type="checkbox" id="growth" checked> Wachstum in der Kontrolle bestätigt</label>
+    <label><input type="checkbox" id="supra"> zusätzliche supradiaphragmale Herde</label>
+    <label><input type="checkbox" id="bleo"> Bleomycin kontraindiziert</label>
+   </div>
+  </div>
+  <div class="verdict" id="verdict" aria-live="polite"></div>
+ </div>
+</section>
+
+<section aria-labelledby="goals-h">
+ <h2 id="goals-h">Lernziele nach Themenachse</h2>
+ <div id="goals"></div>
+</section>
+
+<section class="quiz" aria-labelledby="quiz-h">
+ <h2 id="quiz-h">Fragen</h2>
+ <div class="panel" id="quiz" aria-live="polite"></div>
+</section>
+
+<section class="sources" aria-labelledby="src-h">
+ <h2 id="src-h">Quellen</h2>
+ <ol id="sources"></ol>
+</section>
+
+<section class="print-only" id="printall"></section>
+</main>
+
+<script src="assets/cme.js"></script>
+<script>
+var DATA = {"meta": [["Quelle", "Che Y, Papachristofilou A. Aktuelle operative und strahlentherapeutische Entwicklungen bei der Therapie des Seminoms im Stadium IIA/B. Die Urologie 2025;64:1018–1023. DOI 10.1007/s00120-025-02672-9"], ["Leitlinien", "EAU Guidelines on Testicular Cancer 2026, Kapitel 6, Volltext geprüft am 19.09.2026. Nur über den Artikel zitiert: NCCN Version 2.2025 und S3-Leitlinie 043/049OL (Version 1.1 von 2020, laut AWMF abgelaufen und in Überarbeitung)."], ["Umfang", "10 Fragen in 5 Themenachsen, etwa 30 Minuten"], ["Lesehinweis", "Beide Autoren sind Mitautoren der besprochenen Studien, Che bei PRIMETEST, Papachristofilou bei SAKK 01/10 [Q]. Wo Artikel und EAU 2026 auseinandergehen, folgt die richtige Antwort der Leitlinie; diese Fragen tragen ⚠."]], "sources": ["Primärquelle: Che Y, Papachristofilou A (2025) Aktuelle operative und strahlentherapeutische Entwicklungen bei der Therapie des Seminoms im Stadium IIA/B. Urologie 64:1018–1023. https://doi.org/10.1007/s00120-025-02672-9", "EAU Guidelines on Testicular Cancer 2026, Kapitel 6 Disease Management, Abschnitte 6.2.2.1, 6.2.2.1.1, 6.2.2.1.2, 6.2.3.1.1, 6.2.3.1.2, 6.3.4 und 6.3.6.1. Online-Volltext, Abruf 19.09.2026.", "Hiester A et al. (2023) PRIMETEST, primäre RLA im Stadium IIA/B. Eur Urol 84:25–31 (zitiert nach der Primärquelle).", "Daneshmand S et al. (2023) SEMS, Phase-II-Studie zur RLA beim Seminom. J Clin Oncol, doi 10.1200/JCO.22.00624 (zitiert nach der Primärquelle).", "Heidenreich A et al. (2024) COTRIMS. Eur Urol Oncol 7:122–127 (zitiert nach der Primärquelle).", "Thor A et al. (2024) Primäre RLA in einer populationsbasierten schwedisch-norwegischen Kohorte (SWENOTECA). Eur Urol Open Sci 65:13–19 (zitiert nach der Primärquelle).", "Papachristofilou A et al. (2022) SAKK 01/10, Carboplatin und Involved-node-Radiotherapie. Lancet Oncol 23:1441–1450 (zitiert nach der Primärquelle).", "Horwich A et al. (2013) Neoadjuvantes Carboplatin vor Radiotherapie im Stadium IIA/B. Ann Oncol 24:2104–2107 (zitiert nach der Primärquelle).", "Pongratanakul P et al. (2025) Matched-Pair-Analyse robotische gegenüber offener RLA. BJU Int, doi 10.1111/bju.16747 (zitiert nach der Primärquelle).", "Nicht im Volltext eingesehen, nur über die Primärquelle zitiert: NCCN Guidelines Testicular Cancer Version 2.2025; S3-Leitlinie Keimzelltumoren des Hodens, AWMF 043/049OL."], "axes": {"A": "Stadiensicherung", "B": "Standardtherapie", "C": "Primäre RLA", "D": "Nach der RLA", "E": "Deeskalierte Radiochemotherapie"}, "merk": {"A": ["Markernegativer Knoten unter 2 cm: Schnittbildkontrolle nach 6–8 Wochen vor jeder Therapie [Q] [LL EAU 2026, 6.2.2.1].", "Stadium IIA/B heißt retroperitonealer Befall ohne Fernmetastasen, Marker höchstens S1 (LDH unter dem 1,5-Fachen der Norm, β-hCG unter 5000 mIU/ml) [Q].", "Supradiaphragmale Herde schließen Bestrahlung und IIA/B-Deeskalation aus: Chemotherapie nach IGCCCG [Q] [LL EAU 2026, 6.3.6.1]."], "B": ["Chemotherapie: drei Zyklen BEP, bei Kontraindikation gegen Bleomycin vier Zyklen EP [Q] [LL EAU 2026, 6.2.2.1].", "Bestrahlung: paraaortal plus ipsilateral pelvin, 30 Gy im Stadium IIA und 36 Gy im Stadium IIB; 27 Gy erhöht die Rezidivrate [Q] [LL EAU 2026, 6.2.2.1].", "Beide Standards heilen über 90 %, tragen aber Spättoxizität bis zu Zweitmalignomen (2 % nach Radiotherapie, 4 % nach Chemotherapie in einer Übersichtsarbeit) [Q]."], "C": ["Primäre RLA ist eine Alternative mit Bedingungen: Selektion, erfahrener Operateur, spezialisiertes Zentrum, möglichst Studie [Q] [LL EAU 2026, 6.2.2.1.1].", "Modifiziertes einseitiges Template nach Befundseite; antegrade Ejakulation in PRIMETEST bei 94 % erhalten [Q].", "Offen und robotisch gleichermaßen machbar und sicher; kein randomisierter Vergleich, robotisch nur mit Expertise [Q]."], "D": ["Risikomarker nach RLA: mehr als zwei positive Knoten oder Knoten über 3 cm [Q].", "Dann einen adjuvanten Zyklus BEP abwägen; welche Faktoren ihn rechtfertigen, prüft PRIMETEST II [Q].", "Ein Rezidiv nach RLA ist chemotherapienaiv: Erstlinie nach IGCCCG, kein Zweitlinienschema [Q] [LL EAU 2026, 6.3.4]."], "E": ["SAKK 01/10: ein Zyklus Carboplatin AUC 7, dann Involved-node-Bestrahlung; Volumen etwa ein Viertel des Dog-leg-Feldes [Q].", "3-Jahres-PFS 93,7 %, primärer Endpunkt von 95 % knapp verfehlt; laut EAU nicht für den Routineeinsatz [LL EAU 2026, 6.2.2.1.2].", "Rezidive fast nur im Stadium IIB; SAKK 01/18 prüft dort einen Zyklus EP und 30 Gy, Ergebnisse 2026/2027 [Q]."]}, "questions": [{"n": 1, "axis": "A", "diff": 1, "correct": "D", "objective": "Kann bei markernegativem, grenzwertig vergrößertem retroperitonealem Lymphknoten die Verlaufskontrolle von einer sofortigen Therapie abgrenzen.", "reference": "Artikel: Fallbeispiel, Hintergrund, Fazit für die Praxis; EAU 2026, 6.2.2.1", "vignette": "Ein 42-jähriger Mann ist nach inguinaler Orchiektomie links (Seminom pT1, 42 mm, ohne Rete-testis-Infiltration) seit 12 Monaten unter aktiver Überwachung. Das Kontroll-CT zeigt neu einen einzelnen links paraaortalen Lymphknoten mit knapp 1 cm Querdurchmesser. AFP, β-hCG und LDH liegen im Normbereich, der Patient ist beschwerdefrei. Vorstellung im Tumorboard zur Festlegung des weiteren Vorgehens.", "lead": "Welches Vorgehen ist bei diesem Befund angemessen?", "opts": {"A": "Sofortige Chemotherapie mit drei Zyklen BEP beginnen", "B": "Einmalig Carboplatin AUC 7 als nachgeholte Adjuvanz", "C": "Paraaortale und ipsilateral pelvine Radiatio mit 30 Gy", "D": "Schnittbildkontrolle nach etwa acht Wochen abwarten", "E": "Weiter reguläre Nachsorge im bisher geplanten Intervall"}, "rat": {"A": "Fehlannahme: Jeder neue Lymphknoten sei ein Rezidiv. Ohne Markererhöhung ist eine reaktive Vergrößerung möglich [Q]; im Mittel sind etwa 10 % solcher Knoten nicht metastatisch [LL EAU 2026, 6.2.2.1].", "B": "Fehlannahme: Das adjuvante Konzept des Stadiums I lasse sich auf einen möglichen Rückfall übertragen. Carboplatin-Monotherapie gehört nicht zu den Standardoptionen im Stadium IIA/B [Q].", "C": "Fehlannahme: Kleiner Befund, kleine Therapie. Die Bestrahlung ist Standard für ein gesichertes Stadium IIA [Q]; hier würde ein unbestätigter Befund behandelt.", "D": "Die erneute Schnittbildgebung nach etwa 8 Wochen bestätigt oder widerlegt das Stadium [Q]; behandelt wird erst bei Größenzunahme, Markeranstieg oder Biopsienachweis [LL EAU 2026, 6.2.2.1].", "E": "Fehlannahme: Ein neuer Befund ändere den Nachsorgetakt nicht. Er verlangt eine gezielte, vorgezogene Kontrolle statt des regulären Intervalls [Q]."}, "core": "Ein markernegativer Knoten unter 2 cm sichert kein Stadium IIA [Q]. Erst die Verlaufskontrolle trennt reaktive Vergrößerung von Metastase und entscheidet, ob überhaupt behandelt werden muss.", "ev": "Die Autoren empfehlen im Stadium IIA ohne Markererhöhung eine Wiederholung der Schnittbildgebung nach etwa 8 Wochen [Q]. Die EAU nennt 6–8 Wochen und beginnt die Therapie erst bei eindeutiger Metastasierung durch Biopsie, Größen- oder Zahlenzunahme oder Markeranstieg [LL EAU 2026, 6.2.2.1]. Im Fallbeispiel des Artikels war der Knoten nach 2 Monaten auf 23 mm gewachsen [Q].", "prax": "Sofortige Therapie bedeutet für einen Teil der Patienten Übertherapie mit dem Spättoxizitätsprofil der Standardverfahren. Das Kontrollintervall gehört deshalb ausdrücklich in den Tumorboardbeschluss [X].", "merk": "Markernegativ und unter 2 cm: erst Kontrolle nach 6–8 Wochen, dann Therapieentscheidung.", "flag": null}, {"n": 2, "axis": "A", "diff": 2, "correct": "B", "objective": "Erkennt, dass eine supradiaphragmale Manifestation die infradiaphragmale Bestrahlung und die für IIA/B geprüften Deeskalationskonzepte ausschließt.", "reference": "Artikel: Hintergrund, Strahlentherapie; EAU 2026, 6.3.6.1", "vignette": "Ein 33-jähriger Mann mit reinem Seminom wird nach Orchiektomie zum Staging vorgestellt. Das CT zeigt einen links paraaortalen Lymphknoten von 2,6 cm und zusätzlich einen 1,4 cm großen links supraklavikulären Lymphknoten; Lunge und viszerale Organe sind unauffällig. AFP normal, β-hCG und LDH gering erhöht, innerhalb S1. Der Patient möchte eine Chemotherapie möglichst vermeiden. Festlegung der Primärtherapie.", "lead": "Welches Vorgehen ist bei dieser Ausbreitung indiziert?", "opts": {"A": "Hockey-stick-Bestrahlung mit 36 Gy und supraklavikulärem Boost", "B": "Cisplatin-basierte Chemotherapie nach IGCCCG-Prognosegruppe", "C": "Carboplatin AUC 7, danach Involved-node-Bestrahlung beider Herde", "D": "Primäre RLA und Exstirpation des supraklavikulären Knotens", "E": "Bestrahlung paraaortal mit 36 Gy, supraklavikulär beobachten"}, "rat": {"A": "Fehlannahme: Das Feld lasse sich auf supradiaphragmale Herde erweitern. Die klassische Bestrahlung ist ein lokales infradiaphragmales Konzept; bei supraklavikulärer Metastase ist sie nicht zielführend [Q].", "B": "Mit dem supraklavikulären Knoten liegt kein lokoregionärer Befall mehr vor [Q]. Seminome ab Stadium IIC werden primär chemotherapeutisch nach IGCCCG behandelt [LL EAU 2026, 6.3.6.1].", "C": "Fehlannahme: SAKK 01/10 sei auf jede geringe Tumorlast übertragbar. Das Schema wurde nur im Stadium IIA/B geprüft [Q] und ist selbst dort nicht für den Routineeinsatz belegt [LL EAU 2026, 6.2.2.1.2].", "D": "Fehlannahme: Chirurgische Deeskalation gelte für jede Lymphknotenlokalisation. Die primäre RLA wurde bei retroperitonealem Befall im Stadium IIA/B untersucht [Q], nicht bei supradiaphragmaler Aussaat.", "E": "Fehlannahme: Der kleinere Herd sei vernachlässigbar. Genau dieses Szenario nennen die Autoren als Grund, warum eine lokale Bestrahlung ohne vollständiges Staging scheitert [Q]."}, "core": "Die Stadienzuordnung bestimmt das Therapieprinzip. Mit dem supraklavikulären Knoten ist die Erkrankung nicht mehr lokoregionär, und alle lokalen oder deeskalierten Konzepte für IIA/B verlieren ihre Grundlage.", "ev": "Stadium IIA/B bedeutet retroperitoneale Lymphknotenmetastasen ohne Fernmetastasen bei Markern höchstens auf S1-Niveau [Q]. Die infradiaphragmale Radiotherapie ist lokal und bei zusätzlicher supraklavikulärer Metastase nicht zielführend [Q]. Für Seminome ab Stadium IIC empfiehlt die EAU die primäre Chemotherapie nach IGCCCG, in guter Prognose BEP x 3 [LL EAU 2026, 6.3.6.1].", "prax": "Vor jeder Bestrahlung oder Deeskalation muss das Staging Thorax und supraklavikuläre Region erfassen; im Fallbeispiel erfolgte deshalb ein CT des Rumpfes [Q]. Der Wunsch, Chemotherapie zu vermeiden, verschiebt die Indikation hier nicht [X].", "merk": "Supraklavikulärer Knoten beim Seminom: kein Stadium II, Chemotherapie nach IGCCCG statt Bestrahlung.", "flag": null}, {"n": 3, "axis": "B", "diff": 1, "correct": "E", "objective": "Kann bei Kontraindikation gegen Bleomycin im Stadium IIA/B das äquivalente Chemotherapieschema wählen.", "reference": "Artikel: Standardtherapien; EAU 2026, 6.2.2.1 und 6.2.3.1.2", "vignette": "Ein 45-jähriger Mann mit Seminom im Stadium IIA (solitärer paraaortaler Lymphknoten 1,8 cm, Wachstum in der Kontrolle bestätigt, Marker normal) entscheidet sich nach Aufklärung über alle Optionen für eine Chemotherapie. Die Pneumologie rät wegen einer vorbestehenden Lungenerkrankung ausdrücklich von Bleomycin ab. Festlegung des Chemotherapieschemas.", "lead": "Welches Schema ist für diesen Patienten angemessen?", "opts": {"A": "Drei Zyklen BEP in Standarddosierung", "B": "Drei Zyklen EP ohne weiteren Zyklus", "C": "Vier Zyklen VIP mit G-CSF-Prophylaxe", "D": "Ein Zyklus Carboplatin, dosiert AUC 7", "E": "Vier Zyklen EP (Etoposid, Cisplatin)"}, "rat": {"A": "Fehlannahme: Das Standardschema gelte unabhängig von Kontraindikationen. Für Patienten ohne Bleomycin-Eignung sehen Artikel und EAU ausdrücklich eine Alternative vor [Q] [LL EAU 2026, 6.2.2.1].", "B": "Fehlannahme: Bleomycin lasse sich ersatzlos streichen. Als Alternative nennt der Artikel vier Zyklen EP [Q]; der zusätzliche Zyklus gleicht den Verzicht aus [X].", "C": "Fehlannahme: Verwechslung der Prognosegruppen. VIP ist die bleomycinfreie Alternative in der intermediären Prognosegruppe [LL EAU 2026, 6.2.3.1.2], nicht im Stadium IIA.", "D": "Fehlannahme: Übertragung der Stadium-I-Adjuvanz. Carboplatin-Monotherapie gehört im Stadium IIA/B nicht zu den Standardoptionen [Q].", "E": "Vier Zyklen Etoposid und Cisplatin ersetzen drei Zyklen BEP, wenn Bleomycin kontraindiziert ist [Q] [LL EAU 2026, 6.2.2.1]."}, "core": "Die Kontraindikation gegen Bleomycin ändert nicht das Therapieprinzip, sondern das Schema: vier Zyklen EP statt drei Zyklen BEP.", "ev": "Leitliniengerecht sind im Stadium IIA/B drei Zyklen BEP, alternativ vier Zyklen EP bei Kontraindikation gegen Bleomycin, oder die Radiotherapie [Q]. Die EAU nennt ebenfalls BEP x 3 oder EP x 4 bei Bedenken gegen Bleomycin und für die Chemotherapie im Stadium IIA Rezidivraten von 0–8 % [LL EAU 2026, 6.2.2.1].", "prax": "Die pulmonale Vorgeschichte gehört vor Therapiebeginn in die Schemawahl; wer sie übersieht, nimmt ein vermeidbares Lungenrisiko in Kauf [X]. Aufzuklären ist zudem über die Spättoxizität der Cisplatin-Therapie, kardiovaskulär, renal und mit Zweitmalignomen [Q].", "merk": "Bleomycin kontraindiziert: vier Zyklen EP statt drei Zyklen BEP.", "flag": null}, {"n": 4, "axis": "B", "diff": 1, "correct": "A", "objective": "Kann für das Stadium IIA das leitliniengerechte Bestrahlungsfeld und die Dosis festlegen.", "reference": "Artikel: Standardtherapien, Strahlentherapie; EAU 2026, 6.2.2.1", "vignette": "Ein 38-jähriger Mann mit Seminom im Stadium IIA (einzelner paraaortaler Lymphknoten 1,6 cm, Wachstum in der Kontrolle bestätigt, Marker normal, übriges Staging von Thorax bis Becken unauffällig) lehnt Chemotherapie und Operation ab. Er entscheidet sich für die Strahlentherapie. Festlegung von Zielvolumen und Dosis.", "lead": "Welches Bestrahlungskonzept ist leitliniengerecht?", "opts": {"A": "Paraaortal und ipsilateral pelvin, Gesamtdosis 30 Gy", "B": "Paraaortal und ipsilateral pelvin, Gesamtdosis 36 Gy", "C": "Paraaortal und ipsilateral pelvin, Gesamtdosis 27 Gy", "D": "Nur paraaortal ohne pelvines Feld, Gesamtdosis 30 Gy", "E": "Nur Involved-node ohne Carboplatin, Gesamtdosis 30 Gy"}, "rat": {"A": "Das klassische Feld erfasst die retroperitonealen und ipsilateral pelvinen Lymphabflusswege, im Stadium IIA mit 30 Gy [Q] [LL EAU 2026, 6.2.2.1].", "B": "Fehlannahme: Verwechslung der Stadien. 36 Gy sind die Dosis für das Stadium IIB [Q]; im Stadium IIA bedeutet das mehr Dosis ohne belegten Zusatznutzen [X].", "C": "Fehlannahme: Weniger Dosis senke nur die Toxizität. Eine auf 27 Gy reduzierte Dosis ist im Stadium IIA mit einer höheren Rezidivrate verbunden [LL EAU 2026, 6.2.2.1].", "D": "Fehlannahme: Ein rein paraaortales Feld genüge auch im metastasierten Stadium. Im Stadium IIA gehören die ipsilateral pelvinen Lymphabflusswege zum Standardfeld [Q].", "E": "Fehlannahme: Die kleinvolumige Bestrahlung stehe für sich. In SAKK 01/10 folgte sie stets auf einen Zyklus Carboplatin [Q]; allein fehlt die Wirkung außerhalb des Feldes [X]."}, "core": "Im Stadium IIA ist die Bestrahlung eine Standardoption neben der Chemotherapie: Feld paraaortal und ipsilateral pelvin, Dosis 30 Gy [Q] [LL EAU 2026, 6.2.2.1].", "ev": "Der Artikel nennt 30 Gy für das Stadium IIA und 36 Gy für IIB bei paraaortaler und ipsilateral pelviner Bestrahlung [Q]. Die EAU empfiehlt dieselben Dosen, berichtet ein rezidivfreies Überleben nach fünf Jahren von 92 % im Stadium IIA und eine höhere Rezidivrate nach Reduktion auf 27 Gy [LL EAU 2026, 6.2.2.1].", "prax": "Das große Feld von etwa 1200 cm³ erhöht das Risiko für Zweitmalignome [Q]; die EAU verlangt, über die Spätfolgen beider Optionen aufzuklären [LL EAU 2026, 6.3.6.1]. Voraussetzung ist ein vollständiges Staging, weil die Bestrahlung nur lokal wirkt [Q].", "merk": "Stadium IIA: paraaortal plus ipsilateral pelvin mit 30 Gy, nicht 27 Gy und nicht 36 Gy.", "flag": null}, {"n": 5, "axis": "C", "diff": 2, "correct": "C", "objective": "Kann die primäre RLA beim Seminom IIA/B als Alternative mit Bedingungen einordnen und die Rezidivaufklärung formulieren.", "reference": "Artikel: Evidenzlage, Fazit zur RLA; EAU 2026, 6.2.2.1.1", "vignette": "Ein 30-jähriger Mann mit Seminom im Stadium IIA (solitärer Lymphknoten 1,9 cm, Wachstum in der Kontrolle bestätigt, Marker normal) möchte weder Chemotherapie noch Bestrahlung und fragt nach der retroperitonealen Lymphadenektomie. Die Klinik ist ein Hodentumorzentrum mit RLA-Expertise. Aufklärungsgespräch vor der Tumorboardentscheidung.", "lead": "Wie ist die primäre RLA für diesen Patienten einzuordnen?", "opts": {"A": "Etablierter Standard mit gleicher Rezidivfreiheit wie Chemotherapie", "B": "Beim Seminom kontraindiziert, weil nur systemische Therapie heilt", "C": "Alternative im Zentrum mit Expertise, idealerweise in Studien", "D": "Nur als Residualtumorresektion nach vorheriger Chemotherapie sinnvoll", "E": "Gleichwertig, sofern routinemäßig drei Zyklen BEP nachfolgen"}, "rat": {"A": "Fehlannahme: Leitlinienaufnahme bedeute Gleichwertigkeit. Das rezidivfreie Überleben lag in den Studien bei 70–90 % [Q]; nach EAU fehlen längere Nachbeobachtung und Vergleichsstudien [LL EAU 2026, 6.2.2.1.1].", "B": "Fehlannahme aus der Zeit vor den prospektiven Studien. SEMS, COTRIMS und PRIMETEST haben die primäre RLA im Stadium IIA/B geprüft [Q]; kontraindiziert ist sie nicht.", "C": "Artikel und EAU knüpfen die primäre RLA an Patientenselektion, chirurgische Qualität und ein spezialisiertes Zentrum, nach EAU idealerweise in Studie oder prospektiver Kohorte [Q] [LL EAU 2026, 6.2.2.1.1].", "D": "Fehlannahme: Verwechslung mit der Resektion nach Chemotherapie. Hier geht es um die primäre RLA als Alternative zur Chemotherapie [Q].", "E": "Fehlannahme: Routinemäßige Nachbehandlung sichere das Ergebnis. Das hebt den Zweck auf; erwogen wird adjuvant nur bei Risikomarkern ein einzelner Zyklus BEP [Q]."}, "core": "Die primäre RLA ist eine potenziell kurative Alternative ohne Chemotherapie und Bestrahlung, aber nur unter Bedingungen: selektionierter Patient, erfahrener Operateur, spezialisiertes Zentrum.", "ev": "In SEMS, COTRIMS und PRIMETEST lag das rezidivfreie Überleben bei 70–90 %; alle Rezidive wurden durch Chemotherapie erfolgreich behandelt [Q]. Die NCCN-Leitlinie (Version 2.2025) führt die primäre RLA für Seminome im Stadium IIA/B unter 3 cm als Option [Q]. Die EAU beschreibt Zweijahres-Rezidivraten von 5–30 % und empfiehlt den Eingriff nur durch sehr erfahrene Operateure in spezialisierten Zentren, idealerweise in prospektiver Kohorte oder Studie [LL EAU 2026, 6.2.2.1.1].", "prax": "Die Aufklärung benennt das höhere Rezidivrisiko gegenüber den Standardtherapien und die dann nötige Chemotherapie [Q]. Die Indikation gehört ins interdisziplinäre Tumorboard [Q].", "merk": "Primäre RLA beim Seminom IIA/B: Alternative mit Bedingungen, kein Standard; Zentrum, Selektion, möglichst Studie.", "flag": "Keine randomisierten Daten. Die NCCN (Version 2.2025) führt die primäre RLA unter 3 cm als Option, die EAU 2026 nur im Studien- oder Kohortenkontext. Nach Ergebnissen von PRIMETEST II neu bewerten."}, {"n": 6, "axis": "C", "diff": 2, "correct": "E", "objective": "Kann für die primäre RLA beim Seminom Template und Zugang nach Befundseite, Funktionserhalt und Zentrumsexpertise planen.", "reference": "Artikel: Technische Aspekte (Zugang, Template), Abb. 3", "vignette": "Ein 28-jähriger Mann mit Seminom links hat einen solitären links paraaortalen Lymphknoten von 2,2 cm bei normalen Markern. Das Tumorboard empfiehlt die primäre RLA; das Zentrum operiert offen und robotisch mit vergleichbarer Erfahrung. Der Patient hat Kinderwunsch und fragt nach dem Erhalt der Ejakulation. Festlegung der Operationsplanung.", "lead": "Welche Operationsplanung ist am besten begründet?", "opts": {"A": "Bilaterales Template, weil nur so die Radikalität gesichert ist", "B": "Robotischer Zugang zwingend, weil er onkologisch überlegen ist", "C": "Offener Zugang zwingend, weil robotisch mehr Rezidive auftreten", "D": "Einseitiges Template plus ipsilaterale pelvine Lymphadenektomie", "E": "Linksseitiges modifiziertes Template, Zugang nach Expertise"}, "rat": {"A": "Fehlannahme: Mehr Resektion bedeute mehr Sicherheit. Bilaterale Templates wurden nur bei einem Teil der SEMS-Patienten eingesetzt und zeigten keinen onkologischen Vorteil [Q].", "B": "Fehlannahme: Technische Vorteile seien onkologische Vorteile. Robotisch zeigten sich geringerer Blutverlust, kürzerer Aufenthalt und bessere Kosmetik; randomisierte Vergleiche fehlen [Q].", "C": "Fehlannahme in umgekehrter Richtung. Ein onkologischer Nachteil der robotischen Technik wurde nicht nachgewiesen [Q]; beide Zugänge gelten als machbar und sicher.", "D": "Fehlannahme: Das Bestrahlungsfeld lasse sich auf die Operation übertragen. Die ipsilateral pelvine Ausdehnung gehört zur Radiotherapie [Q]; das RLA-Template folgt dem retroperitonealen Befund [Q].", "E": "Das modifizierte einseitige Template folgt der Seite der radiologisch nachgewiesenen Knoten und zielt auf Tumorkontrolle bei minimaler Funktionseinbuße [Q]."}, "core": "Das Template richtet sich nach der Seite des Befundes, der Zugang nach der Expertise des Zentrums. Beides dient maximaler Tumorkontrolle bei minimaler funktioneller Einschränkung.", "ev": "In den Studien wurde überwiegend ein modifiziertes einseitiges Template verwendet; in PRIMETEST blieb die antegrade Ejakulation bei 94 % der Patienten erhalten, bilaterale Templates zeigten in SEMS keinen onkologischen Vorteil [Q]. Offener und robotischer Zugang sind machbar und sicher; ein randomisierter Vergleich fehlt, und die robotische RLA setzt entsprechende Expertise voraus [Q].", "prax": "Bei Kinderwunsch gehören das Restrisiko des Ejakulationsverlusts und die Kryokonservierung vor dem Eingriff ins Gespräch [X]. Fehlt robotische Erfahrung, ist der offene Zugang die sichere Wahl [Q].", "merk": "Template nach Befundseite, Zugang nach Expertise, nicht nach vermuteter onkologischer Überlegenheit.", "flag": "Template- und Zugangsdaten stammen aus einarmigen Phase-II-Studien und einer Matched-Pair-Analyse; randomisierte Vergleiche fehlen."}, {"n": 7, "axis": "D", "diff": 3, "correct": "B", "objective": "Kann nach primärer RLA anhand pathologischer Risikomarker die Indikation zu einem adjuvanten Zyklus BEP abwägen.", "reference": "Artikel: Evidenzlage, Adjuvante Therapie nach RLA; EAU 2026, 6.2.2.1.1", "vignette": "Ein 35-jähriger Mann mit Seminom im Stadium IIB hat eine primäre RLA erhalten. Histologie: drei befallene Lymphknoten, größter Herd 2,4 cm, R0. Die Marker sind postoperativ normal, der Verlauf ist komplikationslos. Der Patient möchte das Rückfallrisiko senken, aber keine unnötige Therapie. Vorstellung im Tumorboard zur Festlegung des postoperativen Vorgehens.", "lead": "Welches postoperative Vorgehen ist am besten begründet?", "opts": {"A": "Drei Zyklen BEP wie bei primär metastasierter Erkrankung", "B": "Einen adjuvanten Zyklus BEP anbieten und Nutzen abwägen", "C": "Zwei Zyklen Carboplatin AUC 7 als adjuvante Monotherapie", "D": "Adjuvante Bestrahlung des Operationsgebiets mit 30 Gy", "E": "Nachsorge ohne Risikobewertung, da die RLA kurativ war"}, "rat": {"A": "Fehlannahme: Positive Knoten verlangten die volle Therapie des metastasierten Stadiums. Bei Risikomarkern wurde ein einziger adjuvanter Zyklus BEP untersucht [Q].", "B": "Mehr als zwei befallene Lymphknoten sind ein Risikomarker; in der skandinavischen Studie senkte ein Zyklus BEP die Rezidivrate maßgeblich [Q].", "C": "Fehlannahme: Übertragung des Carboplatin-Konzepts aus dem Stadium I. Nach RLA wurde bei Risikomarkern das cisplatinhaltige BEP geprüft, nicht Carboplatin [Q].", "D": "Fehlannahme: Operation und Bestrahlung ergänzten sich. Adjuvante Ansätze nach primärer RLA sind systemisch [Q]; eine Bestrahlung höbe den strahlenfreien Ansatz auf [X].", "E": "Fehlannahme: Nach R0-Resektion bestehe kein relevantes Rückfallrisiko. Das rezidivfreie Überleben nach RLA lag in den Studien bei 70–90 % [Q]; Risikomarker verschieben dieses Risiko."}, "core": "Drei befallene Lymphknoten erfüllen ein pathologisches Risikokriterium. Ein einzelner adjuvanter Zyklus BEP senkt dann das Rezidivrisiko und ist gegen die Chance abzuwägen, ganz ohne Chemotherapie auszukommen.", "ev": "Eine multizentrische skandinavische Studie gab bei mehr als zwei positiven Lymphknoten oder Knoten über 3 cm einen adjuvanten Zyklus BEP und senkte damit die Rezidivrate maßgeblich [Q]. Welche Faktoren eine adjuvante Therapie rechtfertigen, prüft die laufende PRIMETEST-II-Studie [Q]. Die EAU nennt RLA-Serien mit und ohne adjuvante Chemotherapie [LL EAU 2026, 6.2.2.1.1] und sieht alle Deeskalationsstrategien noch in Evaluation [LL EAU 2026, 6.2.2.1.2].", "prax": "Die Entscheidung ist eine Abwägung, kein Automatismus: Ohne Adjuvanz bleibt ein Teil der Patienten chemotherapiefrei, und ein Rezidiv wäre mit Chemotherapie behandelbar [Q]. Anzahl befallener Knoten und größter Durchmesser müssen deshalb ausdrücklich im Pathologiebefund stehen [X].", "merk": "Nach RLA mit Risikomarkern, also mehr als zwei positiven Knoten oder Knoten über 3 cm: einen Zyklus BEP abwägen, nicht drei.", "flag": "Die Risikokriterien stammen aus einer populationsbasierten Kohorte und sind nicht prospektiv validiert; PRIMETEST II läuft."}, {"n": 8, "axis": "D", "diff": 2, "correct": "A", "objective": "Kann ein Rezidiv nach primärer RLA als chemotherapienaive Situation erkennen und stadiengerecht behandeln.", "reference": "Artikel: Evidenzlage; EAU 2026, 6.2.2.1.1 und 6.3.4", "vignette": "Ein 31-jähriger Mann hat vor neun Monaten wegen eines Seminoms im Stadium IIA eine linksseitige primäre RLA ohne adjuvante Therapie erhalten. Das Nachsorge-CT zeigt einen neuen, 2,8 cm großen rechts parakavalen Lymphknoten außerhalb des Templates, sonst keinen Befund; AFP normal, β-hCG gering erhöht. Eine Chemotherapie hat er bisher nicht erhalten. Vorstellung zur Festlegung der Rezidivtherapie.", "lead": "Welche Rezidivtherapie ist angemessen?", "opts": {"A": "Erstlinie nach IGCCCG, in der Regel drei Zyklen BEP", "B": "Salvage-Schema mit vier Zyklen TIP oder alternativ VIP", "C": "Erneute RLA mit Erweiterung auf ein bilaterales Template", "D": "Carboplatin AUC 7, danach Involved-node-Bestrahlung 36 Gy", "E": "Bestrahlung paraaortal und ipsilateral pelvin mit 36 Gy"}, "rat": {"A": "Der Patient ist chemotherapienaiv. Das Rezidiv nach RLA wird mit Standardchemotherapie behandelt, die nach EAU fast immer heilt [LL EAU 2026, 6.2.2.1.1]; in den Studien gelang dies bei allen Rezidiven [Q].", "B": "Fehlannahme: Das Wort Salvage bedeute Zweitlinie. TIP und VIP sind für Rezidive nach cisplatinbasierter Erstlinie vorgesehen [LL EAU 2026, 6.3.4]; dieser Patient hatte keine Chemotherapie.", "C": "Fehlannahme: Chirurgische Rezidivlogik aus dem Nichtseminom. Für Rezidive nach primärer RLA beim Seminom ist die Chemotherapie der belegte Weg [Q] [LL EAU 2026, 6.2.2.1.1].", "D": "Fehlannahme: Deeskalation sei auch im Rezidiv erste Wahl. Das kombinierte Schema wurde als Primärtherapie im Stadium IIA/B geprüft, nicht nach RLA [Q].", "E": "Fehlannahme: Nach Operation sei die Bestrahlung als lokale Option gleichwertig. Belegt ist für Rezidive nach RLA die Standardchemotherapie [Q]; zur Bestrahlung in dieser Lage liefert die Quelle keine Daten [X]."}, "core": "Ein Rezidiv nach primärer RLA trifft einen chemotherapienaiven Patienten. Er erhält deshalb die stadiengerechte Erstlinienchemotherapie, kein Salvage-Schema der Zweitlinie.", "ev": "In SEMS, COTRIMS und PRIMETEST wurden sämtliche Rezidive erfolgreich durch Salvage-Chemotherapie behandelt [Q]. Laut EAU werden Rezidive nach primärer RLA fast immer durch Standardchemotherapie geheilt [LL EAU 2026, 6.2.2.1.1]; ifosfamidhaltige Kombinationen wie TIP oder VIP sind Rezidiven nach cisplatinbasierter Erstlinie vorbehalten [LL EAU 2026, 6.3.4]. In guter Prognose ist BEP x 3 Standard [LL EAU 2026, 6.2.3.1.1].", "prax": "Salvage bedeutet im RLA-Kontext Rettung nach Operation, nicht Zweitlinie. Die IGCCCG-Zuordnung erfolgt anhand der Befunde zum Rezidivzeitpunkt [X].", "merk": "Rezidiv nach primärer RLA: chemotherapienaiv, also Erstlinie nach IGCCCG, meist drei Zyklen BEP.", "flag": null}, {"n": 9, "axis": "E", "diff": 2, "correct": "C", "objective": "Kann das in SAKK 01/10 geprüfte Schema von klassischer Bestrahlung, Stadium-I-Adjuvanz und SAKK 01/18 abgrenzen.", "reference": "Artikel: Strahlentherapie, Abb. 4; EAU 2026, 6.2.2.1.2", "vignette": "Ein 40-jähriger Mann mit Seminom im Stadium IIA (einzelner paraaortaler Knoten 1,7 cm, Wachstum bestätigt, Marker normal, vollständiges Staging sonst unauffällig) wird in einem Hodentumorzentrum betreut. Nach Tumorboardbeschluss und Aufklärung über die Datenlage soll er eine deeskalierte Radiochemotherapie analog SAKK 01/10 erhalten. Festlegung des Behandlungsablaufs.", "lead": "Wie ist die Behandlung analog SAKK 01/10 durchzuführen?", "opts": {"A": "Involved-node-Bestrahlung, danach ein Zyklus Carboplatin AUC 7", "B": "Ein Zyklus Carboplatin AUC 7, danach klassisches Dog-leg-Feld", "C": "Ein Zyklus Carboplatin AUC 7, dann Involved-node-Bestrahlung", "D": "Ein Zyklus Etoposid und Cisplatin, danach Involved-node 30 Gy", "E": "Zwei Zyklen Carboplatin AUC 7 ohne anschließende Bestrahlung"}, "rat": {"A": "Fehlannahme: Die Reihenfolge sei beliebig. Geprüft wurde ein Zyklus Carboplatin, gefolgt von der kleinvolumigen Bestrahlung [Q] [LL EAU 2026, 6.2.2.1.2].", "B": "Fehlannahme: Verwechslung mit der britischen Studie, die Carboplatin mit klassischer Bestrahlung kombinierte [Q]. SAKK 01/10 verkleinert gerade das Volumen, im Schnitt auf etwa ein Viertel [Q].", "C": "Ein Zyklus Carboplatin AUC 7, danach Bestrahlung nur der befallenen Knoten mit kleinem Sicherheitssaum; im Stadium IIA 30 Gy in 15 Fraktionen [Q] [LL EAU 2026, 6.2.2.1.2].", "D": "Fehlannahme: Verwechslung mit SAKK 01/18. Dort wird ein Zyklus Etoposid und Cisplatin experimentell im Stadium IIB geprüft, Ergebnisse stehen aus [Q].", "E": "Fehlannahme: Übertragung der Stadium-I-Adjuvanz. Ohne Bestrahlung der befallenen Knoten fehlt die lokale Komponente des geprüften Schemas [Q]."}, "core": "SAKK 01/10 ersetzt hohe kumulative Chemotherapiedosen und große Felder durch eine abgeschwächte Kombination: zuerst ein Zyklus Carboplatin, dann die Bestrahlung nur der befallenen Knoten [Q].", "ev": "In der bislang größten Studie dieser Art erhielten 120 Patienten einen Zyklus Carboplatin AUC 7 und danach eine Involved-node-Radiotherapie; das Volumen betrug etwa ein Viertel des Dog-leg-Feldes, das progressionsfreie Überleben nach mindestens 3 Jahren knapp 94 % [Q]. Die EAU nennt 30 Gy in 15 Fraktionen für IIA und 36 Gy in 18 Fraktionen für IIB sowie ein 3-Jahres-PFS von 93,7 %, womit der primäre Endpunkt von 95 % knapp verfehlt wurde [LL EAU 2026, 6.2.2.1.2].", "prax": "Die NCCN führt das Schema als Alternative [Q], die EAU hält es noch nicht für den Routineeinsatz belegt [LL EAU 2026, 6.2.2.1.2]; die Indikation gehört ins Tumorboard eines spezialisierten Zentrums [Q].", "merk": "SAKK 01/10: ein Zyklus Carboplatin AUC 7, dann Involved-node-Bestrahlung; Volumen etwa ein Viertel des Dog-leg-Feldes.", "flag": "Einarmige Phase-II-Studie, primärer Endpunkt knapp verfehlt; die NCCN führt das Schema als Alternative, die EAU 2026 nicht für den Routineeinsatz."}, {"n": 10, "axis": "E", "diff": 3, "correct": "D", "objective": "Kann bei größerem Stadium IIB die Standardchemotherapie gegen deeskalierende Konzepte begründet vertreten.", "reference": "Artikel: Standardtherapien, Strahlentherapie, Fazit zur RLA; EAU 2026, 6.2.2.1 und 6.2.2.1.2", "vignette": "Ein 36-jähriger Mann mit Seminom hat einen solitären paraaortalen Lymphknoten von 4,1 cm (Stadium IIB), Marker normal, übriges Staging unauffällig. Er hat von der kombinierten Carboplatin-Bestrahlung gelesen und möchte die Standardchemotherapie vermeiden. Eine passende Studie ist am Zentrum nicht offen. Beratung vor der Therapieentscheidung.", "lead": "Welche Empfehlung ist für diesen Patienten am besten begründet?", "opts": {"A": "Carboplatin plus Involved-node-Bestrahlung als gleichwertiger Weg", "B": "Ein Zyklus EP plus 30 Gy Involved-node außerhalb einer Studie", "C": "Primäre RLA mit bilateralem Template wegen der Knotengröße", "D": "Drei Zyklen BEP; Deeskalation nur im Studienkontext erwägen", "E": "Bestrahlung paraaortal und pelvin mit 36 Gy als bevorzugte Wahl"}, "rat": {"A": "Fehlannahme: NCCN-Aufnahme bedeute Gleichwertigkeit. In SAKK 01/10 traten die Rezidive fast ausschließlich im Stadium IIB auf [Q]; die EAU sieht keine Evidenz für den Routineeinsatz [LL EAU 2026, 6.2.2.1.2].", "B": "Fehlannahme: Ein Studienkonzept sei bereits Praxis. SAKK 01/18 prüft diese Anpassung für das Stadium IIB; Ergebnisse werden 2026/2027 erwartet [Q].", "C": "Fehlannahme: Ein größerer Knoten rechtfertige ein größeres Template. Die NCCN nennt die primäre RLA nur für Knoten unter 3 cm, bilaterale Templates brachten keinen onkologischen Vorteil [Q].", "D": "Im Stadium IIB wird die Polychemotherapie bevorzugt [Q]; Deeskalationsstrategien gehören nach EAU in spezialisierte Zentren mit Studie oder prospektiver Kohorte [LL EAU 2026, 6.2.2.1.2].", "E": "Fehlannahme: Beide Standards seien im Stadium IIB gleichrangig. Die Bestrahlung mit 36 Gy ist möglich, die Chemotherapie wird aber bevorzugt [Q]; die EAU sieht einen nicht signifikanten Wirksamkeitstrend zu ihren Gunsten [LL EAU 2026, 6.2.2.1]."}, "core": "Bei einem Knoten über 4 cm im Stadium IIB und ohne Studienoption ist die Chemotherapie die am besten belegte Wahl [Q]. Die Deeskalationskonzepte sind gerade in dieser Gruppe am schwächsten abgesichert [Q] [LL EAU 2026, 6.2.2.1.2].", "ev": "Im Stadium IIB wird die Polychemotherapie bevorzugt; mehr als 90 % der Patienten werden mit der Ersttherapie geheilt [Q]. Die EAU ordnet alle Deeskalationsstrategien einschließlich RLA spezialisierten Zentren mit Studie oder prospektiver Kohorte zu [LL EAU 2026, 6.2.2.1.2].", "prax": "Der Wunsch nach Deeskalation ist legitim, verschiebt aber nicht die Evidenz: Die Aufklärung umfasst die Spättoxizität der Chemotherapie ebenso wie die fehlende Absicherung der Alternativen [Q]. Eine Zuweisung an ein Zentrum mit offener Studie bleibt möglich [X].", "merk": "Großes IIB ohne Studie: drei Zyklen BEP; Deeskalation ist hier am schwächsten belegt.", "flag": "Die Bewertung der Deeskalation unterscheidet sich zwischen NCCN und EAU 2026; Ergebnisse von SAKK 01/18 werden 2026/2027 erwartet."}]};
+(function () {
+'use strict';
+var D = DATA, Q = D.questions, AX = D.axes;
+var LABEL = {std: 'Standard', sec: 'Standard, nachrangig', alt: 'Option mit Bedingungen', wait: 'Abwarten', no: 'Nicht indiziert'};
+
+function esc(s) {
+  return String(s).replace(/[&<>"]/g, function (c) { return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]; });
+}
+function pv(s) {
+  return esc(s).replace(/\[(Q|X|LL [^\]]+)\]/g, function (m, t) {
+    if (t === 'Q') return '<span class="pv pv-q" title="Steht so im Quellartikel">Q</span>';
+    if (t === 'X') return '<span class="pv pv-x" title="Eigene Einordnung ohne direkten Beleg">X</span>';
+    return '<span class="pv pv-ll" title="Leitlinie im Volltext geprüft">' + t + '</span>';
+  });
+}
+function $(id) { return document.getElementById(id); }
+function cm(x) { return x.toFixed(1).replace('.', ',') + ' cm'; }
+
+/* ---------- Kopf, Lernziele, Quellen ---------- */
+$('meta').innerHTML = D.meta.map(function (m) {
+  return '<div><dt>' + esc(m[0]) + '</dt><dd>' + pv(m[1]) + '</dd></div>';
+}).join('');
+
+$('goals').innerHTML = Object.keys(AX).map(function (a) {
+  var items = Q.filter(function (q) { return q.axis === a; }).map(function (q) {
+    return '<li>Frage ' + q.n + ': ' + esc(q.objective) + '</li>';
+  }).join('');
+  return '<details open><summary>' + esc(a + ': ' + AX[a]) + '</summary><ul>' + items + '</ul></details>';
+}).join('');
+
+$('sources').innerHTML = D.sources.map(function (s) { return '<li>' + UroCme.sourceHtml(s, esc) + '</li>'; }).join('');
+
+/* ---------- Knotenlineal ---------- */
+var R = {size: 2.3, mk: 'neg', growth: true, supra: false, bleo: false};
+
+function assess(r) {
+  if (r.supra) return {stage: 'Kein Stadium IIA/B', note: 'Zusätzliche supradiaphragmale Manifestation', items: [
+    {st: 'std', label: 'Chemotherapie nach IGCCCG', text: 'Seminom ab Stadium IIC: primäre Chemotherapie, in guter Prognose BEP x 3 [LL EAU 2026, 6.3.6.1]'},
+    {st: 'no', label: 'Infradiaphragmale Bestrahlung', text: 'Lokales Konzept, erfasst supraklavikuläre Herde nicht [Q]'},
+    {st: 'no', label: 'Primäre RLA, Carboplatin plus Involved-node', text: 'Nur im Stadium IIA/B geprüft [Q]'}]};
+  if (r.mk === 'hi') return {stage: 'Kein Stadium IIA/B', note: 'Marker über S1 (LDH ab dem 1,5-Fachen der Norm oder β-hCG ab 5000 mIU/ml)', items: [
+    {st: 'std', label: 'Chemotherapie nach IGCCCG', text: 'Stadium IIA/B setzt Marker höchstens auf S1-Niveau voraus [Q]; Behandlung nach IGCCCG [LL EAU 2026, 6.3.6.1]'},
+    {st: 'no', label: 'Deeskalierende Konzepte', text: 'Nur im Stadium IIA/B geprüft [Q]'}]};
+  if (r.size > 5) return {stage: 'Stadium IIC', note: 'Knoten ' + cm(r.size), items: [
+    {st: 'std', label: 'Chemotherapie nach IGCCCG', text: 'Seminom ab Stadium IIC: primäre Chemotherapie [LL EAU 2026, 6.3.6.1]'},
+    {st: 'no', label: 'Bestrahlung und Deeskalation', text: 'Außerhalb des Stadiums IIA/B [Q]'}]};
+  if (r.size <= 2 && r.mk === 'neg' && !r.growth) return {stage: 'Stadium nicht gesichert', note: 'Markernegativ, Knoten ' + cm(r.size), items: [
+    {st: 'wait', label: 'Schnittbildkontrolle nach 6–8 Wochen', text: 'Reaktive Vergrößerung möglich [Q]; im Mittel etwa 10 % nicht metastatisch [LL EAU 2026, 6.2.2.1]'},
+    {st: 'no', label: 'Sofortige Therapie', text: 'Erst bei Wachstum, Markeranstieg oder Biopsienachweis [LL EAU 2026, 6.2.2.1]'}]};
+  var iia = r.size <= 2, items = [];
+  items.push({st: 'std', label: r.bleo ? 'Chemotherapie: 4 x EP' : 'Chemotherapie: 3 x BEP',
+    text: (r.bleo ? 'Bleomycin kontraindiziert: EP x 4 statt BEP x 3 [Q] [LL EAU 2026, 6.2.2.1]' : 'Bei Kontraindikation gegen Bleomycin EP x 4 [Q] [LL EAU 2026, 6.2.2.1]') + (iia ? '' : '; im Stadium IIB bevorzugt [Q]')});
+  items.push({st: iia ? 'std' : 'sec', label: iia ? 'Bestrahlung mit 30 Gy' : 'Bestrahlung mit 36 Gy',
+    text: 'Paraaortal und ipsilateral pelvin [Q] [LL EAU 2026, 6.2.2.1]' + (iia ? '; 27 Gy erhöht die Rezidivrate [LL EAU 2026, 6.2.2.1]' : '; im Stadium IIB nachrangig [Q]')});
+  items.push(r.size < 3
+    ? {st: 'alt', label: 'Primäre RLA', text: 'NCCN-Option unter 3 cm [Q]; nur im spezialisierten Zentrum, idealerweise in Studie oder Kohorte [LL EAU 2026, 6.2.2.1.1]'}
+    : {st: 'no', label: 'Primäre RLA', text: 'Ab 3 cm außerhalb der NCCN-Option [Q]'});
+  items.push({st: 'alt', label: 'Carboplatin AUC 7, dann Involved-node ' + (iia ? '30 Gy' : '36 Gy'),
+    text: 'SAKK 01/10: primärer Endpunkt knapp verfehlt, nicht für den Routineeinsatz [LL EAU 2026, 6.2.2.1.2]' + (iia ? '' : '; Rezidive fast nur im Stadium IIB [Q]')});
+  return {stage: iia ? 'Stadium IIA' : 'Stadium IIB', note: 'Knoten ' + cm(r.size) + (r.mk === 's1' ? ', Marker innerhalb S1' : ', Marker normal'), items: items};
+}
+
+function rulerSvg(r) {
+  var x0 = 16, x1 = 364, k = (x1 - x0) / 6;
+  function X(v) { return (x0 + v * k).toFixed(1); }
+  var s = '<svg viewBox="0 0 380 142" role="img" aria-label="Knotenlineal von 0 bis 6 cm mit Stadiengrenzen bei 2 und 5 cm und NCCN-Grenze bei 3 cm; aktueller Knoten ' + cm(r.size) + '">';
+  s += '<rect x="' + X(0) + '" y="40" width="' + (2 * k) + '" height="34" fill="#e2eef3"/>';
+  s += '<rect x="' + X(2) + '" y="40" width="' + (3 * k) + '" height="34" fill="#edf1e2"/>';
+  s += '<rect x="' + X(5) + '" y="40" width="' + (1 * k) + '" height="34" fill="#f6e8e6"/>';
+  [['IIA', 1], ['IIB', 3.5], ['IIC', 5.5]].forEach(function (z) {
+    s += '<text x="' + X(z[1]) + '" y="33" text-anchor="middle" font-size="14" font-weight="600" fill="#16232d">' + z[0] + '</text>';
+  });
+  s += '<rect x="' + X(0) + '" y="86" width="' + (3 * k) + '" height="8" fill="#ead9b4"/>';
+  s += '<text x="' + X(0) + '" y="108" font-size="12" fill="#8e6212">RLA-Option der NCCN unter 3 cm (laut Artikel)</text>';
+  for (var i = 0; i <= 6; i++) {
+    s += '<line x1="' + X(i) + '" x2="' + X(i) + '" y1="74" y2="80" stroke="#5a6873"/>';
+    s += '<text x="' + X(i) + '" y="132" text-anchor="' + (i === 0 ? 'start' : i === 6 ? 'end' : 'middle') + '" font-size="12" fill="#5a6873">' + i + (i === 0 || i === 6 ? ' cm' : '') + '</text>';
+  }
+  [2, 3, 5].forEach(function (v) {
+    s += '<line x1="' + X(v) + '" x2="' + X(v) + '" y1="40" y2="96" stroke="#16232d" stroke-width="1"' + (v === 3 ? ' stroke-dasharray="3 3"' : '') + '/>';
+  });
+  var sx = X(Math.min(r.size, 6));
+  s += '<line x1="' + X(0) + '" x2="' + sx + '" y1="57" y2="57" stroke="#c8372d" stroke-width="3"/>';
+  s += '<line x1="' + X(0) + '" x2="' + X(0) + '" y1="49" y2="65" stroke="#c8372d" stroke-width="3"/>';
+  s += '<circle cx="' + sx + '" cy="57" r="9" fill="#fbfcfd" stroke="#c8372d" stroke-width="3"/>';
+  var lx = Math.min(Math.max(parseFloat(sx), 40), 340);
+  s += '<text x="' + lx + '" y="14" text-anchor="middle" font-size="14" font-weight="700" fill="#c8372d">' + cm(r.size) + '</text>';
+  return s + '</svg>';
+}
+
+function renderRuler() {
+  $('sizeOut').textContent = cm(R.size);
+  $('rulerSvg').innerHTML = rulerSvg(R);
+  var a = assess(R);
+  $('verdict').innerHTML = '<p class="stage">' + esc(a.stage) + '</p><p class="note">' + esc(a.note) + '</p><ul>' +
+    a.items.map(function (it) {
+      return '<li><span class="chip st-' + it.st + '">' + LABEL[it.st] + '</span><div><b>' + esc(it.label) + '</b><p>' + pv(it.text) + '</p></div></li>';
+    }).join('') + '</ul>';
+}
+$('size').addEventListener('input', function (e) { R.size = parseFloat(e.target.value); renderRuler(); });
+Array.prototype.forEach.call(document.querySelectorAll('input[name=mk]'), function (el) {
+  el.addEventListener('change', function () { R.mk = el.value; renderRuler(); });
+});
+['growth', 'supra', 'bleo'].forEach(function (id) {
+  $(id).addEventListener('change', function (e) { R[id] = e.target.checked; renderRuler(); });
+});
+renderRuler();
+
+/* ---------- Quiz ---------- */
+var lastOfAxis = {};
+Q.forEach(function (q) { lastOfAxis[q.axis] = q.n; });
+
+function feedbackHtml(q, chosen) {
+  var ok = chosen === q.correct, h = '<div class="fb">';
+  h += '<p class="verdictline ' + (ok ? 'ok' : 'bad') + '">' + (ok ? 'Richtig.' : 'Nicht richtig. Richtig ist ' + q.correct + '.') + '</p>';
+  h += '<div class="slot"><h3>Kernaussage</h3><p>' + pv(q.core) + '</p></div>';
+  h += '<div class="slot"><h3>Evidenz</h3><p>' + pv(q.ev) + '</p></div>';
+  h += '<div class="slot"><h3>Distraktoren</h3><ul class="dist">' + 'ABCDE'.split('').filter(function (k) { return k !== q.correct; }).map(function (k) {
+    return '<li><span class="k">' + k + '</span><div><span class="ot">' + esc(q.opts[k]) + '</span><p>' + pv(q.rat[k]) + '</p></div></li>';
+  }).join('') + '</ul></div>';
+  h += '<div class="slot"><h3>Praxiskonsequenz</h3><p>' + pv(q.prax) + '</p></div>';
+  h += '<p class="merksatz">' + esc(q.merk) + '</p>';
+  if (q.flag) h += '<p class="flagnote">⚠ ' + esc(q.flag) + '</p>';
+  h += '<p class="qmeta">Lernziel: ' + esc(q.objective) + '<br>Referenz: ' + esc(q.reference) + '</p>';
+  if (lastOfAxis[q.axis] === q.n) h += merkkasten(q.axis);
+  return h + '</div>';
+}
+
+function merkkasten(a) {
+  return '<div class="merkkasten"><h3>Merkkasten ' + esc(a + ': ' + AX[a]) + '</h3><ol>' +
+    D.merk[a].map(function (m) { return '<li>' + pv(m) + '</li>'; }).join('') + '</ol></div>';
+}
+
+UroCme.mount({questions: Q, axes: AX, esc: esc, feedback: feedbackHtml, key: "urofragen-cme-v2:seminom-IIAB:aad6102f5fe6"});
+
+/* ---------- Druckfassung ---------- */
+var P = '<h2>Alle Fragen mit Lösung und Begründung</h2>';
+Q.forEach(function (q) {
+  P += '<div class="pq"><p class="qmeta">Frage ' + q.n + ', ' + esc(q.axis + ': ' + AX[q.axis]) + ', Schwierigkeit ' + q.diff + (q.flag ? ', ⚠ Evidenz begrenzt' : '') + '</p>';
+  P += '<p class="vignette">' + esc(q.vignette) + '</p><p class="lead">' + esc(q.lead) + '</p><ul class="dist">';
+  'ABCDE'.split('').forEach(function (k) {
+    P += '<li><span class="k" style="color:' + (k === q.correct ? 'var(--ok)' : 'var(--muted)') + '">' + k + '</span><div>' + esc(q.opts[k]) + (k === q.correct ? ' (richtig)' : '') + '</div></li>';
+  });
+  P += '</ul>' + feedbackHtml(q, q.correct).replace('<p class="verdictline ok">Richtig.</p>', '') + '</div>';
+});
+$('printall').innerHTML = P;
+window.addEventListener('beforeprint', function () {
+  Array.prototype.forEach.call(document.querySelectorAll('details'), function (d) { d.open = true; });
+});
+})();
+</script>
+</body>
+</html>

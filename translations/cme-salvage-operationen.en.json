@@ -1,0 +1,430 @@
+{
+  "meta": [
+    [
+      "Source",
+      "Heidenreich J, Pfister D, Steenbock O, Rieger C, Heidenreich A. In welchem Ausmaß sind Salvage-Operationen bei Tumoren des Urogenitaltrakts sinnvoll? Die Urologie 2026;65:145–154. DOI 10.1007/s00120-025-02748-6"
+    ],
+    [
+      "Guideline",
+      "EAU Guidelines on Testicular Cancer 2026, chapter 6 (6.3.2.2 and 6.3.3.1), full text checked on 21.09.2026. Full-text comparison with the relevant EAU guidelines for prostate, urothelial and renal cell carcinoma is still pending; correct answers to those questions rely on the source article."
+    ],
+    [
+      "Scope",
+      "10 questions across 6 topic areas, approximately 30 minutes"
+    ],
+    [
+      "Reading note",
+      "Three questions carry ⚠. Much of the article summarises case series from the same research group. PEACE-V-STORM is cited as evidence for salvage surgery although the reported figures favour pelvic radiotherapy; the questions follow the figures. Internally contradictory figures were not used, such as a lower probability of biochemical recurrence at ten years than at five."
+    ]
+  ],
+  "sources": [
+    "Primary source: Heidenreich J, Pfister D, Steenbock O, Rieger C, Heidenreich A (2026) In welchem Ausmaß sind Salvage-Operationen bei Tumoren des Urogenitaltrakts sinnvoll? Urologie 65:145–154. https://doi.org/10.1007/s00120-025-02748-6",
+    "Guideline: EAU Guidelines on Testicular Cancer 2026, chapter 6 Disease Management, sections 6.3.2.2 and 6.3.3.1. Full text online, accessed 21.09.2026.",
+    "Study: Ost P et al. (2025) PEACE V-STORM, randomised phase II study comparing metastasis-directed treatment with elective nodal irradiation. Lancet Oncol 26:695–706 (cited from the primary source).",
+    "Study: Bravi CA et al. (2020) Long-term outcomes of salvage lymph node dissection. Eur Urol 78:661–669; Knipper S et al. (2023) PSMA-radioguided salvage lymph node dissection. Eur Urol 83:62–69; Fossati N et al. (2019) Eur Urol 75:176–183 (cited from the primary source).",
+    "Study: Chade DC et al. (2011) Eur Urol 60:205–210 and Heidenreich A et al. (2010) Eur Urol 57:437–443 on salvage prostatectomy; Grubmüller B et al. (2021) Curr Oncol 28:2881–2892, systematic review (cited from the primary source).",
+    "Study: Culp SH et al. (2014) Local treatment in metastatic prostate cancer, SEER analysis. Eur Urol 65:1058–1066; Heidenreich A et al. (2018) Cytoreductive prostatectomy with skeletal metastases. Eur Urol Oncol 1:46–53 (cited from the primary source).",
+    "Study: Ji J et al. (2025) Metastasectomy in bladder cancer, systematic review and meta-analysis. Int J Urol 32:1552–1560; Dursun F et al. (2022) Urol Oncol 40:61.e21–e28, National Cancer Database analysis (cited from the primary source).",
+    "Study: Blanco-Fernández G et al. (2022) PANMEKID, resection of pancreatic metastases from renal cell carcinoma. Eur J Surg Oncol 48:133–141; Macherey S et al. (2017) Lung metastasis surgery, meta-analysis. Urologe 56:1025–1030 (cited from the primary source).",
+    "Study: Capitanio U et al. (2009) Perioperative mortality after retroperitoneal lymph node dissection, population-based. Urology 74:373–377; Fléchon A et al. (2010) BJU Int 106:779–785 (cited from the primary source)."
+  ],
+  "axes": {
+    "A": "Salvage prostatectomy after radiotherapy",
+    "B": "Salvage lymph node dissection",
+    "C": "Local treatment in metastatic prostate cancer",
+    "D": "Metastasis surgery in urothelial carcinoma",
+    "E": "Metastasis surgery in renal cell carcinoma",
+    "F": "Germ cell tumours and centralisation"
+  },
+  "merk": {
+    "A": [
+      "Candidate for salvage prostatectomy: organ-confined recurrence, imaging-negative nodes, long PSA doubling time [Q].",
+      "mpMRI and PSMA-PET/CT are essential before deciding [Q].",
+      "5-year biochemical recurrence-free survival: 71.4% for organ-confined disease, 50% with seminal vesicle invasion, 30% with nodal involvement [Q]."
+    ],
+    "B": [
+      "PEACE V-STORM: 4-year metastasis-free survival 63% after metastasis-directed therapy versus 76% after pelvic radiotherapy [Q].",
+      "The realistic aim of salvage lymph node dissection is to defer hormone therapy, not cure [Q].",
+      "Postoperative PSA above 0.3 ng/ml: more recurrences and higher cancer-specific mortality; early androgen deprivation improves survival [Q]."
+    ],
+    "C": [
+      "Cytoreductive prostatectomy: retrospective data only; response to induction treatment is the selection criterion [Q].",
+      "Palliative pelvic surgery requires ECOG 0 to 1, normal CRP and albumin, and resectability on MRI [Q].",
+      "After palliative pelvic surgery, symptom-free survival is 89% at one year and 66% at three years [Q]."
+    ],
+    "D": [
+      "No clear criteria in urothelial carcinoma: meta-analyses conflict and the database analysis shows no advantage [Q].",
+      "Isolated lung or nodal metastases with complete resectability are most likely to benefit [Q].",
+      "Favourable markers: fewer than five involved nodes, CRP below 1.0 mg/dl, solitary visceral metastasis [Q]."
+    ],
+    "E": [
+      "Curative metastasectomy means R0 for all lesions: median survival 40.75 versus 14.8 months after incomplete resection [Q].",
+      "Pancreatic metastases grow indolently; 5-year survival after resection 83%, but morbidity 60.9% [Q].",
+      "Brain metastases: focal treatment plus systemic therapy; whole-brain irradiation is inferior [Q]."
+    ],
+    "F": [
+      "Residual tumour resection outside specialist centres: higher 30-day mortality, more incomplete resections and recurrences [Q].",
+      "At specialist centres, perioperative mortality falls from 6% to 0.8% [LL EAU 2026, 6.3.3.1].",
+      "Guideline discordance of almost 40% is the real care problem, not surgical feasibility [Q]."
+    ]
+  },
+  "questions": [
+    {
+      "n": 1,
+      "axis": "A",
+      "diff": 2,
+      "correct": "B",
+      "objective": "Can identify a suitable candidate for salvage prostatectomy after radiotherapy.",
+      "reference": "Article: radical salvage prostatectomy after radiotherapy",
+      "vignette": "A 68-year-old man has a biopsy-proven local recurrence six years after external beam radiotherapy, Gleason 3+4. PSA is 3.2 ng/ml with a doubling time of 14 months. Multiparametric MRI shows an organ-confined lesion, PSMA-PET/CT no nodal or distant metastases. He is continent, ECOG 0. Treatment is to be defined.",
+      "lead": "Which approach is best justified?",
+      "opts": {
+        "A": "Lifelong androgen deprivation without local therapy",
+        "B": "Salvage prostatectomy at an experienced centre",
+        "C": "Salvage prostatectomy at once, without further imaging",
+        "D": "Observation until distant metastases appear",
+        "E": "Docetaxel chemotherapy because of the recurrence"
+      },
+      "rat": {
+        "A": "Misconception: recurrence after radiotherapy is no longer curable. More than 90% of patients nevertheless receive non-curative androgen deprivation [Q].",
+        "B": "Organ-confined recurrence, negative nodes and a long doubling time are exactly the constellation in which salvage prostatectomy works [Q].",
+        "C": "Misconception: imaging can be skipped. Multiparametric MRI and PSMA-PET/CT are indispensable before the decision [Q].",
+        "D": "Misconception: waiting costs nothing. Once distant metastases appear, the curative option is gone [X].",
+        "E": "Misconception: systemic therapy as the next escalation. For a locally confined recurrence it is not the first choice [Q]."
+      },
+      "core": "The profile fits: locally confined recurrence, imaging-negative nodes, long PSA doubling time and a long interval since radiotherapy [Q].",
+      "ev": "In large single-centre series, metastasis-free survival at ten years is 75 to 80% and cancer-specific survival 80 to 90% [Q]. Complication rates are given as 2 to 5%, rectal injury below 1.5% [Q]. Biochemical recurrence-free survival at five years is 71.4% for organ-confined recurrence [Q].",
+      "prax": "Incontinence is the central counselling issue: 20 to 40% depending on the preceding radiotherapy, with recovery taking eight months on average [Q]. The indication belongs in the multidisciplinary tumour board and the operation in a centre experienced in salvage surgery [Q].",
+      "merk": "Salvage prostatectomy: organ-confined, node-negative, long doubling time, imaging complete.",
+      "flag": "The results come from retrospective single-centre series with substantial patient selection; randomised comparisons with other salvage procedures are lacking."
+    },
+    {
+      "n": 2,
+      "axis": "A",
+      "diff": 3,
+      "correct": "D",
+      "objective": "Can recognise unfavourable selection features before salvage prostatectomy and infer the need for restraint.",
+      "reference": "Article: radical salvage prostatectomy, risk factors",
+      "vignette": "A 71-year-old man requests salvage prostatectomy after radiotherapy. Multiparametric MRI shows recurrence with seminal vesicle infiltration, PSMA-PET/CT a suspicious pelvic node. PSA is 6.8 ng/ml, doubling time 4 months, ECOG 1. Management is to be defined.",
+      "lead": "How should his request be judged?",
+      "opts": {
+        "A": "Perform salvage prostatectomy as requested",
+        "B": "Salvage prostatectomy with extended lymphadenectomy",
+        "C": "Offer focal salvage therapy of the recurrent lesion",
+        "D": "Restraint; discuss systemic therapy in the tumour board",
+        "E": "Repeat radiotherapy of the recurrence without further work-up"
+      },
+      "rat": {
+        "A": "Misconception: the patient's wish replaces selection. This very constellation argues against a curative claim [Q].",
+        "B": "Misconception: more surgery compensates for the starting position. Positive nodes were associated with more recurrences, more metastatic spread and higher mortality [Q].",
+        "C": "Misconception: focal therapy as the gentle solution. It addresses neither the seminal vesicles nor the node [X].",
+        "D": "Seminal vesicle infiltration, a positive node and a short doubling time mark the group with the least benefit [Q].",
+        "E": "Misconception: repeat radiotherapy without a concept. Imaging and the tumour board precede every salvage decision [Q]."
+      },
+      "core": "Resectability is not the same as a chance of cure: these risk features markedly reduce the benefit of surgery [Q].",
+      "ev": "With seminal vesicle invasion, biochemical recurrence-free survival at five years falls to 50%, with nodal involvement to 30%, compared with 71.4% for organ-confined recurrence [Q]. Mean biochemical progression-free survival is 31.4 months with nodal metastases versus 61.8 months without [Q]. In a series of 334 patients, positive nodes were associated with increased overall mortality [Q].",
+      "prax": "The indication for salvage surgery always belongs in the multidisciplinary tumour board, together with the alternative of systemic therapy [Q]. Counselling names the realistic chance of cure, not only technical feasibility [Q].",
+      "merk": "Seminal vesicle invasion or a positive node: salvage prostatectomy loses its curative claim.",
+      "flag": null
+    },
+    {
+      "n": 3,
+      "axis": "B",
+      "diff": 3,
+      "correct": "A",
+      "objective": "Can weigh the randomised evidence against metastasis-directed surgery in nodal recurrence.",
+      "reference": "Article: salvage lymph node dissection, PEACE V-STORM",
+      "vignette": "A 64-year-old man has biochemical recurrence two years after radical prostatectomy, PSA 1.8 ng/ml. PSMA-PET/CT shows two suspicious pelvic nodes and no distant metastases. He is hormone-naive and asks for metastasis-directed therapy. Management is to be defined.",
+      "lead": "Which approach is best justified?",
+      "opts": {
+        "A": "Pelvic radiotherapy with a boost plus androgen deprivation",
+        "B": "Salvage lymph node dissection with curative intent",
+        "C": "PSMA-radioguided salvage lymphadenectomy as the standard",
+        "D": "Androgen deprivation alone without any local measure",
+        "E": "Observation until bone metastases appear"
+      },
+      "rat": {
+        "A": "In the randomised trial, metastasis-free survival at four years was 76% after pelvic radiotherapy versus 63% after metastasis-directed therapy [Q].",
+        "B": "Misconception: visible nodes are surgically curable. Very few patients achieve cure [Q].",
+        "C": "Misconception: the radioguided technique makes the procedure a standard. In the largest cohort of 364 patients only 45% reached a PSA nadir below 0.2 ng/ml [Q].",
+        "D": "Misconception: without surgery only hormones remain. The combination of radiotherapy and androgen deprivation was superior in the comparison [Q].",
+        "E": "Misconception: a low PSA permits waiting. The evidence supports early treatment of nodal recurrence [Q]."
+      },
+      "core": "For oligonodal recurrence a randomised trial exists, and it does not favour surgery [Q].",
+      "ev": "In PEACE V-STORM, 196 patients received either metastasis-directed therapy by lymphadenectomy or stereotactic radiotherapy with six months of androgen deprivation, or pelvic radiotherapy with 45 Gy plus a boost of 65 Gy to the PET-positive nodes; the primary endpoint was metastasis-free survival [Q]. Retrospective series of salvage lymphadenectomy show biochemical recurrence-free survival at two years of only 32% [Q].",
+      "prax": "If surgery is performed nonetheless, the realistic aim is deferral of hormone therapy [Q]. The article calls the results of this trial excellent without stating that they came out against the surgical approach [X].",
+      "merk": "Oligonodal recurrence: pelvic radiotherapy with a boost plus hormone therapy beats metastasis-directed surgery.",
+      "flag": "The article cites PEACE-V-STORM data as evidence for salvage surgery, although the reported figures favour pelvic radiotherapy."
+    },
+    {
+      "n": 4,
+      "axis": "B",
+      "diff": 2,
+      "correct": "C",
+      "objective": "Can state the realistic treatment aim of salvage lymph node dissection.",
+      "reference": "Article: salvage lymph node dissection, long-term outcomes",
+      "vignette": "A 66-year-old man is scheduled for salvage lymph node dissection for two PSMA-positive pelvic nodes after multidisciplinary discussion. He asks what the procedure realistically means for him. Consent discussion before surgery.",
+      "lead": "How should he be counselled?",
+      "opts": {
+        "A": "Cure is to be expected in the majority of patients",
+        "B": "After the procedure, hormone therapy is no longer needed",
+        "C": "Realistically, a longer time without hormone therapy",
+        "D": "A PSA nadir below 0.2 is reached almost always",
+        "E": "The risk of recurrence in the first year is under five percent"
+      },
+      "rat": {
+        "A": "Misconception: visible metastases are surgically curable. Clinical recurrence-free survival at ten years is 31% [Q].",
+        "B": "Misconception: the operation spares hormone therapy for good. 77% of patients received it during follow-up [Q].",
+        "C": "The main indication lies in extending the systemic therapy-free interval, which with good selection can reach 42 months [Q].",
+        "D": "Misconception: the nadir is the rule. In the largest series 45% reached it within three months [Q].",
+        "E": "Misconception: early recurrence is rare. One in four patients recurs within the first year [Q]."
+      },
+      "core": "The procedure postpones the start of androgen deprivation; as a rule it does not cure [Q].",
+      "ev": "In a cohort of 189 patients, clinical and biochemical recurrence-free survival at ten years were 31% and 11%; 145 patients received androgen deprivation at a median of 41 months [Q]. Early recurrence within the first year was associated with cancer-specific mortality at three years of 20% versus 1.4% [Q]. Predictors are Gleason grade 5, the PSA level and three or more positive spots on PET/CT [Q].",
+      "prax": "A postoperative PSA above 0.3 ng/ml is associated with more recurrences and higher cancer-specific mortality; early androgen deprivation then improves survival [Q]. Counselling should name the aim before the patient expects cure [X].",
+      "merk": "Salvage lymphadenectomy: deferral of hormone therapy as the aim, cure is the exception.",
+      "flag": null
+    },
+    {
+      "n": 5,
+      "axis": "C",
+      "diff": 3,
+      "correct": "E",
+      "objective": "Can classify cytoreductive prostatectomy as a case-by-case decision and a study question.",
+      "reference": "Article: cytoreductive radical prostatectomy",
+      "vignette": "A 62-year-old man with de novo metastatic hormone-sensitive prostate cancer and three bone lesions has a PSA fall to 0.1 ng/ml after six months of systemic therapy. He has read about cytoreductive prostatectomy and asks for it. Management is to be defined.",
+      "lead": "How should his request be judged?",
+      "opts": {
+        "A": "Offer cytoreductive prostatectomy as standard therapy",
+        "B": "Decline surgery, no benefit has been shown anywhere",
+        "C": "Perform surgery irrespective of treatment response",
+        "D": "Consider surgery only for local symptoms",
+        "E": "Individual decision in the tumour board or in a trial"
+      },
+      "rat": {
+        "A": "Misconception: favourable registry data make a standard. Prospective randomised evidence is lacking [Q].",
+        "B": "Misconception: no randomisation, no signal. Several series show consistent advantages in highly selected patients [Q].",
+        "C": "Misconception: response is a side issue. It is the decisive selection criterion [Q].",
+        "D": "Misconception: only palliation counts. Local symptom control is an additional argument, not the only one [Q].",
+        "E": "The article itself calls the operation a highly individual treatment decision resting on retrospective data [Q]."
+      },
+      "core": "The patient meets the published selection criteria, but the evidence remains retrospective: decide in the tumour board, preferably within a trial [Q].",
+      "ev": "In the SEER analysis, overall and cancer-specific survival at five years were 67.4% and 75.8% versus 22.5% and 48.7% under androgen deprivation alone [Q]. In the largest series of 113 selected patients, median overall survival was 85.4 months [Q]. As prerequisites the article names a PSA nadir below 0.2 ng/ml or a fall of more than 80% after induction therapy, plus a low metastatic burden [Q].",
+      "prax": "One advantage lies in avoiding later obstruction: in the case-control study 71% of patients treated with hormones alone needed a palliative intervention, none in the surgical group [Q]. The lack of randomised evidence belongs in the consent discussion [X].",
+      "merk": "Cytoreductive prostatectomy: only after good response, with low burden, in the tumour board and preferably in trials.",
+      "flag": "The recommendation relies predominantly on retrospective series from the same research group. Guidelines are cautious about surgery for metastatic prostate cancer outside studies; local radiotherapy for low metastatic burden is included there."
+    },
+    {
+      "n": 6,
+      "axis": "C",
+      "diff": 2,
+      "correct": "A",
+      "objective": "Can indicate palliative pelvic surgery for symptomatic locally advanced prostate cancer.",
+      "reference": "Article: anterior and posterior exenteration",
+      "vignette": "A 74-year-old man with castration-resistant, locally advanced prostate cancer has recurrent bladder tamponade, an indwelling catheter and bilateral nephrostomies. ECOG 1, CRP and albumin within range, pelvic MRI shows a resectable finding. Management is to be defined.",
+      "lead": "Which approach is justified?",
+      "opts": {
+        "A": "Palliative radical pelvic surgery at a centre",
+        "B": "Continuing the catheter and repeated clot evacuations",
+        "C": "Palliative systemic therapy only, without local measures",
+        "D": "Pelvic surgery irrespective of performance status",
+        "E": "Urinary diversion alone without tumour resection"
+      },
+      "rat": {
+        "A": "With a resectable finding, ECOG 1 and normal inflammatory and nutritional parameters, the procedure can control symptoms durably [Q].",
+        "B": "Misconception: repeated interventions are the gentler route. They consume transfusions and hospital days without solving anything [X].",
+        "C": "Misconception: systemic therapy solves the local problem. With castration resistance and obstruction it usually does not [Q].",
+        "D": "Misconception: performance status is secondary. Raised CRP and low albumin argue against the procedure [Q].",
+        "E": "Misconception: diversion suffices. The bleeding source and rectal compression remain [X]."
+      },
+      "core": "Palliative tumour surgery in the pelvis is not overtreatment here but the most effective symptom control [Q].",
+      "ev": "In the authors' experience, 80% of patients need radical cystoprostatectomy with an ileal conduit, and 10% each a prostatectomy with bladder neck closure or an exenteration [Q]. Symptom-free survival at one and three years was 89% and 66%, overall survival 89% and 42.4% [Q]. Morbidity corresponded to that of classical radical cystectomy [Q].",
+      "prax": "Resectability is clarified on pelvic MRI before the extent is decided [Q]. The procedure belongs in a centre experienced in pelvic surgery and urinary diversion [Q].",
+      "merk": "Symptomatic pelvic recurrence with good performance status: palliative radical surgery instead of a permanent catheter.",
+      "flag": null
+    },
+    {
+      "n": 7,
+      "axis": "D",
+      "diff": 3,
+      "correct": "C",
+      "objective": "Can use the contradictory evidence for metastasis surgery in urothelial carcinoma to make an individual decision.",
+      "reference": "Article: metastasis surgery in bladder urothelial carcinoma",
+      "vignette": "A 61-year-old man has a stable solitary lung metastasis after four cycles of cisplatin-based chemotherapy for metastatic urothelial carcinoma, with no other evidence of tumour. ECOG 0, no relevant comorbidity. A colleague proposes metastasectomy. Management is to be defined.",
+      "lead": "Which approach is justified?",
+      "opts": {
+        "A": "Metastasectomy as standard practice after response",
+        "B": "Decline metastasectomy, the benefit has been refuted",
+        "C": "In the tumour board as a single case with complete resection",
+        "D": "Offer resection even with several metastatic sites",
+        "E": "Repeat chemotherapy instead of any local measure"
+      },
+      "rat": {
+        "A": "Misconception: response justifies surgery in general. Clear criteria cannot be derived from the data [Q].",
+        "B": "Misconception: one negative database analysis refutes the benefit. Other analyses show clear advantages [Q].",
+        "C": "Those most likely to benefit have an isolated lung or nodal metastasis and complete resectability [Q].",
+        "D": "Misconception: more resection is better. Extrapulmonary disease markedly worsens the outcome [Q].",
+        "E": "Misconception: systemic therapy replaces the local decision. With a stable solitary metastasis surgery is worth discussing [Q]."
+      },
+      "core": "The evidence supports no rule, only a selection: isolated metastasis, complete resectability, stable disease on systemic therapy [Q].",
+      "ev": "A meta-analysis of eight publications with 15,139 patients found a survival benefit of metastasectomy, whereas an analysis of the National Cancer Database after propensity score matching found none [Q]. In an analysis of 19 retrospective studies with 616 patients, median overall survival was most favourable for lung metastases at 46.2 months, 31.2 months for nodal and 29 months for other sites [Q]. Fewer than five involved nodes and a CRP below 1.0 mg/dl are favourable [Q].",
+      "prax": "The decision belongs in the tumour board, not in the clinic alone [Q]. If extrapulmonary tumour remains, the rationale for surgery falls away [Q].",
+      "merk": "Urothelial carcinoma: metastasectomy only for an isolated, completely resectable metastasis with stable disease.",
+      "flag": "Two meta-analyses reach opposite conclusions; prospective data are lacking, and selection explains part of the reported benefit."
+    },
+    {
+      "n": 8,
+      "axis": "E",
+      "diff": 1,
+      "correct": "D",
+      "objective": "Can apply the principle of complete metastasis resection in renal cell carcinoma.",
+      "reference": "Article: complete metastasis resection is always required",
+      "vignette": "A 63-year-old man has three resectable lung metastases of clear cell renal cell carcinoma three years after nephrectomy, plus a non-resectable metastasis in the iliac bone. ECOG 0, no symptoms. Management is to be defined.",
+      "lead": "Which approach is justified?",
+      "opts": {
+        "A": "Resect all lung metastases and leave the bone lesion",
+        "B": "Thoracoscopic resection before any systemic therapy",
+        "C": "Resect bone metastasis and lung lesions together",
+        "D": "Systemic therapy plus focal treatment of the bone lesion",
+        "E": "Observation until symptoms or progression occur"
+      },
+      "rat": {
+        "A": "Misconception: partial resection brings partial benefit. The survival advantage depends on complete resection [Q].",
+        "B": "Misconception: surgery first, regardless of the overall picture. With non-resectable residual disease the curative perspective is missing [Q].",
+        "C": "Misconception: everything must be operated. The bone lesion is not resectable but can be treated stereotactically [Q].",
+        "D": "Without the possibility of an R0 situation for all lesions, systemic therapy takes precedence, supplemented by focal measures [Q].",
+        "E": "Misconception: waiting is neutral. The disease is metastatic and requires treatment [X]."
+      },
+      "core": "Metastasectomy with curative intent presupposes that all lesions can be removed completely; that is not the case here [Q].",
+      "ev": "An analysis of eight studies showed median overall survival of 40.75 months after complete resection versus 14.8 months after incomplete resection [Q]. R0 resection is considered the prognostic factor of greatest relevance [Q]. Skeletal oligometastases are, in the article's view, better treated with stereotactic radiotherapy [Q]. Lung metastases are the most common site at 70% [Q].",
+      "prax": "If only one resectable site remains after systemic therapy, metastasectomy can be reconsidered [X]. Isolated lung metastases can be removed thoracoscopically with low morbidity [Q]. A long disease-free interval between nephrectomy and metastasis predicts a more favourable outcome [Q].",
+      "merk": "Renal cell carcinoma: metastasectomy only if all lesions can be removed R0.",
+      "flag": null
+    },
+    {
+      "n": 9,
+      "axis": "E",
+      "diff": 2,
+      "correct": "B",
+      "objective": "Can indicate resection of a pancreatic metastasis from renal cell carcinoma and state its morbidity.",
+      "reference": "Article: pancreatic metastases, PANMEDIC study",
+      "vignette": "A 70-year-old man presents nine years after nephrectomy with a solitary 3 cm metastasis in the pancreatic tail. No other lesions on imaging, ECOG 0, fit for surgery. Management is to be defined.",
+      "lead": "Which approach is justified?",
+      "opts": {
+        "A": "Systemic therapy alone because of the pancreatic site",
+        "B": "Offer resection and counsel about the morbidity",
+        "C": "Biopsy and follow-up imaging in six months",
+        "D": "Stereotactic radiotherapy instead of any resection",
+        "E": "Total pancreatectomy because of multifocality risk"
+      },
+      "rat": {
+        "A": "Misconception: the site forbids surgery. Long-term results are particularly favourable here [Q].",
+        "B": "A solitary pancreatic metastasis after a long interval argues for resection, albeit with a high complication rate [Q].",
+        "C": "Misconception: indolent growth permits waiting. The advantage lies in complete resection [Q].",
+        "D": "Misconception: radiotherapy as an equivalent substitute. The data presented support resection [Q].",
+        "E": "Misconception: maximum radicality. Distal pancreatectomy is the most common technique, used in half of cases [Q]."
+      },
+      "core": "Pancreatic metastases of renal cell carcinoma grow indolently; with a solitary lesion and a long interval, resection is well justified [Q].",
+      "ev": "In the PANMEDIC study of 116 resected patients, overall survival at one, three and five years was 96%, 88% and 83%, and disease-free survival 73%, 49% and 35% [Q]. The mean time between nephrectomy and pancreatic metastasis was 87 months [Q]. An interval under ten years and previous extrapancreatic metastases are unfavourable [Q].",
+      "prax": "Morbidity is substantial: 60.9% postoperative complications, of which 14% are Clavien-Dindo IIIa or higher [Q]. The decision is taken together with visceral surgery [X].",
+      "merk": "Solitary pancreatic metastasis after a long interval: resect, but counsel about a complication rate above 60%.",
+      "flag": null
+    },
+    {
+      "n": 10,
+      "axis": "F",
+      "diff": 2,
+      "correct": "E",
+      "objective": "Can recognise a residual mass judged inoperable elsewhere as a reason to seek a second opinion at a specialist centre.",
+      "reference": "Article: salvage operations in testicular germ cell tumours; EAU Testicular Cancer 2026, 6.3.3.1",
+      "vignette": "A 29-year-old man with metastatic non-seminoma has a complex retroperitoneal residual mass with vascular contact after chemotherapy. Elsewhere he was deemed inoperable and is to receive further chemotherapy. Markers have normalised, ECOG 0. Management is to be defined.",
+      "lead": "Which approach is justified?",
+      "opts": {
+        "A": "Two further cycles of chemotherapy as proposed",
+        "B": "Radiotherapy of the residual mass as an alternative to surgery",
+        "C": "Observation as long as markers remain normal",
+        "D": "Biopsy of the residual mass to guide treatment",
+        "E": "Second opinion and resection at a centre"
+      },
+      "rat": {
+        "A": "Misconception: more chemotherapy solves the surgical problem. Residual masses with teratoma do not respond [X].",
+        "B": "Misconception: radiotherapy replaces resection in non-seminoma. There is no basis for this [X].",
+        "C": "Misconception: normal markers permit waiting. Residual masses above 1 cm are resected [LL EAU 2026, 6.3.2.2].",
+        "D": "Misconception: the biopsy decides. It is not representative and does not change the indication for resection [X].",
+        "E": "Even potentially inoperable scenarios can be managed curatively with low morbidity at specialised centres [Q]."
+      },
+      "core": "In germ cell tumours, inoperability is often a question of the centre rather than of the finding [Q] [LL EAU 2026, 6.3.3.1].",
+      "ev": "Residual tumour resection is an integral part of curative treatment, and unlike in renal cell carcinoma all metastases are resected regardless of site [Q]. The article notes that 30-day mortality rises significantly outside specialised centres, where incomplete resections and recurrences are also more frequent [Q]. The guideline quantifies the difference: at specialised centres perioperative mortality falls from 6% to 0.8% and local recurrence from 16% to 3% [LL EAU 2026, 6.3.3.1].",
+      "prax": "The article names a guideline discordance of nearly 40% as the real problem of care [Q]. The limit lies in missing centralisation, not in what is surgically feasible [Q]. A second opinion costs days; a missing resection costs the chance of cure [X].",
+      "merk": "Complex residual mass declared inoperable elsewhere: second opinion at a centre before any further chemotherapy.",
+      "flag": null
+    }
+  ],
+  "hcg": [
+    {
+      "label": "Prostate: local recurrence after radiotherapy",
+      "mech": "Cure: 10-year metastasis-free survival 75 to 80%, cancer-specific survival 80 to 90% [Q].",
+      "step": "Organ-confined recurrence, imaging-negative nodes, long PSA doubling time; mpMRI and PSMA-PET/CT before deciding [Q].",
+      "data": "Single-centre series, no randomisation; incontinence 20 to 40%, with recovery over eight months [Q]."
+    },
+    {
+      "label": "Prostate: nodal recurrence after prostatectomy",
+      "mech": "Deferral of androgen deprivation, up to 42 months with good selection; cure is rare [Q].",
+      "step": "Few PET-positive lesions, low PSA, favourable Gleason grade; pelvic radiotherapy with a boost is an alternative [Q].",
+      "data": "Biochemical recurrence-free survival 32% at two years, 11% at ten years; in the randomised study 4-year metastasis-free survival was 63% versus 76% with radiotherapy [Q]."
+    },
+    {
+      "label": "Prostate: cytoreductive prostatectomy",
+      "mech": "Prolonging the progression-free interval and preventing local complications; no randomised survival evidence [Q].",
+      "step": "Good response to induction treatment with PSA nadir below 0.2 ng/ml or decrease above 80%, low metastatic burden, tumour board [Q].",
+      "data": "Registry data and case-control studies; 71% treated with hormones alone required a palliative intervention, none in the surgery group [Q]."
+    },
+    {
+      "label": "Prostate: palliative pelvic surgery",
+      "mech": "Symptom control for bleeding, obstruction and rectal compression [Q].",
+      "step": "ECOG 0 to 1, normal CRP and albumin, resectability on pelvic MRI [Q].",
+      "data": "Symptom-free survival at one and three years 89% and 66%, overall survival 89% and 42.4% [Q]."
+    },
+    {
+      "label": "Urothelial carcinoma: metastasis surgery",
+      "mech": "Prolonging survival in selected cases; no claim of cure across the wider population [Q].",
+      "step": "Isolated lung or nodal metastasis, complete resectability, stable disease after systemic treatment [Q].",
+      "data": "Contradictory: a meta-analysis of 15,139 patients shows a benefit, the database analysis after propensity score matching does not [Q]."
+    },
+    {
+      "label": "Renal cell carcinoma: metastasectomy",
+      "mech": "Cure only with complete resection of all lesions [Q].",
+      "step": "Good general condition, R0 achievable at every site, long disease-free interval [Q].",
+      "data": "Median survival 40.75 months after complete versus 14.8 months after incomplete resection; pancreatic metastases with 5-year survival of 83% [Q]."
+    },
+    {
+      "label": "Germ cell tumour: residual tumour resection",
+      "mech": "Curative, integral to multimodal treatment, regardless of site [Q].",
+      "step": "Normalised markers, resection of all residual masses, procedure at a recognised specialist centre [Q] [LL EAU 2026, 6.3.2.2].",
+      "data": "At specialist centres, perioperative mortality falls from 6% to 0.8% and local recurrence from 16% to 3% [LL EAU 2026, 6.3.3.1]."
+    }
+  ],
+  "rplnd": {
+    "criteria": [
+      "Indication discussed in an interdisciplinary tumour board",
+      "All lesions resectable with clear margins or a clear palliative aim",
+      "ECOG 0 to 1 and comorbidity permits surgery",
+      "Realistic treatment aim discussed with the patient",
+      "Procedure at a centre with the appropriate experience"
+    ],
+    "verdicts": {
+      "transfer": {
+        "title": "Tumour board first",
+        "note": "The article makes interdisciplinary discussion a prerequisite for every salvage indication and clarifies that resectability does not mean a higher chance of cure [Q]."
+      },
+      "robotic": {
+        "title": "Salvage surgery is reasonable",
+        "note": "All conditions met: tumour board discussion, curative or clearly defined palliative aim, suitable general condition, informed patient and experienced surgeon [Q]. In complex scenarios, centre experience determines complication rates and completeness of resection [Q]."
+      },
+      "open": {
+        "title": "Assess alternatives",
+        "note": "If a condition is missing, systemic treatment, stereotactic radiotherapy or observation are the more realistic options [Q]. In nodal prostate cancer recurrence, pelvic radiotherapy was superior to metastasis-directed surgery in the randomised comparison [Q], and skeletal oligometastases are better treated with stereotactic irradiation [Q]."
+      }
+    }
+  }
+}

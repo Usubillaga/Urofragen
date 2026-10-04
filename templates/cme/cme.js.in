@@ -1,0 +1,218 @@
+(function (global) {
+  'use strict';
+
+  function own(object, key) { return Object.prototype.hasOwnProperty.call(object, key); }
+  function copy(value) { return JSON.parse(JSON.stringify(value)); }
+
+  function createSession(questions) {
+    var byNumber = Object.create(null);
+    questions.forEach(function (q) { byNumber[String(q.n)] = q; });
+    function fresh() {
+      return {schema: 2, order: questions.map(function (_, i) { return i; }), pos: 0,
+        ans: {}, first: {}, round: {}, roundType: 'first', roundNumber: 1, mode: 'start'};
+    }
+    var state = fresh();
+    function validAnswers(answers) {
+      return answers && typeof answers === 'object' && !Array.isArray(answers) &&
+        Object.keys(answers).every(function (number) {
+          return own(byNumber, number) && typeof answers[number] === 'string' &&
+            own(byNumber[number].opts, answers[number]);
+        });
+    }
+    function validate(candidate) {
+      if (!candidate || candidate.schema !== 2 || !Array.isArray(candidate.order) || !candidate.order.length ||
+          candidate.order.some(function (i) { return !Number.isInteger(i) || i < 0 || i >= questions.length; }) ||
+          new Set(candidate.order).size !== candidate.order.length ||
+          !Number.isInteger(candidate.pos) || candidate.pos < 0 || candidate.pos >= candidate.order.length ||
+          ['start', 'q', 'result'].indexOf(candidate.mode) < 0 ||
+          ['first', 'retry'].indexOf(candidate.roundType) < 0 ||
+          !Number.isInteger(candidate.roundNumber) || candidate.roundNumber < 1 ||
+          !validAnswers(candidate.ans) || !validAnswers(candidate.first) || !validAnswers(candidate.round)) return false;
+      if (candidate.roundType === 'first' && (candidate.roundNumber !== 1 || candidate.order.length !== questions.length)) return false;
+      if (candidate.roundType === 'retry' && candidate.roundNumber < 2) return false;
+      var roundNumbers = candidate.order.map(function (i) { return String(questions[i].n); });
+      if (Object.keys(candidate.first).some(function (n) { return !own(candidate.ans, n); }) ||
+          Object.keys(candidate.ans).some(function (n) { return !own(candidate.first, n); }) ||
+          Object.keys(candidate.round).some(function (n) { return roundNumbers.indexOf(n) < 0 || candidate.ans[n] !== candidate.round[n]; })) return false;
+      if (candidate.roundType === 'first' && Object.keys(candidate.first).some(function (n) {
+        return candidate.first[n] !== candidate.round[n] || candidate.ans[n] !== candidate.first[n];
+      })) return false;
+      if (candidate.mode === 'result' && roundNumbers.some(function (n) { return !own(candidate.round, n); })) return false;
+      return true;
+    }
+    function tally(answers, subset) {
+      return {right: subset.filter(function (q) { return answers[q.n] === q.correct; }).length,
+        answered: subset.filter(function (q) { return own(answers, q.n); }).length, total: subset.length};
+    }
+    return {
+      state: function () { return state; },
+      snapshot: function () { return copy(state); },
+      restore: function (candidate) { if (!validate(candidate)) return false; state = copy(candidate); return true; },
+      start: function () { state = fresh(); state.mode = 'q'; },
+      answer: function (option) {
+        if (state.mode !== 'q') return false;
+        var q = questions[state.order[state.pos]];
+        if (own(state.round, q.n) || !own(q.opts, option)) return false;
+        state.round[q.n] = option; state.ans[q.n] = option;
+        if (!own(state.first, q.n)) state.first[q.n] = option;
+        return true;
+      },
+      back: function () { if (state.mode === 'q' && state.pos > 0) state.pos--; },
+      next: function () {
+        if (state.mode !== 'q' || !own(state.round, questions[state.order[state.pos]].n)) return false;
+        if (state.pos === state.order.length - 1) state.mode = 'result'; else state.pos++;
+        return true;
+      },
+      retry: function () {
+        if (state.mode !== 'result') return false;
+        var order = questions.map(function (_, i) { return i; }).filter(function (i) {
+          return own(state.ans, questions[i].n) && state.ans[questions[i].n] !== questions[i].correct;
+        });
+        if (!order.length) return false;
+        state.order = order; state.pos = 0; state.round = {}; state.roundType = 'retry'; state.roundNumber++; state.mode = 'q';
+        return true;
+      },
+      summary: function (kind, predicate) {
+        var subset = kind === 'round' ? state.order.map(function (i) { return questions[i]; }) : questions;
+        if (predicate) subset = subset.filter(predicate);
+        return tally(kind === 'first' ? state.first : kind === 'round' ? state.round : state.ans, subset);
+      },
+      wrong: function () { return questions.filter(function (q) { return own(state.ans, q.n) && state.ans[q.n] !== q.correct; }); }
+    };
+  }
+
+  function sourceHtml(source, esc) {
+    var escaped = esc(source);
+    return escaped.replace(/https?:\/\/[^\s<>]+/g, function (url) {
+      var tail = '', href = url;
+      while (/[.,;)]$/.test(href)) { tail = href.slice(-1) + tail; href = href.slice(0, -1); }
+      return '<a href="' + href + '" target="_blank" rel="noopener noreferrer">' + href + '</a>' + tail;
+    }).replace(/\bDOI (10\.\d{4,9}\/[-._;()/:A-Z0-9]+)/gi, function (whole, doi) {
+      return '<a href="https://doi.org/' + doi + '" target="_blank" rel="noopener noreferrer">' + whole + '</a>';
+    });
+  }
+
+  function mount(config) {
+    var Q = config.questions, AX = config.axes, esc = config.esc;
+    var session = createSession(Q), saved = null, storageFailed = false, invalidSaved = false;
+    var quiz = document.getElementById('quiz');
+    var notice = document.createElement('p'); notice.className = 'cme-storage'; notice.setAttribute('role', 'status');
+    quiz.parentNode.insertBefore(notice, quiz);
+    function storageNotice() {
+      notice.textContent = storageFailed ? 'Der Browser kann diesen Lernstand nicht speichern. Du kannst weiter üben; beim Schließen geht der aktuelle Stand verloren.' :
+        (invalidSaved ? 'Der gespeicherte Stand passt nicht mehr zu diesem Modul. Bitte beginne einen neuen Durchgang. ' : '') +
+        'Der Lernstand wird nur in diesem Browser gespeichert. Die CME-Auswertung ist vom allgemeinen Lernprofil getrennt.';
+    }
+    try {
+      var raw = global.localStorage.getItem(config.key);
+      if (raw) {
+        var candidate;
+        try { candidate = JSON.parse(raw); } catch (_) { invalidSaved = true; }
+        var probe = createSession(Q);
+        if (!invalidSaved && probe.restore(candidate)) saved = candidate;
+        else invalidSaved = true;
+      }
+    } catch (_) { storageFailed = true; }
+    storageNotice();
+    function persist() {
+      try { global.localStorage.setItem(config.key, JSON.stringify(session.snapshot())); invalidSaved = false; }
+      catch (_) { storageFailed = true; }
+      storageNotice();
+    }
+    function update(focusTarget) { persist(); render(focusTarget); }
+    function focus(selector) {
+      var target = quiz.querySelector(selector);
+      if (!target) return;
+      target.setAttribute('tabindex', '-1');
+      if (target.focus) target.focus({preventScroll: true});
+      if (target.scrollIntoView) target.scrollIntoView({block: 'nearest'});
+    }
+    function button(id, handler) { var node = document.getElementById(id); if (node) node.onclick = handler; }
+    function percent(t) { return t.total ? Math.round(100 * t.right / t.total) : 0; }
+    function score(t) { return cmeText(t.right === 1 ? 'scoreOne' : 'scoreMany', {right:t.right, total:t.total, percent:percent(t)}); }
+    function restart() {
+      if ((saved || Object.keys(session.state().first).length) && !global.confirm('Ein neuer Durchgang löscht die bisherigen Antworten und die Erstquote dieses CME-Moduls. Neu beginnen?')) return;
+      saved = null; session.start(); update('.lead');
+    }
+    function progressBar(S) {
+      return '<div class="progress" aria-hidden="true">' + S.order.map(function (qi, i) {
+        var q = Q[qi], a = S.round[q.n];
+        return '<span class="' + (a ? (a === q.correct ? 'ok' : 'bad') : (i === S.pos ? 'here' : '')) + '"></span>';
+      }).join('') + '</div>';
+    }
+    function row(label, t, verdict) {
+      return '<div class="row"><span>' + esc(label) + (verdict ? '<small class="cme-verdict">' + esc(verdict) + '</small>' : '') +
+        '</span><span class="bar"><i style="width:' + percent(t) + '%"></i></span><span>' + t.right + ' von ' + t.total + '</span></div>';
+    }
+    function renderResult() {
+      var S = session.state(), first = session.summary('first'), current = session.summary('round');
+      var h = '<h3 class="cme-result-title" tabindex="-1">Auswertung</h3><p class="cme-score-label">Erster Versuch</p><p class="score">' + score(first) + '</p>';
+      h += '<p class="note">Die Erstquote bleibt bei Fehlerwiederholungen erhalten. Ein neuer Durchgang setzt sie zurück.</p>';
+      if (S.roundType === 'retry') h += '<p class="cme-score-label">Aktuelle Übungsrunde ' + S.roundNumber + '</p><p class="score">' + score(current) + '</p>';
+      var strong = [], weak = [];
+      h += '<h3 class="slot">Stärken und Übungsbedarf im ersten Versuch</h3><p class="note">Je Thema gibt es nur wenige Fragen, häufig ein oder zwei. Die Rückmeldung beschreibt diese Beispiele und erlaubt noch keine belastbare Aussage über deine gesamte Kompetenz.</p><div class="rows">';
+      Object.keys(AX).forEach(function (axis) {
+        var t = session.summary('first', function (q) { return q.axis === axis; });
+        if (!t.total) return;
+        var label = axis + ': ' + AX[axis], verdict;
+        if (t.answered < t.total) verdict = 'Noch nicht vollständig beantwortet';
+        else if (t.right === t.total) { verdict = 'Stärke in diesen Beispielen'; strong.push(label); }
+        else { var missing = t.total - t.right; verdict = cmeText(missing === 1 ? 'weakOne' : 'weakMany', {n:missing}); weak.push(label); }
+        h += row(label, t, verdict);
+      });
+      h += '</div>';
+      if (strong.length) h += '<p class="hint cme-positive"><b>Gelungen:</b> ' + esc(strong.join('; ')) + '.</p>';
+      if (weak.length) h += '<p class="hint"><b>Weiter üben:</b> ' + esc(weak.join('; ')) + '. Die Merkkästen stehen nach der letzten Frage des jeweiligen Themas.</p>';
+      h += '<h3 class="slot">Erster Versuch nach Schwierigkeit</h3><div class="rows">';
+      [1, 2, 3].forEach(function (diff) { var t = session.summary('first', function (q) { return q.diff === diff; }); if (t.total) h += row('Schwierigkeit ' + diff, t); });
+      h += '</div>';
+      var wrong = session.wrong();
+      h += '<p class="note">Aktueller Lernstand: ' + wrong.length + ' zuletzt falsch beantwortete Frage' + (wrong.length === 1 ? '' : 'n') + '.</p><div class="actions">';
+      if (wrong.length) h += '<button class="btn" id="retry">Fehler üben (' + wrong.length + ')</button>';
+      h += '<button class="btn ghost" id="restart">Neuen Durchgang beginnen</button><button class="btn ghost" id="print">Druckfassung</button></div>';
+      quiz.innerHTML = h;
+      button('retry', function () { if (session.retry()) update('.lead'); });
+      button('restart', restart); button('print', function () { global.print(); });
+    }
+    function render(focusTarget) {
+      var S = session.state();
+      if (S.mode === 'start') {
+        var h = '<p class="lede">' + Q.length + ' Fallvignetten, je fünf Antwortoptionen, eine beste Antwort. Nach jeder Antwort folgen Kernaussage, Evidenz mit Herkunftsmarkern, Analyse aller Distraktoren und Praxiskonsequenz.</p>';
+        if (saved) {
+          var probe = createSession(Q); probe.restore(saved); var old = probe.summary('first');
+          h += '<p>Gespeicherter Durchgang: ' + old.answered + ' von ' + old.total + ' Fragen im ersten Versuch beantwortet, davon ' + old.right + ' richtig.</p>';
+        }
+        h += '<div class="actions">' + (saved ? '<button class="btn" id="resume">Fortsetzen</button><button class="btn ghost" id="go">Neu beginnen</button>' : '<button class="btn" id="go">Fragen beginnen</button>') + '</div>';
+        quiz.innerHTML = h;
+        button('go', restart); button('resume', function () { if (session.restore(saved)) { saved = null; update(session.state().mode === 'result' ? '.cme-result-title' : '.lead'); } });
+        return;
+      }
+      if (S.mode === 'result') renderResult();
+      else {
+        var q = Q[S.order[S.pos]], chosen = S.round[q.n];
+        var title = S.roundType === 'first' ? 'Erster Durchgang' : 'Übungsrunde ' + S.roundNumber;
+        var html = '<div class="qhead"><span>' + title + ' · Frage ' + (S.pos + 1) + ' von ' + S.order.length + '</span><span class="ax">' + esc(q.axis + ': ' + AX[q.axis]) + '</span><span>Schwierigkeit ' + q.diff + ' von 3</span>' + (q.flag ? '<span class="fl">⚠ Evidenz begrenzt</span>' : '') + '</div>';
+        html += progressBar(S) + '<p class="vignette">' + esc(q.vignette) + '</p><p class="lead">' + esc(q.lead) + '</p><div class="opts">';
+        Object.keys(q.opts).forEach(function (option) {
+          var cls = chosen ? (option === q.correct ? ' is-ok' : option === chosen ? ' is-bad' : '') : '';
+          html += '<button class="opt' + cls + '" data-k="' + esc(option) + '"' + (chosen ? ' disabled' : '') + '><span class="k">' + esc(option) + '</span><span>' + esc(q.opts[option]) + '</span></button>';
+        });
+        html += '</div>' + (chosen ? config.feedback(q, chosen) : '') + '<div class="actions">';
+        if (S.pos > 0) html += '<button class="btn ghost" id="back">Zurück</button>';
+        if (chosen) html += '<button class="btn" id="next">' + (S.pos === S.order.length - 1 ? 'Auswertung ansehen' : 'Nächste Frage') + '</button>';
+        html += '<button class="btn ghost" id="restart">Neuen Durchgang beginnen</button></div>';
+        quiz.innerHTML = html;
+        Array.prototype.forEach.call(quiz.querySelectorAll('.opt'), function (node) {
+          node.onclick = function () { if (session.answer(node.getAttribute('data-k'))) update('.verdictline'); };
+        });
+        button('back', function () { session.back(); update('.lead'); });
+        button('next', function () { if (session.next()) update(session.state().mode === 'result' ? '.cme-result-title' : '.lead'); });
+        button('restart', restart);
+      }
+      if (focusTarget) focus(focusTarget);
+    }
+    render();
+    return session;
+  }
+  global.UroCme = {mount: mount, createSession: createSession, sourceHtml: sourceHtml};
+})(typeof window === 'undefined' ? globalThis : window);

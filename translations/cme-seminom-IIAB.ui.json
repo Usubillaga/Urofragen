@@ -1,0 +1,386 @@
+{
+  "Fachliche Prüfung": {
+    "en": "Clinical review",
+    "es": "Revisión clínica"
+  },
+  "Urofragen und Lernmodule": {
+    "en": "Urofragen and learning modules",
+    "es": "Urofragen y módulos de aprendizaje"
+  },
+  "Fragen fachlich prüfen": {
+    "en": "Review questions clinically",
+    "es": "Revisar las preguntas clínicamente"
+  },
+  "Seminom IIA/B": {
+    "en": "Stage IIA/B seminoma",
+    "es": "Seminoma IIA/B"
+  },
+  "Hodentumor, Teil 3": {
+    "en": "Testicular cancer, part 3",
+    "es": "Tumor testicular, parte 3"
+  },
+  "Peniskarzinom": {
+    "en": "Penile cancer",
+    "es": "Cáncer de pene"
+  },
+  "Salvage-Operationen": {
+    "en": "Salvage surgery",
+    "es": "Cirugía de rescate"
+  },
+  "CME-Modul Urologie, Facharztniveau": {
+    "en": "Urology CME module, specialist level",
+    "es": "Módulo CME de urología, nivel de especialista"
+  },
+  "Provenienz in den Begründungen: ": {
+    "en": "Provenance in the explanations: ",
+    "es": "Procedencia en las explicaciones: "
+  },
+  " steht so im Artikel, ": {
+    "en": " stated in the article, ",
+    "es": " figura en el artículo, "
+  },
+  "LL EAU 2026, Abschnitt": {
+    "en": "LL EAU 2026, section",
+    "es": "LL EAU 2026, apartado"
+  },
+  " Leitlinie im Volltext geprüft, ": {
+    "en": " guideline full text checked, ",
+    "es": " texto completo de la guía revisado, "
+  },
+  " eigene Einordnung ohne direkten Beleg. Richtige Antworten stützen sich nur auf Q oder LL.": {
+    "en": " our interpretation without direct supporting evidence. Correct answers rely only on Q or LL.",
+    "es": " interpretación propia sin respaldo directo. Las respuestas correctas se apoyan únicamente en Q o LL."
+  },
+  "Importiertes Lernmodul auf Deutsch. Quellenhinweise stammen aus der bereitgestellten Datei; eine fachärztliche Freigabe dieses Moduls ist hier noch nicht dokumentiert.": {
+    "en": "Learning module translated from German. Source references come from the supplied file; specialist clinical approval of this module is not yet documented here.",
+    "es": "Módulo de aprendizaje traducido del alemán. Las referencias proceden del archivo facilitado; aquí aún no consta la aprobación clínica de este módulo por un especialista."
+  },
+  "Lernziele nach Themenachse": {
+    "en": "Learning objectives by topic area",
+    "es": "Objetivos de aprendizaje por área temática"
+  },
+  "Fragen": {
+    "en": "Questions",
+    "es": "Preguntas"
+  },
+  "Quellen": {
+    "en": "Sources",
+    "es": "Fuentes"
+  },
+  "Standard": {
+    "en": "Standard",
+    "es": "Estándar"
+  },
+  "Standard, nachrangig": {
+    "en": "Standard, lower priority",
+    "es": "Estándar, menor prioridad"
+  },
+  "Option mit Bedingungen": {
+    "en": "Option with conditions",
+    "es": "Opción con condiciones"
+  },
+  "Abwarten": {
+    "en": "Observation",
+    "es": "Observación"
+  },
+  "Nicht indiziert": {
+    "en": "Not indicated",
+    "es": "No indicado"
+  },
+  "Steht so im Quellartikel": {
+    "en": "Stated in the source article",
+    "es": "Figura en el artículo fuente"
+  },
+  "Eigene Einordnung ohne direkten Beleg": {
+    "en": "Our interpretation without direct supporting evidence",
+    "es": "Interpretación propia sin respaldo directo"
+  },
+  "Leitlinie im Volltext geprüft": {
+    "en": "Guideline full text checked",
+    "es": "Texto completo de la guía revisado"
+  },
+  "<li>Frage ": {
+    "en": "<li>Question ",
+    "es": "<li>Pregunta "
+  },
+  "Frage ": {
+    "en": "Question ",
+    "es": "Pregunta "
+  },
+  "Richtig.": {
+    "en": "Correct.",
+    "es": "Correcto."
+  },
+  "Nicht richtig. Richtig ist ": {
+    "en": "Incorrect. The correct answer is ",
+    "es": "Incorrecto. La respuesta correcta es "
+  },
+  "Kernaussage": {
+    "en": "Key point",
+    "es": "Idea clave"
+  },
+  "Evidenz": {
+    "en": "Evidence",
+    "es": "Evidencia"
+  },
+  "Distraktoren": {
+    "en": "Distractors",
+    "es": "Distractores"
+  },
+  "Praxiskonsequenz": {
+    "en": "Implications for practice",
+    "es": "Consecuencia práctica"
+  },
+  "Lernziel: ": {
+    "en": "Learning objective: ",
+    "es": "Objetivo de aprendizaje: "
+  },
+  "Referenz: ": {
+    "en": "Reference: ",
+    "es": "Referencia: "
+  },
+  "Merkkasten ": {
+    "en": "Summary box ",
+    "es": "Cuadro de resumen "
+  },
+  "Alle Fragen mit Lösung und Begründung": {
+    "en": "All questions with answers and explanations",
+    "es": "Todas las preguntas con respuesta y explicación"
+  },
+  ", Schwierigkeit ": {
+    "en": ", difficulty ",
+    "es": ", dificultad "
+  },
+  ", ⚠ Evidenz begrenzt": {
+    "en": ", ⚠ limited evidence",
+    "es": ", ⚠ evidencia limitada"
+  },
+  " (richtig)": {
+    "en": " (correct)",
+    "es": " (correcta)"
+  },
+  "Seminom IIA/B: CME-Modul Facharztniveau": {
+    "en": "Stage IIA/B seminoma: specialist-level CME module",
+    "es": "Seminoma IIA/B: módulo CME para especialistas"
+  },
+  "Seminom im Stadium IIA/B: operieren, bestrahlen oder deeskalieren?": {
+    "en": "Stage IIA/B seminoma: surgery, radiotherapy or de-escalation?",
+    "es": "Seminoma en estadio IIA/B: ¿operar, irradiar o desescalar?"
+  },
+  "Entscheidungspfad am Knotenlineal": {
+    "en": "Decision pathway on the lymph-node ruler",
+    "es": "Ruta de decisión en la regla ganglionar"
+  },
+  "Die Knotengröße entscheidet fast jede Weiche: 2 cm trennt IIA von IIB, 3 cm begrenzt die RLA-Option der NCCN, 5 cm beendet das Stadium IIB. Befund einstellen und die Einordnung lesen.": {
+    "en": "Node size determines almost every branch: 2 cm separates IIA from IIB, 3 cm limits the NCCN RPLND option, and 5 cm is the upper limit of stage IIB. Set the findings and read the interpretation.",
+    "es": "El tamaño ganglionar determina casi cada decisión: 2 cm separa IIA de IIB, 3 cm limita la opción de RPLND de la NCCN y 5 cm marca el límite superior de IIB. Ajusta el hallazgo y lee la interpretación."
+  },
+  "Querdurchmesser des größten Knotens: ": {
+    "en": "Transverse diameter of the largest node: ",
+    "es": "Diámetro transversal del ganglio mayor: "
+  },
+  "Tumormarker": {
+    "en": "Tumour markers",
+    "es": "Marcadores tumorales"
+  },
+  " normal": {
+    "en": " normal",
+    "es": " normales"
+  },
+  " erhöht, innerhalb S1": {
+    "en": " elevated, within S1",
+    "es": " elevados, dentro de S1"
+  },
+  " über S1": {
+    "en": " above S1",
+    "es": " por encima de S1"
+  },
+  " Wachstum in der Kontrolle bestätigt": {
+    "en": " growth confirmed on repeat imaging",
+    "es": " crecimiento confirmado en el control"
+  },
+  " zusätzliche supradiaphragmale Herde": {
+    "en": " additional supradiaphragmatic lesions",
+    "es": " lesiones supradiafragmáticas adicionales"
+  },
+  " Bleomycin kontraindiziert": {
+    "en": " bleomycin contraindicated",
+    "es": " bleomicina contraindicada"
+  },
+  "Kein Stadium IIA/B": {
+    "en": "Not stage IIA/B",
+    "es": "No es estadio IIA/B"
+  },
+  "Zusätzliche supradiaphragmale Manifestation": {
+    "en": "Additional supradiaphragmatic disease",
+    "es": "Afectación supradiafragmática adicional"
+  },
+  "Chemotherapie nach IGCCCG": {
+    "en": "Chemotherapy according to IGCCCG",
+    "es": "Quimioterapia según IGCCCG"
+  },
+  "Seminom ab Stadium IIC: primäre Chemotherapie, in guter Prognose BEP x 3 [LL EAU 2026, 6.3.6.1]": {
+    "en": "Seminoma from stage IIC: primary chemotherapy, BEP x 3 for good prognosis [LL EAU 2026, 6.3.6.1]",
+    "es": "Seminoma a partir del estadio IIC: quimioterapia primaria, BEP x 3 en pronóstico favorable [LL EAU 2026, 6.3.6.1]"
+  },
+  "Infradiaphragmale Bestrahlung": {
+    "en": "Infradiaphragmatic radiotherapy",
+    "es": "Radioterapia infradiafragmática"
+  },
+  "Lokales Konzept, erfasst supraklavikuläre Herde nicht [Q]": {
+    "en": "Local concept that does not cover supraclavicular lesions [Q]",
+    "es": "Concepto local que no abarca las lesiones supraclaviculares [Q]"
+  },
+  "Primäre RLA, Carboplatin plus Involved-node": {
+    "en": "Primary RPLND, carboplatin plus involved-node radiotherapy",
+    "es": "RPLND primaria, carboplatino más radioterapia de ganglios afectados"
+  },
+  "Nur im Stadium IIA/B geprüft [Q]": {
+    "en": "Tested only in stage IIA/B [Q]",
+    "es": "Estudiado solo en estadio IIA/B [Q]"
+  },
+  "Marker über S1 (LDH ab dem 1,5-Fachen der Norm oder β-hCG ab 5000 mIU/ml)": {
+    "en": "Markers above S1 (LDH from 1.5 times the upper normal limit or β-hCG from 5000 mIU/ml)",
+    "es": "Marcadores por encima de S1 (LDH desde 1,5 veces el límite normal o β-hCG desde 5000 mIU/ml)"
+  },
+  "Stadium IIA/B setzt Marker höchstens auf S1-Niveau voraus [Q]; Behandlung nach IGCCCG [LL EAU 2026, 6.3.6.1]": {
+    "en": "Stage IIA/B requires markers no higher than S1 [Q]; treatment according to IGCCCG [LL EAU 2026, 6.3.6.1]",
+    "es": "El estadio IIA/B requiere marcadores como máximo en S1 [Q]; tratamiento según IGCCCG [LL EAU 2026, 6.3.6.1]"
+  },
+  "Deeskalierende Konzepte": {
+    "en": "De-escalation concepts",
+    "es": "Conceptos de desescalada"
+  },
+  "Stadium IIC": {
+    "en": "Stage IIC",
+    "es": "Estadio IIC"
+  },
+  "Knoten ": {
+    "en": "Node ",
+    "es": "Ganglio "
+  },
+  "Seminom ab Stadium IIC: primäre Chemotherapie [LL EAU 2026, 6.3.6.1]": {
+    "en": "Seminoma from stage IIC: primary chemotherapy [LL EAU 2026, 6.3.6.1]",
+    "es": "Seminoma a partir del estadio IIC: quimioterapia primaria [LL EAU 2026, 6.3.6.1]"
+  },
+  "Bestrahlung und Deeskalation": {
+    "en": "Radiotherapy and de-escalation",
+    "es": "Radioterapia y desescalada"
+  },
+  "Außerhalb des Stadiums IIA/B [Q]": {
+    "en": "Outside stage IIA/B [Q]",
+    "es": "Fuera del estadio IIA/B [Q]"
+  },
+  "Stadium nicht gesichert": {
+    "en": "Stage unconfirmed",
+    "es": "Estadio no confirmado"
+  },
+  "Markernegativ, Knoten ": {
+    "en": "Marker-negative, node ",
+    "es": "Marcadores normales, ganglio "
+  },
+  "Schnittbildkontrolle nach 6–8 Wochen": {
+    "en": "Repeat cross-sectional imaging after 6–8 weeks",
+    "es": "Imagen seccional de control a las 6–8 semanas"
+  },
+  "Reaktive Vergrößerung möglich [Q]; im Mittel etwa 10 % nicht metastatisch [LL EAU 2026, 6.2.2.1]": {
+    "en": "Reactive enlargement possible [Q]; on average about 10% are not metastatic [LL EAU 2026, 6.2.2.1]",
+    "es": "Aumento reactivo posible [Q]; de media, aproximadamente el 10 % no es metastásico [LL EAU 2026, 6.2.2.1]"
+  },
+  "Sofortige Therapie": {
+    "en": "Immediate treatment",
+    "es": "Tratamiento inmediato"
+  },
+  "Erst bei Wachstum, Markeranstieg oder Biopsienachweis [LL EAU 2026, 6.2.2.1]": {
+    "en": "Only with growth, marker rise or biopsy confirmation [LL EAU 2026, 6.2.2.1]",
+    "es": "Solo con crecimiento, ascenso de marcadores o confirmación por biopsia [LL EAU 2026, 6.2.2.1]"
+  },
+  "Chemotherapie: 4 x EP": {
+    "en": "Chemotherapy: 4 x EP",
+    "es": "Quimioterapia: 4 x EP"
+  },
+  "Chemotherapie: 3 x BEP": {
+    "en": "Chemotherapy: 3 x BEP",
+    "es": "Quimioterapia: 3 x BEP"
+  },
+  "Bleomycin kontraindiziert: EP x 4 statt BEP x 3 [Q] [LL EAU 2026, 6.2.2.1]": {
+    "en": "Bleomycin contraindicated: EP x 4 instead of BEP x 3 [Q] [LL EAU 2026, 6.2.2.1]",
+    "es": "Bleomicina contraindicada: EP x 4 en lugar de BEP x 3 [Q] [LL EAU 2026, 6.2.2.1]"
+  },
+  "Bei Kontraindikation gegen Bleomycin EP x 4 [Q] [LL EAU 2026, 6.2.2.1]": {
+    "en": "If bleomycin is contraindicated, EP x 4 [Q] [LL EAU 2026, 6.2.2.1]",
+    "es": "Si la bleomicina está contraindicada, EP x 4 [Q] [LL EAU 2026, 6.2.2.1]"
+  },
+  "; im Stadium IIB bevorzugt [Q]": {
+    "en": "; preferred in stage IIB [Q]",
+    "es": "; preferida en estadio IIB [Q]"
+  },
+  "Bestrahlung mit 30 Gy": {
+    "en": "Radiotherapy with 30 Gy",
+    "es": "Radioterapia con 30 Gy"
+  },
+  "Bestrahlung mit 36 Gy": {
+    "en": "Radiotherapy with 36 Gy",
+    "es": "Radioterapia con 36 Gy"
+  },
+  "Paraaortal und ipsilateral pelvin [Q] [LL EAU 2026, 6.2.2.1]": {
+    "en": "Para-aortic and ipsilateral pelvic fields [Q] [LL EAU 2026, 6.2.2.1]",
+    "es": "Campos paraaórtico y pélvico ipsilateral [Q] [LL EAU 2026, 6.2.2.1]"
+  },
+  "; 27 Gy erhöht die Rezidivrate [LL EAU 2026, 6.2.2.1]": {
+    "en": "; 27 Gy increases the relapse rate [LL EAU 2026, 6.2.2.1]",
+    "es": "; 27 Gy aumenta la tasa de recaída [LL EAU 2026, 6.2.2.1]"
+  },
+  "; im Stadium IIB nachrangig [Q]": {
+    "en": "; lower priority in stage IIB [Q]",
+    "es": "; menor prioridad en estadio IIB [Q]"
+  },
+  "Primäre RLA": {
+    "en": "Primary RPLND",
+    "es": "RPLND primaria"
+  },
+  "NCCN-Option unter 3 cm [Q]; nur im spezialisierten Zentrum, idealerweise in Studie oder Kohorte [LL EAU 2026, 6.2.2.1.1]": {
+    "en": "NCCN option below 3 cm [Q]; only at a specialist centre, ideally within a study or cohort [LL EAU 2026, 6.2.2.1.1]",
+    "es": "Opción de la NCCN por debajo de 3 cm [Q]; solo en centro especializado, idealmente en estudio o cohorte [LL EAU 2026, 6.2.2.1.1]"
+  },
+  "Ab 3 cm außerhalb der NCCN-Option [Q]": {
+    "en": "From 3 cm, outside the NCCN option [Q]",
+    "es": "Desde 3 cm, fuera de la opción de la NCCN [Q]"
+  },
+  "Carboplatin AUC 7, dann Involved-node ": {
+    "en": "Carboplatin AUC 7, then involved-node radiotherapy ",
+    "es": "Carboplatino AUC 7, después radioterapia de ganglios afectados "
+  },
+  "SAKK 01/10: primärer Endpunkt knapp verfehlt, nicht für den Routineeinsatz [LL EAU 2026, 6.2.2.1.2]": {
+    "en": "SAKK 01/10: primary endpoint narrowly missed, not for routine use [LL EAU 2026, 6.2.2.1.2]",
+    "es": "SAKK 01/10: objetivo primario no alcanzado por poco, no para uso rutinario [LL EAU 2026, 6.2.2.1.2]"
+  },
+  "; Rezidive fast nur im Stadium IIB [Q]": {
+    "en": "; relapses almost exclusively in stage IIB [Q]",
+    "es": "; recaídas casi exclusivamente en estadio IIB [Q]"
+  },
+  "Stadium IIA": {
+    "en": "Stage IIA",
+    "es": "Estadio IIA"
+  },
+  "Stadium IIB": {
+    "en": "Stage IIB",
+    "es": "Estadio IIB"
+  },
+  ", Marker innerhalb S1": {
+    "en": ", markers within S1",
+    "es": ", marcadores dentro de S1"
+  },
+  ", Marker normal": {
+    "en": ", normal markers",
+    "es": ", marcadores normales"
+  },
+  "Knotenlineal von 0 bis 6 cm mit Stadiengrenzen bei 2 und 5 cm und NCCN-Grenze bei 3 cm; aktueller Knoten ": {
+    "en": "Node ruler from 0 to 6 cm with stage boundaries at 2 and 5 cm and the NCCN threshold at 3 cm; current node ",
+    "es": "Regla ganglionar de 0 a 6 cm con límites de estadio en 2 y 5 cm y umbral NCCN en 3 cm; ganglio actual "
+  },
+  "RLA-Option der NCCN unter 3 cm (laut Artikel)": {
+    "en": "NCCN RPLND option below 3 cm (according to the article)",
+    "es": "Opción RPLND de la NCCN <3 cm (según el artículo)"
+  }
+}

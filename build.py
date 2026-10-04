@@ -21,6 +21,7 @@ from quality import issues as quality_issues
 from quality import corpus_issues as quality_corpus_issues
 from approval import valid_approval
 from review_ui import write_review_page
+from tools.build_cme import main as build_cme_modules
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data" if (ROOT / 'data' / 'domains.json').exists() else ROOT
@@ -265,8 +266,10 @@ def main():
             .replace("@@BANK@@", payload)
             .replace("@@STORE@@", STORE_JS)
             .replace("@@APP@@", APP_JS))
-    OUT.write_text(html, encoding="utf-8")
+    # Bytes statt Text: identische LF-Ausgabe unter Windows, macOS und Linux
+    OUT.write_bytes(html.encode("utf-8"))
     write_review_page(bank, ROOT)
+    build_cme_modules()
 
     live = sum(counts.values())
     size_kb = round(len(html.encode("utf-8")) / 1024)
@@ -373,6 +376,14 @@ body {
 .inventory { font-family: var(--sans); font-size: 0.82rem; color: var(--muted); display: block; margin-top: 0.4rem; }
 
 .intro { font-size: 1.05rem; margin: 0 0 2rem; max-width: 34rem; }
+
+.cme-section { margin: 1.6rem 0; padding: 1.2rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.cme-section h2 { font-family: var(--sans); font-size: 1.1rem; margin: 0 0 .3rem; }
+.cme-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); gap: .7rem; margin-top: .8rem; }
+.cme-card { display: block; padding: .8rem; border: 1px solid var(--rule); border-radius: 4px; color: var(--ink); text-decoration: none; }
+.cme-card:hover, .cme-card:focus-visible { border-color: var(--accent); background: var(--accent-soft); }
+.cme-card strong { display: block; font-family: var(--sans); font-size: .95rem; }
+.cme-card span { display: block; font-size: .85rem; color: var(--muted); margin-top: .2rem; }
 
 .board { border-top: 1px solid var(--rule); }
 
@@ -797,8 +808,10 @@ APP_JS = r'''(function () {
 
   function readLang() {
     var saved = null;
-    try { saved = window.localStorage.getItem(LANG_KEY); } catch (e) { /* egal */ }
+    try { saved = new URLSearchParams(window.location.search).get('lang'); } catch (e) { /* egal */ }
     var erlaubt = (window.QUESTION_BANK.languages || ['de']);
+    if (erlaubt.indexOf(saved) !== -1) return saved;
+    try { saved = window.localStorage.getItem(LANG_KEY); } catch (e) { /* egal */ }
     if (erlaubt.indexOf(saved) !== -1) return saved;
     var nav = ((window.navigator && window.navigator.language) || 'de').slice(0, 2);
     return erlaubt.indexOf(nav) !== -1 ? nav : erlaubt[0];
@@ -980,9 +993,24 @@ APP_JS = r'''(function () {
       var reviewLink = el('a', 'btn ghost', {de:'✓ Fragen fachlich prüfen',en:'✓ Review questions',es:'✓ Revisar preguntas'}[lang]);
       reviewLink.href = 'pruefung.html';
       root.appendChild(reviewLink);
-      var cmeLink = el('a','btn ghost',{de:'CME: Seminom IIA/B (Deutsch)',en:'CME: stage IIA/B seminoma (German)',es:'CME: seminoma IIA/B (alemán)'}[lang]);
-      cmeLink.href='cme-seminom-IIAB.html';
-      root.appendChild(cmeLink);
+      var cmeSection = el('section', 'cme-section');
+      cmeSection.appendChild(el('h2', '', {de:'CME-Lernmodule',en:'CME learning modules',es:'Módulos de aprendizaje CME'}[lang]));
+      cmeSection.appendChild(el('p', 'domain-hint', {de:'Deutsch, Englisch und Spanisch · Eigene Auswertung und lokal gespeicherter Fortschritt.',en:'German, English and Spanish · Separate results and locally saved progress.',es:'Alemán, inglés y español · Resultados propios y progreso guardado localmente.'}[lang]));
+      var cmeGrid = el('div', 'cme-grid');
+      [
+        ['cme-seminom-IIAB.html', 10, {de:'Seminom IIA/B',en:'Stage IIA/B seminoma',es:'Seminoma IIA/B'}, {de:'Therapieentscheidungen im frühen metastasierten Stadium',en:'Treatment decisions in early metastatic disease',es:'Decisiones terapéuticas en enfermedad metastásica inicial'}],
+        ['cme-hodentumor-heft-teil3.html', 14, {de:'Hodentumor – Schwerpunktheft Teil 3',en:'Testicular cancer – special issue, part 3',es:'Cáncer testicular – monográfico, parte 3'}, {de:'Tumormarker, RPLND und Zentrumsqualität',en:'Tumour markers, RPLND and centre expertise',es:'Marcadores tumorales, RPLND y experiencia del centro'}],
+        ['cme-peniskarzinom.html', 16, {de:'Peniskarzinom',en:'Penile cancer',es:'Cáncer de pene'}, {de:'Organerhalt, Lymphknoten und Systemtherapie',en:'Organ preservation, lymph nodes and systemic therapy',es:'Preservación del órgano, ganglios y tratamiento sistémico'}],
+        ['cme-salvage-operationen.html', 10, {de:'Salvage-Operationen',en:'Salvage surgery',es:'Cirugía de rescate'}, {de:'Indikation, Planung und operative Entscheidungen',en:'Indications, planning and surgical decisions',es:'Indicaciones, planificación y decisiones quirúrgicas'}]
+      ].forEach(function (module) {
+        var card = el('a', 'cme-card');
+        card.href = module[0] + '?lang=' + lang;
+        card.appendChild(el('strong', '', module[2][lang]));
+        card.appendChild(el('span', '', module[1] + ' ' + t.questions + ' · ' + module[3][lang]));
+        cmeGrid.appendChild(card);
+      });
+      cmeSection.appendChild(cmeGrid);
+      root.appendChild(cmeSection);
       root.appendChild(learningDashboard(progress));
       root.appendChild(el('p','domain-hint',LEARNING[lang].adaptive));
 

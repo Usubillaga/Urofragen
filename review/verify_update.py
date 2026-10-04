@@ -1,9 +1,11 @@
 """Verify import integrity, deduplication, drafts, and approval isolation."""
 import json,sys,unittest
+from datetime import date
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT),str(ROOT/'tools')]
 from approval import valid_approval,fingerprint
 from import_blocks import prepare
+RELEASE=date(2026,10,4)  # integrity at release date; upcoming expiry is reported by build.py
 class Update(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -22,11 +24,11 @@ class Update(unittest.TestCase):
         self.assertEqual(report['added'],[]);self.assertEqual(report['replaced'],[])
         self.assertEqual(len(self.report['added']),43)
     def test_approvals(self):
-        self.assertEqual(sum(valid_approval(q) for q in self.qs.values()),51)
+        self.assertEqual(sum(valid_approval(q,RELEASE) for q in self.qs.values()),51)
         for item in self.report['added']:
-            q=self.qs[item['id']];self.assertFalse(valid_approval(q));self.assertIsNone(q['review']['reviewer'])
+            q=self.qs[item['id']];self.assertFalse(valid_approval(q,RELEASE));self.assertIsNone(q['review']['reviewer'])
         q=self.qs['uro-hod-00007'];old=self.report['replaced'][0]['previous_question']
-        self.assertTrue(valid_approval(old));self.assertFalse(valid_approval(q));self.assertEqual(q['version'],old['version']+1)
+        self.assertTrue(valid_approval(old,RELEASE));self.assertFalse(valid_approval(q,RELEASE));self.assertEqual(q['version'],old['version']+1)
         self.assertTrue(q['review']['approval_history'])
     def test_source_content_and_mapping(self):
         for entry in self.report['added']:

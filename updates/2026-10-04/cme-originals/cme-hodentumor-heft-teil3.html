@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hodentumor-Schwerpunktheft 10/2025, Teil 3: CME-Modul</title>
+<style>
+:root{
+ --ground:#eef2f4;--paper:#fbfcfd;--ink:#16232d;--muted:#5a6873;--line:#cad4db;--soft:#e1e8ec;
+ --accent:#1d6682;--accent-soft:#e2eef3;--node:#c8372d;--ok:#25704a;--ok-soft:#e5f1ea;
+ --bad:#8b2d29;--bad-soft:#f6e8e6;--flag:#8e6212;--flag-soft:#f5ecd9;
+ --serif:Charter,"Bitstream Charter","Sitka Text",Cambria,Georgia,serif;
+ --sans:"Avenir Next","Segoe UI","Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ground);color:var(--ink);font:17px/1.62 var(--serif)}
+.wrap{max-width:46rem;margin:0 auto;padding:2.2rem 1.2rem 5rem}
+h1{font:600 2.05rem/1.18 var(--serif);letter-spacing:-.012em;margin:.35rem 0 1.3rem;max-width:36rem}
+h2{font:600 1.2rem/1.3 var(--sans);margin:0 0 .55rem}
+.kicker{font:500 .9rem/1.4 var(--sans);color:var(--muted);margin:0}
+.meta{margin:0 0 1rem;display:grid;gap:.6rem}
+.meta div{display:grid;grid-template-columns:7.2rem 1fr;gap:.8rem}
+.meta dt{font:600 .82rem/1.5 var(--sans);color:var(--muted);padding-top:.15rem}
+.meta dd{margin:0;font-size:.95rem}
+.legend{font:.86rem/1.9 var(--sans);color:var(--muted);margin:.4rem 0 0}
+.pv{display:inline-block;font:600 .68rem/1 var(--sans);padding:.2rem .34rem;border-radius:3px;vertical-align:.12em;margin:0 .1rem;white-space:nowrap}
+.pv-q{background:#e6ebef;color:#33434f;border:1px solid #c9d2d9}
+.pv-ll{background:var(--accent-soft);color:var(--accent);border:1px solid #bcd6e1}
+.pv-x{background:#f1ede4;color:#6f5d3a;border:1px solid #ddd2bb}
+section{margin-top:2.6rem}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:1.4rem}
+.lede{margin:0 0 1rem;font-size:.97rem}
+.ruler svg{width:100%;max-width:560px;height:auto;display:block;font-family:var(--sans)}
+.controls{display:grid;gap:1rem;margin-top:.9rem;font:.92rem/1.45 var(--sans)}
+.controls .size{display:grid;gap:.25rem}
+.controls .size output{font-weight:600;color:var(--node)}
+input[type=range]{width:100%;accent-color:var(--node)}
+fieldset{border:0;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.35rem 1.1rem}
+legend{font-weight:600;padding:0;margin-bottom:.3rem;width:100%}
+.checks{display:grid;gap:.35rem}
+.controls label{display:flex;gap:.5rem;align-items:baseline;cursor:pointer}
+.verdict{margin-top:1.2rem;border-top:1px solid var(--line);padding-top:1rem}
+.verdict .stage{font:600 1.12rem/1.3 var(--sans);margin:0}
+.verdict .note{color:var(--muted);font:.9rem/1.4 var(--sans);margin:.15rem 0 .8rem}
+.verdict ul{list-style:none;margin:0;padding:0;display:grid;gap:.6rem}
+.verdict li{display:grid;grid-template-columns:9.6rem 1fr;gap:.8rem;align-items:start}
+.chip{font:600 .74rem/1.25 var(--sans);padding:.3rem .45rem;border-radius:3px;text-align:center}
+.st-std{background:var(--ok-soft);color:var(--ok)}
+.st-sec{background:#edf1e2;color:#55672a}
+.st-alt{background:var(--flag-soft);color:var(--flag)}
+.st-wait{background:var(--accent-soft);color:var(--accent)}
+.st-no{background:var(--bad-soft);color:var(--bad)}
+.verdict b{font:600 .93rem/1.4 var(--sans)}
+.verdict p{margin:.1rem 0 0;font-size:.92rem}
+details{border-top:1px solid var(--line);padding:.65rem 0}
+details:last-of-type{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font:600 .97rem/1.4 var(--sans)}
+details ul{margin:.5rem 0 .2rem;padding-left:1.15rem}
+details li{margin:.25rem 0}
+.progress{display:flex;gap:4px;margin:.35rem 0 1.1rem}
+.progress span{flex:1;height:6px;border-radius:2px;background:var(--soft)}
+.progress .ok{background:var(--ok)}
+.progress .bad{background:var(--bad)}
+.progress .here{background:var(--accent)}
+.qhead{display:flex;flex-wrap:wrap;gap:.3rem 1rem;font:.86rem/1.4 var(--sans);color:var(--muted);margin-bottom:.8rem}
+.qhead .ax{color:var(--ink);font-weight:600}
+.qhead .fl{color:var(--flag);font-weight:600}
+.vignette{margin:0 0 1rem}
+.lead{font-weight:600;margin:0 0 1.1rem}
+.opts{display:grid;gap:.5rem}
+.opt{display:grid;grid-template-columns:1.6rem 1fr;gap:.7rem;width:100%;text-align:left;font:inherit;color:inherit;background:var(--paper);border:1px solid var(--line);border-left:4px solid var(--line);border-radius:4px;padding:.75rem .9rem;cursor:pointer}
+.opt:hover:not(:disabled){border-color:var(--accent)}
+.opt:disabled{cursor:default}
+.opt .k{font:600 .9rem/1.6 var(--sans);color:var(--muted)}
+.opt.is-ok{border-left-color:var(--ok);background:var(--ok-soft)}
+.opt.is-bad{border-left-color:var(--bad);background:var(--bad-soft)}
+.fb{margin-top:1.4rem;border-top:1px solid var(--line);padding-top:1.1rem}
+.verdictline{font:600 1rem/1.4 var(--sans);margin:0 0 .9rem}
+.verdictline.ok{color:var(--ok)}
+.verdictline.bad{color:var(--bad)}
+.slot{margin:0 0 1rem}
+.slot h3{font:600 .86rem/1.4 var(--sans);color:var(--muted);margin:0 0 .25rem}
+.slot p{margin:0}
+.dist{list-style:none;margin:0;padding:0;display:grid;gap:.6rem}
+.dist li{display:grid;grid-template-columns:1.6rem 1fr;gap:.6rem}
+.dist .k{font:600 .9rem/1.55 var(--sans);color:var(--bad)}
+.dist .ot{font-style:italic}
+.dist p{margin:.1rem 0 0;font-size:.95rem}
+.merksatz{border-left:4px solid var(--accent);background:var(--accent-soft);padding:.7rem .9rem;margin:0 0 1rem}
+.flagnote{border-left:4px solid var(--flag);background:var(--flag-soft);padding:.7rem .9rem;margin:0 0 1rem;font-size:.93rem}
+.qmeta{font:.84rem/1.55 var(--sans);color:var(--muted);margin:0}
+.merkkasten{border:1px solid var(--accent);border-radius:6px;padding:1rem 1.1rem;margin:1.3rem 0 0;background:#f4f9fb}
+.merkkasten h3{font:600 .98rem/1.4 var(--sans);margin:0 0 .5rem;color:var(--accent)}
+.merkkasten ol{margin:0;padding-left:1.2rem}
+.merkkasten li{margin:.25rem 0}
+.actions{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.3rem}
+.btn{font:600 .92rem/1 var(--sans);padding:.72rem 1.1rem;border-radius:4px;border:1px solid var(--accent);background:var(--accent);color:#fff;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent)}
+.score{font:700 1.6rem/1.2 var(--sans);margin:0 0 .4rem}
+.rows{display:grid;gap:.55rem;margin:.5rem 0 1.3rem}
+.row{display:grid;grid-template-columns:14rem 1fr 3.4rem;gap:.7rem;align-items:center;font:.9rem/1.3 var(--sans)}
+.bar{height:8px;background:var(--soft);border-radius:2px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent)}
+.hint{font:.93rem/1.55 var(--sans);color:var(--bad);margin:.2rem 0 0}
+.sources ol{padding-left:1.3rem;font-size:.93rem}
+.sources li{margin:.35rem 0}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.print-only{display:none}
+.segs{display:flex;flex-wrap:wrap;gap:.4rem;margin:0 0 .7rem}
+.seg{font:600 .84rem/1.2 var(--sans);padding:.5rem .7rem;border:1px solid var(--line);border-radius:4px;background:var(--paper);color:var(--ink);cursor:pointer}
+.seg.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.mx table{width:100%;border-collapse:collapse;font:.9rem/1.4 var(--sans);margin-top:.4rem}
+.mx th,.mx td{text-align:left;padding:.55rem .5rem;border-bottom:1px solid var(--line);vertical-align:top}
+.mx thead th{font-size:.8rem;color:var(--muted);font-weight:600}
+.mx tbody th{font-weight:600;width:34%}
+.mx tr.diff td{background:var(--flag-soft)}
+.mx tr.diff th{box-shadow:inset 4px 0 0 var(--flag)}
+.mx tr.more td{background:var(--accent-soft)}
+.mx tr.more th{box-shadow:inset 4px 0 0 var(--accent)}
+.note{color:var(--muted);font:.84rem/1.45 var(--sans);margin:.6rem 0 .4rem}
+.mxnotes{margin:.2rem 0 0;padding-left:1.1rem;font-size:.9rem}
+.mxnotes li{margin:.3rem 0}
+.crit{list-style:none;margin:0 0 .2rem;padding:0;display:grid;gap:.5rem}
+.crit label{display:grid;grid-template-columns:1.2rem 1fr;gap:.6rem;align-items:start;font:.93rem/1.45 var(--sans);cursor:pointer}
+.crit input{margin:.2rem 0 0}
+@media (max-width:36rem){
+ body{font-size:16px}
+ h1{font-size:1.62rem}
+ .meta div{grid-template-columns:1fr;gap:.1rem}
+ .verdict li{grid-template-columns:1fr;gap:.3rem}
+ .chip{justify-self:start}
+ .row{grid-template-columns:1fr 3rem}
+ .row .bar{grid-column:1/-1;grid-row:2}
+ .panel{padding:1.05rem}
+}
+@media (prefers-reduced-motion:no-preference){
+ .fb{animation:rv .2s ease-out}
+ @keyframes rv{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:none}}
+}
+@media print{
+ body{background:#fff;font-size:10.5pt}
+ .wrap{max-width:none;padding:0}
+ .ruler,.quiz{display:none!important}
+ .print-only{display:block}
+ .pq{break-inside:avoid;border-top:1px solid #999;padding-top:.6rem;margin-top:.9rem}
+ .panel{border:0;padding:0;background:#fff}
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header>
+ <p class="kicker">CME-Modul Urologie, Facharztniveau</p>
+ <h1>Marker, Sonderformen und Lymphadenektomie: vier Artikel aus dem Schwerpunktheft</h1>
+ <dl class="meta" id="meta"></dl>
+ <p class="legend">Provenienz in den Begründungen: <span class="pv pv-q">Q</span> steht so im Artikel, <span class="pv pv-ll">LL EAU 2026, Abschnitt</span> Leitlinie im Volltext geprüft, <span class="pv pv-x">X</span> eigene Einordnung ohne direkten Beleg. Richtige Antworten stützen sich nur auf Q oder LL.</p>
+</header>
+
+<section class="ruler" aria-labelledby="hc-h">
+ <h2 id="hc-h">β-hCG erhöht ohne plausiblen Keimzelltumor</h2>
+ <div class="panel">
+  <p class="lede">Konstellation wählen. Angezeigt werden Mechanismus, nächster Schritt und Datenbasis. Quelle: Witte &amp; Majewski 2025, ergänzt um EAU 2026.</p>
+  <div class="segs" id="hcCauses" role="group" aria-label="Konstellation"></div>
+  <div class="verdict" id="hcOut" aria-live="polite"></div>
+ </div>
+</section>
+
+<section class="ruler" aria-labelledby="rp-h">
+ <h2 id="rp-h">Lymphadenektomie: offen oder robotisch?</h2>
+ <div class="panel">
+  <p class="lede">Zutreffende Kriterien ankreuzen. Quellen: Angerer et al. 2025, Heidenreich &amp; Pfister 2025, EAU 2026.</p>
+  <ul class="crit" id="rpCrit"></ul>
+  <div class="verdict" id="rpOut" aria-live="polite"></div>
+ </div>
+</section>
+
+<section aria-labelledby="goals-h">
+ <h2 id="goals-h">Lernziele nach Themenachse</h2>
+ <div id="goals"></div>
+</section>
+
+<section class="quiz" aria-labelledby="quiz-h">
+ <h2 id="quiz-h">Fragen</h2>
+ <div class="panel" id="quiz" aria-live="polite"></div>
+</section>
+
+<section class="sources" aria-labelledby="src-h">
+ <h2 id="src-h">Quellen</h2>
+ <ol id="sources"></ol>
+</section>
+
+<section class="print-only" id="printall"></section>
+</main>
+
+<script>
+var DATA = {"meta": [["Quellen", "Witte L, Majewski M. Urologie 2025;64:1064–1073 (β-hCG). Skowron MA et al. Urologie 2025;64:1055–1063 (Grundlagenforschung). Angerer M, Dieckmann KP, Wülfing C. Urologie 2025;64:1046–1054 (RPLND, pro robotisch). Heidenreich A, Pfister D. Urologie 2025;64:1037–1045 (RPLND, pro offen)."], ["Leitlinien", "EAU Guidelines on Testicular Cancer 2026, Kapitel 6 (6.1.3.2, 6.1.3.5, 6.1.3.7, 6.2.1, 6.2.2.2.1, 6.3.1, 6.3.2.2, 6.3.3.1, 6.3.3.3, 6.3.5) und Kapitel 7 (7.1), Volltext geprüft am 21.09.2026."], ["Umfang", "14 Fragen in 8 Themenachsen, etwa 40 Minuten"], ["Lesehinweis", "Die beiden RPLND-Artikel sind ein Pro-und-Contra-Paar und bewerten dieselben Daten gegensätzlich; wo sie auseinandergehen, folgt die richtige Antwort der Leitlinie. Diese Fragen tragen ⚠. Aus dem Grundlagenartikel sind nur die drei klinisch entscheidbaren Punkte verwendet; präklinische Substanzen tragen keine richtige Antwort. Aus dem β-hCG-Artikel bleibt der biochemische Abschnitt außen vor, er enthält mehrere sachliche Fehler."]], "sources": ["Primärquelle 1: Witte L, Majewski M (2025) Erhöhung der β-Untereinheit des humanen Choriongonadotropins bei urologischen Patienten – nicht immer ein Keimzelltumor. Urologie 64:1064–1073. https://doi.org/10.1007/s00120-025-02679-2", "Primärquelle 2: Skowron MA, Schneider L, Prokakis E, Fichtner A, Nestler T, Bremmer F, Nettersheim D (2025) Neues aus der Grundlagenforschung bei den Keimzelltumoren des Hodens und aktualisierte Tumorigenese. Urologie 64:1055–1063. https://doi.org/10.1007/s00120-025-02674-7", "Primärquelle 3: Angerer M, Dieckmann KP, Wülfing C (2025) Die retroperitoneale Lymphadenektomie in der Therapie testikulärer Keimzelltumoren – ist die robotisch-assistierte Technik besser? Urologie 64:1046–1054. https://doi.org/10.1007/s00120-025-02678-3", "Primärquelle 4: Heidenreich A, Pfister D (2025) Die retroperitoneale Lymphadenektomie – offen oder robotisch? Pro offene Chirurgie. Urologie 64:1037–1045. https://doi.org/10.1007/s00120-025-02673-8", "Leitlinie: EAU Guidelines on Testicular Cancer 2026, Kapitel 6 Disease Management und Kapitel 7 Follow-up. Online-Volltext, Abruf 21.09.2026.", "Studie: Knight AK et al. (2005) Häufige falsch positive β-hCG-Tests bei IgA-Mangel. Clin Exp Immunol 141:333–337 (zitiert nach Primärquelle 1).", "Studie: Yoshimura K et al. (2019) Vermutlich hypophysäre hCG-Produktion unter Androgendeprivation. Int Braz J Urol 45:38–44 (zitiert nach Primärquelle 1).", "Studie: Iles RK (2007) Ektope β-hCG-Expression bei epithelialen Karzinomen. Mol Cell Endocrinol 260–262:264–270 (zitiert nach Primärquelle 1).", "Studie: Pongratanakul P et al. (2024) Molekulare und epigenetische Subtypisierung des Growing-teratoma-Syndroms. Cancer Lett (zitiert nach Primärquelle 2).", "Studie: Bremmer F et al. (2023) Mutationslast, Methylom und Proteom somatischer Malignitäten. Br J Cancer 129:1580–1589 (zitiert nach Primärquelle 2).", "Studie: Rocco NR et al. (2020) Primäre robotische RPLND im Stadium I. World J Urol 38:859–867; Taylor J et al. (2021) Eur Urol Focus 7:1403–1408 (zitiert nach Primärquellen 3 und 4).", "Studie: Ge S et al. (2023) Int J Surg 109:2808–2818 und Yuan Y et al. (2023) Front Oncol 13:1257528, Metaanalysen zur robotischen RPLND (zitiert nach Primärquelle 3).", "Studie: Garg H et al. (2023) BJU Int 132:9–30, systematische Übersicht zur robotischen RPLND; Fankhauser CD et al. (2022) World J Urol 40:1505–1512 (zitiert nach Primärquelle 4).", "Versorgungsdaten: Groeben C et al. (2020) Zentralisierungstendenzen der RPLND in Deutschland. World J Urol 38:1765–1772 (zitiert nach Primärquelle 4)."], "axes": {"A": "Messfehler und Assay", "B": "Nicht tumorbedingte hCG-Erhöhung", "C": "hCG außerhalb des Keimzelltumors", "D": "KZT-Sonderformen", "E": "Resistente Subtypen und Studienoptionen", "F": "Zugangswahl bei primärer RPLND", "G": "Postchemotherapeutische RPLND", "H": "Struktur und Aufklärung"}, "merk": {"A": ["Heterophile Antikörper bei IgA-Mangel führen zu falsch positivem β-hCG; die Gegenprobe ist ein Assay mit anderem Antikörperformat [Q].", "Biotin senkt Messwerte falsch; bei Diskrepanz zwischen Bild und Marker gehört die Präparateanamnese dazu [Q].", "Welche hCG-Unterform ein Assay erfasst, unterscheidet sich zwischen Herstellern und ist vor der Bewertung zu klären [Q]."], "B": ["Dialysepflichtige Niereninsuffizienz: hCG kann um den Faktor 10 steigen, bei exzellenter Nierenfunktion umgekehrt falsch niedrig sein [Q].", "Nach der ersten LHRH-Agonistengabe kann hCG passager hypophysär sein; die Werte normalisieren sich binnen drei Monaten [Q].", "Stabile leichte Erhöhungen dürfen beobachtet werden; behandelt wird bei Anstieg oder bildgebendem Korrelat [LL EAU 2026, 6.2.1]."], "C": ["β-hCG wird von 10–30 % aller malignen Nicht-Keimzelltumoren produziert, besonders im fortgeschrittenen Stadium [Q].", "Beim Urothelkarzinom liegt die Nachweisrate bei 30–76 % im Serum und 35–73 % im Urin; als Frühmarker taugt das nicht [Q].", "Außerhalb des Hodentumors hat die β-hCG-Bestimmung keinen festen Stellenwert und steht in keiner Leitlinie [Q]."], "D": ["Wachsendes Teratom unter Chemotherapie bei normalen Markern: Therapie abschließen, dann zeitnah komplett resezieren [Q] [LL EAU 2026, 6.3.1].", "Über 1,5 cm Zuwachs pro Monat kennzeichnet die schnell wachsende Gruppe mit aggressiverem Verlauf [Q].", "Somatische Malignität im Resektat: chemoresistent, 5-Jahres-Überleben 50–60 %; nach R0 keine weitere Systemtherapie [Q] [LL EAU 2026, 6.3.3.3]."], "E": ["CLDN6- und CXCR4-gerichtete Konjugate sowie Kinaseinhibitoren bei Dottersacktumoren sind präklinisch [Q].", "Zielgerichtete Substanzen einschließlich Checkpointinhibitoren sind in der refraktären Situation bislang gescheitert [LL EAU 2026, 6.3.5].", "Zweitrezidive gehören an Zentren und möglichst in Studien; Resektion nach gutem Ansprechen kann noch heilen [LL EAU 2026, 6.3.5]."], "F": ["Markernegatives Nichtseminom im Stadium IIA: nervschonende RPLND durch erfahrene Operateure im Zentrum [LL EAU 2026, 6.2.2.2.1].", "Minimalinvasiv nur in Zentren mit hohem RPLND-Volumen und minimalinvasiver Expertise; robotische Routine aus anderen Eingriffen genügt nicht [LL EAU 2026, 6.1.3.2].", "Stadium IA ohne Gefäßinvasion: Überwachung; Staging-Eingriffe operieren die Mehrheit ohne Nutzen [LL EAU 2026, 6.1.3.7] [Q]."], "G": ["Residuen über 1 cm bei normalisierten Markern werden reseziert, innerhalb von sechs bis acht Wochen nach dem letzten Zyklus [LL EAU 2026, 6.3.2.2].", "Die reine Entfernung des sichtbaren Herdes ist nicht statthaft; es gelten die Feldgrenzen [LL EAU 2026, 6.3.2.2].", "Robotisch nur bei kleinem Residuum, günstiger Lage und ohne Voroperation; großvolumig und zentral bleibt offen [Q] [LL EAU 2026, 6.3.3.1]."], "H": ["Über 80 % der 150 Kliniken mit RPLND operieren höchstens vier Fälle pro Jahr; nur 15 % der Patienten werden an Zentren behandelt [Q].", "An spezialisierten Zentren sinkt die perioperative Sterblichkeit von 6 % auf 0,8 %, die Lokalrezidivrate von 16 % auf 3 % [LL EAU 2026, 6.3.3.1].", "Antegrade Ejakulation: Einzelzentren berichten 100 %, multizentrische Daten 65–71 %; aufgeklärt wird mit der Spannbreite [Q]."]}, "questions": [{"n": 1, "axis": "A", "diff": 2, "correct": "C", "objective": "Kann eine falsch positive β-hCG-Erhöhung durch heterophile Antikörper erkennen und laborseitig klären.", "reference": "Artikel: IgA-Mangelsyndrom und heterophile Antikörper, Messmethode; EAU 2026, 6.2.1 und 7.1", "vignette": "Ein 34-jähriger Mann ist zwei Jahre nach Orchiektomie eines Seminoms im Stadium I in der Nachsorge. β-hCG liegt in drei Messungen zwischen 6 und 8 U/l, AFP normal, Testosteron und LH im Normbereich, MRT von Abdomen und Becken unauffällig. Bekannt ist ein selektiver IgA-Mangel. Vorstellung zur Klärung des Markerbefundes.", "lead": "Welcher Schritt klärt den Markerbefund?", "opts": {"A": "Drei Zyklen BEP wegen Marker-only-Rezidivs beginnen", "B": "Testosterongabe und anschließende Kontrolle des β-hCG", "C": "Messung in einem Assay mit anderem Antikörperformat", "D": "FDG-PET-CT zur Suche nach dem Ursprung des Markers", "E": "Kontrolle des β-hCG erst in der nächsten Jahresvisite"}, "rat": {"A": "Fehlannahme: Drei gleichsinnige Werte seien beweisend. Ohne Anstieg und ohne Herdbefund trägt die Diagnose nicht [Q].", "B": "Fehlannahme: Übertragung der LH-Kreuzreaktion. Dieser Weg setzt hohes LH bei niedrigem Testosteron voraus, beides liegt hier nicht vor [Q].", "C": "Bei IgA-Mangel liegen vermehrt heterophile Antikörper vor, die mit den Messverfahren kreuzreagieren und β-hCG falsch positiv erhöht erscheinen lassen [Q].", "D": "Fehlannahme: Unklare Marker verlangten PET. Die EAU empfiehlt FDG-PET-CT in der Überwachung nicht [LL EAU 2026, 7.1].", "E": "Fehlannahme: Ein unklarer Marker könne ein Jahr warten. Die Ursache gehört geklärt, nicht vertagt [X]."}, "core": "Der Befund ist vor jeder Therapie laborseitig zu prüfen: Heterophile Antikörper bei IgA-Mangel erklären eine konstante, nicht ansteigende β-hCG-Erhöhung [Q].", "ev": "Knight et al. untersuchten 54 Seren von Patienten mit IgA-Mangelsyndrom und führten die gemessenen Erhöhungen auf heterophile Antikörper zurück, nachdem andere Ursachen ausgeschlossen waren [Q]. Welche hCG-Unterform ein Assay erfasst, unterscheidet sich zwischen den Herstellern und ist vorher zu klären [Q]. Die EAU nennt falsch positive Befunde der etablierten Marker [LL EAU 2026, 7.1] und lässt stabile, leicht erhöhte Werte zunächst beobachten [LL EAU 2026, 6.2.1].", "prax": "Der Wechsel des Messverfahrens kostet wenig und verhindert eine Chemotherapie ohne Tumor [X]. Biotinpräparate gehören in dieselbe Anamnese, sie senken Messwerte falsch [Q].", "merk": "Konstant leicht erhöhtes β-hCG bei IgA-Mangel: erst anderer Assay, dann Rezidivdiagnose.", "flag": "Die Datenlage zu heterophilen Antikörpern stammt aus kleinen Serien und Fallberichten; der Ausschluss anderer Ursachen bleibt Voraussetzung."}, {"n": 2, "axis": "A", "diff": 2, "correct": "A", "objective": "Kann einen falsch niedrigen Markerbefund erkennen und die Therapieentscheidung am Bildbefund ausrichten.", "reference": "Artikel: Messmethode und Störfaktoren; EAU 2026, 6.2.2.2.1", "vignette": "Ein 30-jähriger Mann unter Überwachung eines Nichtseminoms im Stadium I kommt zur Kontrolle nach 6 Monaten. Die MRT zeigt neu einen paraaortalen Lymphknoten von 2,4 cm, AFP und β-hCG sind normal. Er nimmt seit Monaten ein hoch dosiertes Biotinpräparat. Festlegung des weiteren Vorgehens.", "lead": "Wie ist mit dem Befund umzugehen?", "opts": {"A": "Befund als Stadium IIA werten, Marker ohne Biotin nachmessen", "B": "Normale Marker als Ausschluss werten, Kontrolle in 3 Monaten", "C": "LDH ergänzen, um die normalen Markerwerte zu bestätigen", "D": "Biopsie des Lymphknotens vor jeder weiteren Entscheidung", "E": "FDG-PET-CT zur Klärung der Diskrepanz zwischen Bild und Labor"}, "rat": {"A": "Entscheidend ist der Bildbefund: Ein neuer Lymphknoten von 2,4 cm entspricht einem Stadium IIA und wird als solches behandelt [LL EAU 2026, 6.2.2.2.1]; Biotin kann die Marker zusätzlich falsch niedrig erscheinen lassen [Q].", "B": "Fehlannahme: Normale Marker schlössen ein Rezidiv aus. Seminome sezernieren nur in etwa 30 % hCG, und Biotin senkt Messwerte zusätzlich [Q].", "C": "Fehlannahme: LDH als Absicherung. Sie ist unspezifisch und klärt weder die Diskrepanz noch den Bildbefund [X].", "D": "Fehlannahme: Die Histologie müsse vor jeder Therapie stehen. Im eindeutigen Stadium IIA ist die nervschonende Lymphadenektomie selbst der diagnostische und therapeutische Schritt [LL EAU 2026, 6.2.2.2.1].", "E": "Fehlannahme: PET löse die Diskrepanz. Beim Nichtseminom ist die FDG-PET-CT zum Restaging nicht indiziert [LL EAU 2026, 6.3.2.2]."}, "core": "Ein normaler Marker schließt ein Rezidiv nicht aus, und Biotin verschiebt die Messung zusätzlich nach unten. Die Entscheidung folgt dem Bild, die Marker werden ohne Störfaktor wiederholt [Q] [LL EAU 2026, 6.2.2.2.1].", "ev": "Die regelmäßige Substitution von Biotin führt in der Laboranalytik zu falsch niedrigen Messwerten [Q]. Auch ohne Störfaktor sind Marker nur bei einem Teil der Keimzelltumoren erhöht; Seminome sezernieren hCG in maximal 30 % der Fälle [Q]. Die EAU empfiehlt beim markernegativen Nichtseminom im Stadium IIA die nervschonende Lymphadenektomie im spezialisierten Zentrum als initiale Therapie und erlaubt bei Knoten unter 2 cm eine Kontrolle nach sechs Wochen [LL EAU 2026, 6.2.2.2.1].", "prax": "Die Präparateanamnese gehört zu jeder unplausiblen Markerkonstellation, und die Messung wird nach Pause wiederholt [Q]. Der weitere Weg richtet sich nach dem Bildbefund, nicht nach dem Laborwert [LL EAU 2026, 6.2.2.2.1].", "merk": "Diskrepanz zwischen Bild und Marker: nach Biotin fragen, Marker ohne Präparat wiederholen, Bildbefund behandeln.", "flag": null}, {"n": 3, "axis": "B", "diff": 2, "correct": "D", "objective": "Kann eine β-hCG-Erhöhung bei terminaler Niereninsuffizienz als Retentionsphänomen einordnen.", "reference": "Artikel: Terminale Niereninsuffizienz; EAU 2026, 6.2.1 und 6.3.1", "vignette": "Ein 46-jähriger Mann ist acht Jahre nach Chemotherapie eines Nichtseminoms rezidivfrei und seit einem Jahr dialysepflichtig. In zwei Messungen liegt β-hCG bei 14 und 15 U/l, AFP normal, MRT von Abdomen und Becken sowie Röntgen-Thorax unauffällig, Testosteron und LH normal. Vorstellung zur Bewertung des Markerbefundes.", "lead": "Welche Einordnung und welches Vorgehen sind angemessen?", "opts": {"A": "Spätrezidiv annehmen und Salvage-Chemotherapie beginnen", "B": "Rezidivsuche mit FDG-PET-CT und Schädel-MRT ergänzen", "C": "Testosteron geben und β-hCG danach erneut bestimmen", "D": "Renale Retention annehmen und den Verlauf kontrollieren", "E": "Residualtumorresektion im Retroperitoneum veranlassen"}, "rat": {"A": "Fehlannahme: Jede Erhöhung nach Jahren sei ein Spätrezidiv. Salvage-Therapie ist nur bei dokumentierter Markerprogression indiziert [LL EAU 2026, 6.3.1].", "B": "Fehlannahme: Breite Bildgebung ersetze die Differenzialdiagnose. FDG-PET-CT ist in der Überwachung nicht empfohlen [LL EAU 2026, 7.1], und der Laborbefund wird dadurch nicht erklärt [X].", "C": "Fehlannahme: Übertragung der LH-Kreuzreaktion. Sie setzt hohes LH voraus; bei normalem LH und Testosteron trägt dieser Mechanismus nicht [Q].", "D": "Bei terminaler Niereninsuffizienz ist die Filtration des Moleküls auf ein Minimum herabgesetzt, der Spiegel kann um den Faktor 10 steigen [Q].", "E": "Fehlannahme: Operation als Diagnostik. Ohne Residuum in der Bildgebung gibt es nichts zu resezieren [X]."}, "core": "Stabile Werte ohne Dynamik und ohne Herdbefund bei Dialysepflicht sprechen für fehlende renale Elimination, nicht für ein Rezidiv [Q].", "ev": "Das hCG-Molekül wird renal filtriert und teilweise ausgeschieden; bei dialysepflichtiger Erkrankung ist diese Filtration auf ein nicht mehr messbares Minimum herabgesetzt, und der Plasmaspiegel kann um den Faktor 10 ansteigen [Q]. Umgekehrt können Werte bei exzellenter Nierenfunktion falsch niedrig ausfallen [Q]. Die EAU lässt stabile, leicht erhöhte Marker zunächst beobachten und verlangt Therapie erst bei Anstieg oder bildgebendem Korrelat [LL EAU 2026, 6.2.1].", "prax": "Der Ausgangswert unter Dialyse gehört dokumentiert, damit spätere Kontrollen eine echte Dynamik erkennen lassen [X]. Steigt der Wert, gilt wieder die Regel zur Markerprogression [LL EAU 2026, 6.3.1].", "merk": "Dialyse und erhöhtes β-hCG: erst Retention denken, Verlauf kontrollieren, nicht behandeln.", "flag": "Die Datengrundlage ist eine Serie von 44 Patienten und Expertenmeinung; ein steigender Wert bleibt abklärungsbedürftig."}, {"n": 4, "axis": "B", "diff": 1, "correct": "B", "objective": "Kann einen passageren hCG-Anstieg nach Beginn einer Androgendeprivation einordnen und unnötige Diagnostik vermeiden.", "reference": "Artikel: Erhöhung unter Androgendeprivationstherapie; EAU 2026, 6.2.1", "vignette": "Ein 71-jähriger Mann mit lokal fortgeschrittenem Prostatakarzinom erhielt vor vier Wochen die erste Injektion eines LHRH-Agonisten. Im Labor fällt ein leicht erhöhtes hCG auf, AFP normal, die Hoden sind sonographisch unauffällig, kein Anhalt für eine weitere Tumorerkrankung. Vorstellung zur Bewertung des Befundes.", "lead": "Welches Vorgehen ist angemessen?", "opts": {"A": "Hodenfreilegung zur Abklärung eines okkulten Keimzelltumors", "B": "Verlaufskontrolle, Normalisierung binnen drei Monaten erwarten", "C": "Keimzelltumormarker komplett und Schnittbildgebung veranlassen", "D": "LHRH-Agonist absetzen und auf einen Antagonisten wechseln", "E": "hCG im Urin bestimmen, um die Erhöhung zu bestätigen"}, "rat": {"A": "Fehlannahme: Erhöhtes hCG bedeute Hodentumor. Die Sonographie ist unauffällig, und die Konstellation erklärt sich aus der Kastration [Q].", "B": "Die Erhöhung trat in der zitierten Serie nur nach der ersten Applikation auf und lag nach drei Monaten wieder im Normbereich [Q].", "C": "Fehlannahme: Vollständige Tumorsuche sei der sicherste Weg. Sie erzeugt Zufallsbefunde, ohne die naheliegende Ursache zu prüfen [X].", "D": "Fehlannahme: Der Agonist sei schädlich. Der Effekt ist passager und kein Grund, eine wirksame Therapie zu wechseln [Q].", "E": "Fehlannahme: Die Urinmessung bestätige den Serumwert. Im Urin wird das β-Core-Fragment gemessen; die Messung ist nur zur Schwangerschaftsdetektion zugelassen [Q]."}, "core": "Nach der ersten Gabe eines LHRH-Agonisten kann hCG passager ektop aus der Hypophyse stammen. Ohne weiteren Anhalt folgt die Verlaufskontrolle, keine Keimzelltumordiagnostik [Q].", "ev": "Yoshimura et al. untersuchten 44 Patienten mit lokal fortgeschrittenem Prostatakarzinom ohne Fernmetastasen: Nachweisbar war ausschließlich natives hCG, nicht die freie β-Untereinheit, und erhöhte Werte traten nur nach der ersten Applikation des LHRH-Agonisten auf; drei Monate nach Therapiebeginn lagen sie im Normbereich [Q]. Verantwortlich gemacht werden die erhöhten GnRH-Spiegel, die eine ektope hypophysäre Produktion stimulieren [Q]. Die EAU behandelt stabile leichte Erhöhungen zunächst beobachtend [LL EAU 2026, 6.2.1].", "prax": "Bleibt der Wert erhöht oder steigt er, beginnt die Differenzialdiagnostik erneut [X]. Eine fehlgeleitete Hodentumordiagnostik belastet den Patienten ohne Nutzen [X].", "merk": "hCG-Anstieg kurz nach dem ersten LHRH-Agonisten: passager hypophysär, Kontrolle statt Tumorsuche.", "flag": "Die Erklärung beruht auf einer Serie von 44 Patienten und ist pathophysiologisch abgeleitet, nicht prospektiv bestätigt."}, {"n": 5, "axis": "C", "diff": 3, "correct": "E", "objective": "Kann eine β-hCG-Erhöhung bei einem Nicht-Keimzelltumor einordnen und ihre Grenzen als Verlaufsmarker benennen.", "reference": "Artikel: hCG-Erhöhung bei Nicht-Keimzelltumoren, hCG beim Urothelkarzinom", "vignette": "Ein 68-jähriger Mann mit metastasiertem Urothelkarzinom der Blase erhält Chemotherapie. Auswärts wurde β-hCG bestimmt und ist deutlich erhöht; die Hoden sind klinisch und sonographisch unauffällig, AFP normal. Die Kollegen fragen, ob ein zweiter Tumor vorliegt und ob der Marker zur Therapiesteuerung genutzt werden soll.", "lead": "Wie ist der Befund einzuordnen?", "opts": {"A": "Zweitmalignom im Sinne eines Keimzelltumors annehmen", "B": "Therapieentscheidungen künftig am β-hCG-Verlauf ausrichten", "C": "Hodenbiopsie beidseits zur Klärung der Markerquelle", "D": "β-hCG im Urin als Frühmarker der Blasentumoren einsetzen", "E": "Ektope Produktion durch das Urothelkarzinom annehmen"}, "rat": {"A": "Fehlannahme: β-hCG sei für Keimzelltumoren spezifisch. Genau das widerlegt die Übersicht: Die Erhöhung kommt bei zahlreichen Entitäten vor [Q].", "B": "Fehlannahme: Ein plausibler Marker sei schon ein Steuerungsinstrument. Die Verlaufsdaten stammen aus Einzelfallbeschreibungen [Q].", "C": "Fehlannahme: Die Markerquelle müsse histologisch gesichert werden. Unauffällige Hoden und ein bekanntes metastasiertes Karzinom erklären den Befund [Q].", "D": "Fehlannahme: Ein Marker mit 35 bis 73 % Nachweisrate im Urin tauge zur Früherkennung [Q].", "E": "β-hCG wird von 10–30 % aller malignen Nicht-Keimzelltumoren autokrin produziert, beim Urothelkarzinom besonders häufig [Q]."}, "core": "Der Wert ist hier Ausdruck des bekannten Karzinoms, nicht eines zweiten Tumors. Für die Therapiesteuerung fehlt dem Marker die Validierung [Q].", "ev": "Die Nachweisrate beim Urothelkarzinom liegt zwischen 30 und 76 % im Serum, 35 bis 73 % im Urin und bei etwa 35 % immunhistochemisch [Q]. Eine Erhöhung ist mit geringerer Differenzierung, höherer Invasivität, höherem Metastasierungsgrad und Strahlenresistenz assoziiert [Q]. Weder die deutsche S3-Leitlinie zum Blasentumor noch die EAU-Leitlinien erwähnen den Marker; größere Studien fehlen [Q].", "prax": "Vor jeder Markerbestimmung gehört die Frage, welche Konsequenz das Ergebnis hätte [X]. Umgekehrt lohnt bei unplausibler Erhöhung in der Hodentumornachsorge der Blick auf andere Malignome [Q].", "merk": "β-hCG ist nicht keimzelltumorspezifisch: 10–30 % aller Nicht-Keimzelltumoren produzieren es, ohne dass es Therapie steuert.", "flag": "Der Stellenwert von β-hCG beim Urothelkarzinom beruht auf Fallserien und Einzelfallberichten; als Verlaufsmarker ist er nicht validiert und in keiner Leitlinie verankert."}, {"n": 6, "axis": "D", "diff": 2, "correct": "A", "objective": "Kann ein unter Chemotherapie wachsendes Teratom erkennen und den Zeitpunkt der Resektion festlegen.", "reference": "Artikel: Das Growing-teratoma-Syndrom; EAU 2026, 6.3.1", "vignette": "Ein 28-jähriger Mann erhält wegen eines metastasierten Nichtseminoms die dritte Serie BEP. AFP und β-hCG sind normalisiert, die retroperitoneale Raumforderung ist innerhalb von zwei Monaten von 3 auf 7 cm gewachsen. Er ist beschwerdefrei. Festlegung des weiteren Vorgehens.", "lead": "Welches Vorgehen ist angemessen?", "opts": {"A": "Chemotherapie abschließen, dann zeitnah resezieren", "B": "Sofort auf Salvage-Chemotherapie mit TIP umstellen", "C": "Zwei weitere Zyklen BEP anhängen und dann bewerten", "D": "Zunächst beobachten und in drei Monaten erneut messen", "E": "Bestrahlung der wachsenden Raumforderung veranlassen"}, "rat": {"A": "Bei fallenden oder normalen Markern und wachsendem Tumor ist die vollständige Resektion die einzige wirksame Strategie [Q]; die EAU empfiehlt in dieser Konstellation die frühe operative Entfernung [LL EAU 2026, 6.3.1].", "B": "Fehlannahme: Wachstum bedeute vitalen Tumor. Salvage-Therapie ist nur bei dokumentierter Markerprogression indiziert [LL EAU 2026, 6.3.1].", "C": "Fehlannahme: Mehr Zyklen erreichten das Teratom. Teratomgewebe spricht nicht an, weitere Zyklen verzögern nur die Operation [Q].", "D": "Fehlannahme: Beschwerdefreiheit erlaube Abwarten. Okkulte nichtseminomatöse Anteile können erneut wachsen [Q], und die Resektion wird technisch schwieriger [X].", "E": "Fehlannahme: Bestrahlung ersetze die Resektion. Für das wachsende Teratom ist die Operation die einzige wirksame Behandlung [Q]."}, "core": "Die Konstellation aus normalisierten Markern und wachsender Raumforderung ist kein Therapieversagen der Chemotherapie, sondern die Indikation zur zeitnahen vollständigen Resektion [Q] [LL EAU 2026, 6.3.1].", "ev": "Bei 2–8 % der Patienten mit metastasiertem Nichtseminom wächst der Tumor unter Chemotherapie, während die Marker fallen oder normal bleiben; histologisch finden sich ausschließlich reife Teratome [Q]. Pongratanakul et al. ordneten 50 Fälle nach Wachstumsrate: über 1,5 cm pro Monat kennzeichnet die schnell wachsende Gruppe mit erhöhter Migrationsaktivität und aggressiverem Verlauf [Q]. Die erweiterte Definition versteht das Syndrom als Teratom mit okkulten nichtseminomatösen Anteilen, die später erneut wachsen können [Q].", "prax": "Das Tempo gehört dokumentiert: Zentimeter pro Monat trennt die Verlaufsgruppen und begründet die Dringlichkeit [Q]. Die Operation erfolgt in den Feldgrenzen, nicht als Ausschälung des Herdes [LL EAU 2026, 6.3.2.2].", "merk": "Wachsende Masse bei normalen Markern: Teratom, keine Chemotherapieeskalation, zeitnahe komplette Resektion.", "flag": null}, {"n": 7, "axis": "D", "diff": 3, "correct": "C", "objective": "Kann nach Resektion einer somatischen Malignität die Systemtherapie korrekt einordnen.", "reference": "Artikel: Die somatic-type malignancy; EAU 2026, 6.3.3.3 und 6.3.5", "vignette": "Bei einem 33-jährigen Mann wurde nach drei Zyklen BEP ein retroperitoneales Residuum von 4 cm in den Feldgrenzen reseziert, R0. Die Histologie zeigt neben Teratom ein Adenokarzinom als somatische Malignität. Marker sind normal, die Bildgebung zeigt keinen weiteren Befund. Vorstellung zur Festlegung der postoperativen Therapie.", "lead": "Welches postoperative Vorgehen ist begründet?", "opts": {"A": "Zwei adjuvante Zyklen nach Keimzelltumorschema anschließen", "B": "Checkpointinhibitor wegen der somatischen Komponente geben", "C": "Keine weitere Systemtherapie, engmaschige Nachsorge", "D": "Nachbestrahlung des Operationsgebiets veranlassen", "E": "Hochdosischemotherapie mit Stammzellsupport planen"}, "rat": {"A": "Fehlannahme: Das Keimzelltumorschema erreiche auch den somatischen Anteil. Genau dessen Chemoresistenz prägt die Prognose [Q].", "B": "Fehlannahme: Somatische Tumoren sprächen generell auf Checkpointinhibitoren an. Bei Keimzelltumoren spricht nur eine kleine refraktäre Subgruppe an [Q], und zielgerichtete Substanzen sind in dieser Situation gescheitert [LL EAU 2026, 6.3.5].", "C": "Nach vollständiger Resektion ist keine weitere Systemtherapie von Nutzen; die Kontrolle erfolgt über die Nachsorge [LL EAU 2026, 6.3.3.3] [Q].", "D": "Fehlannahme: Bestrahlung sichere die R0-Situation ab. Für dieses Vorgehen fehlt die Datengrundlage [X].", "E": "Fehlannahme: Maximale Systemtherapie bei ungünstiger Prognose. Hochdosistherapie ist für platinsensible Rezidive gedacht [LL EAU 2026, 6.3.5]."}, "core": "Somatische Malignitäten sprechen auf die Chemotherapie des Keimzelltumors nicht an; ihre Therapie ist die komplette Resektion. Danach folgt Nachsorge, keine adjuvante Systemtherapie [Q] [LL EAU 2026, 6.3.3.3].", "ev": "Somatische Malignitäten treten bei 1–8 % der primären und metastasierten Keimzelltumoren auf, überwiegend nach Chemotherapie, und sind mit einer 5-Jahres-Überlebensrate von 50–60 % verbunden [Q]. Histologisch reichen sie von Rhabdomyosarkomen über Adenokarzinome bis zu neuroektodermalen Tumoren [Q]. Die EAU sieht nach Resektion von Nekrose oder postpubertärem Teratom keine weitere Therapie vor und hält adjuvante Chemotherapie bei kompletter Resektion für nicht nutzbringend [LL EAU 2026, 6.3.3.3].", "prax": "Bei Teratom und somatischen Anteilen ist die referenzpathologische Beurteilung empfohlen [LL EAU 2026, 6.1.3.5]. Nicht vollständig resezierbare somatische Anteile gehören ins interdisziplinäre Tumorboard [X].", "merk": "Somatische Malignität im Resektat: chirurgisch behandeln, nach R0 keine Keimzelltumor-Chemotherapie anhängen.", "flag": "Für somatische Malignitäten im Resektat gibt es keine prospektiven Therapiedaten; die Empfehlung stützt sich auf retrospektive Serien."}, {"n": 8, "axis": "E", "diff": 3, "correct": "B", "objective": "Kann präklinische zielgerichtete Ansätze bei resistenten Dottersacktumoren realistisch einordnen.", "reference": "Artikel: Dottersacktumor, Resistenz und Therapieoptionen; EAU 2026, 6.3.5", "vignette": "Ein 35-jähriger Mann hat nach Erstlinien- und Salvage-Chemotherapie ein zweites Rezidiv eines Nichtseminoms mit Dottersacktumoranteil. Er hat von Antikörper-Wirkstoff-Konjugaten gegen CLDN6 und von FGFR-Inhibitoren gelesen und fragt, ob diese Substanzen für ihn infrage kommen. Vorstellung zur Festlegung des weiteren Vorgehens.", "lead": "Welche Empfehlung ist begründet?", "opts": {"A": "CLDN6-gerichtetes Konjugat im Heilversuch einsetzen", "B": "Vorstellung im Zentrum, Therapie innerhalb einer Studie", "C": "FGFR-Inhibitor off label nach Genpanel einsetzen", "D": "Checkpointinhibitor als nächste Therapielinie geben", "E": "Cisplatinhaltige Chemotherapie in gleicher Dosis fortsetzen"}, "rat": {"A": "Fehlannahme: Präklinische Wirksamkeit rechtfertige den Heilversuch. Für den Einsatz am Patienten fehlen Dosis, Sicherheit und Wirksamkeit [Q].", "B": "Die beschriebenen Substanzen stammen aus Zellmodellen; die EAU ermutigt in dieser Lage zum Einschluss in klinische Studien an Zentren [LL EAU 2026, 6.3.5] [Q].", "C": "Fehlannahme: Ein Panelbefund begründe die Therapie. Die genannten Signalwege stammen aus Resistenzmodellen, nicht aus klinischen Studien [Q].", "D": "Fehlannahme: Immuntherapie als Standardreserve. Zielgerichtete Substanzen einschließlich Checkpointinhibitoren sind in der refraktären Situation gescheitert [LL EAU 2026, 6.3.5].", "E": "Fehlannahme: Unveränderte Fortführung nach Versagen zweier Linien. Dafür gibt es keine Begründung [LL EAU 2026, 6.3.5]."}, "core": "CLDN6- und CXCR4-gerichtete Konjugate sowie Kinaseinhibitoren sind experimentelle Ansätze aus Zellmodellen [Q]. Der begründete Weg führt an ein Zentrum und in eine Studie [LL EAU 2026, 6.3.5].", "ev": "Der Artikel beschreibt für resistente Dottersacktumoren FGFR-, CHEK1- und PARP-gerichtete Substanzen, Multikinaseinhibitoren sowie CLDN6- und CXCR4-gerichtete Konjugate, geprüft in Zelllinien und Modellsystemen [Q]. Zugleich hält er fest, dass bei Keimzelltumoren nur eine kleine refraktäre Subgruppe auf Checkpointinhibitoren anspricht [Q]. Die EAU stellt fest, dass zielgerichtete Substanzen in der refraktären Situation bislang gescheitert sind, und ermutigt zum Studieneinschluss [LL EAU 2026, 6.3.5].", "prax": "Nach gutem Ansprechen kann die Resektion von Residuen auch im Zweitrezidiv noch heilen [LL EAU 2026, 6.3.5]. Die Erwartung an neue Substanzen gehört offen und ohne Versprechen benannt [X].", "merk": "Zielgerichtete Ansätze beim Dottersacktumor sind präklinisch: Zentrum und Studie statt Heilversuch.", "flag": null}, {"n": 9, "axis": "F", "diff": 3, "correct": "D", "objective": "Kann die Wahl zwischen offener und robotischer Lymphadenektomie an Leitlinienkriterien statt an Surrogatparametern ausrichten.", "reference": "Artikel: Angerer et al. und Heidenreich/Pfister; EAU 2026, 6.1.3.2 und 6.2.2.2.1", "vignette": "Ein 29-jähriger Mann mit Nichtseminom hat bei normalisierten Markern einen paraaortalen Lymphknoten von 2,5 cm. Am Hodentumorzentrum wird die nervschonende Lymphadenektomie geplant; der dortige Operateur beherrscht beide Zugänge. Der Patient fragt, ob robotisch operiert werden sollte. Festlegung des Zugangs.", "lead": "Welche Empfehlung ist begründet?", "opts": {"A": "Robotisch, da Blutverlust und Verweildauer geringer sind", "B": "Offen, da die robotische Technik onkologisch unterlegen ist", "C": "Primäre Chemotherapie statt Operation, da besser steuerbar", "D": "Beide Zugänge am Zentrum vertretbar, Erfahrung entscheidet", "E": "Robotisch an jeder Klinik mit robotischer Prostatachirurgie"}, "rat": {"A": "Fehlannahme: Perioperative Vorteile belegten onkologische Gleichwertigkeit. Die Nachbeobachtung der robotischen Serien ist kurz [Q].", "B": "Fehlannahme: Fehlende Langzeitdaten seien ein Beleg für Unterlegenheit. In den Vergleichsarbeiten sind die Rezidivraten identisch [Q].", "C": "Fehlannahme: Chemotherapie sei die einfachere Lösung. Beim markernegativen Stadium IIA ist die Operation die empfohlene Erstbehandlung und kann Chemotherapie ersparen [LL EAU 2026, 6.2.2.2.1].", "D": "Die Leitlinie bindet die Empfehlung an Nervschonung, Erfahrung und Zentrum, nicht an ein Instrument [LL EAU 2026, 6.2.2.2.1] [LL EAU 2026, 6.1.3.2].", "E": "Fehlannahme: Robotische Routine aus anderen Eingriffen genüge. Sie ersetzt die hodentumorspezifische Expertise nicht [Q] [LL EAU 2026, 6.1.3.2]."}, "core": "Entscheidend sind Templategrenzen, Nervschonung und Fallzahl des Zentrums. Wo beide Techniken beherrscht werden, ist die Wahl des Zugangs zulässig [LL EAU 2026, 6.2.2.2.1] [Q].", "ev": "Beim markernegativen Nichtseminom im Stadium IIA empfiehlt die EAU die nervschonende Lymphadenektomie durch einen erfahrenen Operateur im spezialisierten Zentrum als initiale Therapie [LL EAU 2026, 6.2.2.2.1]. Minimalinvasive Verfahren gelten in erfahrenen Händen als machbar und sicher, dürfen aber nur an Zentren mit hohem Eingriffsvolumen und minimalinvasiver Expertise erfolgen [LL EAU 2026, 6.1.3.2]. Metaanalysen zeigen robotisch weniger Blutverlust und kürzere Verweildauer bei vergleichbaren Rezidivraten [Q]; die Gegenposition verweist auf längere Operationszeiten und kurze Nachbeobachtung [Q].", "prax": "In multizentrischen Daten wurden bei nervschonendem Vorgehen höhere In-field-Rezidivraten berichtet, was die Bindung an Zentren begründet [LL EAU 2026, 6.1.3.2]. Wer den Zugang wählt, dokumentiert die Feldgrenzen [X].", "merk": "Zugangswahl: erst Zentrum und Expertise, dann Instrument; die Leitlinie favorisiert kein Verfahren.", "flag": "Die beiden Quellartikel bewerten dieselben Daten gegensätzlich, die EAU legt keinen Zugang fest. Die richtige Antwort folgt der Leitlinie."}, {"n": 10, "axis": "F", "diff": 2, "correct": "A", "objective": "Kann im Stadium IA die Überwachung gegen operative Staging-Konzepte abgrenzen.", "reference": "Artikel: Primäre RPLA im KS I (Heidenreich/Pfister); EAU 2026, 6.1.3.7", "vignette": "Ein 27-jähriger Mann hat ein Nichtseminom im Stadium IA ohne Gefäßinvasion, die Marker sind normalisiert, die Bildgebung ist unauffällig. Auswärts wird ihm eine robotisch assistierte Sentinel-Lymphadenektomie im Rahmen einer Studie als genaueres Staging angeboten. Er ist zuverlässig in der Nachsorge. Beratung zum weiteren Vorgehen.", "lead": "Welche Empfehlung ist begründet?", "opts": {"A": "Aktive Überwachung; Studieneinschluss nur nach Aufklärung", "B": "Robotische Sentinel-Lymphadenektomie zum genaueren Staging", "C": "Nervschonende Lymphadenektomie beidseits als Staging-Eingriff", "D": "Adjuvant einen Zyklus BEP wegen des Rezidivrisikos geben", "E": "Adjuvante Carboplatingabe analog zum Seminom im Stadium I"}, "rat": {"A": "Ohne Gefäßinvasion ist die Überwachung die bevorzugte Option; ein Staging-Eingriff bleibt hochselektierten Fällen oder Studien vorbehalten [LL EAU 2026, 6.1.3.7] [Q].", "B": "Fehlannahme: Genaueres Staging sei automatisch Nutzen. In der zitierten Studie würden 70–80 % der Patienten mit Nichtseminom unnötig operiert [Q].", "C": "Fehlannahme: Der beidseitige Eingriff sei sicherer. Er erhöht Morbidität und Ejakulationsrisiko ohne onkologischen Gewinn im Stadium IA [Q].", "D": "Fehlannahme: Jedes Stadium I brauche eine Adjuvanz. Ohne Gefäßinvasion wird zur Überwachung geraten [LL EAU 2026, 6.1.3.7].", "E": "Fehlannahme: Übertragung des Seminomschemas. Carboplatin ist beim Nichtseminom keine adjuvante Option [LL EAU 2026, 6.1.3.7]."}, "core": "Im Stadium IA ohne Gefäßinvasion trägt die Überwachung. Operative Staging-Konzepte operieren die Mehrheit ohne Nutzen und gehören in Studien mit klarer Aufklärung [LL EAU 2026, 6.1.3.7] [Q].", "ev": "Die EAU empfiehlt im Stadium IA Überwachung, sofern der Patient mitarbeitet, und die nervschonende Lymphadenektomie nur für hochselektierte Patienten mit Kontraindikation gegen adjuvante Chemotherapie [LL EAU 2026, 6.1.3.7]. Als Indikationen im Stadium I nennt sie Teratome mit somatischer Malignität sowie Patienten, für die eine Chemotherapie im Rezidivfall nicht infrage kommt [LL EAU 2026, 6.1.3.2]. In einer robotischen Serie im Stadium I hatten nur 17 von 56 Patienten Lymphknotenmetastasen [Q].", "prax": "Die Zuverlässigkeit in der Nachsorge ist die Voraussetzung der Überwachung und gehört aktiv geprüft [LL EAU 2026, 6.1.3.7]. Wird eine Studie erwogen, gehört die Rate unnötiger Eingriffe in die Aufklärung [Q].", "merk": "Stadium IA ohne Gefäßinvasion: Überwachung; Staging-Operationen bringen der Mehrheit nur Risiko.", "flag": null}, {"n": 11, "axis": "G", "diff": 2, "correct": "E", "objective": "Kann die Auswahlkriterien für ein minimalinvasives Vorgehen bei der postchemotherapeutischen Resektion anwenden.", "reference": "Artikel: Postchemotherapeutische RPLND und RTR (Angerer et al.); EAU 2026, 6.3.2.2", "vignette": "Ein 31-jähriger Mann ist nach drei Zyklen BEP wegen eines Nichtseminoms markernegativ. Die Bildgebung zeigt ein solitäres Residuum von 2 cm links paraaortal, ventral der Aorta gelegen; retroperitoneale Voroperationen bestehen nicht. Das Zentrum beherrscht offene und robotische Technik. Festlegung des operativen Vorgehens.", "lead": "Welches Vorgehen ist begründet?", "opts": {"A": "Beobachtung, da das Residuum kleiner als 3 cm ist", "B": "Nur den sichtbaren Herd entfernen und das Feld belassen", "C": "FDG-PET-CT und Entscheidung anhand des Ergebnisses", "D": "Zwei weitere Zyklen Chemotherapie statt Operation", "E": "Template-Resektion, robotisch am Zentrum vertretbar"}, "rat": {"A": "Fehlannahme: Kleine Residuen dürften bleiben. Die Resektionspflicht beginnt über 1 cm, nicht über 3 cm [LL EAU 2026, 6.3.2.2].", "B": "Fehlannahme: Die Entfernung des sichtbaren Herdes genüge. Die reine Ausschälung ist ausdrücklich nicht statthaft [LL EAU 2026, 6.3.2.2].", "C": "Fehlannahme: PET kläre das Restaging beim Nichtseminom. Dafür ist es nicht indiziert [LL EAU 2026, 6.3.2.2].", "D": "Fehlannahme: Mehr Chemotherapie ersetze die Operation. Teratomanteile sprechen nicht an, die Resektion ist der kurative Schritt [Q].", "E": "Größe, Lage und fehlende Voroperation erfüllen die publizierten Auswahlkriterien; laparoskopisch oder robotisch sind vergleichbare Ergebnisse möglich [Q] [LL EAU 2026, 6.3.2.2]."}, "core": "Reseziert wird in den Feldgrenzen, weil das Residuum über 1 cm misst und die Marker normal sind [LL EAU 2026, 6.3.2.2]. Bei kleinem, günstig gelegenem Befund ist der robotische Zugang am Zentrum vertretbar [Q].", "ev": "Die EAU verlangt die Resektion sichtbarer Residuen über 1 cm bei normalen oder sich normalisierenden Markern, innerhalb von sechs bis acht Wochen nach dem letzten Zyklus, und hält laparoskopische oder robotische Eingriffe bei geringem Residualvolumen in sehr erfahrenen Händen für gleichwertig [LL EAU 2026, 6.3.2.2]. Der Artikel nennt als Auswahlkriterien ein bis zwei Residuen von 10 bis 50 mm, Lage ventral oder lateral der großen Gefäße, normalisierte Marker und keine retroperitoneale Voroperation; damit lag das rezidivfreie Überleben nach zwei Jahren bei 98 % [Q].", "prax": "Atypische Rezidivmuster nach minimalinvasivem Vorgehen sind berichtet; das spricht für Zentren, die beide Techniken beherrschen [LL EAU 2026, 6.3.2.2] [Q]. Die Feldgrenzen bleiben unabhängig vom Instrument dieselben [Q].", "merk": "Kleines Residuum, günstige Lage, keine Voroperation: robotische Template-Resektion am Zentrum vertretbar.", "flag": null}, {"n": 12, "axis": "G", "diff": 3, "correct": "C", "objective": "Kann bei komplexem Residualbefund den offenen Zugang und die interdisziplinäre Vorbereitung begründen.", "reference": "Artikel: PC-RPLA (Heidenreich/Pfister); EAU 2026, 6.3.2.2 und 6.3.3.1", "vignette": "Ein 38-jähriger Mann mit intermediärer Prognose hat nach vier Zyklen BEP ein interaortocavales Residuum von 7 cm mit Kontakt zur V. cava; retroperitoneal wurde er bereits voroperiert. Die Marker sind normalisiert. Das Zentrum bietet beide Zugänge an. Festlegung des operativen Vorgehens.", "lead": "Welches Vorgehen ist begründet?", "opts": {"A": "Robotisch beginnen und bei Bedarf offen konvertieren", "B": "Nur die gut erreichbaren Anteile robotisch entfernen", "C": "Offene Resektion mit interdisziplinärer Bereitschaft", "D": "Zwei Zyklen Salvage-Chemotherapie vor der Operation", "E": "Beobachtung mit dreimonatiger Bildgebungskontrolle"}, "rat": {"A": "Fehlannahme: Die Konversion sei ein gleichwertiger Plan. Bei absehbar komplexem Situs beginnt man nicht mit dem ungeeigneten Zugang [X].", "B": "Fehlannahme: Teilresektion sei ein Kompromiss. Unvollständige Resektion erhöht die Rezidivrate, und die Zweitoperation ist mit erhöhter Sterberate verbunden [Q].", "C": "Größe, zentrale Lage, Gefäßkontakt und Voroperation sprechen für den offenen Zugang mit interdisziplinärer Bereitschaft [Q] [LL EAU 2026, 6.3.3.1].", "D": "Fehlannahme: Mehr Chemotherapie verkleinere das Problem. Ohne Markerprogression ist Salvage-Therapie nicht indiziert [LL EAU 2026, 6.3.1].", "E": "Fehlannahme: Abwarten bei normalen Markern. Residuen über 1 cm werden reseziert, unabhängig von der Markerlage [LL EAU 2026, 6.3.2.2]."}, "core": "Die komplette Resektion in den Feldgrenzen ist der kurative Schritt, und dieser Situs verlangt den offenen Zugang mit Bereitschaft zu Gefäß- und Viszeralchirurgie [LL EAU 2026, 6.3.3.1] [Q].", "ev": "Bei intermediärer oder schlechter Prognose und Residuen über 5 cm liegt die Wahrscheinlichkeit gefäßchirurgischer Maßnahmen bei bis zu 20 %; solche Fälle gehören an Zentren mit interdisziplinärer Chirurgie [LL EAU 2026, 6.3.3.1]. Minimalinvasive Eingriffe kommen nur bei geringem Residualvolumen infrage [LL EAU 2026, 6.3.2.2]. Der Artikel benennt großvolumige oder multifokale Befunde und abdominelle Voreingriffe ausdrücklich als Domäne der offenen Chirurgie [Q].", "prax": "Eine suboptimale erste Operation lässt sich durch nachfolgende Chemotherapie nicht ausgleichen [Q]. Die Planung schließt Gefäß-, Viszeral- und gegebenenfalls Wirbelsäulenchirurgie ein [LL EAU 2026, 6.3.3.1].", "merk": "Großvolumig, zentral, voroperiert: offener Zugang mit interdisziplinärer Bereitschaft statt minimalinvasivem Versuch.", "flag": null}, {"n": 13, "axis": "H", "diff": 1, "correct": "B", "objective": "Kann die Zuweisung an ein Hodentumorzentrum an Fallzahl und Ergebnisqualität festmachen.", "reference": "Artikel: Was sagen die Leitlinien, Zentralisierung; EAU 2026, 6.3.3.1", "vignette": "Eine Klinik führt etwa drei retroperitoneale Lymphadenektomien pro Jahr durch, hat aber große Erfahrung mit robotischer Prostatachirurgie. Vorgestellt wird ein 32-jähriger Mann mit einem 5 cm großen Residuum nach Chemotherapie eines Nichtseminoms, Marker normalisiert. Festlegung, wo operiert wird.", "lead": "Welches Vorgehen ist begründet?", "opts": {"A": "Vor Ort robotisch operieren, die Konsole ist vertraut", "B": "Verlegung an ein Zentrum für Hodentumorchirurgie", "C": "Vor Ort offen operieren mit auswärtiger Assistenz", "D": "Zwei weitere Zyklen Chemotherapie vor der Operation", "E": "Beobachten und erst bei Größenzunahme operieren"}, "rat": {"A": "Fehlannahme: Robotische Routine sei übertragbar. Sie ersetzt die hodentumorspezifische Expertise nicht [Q] [LL EAU 2026, 6.1.3.2].", "B": "Fallzahl und Ergebnisqualität hängen zusammen: An spezialisierten Zentren sinkt die perioperative Sterblichkeit deutlich [LL EAU 2026, 6.3.3.1] [Q].", "C": "Fehlannahme: Ein Gastoperateur löse das Volumenproblem. Zentrumsqualität umfasst Team, Intensivmedizin und Nachsorge [X].", "D": "Fehlannahme: Chemotherapie schaffe bessere Bedingungen. Ohne Markerprogression ist sie nicht indiziert und verzögert die Resektion [LL EAU 2026, 6.3.1].", "E": "Fehlannahme: Wachstum abwarten. Residuen über 1 cm werden nach Markernormalisierung reseziert [LL EAU 2026, 6.3.2.2]."}, "core": "Nicht das Instrument entscheidet, sondern die Fallzahl. Ein 5 cm großes Residuum gehört an ein Zentrum mit Hodentumorchirurgie [LL EAU 2026, 6.3.3.1] [Q].", "ev": "In Deutschland führen 150 urologische Kliniken solche Eingriffe durch, über 80 % davon höchstens vier pro Jahr, und nur 15 % der Patienten werden an ausgewiesenen Zentren behandelt [Q]. Die EAU beziffert den Unterschied: An spezialisierten Zentren sinkt die perioperative Sterblichkeit von 6 % auf 0,8 %, und spezialisierte Operateure senken die Lokalrezidivrate von 16 % auf 3 % bei höherer Rate kompletter Resektionen [LL EAU 2026, 6.3.3.1].", "prax": "Die Verlegung ist keine Schwäche, sondern die erste Qualitätsentscheidung [Q]. Der Eingriff sollte innerhalb von sechs bis acht Wochen nach dem letzten Zyklus erfolgen, das begrenzt den Zeitrahmen der Organisation [LL EAU 2026, 6.3.2.2].", "merk": "Drei Eingriffe pro Jahr sind kein Zentrum: Verlegung vor Instrumentenwahl.", "flag": null}, {"n": 14, "axis": "H", "diff": 2, "correct": "D", "objective": "Kann über den Erhalt der antegraden Ejakulation mit der tatsächlichen Datenspannbreite aufklären.", "reference": "Artikel: Angerer et al. und Heidenreich/Pfister, Ejakulationsraten; EAU 2026, 6.1.3.2", "vignette": "Ein 26-jähriger Mann mit Kinderwunsch soll wegen eines markernegativen Nichtseminoms im Stadium IIA eine nervschonende Lymphadenektomie erhalten. Er fragt, wie wahrscheinlich die antegrade Ejakulation erhalten bleibt, und hat dazu widersprüchliche Zahlen gelesen. Aufklärungsgespräch vor dem Eingriff.", "lead": "Wie ist die Aufklärung zu gestalten?", "opts": {"A": "Erhalt zusichern, Einzelzentren berichten 100 %", "B": "Ejakulationsverlust als Regelfolge des Eingriffs nennen", "C": "Zahlen offenlassen, die Datenlage ist widersprüchlich", "D": "Spannbreite von 65 bis 100 % je nach Serie benennen", "E": "Auf die Nervschonung verzichten, um radikaler zu sein"}, "rat": {"A": "Fehlannahme: Die beste publizierte Zahl sei die erwartbare. Einzelzentrumsserien sind selektiert und nicht übertragbar [Q].", "B": "Fehlannahme: Der Eingriff koste regelhaft die Ejakulation. Nervschonend bleibt sie in der Mehrzahl der Fälle erhalten [Q].", "C": "Fehlannahme: Widersprüchliche Daten entbänden von der Aufklärung. Gerade dann gehört die Spannbreite ins Gespräch [X].", "D": "Die publizierten Raten reichen von 100 % in Einzelzentrumsserien bis 65 bis 71 % in multizentrischen Daten und Metaanalysen [Q].", "E": "Fehlannahme: Radikalität schlage Funktion. Die Nervschonung ist Teil des empfohlenen Vorgehens im markernegativen Stadium IIA [LL EAU 2026, 6.2.2.2.1]."}, "core": "Aufgeklärt wird mit der Spannbreite der publizierten Raten und mit dem Hinweis, dass Technik und Zentrumserfahrung die Rate bestimmen [Q] [LL EAU 2026, 6.1.3.2].", "ev": "Einzelzentrumsserien zur primären robotischen Lymphadenektomie berichten antegrade Ejakulation in 100 % [Q]. Multizentrische Daten und Metaanalysen nennen 65 bis 71 %, einzelne Serien 67 und 74 % [Q]. Nach offener nervschonender Operation beim Seminom im Stadium II blieb sie in 90 bis 97 % erhalten [Q]. Die EAU berichtet aus multizentrischen Daten höhere In-field-Rezidiv- und Komplikationsraten beim nervschonenden Vorgehen und bindet den Eingriff an erfahrene Operateure im Zentrum [LL EAU 2026, 6.1.3.2].", "prax": "Die Kryokonservierung wird vor dem Eingriff angesprochen [X]. Wer beide Zahlenwelten kennt, kann die Erwartung des Patienten realistisch einordnen und Enttäuschungen vermeiden [X].", "merk": "Ejakulationserhalt: Einzelzentren 100 %, multizentrisch 65 bis 71 % — aufgeklärt wird mit der Spannbreite.", "flag": "Die beiden Quellartikel nennen für dieselbe Frage 100 % gegenüber 65 bis 71 %; die Differenz beruht auf Selektion und Studiendesign, nicht auf neuen Daten."}], "hcg": [{"label": "Hypergonadotroper Hypogonadismus", "mech": "LH ähnelt β-hCG strukturell und wird von unspezifischen Verfahren mitgemessen [Q].", "step": "Testosteron geben; normalisiert sich β-hCG danach, war die Erhöhung vorgetäuscht [Q].", "data": "Übersichtsarbeit, Mechanismus pathophysiologisch abgeleitet [Q]."}, {"label": "Dialysepflichtige Niereninsuffizienz", "mech": "Die renale Filtration ist auf ein Minimum reduziert, der Spiegel kann um den Faktor 10 steigen [Q].", "step": "Ausgangswert dokumentieren, Verlauf kontrollieren, nicht behandeln [LL EAU 2026, 6.2.1].", "data": "Serie mit 44 Patienten [Q]."}, {"label": "Beginn einer Androgendeprivation", "mech": "Erhöhte GnRH-Spiegel stimulieren eine ektope hypophysäre Produktion [Q].", "step": "Kontrolle abwarten; drei Monate nach Therapiebeginn lagen die Werte im Normbereich [Q].", "data": "Serie mit 44 Patienten, nachweisbar war nur natives hCG [Q]."}, {"label": "IgA-Mangel, heterophile Antikörper", "mech": "Heterophile Antikörper reagieren mit dem Messverfahren kreuz [Q].", "step": "Messung in einem Assay mit anderem Antikörperformat wiederholen [Q].", "data": "54 untersuchte Patientenseren [Q]."}, {"label": "Marihuanakonsum", "mech": "Beschrieben ist eine Erhöhung, die nach Beendigung des Konsums verschwand [Q].", "step": "Anamnese erheben, Konsumpause, Kontrollmessung [Q].", "data": "Fallbericht über zwei Patienten, Evidenz entsprechend schwach [Q]."}, {"label": "Biotinsubstitution", "mech": "Biotin führt in der Laboranalytik zu falsch niedrigen Messwerten [Q].", "step": "Präparat pausieren, Messung wiederholen, Bildbefund unabhängig bewerten [Q].", "data": "Sicherheitsbulletin, im Artikel zitiert [Q]."}, {"label": "Nicht-Keimzelltumor", "mech": "10–30 % aller malignen Nicht-Keimzelltumoren produzieren β-hCG autokrin, vor allem im fortgeschrittenen Stadium [Q].", "step": "Bekannte Tumorerkrankung als Quelle prüfen; keine Therapiesteuerung über den Marker [Q].", "data": "Nachweisraten beim Urothelkarzinom 30–76 % im Serum, Studien mit mehreren hundert Patienten [Q]."}], "rplnd": {"criteria": ["Zentrum für Hodentumorchirurgie mit minimalinvasiver Expertise", "Kleiner Befund: Lymphknoten bis 3 cm bzw. Residuum 10–50 mm", "Lage ventral oder lateral der großen Gefäße", "Tumormarker normalisiert", "Keine retroperitoneale oder abdominelle Voroperation"], "verdicts": {"transfer": {"title": "Zuerst Verlegung an ein Zentrum", "note": "Minimalinvasive Lymphadenektomie darf nur an Zentren mit hohem Eingriffsvolumen und minimalinvasiver Expertise erfolgen [LL EAU 2026, 6.1.3.2]. An spezialisierten Zentren sinkt die perioperative Sterblichkeit von 6 % auf 0,8 % und die Lokalrezidivrate von 16 % auf 3 % [LL EAU 2026, 6.3.3.1]."}, "robotic": {"title": "Robotischer Zugang vertretbar", "note": "Die publizierten Auswahlkriterien sind erfüllt: ein bis zwei Residuen von 10 bis 50 mm, Lage ventral oder lateral der Gefäße, normalisierte Marker, keine Voroperation; damit lag das rezidivfreie Überleben nach zwei Jahren bei 98 % [Q]. Die EAU hält minimalinvasive Eingriffe bei geringem Residualvolumen in sehr erfahrenen Händen für gleichwertig [LL EAU 2026, 6.3.2.2]."}, "open": {"title": "Offener Zugang", "note": "Fehlt eines der Kriterien, überwiegt der offene Zugang: großvolumige oder multifokale Befunde und abdominelle Voreingriffe sind seine Domäne [Q]. Bei Residuen über 5 cm liegt die Wahrscheinlichkeit gefäßchirurgischer Maßnahmen bei bis zu 20 % [LL EAU 2026, 6.3.3.1]."}}}};
+(function () {
+'use strict';
+var D = DATA, Q = D.questions, AX = D.axes;
+var LABEL = {std: 'Standard', sec: 'Standard, nachrangig', alt: 'Option mit Bedingungen', wait: 'Abwarten', no: 'Nicht indiziert'};
+
+function esc(s) {
+  return String(s).replace(/[&<>"]/g, function (c) { return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]; });
+}
+function pv(s) {
+  return esc(s).replace(/\[(Q|X|LL [^\]]+)\]/g, function (m, t) {
+    if (t === 'Q') return '<span class="pv pv-q" title="Steht so im Quellartikel">Q</span>';
+    if (t === 'X') return '<span class="pv pv-x" title="Eigene Einordnung ohne direkten Beleg">X</span>';
+    return '<span class="pv pv-ll" title="Leitlinie im Volltext geprüft">' + t + '</span>';
+  });
+}
+function $(id) { return document.getElementById(id); }
+function cm(x) { return x.toFixed(1).replace('.', ',') + ' cm'; }
+
+/* ---------- Kopf, Lernziele, Quellen ---------- */
+$('meta').innerHTML = D.meta.map(function (m) {
+  return '<div><dt>' + esc(m[0]) + '</dt><dd>' + pv(m[1]) + '</dd></div>';
+}).join('');
+
+$('goals').innerHTML = Object.keys(AX).map(function (a) {
+  var items = Q.filter(function (q) { return q.axis === a; }).map(function (q) {
+    return '<li>Frage ' + q.n + ': ' + esc(q.objective) + '</li>';
+  }).join('');
+  return '<details open><summary>' + esc(a + ': ' + AX[a]) + '</summary><ul>' + items + '</ul></details>';
+}).join('');
+
+$('sources').innerHTML = D.sources.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('');
+
+/* ---------- beta-hCG-Ursachen ---------- */
+var HC = D.hcg, hcSel = 0;
+function renderHcg() {
+  $('hcCauses').innerHTML = HC.map(function (c, i) {
+    return '<button class="seg' + (i === hcSel ? ' on' : '') + '" aria-pressed="' + (i === hcSel) + '" data-i="' + i + '">' + esc(c.label) + '</button>';
+  }).join('');
+  var c = HC[hcSel];
+  $('hcOut').innerHTML = '<p class="stage">' + esc(c.label) + '</p><ul>' +
+    '<li><b>Mechanismus</b><p>' + pv(c.mech) + '</p></li>' +
+    '<li><b>Nächster Schritt</b><p>' + pv(c.step) + '</p></li>' +
+    '<li><b>Datenbasis</b><p>' + pv(c.data) + '</p></li></ul>';
+  Array.prototype.forEach.call(document.querySelectorAll('#hcCauses .seg'), function (b) {
+    b.onclick = function () { hcSel = +b.getAttribute('data-i'); renderHcg(); };
+  });
+}
+renderHcg();
+
+/* ---------- Zugangswahl RPLND ---------- */
+var RP = D.rplnd, rpState = {};
+function renderRp() {
+  $('rpCrit').innerHTML = RP.criteria.map(function (c, i) {
+    return '<li><label><input type="checkbox" data-i="' + i + '"' + (rpState[i] ? ' checked' : '') + '><span>' + esc(c) + '</span></label></li>';
+  }).join('');
+  var zentrum = !!rpState[0], rest = true;
+  for (var k = 1; k < RP.criteria.length; k++) { if (!rpState[k]) rest = false; }
+  var v = !zentrum ? RP.verdicts.transfer : (rest ? RP.verdicts.robotic : RP.verdicts.open);
+  $('rpOut').innerHTML = '<p class="stage">' + esc(v.title) + '</p><p class="note">' + pv(v.note) + '</p>';
+  Array.prototype.forEach.call(document.querySelectorAll('#rpCrit input'), function (b) {
+    b.onchange = function () { rpState[+b.getAttribute('data-i')] = b.checked; renderRp(); };
+  });
+}
+renderRp();
+
+/* ---------- Quiz ---------- */
+var S = {order: Q.map(function (q, i) { return i; }), pos: 0, ans: {}, mode: 'start'};
+var lastOfAxis = {};
+Q.forEach(function (q) { lastOfAxis[q.axis] = q.n; });
+
+function progressBar() {
+  return '<div class="progress" aria-hidden="true">' + S.order.map(function (qi, i) {
+    var q = Q[qi], a = S.ans[q.n];
+    var cls = a ? (a === q.correct ? 'ok' : 'bad') : (i === S.pos ? 'here' : '');
+    return '<span class="' + cls + '"></span>';
+  }).join('') + '</div>';
+}
+
+function feedbackHtml(q, chosen) {
+  var ok = chosen === q.correct, h = '<div class="fb">';
+  h += '<p class="verdictline ' + (ok ? 'ok' : 'bad') + '">' + (ok ? 'Richtig.' : 'Nicht richtig. Richtig ist ' + q.correct + '.') + '</p>';
+  h += '<div class="slot"><h3>Kernaussage</h3><p>' + pv(q.core) + '</p></div>';
+  h += '<div class="slot"><h3>Evidenz</h3><p>' + pv(q.ev) + '</p></div>';
+  h += '<div class="slot"><h3>Distraktoren</h3><ul class="dist">' + 'ABCDE'.split('').filter(function (k) { return k !== q.correct; }).map(function (k) {
+    return '<li><span class="k">' + k + '</span><div><span class="ot">' + esc(q.opts[k]) + '</span><p>' + pv(q.rat[k]) + '</p></div></li>';
+  }).join('') + '</ul></div>';
+  h += '<div class="slot"><h3>Praxiskonsequenz</h3><p>' + pv(q.prax) + '</p></div>';
+  h += '<p class="merksatz">' + esc(q.merk) + '</p>';
+  if (q.flag) h += '<p class="flagnote">⚠ ' + esc(q.flag) + '</p>';
+  h += '<p class="qmeta">Lernziel: ' + esc(q.objective) + '<br>Referenz: ' + esc(q.reference) + '</p>';
+  if (lastOfAxis[q.axis] === q.n) h += merkkasten(q.axis);
+  return h + '</div>';
+}
+
+function merkkasten(a) {
+  return '<div class="merkkasten"><h3>Merkkasten ' + esc(a + ': ' + AX[a]) + '</h3><ol>' +
+    D.merk[a].map(function (m) { return '<li>' + pv(m) + '</li>'; }).join('') + '</ol></div>';
+}
+
+function renderQuiz() {
+  var el = $('quiz');
+  if (S.mode === 'start') {
+    el.innerHTML = '<p class="lede">Zehn Fallvignetten, je fünf Antwortoptionen, eine beste Antwort. Nach jeder Antwort folgen Kernaussage, Evidenz mit Herkunftsmarkern, Analyse aller Distraktoren und Praxiskonsequenz.</p>' +
+      '<div class="actions"><button class="btn" id="go">Fragen beginnen</button></div>';
+    $('go').onclick = function () { S.mode = 'q'; renderQuiz(); };
+    return;
+  }
+  if (S.mode === 'result') { renderResult(); return; }
+  var q = Q[S.order[S.pos]], chosen = S.ans[q.n];
+  var h = '<div class="qhead"><span>Frage ' + (S.pos + 1) + ' von ' + S.order.length + '</span><span class="ax">' + esc(q.axis + ': ' + AX[q.axis]) + '</span><span>Schwierigkeit ' + q.diff + ' von 3</span>' + (q.flag ? '<span class="fl">⚠ Evidenz begrenzt</span>' : '') + '</div>';
+  h += progressBar();
+  h += '<p class="vignette">' + esc(q.vignette) + '</p><p class="lead">' + esc(q.lead) + '</p><div class="opts">';
+  'ABCDE'.split('').forEach(function (k) {
+    var cls = '';
+    if (chosen) { if (k === q.correct) cls = ' is-ok'; else if (k === chosen) cls = ' is-bad'; }
+    h += '<button class="opt' + cls + '" data-k="' + k + '"' + (chosen ? ' disabled' : '') + '><span class="k">' + k + '</span><span>' + esc(q.opts[k]) + '</span></button>';
+  });
+  h += '</div>';
+  if (chosen) h += feedbackHtml(q, chosen);
+  h += '<div class="actions">';
+  if (S.pos > 0) h += '<button class="btn ghost" id="back">Zurück</button>';
+  if (chosen) h += '<button class="btn" id="next">' + (S.pos === S.order.length - 1 ? 'Auswertung ansehen' : 'Nächste Frage') + '</button>';
+  h += '</div>';
+  el.innerHTML = h;
+  Array.prototype.forEach.call(el.querySelectorAll('.opt'), function (b) {
+    b.onclick = function () { S.ans[q.n] = b.getAttribute('data-k'); renderQuiz(); var fb = el.querySelector('.fb'); if (fb && fb.scrollIntoView) fb.scrollIntoView({block: 'nearest'}); };
+  });
+  if ($('back')) $('back').onclick = function () { S.pos--; renderQuiz(); };
+  if ($('next')) $('next').onclick = function () {
+    if (S.pos === S.order.length - 1) S.mode = 'result'; else S.pos++;
+    renderQuiz(); el.scrollIntoView({block: 'start'});
+  };
+}
+
+function tally(filter) {
+  var qs = Q.filter(filter), right = qs.filter(function (q) { return S.ans[q.n] === q.correct; }).length;
+  return {right: right, total: qs.length};
+}
+function row(label, t) {
+  var p = t.total ? Math.round(100 * t.right / t.total) : 0;
+  return '<div class="row"><span>' + esc(label) + '</span><span class="bar"><i style="width:' + p + '%"></i></span><span>' + t.right + ' von ' + t.total + '</span></div>';
+}
+
+function renderResult() {
+  var el = $('quiz'), all = tally(function () { return true; });
+  var h = '<p class="score">' + all.right + ' von ' + all.total + ' richtig</p><h3 class="slot">Nach Themenachse</h3><div class="rows">';
+  var weak = [];
+  Object.keys(AX).forEach(function (a) {
+    var t = tally(function (q) { return q.axis === a; });
+    if (t.right < t.total) weak.push(a + ': ' + AX[a] + ' (' + t.right + ' von ' + t.total + ')');
+    h += row(a + ': ' + AX[a], t);
+  });
+  h += '</div><h3 class="slot">Nach Schwierigkeit</h3><div class="rows">';
+  [1, 2, 3].forEach(function (d) { h += row('Schwierigkeit ' + d, tally(function (q) { return q.diff === d; })); });
+  h += '</div>';
+  h += weak.length ? '<p class="hint">Nachschärfen: ' + esc(weak.join('; ')) + '. Die Merkkästen dieser Achsen stehen nach der jeweils zweiten Frage.</p>' : '<p class="lede">Alle Achsen vollständig beantwortet.</p>';
+  var wrong = Q.filter(function (q) { return S.ans[q.n] && S.ans[q.n] !== q.correct; });
+  h += '<div class="actions">';
+  if (wrong.length) h += '<button class="btn" id="retry">Falsch beantwortete wiederholen (' + wrong.length + ')</button>';
+  h += '<button class="btn ghost" id="restart">Neu beginnen</button><button class="btn ghost" id="print">Druckfassung</button></div>';
+  el.innerHTML = h;
+  if ($('retry')) $('retry').onclick = function () {
+    S.order = wrong.map(function (q) { return Q.indexOf(q); });
+    wrong.forEach(function (q) { delete S.ans[q.n]; });
+    S.pos = 0; S.mode = 'q'; renderQuiz();
+  };
+  $('restart').onclick = function () { S = {order: Q.map(function (q, i) { return i; }), pos: 0, ans: {}, mode: 'q'}; renderQuiz(); };
+  $('print').onclick = function () { window.print(); };
+}
+renderQuiz();
+
+/* ---------- Druckfassung ---------- */
+var P = '<h2>Alle Fragen mit Lösung und Begründung</h2>';
+Q.forEach(function (q) {
+  P += '<div class="pq"><p class="qmeta">Frage ' + q.n + ', ' + esc(q.axis + ': ' + AX[q.axis]) + ', Schwierigkeit ' + q.diff + (q.flag ? ', ⚠ Evidenz begrenzt' : '') + '</p>';
+  P += '<p class="vignette">' + esc(q.vignette) + '</p><p class="lead">' + esc(q.lead) + '</p><ul class="dist">';
+  'ABCDE'.split('').forEach(function (k) {
+    P += '<li><span class="k" style="color:' + (k === q.correct ? 'var(--ok)' : 'var(--muted)') + '">' + k + '</span><div>' + esc(q.opts[k]) + (k === q.correct ? ' (richtig)' : '') + '</div></li>';
+  });
+  P += '</ul>' + feedbackHtml(q, q.correct).replace('<p class="verdictline ok">Richtig.</p>', '') + '</div>';
+});
+$('printall').innerHTML = P;
+window.addEventListener('beforeprint', function () {
+  Array.prototype.forEach.call(document.querySelectorAll('details'), function (d) { d.open = true; });
+});
+})();
+</script>
+</body>
+</html>

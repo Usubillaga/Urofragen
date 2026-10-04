@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Peniskarzinom: CME-Modul Facharztniveau</title>
+<style>
+:root{
+ --ground:#eef2f4;--paper:#fbfcfd;--ink:#16232d;--muted:#5a6873;--line:#cad4db;--soft:#e1e8ec;
+ --accent:#1d6682;--accent-soft:#e2eef3;--node:#c8372d;--ok:#25704a;--ok-soft:#e5f1ea;
+ --bad:#8b2d29;--bad-soft:#f6e8e6;--flag:#8e6212;--flag-soft:#f5ecd9;
+ --serif:Charter,"Bitstream Charter","Sitka Text",Cambria,Georgia,serif;
+ --sans:"Avenir Next","Segoe UI","Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ground);color:var(--ink);font:17px/1.62 var(--serif)}
+.wrap{max-width:46rem;margin:0 auto;padding:2.2rem 1.2rem 5rem}
+h1{font:600 2.05rem/1.18 var(--serif);letter-spacing:-.012em;margin:.35rem 0 1.3rem;max-width:36rem}
+h2{font:600 1.2rem/1.3 var(--sans);margin:0 0 .55rem}
+.kicker{font:500 .9rem/1.4 var(--sans);color:var(--muted);margin:0}
+.meta{margin:0 0 1rem;display:grid;gap:.6rem}
+.meta div{display:grid;grid-template-columns:7.2rem 1fr;gap:.8rem}
+.meta dt{font:600 .82rem/1.5 var(--sans);color:var(--muted);padding-top:.15rem}
+.meta dd{margin:0;font-size:.95rem}
+.legend{font:.86rem/1.9 var(--sans);color:var(--muted);margin:.4rem 0 0}
+.pv{display:inline-block;font:600 .68rem/1 var(--sans);padding:.2rem .34rem;border-radius:3px;vertical-align:.12em;margin:0 .1rem;white-space:nowrap}
+.pv-q{background:#e6ebef;color:#33434f;border:1px solid #c9d2d9}
+.pv-ll{background:var(--accent-soft);color:var(--accent);border:1px solid #bcd6e1}
+.pv-x{background:#f1ede4;color:#6f5d3a;border:1px solid #ddd2bb}
+section{margin-top:2.6rem}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:1.4rem}
+.lede{margin:0 0 1rem;font-size:.97rem}
+.ruler svg{width:100%;max-width:560px;height:auto;display:block;font-family:var(--sans)}
+.controls{display:grid;gap:1rem;margin-top:.9rem;font:.92rem/1.45 var(--sans)}
+.controls .size{display:grid;gap:.25rem}
+.controls .size output{font-weight:600;color:var(--node)}
+input[type=range]{width:100%;accent-color:var(--node)}
+fieldset{border:0;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.35rem 1.1rem}
+legend{font-weight:600;padding:0;margin-bottom:.3rem;width:100%}
+.checks{display:grid;gap:.35rem}
+.controls label{display:flex;gap:.5rem;align-items:baseline;cursor:pointer}
+.verdict{margin-top:1.2rem;border-top:1px solid var(--line);padding-top:1rem}
+.verdict .stage{font:600 1.12rem/1.3 var(--sans);margin:0}
+.verdict .note{color:var(--muted);font:.9rem/1.4 var(--sans);margin:.15rem 0 .8rem}
+.verdict ul{list-style:none;margin:0;padding:0;display:grid;gap:.6rem}
+.verdict li{display:grid;grid-template-columns:9.6rem 1fr;gap:.8rem;align-items:start}
+.chip{font:600 .74rem/1.25 var(--sans);padding:.3rem .45rem;border-radius:3px;text-align:center}
+.st-std{background:var(--ok-soft);color:var(--ok)}
+.st-sec{background:#edf1e2;color:#55672a}
+.st-alt{background:var(--flag-soft);color:var(--flag)}
+.st-wait{background:var(--accent-soft);color:var(--accent)}
+.st-no{background:var(--bad-soft);color:var(--bad)}
+.verdict b{font:600 .93rem/1.4 var(--sans)}
+.verdict p{margin:.1rem 0 0;font-size:.92rem}
+details{border-top:1px solid var(--line);padding:.65rem 0}
+details:last-of-type{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font:600 .97rem/1.4 var(--sans)}
+details ul{margin:.5rem 0 .2rem;padding-left:1.15rem}
+details li{margin:.25rem 0}
+.progress{display:flex;gap:4px;margin:.35rem 0 1.1rem}
+.progress span{flex:1;height:6px;border-radius:2px;background:var(--soft)}
+.progress .ok{background:var(--ok)}
+.progress .bad{background:var(--bad)}
+.progress .here{background:var(--accent)}
+.qhead{display:flex;flex-wrap:wrap;gap:.3rem 1rem;font:.86rem/1.4 var(--sans);color:var(--muted);margin-bottom:.8rem}
+.qhead .ax{color:var(--ink);font-weight:600}
+.qhead .fl{color:var(--flag);font-weight:600}
+.vignette{margin:0 0 1rem}
+.lead{font-weight:600;margin:0 0 1.1rem}
+.opts{display:grid;gap:.5rem}
+.opt{display:grid;grid-template-columns:1.6rem 1fr;gap:.7rem;width:100%;text-align:left;font:inherit;color:inherit;background:var(--paper);border:1px solid var(--line);border-left:4px solid var(--line);border-radius:4px;padding:.75rem .9rem;cursor:pointer}
+.opt:hover:not(:disabled){border-color:var(--accent)}
+.opt:disabled{cursor:default}
+.opt .k{font:600 .9rem/1.6 var(--sans);color:var(--muted)}
+.opt.is-ok{border-left-color:var(--ok);background:var(--ok-soft)}
+.opt.is-bad{border-left-color:var(--bad);background:var(--bad-soft)}
+.fb{margin-top:1.4rem;border-top:1px solid var(--line);padding-top:1.1rem}
+.verdictline{font:600 1rem/1.4 var(--sans);margin:0 0 .9rem}
+.verdictline.ok{color:var(--ok)}
+.verdictline.bad{color:var(--bad)}
+.slot{margin:0 0 1rem}
+.slot h3{font:600 .86rem/1.4 var(--sans);color:var(--muted);margin:0 0 .25rem}
+.slot p{margin:0}
+.dist{list-style:none;margin:0;padding:0;display:grid;gap:.6rem}
+.dist li{display:grid;grid-template-columns:1.6rem 1fr;gap:.6rem}
+.dist .k{font:600 .9rem/1.55 var(--sans);color:var(--bad)}
+.dist .ot{font-style:italic}
+.dist p{margin:.1rem 0 0;font-size:.95rem}
+.merksatz{border-left:4px solid var(--accent);background:var(--accent-soft);padding:.7rem .9rem;margin:0 0 1rem}
+.flagnote{border-left:4px solid var(--flag);background:var(--flag-soft);padding:.7rem .9rem;margin:0 0 1rem;font-size:.93rem}
+.qmeta{font:.84rem/1.55 var(--sans);color:var(--muted);margin:0}
+.merkkasten{border:1px solid var(--accent);border-radius:6px;padding:1rem 1.1rem;margin:1.3rem 0 0;background:#f4f9fb}
+.merkkasten h3{font:600 .98rem/1.4 var(--sans);margin:0 0 .5rem;color:var(--accent)}
+.merkkasten ol{margin:0;padding-left:1.2rem}
+.merkkasten li{margin:.25rem 0}
+.actions{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.3rem}
+.btn{font:600 .92rem/1 var(--sans);padding:.72rem 1.1rem;border-radius:4px;border:1px solid var(--accent);background:var(--accent);color:#fff;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent)}
+.score{font:700 1.6rem/1.2 var(--sans);margin:0 0 .4rem}
+.rows{display:grid;gap:.55rem;margin:.5rem 0 1.3rem}
+.row{display:grid;grid-template-columns:14rem 1fr 3.4rem;gap:.7rem;align-items:center;font:.9rem/1.3 var(--sans)}
+.bar{height:8px;background:var(--soft);border-radius:2px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent)}
+.hint{font:.93rem/1.55 var(--sans);color:var(--bad);margin:.2rem 0 0}
+.sources ol{padding-left:1.3rem;font-size:.93rem}
+.sources li{margin:.35rem 0}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.print-only{display:none}
+.segs{display:flex;flex-wrap:wrap;gap:.4rem;margin:0 0 .7rem}
+.seg{font:600 .84rem/1.2 var(--sans);padding:.5rem .7rem;border:1px solid var(--line);border-radius:4px;background:var(--paper);color:var(--ink);cursor:pointer}
+.seg.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.mx table{width:100%;border-collapse:collapse;font:.9rem/1.4 var(--sans);margin-top:.4rem}
+.mx th,.mx td{text-align:left;padding:.55rem .5rem;border-bottom:1px solid var(--line);vertical-align:top}
+.mx thead th{font-size:.8rem;color:var(--muted);font-weight:600}
+.mx tbody th{font-weight:600;width:34%}
+.mx tr.diff td{background:var(--flag-soft)}
+.mx tr.diff th{box-shadow:inset 4px 0 0 var(--flag)}
+.mx tr.more td{background:var(--accent-soft)}
+.mx tr.more th{box-shadow:inset 4px 0 0 var(--accent)}
+.note{color:var(--muted);font:.84rem/1.45 var(--sans);margin:.6rem 0 .4rem}
+.mxnotes{margin:.2rem 0 0;padding-left:1.1rem;font-size:.9rem}
+.mxnotes li{margin:.3rem 0}
+.crit{list-style:none;margin:0 0 .2rem;padding:0;display:grid;gap:.5rem}
+.crit label{display:grid;grid-template-columns:1.2rem 1fr;gap:.6rem;align-items:start;font:.93rem/1.45 var(--sans);cursor:pointer}
+.crit input{margin:.2rem 0 0}
+@media (max-width:36rem){
+ body{font-size:16px}
+ h1{font-size:1.62rem}
+ .meta div{grid-template-columns:1fr;gap:.1rem}
+ .verdict li{grid-template-columns:1fr;gap:.3rem}
+ .chip{justify-self:start}
+ .row{grid-template-columns:1fr 3rem}
+ .row .bar{grid-column:1/-1;grid-row:2}
+ .panel{padding:1.05rem}
+}
+@media (prefers-reduced-motion:no-preference){
+ .fb{animation:rv .2s ease-out}
+ @keyframes rv{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:none}}
+}
+@media print{
+ body{background:#fff;font-size:10.5pt}
+ .wrap{max-width:none;padding:0}
+ .ruler,.quiz{display:none!important}
+ .print-only{display:block}
+ .pq{break-inside:avoid;border-top:1px solid #999;padding-top:.6rem;margin-top:.9rem}
+ .panel{border:0;padding:0;background:#fff}
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header>
+ <p class="kicker">CME-Modul Urologie, Facharztniveau</p>
+ <h1>Peniskarzinom: Organerhalt, Lymphknoten und Systemtherapie</h1>
+ <dl class="meta" id="meta"></dl>
+ <p class="legend">Provenienz in den Begründungen: <span class="pv pv-q">Q</span> steht so im Artikel, <span class="pv pv-ll">LL EAU 2026, Abschnitt</span> Leitlinie im Volltext geprüft, <span class="pv pv-x">X</span> eigene Einordnung ohne direkten Beleg. Richtige Antworten stützen sich nur auf Q oder LL.</p>
+</header>
+
+<section class="ruler" aria-labelledby="hc-h">
+ <h2 id="hc-h">Primärtumor: stadiengerechtes Vorgehen</h2>
+ <div class="panel">
+  <p class="lede">Stadium wählen. Angezeigt werden Verfahren, Entscheidung am Rand und Datenbasis. Quellen: Spreda &amp; Protzel 2025, EAU/ASCO 2026.</p>
+  <div class="segs" id="hcCauses" role="group" aria-label="Konstellation"></div>
+  <div class="verdict" id="hcOut" aria-live="polite"></div>
+ </div>
+</section>
+
+<section class="ruler" aria-labelledby="rp-h">
+ <h2 id="rp-h">cN0: operatives Staging oder Überwachung?</h2>
+ <div class="panel">
+  <p class="lede">Zutreffende Kriterien ankreuzen. Quellen: Dräger et al. 2025, EAU/ASCO 2026, Abschnitt 5.2.2.</p>
+  <ul class="crit" id="rpCrit"></ul>
+  <div class="verdict" id="rpOut" aria-live="polite"></div>
+ </div>
+</section>
+
+<section aria-labelledby="goals-h">
+ <h2 id="goals-h">Lernziele nach Themenachse</h2>
+ <div id="goals"></div>
+</section>
+
+<section class="quiz" aria-labelledby="quiz-h">
+ <h2 id="quiz-h">Fragen</h2>
+ <div class="panel" id="quiz" aria-live="polite"></div>
+</section>
+
+<section class="sources" aria-labelledby="src-h">
+ <h2 id="src-h">Quellen</h2>
+ <ol id="sources"></ol>
+</section>
+
+<section class="print-only" id="printall"></section>
+</main>
+
+<script>
+var DATA = {"meta": [["Quellen", "Spreda M, Protzel C. Urologie 2025;64:1261–1269 (Organerhalt). Dräger DL et al. Urologie 2025;64:1270–1279 (Lymphadenektomie). von Amsberg G. Urologie 2025;64:1280–1287 (Systemtherapie)."], ["Leitlinie", "EAU/ASCO Penile Cancer 2026, Kapitel 5 (5.1.2, 5.1.3, 5.2, 5.2.2, 5.2.3) und Kapitel 6 (6.1.2, 6.1.3, 6.1.5, 6.2.1, 6.2.2, 6.2.3, 6.3.5, 6.4.1, 6.4.2, 6.5.2, 6.5.4), Volltext geprüft am 21.09.2026."], ["Umfang", "16 Fragen in 8 Themenachsen, etwa 45 Minuten"], ["Lesehinweis", "Vier Fragen tragen ⚠. Wo die Quellartikel von der Leitlinie abweichen, folgt die richtige Antwort der Leitlinie: minimalinvasive Lymphadenektomie bei cN1 und cN2 nur in Studien, Sentinel-Biopsie statt modifizierter Lymphadenektomie als Staging, keine Biomarkerselektion für die Checkpointblockade. Aus dem Systemtherapie-Artikel bleiben Tabellenwerte außen vor, die seinem eigenen Text widersprechen; sein biochemischer Abschnitt enthält mehrere sachliche Fehler. Die Autorin dieses Artikels deklariert Beratungs- und Vortragshonorare zahlreicher Hersteller."]], "sources": ["Primärquelle 1: Spreda M, Protzel C (2025) Organerhalt oder Radikalität? Moderne chirurgische Konzepte im Spannungsfeld von Funktion und Onkologie. Urologie 64:1261–1269. https://doi.org/10.1007/s00120-025-02705-3", "Primärquelle 2: Dräger DL, Rinderknecht E, Held J, Völler MM, Bürk BT, Borkowetz A (2025) Inguinale und pelvine Lymphknotendissektion beim Peniskarzinom. Urologie 64:1270–1279. https://doi.org/10.1007/s00120-025-02702-6", "Primärquelle 3: von Amsberg G (2025) Personalisierte Systemtherapie beim Peniskarzinom. Urologie 64:1280–1287. https://doi.org/10.1007/s00120-025-02717-z", "Leitlinie: EAU-ASCO Collaborative Guidelines on Penile Cancer 2026, Kapitel 5 Diagnostic Evaluation and Staging sowie Kapitel 6 Disease Management. Online-Volltext, Abruf 21.09.2026.", "Studie: Roussel E et al. (2021) Prädiktoren des Lokalrezidivs und dessen Einfluss auf das Überleben nach Glansektomie. BJU Int 127:606–613 (zitiert nach Primärquelle 1).", "Studie: Sri D et al. (2018) Resektionsränder und Lokalrezidiv in der organerhaltenden Chirurgie. BJU Int 122:576–582; Yunis MZ et al. (2025) Schnellschnitt beim Peniskarzinom, systematische Übersicht. Int J Impot Res (zitiert nach Primärquelle 1).", "Studie: Lee EWC et al. (2023) J Urol 210:778–781 und Jazayeri SB et al. (2025) World J Urol 43:1–8 zur PeIN im Resektionsrand (zitiert nach Primärquelle 1).", "Studie: Sadeghi R et al. (2012) Genauigkeit der Sentinel-Biopsie, systematische Übersicht und Metaanalyse. J Urol 187:25–31; Spiess PE et al. (2009) World J Urol 27:205–212 zur Morbidität der Lymphadenektomie (zitiert nach Primärquelle 2).", "Studie: Singh A et al. (2018) Robotische gegenüber offener inguinaler Lymphadenektomie. J Urol 199:1518–1525 (zitiert nach Primärquelle 2).", "Studie: Knight AK et al. (2005) Falsch positive hCG-Tests bei IgA-Mangel. Clin Exp Immunol 141:333–337; Yoshimura K et al. (2019) hypophysäre hCG-Produktion unter Androgendeprivation. Int Braz J Urol 45:38–44 (zitiert nach Primärquelle 3).", "Studie: Necchi A et al. (2018) Dacomitinib beim fortgeschrittenen Peniskarzinom, Phase II. BJU Int 121:348–356; Cotait Maluf F et al. (2025) HERCULES, JAMA Oncol; García Del Muro X et al. (2025) ORPHEUS, Eur Urol Oncol 8:278–286 (zitiert nach Primärquelle 3).", "Studie: Iles RK (2007) Ektope β-hCG-Expression bei epithelialen Karzinomen. Mol Cell Endocrinol 260–262:264–270 (zitiert nach Primärquelle 3)."], "axes": {"A": "Erstlinie und Progress", "B": "Erwartung und Patientenselektion", "C": "Biomarker und zielgerichtete Ansätze", "D": "Lokoregionär fortgeschritten", "E": "Primärtumor: Organerhalt und Ränder", "F": "PeIN und Lokalrezidiv", "G": "Staging bei cN0", "H": "Inguinale und pelvine Chirurgie"}, "merk": {"A": ["Erstlinie bei Fernmetastasierung: platinbasierte Chemotherapie; Dubletten sind weniger toxisch als Tripletts [LL EAU 2026, 6.5.4].", "Bleomycin wird wegen der pulmonalen Toxizität nicht mehr gegeben [LL EAU 2026, 6.5.4].", "Wirksame Zweitlinien fehlen (medianes Überleben sechs Monate oder weniger); bei Progress Studieneinschluss anbieten, notfalls Basket-Studie [LL EAU 2026, 6.5.4]."], "B": ["Checkpointinhibitor-Monotherapie: 13 bis 17 % Ansprechen unselektiert, 35 % bei ausschließlich nodaler Metastasierung [Q].", "Ungünstige Prädiktoren: viszerale Metastasen, ECOG ab 1, erhöhter Neutrophilen-Lymphozyten-Quotient [Q].", "Chemotherapie plus Checkpointinhibitor erhöht die Ansprechrate auf rund 40 %, ohne belegten Langzeitnutzen; Phase II, kein Standard [Q] [LL EAU 2026, 6.5.2]."], "C": ["HPV-Status, Tumormutationslast und PD-L1 reichen als Selektionskriterien für eine Checkpointblockade nicht aus [LL EAU 2026, 6.5.2].", "EGFR ist in 85 bis 95 % überexprimiert, Mutationen sind selten; die Expression trennt Responder nicht von Non-Respondern [Q].", "Nectin-4- und TROP2-Daten widersprechen sich (Expression 89,4 % gegenüber 28 %); Antikörper-Wirkstoff-Konjugate laufen in Phase II [Q]."], "D": ["cN3 und bulky oder bilaterales cN2: neoadjuvante cisplatin- und taxanbasierte Chemotherapie vor der Operation [LL EAU 2026, 6.4.1].", "Operation fünf bis acht Wochen nach Chemotherapieende; nodales Management innerhalb von drei Monaten [LL EAU 2026, 6.3.4].", "Nicht resektabler Primärtumor: Induktionschemotherapie, bei Ansprechen Operation, sonst Chemoradiotherapie [LL EAU 2026, 6.1.5]."], "E": ["Sicherheitsabstand: wenige Millimeter genügen, risikoadaptiert; 10 bis 20 mm sind überholt [Q] [LL EAU 2026, 6.1.2].", "Schnellschnitt bei Zweifel an der Vollständigkeit, nicht routinemäßig; Genauigkeit über 95 % [Q] [LL EAU 2026, 6.1.5].", "Vor nichtoperativer Therapie (topisch, Laser, Bestrahlung) ist die Histologie zu sichern [LL EAU 2026, 5.1.3]."], "F": ["PeIN: topische Therapie oder Laser, Kontrolle nach therapiefreiem Intervall; bei Versagen nicht wiederholen [LL EAU 2026, 6.1.5].", "PeIN im Resektionsrand: widersprüchliche Daten, engmaschige Kontrolle statt reflexhafter Nachresektion [Q] [LL EAU 2026, 6.1.2].", "Lokalrezidiv nach Glansektomie senkt das krebsspezifische 5-Jahres-Überleben auf 68 % gegenüber 93,1 % [Q]."], "G": ["Ab T1b ist operatives Staging Standard, bevorzugt die Sentinel-Biopsie nach inguinaler Sonographie [LL EAU 2026, 5.2.2].", "CT, MRT und PET-CT erkennen Mikrometastasen nicht und ersetzen das operative Staging nicht [LL EAU 2026, 5.2.2].", "Sentinel-Biopsie: Sensitivität 92 bis 96 %, Falsch-negativ-Rate 4 bis 8 % in erfahrenen Zentren, Lernkurve etwa 25 Eingriffe [Q] [LL EAU 2026, 5.2.2]."], "H": ["Drei oder mehr befallene inguinale Lymphknoten einer Seite plus extranodale Ausbreitung: ipsilaterale pelvine Lymphadenektomie [LL EAU 2026, 6.2.3].", "Minimalinvasive inguinale Lymphadenektomie bei cN1 und cN2 nur in Studien, bei cN3 gar nicht [LL EAU 2026, 6.2.2].", "Nodales Management innerhalb von drei Monaten abschließen; Lymphödemrisiko 15 bis 57 % [Q] [LL EAU 2026, 6.2.2]."]}, "questions": [{"n": 1, "axis": "A", "diff": 1, "correct": "B", "objective": "Kann die Erstlinie beim fernmetastasierten Peniskarzinom leitliniengerecht wählen.", "reference": "Artikel: Hinführung zum Thema; EAU/ASCO 2026, 6.5.2 und 6.5.4", "vignette": "Ein 69-jähriger Mann hat ein Plattenepithelkarzinom des Penis mit pulmonalen und hepatischen Metastasen. ECOG 1, glomeruläre Filtrationsrate 78 ml/min, keine Neuropathie, keine relevanten Begleiterkrankungen. Der Primärtumor ist reseziert. Festlegung der palliativen Erstlinientherapie.", "lead": "Welche Erstlinientherapie ist angemessen?", "opts": {"A": "Pembrolizumab-Monotherapie wegen der hohen PD-L1-Rate", "B": "Platinbasierte Kombinationschemotherapie als Erstlinie", "C": "Bleomycin, Methotrexat und Cisplatin wie in den Altstudien", "D": "Cemiplimab analog zum kutanen Plattenepithelkarzinom", "E": "Best supportive care wegen der begrenzten Wirksamkeit"}, "rat": {"A": "Fehlannahme: Eine hohe PD-L1-Expression rechtfertige die Immunmonotherapie. Unselektiert liegen die Ansprechraten bei 13 bis 17 % [Q], und Biomarker reichen zur Auswahl nicht aus [LL EAU 2026, 6.5.2].", "B": "Die Leitlinie empfiehlt bei Fernmetastasierung platinbasierte Chemotherapie als bevorzugte Erstlinie [LL EAU 2026, 6.5.4].", "C": "Fehlannahme: Ältere Regime seien gleichwertig. Bleomycin soll wegen der pulmonalen Toxizität nicht gegeben werden [LL EAU 2026, 6.5.4].", "D": "Fehlannahme: Die Zulassung beim kutanen Plattenepithelkarzinom gelte analog. Sie deckt das Peniskarzinom nicht ab [Q].", "E": "Fehlannahme: Begrenzte Wirksamkeit rechtfertige den Verzicht. Mit Erstlinienchemotherapie lag das mediane Überleben bei 7,2 Monaten gegenüber zwei Monaten ohne [LL EAU 2026, 6.5.2]."}, "core": "Trotz moderater Wirksamkeit bleibt die platinbasierte Kombination die empfohlene Erstlinie; die Wahl zwischen Triplett und Dublette richtet sich nach Komorbidität [LL EAU 2026, 6.5.4].", "ev": "Als Regime nennt die Leitlinie TPF, TIP, Cisplatin mit 5-Fluorouracil sowie Paclitaxel mit Carboplatin, wobei Dubletten weniger toxisch sind; TPF und TIP kombinieren zwei neurotoxische Substanzen und passen nicht bei Neuropathie oder eingeschränkter Nierenfunktion [LL EAU 2026, 6.5.2]. Die publizierten Ansprechraten klassischer Regime liegen bei 31 bis 38,5 % mit medianem Gesamtüberleben zwischen sieben und 14 Monaten [Q].", "prax": "Vor der Auswahl stehen Nierenfunktion, Neuropathie und Allgemeinzustand [LL EAU 2026, 6.5.2]. Parallel gehört die Frage nach einer Studie auf den Tisch [LL EAU 2026, 6.5.4].", "merk": "Fernmetastasiertes Peniskarzinom: platinbasierte Chemotherapie zuerst, kein Bleomycin, Immuntherapie nicht als Standarderstlinie.", "flag": null}, {"n": 2, "axis": "A", "diff": 2, "correct": "A", "objective": "Kann bei Progress unter Platinchemotherapie die Studienoption als stärkste Empfehlung umsetzen.", "reference": "Artikel: Hinführung und Ausblick; EAU/ASCO 2026, 6.5.2 und 6.5.4", "vignette": "Ein 66-jähriger Mann mit metastasiertem Peniskarzinom zeigt nach vier Zyklen Cisplatin und 5-Fluorouracil einen radiologischen Progress in Lunge und Becken. ECOG 1, Organfunktionen erhalten, er möchte weiterbehandelt werden. Festlegung der nächsten Therapielinie.", "lead": "Welches Vorgehen ist begründet?", "opts": {"A": "Studieneinschluss anbieten, auch früher Phase oder Basket", "B": "Checkpointinhibitor off label als Zweitlinie geben", "C": "Cetuximab off label nach EGFR-Immunhistochemie", "D": "Dasselbe Platinschema für vier weitere Zyklen", "E": "Ausschließlich supportive Begleitung ohne weitere Optionen"}, "rat": {"A": "Die Leitlinie spricht hier ihre stärkste Empfehlung aus: Patienten mit Progress unter Platin soll der Einschluss in Studien angeboten werden, einschließlich früher Phasen und Basket-Studien [LL EAU 2026, 6.5.4].", "B": "Fehlannahme: Der Checkpointinhibitor sei die etablierte Zweitlinie. Die Ansprechraten liegen bei 13 bis 17 %, ohne Zulassung in dieser Indikation [Q].", "C": "Fehlannahme: Die EGFR-Färbung begründe die Therapie. Keine Daten stützen zielgerichtete Substanzen außerhalb von Studien [LL EAU 2026, 6.5.2].", "D": "Fehlannahme: Wiederholung bei Progress. Ein Progress unter laufender Therapie spricht gegen dasselbe Schema [X].", "E": "Fehlannahme: Ohne Zulassung bleibe nur Supportivtherapie. Zur Symptomkontrolle steht zusätzlich die palliative Radiotherapie bereit [LL EAU 2026, 6.5.4]."}, "core": "Wirksame Zweitlinien fehlen; die Leitlinie macht daher den Studienzugang zur Regelempfehlung und nicht zum Ausnahmefall [LL EAU 2026, 6.5.4].", "ev": "Zweitlinienchemotherapien erreichten in mehreren Arbeiten ein medianes Gesamtüberleben von sechs Monaten oder weniger [LL EAU 2026, 6.5.2]. Der Artikel beschreibt denselben Mangel und listet die laufenden Phase-II-Studien zu Antikörper-Wirkstoff-Konjugaten und PARP-Inhibitoren als derzeit strukturierten Zugang [Q]. Ist keine Peniskarzinomstudie verfügbar, empfiehlt die Leitlinie ausdrücklich die Aufnahme in eine frühe Basket-Studie [LL EAU 2026, 6.5.2].", "prax": "Die Studiensuche gehört zeitnah organisiert, weil der Allgemeinzustand rasch abfallen kann [X]. Bleibt keine Studie, sind Taxan- oder Vinflunin-Monotherapien palliative Alternativen mit Ansprechraten von 20 bis 27 % und medianem Überleben um 8,4 Monate [LL EAU 2026, 6.5.2].", "merk": "Progress unter Platin: Studie zuerst, auch Basket; Off-label-Immuntherapie ist kein Ersatz.", "flag": null}, {"n": 3, "axis": "B", "diff": 2, "correct": "C", "objective": "Kann die Erfolgsaussichten einer Checkpointblockade realistisch und metastasenmusterabhängig beziffern.", "reference": "Artikel: Tumormutationslast und immuntherapeutische Ansätze; EAU/ASCO 2026, 6.5.2", "vignette": "Ein 63-jähriger Mann mit Peniskarzinom hat ausschließlich inguinal und pelvin nodale Metastasen, ECOG 0. Er hat von Immuntherapie gelesen und fragt nach den Erfolgsaussichten. Am Zentrum läuft eine Studie mit einem Checkpointinhibitor. Beratungsgespräch vor der Therapieentscheidung.", "lead": "Wie ist der Patient zu beraten?", "opts": {"A": "Ansprechen von etwa 50 % in Aussicht stellen", "B": "Immuntherapie als wirksamer als Chemotherapie darstellen", "C": "Etwa 13 bis 17 % nennen, nodal höher, Studie anbieten", "D": "Immuntherapie wegen geringer Wirksamkeit nicht erwähnen", "E": "Ansprechen unabhängig vom Metastasenmuster gleich beziffern"}, "rat": {"A": "Fehlannahme: Die Zahlen der Kombinationsstudien gälten für die Monotherapie. Rund 50 % wurden nur mit zusätzlicher Platinchemotherapie erreicht [Q].", "B": "Fehlannahme: Die neuere Substanz sei wirksamer. Für die Erstlinie bleibt die platinbasierte Chemotherapie empfohlen [LL EAU 2026, 6.5.4].", "C": "Unselektiert liegt das Ansprechen bei 13 bis 17 %, bei ausschließlich nodaler Metastasierung wurden 35 % berichtet; die Konsequenz ist das Studienangebot [Q] [LL EAU 2026, 6.5.2].", "D": "Fehlannahme: Geringe Ansprechraten rechtfertigten das Verschweigen. Die Leitlinie empfiehlt allen Patienten den Studienzugang [LL EAU 2026, 6.5.2].", "E": "Fehlannahme: Das Metastasenmuster sei unerheblich. Genau dieses trennt 13 von 35 % [Q]."}, "core": "Die Beratung nennt die tatsächlichen Größenordnungen und ordnet sie dem Metastasenmuster zu, statt mit den Zahlen der Kombinationsstudien zu werben [Q].", "ev": "In einer multizentrischen retrospektiven Analyse von 92 Patienten lag die Ansprechrate bei 13 %, bei ausschließlich nodaler Metastasierung bei 35 %; das mediane Gesamtüberleben betrug 9,8 Monate [Q]. Ungünstige Prädiktoren waren viszerale Metastasen, ECOG ab 1 und ein erhöhter Neutrophilen-Lymphozyten-Quotient [Q]. Prospektiv erreichten die Monotherapien in ORPHEUS und PERICLES jeweils 16,7 % [Q] [LL EAU 2026, 6.5.2].", "prax": "Die Zahlen stammen überwiegend aus retrospektiven Serien und kleinen Phase-II-Studien; das gehört ins Gespräch [Q]. Dauerhafte Remissionen kommen vor, sind aber selten [LL EAU 2026, 6.5.2].", "merk": "Checkpointblockade beim Peniskarzinom: 13 bis 17 % unselektiert, 35 % bei rein nodaler Metastasierung.", "flag": "Die Zahlen stammen aus retrospektiven Serien und einarmigen Phase-II-Studien mit 18 bis 92 Patienten; randomisierte Vergleiche fehlen."}, {"n": 4, "axis": "B", "diff": 3, "correct": "D", "objective": "Kann die Kombination aus Chemotherapie und Checkpointinhibitor als Studienkonzept statt als Standard einordnen.", "reference": "Artikel: HERCULES und EPIC-A; EAU/ASCO 2026, 6.5.2", "vignette": "Ein 58-jähriger Mann mit neu diagnostiziertem metastasiertem Peniskarzinom soll Cisplatin und 5-Fluorouracil erhalten. Ein Kollege schlägt vor, Pembrolizumab analog zur HERCULES-Studie zu ergänzen; eine Studie läuft am Haus nicht. Festlegung der Erstlinientherapie.", "lead": "Welches Vorgehen ist begründet?", "opts": {"A": "Pembrolizumab ergänzen, weil das Ansprechen auf 39 % steigt", "B": "Pembrolizumab allein statt der geplanten Chemotherapie", "C": "Chemotherapie plus Cemiplimab analog der EPIC-A-Studie", "D": "Platinchemotherapie wie geplant, Kombination nur in Studien", "E": "Carboplatin-Monotherapie zur Toxizitätsminderung"}, "rat": {"A": "Fehlannahme: Eine höhere Ansprechrate sei schon ein Nutzennachweis. Ein randomisierter Vergleich fehlt [LL EAU 2026, 6.5.2].", "B": "Fehlannahme: Immuntherapie ersetze die Chemotherapie. Monotherapien erreichen 13 bis 17 % [Q].", "C": "Fehlannahme: Eine zweite Phase-II-Studie mache das Konzept zum Standard. EPIC-A schloss 29 Patienten ein [Q].", "D": "Außerhalb von Studien bleibt die platinbasierte Chemotherapie die empfohlene Erstlinie [LL EAU 2026, 6.5.4].", "E": "Fehlannahme: Carboplatin allein sei die schonende Lösung. Empfohlen sind Kombinationen, bei Bedarf Dubletten wie Paclitaxel mit Carboplatin [LL EAU 2026, 6.5.2]."}, "core": "Die Kombination stammt aus einarmigen Phase-II-Studien und ist kein Standard; sie gehört in eine Studie oder in eine dokumentierte Einzelfallentscheidung [LL EAU 2026, 6.5.2] [Q].", "ev": "In HERCULES lag die Ansprechrate unter Cisplatin, 5-Fluorouracil und Pembrolizumab bei 39,4 %, das mediane progressionsfreie Überleben bei 5,4 und das mediane Gesamtüberleben bei 9,6 Monaten [Q] [LL EAU 2026, 6.5.2]. Die Leitlinie ordnet das so ein, dass die Kombination die Ansprechraten erhöht, einen langfristigen Vorteil gegenüber der Immuntherapie allein aber nicht belegt [LL EAU 2026, 6.5.2]. Nebenwirkungen vom Grad 3 oder 4 traten bei 51 % auf [Q].", "prax": "Wer die Kombination dennoch einsetzen will, dokumentiert die Off-label-Situation samt Toxizitätsrisiko [X]. Maßgeblich sind die Primärpublikationen, nicht die Zusammenfassung [X].", "merk": "Chemotherapie plus Checkpointinhibitor: höhere Ansprechrate, aber Phase II ohne Langzeitnutzen und mit 51 % Grad-3/4-Toxizität.", "flag": "Die Übersichtsarbeit nennt für HERCULES 37 Patienten, die Leitlinie 33; in beiden Fällen handelt es sich um eine einarmige Phase-II-Studie ohne randomisierten Vergleich."}, {"n": 5, "axis": "C", "diff": 2, "correct": "E", "objective": "Kann PD-L1 und Tumormutationslast beim Peniskarzinom als nicht validierte Selektionskriterien einordnen.", "reference": "Artikel: Tumormutationslast und HPV; EAU/ASCO 2026, 6.5.2", "vignette": "Bei einem 71-jährigen Mann mit metastasiertem Peniskarzinom zeigt das molekulare Profil eine PD-L1-Expression von 40 % und eine Tumormutationslast von 12 Mutationen pro Megabase. Eine Mikrosatelliteninstabilität besteht nicht. Er ist chemotherapiefähig, die Erstlinie steht an. Festlegung der Therapie.", "lead": "Welche Konsequenz hat das molekulare Profil?", "opts": {"A": "Checkpointinhibitor statt Chemotherapie in der Erstlinie", "B": "Kombination aus Checkpointinhibitor und Chemotherapie", "C": "EGFR-Antikörper ergänzen, da der HPV-Status unklar ist", "D": "Wiederholung der Testung an einer Metastase abwarten", "E": "Keine, die Erstlinie bleibt platinbasierte Chemotherapie"}, "rat": {"A": "Fehlannahme: Ein hoher Biomarkerwert ersetze die Datenlage. Die Erstlinienempfehlung bleibt die Chemotherapie [LL EAU 2026, 6.5.4].", "B": "Fehlannahme: Die Kombination als Kompromiss. Sie ist Phase-II-Material ohne randomisierten Vergleich [Q].", "C": "Fehlannahme: EGFR-Antikörper als Zusatz. Keine Daten stützen zielgerichtete Substanzen in dieser Erkrankung [LL EAU 2026, 6.5.2].", "D": "Fehlannahme: Eine erneute Testung ändere die Entscheidung. Für keinen dieser Marker existiert ein validierter Grenzwert [LL EAU 2026, 6.5.2].", "E": "Weder PD-L1 noch Tumormutationslast sind beim Peniskarzinom validierte Selektionskriterien [LL EAU 2026, 6.5.2]."}, "core": "Das Profil ändert die Erstlinie nicht: Die Leitlinie hält die vorliegenden Biomarkerdaten für unzureichend, um Patienten für eine Checkpointblockade auszuwählen [LL EAU 2026, 6.5.2].", "ev": "Die Übersichtsarbeit zeigt, warum: In einer Kohorte von 397 Patienten war eine hohe Mutationslast mit höherer HPV-Positivität assoziiert, in einer Analyse von 165 Tumoren dagegen mit HPV-Negativität [Q]. 40 bis 60 % der Tumoren exprimieren PD-L1 stark, ohne dass daraus ein prädiktiver Wert abgeleitet wäre [Q]. Tumoragnostische Optionen bestehen in manchen Ländern bei Mismatch-Repair-Defizienz oder sehr hoher Mutationslast; beides liegt hier nicht vor [LL EAU 2026, 6.5.2].", "prax": "Das Profil bleibt nützlich, weil es den Zugang zu Basket-Studien eröffnet [LL EAU 2026, 6.5.2]. Keimbahnbefunde in Reparaturgenen fanden sich bei 6,9 % und sind ein Grund für genetische Beratung [Q].", "merk": "PD-L1 und Tumormutationslast steuern beim Peniskarzinom keine Therapieentscheidung.", "flag": null}, {"n": 6, "axis": "C", "diff": 3, "correct": "A", "objective": "Kann die EGFR-Überexpression als nicht prädiktiv erkennen und Off-label-Therapien vermeiden.", "reference": "Artikel: EGFR-gerichtete Therapie und Antikörperkonjugate; EAU/ASCO 2026, 6.5.2", "vignette": "Bei einem 64-jährigen Mann mit progredientem metastasiertem Peniskarzinom nach Platinchemotherapie zeigt die Immunhistochemie eine starke EGFR-Expression. Eine Mutation oder Amplifikation wurde nicht gefunden. Der Patient drängt auf eine zielgerichtete Therapie. Festlegung des Vorgehens.", "lead": "Welches Vorgehen ist begründet?", "opts": {"A": "Studieneinschluss anbieten, keine EGFR-Therapie off label", "B": "Cetuximab off label wegen starker EGFR-Expression", "C": "Dacomitinib off label, in der Phase-II-Studie sprachen 32 % an", "D": "Panitumumab off label wegen fehlender Alternativen", "E": "Trastuzumab Deruxtecan unabhängig vom HER2-Befund geben"}, "rat": {"A": "Die Expression ist nahezu universell und damit kein Selektionsmerkmal; die Leitlinie verweist auf Studien einschließlich früher Phasen [Q] [LL EAU 2026, 6.5.4].", "B": "Fehlannahme: Starke Färbung bedeute Ansprechen. Die Expression trennt Responder nicht von Non-Respondern [Q].", "C": "Fehlannahme: Eine einarmige Phase-II-Studie begründe den Off-label-Einsatz. Die Remissionen waren überwiegend kurz [Q].", "D": "Fehlannahme: Fehlende Alternativen rechtfertigen jeden Versuch. Keine Daten stützen zielgerichtete Substanzen in dieser Erkrankung [LL EAU 2026, 6.5.2].", "E": "Fehlannahme: Tumoragnostische Zulassungen gälten ohne Befund. Sie setzen einen HER2-positiven Nachweis voraus [LL EAU 2026, 6.5.2]."}, "core": "Eine EGFR-Überexpression liegt bei 85 bis 95 % der Peniskarzinome vor und begründet außerhalb von Studien keine Therapie [Q] [LL EAU 2026, 6.5.2].", "ev": "Mutationen oder Amplifikationen im EGFR-Gen sind selten, die Proteinüberexpression dagegen nahezu universell [Q]. In der Phase-II-Studie mit Dacomitinib lag das Ansprechen bei 32,1 %, EGFR-Amplifikationen fanden sich aber bei Respondern wie bei Non-Respondern [Q]. Retrospektive Serien mit Cetuximab berichteten partielle Remissionen bei 23,5 %, meist von kurzer Dauer [Q].", "prax": "Ein molekulares Profil lohnt trotzdem, weil es den Zugang zu Basket-Studien eröffnet [LL EAU 2026, 6.5.2]. Konjugate gegen Nectin-4 oder TROP2 sind beim Peniskarzinom bislang Fallbericht und laufende Phase II [Q].", "merk": "EGFR-Überexpression ist beim Peniskarzinom Regel, nicht Prädiktor: keine Off-label-Therapie darauf stützen.", "flag": null}, {"n": 7, "axis": "D", "diff": 2, "correct": "B", "objective": "Kann bei fixiertem inguinalem oder pelvinem Befall die neoadjuvante Chemotherapie vor die Operation stellen.", "reference": "EAU/ASCO 2026, 6.3.2, 6.3.5 und 6.4.1", "vignette": "Ein 62-jähriger Mann hat ein Peniskarzinom mit fixierter, 6 cm großer inguinaler Lymphknotenmasse links und vergrößerten pelvinen Lymphknoten im CT. Keine Fernmetastasen, ECOG 1, glomeruläre Filtrationsrate 80 ml/min, keine Neuropathie. Der Primärtumor ist reseziert. Festlegung des Vorgehens.", "lead": "Welches Vorgehen ist begründet?", "opts": {"A": "Primär radikale inguinale und pelvine Lymphadenektomie", "B": "Neoadjuvante cisplatin- und taxanbasierte Chemotherapie", "C": "Primäre Radiotherapie der Leiste ohne Systemtherapie", "D": "Videoendoskopische inguinale Lymphadenektomie beidseits", "E": "Alleinige palliative Systemtherapie ohne Operationsziel"}, "rat": {"A": "Fehlannahme: Der Tumor müsse zuerst entfernt werden. Upfront-Chirurgie ist bei cN3 nicht die Routine und geht mit Komplikationsraten von 65 bis 77 % einher [LL EAU 2026, 6.3.2].", "B": "Die Leitlinie empfiehlt bei pelvinem Befall oder ausgedehnter inguinaler Beteiligung die neoadjuvante Chemotherapie vor der Operation [LL EAU 2026, 6.4.1].", "C": "Fehlannahme: Bestrahlung ersetze die Systemtherapie. Sie kommt für Patienten infrage, die für eine Mehrfachchemotherapie nicht geeignet sind [LL EAU 2026, 6.4.2].", "D": "Fehlannahme: Minimalinvasiv sei schonender. Bei cN3 soll die videoendoskopische Lymphadenektomie nicht angeboten werden [LL EAU 2026, 6.3.5].", "E": "Fehlannahme: Ausgedehnter Befall sei nur palliativ behandelbar. Etwa die Hälfte spricht an, und Responder haben eine kurative Chance [LL EAU 2026, 6.3.5]."}, "core": "Bei fixierter inguinaler Masse oder pelvinem Befall ist die neoadjuvante Chemotherapie der primären Operation vorzuziehen; bei Ansprechen folgt die konsolidierende Lymphadenektomie [LL EAU 2026, 6.3.5].", "ev": "Systematische Übersichten nennen radiologische Ansprechraten um 53 % und pathologische Komplettremissionen um 12,8 % [LL EAU 2026, 6.3.2]. Responder mit anschließender chirurgischer Konsolidierung erreichen ein mittleres 5-Jahres-Überleben von 56,9 % [LL EAU 2026, 6.3.3]. Bevorzugt wird eine cisplatin- und taxanbasierte Kombination als Doublette oder Triplette [LL EAU 2026, 6.4.1].", "prax": "Die Operation folgt fünf bis acht Wochen nach Abschluss der Chemotherapie [LL EAU 2026, 6.3.4]. Bleibt das Ansprechen aus, ist der Nutzen der Operation neu zu bewerten [LL EAU 2026, 6.4.1].", "merk": "Fixierte inguinale Masse oder pelviner Befall: erst Chemotherapie, dann Operation bei Ansprechen.", "flag": null}, {"n": 8, "axis": "D", "diff": 1, "correct": "C", "objective": "Kann beim nicht resektablen Primärtumor die Induktionschemotherapie mit nachfolgender Operation planen.", "reference": "EAU/ASCO 2026, 6.1.3 und 6.1.5", "vignette": "Ein 74-jähriger Mann hat ein ausgedehntes Peniskarzinom mit Infiltration von Skrotum und Symphysenregion; eine Resektion mit freien Rändern ist nicht möglich. Keine Fernmetastasen, ECOG 1, chemotherapiefähig. Festlegung des Vorgehens.", "lead": "Welches Vorgehen ist begründet?", "opts": {"A": "Totale Penektomie mit perinealer Urethrostomie sofort", "B": "Palliative Radiotherapie ohne weiteres Therapieziel", "C": "Induktionschemotherapie, bei Ansprechen Operation", "D": "Primäre Immuntherapie mit einem Checkpointinhibitor", "E": "Alleinige Brachytherapie des Primärtumors ohne Chemo"}, "rat": {"A": "Fehlannahme: Radikalität um jeden Preis. Ohne freie Ränder ist das Ziel nicht erreichbar, die Morbidität aber hoch [LL EAU 2026, 6.1.3].", "B": "Fehlannahme: Nicht resektabel bedeute palliativ. Ein Teil der Patienten wird nach Induktion resektabel [LL EAU 2026, 6.1.3].", "C": "Die Induktionschemotherapie ermöglicht ein Downstaging, Responder werden operiert; Alternative ist die Chemoradiotherapie [LL EAU 2026, 6.1.5].", "D": "Fehlannahme: Immuntherapie als Downstaging. Ansprechraten von 13 bis 17 % tragen dieses Ziel nicht [Q].", "E": "Fehlannahme: Brachytherapie sei organerhaltend genug. Sie ist für Läsionen unter 4 cm in den Stadien T1 und T2 untersucht [LL EAU 2026, 6.1.2]."}, "core": "Beim nicht resektablen Primärtumor steht die Systemtherapie vor der Chirurgie: Downstaging, dann Operation bei Ansprechen [LL EAU 2026, 6.1.5].", "ev": "Objektive Ansprechraten liegen bei Kombinationsregimen zwischen 29 und 60 %, gepoolt bei 53 bis 57 %, mit pathologischen Komplettremissionen in 4 bis 10 % [LL EAU 2026, 6.1.3]. Die Leitlinie empfiehlt Induktionschemotherapie mit nachfolgender Operation bei Ansprechen oder eine Chemoradiotherapie, auch für Patienten, die eine Operation ablehnen [LL EAU 2026, 6.1.5]. Ohne ausreichendes Ansprechen bleibt die palliative Chemoradiotherapie [LL EAU 2026, 6.1.3].", "prax": "Die Entscheidung gehört ins interdisziplinäre Tumorboard mit Radioonkologie und plastischer Chirurgie [X]. Die Regimewahl folgt der Erstlinienlogik mit Cisplatin und Taxan [LL EAU 2026, 6.4.1].", "merk": "Nicht resektabler Primärtumor: Induktionschemotherapie, Operation bei Ansprechen, sonst Chemoradiotherapie.", "flag": null}, {"n": 9, "axis": "E", "diff": 2, "correct": "D", "objective": "Kann den Sicherheitsabstand risikoadaptiert wählen und den Schnellschnitt gezielt einsetzen.", "reference": "Artikel: Sicherheitsabstand und Schnellschnittdiagnostik; EAU/ASCO 2026, 6.1.2 und 6.1.5", "vignette": "Ein 58-jähriger Mann hat ein auf die Glans begrenztes Peniskarzinom, Biopsie pT1b G2, cN0. Die MRT zeigt keine Infiltration der Corpora cavernosa. Er wünscht ausdrücklich ein organerhaltendes Vorgehen und ist zu engmaschiger Nachsorge bereit. Festlegung des operativen Vorgehens.", "lead": "Welches Vorgehen ist angemessen?", "opts": {"A": "Partielle Penektomie mit 20 mm makroskopischem Abstand", "B": "Laserablation ohne vorherige histologische Sicherung", "C": "Primäre externe Strahlentherapie statt jeder Operation", "D": "Organerhaltende Resektion mit wenigen Millimetern Rand", "E": "Glansektomie erst nach MRT-Nachweis der Infiltration"}, "rat": {"A": "Fehlannahme: Der alte Standard von 10 bis 20 mm gelte weiter. Er ist überholt, ohne dass die Rezidivraten steigen [Q].", "B": "Fehlannahme: Ablation ohne Histologie. Vor nichtoperativer Therapie ist eine Biopsie zu sichern [LL EAU 2026, 5.1.3], und die Lokalrezidivrate nach Laser ist höher [LL EAU 2026, 6.1.2].", "C": "Fehlannahme: Strahlentherapie als gleichwertiger Ersatz. Sie wird selektierten T1- und T2-Patienten angeboten, chirurgisch bleiben die Ergebnisse besser [LL EAU 2026, 6.1.2] [Q].", "D": "Wenige Millimeter makroskopischer Abstand reichen aus, im Zweifel klärt der Schnellschnitt den Rand [Q] [LL EAU 2026, 6.1.2].", "E": "Fehlannahme: Ohne Infiltrationsnachweis keine Glansektomie. Die MRT klärt die Corpora-Beteiligung, nicht die Wahl des organerhaltenden Verfahrens [LL EAU 2026, 5.1.2]."}, "core": "Organerhalt ist hier möglich: Der Rand wird risikoadaptiert und knapp gewählt, die Radikalität über den Schnellschnitt gesichert [Q] [LL EAU 2026, 6.1.2].", "ev": "Bei Resektionsrändern unter 5 mm bleiben die Rezidivraten niedrig; Sri et al. berichteten 4 % bei 1 mm Abstand [Q]. Die Leitlinie sieht erst unter 1 mm deutlich höhere Lokalrezidivraten und empfiehlt bei High-grade-Tumoren großzügigere Ränder [LL EAU 2026, 6.1.2]. Eine Metaanalyse beziffert die Genauigkeit der Schnellschnittdiagnostik auf über 95 % [Q]; routinemäßig empfohlen ist sie nicht, wohl aber bei Zweifel an der Vollständigkeit [LL EAU 2026, 6.1.5].", "prax": "Zeigt die Endhistologie einen positiven invasiven Rand, wird die Lokalisation in der klinisch-pathologischen Konferenz festgelegt und gezielt nachreseziert [Q]. Organerhalt setzt die Bereitschaft zu engmaschiger Nachsorge voraus [LL EAU 2026, 6.1.5].", "merk": "Sicherheitsabstand in Millimetern statt Zentimetern, Schnellschnitt im Zweifel, Histologie vor jeder nichtoperativen Therapie.", "flag": null}, {"n": 10, "axis": "E", "diff": 3, "correct": "E", "objective": "Kann mit einer PeIN im Resektionsrand umgehen, ohne reflexhaft nachzuresezieren.", "reference": "Artikel: Sicherheitsabstand und Schnellschnittdiagnostik; EAU/ASCO 2026, 6.1.2", "vignette": "Bei einem 63-jährigen Mann zeigt die Endhistologie nach Glansektomie einen pT2 G2 Tumor mit tumorfreien invasiven Rändern, im Randbereich jedoch eine penile intraepitheliale Neoplasie. Der Patient ist beschwerdefrei und zuverlässig in der Nachsorge. Festlegung des weiteren Vorgehens.", "lead": "Welches Vorgehen ist begründet?", "opts": {"A": "Sofortige Nachresektion der gesamten Glansregion", "B": "Adjuvante Strahlentherapie des Resektionsgebiets", "C": "Topische Therapie ohne weitere Kontrollen anschließen", "D": "Keine Konsequenz, Nachsorge wie üblich fortsetzen", "E": "Engmaschige Kontrolle, bei Bedarf topisch oder Laser"}, "rat": {"A": "Fehlannahme: Jeder positive Rand verlangt die Nachresektion. Für die intraepitheliale Neoplasie im Rand ist das nicht belegt und kostet Funktion [LL EAU 2026, 6.1.2].", "B": "Fehlannahme: Bestrahlung als Absicherung. Für diese Situation fehlt die Datengrundlage [X].", "C": "Fehlannahme: Behandeln und abhaken. Vor und nach topischer Therapie sind Kontrollen und im Zweifel Biopsien erforderlich [Q] [LL EAU 2026, 6.1.5].", "D": "Fehlannahme: Der Befund sei bedeutungslos. Ein Teil der Daten zeigt höhere Lokalrezidivraten [Q].", "E": "Die Leitlinie hält Überwachung mit oder ohne topische Therapie für vertretbar und verlangt eine gemeinsame Entscheidung [LL EAU 2026, 6.1.2]."}, "core": "Die Datenlage zur intraepithelialen Neoplasie im Rand ist widersprüchlich; vertretbar ist die engmaschige Überwachung mit gezielter topischer oder ablativer Therapie statt der sofortigen Nachresektion [Q] [LL EAU 2026, 6.1.2].", "ev": "Lee et al. fanden eine signifikant höhere Lokalrezidivrate bei intraepithelialer Neoplasie im Rand, Jazayeri et al. kein erhöhtes Risiko [Q]. Die Leitlinie bewertet die Evidenz als heterogen, sieht die Nachresektion als potenziell funktionsschädigend und nennt Überwachung mit oder ohne topische Therapie als sinnvolle Strategie [LL EAU 2026, 6.1.2]. Differenzierte intraepitheliale Läsionen und Lichen sclerosus im Rand sind häufig und ohne Einfluss auf das krebsspezifische Überleben [LL EAU 2026, 6.1.2].", "prax": "Nach organerhaltender Therapie sind in den ersten zwei Jahren vierteljährliche, danach halbjährliche Kontrollen vorgesehen [Q]. Für invasive Ränder gilt das Gegenteil: dort wird gezielt nachreseziert [Q].", "merk": "Intraepitheliale Neoplasie im Rand: kontrollieren und gezielt behandeln; invasiver Rand: nachresezieren.", "flag": "Die Studienlage ist widersprüchlich (Lee gegen Jazayeri); die Leitlinie lässt beide Wege zu und verlangt eine partizipative Entscheidung."}, {"n": 11, "axis": "F", "diff": 1, "correct": "A", "objective": "Kann die biopsiegesicherte PeIN stadiengerecht behandeln und den Therapieerfolg prüfen.", "reference": "Artikel: Behandlung nichtinvasiver Tumoren; EAU/ASCO 2026, 6.1.5", "vignette": "Ein 55-jähriger Mann hat eine biopsiegesicherte penile intraepitheliale Neoplasie der Glans; die Zirkumzision ist erfolgt, drei Monate später besteht der Befund fort. Keine Hinweise auf Invasion, der Patient wünscht ein möglichst schonendes Vorgehen. Festlegung der Therapie.", "lead": "Welche Therapie ist angemessen?", "opts": {"A": "Topische Therapie mit 5-Fluorouracil oder Imiquimod", "B": "Partielle Penektomie wegen des Progressionsrisikos", "C": "Wiederholung derselben Creme nach Therapieversagen", "D": "Beobachtung ohne Therapie und ohne Kontrollbiopsien", "E": "Externe Strahlentherapie der gesamten Glansregion"}, "rat": {"A": "Die Leitlinie empfiehlt bei biopsiegesicherter intraepithelialer Neoplasie topisch 5-Fluorouracil oder Imiquimod und die Prüfung des Effekts nach therapiefreiem Intervall [LL EAU 2026, 6.1.5].", "B": "Fehlannahme: Präkanzerose wie Karzinom behandeln. Das Progressionsrisiko liegt unter 10 % [Q].", "C": "Fehlannahme: Zweiter Versuch mit derselben Substanz. Bei Versagen soll die topische Therapie nicht wiederholt werden [LL EAU 2026, 6.1.5].", "D": "Fehlannahme: Der Befund brauche keine Therapie. Er geht trotz Behandlung in 2,6 bis 13 % in ein invasives Karzinom über [LL EAU 2026, 6.1.5].", "E": "Fehlannahme: Strahlentherapie bei Präkanzerose. Dafür besteht keine Indikation [X]."}, "core": "Nach Zirkumzision und fortbestehendem Befund ist die topische Therapie der leitliniengerechte nächste Schritt, mit geplanter Erfolgskontrolle [LL EAU 2026, 6.1.5].", "ev": "Ansprech- und Rezidivraten liegen bei 40 bis 100 % und 20 % für Imiquimod sowie 48 bis 74 % und 11 % für 5-Fluorouracil [LL EAU 2026, 6.1.5]. Der Artikel nennt erhebliche lokale Nebenwirkungen mit Therapieabbrüchen und Lokalrezidive in bis zu 50 % [Q]. Bei ausgedehnter oder therapierefraktärer Erkrankung ist das Glans-Resurfacing die chirurgische Option; dabei fand sich in 20 % der Fälle doch ein invasives Karzinom [Q].", "prax": "Ein unzureichendes Ansprechen kann auf eine unerkannte Invasion hinweisen; dann folgt die Biopsie statt des nächsten Zyklus [LL EAU 2026, 6.1.5]. Langfristige Kontrollen sind Teil des Konzepts [Q].", "merk": "PeIN: erst Zirkumzision, dann topisch oder Laser, Erfolg kontrollieren, bei Versagen Verfahren wechseln statt wiederholen.", "flag": null}, {"n": 12, "axis": "F", "diff": 2, "correct": "C", "objective": "Kann ein Lokalrezidiv nach Glansektomie behandeln und seine prognostische Bedeutung benennen.", "reference": "Artikel: Gesamtüberleben durch Lokalrezidive unbeeinträchtigt?; EAU/ASCO 2026, 6.1.2", "vignette": "Ein 61-jähriger Mann hat 14 Monate nach Glansektomie bei pT2 G2 ein 8 mm großes Lokalrezidiv am Neoglans. Die MRT zeigt keine Infiltration der Corpora cavernosa, die Leisten sind unauffällig. Er fragt, ob das Rezidiv seine Prognose verändert. Festlegung von Therapie und Aufklärung.", "lead": "Welches Vorgehen ist begründet?", "opts": {"A": "Erneut organerhaltend resezieren, die Prognose bleibt gleich", "B": "Totale Penektomie, weil der Organerhalt gescheitert ist", "C": "Erneut organerhaltend, danach engere Nachsorge", "D": "Adjuvante Strahlentherapie des Rezidivgebiets anschließen", "E": "Inguinale Lymphadenektomie beidseits wegen des Rezidivs"}, "rat": {"A": "Fehlannahme: Das Dogma vom prognostisch neutralen Lokalrezidiv. Es stammt aus Kohorten mit überwiegend oberflächlichen Tumoren [Q].", "B": "Fehlannahme: Rezidiv bedeute Amputation. Ohne Beteiligung der Corpora ist die erneute organerhaltende Resektion vorgesehen [LL EAU 2026, 6.1.5].", "C": "Ein kleines Rezidiv ohne Schwellkörperbefall wird erneut organerhaltend behandelt, die Aufklärung benennt das erhöhte Risiko [LL EAU 2026, 6.1.5] [Q].", "D": "Fehlannahme: Bestrahlung als Absicherung nach Resektion. Dafür fehlt beim Primärtumor die Datengrundlage [X].", "E": "Fehlannahme: Das Lokalrezidiv begründe die Lymphadenektomie. Die Indikation richtet sich nach Lymphknotenstatus und Risikoprofil [LL EAU 2026, 5.2.2]."}, "core": "Therapeutisch ändert sich wenig, prognostisch viel: Das Lokalrezidiv ist ein unabhängiger Prädiktor für schlechteres Überleben und begründet eine engere Nachsorge [Q] [LL EAU 2026, 6.1.2].", "ev": "In der multizentrischen Kohorte von Roussel et al. mit über 800 invasiven Tumoren lag das krebsspezifische 5-Jahres-Überleben bei Lokalrezidiv bei 68 % gegenüber 93,1 %; auch nach Ausschluss positiver Ränder, des Stadiums T3 und klinischer Lymphknotenmetastasen blieb es ein unabhängiger Prädiktor [Q]. Die Leitlinie führt dieselben Daten und hält fest, dass Lokalrezidive in Kohorten mit höherem Risiko mit schlechterem Überleben einhergehen [LL EAU 2026, 6.1.2].", "prax": "Prädiktoren für ein Rezidiv nach Glansektomie sind perineurale Invasion, Carcinoma in situ, positive Ränder und High-grade-Tumoren; danach richtet sich die Nachsorgedichte [Q]. Der Patient gehört über beides aufgeklärt: erneuter Organerhalt ist möglich, das Risiko ist real [X].", "merk": "Lokalrezidiv nach Glansektomie: erneut organerhaltend möglich, aber prognostisch relevant und Anlass für engere Nachsorge.", "flag": null}, {"n": 13, "axis": "G", "diff": 2, "correct": "B", "objective": "Kann bei cN0 ab T1b das operative Lymphknotenstaging indizieren und das Verfahren wählen.", "reference": "Artikel: Umgang mit nicht-palpablen inguinalen Lymphknoten; EAU/ASCO 2026, 5.2.2", "vignette": "Ein 66-jähriger Mann wurde wegen eines Peniskarzinoms glansektomiert; die Histologie zeigt pT1b G2 mit Lymphgefäßinvasion. Beide Leisten sind klinisch unauffällig, die Palpation ist wegen Adipositas erschwert. Festlegung des Lymphknotenstagings.", "lead": "Welches Vorgehen ist angemessen?", "opts": {"A": "Überwachung beider Leisten mit klinischen Kontrollen", "B": "Inguinale Sonographie, danach Sentinel-Biopsie", "C": "Becken-CT zum Ausschluss von Mikrometastasen", "D": "Beidseitige radikale inguinale Lymphadenektomie", "E": "FDG-PET-CT vor jeder operativen Entscheidung"}, "rat": {"A": "Fehlannahme: Unauffällige Leisten erlaubten Überwachung. Sie bleibt Niedrigrisikotumoren vorbehalten, bei T1a G2 nach Abwägung [LL EAU 2026, 5.2.2].", "B": "Ab T1b empfiehlt die Leitlinie operatives Staging, bevorzugt die Sentinel-Biopsie, und davor die inguinale Sonographie mit Feinnadelpunktion auffälliger Knoten [LL EAU 2026, 5.2.2].", "C": "Fehlannahme: Schnittbildgebung erkenne Mikrometastasen. Weder CT noch MRT können das, und bei cN0 sind sie nicht empfohlen [LL EAU 2026, 5.2.2].", "D": "Fehlannahme: Mehr Radikalität sei sicherer. Die radikale Lymphadenektomie hat die höchste Morbidität und operiert die Mehrzahl unnötig [LL EAU 2026, 5.2.2].", "E": "Fehlannahme: PET löse das Staging. Metastasen unter 10 mm werden nicht zuverlässig erkannt [LL EAU 2026, 5.2.2]."}, "core": "Ab T1b besteht ein hohes Risiko okkulter Metastasen; die Leitlinie empfiehlt operatives Staging und darin die Sentinel-Biopsie als Verfahren der Wahl [LL EAU 2026, 5.2.2].", "ev": "Bei pT1b G2 liegt die Wahrscheinlichkeit einer Mikrometastasierung bei 22 bis 30 %, bei pT1a G2 dagegen bei 6 bis 8 % [LL EAU 2026, 5.2.2]. Die Sentinel-Biopsie erreicht in erfahrenen Zentren eine Sensitivität von 92 bis 96 % bei Falsch-negativ-Raten von 4 bis 8 % und Komplikationen in 6 bis 14 %, die modifizierte Lymphadenektomie dagegen Falsch-negativ-Raten von 15 bis 20 % [LL EAU 2026, 5.2.2]. Der Artikel nennt für die Sentinel-Biopsie 4,8 % falsch negative Befunde [Q].", "prax": "Die erschwerte Palpation ist ein Grund für die Sonographie, ersetzt aber das operative Staging nicht [LL EAU 2026, 5.2.2]. Bei positivem Sentinel folgt die ipsilaterale radikale Lymphadenektomie [LL EAU 2026, 5.2.2].", "merk": "cN0 ab T1b: Sonographie, dann Sentinel-Biopsie; Überwachung nur bei Niedrigrisiko.", "flag": null}, {"n": 14, "axis": "G", "diff": 2, "correct": "E", "objective": "Kann die Zentrumsbindung und das Zeitfenster des Lymphknotenstagings begründen.", "reference": "Artikel: DSLNB-Lernkurve und Zentralisierung; EAU/ASCO 2026, 5.2 und 5.2.2", "vignette": "Eine Klinik ohne eigenes Sentinel-Programm betreut einen 59-jährigen Mann mit pT2 G3, klinisch unauffälligen Leisten. Ein Kollege hat zwei Sentinel-Biopsien assistiert und bietet an, den Eingriff hier durchzuführen. Die Zuweisung an ein Referenzzentrum wäre kurzfristig möglich. Festlegung des Vorgehens.", "lead": "Welches Vorgehen ist begründet?", "opts": {"A": "Sentinel-Biopsie vor Ort, die Technik ist gut standardisiert", "B": "Überwachung, bis die Leisten palpabel auffällig werden", "C": "Radikale Lymphadenektomie vor Ort statt Zuweisung", "D": "Zuwarten und in sechs Monaten erneut entscheiden", "E": "Zeitnahe Zuweisung an ein Zentrum mit Sentinel-Programm"}, "rat": {"A": "Fehlannahme: Zwei Assistenzen genügten. Die Lernkurve wird auf etwa 25 Eingriffe geschätzt [Q].", "B": "Fehlannahme: Warten bis zur Tastbarkeit. Verzögerte Lymphknotenchirurgie halbiert das Überleben [LL EAU 2026, 5.2].", "C": "Fehlannahme: Radikalität ersetze Erfahrung. Sie bedeutet die höchste Morbidität und ist als Staging zweite Wahl [LL EAU 2026, 5.2.2].", "D": "Fehlannahme: Ein halbes Jahr sei unkritisch. Das nodale Management soll binnen drei Monaten abgeschlossen sein [LL EAU 2026, 6.2.2].", "E": "Die Falsch-negativ-Rate der Sentinel-Biopsie sinkt mit der Fallzahl des Zentrums, und die Zuweisung ist kurzfristig möglich [LL EAU 2026, 5.2.2]."}, "core": "Das Verfahren ist richtig, der Ort nicht: Sentinel-Biopsie gehört in ein Zentrum mit laufendem Programm, und zwar zeitnah [LL EAU 2026, 5.2.2].", "ev": "Eine Metaanalyse fand eine gepoolte Falsch-negativ-Rate von 12 %, die in Zentren mit hoher Fallzahl deutlich niedriger lag; das spricht für eine Lernkurve und für Zentralisierung [LL EAU 2026, 5.2.2]. Der Artikel beziffert die Lernkurve auf etwa 25 Eingriffe und nennt die Beherrschung der Technik außerhalb spezialisierter Zentren eine Herausforderung [Q]. Frühe Lymphknotenchirurgie führte zu einem 3-Jahres-Überleben von 84 % gegenüber 35 % bei verzögertem Vorgehen [LL EAU 2026, 5.2].", "prax": "Ist weder Sentinel-Biopsie noch Zuweisung möglich, kann nach Aufklärung über die höhere Morbidität eine inguinale Lymphadenektomie erfolgen [LL EAU 2026, 5.2.2]. Zentrumsbehandlung ist beim Peniskarzinom mit besseren Ergebnissen verbunden [Q].", "merk": "Sentinel-Biopsie ist zentrumsgebunden: lieber zeitnah zuweisen als selbst lernen.", "flag": null}, {"n": 15, "axis": "H", "diff": 2, "correct": "D", "objective": "Kann die Indikation zur pelvinen Lymphadenektomie aus dem inguinalen Befund ableiten.", "reference": "Artikel: Pelvine Lymphadenektomie; EAU/ASCO 2026, 6.2.3", "vignette": "Nach radikaler inguinaler Lymphadenektomie links zeigt die Histologie drei befallene Lymphknoten mit extranodaler Ausbreitung; rechts war die Sentinel-Biopsie negativ. Die Bildgebung zeigt keine vergrößerten pelvinen Lymphknoten. Festlegung des weiteren operativen Vorgehens.", "lead": "Welches Vorgehen ist begründet?", "opts": {"A": "Keine weitere Operation, ausschließlich Nachsorge", "B": "Beidseitige pelvine Lymphadenektomie anschließen", "C": "Adjuvante Chemotherapie statt jeder weiteren Operation", "D": "Ipsilaterale pelvine Lymphadenektomie anschließen", "E": "Kontralaterale radikale Lymphadenektomie ergänzen"}, "rat": {"A": "Fehlannahme: Nach der Leiste sei die Chirurgie beendet. Genau diese Konstellation sagt pelvinen Befall voraus [LL EAU 2026, 6.2.3].", "B": "Fehlannahme: Beidseits sei sicherer. Die Gegenseite ist Sentinel-negativ, und ein Übertritt in das kontralaterale Becken ist eine Rarität [LL EAU 2026, 6.2.1].", "C": "Fehlannahme: Systemtherapie ersetze die Operation. Die Daten zur adjuvanten Chemotherapie sind schwach, sie wird bei pN3 zusätzlich besprochen [LL EAU 2026, 6.4.1].", "D": "Drei oder mehr befallene inguinale Lymphknoten einer Seite und extranodale Ausbreitung begründen die ipsilaterale pelvine Lymphadenektomie [LL EAU 2026, 6.2.3].", "E": "Fehlannahme: Die Gegenseite gehöre prophylaktisch ausgeräumt. Nach negativer Sentinel-Biopsie ist das nicht indiziert [LL EAU 2026, 5.2.2]."}, "core": "Der inguinale Befund steuert die Beckenchirurgie: Ab drei befallenen Lymphknoten oder bei extranodaler Ausbreitung folgt die ipsilaterale pelvine Lymphadenektomie [LL EAU 2026, 6.2.3].", "ev": "Ohne diese Risikomerkmale sind 0 bis 6,5 % der pelvinen Lymphknoten befallen, mit ihnen 33 bis 67 % [LL EAU 2026, 6.2.3]. Pelviner Befall tritt nicht ohne ipsilaterale inguinale Metastasierung auf, eine direkte Drainage vom Primärtumor ins Becken gibt es nicht [Q] [LL EAU 2026, 6.2.1]. Patienten mit pelvinem Befall haben eine deutlich schlechtere Prognose als solche mit rein inguinaler Beteiligung [Q].", "prax": "Das gesamte nodale Management soll innerhalb von drei Monaten abgeschlossen sein [LL EAU 2026, 6.2.2]. Bei pN3 gehört zusätzlich die adjuvante Radiotherapie ins Gespräch [LL EAU 2026, 6.4.1].", "merk": "Drei befallene Leistenknoten oder extranodale Ausbreitung: ipsilaterale pelvine Lymphadenektomie, nicht beidseits.", "flag": null}, {"n": 16, "axis": "H", "diff": 3, "correct": "C", "objective": "Kann die Zugangswahl bei cN1 an der Leitlinie ausrichten, auch gegen Surrogatargumente.", "reference": "Artikel: minimalinvasive ILND; EAU/ASCO 2026, 6.2.2", "vignette": "Ein 57-jähriger Mann hat eine einseitig tastbare, bewegliche inguinale Lymphknotenmetastase, bioptisch bestätigt, ohne Fixierung. Das Haus bietet die robotisch assistierte inguinale Lymphadenektomie an und verweist auf weniger Wundkomplikationen. Der Patient fragt, welches Verfahren er wählen soll. Festlegung des Vorgehens.", "lead": "Welches Vorgehen ist begründet?", "opts": {"A": "Robotische Lymphadenektomie, sie gilt als gleichwertig", "B": "Videoendoskopische Lymphadenektomie als Kompromiss", "C": "Offene Lymphadenektomie, minimalinvasiv nur in Studien", "D": "Zunächst Chemotherapie statt der primären Operation", "E": "Sentinel-Biopsie ipsilateral statt der Lymphadenektomie"}, "rat": {"A": "Fehlannahme: Weniger Wundkomplikationen belegten Gleichwertigkeit. Die onkologische Nachbeobachtung der Vergleichsserien ist kurz [LL EAU 2026, 6.2.2].", "B": "Fehlannahme: Videoendoskopisch sei der Mittelweg. Auch dieses Verfahren ist bei cN1 und cN2 auf Studien beschränkt, bei cN3 abzulehnen [LL EAU 2026, 6.3.5].", "C": "Bei cN1 ist die offene Technik Standard, fasziensparend oder radikal mit Erhalt der V. saphena; minimalinvasive Verfahren gehören in Studien [LL EAU 2026, 6.2.2].", "D": "Fehlannahme: Chemotherapie vor jeder Lymphknotenoperation. Die neoadjuvante Therapie gilt ausgedehnten Befunden [LL EAU 2026, 6.4.1].", "E": "Fehlannahme: Sentinel bei tastbarem Befund. Sie ist ein Staging bei klinisch unauffälligen Leisten [LL EAU 2026, 5.2.2]."}, "core": "Der Nutzen minimalinvasiver Technik ist perioperativ belegt, onkologisch nicht; die Leitlinie beschränkt sie bei cN1 und cN2 ausdrücklich auf Studien [LL EAU 2026, 6.2.2].", "ev": "Eine Metaanalyse von 16 Vergleichsstudien mit 1054 Patienten zeigte vergleichbare Lymphknotenausbeute, weniger Komplikationen und kürzere Verweildauer, aber längere Operationszeiten bei begrenzter Evidenzqualität; die Nachbeobachtung war kurz und der Anteil prophylaktischer Eingriffe hoch [LL EAU 2026, 6.2.2]. Der Artikel bewertet dieselbe Datenlage anders und nennt robotische Eingriffe gleichwertig mit weniger Komplikationen [Q].", "prax": "Morbidität senkt man auch offen: Saphena erhalten, keine S-förmigen Schnitte, Drainage bis unter 30 ml pro 24 Stunden [Q]. Das Lymphödemrisiko liegt bei 15 bis 57 % [Q].", "merk": "cN1: offene Lymphadenektomie; robotisch oder videoendoskopisch nur innerhalb einer Studie.", "flag": "Artikel und Leitlinie bewerten dieselben Vergleichsstudien gegensätzlich. Die richtige Antwort folgt der Leitlinie, die minimalinvasive Eingriffe bei cN1 und cN2 auf Studien beschränkt."}], "hcg": [{"label": "PeIN und Ta", "mech": "Topisch 5-Fluorouracil oder Imiquimod, Laserablation oder Glans-Resurfacing; begleitend Zirkumzision [Q] [LL EAU 2026, 6.1.5].", "step": "Histologie vor der Therapie sichern, Effekt nach therapiefreiem Intervall prüfen, bei Versagen das Verfahren wechseln statt wiederholen [LL EAU 2026, 6.1.5].", "data": "Ansprechen 40 bis 100 % für Imiquimod und 48 bis 74 % für 5-Fluorouracil, Rezidive bis 50 %; Progressionsrisiko unter 10 % [Q] [LL EAU 2026, 6.1.5]."}, {"label": "T1a, glansbegrenzt", "mech": "Lokale Exzision, Laserablation oder Glans-Resurfacing mit Rekonstruktion [Q].", "step": "Makroskopischer Rand von wenigen Millimetern, Schnellschnitt bei Zweifel; bei T1a G2 ohne Risikofaktoren ist Überwachung der Leisten vertretbar [Q] [LL EAU 2026, 5.2.2].", "data": "Rezidivraten 0 bis 30 % je nach Verfahren; Mikrometastasenrisiko bei pT1a G2 6 bis 8 % [Q] [LL EAU 2026, 5.2.2]."}, {"label": "T1b und T2, glansbegrenzt", "mech": "Glansektomie mit Neoglans aus Spalthaut, bei Verdacht zusätzlich Resektion der Schwellkörperspitzen [Q].", "step": "Parallel operatives Lymphknotenstaging, bevorzugt Sentinel-Biopsie nach inguinaler Sonographie [LL EAU 2026, 5.2.2].", "data": "Rezidivrate nach Glansektomie etwa 5 %, Erektions- und Orgasmusfähigkeit bleiben meist erhalten; Mikrometastasenrisiko ab T1b 22 bis 30 % [Q] [LL EAU 2026, 5.2.2]."}, {"label": "T3 mit Schwellkörperbefall", "mech": "Partielle Penektomie mit Neoglans; organerhaltende Verfahren nur in Ausnahmefällen [Q].", "step": "Restlänge prüfen: Ist eine Miktion im Stehen nicht möglich, meist unter 4 cm, perineale Urethrostomie erwägen [Q].", "data": "Rezidivraten 4,6 bis 24,2 %; Lokalrezidive bei invasiven Tumoren sind prognostisch relevant [Q]."}, {"label": "T4 oder nicht resektabel", "mech": "Induktionschemotherapie mit Cisplatin und Taxan, bei Ansprechen Operation; alternativ Chemoradiotherapie [LL EAU 2026, 6.1.5].", "step": "Entscheidung im interdisziplinären Tumorboard, Resektabilität im MRT des Beckens klären [Q].", "data": "Objektive Ansprechraten gepoolt 53 bis 57 %, pathologische Komplettremissionen 4 bis 10 % [LL EAU 2026, 6.1.3]."}, {"label": "Strahlentherapie als Alternative", "mech": "Brachytherapie für Läsionen bis 4 cm, externe Bestrahlung bei größeren Tumoren oder Komorbidität [Q].", "step": "Biopsie vor Therapiebeginn; die Leitlinie bietet Bestrahlung selektierten T1- und T2-Patienten an [LL EAU 2026, 6.1.5].", "data": "Lokale Kontrolle nach 5 Jahren 80 bis 86 % für die Brachytherapie, 44 bis 70 % für die externe Bestrahlung [Q]."}, {"label": "Lokalrezidiv nach Organerhalt", "mech": "Erneute organerhaltende Resektion, sofern die Corpora cavernosa frei sind [LL EAU 2026, 6.1.5].", "step": "Nachsorge verdichten: in den ersten zwei Jahren vierteljährlich, danach halbjährlich [Q].", "data": "Krebsspezifisches 5-Jahres-Überleben mit Lokalrezidiv 68 % gegenüber 93,1 % ohne [Q]."}], "rplnd": {"criteria": ["Zentrum mit laufendem Sentinel-Programm erreichbar", "Tumor pT1b oder höher beziehungsweise G3", "Leisten klinisch und sonographisch unauffällig", "Keine Fernmetastasen in der Bildgebung", "Patient für einen operativen Eingriff geeignet"], "verdicts": {"transfer": {"title": "Zuerst Zuweisung klären", "note": "Ohne laufendes Sentinel-Programm steigt die Falsch-negativ-Rate; die gepoolte Rate liegt bei 12 % und sinkt mit der Fallzahl des Zentrums [LL EAU 2026, 5.2.2]. Ist eine Zuweisung nicht möglich, kann nach Aufklärung über die höhere Morbidität eine inguinale Lymphadenektomie erfolgen [LL EAU 2026, 5.2.2]."}, "robotic": {"title": "Operatives Staging: Sentinel-Biopsie", "note": "Alle Kriterien erfüllt: inguinale Sonographie mit Feinnadelpunktion auffälliger Knoten, danach dynamische Sentinel-Biopsie [LL EAU 2026, 5.2.2]. Sensitivität 92 bis 96 % bei Falsch-negativ-Raten von 4 bis 8 % und Komplikationen in 6 bis 14 % [LL EAU 2026, 5.2.2]. Bei positivem Sentinel folgt die ipsilaterale radikale Lymphadenektomie [LL EAU 2026, 5.2.2]."}, "open": {"title": "Kriterien unvollständig: Risiko neu bewerten", "note": "Bei Niedrigrisiko, also pT1a G2 ohne Lymphgefäß- oder Perineuralinvasion, ist Überwachung nach Aufklärung vertretbar [LL EAU 2026, 5.2.2]. Sind die Leisten tastbar auffällig, gilt der cN-positive Pfad mit bildgesteuerter Biopsie und anschließender Lymphadenektomie, nicht das Sentinel-Verfahren [LL EAU 2026, 5.2.3]. Das nodale Management soll innerhalb von drei Monaten abgeschlossen sein [LL EAU 2026, 6.2.2]."}}}};
+(function () {
+'use strict';
+var D = DATA, Q = D.questions, AX = D.axes;
+var LABEL = {std: 'Standard', sec: 'Standard, nachrangig', alt: 'Option mit Bedingungen', wait: 'Abwarten', no: 'Nicht indiziert'};
+
+function esc(s) {
+  return String(s).replace(/[&<>"]/g, function (c) { return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]; });
+}
+function pv(s) {
+  return esc(s).replace(/\[(Q|X|LL [^\]]+)\]/g, function (m, t) {
+    if (t === 'Q') return '<span class="pv pv-q" title="Steht so im Quellartikel">Q</span>';
+    if (t === 'X') return '<span class="pv pv-x" title="Eigene Einordnung ohne direkten Beleg">X</span>';
+    return '<span class="pv pv-ll" title="Leitlinie im Volltext geprüft">' + t + '</span>';
+  });
+}
+function $(id) { return document.getElementById(id); }
+function cm(x) { return x.toFixed(1).replace('.', ',') + ' cm'; }
+
+/* ---------- Kopf, Lernziele, Quellen ---------- */
+$('meta').innerHTML = D.meta.map(function (m) {
+  return '<div><dt>' + esc(m[0]) + '</dt><dd>' + pv(m[1]) + '</dd></div>';
+}).join('');
+
+$('goals').innerHTML = Object.keys(AX).map(function (a) {
+  var items = Q.filter(function (q) { return q.axis === a; }).map(function (q) {
+    return '<li>Frage ' + q.n + ': ' + esc(q.objective) + '</li>';
+  }).join('');
+  return '<details open><summary>' + esc(a + ': ' + AX[a]) + '</summary><ul>' + items + '</ul></details>';
+}).join('');
+
+$('sources').innerHTML = D.sources.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('');
+
+/* ---------- beta-hCG-Ursachen ---------- */
+var HC = D.hcg, hcSel = 0;
+function renderHcg() {
+  $('hcCauses').innerHTML = HC.map(function (c, i) {
+    return '<button class="seg' + (i === hcSel ? ' on' : '') + '" aria-pressed="' + (i === hcSel) + '" data-i="' + i + '">' + esc(c.label) + '</button>';
+  }).join('');
+  var c = HC[hcSel];
+  $('hcOut').innerHTML = '<p class="stage">' + esc(c.label) + '</p><ul>' +
+    '<li><b>Verfahren</b><p>' + pv(c.mech) + '</p></li>' +
+    '<li><b>Entscheidung</b><p>' + pv(c.step) + '</p></li>' +
+    '<li><b>Datenbasis</b><p>' + pv(c.data) + '</p></li></ul>';
+  Array.prototype.forEach.call(document.querySelectorAll('#hcCauses .seg'), function (b) {
+    b.onclick = function () { hcSel = +b.getAttribute('data-i'); renderHcg(); };
+  });
+}
+renderHcg();
+
+/* ---------- Zugangswahl RPLND ---------- */
+var RP = D.rplnd, rpState = {};
+function renderRp() {
+  $('rpCrit').innerHTML = RP.criteria.map(function (c, i) {
+    return '<li><label><input type="checkbox" data-i="' + i + '"' + (rpState[i] ? ' checked' : '') + '><span>' + esc(c) + '</span></label></li>';
+  }).join('');
+  var zentrum = !!rpState[0], rest = true;
+  for (var k = 1; k < RP.criteria.length; k++) { if (!rpState[k]) rest = false; }
+  var v = !zentrum ? RP.verdicts.transfer : (rest ? RP.verdicts.robotic : RP.verdicts.open);
+  $('rpOut').innerHTML = '<p class="stage">' + esc(v.title) + '</p><p class="note">' + pv(v.note) + '</p>';
+  Array.prototype.forEach.call(document.querySelectorAll('#rpCrit input'), function (b) {
+    b.onchange = function () { rpState[+b.getAttribute('data-i')] = b.checked; renderRp(); };
+  });
+}
+renderRp();
+
+/* ---------- Quiz ---------- */
+var S = {order: Q.map(function (q, i) { return i; }), pos: 0, ans: {}, mode: 'start'};
+var lastOfAxis = {};
+Q.forEach(function (q) { lastOfAxis[q.axis] = q.n; });
+
+function progressBar() {
+  return '<div class="progress" aria-hidden="true">' + S.order.map(function (qi, i) {
+    var q = Q[qi], a = S.ans[q.n];
+    var cls = a ? (a === q.correct ? 'ok' : 'bad') : (i === S.pos ? 'here' : '');
+    return '<span class="' + cls + '"></span>';
+  }).join('') + '</div>';
+}
+
+function feedbackHtml(q, chosen) {
+  var ok = chosen === q.correct, h = '<div class="fb">';
+  h += '<p class="verdictline ' + (ok ? 'ok' : 'bad') + '">' + (ok ? 'Richtig.' : 'Nicht richtig. Richtig ist ' + q.correct + '.') + '</p>';
+  h += '<div class="slot"><h3>Kernaussage</h3><p>' + pv(q.core) + '</p></div>';
+  h += '<div class="slot"><h3>Evidenz</h3><p>' + pv(q.ev) + '</p></div>';
+  h += '<div class="slot"><h3>Distraktoren</h3><ul class="dist">' + 'ABCDE'.split('').filter(function (k) { return k !== q.correct; }).map(function (k) {
+    return '<li><span class="k">' + k + '</span><div><span class="ot">' + esc(q.opts[k]) + '</span><p>' + pv(q.rat[k]) + '</p></div></li>';
+  }).join('') + '</ul></div>';
+  h += '<div class="slot"><h3>Praxiskonsequenz</h3><p>' + pv(q.prax) + '</p></div>';
+  h += '<p class="merksatz">' + esc(q.merk) + '</p>';
+  if (q.flag) h += '<p class="flagnote">⚠ ' + esc(q.flag) + '</p>';
+  h += '<p class="qmeta">Lernziel: ' + esc(q.objective) + '<br>Referenz: ' + esc(q.reference) + '</p>';
+  if (lastOfAxis[q.axis] === q.n) h += merkkasten(q.axis);
+  return h + '</div>';
+}
+
+function merkkasten(a) {
+  return '<div class="merkkasten"><h3>Merkkasten ' + esc(a + ': ' + AX[a]) + '</h3><ol>' +
+    D.merk[a].map(function (m) { return '<li>' + pv(m) + '</li>'; }).join('') + '</ol></div>';
+}
+
+function renderQuiz() {
+  var el = $('quiz');
+  if (S.mode === 'start') {
+    el.innerHTML = '<p class="lede">Zehn Fallvignetten, je fünf Antwortoptionen, eine beste Antwort. Nach jeder Antwort folgen Kernaussage, Evidenz mit Herkunftsmarkern, Analyse aller Distraktoren und Praxiskonsequenz.</p>' +
+      '<div class="actions"><button class="btn" id="go">Fragen beginnen</button></div>';
+    $('go').onclick = function () { S.mode = 'q'; renderQuiz(); };
+    return;
+  }
+  if (S.mode === 'result') { renderResult(); return; }
+  var q = Q[S.order[S.pos]], chosen = S.ans[q.n];
+  var h = '<div class="qhead"><span>Frage ' + (S.pos + 1) + ' von ' + S.order.length + '</span><span class="ax">' + esc(q.axis + ': ' + AX[q.axis]) + '</span><span>Schwierigkeit ' + q.diff + ' von 3</span>' + (q.flag ? '<span class="fl">⚠ Evidenz begrenzt</span>' : '') + '</div>';
+  h += progressBar();
+  h += '<p class="vignette">' + esc(q.vignette) + '</p><p class="lead">' + esc(q.lead) + '</p><div class="opts">';
+  'ABCDE'.split('').forEach(function (k) {
+    var cls = '';
+    if (chosen) { if (k === q.correct) cls = ' is-ok'; else if (k === chosen) cls = ' is-bad'; }
+    h += '<button class="opt' + cls + '" data-k="' + k + '"' + (chosen ? ' disabled' : '') + '><span class="k">' + k + '</span><span>' + esc(q.opts[k]) + '</span></button>';
+  });
+  h += '</div>';
+  if (chosen) h += feedbackHtml(q, chosen);
+  h += '<div class="actions">';
+  if (S.pos > 0) h += '<button class="btn ghost" id="back">Zurück</button>';
+  if (chosen) h += '<button class="btn" id="next">' + (S.pos === S.order.length - 1 ? 'Auswertung ansehen' : 'Nächste Frage') + '</button>';
+  h += '</div>';
+  el.innerHTML = h;
+  Array.prototype.forEach.call(el.querySelectorAll('.opt'), function (b) {
+    b.onclick = function () { S.ans[q.n] = b.getAttribute('data-k'); renderQuiz(); var fb = el.querySelector('.fb'); if (fb && fb.scrollIntoView) fb.scrollIntoView({block: 'nearest'}); };
+  });
+  if ($('back')) $('back').onclick = function () { S.pos--; renderQuiz(); };
+  if ($('next')) $('next').onclick = function () {
+    if (S.pos === S.order.length - 1) S.mode = 'result'; else S.pos++;
+    renderQuiz(); el.scrollIntoView({block: 'start'});
+  };
+}
+
+function tally(filter) {
+  var qs = Q.filter(filter), right = qs.filter(function (q) { return S.ans[q.n] === q.correct; }).length;
+  return {right: right, total: qs.length};
+}
+function row(label, t) {
+  var p = t.total ? Math.round(100 * t.right / t.total) : 0;
+  return '<div class="row"><span>' + esc(label) + '</span><span class="bar"><i style="width:' + p + '%"></i></span><span>' + t.right + ' von ' + t.total + '</span></div>';
+}
+
+function renderResult() {
+  var el = $('quiz'), all = tally(function () { return true; });
+  var h = '<p class="score">' + all.right + ' von ' + all.total + ' richtig</p><h3 class="slot">Nach Themenachse</h3><div class="rows">';
+  var weak = [];
+  Object.keys(AX).forEach(function (a) {
+    var t = tally(function (q) { return q.axis === a; });
+    if (t.right < t.total) weak.push(a + ': ' + AX[a] + ' (' + t.right + ' von ' + t.total + ')');
+    h += row(a + ': ' + AX[a], t);
+  });
+  h += '</div><h3 class="slot">Nach Schwierigkeit</h3><div class="rows">';
+  [1, 2, 3].forEach(function (d) { h += row('Schwierigkeit ' + d, tally(function (q) { return q.diff === d; })); });
+  h += '</div>';
+  h += weak.length ? '<p class="hint">Nachschärfen: ' + esc(weak.join('; ')) + '. Die Merkkästen dieser Achsen stehen nach der jeweils zweiten Frage.</p>' : '<p class="lede">Alle Achsen vollständig beantwortet.</p>';
+  var wrong = Q.filter(function (q) { return S.ans[q.n] && S.ans[q.n] !== q.correct; });
+  h += '<div class="actions">';
+  if (wrong.length) h += '<button class="btn" id="retry">Falsch beantwortete wiederholen (' + wrong.length + ')</button>';
+  h += '<button class="btn ghost" id="restart">Neu beginnen</button><button class="btn ghost" id="print">Druckfassung</button></div>';
+  el.innerHTML = h;
+  if ($('retry')) $('retry').onclick = function () {
+    S.order = wrong.map(function (q) { return Q.indexOf(q); });
+    wrong.forEach(function (q) { delete S.ans[q.n]; });
+    S.pos = 0; S.mode = 'q'; renderQuiz();
+  };
+  $('restart').onclick = function () { S = {order: Q.map(function (q, i) { return i; }), pos: 0, ans: {}, mode: 'q'}; renderQuiz(); };
+  $('print').onclick = function () { window.print(); };
+}
+renderQuiz();
+
+/* ---------- Druckfassung ---------- */
+var P = '<h2>Alle Fragen mit Lösung und Begründung</h2>';
+Q.forEach(function (q) {
+  P += '<div class="pq"><p class="qmeta">Frage ' + q.n + ', ' + esc(q.axis + ': ' + AX[q.axis]) + ', Schwierigkeit ' + q.diff + (q.flag ? ', ⚠ Evidenz begrenzt' : '') + '</p>';
+  P += '<p class="vignette">' + esc(q.vignette) + '</p><p class="lead">' + esc(q.lead) + '</p><ul class="dist">';
+  'ABCDE'.split('').forEach(function (k) {
+    P += '<li><span class="k" style="color:' + (k === q.correct ? 'var(--ok)' : 'var(--muted)') + '">' + k + '</span><div>' + esc(q.opts[k]) + (k === q.correct ? ' (richtig)' : '') + '</div></li>';
+  });
+  P += '</ul>' + feedbackHtml(q, q.correct).replace('<p class="verdictline ok">Richtig.</p>', '') + '</div>';
+});
+$('printall').innerHTML = P;
+window.addEventListener('beforeprint', function () {
+  Array.prototype.forEach.call(document.querySelectorAll('details'), function (d) { d.open = true; });
+});
+})();
+</script>
+</body>
+</html>

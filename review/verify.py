@@ -1,5 +1,6 @@
 """Regression checks use temporary copies, never real clinical approvals."""
 import copy,importlib.util,json,re,sys,tempfile,unittest
+from datetime import date
 from pathlib import Path
 from unittest.mock import patch
 ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT),str(ROOT/'tools')]
@@ -53,7 +54,7 @@ class Integrity(unittest.TestCase):
         qs=[q for d in docs for q in d['fragen']]
         self.assertEqual(len(qs),267);self.assertTrue(all(len(d['fragen'])>=10 for d in docs))
         self.assertTrue(all(set(q['content'])=={'de','en','es'} for q in qs))
-        approved=[q for q in qs if valid_approval(q)]
+        approved=[q for q in qs if valid_approval(q,date(2026,10,4))]  # release date, not today
         self.assertEqual(len(approved),51)
         for q in approved:
             self.assertEqual(q['review']['approval']['languages'],['de'])
