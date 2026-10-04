@@ -8,7 +8,9 @@ const modules = ['cme-seminom-IIAB.html', 'cme-hodentumor-heft-teil3.html', 'cme
 const local = name => pathToFileURL(path.join(root, name)).href;
 
 (async () => {
-  const browser = await chromium.launch({ channel: 'msedge', headless: true });
+  // Edge by default; CME_BROWSER_CHANNEL= (empty) uses Playwright's bundled Chromium, e.g. in CI.
+  const channel = process.env.CME_BROWSER_CHANNEL ?? 'msedge';
+  const browser = await chromium.launch({ ...(channel ? { channel } : {}), headless: true });
   try {
     const context = await browser.newContext({ viewport: { width: 1280, height: 900 } });
     const page = await context.newPage();
@@ -77,7 +79,8 @@ const local = name => pathToFileURL(path.join(root, name)).href;
       console.log(`${filename}: start, resume, first score, retry, topic feedback, storage isolation, restart and mobile layout passed`);
     }
     assert.deepEqual(errors, []);
-    const blocked = await browser.newContext();
+    // No ?lang and no stored language: the module follows navigator.language, so pin German.
+    const blocked = await browser.newContext({ locale: 'de-DE' });
     await blocked.addInitScript(() => { Storage.prototype.setItem = function () { throw new Error('TEST: storage unavailable'); }; });
     const blockedPage = await blocked.newPage();
     await blockedPage.goto(local(modules[0]), { waitUntil: 'domcontentloaded' });

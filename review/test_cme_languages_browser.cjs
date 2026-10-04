@@ -16,7 +16,9 @@ async function switchTo(page, lc) {
 }
 
 (async () => {
-  const browser = await chromium.launch({ channel: 'msedge', headless: true });
+  // Edge by default; CME_BROWSER_CHANNEL= (empty) uses Playwright's bundled Chromium, e.g. in CI.
+  const channel = process.env.CME_BROWSER_CHANNEL ?? 'msedge';
+  const browser = await chromium.launch({ ...(channel ? { channel } : {}), headless: true });
   try {
     const context = await browser.newContext({ viewport: { width: 1280, height: 900 } });
     const page = await context.newPage();

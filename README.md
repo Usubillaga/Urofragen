@@ -27,7 +27,7 @@ Diese sechs Dateien müssen nebeneinander liegen; der Ordner `assets` muss daneb
 - `cme-salvage-operationen.html` – Salvage-Operationen
 - `assets/` – gemeinsame Darstellung, Navigation und Fortschritt der CME-Module
 
-Die Ordner `data`, `tools`, `review`, `updates`, `translations` und `templates` sowie die Python-Dateien gehören zum vollständigen Projekt. Die bisherige GitHub-Pages-Konfiguration bleibt verwendbar. Diese Fassung wurde nur lokal vorbereitet, nicht in das Repository geschrieben. Die Sprachdateien unter `assets` müssen mit hochgeladen werden.
+Die Ordner `data`, `tools`, `review`, `updates`, `translations` und `templates` sowie die Python-Dateien gehören zum vollständigen Projekt. Die bisherige GitHub-Pages-Konfiguration bleibt verwendbar. Die Sprachdateien unter `assets` müssen mit hochgeladen werden.
 
 ## Weiterprüfen und Verlauf
 
@@ -52,6 +52,30 @@ python build.py
 `build.py` baut auch die vier CME-Dateien und ihre Sprachdateien aus `templates/cme/` und `translations/` neu auf. Dafür werden keine zusätzlichen Pakete benötigt; auf GitHub Pages laufen die fertig erzeugten Dateien direkt und auch lokal ohne Webserver. Die deutschen Originaltexte stehen in den Vorlagen, die Übersetzungen in den Sprach-JSON-Dateien. Eigenständiger CME-Aufbau: `python tools/build_cme.py`.
 
 Ohne `--apply` nur Vorschau. Wiederholtes Einspielen erzeugt keine Duplikate. Ein fehlgeschlagener Aufbau stellt Fragendateien und HTML-Ausgaben wieder her. Veränderte Quelldateien bereits importierter Blöcke verlangen einen ausdrücklichen Abgleich statt stillen Überschreibens.
+
+## Ablauf der Prüfdaten
+
+Fragen mit überschrittenem `review.expires` blendet die veröffentlichte Seite ab diesem Tag selbst aus, auch ohne Neuaufbau. `python build.py` warnt 90 Tage vorher und bricht ab, sobald ein Gebiet unter 10 aktive Fragen fällt. Stand 04.10.2026:
+
+| ab | ausgeblendet | Gebiete unter 10 Fragen |
+| --- | ---: | --- |
+| 03.03.2027 | 1 | Urolithiasis |
+| 12.03.2027 | 28 | MIBC, NMIBC, Peniskarzinom, Urolithiasis |
+| 01.04.2027 | 40 | MIBC, NMIBC, Peniskarzinom, Urolithiasis |
+| 22.09.2027 | 85 | MIBC, NMIBC, Peniskarzinom, Urolithiasis |
+
+Die betroffenen Fragen vorher erneut fachärztlich prüfen und `review.expires` verlängern.
+
+## Automatische Prüfung
+
+Bei jedem Push und Pull Request führt GitHub Actions `.github/workflows/pruefung.yml` aus: Neuaufbau, Abgleich der hochgeladenen HTML- und `assets`-Dateien mit den Quelldaten, alle Python- und Node-Tests sowie die Browsertests mit Chromium. Ein rotes Kreuz am Commit bedeutet meist: Fragen, Übersetzungen oder Vorlagen geändert, aber die mit `python build.py` erzeugten Dateien nicht mit hochgeladen. Lokal:
+
+```text
+python tools/check_generated.py
+python review/check_release.py
+```
+
+`build.py` schreibt alle erzeugten Dateien auf jedem Betriebssystem mit LF-Zeilenenden; ein Aufbau unter Windows ergibt dieselben Dateien wie unter Linux. Die Browsertests verwenden weiterhin Edge; mit leerer Umgebungsvariable `CME_BROWSER_CHANNEL` verwenden sie das Chromium von Playwright.
 
 ## Prüfung
 

@@ -1,0 +1,6 @@
+# Von build.py / tools/build_cme.py erzeugt: auf GitHub in Diffs eingeklappt
+index.html linguist-generated=true
+pruefung.html linguist-generated=true
+cme-*.html linguist-generated=true
+assets/cme.js linguist-generated=true
+assets/*-languages.js linguist-generated=true

@@ -266,7 +266,8 @@ def main():
             .replace("@@BANK@@", payload)
             .replace("@@STORE@@", STORE_JS)
             .replace("@@APP@@", APP_JS))
-    OUT.write_text(html, encoding="utf-8")
+    # Bytes statt Text: identische LF-Ausgabe unter Windows, macOS und Linux
+    OUT.write_bytes(html.encode("utf-8"))
     write_review_page(bank, ROOT)
     build_cme_modules()
 

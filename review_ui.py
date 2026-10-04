@@ -7,7 +7,7 @@ def write_review_page(bank, root):
     payload = dict(bank)
     payload['fingerprints'] = {q['id']: {lc: fingerprint(q,[lc]) for lc in q['content']} for q in bank['questions']}
     encoded=json.dumps(payload,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')
-    (Path(root)/'pruefung.html').write_text(TEMPLATE.replace('@@BANK@@',encoded),encoding='utf-8')
+    (Path(root)/'pruefung.html').write_bytes(TEMPLATE.replace('@@BANK@@',encoded).encode('utf-8'))  # LF auf jedem System
 
 TEMPLATE=r'''<!doctype html>
 <html lang="de"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">

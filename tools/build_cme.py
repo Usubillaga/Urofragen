@@ -12,6 +12,12 @@ def load(name):
     return json.loads((ROOT / 'translations' / name).read_text(encoding='utf-8'))
 
 
+def write(path, text):
+    # Bytes, not text mode: Windows would otherwise emit CRLF and every rebuild
+    # would differ from a Linux/macOS build by line endings alone.
+    path.write_bytes(text.encode('utf-8'))
+
+
 def localized_literals(source, dictionary):
     # Scan JS strings conservatively. Quotes inside regex character classes and
     # comments are not string delimiters; a regex-only substitution is unsafe.
@@ -96,14 +102,14 @@ def main():
     engine = engine.replace("  function own(", language + '\n  function own(', 1)
     engine = engine.replace('    render();\n    return session;', "    try { if (new URLSearchParams(global.location.search).get('continue') === '1' && saved && session.restore(saved)) saved = null; } catch (_) {}\n    render();\n    return session;")
     engine = engine.replace('global.UroCme = {mount:', 'global.UroCme = {t: cmeText, initialize: initialize, language: language, number: number, mount:')
-    (ROOT / 'assets/cme.js').write_text(engine, encoding='utf-8')
+    write(ROOT / 'assets/cme.js', engine)
     for module in MODULES:
         dictionary = {**common, **load(module + '.ui.json')}
         # Shared wording is consistent across modules, including score labels.
         dictionary.update(common)
         bundle = {'data': {lc: load(module + '.' + lc + '.json') for lc in ('en', 'es')}, 'ui': dictionary}
         asset = 'assets/' + module + '-languages.js'
-        (ROOT / asset).write_text('window.CME_I18N = ' + json.dumps(bundle, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c') + ';\n', encoding='utf-8')
+        write(ROOT / asset, 'window.CME_I18N = ' + json.dumps(bundle, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c') + ';\n')
         html = (ROOT / 'templates/cme' / (module + '.html.in')).read_text(encoding='utf-8')
         html = html.replace('<script src="assets/cme.js"></script>', '<script src="' + asset + '"></script>\n<script src="assets/cme.js"></script>')
         def script(match):
@@ -117,7 +123,7 @@ def main():
             logic = localized_literals(logic, dictionary)
             return '<script>' + original + 'var CME_BASE_DATA = DATA;\nDATA = UroCme.initialize(DATA);\n' + logic + '</script>'
         html = re.sub(r'<script>(.*?)</script>', script, html, flags=re.S)
-        (ROOT / (module + '.html')).write_text(html, encoding='utf-8')
+        write(ROOT / (module + '.html'), html)
     print('Four CME modules built in German, English and Spanish.')
 
 
