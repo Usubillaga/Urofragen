@@ -1,5 +1,9 @@
 # Urofragen – Aktualisierung 04.10.2026
 
+## Wöchentliche Studien und Repository-Prüfung
+
+[Berichte und Ablauf](weekly-reports/README.md): Freitags erscheinen neue urologische Studien und Updates sowie eine Prüfung dieses Repositorys mit gegebenenfalls getesteten Korrekturen als Pull Requests. Erste geplante Ausgabe: 16.10.2026.
+
 Die ZIP enthält die komplette Website und alle zum erneuten Aufbau benötigten Projektdateien. Die fertigen HTML-Dateien können direkt hochgeladen werden; Python wird auf GitHub Pages nicht benötigt.
 
 ## Inhalt
