@@ -3,6 +3,7 @@ import argparse,copy,hashlib,json,re,subprocess,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 from approval import invalidate,valid_approval,fingerprint
+from tools.build_cme import MODULES
 ALIASES={'operationskenntnisse':'operativ'}
 def read(p):return json.loads(p.read_text(encoding='utf-8'))
 def encoded(d):return (json.dumps(d,ensure_ascii=False,indent=2)+'\n').encode('utf-8')
@@ -64,7 +65,12 @@ def main():
     if not args.apply:print('Vorschau; zum Übernehmen --apply.');return
     if not changes:print('Keine Änderungen.');return
     backups={p:p.read_bytes() for p in changes}
-    outputs={ROOT/n:(ROOT/n).read_bytes() if (ROOT/n).exists() else None for n in ['index.html','pruefung.html']}
+    # build.py writes the main pages and every CME output. Restore the whole
+    # generated set if a later module fails, including removing new files.
+    names=['index.html','pruefung.html','assets/cme.js']
+    names += [module+'.html' for module in MODULES]
+    names += ['assets/'+module+'-languages.js' for module in MODULES]
+    outputs={ROOT/n:(ROOT/n).read_bytes() if (ROOT/n).exists() else None for n in names}
     try:
         for p,b in changes.items():p.write_bytes(b)
         run=subprocess.run([sys.executable,'-X','utf8',str(ROOT/'build.py')],cwd=ROOT,capture_output=True,encoding='utf-8')
