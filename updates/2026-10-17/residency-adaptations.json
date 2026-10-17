@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-17",
+  "repository": "Usubillaga/Residency-Game-DE",
+  "source_commit": "a853851ef6afdc34861dde63daf422eb2e1a86f8",
+  "clinical_signoff": false,
+  "changes": [
+    {
+      "id": "uro-and-00011",
+      "kind": "new_question",
+      "from_version": null,
+      "to_version": 1,
+      "source_case": "q-pri-ischaemic-40h-mri-necrosis-early-prosthesis",
+      "adaptation": "Anonymous case, upper-case option keys, balanced answer lengths, source-specific evidence notes; no game scores or sign-offs copied."
+    },
+    {
+      "id": "uro-and-00012",
+      "kind": "new_question",
+      "from_version": null,
+      "to_version": 1,
+      "source_case": "q-pri-prolonged-erection-after-ici-terbutaline-first",
+      "adaptation": "Anonymous case, upper-case option keys, balanced answer lengths, source-specific evidence notes; no game scores or sign-offs copied."
+    },
+    {
+      "id": "uro-pca-00024",
+      "kind": "new_question",
+      "from_version": null,
+      "to_version": 1,
+      "source_case": "q-pca-baseline-psa-intermediate-interval",
+      "adaptation": "Anonymous case, upper-case option keys, balanced answer lengths, source-specific evidence notes; no game scores or sign-offs copied."
+    },
+    {
+      "id": "uro-pca-00025",
+      "kind": "new_question",
+      "from_version": null,
+      "to_version": 1,
+      "source_case": "q-pca-brca2-carrier-confirmed-psa-mri",
+      "adaptation": "Anonymous case, upper-case option keys, balanced answer lengths, source-specific evidence notes; no game scores or sign-offs copied."
+    },
+    {
+      "id": "uro-rcc-00013",
+      "kind": "new_question",
+      "from_version": null,
+      "to_version": 1,
+      "source_case": "q-rcc-sestamibi-positive-biopsy-before-surveillance",
+      "adaptation": "Anonymous case, upper-case option keys, balanced answer lengths, source-specific evidence notes; no game scores or sign-offs copied."
+    },
+    {
+      "id": "uro-rek-00012",
+      "kind": "medical_revision",
+      "from_version": 1,
+      "to_version": 2,
+      "source_case": "bank-uro-rek-00012",
+      "reason": "Ureteroenterische Strikturen: links häufiger als rechts; Quelle ergänzt."
+    },
+    {
+      "id": "uro-lit-00003",
+      "kind": "medical_revision",
+      "from_version": 2,
+      "to_version": 3,
+      "source_case": "bank-uro-lit-00003",
+      "reason": "Citrat 2,2 mmol/d nicht als Hypozitraturie bei Männern einordnen; EAU <1,7 mmol/d und zwei Sammlungen ergänzen."
+    }
+  ]
+}

@@ -11,11 +11,50 @@ class Update(unittest.TestCase):
         cls.qs={q['id']:q for d in cls.docs for q in d['fragen']}
         cls.report=json.loads((ROOT/'review/import-2026-10-04.json').read_text(encoding='utf-8'))
     def test_counts_languages_and_unique_ids(self):
-        self.assertEqual(len(self.qs),267)
-        self.assertEqual(sum(len(d['fragen']) for d in self.docs),267)
-        self.assertEqual(sum(q['status']=='published' for q in self.qs.values()),257)
+        self.assertEqual(len(self.qs),272)
+        self.assertEqual(sum(len(d['fragen']) for d in self.docs),272)
+        self.assertEqual(sum(q['status']=='published' for q in self.qs.values()),262)
         self.assertEqual(sum(q['status']=='draft' for q in self.qs.values()),10)
         self.assertTrue(all(set(q['content'])=={'de','en','es'} for q in self.qs.values()))
+    def test_residency_additions_preserve_provenance_and_pending_review(self):
+        mapping={
+            'uro-and-00011':'q-pri-ischaemic-40h-mri-necrosis-early-prosthesis',
+            'uro-and-00012':'q-pri-prolonged-erection-after-ici-terbutaline-first',
+            'uro-pca-00024':'q-pca-baseline-psa-intermediate-interval',
+            'uro-pca-00025':'q-pca-brca2-carrier-confirmed-psa-mri',
+            'uro-rcc-00013':'q-rcc-sestamibi-positive-biopsy-before-surveillance',
+        }
+        self.assertTrue(set(mapping)<=set(self.qs),'Five adapted Residency cases are missing')
+        for qid,source_id in mapping.items():
+            with self.subTest(question=qid):
+                q=self.qs[qid]
+                self.assertEqual(q['version'],1)
+                self.assertEqual(q['status'],'published')
+                self.assertEqual(q['import_record']['source_case_id'],source_id)
+                self.assertEqual(q['import_record']['source_commit'],'a853851ef6afdc34861dde63daf422eb2e1a86f8')
+                self.assertEqual(sum(bool(o['correct']) for o in q['options']),1)
+                self.assertFalse(valid_approval(q))
+                self.assertIsNone(q['review']['last_reviewed'])
+                self.assertTrue(q['review']['revision']['requires_review'])
+                self.assertEqual(set(q['translation']),{'en','es'})
+                self.assertTrue(all(v['clinical_signoff'] is False for v in q['translation'].values()))
+                self.assertTrue(all(source.get('url','').startswith('https://') for source in q['sources']))
+    def test_revised_citrate_explanation_uses_male_eau_threshold(self):
+        q=self.qs['uro-lit-00003']
+        self.assertEqual(q['version'],3)
+        for lc,threshold in [('de','1,7 mmol/d'),('en','1.7 mmol/day'),('es','1,7 mmol/día')]:
+            with self.subTest(language=lc):
+                text=q['content'][lc]['options']['D']['rationale']
+                self.assertIn(threshold,text)
+                self.assertNotRegex(text,r'2[,.]5')
+        self.assertFalse(valid_approval(q))
+        self.assertTrue(any('/metabolic-evaluation-and-recurrence-prevention' in s.get('url','') for s in q['sources']))
+    def test_ureteroenteric_stricture_correction_is_versioned_and_sourced(self):
+        q=self.qs['uro-rek-00012']
+        self.assertEqual(q['version'],2)
+        self.assertFalse(valid_approval(q))
+        self.assertIn('links häufiger als rechts',q['content']['de']['options']['B']['rationale'])
+        self.assertTrue(any(s.get('doi')=='10.21037/tau.2019.09.05' for s in q['sources']))
     def test_exactly_once_import(self):
         changes,report=prepare(list((ROOT/'updates/2026-10-04').glob('*-block.json')))
         self.assertEqual(changes,{})

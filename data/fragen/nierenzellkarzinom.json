@@ -2142,6 +2142,208 @@
           "clinical_signoff": false
         }
       }
+    },
+    {
+      "id": "uro-rcc-00013",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "nierenzellkarzinom",
+        "subdomain": "Kleine Nierenraumforderung",
+        "tags": [
+          "bildgebung",
+          "diagnostik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "eingeschraenkt",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "EAU Renal Cell Carcinoma 2026: Diagnostic evaluation",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/diagnostic-evaluation",
+          "section": "5.2.3, 5.3, 5.4",
+          "accessed": "2026-10-17"
+        },
+        {
+          "type": "leitlinie",
+          "title": "EAU Renal Cell Carcinoma 2026: Oncocytic renal tumours",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/epidemiology-aetiology-and-pathology",
+          "section": "3.5.4–3.5.5",
+          "accessed": "2026-10-17"
+        },
+        {
+          "type": "leitlinie",
+          "title": "EAU Renal Cell Carcinoma 2026: Disease management",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/disease-management",
+          "section": "7.2.4, active surveillance and tumour ablation",
+          "accessed": "2026-10-17"
+        }
+      ],
+      "review": {
+        "created": "2026-10-17",
+        "editorial_review": {
+          "date": "2026-10-17",
+          "method": "Quellenabgleich und Anpassung aus Residency-Game-DE; keine fachärztliche Freigabe",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neue dreisprachige Adaptation aus Residency-Game-DE; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "revision": {
+          "date": "2026-10-17",
+          "reason": "Neue Frage aus Residency-Game-DE mit geprüftem Quellenbezug.",
+          "requires_review": true
+        }
+      },
+      "import_record": {
+        "source_repository": "Usubillaga/Residency-Game-DE",
+        "source_commit": "a853851ef6afdc34861dde63daf422eb2e1a86f8",
+        "source_case_id": "q-rcc-sestamibi-positive-biopsy-before-surveillance",
+        "source_step_id": "question",
+        "source_case_sha256": "48de1d17f0f22bf0f7ed154a99b783868640dfd9b9700071f9a1e723ce4fe8e4",
+        "source_url": "https://github.com/Usubillaga/Residency-Game-DE/tree/a853851ef6afdc34861dde63daf422eb2e1a86f8/data",
+        "adapted_at": "2026-10-17"
+      },
+      "content": {
+        "de": {
+          "vignette": "Im Tumorboard wird ein 71-jähriger Patient mit COPD GOLD 3 und Herzinsuffizienz (LVEF 35 %) vorgestellt. Eine 2,4 cm große, solide, kontrastmittelaufnehmende Raumforderung der linken Niere ohne makroskopisches Fett blieb im Nieren-CT und im MRT unklar. In der 99mTc-Sestamibi-SPECT/CT nimmt die Läsion den Tracer ähnlich stark auf wie das umgebende Nierenparenchym. Keine Metastasen; eGFR 61 ml/min/1,73 m², der Patient möchte eine Operation möglichst vermeiden.",
+          "lead_in": "Der Patient würde eine Ablation erwägen, falls das Tumorrisiko dies rechtfertigt; die Histologie würde seine Entscheidung beeinflussen. Was sollte das Tumorboard empfehlen?",
+          "options": {
+            "A": {
+              "text": "Den positiven Scan als sicheren Nachweis eines gutartigen Onkozytoms werten und deshalb ohne weitere Risikoprüfung überwachen.",
+              "rationale": "Ein positiver Sestamibi-Befund beweist weder ein Onkozytom noch Gutartigkeit. Die EAU bewertet die Methode als noch unzureichend extern validiert. Überwachung kann auch bei ausgewählten kleinen malignen Nierentumoren sinnvoll sein, muss aber auf einer informierten Gesamtrisikoentscheidung beruhen. Hier kann eine Stanzbiopsie die Wahl zwischen Überwachung und Ablation beeinflussen."
+            },
+            "B": {
+              "text": "Zeitnahe roboterassistierte Nierenteilresektion",
+              "rationale": "Eine Nierenteilresektion ist bei geeigneten Patienten mit behandlungsbedürftigem cT1-Tumor eine wichtige Option. Hier sprechen erhebliche Begleiterkrankungen und die kleine Raumforderung dafür, zunächst das individuelle Risiko und den Nutzen einer Biopsie zu klären. Die Sestamibi-Aufnahme allein beweist weder Gutartigkeit noch die Notwendigkeit einer Operation."
+            },
+            "C": {
+              "text": "Perkutane Kryoablation ohne vorherige Histologie",
+              "rationale": "Eine Ablation ohne Histologie würde möglicherweise einen gutartigen Tumor behandeln und die Diagnose für die Nachsorge offenlassen. Vor einer ablativen Therapie wird eine Biopsie empfohlen."
+            },
+            "D": {
+              "text": "Stanzbiopsie zur Risikoeinordnung vor Überwachung oder Ablation",
+              "rationale": "Die Biopsie ist hier sinnvoll, weil sie die Entscheidung beeinflussen kann; vor einer Ablation ist sie erforderlich. Eine onkozytäre Neoplasie in der Stanzbiopsie ist kein sicherer Gutartigkeitsnachweis: Nach WHO 2022 lässt sich ein Onkozytom auf einer Stanzbiopsie nicht endgültig festlegen, und chromophobe oder andere Nierentumoren bleiben Differenzialdiagnosen. Bei indolentem Befund und geeigneter Gesamtsituation ist eine aktive Überwachung nach gemeinsamer Entscheidung eine Option. Sie umfasst geplante Verlaufskontrollen und Kriterien für einen späteren Eingriff."
+            },
+            "E": {
+              "text": "Sestamibi-SPECT/CT in drei Monaten wiederholen und nach dem Verlauf der Aufnahme entscheiden",
+              "rationale": "Eine Wiederholung bringt Strahlenbelastung und Zeitverlust, aber keine Histologie; Veränderungen der Aufnahme im Verlauf sind kein validiertes Kriterium."
+            }
+          },
+          "explanation": {
+            "core": "Sestamibi ist bei kleinen Nierenraumforderungen ein ergänzendes Verfahren mit noch begrenzter Evidenz, kein Gutartigkeitsbeweis. Wenn Histologie das Vorgehen verändert, kann eine Stanzbiopsie die Risikoeinordnung unterstützen; vor Ablation ist sie erforderlich. Ein onkozytärer Biopsiebefund ist nicht gleichbedeutend mit sicherem Onkozytom. Aktive Überwachung richtet sich nach Tumorrisiko, Begleiterkrankungen, Lebenserwartung und gemeinsamem Patientenentscheid, nicht allein nach Traceraufnahme.",
+            "teaching_point": "Die Biopsie ist hier sinnvoll, weil sie die Entscheidung beeinflussen kann; vor einer Ablation ist sie erforderlich. Eine onkozytäre Neoplasie in der Stanzbiopsie ist kein sicherer Gutartigkeitsnachweis: Nach WHO 2022 lässt sich ein Onkozytom auf einer Stanzbiopsie nicht endgültig festlegen, und chromophobe oder andere Nierentumoren bleiben Differenzialdiagnosen. Bei indolentem Befund und geeigneter Gesamtsituation ist eine aktive Überwachung nach gemeinsamer Entscheidung eine Option. Sie umfasst geplante Verlaufskontrollen und Kriterien für einen späteren Eingriff."
+          },
+          "flag_note": "Sestamibi ist noch unzureichend extern validiert. Auch eine onkozytäre Stanzbiopsie beweist kein sicheres Onkozytom; Überwachung bleibt eine individuelle Risikoentscheidung. Die Biopsie vor Ablation ist eine starke EAU-Empfehlung, die Auswahl zur Überwachung eine schwache."
+        },
+        "en": {
+          "vignette": "The tumour board discusses a 71-year-old man with COPD GOLD 3 and heart failure (LVEF 35%). A 2.4 cm solid, contrast-enhancing mass of the left kidney without macroscopic fat remained indeterminate on renal protocol CT and MRI. 99mTc-sestamibi SPECT/CT shows tracer uptake in the lesion similar to the surrounding renal parenchyma. There are no metastases; eGFR is 61 ml/min/1.73 m², and the patient prefers to avoid an operation if possible.",
+          "lead_in": "The patient would consider ablation if justified by tumour risk, and histology would affect his decision. What should the tumour board recommend?",
+          "options": {
+            "A": {
+              "text": "Treat the positive scan as definitive proof of a benign oncocytoma and therefore observe without further risk assessment.",
+              "rationale": "Positive sestamibi uptake proves neither oncocytoma nor benignity. The EAU considers external validation insufficient. Surveillance can also be appropriate for selected small malignant renal masses, but requires an informed overall risk assessment. Here, core biopsy can change the choice between surveillance and ablation."
+            },
+            "B": {
+              "text": "Robot-assisted partial nephrectomy without delay",
+              "rationale": "Partial nephrectomy is an important option for suitable patients with a cT1 tumour requiring treatment. Here, major comorbidities and the small mass favour assessing individual risk and the value of biopsy first. Sestamibi uptake alone proves neither benignity nor a need for surgery."
+            },
+            "C": {
+              "text": "Percutaneous cryoablation without prior histology",
+              "rationale": "Ablation without histology would possibly treat a benign tumour and leave the diagnosis unknown for follow-up. A biopsy is recommended before ablative therapy."
+            },
+            "D": {
+              "text": "Core biopsy to assess risk before surveillance or ablation",
+              "rationale": "Biopsy is useful here because it can change management, and is required before ablation. An oncocytic neoplasm on core biopsy is not definite proof of benignity: WHO 2022 does not permit a definitive oncocytoma diagnosis on core biopsy, and chromophobe or other renal tumours remain possible. With an indolent finding and suitable overall circumstances, active surveillance is an option after shared decision-making, with planned follow-up and criteria for later intervention."
+            },
+            "E": {
+              "text": "Repeat the sestamibi SPECT/CT in three months and decide on the trend in uptake",
+              "rationale": "A repeat scan adds radiation and delay but no histology; changes in uptake over time are not a validated criterion."
+            }
+          },
+          "explanation": {
+            "core": "Sestamibi is an adjunct with limited evidence in small renal masses, not proof of benignity. Core biopsy can support risk assessment when histology changes management, and is required before ablation. An oncocytic biopsy finding is not a definitive oncocytoma diagnosis. Surveillance depends on tumour risk, comorbidity, life expectancy and shared preferences, rather than uptake alone.",
+            "teaching_point": "Biopsy is useful here because it can change management, and is required before ablation. An oncocytic neoplasm on core biopsy is not definite proof of benignity: WHO 2022 does not permit a definitive oncocytoma diagnosis on core biopsy, and chromophobe or other renal tumours remain possible. With an indolent finding and suitable overall circumstances, active surveillance is an option after shared decision-making, with planned follow-up and criteria for later intervention."
+          },
+          "flag_note": "Sestamibi has insufficient external validation. An oncocytic core biopsy is not a definitive oncocytoma diagnosis; surveillance remains an individual risk decision. Biopsy before ablation is a strong EAU recommendation; selection for surveillance is weak."
+        },
+        "es": {
+          "vignette": "En el comité de tumores se presenta a un varón de 71 años con EPOC GOLD 3 e insuficiencia cardiaca (FEVI 35 %). Una masa sólida de 2,4 cm en el riñón izquierdo, con realce y sin grasa macroscópica, quedó indeterminada en la TC renal y en la RM. En la SPECT/TC con 99mTc-sestamibi la lesión capta el trazador de forma similar al parénquima renal circundante. No hay metástasis; FGe 61 ml/min/1,73 m², y el paciente prefiere evitar una operación si es posible.",
+          "lead_in": "El paciente valoraría ablación si el riesgo tumoral la justifica y la histología influiría en su decisión. ¿Qué debe recomendar el comité?",
+          "options": {
+            "A": {
+              "text": "Considerar la captación prueba definitiva de un oncocitoma benigno y vigilar sin más valoración de riesgo.",
+              "rationale": "La captación de sestamibi no demuestra oncocitoma ni benignidad. La EAU considera insuficiente la validación externa. La vigilancia también puede ser apropiada en masas malignas pequeñas seleccionadas, pero exige una decisión informada sobre el riesgo global. Aquí la biopsia puede modificar la elección entre vigilancia y ablación."
+            },
+            "B": {
+              "text": "Nefrectomía parcial asistida por robot sin demora",
+              "rationale": "La nefrectomía parcial es una opción importante en pacientes aptos con tumor cT1 que precise tratamiento. En este caso, las comorbilidades y el tamaño pequeño favorecen valorar primero el riesgo y la utilidad de la biopsia. La captación por sí sola no demuestra benignidad ni necesidad de operar."
+            },
+            "C": {
+              "text": "Crioablación percutánea sin histología previa",
+              "rationale": "Una ablación sin histología trataría posiblemente un tumor benigno y dejaría el diagnóstico sin aclarar para el seguimiento. Se recomienda biopsia antes de una terapia ablativa."
+            },
+            "D": {
+              "text": "Biopsia percutánea para valorar el riesgo antes de vigilancia o ablación",
+              "rationale": "La biopsia es útil porque puede cambiar la conducta y es necesaria antes de la ablación. Una neoplasia oncocítica en biopsia no demuestra benignidad: la OMS 2022 no permite un diagnóstico definitivo de oncocitoma en cilindros, y siguen siendo posibles tumores cromófobos u otros. Con hallazgos indolentes y una situación global adecuada puede elegirse vigilancia activa, con controles planificados y criterios de intervención posterior."
+            },
+            "E": {
+              "text": "Repetir la SPECT/TC con sestamibi en tres meses y decidir según la evolución de la captación",
+              "rationale": "Repetir la prueba añade radiación y retraso, pero no histología; los cambios de captación en el tiempo no son un criterio validado."
+            }
+          },
+          "explanation": {
+            "core": "El sestamibi es una prueba complementaria con evidencia limitada, no una prueba de benignidad. La biopsia ayuda a valorar el riesgo si modifica la conducta y es necesaria antes de la ablación. Un hallazgo oncocítico no equivale a un diagnóstico definitivo de oncocitoma. La vigilancia depende del riesgo tumoral, comorbilidades, esperanza de vida y decisión compartida, no solo de la captación.",
+            "teaching_point": "La biopsia es útil porque puede cambiar la conducta y es necesaria antes de la ablación. Una neoplasia oncocítica en biopsia no demuestra benignidad: la OMS 2022 no permite un diagnóstico definitivo de oncocitoma en cilindros, y siguen siendo posibles tumores cromófobos u otros. Con hallazgos indolentes y una situación global adecuada puede elegirse vigilancia activa, con controles planificados y criterios de intervención posterior."
+          },
+          "flag_note": "La validación externa del sestamibi es insuficiente. Una biopsia oncocítica no demuestra definitivamente un oncocitoma; la vigilancia exige valorar el riesgo individual. La biopsia antes de ablación tiene recomendación fuerte de la EAU; la selección para vigilancia, débil."
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-17",
+          "method": "Residency-Game-DE text adapted and editorially checked; independent language review pending",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-17",
+          "method": "Residency-Game-DE text adapted and editorially checked; independent language review pending",
+          "clinical_signoff": false
+        }
+      }
     }
   ]
 }
