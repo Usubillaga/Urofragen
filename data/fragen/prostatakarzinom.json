@@ -4344,6 +4344,378 @@
           "clinical_signoff": false
         }
       }
+    },
+    {
+      "id": "uro-pca-00024",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "prostatakarzinom",
+        "subdomain": "Früherkennung",
+        "tags": [
+          "diagnostik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "S3-Leitlinie Prostatakarzinom, Kurzversion 8.1",
+          "year": 2025,
+          "url": "https://www.leitlinienprogramm-onkologie.de/fileadmin/user_upload/Downloads/Leitlinien/Prostatatkarzinom/Version_8/22_05_2026_Prostatakarzinom_Kurzversion_8.1_final_KL.pdf",
+          "section": "4.1, Empfehlungen 4.4–4.10, S. 21–22",
+          "accessed": "2026-10-17",
+          "version": "8.1, August 2025"
+        }
+      ],
+      "review": {
+        "created": "2026-10-17",
+        "editorial_review": {
+          "date": "2026-10-17",
+          "method": "Quellenabgleich und Anpassung aus Residency-Game-DE; keine fachärztliche Freigabe",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neue dreisprachige Adaptation aus Residency-Game-DE; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "revision": {
+          "date": "2026-10-17",
+          "reason": "Neue Frage aus Residency-Game-DE mit geprüftem Quellenbezug.",
+          "requires_review": true
+        }
+      },
+      "import_record": {
+        "source_repository": "Usubillaga/Residency-Game-DE",
+        "source_commit": "a853851ef6afdc34861dde63daf422eb2e1a86f8",
+        "source_case_id": "q-pca-baseline-psa-intermediate-interval",
+        "source_step_id": "question",
+        "source_case_sha256": "47008659bd8c26e05fdb581b25897cb0e32c194c98e419ef22348de02db800c5",
+        "source_url": "https://github.com/Usubillaga/Residency-Game-DE/tree/a853851ef6afdc34861dde63daf422eb2e1a86f8/data",
+        "adapted_at": "2026-10-17"
+      },
+      "content": {
+        "de": {
+          "vignette": "46-jähriger beschwerdefreier Mann, der sich nach ergebnisoffener Beratung für eine PSA-basierte Früherkennung entschieden hat. Kein Prostatakarzinom in der Familie, keine bekannte pathogene Keimbahnvariante, keine relevanten Vorerkrankungen; die Lebenserwartung liegt deutlich über 10 Jahren. Kein Harnwegsinfekt, kein urologischer Eingriff, keine Einnahme eines 5-Alpha-Reduktasehemmers. Der Basis-PSA-Wert beträgt 2,1 ng/ml; er fragt, wann die nächste Kontrolle ansteht.",
+          "lead_in": "Welches Kontrollintervall empfiehlt die deutsche S3-Leitlinie Version 8.1, Empfehlung 4.4, für diesen Basis-PSA?",
+          "options": {
+            "A": {
+              "text": "Erneute PSA-Bestimmung in 2 Jahren",
+              "rationale": "Richtig. Ein Basis-PSA von 1,5 bis 2,99 ng/ml ordnet ihn der intermediären Risikogruppe zu, für die die S3-Leitlinie zweijährliche Kontrollen empfiehlt. Unter 1,5 ng/ml läge das Intervall bei fünf Jahren; ab 3 ng/ml wird der Wert kurzfristig kontrolliert und bei Bestätigung weiter abgeklärt."
+            },
+            "B": {
+              "text": "PSA-Kontrolle in 5 Jahren",
+              "rationale": "Das fünfjährige Intervall gilt nur für einen Basis-PSA unter 1,5 ng/ml (niedriges Risiko). Bei 2,1 ng/ml ist es zu lang."
+            },
+            "C": {
+              "text": "MRT nach kurzfristiger PSA-Kontrolle",
+              "rationale": "Bei diesem beschwerdefreien Mann ohne weitere Risikomerkmale ist bei 2,1 ng/ml keine sofortige MRT begründet. Der bestätigte PSA-Grenzwert für den weiterführenden allgemeinen S3-Abklärungspfad liegt bei 3 ng/ml."
+            },
+            "D": {
+              "text": "Jährlich PSA und digital-rektale Untersuchung",
+              "rationale": "Die aktualisierte S3-Leitlinie empfiehlt die digital-rektale Untersuchung zur Früherkennung nicht mehr, und ein jährliches Intervall ist im risikoadaptierten Schema nicht vorgesehen."
+            },
+            "E": {
+              "text": "Keine weiteren PSA-Kontrollen",
+              "rationale": "Im risikoadaptierten Schema bestimmt der Basiswert das Intervall, er beendet die Früherkennung nicht. Ein Wert zwischen 1,5 und 2,99 ng/ml mit 46 Jahren bedeutet ein höheres Langzeitrisiko und erfordert regelmäßige Kontrollen."
+            }
+          },
+          "explanation": {
+            "core": "Die S3-Leitlinie (Version 8.1) bietet ab 45 Jahren einen Basis-PSA an: unter 1,5 ng/ml Kontrolle alle 5 Jahre, 1,5 bis 2,99 ng/ml alle 2 Jahre, ab 3 ng/ml kurzfristige Kontrolle und bei Bestätigung weitere Abklärung. Die digital-rektale Untersuchung ist kein Bestandteil der Früherkennung mehr.",
+            "teaching_point": "Richtig. Ein Basis-PSA von 1,5 bis 2,99 ng/ml ordnet ihn der intermediären Risikogruppe zu, für die die S3-Leitlinie zweijährliche Kontrollen empfiehlt. Unter 1,5 ng/ml läge das Intervall bei fünf Jahren; ab 3 ng/ml wird der Wert kurzfristig kontrolliert und bei Bestätigung weiter abgeklärt."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 46-year-old man without symptoms chose PSA-based early detection after balanced counselling. No relative has had prostate cancer, no pathogenic germline variant is known and he has no relevant illnesses; his life expectancy is well over 10 years. He has no urinary tract infection, has had no urological procedure and takes no 5-alpha reductase inhibitor. His baseline PSA is 2.1 ng/ml, and he asks when the next test is due.",
+          "lead_in": "What follow-up interval does German S3 guideline version 8.1, recommendation 4.4, specify for this baseline PSA?",
+          "options": {
+            "A": {
+              "text": "Repeat the PSA test in 2 years",
+              "rationale": "Correct. A baseline PSA of 1.5 to 2.99 ng/ml places him in the intermediate-risk group, for which the S3 guideline recommends testing every two years. Below 1.5 ng/ml the interval would be five years; from 3 ng/ml the value is rechecked at short notice and worked up further if confirmed."
+            },
+            "B": {
+              "text": "Repeat the PSA test in 5 years",
+              "rationale": "The five-year interval applies only to a baseline PSA below 1.5 ng/ml (low risk). At 2.1 ng/ml it is too long."
+            },
+            "C": {
+              "text": "Prostate MRI after an early repeat PSA",
+              "rationale": "In this asymptomatic man without other risk factors, PSA 2.1 ng/ml does not justify immediate MRI. The confirmed PSA threshold for further assessment in the general S3 pathway is 3 ng/ml."
+            },
+            "D": {
+              "text": "PSA and digital rectal examination every year",
+              "rationale": "The updated S3 guideline no longer recommends digital rectal examination for early detection, and a yearly interval is not part of the risk-adapted scheme."
+            },
+            "E": {
+              "text": "No further PSA testing",
+              "rationale": "In the risk-adapted scheme the baseline value sets the interval rather than ending screening. A value between 1.5 and 2.99 ng/ml at 46 carries a higher long-term risk and needs regular follow-up."
+            }
+          },
+          "explanation": {
+            "core": "The German S3 guideline (version 8.1) offers a baseline PSA from age 45: below 1.5 ng/ml retest every 5 years, 1.5 to 2.99 ng/ml every 2 years, and from 3 ng/ml a short-term recheck with further work-up if confirmed. Digital rectal examination is no longer part of early detection.",
+            "teaching_point": "Correct. A baseline PSA of 1.5 to 2.99 ng/ml places him in the intermediate-risk group, for which the S3 guideline recommends testing every two years. Below 1.5 ng/ml the interval would be five years; from 3 ng/ml the value is rechecked at short notice and worked up further if confirmed."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 46 años asintomático que, tras un asesoramiento imparcial, ha optado por la detección precoz basada en el PSA. Ningún familiar ha tenido cáncer de próstata, no se conoce ninguna variante germinal patogénica y no tiene enfermedades relevantes; su esperanza de vida supera claramente los 10 años. Sin infección urinaria, sin intervenciones urológicas y sin inhibidores de la 5-alfa-reductasa. El PSA basal es de 2,1 ng/ml y pregunta cuándo toca el siguiente control.",
+          "lead_in": "¿Qué intervalo de control indica la guía alemana S3 versión 8.1, recomendación 4.4, para este PSA basal?",
+          "options": {
+            "A": {
+              "text": "Repetir la determinación de PSA en 2 años",
+              "rationale": "Correcto. Un PSA basal de 1,5 a 2,99 ng/ml lo sitúa en el grupo de riesgo intermedio, para el que la guía S3 recomienda controles cada dos años. Por debajo de 1,5 ng/ml el intervalo sería de cinco años; a partir de 3 ng/ml el valor se repite a corto plazo y, si se confirma, se estudia."
+            },
+            "B": {
+              "text": "Repetir la determinación de PSA en 5 años",
+              "rationale": "El intervalo de cinco años solo se aplica a un PSA basal inferior a 1,5 ng/ml (riesgo bajo). Con 2,1 ng/ml es demasiado largo."
+            },
+            "C": {
+              "text": "RM tras repetir el PSA a corto plazo",
+              "rationale": "En este varón asintomático sin otros factores de riesgo, un PSA de 2,1 ng/ml no justifica RM inmediata. El umbral de PSA confirmado para ampliar el estudio en el itinerario general S3 es 3 ng/ml."
+            },
+            "D": {
+              "text": "PSA y tacto rectal cada año",
+              "rationale": "La guía S3 actualizada ya no recomienda el tacto rectal para la detección precoz y el intervalo anual no forma parte del esquema adaptado al riesgo."
+            },
+            "E": {
+              "text": "No realizar más controles de PSA",
+              "rationale": "En el esquema adaptado al riesgo, el valor basal fija el intervalo y no pone fin a la detección. Un valor entre 1,5 y 2,99 ng/ml a los 46 años supone un mayor riesgo a largo plazo y requiere controles periódicos."
+            }
+          },
+          "explanation": {
+            "core": "La guía alemana S3 (versión 8.1) ofrece un PSA basal a partir de los 45 años: por debajo de 1,5 ng/ml, control cada 5 años; de 1,5 a 2,99 ng/ml, cada 2 años; y desde 3 ng/ml, repetición a corto plazo y, si se confirma, estudio adicional. El tacto rectal ya no forma parte de la detección precoz.",
+            "teaching_point": "Correcto. Un PSA basal de 1,5 a 2,99 ng/ml lo sitúa en el grupo de riesgo intermedio, para el que la guía S3 recomienda controles cada dos años. Por debajo de 1,5 ng/ml el intervalo sería de cinco años; a partir de 3 ng/ml el valor se repite a corto plazo y, si se confirma, se estudia."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-17",
+          "method": "Residency-Game-DE text adapted and editorially checked; independent language review pending",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-17",
+          "method": "Residency-Game-DE text adapted and editorially checked; independent language review pending",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-pca-00025",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "prostatakarzinom",
+        "subdomain": "Genetische Risikokonstellation",
+        "tags": [
+          "diagnostik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "expertenkonsens",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "S3-Leitlinie Prostatakarzinom, Kurzversion 8.1",
+          "year": 2025,
+          "url": "https://www.leitlinienprogramm-onkologie.de/fileadmin/user_upload/Downloads/Leitlinien/Prostatatkarzinom/Version_8/22_05_2026_Prostatakarzinom_Kurzversion_8.1_final_KL.pdf",
+          "section": "4.1, Empfehlungen 4.4–4.10, S. 21–22",
+          "accessed": "2026-10-17",
+          "version": "8.1, August 2025"
+        }
+      ],
+      "review": {
+        "created": "2026-10-17",
+        "editorial_review": {
+          "date": "2026-10-17",
+          "method": "Quellenabgleich und Anpassung aus Residency-Game-DE; keine fachärztliche Freigabe",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neue dreisprachige Adaptation aus Residency-Game-DE; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "revision": {
+          "date": "2026-10-17",
+          "reason": "Neue Frage aus Residency-Game-DE mit geprüftem Quellenbezug.",
+          "requires_review": true
+        }
+      },
+      "import_record": {
+        "source_repository": "Usubillaga/Residency-Game-DE",
+        "source_commit": "a853851ef6afdc34861dde63daf422eb2e1a86f8",
+        "source_case_id": "q-pca-brca2-carrier-confirmed-psa-mri",
+        "source_step_id": "question",
+        "source_case_sha256": "8529108d89cd1ebffa6dffd883556fb96b39f3b8c313505c7b579043aaf45eae",
+        "source_url": "https://github.com/Usubillaga/Residency-Game-DE/tree/a853851ef6afdc34861dde63daf422eb2e1a86f8/data",
+        "adapted_at": "2026-10-17"
+      },
+      "content": {
+        "de": {
+          "vignette": "41-jähriger Mann, bei dem nach dem Mammakarzinom seiner Schwester eine pathogene Keimbahnvariante in BRCA2 nachgewiesen wurde; Vorstellung in der urologischen Sprechstunde zur Früherkennung. Keine Miktionsbeschwerden, Lebenserwartung deutlich über 10 Jahre. Der Hausarzt hatte einen PSA-Wert von 3,6 ng/ml gemessen; die Kontrolle sechs Wochen später ohne Infekt, Radfahren oder Ejakulation im Vorfeld ergibt 3,4 ng/ml. Sonografisch Prostatavolumen 24 ml, Urinstatus unauffällig.",
+          "lead_in": "Was ist der nächste Schritt nach dem speziellen Risikopfad der S3-Leitlinie Version 8.1?",
+          "options": {
+            "A": {
+              "text": "Abwarten bis zum 45. Lebensjahr, da die Früherkennung erst dann beginnt",
+              "rationale": "Mit 45 beginnt die allgemeine Früherkennung. Träger einer pathogenen Variante in BRCA2, MSH2 oder MSH6 erhalten bereits ab 40 eine Risikosprechstunde, und ein bestätigt erhöhter PSA-Wert darf nicht jahrelang liegen bleiben."
+            },
+            "B": {
+              "text": "PSA-Kontrolle in 2 Jahren, da der Wert nur grenzwertig erhöht ist",
+              "rationale": "Das zweijährige Intervall gehört zu Werten von 1,5 bis 2,99 ng/ml. Ein bestätigter PSA von 3 ng/ml oder mehr ist die Hochrisikogruppe und erfordert jetzt weitere Diagnostik, bei einem BRCA2-Träger erst recht."
+            },
+            "C": {
+              "text": "Systematische transrektale 12-fach-Biopsie ohne vorherige Bildgebung",
+              "rationale": "Die S3-Leitlinie stellt die MRT vor die Biopsie. Eine Biopsie ohne Bildgebung verfehlt Zielläsionen, findet mehr insignifikante Tumoren und birgt transrektal ein höheres Infektionsrisiko."
+            },
+            "D": {
+              "text": "MRT und Biopsie im speziellen Risikopfad nach Beratung planen",
+              "rationale": "Die S3-Leitlinie 8.1 unterscheidet diesen BRCA2-Träger von der allgemeinen Früherkennung: Risikosprechstunde ab 40 Jahren, PSA und MRT bei pathogener Variante. Empfehlung 4.10 sieht bei pathogener Variante und PI-RADS 3–5 und/oder PSA ≥3 ng/ml das Angebot einer MRT-Ultraschall-Fusionsbiopsie vor. Sein kontrollierter PSA erfüllt das PSA-Kriterium unabhängig vom späteren MRT-Ergebnis. Ein unauffälliges MRT hebt den Hochrisikopfad deshalb nicht automatisch auf. Biopsie, Vorgehen bei fehlender MRT-Zielläsion und weitere Kontrollen werden nach Aufklärung gemeinsam geplant."
+            },
+            "E": {
+              "text": "PSMA-PET/CT zur Primärdiagnostik",
+              "rationale": "Die PSMA-PET/CT dient dem Staging eines gesicherten Karzinoms mit höherem Risiko. Sie ersetzt bei einem Mann ohne Diagnose nicht die MRT der Prostata."
+            }
+          },
+          "explanation": {
+            "core": "S3-Leitlinie 8.1, Empfehlungen 4.8–4.10: Bei pathogenen BRCA2-, MSH2- oder MSH6-Varianten ab 40 Jahren Risikosprechstunde anbieten und PSA plus MRT durchführen. PI-RADS 3–5 und/oder ein PSA ≥3 ng/ml begründen im speziellen Risikopfad eine Biopsieempfehlung. Die allgemeine Regel für ein unauffälliges MRT darf diesen Hochrisikopfad nicht ersetzen.",
+            "teaching_point": "Die S3-Leitlinie 8.1 unterscheidet diesen BRCA2-Träger von der allgemeinen Früherkennung: Risikosprechstunde ab 40 Jahren, PSA und MRT bei pathogener Variante. Empfehlung 4.10 sieht bei pathogener Variante und PI-RADS 3–5 und/oder PSA ≥3 ng/ml das Angebot einer MRT-Ultraschall-Fusionsbiopsie vor. Sein kontrollierter PSA erfüllt das PSA-Kriterium unabhängig vom späteren MRT-Ergebnis. Ein unauffälliges MRT hebt den Hochrisikopfad deshalb nicht automatisch auf. Biopsie, Vorgehen bei fehlender MRT-Zielläsion und weitere Kontrollen werden nach Aufklärung gemeinsam geplant."
+          },
+          "flag_note": "Versionsgebundener Spezialpfad der deutschen S3-Leitlinie 8.1, Empfehlungen 4.8–4.10; konsensbasierte Empfehlungen. Eine unauffällige MRT ersetzt bei pathogener Variante und bestätigtem PSA ≥3 ng/ml nicht die individuelle Biopsieberatung."
+        },
+        "en": {
+          "vignette": "A 41-year-old man had a pathogenic germline BRCA2 variant identified after his sister's breast cancer and comes to the urology clinic for early detection. He has no urinary symptoms and a life expectancy well over 10 years. His GP measured a PSA of 3.6 ng/ml; a repeat test six weeks later, without infection, cycling or ejaculation beforehand, shows 3.4 ng/ml. Ultrasound shows a prostate volume of 24 ml, and urinalysis is normal.",
+          "lead_in": "What is the next step under the specific high-risk pathway in German S3 guideline version 8.1?",
+          "options": {
+            "A": {
+              "text": "Wait until age 45, when early detection begins",
+              "rationale": "Age 45 is the start of general early detection. Carriers of a pathogenic BRCA2, MSH2 or MSH6 variant are offered a risk consultation from 40, and a confirmed elevated PSA cannot be left for years."
+            },
+            "B": {
+              "text": "Repeat PSA in 2 years, as the value is only borderline",
+              "rationale": "The two-year interval belongs to values from 1.5 to 2.99 ng/ml. A PSA of 3 ng/ml or more that has been confirmed is the high-risk group and needs further diagnostic work-up now, all the more in a BRCA2 carrier."
+            },
+            "C": {
+              "text": "Systematic 12-core transrectal biopsy without prior imaging",
+              "rationale": "The S3 guideline puts MRI before biopsy. A biopsy without imaging misses targets, detects more insignificant tumours and, by the transrectal route, carries a higher infection risk."
+            },
+            "D": {
+              "text": "Plan MRI and biopsy through the genetic-risk pathway",
+              "rationale": "S3 guideline 8.1 distinguishes this BRCA2 carrier from routine early detection: a risk clinic from age 40, with PSA and MRI for a pathogenic variant. Recommendation 4.10 recommends offering MRI–ultrasound fusion biopsy with a pathogenic variant and PI-RADS 3–5 and/or PSA ≥3 ng/ml. His confirmed PSA meets that criterion regardless of the later MRI result. A negative MRI therefore does not automatically cancel the high-risk pathway. Biopsy, sampling when no MRI target is present, and follow-up require counselling and shared planning."
+            },
+            "E": {
+              "text": "PSMA PET/CT for primary diagnosis",
+              "rationale": "PSMA PET/CT is a staging tool for confirmed, higher-risk cancer. It does not replace prostate MRI in a man without a diagnosis."
+            }
+          },
+          "explanation": {
+            "core": "S3 guideline 8.1, recommendations 4.8–4.10: offer a risk clinic from age 40 and obtain PSA plus MRI for pathogenic BRCA2, MSH2 or MSH6 variants. PI-RADS 3–5 and/or PSA ≥3 ng/ml supports offering biopsy in this specific pathway. The general rule for a negative MRI must not replace the high-risk pathway.",
+            "teaching_point": "S3 guideline 8.1 distinguishes this BRCA2 carrier from routine early detection: a risk clinic from age 40, with PSA and MRI for a pathogenic variant. Recommendation 4.10 recommends offering MRI–ultrasound fusion biopsy with a pathogenic variant and PI-RADS 3–5 and/or PSA ≥3 ng/ml. His confirmed PSA meets that criterion regardless of the later MRI result. A negative MRI therefore does not automatically cancel the high-risk pathway. Biopsy, sampling when no MRI target is present, and follow-up require counselling and shared planning."
+          },
+          "flag_note": "Version-specific pathway in German S3 guideline 8.1, recommendations 4.8–4.10; consensus-based recommendations. A negative MRI does not replace individual biopsy counselling in a pathogenic-variant carrier with confirmed PSA ≥3 ng/ml."
+        },
+        "es": {
+          "vignette": "Varón de 41 años en quien, tras el cáncer de mama de su hermana, se detectó una variante germinal patogénica en BRCA2; acude a la consulta de urología para detección precoz. Sin síntomas miccionales y con una esperanza de vida claramente superior a 10 años. Su médico de cabecera midió un PSA de 3,6 ng/ml; el control seis semanas después, sin infección, ciclismo ni eyaculación previos, muestra 3,4 ng/ml. Ecográficamente, volumen prostático de 24 ml; sedimento urinario normal.",
+          "lead_in": "¿Cuál es el siguiente paso según el itinerario específico de alto riesgo de la guía alemana S3 versión 8.1?",
+          "options": {
+            "A": {
+              "text": "Esperar hasta los 45 años, cuando empieza la detección precoz",
+              "rationale": "Los 45 años marcan el inicio de la detección precoz general. A los portadores de una variante patogénica en BRCA2, MSH2 o MSH6 se les ofrece una consulta de riesgo desde los 40, y un PSA elevado confirmado no puede dejarse durante años."
+            },
+            "B": {
+              "text": "Repetir el PSA en 2 años, porque el valor solo está en el límite",
+              "rationale": "El intervalo de dos años corresponde a valores de 1,5 a 2,99 ng/ml. Un PSA confirmado de 3 ng/ml o más es el grupo de alto riesgo y requiere estudio ya, más aún en un portador de BRCA2."
+            },
+            "C": {
+              "text": "Biopsia transrectal sistemática de 12 cilindros sin imagen previa",
+              "rationale": "La guía S3 sitúa la RM antes de la biopsia. Una biopsia sin imagen pierde lesiones diana, detecta más tumores insignificantes y, por vía transrectal, conlleva más riesgo de infección."
+            },
+            "D": {
+              "text": "Planificar RM y biopsia en el itinerario de alto riesgo",
+              "rationale": "La guía S3 8.1 distingue a este portador de BRCA2 del cribado habitual: consulta de riesgo desde los 40 años y PSA y RM ante una variante patogénica. La recomendación 4.10 contempla ofrecer biopsia de fusión RM–ecografía con variante patogénica y PI-RADS 3–5 y/o PSA ≥3 ng/ml. Su PSA confirmado cumple el criterio, con independencia del resultado posterior de la RM. Una RM negativa no cancela automáticamente el itinerario de alto riesgo. La biopsia, el muestreo sin lesión diana y el seguimiento se planifican tras informar al paciente."
+            },
+            "E": {
+              "text": "PET/TC con PSMA para el diagnóstico primario",
+              "rationale": "La PET/TC con PSMA es una herramienta de estadificación del cáncer confirmado de mayor riesgo. No sustituye a la RM de próstata en un varón sin diagnóstico."
+            }
+          },
+          "explanation": {
+            "core": "Guía S3 8.1, recomendaciones 4.8–4.10: ofrecer consulta de riesgo desde los 40 años y realizar PSA y RM ante variantes patogénicas en BRCA2, MSH2 o MSH6. PI-RADS 3–5 y/o PSA ≥3 ng/ml justifican ofrecer biopsia en este itinerario específico. La regla general de una RM negativa no debe sustituir el itinerario de alto riesgo.",
+            "teaching_point": "La guía S3 8.1 distingue a este portador de BRCA2 del cribado habitual: consulta de riesgo desde los 40 años y PSA y RM ante una variante patogénica. La recomendación 4.10 contempla ofrecer biopsia de fusión RM–ecografía con variante patogénica y PI-RADS 3–5 y/o PSA ≥3 ng/ml. Su PSA confirmado cumple el criterio, con independencia del resultado posterior de la RM. Una RM negativa no cancela automáticamente el itinerario de alto riesgo. La biopsia, el muestreo sin lesión diana y el seguimiento se planifican tras informar al paciente."
+          },
+          "flag_note": "Itinerario específico de la guía alemana S3 8.1, recomendaciones 4.8–4.10; recomendaciones de consenso. Una RM negativa no sustituye el asesoramiento individual sobre biopsia ante variante patogénica y PSA confirmado ≥3 ng/ml."
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-17",
+          "method": "Residency-Game-DE text adapted and editorially checked; independent language review pending",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-17",
+          "method": "Residency-Game-DE text adapted and editorially checked; independent language review pending",
+          "clinical_signoff": false
+        }
+      }
     }
   ]
 }

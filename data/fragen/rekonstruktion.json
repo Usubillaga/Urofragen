@@ -1648,7 +1648,7 @@
     },
     {
       "id": "uro-rek-00012",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "subdomain": "Harnableitung",
@@ -1690,19 +1690,35 @@
           "code": "EAU",
           "title": "EAU Guidelines on Muscle-invasive and Metastatic Bladder Cancer",
           "year": 2026
+        },
+        {
+          "type": "studie",
+          "title": "Persistent, long-term risk for ureteroenteric anastomotic stricture formation: the case for long term follow-up",
+          "citation": "Yang et al., Transl Androl Urol 2020;9:142–150",
+          "year": 2020,
+          "doi": "10.21037/tau.2019.09.05",
+          "url": "https://tau.amegroups.org/article/view/29662/html",
+          "accessed": "2026-10-17"
         }
       ],
       "review": {
         "author": "EK",
         "reviewer": null,
         "created": "2026-09-08",
-        "last_reviewed": "2026-09-08",
+        "last_reviewed": null,
         "editorial_review": {
           "date": "2026-09-12",
           "method": "AI-assisted item-writing audit; explicit revisions linked in review/change-log.json",
           "clinical_signoff": false
         },
-        "clinical_review_status": "pending_independent_review"
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Seitenverteilung anhand Originalkohorte korrigiert; erneute Prüfung jeder Sprache erforderlich.",
+        "revision": {
+          "date": "2026-10-17",
+          "based_on_version": 1,
+          "reason": "Ureteroenterische Strikturen: links häufiger als rechts; Quelle ergänzt.",
+          "requires_review": true
+        }
       },
       "content": {
         "de": {
@@ -1715,7 +1731,7 @@
             },
             "B": {
               "text": "Stenose der uretero-ilealen Anastomose; Bildgebung anschließen",
-              "rationale": "Die Anastomosenstriktur ist die typische Spätkomplikation, rechts häufiger als links. Geklärt wird sie mit Schnittbildgebung und Loopogramm, behandelt endoskopisch oder offen."
+              "rationale": "Die Anastomosenstriktur ist die typische Spätkomplikation, links häufiger als rechts. Geklärt wird sie mit Schnittbildgebung und Loopogramm, behandelt endoskopisch oder offen."
             },
             "C": {
               "text": "Aufsteigender Infekt allein; die Antibiose genügt hier",
@@ -1727,7 +1743,7 @@
             }
           },
           "explanation": {
-            "core": "Nach jeder Harnableitung gehört die Kontrolle des oberen Harntrakts zur Nachsorge, weil sich Stenosen still entwickeln. Die uretero-ileale Anastomose ist die typische Engstelle, und die rechte Seite ist wegen der Kreuzung häufiger betroffen. Steinbildung wird durch die dauerhafte Besiedlung mit harnstoffspaltenden Keimen begünstigt, weshalb Proteus im Urin auch an Struvitsteine denken lässt.",
+            "core": "Nach jeder Harnableitung gehört die Kontrolle des oberen Harntrakts zur Nachsorge, weil sich Stenosen still entwickeln. Die uretero-ileale Anastomose ist die typische Engstelle, und die linke Seite ist häufiger betroffen, möglicherweise wegen der zusätzlichen Mobilisation und Passage des linken Harnleiters unter dem Sigmamesenterium. Steinbildung wird durch die dauerhafte Besiedlung mit harnstoffspaltenden Keimen begünstigt, weshalb Proteus im Urin auch an Struvitsteine denken lässt.",
             "teaching_point": "Neue Stauung nach Ableitung heißt Anastomosenstenose, bis das Gegenteil bewiesen ist."
           },
           "flag_note": null
@@ -1742,7 +1758,7 @@
             },
             "B": {
               "text": "Uretero-ileal anastomotic stricture; proceed to imaging",
-              "rationale": "Anastomotic stricture is the typical late complication, more often on the right. It is clarified by cross-sectional imaging and a loopogram and treated endoscopically or openly."
+              "rationale": "Anastomotic stricture is the typical late complication, more often on the left. It is clarified by cross-sectional imaging and a loopogram and treated endoscopically or openly."
             },
             "C": {
               "text": "Ascending infection alone; antibiotics suffice in this case",
@@ -1754,7 +1770,7 @@
             }
           },
           "explanation": {
-            "core": "After any urinary diversion, upper tract surveillance belongs to follow-up, because strictures develop silently. The uretero-ileal anastomosis is the typical narrowing, and the right side is more often affected because of the crossing. Stone formation is promoted by permanent colonisation with urea-splitting organisms, so Proteus in the urine should also raise the possibility of struvite stones.",
+            "core": "After any urinary diversion, upper tract surveillance belongs to follow-up, because strictures develop silently. The uretero-ileal anastomosis is the typical narrowing, and the left side is more often affected possibly because of the additional mobilisation and passage of the left ureter beneath the sigmoid mesentery. Stone formation is promoted by permanent colonisation with urea-splitting organisms, so Proteus in the urine should also raise the possibility of struvite stones.",
             "teaching_point": "New obstruction after diversion means anastomotic stricture until proven otherwise."
           },
           "flag_note": null
@@ -1769,7 +1785,7 @@
             },
             "B": {
               "text": "Estenosis anastomótica ureteroileal; proceder a la obtención de imágenes",
-              "rationale": "La estenosis anastomótica es la complicación tardía típica, más a menudo en el lado derecho. Se aclara mediante imágenes transversales y un loopograma y se trata por vía endoscópica o abierta."
+              "rationale": "La estenosis anastomótica es la complicación tardía típica, más a menudo en el lado izquierdo. Se aclara mediante imágenes transversales y un loopograma y se trata por vía endoscópica o abierta."
             },
             "C": {
               "text": "Infección ascendente sola; Los antibióticos son suficientes en este caso.",
@@ -1781,7 +1797,7 @@
             }
           },
           "explanation": {
-            "core": "Después de cualquier derivación urinaria, la vigilancia del tracto superior pertenece al seguimiento, porque las estenosis se desarrollan de forma silenciosa. La anastomosis ureteroileal es el estrechamiento típico y el lado derecho se ve afectado con mayor frecuencia debido al cruce. La formación de cálculos se ve favorecida por la colonización permanente con organismos que dividen la urea, por lo que Proteus en la orina también debería aumentar la posibilidad de cálculos de estruvita.",
+            "core": "Después de cualquier derivación urinaria, la vigilancia del tracto superior pertenece al seguimiento, porque las estenosis se desarrollan de forma silenciosa. La anastomosis ureteroileal es el estrechamiento típico y el lado izquierdo se ve afectado con mayor frecuencia posiblemente por la movilización adicional y el paso del uréter izquierdo bajo el mesosigma. La formación de cálculos se ve favorecida por la colonización permanente con organismos que dividen la urea, por lo que Proteus en la orina también debería aumentar la posibilidad de cálculos de estruvita.",
             "teaching_point": "Una nueva obstrucción después de la derivación significa estenosis anastomótica hasta que se demuestre lo contrario."
           },
           "flag_note": null
@@ -1789,8 +1805,13 @@
       },
       "translation": {
         "es": {
-          "date": "2026-09-10",
-          "method": "machine-assisted with AI editorial corrections",
+          "date": "2026-10-17",
+          "method": "Source-backed medical revision; independent language review pending",
+          "clinical_signoff": false
+        },
+        "en": {
+          "date": "2026-10-17",
+          "method": "Source-backed medical revision; independent language review pending",
           "clinical_signoff": false
         }
       }

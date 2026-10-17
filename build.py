@@ -480,6 +480,8 @@ body {
 }
 
 .btn.ghost { background: none; color: var(--accent); }
+.home-links { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem; margin: .75rem 0; }
+.home-links a { display: block; max-width: 100%; line-height: 1.4; text-decoration: none; }
 .btn.quiet { background: none; color: var(--muted); border-color: var(--rule); }
 .btn:disabled { opacity: 0.4; cursor: default; }
 
@@ -976,7 +978,15 @@ APP_JS = r'''(function () {
       root.appendChild(el('p','notice', {de:'Fachärztlich freigegeben',en:'Clinically approved',es:'Aprobadas clínicamente'}[lang] + ': ' + signed + '/' + bank.questions.length + ' · ' + lang.toUpperCase()));
       var reviewLink = el('a', 'btn ghost', {de:'✓ Fragen fachlich prüfen',en:'✓ Review questions',es:'✓ Revisar preguntas'}[lang]);
       reviewLink.href = 'pruefung.html';
-      root.appendChild(reviewLink);
+      var homeLinks = el('nav', 'home-links');
+      homeLinks.setAttribute('aria-label', {de:'Weiterführende Seiten',en:'More pages',es:'Más páginas'}[lang]);
+      homeLinks.appendChild(reviewLink);
+      var reportsLink = el('a', 'btn ghost', {de:'Wochenberichte · Studien und Updates',en:'Weekly reports · Research and updates',es:'Informes semanales · Estudios y novedades'}[lang]);
+      reportsLink.href = 'https://github.com/Usubillaga/Urofragen/blob/main/weekly-reports/README.md#ausgaben';
+      reportsLink.target = '_blank';
+      reportsLink.rel = 'noopener noreferrer';
+      homeLinks.appendChild(reportsLink);
+      root.appendChild(homeLinks);
       var cmeSection = el('section', 'cme-section');
       cmeSection.appendChild(el('h2', '', {de:'CME-Lernmodule',en:'CME learning modules',es:'Módulos de aprendizaje CME'}[lang]));
       cmeSection.appendChild(el('p', 'domain-hint', {de:'Deutsch, Englisch und Spanisch · Eigene Auswertung und lokal gespeicherter Fortschritt.',en:'German, English and Spanish · Separate results and locally saved progress.',es:'Alemán, inglés y español · Resultados propios y progreso guardado localmente.'}[lang]));

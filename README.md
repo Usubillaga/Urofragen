@@ -1,21 +1,25 @@
-# Urofragen – Aktualisierung 04.10.2026
+# Urofragen – Erweiterung 17.10.2026
 
 ## Wöchentliche Studien und Repository-Prüfung
 
-[Berichte und Ablauf](weekly-reports/README.md): Freitags erscheinen neue urologische Studien und Updates sowie eine Prüfung dieses Repositorys mit gegebenenfalls getesteten Korrekturen als Pull Requests. Erste geplante Ausgabe: 16.10.2026.
+[Berichte und Ablauf](weekly-reports/README.md): Freitags erscheinen neue urologische Studien und Updates sowie eine Prüfung dieses Repositorys mit gegebenenfalls getesteten Korrekturen als Pull Requests. [Aktuelle Ausgabe und alle Sprachfassungen](weekly-reports/README.md#ausgaben). Der Link steht auch auf der Lernstartseite.
 
 Die ZIP enthält die komplette Website und alle zum erneuten Aufbau benötigten Projektdateien. Die fertigen HTML-Dateien können direkt hochgeladen werden; Python wird auf GitHub Pages nicht benötigt.
 
 ## Inhalt
 
-- 257 verfügbare Lernfragen in 16 Abschnitten, jeweils Deutsch, Englisch und Spanisch.
+- 262 verfügbare Lernfragen in 16 Abschnitten, jeweils Deutsch, Englisch und Spanisch.
 - 43 neue Fragen: 9 Seminom IIA/B, 10 Hodentumor-Nachsorge, 14 Schwerpunktheft Teil 3, 10 Salvage-Operationen.
 - Hodentumor jetzt 53, Operative Urologie 30 verfügbare Fragen. NMIBC und MIBC weiterhin jeweils 10.
-- 10 zusätzliche dreisprachige OP-Entwürfe aus dem bestehenden Repository erhalten; im Prüfmodus verfügbar, im Lernmodus nicht ausgeliefert. Insgesamt 267 Datensätze.
+- 10 zusätzliche dreisprachige OP-Entwürfe aus dem bestehenden Repository erhalten; im Prüfmodus verfügbar, im Lernmodus nicht ausgeliefert. Insgesamt 272 Datensätze.
 - `uro-hod-00007` ersetzt und versioniert. Die alte Freigabe ist im Verlauf erhalten; die neue Fassung muss erneut geprüft werden. 51 übrige deutsche Freigaben unverändert erhalten.
 - Alle neuen Fragen ohne fachärztliche Freigabe. Es wurde keine pauschale Freigabe aus Autorennamen oder Dateiinhalten abgeleitet.
-- Vier eigenständige CME-Lerneinheiten auf Deutsch, Englisch und Spanisch mit insgesamt 50 Fragen: Seminom IIA/B (10), Hodentumor Teil 3 (14), Peniskarzinom (16), Salvage-Operationen (10). Vollständig übersetzt sind Fragen, Optionen, Begründungen, Lernziele, Merkkästen, Entscheidungshilfen, Navigation, Auswertung und Druckfassung. Bibliografische Originaltitel bleiben als Quellenangabe erhalten. Die 50 CME-Fragen sind separate Übungen; sie erhöhen die Zahl der 257 Fragen im Hauptquiz nicht.
+- Vier eigenständige CME-Lerneinheiten auf Deutsch, Englisch und Spanisch mit insgesamt 50 Fragen: Seminom IIA/B (10), Hodentumor Teil 3 (14), Peniskarzinom (16), Salvage-Operationen (10). Vollständig übersetzt sind Fragen, Optionen, Begründungen, Lernziele, Merkkästen, Entscheidungshilfen, Navigation, Auswertung und Druckfassung. Bibliografische Originaltitel bleiben als Quellenangabe erhalten. Die 50 CME-Fragen sind separate Übungen; sie erhöhen die Zahl der 262 Fragen im Hauptquiz nicht.
 - Einheitliche Navigation mit DE/EN/ES-Schalter, getrennte Auswertung des ersten Durchgangs und der Fehlerwiederholung sowie Fortsetzen im selben Browser. Der Sprachwechsel erhält Antworten und Erstquote; die Startseite öffnet das Modul in der gewählten Sprache. Änderungen sind in `CME-AENDERUNGEN-2026-10-04.md` beschrieben. Deutsche medizinische Originaltexte und Antwortschlüssel bleiben unverändert; Übersetzungen vergeben keine neue fachärztliche Freigabe.
+
+## Gezielte Erweiterung aus Residency-Game-DE (17.10.2026)
+
+Fünf neue dreisprachige Fälle ergänzen Priapismus, risikoadaptierte PSA-Früherkennung, den BRCA2-Risikopfad und kleine Nierenraumforderungen. Zwei bestehende Erklärungen sind mit Originalquellen präzisiert und versioniert. Alle bestehenden IDs, die zehn OP-Entwürfe und die 51 deutschen Freigaben bleiben erhalten; neue und geänderte Inhalte benötigen eine eigene Prüfung jeder Sprache. Details und Quellen: [Änderungsübersicht](KORREKTUREN-2026-10-17.md).
 
 ## Hochladen
 
@@ -35,7 +39,7 @@ Die Ordner `data`, `tools`, `review`, `updates`, `translations` und `templates` 
 
 ## Weiterprüfen und Verlauf
 
-Im Prüfmodus den Filter **„Neu oder überarbeitet – prüfen“** wählen. Er enthält die 44 neuen/geänderten Fragen dieses Updates und die 13 noch offenen Überarbeitungen aus September. Die anderen 51 deutschen Freigaben bleiben gültig. Englisch und Spanisch sind separat freizugeben.
+Im Prüfmodus den Filter **„Neu oder überarbeitet – prüfen“** wählen. Er enthält 64 neue/geänderte Fragen: die bisherigen 57 und sieben neue oder präzisierte Fassungen vom 17.10.2026. Die anderen 51 deutschen Freigaben bleiben gültig. Englisch und Spanisch sind separat freizugeben.
 
 Nach jeder Sitzung „Prüfungen als Datei sichern“ verwenden. Browserdaten sind nicht automatisch mit GitHub synchronisiert. Bei einem öffentlichen Repository sind die enthaltenen Prüfernamen und Kommentare öffentlich einsehbar.
 
