@@ -1,0 +1,66 @@
+name: Wochenberichte veröffentlichen
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'weekly-reports/**'
+      - 'tools/build_reports.py'
+      - 'assets/reports.css'
+      - '.github/workflows/publish-reports.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: native-report-publication
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Vollständige Berichte bauen und ohne Überschreiben veröffentlichen
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git checkout --detach FETCH_HEAD
+            python -X utf8 review/verify_reports.py
+            python -X utf8 tools/build_reports.py
+            git add -- reports.html reports-es.html reports-de.html reports/
+            if git diff --cached --quiet; then
+              exit 0
+            fi
+            git commit -m 'docs: publish native weekly report pages'
+            if git push origin HEAD:refs/heads/main; then
+              exit 0
+            fi
+            # A concurrent source commit won. Rebuild from its latest main;
+            # never force-push or replay obsolete generated output over it.
+          done
+          echo 'Publication stopped after three concurrent updates; no changes overwritten.' >&2
+          exit 1
+      # GITHUB_TOKEN commits do not trigger the legacy Pages build themselves.
+      # Request the existing main-branch Pages publication explicitly.
+      - name: GitHub Pages neu bereitstellen
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.repos.requestPagesBuild({
+              owner: context.repo.owner,
+              repo: context.repo.repo
+            });

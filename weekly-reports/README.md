@@ -1,5 +1,17 @@
 # Wöchentliche Urologie-Berichte
 
+## Berichte auf der Webseite lesen
+
+Das vollständige Webarchiv ist direkt auf der Lernwebseite erreichbar:
+[Español](https://usubillaga.github.io/Urofragen/reports-es.html) ·
+[English](https://usubillaga.github.io/Urofragen/reports.html) ·
+[Deutsch](https://usubillaga.github.io/Urofragen/reports-de.html).
+Es trennt **Studien und Updates** von **Prüfung und Verbesserungen**. Der Startseitenknopf öffnet das Archiv in der aktuell gewählten Sprache; Quellen, Relevanznoten und Grenzen stehen vollständig auf den datierten Webseiten.
+
+Die Markdown-Dateien bleiben die verbindlichen Quellen. `python tools/build_reports.py` erzeugt daraus die Webseiten, ohne Fragen, Antwortschlüssel, Freigaben oder CME-Dateien zu bearbeiten. Deutsche Basisdateien heißen weiterhin `YYYY-MM-DD.md`, Englisch `YYYY-MM-DD-en.md` und Spanisch `YYYY-MM-DD-es.md`; alle drei Fassungen einer Ausgabe müssen vorliegen. Webadressen sind `reports/research/YYYY-MM-DD[-es|-de].html` beziehungsweise `reports/maintenance/YYYY-MM-DD[-es|-de].html`, mit Englisch ohne Sprachsuffix.
+
+Der Workflow `.github/workflows/publish-reports.yml` baut nach Berichtsänderungen auf `main` automatisch vollständige HTML-Ausgaben, schreibt nur die erzeugten Berichtsseiten und fordert die bestehende GitHub-Pages-Bereitstellung an. Bei parallelen Änderungen wird vom neuesten `main` neu gebaut; fremde Änderungen werden nicht überschrieben. Reguläre Berichts-Commits benötigen weiterhin nur die vollständigen Markdown-Sprachfassungen und den Ausgabenlink hier. Erzeugte HTML-Dateien nicht von Hand bearbeiten. Fehlende Sprachfassungen oder ungültige interne Berichtslinks brechen die Veröffentlichung ab, bevor erzeugte Seiten geschrieben werden.
+
 Hier werden die angeforderten Studienberichte und Repository-Prüfungen archiviert. Die erste geplante Ausgabe ist am **16. Oktober 2026**. Studienbericht und Repository-Prüfung sind für Freitagmorgen in der Zeitzone **Europe/Berlin** geplant. Sie werden im selben Freitagslauf als getrennte Berichte erzeugt. Die Terminierung erfolgt über eine ChatGPT-Aufgabe; sie ist kein GitHub-Actions-Cronjob.
 
 ## Studien und Updates
@@ -50,7 +62,7 @@ Der einzige Wartungscursor bleibt der JSON-Abschnitt `monitoring_state` in der d
 
 ## Ausgaben
 
-Noch keine Ausgabe; erster geplanter Termin: 16.10.2026.
+Die erste vollständige Ausgabe ist vom 17.10.2026 und holt den Freitagsbericht nach.
 
 - 17.10.2026: [Studien und Updates](research/2026-10-17.md) · [Repository-Prüfung](maintenance/2026-10-17.md)
 

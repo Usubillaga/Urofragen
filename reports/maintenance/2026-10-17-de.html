@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="de">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Urofragen – Repository-Prüfung, 17. Oktober 2026 · Urofragen</title><meta name="description" content="Studien, Updates und Verbesserungen für Urofragen. Vollständige Berichte in drei Sprachen, mit Quellen und Evidenzgrenzen.">
+<link rel="stylesheet" href="../../assets/reports.css"><link rel="alternate" hreflang="es" href="2026-10-17-es.html">
+<link rel="alternate" hreflang="en" href="2026-10-17.html">
+<link rel="alternate" hreflang="de" href="2026-10-17-de.html"></head>
+<body><a class="skip" href="#content">Zum Inhalt</a><div class="wrap">
+<header class="masthead"><a class="brand" href="../../index.html">Urofragen</a>
+<nav class="languages" aria-label="Berichtssprache"><a lang="es" hreflang="es" href="2026-10-17-es.html">Español</a> <a lang="en" hreflang="en" href="2026-10-17.html">English</a> <a lang="de" hreflang="de" href="2026-10-17-de.html" aria-current="page">Deutsch</a></nav></header>
+<nav class="breadcrumbs"><a href="../../index.html">← Zurück zu den Fragen</a><a href="../../reports-de.html">Alle Berichte</a></nav>
+<main id="content"><p class="eyebrow">Prüfung und Verbesserungen · <time datetime="2026-10-17">2026-10-17</time></p>
+<article class="report"><h1 id="urofragen-repository-prüfung-17-oktober-2026">Urofragen – Repository-Prüfung, 17. Oktober 2026</h1>
+<p>[Sicher] Ein fehlgeschlagener Import konnte veränderte oder neu erzeugte CME-Ausgaben zurücklassen. Die getestete Reparatur liegt als ungemergter PR vor; die medizinische Stichprobe ist keine Vollprüfung der Fragenbank.</p>
+<p><strong>Datenstand:</strong> 17.10.2026, 03:52:59 Europe/Berlin. Der gemeinsame <a href="../research/2026-10-17-de.html">Studienbericht</a> deckt 09.–16.10.2026 ab. Dies ist die erste echte Ausgangsprüfung: Vorher existierten nur Ablaufbeschreibungen, kein datierter Wartungsbericht und kein gültiger Prüf-Cursor. Der Referenzcommit <code>d459c6b</code> wurde deshalb nicht als erfolgte Ausgangsprüfung behandelt.</p>
+<h2 id="relevanzgrade">Relevanzgrade</h2>
+<p>Der Relevanzgrad ist eine redaktionelle Einstufung der praktischen Bedeutung für die Integrität und die Inhalte des Lernprojekts. Er ist von der Priorität P1/P2/P3 und von der Evidenzstärke bzw. den Vertrauenskennzeichnungen [Sicher]/[Wahrscheinlich]/[Vermutung] getrennt.</p>
+<div class="table-scroll" tabindex="0"><table><thead><tr><th scope="col">Note</th><th scope="col">Bedeutung</th></tr></thead><tbody><tr><td>1</td><td>sehr relevant</td></tr><tr><td>2</td><td>relevant</td></tr><tr><td>3</td><td>etwas relevant</td></tr><tr><td>4</td><td>wenig relevant</td></tr></tbody></table></div>
+<p>Die Sprachfassungen und Relevanzgrade geben die bestehende Prüfung wieder; sie stellen keine neue Prüfung dar und ändern weder den Prüf-Cursor noch den Freigabestatus.</p>
+<h2 id="geprüfter-stand">Geprüfter Stand</h2>
+<p>GitHub-Metadaten zuerst gelesen: Defaultbranch <code>main</code>, geprüft <code>ab77373d3c6d02d1acbff9c2d39b2bea6f4e6b6f</code>. Kein <code>AGENTS.md</code> vorhanden. Gelesen wurden aktuelle README, <code>weekly-reports/README.md</code>, Workflow <code>.github/workflows/pruefung.yml</code>, Freigabe-/Qualitätsmodell, Build, Prüfoberfläche, Importer samt Abhängigkeiten, CME-Builder/Vorlagen, Sprachstruktur und vorhandene Tests. Ein früherer Studienbericht existierte nicht; die finale Fassung des gemeinsamen Studienberichts vom 17.10.2026 wurde vor Abschluss gelesen und die neue Evidenz auf tatsächliche Inhalte abgebildet.</p>
+<p>Branches vollständig paginiert (Abschluss mit leerer Seite): <code>main</code>; <code>claude/loving-tesla-3l2yyg</code> bei <code>ba8c1765a6de013133ff0cdd39b011105d9f5b64</code>; neu der Reparaturbranch bei <code>775feb510b0c20c346499ae64d7509db740c908a</code>. Der Claude-Head ist selbst Merge-Base/Ancestor von main, ohne eigene Änderungen. Seit diesem Head enthält main nur die beiden Dokumentationsdateien zur Wochenprüfung; sie wurden gelesen. Vor Beginn gab es keine offenen PRs einschließlich Entwürfen. Danach existiert ausschließlich <a href="https://github.com/Usubillaga/Urofragen/pull/3">PR #3</a>; dessen zwei tatsächlich geänderte Dateien und gespeicherter Tree wurden geprüft. Es wurde nichts gemergt.</p>
+<h2 id="befunde-und-maßnahmen">Befunde und Maßnahmen</h2>
+<p><strong>P1:</strong> Kein belegter Befund in diesem Prüfumfang.</p>
+<p><strong>P2 [Sicher] – UF-20261017-01: Unvollständiges Rollback nach fehlgeschlagenem Import.</strong></p>
+<p><strong>Relevanznote: 1 – sehr relevant.</strong> Ein vollständiges Rollback verhindert inkonsistente Lernausgaben nach einem fehlgeschlagenen Import.</p>
+<p><code>tools/import_blocks.py:main</code> sicherte nur <code>index.html</code> und <code>pruefung.html</code>. <code>build.py</code> schreibt inzwischen auch vier CME-HTML-Seiten, vier Sprachdateien und <code>assets/cme.js</code>. Fehlt zum Beispiel im letzten Modul eine ES-Quelldatei, wurden die Fragendaten zurückgesetzt, zuvor erzeugte CME-Dateien aber verändert belassen; erstmals erzeugte Dateien blieben ebenfalls zurück. Dadurch kann ein fehlgeschlagener Import gemischte Ausgabestände hinterlassen.</p>
+<p><a href="https://github.com/Usubillaga/Urofragen/pull/3">PR #3</a> sichert jetzt alle elf Ausgaben anhand der aktuellen CME-Modulliste. Der echte Integrationstest in <code>review/verify_update.py</code> provoziert im temporären Projekt den späten Buildfehler und prüft Byte-Wiederherstellung, vorher fehlende Dateien, Fragendaten und <code>domains.json</code> einschließlich neuem Taxonomie-Tag. Vor der Reparatur reproduziert: <strong>1 Test fehlgeschlagen genau am Ausgabe-Rollback</strong>; danach <strong>6 Importtests bestanden</strong>. Unabhängiger Code-Review ohne wesentlichen Befund. Remote-Head <code>775feb510b0c20c346499ae64d7509db740c908a</code>, Patch-ID <code>1f4a6c00cc0181ef3f8d63cba8a900bca74c03b3</code>, Tree <code>05667d581a995097a931b4efd04e4cc050c6c3a8</code> stimmt mit dem getesteten lokalen Tree überein. Quelldaten, medizinische Texte, Schlüssel und Freigaben unverändert.</p>
+<p><strong>P3 [Sicher] – UF-20261017-02: Quellenfundstellen teilweise nicht direkt nachprüfbar.</strong></p>
+<p><strong>Relevanznote: 2 – relevant.</strong> Direkte Quellenlinks ermöglichen die Überprüfung von Inhaltsversionen, ohne damit medizinische Fehler nachzuweisen.</p>
+<p>205 von 267 Hauptdatensätzen enthalten keinen direkten <code>sources[].url</code>. Bibliografische Angaben bleiben erhalten; fehlender URL ist kein Beweis falscher Medizin. Beispiele aus der gelesenen Stichprobe: <code>uro-pen-00001</code>, <code>uro-hod-00007</code>, <code>uro-hod-00031</code>, <code>uro-rcc-00012</code>, <code>uro-ope-00021</code> und <code>uro-ope-00023</code>. Konkrete Nacharbeit: Primärfundstelle, Leitlinienabschnitt und tatsächlich geprüfte Fassung pro betroffener Inhaltsversion ergänzen, numerische Artikelbehauptungen fachärztlich gegenlesen. Keine pauschale Neufreigabe; Quellenänderungen sind Teil des Inhaltsfingerabdrucks. Kein separater Reparatur-PR für eine ungesicherte automatische Quellenzuordnung.</p>
+<h2 id="daten-freigaben-und-medizinische-stichprobe">Daten, Freigaben und medizinische Stichprobe</h2>
+<p>267 eindeutige Hauptfragen: 257 veröffentlicht, 10 Entwürfe nur im Prüfmodus; je DE/EN/ES. 51 gültige Freigaben ausschließlich Deutsch, 216 ohne gültige unabhängige Freigabe; EN und ES jeweils 0. Versions-/Inhaltsbindung und Sprachisolierung, alte Freigabehistorien und wiederholter identischer Import wurden getestet. Kein Ablaufmechanismus eingeführt. 43 Importfragen und die Ersatzfrage bleiben über <code>import_record</code>, Originalblöcke und Importbericht nachvollziehbar; kein Roh-Neuimport, keine Übernahme fremder Spiel-/Prüfdatensätze.</p>
+<p>Die folgenden tatsächlich gelesenen Fälle wurden anhand aktueller Primärleitlinien/Regulatorik bzw. auf die Anwendbarkeit der neuen Evidenz geprüft. Ein Quellenrahmen-/Schlüsselabgleich ist keine vollständige neue fachärztliche Freigabe jeder Zahlenangabe. EN/ES wurden auf Struktur, Zahlen-/Schlüsselparität und stichprobenartig auf Bedeutung geprüft; ihre klinischen Freigaben bleiben offen.</p>
+<div class="table-scroll" tabindex="0"><table><thead><tr><th scope="col">Hauptfrage / Version</th><th scope="col">Schlüssel</th><th scope="col">Vorhandener Status</th><th scope="col">Ergebnis / Grenze</th></tr></thead><tbody><tr><td><code>uro-nmi-00001</code> v3</td><td>B</td><td>DE freigegeben; EN/ES offen</td><td>Nach-TUR-B 2–6 Wochen im beschriebenen pT1-HG-Fall durch EAU gedeckt. <a href="https://uroweb.org/guidelines/non-muscle-invasive-bladder-cancer/chapter/diagnosis">Quelle</a></td></tr><tr><td><code>uro-mib-00001</code> v1</td><td>C</td><td>DE freigegeben; EN/ES offen</td><td>Perioperatives EV/Pembrolizumab für resektables MIBC in aktueller EMA-Indikation enthalten; spezifisches im Item genanntes Zulassungsdatum Juni 2026 sowie sämtliche Dosierungs-/Effektdetails hier nicht vollständig geprüft. <a href="https://www.ema.europa.eu/en/medicines/human/EPAR/padcev">Quelle</a></td></tr><tr><td><code>uro-pen-00001</code> v2</td><td>C</td><td>DE/EN/ES offen</td><td>DSNB bei cN0 und schlecht differenziertem pT1 durch EAU gedeckt; redundante Passage in der C-Begründung bleibt redaktionelle Prüflücke. <a href="https://uroweb.org/guidelines/penile-cancer/chapter/diagnostic-evaluation-and-staging">Quelle</a></td></tr><tr><td><code>uro-hod-00007</code> v3</td><td>C</td><td>DE/EN/ES offen</td><td>Primäre RPLND nur selektiert am spezialisierten Zentrum, möglichst prospektiv/Studie: mit EAU vereinbar; Originalartikel-Zahlen nicht vollständig neu erhoben. <a href="https://uroweb.org/guidelines/testicular-cancer/chapter/disease-management">Quelle</a></td></tr><tr><td><code>uro-hod-00031</code> v1</td><td>C</td><td>DE/EN/ES offen</td><td>EAU-Tabelle 8 enthält kein Routine-Röntgen-Thorax beim Stadium-I-Seminom; weitergehende artikelbezogene Reihen-/Prozentangaben nicht neu verifiziert. <a href="https://uroweb.org/guidelines/testicular-cancer/chapter/followup-after-curative-therapy">Quelle</a></td></tr><tr><td><code>uro-ope-00021</code> v1</td><td>B</td><td>DE/EN/ES offen</td><td>Biopsiegesichertes lokal begrenztes Radiorezidiv: Salvage-RP bei hoch selektierten Patienten am erfahrenen Zentrum durch EAU gedeckt; retrospektive Serienzahlen nicht neu volltextgeprüft. <a href="https://uroweb.org/guidelines/prostate-cancer/chapter/treatment">Quelle</a></td></tr><tr><td><code>uro-ope-00023</code> v1</td><td>A</td><td>DE/EN/ES offen</td><td>Neue LUNAR-Evidenz auf tatsächliches oligonodales Rezidiv-Item geprüft; sie ersetzt keinen ENRT/Boost/ADT-Vergleich und rechtfertigt keinen Schlüsselwechsel. EAU bestätigt PEACE-V-STORM mit 6 Monaten ADT in beiden Armen. <a href="https://uroweb.org/guidelines/prostate-cancer/chapter/treatment">Quelle</a></td></tr><tr><td><code>uro-rcc-00012</code> v1</td><td>B</td><td>DE freigegeben; EN/ES offen</td><td>Vorhofthrombus: Ausdehnung/Teamplanung und Operation bei M0 weiter EAU-kompatibel. Kleine einarmige SABR-Studie ändert diesen chirurgischen Schlüssel nicht. <a href="https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/disease-management">Quelle</a></td></tr><tr><td><code>uro-pca-00015</code> v2</td><td>A</td><td>DE/EN/ES offen</td><td>Anwendbarkeit der neuen LUNAR-Daten geprüft: de-novo-M1/Primärtumorbestrahlung ist eine andere Population als oligorezidiviertes HSPC; keine Extrapolation zum Schlüsselwechsel. <a href="https://www.sciencedirect.com/science/article/pii/S0302283826023766">Quelle</a></td></tr><tr><td><code>uro-pca-00018</code> v3</td><td>C</td><td>DE/EN/ES offen</td><td>Anwendbarkeit der neuen LUNAR-Daten geprüft: vorbehandeltes mCRPC ist eine andere Population; keine vollständige erneute Zulassungs-/Sequenzprüfung dieses Items. <a href="https://www.sciencedirect.com/science/article/pii/S0302283826023766">Quelle</a></td></tr></tbody></table></div>
+<p>Die <strong>50 CME-Fragen</strong> sind getrennte Übungen und erhöhen die 257 Lernfragen des Hauptquiz nicht. Sie besitzen keine hier dokumentierte klinische Freigabe in DE/EN/ES. Tatsächlich stichprobenartig gelesen: Seminom-IIA/B <strong>n1 (D), n5 (C)</strong>; Hodentumor-Heft3 <strong>n1 (C)</strong>; Peniskarzinom <strong>n1 (B), n13 (B)</strong>; Salvage <strong>n1 (B), n3 (A)</strong>. Quellenrahmen: <a href="https://uroweb.org/guidelines/testicular-cancer/chapter/disease-management">EAU Hodentumor</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/15996198/">Knight-Originalstudie zu IgA/Assayinterferenz</a>, <a href="https://uroweb.org/guidelines/penile-cancer/chapter/diagnostic-evaluation-and-staging">EAU Peniskarzinom-Staging</a>, <a href="https://uroweb.org/guidelines/penile-cancer/chapter/disease-management">EAU Peniskarzinom-Systemtherapie</a>, <a href="https://uroweb.org/guidelines/prostate-cancer/chapter/treatment">EAU Prostata</a>. Originalartikel/sekundär zitierte Serien bleiben als solche gekennzeichnet; vollständige Strukturen, Antwortschlüssel und medizinische Zahlentokens aller vier Module wurden automatisiert zwischen DE/EN/ES abgeglichen.</p>
+<h2 id="bedeutung-der-neuen-studien-regulatormeldungen">Bedeutung der neuen Studien-/Regulatormeldungen</h2>
+<ul><li><strong>LUNAR-Update</strong> (<a href="https://www.sciencedirect.com/science/article/pii/S0302283826023766">Original, DOI 10.1016/j.eururo.2026.09.005</a>): Inhaltlich an <code>uro-ope-00023</code> v1 und CME-Salvage n3 geprüft. Oligorezidiviertes HSPC und PNT2002 plus SBRT sind kein direkter Ersatzvergleich gegen die vorhandene ENRT/Boost/ADT-Antwort. Kein Schlüsselwechsel; keine neue Standard-/Zulassungsbehauptung. <code>uro-pca-00015</code> v2 (de novo M1) und <code>uro-pca-00018</code> v3 (vorbehandeltes mCRPC) sind abweichende Populationen. Der Primärtext wurde von der gemeinsamen Recherche erschlossen; ein eigener ScienceDirect-Abruf dieses Teilblocks scheiterte, daher keine eigenständige Bestätigung aller Effektzahlen hier.</li><li><strong>Neoadjuvante SABR vor RCC-IVC-Thrombektomie</strong> (<a href="https://jamanetwork.com/journals/jamaoncology/fullarticle/2855337">JAMA Oncology 15.10., DOI 10.1001/jamaoncol.2026.4172</a>): Tatsächlicher Bezug <code>uro-rcc-00012</code> v1. Kleine einarmige Phase-2-Studie mit historischem Vergleich, kein randomisierter Überlegenheitsbeleg. Sie ersetzt keine chirurgische Team-/Thrombusplanung und begründet keinen neuen Standard im Item.</li><li><strong>CHMP/Truqap</strong> (<a href="https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-12-15-october-2026">EMA 16.10.</a>): Volltextsuche in Hauptfragen/CME-Quellen nach PTEN, Truqap und Capivasertib ohne Treffer. Die zurückgezogene Indikationserweiterung begründet keine Prostatazulassung und keine Inhaltsänderung ohne passendes Item.</li></ul>
+<h2 id="tatsächlich-ausgeführte-prüfungen">Tatsächlich ausgeführte Prüfungen</h2>
+<div class="table-scroll" tabindex="0"><table><thead><tr><th scope="col">Befehl</th><th scope="col">Ergebnis</th></tr></thead><tbody><tr><td><code>python -X utf8 tools/check_generated.py</code></td><td>Bestanden; 11 Ausgaben passen, nur zulässiges generiertes Datum normalisiert.</td></tr><tr><td><code>python -X utf8 review/verify_update.py</code></td><td>Baseline 5 Tests bestanden; Reparatur 6 Tests bestanden.</td></tr><tr><td><code>python -X utf8 review/verify_cme.py</code></td><td>3 Tests bestanden: Ursprungsdaten, Schlüssel/IDs, Verweise.</td></tr><tr><td><code>python -X utf8 review/verify_cme_languages.py</code></td><td>3 Tests bestanden: Vollstruktur, Schlüssel, Zahlen/Zitationen, Assets.</td></tr><tr><td><code>python -X utf8 review/check_release.py</code></td><td>Bestanden; enthält Neubau, 8 Freigabe-/Speichertests, 5 Anzeigen, JS-Syntax und Review-UI-Tests.</td></tr><tr><td><code>node review/test_cme.cjs</code></td><td>Bestanden: Erstquote, Wiederholung, Fortsetzen, Speicherfehler, Navigation, Daten/Syntax.</td></tr><tr><td><code>CME_BROWSER_CHANNEL=&#x27;&#x27; node review/test_cme_browser.cjs</code></td><td>Vollständig bestanden mit echtem Chromium 153.0.8010.0: alle vier Module, Desktop/Mobile, Fortsetzen/Erstquote/Retry/Neustart, Speicherisolierung/-fehler; keine JS-Fehler.</td></tr><tr><td><code>CME_BROWSER_CHANNEL=&#x27;&#x27; node review/test_cme_languages_browser.cjs</code></td><td>Vollständig bestanden: alle vier Module EN/ES-Druckinhalt, DE→EN→ES-Fortsetzen, Erstquote, Helfer/Auswertung, Mobile; keine JS-Fehler.</td></tr><tr><td>Eigener HTMLParser-Abgleich aller sechs Seiten</td><td>Keine fehlenden statisch erfassten lokalen href/src und keine doppelten DOM-IDs. Hauptseiten-Navigation wird zusätzlich dynamisch erzeugt; die CME-Karten wurden im Browser geprüft.</td></tr><tr><td><code>git diff --check</code>, unabhängiger Code-Review, Remote-Tree-Abgleich</td><td>Bestanden.</td></tr></tbody></table></div>
+<p>Zunächst scheiterten <code>npx playwright install --with-deps chromium</code> an Container-APT/setgroups und der reine CDN-Download an einem leeren/defekten ZIP; beide Browserstarts scheiterten entsprechend am fehlenden Binary. Danach wurde ein vorhandenes echtes Chromium aus dem lokalen Runtimebestand bereitgestellt. Die unveränderten vollständigen Browser-Testskripte wurden anschließend erfolgreich ausgeführt: <code>CME_BROWSER_CHANNEL</code> leer, originales <code>chromium.launch({headless:true})</code>, echter Runtime-Browser am von Playwright erwarteten <code>chromium_headless_shell-1248/.../chrome-headless-shell</code> per Symlink bereitgestellt. Kein Syntax-/DOM-Stub als Ersatz. Python 3.12.14, Node 24.19.0; Workflow nennt Node 22, dieser Versionsunterschied bleibt Umgebungsgrenze. <a href="https://github.com/Usubillaga/Urofragen/actions/runs/38992462920">GitHub-Actions-Prüfung von PR #3</a> zusätzlich am gespeicherten Head geprüft: abgeschlossen, erfolgreich. Kein aktuell anwendbarer Workflowtest blieb lokal unausgeführt.</p>
+<h2 id="verbleibender-umfang-und-nächster-lauf">Verbleibender Umfang und nächster Lauf</h2>
+<p>Keine medizinische Vollprüfung aller 267 Hauptfragen plus 50 CME-Fragen, keine neue fachärztliche Freigabe und kein Volltextabgleich sämtlicher Originalartikel. Insbesondere Serienzahlen, Distraktor-Übertreibungen, spanische Formulierungen und das genaue Juni-2026-Zulassungsdatum in <code>uro-mib-00001</code> bleiben gezielte Nachprüfungen. Die technische Erstprüfung und beschriebene Stichprobe sind abgeschlossen; der Cursor bezeichnet genau diese überprüften Heads und diesen Umfang. Bei nächsten Läufen alle Head-Diffs seit diesen SHAs und offene PRs weiterprüfen, anschließend medizinische Stichprobe rotieren. Der offene P2-PR muss vor einer etwaigen Übernahme menschlich geprüft werden; dieser Lauf hat keinen Merge ausgeführt.</p>
+<h2 id="monitoring_state">monitoring_state</h2>
+<pre><code class="language-json">{
+  &quot;version&quot;: 1,
+  &quot;checked_at&quot;: &quot;2026-10-17T03:52:59+02:00&quot;,
+  &quot;timezone&quot;: &quot;Europe/Berlin&quot;,
+  &quot;issue_date&quot;: &quot;2026-10-17&quot;,
+  &quot;default_branch&quot;: &quot;main&quot;,
+  &quot;checked_default_sha&quot;: &quot;ab77373d3c6d02d1acbff9c2d39b2bea6f4e6b6f&quot;,
+  &quot;previous_valid_cursor&quot;: null,
+  &quot;initial_review_completed&quot;: true,
+  &quot;initial_review_scope&quot;: &quot;Technische Ausgangsprüfung mit tatsächlicher rotierender medizinischer Stichprobe; keine klinische Vollprüfung aller 317 Haupt-/CME-Fragen.&quot;,
+  &quot;branch_heads&quot;: {
+    &quot;main&quot;: &quot;ab77373d3c6d02d1acbff9c2d39b2bea6f4e6b6f&quot;,
+    &quot;claude/loving-tesla-3l2yyg&quot;: &quot;ba8c1765a6de013133ff0cdd39b011105d9f5b64&quot;,
+    &quot;fix/import-rollback-all-generated&quot;: &quot;775feb510b0c20c346499ae64d7509db740c908a&quot;
+  },
+  &quot;branch_review&quot;: {
+    &quot;claude/loving-tesla-3l2yyg&quot;: {
+      &quot;merge_base&quot;: &quot;ba8c1765a6de013133ff0cdd39b011105d9f5b64&quot;,
+      &quot;unique_changes&quot;: 0,
+      &quot;fully_checked&quot;: true
+    },
+    &quot;main&quot;: {
+      &quot;fully_checked&quot;: true,
+      &quot;mode&quot;: &quot;initial_baseline&quot;
+    },
+    &quot;fix/import-rollback-all-generated&quot;: {
+      &quot;merge_base&quot;: &quot;ab77373d3c6d02d1acbff9c2d39b2bea6f4e6b6f&quot;,
+      &quot;fully_checked&quot;: true,
+      &quot;tree_sha&quot;: &quot;05667d581a995097a931b4efd04e4cc050c6c3a8&quot;
+    }
+  },
+  &quot;pr_heads&quot;: {
+    &quot;3&quot;: {
+      &quot;sha&quot;: &quot;775feb510b0c20c346499ae64d7509db740c908a&quot;,
+      &quot;url&quot;: &quot;https://github.com/Usubillaga/Urofragen/pull/3&quot;,
+      &quot;draft&quot;: false,
+      &quot;fully_checked&quot;: true
+    }
+  },
+  &quot;reported_findings&quot;: [
+    {
+      &quot;id&quot;: &quot;UF-20261017-01&quot;,
+      &quot;priority&quot;: &quot;P2&quot;,
+      &quot;path&quot;: &quot;tools/import_blocks.py:main&quot;,
+      &quot;cause&quot;: &quot;Rollback sicherte nur Hauptseiten, obwohl Build auch CME-Ausgaben erzeugt.&quot;,
+      &quot;status&quot;: &quot;repair_pr_open&quot;,
+      &quot;pr_url&quot;: &quot;https://github.com/Usubillaga/Urofragen/pull/3&quot;,
+      &quot;patch_id&quot;: &quot;1f4a6c00cc0181ef3f8d63cba8a900bca74c03b3&quot;,
+      &quot;head_sha&quot;: &quot;775feb510b0c20c346499ae64d7509db740c908a&quot;,
+      &quot;relevance_grade&quot;: 1,
+      &quot;relevance_reason&quot;: &quot;Ein vollständiges Rollback verhindert inkonsistente Lernausgaben nach einem fehlgeschlagenen Import.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;UF-20261017-02&quot;,
+      &quot;priority&quot;: &quot;P3&quot;,
+      &quot;path&quot;: &quot;data/fragen/*.json:sources&quot;,
+      &quot;cause&quot;: &quot;205/267 Fragen ohne direktes sources[].url; bibliografische Provenienz vorhanden, genaue Primärfundstellen teils unvollständig.&quot;,
+      &quot;status&quot;: &quot;editorial_review_pending&quot;,
+      &quot;pr_url&quot;: null,
+      &quot;patch_id&quot;: null,
+      &quot;relevance_grade&quot;: 2,
+      &quot;relevance_reason&quot;: &quot;Direkte Quellenlinks ermöglichen die Überprüfung von Inhaltsversionen, ohne damit medizinische Fehler nachzuweisen.&quot;
+    }
+  ],
+  &quot;medically_checked_ids&quot;: [
+    {
+      &quot;id&quot;: &quot;uro-nmi-00001&quot;,
+      &quot;version&quot;: 3,
+      &quot;answer_key&quot;: &quot;B&quot;,
+      &quot;review_status_by_language&quot;: {
+        &quot;de&quot;: &quot;approved&quot;,
+        &quot;en&quot;: &quot;pending_independent_review&quot;,
+        &quot;es&quot;: &quot;pending_independent_review&quot;
+      },
+      &quot;scope&quot;: &quot;Nach-TUR-B 2–6 Wochen im beschriebenen pT1-HG-Fall durch EAU gedeckt.&quot;,
+      &quot;source_urls&quot;: [
+        &quot;https://uroweb.org/guidelines/non-muscle-invasive-bladder-cancer/chapter/diagnosis&quot;
+      ],
+      &quot;approval_changed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;uro-mib-00001&quot;,
+      &quot;version&quot;: 1,
+      &quot;answer_key&quot;: &quot;C&quot;,
+      &quot;review_status_by_language&quot;: {
+        &quot;de&quot;: &quot;approved&quot;,
+        &quot;en&quot;: &quot;pending_independent_review&quot;,
+        &quot;es&quot;: &quot;pending_independent_review&quot;
+      },
+      &quot;scope&quot;: &quot;Perioperatives EV/Pembrolizumab für resektables MIBC in aktueller EMA-Indikation enthalten; spezifisches im Item genanntes Zulassungsdatum Juni 2026 sowie sämtliche Dosierungs-/Effektdetails hier nicht vollständig geprüft.&quot;,
+      &quot;source_urls&quot;: [
+        &quot;https://www.ema.europa.eu/en/medicines/human/EPAR/padcev&quot;
+      ],
+      &quot;approval_changed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;uro-pen-00001&quot;,
+      &quot;version&quot;: 2,
+      &quot;answer_key&quot;: &quot;C&quot;,
+      &quot;review_status_by_language&quot;: {
+        &quot;de&quot;: &quot;pending_independent_review&quot;,
+        &quot;en&quot;: &quot;pending_independent_review&quot;,
+        &quot;es&quot;: &quot;pending_independent_review&quot;
+      },
+      &quot;scope&quot;: &quot;DSNB bei cN0 und schlecht differenziertem pT1 durch EAU gedeckt; redundante Passage in der C-Begründung bleibt redaktionelle Prüflücke.&quot;,
+      &quot;source_urls&quot;: [
+        &quot;https://uroweb.org/guidelines/penile-cancer/chapter/diagnostic-evaluation-and-staging&quot;
+      ],
+      &quot;approval_changed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;uro-hod-00007&quot;,
+      &quot;version&quot;: 3,
+      &quot;answer_key&quot;: &quot;C&quot;,
+      &quot;review_status_by_language&quot;: {
+        &quot;de&quot;: &quot;pending_independent_review&quot;,
+        &quot;en&quot;: &quot;pending_independent_review&quot;,
+        &quot;es&quot;: &quot;pending_independent_review&quot;
+      },
+      &quot;scope&quot;: &quot;Primäre RPLND nur selektiert am spezialisierten Zentrum, möglichst prospektiv/Studie: mit EAU vereinbar; Originalartikel-Zahlen nicht vollständig neu erhoben.&quot;,
+      &quot;source_urls&quot;: [
+        &quot;https://uroweb.org/guidelines/testicular-cancer/chapter/disease-management&quot;
+      ],
+      &quot;approval_changed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;uro-hod-00031&quot;,
+      &quot;version&quot;: 1,
+      &quot;answer_key&quot;: &quot;C&quot;,
+      &quot;review_status_by_language&quot;: {
+        &quot;de&quot;: &quot;pending_independent_review&quot;,
+        &quot;en&quot;: &quot;pending_independent_review&quot;,
+        &quot;es&quot;: &quot;pending_independent_review&quot;
+      },
+      &quot;scope&quot;: &quot;EAU-Tabelle 8 enthält kein Routine-Röntgen-Thorax beim Stadium-I-Seminom; weitergehende artikelbezogene Reihen-/Prozentangaben nicht neu verifiziert.&quot;,
+      &quot;source_urls&quot;: [
+        &quot;https://uroweb.org/guidelines/testicular-cancer/chapter/followup-after-curative-therapy&quot;
+      ],
+      &quot;approval_changed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;uro-ope-00021&quot;,
+      &quot;version&quot;: 1,
+      &quot;answer_key&quot;: &quot;B&quot;,
+      &quot;review_status_by_language&quot;: {
+        &quot;de&quot;: &quot;pending_independent_review&quot;,
+        &quot;en&quot;: &quot;pending_independent_review&quot;,
+        &quot;es&quot;: &quot;pending_independent_review&quot;
+      },
+      &quot;scope&quot;: &quot;Biopsiegesichertes lokal begrenztes Radiorezidiv: Salvage-RP bei hoch selektierten Patienten am erfahrenen Zentrum durch EAU gedeckt; retrospektive Serienzahlen nicht neu volltextgeprüft.&quot;,
+      &quot;source_urls&quot;: [
+        &quot;https://uroweb.org/guidelines/prostate-cancer/chapter/treatment&quot;
+      ],
+      &quot;approval_changed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;uro-ope-00023&quot;,
+      &quot;version&quot;: 1,
+      &quot;answer_key&quot;: &quot;A&quot;,
+      &quot;review_status_by_language&quot;: {
+        &quot;de&quot;: &quot;pending_independent_review&quot;,
+        &quot;en&quot;: &quot;pending_independent_review&quot;,
+        &quot;es&quot;: &quot;pending_independent_review&quot;
+      },
+      &quot;scope&quot;: &quot;Neue LUNAR-Evidenz auf tatsächliches oligonodales Rezidiv-Item geprüft; sie ersetzt keinen ENRT/Boost/ADT-Vergleich und rechtfertigt keinen Schlüsselwechsel. EAU bestätigt PEACE-V-STORM mit 6 Monaten ADT in beiden Armen.&quot;,
+      &quot;source_urls&quot;: [
+        &quot;https://uroweb.org/guidelines/prostate-cancer/chapter/treatment&quot;
+      ],
+      &quot;approval_changed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;uro-rcc-00012&quot;,
+      &quot;version&quot;: 1,
+      &quot;answer_key&quot;: &quot;B&quot;,
+      &quot;review_status_by_language&quot;: {
+        &quot;de&quot;: &quot;approved&quot;,
+        &quot;en&quot;: &quot;pending_independent_review&quot;,
+        &quot;es&quot;: &quot;pending_independent_review&quot;
+      },
+      &quot;scope&quot;: &quot;Vorhofthrombus: Ausdehnung/Teamplanung und Operation bei M0 weiter EAU-kompatibel. Kleine einarmige SABR-Studie ändert diesen chirurgischen Schlüssel nicht.&quot;,
+      &quot;source_urls&quot;: [
+        &quot;https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/disease-management&quot;
+      ],
+      &quot;approval_changed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;uro-pca-00015&quot;,
+      &quot;version&quot;: 2,
+      &quot;answer_key&quot;: &quot;A&quot;,
+      &quot;review_status_by_language&quot;: {
+        &quot;de&quot;: &quot;pending_independent_review&quot;,
+        &quot;en&quot;: &quot;pending_independent_review&quot;,
+        &quot;es&quot;: &quot;pending_independent_review&quot;
+      },
+      &quot;scope&quot;: &quot;Anwendbarkeit der neuen LUNAR-Daten geprüft: de-novo-M1/Primärtumorbestrahlung ist eine andere Population als oligorezidiviertes HSPC; keine Extrapolation zum Schlüsselwechsel.&quot;,
+      &quot;source_urls&quot;: [
+        &quot;https://www.sciencedirect.com/science/article/pii/S0302283826023766&quot;
+      ],
+      &quot;approval_changed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;uro-pca-00018&quot;,
+      &quot;version&quot;: 3,
+      &quot;answer_key&quot;: &quot;C&quot;,
+      &quot;review_status_by_language&quot;: {
+        &quot;de&quot;: &quot;pending_independent_review&quot;,
+        &quot;en&quot;: &quot;pending_independent_review&quot;,
+        &quot;es&quot;: &quot;pending_independent_review&quot;
+      },
+      &quot;scope&quot;: &quot;Anwendbarkeit der neuen LUNAR-Daten geprüft: vorbehandeltes mCRPC ist eine andere Population; keine vollständige erneute Zulassungs-/Sequenzprüfung dieses Items.&quot;,
+      &quot;source_urls&quot;: [
+        &quot;https://www.sciencedirect.com/science/article/pii/S0302283826023766&quot;
+      ],
+      &quot;approval_changed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;cme-seminom-IIAB:1&quot;,
+      &quot;module_question_number&quot;: 1,
+      &quot;answer_key&quot;: &quot;D&quot;,
+      &quot;review_status_by_language&quot;: {
+        &quot;de&quot;: &quot;no_clinical_approval_documented&quot;,
+        &quot;en&quot;: &quot;no_clinical_approval_documented&quot;,
+        &quot;es&quot;: &quot;no_clinical_approval_documented&quot;
+      },
+      &quot;scope&quot;: &quot;Deutscher Fall/Schlüssel und Quellenrahmen stichprobenartig geprüft; DE/EN/ES Struktur, Zahlen-/Schlüsselparität in Tests; keine neue fachärztliche Freigabe.&quot;,
+      &quot;source_urls&quot;: [
+        &quot;https://uroweb.org/guidelines/testicular-cancer/chapter/disease-management&quot;
+      ],
+      &quot;approval_changed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;cme-seminom-IIAB:5&quot;,
+      &quot;module_question_number&quot;: 5,
+      &quot;answer_key&quot;: &quot;C&quot;,
+      &quot;review_status_by_language&quot;: {
+        &quot;de&quot;: &quot;no_clinical_approval_documented&quot;,
+        &quot;en&quot;: &quot;no_clinical_approval_documented&quot;,
+        &quot;es&quot;: &quot;no_clinical_approval_documented&quot;
+      },
+      &quot;scope&quot;: &quot;Deutscher Fall/Schlüssel und Quellenrahmen stichprobenartig geprüft; DE/EN/ES Struktur, Zahlen-/Schlüsselparität in Tests; keine neue fachärztliche Freigabe.&quot;,
+      &quot;source_urls&quot;: [
+        &quot;https://uroweb.org/guidelines/testicular-cancer/chapter/disease-management&quot;
+      ],
+      &quot;approval_changed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;cme-hodentumor-heft-teil3:1&quot;,
+      &quot;module_question_number&quot;: 1,
+      &quot;answer_key&quot;: &quot;C&quot;,
+      &quot;review_status_by_language&quot;: {
+        &quot;de&quot;: &quot;no_clinical_approval_documented&quot;,
+        &quot;en&quot;: &quot;no_clinical_approval_documented&quot;,
+        &quot;es&quot;: &quot;no_clinical_approval_documented&quot;
+      },
+      &quot;scope&quot;: &quot;Deutscher Fall/Schlüssel und Quellenrahmen stichprobenartig geprüft; DE/EN/ES Struktur, Zahlen-/Schlüsselparität in Tests; keine neue fachärztliche Freigabe.&quot;,
+      &quot;source_urls&quot;: [
+        &quot;https://pubmed.ncbi.nlm.nih.gov/15996198/&quot;
+      ],
+      &quot;approval_changed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;cme-peniskarzinom:1&quot;,
+      &quot;module_question_number&quot;: 1,
+      &quot;answer_key&quot;: &quot;B&quot;,
+      &quot;review_status_by_language&quot;: {
+        &quot;de&quot;: &quot;no_clinical_approval_documented&quot;,
+        &quot;en&quot;: &quot;no_clinical_approval_documented&quot;,
+        &quot;es&quot;: &quot;no_clinical_approval_documented&quot;
+      },
+      &quot;scope&quot;: &quot;Deutscher Fall/Schlüssel und Quellenrahmen stichprobenartig geprüft; DE/EN/ES Struktur, Zahlen-/Schlüsselparität in Tests; keine neue fachärztliche Freigabe.&quot;,
+      &quot;source_urls&quot;: [
+        &quot;https://uroweb.org/guidelines/penile-cancer/chapter/disease-management&quot;
+      ],
+      &quot;approval_changed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;cme-peniskarzinom:13&quot;,
+      &quot;module_question_number&quot;: 13,
+      &quot;answer_key&quot;: &quot;B&quot;,
+      &quot;review_status_by_language&quot;: {
+        &quot;de&quot;: &quot;no_clinical_approval_documented&quot;,
+        &quot;en&quot;: &quot;no_clinical_approval_documented&quot;,
+        &quot;es&quot;: &quot;no_clinical_approval_documented&quot;
+      },
+      &quot;scope&quot;: &quot;Deutscher Fall/Schlüssel und Quellenrahmen stichprobenartig geprüft; DE/EN/ES Struktur, Zahlen-/Schlüsselparität in Tests; keine neue fachärztliche Freigabe.&quot;,
+      &quot;source_urls&quot;: [
+        &quot;https://uroweb.org/guidelines/penile-cancer/chapter/diagnostic-evaluation-and-staging&quot;
+      ],
+      &quot;approval_changed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;cme-salvage-operationen:1&quot;,
+      &quot;module_question_number&quot;: 1,
+      &quot;answer_key&quot;: &quot;B&quot;,
+      &quot;review_status_by_language&quot;: {
+        &quot;de&quot;: &quot;no_clinical_approval_documented&quot;,
+        &quot;en&quot;: &quot;no_clinical_approval_documented&quot;,
+        &quot;es&quot;: &quot;no_clinical_approval_documented&quot;
+      },
+      &quot;scope&quot;: &quot;Deutscher Fall/Schlüssel und Quellenrahmen stichprobenartig geprüft; DE/EN/ES Struktur, Zahlen-/Schlüsselparität in Tests; keine neue fachärztliche Freigabe.&quot;,
+      &quot;source_urls&quot;: [
+        &quot;https://uroweb.org/guidelines/prostate-cancer/chapter/treatment&quot;
+      ],
+      &quot;approval_changed&quot;: false
+    },
+    {
+      &quot;id&quot;: &quot;cme-salvage-operationen:3&quot;,
+      &quot;module_question_number&quot;: 3,
+      &quot;answer_key&quot;: &quot;A&quot;,
+      &quot;review_status_by_language&quot;: {
+        &quot;de&quot;: &quot;no_clinical_approval_documented&quot;,
+        &quot;en&quot;: &quot;no_clinical_approval_documented&quot;,
+        &quot;es&quot;: &quot;no_clinical_approval_documented&quot;
+      },
+      &quot;scope&quot;: &quot;Deutscher Fall/Schlüssel und Quellenrahmen stichprobenartig geprüft; DE/EN/ES Struktur, Zahlen-/Schlüsselparität in Tests; keine neue fachärztliche Freigabe.&quot;,
+      &quot;source_urls&quot;: [
+        &quot;https://uroweb.org/guidelines/prostate-cancer/chapter/treatment&quot;
+      ],
+      &quot;approval_changed&quot;: false
+    }
+  ],
+  &quot;unresolved_gaps&quot;: [
+    &quot;Keine vollständige medizinische Volltextprüfung aller Fragen/Distraktoren/Serienzahlen.&quot;,
+    &quot;EN/ES bleiben fachärztlich separat ungeprüft (0 gültige Freigaben); Tests und Stichproben vergeben keine Freigabe.&quot;,
+    &quot;205 Hauptfragen ohne direkten Quellenlink; Nachpflege in Inhaltsversionen unter Erhalt der Freigabehistorie.&quot;,
+    &quot;uro-mib-00001: behauptetes EU-Zulassungsdatum Juni2026 und sämtliche Dosierungen/Effektdetails nicht vollständig neu verifiziert.&quot;
+  ],
+  &quot;checks&quot;: {
+    &quot;tools/check_generated.py&quot;: &quot;passed: 11 generated files&quot;,
+    &quot;review/verify_update.py&quot;: &quot;passed: 6 tests on patch; original baseline 5&quot;,
+    &quot;review/verify_cme.py&quot;: &quot;passed: 3 tests&quot;,
+    &quot;review/verify_cme_languages.py&quot;: &quot;passed: 3 tests&quot;,
+    &quot;review/check_release.py&quot;: &quot;passed: 8 integrity/storage tests, 5 approval display checks, review UI&quot;,
+    &quot;review/test_cme.cjs&quot;: &quot;passed&quot;,
+    &quot;review/test_cme_browser.cjs&quot;: &quot;passed: real Chromium153.0.8010.0&quot;,
+    &quot;review/test_cme_languages_browser.cjs&quot;: &quot;passed: real Chromium153.0.8010.0&quot;,
+    &quot;six_pages_local_references_and_ids&quot;: &quot;passed: no missing statically parsed local href/src, no duplicate DOM ids&quot;,
+    &quot;git_diff_check&quot;: &quot;passed&quot;,
+    &quot;remote_tree_matches_tested_tree&quot;: &quot;passed: 05667d581a995097a931b4efd04e4cc050c6c3a8&quot;,
+    &quot;remote_ci&quot;: &quot;passed: https://github.com/Usubillaga/Urofragen/actions/runs/38992462920&quot;
+  },
+  &quot;unrun_checks&quot;: [],
+  &quot;shared_research_report_read&quot;: &quot;urology-research-2026-10-17.md&quot;,
+  &quot;browser_runtime&quot;: {
+    &quot;product&quot;: &quot;Chromium&quot;,
+    &quot;version&quot;: &quot;153.0.8010.0&quot;,
+    &quot;launch_configuration&quot;: &quot;CME_BROWSER_CHANNEL=&#x27;&#x27; with Playwright chromium.launch({headless:true}); runtime binary symlinked at Playwright chromium_headless_shell-1248/chrome-headless-shell-linux64/chrome-headless-shell&quot;,
+    &quot;full_suites_executed&quot;: true
+  }
+}</code></pre></article></main><footer>Relevanz: 1 sehr relevant · 2 relevant · 3 etwas relevant · 4 wenig relevant. Relevanz und technische Tests ersetzen keine fachärztliche Freigabe.</footer></div></body></html>
