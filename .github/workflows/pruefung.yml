@@ -27,6 +27,8 @@ jobs:
 
       - name: Fragen-, Freigabe- und CME-Tests
         run: |
+          python -X utf8 review/verify_reports.py
+          python -X utf8 tools/build_reports.py
           python -X utf8 review/verify_update.py
           python -X utf8 review/verify_cme.py
           python -X utf8 review/verify_cme_languages.py
@@ -41,3 +43,4 @@ jobs:
           npx playwright install --with-deps chromium
           node review/test_cme_browser.cjs
           node review/test_cme_languages_browser.cjs
+          node review/test_reports_browser.cjs

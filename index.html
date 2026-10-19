@@ -701,9 +701,7 @@ body {
       homeLinks.setAttribute('aria-label', {de:'Weiterführende Seiten',en:'More pages',es:'Más páginas'}[lang]);
       homeLinks.appendChild(reviewLink);
       var reportsLink = el('a', 'btn ghost', {de:'Wochenberichte · Studien und Updates',en:'Weekly reports · Research and updates',es:'Informes semanales · Estudios y novedades'}[lang]);
-      reportsLink.href = 'https://github.com/Usubillaga/Urofragen/blob/main/weekly-reports/README.md#ausgaben';
-      reportsLink.target = '_blank';
-      reportsLink.rel = 'noopener noreferrer';
+      reportsLink.href = {es:'reports-es.html',en:'reports.html',de:'reports-de.html'}[lang];
       homeLinks.appendChild(reportsLink);
       root.appendChild(homeLinks);
       var cmeSection = el('section', 'cme-section');

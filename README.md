@@ -2,7 +2,7 @@
 
 ## Wöchentliche Studien und Repository-Prüfung
 
-[Berichte und Ablauf](weekly-reports/README.md): Freitags erscheinen neue urologische Studien und Updates sowie eine Prüfung dieses Repositorys mit gegebenenfalls getesteten Korrekturen als Pull Requests. [Aktuelle Ausgabe und alle Sprachfassungen](weekly-reports/README.md#ausgaben). Der Link steht auch auf der Lernstartseite.
+[Berichte und Ablauf](weekly-reports/README.md): Freitags erscheinen neue urologische Studien und Updates sowie eine Prüfung dieses Repositorys mit gegebenenfalls getesteten Korrekturen als Pull Requests. [Vollständiges Webarchiv: Deutsch](https://usubillaga.github.io/Urofragen/reports-de.html) · [English](https://usubillaga.github.io/Urofragen/reports.html) · [Español](https://usubillaga.github.io/Urofragen/reports-es.html). Der Link auf der Lernstartseite öffnet die Berichte direkt auf der Webseite.
 
 Die ZIP enthält die komplette Website und alle zum erneuten Aufbau benötigten Projektdateien. Die fertigen HTML-Dateien können direkt hochgeladen werden; Python wird auf GitHub Pages nicht benötigt.
 
