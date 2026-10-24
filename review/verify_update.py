@@ -11,9 +11,9 @@ class Update(unittest.TestCase):
         cls.qs={q['id']:q for d in cls.docs for q in d['fragen']}
         cls.report=json.loads((ROOT/'review/import-2026-10-04.json').read_text(encoding='utf-8'))
     def test_counts_languages_and_unique_ids(self):
-        self.assertEqual(len(self.qs),272)
-        self.assertEqual(sum(len(d['fragen']) for d in self.docs),272)
-        self.assertEqual(sum(q['status']=='published' for q in self.qs.values()),262)
+        self.assertEqual(len(self.qs),282)
+        self.assertEqual(sum(len(d['fragen']) for d in self.docs),282)
+        self.assertEqual(sum(q['status']=='published' for q in self.qs.values()),272)
         self.assertEqual(sum(q['status']=='draft' for q in self.qs.values()),10)
         self.assertTrue(all(set(q['content'])=={'de','en','es'} for q in self.qs.values()))
     def test_residency_additions_preserve_provenance_and_pending_review(self):
@@ -39,6 +39,38 @@ class Update(unittest.TestCase):
                 self.assertEqual(set(q['translation']),{'en','es'})
                 self.assertTrue(all(v['clinical_signoff'] is False for v in q['translation'].values()))
                 self.assertTrue(all(source.get('url','').startswith('https://') for source in q['sources']))
+    def test_urodynamics_section_is_complete_pending_review_and_linked_to_residency(self):
+        config=json.loads((ROOT/'data/domains.json').read_text(encoding='utf-8'))
+        slugs=[d['slug'] for d in config['domains']]
+        self.assertEqual(slugs[slugs.index('funktionell')+1],'urodynamik')
+        domain=config['domains'][slugs.index('urodynamik')]
+        self.assertEqual(domain['label'],{'de':'Urodynamik','en':'Urodynamics','es':'Urodinámica'})
+        doc=json.loads((ROOT/'data/fragen/urodynamik.json').read_text(encoding='utf-8'))
+        self.assertEqual(doc['gebiet'],'urodynamik')
+        ids=[q['id'] for q in doc['fragen']]
+        self.assertEqual(ids,[f'uro-udy-{n:05d}' for n in range(1,11)])
+        companions=set()
+        for q in doc['fragen']:
+            with self.subTest(question=q['id']):
+                self.assertEqual((q['version'],q['status'],q['taxonomy']['domain']),(1,'published','urodynamik'))
+                self.assertEqual(sum(bool(o['correct']) for o in q['options']),1)
+                self.assertEqual(set(q['content']),{'de','en','es'})
+                self.assertFalse(valid_approval(q))
+                self.assertIsNone(q['review']['reviewer'])
+                self.assertEqual(q['review']['clinical_review_status'],'pending_independent_review')
+                self.assertTrue(q['review']['revision']['requires_review'])
+                self.assertTrue(all(v['clinical_signoff'] is False for v in q['translation'].values()))
+                self.assertTrue(any(s.get('url','').startswith('https://') for s in q['sources']))
+                self.assertTrue(all(s.get('url','https://').startswith('https://') for s in q['sources']))
+                self.assertEqual(q['companion_case']['repository'],'Usubillaga/Residency-Game-DE')
+                self.assertTrue(q['companion_case']['case_id'].startswith('udy-'))
+                companions.add(q['companion_case']['case_id'])
+                if q['evidence']['flag']:
+                    self.assertTrue(all(q['content'][lc]['flag_note'] for lc in ('de','en','es')))
+        self.assertEqual(len(companions),10)
+        record=json.loads((ROOT/'updates/2026-10-20/urodynamik-abschnitt.json').read_text(encoding='utf-8'))
+        self.assertFalse(record['clinical_signoff'])
+        self.assertEqual([r['id'] for r in record['questions']],ids)
     def test_revised_citrate_explanation_uses_male_eau_threshold(self):
         q=self.qs['uro-lit-00003']
         self.assertEqual(q['version'],3)

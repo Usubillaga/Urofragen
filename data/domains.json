@@ -136,9 +136,22 @@
         "es": "Urología funcional y neurourología"
       },
       "hint": {
-        "de": "LUTS, OAB, Inkontinenz, Urodynamik, Neuromodulation",
-        "en": "LUTS, OAB, incontinence, urodynamics, neuromodulation",
-        "es": "STUI, VH, incontinencia, urodinámica"
+        "de": "LUTS, OAB, Inkontinenz, Neurourologie, Neuromodulation",
+        "en": "LUTS, OAB, incontinence, neuro-urology, neuromodulation",
+        "es": "STUI, VH, incontinencia, neurourología"
+      }
+    },
+    {
+      "slug": "urodynamik",
+      "label": {
+        "de": "Urodynamik",
+        "en": "Urodynamics",
+        "es": "Urodinámica"
+      },
+      "hint": {
+        "de": "Druck-Fluss, Videourodynamik, Compliance, Artefakte",
+        "en": "Pressure-flow, video-urodynamics, compliance, artefacts",
+        "es": "Presión-flujo, videourodinámica, distensibilidad, artefactos"
       }
     },
     {

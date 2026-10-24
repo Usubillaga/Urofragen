@@ -1,29 +1,30 @@
 Four CME modules built in German, English and Spanish.
 
-index.html geschrieben — 1899 KB, Sprachen: de, en, es
-257 verfuegbare Lernfragen von 267 in 16 Dateien
-216 Fragen ohne unabhaengige fachaerztliche Freigabe; Verfuegbarkeit ist keine Freigabe.
-   139  Uro-Onkologie
-    23      Prostatakarzinom
+index.html geschrieben — 2086 KB, Sprachen: de, en, es
+272 verfuegbare Lernfragen von 282 in 17 Dateien
+231 Fragen ohne unabhaengige fachaerztliche Freigabe; Verfuegbarkeit ist keine Freigabe.
+   142  Uro-Onkologie
+    25      Prostatakarzinom
     10      NMIBC
     10      MIBC
-    12      Nierenzellkarzinom
+    13      Nierenzellkarzinom
     53      Hodentumor
     11      UTUC
     10      Peniskarzinom
     10      Urethrakarzinom
     13  Funktionelle Urologie & Neurourologie
+    10  Urodynamik
     10  Kinderurologie
     10  Infektiologie
     10  Urolithiasis
     15  Urologisches Trauma
-    10  Andrologie & Reproduktion
+    12  Andrologie & Reproduktion
     30  Operative Urologie
     20  Rekonstruktion & Transplantation
 Hinweis  uro-ope-00017 / uro-rek-00004: ähnliche Fragestellung (0.87); klinischen Kontext vergleichen
 1 ähnliche Fragenpaare zur manuellen Prüfung
-richtige Antwort ist die laengste Option: 73/267 (27 %)
-215 Hinweise (siehe oben)
+richtige Antwort ist die laengste Option: 73/282 (26 %)
+232 Hinweise (siehe oben)
 
 Für Lern- und Prüfmodus beide Dateien hochladen: index.html und pruefung.html
 
@@ -34,9 +35,12 @@ Hinweis  uro-pca-00011: fachärztliche Freigabe ausstehend
 Hinweis  uro-pca-00015: fachärztliche Freigabe ausstehend
 Hinweis  uro-pca-00018: fachärztliche Freigabe ausstehend
 Hinweis  uro-pca-00022: fachärztliche Freigabe ausstehend
+Hinweis  uro-pca-00024: fachärztliche Freigabe ausstehend
+Hinweis  uro-pca-00025: fachärztliche Freigabe ausstehend
 Hinweis  uro-nmi-00010: fachärztliche Freigabe ausstehend
 Hinweis  uro-mib-00002: fachärztliche Freigabe ausstehend
 Hinweis  uro-rcc-00002: fachärztliche Freigabe ausstehend
+Hinweis  uro-rcc-00013: fachärztliche Freigabe ausstehend
 Hinweis  uro-hod-00002: fachärztliche Freigabe ausstehend
 Hinweis  uro-hod-00007: fachärztliche Freigabe ausstehend
 Hinweis  uro-hod-00008: fachärztliche Freigabe ausstehend
@@ -130,6 +134,16 @@ Hinweis  uro-fun-00010: fachärztliche Freigabe ausstehend
 Hinweis  uro-fun-00011: fachärztliche Freigabe ausstehend
 Hinweis  uro-fun-00012: fachärztliche Freigabe ausstehend
 Hinweis  uro-fun-00013: fachärztliche Freigabe ausstehend
+Hinweis  uro-udy-00001: fachärztliche Freigabe ausstehend
+Hinweis  uro-udy-00002: fachärztliche Freigabe ausstehend
+Hinweis  uro-udy-00003: fachärztliche Freigabe ausstehend
+Hinweis  uro-udy-00004: fachärztliche Freigabe ausstehend
+Hinweis  uro-udy-00005: fachärztliche Freigabe ausstehend
+Hinweis  uro-udy-00006: fachärztliche Freigabe ausstehend
+Hinweis  uro-udy-00007: fachärztliche Freigabe ausstehend
+Hinweis  uro-udy-00008: fachärztliche Freigabe ausstehend
+Hinweis  uro-udy-00009: fachärztliche Freigabe ausstehend
+Hinweis  uro-udy-00010: fachärztliche Freigabe ausstehend
 Hinweis  uro-kin-00001: fachärztliche Freigabe ausstehend
 Hinweis  uro-kin-00002: fachärztliche Freigabe ausstehend
 Hinweis  uro-kin-00003: fachärztliche Freigabe ausstehend
@@ -187,6 +201,10 @@ Hinweis  uro-and-00007: fachärztliche Freigabe ausstehend
 Hinweis  uro-and-00008: fachärztliche Freigabe ausstehend
 Hinweis  uro-and-00009: fachärztliche Freigabe ausstehend
 Hinweis  uro-and-00010: fachärztliche Freigabe ausstehend
+Hinweis  uro-and-00011 [en]: richtige Option ist die laengste (1.40x)
+Hinweis  uro-and-00011 [es]: richtige Option ist die laengste (1.46x)
+Hinweis  uro-and-00011: fachärztliche Freigabe ausstehend
+Hinweis  uro-and-00012: fachärztliche Freigabe ausstehend
 Hinweis  uro-ope-00001: fachärztliche Freigabe ausstehend
 Hinweis  uro-ope-00002: fachärztliche Freigabe ausstehend
 Hinweis  uro-ope-00003: fachärztliche Freigabe ausstehend

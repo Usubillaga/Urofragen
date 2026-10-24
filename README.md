@@ -1,4 +1,4 @@
-# Urofragen – Erweiterung 17.10.2026
+# Urofragen – Erweiterung 20.10.2026
 
 ## Wöchentliche Studien und Repository-Prüfung
 
@@ -8,14 +8,20 @@ Die ZIP enthält die komplette Website und alle zum erneuten Aufbau benötigten 
 
 ## Inhalt
 
-- 262 verfügbare Lernfragen in 16 Abschnitten, jeweils Deutsch, Englisch und Spanisch.
+- 272 verfügbare Lernfragen in 17 Abschnitten, jeweils Deutsch, Englisch und Spanisch; neu ist der Abschnitt Urodynamik mit 10 Fallfragen.
 - 43 neue Fragen: 9 Seminom IIA/B, 10 Hodentumor-Nachsorge, 14 Schwerpunktheft Teil 3, 10 Salvage-Operationen.
 - Hodentumor jetzt 53, Operative Urologie 30 verfügbare Fragen. NMIBC und MIBC weiterhin jeweils 10.
-- 10 zusätzliche dreisprachige OP-Entwürfe aus dem bestehenden Repository erhalten; im Prüfmodus verfügbar, im Lernmodus nicht ausgeliefert. Insgesamt 272 Datensätze.
+- 10 zusätzliche dreisprachige OP-Entwürfe aus dem bestehenden Repository erhalten; im Prüfmodus verfügbar, im Lernmodus nicht ausgeliefert. Insgesamt 282 Datensätze.
 - `uro-hod-00007` ersetzt und versioniert. Die alte Freigabe ist im Verlauf erhalten; die neue Fassung muss erneut geprüft werden. 51 übrige deutsche Freigaben unverändert erhalten.
 - Alle neuen Fragen ohne fachärztliche Freigabe. Es wurde keine pauschale Freigabe aus Autorennamen oder Dateiinhalten abgeleitet.
-- Vier eigenständige CME-Lerneinheiten auf Deutsch, Englisch und Spanisch mit insgesamt 50 Fragen: Seminom IIA/B (10), Hodentumor Teil 3 (14), Peniskarzinom (16), Salvage-Operationen (10). Vollständig übersetzt sind Fragen, Optionen, Begründungen, Lernziele, Merkkästen, Entscheidungshilfen, Navigation, Auswertung und Druckfassung. Bibliografische Originaltitel bleiben als Quellenangabe erhalten. Die 50 CME-Fragen sind separate Übungen; sie erhöhen die Zahl der 262 Fragen im Hauptquiz nicht.
+- Vier eigenständige CME-Lerneinheiten auf Deutsch, Englisch und Spanisch mit insgesamt 50 Fragen: Seminom IIA/B (10), Hodentumor Teil 3 (14), Peniskarzinom (16), Salvage-Operationen (10). Vollständig übersetzt sind Fragen, Optionen, Begründungen, Lernziele, Merkkästen, Entscheidungshilfen, Navigation, Auswertung und Druckfassung. Bibliografische Originaltitel bleiben als Quellenangabe erhalten. Die 50 CME-Fragen sind separate Übungen; sie erhöhen die Zahl der 272 Fragen im Hauptquiz nicht.
 - Einheitliche Navigation mit DE/EN/ES-Schalter, getrennte Auswertung des ersten Durchgangs und der Fehlerwiederholung sowie Fortsetzen im selben Browser. Der Sprachwechsel erhält Antworten und Erstquote; die Startseite öffnet das Modul in der gewählten Sprache. Änderungen sind in `CME-AENDERUNGEN-2026-10-04.md` beschrieben. Deutsche medizinische Originaltexte und Antwortschlüssel bleiben unverändert; Übersetzungen vergeben keine neue fachärztliche Freigabe.
+
+## Neuer Abschnitt Urodynamik (20.10.2026)
+
+Zehn dreisprachige Fallfragen bilden den 17. Abschnitt **Urodynamik** (`data/fragen/urodynamik.json`, `uro-udy-00001` bis `uro-udy-00010`): Druck-Fluss-Messung mit BOOI und BCI, DHIC, primäre Blasenhalsobstruktion, Multisystematrophie vor TURP, weibliche Obstruktion nach Band, Fowler-Syndrom, okkulte Belastungsinkontinenz (OPUS), niedrige Compliance und Füllrate, kindliche dysfunktionelle Miktion sowie Artefakte und Qualitätskontrolle. Dieselben Fälle stehen als Mehrschrittfälle im Fachgebiet *Urodynamik* von Residency-Game-DE; `companion_case` verknüpft jede Frage mit ihrem Fall.
+
+Quellenabgleich mit EAU 2026, ICS, ICCS und den Originalstudien; eine unabhängige KI-Gegenprüfung folgte, ihre Befunde wurden am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet. Alle zehn Fragen sind ohne fachärztliche Freigabe und erscheinen im Prüfmodus unter „Neu oder überarbeitet – prüfen“. Der Hinweistext von *Funktionelle Urologie & Neurourologie* nennt Urodynamik nicht mehr; die Fragen dort, die Urodynamik berühren, bleiben unverändert. Details, Quellen und Grenzen: [Änderungsübersicht](URODYNAMIK-2026-10-20.md).
 
 ## Gezielte Erweiterung aus Residency-Game-DE (17.10.2026)
 
@@ -39,7 +45,7 @@ Die Ordner `data`, `tools`, `review`, `updates`, `translations` und `templates` 
 
 ## Weiterprüfen und Verlauf
 
-Im Prüfmodus den Filter **„Neu oder überarbeitet – prüfen“** wählen. Er enthält 64 neue/geänderte Fragen: die bisherigen 57 und sieben neue oder präzisierte Fassungen vom 17.10.2026. Die anderen 51 deutschen Freigaben bleiben gültig. Englisch und Spanisch sind separat freizugeben.
+Im Prüfmodus den Filter **„Neu oder überarbeitet – prüfen“** wählen. Er enthält 74 neue/geänderte Fragen: 57 aus früheren Erweiterungen, sieben neue oder präzisierte Fassungen vom 17.10.2026 und die zehn Urodynamik-Fragen vom 20.10.2026. Die anderen 51 deutschen Freigaben bleiben gültig. Englisch und Spanisch sind separat freizugeben.
 
 Nach jeder Sitzung „Prüfungen als Datei sichern“ verwenden. Browserdaten sind nicht automatisch mit GitHub synchronisiert. Bei einem öffentlichen Repository sind die enthaltenen Prüfernamen und Kommentare öffentlich einsehbar.
 
