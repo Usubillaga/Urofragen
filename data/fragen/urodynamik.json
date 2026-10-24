@@ -1,0 +1,2003 @@
+{
+  "gebiet": "urodynamik",
+  "fragen": [
+    {
+      "id": "uro-udy-00001",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "urodynamik",
+        "subdomain": "Druck-Fluss-Messung",
+        "tags": [
+          "diagnostik",
+          "praeoperativ",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "EAU Guidelines on Management of Non-neurogenic Male LUTS 2026: Diagnostic Evaluation",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/diagnostic-evaluation",
+          "section": "4.12 Urodynamics",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "studie",
+          "title": "Bladder outlet obstruction index, bladder contractility index and bladder voiding efficiency: three simple indices to define bladder voiding function",
+          "citation": "Abrams P. BJU Int 1999;84:14–15",
+          "year": 1999,
+          "url": "https://doi.org/10.1046/j.1464-410x.1999.00121.x",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "studie",
+          "title": "Diagnostic assessment of lower urinary tract symptoms in men considering prostate surgery: a noninferiority randomised controlled trial of urodynamics in 26 hospitals (UPSTREAM)",
+          "citation": "Drake MJ et al. Eur Urol 2020",
+          "year": 2020,
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0302283820304310",
+          "accessed": "2026-10-20"
+        }
+      ],
+      "review": {
+        "created": "2026-10-20",
+        "editorial_review": {
+          "date": "2026-10-24",
+          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; keine fachärztliche Freigabe",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neuer Abschnitt Urodynamik; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "revision": {
+          "date": "2026-10-20",
+          "reason": "Neue Frage im Abschnitt Urodynamik (zehn Fallbeispiele, parallel als Fall in Residency-Game-DE).",
+          "requires_review": true
+        }
+      },
+      "companion_case": {
+        "repository": "Usubillaga/Residency-Game-DE",
+        "case_id": "udy-bpo-pressure-flow-indices"
+      },
+      "content": {
+        "de": {
+          "vignette": "61-jähriger Mann mit belastenden, überwiegend entleerungsbetonten Beschwerden (IPSS 21, Lebensqualitätsindex 5) trotz sechs Monaten Tamsulosin. Prostatavolumen 45 ml, PSA 1,9 ng/ml, Urinstatus unauffällig. Freie Uroflowmetrie: Qmax 12 ml/s bei 310 ml Miktionsvolumen, Restharn 60 ml. Er wünscht eine Operation. Die Druck-Fluss-Messung zeigt einen Detrusordruck bei maximalem Fluss (PdetQmax) von 82 cmH2O bei einem Qmax von 9 ml/s.",
+          "lead_in": "Wie ist der Befund einzuordnen, und welche Konsequenz ergibt sich?",
+          "options": {
+            "A": {
+              "text": "Obstruktion bei normaler Kontraktilität – Desobstruktion ist gut begründet",
+              "rationale": "BOOI = PdetQmax − 2 × Qmax = 82 − 18 = 64, also über 40 und damit obstruiert. BCI = PdetQmax + 5 × Qmax = 82 + 45 = 127, also im Normbereich von 100–150. Hoher Druck bei niedrigem Fluss und erhaltener Kontraktionskraft ist die Konstellation, in der eine Desobstruktion am verlässlichsten hilft."
+            },
+            "B": {
+              "text": "Grenzbefund (equivocal) – zunächst Uroflowmetrie in drei Monaten wiederholen",
+              "rationale": "Als equivocal gilt ein BOOI zwischen 20 und 40. Mit 64 liegt der Befund eindeutig im obstruktiven Bereich; eine weitere freie Uroflowmetrie liefert keine Druckinformation und ändert die Einordnung nicht."
+            },
+            "C": {
+              "text": "Keine Obstruktion, aber schwacher Detrusor – Operation kaum erfolgversprechend",
+              "rationale": "Unobstruiert wäre ein BOOI unter 20, schwach kontrahierend ein BCI unter 100. Hier erzeugt der Detrusor hohen Druck, der Auslass lässt aber nur wenig Fluss zu – das Gegenteil einer Detrusorschwäche."
+            },
+            "D": {
+              "text": "Obstruktion mit schwacher Kontraktilität – primär intermittierender Katheterismus",
+              "rationale": "Ein BCI von 127 liegt im Normbereich. Intermittierender Katheterismus ist die Option, wenn die Blase sich nicht ausreichend entleeren kann, nicht bei gut kontrahierender Blase mit behebbarer Obstruktion."
+            },
+            "E": {
+              "text": "Keine Obstruktion möglich, da der freie Qmax über 10 ml/s liegt",
+              "rationale": "Ein kräftiger Detrusor kann eine Obstruktion teilweise kompensieren, sodass der Qmax normal oder grenzwertig wirkt. Gerade deshalb empfiehlt die EAU bei Qmax über 10 ml/s vor einer Operation die Druck-Fluss-Messung."
+            }
+          },
+          "explanation": {
+            "core": "Die Uroflowmetrie zeigt nur das Ergebnis aus Detrusorkraft und Auslasswiderstand. Erst die simultane Druck-Fluss-Messung trennt beides: Der BOOI quantifiziert die Obstruktion, der BCI die Kontraktionskraft. Die EAU 2026 empfiehlt die Urodynamik vor invasiver Therapie nur bei gezielten Indikationen, darunter Qmax über 10 ml/s, Miktionsvolumen unter 150 ml, Alter unter 50 oder über 80 Jahre und erfolglose invasive Vorbehandlung (jeweils schwache Empfehlung).",
+            "teaching_point": "BOOI = PdetQmax − 2 × Qmax (über 40 obstruiert), BCI = PdetQmax + 5 × Qmax (100–150 normal): erst rechnen, dann operieren."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 61-year-old man has bothersome, predominantly voiding symptoms (IPSS 21, quality-of-life score 5) despite six months of tamsulosin. Prostate volume 45 ml, PSA 1.9 ng/ml, urinalysis normal. Free uroflowmetry: Qmax 12 ml/s at a voided volume of 310 ml, post-void residual 60 ml. He wants surgery. The pressure-flow study shows a detrusor pressure at maximum flow (PdetQmax) of 82 cmH2O at a Qmax of 9 ml/s.",
+          "lead_in": "How should the finding be classified, and what follows from it?",
+          "options": {
+            "A": {
+              "text": "Obstruction with normal contractility – deobstruction is well justified",
+              "rationale": "BOOI = PdetQmax − 2 × Qmax = 82 − 18 = 64, i.e. above 40 and therefore obstructed. BCI = PdetQmax + 5 × Qmax = 82 + 45 = 127, within the normal range of 100–150. High pressure with low flow and preserved contractile strength is the pattern in which deobstruction helps most reliably."
+            },
+            "B": {
+              "text": "Equivocal result – repeat uroflowmetry in three months first",
+              "rationale": "Equivocal means a BOOI between 20 and 40. At 64 the result lies clearly in the obstructed range; another free uroflowmetry adds no pressure information and does not change the classification."
+            },
+            "C": {
+              "text": "No obstruction but a weak detrusor – surgery unlikely to help",
+              "rationale": "Unobstructed would require a BOOI below 20, and weak contractility a BCI below 100. Here the detrusor generates high pressure but the outlet allows little flow – the opposite of detrusor weakness."
+            },
+            "D": {
+              "text": "Obstruction with weak contractility – intermittent catheterisation first",
+              "rationale": "A BCI of 127 is within the normal range. Intermittent catheterisation is the option when the bladder cannot empty adequately, not when a well-contracting bladder faces a correctable obstruction."
+            },
+            "E": {
+              "text": "Obstruction is impossible because free Qmax exceeds 10 ml/s",
+              "rationale": "A strong detrusor can partly compensate for obstruction, so Qmax may look normal or borderline. This is exactly why the EAU recommends a pressure-flow study before surgery when Qmax exceeds 10 ml/s."
+            }
+          },
+          "explanation": {
+            "core": "Uroflowmetry only shows the net result of detrusor strength and outlet resistance. Only a simultaneous pressure-flow study separates the two: the BOOI quantifies obstruction, the BCI contractile strength. The EAU 2026 guideline recommends urodynamics before invasive treatment only for specific indications, including Qmax above 10 ml/s, voided volume below 150 ml, age below 50 or above 80 years and failed previous invasive treatment (each a weak recommendation).",
+            "teaching_point": "BOOI = PdetQmax − 2 × Qmax (above 40 obstructed), BCI = PdetQmax + 5 × Qmax (100–150 normal): calculate first, then operate."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 61 años con síntomas molestos de predominio miccional (IPSS 21, índice de calidad de vida 5) pese a seis meses de tamsulosina. Volumen prostático 45 ml, PSA 1,9 ng/ml, sedimento normal. Flujometría libre: Qmax 12 ml/s con un volumen miccional de 310 ml, residuo posmiccional 60 ml. Desea operarse. El estudio presión-flujo muestra una presión del detrusor en el flujo máximo (PdetQmax) de 82 cmH2O con un Qmax de 9 ml/s.",
+          "lead_in": "¿Cómo se clasifica el hallazgo y qué consecuencia tiene?",
+          "options": {
+            "A": {
+              "text": "Obstrucción con contractilidad normal: la desobstrucción está justificada",
+              "rationale": "BOOI = PdetQmax − 2 × Qmax = 82 − 18 = 64, es decir, por encima de 40 y, por tanto, obstruido. BCI = PdetQmax + 5 × Qmax = 82 + 45 = 127, dentro del rango normal de 100–150. Presión alta con flujo bajo y fuerza contráctil conservada es la constelación en la que la desobstrucción ayuda con mayor fiabilidad."
+            },
+            "B": {
+              "text": "Resultado dudoso (equívoco): repetir primero la flujometría en tres meses",
+              "rationale": "Se considera equívoco un BOOI entre 20 y 40. Con 64 el resultado está claramente en rango obstructivo; otra flujometría libre no aporta información de presión ni cambia la clasificación."
+            },
+            "C": {
+              "text": "Sin obstrucción, pero con detrusor débil: la cirugía apenas ayudaría",
+              "rationale": "Sin obstrucción exigiría un BOOI inferior a 20, y una contractilidad débil, un BCI inferior a 100. Aquí el detrusor genera presión alta, pero la salida apenas deja pasar flujo: lo contrario de la debilidad del detrusor."
+            },
+            "D": {
+              "text": "Obstrucción con contractilidad débil: cateterismo intermitente en primer lugar",
+              "rationale": "Un BCI de 127 está en el rango normal. El cateterismo intermitente es la opción cuando la vejiga no puede vaciarse adecuadamente, no ante una vejiga que contrae bien frente a una obstrucción corregible."
+            },
+            "E": {
+              "text": "Obstrucción imposible, porque el Qmax libre supera los 10 ml/s",
+              "rationale": "Un detrusor potente puede compensar en parte la obstrucción, de modo que el Qmax parece normal o limítrofe. Precisamente por eso la EAU recomienda un estudio presión-flujo antes de operar cuando el Qmax supera los 10 ml/s."
+            }
+          },
+          "explanation": {
+            "core": "La flujometría solo muestra el resultado neto de la fuerza del detrusor y la resistencia de salida. Solo el estudio presión-flujo simultáneo separa ambos componentes: el BOOI cuantifica la obstrucción y el BCI la fuerza contráctil. La guía EAU 2026 recomienda la urodinámica antes de un tratamiento invasivo solo con indicaciones concretas, entre ellas Qmax superior a 10 ml/s, volumen miccional inferior a 150 ml, edad inferior a 50 o superior a 80 años y fracaso de un tratamiento invasivo previo (cada una, recomendación débil).",
+            "teaching_point": "BOOI = PdetQmax − 2 × Qmax (por encima de 40, obstruido), BCI = PdetQmax + 5 × Qmax (100–150, normal): primero calcular, luego operar."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-20",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-20",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-udy-00002",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "urodynamik",
+        "subdomain": "Detrusorunteraktivität",
+        "tags": [
+          "diagnostik",
+          "geriatrie",
+          "pharmakologie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "eingeschraenkt",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "EAU Guidelines on Management of Non-neurogenic Male LUTS 2026: Diagnostic Evaluation",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/diagnostic-evaluation",
+          "section": "4.12 Urodynamics",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "leitlinie",
+          "title": "EAU Guidelines on Management of Non-neurogenic Male LUTS 2026: Disease Management",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/disease-management",
+          "section": "5.2.1 Alpha1-blockers; 5.2.3 Muscarinic receptor antagonists; 5.2.4 Beta-3 agonists",
+          "accessed": "2026-10-24"
+        },
+        {
+          "type": "studie",
+          "title": "Effect of preoperative urodynamic detrusor underactivity on transurethral surgery for benign prostatic hyperplasia: a systematic review and meta-analysis",
+          "citation": "Kim M, Jeong CW, Oh SJ. J Urol 2018;199:237–244",
+          "year": 2018,
+          "url": "https://doi.org/10.1016/j.juro.2017.07.079",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "studie",
+          "title": "Urodynamics and safety of the β3-adrenoceptor agonist mirabegron in males with lower urinary tract symptoms and bladder outlet obstruction",
+          "citation": "Nitti VW et al. J Urol 2013",
+          "year": 2013,
+          "url": "https://doi.org/10.1016/j.juro.2013.05.062",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "studie",
+          "title": "Detrusor hyperactivity with impaired contractile function: an unrecognized but common cause of incontinence in elderly patients",
+          "citation": "Resnick NM, Yalla SV. JAMA 1987;257:3076–3081",
+          "year": 1987,
+          "accessed": "2026-10-20"
+        }
+      ],
+      "review": {
+        "created": "2026-10-20",
+        "editorial_review": {
+          "date": "2026-10-24",
+          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; keine fachärztliche Freigabe",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neuer Abschnitt Urodynamik; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "revision": {
+          "date": "2026-10-20",
+          "reason": "Neue Frage im Abschnitt Urodynamik (zehn Fallbeispiele, parallel als Fall in Residency-Game-DE).",
+          "requires_review": true
+        }
+      },
+      "companion_case": {
+        "repository": "Usubillaga/Residency-Game-DE",
+        "case_id": "udy-dhic-elderly-man-no-turp"
+      },
+      "content": {
+        "de": {
+          "vignette": "79-jähriger Mann, vom Hausarzt zur transurethralen Resektion überwiesen: imperativer Harndrang mit Dranginkontinenz, dreimal Nykturie, schwacher Strahl. Restharn wiederholt 240–280 ml, vor zwei Monaten fieberhafter Harnwegsinfekt. Prostatavolumen 35 ml, keine neurologische Erkrankung, kognitiv unauffällig, gute Handfunktion. Urodynamik: ab 210 ml phasische Detrusorüberaktivität bis 30 cmH2O mit imperativem Drang; Druck-Fluss-Messung: PdetQmax 24 cmH2O bei Qmax 5 ml/s, Restharn 260 ml.",
+          "lead_in": "Welches Vorgehen ist am besten begründet?",
+          "options": {
+            "A": {
+              "text": "Transurethrale Resektion, da der schwache Strahl eine Obstruktion belegt",
+              "rationale": "BOOI = 24 − 2 × 5 = 14, also unter 20 und damit unobstruiert. Der schwache Strahl entsteht hier durch den Detrusor, nicht durch den Auslass. Eine Metaanalyse zeigte bei präoperativer Detrusorunteraktivität geringere Verbesserungen von Symptomen und Harnfluss nach transurethraler Chirurgie."
+            },
+            "B": {
+              "text": "Antimuskarinikum gegen die Detrusorüberaktivität, Kontrolle nach vier Wochen",
+              "rationale": "Bei einem Restharn über 150 ml rät die EAU von Antimuskarinika ab (schwache Empfehlung). Sie würden die ohnehin schwache Kontraktion weiter dämpfen und das Risiko eines Harnverhalts und erneuter Infekte erhöhen."
+            },
+            "C": {
+              "text": "Intermittierender Katheterismus; für den Drang bevorzugt Beta-3-Agonist",
+              "rationale": "Der BCI von 24 + 5 × 5 = 49 zeigt eine Detrusorunteraktivität ohne Obstruktion bei gleichzeitiger Überaktivität in der Füllphase. Der intermittierende Katheterismus behebt die Entleerungsstörung und senkt das Infektrisiko. Mirabegron verschlechterte in einer zwölfwöchigen Studie bei Männern mit Obstruktion die Miktionsparameter gegenüber Placebo nicht – für die DHIC ist das eine Extrapolation. Im Alter spricht zudem für den Beta-3-Agonisten, dass er nicht anticholinerg wirkt."
+            },
+            "D": {
+              "text": "Intradetrusorales Botulinumtoxin A als nächster Schritt gegen den Drang",
+              "rationale": "Botulinumtoxin dämpft die Kontraktion zusätzlich und würde die Entleerungsstörung verstärken. Es kommt allenfalls bei etabliertem Katheterismus und Versagen der oralen Therapie in Betracht."
+            },
+            "E": {
+              "text": "Transurethraler Dauerkatheter als dauerhafte, einfache Lösung",
+              "rationale": "Bei erhaltener Handfunktion ist der Dauerkatheter zweite Wahl: Er geht mit mehr Infektionen und Harnröhrenschäden einher als der intermittierende Katheterismus."
+            }
+          },
+          "explanation": {
+            "core": "Detrusorüberaktivität in der Füllphase und schwache Kontraktion in der Entleerung ohne Obstruktion werden als Detrusorhyperaktivität mit eingeschränkter Kontraktilität (DHIC) beschrieben; die Konstellation ist im höheren Lebensalter häufig. Ohne Obstruktion fehlt der Desobstruktion der Angriffspunkt. Die Behandlung zielt getrennt auf die Entleerung (Katheterismus) und auf die Speicherung mit Medikamenten, die die Entleerung nicht weiter verschlechtern.",
+            "teaching_point": "Drang plus Restharn ist nicht gleich Prostata: Erst BOOI und BCI zeigen, ob operiert oder katheterisiert werden muss."
+          },
+          "flag_note": "Für die DHIC fehlen randomisierte Therapiestudien. Das Vorgehen leitet sich aus EAU-Empfehlungen zu Restharn, Antimuskarinika und Katheterismus sowie aus urodynamischen Sicherheitsdaten zu Mirabegron ab."
+        },
+        "en": {
+          "vignette": "A 79-year-old man is referred by his GP for transurethral resection: urgency with urgency incontinence, nocturia three times a night, weak stream. Post-void residual repeatedly 240–280 ml, febrile urinary tract infection two months ago. Prostate volume 35 ml, no neurological disease, cognitively unremarkable, good hand function. Urodynamics: from 210 ml phasic detrusor overactivity up to 30 cmH2O with urgency; pressure-flow study: PdetQmax 24 cmH2O at Qmax 5 ml/s, post-void residual 260 ml.",
+          "lead_in": "Which approach is best justified?",
+          "options": {
+            "A": {
+              "text": "Transurethral resection, because the weak stream proves obstruction",
+              "rationale": "BOOI = 24 − 2 × 5 = 14, i.e. below 20 and therefore unobstructed. The weak stream comes from the detrusor here, not from the outlet. A meta-analysis showed smaller improvements in symptoms and flow after transurethral surgery in men with preoperative detrusor underactivity."
+            },
+            "B": {
+              "text": "Antimuscarinic for the detrusor overactivity, review after four weeks",
+              "rationale": "With a post-void residual above 150 ml the EAU advises against antimuscarinics (weak recommendation). They would further dampen an already weak contraction and raise the risk of retention and further infections."
+            },
+            "C": {
+              "text": "Intermittent catheterisation; a beta-3 agonist for urgency",
+              "rationale": "A BCI of 24 + 5 × 5 = 49 shows detrusor underactivity without obstruction alongside overactivity during filling. Intermittent catheterisation corrects the emptying problem and lowers the infection risk. In a twelve-week trial in men with obstruction, mirabegron did not worsen voiding parameters versus placebo – applying this to DHIC is an extrapolation. In older age the beta-3 agonist also has the advantage of having no anticholinergic effect."
+            },
+            "D": {
+              "text": "Intradetrusor botulinum toxin A as the next step for urgency",
+              "rationale": "Botulinum toxin further weakens the contraction and would aggravate the emptying problem. At most it may be considered once catheterisation is established and oral therapy has failed."
+            },
+            "E": {
+              "text": "Indwelling urethral catheter as a permanent, simple solution",
+              "rationale": "With preserved hand function an indwelling catheter is second choice: it carries more infections and urethral damage than intermittent catheterisation."
+            }
+          },
+          "explanation": {
+            "core": "Detrusor overactivity during filling with a weak contraction during voiding and no obstruction is described as detrusor hyperactivity with impaired contractility (DHIC); the pattern is common in older age. Without obstruction deobstruction has nothing to act on. Treatment targets emptying (catheterisation) and storage separately, using drugs that do not worsen emptying further.",
+            "teaching_point": "Urgency plus residual urine does not equal prostate: only BOOI and BCI show whether to operate or to catheterise."
+          },
+          "flag_note": "There are no randomised treatment trials for DHIC. The approach is derived from EAU recommendations on residual urine, antimuscarinics and catheterisation and from urodynamic safety data on mirabegron."
+        },
+        "es": {
+          "vignette": "Varón de 79 años remitido por su médico de familia para resección transuretral: urgencia con incontinencia de urgencia, nicturia tres veces por noche, chorro débil. Residuo posmiccional repetidamente de 240–280 ml, infección urinaria febril hace dos meses. Volumen prostático 35 ml, sin enfermedad neurológica, sin alteración cognitiva, buena función manual. Urodinámica: desde 210 ml hiperactividad fásica del detrusor de hasta 30 cmH2O con urgencia; estudio presión-flujo: PdetQmax 24 cmH2O con Qmax 5 ml/s, residuo posmiccional 260 ml.",
+          "lead_in": "¿Qué actitud está mejor fundamentada?",
+          "options": {
+            "A": {
+              "text": "Resección transuretral, porque el chorro débil demuestra una obstrucción",
+              "rationale": "BOOI = 24 − 2 × 5 = 14, es decir, inferior a 20 y, por tanto, sin obstrucción. Aquí el chorro débil se debe al detrusor, no a la salida. Un metaanálisis mostró menores mejorías de síntomas y flujo tras la cirugía transuretral en varones con hipoactividad del detrusor preoperatoria."
+            },
+            "B": {
+              "text": "Antimuscarínico para la hiperactividad del detrusor, control a las cuatro semanas",
+              "rationale": "Con un residuo posmiccional superior a 150 ml la EAU desaconseja los antimuscarínicos (recomendación débil). Atenuarían aún más una contracción ya débil y aumentarían el riesgo de retención y de nuevas infecciones."
+            },
+            "C": {
+              "text": "Cateterismo intermitente; para la urgencia, mejor un agonista beta-3",
+              "rationale": "Un BCI de 24 + 5 × 5 = 49 muestra hipoactividad del detrusor sin obstrucción, junto con hiperactividad durante el llenado. El cateterismo intermitente corrige el vaciado y reduce el riesgo de infección. En un ensayo de doce semanas en varones con obstrucción, el mirabegrón no empeoró los parámetros miccionales frente a placebo; aplicarlo a la DHIC es una extrapolación. En la edad avanzada, el agonista beta-3 tiene además la ventaja de no ser anticolinérgico."
+            },
+            "D": {
+              "text": "Toxina botulínica A intradetrusor como siguiente paso para la urgencia",
+              "rationale": "La toxina botulínica debilita aún más la contracción y agravaría el trastorno del vaciado. Como mucho puede plantearse con el cateterismo ya establecido y tras el fracaso del tratamiento oral."
+            },
+            "E": {
+              "text": "Sonda uretral permanente como solución definitiva y sencilla",
+              "rationale": "Con la función manual conservada, la sonda permanente es una segunda opción: conlleva más infecciones y lesiones uretrales que el cateterismo intermitente."
+            }
+          },
+          "explanation": {
+            "core": "La hiperactividad del detrusor en el llenado con una contracción débil en el vaciado y sin obstrucción se describe como hiperactividad del detrusor con contractilidad alterada (DHIC); la constelación es frecuente en edades avanzadas. Sin obstrucción, la desobstrucción no tiene sobre qué actuar. El tratamiento aborda por separado el vaciado (cateterismo) y el almacenamiento, con fármacos que no empeoren más el vaciado.",
+            "teaching_point": "Urgencia más residuo no equivale a próstata: solo el BOOI y el BCI indican si operar o cateterizar."
+          },
+          "flag_note": "No hay ensayos aleatorizados de tratamiento para la DHIC. La actitud se deriva de las recomendaciones de la EAU sobre residuo, antimuscarínicos y cateterismo y de los datos urodinámicos de seguridad del mirabegrón."
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-20",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-20",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-udy-00003",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "urodynamik",
+        "subdomain": "Videourodynamik",
+        "tags": [
+          "diagnostik",
+          "bildgebung",
+          "studienlage"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "eingeschraenkt",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "EAU Guidelines on Management of Non-neurogenic Male LUTS 2026: Diagnostic Evaluation",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/diagnostic-evaluation",
+          "section": "4.12 Urodynamics",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "studie",
+          "title": "Management of primary bladder neck obstruction and dysfunctional voiding in young men: a systematic review and meta-analysis",
+          "citation": "Creta M et al. Eur Urol Focus 2025; doi:10.1016/j.euf.2025.01.011",
+          "year": 2025,
+          "url": "https://uroluts.uroweb.org/publication/management-of-primary-bladder-beck-obstruction-and-dysfunctional-voiding-in-young-men-a-systematic-review-and-meta-analysis/",
+          "accessed": "2026-10-24"
+        },
+        {
+          "type": "studie",
+          "title": "Management modalities of primary bladder neck obstruction in young adult men: a systematic review and meta-analysis",
+          "citation": "Mittal A et al. Urol Res Pract 2024;50:25–35",
+          "year": 2024,
+          "url": "https://doi.org/10.5152/tud.2024.23155",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "leitlinie",
+          "title": "EAU Guidelines on Management of Non-neurogenic Male LUTS 2026: Disease Management",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/disease-management",
+          "section": "5.2.1 Alpha1-blockers; 5.2.3 Muscarinic receptor antagonists; 5.2.4 Beta-3 agonists",
+          "accessed": "2026-10-24"
+        },
+        {
+          "type": "studie",
+          "title": "Investigation of ejaculatory disorder by silodosin in the treatment of prostatic hyperplasia",
+          "citation": "Sakata K, Morita T. BMC Urol 2012;12:29",
+          "year": 2012,
+          "url": "https://doi.org/10.1186/1471-2490-12-29",
+          "accessed": "2026-10-24"
+        },
+        {
+          "type": "leitlinie",
+          "title": "EAU Guidelines on Neuro-Urology 2026",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/neuro-urology/chapter/the-guideline",
+          "section": "3.3.7 Urodynamics; 3.3.8; 3.4.2.e.1; 3.4.3",
+          "accessed": "2026-10-20"
+        }
+      ],
+      "review": {
+        "created": "2026-10-20",
+        "editorial_review": {
+          "date": "2026-10-24",
+          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; keine fachärztliche Freigabe",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neuer Abschnitt Urodynamik; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "revision": {
+          "date": "2026-10-20",
+          "reason": "Neue Frage im Abschnitt Urodynamik (zehn Fallbeispiele, parallel als Fall in Residency-Game-DE).",
+          "requires_review": true
+        }
+      },
+      "companion_case": {
+        "repository": "Usubillaga/Residency-Game-DE",
+        "case_id": "udy-pbno-young-man-vuds"
+      },
+      "content": {
+        "de": {
+          "vignette": "34-jähriger Mann mit seit Jahren abgeschwächtem Strahl, verzögertem Miktionsbeginn und Pollakisurie (IPSS 19). Keine neurologische Erkrankung, keine Voroperation. Uroflowmetrie: Qmax 8 ml/s bei 280 ml, flach verlängerte Kurve, Restharn 70 ml. Urethrozystoskopie ohne Striktur, Prostata 18 ml. Videourodynamik: PdetQmax 96 cmH2O bei Qmax 6 ml/s; Beckenboden-EMG während der Miktion ohne Aktivität; in der Durchleuchtung öffnet sich der Blasenhals während der gesamten Detrusorkontraktion nicht, die distale Harnröhre ist unauffällig.",
+          "lead_in": "Welche Diagnose und welcher erste Therapieschritt passen?",
+          "options": {
+            "A": {
+              "text": "Primäre Blasenhalsobstruktion; zunächst ein Alphablocker",
+              "rationale": "Hoher Druck bei niedrigem Fluss (BOOI = 96 − 12 = 84) mit fehlender Öffnung des Blasenhalses bei stummem Beckenboden-EMG ist das videourodynamische Bild der primären Blasenhalsobstruktion. Alphablocker sind die Erstlinientherapie: Sie verbesserten in Metaanalysen IPSS und Qmax, verursachten in den Studien aber bei 47–50 % eine Ejakulationsstörung, die sich nach dem Absetzen in der Regel zurückbildet. Die Blasenhalsinzision wirkt langfristig stärker, kann die antegrade Ejakulation jedoch dauerhaft beeinträchtigen."
+            },
+            "B": {
+              "text": "Dysfunktionelle Miktion; Beckenbodenbiofeedback",
+              "rationale": "Bei dysfunktioneller Miktion kontrahiert der Beckenboden während der Miktion: Das EMG wäre aktiv, und die Engstelle läge am äußeren Sphinkter mit erweiterter proximaler Harnröhre. Hier ist das EMG stumm."
+            },
+            "C": {
+              "text": "Detrusor-Sphinkter-Dyssynergie; Abklärung des Rückenmarks",
+              "rationale": "Eine Dyssynergie setzt eine neurologische Läsion zwischen Pons und sakralem Rückenmark voraus und zeigt EMG-Aktivität mit Engstelle am äußeren Sphinkter. Beides fehlt."
+            },
+            "D": {
+              "text": "Detrusorunteraktivität; intermittierender Katheterismus",
+              "rationale": "Ein PdetQmax von 96 cmH2O ist das Gegenteil einer Detrusorunteraktivität; der Detrusor arbeitet gegen einen hohen Widerstand."
+            },
+            "E": {
+              "text": "Urethrastriktur; Urethrotomia interna nach Sachse",
+              "rationale": "Die Urethrozystoskopie hat eine Striktur ausgeschlossen. Eine flach verlängerte Kurve weist auf eine Obstruktion hin, lokalisiert sie aber nicht."
+            }
+          },
+          "explanation": {
+            "core": "Bei jungen Männern mit Entleerungsbeschwerden ist die Videourodynamik der diagnostische Standard, weil sie Druck, Fluss, EMG und Ort der Obstruktion gleichzeitig zeigt. Die Lokalisation entscheidet: Blasenhals (primäre Blasenhalsobstruktion), äußerer Sphinkter mit EMG-Aktivität (dysfunktionelle Miktion oder neurogene Dyssynergie) oder anatomische Enge der Harnröhre. Die EAU empfiehlt die Urodynamik vor invasiver Therapie bei Männern unter 50 Jahren (schwache Empfehlung).",
+            "teaching_point": "Junger Mann, hoher Druck, wenig Fluss, stummes EMG, geschlossener Blasenhals: primäre Blasenhalsobstruktion."
+          },
+          "flag_note": "Die Therapiedaten stammen überwiegend aus kleinen, nicht randomisierten Studien. Alphablocker bessern vor allem kurzfristig, die Blasenhalsinzision auch längerfristig; Ejakulationsstörungen traten unter Alphablockern bei 47–50 %, nach operativer Therapie je nach Studie bei 0–88,8 % auf. Die Metaanalyse 2025 empfiehlt deshalb eine gemeinsame Entscheidung."
+        },
+        "en": {
+          "vignette": "A 34-year-old man has had a weak stream, hesitancy and frequency for years (IPSS 19). No neurological disease, no previous surgery. Uroflowmetry: Qmax 8 ml/s at 280 ml, flattened prolonged curve, post-void residual 70 ml. Urethrocystoscopy shows no stricture, prostate 18 ml. Video-urodynamics: PdetQmax 96 cmH2O at Qmax 6 ml/s; pelvic floor EMG silent during voiding; on fluoroscopy the bladder neck does not open throughout the detrusor contraction, the distal urethra is unremarkable.",
+          "lead_in": "Which diagnosis and which first treatment step fit?",
+          "options": {
+            "A": {
+              "text": "Primary bladder neck obstruction; an alpha-blocker first",
+              "rationale": "High pressure with low flow (BOOI = 96 − 12 = 84), a bladder neck that fails to open and a silent pelvic floor EMG form the video-urodynamic picture of primary bladder neck obstruction. Alpha-blockers are first-line: in meta-analyses they improved IPSS and Qmax, but in the studies they caused ejaculatory dysfunction in 47–50%, which usually resolves after stopping. Bladder neck incision works better in the long term but may permanently impair antegrade ejaculation."
+            },
+            "B": {
+              "text": "Dysfunctional voiding; pelvic floor biofeedback",
+              "rationale": "In dysfunctional voiding the pelvic floor contracts during voiding: the EMG would be active, and the narrowing would lie at the external sphincter with a dilated proximal urethra. Here the EMG is silent."
+            },
+            "C": {
+              "text": "Detrusor-sphincter dyssynergia; investigate the spinal cord",
+              "rationale": "Dyssynergia requires a neurological lesion between the pons and the sacral cord and shows EMG activity with narrowing at the external sphincter. Both are absent."
+            },
+            "D": {
+              "text": "Detrusor underactivity; intermittent catheterisation",
+              "rationale": "A PdetQmax of 96 cmH2O is the opposite of detrusor underactivity; the detrusor is working against high resistance."
+            },
+            "E": {
+              "text": "Urethral stricture; optical internal urethrotomy",
+              "rationale": "Urethrocystoscopy has excluded a stricture. A flattened prolonged curve suggests obstruction but does not locate it."
+            }
+          },
+          "explanation": {
+            "core": "In young men with voiding symptoms video-urodynamics is the diagnostic standard because it shows pressure, flow, EMG and the site of obstruction at the same time. The site decides: bladder neck (primary bladder neck obstruction), external sphincter with EMG activity (dysfunctional voiding or neurogenic dyssynergia) or an anatomical narrowing of the urethra. The EAU recommends urodynamics before invasive treatment in men under 50 years (weak recommendation).",
+            "teaching_point": "Young man, high pressure, low flow, silent EMG, closed bladder neck: primary bladder neck obstruction."
+          },
+          "flag_note": "Treatment data come mainly from small non-randomised studies. Alpha-blockers help mainly in the short term, bladder neck incision also in the longer term; ejaculatory dysfunction occurred in 47–50% with alpha-blockers and in 0–88.8% after surgery, depending on the study. The 2025 meta-analysis therefore recommends shared decision-making."
+        },
+        "es": {
+          "vignette": "Varón de 34 años con chorro débil, retraso en el inicio de la micción y polaquiuria desde hace años (IPSS 19). Sin enfermedad neurológica ni cirugías previas. Flujometría: Qmax 8 ml/s con 280 ml, curva aplanada y prolongada, residuo posmiccional 70 ml. Uretrocistoscopia sin estenosis, próstata de 18 ml. Videourodinámica: PdetQmax 96 cmH2O con Qmax 6 ml/s; EMG del suelo pélvico sin actividad durante la micción; en la fluoroscopia el cuello vesical no se abre durante toda la contracción del detrusor y la uretra distal es normal.",
+          "lead_in": "¿Qué diagnóstico y qué primer paso terapéutico encajan?",
+          "options": {
+            "A": {
+              "text": "Obstrucción primaria del cuello vesical; alfabloqueante",
+              "rationale": "Presión alta con flujo bajo (BOOI = 96 − 12 = 84), un cuello vesical que no se abre y un EMG del suelo pélvico silente forman la imagen videourodinámica de la obstrucción primaria del cuello vesical. Los alfabloqueantes son la primera línea: en metaanálisis mejoraron el IPSS y el Qmax, pero en los estudios causaron alteraciones de la eyaculación en el 47–50 %, que por lo general remiten al suspenderlos. La incisión del cuello actúa mejor a largo plazo, pero puede afectar de forma permanente a la eyaculación anterógrada."
+            },
+            "B": {
+              "text": "Micción disfuncional; biofeedback del suelo pélvico",
+              "rationale": "En la micción disfuncional el suelo pélvico se contrae durante la micción: el EMG estaría activo y el estrechamiento se situaría en el esfínter externo, con la uretra proximal dilatada. Aquí el EMG es silente."
+            },
+            "C": {
+              "text": "Disinergia detrusor-esfínter; estudiar la médula espinal",
+              "rationale": "La disinergia requiere una lesión neurológica entre la protuberancia y la médula sacra y muestra actividad en el EMG con estrechamiento en el esfínter externo. Faltan ambas cosas."
+            },
+            "D": {
+              "text": "Hipoactividad del detrusor; cateterismo intermitente",
+              "rationale": "Una PdetQmax de 96 cmH2O es lo contrario de la hipoactividad del detrusor; el detrusor trabaja contra una resistencia alta."
+            },
+            "E": {
+              "text": "Estenosis uretral; uretrotomía interna óptica de Sachse",
+              "rationale": "La uretrocistoscopia ha descartado una estenosis. Una curva aplanada y prolongada sugiere obstrucción, pero no la localiza."
+            }
+          },
+          "explanation": {
+            "core": "En varones jóvenes con síntomas de vaciado, la videourodinámica es el estándar diagnóstico porque muestra a la vez presión, flujo, EMG y lugar de la obstrucción. La localización decide: cuello vesical (obstrucción primaria del cuello), esfínter externo con actividad en el EMG (micción disfuncional o disinergia neurógena) o estrechez anatómica de la uretra. La EAU recomienda la urodinámica antes de un tratamiento invasivo en varones menores de 50 años (recomendación débil).",
+            "teaching_point": "Varón joven, presión alta, flujo bajo, EMG silente y cuello vesical cerrado: obstrucción primaria del cuello vesical."
+          },
+          "flag_note": "Los datos terapéuticos proceden sobre todo de estudios pequeños no aleatorizados. Los alfabloqueantes mejoran sobre todo a corto plazo y la incisión del cuello también a más largo plazo; hubo alteraciones de la eyaculación en el 47–50 % con alfabloqueantes y en el 0–88,8 % tras la cirugía, según el estudio. Por ello, el metaanálisis de 2025 recomienda una decisión compartida."
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-20",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-20",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-udy-00004",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "urodynamik",
+        "subdomain": "Neurourologie",
+        "tags": [
+          "diagnostik",
+          "praeoperativ",
+          "komplikationsmanagement"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "eingeschraenkt",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "EAU Guidelines on Neuro-Urology 2026",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/neuro-urology/chapter/the-guideline",
+          "section": "3.3.7 Urodynamics; 3.3.8; 3.4.2.e.1; 3.4.3",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "studie",
+          "title": "Videourodynamic and sphincter motor unit potential analyses in Parkinson's disease and multiple system atrophy",
+          "citation": "Sakakibara R et al. J Neurol Neurosurg Psychiatry 2001;71:600–606",
+          "year": 2001,
+          "url": "https://jnnp.bmj.com/content/71/5/600",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "studie",
+          "title": "How to recognize patients with parkinsonism who should not have urological surgery",
+          "citation": "Chandiramani VA, Palace J, Fowler CJ. Br J Urol 1997;80:100–104",
+          "year": 1997,
+          "url": "https://doi.org/10.1046/j.1464-410X.1997.00249.x",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "leitlinie",
+          "title": "The Movement Disorder Society criteria for the diagnosis of multiple system atrophy",
+          "citation": "Wenning GK et al. Mov Disord 2022;37:1131–1148",
+          "year": 2022,
+          "url": "https://doi.org/10.1002/mds.29005",
+          "accessed": "2026-10-20"
+        }
+      ],
+      "review": {
+        "created": "2026-10-20",
+        "editorial_review": {
+          "date": "2026-10-24",
+          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; keine fachärztliche Freigabe",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neuer Abschnitt Urodynamik; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "revision": {
+          "date": "2026-10-20",
+          "reason": "Neue Frage im Abschnitt Urodynamik (zehn Fallbeispiele, parallel als Fall in Residency-Game-DE).",
+          "requires_review": true
+        }
+      },
+      "companion_case": {
+        "repository": "Usubillaga/Residency-Game-DE",
+        "case_id": "udy-msa-before-turp"
+      },
+      "content": {
+        "de": {
+          "vignette": "63-jähriger Mann; erste motorische Symptome vor zwei Jahren, Diagnose eines Parkinson-Syndroms vor 18 Monaten, mäßiges Ansprechen auf Levodopa. Imperativer Harndrang und Dranginkontinenz bestehen seit drei Jahren, eine erektile Dysfunktion seit vier Jahren; im Stehtest fällt der Blutdruck um 30/15 mmHg ab. Prostatavolumen 40 ml, Restharn 180 ml. Eine transurethrale Resektion ist geplant. Videourodynamik: Detrusorüberaktivität ab 120 ml mit Leckage, offener Blasenhals bereits zu Beginn der Füllung, schwache Detrusorkontraktion (PdetQmax 28 cmH2O bei Qmax 6 ml/s), Restharn 190 ml; Nadel-EMG des äußeren Sphinkters mit neurogen veränderten Potenzialen motorischer Einheiten.",
+          "lead_in": "Welche Konsequenz ergibt sich für die geplante Resektion?",
+          "options": {
+            "A": {
+              "text": "Resektion durchführen, da die Prostata den Restharn erklärt",
+              "rationale": "Mit BOOI = 28 − 2 × 6 = 16 besteht keine Obstruktion; der Restharn ist Folge der schwachen Kontraktion. In einer klassischen Serie waren alle elf Männer mit Multisystematrophie nach transurethraler Resektion inkontinent."
+            },
+            "B": {
+              "text": "Keine Resektion: Verdacht auf MSA, Katheterismus und Neurologie",
+              "rationale": "Blasensymptome vor der Parkinson-Symptomatik, frühe erektile Dysfunktion, orthostatische Hypotonie, Restharn über 100 ml, offener Blasenhals in Ruhe und neurogenes Sphinkter-EMG sprechen für eine Multisystematrophie. Restharn und Drang werden konservativ behandelt, die Diagnose gehört in die neurologische Abklärung."
+            },
+            "C": {
+              "text": "Resektion zusammen mit Blasenhalsinzision für eine bessere Entleerung",
+              "rationale": "Der Blasenhals ist bereits in Ruhe offen. Eine zusätzliche Inzision schwächt den verbliebenen Verschluss weiter und erhöht das Inkontinenzrisiko."
+            },
+            "D": {
+              "text": "Levodopa steigern und die Resektion danach unverändert durchführen",
+              "rationale": "Die Blasenstörung der Multisystematrophie beruht auf einer Degeneration jenseits der nigrostriatalen Bahnen und spricht auf Levodopa kaum an; eine Dosissteigerung macht die Resektion nicht sicherer."
+            },
+            "E": {
+              "text": "Resektion erst nach sechs Monaten erfolgloser Alphablockertherapie",
+              "rationale": "Ein Alphablockerversuch ändert nichts an der fehlenden Obstruktion und kann die orthostatische Hypotonie verschlechtern; die Resektion bleibt danach ebenso ungeeignet."
+            }
+          },
+          "explanation": {
+            "core": "Bei Parkinson-Syndromen muss vor jeder Prostataoperation an eine Multisystematrophie (MSA) gedacht werden. Videourodynamisch sprechen ein offener Blasenhals zu Beginn der Füllung, ein Restharn über 100 ml und neurogene Sphinkterpotenziale für MSA; beim idiopathischen Parkinson-Syndrom sind diese Befunde selten (offener Blasenhals 53 % gegenüber 0 %, neurogene Potenziale 93 % gegenüber 5 %). Die MDS-Kriterien 2022 nennen eine ungeklärte Entleerungsstörung mit Restharn über 100 ml und eine ungeklärte Dranginkontinenz als autonome Kernmerkmale.",
+            "teaching_point": "Parkinson-Syndrom plus Restharn plus offener Blasenhals: an MSA denken – und nicht resezieren."
+          },
+          "flag_note": "Die Empfehlung gegen eine Resektion stützt sich auf kleine Fallserien und Expertenkonsens; randomisierte Daten fehlen. Die EAU fordert vor einer Resektion bei neurologischer Erkrankung eine besondere Abwägung von Sphinkterfunktion und Art der Erkrankung."
+        },
+        "en": {
+          "vignette": "A 63-year-old man; his first motor symptoms began two years ago, parkinsonism was diagnosed 18 months ago, and he responds only moderately to levodopa. Urgency and urgency incontinence have been present for three years, erectile dysfunction for four years; on standing his blood pressure falls by 30/15 mmHg. Prostate volume 40 ml, post-void residual 180 ml. Transurethral resection is planned. Video-urodynamics: detrusor overactivity from 120 ml with leakage, bladder neck already open at the start of filling, weak detrusor contraction (PdetQmax 28 cmH2O at Qmax 6 ml/s), post-void residual 190 ml; needle EMG of the external sphincter shows neurogenic motor unit potentials.",
+          "lead_in": "What does this mean for the planned resection?",
+          "options": {
+            "A": {
+              "text": "Proceed with resection, as the prostate explains the residual",
+              "rationale": "With BOOI = 28 − 2 × 6 = 16 there is no obstruction; the residual results from the weak contraction. In a classic series all eleven men with multiple system atrophy were incontinent after transurethral resection."
+            },
+            "B": {
+              "text": "No resection: suspect MSA, catheterisation and neurology",
+              "rationale": "Bladder symptoms preceding parkinsonism, early erectile dysfunction, orthostatic hypotension, a residual above 100 ml, an open bladder neck at rest and a neurogenic sphincter EMG point to multiple system atrophy. Residual urine and urgency are managed conservatively; the diagnosis belongs in a neurological work-up."
+            },
+            "C": {
+              "text": "Resection plus bladder neck incision for better emptying",
+              "rationale": "The bladder neck is already open at rest. An additional incision weakens the remaining closure further and increases the risk of incontinence."
+            },
+            "D": {
+              "text": "Increase levodopa, then perform the resection as planned",
+              "rationale": "The bladder dysfunction of multiple system atrophy results from degeneration beyond the nigrostriatal pathways and hardly responds to levodopa; a dose increase does not make resection safer."
+            },
+            "E": {
+              "text": "Resection only after six months of failed alpha-blocker therapy",
+              "rationale": "An alpha-blocker trial does not change the absent obstruction and may worsen orthostatic hypotension; resection remains just as unsuitable afterwards."
+            }
+          },
+          "explanation": {
+            "core": "In parkinsonism, multiple system atrophy (MSA) must be considered before any prostate operation. On video-urodynamics an open bladder neck at the start of filling, a residual above 100 ml and neurogenic sphincter potentials point to MSA; these findings are rare in idiopathic Parkinson's disease (open bladder neck 53% versus 0%, neurogenic potentials 93% versus 5%). The MDS criteria 2022 list unexplained voiding difficulty with a residual above 100 ml and unexplained urgency incontinence as core autonomic features.",
+            "teaching_point": "Parkinsonism plus residual urine plus an open bladder neck: think of MSA – and do not resect."
+          },
+          "flag_note": "The advice against resection rests on small case series and expert consensus; randomised data are lacking. Before resection in neurological disease the EAU asks for special consideration of sphincter function and the type of disease."
+        },
+        "es": {
+          "vignette": "Varón de 63 años; los primeros síntomas motores comenzaron hace dos años y el parkinsonismo se diagnosticó hace 18 meses, con respuesta solo moderada a la levodopa. La urgencia y la incontinencia de urgencia existen desde hace tres años y la disfunción eréctil desde hace cuatro; en bipedestación la presión arterial cae 30/15 mmHg. Volumen prostático 40 ml, residuo posmiccional 180 ml. Está programada una resección transuretral. Videourodinámica: hiperactividad del detrusor desde 120 ml con escape, cuello vesical ya abierto al inicio del llenado, contracción débil del detrusor (PdetQmax 28 cmH2O con Qmax 6 ml/s), residuo 190 ml; EMG con aguja del esfínter externo con potenciales de unidad motora neurógenos.",
+          "lead_in": "¿Qué consecuencia tiene para la resección programada?",
+          "options": {
+            "A": {
+              "text": "Realizar la resección, porque la próstata explica el residuo",
+              "rationale": "Con un BOOI = 28 − 2 × 6 = 16 no hay obstrucción; el residuo se debe a la contracción débil. En una serie clásica, los once varones con atrofia multisistémica quedaron incontinentes tras la resección transuretral."
+            },
+            "B": {
+              "text": "Sin resección: sospecha de AMS, cateterismo y neurología",
+              "rationale": "Síntomas vesicales previos al parkinsonismo, disfunción eréctil precoz, hipotensión ortostática, residuo superior a 100 ml, cuello vesical abierto en reposo y EMG esfinteriano neurógeno orientan a una atrofia multisistémica. El residuo y la urgencia se tratan de forma conservadora; el diagnóstico corresponde a la valoración neurológica."
+            },
+            "C": {
+              "text": "Resección con incisión del cuello vesical para vaciar mejor",
+              "rationale": "El cuello vesical ya está abierto en reposo. Una incisión adicional debilita aún más el cierre restante y aumenta el riesgo de incontinencia."
+            },
+            "D": {
+              "text": "Aumentar la levodopa y luego operar sin cambios",
+              "rationale": "La disfunción vesical de la atrofia multisistémica se debe a una degeneración que va más allá de las vías nigroestriadas y apenas responde a la levodopa; subir la dosis no hace más segura la resección."
+            },
+            "E": {
+              "text": "Resección solo tras seis meses de alfabloqueante sin éxito",
+              "rationale": "Un ensayo con alfabloqueante no cambia la ausencia de obstrucción y puede empeorar la hipotensión ortostática; después, la resección sigue siendo igual de inadecuada."
+            }
+          },
+          "explanation": {
+            "core": "En los parkinsonismos hay que pensar en una atrofia multisistémica (AMS) antes de cualquier cirugía prostática. En la videourodinámica, un cuello vesical abierto al inicio del llenado, un residuo superior a 100 ml y potenciales esfinterianos neurógenos orientan a AMS; en la enfermedad de Parkinson idiopática estos hallazgos son raros (cuello abierto 53 % frente a 0 %, potenciales neurógenos 93 % frente a 5 %). Los criterios MDS 2022 incluyen la dificultad miccional inexplicada con residuo superior a 100 ml y la incontinencia de urgencia inexplicada como rasgos autonómicos centrales.",
+            "teaching_point": "Parkinsonismo más residuo más cuello vesical abierto: pensar en AMS y no resecar."
+          },
+          "flag_note": "La recomendación de no resecar se basa en pequeñas series de casos y en consenso de expertos; faltan datos aleatorizados. Antes de una resección en enfermedad neurológica, la EAU pide valorar especialmente la función esfinteriana y el tipo de enfermedad."
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-20",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-20",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-udy-00005",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "urodynamik",
+        "subdomain": "Weibliche Blasenauslassobstruktion",
+        "tags": [
+          "diagnostik",
+          "komplikationsmanagement",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "EAU Pocket Guidelines on Non-neurogenic Female LUTS 2026",
+          "year": 2026,
+          "url": "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Female-LUTS-2026_2026-03-12-155317_rckt.pdf",
+          "section": "Bladder outlet obstruction; Underactive bladder; Pelvic organ prolapse and LUTS",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "leitlinie",
+          "title": "EAU Guidelines on Non-neurogenic Female LUTS 2026: Diagnosis",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/non-neurogenic-female-luts/chapter/diagnosis",
+          "section": "3.6 Urodynamics",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "studie",
+          "title": "Developing and validating a new nomogram for diagnosing bladder outlet obstruction in women",
+          "citation": "Solomon E et al. Neurourol Urodyn 2018;37:368–378",
+          "year": 2018,
+          "accessed": "2026-10-20"
+        }
+      ],
+      "review": {
+        "created": "2026-10-20",
+        "editorial_review": {
+          "date": "2026-10-24",
+          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; keine fachärztliche Freigabe",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neuer Abschnitt Urodynamik; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "revision": {
+          "date": "2026-10-20",
+          "reason": "Neue Frage im Abschnitt Urodynamik (zehn Fallbeispiele, parallel als Fall in Residency-Game-DE).",
+          "requires_review": true
+        }
+      },
+      "companion_case": {
+        "repository": "Usubillaga/Residency-Game-DE",
+        "case_id": "udy-female-boo-after-sling"
+      },
+      "content": {
+        "de": {
+          "vignette": "57-jährige Frau, vor neun Monaten retropubisches Band wegen Belastungsinkontinenz. Seither schwacher Strahl, Pressen zur Miktion, Gefühl unvollständiger Entleerung, neu aufgetretener imperativer Harndrang und zwei Harnwegsinfekte; die Belastungsinkontinenz ist verschwunden. Restharn 160–200 ml. Freie Uroflowmetrie: Qmax 7 ml/s bei 240 ml. Videourodynamik: PdetQmax 52 cmH2O bei Qmax 7 ml/s, Beckenboden-EMG während der Miktion ruhig, in der Durchleuchtung Einengung auf Höhe der mittleren Harnröhre mit erweiterter proximaler Harnröhre. Die Urethrozystoskopie zeigt keine Bandperforation.",
+          "lead_in": "Welches Vorgehen ist angezeigt?",
+          "options": {
+            "A": {
+              "text": "Urethradilatation in Kurznarkose zur Weitung der Engstelle",
+              "rationale": "Nach synthetischem Band rät die EAU von Urethradilatation und Urethrotomie ab (schwache Empfehlung), wegen des theoretischen Risikos einer Netzextrusion in die Harnröhre; die Ursache beseitigen sie ohnehin nicht."
+            },
+            "B": {
+              "text": "Bandrevision mit Aufklärung über ein Rezidiv der Belastungsinkontinenz",
+              "rationale": "Die Videourodynamik belegt eine anatomische Obstruktion auf Bandhöhe: hoher Druck bei niedrigem Fluss (BOOIf = 52 − 2,2 × 7 = 36,6; Werte über 18 entsprechen im Nomogramm von Solomon und Greenwell einer Obstruktionswahrscheinlichkeit über 90 %) und eine Engstelle in der mittleren Harnröhre. Die EAU empfiehlt bei Harnverhalt oder relevanter Entleerungsstörung nach Bandeinlage die Bandrevision und die Aufklärung über ein mögliches Rezidiv der Belastungsinkontinenz (jeweils starke Empfehlung)."
+            },
+            "C": {
+              "text": "Antimuskarinikum gegen den neuen Drang, Kontrolle in drei Monaten",
+              "rationale": "Der Drang ist hier wahrscheinlich Folge der Obstruktion. Ein Antimuskarinikum behandelt nur das Symptom und kann die ohnehin gestörte Entleerung weiter verschlechtern."
+            },
+            "D": {
+              "text": "Sakrale Neuromodulation bei funktioneller Obstruktion",
+              "rationale": "Die sakrale Neuromodulation ist eine Option bei funktioneller Obstruktion, etwa beim Fowler-Syndrom. Hier liegt eine anatomische Obstruktion durch das Band vor."
+            },
+            "E": {
+              "text": "Abwarten, da sich die Miktion nach Bandeinlage oft spontan normalisiert",
+              "rationale": "Neun Monate nach der Operation, mit Restharn, Infekten und neuem Drang, ist eine spontane Besserung unwahrscheinlich; Abwarten gefährdet Blasenfunktion und Lebensqualität."
+            }
+          },
+          "explanation": {
+            "core": "Für Frauen gibt es keinen allgemein akzeptierten urodynamischen Grenzwert für eine Obstruktion; verschiedene Nomogramme kombinieren Detrusordruck und Fluss. Die EAU empfiehlt bei Verdacht auf anatomische Obstruktion eine Urodynamik, vorzugsweise mit Durchleuchtung, sowie eine Urethrozystoskopie und die Einteilung in anatomische und funktionelle Obstruktion (starke Empfehlungen). Eine alleinige Uroflowmetrie genügt zur Diagnose nicht.",
+            "teaching_point": "Nach Band neuer Drang plus Restharn: an Obstruktion denken, videourodynamisch sichern, Band revidieren – nicht dilatieren."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 57-year-old woman had a retropubic sling for stress urinary incontinence nine months ago. Since then she has had a weak stream, straining to void, a feeling of incomplete emptying, new urgency and two urinary tract infections; the stress incontinence has gone. Post-void residual 160–200 ml. Free uroflowmetry: Qmax 7 ml/s at 240 ml. Video-urodynamics: PdetQmax 52 cmH2O at Qmax 7 ml/s, pelvic floor EMG quiet during voiding, on fluoroscopy a narrowing at the level of the mid-urethra with a dilated proximal urethra. Urethrocystoscopy shows no tape perforation.",
+          "lead_in": "Which approach is indicated?",
+          "options": {
+            "A": {
+              "text": "Urethral dilatation under brief anaesthesia to widen the narrowing",
+              "rationale": "After a synthetic sling the EAU advises against urethral dilatation and urethrotomy (weak recommendation) because of the theoretical risk of mesh extrusion into the urethra; they do not remove the cause anyway."
+            },
+            "B": {
+              "text": "Sling revision with counselling on recurrent stress incontinence",
+              "rationale": "Video-urodynamics proves an anatomical obstruction at the level of the tape: high pressure with low flow (BOOIf = 52 − 2.2 × 7 = 36.6; values above 18 correspond to a probability of obstruction above 90% on the Solomon-Greenwell nomogram) and a narrowing of the mid-urethra. For retention or significant voiding difficulty after sling surgery the EAU recommends sling revision and counselling about possible recurrent stress incontinence (strong recommendations)."
+            },
+            "C": {
+              "text": "Antimuscarinic for the new urgency, review in three months",
+              "rationale": "The urgency is probably a consequence of the obstruction here. An antimuscarinic only treats the symptom and may further worsen the already impaired emptying."
+            },
+            "D": {
+              "text": "Sacral neuromodulation for functional obstruction",
+              "rationale": "Sacral neuromodulation is an option for functional obstruction, for example in Fowler's syndrome. Here the obstruction is anatomical, caused by the tape."
+            },
+            "E": {
+              "text": "Wait, because voiding often normalises spontaneously after a sling",
+              "rationale": "Nine months after surgery, with residual urine, infections and new urgency, spontaneous improvement is unlikely; waiting endangers bladder function and quality of life."
+            }
+          },
+          "explanation": {
+            "core": "There is no universally accepted urodynamic threshold for obstruction in women; various nomograms combine detrusor pressure and flow. When anatomical obstruction is suspected the EAU recommends urodynamics, preferably with fluoroscopy, and urethrocystoscopy, and a classification into anatomical and functional obstruction (strong recommendations). Uroflowmetry alone is not sufficient for the diagnosis.",
+            "teaching_point": "New urgency plus residual urine after a sling: think obstruction, confirm it video-urodynamically, revise the sling – do not dilate."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 57 años con una cinta retropúbica por incontinencia de esfuerzo hace nueve meses. Desde entonces presenta chorro débil, prensa abdominal para orinar, sensación de vaciado incompleto, urgencia de nueva aparición y dos infecciones urinarias; la incontinencia de esfuerzo ha desaparecido. Residuo posmiccional 160–200 ml. Flujometría libre: Qmax 7 ml/s con 240 ml. Videourodinámica: PdetQmax 52 cmH2O con Qmax 7 ml/s, EMG del suelo pélvico silente durante la micción, en la fluoroscopia estrechamiento a nivel de la uretra media con uretra proximal dilatada. La uretrocistoscopia no muestra perforación de la cinta.",
+          "lead_in": "¿Qué actitud está indicada?",
+          "options": {
+            "A": {
+              "text": "Dilatación uretral con anestesia breve para ampliar el estrechamiento",
+              "rationale": "Tras una cinta sintética la EAU desaconseja la dilatación uretral y la uretrotomía (recomendación débil) por el riesgo teórico de extrusión de la malla hacia la uretra; además, no eliminan la causa."
+            },
+            "B": {
+              "text": "Revisión de la cinta informando del riesgo de recidiva de la incontinencia",
+              "rationale": "La videourodinámica demuestra una obstrucción anatómica a la altura de la cinta: presión alta con flujo bajo (BOOIf = 52 − 2,2 × 7 = 36,6; valores superiores a 18 corresponden en el nomograma de Solomon y Greenwell a una probabilidad de obstrucción superior al 90 %) y un estrechamiento de la uretra media. Ante una retención o una dificultad miccional relevante tras la cinta, la EAU recomienda revisar la cinta e informar de la posible recidiva de la incontinencia de esfuerzo (recomendaciones fuertes)."
+            },
+            "C": {
+              "text": "Antimuscarínico para la nueva urgencia, control en tres meses",
+              "rationale": "Aquí la urgencia es probablemente consecuencia de la obstrucción. Un antimuscarínico solo trata el síntoma y puede empeorar aún más un vaciado ya alterado."
+            },
+            "D": {
+              "text": "Neuromodulación sacra por obstrucción funcional",
+              "rationale": "La neuromodulación sacra es una opción en la obstrucción funcional, por ejemplo en el síndrome de Fowler. Aquí la obstrucción es anatómica y la causa la cinta."
+            },
+            "E": {
+              "text": "Esperar, porque la micción tras la cinta suele normalizarse sola con el tiempo",
+              "rationale": "Nueve meses después de la cirugía, con residuo, infecciones y urgencia nueva, una mejoría espontánea es improbable; esperar pone en riesgo la función vesical y la calidad de vida."
+            }
+          },
+          "explanation": {
+            "core": "En la mujer no existe un umbral urodinámico de obstrucción aceptado de forma universal; varios nomogramas combinan presión del detrusor y flujo. Ante la sospecha de obstrucción anatómica, la EAU recomienda la urodinámica, preferiblemente con fluoroscopia, la uretrocistoscopia y la clasificación en obstrucción anatómica o funcional (recomendaciones fuertes). La flujometría por sí sola no basta para el diagnóstico.",
+            "teaching_point": "Urgencia nueva más residuo tras una cinta: pensar en obstrucción, confirmarla con videourodinámica y revisar la cinta; no dilatar."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-20",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-20",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-udy-00006",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "urodynamik",
+        "subdomain": "Harnverhalt der Frau",
+        "tags": [
+          "diagnostik",
+          "operationstechnik",
+          "studienlage"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "eingeschraenkt",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "EAU Pocket Guidelines on Non-neurogenic Female LUTS 2026",
+          "year": 2026,
+          "url": "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Female-LUTS-2026_2026-03-12-155317_rckt.pdf",
+          "section": "Bladder outlet obstruction; Underactive bladder; Pelvic organ prolapse and LUTS",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "studie",
+          "title": "Abnormal electromyographic activity (decelerating burst and complex repetitive discharges) in the striated muscle of the urethral sphincter in 5 women with persisting urinary retention",
+          "citation": "Fowler CJ, Kirby RS. Br J Urol 1985;57:67–70",
+          "year": 1985,
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "studie",
+          "title": "Sacral neuromodulation for women with Fowler's syndrome",
+          "citation": "Swinn MJ et al. Eur Urol 2000;38:439–443",
+          "year": 2000,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11025383/",
+          "accessed": "2026-10-20"
+        }
+      ],
+      "review": {
+        "created": "2026-10-20",
+        "editorial_review": {
+          "date": "2026-10-24",
+          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; keine fachärztliche Freigabe",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neuer Abschnitt Urodynamik; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "revision": {
+          "date": "2026-10-20",
+          "reason": "Neue Frage im Abschnitt Urodynamik (zehn Fallbeispiele, parallel als Fall in Residency-Game-DE).",
+          "requires_review": true
+        }
+      },
+      "companion_case": {
+        "repository": "Usubillaga/Residency-Game-DE",
+        "case_id": "udy-fowler-retention-young-woman"
+      },
+      "content": {
+        "de": {
+          "vignette": "26-jährige Frau, nach einer Kniearthroskopie in Allgemeinanästhesie kein spontanes Wasserlassen mehr. Der Katheter förderte 1.100 ml, ohne dass sie Schmerzen angab. Neurologische Untersuchung einschließlich Reithosensensibilität und Analreflex unauffällig, MRT der Lendenwirbelsäule ohne Befund, keine Opioide oder Anticholinergika mehr. Beim Selbstkatheterismus schmerzt vor allem das Herausziehen des Katheters. Urodynamik: Kapazität über 900 ml, erster Harndrang bei 650 ml, keine Detrusorkontraktion beim Miktionsversuch, maximaler Urethraverschlussdruck 125 cmH2O. Das konzentrische Nadel-EMG des urethralen Sphinkters zeigt komplexe repetitive Entladungen und dezelerierende Entladungsserien.",
+          "lead_in": "Welche Behandlung bietet die beste Aussicht, die Spontanmiktion wiederherzustellen?",
+          "options": {
+            "A": {
+              "text": "Urethradilatation zur Senkung des Auslasswiderstands",
+              "rationale": "Für die Dilatation gibt es beim Fowler-Syndrom keinen belegten Nutzen; sie behandelt die fehlende Relaxation des Sphinkters nicht und ist bei diesen Frauen zudem besonders schmerzhaft."
+            },
+            "B": {
+              "text": "Sakrale Neuromodulation nach erfolgreicher Testphase",
+              "rationale": "Komplexe repetitive Entladungen und dezelerierende Serien im Sphinkter-EMG, ein erhöhter Urethraverschlussdruck und ein großer, wenig sensibler Blasenspeicher bei junger Frau ohne neurologischen Befund sind typisch für das Fowler-Syndrom. Die sakrale Neuromodulation stellt in Fallserien bei etwa 70 % der Frauen die Spontanmiktion wieder her; die EAU empfiehlt sie bei therapierefraktärer unteraktiver Blase (stark) und bei funktioneller Obstruktion (schwach)."
+            },
+            "C": {
+              "text": "Intravesikale Prostaglandin-Instillation",
+              "rationale": "Die EAU sieht intravesikale Prostaglandine bei postoperativem Harnverhalt der Frau nur im Rahmen kontrollierter Studien vor (schwache Empfehlung)."
+            },
+            "D": {
+              "text": "Alphablocker kombiniert mit einem Cholinergikum",
+              "rationale": "Die EAU nennt Alphablocker bei funktioneller Obstruktion nur als Off-Label-Option (schwache Empfehlung) und empfiehlt Parasympathomimetika bei unteraktiver Blase nicht routinemäßig (starke Empfehlung). Beim Fowler-Syndrom stellen Medikamente die Spontanmiktion nach bisherigen Daten nicht verlässlich wieder her; Cholinergika verursachen zudem systemische Nebenwirkungen."
+            },
+            "E": {
+              "text": "Psychotherapie bei Verdacht auf psychogenen Harnverhalt",
+              "rationale": "Das pathologische Sphinkter-EMG spricht für eine organische Störung der Sphinkterrelaxation; die Einordnung als psychogener Harnverhalt wäre ein Fehler."
+            }
+          },
+          "explanation": {
+            "core": "Das Fowler-Syndrom betrifft vor allem junge Frauen: Der quergestreifte Urethrasphinkter relaxiert nicht, typisch sind schmerzlose große Restharnmengen, ein erhöhter Urethraverschlussdruck und ein vergrößertes Sphinktervolumen. Diagnostisch wegweisend ist das konzentrische Nadel-EMG mit komplexen repetitiven Entladungen und dezelerierenden Serien. Bis zur Neuromodulation ist der intermittierende Katheterismus Standard, auch wenn er gerade bei diesen Frauen oft schmerzhaft ist.",
+            "teaching_point": "Junge Frau, schmerzloser Harnverhalt über einen Liter, pathologisches Sphinkter-EMG: Fowler-Syndrom – die sakrale Neuromodulation stellt in Fallserien bei etwa 70 % die Spontanmiktion wieder her."
+          },
+          "flag_note": "Die Daten zur sakralen Neuromodulation beim Fowler-Syndrom stammen aus Fallserien; für die funktionelle Obstruktion spricht die EAU nur eine schwache Empfehlung aus."
+        },
+        "en": {
+          "vignette": "A 26-year-old woman has been unable to void spontaneously since a knee arthroscopy under general anaesthesia. The catheter drained 1,100 ml although she reported no pain. Neurological examination including saddle sensation and anal reflex is normal, lumbar spine MRI is unremarkable, and she no longer takes opioids or anticholinergics. During self-catheterisation, withdrawing the catheter is especially painful. Urodynamics: capacity above 900 ml, first desire to void at 650 ml, no detrusor contraction on attempted voiding, maximum urethral closure pressure 125 cmH2O. Concentric needle EMG of the urethral sphincter shows complex repetitive discharges and decelerating bursts.",
+          "lead_in": "Which treatment offers the best chance of restoring spontaneous voiding?",
+          "options": {
+            "A": {
+              "text": "Urethral dilatation to lower the outlet resistance",
+              "rationale": "There is no proven benefit of dilatation in Fowler's syndrome; it does not treat the failure of the sphincter to relax and is especially painful for these women."
+            },
+            "B": {
+              "text": "Sacral neuromodulation after a successful test phase",
+              "rationale": "Complex repetitive discharges and decelerating bursts on sphincter EMG, a raised urethral closure pressure and a large, poorly sensate bladder in a young woman without neurological findings are typical of Fowler's syndrome. In case series sacral neuromodulation restores spontaneous voiding in about 70% of women; the EAU recommends it for refractory underactive bladder (strong) and for functional obstruction (weak)."
+            },
+            "C": {
+              "text": "Intravesical prostaglandin instillation",
+              "rationale": "The EAU offers intravesical prostaglandins for postoperative urinary retention in women only within well-regulated clinical trials (weak recommendation)."
+            },
+            "D": {
+              "text": "Alpha-blocker combined with a cholinergic drug",
+              "rationale": "The EAU lists alpha-blockers for functional obstruction only as an off-label option (weak recommendation) and does not recommend parasympathomimetics routinely for underactive bladder (strong recommendation). In Fowler's syndrome, drugs have not been shown to restore spontaneous voiding reliably; cholinergics also cause systemic side effects."
+            },
+            "E": {
+              "text": "Psychotherapy for a suspected psychogenic urinary retention",
+              "rationale": "The abnormal sphincter EMG points to an organic disorder of sphincter relaxation; calling it psychogenic retention would be a mistake."
+            }
+          },
+          "explanation": {
+            "core": "Fowler's syndrome mainly affects young women: the striated urethral sphincter fails to relax, typically with painless large residual volumes, a raised urethral closure pressure and an enlarged sphincter volume. The key diagnostic test is concentric needle EMG showing complex repetitive discharges and decelerating bursts. Until neuromodulation, intermittent catheterisation is the standard, even though it is often painful for these women.",
+            "teaching_point": "Young woman, painless retention over one litre, abnormal sphincter EMG: Fowler's syndrome – in case series sacral neuromodulation restores spontaneous voiding in about 70%."
+          },
+          "flag_note": "Data on sacral neuromodulation in Fowler's syndrome come from case series; for functional obstruction the EAU issues only a weak recommendation."
+        },
+        "es": {
+          "vignette": "Mujer de 26 años que no puede orinar espontáneamente desde una artroscopia de rodilla con anestesia general. La sonda drenó 1100 ml sin que refiriera dolor. Exploración neurológica, incluida la sensibilidad en silla de montar y el reflejo anal, normal; RM lumbar sin hallazgos; ya no toma opioides ni anticolinérgicos. En el autocateterismo le duele sobre todo retirar la sonda. Urodinámica: capacidad superior a 900 ml, primer deseo miccional a 650 ml, sin contracción del detrusor al intentar orinar, presión máxima de cierre uretral 125 cmH2O. El EMG con aguja concéntrica del esfínter uretral muestra descargas repetitivas complejas y salvas decelerantes.",
+          "lead_in": "¿Qué tratamiento ofrece la mejor posibilidad de recuperar la micción espontánea?",
+          "options": {
+            "A": {
+              "text": "Dilatación uretral para reducir la resistencia de salida",
+              "rationale": "La dilatación no tiene un beneficio demostrado en el síndrome de Fowler; no trata la falta de relajación del esfínter y en estas mujeres resulta además especialmente dolorosa."
+            },
+            "B": {
+              "text": "Neuromodulación sacra tras una fase de prueba con éxito",
+              "rationale": "Descargas repetitivas complejas y salvas decelerantes en el EMG esfinteriano, una presión de cierre uretral elevada y una vejiga grande y poco sensible en una mujer joven sin hallazgos neurológicos son típicas del síndrome de Fowler. En series de casos, la neuromodulación sacra restablece la micción espontánea en alrededor del 70 % de las mujeres; la EAU la recomienda en la vejiga hipoactiva refractaria (fuerte) y en la obstrucción funcional (débil)."
+            },
+            "C": {
+              "text": "Instilación intravesical de prostaglandinas",
+              "rationale": "La EAU solo contempla las prostaglandinas intravesicales en la retención urinaria posoperatoria de la mujer dentro de ensayos clínicos controlados (recomendación débil)."
+            },
+            "D": {
+              "text": "Alfabloqueante combinado con un colinérgico",
+              "rationale": "La EAU menciona los alfabloqueantes en la obstrucción funcional solo como opción fuera de indicación (recomendación débil) y no recomienda de forma rutinaria los parasimpaticomiméticos en la vejiga hipoactiva (recomendación fuerte). En el síndrome de Fowler, los fármacos no han demostrado restablecer de forma fiable la micción espontánea; los colinérgicos causan además efectos adversos sistémicos."
+            },
+            "E": {
+              "text": "Psicoterapia por sospecha de retención psicógena",
+              "rationale": "El EMG esfinteriano patológico apunta a un trastorno orgánico de la relajación del esfínter; considerarla una retención psicógena sería un error."
+            }
+          },
+          "explanation": {
+            "core": "El síndrome de Fowler afecta sobre todo a mujeres jóvenes: el esfínter uretral estriado no se relaja, con residuos grandes e indoloros, una presión de cierre uretral elevada y un volumen esfinteriano aumentado. La prueba diagnóstica clave es el EMG con aguja concéntrica, que muestra descargas repetitivas complejas y salvas decelerantes. Hasta la neuromodulación, el cateterismo intermitente es el estándar, aunque en estas mujeres suele ser doloroso.",
+            "teaching_point": "Mujer joven, retención indolora de más de un litro y EMG esfinteriano patológico: síndrome de Fowler; en series de casos, la neuromodulación sacra restablece la micción espontánea en alrededor del 70 %."
+          },
+          "flag_note": "Los datos sobre la neuromodulación sacra en el síndrome de Fowler proceden de series de casos; para la obstrucción funcional la EAU solo emite una recomendación débil."
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-20",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-20",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-udy-00007",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "urodynamik",
+        "subdomain": "Okkulte Belastungsinkontinenz",
+        "tags": [
+          "praeoperativ",
+          "studienlage",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "IB",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "EAU Pocket Guidelines on Non-neurogenic Female LUTS 2026",
+          "year": 2026,
+          "url": "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Female-LUTS-2026_2026-03-12-155317_rckt.pdf",
+          "section": "Bladder outlet obstruction; Underactive bladder; Pelvic organ prolapse and LUTS",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "studie",
+          "title": "A midurethral sling to reduce incontinence after vaginal prolapse repair (OPUS)",
+          "citation": "Wei JT et al. N Engl J Med 2012;366:2358–2367",
+          "year": 2012,
+          "url": "https://doi.org/10.1056/NEJMoa1111967",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "leitlinie",
+          "title": "EAU Guidelines on Non-neurogenic Female LUTS 2026: Diagnosis",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/non-neurogenic-female-luts/chapter/diagnosis",
+          "section": "3.6 Urodynamics",
+          "accessed": "2026-10-20"
+        }
+      ],
+      "review": {
+        "created": "2026-10-20",
+        "editorial_review": {
+          "date": "2026-10-24",
+          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; keine fachärztliche Freigabe",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neuer Abschnitt Urodynamik; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "revision": {
+          "date": "2026-10-20",
+          "reason": "Neue Frage im Abschnitt Urodynamik (zehn Fallbeispiele, parallel als Fall in Residency-Game-DE).",
+          "requires_review": true
+        }
+      },
+      "companion_case": {
+        "repository": "Usubillaga/Residency-Game-DE",
+        "case_id": "udy-occult-sui-prolapse-reduction"
+      },
+      "content": {
+        "de": {
+          "vignette": "64-jährige Frau mit symptomatischem Deszensus (POP-Q Stadium III, vorderes und apikales Kompartiment), Fremdkörpergefühl und abgeschwächtem Strahl, aber ohne Urinverlust. Eine vaginale Deszensusoperation ist geplant, Restharn 90 ml. Beim Prolaps-Repositionstest mit Spekulum und 300 ml Blasenfüllung kommt es beim Husten zu Urinverlust. Sie fragt, ob bei der Operation gleich ein Band eingelegt werden sollte.",
+          "lead_in": "Wie beraten Sie die Patientin?",
+          "options": {
+            "A": {
+              "text": "Kombinierte Operation ist obligat, da okkulte Inkontinenz stets manifest wird",
+              "rationale": "Auch bei positivem Repositionstest wird eine okkulte Inkontinenz nicht zwangsläufig manifest: In OPUS hatten diese Frauen ohne Band nach drei Monaten zu 71,9 % eine Inkontinenz oder deren Behandlung – also nicht alle. Eine Pflicht zur kombinierten Operation besteht nicht; die EAU verlangt eine Entscheidung nach ausführlicher Aufklärung."
+            },
+            "B": {
+              "text": "Ein Band ist ausgeschlossen, da sie derzeit kontinent ist",
+              "rationale": "Gerade der positive Repositionstest zeigt ein erhöhtes Risiko einer postoperativen Belastungsinkontinenz. Ein Band ist eine legitime Option, die nach Aufklärung angeboten werden kann."
+            },
+            "C": {
+              "text": "Gemeinsame Entscheidung: weniger Inkontinenz, aber mehr Komplikationen",
+              "rationale": "Die EAU empfiehlt den Repositionstest bei kontinenten Frauen und eine kombinierte Operation nur nach ausführlicher Aufklärung über Nutzen und erhöhtes Komplikationsrisiko (starke Empfehlungen). In OPUS (alle präoperativ kontinenten Frauen, unabhängig vom Testergebnis; etwa ein Drittel mit positivem Test) senkte das prophylaktische Band die Inkontinenz nach zwölf Monaten von 43,0 % auf 27,3 % (NNT 6,3). Bei positivem Test war der Vorteil nach drei Monaten absolut größer (29,6 % vs. 71,9 %), der Unterschied zu Frauen mit negativem Test aber nicht signifikant. Dafür traten häufiger Blasenperforation (6,7 % vs. 0 %), Harnwegsinfekte (31,0 % vs. 18,3 %), relevante Blutung (3,1 % vs. 0 %) und Entleerungsstörung nach sechs Wochen (3,7 % vs. 0 %) auf. Ein zweizeitiges Vorgehen ist eine Alternative."
+            },
+            "D": {
+              "text": "Erst Urodynamik, da nur sie eine okkulte Inkontinenz beweisen kann",
+              "rationale": "Der Prolaps-Repositionstest ist der empfohlene Test zur Erkennung der okkulten Inkontinenz. Eine präoperative Urodynamik kann bei Prolaps mit Belastungsinkontinenz erwogen werden (schwache Empfehlung), ist aber nicht der einzige Nachweis."
+            },
+            "E": {
+              "text": "Bulking-Injektion statt Band, da gleich wirksam und risikoärmer",
+              "rationale": "Bulking-Substanzen sind weniger wirksam als ein mittelurethrales Band und für den prophylaktischen Einsatz bei Deszensuschirurgie nicht etabliert."
+            }
+          },
+          "explanation": {
+            "core": "Die okkulte Belastungsinkontinenz wird erst sichtbar, wenn der Deszensus reponiert ist, weil der Prolaps die Harnröhre abknicken kann. Ob bei der Deszensuschirurgie gleich ein Band eingelegt wird, ist eine Abwägung: weniger postoperative Inkontinenz gegen mehr perioperative Komplikationen und eine unnötige Operation für jene Frauen, die ohnehin kontinent bleiben. Alternativ wird zuerst der Prolaps korrigiert und ein Band nur bei manifester Inkontinenz ergänzt.",
+            "teaching_point": "Positiver Repositionstest heißt Beratung, nicht Automatismus: Das Band senkt die Inkontinenz (OPUS, alle kontinenten Frauen: NNT 6,3 nach zwölf Monaten), bringt aber mehr Komplikationen."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 64-year-old woman has symptomatic prolapse (POP-Q stage III, anterior and apical compartments) with a bulge sensation and a weak stream, but no urinary leakage. Vaginal prolapse surgery is planned, post-void residual 90 ml. On a prolapse reduction test with a speculum and 300 ml in the bladder she leaks urine on coughing. She asks whether a sling should be inserted during the same operation.",
+          "lead_in": "How do you counsel her?",
+          "options": {
+            "A": {
+              "text": "Combined surgery is mandatory, as occult incontinence always becomes overt",
+              "rationale": "Even with a positive reduction test, occult incontinence does not necessarily become overt: in OPUS, 71.9% of these women without a sling had incontinence or treatment for it at three months – not all of them. There is no obligation to perform combined surgery; the EAU requires a decision after full counselling."
+            },
+            "B": {
+              "text": "A sling is ruled out because she is currently continent",
+              "rationale": "The positive reduction test is exactly what shows an increased risk of postoperative stress incontinence. A sling is a legitimate option that can be offered after counselling."
+            },
+            "C": {
+              "text": "Shared decision: less incontinence, but more complications",
+              "rationale": "The EAU recommends the reduction test in continent women and combined surgery only after full counselling about benefits and the higher risk of complications (strong recommendations). In OPUS (all women continent before surgery, regardless of the test result; about a third had a positive test) the prophylactic sling reduced incontinence at twelve months from 43.0% to 27.3% (NNT 6.3). With a positive test the benefit at three months was larger in absolute terms (29.6% vs 71.9%), but the difference from women with a negative test was not significant. In exchange, bladder perforation (6.7% vs 0%), urinary tract infection (31.0% vs 18.3%), major bleeding (3.1% vs 0%) and incomplete emptying at six weeks (3.7% vs 0%) were more frequent. A staged approach is an alternative."
+            },
+            "D": {
+              "text": "Urodynamics first, as only it can prove occult incontinence",
+              "rationale": "The prolapse reduction test is the recommended test to detect occult incontinence. Preoperative urodynamics may be considered in prolapse with stress incontinence (weak recommendation) but is not the only proof."
+            },
+            "E": {
+              "text": "Bulking injection instead of a sling, as effective and safer",
+              "rationale": "Bulking agents are less effective than a midurethral sling and are not established for prophylactic use in prolapse surgery."
+            }
+          },
+          "explanation": {
+            "core": "Occult stress incontinence only becomes visible once the prolapse is reduced, because the prolapse can kink the urethra. Whether a sling is added during prolapse surgery is a trade-off: less postoperative incontinence versus more perioperative complications and an unnecessary operation for women who would have stayed continent anyway. Alternatively the prolapse is repaired first and a sling is added only if incontinence becomes overt.",
+            "teaching_point": "A positive reduction test means counselling, not automatism: the sling lowers incontinence (OPUS, all continent women: NNT 6.3 at twelve months) but adds complications."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 64 años con prolapso sintomático (POP-Q estadio III, compartimentos anterior y apical), sensación de bulto y chorro débil, pero sin escapes de orina. Está programada una cirugía vaginal del prolapso; residuo posmiccional 90 ml. En la prueba de reducción del prolapso con espéculo y 300 ml en la vejiga presenta escape de orina al toser. Pregunta si conviene colocar una cinta en la misma operación.",
+          "lead_in": "¿Cómo la asesora?",
+          "options": {
+            "A": {
+              "text": "La cirugía combinada es obligatoria: la incontinencia oculta siempre aflora",
+              "rationale": "Incluso con una prueba de reducción positiva, la incontinencia oculta no se manifiesta necesariamente: en OPUS, sin cinta, el 71,9 % de estas mujeres tenía a los tres meses incontinencia o tratamiento por ella, no todas. No existe obligación de cirugía combinada; la EAU exige decidir tras una información completa."
+            },
+            "B": {
+              "text": "Una cinta está descartada porque ahora es continente",
+              "rationale": "Precisamente la prueba de reducción positiva indica un riesgo aumentado de incontinencia de esfuerzo posoperatoria. La cinta es una opción legítima que puede ofrecerse tras informar."
+            },
+            "C": {
+              "text": "Decisión compartida: menos incontinencia, pero más complicaciones",
+              "rationale": "La EAU recomienda la prueba de reducción en mujeres continentes y la cirugía combinada solo tras informar ampliamente de beneficios y del mayor riesgo de complicaciones (recomendaciones fuertes). En OPUS (todas las mujeres continentes antes de la cirugía, con independencia del resultado de la prueba; alrededor de un tercio con prueba positiva), la cinta profiláctica redujo la incontinencia a los doce meses del 43,0 % al 27,3 % (NNT 6,3). Con prueba positiva, el beneficio a los tres meses fue mayor en términos absolutos (29,6 % frente a 71,9 %), pero la diferencia respecto a las mujeres con prueba negativa no fue significativa. A cambio, fueron más frecuentes las perforaciones vesicales (6,7 % frente a 0 %), las infecciones urinarias (31,0 % frente a 18,3 %), las hemorragias relevantes (3,1 % frente a 0 %) y el vaciado incompleto a las seis semanas (3,7 % frente a 0 %). La cirugía en dos tiempos es una alternativa."
+            },
+            "D": {
+              "text": "Primero urodinámica, porque solo ella demuestra la incontinencia oculta",
+              "rationale": "La prueba de reducción del prolapso es la prueba recomendada para detectar la incontinencia oculta. La urodinámica preoperatoria puede considerarse en el prolapso con incontinencia de esfuerzo (recomendación débil), pero no es la única prueba."
+            },
+            "E": {
+              "text": "Agente de relleno en vez de cinta, igual de eficaz y más seguro",
+              "rationale": "Los agentes de relleno son menos eficaces que una cinta mediouretral y no están establecidos para uso profiláctico en la cirugía del prolapso."
+            }
+          },
+          "explanation": {
+            "core": "La incontinencia de esfuerzo oculta solo se hace visible al reducir el prolapso, porque el prolapso puede acodar la uretra. Añadir una cinta en la cirugía del prolapso es un equilibrio: menos incontinencia posoperatoria frente a más complicaciones perioperatorias y una operación innecesaria para las mujeres que seguirían continentes. Como alternativa, se corrige primero el prolapso y se añade una cinta solo si aparece la incontinencia.",
+            "teaching_point": "Una prueba de reducción positiva implica asesorar, no automatismo: la cinta reduce la incontinencia (OPUS, todas las mujeres continentes: NNT 6,3 a los doce meses), pero añade complicaciones."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-20",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-20",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-udy-00008",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "urodynamik",
+        "subdomain": "Compliance",
+        "tags": [
+          "diagnostik",
+          "leitlinie",
+          "nachsorge"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "EAU Guidelines on Neuro-Urology 2026",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/neuro-urology/chapter/the-guideline",
+          "section": "3.3.7 Urodynamics; 3.3.8; 3.4.2.e.1; 3.4.3",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "leitlinie",
+          "title": "The standardisation of terminology of lower urinary tract function (ICS)",
+          "citation": "Abrams P et al. Neurourol Urodyn 2002;21:167–178",
+          "year": 2002,
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "studie",
+          "title": "Prognostic value of urodynamic testing in myelodysplastic patients",
+          "citation": "McGuire EJ et al. J Urol 1981;126:205–209",
+          "year": 1981,
+          "accessed": "2026-10-20"
+        }
+      ],
+      "review": {
+        "created": "2026-10-20",
+        "editorial_review": {
+          "date": "2026-10-24",
+          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; keine fachärztliche Freigabe",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neuer Abschnitt Urodynamik; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "revision": {
+          "date": "2026-10-20",
+          "reason": "Neue Frage im Abschnitt Urodynamik (zehn Fallbeispiele, parallel als Fall in Residency-Game-DE).",
+          "requires_review": true
+        }
+      },
+      "companion_case": {
+        "repository": "Usubillaga/Residency-Game-DE",
+        "case_id": "udy-low-compliance-sci-filling-rate"
+      },
+      "content": {
+        "de": {
+          "vignette": "47-jähriger Mann mit traumatischer Querschnittlähmung unterhalb Th11 seit 14 Jahren, seither mit transurethralem Dauerkatheter versorgt. Er möchte auf intermittierenden Selbstkatheterismus umsteigen; die Handfunktion ist gut. Sonographisch beidseits leicht erweitertes Nierenbeckenkelchsystem, Kreatinin normal. Videourodynamik bei 80 kg Körpergewicht mit einer Füllrate von 30 ml/min: Der Detrusordruck steigt ohne phasische Kontraktionen kontinuierlich von 5 auf 45 cmH2O bei 260 ml; bei 45 cmH2O tritt Leckage auf, kein vesikoureteraler Reflux.",
+          "lead_in": "Welche Bewertung und welcher nächste Schritt sind richtig?",
+          "options": {
+            "A": {
+              "text": "Compliance 6,5 ml/cmH2O; mit physiologischer Füllrate wiederholen",
+              "rationale": "Compliance = ΔV/ΔPdet = 260 ml / (45 − 5) cmH2O = 6,5 ml/cmH2O. Die Füllrate von 30 ml/min liegt über der physiologischen Rate (Körpergewicht/4 = 20 ml/min); zu schnelle Füllung kann die Compliance künstlich senken. Die EAU fordert eine physiologische Füllrate und eine Wiederholungsmessung in derselben Sitzung (starke Empfehlungen), bevor über Kathetervolumina oder Eskalation entschieden wird."
+            },
+            "B": {
+              "text": "Compliance 0,15 ml/cmH2O; Augmentation ist sofort indiziert",
+              "rationale": "Die Formel ist umgekehrt: Compliance ist Volumen pro Druckanstieg, nicht Druck pro Volumen. Zudem ist eine Augmentation erst nach Versagen weniger invasiver Maßnahmen angezeigt."
+            },
+            "C": {
+              "text": "Normale Compliance, da keine phasischen Kontraktionen auftreten",
+              "rationale": "Eine niedrige Compliance zeigt sich gerade als kontinuierlicher Druckanstieg ohne phasische Kontraktionen; sie gefährdet den oberen Harntrakt ebenso wie eine Detrusorüberaktivität."
+            },
+            "D": {
+              "text": "Unbedenklich, da die Leckage bei 45 cmH2O den Druck begrenzt",
+              "rationale": "In klassischen Kohorten mit Myelomeningozele ging ein Leckagedruck über 40 cmH2O häufig mit Schäden des oberen Harntrakts einher; als alleiniges Diagnostikum gilt er heute nicht mehr. Entscheidend ist der hohe Speicherdruck, zu dem die beginnende Dilatation passt."
+            },
+            "E": {
+              "text": "Umstieg auf Selbstkatheterismus mit jeweils 500 ml je Katheterisierung",
+              "rationale": "500 ml liegen weit über dem Volumen, bei dem der Druck hier bereits 45 cmH2O erreicht. Das Kathetervolumen muss sich am druckarmen Füllvolumen orientieren, nicht an einer Standardmenge."
+            }
+          },
+          "explanation": {
+            "core": "Die Compliance beschreibt den Druckanstieg während der Füllung (ΔV/ΔPdet, in ml/cmH2O). Allgemein akzeptierte Normwerte gibt es nicht; entscheidend ist der absolute Speicherdruck, denn hohe Detrusordrücke in der Füllphase gefährden den oberen Harntrakt. Weil schnelle Füllung die Compliance künstlich senkt, verlangt die EAU bei neurogenen Patienten eine physiologische Füllrate mit körperwarmer Lösung und eine Wiederholungsmessung; die ICS definiert die physiologische Füllrate als Körpergewicht in kg geteilt durch vier (in ml/min).",
+            "teaching_point": "Erst die Füllrate prüfen, dann der Compliance glauben: Bei 80 kg sind 20 ml/min physiologisch, nicht 30 ml/min."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 47-year-old man has had a traumatic spinal cord injury below T11 for 14 years and has been managed with an indwelling urethral catheter since. He wants to switch to intermittent self-catheterisation; his hand function is good. Ultrasound shows mild bilateral pelvicalyceal dilatation, creatinine is normal. Video-urodynamics at a body weight of 80 kg with a filling rate of 30 ml/min: detrusor pressure rises continuously, without phasic contractions, from 5 to 45 cmH2O at 260 ml; leakage occurs at 45 cmH2O, no vesicoureteric reflux.",
+          "lead_in": "Which assessment and which next step are correct?",
+          "options": {
+            "A": {
+              "text": "Compliance 6.5 ml/cmH2O; repeat at a physiological filling rate",
+              "rationale": "Compliance = ΔV/ΔPdet = 260 ml / (45 − 5) cmH2O = 6.5 ml/cmH2O. The filling rate of 30 ml/min exceeds the physiological rate (body weight/4 = 20 ml/min); filling too fast can lower compliance artificially. The EAU requires a physiological filling rate and a same-session repeat measurement (strong recommendations) before deciding on catheter volumes or escalation."
+            },
+            "B": {
+              "text": "Compliance 0.15 ml/cmH2O; augmentation is indicated at once",
+              "rationale": "The formula is inverted: compliance is volume per pressure rise, not pressure per volume. Moreover, augmentation is only indicated after less invasive measures have failed."
+            },
+            "C": {
+              "text": "Normal compliance, because there are no phasic contractions",
+              "rationale": "Low compliance shows precisely as a continuous pressure rise without phasic contractions; it threatens the upper urinary tract just as detrusor overactivity does."
+            },
+            "D": {
+              "text": "Harmless, because leakage at 45 cmH2O limits the pressure",
+              "rationale": "In classic cohorts with myelomeningocele a leak point pressure above 40 cmH2O was often associated with upper tract damage; today it is no longer regarded as a stand-alone diagnostic tool. What matters is the high storage pressure, which fits the beginning dilatation."
+            },
+            "E": {
+              "text": "Switch to self-catheterisation with 500 ml at each catheterisation",
+              "rationale": "500 ml lies far above the volume at which pressure already reaches 45 cmH2O here. Catheter volume must follow the low-pressure filling volume, not a standard amount."
+            }
+          },
+          "explanation": {
+            "core": "Compliance describes the pressure rise during filling (ΔV/ΔPdet, in ml/cmH2O). There are no universally accepted normal values; what matters is the absolute storage pressure, because high detrusor pressures during filling endanger the upper urinary tract. Because rapid filling lowers compliance artificially, the EAU requires a physiological filling rate with body-warm saline and a repeat measurement in neurogenic patients; the ICS defines the physiological filling rate as body weight in kg divided by four (in ml/min).",
+            "teaching_point": "Check the filling rate first, then believe the compliance: at 80 kg, 20 ml/min is physiological, not 30 ml/min."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 47 años con lesión medular traumática por debajo de T11 desde hace 14 años, portador desde entonces de una sonda uretral permanente. Quiere pasar al autocateterismo intermitente; su función manual es buena. La ecografía muestra una leve dilatación pielocalicial bilateral; creatinina normal. Videourodinámica con 80 kg de peso y una velocidad de llenado de 30 ml/min: la presión del detrusor sube de forma continua, sin contracciones fásicas, de 5 a 45 cmH2O con 260 ml; a 45 cmH2O aparece escape, sin reflujo vesicoureteral.",
+          "lead_in": "¿Qué valoración y qué siguiente paso son correctos?",
+          "options": {
+            "A": {
+              "text": "Distensibilidad 6,5 ml/cmH2O; repetir con llenado fisiológico",
+              "rationale": "Distensibilidad = ΔV/ΔPdet = 260 ml / (45 − 5) cmH2O = 6,5 ml/cmH2O. La velocidad de 30 ml/min supera la fisiológica (peso/4 = 20 ml/min); un llenado demasiado rápido puede reducir artificialmente la distensibilidad. La EAU exige un llenado fisiológico y repetir la medición en la misma sesión (recomendaciones fuertes) antes de decidir volúmenes de cateterismo o una escalada."
+            },
+            "B": {
+              "text": "Distensibilidad 0,15 ml/cmH2O; la ampliación está indicada ya",
+              "rationale": "La fórmula está invertida: la distensibilidad es volumen por aumento de presión, no presión por volumen. Además, la ampliación solo está indicada tras fracasar medidas menos invasivas."
+            },
+            "C": {
+              "text": "Distensibilidad normal, porque no hay contracciones fásicas",
+              "rationale": "La baja distensibilidad se manifiesta precisamente como un ascenso continuo de presión sin contracciones fásicas; amenaza el tracto urinario superior igual que la hiperactividad del detrusor."
+            },
+            "D": {
+              "text": "Inocuo, porque el escape a 45 cmH2O limita la presión",
+              "rationale": "En cohortes clásicas con mielomeningocele, una presión de fuga superior a 40 cmH2O se asociaba a menudo con daño del tracto superior; hoy ya no se considera una herramienta diagnóstica aislada. Lo decisivo es la presión de almacenamiento elevada, con la que encaja la dilatación incipiente."
+            },
+            "E": {
+              "text": "Pasar al autocateterismo con 500 ml en cada uno de los cateterismos",
+              "rationale": "500 ml quedan muy por encima del volumen al que la presión ya alcanza 45 cmH2O. El volumen de cateterismo debe guiarse por el volumen de llenado a baja presión, no por una cantidad estándar."
+            }
+          },
+          "explanation": {
+            "core": "La distensibilidad (compliance) describe el aumento de presión durante el llenado (ΔV/ΔPdet, en ml/cmH2O). No hay valores normales aceptados universalmente; lo decisivo es la presión absoluta de almacenamiento, porque las presiones altas del detrusor durante el llenado ponen en riesgo el tracto urinario superior. Como el llenado rápido reduce artificialmente la distensibilidad, la EAU exige en pacientes neurógenos un llenado fisiológico con suero a temperatura corporal y una medición repetida; la ICS define el llenado fisiológico como el peso en kg dividido por cuatro (en ml/min).",
+            "teaching_point": "Primero comprobar la velocidad de llenado y después creer la distensibilidad: con 80 kg, lo fisiológico son 20 ml/min, no 30 ml/min."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-20",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-20",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-udy-00009",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "urodynamik",
+        "subdomain": "Kinderurologie",
+        "tags": [
+          "paediatrisch",
+          "diagnostik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "expertenkonsens",
+        "flag": true
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "The standardization of terminology of lower urinary tract function in children and adolescents: update report from the ICCS",
+          "citation": "Austin PF et al. Neurourol Urodyn 2016;35:471–481",
+          "year": 2016,
+          "url": "https://doi.org/10.1002/nau.22751",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "leitlinie",
+          "title": "The management of dysfunctional voiding in children: a report from the Standardisation Committee of the ICCS",
+          "citation": "Chase J et al. J Urol 2010;183:1296–1302",
+          "year": 2010,
+          "url": "https://doi.org/10.1016/j.juro.2009.12.059",
+          "accessed": "2026-10-20"
+        }
+      ],
+      "review": {
+        "created": "2026-10-20",
+        "editorial_review": {
+          "date": "2026-10-24",
+          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; keine fachärztliche Freigabe",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neuer Abschnitt Urodynamik; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "revision": {
+          "date": "2026-10-20",
+          "reason": "Neue Frage im Abschnitt Urodynamik (zehn Fallbeispiele, parallel als Fall in Residency-Game-DE).",
+          "requires_review": true
+        }
+      },
+      "companion_case": {
+        "repository": "Usubillaga/Residency-Game-DE",
+        "case_id": "udy-paediatric-dysfunctional-voiding"
+      },
+      "content": {
+        "de": {
+          "vignette": "7-jähriges Mädchen mit Tagesinkontinenz, Haltemanövern und drei fieberfreien Harnwegsinfekten in sechs Monaten. Stuhlgang alle drei bis vier Tage, harter Stuhl. Neurologische Untersuchung und Lendenwirbelsäule unauffällig. Zwei Uroflowmetrien mit Miktionsvolumina von 160 und 180 ml zeigen eine unregelmäßig schwankende, aber kontinuierliche Flusskurve; das Beckenboden-Oberflächen-EMG ist während der Miktion aktiv. Restharn 35 und 40 ml.",
+          "lead_in": "Was ist der nächste Schritt?",
+          "options": {
+            "A": {
+              "text": "Invasive Urodynamik zum Ausschluss einer neurogenen Störung",
+              "rationale": "Bei typischer Anamnese und unauffälliger Neurologie wird zunächst nicht invasiv untersucht und behandelt; eine vollständige Urodynamik ist refraktären Verläufen oder dem Verdacht auf eine neurogene Ursache vorbehalten."
+            },
+            "B": {
+              "text": "Urotherapie mit Obstipationsbehandlung, bei Persistenz Biofeedback",
+              "rationale": "Wiederholt staccatoförmige Kurven mit Beckenbodenaktivität während der Miktion, ein für das Alter erhöhter Restharn (einzeln über 20 ml) und die Obstipation sprechen für eine dysfunktionelle Miktion im Rahmen einer Blasen-Darm-Dysfunktion. Erste Stufe ist die Urotherapie mit Aufklärung, regelmäßigen Miktionen in entspannter Haltung und konsequenter Obstipationsbehandlung; Beckenbodenbiofeedback folgt als nächste Stufe."
+            },
+            "C": {
+              "text": "Alphablocker zur Senkung des Auslasswiderstands",
+              "rationale": "Alphablocker sind bei Kindern mit dysfunktioneller Miktion off-label und schlecht untersucht; sie sind keine Erstlinientherapie."
+            },
+            "D": {
+              "text": "Miktionszystourethrographie und anschließend endoskopische Refluxtherapie",
+              "rationale": "Bei fieberfreien Infekten ist eine Miktionszystourethrographie nicht primär angezeigt, und eine Refluxbehandlung ohne nachgewiesenen Reflux ist nicht begründet."
+            },
+            "E": {
+              "text": "Botulinumtoxin A in den externen Sphinkter",
+              "rationale": "Botulinumtoxin in den Sphinkter gilt bei Kindern als experimentell und kommt allenfalls bei therapierefraktären Verläufen infrage."
+            }
+          },
+          "explanation": {
+            "core": "Die dysfunktionelle Miktion ist definiert als gewohnheitsmäßige Kontraktion von Sphinkter oder Beckenboden während der Miktion. Die Diagnose stützt sich auf wiederholte Uroflowmetrien mit Staccato-Muster, idealerweise mit Beckenboden-EMG, und auf die Restharnmessung; eine einzelne auffällige Kurve genügt nicht. Gültig ist eine Kurve nur bei einem Miktionsvolumen von mindestens 50 % der altersentsprechenden Blasenkapazität (30 × [Alter + 1] ml, hier 240 ml). Blasen- und Darmfunktion werden gemeinsam behandelt.",
+            "teaching_point": "Staccato plus aktives EMG plus Obstipation: Urotherapie und Darm zuerst – invasive Urodynamik erst bei Therapieversagen."
+          },
+          "flag_note": "Die Empfehlungen beruhen überwiegend auf dem Konsens der International Children's Continence Society; zu Beckenbodentraining und Biofeedback bei Kindern gibt es kaum randomisierte Studien."
+        },
+        "en": {
+          "vignette": "A 7-year-old girl has daytime incontinence, holding manoeuvres and three afebrile urinary tract infections in six months. She opens her bowels every three to four days, with hard stools. Neurological examination and lumbar spine are normal. Two uroflowmetries with voided volumes of 160 and 180 ml show an irregular, fluctuating but continuous flow curve; pelvic floor surface EMG is active during voiding. Post-void residual 35 and 40 ml.",
+          "lead_in": "What is the next step?",
+          "options": {
+            "A": {
+              "text": "Invasive urodynamics to exclude a neurogenic disorder",
+              "rationale": "With a typical history and normal neurology, assessment and treatment start non-invasively; full urodynamics is reserved for refractory cases or suspected neurogenic causes."
+            },
+            "B": {
+              "text": "Urotherapy, treat constipation, biofeedback if it persists",
+              "rationale": "Repeated staccato curves with pelvic floor activity during voiding, a residual raised for her age (above 20 ml on a single measurement) and constipation point to dysfunctional voiding as part of bladder and bowel dysfunction. The first step is urotherapy with education, regular voiding in a relaxed posture and consistent treatment of constipation; pelvic floor biofeedback follows as the next step."
+            },
+            "C": {
+              "text": "Alpha-blocker to lower outlet resistance",
+              "rationale": "Alpha-blockers are off-label and poorly studied in children with dysfunctional voiding; they are not first-line treatment."
+            },
+            "D": {
+              "text": "Voiding cystourethrography followed by endoscopic reflux treatment",
+              "rationale": "With afebrile infections, voiding cystourethrography is not primarily indicated, and treating reflux without proven reflux is not justified."
+            },
+            "E": {
+              "text": "Botulinum toxin A into the external sphincter",
+              "rationale": "Sphincter botulinum toxin is considered experimental in children and is at most an option in refractory cases."
+            }
+          },
+          "explanation": {
+            "core": "Dysfunctional voiding is defined as habitual contraction of the sphincter or pelvic floor during voiding. Diagnosis rests on repeated uroflowmetry showing a staccato pattern, ideally with pelvic floor EMG, and on residual measurement; a single abnormal curve is not enough. A curve is valid only with a voided volume of at least 50% of expected bladder capacity for age (30 × [age + 1] ml, here 240 ml). Bladder and bowel function are treated together.",
+            "teaching_point": "Staccato plus active EMG plus constipation: urotherapy and bowel first – invasive urodynamics only when treatment fails."
+          },
+          "flag_note": "The recommendations rest mainly on consensus of the International Children's Continence Society; there are hardly any randomised trials of pelvic floor training and biofeedback in children."
+        },
+        "es": {
+          "vignette": "Niña de 7 años con incontinencia diurna, maniobras de retención y tres infecciones urinarias afebriles en seis meses. Deposiciones cada tres o cuatro días, heces duras. Exploración neurológica y columna lumbar normales. Dos flujometrías con volúmenes miccionales de 160 y 180 ml muestran una curva irregular y fluctuante, pero continua; el EMG de superficie del suelo pélvico está activo durante la micción. Residuo posmiccional de 35 y 40 ml.",
+          "lead_in": "¿Cuál es el siguiente paso?",
+          "options": {
+            "A": {
+              "text": "Urodinámica invasiva para descartar un trastorno neurógeno",
+              "rationale": "Con una historia típica y una neurología normal se empieza estudiando y tratando de forma no invasiva; la urodinámica completa se reserva para los casos refractarios o la sospecha de causa neurógena."
+            },
+            "B": {
+              "text": "Uroterapia, tratar el estreñimiento y, si persiste, biofeedback",
+              "rationale": "Curvas en staccato repetidas con actividad del suelo pélvico durante la micción, un residuo elevado para la edad (más de 20 ml en una medición aislada) y el estreñimiento orientan a una micción disfuncional dentro de una disfunción vesicointestinal. El primer escalón es la uroterapia con educación, micciones regulares en postura relajada y tratamiento constante del estreñimiento; el biofeedback del suelo pélvico es el siguiente escalón."
+            },
+            "C": {
+              "text": "Alfabloqueante para reducir la resistencia de salida",
+              "rationale": "Los alfabloqueantes son de uso fuera de indicación y están poco estudiados en niños con micción disfuncional; no son tratamiento de primera línea."
+            },
+            "D": {
+              "text": "Cistouretrografía miccional y tratamiento endoscópico del reflujo",
+              "rationale": "Con infecciones afebriles la cistouretrografía miccional no está indicada de entrada, y tratar un reflujo no demostrado no está justificado."
+            },
+            "E": {
+              "text": "Toxina botulínica A en el esfínter externo",
+              "rationale": "La toxina botulínica en el esfínter se considera experimental en niños y, como mucho, es una opción en casos refractarios."
+            }
+          },
+          "explanation": {
+            "core": "La micción disfuncional se define como la contracción habitual del esfínter o del suelo pélvico durante la micción. El diagnóstico se basa en flujometrías repetidas con patrón en staccato, idealmente con EMG del suelo pélvico, y en la medición del residuo; una sola curva anómala no basta. Una curva solo es válida con un volumen miccional de al menos el 50 % de la capacidad vesical esperada para la edad (30 × [edad + 1] ml, aquí 240 ml). La función vesical y la intestinal se tratan juntas.",
+            "teaching_point": "Staccato más EMG activo más estreñimiento: primero uroterapia e intestino; urodinámica invasiva solo si fracasa el tratamiento."
+          },
+          "flag_note": "Las recomendaciones se basan sobre todo en el consenso de la International Children's Continence Society; apenas hay ensayos aleatorizados de entrenamiento del suelo pélvico y biofeedback en niños."
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-20",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-20",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-udy-00010",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "urodynamik",
+        "subdomain": "Qualitätskontrolle und Artefakte",
+        "tags": [
+          "diagnostik",
+          "pruefungsrelevant-hoch"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        },
+        {
+          "key": "E",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "International Continence Society Good Urodynamic Practices and Terms 2016",
+          "citation": "Rosier PFWM et al. Neurourol Urodyn 2017;36:1243–1260",
+          "year": 2017,
+          "url": "https://www.ics.org/Workshops/HandoutFiles/001011.pdf",
+          "section": "ICS-Teaching-Modul auf Basis von ICS-GUP 2002 und 2016",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "leitlinie",
+          "title": "Good urodynamic practices: uroflowmetry, filling cystometry, and pressure-flow studies",
+          "citation": "Schäfer W et al. Neurourol Urodyn 2002;21:261–274",
+          "year": 2002,
+          "url": "https://www.ics.org/Workshops/HandoutFiles/000601.pdf",
+          "section": "ICS-Workshop Basic Urodynamics 2016",
+          "accessed": "2026-10-20"
+        }
+      ],
+      "review": {
+        "created": "2026-10-20",
+        "editorial_review": {
+          "date": "2026-10-24",
+          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; keine fachärztliche Freigabe",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neuer Abschnitt Urodynamik; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "revision": {
+          "date": "2026-10-20",
+          "reason": "Neue Frage im Abschnitt Urodynamik (zehn Fallbeispiele, parallel als Fall in Residency-Game-DE).",
+          "requires_review": true
+        }
+      },
+      "companion_case": {
+        "repository": "Usubillaga/Residency-Game-DE",
+        "case_id": "udy-artefacts-rectal-contraction-transmission"
+      },
+      "content": {
+        "de": {
+          "vignette": "Zystometrie im Sitzen bei einer 66-jährigen Frau mit Mischinkontinenz vor einer Therapieentscheidung, flüssigkeitsgefüllte Leitungen. Ausgangswerte: Pves 34 und Pabd 31 cmH2O; der Hustentest vor Beginn ist seitengleich. Bei 180 ml treten drei Wellen auf, in denen Pabd um etwa 12 cmH2O ansteigt, während Pves unverändert bleibt; Pdet zeigt dabei negative Ausschläge, die Patientin verspürt nichts. Bei 260 ml erreicht der Hustenausschlag in Pves 38 cmH2O, in Pabd 100 cmH2O.",
+          "lead_in": "Welche Bewertung und Maßnahme sind korrekt?",
+          "options": {
+            "A": {
+              "text": "Phasische Detrusorüberaktivität; Füllung fortsetzen und als Befund dokumentieren",
+              "rationale": "Bei einer Detrusorüberaktivität stiege Pves an, während Pabd stabil bliebe. Hier steigt nur Pabd, Pves bleibt unverändert, und Pdet fällt rechnerisch ab: Das ist das Muster von Rektumkontraktionen, nicht von Detrusoraktivität."
+            },
+            "B": {
+              "text": "Rektumkontraktionen; vesikale Leitung spülen, Hustentest wiederholen",
+              "rationale": "Phasische Pabd-Anstiege ohne Pves-Änderung mit negativen Pdet-Ausschlägen sind Rektumkontraktionen; sie erfordern keine Maßnahme, dürfen aber nicht als Detrusorüberaktivität gedeutet werden. Das Verhältnis der Hustenausschläge (38/100) liegt weit unter 70 %: Die vesikale Druckübertragung ist gedämpft, meist durch eine Luftblase. Leitung spülen, Anschlüsse prüfen, Husten wiederholen – sonst wird eine Detrusorüberaktivität übersehen oder vorgetäuscht."
+            },
+            "C": {
+              "text": "Rektumkontraktionen; Messung abbrechen und an einem anderen Tag wiederholen",
+              "rationale": "Rektumkontraktionen sind ein häufiges, harmloses Signal und kein Abbruchgrund. Die gedämpfte vesikale Übertragung lässt sich in derselben Sitzung beheben."
+            },
+            "D": {
+              "text": "Undichter Rektalkatheter; mit neuer Nullung beider Leitungen fortsetzen",
+              "rationale": "Die Ausgangswerte sind plausibel, und der Abdominaldruck reagiert kräftig auf Husten; gedämpft ist die vesikale Leitung. Ein erneuter Nullabgleich behebt keine Dämpfung durch Luft oder Knick; wird dabei gegen den Blasen- oder Rektumdruck statt gegen den Atmosphärendruck genullt, werden die Werte zusätzlich verfälscht."
+            },
+            "E": {
+              "text": "Abdominale Leitung spülen, da Pabd beim Husten zu hoch ausschlägt",
+              "rationale": "Der abdominale Ausschlag ist plausibel; das Problem ist der zu kleine vesikale Ausschlag. Gespült werden muss die Leitung mit dem schwächeren Signal."
+            }
+          },
+          "explanation": {
+            "core": "Qualitätskontrolle gehört in jede Urodynamik: plausible Ausgangswerte (im Sitzen Pves und Pabd typischerweise 15–40 cmH2O, Pdet nahe null) und Hustentests vor der Füllung, während der Füllung (etwa jede Minute oder alle 50 ml) sowie unmittelbar vor und nach der Miktion. Erreicht der kleinere von zwei Hustenausschlägen weniger als 70 % des größeren, wird die gedämpfte Leitung gespült und der Test wiederholt. Rektumkontraktionen zeigen sich als Pabd-Wellen ohne Pves-Änderung mit negativen Pdet-Ausschlägen.",
+            "teaching_point": "Pdet ist eine Subtraktion: Erst prüfen, ob beide Leitungen ehrlich messen – dann deuten."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "Seated cystometry in a 66-year-old woman with mixed incontinence before a treatment decision, fluid-filled lines. Baseline values: Pves 34 and Pabd 31 cmH2O; the cough test before the start shows equal responses. At 180 ml three waves occur in which Pabd rises by about 12 cmH2O while Pves stays unchanged; Pdet shows negative deflections and the patient feels nothing. At 260 ml the cough response reaches 38 cmH2O in Pves and 100 cmH2O in Pabd.",
+          "lead_in": "Which assessment and action are correct?",
+          "options": {
+            "A": {
+              "text": "Phasic detrusor overactivity; continue filling and report it as a finding",
+              "rationale": "In detrusor overactivity Pves would rise while Pabd stays stable. Here only Pabd rises, Pves is unchanged and Pdet falls by subtraction: this is the pattern of rectal contractions, not detrusor activity."
+            },
+            "B": {
+              "text": "Rectal contractions; flush the vesical line, repeat the cough test",
+              "rationale": "Phasic Pabd rises without Pves change and with negative Pdet deflections are rectal contractions; they need no action but must not be read as detrusor overactivity. The ratio of the cough responses (38/100) is far below 70%: vesical pressure transmission is damped, usually by an air bubble. Flush the line, check the connections, repeat the cough – otherwise detrusor overactivity will be missed or mimicked."
+            },
+            "C": {
+              "text": "Rectal contractions; abandon the study and repeat it on another day",
+              "rationale": "Rectal contractions are a common, harmless signal and no reason to stop. The damped vesical transmission can be corrected in the same session."
+            },
+            "D": {
+              "text": "Leaking rectal catheter; continue after re-zeroing both lines",
+              "rationale": "The baseline values are plausible and abdominal pressure responds strongly to coughing; the vesical line is the damped one. Re-zeroing does not correct damping from air or a kink; if the lines are zeroed against bladder or rectal pressure instead of atmospheric pressure, the values are distorted as well."
+            },
+            "E": {
+              "text": "Flush the abdominal line, because Pabd responds too strongly to coughing",
+              "rationale": "The abdominal response is plausible; the problem is the vesical response being too small. The line with the weaker signal is the one to flush."
+            }
+          },
+          "explanation": {
+            "core": "Quality control belongs in every urodynamic study: plausible baseline values (seated, Pves and Pabd typically 15–40 cmH2O, Pdet close to zero) and cough tests before filling, during filling (about every minute or every 50 ml) and immediately before and after voiding. If the smaller of two cough responses is less than 70% of the larger, the damped line is flushed and the test repeated. Rectal contractions appear as Pabd waves without Pves change, with negative Pdet deflections.",
+            "teaching_point": "Pdet is a subtraction: first check that both lines measure honestly – then interpret."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Cistometría en sedestación en una mujer de 66 años con incontinencia mixta antes de decidir el tratamiento, con líneas llenas de líquido. Valores iniciales: Pves 34 y Pabd 31 cmH2O; la prueba de tos inicial es simétrica. A los 180 ml aparecen tres ondas en las que Pabd sube unos 12 cmH2O mientras Pves no cambia; Pdet muestra deflexiones negativas y la paciente no nota nada. A los 260 ml la respuesta a la tos alcanza 38 cmH2O en Pves y 100 cmH2O en Pabd.",
+          "lead_in": "¿Qué valoración y qué medida son correctas?",
+          "options": {
+            "A": {
+              "text": "Hiperactividad fásica del detrusor; seguir llenando y anotarla como hallazgo",
+              "rationale": "En la hiperactividad del detrusor subiría Pves mientras Pabd permanece estable. Aquí solo sube Pabd, Pves no cambia y Pdet cae por la resta: es el patrón de las contracciones rectales, no de actividad del detrusor."
+            },
+            "B": {
+              "text": "Contracciones rectales; purgar la línea vesical y repetir la tos",
+              "rationale": "Las subidas fásicas de Pabd sin cambio de Pves y con deflexiones negativas de Pdet son contracciones rectales; no requieren ninguna medida, pero no deben interpretarse como hiperactividad del detrusor. El cociente de las respuestas a la tos (38/100) queda muy por debajo del 70 %: la transmisión vesical está amortiguada, casi siempre por una burbuja de aire. Purgar la línea, revisar las conexiones y repetir la tos; si no, se pasará por alto o se simulará una hiperactividad del detrusor."
+            },
+            "C": {
+              "text": "Contracciones rectales; suspender el estudio y repetirlo otro día",
+              "rationale": "Las contracciones rectales son una señal frecuente e inocua y no un motivo para suspender. La transmisión vesical amortiguada puede corregirse en la misma sesión."
+            },
+            "D": {
+              "text": "Sonda rectal con fuga; seguir tras volver a poner a cero ambas líneas",
+              "rationale": "Los valores iniciales son plausibles y la presión abdominal responde con fuerza a la tos; la línea amortiguada es la vesical. Volver a poner a cero no corrige la amortiguación por aire o acodamiento; si se pone a cero frente a la presión vesical o rectal en lugar de la atmosférica, los valores se falsean además."
+            },
+            "E": {
+              "text": "Purgar la línea abdominal, porque Pabd responde demasiado a la tos",
+              "rationale": "La respuesta abdominal es plausible; el problema es que la respuesta vesical es demasiado pequeña. Hay que purgar la línea con la señal más débil."
+            }
+          },
+          "explanation": {
+            "core": "El control de calidad forma parte de toda urodinámica: valores iniciales plausibles (en sedestación, Pves y Pabd típicamente de 15–40 cmH2O, Pdet cercana a cero) y pruebas de tos antes del llenado, durante el llenado (aproximadamente cada minuto o cada 50 ml) e inmediatamente antes y después de la micción. Si la menor de dos respuestas a la tos es inferior al 70 % de la mayor, se purga la línea amortiguada y se repite la prueba. Las contracciones rectales aparecen como ondas de Pabd sin cambio de Pves, con deflexiones negativas de Pdet.",
+            "teaching_point": "Pdet es una resta: primero comprobar que ambas líneas miden con fiabilidad y después interpretar."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-20",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-20",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "clinical_signoff": false
+        }
+      }
+    }
+  ]
+}

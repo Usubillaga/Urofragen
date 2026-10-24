@@ -63,8 +63,8 @@ class CmeIntegration(unittest.TestCase):
         self.assertIn('Alemán, inglés y español', text)
         bank = json.loads(re.search(r'<script id="bank" type="application/json">(.*?)</script>',
                                    (ROOT / 'pruefung.html').read_text(encoding='utf-8'), re.S).group(1))
-        self.assertEqual(len(bank['questions']), 272)
-        self.assertEqual(sum(q['status'] == 'published' for q in bank['questions']), 262)
+        self.assertEqual(len(bank['questions']), 282)
+        self.assertEqual(sum(q['status'] == 'published' for q in bank['questions']), 272)
 
 
 if __name__ == '__main__':

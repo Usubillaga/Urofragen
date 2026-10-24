@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-20",
+  "section": "urodynamik",
+  "clinical_signoff": false,
+  "companion_repository": "Usubillaga/Residency-Game-DE",
+  "questions": [
+    {
+      "id": "uro-udy-00001",
+      "subdomain": "Druck-Fluss-Messung",
+      "keyed_option": "A",
+      "evidence_certainty": "etabliert",
+      "companion_case": "udy-bpo-pressure-flow-indices",
+      "sources": [
+        "https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/diagnostic-evaluation",
+        "https://doi.org/10.1046/j.1464-410x.1999.00121.x",
+        "https://www.sciencedirect.com/science/article/abs/pii/S0302283820304310"
+      ]
+    },
+    {
+      "id": "uro-udy-00002",
+      "subdomain": "Detrusorunteraktivität",
+      "keyed_option": "C",
+      "evidence_certainty": "eingeschraenkt",
+      "companion_case": "udy-dhic-elderly-man-no-turp",
+      "sources": [
+        "https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/diagnostic-evaluation",
+        "https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/disease-management",
+        "https://doi.org/10.1016/j.juro.2017.07.079",
+        "https://doi.org/10.1016/j.juro.2013.05.062",
+        "Resnick NM, Yalla SV. JAMA 1987;257:3076–3081"
+      ]
+    },
+    {
+      "id": "uro-udy-00003",
+      "subdomain": "Videourodynamik",
+      "keyed_option": "A",
+      "evidence_certainty": "eingeschraenkt",
+      "companion_case": "udy-pbno-young-man-vuds",
+      "sources": [
+        "https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/diagnostic-evaluation",
+        "https://uroluts.uroweb.org/publication/management-of-primary-bladder-beck-obstruction-and-dysfunctional-voiding-in-young-men-a-systematic-review-and-meta-analysis/",
+        "https://doi.org/10.5152/tud.2024.23155",
+        "https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/disease-management",
+        "https://doi.org/10.1186/1471-2490-12-29",
+        "https://uroweb.org/guidelines/neuro-urology/chapter/the-guideline"
+      ]
+    },
+    {
+      "id": "uro-udy-00004",
+      "subdomain": "Neurourologie",
+      "keyed_option": "B",
+      "evidence_certainty": "eingeschraenkt",
+      "companion_case": "udy-msa-before-turp",
+      "sources": [
+        "https://uroweb.org/guidelines/neuro-urology/chapter/the-guideline",
+        "https://jnnp.bmj.com/content/71/5/600",
+        "https://doi.org/10.1046/j.1464-410X.1997.00249.x",
+        "https://doi.org/10.1002/mds.29005"
+      ]
+    },
+    {
+      "id": "uro-udy-00005",
+      "subdomain": "Weibliche Blasenauslassobstruktion",
+      "keyed_option": "B",
+      "evidence_certainty": "etabliert",
+      "companion_case": "udy-female-boo-after-sling",
+      "sources": [
+        "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Female-LUTS-2026_2026-03-12-155317_rckt.pdf",
+        "https://uroweb.org/guidelines/non-neurogenic-female-luts/chapter/diagnosis",
+        "Solomon E et al. Neurourol Urodyn 2018;37:368–378"
+      ]
+    },
+    {
+      "id": "uro-udy-00006",
+      "subdomain": "Harnverhalt der Frau",
+      "keyed_option": "B",
+      "evidence_certainty": "eingeschraenkt",
+      "companion_case": "udy-fowler-retention-young-woman",
+      "sources": [
+        "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Female-LUTS-2026_2026-03-12-155317_rckt.pdf",
+        "Fowler CJ, Kirby RS. Br J Urol 1985;57:67–70",
+        "https://pubmed.ncbi.nlm.nih.gov/11025383/"
+      ]
+    },
+    {
+      "id": "uro-udy-00007",
+      "subdomain": "Okkulte Belastungsinkontinenz",
+      "keyed_option": "C",
+      "evidence_certainty": "etabliert",
+      "companion_case": "udy-occult-sui-prolapse-reduction",
+      "sources": [
+        "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Female-LUTS-2026_2026-03-12-155317_rckt.pdf",
+        "https://doi.org/10.1056/NEJMoa1111967",
+        "https://uroweb.org/guidelines/non-neurogenic-female-luts/chapter/diagnosis"
+      ]
+    },
+    {
+      "id": "uro-udy-00008",
+      "subdomain": "Compliance",
+      "keyed_option": "A",
+      "evidence_certainty": "etabliert",
+      "companion_case": "udy-low-compliance-sci-filling-rate",
+      "sources": [
+        "https://uroweb.org/guidelines/neuro-urology/chapter/the-guideline",
+        "Abrams P et al. Neurourol Urodyn 2002;21:167–178",
+        "McGuire EJ et al. J Urol 1981;126:205–209"
+      ]
+    },
+    {
+      "id": "uro-udy-00009",
+      "subdomain": "Kinderurologie",
+      "keyed_option": "B",
+      "evidence_certainty": "expertenkonsens",
+      "companion_case": "udy-paediatric-dysfunctional-voiding",
+      "sources": [
+        "https://doi.org/10.1002/nau.22751",
+        "https://doi.org/10.1016/j.juro.2009.12.059"
+      ]
+    },
+    {
+      "id": "uro-udy-00010",
+      "subdomain": "Qualitätskontrolle und Artefakte",
+      "keyed_option": "B",
+      "evidence_certainty": "etabliert",
+      "companion_case": "udy-artefacts-rectal-contraction-transmission",
+      "sources": [
+        "https://www.ics.org/Workshops/HandoutFiles/001011.pdf",
+        "https://www.ics.org/Workshops/HandoutFiles/000601.pdf"
+      ]
+    }
+  ]
+}
