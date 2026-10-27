@@ -28,6 +28,10 @@ Alle 19 Fragen des Abschnitts **Urodynamik** zeigen unter der Vignette eine inte
 
 Details: [Änderungsübersicht](URODYNAMIK-MESSKURVEN-2026-10-27.md).
 
+## Lernmodus ohne Freigabehinweise (27.10.2026)
+
+Lernmodus, Ergebnisblatt und CME-Module zeigen keine Hinweise auf ausstehende fachärztliche Freigaben mehr: Unter den Fragen entfällt „Fachärztliche Freigabe ausstehend“, auf der Startseite der Zähler der freigegebenen Fragen und in den vier CME-Modulen der Satz zur nicht dokumentierten Freigabe; die Herkunftsangabe der Module bleibt. Erteilte Freigaben werden weiterhin mit Prüfer, Datum und Sprache genannt. Prüfstand und Markieren („✓ Fachlich korrekt“, „✗ Korrektur nötig“) bleiben im Prüfmodus.
+
 ## Neuer Abschnitt Urodynamik (20.10.2026)
 
 Zehn dreisprachige Fallfragen bilden den 17. Abschnitt **Urodynamik** (`data/fragen/urodynamik.json`, `uro-udy-00001` bis `uro-udy-00010`): Druck-Fluss-Messung mit BOOI und BCI, DHIC, primäre Blasenhalsobstruktion, Multisystematrophie vor TURP, weibliche Obstruktion nach Band, Fowler-Syndrom, okkulte Belastungsinkontinenz (OPUS), niedrige Compliance und Füllrate, kindliche dysfunktionelle Miktion sowie Artefakte und Qualitätskontrolle. Dieselben Fälle stehen als Mehrschrittfälle im Fachgebiet *Urodynamik* von Residency-Game-DE; `companion_case` verknüpft jede Frage mit ihrem Fall.

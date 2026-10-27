@@ -40,6 +40,8 @@ const noSidewaysScroll = page => page.evaluate(() => document.documentElement.sc
     assert.equal(Object.keys(tracings).length, 19);
     assert.ok(questions.every(q => tracings[q.tracing.case]), 'every question has its tracing');
     assert.ok(Object.values(tracings).every(tr => !('readings' in tr)), 'the page carries no pinned readings');
+    // The learning page names granted approvals only: no counter and no "pending" line.
+    assert.equal(await page.getByText(/Fachärztlich freigegeben|Freigabe ausstehend/).count(), 0);
     const start = async () => page.locator('button.domain', { has: page.locator('.domain-name', { hasText: /^(Urodynamik|Urodynamics|Urodinámica)$/ }) }).click();
     await start();
 
@@ -68,6 +70,7 @@ const noSidewaysScroll = page => page.evaluate(() => document.documentElement.sc
       assert.equal(await after.getAttribute('data-view'), q.tracing.view_after || q.tracing.view);
       if (q.tracing.view_after) assert.ok(Number(await after.locator('svg').getAttribute('data-t1')) > end, q.id + ': the hidden part appears after the answer');
       assert.equal(await page.locator('.option.is-correct').count(), 1);
+      assert.doesNotMatch(await page.locator('.explain').innerText(), /Freigabe ausstehend/);
       // Section buttons redraw the plot in place and keep the findings.
       const views = after.locator('.udy-view');
       if (await views.count() > 1) {
@@ -87,6 +90,7 @@ const noSidewaysScroll = page => page.evaluate(() => document.documentElement.sc
     assert.equal((sheet.match(/<figure class="trace">/g) || []).length, 19);
     assert.equal((sheet.match(/class="q has-trace"/g) || []).length, 19);
     assert.ok(!/udy-views|udy-readout/.test(sheet), 'the sheet has no buttons or readout');
+    assert.ok(!/Freigabe ausstehend/.test(sheet), 'the sheet names no pending approval');
     for (const q of questions) for (const a of findingsAfter(tracings[q.tracing.case], q)) {
       const label = a.label.de.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
       assert.ok(sheet.includes('<li>' + label + '</li>'), q.id + ': the sheet lists ' + a.label.de);

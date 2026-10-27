@@ -789,7 +789,6 @@ body {
     de: {
       title: 'Facharztfragen Urologie',
       section: 'Abschnitt', version: 'Version', reviewed: 'Fachärztliche Freigabe',
-      unreviewed: 'Fachärztliche Freigabe ausstehend',
       certainty: { etabliert: 'etabliert', kontrovers: 'kontrovers', ohne_phase_III: 'ohne Phase-III-Bestätigung', expertenkonsens: 'Expertenkonsens', eingeschraenkt: 'eingeschränkte Evidenz' },
       intro: 'Fallbasierte Fragen auf Facharztniveau. Jede Antwortoption ist begründet, jede Frage nennt ihre Quelle und ihr Überprüfungsdatum. Der Lernfortschritt bleibt in diesem Browser.',
       inventory: function (n, d) { return n + ' Fragen in ' + d + ' Gebieten'; },
@@ -827,7 +826,6 @@ body {
     en: {
       title: 'Urology Board Questions',
       section: 'Section', version: 'Version', reviewed: 'Clinical approval',
-      unreviewed: 'Clinical approval pending',
       certainty: { etabliert: 'established', kontrovers: 'controversial', ohne_phase_III: 'without phase III confirmation', expertenkonsens: 'expert consensus', eingeschraenkt: 'limited evidence' },
       intro: 'Case-based questions at board level. Every answer option is explained, every question states its source and review date. Your progress stays in this browser.',
       inventory: function (n, d) { return n + ' questions across ' + d + ' areas'; },
@@ -865,7 +863,6 @@ body {
     es: {
       title: 'Preguntas de especialidad en Urología',
       section: 'Sección', version: 'Versión', reviewed: 'Aprobación clínica',
-      unreviewed: 'Aprobación clínica pendiente',
       certainty: { etabliert: 'establecida', kontrovers: 'controvertida', ohne_phase_III: 'sin confirmación en fase III', expertenkonsens: 'consenso de expertos', eingeschraenkt: 'evidencia limitada' },
       intro: 'Preguntas basadas en casos, de nivel de especialista. Cada opción lleva su justificación y cada pregunta indica su fuente y su fecha de revisión. El progreso queda en este navegador.',
       inventory: function (n, d) { return n + ' preguntas en ' + d + ' áreas'; },
@@ -1099,8 +1096,6 @@ body {
     store.getDomainProgress().then(function (progress) {
       root.innerHTML = '';
       root.appendChild(el('p', 'intro', t.intro));
-      var signed = bank.questions.filter(function(q){return approvalLine(q) !== t.unreviewed;}).length;
-      root.appendChild(el('p','notice', {de:'Fachärztlich freigegeben',en:'Clinically approved',es:'Aprobadas clínicamente'}[lang] + ': ' + signed + '/' + bank.questions.length + ' · ' + lang.toUpperCase()));
       var reviewLink = el('a', 'btn ghost', {de:'✓ Fragen fachlich prüfen',en:'✓ Review questions',es:'✓ Revisar preguntas'}[lang]);
       reviewLink.href = 'pruefung.html';
       var homeLinks = el('nav', 'home-links');
@@ -1411,7 +1406,8 @@ body {
         explain.appendChild(a); explain.appendChild(el('br'));
       }
     });
-    explain.appendChild(el('p', 'sourceline', approvalLine(q)));
+    var approval = approvalLine(q);
+    if (approval) explain.appendChild(el('p', 'sourceline', approval));
 
     var actions = el('div', 'actions');
 
@@ -1539,11 +1535,13 @@ body {
         '</tbody></table><p style="font-size:0.9em">'+esc(t.note || '')+'</p></div>';
     }).join('');
   }
+  /* Nur eine erteilte Freigabe wird genannt (Prüfer, Datum, Sprachen); eine ausstehende Freigabe zeigt der
+     Lernmodus nicht an. Den Prüfstand zeigt pruefung.html. */
   function approvalLine(q) {
     var r = q.review || {}, a = r.approval || {};
     return r.approval_valid === true && (a.languages || []).indexOf(lang) >= 0
       ? UI[lang].reviewed + ': ' + r.last_reviewed + ' · ' + r.reviewer + ' · ' + a.languages.join(', ').toUpperCase()
-      : UI[lang].unreviewed;
+      : '';
   }
   function esc(s) {
     return String(s == null ? '' : s)
@@ -1633,7 +1631,7 @@ body {
       q.sources.forEach(function (s) {
         if (s.url && /^https:\/\//.test(s.url)) p.push('<p class="note"><a href="' + esc(s.url) + '">' + esc(s.title || s.url) + '</a></p>');
       });
-      p.push('<p class="note">' + esc(approvalLine(q)) + '</p>');
+      if (approvalLine(q)) p.push('<p class="note">' + esc(approvalLine(q)) + '</p>');
       p.push('</div>');
     });
 
