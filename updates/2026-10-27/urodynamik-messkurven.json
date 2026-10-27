@@ -1,0 +1,412 @@
+{
+  "date": "2026-10-27",
+  "section": "urodynamik",
+  "companion_repository": "Usubillaga/Residency-Game-DE",
+  "source_commit": "0306b41e6048f9e6f12aebb3c2dbe131af53729e",
+  "files": {
+    "data/urodynamik-kurven.json": {
+      "from": "data/urodynamic-tracings.json",
+      "sha256": "bb30ace89aeb4244e07756c75e06388fda77e85851ca69c9bd17451d96d9b81b"
+    },
+    "assets/urodynamik-kurven.js": {
+      "from": "assets/urodynamics.js",
+      "sha256": "006f9d5d0af3345a240bb1753b188a41c759992b5e5882336ffe98d830b84c11"
+    }
+  },
+  "questions": [
+    {
+      "id": "uro-udy-00001",
+      "version": 2,
+      "change": "Messkurve ergänzt",
+      "companion_case": "udy-bpo-pressure-flow-indices",
+      "keyed_option": "A",
+      "tracing": {
+        "view": "void",
+        "after": [
+          "classify"
+        ],
+        "sha256": "5250c275628a3e863f23b11f24e6a35e48f9a566debe0e51d21ea2323975b8e3"
+      },
+      "sources": [
+        "https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/diagnostic-evaluation",
+        "https://doi.org/10.1046/j.1464-410x.1999.00121.x",
+        "https://www.sciencedirect.com/science/article/abs/pii/S0302283820304310"
+      ]
+    },
+    {
+      "id": "uro-udy-00002",
+      "version": 2,
+      "change": "Messkurve ergänzt",
+      "companion_case": "udy-dhic-elderly-man-no-turp",
+      "keyed_option": "C",
+      "tracing": {
+        "view": "all",
+        "after": [
+          "pattern"
+        ],
+        "sha256": "b68eb1cc56a600286a03ab9f90a2f15686b5f2ff44671caf4b4502d282b000b0"
+      },
+      "sources": [
+        "https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/diagnostic-evaluation",
+        "https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/disease-management",
+        "https://doi.org/10.1016/j.juro.2017.07.079",
+        "https://doi.org/10.1016/j.juro.2013.05.062",
+        "Resnick NM, Yalla SV. JAMA 1987;257:3076–3081"
+      ]
+    },
+    {
+      "id": "uro-udy-00003",
+      "version": 2,
+      "change": "Messkurve ergänzt",
+      "companion_case": "udy-pbno-young-man-vuds",
+      "keyed_option": "A",
+      "tracing": {
+        "view": "void",
+        "after": [
+          "localise"
+        ],
+        "sha256": "1825126803c6cfb2e3283a7d5420d9ec5d32ca6928e667f1a1f7c137149bcd6c"
+      },
+      "sources": [
+        "https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/diagnostic-evaluation",
+        "https://uroluts.uroweb.org/publication/management-of-primary-bladder-beck-obstruction-and-dysfunctional-voiding-in-young-men-a-systematic-review-and-meta-analysis/",
+        "https://doi.org/10.5152/tud.2024.23155",
+        "https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/disease-management",
+        "https://doi.org/10.1186/1471-2490-12-29",
+        "https://uroweb.org/guidelines/neuro-urology/chapter/the-guideline"
+      ]
+    },
+    {
+      "id": "uro-udy-00004",
+      "version": 2,
+      "change": "Messkurve ergänzt",
+      "companion_case": "udy-msa-before-turp",
+      "keyed_option": "B",
+      "tracing": {
+        "view": "all",
+        "after": [
+          "vuds"
+        ],
+        "sha256": "0dded9419189de8fada2adf52f514b0d1b3419dbf7464a7ac28bd65e498a56a3"
+      },
+      "sources": [
+        "https://uroweb.org/guidelines/neuro-urology/chapter/the-guideline",
+        "https://jnnp.bmj.com/content/71/5/600",
+        "https://doi.org/10.1046/j.1464-410X.1997.00249.x",
+        "https://doi.org/10.1002/mds.29005"
+      ]
+    },
+    {
+      "id": "uro-udy-00005",
+      "version": 2,
+      "change": "Messkurve ergänzt",
+      "companion_case": "udy-female-boo-after-sling",
+      "keyed_option": "B",
+      "tracing": {
+        "view": "void",
+        "after": [
+          "calc"
+        ],
+        "sha256": "1f303043fd7903b19eaf96b58b54d76b6c891029ff97033ce1f92255668127b9"
+      },
+      "sources": [
+        "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Female-LUTS-2026_2026-03-12-155317_rckt.pdf",
+        "https://uroweb.org/guidelines/non-neurogenic-female-luts/chapter/diagnosis",
+        "Solomon E et al. Neurourol Urodyn 2018;37:368–378"
+      ]
+    },
+    {
+      "id": "uro-udy-00006",
+      "version": 2,
+      "change": "Messkurve ergänzt",
+      "companion_case": "udy-fowler-retention-young-woman",
+      "keyed_option": "B",
+      "tracing": {
+        "view": "all",
+        "after": [
+          "emg"
+        ],
+        "sha256": "a1c7e3f21b881fe680c2c6a7f743e77f6d30ead19db7ea449fe878aabebfb7ca"
+      },
+      "sources": [
+        "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Female-LUTS-2026_2026-03-12-155317_rckt.pdf",
+        "Fowler CJ, Kirby RS. Br J Urol 1985;57:67–70",
+        "https://pubmed.ncbi.nlm.nih.gov/11025383/"
+      ]
+    },
+    {
+      "id": "uro-udy-00007",
+      "version": 2,
+      "change": "Messkurve ergänzt",
+      "companion_case": "udy-occult-sui-prolapse-reduction",
+      "keyed_option": "C",
+      "tracing": {
+        "view": "test",
+        "after": [
+          "result"
+        ],
+        "sha256": "5d7a7a6d9870d5d15b8a4a06fbd08af8a78def7bbd91d84c87571ae416297851"
+      },
+      "sources": [
+        "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Female-LUTS-2026_2026-03-12-155317_rckt.pdf",
+        "https://doi.org/10.1056/NEJMoa1111967",
+        "https://uroweb.org/guidelines/non-neurogenic-female-luts/chapter/diagnosis"
+      ]
+    },
+    {
+      "id": "uro-udy-00008",
+      "version": 2,
+      "change": "Messkurve ergänzt",
+      "companion_case": "udy-low-compliance-sci-filling-rate",
+      "keyed_option": "A",
+      "tracing": {
+        "view": "fill1",
+        "after": [
+          "compliance",
+          "rate",
+          "plan"
+        ],
+        "view_after": "all",
+        "sha256": "5283883ec3a376501b4cdc50106d5488070a6740003c7475f6efe7e6da4c4c2d"
+      },
+      "sources": [
+        "https://uroweb.org/guidelines/neuro-urology/chapter/the-guideline",
+        "Abrams P et al. Neurourol Urodyn 2002;21:167–178",
+        "McGuire EJ et al. J Urol 1981;126:205–209"
+      ]
+    },
+    {
+      "id": "uro-udy-00009",
+      "version": 2,
+      "change": "Messkurve ergänzt",
+      "companion_case": "udy-paediatric-dysfunctional-voiding",
+      "keyed_option": "B",
+      "tracing": {
+        "view": "void1",
+        "after": [
+          "curve"
+        ],
+        "sha256": "1c98bfc937a054ba900e45720895762f1e537d598887b118b9fa08b1fee79e2c"
+      },
+      "sources": [
+        "https://doi.org/10.1002/nau.22751",
+        "https://doi.org/10.1016/j.juro.2009.12.059"
+      ]
+    },
+    {
+      "id": "uro-udy-00010",
+      "version": 2,
+      "change": "Messkurve ergänzt",
+      "companion_case": "udy-artefacts-rectal-contraction-transmission",
+      "keyed_option": "B",
+      "tracing": {
+        "view": "all",
+        "after": [
+          "baseline",
+          "waves",
+          "transmission"
+        ],
+        "sha256": "0b766808239f913a59edb00dd8f847ce1d1aa8c14a4301846619f2decaf41196"
+      },
+      "sources": [
+        "https://www.ics.org/Workshops/HandoutFiles/001011.pdf",
+        "https://www.ics.org/Workshops/HandoutFiles/000601.pdf"
+      ]
+    },
+    {
+      "id": "uro-udy-00011",
+      "version": 1,
+      "change": "neue Frage",
+      "companion_case": "udy-normal-study-man",
+      "step": "storage",
+      "keyed_option": "B",
+      "tracing": {
+        "view": "fill",
+        "after": [
+          "storage",
+          "voiding"
+        ],
+        "sha256": "def2999c736471e5ea5c204674de3740f862675354897bd02c2bf183b172ff3f"
+      },
+      "sources": [
+        "https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/diagnostic-evaluation",
+        "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Male-LUTS-2026.pdf",
+        "https://doi.org/10.1046/j.1464-410x.1999.00121.x",
+        "https://thepogp.co.uk/_userfiles/pages/files/haylen.pdf",
+        "https://www.ics.org/Workshops/HandoutFiles/000601.pdf"
+      ]
+    },
+    {
+      "id": "uro-udy-00012",
+      "version": 1,
+      "change": "neue Frage",
+      "companion_case": "udy-normal-study-woman-oab",
+      "step": "storage",
+      "keyed_option": "C",
+      "tracing": {
+        "view": "fill",
+        "after": [
+          "storage",
+          "voiding"
+        ],
+        "sha256": "6df078528e1ddbd946080b47367ae492a5a90f03617eca7fc662fe8d87cfbbac"
+      },
+      "sources": [
+        "https://uroweb.org/guidelines/non-neurogenic-female-luts/chapter/diagnosis",
+        "https://uroweb.org/guidelines/non-neurogenic-female-luts/chapter/disease-management",
+        "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Female-LUTS-2026_2026-03-12-155317_rckt.pdf",
+        "https://thepogp.co.uk/_userfiles/pages/files/haylen.pdf"
+      ]
+    },
+    {
+      "id": "uro-udy-00013",
+      "version": 1,
+      "change": "neue Frage",
+      "companion_case": "udy-detrusor-overactivity-incontinence",
+      "step": "filling",
+      "keyed_option": "D",
+      "tracing": {
+        "view": "fill",
+        "after": [
+          "filling",
+          "voiding"
+        ],
+        "sha256": "cc29bbf877943c3971b362954db8b764abb096ce7d4ca105e4ca39d4c562a099"
+      },
+      "sources": [
+        "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Female-LUTS-2026_2026-03-12-155317_rckt.pdf",
+        "https://uroweb.org/guidelines/non-neurogenic-female-luts/chapter/diagnosis",
+        "https://uroweb.org/guidelines/non-neurogenic-female-luts/chapter/disease-management",
+        "https://thepogp.co.uk/_userfiles/pages/files/haylen.pdf"
+      ]
+    },
+    {
+      "id": "uro-udy-00014",
+      "version": 1,
+      "change": "neue Frage",
+      "companion_case": "udy-urodynamic-stress-incontinence",
+      "step": "lpp",
+      "keyed_option": "A",
+      "tracing": {
+        "view": "leak",
+        "after": [
+          "leak",
+          "lpp",
+          "plan"
+        ],
+        "sha256": "cb896fbcfff5cdc1467520ef3620ba5a95836c9398e79eec150af06900211e75"
+      },
+      "sources": [
+        "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Female-LUTS-2026_2026-03-12-155317_rckt.pdf",
+        "https://uroweb.org/guidelines/non-neurogenic-female-luts/chapter/diagnosis",
+        "https://www.ics.org/folder/standardisation/current-ics-standardisations/d/international-continence-society-good-urodynamic-practices-and-terms-2016-urodynamics-uroflowmetry-cystometry-and-pressure-flow-study/download",
+        "https://thepogp.co.uk/_userfiles/pages/files/haylen.pdf"
+      ]
+    },
+    {
+      "id": "uro-udy-00015",
+      "version": 1,
+      "change": "neue Frage",
+      "companion_case": "udy-mixed-incontinence",
+      "step": "read",
+      "keyed_option": "C",
+      "tracing": {
+        "view": "fill",
+        "after": [
+          "read"
+        ],
+        "sha256": "0b5f2dda94e7bae2ad04ad8a0098ef3d3cedec5db2c6badca55b30abf39d4e39"
+      },
+      "sources": [
+        "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Female-LUTS-2026_2026-03-12-155317_rckt.pdf",
+        "https://thepogp.co.uk/_userfiles/pages/files/haylen.pdf",
+        "https://www.ics.org/folder/standardisation/current-ics-standardisations/d/international-continence-society-good-urodynamic-practices-and-terms-2016-urodynamics-uroflowmetry-cystometry-and-pressure-flow-study/download"
+      ]
+    },
+    {
+      "id": "uro-udy-00016",
+      "version": 1,
+      "change": "neue Frage",
+      "companion_case": "udy-neurogenic-overactivity-dsd",
+      "step": "read",
+      "keyed_option": "B",
+      "tracing": {
+        "view": "all",
+        "after": [
+          "read",
+          "dysreflexia"
+        ],
+        "view_after": "contraction",
+        "sha256": "bfcfdf685ea2185e190f55c8866d4d97f78fc6c16903eac76a6eeda2e1a953eb"
+      },
+      "sources": [
+        "https://uroweb.org/guidelines/neuro-urology/chapter/the-guideline",
+        "https://www.cmaj.ca/content/184/1/66",
+        "https://kite-uhn.com/can-scip/en/recommendations/autonomic-dysreflexia-and-cystoscopic"
+      ]
+    },
+    {
+      "id": "uro-udy-00017",
+      "version": 1,
+      "change": "neue Frage",
+      "companion_case": "udy-acontractile-detrusor-straining",
+      "step": "void",
+      "keyed_option": "D",
+      "tracing": {
+        "view": "void",
+        "after": [
+          "void",
+          "later"
+        ],
+        "sha256": "6c921e5a76a723e16696f5fbefa46d8062f138449031b18b232a4d9cff329e7d"
+      },
+      "sources": [
+        "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Female-LUTS-2026_2026-03-12-155317_rckt.pdf",
+        "https://uroweb.org/guidelines/neuro-urology/chapter/the-guideline",
+        "https://thepogp.co.uk/_userfiles/pages/files/haylen.pdf"
+      ]
+    },
+    {
+      "id": "uro-udy-00018",
+      "version": 1,
+      "change": "neue Frage",
+      "companion_case": "udy-plateau-flow-stricture",
+      "step": "curve",
+      "keyed_option": "A",
+      "tracing": {
+        "view": "all",
+        "after": [
+          "curve"
+        ],
+        "sha256": "f912f959ff357996fb5f1df996d33443a6377ab84c85bdbc9a199c380e436587"
+      },
+      "sources": [
+        "https://d56bochluxqnz.cloudfront.net/documents/full-guideline/EAU-Guidelines-on-Urethral-Strictures-2026.pdf",
+        "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Urethral-Strictures-2026.pdf"
+      ]
+    },
+    {
+      "id": "uro-udy-00019",
+      "version": 1,
+      "change": "neue Frage",
+      "companion_case": "udy-catheter-loss-repeat",
+      "step": "artefact",
+      "keyed_option": "C",
+      "tracing": {
+        "view": "void1",
+        "after": [
+          "artefact",
+          "next",
+          "repeat"
+        ],
+        "view_after": "all",
+        "sha256": "d1121470eab2a13029115c6ef7fab2883b40946592b659639af2d401e9d64f6d"
+      },
+      "sources": [
+        "https://www.ics.org/folder/standardisation/current-ics-standardisations/d/international-continence-society-good-urodynamic-practices-and-terms-2016-urodynamics-uroflowmetry-cystometry-and-pressure-flow-study/download",
+        "https://doi.org/10.1046/j.1464-410x.1999.00121.x",
+        "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Male-LUTS-2026.pdf"
+      ]
+    }
+  ]
+}

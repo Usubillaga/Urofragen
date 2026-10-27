@@ -13,6 +13,7 @@ uebersetzt werden nur die Texte unter "content".
 Keine Bibliotheken noetig, Python 3.8 oder neuer.
 """
 
+import hashlib
 import json
 import sys
 from datetime import date
@@ -27,12 +28,16 @@ ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data" if (ROOT / 'data' / 'domains.json').exists() else ROOT
 FRAGEN = DATA / "fragen" if DATA != ROOT else ROOT
 OUT = ROOT / "index.html"
+# Urodynamische Messkurven: Daten und Zeichenfunktion unverändert aus Residency-Game-DE
+KURVEN = DATA / "urodynamik-kurven.json"
+KURVEN_JS = ROOT / "assets" / "urodynamik-kurven.js"
 
 STATUS = {"draft", "review", "published", "retired", "expired"}
 CERTAINTY = {"etabliert", "kontrovers", "ohne_phase_III", "expertenkonsens", "eingeschraenkt"}
 
 errors = []
 warnings = []
+TRACINGS = {}
 
 
 def load(path):
@@ -43,6 +48,57 @@ def load(path):
     except json.JSONDecodeError as e:
         errors.append(f"{path.name}: kein gueltiges JSON — Zeile {e.lineno}, Spalte {e.colno}: {e.msg}")
     return None
+
+
+def tracing_sha(tr):
+    """Prüfsumme einer Messkurve; sie steht in der Frage und gehört zum Freigabe-Fingerabdruck."""
+    return hashlib.sha256(json.dumps(tr, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")).hexdigest()
+
+
+def tracing_limit(tr, steps):
+    """Wie limitOf() im Zeichenskript: Teile, die eine spätere Entscheidung beantworten, bleiben bis dahin verborgen."""
+    done = set(steps)
+    return min([c["from"] for c in tr.get("conceal", []) if c["until"] not in done] + [float("inf")])
+
+
+def tracing_span(tr, view_id):
+    for v in tr.get("views", []):
+        if v.get("id") == view_id:
+            return v.get("t") or [tr["t"][0], tr["t"][-1]]
+    return None
+
+
+def check_tracing(q, bad):
+    ref = q.get("tracing")
+    if ref is None:
+        return
+    if not isinstance(ref, dict):
+        bad("tracing muss ein Objekt sein")
+        return
+    unknown = sorted(set(ref) - {"case", "view", "after", "view_after", "sha256"})
+    if unknown:
+        bad(f"tracing: unbekannte Felder {', '.join(unknown)}")
+    tr = TRACINGS.get(ref.get("case"))
+    if tr is None:
+        bad(f"Messkurve \"{ref.get('case')}\" fehlt in data/urodynamik-kurven.json")
+        return
+    if ref.get("sha256") != tracing_sha(tr):
+        bad("Messkurve geändert (tracing.sha256 passt nicht): Frage prüfen, version erhöhen, sha256 neu eintragen")
+    steps = set(tr.get("steps", {}))
+    after = ref.get("after")
+    if not isinstance(after, list) or not after or any(s not in steps for s in after):
+        bad(f"tracing.after muss Schritte der Messkurve nennen ({', '.join(sorted(steps))})")
+        after = []
+    elif not any(a.get("step") in after for a in tr.get("annotations", [])):
+        bad("tracing.after zeigt nach der Antwort keinen Befund")
+    for key, reveal, when in (("view", [], "vor"), ("view_after", after, "nach")):
+        if key not in ref and key == "view_after":
+            continue
+        span = tracing_span(tr, ref.get(key))
+        if span is None:
+            bad(f"tracing.{key} \"{ref.get(key)}\" ist kein Ausschnitt der Messkurve")
+        elif span[0] >= tracing_limit(tr, reveal) - 5:
+            bad(f"tracing.{key} liegt in einem Teil der Messung, der {when} der Antwort verborgen ist")
 
 
 def check(q, slug, tags, languages, seen, length_cue, longest_correct, coverage):
@@ -95,6 +151,8 @@ def check(q, slug, tags, languages, seen, length_cue, longest_correct, coverage)
 
     if not q.get("sources"):
         bad("keine Quelle angegeben")
+
+    check_tracing(q, bad)
 
     content = q.get("content") or {}
     for lc in languages:
@@ -208,6 +266,10 @@ def main():
         if f.stem not in domains:
             errors.append(f"data/fragen/{f.name}: \"{f.stem}\" ist in domains.json nicht deklariert")
 
+    if KURVEN.exists():
+        doc = load(KURVEN)
+        TRACINGS.update((doc or {}).get("tracings") or {})
+
     questions = []
     for d in config["domains"]:
         slug = d["slug"]
@@ -248,16 +310,24 @@ def main():
         "domains": config["domains"],
         "questions": questions,
     }
+    # Nur Kurven, die eine Frage zeigt; die Ablesewerte ("readings") prüft das Spiel, die Seite braucht sie nicht.
+    shown = sorted({q["tracing"]["case"] for q in questions if isinstance(q.get("tracing"), dict)})
+    bank["tracings"] = {cid: {k: v for k, v in TRACINGS[cid].items() if k != "readings"} for cid in shown}
+    if shown and not KURVEN_JS.exists():
+        print("Fehler   assets/urodynamik-kurven.js fehlt", file=sys.stderr)
+        return 1
+    renderer = KURVEN_JS.read_text(encoding="utf-8") if shown else ""
 
     payload = json.dumps(bank, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     html = (HTML_TEMPLATE
             .replace("@@CSS@@", CSS)
             .replace("@@BANK@@", payload)
             .replace("@@STORE@@", STORE_JS)
+            .replace("@@UDY@@", renderer)
             .replace("@@APP@@", APP_JS))
     # Bytes statt Text: identische LF-Ausgabe unter Windows, macOS und Linux
     OUT.write_bytes(html.encode("utf-8"))
-    write_review_page(bank, ROOT)
+    write_review_page(bank, ROOT, renderer)
     build_cme_modules()
 
     live = sum(counts.values())
@@ -519,6 +589,35 @@ body {
 .footnote {
   margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
   font-family: var(--sans); font-size: 0.76rem; color: var(--muted);
+}
+
+/* Urodynamische Messkurven (assets/urodynamik-kurven.js): ein Messblatt über die ganze Kartenbreite. */
+.case-tracing { margin: 0 -1.75rem 1.4rem; }
+.udy { margin: 0; padding: 1rem 1.75rem 1.1rem; background: #faf8f2; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); font-family: var(--sans); color: var(--ink); }
+.udy figcaption b { display: block; font-size: 0.9rem; font-weight: 600; }
+.udy figcaption small { display: block; font-size: 0.74rem; color: var(--muted); margin-top: 0.15rem; }
+.udy-views { display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 0.7rem 0 0.1rem; }
+.udy-view { font-family: var(--sans); font-size: 0.76rem; font-weight: 600; padding: 0.25rem 0.65rem; border: 1px solid var(--rule); border-radius: 999px; background: var(--card); color: var(--muted); cursor: pointer; }
+.udy-view.on { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.udy-plot { margin: 0.6rem 0 0.4rem; background: #f3eee1; border-radius: 4px; outline: none; touch-action: pan-y; cursor: crosshair; }
+.udy-plot:focus-visible { box-shadow: 0 0 0 2px var(--accent); }
+.udy-svg { display: block; width: 100%; height: auto; font-family: var(--sans); user-select: none; -webkit-user-select: none; }
+.udy-plot svg text { pointer-events: none; }
+.udy-readout { margin: 0.3rem 0 0; padding: 0.45rem 0.7rem; background: var(--card); border: 1px solid var(--rule); border-radius: 3px; font-size: 0.8rem; line-height: 1.5; font-variant-numeric: tabular-nums; min-height: 2.6em; }
+.udy-readout em { font-style: normal; color: var(--flag); font-weight: 600; }
+.udy-hint { margin: 0.4rem 0 0; font-size: 0.74rem; color: var(--muted); line-height: 1.45; }
+.udy-findings { margin: 0.7rem 0 0; padding-left: 1.4em; font-size: 0.86rem; line-height: 1.45; }
+.udy-findings li { margin: 0.2rem 0; }
+.udy-findings li::marker { font-weight: 700; color: #b46d12; }
+.udy-findings li.tone-good::marker { color: #3f8e72; }
+.udy-legend { margin-top: 0.5rem; font-size: 0.78rem; color: var(--muted); }
+.udy-legend summary { cursor: pointer; font-weight: 600; }
+.udy-legend ul { margin: 0.35rem 0 0; padding-left: 1.1em; columns: 2; column-gap: 1.25rem; }
+
+@media (max-width: 34rem) {
+  .case-tracing { margin: 0 -1.25rem 1.25rem; }
+  .udy { padding: 0.85rem 1.25rem 1rem; }
+  .udy-legend ul { columns: 1; }
 }
 
 @media (max-width: 34rem) {
@@ -1122,6 +1221,40 @@ APP_JS = r'''(function () {
     });
   }
 
+  /* ---------- Messkurven (Urodynamik) ----------
+     Vor der Antwort zeigt die Kurve keine Befunde, und Teile einer Messung, die die Antwort verraten, bleiben
+     verborgen; nach der Antwort erscheinen die Befunde der Schritte in tracing.after. */
+  var U = window.NSAUrodynamics;
+  var tracings = bank.tracings || {};
+  var NARROW = '(max-width: 699px)';
+
+  function udyLayout() {
+    return window.matchMedia && window.matchMedia(NARROW).matches ? 'narrow' : 'medium';
+  }
+
+  function hasTracing(q) {
+    return !!(U && q.tracing && tracings[q.tracing.case]);
+  }
+
+  /* Zeichnet die Kurve in ihren Rahmen; data-layout merkt sich das Layout für relayout(). */
+  function drawTracing(box, q, answered, view) {
+    var ref = q.tracing, layout = udyLayout();
+    box.innerHTML = U.figure(tracings[ref.case], { id: ref.case, lang: lang, view: view || ref.view, reveal: answered ? ref.after : [], layout: layout });
+    box.setAttribute('data-layout', layout);
+  }
+
+  /* Ausdruck: die ganze Messung mit allen Befunden nach der Antwort, ohne Bedienelemente. */
+  function tracingSheet(q) {
+    var ref = q.tracing, tr = ref && tracings[ref.case];
+    if (!U || !tr) return '';
+    var view = U.viewOf(tr, 'all', U.limitOf(tr, ref.after));
+    var notes = (tr.annotations || []).filter(function (a) { return ref.after.indexOf(a.step) >= 0; });
+    return '<figure class="trace"><figcaption>' + esc(U.caption(tr, view, lang)) + ' · ' + esc(U.TEXT[lang].note) + '</figcaption>' +
+      U.plot(tr, { lang: lang, view: view.id, reveal: ref.after, layout: 'medium' }) +
+      (notes.length ? '<ol>' + notes.map(function (a) { return '<li>' + esc(a.label[lang]) + '</li>'; }).join('') + '</ol>' : '') +
+      '</figure>';
+  }
+
   function answeredCount() {
     return session.given.filter(function (g) { return g; }).length;
   }
@@ -1166,6 +1299,11 @@ APP_JS = r'''(function () {
 
     var card = el('div', 'card');
     card.appendChild(el('p', 'vignette', body.vignette));
+    if (hasTracing(q)) {
+      var tracingBox = el('div', 'case-tracing');
+      drawTracing(tracingBox, q, false);
+      card.appendChild(tracingBox);
+    }
     card.appendChild(el('p', 'lead-in', body.lead_in));
 
     var list = el('div', 'options');
@@ -1208,6 +1346,12 @@ APP_JS = r'''(function () {
 
   function reveal(q, body, buttons, card) {
     var given = session.given[session.index];
+
+    var tracingBox = card.querySelector('.case-tracing');
+    if (tracingBox) {
+      var shownFigure = tracingBox.querySelector('.udy');
+      drawTracing(tracingBox, q, true, q.tracing.view_after || (shownFigure && shownFigure.getAttribute('data-view')));
+    }
 
     Object.keys(buttons).forEach(function (key) {
       var e = buttons[key];
@@ -1401,6 +1545,11 @@ APP_JS = r'''(function () {
       '.note{color:#646d68;font-size:.85em}' +
       '.flag{color:#8a5e14}' +
       '.tp{font-style:italic;border-left:2px solid #2e4b7a;padding-left:.7rem;margin:.5rem 0}' +
+      '.q.has-trace{break-inside:auto;page-break-inside:auto}' +
+      '.trace{margin:.6rem 0 .9rem;break-inside:avoid;page-break-inside:avoid}' +
+      '.trace figcaption{color:#646d68;font-size:.78em;margin-bottom:.3rem}' +
+      '.trace svg{display:block;width:100%;height:auto;font-family:Arial,Helvetica,sans-serif}' +
+      '.trace ol{font-size:.85em;margin:.4rem 0 0 1.2rem;padding:0}' +
       'footer{margin-top:2rem;border-top:1px solid #d9ded8;padding-top:.8rem;font-size:.78em;color:#646d68}' +
       '@media print{body{margin:0;max-width:none}}' +
       '</style></head><body>');
@@ -1425,10 +1574,11 @@ APP_JS = r'''(function () {
       var body = c(q);
       var order = a.order;
       var rightLetter = '';
-      p.push('<div class="q">');
+      p.push('<div class="q' + (q.tracing && tracings[q.tracing.case] ? ' has-trace' : '') + '">');
       p.push('<div class="qhead">' + (i + 1) + ' · ' + esc(domainLabel(q.taxonomy.domain)) +
         ' · ' + esc(q.id) + ' · ' + (a.given.correct ? '✓' : '✕') + '</div>');
       p.push('<p>' + esc(body.vignette) + '</p>');
+      p.push(tracingSheet(q));
       p.push('<p class="lead">' + esc(body.lead_in) + '</p>');
       order.forEach(function (key, pos) {
         var o = optionByKey(q, key);
@@ -1530,6 +1680,28 @@ APP_JS = r'''(function () {
 
   /* ---------- Start ---------- */
 
+  if (U) {
+    U.bind(document, function (id) { return tracings[id]; }, function () { return lang; }, udyLayout);
+    /* Wechselt die Breite zwischen Telefon und Desktop, wird jede sichtbare Kurve neu gezeichnet; kurze
+       Zwischenzustände (etwa beim Drehen des Telefons) lösen dank der kleinen Verzögerung nichts aus. */
+    var narrow = window.matchMedia && window.matchMedia(NARROW), pending = null;
+    var relayout = function () {
+      clearTimeout(pending);
+      pending = setTimeout(function () {
+        var layout = udyLayout();
+        Array.prototype.forEach.call(document.querySelectorAll('.case-tracing'), function (box) {
+          var fig = box.querySelector('.udy'), tr = fig && tracings[fig.getAttribute('data-udy')];
+          if (!tr || box.getAttribute('data-layout') === layout) return;
+          var reveal = (fig.getAttribute('data-reveal') || '').split(' ').filter(Boolean);
+          box.innerHTML = U.figure(tr, { id: fig.getAttribute('data-udy'), lang: lang, view: fig.getAttribute('data-view'), reveal: reveal, layout: layout });
+          box.setAttribute('data-layout', layout);
+        });
+      }, 150);
+    };
+    if (narrow && narrow.addEventListener) narrow.addEventListener('change', relayout);
+    else if (narrow && narrow.addListener) narrow.addListener(relayout);
+  }
+
   pool = bank.questions.filter(isLive);
   bank.domains.forEach(function (d) { counts[d.slug] = questionsOf(d.slug).length; });
 
@@ -1565,6 +1737,9 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 <script>window.QUESTION_BANK=@@BANK@@;</script>
 <script>
 @@STORE@@
+</script>
+<script>
+@@UDY@@
 </script>
 <script>
 @@APP@@

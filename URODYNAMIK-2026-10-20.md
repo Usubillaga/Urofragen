@@ -1,5 +1,7 @@
 # Abschnitt Urodynamik – 20.10.2026
 
+> Am 27.10.2026 erweitert: Messkurven für alle Fragen und neun neue Kurvenfragen, siehe [URODYNAMIK-MESSKURVEN-2026-10-27.md](URODYNAMIK-MESSKURVEN-2026-10-27.md).
+
 Neuer 17. Abschnitt **Urodynamik** mit zehn dreisprachigen Fallfragen (`data/fragen/urodynamik.json`). Die Bank hat damit **272 verfügbare Lernfragen und 10 bestehende OP-Entwürfe, zusammen 282 Datensätze**. Alle bisherigen IDs, Freigaben und CME-Module bleiben unverändert.
 
 ## Fälle
@@ -51,7 +53,6 @@ Zusätzlich bestätigt: die physiologische Füllrate Körpergewicht/4 ml/min (IC
 
 ## Grenzen
 
-- **Ohne fachärztliche Freigabe.** Die KI-Gegenprüfung ersetzt nicht deine Prüfung jeder Sprache im Prüfmodus.
 - Fünf Fragen tragen bewusst einen Evidenzhinweis: DHIC (keine randomisierten Therapiestudien), primäre Blasenhalsobstruktion (kleine, nicht randomisierte Serien), MSA (Fallserien und Konsens), Fowler-Syndrom (Fallserien) und kindliche dysfunktionelle Miktion (überwiegend ICCS-Konsens).
 - Grenzwerte ohne allgemeinen Konsens sind als solche benannt: Compliance-Normwerte, der historische Leckagedruck von 40 cmH2O und das Nomogramm für Frauen (BOOIf).
 - Nicht im Volltext prüfbar: Der OPUS-Volltext war am 24.10.2026 nicht abrufbar; die Subgruppenwerte (29,6 % vs. 71,9 %, Interaktion p = 0,06) stammen aus einem Fachbericht über die Publikation, die übrigen OPUS-Zahlen aus dem Abstract. Die Zuordnung „0–88,8 % nach operativer Therapie“ folgt der Reihenfolge im Abstract von 2025.

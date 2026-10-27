@@ -1,8 +1,8 @@
 Four CME modules built in German, English and Spanish.
 
-index.html geschrieben — 2086 KB, Sprachen: de, en, es
-272 verfuegbare Lernfragen von 282 in 17 Dateien
-231 Fragen ohne unabhaengige fachaerztliche Freigabe; Verfuegbarkeit ist keine Freigabe.
+index.html geschrieben — 2563 KB, Sprachen: de, en, es
+281 verfuegbare Lernfragen von 291 in 17 Dateien
+240 Fragen ohne unabhaengige fachaerztliche Freigabe; Verfuegbarkeit ist keine Freigabe.
    142  Uro-Onkologie
     25      Prostatakarzinom
     10      NMIBC
@@ -13,7 +13,7 @@ index.html geschrieben — 2086 KB, Sprachen: de, en, es
     10      Peniskarzinom
     10      Urethrakarzinom
     13  Funktionelle Urologie & Neurourologie
-    10  Urodynamik
+    19  Urodynamik
     10  Kinderurologie
     10  Infektiologie
     10  Urolithiasis
@@ -23,8 +23,8 @@ index.html geschrieben — 2086 KB, Sprachen: de, en, es
     20  Rekonstruktion & Transplantation
 Hinweis  uro-ope-00017 / uro-rek-00004: ähnliche Fragestellung (0.87); klinischen Kontext vergleichen
 1 ähnliche Fragenpaare zur manuellen Prüfung
-richtige Antwort ist die laengste Option: 73/282 (26 %)
-232 Hinweise (siehe oben)
+richtige Antwort ist die laengste Option: 73/291 (25 %)
+241 Hinweise (siehe oben)
 
 Für Lern- und Prüfmodus beide Dateien hochladen: index.html und pruefung.html
 
@@ -144,6 +144,15 @@ Hinweis  uro-udy-00007: fachärztliche Freigabe ausstehend
 Hinweis  uro-udy-00008: fachärztliche Freigabe ausstehend
 Hinweis  uro-udy-00009: fachärztliche Freigabe ausstehend
 Hinweis  uro-udy-00010: fachärztliche Freigabe ausstehend
+Hinweis  uro-udy-00011: fachärztliche Freigabe ausstehend
+Hinweis  uro-udy-00012: fachärztliche Freigabe ausstehend
+Hinweis  uro-udy-00013: fachärztliche Freigabe ausstehend
+Hinweis  uro-udy-00014: fachärztliche Freigabe ausstehend
+Hinweis  uro-udy-00015: fachärztliche Freigabe ausstehend
+Hinweis  uro-udy-00016: fachärztliche Freigabe ausstehend
+Hinweis  uro-udy-00017: fachärztliche Freigabe ausstehend
+Hinweis  uro-udy-00018: fachärztliche Freigabe ausstehend
+Hinweis  uro-udy-00019: fachärztliche Freigabe ausstehend
 Hinweis  uro-kin-00001: fachärztliche Freigabe ausstehend
 Hinweis  uro-kin-00002: fachärztliche Freigabe ausstehend
 Hinweis  uro-kin-00003: fachärztliche Freigabe ausstehend

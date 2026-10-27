@@ -1,4 +1,4 @@
-# Urofragen – Erweiterung 20.10.2026
+# Urofragen – Erweiterung 27.10.2026
 
 ## Wöchentliche Studien und Repository-Prüfung
 
@@ -8,20 +8,31 @@ Die ZIP enthält die komplette Website und alle zum erneuten Aufbau benötigten 
 
 ## Inhalt
 
-- 272 verfügbare Lernfragen in 17 Abschnitten, jeweils Deutsch, Englisch und Spanisch; neu ist der Abschnitt Urodynamik mit 10 Fallfragen.
+- 281 verfügbare Lernfragen in 17 Abschnitten, jeweils Deutsch, Englisch und Spanisch; der Abschnitt Urodynamik hat 19 Fallfragen mit interaktiven Messkurven.
 - 43 neue Fragen: 9 Seminom IIA/B, 10 Hodentumor-Nachsorge, 14 Schwerpunktheft Teil 3, 10 Salvage-Operationen.
 - Hodentumor jetzt 53, Operative Urologie 30 verfügbare Fragen. NMIBC und MIBC weiterhin jeweils 10.
-- 10 zusätzliche dreisprachige OP-Entwürfe aus dem bestehenden Repository erhalten; im Prüfmodus verfügbar, im Lernmodus nicht ausgeliefert. Insgesamt 282 Datensätze.
+- 10 zusätzliche dreisprachige OP-Entwürfe aus dem bestehenden Repository erhalten; im Prüfmodus verfügbar, im Lernmodus nicht ausgeliefert. Insgesamt 291 Datensätze.
 - `uro-hod-00007` ersetzt und versioniert. Die alte Freigabe ist im Verlauf erhalten; die neue Fassung muss erneut geprüft werden. 51 übrige deutsche Freigaben unverändert erhalten.
 - Alle neuen Fragen ohne fachärztliche Freigabe. Es wurde keine pauschale Freigabe aus Autorennamen oder Dateiinhalten abgeleitet.
-- Vier eigenständige CME-Lerneinheiten auf Deutsch, Englisch und Spanisch mit insgesamt 50 Fragen: Seminom IIA/B (10), Hodentumor Teil 3 (14), Peniskarzinom (16), Salvage-Operationen (10). Vollständig übersetzt sind Fragen, Optionen, Begründungen, Lernziele, Merkkästen, Entscheidungshilfen, Navigation, Auswertung und Druckfassung. Bibliografische Originaltitel bleiben als Quellenangabe erhalten. Die 50 CME-Fragen sind separate Übungen; sie erhöhen die Zahl der 272 Fragen im Hauptquiz nicht.
+- Vier eigenständige CME-Lerneinheiten auf Deutsch, Englisch und Spanisch mit insgesamt 50 Fragen: Seminom IIA/B (10), Hodentumor Teil 3 (14), Peniskarzinom (16), Salvage-Operationen (10). Vollständig übersetzt sind Fragen, Optionen, Begründungen, Lernziele, Merkkästen, Entscheidungshilfen, Navigation, Auswertung und Druckfassung. Bibliografische Originaltitel bleiben als Quellenangabe erhalten. Die 50 CME-Fragen sind separate Übungen; sie erhöhen die Zahl der 281 Fragen im Hauptquiz nicht.
 - Einheitliche Navigation mit DE/EN/ES-Schalter, getrennte Auswertung des ersten Durchgangs und der Fehlerwiederholung sowie Fortsetzen im selben Browser. Der Sprachwechsel erhält Antworten und Erstquote; die Startseite öffnet das Modul in der gewählten Sprache. Änderungen sind in `CME-AENDERUNGEN-2026-10-04.md` beschrieben. Deutsche medizinische Originaltexte und Antwortschlüssel bleiben unverändert; Übersetzungen vergeben keine neue fachärztliche Freigabe.
+
+## Urodynamik mit Messkurven (27.10.2026)
+
+Alle 19 Fragen des Abschnitts **Urodynamik** zeigen unter der Vignette eine interaktive, synthetische Messkurve aus dem Urodynamik-Labor von Residency-Game-DE: Pves, Pabd, Pdet, Fluss, Volumen und Beckenboden-EMG mit Markern. Ein Cursor liest alle Kanäle zu einem Zeitpunkt ab, Ausschnitt-Schaltflächen zoomen auf Füllung, Miktion oder Hustentests. Vor der Antwort zeigt die Kurve keine Befunde, und Teile einer Messung, die die Antwort verraten würden, bleiben verborgen; nach der Antwort erscheinen die nummerierten Befunde. Das Ergebnisblatt enthält jede Kurve mit ihren Befunden.
+
+- Die zehn Fragen vom 20.10. zeigen jetzt ihre Kurve (Version 2, Texte unverändert; bei `uro-udy-00008` beschreibt die Erklärung zusätzlich die nach der Antwort gezeigte Wiederholung mit 15 ml/min).
+- Neun neue Kurvenfragen (`uro-udy-00011` bis `uro-udy-00019`): Normalbefund beim Mann, Frau mit OAB-Symptomen ohne Detrusorüberaktivität, Detrusorüberaktivitäts-Inkontinenz, Leak-Point-Druck bei Belastungsinkontinenz, Mischinkontinenz, neurogene Überaktivität mit Dyssynergie und autonomer Dysreflexie, akontraktiler Detrusor mit Bauchpresse, Plateau-Flow bei Striktur und herausgerutschter Blasenkatheter. Antwortoptionen und Begründungen stammen unverändert aus der Entscheidung des Spiels, in der die Kurve gelesen wird.
+- Im Prüfmodus steht die Kurve zwischen Vignette und Fragestellung, umschaltbar zwischen der Ansicht vor der Antwort und der mit Befunden. Eine fehlerhafte Frage mit „✗ Korrektur nötig“ und einem Kommentar markieren.
+- Kurven (`data/urodynamik-kurven.json`) und Zeichenskript (`assets/urodynamik-kurven.js`) sind unveränderte Kopien aus Residency-Game-DE; `python build.py` bettet beide in `index.html` und `pruefung.html` ein. Jede Frage nennt ihre Kurve mit Prüfsumme; ändert sich eine Kurve, bricht der Aufbau ab, bis Frage und Version angepasst sind.
+
+Details: [Änderungsübersicht](URODYNAMIK-MESSKURVEN-2026-10-27.md).
 
 ## Neuer Abschnitt Urodynamik (20.10.2026)
 
 Zehn dreisprachige Fallfragen bilden den 17. Abschnitt **Urodynamik** (`data/fragen/urodynamik.json`, `uro-udy-00001` bis `uro-udy-00010`): Druck-Fluss-Messung mit BOOI und BCI, DHIC, primäre Blasenhalsobstruktion, Multisystematrophie vor TURP, weibliche Obstruktion nach Band, Fowler-Syndrom, okkulte Belastungsinkontinenz (OPUS), niedrige Compliance und Füllrate, kindliche dysfunktionelle Miktion sowie Artefakte und Qualitätskontrolle. Dieselben Fälle stehen als Mehrschrittfälle im Fachgebiet *Urodynamik* von Residency-Game-DE; `companion_case` verknüpft jede Frage mit ihrem Fall.
 
-Quellenabgleich mit EAU 2026, ICS, ICCS und den Originalstudien; eine unabhängige KI-Gegenprüfung folgte, ihre Befunde wurden am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet. Alle zehn Fragen sind ohne fachärztliche Freigabe und erscheinen im Prüfmodus unter „Neu oder überarbeitet – prüfen“. Der Hinweistext von *Funktionelle Urologie & Neurourologie* nennt Urodynamik nicht mehr; die Fragen dort, die Urodynamik berühren, bleiben unverändert. Details, Quellen und Grenzen: [Änderungsübersicht](URODYNAMIK-2026-10-20.md).
+Quellenabgleich mit EAU 2026, ICS, ICCS und den Originalstudien; eine unabhängige KI-Gegenprüfung folgte, ihre Befunde wurden am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet. Alle zehn Fragen erscheinen im Prüfmodus unter „Neu oder überarbeitet – prüfen“. Der Hinweistext von *Funktionelle Urologie & Neurourologie* nennt Urodynamik nicht mehr; die Fragen dort, die Urodynamik berühren, bleiben unverändert. Details, Quellen und Grenzen: [Änderungsübersicht](URODYNAMIK-2026-10-20.md).
 
 ## Gezielte Erweiterung aus Residency-Game-DE (17.10.2026)
 
@@ -45,7 +56,7 @@ Die Ordner `data`, `tools`, `review`, `updates`, `translations` und `templates` 
 
 ## Weiterprüfen und Verlauf
 
-Im Prüfmodus den Filter **„Neu oder überarbeitet – prüfen“** wählen. Er enthält 74 neue/geänderte Fragen: 57 aus früheren Erweiterungen, sieben neue oder präzisierte Fassungen vom 17.10.2026 und die zehn Urodynamik-Fragen vom 20.10.2026. Die anderen 51 deutschen Freigaben bleiben gültig. Englisch und Spanisch sind separat freizugeben.
+Im Prüfmodus den Filter **„Neu oder überarbeitet – prüfen“** wählen. Er enthält 83 neue/geänderte Fragen: 57 aus früheren Erweiterungen, sieben neue oder präzisierte Fassungen vom 17.10.2026 und die 19 Urodynamik-Fragen (zehn vom 20.10.2026 mit ergänzter Messkurve, neun neue vom 27.10.2026). Die anderen 51 deutschen Freigaben bleiben gültig. Englisch und Spanisch sind separat freizugeben.
 
 Nach jeder Sitzung „Prüfungen als Datei sichern“ verwenden. Browserdaten sind nicht automatisch mit GitHub synchronisiert. Bei einem öffentlichen Repository sind die enthaltenen Prüfernamen und Kommentare öffentlich einsehbar.
 

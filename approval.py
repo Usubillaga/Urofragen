@@ -4,6 +4,7 @@ import hashlib,json
 from datetime import date
 def fingerprint(q,languages):
     body={k:q.get(k) for k in ('id','version','taxonomy','type','options','evidence','sources')}
+    if q.get('tracing') is not None:body['tracing']=q['tracing']  # gezeigte Messkurve samt Pruefsumme
     body['content']={lc:q['content'][lc] for lc in sorted(languages)}
     return hashlib.sha256(json.dumps(body,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode('utf-8')).hexdigest()
 def valid_approval(q,today=None):

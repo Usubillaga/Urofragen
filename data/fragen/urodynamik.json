@@ -3,7 +3,7 @@
   "fragen": [
     {
       "id": "uro-udy-00001",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "urodynamik",
@@ -72,23 +72,31 @@
       "review": {
         "created": "2026-10-20",
         "editorial_review": {
-          "date": "2026-10-24",
-          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; keine fachärztliche Freigabe",
+          "date": "2026-10-27",
+          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; Messkurve am 27.10.2026 ergänzt und mit den Zahlen der Vignette abgeglichen",
           "clinical_signoff": false
         },
         "reviewer": null,
         "last_reviewed": null,
         "clinical_review_status": "pending_independent_review",
-        "review_note": "Neuer Abschnitt Urodynamik; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "review_note": "Version 2: Messkurve ergänzt.",
         "revision": {
-          "date": "2026-10-20",
-          "reason": "Neue Frage im Abschnitt Urodynamik (zehn Fallbeispiele, parallel als Fall in Residency-Game-DE).",
+          "date": "2026-10-27",
+          "reason": "Messkurve aus dem Urodynamik-Labor von Residency-Game-DE ergänzt.",
           "requires_review": true
         }
       },
       "companion_case": {
         "repository": "Usubillaga/Residency-Game-DE",
         "case_id": "udy-bpo-pressure-flow-indices"
+      },
+      "tracing": {
+        "case": "udy-bpo-pressure-flow-indices",
+        "view": "void",
+        "after": [
+          "classify"
+        ],
+        "sha256": "5250c275628a3e863f23b11f24e6a35e48f9a566debe0e51d21ea2323975b8e3"
       },
       "content": {
         "de": {
@@ -188,19 +196,19 @@
       "translation": {
         "en": {
           "date": "2026-10-20",
-          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
           "clinical_signoff": false
         },
         "es": {
           "date": "2026-10-20",
-          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
           "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-udy-00002",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "urodynamik",
@@ -284,23 +292,31 @@
       "review": {
         "created": "2026-10-20",
         "editorial_review": {
-          "date": "2026-10-24",
-          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; keine fachärztliche Freigabe",
+          "date": "2026-10-27",
+          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; Messkurve am 27.10.2026 ergänzt und mit den Zahlen der Vignette abgeglichen",
           "clinical_signoff": false
         },
         "reviewer": null,
         "last_reviewed": null,
         "clinical_review_status": "pending_independent_review",
-        "review_note": "Neuer Abschnitt Urodynamik; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "review_note": "Version 2: Messkurve ergänzt.",
         "revision": {
-          "date": "2026-10-20",
-          "reason": "Neue Frage im Abschnitt Urodynamik (zehn Fallbeispiele, parallel als Fall in Residency-Game-DE).",
+          "date": "2026-10-27",
+          "reason": "Messkurve aus dem Urodynamik-Labor von Residency-Game-DE ergänzt.",
           "requires_review": true
         }
       },
       "companion_case": {
         "repository": "Usubillaga/Residency-Game-DE",
         "case_id": "udy-dhic-elderly-man-no-turp"
+      },
+      "tracing": {
+        "case": "udy-dhic-elderly-man-no-turp",
+        "view": "all",
+        "after": [
+          "pattern"
+        ],
+        "sha256": "b68eb1cc56a600286a03ab9f90a2f15686b5f2ff44671caf4b4502d282b000b0"
       },
       "content": {
         "de": {
@@ -400,19 +416,19 @@
       "translation": {
         "en": {
           "date": "2026-10-20",
-          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
           "clinical_signoff": false
         },
         "es": {
           "date": "2026-10-20",
-          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
           "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-udy-00003",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "urodynamik",
@@ -505,23 +521,31 @@
       "review": {
         "created": "2026-10-20",
         "editorial_review": {
-          "date": "2026-10-24",
-          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; keine fachärztliche Freigabe",
+          "date": "2026-10-27",
+          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; Messkurve am 27.10.2026 ergänzt und mit den Zahlen der Vignette abgeglichen",
           "clinical_signoff": false
         },
         "reviewer": null,
         "last_reviewed": null,
         "clinical_review_status": "pending_independent_review",
-        "review_note": "Neuer Abschnitt Urodynamik; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "review_note": "Version 2: Messkurve ergänzt.",
         "revision": {
-          "date": "2026-10-20",
-          "reason": "Neue Frage im Abschnitt Urodynamik (zehn Fallbeispiele, parallel als Fall in Residency-Game-DE).",
+          "date": "2026-10-27",
+          "reason": "Messkurve aus dem Urodynamik-Labor von Residency-Game-DE ergänzt.",
           "requires_review": true
         }
       },
       "companion_case": {
         "repository": "Usubillaga/Residency-Game-DE",
         "case_id": "udy-pbno-young-man-vuds"
+      },
+      "tracing": {
+        "case": "udy-pbno-young-man-vuds",
+        "view": "void",
+        "after": [
+          "localise"
+        ],
+        "sha256": "1825126803c6cfb2e3283a7d5420d9ec5d32ca6928e667f1a1f7c137149bcd6c"
       },
       "content": {
         "de": {
@@ -621,19 +645,19 @@
       "translation": {
         "en": {
           "date": "2026-10-20",
-          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
           "clinical_signoff": false
         },
         "es": {
           "date": "2026-10-20",
-          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
           "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-udy-00004",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "urodynamik",
@@ -710,23 +734,31 @@
       "review": {
         "created": "2026-10-20",
         "editorial_review": {
-          "date": "2026-10-24",
-          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; keine fachärztliche Freigabe",
+          "date": "2026-10-27",
+          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; Messkurve am 27.10.2026 ergänzt und mit den Zahlen der Vignette abgeglichen",
           "clinical_signoff": false
         },
         "reviewer": null,
         "last_reviewed": null,
         "clinical_review_status": "pending_independent_review",
-        "review_note": "Neuer Abschnitt Urodynamik; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "review_note": "Version 2: Messkurve ergänzt.",
         "revision": {
-          "date": "2026-10-20",
-          "reason": "Neue Frage im Abschnitt Urodynamik (zehn Fallbeispiele, parallel als Fall in Residency-Game-DE).",
+          "date": "2026-10-27",
+          "reason": "Messkurve aus dem Urodynamik-Labor von Residency-Game-DE ergänzt.",
           "requires_review": true
         }
       },
       "companion_case": {
         "repository": "Usubillaga/Residency-Game-DE",
         "case_id": "udy-msa-before-turp"
+      },
+      "tracing": {
+        "case": "udy-msa-before-turp",
+        "view": "all",
+        "after": [
+          "vuds"
+        ],
+        "sha256": "0dded9419189de8fada2adf52f514b0d1b3419dbf7464a7ac28bd65e498a56a3"
       },
       "content": {
         "de": {
@@ -826,19 +858,19 @@
       "translation": {
         "en": {
           "date": "2026-10-20",
-          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
           "clinical_signoff": false
         },
         "es": {
           "date": "2026-10-20",
-          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
           "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-udy-00005",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "urodynamik",
@@ -906,23 +938,31 @@
       "review": {
         "created": "2026-10-20",
         "editorial_review": {
-          "date": "2026-10-24",
-          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; keine fachärztliche Freigabe",
+          "date": "2026-10-27",
+          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; Messkurve am 27.10.2026 ergänzt und mit den Zahlen der Vignette abgeglichen",
           "clinical_signoff": false
         },
         "reviewer": null,
         "last_reviewed": null,
         "clinical_review_status": "pending_independent_review",
-        "review_note": "Neuer Abschnitt Urodynamik; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "review_note": "Version 2: Messkurve ergänzt.",
         "revision": {
-          "date": "2026-10-20",
-          "reason": "Neue Frage im Abschnitt Urodynamik (zehn Fallbeispiele, parallel als Fall in Residency-Game-DE).",
+          "date": "2026-10-27",
+          "reason": "Messkurve aus dem Urodynamik-Labor von Residency-Game-DE ergänzt.",
           "requires_review": true
         }
       },
       "companion_case": {
         "repository": "Usubillaga/Residency-Game-DE",
         "case_id": "udy-female-boo-after-sling"
+      },
+      "tracing": {
+        "case": "udy-female-boo-after-sling",
+        "view": "void",
+        "after": [
+          "calc"
+        ],
+        "sha256": "1f303043fd7903b19eaf96b58b54d76b6c891029ff97033ce1f92255668127b9"
       },
       "content": {
         "de": {
@@ -1022,19 +1062,19 @@
       "translation": {
         "en": {
           "date": "2026-10-20",
-          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
           "clinical_signoff": false
         },
         "es": {
           "date": "2026-10-20",
-          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
           "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-udy-00006",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "urodynamik",
@@ -1102,23 +1142,31 @@
       "review": {
         "created": "2026-10-20",
         "editorial_review": {
-          "date": "2026-10-24",
-          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; keine fachärztliche Freigabe",
+          "date": "2026-10-27",
+          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; Messkurve am 27.10.2026 ergänzt und mit den Zahlen der Vignette abgeglichen",
           "clinical_signoff": false
         },
         "reviewer": null,
         "last_reviewed": null,
         "clinical_review_status": "pending_independent_review",
-        "review_note": "Neuer Abschnitt Urodynamik; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "review_note": "Version 2: Messkurve ergänzt.",
         "revision": {
-          "date": "2026-10-20",
-          "reason": "Neue Frage im Abschnitt Urodynamik (zehn Fallbeispiele, parallel als Fall in Residency-Game-DE).",
+          "date": "2026-10-27",
+          "reason": "Messkurve aus dem Urodynamik-Labor von Residency-Game-DE ergänzt.",
           "requires_review": true
         }
       },
       "companion_case": {
         "repository": "Usubillaga/Residency-Game-DE",
         "case_id": "udy-fowler-retention-young-woman"
+      },
+      "tracing": {
+        "case": "udy-fowler-retention-young-woman",
+        "view": "all",
+        "after": [
+          "emg"
+        ],
+        "sha256": "a1c7e3f21b881fe680c2c6a7f743e77f6d30ead19db7ea449fe878aabebfb7ca"
       },
       "content": {
         "de": {
@@ -1218,19 +1266,19 @@
       "translation": {
         "en": {
           "date": "2026-10-20",
-          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
           "clinical_signoff": false
         },
         "es": {
           "date": "2026-10-20",
-          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
           "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-udy-00007",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "urodynamik",
@@ -1299,23 +1347,31 @@
       "review": {
         "created": "2026-10-20",
         "editorial_review": {
-          "date": "2026-10-24",
-          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; keine fachärztliche Freigabe",
+          "date": "2026-10-27",
+          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; Messkurve am 27.10.2026 ergänzt und mit den Zahlen der Vignette abgeglichen",
           "clinical_signoff": false
         },
         "reviewer": null,
         "last_reviewed": null,
         "clinical_review_status": "pending_independent_review",
-        "review_note": "Neuer Abschnitt Urodynamik; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "review_note": "Version 2: Messkurve ergänzt.",
         "revision": {
-          "date": "2026-10-20",
-          "reason": "Neue Frage im Abschnitt Urodynamik (zehn Fallbeispiele, parallel als Fall in Residency-Game-DE).",
+          "date": "2026-10-27",
+          "reason": "Messkurve aus dem Urodynamik-Labor von Residency-Game-DE ergänzt.",
           "requires_review": true
         }
       },
       "companion_case": {
         "repository": "Usubillaga/Residency-Game-DE",
         "case_id": "udy-occult-sui-prolapse-reduction"
+      },
+      "tracing": {
+        "case": "udy-occult-sui-prolapse-reduction",
+        "view": "test",
+        "after": [
+          "result"
+        ],
+        "sha256": "5d7a7a6d9870d5d15b8a4a06fbd08af8a78def7bbd91d84c87571ae416297851"
       },
       "content": {
         "de": {
@@ -1415,19 +1471,19 @@
       "translation": {
         "en": {
           "date": "2026-10-20",
-          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
           "clinical_signoff": false
         },
         "es": {
           "date": "2026-10-20",
-          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
           "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-udy-00008",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "urodynamik",
@@ -1494,23 +1550,34 @@
       "review": {
         "created": "2026-10-20",
         "editorial_review": {
-          "date": "2026-10-24",
-          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; keine fachärztliche Freigabe",
+          "date": "2026-10-27",
+          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; Messkurve am 27.10.2026 ergänzt und mit den Zahlen der Vignette abgeglichen",
           "clinical_signoff": false
         },
         "reviewer": null,
         "last_reviewed": null,
         "clinical_review_status": "pending_independent_review",
-        "review_note": "Neuer Abschnitt Urodynamik; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "review_note": "Version 2: Messkurve ergänzt.",
         "revision": {
-          "date": "2026-10-20",
-          "reason": "Neue Frage im Abschnitt Urodynamik (zehn Fallbeispiele, parallel als Fall in Residency-Game-DE).",
+          "date": "2026-10-27",
+          "reason": "Messkurve aus dem Urodynamik-Labor von Residency-Game-DE ergänzt; die Erklärung beschreibt jetzt auch die nach der Antwort gezeigte Wiederholungsmessung.",
           "requires_review": true
         }
       },
       "companion_case": {
         "repository": "Usubillaga/Residency-Game-DE",
         "case_id": "udy-low-compliance-sci-filling-rate"
+      },
+      "tracing": {
+        "case": "udy-low-compliance-sci-filling-rate",
+        "view": "fill1",
+        "after": [
+          "compliance",
+          "rate",
+          "plan"
+        ],
+        "view_after": "all",
+        "sha256": "5283883ec3a376501b4cdc50106d5488070a6740003c7475f6efe7e6da4c4c2d"
       },
       "content": {
         "de": {
@@ -1539,7 +1606,7 @@
             }
           },
           "explanation": {
-            "core": "Die Compliance beschreibt den Druckanstieg während der Füllung (ΔV/ΔPdet, in ml/cmH2O). Allgemein akzeptierte Normwerte gibt es nicht; entscheidend ist der absolute Speicherdruck, denn hohe Detrusordrücke in der Füllphase gefährden den oberen Harntrakt. Weil schnelle Füllung die Compliance künstlich senkt, verlangt die EAU bei neurogenen Patienten eine physiologische Füllrate mit körperwarmer Lösung und eine Wiederholungsmessung; die ICS definiert die physiologische Füllrate als Körpergewicht in kg geteilt durch vier (in ml/min).",
+            "core": "Die Compliance beschreibt den Druckanstieg während der Füllung (ΔV/ΔPdet, in ml/cmH2O). Allgemein akzeptierte Normwerte gibt es nicht; entscheidend ist der absolute Speicherdruck, denn hohe Detrusordrücke in der Füllphase gefährden den oberen Harntrakt. Weil schnelle Füllung die Compliance künstlich senkt, verlangt die EAU bei neurogenen Patienten eine physiologische Füllrate mit körperwarmer Lösung und eine Wiederholungsmessung; die ICS definiert die physiologische Füllrate als Körpergewicht in kg geteilt durch vier (in ml/min). Die abgebildete Wiederholung mit 15 ml/min bestätigt die verminderte Compliance: Pdet erreicht 40 cmH2O bei 300 ml; die Kathetervolumina müssen darunter bleiben.",
             "teaching_point": "Erst die Füllrate prüfen, dann der Compliance glauben: Bei 80 kg sind 20 ml/min physiologisch, nicht 30 ml/min."
           },
           "flag_note": null
@@ -1570,7 +1637,7 @@
             }
           },
           "explanation": {
-            "core": "Compliance describes the pressure rise during filling (ΔV/ΔPdet, in ml/cmH2O). There are no universally accepted normal values; what matters is the absolute storage pressure, because high detrusor pressures during filling endanger the upper urinary tract. Because rapid filling lowers compliance artificially, the EAU requires a physiological filling rate with body-warm saline and a repeat measurement in neurogenic patients; the ICS defines the physiological filling rate as body weight in kg divided by four (in ml/min).",
+            "core": "Compliance describes the pressure rise during filling (ΔV/ΔPdet, in ml/cmH2O). There are no universally accepted normal values; what matters is the absolute storage pressure, because high detrusor pressures during filling endanger the upper urinary tract. Because rapid filling lowers compliance artificially, the EAU requires a physiological filling rate with body-warm saline and a repeat measurement in neurogenic patients; the ICS defines the physiological filling rate as body weight in kg divided by four (in ml/min). The repeat filling at 15 ml/min shown in the tracing confirms the low compliance: Pdet reaches 40 cmH2O at 300 ml, so catheterisation volumes have to stay below this.",
             "teaching_point": "Check the filling rate first, then believe the compliance: at 80 kg, 20 ml/min is physiological, not 30 ml/min."
           },
           "flag_note": null
@@ -1601,7 +1668,7 @@
             }
           },
           "explanation": {
-            "core": "La distensibilidad (compliance) describe el aumento de presión durante el llenado (ΔV/ΔPdet, en ml/cmH2O). No hay valores normales aceptados universalmente; lo decisivo es la presión absoluta de almacenamiento, porque las presiones altas del detrusor durante el llenado ponen en riesgo el tracto urinario superior. Como el llenado rápido reduce artificialmente la distensibilidad, la EAU exige en pacientes neurógenos un llenado fisiológico con suero a temperatura corporal y una medición repetida; la ICS define el llenado fisiológico como el peso en kg dividido por cuatro (en ml/min).",
+            "core": "La distensibilidad (compliance) describe el aumento de presión durante el llenado (ΔV/ΔPdet, en ml/cmH2O). No hay valores normales aceptados universalmente; lo decisivo es la presión absoluta de almacenamiento, porque las presiones altas del detrusor durante el llenado ponen en riesgo el tracto urinario superior. Como el llenado rápido reduce artificialmente la distensibilidad, la EAU exige en pacientes neurógenos un llenado fisiológico con suero a temperatura corporal y una medición repetida; la ICS define el llenado fisiológico como el peso en kg dividido por cuatro (en ml/min). El nuevo llenado a 15 ml/min que muestra el trazado confirma la distensibilidad baja: la Pdet alcanza 40 cmH2O con 300 ml, por lo que los volúmenes de cateterismo deben quedar por debajo.",
             "teaching_point": "Primero comprobar la velocidad de llenado y después creer la distensibilidad: con 80 kg, lo fisiológico son 20 ml/min, no 30 ml/min."
           },
           "flag_note": null
@@ -1609,20 +1676,20 @@
       },
       "translation": {
         "en": {
-          "date": "2026-10-20",
-          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "date": "2026-10-27",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
           "clinical_signoff": false
         },
         "es": {
-          "date": "2026-10-20",
-          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "date": "2026-10-27",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
           "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-udy-00009",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "urodynamik",
@@ -1683,23 +1750,31 @@
       "review": {
         "created": "2026-10-20",
         "editorial_review": {
-          "date": "2026-10-24",
-          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; keine fachärztliche Freigabe",
+          "date": "2026-10-27",
+          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; Messkurve am 27.10.2026 ergänzt und mit den Zahlen der Vignette abgeglichen",
           "clinical_signoff": false
         },
         "reviewer": null,
         "last_reviewed": null,
         "clinical_review_status": "pending_independent_review",
-        "review_note": "Neuer Abschnitt Urodynamik; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "review_note": "Version 2: Messkurve ergänzt.",
         "revision": {
-          "date": "2026-10-20",
-          "reason": "Neue Frage im Abschnitt Urodynamik (zehn Fallbeispiele, parallel als Fall in Residency-Game-DE).",
+          "date": "2026-10-27",
+          "reason": "Messkurve aus dem Urodynamik-Labor von Residency-Game-DE ergänzt.",
           "requires_review": true
         }
       },
       "companion_case": {
         "repository": "Usubillaga/Residency-Game-DE",
         "case_id": "udy-paediatric-dysfunctional-voiding"
+      },
+      "tracing": {
+        "case": "udy-paediatric-dysfunctional-voiding",
+        "view": "void1",
+        "after": [
+          "curve"
+        ],
+        "sha256": "1c98bfc937a054ba900e45720895762f1e537d598887b118b9fa08b1fee79e2c"
       },
       "content": {
         "de": {
@@ -1799,19 +1874,19 @@
       "translation": {
         "en": {
           "date": "2026-10-20",
-          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
           "clinical_signoff": false
         },
         "es": {
           "date": "2026-10-20",
-          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
           "clinical_signoff": false
         }
       }
     },
     {
       "id": "uro-udy-00010",
-      "version": 1,
+      "version": 2,
       "status": "published",
       "taxonomy": {
         "domain": "urodynamik",
@@ -1873,23 +1948,33 @@
       "review": {
         "created": "2026-10-20",
         "editorial_review": {
-          "date": "2026-10-24",
-          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; keine fachärztliche Freigabe",
+          "date": "2026-10-27",
+          "method": "Neu erstellt für den Abschnitt Urodynamik mit Quellenabgleich (EAU 2026, ICS, ICCS, Originalstudien); unabhängige KI-Gegenprüfung, deren Befunde am 24.10.2026 an den Originalquellen nachgeprüft und eingearbeitet wurden; Messkurve am 27.10.2026 ergänzt und mit den Zahlen der Vignette abgeglichen",
           "clinical_signoff": false
         },
         "reviewer": null,
         "last_reviewed": null,
         "clinical_review_status": "pending_independent_review",
-        "review_note": "Neuer Abschnitt Urodynamik; unabhängige fachärztliche Prüfung jeder Sprache ausstehend.",
+        "review_note": "Version 2: Messkurve ergänzt.",
         "revision": {
-          "date": "2026-10-20",
-          "reason": "Neue Frage im Abschnitt Urodynamik (zehn Fallbeispiele, parallel als Fall in Residency-Game-DE).",
+          "date": "2026-10-27",
+          "reason": "Messkurve aus dem Urodynamik-Labor von Residency-Game-DE ergänzt.",
           "requires_review": true
         }
       },
       "companion_case": {
         "repository": "Usubillaga/Residency-Game-DE",
         "case_id": "udy-artefacts-rectal-contraction-transmission"
+      },
+      "tracing": {
+        "case": "udy-artefacts-rectal-contraction-transmission",
+        "view": "all",
+        "after": [
+          "baseline",
+          "waves",
+          "transmission"
+        ],
+        "sha256": "0b766808239f913a59edb00dd8f847ce1d1aa8c14a4301846619f2decaf41196"
       },
       "content": {
         "de": {
@@ -1989,12 +2074,1749 @@
       "translation": {
         "en": {
           "date": "2026-10-20",
-          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
           "clinical_signoff": false
         },
         "es": {
           "date": "2026-10-20",
-          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen; unabhängige Sprachprüfung ausstehend",
+          "method": "Parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-udy-00011",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "urodynamik",
+        "subdomain": "Normalbefund",
+        "tags": [
+          "diagnostik",
+          "praeoperativ",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "EAU Guidelines on Management of Non-neurogenic Male LUTS 2026: Diagnostic Evaluation",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/diagnostic-evaluation",
+          "section": "4.12 Urodynamics",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "leitlinie",
+          "title": "EAU Pocket Guidelines on Non-neurogenic Male LUTS 2026",
+          "year": 2026,
+          "url": "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Male-LUTS-2026.pdf",
+          "accessed": "2026-10-26"
+        },
+        {
+          "type": "studie",
+          "title": "Bladder outlet obstruction index, bladder contractility index and bladder voiding efficiency: three simple indices to define bladder voiding function",
+          "citation": "Abrams P. BJU Int 1999;84:14–15",
+          "year": 1999,
+          "url": "https://doi.org/10.1046/j.1464-410x.1999.00121.x",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "leitlinie",
+          "title": "An International Urogynecological Association (IUGA)/International Continence Society (ICS) joint report on the terminology for female pelvic floor dysfunction",
+          "citation": "Haylen BT et al. Neurourol Urodyn 2010;29:4–20",
+          "year": 2010,
+          "url": "https://thepogp.co.uk/_userfiles/pages/files/haylen.pdf",
+          "accessed": "2026-10-27"
+        },
+        {
+          "type": "leitlinie",
+          "title": "Good urodynamic practices: uroflowmetry, filling cystometry, and pressure-flow studies",
+          "citation": "Schäfer W et al. Neurourol Urodyn 2002;21:261–274",
+          "year": 2002,
+          "url": "https://www.ics.org/Workshops/HandoutFiles/000601.pdf",
+          "section": "ICS-Workshop Basic Urodynamics 2016",
+          "accessed": "2026-10-20"
+        }
+      ],
+      "review": {
+        "created": "2026-10-27",
+        "editorial_review": {
+          "date": "2026-10-27",
+          "method": "Aus einem Kurvenfall des Urodynamik-Labors von Residency-Game-DE erstellt; Antwortoptionen und Begründungen wie im Spiel, Quellen am 26.10.2026 geprüft; zwei unabhängige KI-Prüfungen (klinischer Inhalt und Messkurven), deren Befunde am 27.10.2026 an den Primärquellen nachgeprüft und eingearbeitet wurden",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neue Kurvenfrage im Abschnitt Urodynamik.",
+        "revision": {
+          "date": "2026-10-27",
+          "reason": "Neue Frage: Kurvenfall aus dem Urodynamik-Labor von Residency-Game-DE.",
+          "requires_review": true
+        }
+      },
+      "companion_case": {
+        "repository": "Usubillaga/Residency-Game-DE",
+        "case_id": "udy-normal-study-man",
+        "step": "storage"
+      },
+      "tracing": {
+        "case": "udy-normal-study-man",
+        "view": "fill",
+        "after": [
+          "storage",
+          "voiding"
+        ],
+        "sha256": "def2999c736471e5ea5c204674de3740f862675354897bd02c2bf183b172ff3f"
+      },
+      "content": {
+        "de": {
+          "vignette": "58-jähriger Mann mit schwächerem Strahl und Nachträufeln; am meisten stört ihn, dass er nachts drei- bis viermal aufsteht (IPSS 16, Lebensqualitätsindex 4). Drei Monate Tamsulosin brachten kaum Besserung. Prostatavolumen 35 ml, PSA 1,2 ng/ml, Urinstatus unauffällig. Freie Uroflowmetrie: Qmax 13 ml/s bei 260 ml, Restharn 25 ml. Er wünscht eine Laseroperation. Ein Miktionstagebuch liegt nicht vor; wegen des Qmax über 10 ml/s wurde eine Druck-Fluss-Messung durchgeführt. Die Messkurve ist abgebildet.",
+          "lead_in": "Wie ist die Speicherfunktion in der Füllphase zu beurteilen (Empfindungen, Detrusordruck, Hustentests)?",
+          "options": {
+            "A": {
+              "text": "Detrusorüberaktivität: Pves-Spitzen bis über 100 cmH2O",
+              "rationale": "Die Spitzen sind Hustentests: Sie erscheinen gleichzeitig und gleich hoch in Pabd und heben sich in Pdet auf. Überaktivität wäre ein Anstieg von Pdet, der in Pabd fehlt."
+            },
+            "B": {
+              "text": "Unauffällig: Empfindung, Detrusorfunktion und Compliance normal",
+              "rationale": "Erstes Füllungsgefühl bei 170, erster Harndrang bei 280, starker Harndrang bei 430 ml, Kapazität 470 ml. Pdet steigt nur von 3 auf 7 cmH2O (Compliance etwa 470 / 4 ≈ 118 ml/cmH2O) und zeigt keine Wellen. Die Hustenstöße erscheinen gleich hoch in Pves und Pabd; in Pdet bleibt nur ein kleiner Ausschlag."
+            },
+            "C": {
+              "text": "Verminderte Compliance: Pves liegt schon zu Beginn bei etwa 34 cmH2O",
+              "rationale": "Pves enthält den Bauchdruck, der im Sitzen typischerweise zwischen 15 und 40 cmH2O liegt. Für die Compliance zählt der Anstieg von Pdet: hier nur von 3 auf 7 cmH2O über 470 ml."
+            },
+            "D": {
+              "text": "Verminderte Blasensensitivität: erster Harndrang erst bei 280 ml",
+              "rationale": "Erster Harndrang bei 280 ml und starker Harndrang bei 430 ml bei einer Kapazität von 470 ml entsprechen einer normalen Empfindung: Sie nimmt mit der Füllung bis zum starken Harndrang zu."
+            }
+          },
+          "explanation": {
+            "core": "Die Füllphase wird Kanal für Kanal gelesen: die Empfindungen an ihren Markierungen im Verhältnis zur Kapazität, die Detrusorfunktion in Pdet und die Compliance als Volumen pro Anstieg von Pdet. Eine normale Detrusorfunktion zeigt kaum eine Druckänderung und keine unwillkürlichen phasischen Kontraktionen (IUGA/ICS). Hustenstöße erscheinen gleichzeitig und gleich hoch in Pves und Pabd; sie belegen die Druckübertragung und sind keine Überaktivität. Auch die Miktion ist unauffällig: PdetQmax 40 cmH2O bei Qmax 18 ml/s ergibt einen BOOI von 4 (nicht obstruiert) und einen BCI von 130 (normale Kontraktilität). Ohne Obstruktion hat eine Desobstruktion keinen Angriffspunkt; bei führender Nykturie empfiehlt die EAU ein Miktionstagebuch über mindestens drei Tage (starke Empfehlung), das hier vor der invasiven Messung hätte stehen sollen.",
+            "teaching_point": "Auch ein Normalbefund ist ein Befund: Spitzen, die gleich hoch in Pves und Pabd stehen, sind Hustenstöße – und ohne Obstruktion keine Desobstruktion."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 58-year-old man has noticed a weaker stream and post-void dribbling; what bothers him most is getting up three to four times a night (IPSS 16, quality-of-life score 4). Three months of tamsulosin brought little improvement. Prostate volume 35 ml, PSA 1.2 ng/ml, urinalysis normal. Free uroflowmetry: Qmax 13 ml/s at 260 ml, post-void residual 25 ml. He wants laser surgery. He has not kept a bladder diary; because Qmax is above 10 ml/s, a pressure-flow study was performed. The tracing is shown.",
+          "lead_in": "How should storage in the filling phase be assessed (sensations, detrusor pressure, cough tests)?",
+          "options": {
+            "A": {
+              "text": "Detrusor overactivity: Pves spikes above 100 cmH2O",
+              "rationale": "The spikes are cough tests: they appear at the same time and equally high in Pabd and cancel out in Pdet. Overactivity would be a rise in Pdet that is absent from Pabd."
+            },
+            "B": {
+              "text": "Normal: sensation, detrusor function and compliance",
+              "rationale": "First sensation at 170, first desire at 280, strong desire at 430 ml, capacity 470 ml. Pdet rises only from 3 to 7 cmH2O (compliance about 470 / 4 ≈ 118 ml/cmH2O) and shows no waves. The coughs appear equally in Pves and Pabd, leaving only a small blip in Pdet."
+            },
+            "C": {
+              "text": "Low compliance: Pves is already about 34 cmH2O at the start",
+              "rationale": "Pves includes abdominal pressure, which typically lies between 15 and 40 cmH2O when sitting. Compliance depends on the rise in Pdet: here only from 3 to 7 cmH2O over 470 ml."
+            },
+            "D": {
+              "text": "Reduced bladder sensation: first desire only at 280 ml",
+              "rationale": "A first desire at 280 ml and a strong desire at 430 ml with a capacity of 470 ml reflect normal sensation: it increases with filling up to a strong desire to void."
+            }
+          },
+          "explanation": {
+            "core": "The filling phase is read channel by channel: the sensations at their markers relative to capacity, detrusor function in Pdet, and compliance as volume per rise in Pdet. Normal detrusor function shows little change in pressure and no involuntary phasic contractions (IUGA/ICS). Coughs appear at the same time and equally high in Pves and Pabd; they confirm pressure transmission and are not overactivity. The void is normal too: a PdetQmax of 40 cmH2O at a Qmax of 18 ml/s gives a BOOI of 4 (unobstructed) and a BCI of 130 (normal contractility). Without obstruction, deobstruction has nothing to act on; when nocturia is the main complaint, the EAU recommends a bladder diary for at least three days (strong recommendation), which should have preceded the invasive study here.",
+            "teaching_point": "A normal study is a finding too: spikes that stand equally high in Pves and Pabd are coughs – and no obstruction, no deobstruction."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 58 años que nota un chorro más débil y goteo posmiccional; lo que más le molesta es levantarse tres o cuatro veces por la noche (IPSS 16, índice de calidad de vida 4). Tres meses de tamsulosina apenas le aliviaron. Volumen prostático 35 ml, PSA 1,2 ng/ml, sedimento normal. Flujometría libre: Qmax 13 ml/s con 260 ml, residuo posmiccional 25 ml. Quiere una operación con láser. No ha llevado ningún diario miccional; como el Qmax supera 10 ml/s, se realizó un estudio presión-flujo. Se muestra el trazado.",
+          "lead_in": "¿Cómo se valora el almacenamiento en la fase de llenado (sensaciones, presión del detrusor, pruebas de tos)?",
+          "options": {
+            "A": {
+              "text": "Hiperactividad del detrusor: picos de Pves de más de 100 cmH2O",
+              "rationale": "Los picos son pruebas de tos: aparecen a la vez y con la misma altura en Pabd y se anulan en la Pdet. La hiperactividad sería una subida de la Pdet que no aparece en Pabd."
+            },
+            "B": {
+              "text": "Estudio normal: sensibilidad, función del detrusor y distensibilidad",
+              "rationale": "Primera sensación a 170, primer deseo a 280, deseo fuerte a 430 ml, capacidad 470 ml. La Pdet solo sube de 3 a 7 cmH2O (distensibilidad de unos 470 / 4 ≈ 118 ml/cmH2O) y no muestra ondas. Las toses aparecen por igual en Pves y Pabd y en la Pdet solo dejan un pequeño artefacto."
+            },
+            "C": {
+              "text": "Distensibilidad baja: la Pves ya ronda los 34 cmH2O al inicio del llenado",
+              "rationale": "La Pves incluye la presión abdominal, que sentado suele estar entre 15 y 40 cmH2O. La distensibilidad depende de la subida de la Pdet: aquí solo de 3 a 7 cmH2O en 470 ml."
+            },
+            "D": {
+              "text": "Sensibilidad vesical disminuida: primer deseo solo a 280 ml",
+              "rationale": "Un primer deseo a 280 ml y un deseo fuerte a 430 ml con una capacidad de 470 ml corresponden a una sensibilidad normal: aumenta con el llenado hasta el deseo fuerte."
+            }
+          },
+          "explanation": {
+            "core": "La fase de llenado se lee canal por canal: las sensaciones en sus marcas en relación con la capacidad, la función del detrusor en la Pdet y la distensibilidad como volumen por aumento de la Pdet. Una función normal del detrusor apenas cambia la presión y no muestra contracciones fásicas involuntarias (IUGA/ICS). Las toses aparecen a la vez y con la misma altura en Pves y Pabd; confirman la transmisión de presión y no son hiperactividad. La micción también es normal: una PdetQmax de 40 cmH2O con un Qmax de 18 ml/s da un BOOI de 4 (sin obstrucción) y un BCI de 130 (contractilidad normal). Sin obstrucción, la desobstrucción no tiene sobre qué actuar; si la nicturia es la queja principal, la EAU recomienda un diario miccional de al menos tres días (recomendación fuerte), que aquí debió preceder al estudio invasivo.",
+            "teaching_point": "Un estudio normal también es un hallazgo: los picos de igual altura en Pves y Pabd son toses; sin obstrucción, no hay desobstrucción."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-27",
+          "method": "Antwortoptionen und Begründungen aus den Spieltexten übernommen, übrige Texte parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-27",
+          "method": "Antwortoptionen und Begründungen aus den Spieltexten übernommen, übrige Texte parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-udy-00012",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "urodynamik",
+        "subdomain": "Überaktive Blase",
+        "tags": [
+          "diagnostik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "EAU Guidelines on Non-neurogenic Female LUTS 2026: Diagnosis",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/non-neurogenic-female-luts/chapter/diagnosis",
+          "section": "3.6 Urodynamics",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "leitlinie",
+          "title": "EAU Guidelines on Non-neurogenic Female LUTS 2026: Disease Management",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/non-neurogenic-female-luts/chapter/disease-management",
+          "accessed": "2026-10-26"
+        },
+        {
+          "type": "leitlinie",
+          "title": "EAU Pocket Guidelines on Non-neurogenic Female LUTS 2026",
+          "year": 2026,
+          "url": "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Female-LUTS-2026_2026-03-12-155317_rckt.pdf",
+          "accessed": "2026-10-26"
+        },
+        {
+          "type": "leitlinie",
+          "title": "An International Urogynecological Association (IUGA)/International Continence Society (ICS) joint report on the terminology for female pelvic floor dysfunction",
+          "citation": "Haylen BT et al. Neurourol Urodyn 2010;29:4–20",
+          "year": 2010,
+          "url": "https://thepogp.co.uk/_userfiles/pages/files/haylen.pdf",
+          "accessed": "2026-10-27"
+        }
+      ],
+      "review": {
+        "created": "2026-10-27",
+        "editorial_review": {
+          "date": "2026-10-27",
+          "method": "Aus einem Kurvenfall des Urodynamik-Labors von Residency-Game-DE erstellt; Antwortoptionen und Begründungen wie im Spiel, Quellen am 26.10.2026 geprüft; zwei unabhängige KI-Prüfungen (klinischer Inhalt und Messkurven), deren Befunde am 27.10.2026 an den Primärquellen nachgeprüft und eingearbeitet wurden",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neue Kurvenfrage im Abschnitt Urodynamik.",
+        "revision": {
+          "date": "2026-10-27",
+          "reason": "Neue Frage: Kurvenfall aus dem Urodynamik-Labor von Residency-Game-DE.",
+          "requires_review": true
+        }
+      },
+      "companion_case": {
+        "repository": "Usubillaga/Residency-Game-DE",
+        "case_id": "udy-normal-study-woman-oab",
+        "step": "storage"
+      },
+      "tracing": {
+        "case": "udy-normal-study-woman-oab",
+        "view": "fill",
+        "after": [
+          "storage",
+          "voiding"
+        ],
+        "sha256": "6df078528e1ddbd946080b47367ae492a5a90f03617eca7fc662fe8d87cfbbac"
+      },
+      "content": {
+        "de": {
+          "vignette": "48-jährige Frau mit seit drei Jahren bestehendem imperativem Harndrang, tagsüber zwölf Miktionen, zweimal Nykturie und etwa zweimal pro Woche Dranginkontinenz. Blasentraining, Solifenacin und Mirabegron (jeweils drei Monate) halfen nicht ausreichend. Urinstatus unauffällig, Restharn 15 ml; im Miktionstagebuch beträgt das größte Miktionsvolumen 180 ml. Vor der geplanten Botulinumtoxin-Injektion wurde eine Urodynamik durchgeführt. Die Messkurve ist abgebildet.",
+          "lead_in": "Was zeigt die Füllphase einschließlich der Provokation?",
+          "options": {
+            "A": {
+              "text": "Verminderte Compliance mit Druckanstieg am Ende der Füllung",
+              "rationale": "Über 320 ml steigt Pdet nur um etwa 3 cmH2O; die Compliance ist nicht vermindert."
+            },
+            "B": {
+              "text": "Detrusorüberaktivität: Bei der Provokation steigen die Drücke steil an",
+              "rationale": "Die steilen Spitzen nach der Provokation sind Hustenstöße: Pves und Pabd steigen gleich, Pdet bleibt flach. Überaktivität wäre ein Pdet-Anstieg ohne entsprechenden Anstieg von Pabd."
+            },
+            "C": {
+              "text": "Gesteigerte Blasensensitivität, keine Überaktivität bei Provokation",
+              "rationale": "Erstes Füllungsgefühl bei 90, erster Harndrang bei 140, starker Harndrang bei 230 ml, Kapazität 320 ml. Trotz laufendem Wasser, Händewaschen und Husten zeigt Pdet keine Welle; die Hustenspitzen stehen gleich in Pves und Pabd. Die Messung zeigt also keine Überaktivität – sie widerlegt die überaktive Blase als Symptomdiagnose aber nicht."
+            },
+            "D": {
+              "text": "Normalbefund: Eine überaktive Blase ist damit als Diagnose ausgeschlossen",
+              "rationale": "Die überaktive Blase ist nach der ICS-Definition eine Symptomdiagnose (Drang, meist mit häufigem Wasserlassen und Nykturie). Die Detrusorüberaktivität ist ein urodynamischer Befund; fehlt sie in einer kurzen Messung, ist die Diagnose damit nicht widerlegt."
+            }
+          },
+          "explanation": {
+            "core": "Die überaktive Blase ist eine Symptomdiagnose, die Detrusorüberaktivität ein urodynamischer Befund: unwillkürliche Detrusorkontraktionen während der Füllung, spontan oder provoziert. Hier treten die Empfindungen früh auf (gesteigerte Blasensensitivität), Pdet bleibt aber auch bei der Provokation flach, und die Compliance ist unauffällig. Auch die Miktion ist normal: hoher Fluss bei niedrigem Druck (Qmax 26 ml/s bei PdetQmax 20 cmH2O). Nach der EAU beeinflusst der urodynamische Nachweis einer Detrusorüberaktivität das Behandlungsergebnis bei überaktiver Blase nicht, auch nicht das der Onabotulinumtoxin-A-Injektion. Die Injektion bleibt deshalb eine Option; vorher wird über Harnwegsinfekte und eine mögliche Katheterpflicht aufgeklärt.",
+            "teaching_point": "Keine Überaktivität in der Messung widerlegt keine überaktive Blase: OAB ist eine Symptomdiagnose."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 48-year-old woman has had urgency for three years, with twelve voids a day, nocturia twice and urgency incontinence about twice a week. Bladder training, solifenacin and mirabegron (three months each) did not help enough. Urinalysis normal, post-void residual 15 ml; in the bladder diary the largest voided volume is 180 ml. Urodynamics was performed before the planned botulinum toxin injection. The tracing is shown.",
+          "lead_in": "What does the filling phase, including the provocation, show?",
+          "options": {
+            "A": {
+              "text": "Low compliance with a pressure rise at the end of filling",
+              "rationale": "Over 320 ml Pdet rises by only about 3 cmH2O; compliance is not reduced."
+            },
+            "B": {
+              "text": "Detrusor overactivity: the pressures rise steeply after the provocation",
+              "rationale": "The steep spikes after the provocation are coughs: Pves and Pabd rise equally and Pdet stays flat. Overactivity would be a rise in Pdet without a matching rise in Pabd."
+            },
+            "C": {
+              "text": "Increased bladder sensation; no overactivity even on provocation",
+              "rationale": "First sensation at 90, first desire at 140, strong desire at 230 ml, capacity 320 ml. Despite running water, hand washing and coughing, Pdet shows no wave; the cough spikes appear equally in Pves and Pabd. The study therefore shows no overactivity – but it does not disprove overactive bladder, which is a symptom diagnosis."
+            },
+            "D": {
+              "text": "Normal study: overactive bladder is now ruled out as a diagnosis",
+              "rationale": "By the ICS definition, overactive bladder is a symptom diagnosis (urgency, usually with frequency and nocturia). Detrusor overactivity is a urodynamic observation; its absence in a short study does not disprove the diagnosis."
+            }
+          },
+          "explanation": {
+            "core": "Overactive bladder is a symptom diagnosis, detrusor overactivity a urodynamic observation: involuntary detrusor contractions during filling, spontaneous or provoked. Here the sensations come early (increased bladder sensation), but Pdet stays flat even on provocation and compliance is normal. The void is normal too: high flow at low pressure (Qmax 26 ml/s at a PdetQmax of 20 cmH2O). According to the EAU, demonstrating detrusor overactivity on urodynamics does not influence the outcome of treatment for overactive bladder, including onabotulinumtoxinA injection. The injection therefore remains an option; beforehand the patient is counselled about urinary tract infection and a possible need for catheterisation.",
+            "teaching_point": "No overactivity on the study does not disprove overactive bladder: OAB is a symptom diagnosis."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 48 años con urgencia desde hace tres años, doce micciones al día, nicturia dos veces e incontinencia de urgencia unas dos veces por semana. El entrenamiento vesical, la solifenacina y el mirabegrón (tres meses cada uno) no bastaron. Sedimento normal, residuo posmiccional 15 ml; en el diario miccional, el mayor volumen miccional es de 180 ml. Antes de la inyección prevista de toxina botulínica se realizó una urodinámica. Se muestra el trazado.",
+          "lead_in": "¿Qué muestra la fase de llenado, incluida la provocación?",
+          "options": {
+            "A": {
+              "text": "Distensibilidad baja con subida de presión al final del llenado",
+              "rationale": "En 320 ml la Pdet solo sube unos 3 cmH2O; la distensibilidad no está disminuida."
+            },
+            "B": {
+              "text": "Hiperactividad del detrusor: las presiones suben bruscamente tras la provocación",
+              "rationale": "Los picos bruscos tras la provocación son toses: Pves y Pabd suben por igual y la Pdet sigue plana. La hiperactividad sería una subida de la Pdet sin una subida equivalente de la Pabd."
+            },
+            "C": {
+              "text": "Sensibilidad vesical aumentada sin hiperactividad, tampoco con provocación",
+              "rationale": "Primera sensación a 90, primer deseo a 140, deseo fuerte a 230 ml, capacidad 320 ml. Pese al agua corriendo, el lavado de manos y la tos, la Pdet no muestra ninguna onda; los picos de tos aparecen igual en Pves y Pabd. El estudio no muestra hiperactividad, pero no refuta la vejiga hiperactiva, que es un diagnóstico sintomático."
+            },
+            "D": {
+              "text": "Estudio normal: la vejiga hiperactiva queda descartada como diagnóstico",
+              "rationale": "Según la definición de la ICS, la vejiga hiperactiva es un diagnóstico sintomático (urgencia, habitualmente con frecuencia y nicturia). La hiperactividad del detrusor es una observación urodinámica; su ausencia en un estudio breve no refuta el diagnóstico."
+            }
+          },
+          "explanation": {
+            "core": "La vejiga hiperactiva es un diagnóstico sintomático; la hiperactividad del detrusor, una observación urodinámica: contracciones involuntarias del detrusor durante el llenado, espontáneas o provocadas. Aquí las sensaciones aparecen pronto (sensibilidad vesical aumentada), pero la Pdet sigue plana incluso con la provocación y la distensibilidad es normal. La micción también es normal: flujo alto con presión baja (Qmax 26 ml/s con una PdetQmax de 20 cmH2O). Según la EAU, demostrar hiperactividad del detrusor en la urodinámica no influye en el resultado del tratamiento de la vejiga hiperactiva, tampoco en el de la inyección de onabotulinumtoxina A. Por eso la inyección sigue siendo una opción; antes se informa sobre las infecciones urinarias y la posible necesidad de cateterismo.",
+            "teaching_point": "Que el estudio no muestre hiperactividad no refuta la vejiga hiperactiva: la VH es un diagnóstico sintomático."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-27",
+          "method": "Antwortoptionen und Begründungen aus den Spieltexten übernommen, übrige Texte parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-27",
+          "method": "Antwortoptionen und Begründungen aus den Spieltexten übernommen, übrige Texte parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-udy-00013",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "urodynamik",
+        "subdomain": "Detrusorüberaktivität",
+        "tags": [
+          "diagnostik",
+          "praeoperativ",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "EAU Pocket Guidelines on Non-neurogenic Female LUTS 2026",
+          "year": 2026,
+          "url": "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Female-LUTS-2026_2026-03-12-155317_rckt.pdf",
+          "accessed": "2026-10-26"
+        },
+        {
+          "type": "leitlinie",
+          "title": "EAU Guidelines on Non-neurogenic Female LUTS 2026: Diagnosis",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/non-neurogenic-female-luts/chapter/diagnosis",
+          "section": "3.6 Urodynamics",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "leitlinie",
+          "title": "EAU Guidelines on Non-neurogenic Female LUTS 2026: Disease Management",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/non-neurogenic-female-luts/chapter/disease-management",
+          "accessed": "2026-10-26"
+        },
+        {
+          "type": "leitlinie",
+          "title": "An International Urogynecological Association (IUGA)/International Continence Society (ICS) joint report on the terminology for female pelvic floor dysfunction",
+          "citation": "Haylen BT et al. Neurourol Urodyn 2010;29:4–20",
+          "year": 2010,
+          "url": "https://thepogp.co.uk/_userfiles/pages/files/haylen.pdf",
+          "accessed": "2026-10-27"
+        }
+      ],
+      "review": {
+        "created": "2026-10-27",
+        "editorial_review": {
+          "date": "2026-10-27",
+          "method": "Aus einem Kurvenfall des Urodynamik-Labors von Residency-Game-DE erstellt; Antwortoptionen und Begründungen wie im Spiel, Quellen am 26.10.2026 geprüft; zwei unabhängige KI-Prüfungen (klinischer Inhalt und Messkurven), deren Befunde am 27.10.2026 an den Primärquellen nachgeprüft und eingearbeitet wurden",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neue Kurvenfrage im Abschnitt Urodynamik.",
+        "revision": {
+          "date": "2026-10-27",
+          "reason": "Neue Frage: Kurvenfall aus dem Urodynamik-Labor von Residency-Game-DE.",
+          "requires_review": true
+        }
+      },
+      "companion_case": {
+        "repository": "Usubillaga/Residency-Game-DE",
+        "case_id": "udy-detrusor-overactivity-incontinence",
+        "step": "filling"
+      },
+      "tracing": {
+        "case": "udy-detrusor-overactivity-incontinence",
+        "view": "fill",
+        "after": [
+          "filling",
+          "voiding"
+        ],
+        "sha256": "cc29bbf877943c3971b362954db8b764abb096ce7d4ca105e4ca39d4c562a099"
+      },
+      "content": {
+        "de": {
+          "vignette": "67-jährige Frau, von ihrer Gynäkologin zur Bandeinlage überwiesen. Sie verliert Urin, wenn sie vom Sessel aufsteht und auf dem Weg zur Toilette, gelegentlich auch beim Husten. Miktionstagebuch: elf Miktionen am Tag, drei Episoden von Harnverlust täglich, meist mit plötzlichem Drang. Urinstatus unauffällig, Restharn 20 ml. Weil die Form der Inkontinenz unklar ist, wurde vor einer Operation eine Urodynamik durchgeführt. Die Messkurve ist abgebildet.",
+          "lead_in": "Was zeigt die Füllphase mit Empfindungen, Drang, Leckage und Hustentests?",
+          "options": {
+            "A": {
+              "text": "Urodynamische Belastungsinkontinenz: Leckage beim Husten ohne Anstieg von Pdet",
+              "rationale": "Bei den Hustentests registriert der Flussmesser keinen Urinverlust. Die Leckage tritt mit einer Detrusorwelle auf, ohne Husten."
+            },
+            "B": {
+              "text": "Rektumkontraktionen: Wellen in der Druckkurve ohne klinische Bedeutung",
+              "rationale": "Rektumkontraktionen heben Pabd an und lassen Pdet negativ ausschlagen. Hier steigen Pves und Pdet, Pabd bleibt ruhig – und die Patientin spürt Drang und verliert Urin."
+            },
+            "C": {
+              "text": "Verminderte Compliance mit stetigem Druckanstieg bis zur Leckage",
+              "rationale": "Zwischen den Wellen kehrt Pdet zur Ausgangslinie zurück. Niedrige Compliance wäre ein stetiger Anstieg ohne Wellen."
+            },
+            "D": {
+              "text": "Phasische Detrusorüberaktivität mit Drang und Leckage bei der dritten Welle",
+              "rationale": "Ab etwa 140 ml steigt Pdet in drei Wellen (bis 20, 31 und 45 cmH2O) ohne Anstieg von Pabd, jeweils mit Drang; bei der dritten Welle registriert der Flussmesser eine Leckage. Die Hustentests bleiben trocken. Das ist eine Detrusorüberaktivitäts-Inkontinenz, keine Belastungsinkontinenz."
+            }
+          },
+          "explanation": {
+            "core": "Woher eine Leckage kommt, zeigt der Vergleich der Kanäle im Moment des Urinverlusts: Eine Detrusorwelle steht in Pves und Pdet, aber nicht in Pabd; ein Hustenstoß steht gleich hoch in Pves und Pabd. Hier tritt die Leckage mit einer Detrusorwelle und Drang auf, während die Hustentests trocken bleiben – eine Detrusorüberaktivitäts-Inkontinenz. Die Entleerung ist effektiv (Qmax 21 ml/s bei PdetQmax 24 cmH2O; Restharn 240 − 200 − 15 = 25 ml, die Leckage mitgerechnet). Ein Band stützt die Harnröhre bei Belastung, gegen den Drang hilft es nicht. Die EAU empfiehlt Blasentraining als erste Therapie und Anticholinergika oder Beta-3-Agonisten, wenn das nicht reicht (jeweils starke Empfehlung); bei älteren Frauen Anticholinergika nur mit Vorsicht und mit Blick auf die anticholinerge Gesamtlast.",
+            "teaching_point": "Leckage mit Pdet-Welle und Drang bei trockenen Hustentests: Detrusorüberaktivitäts-Inkontinenz – das Band hilft nicht."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 67-year-old woman is referred by her gynaecologist for a sling. She leaks when she gets up from the armchair and on the way to the toilet, occasionally also when coughing. Bladder diary: eleven voids a day, three leakage episodes a day, mostly with sudden urgency. Urinalysis normal, post-void residual 20 ml. Because the type of incontinence is unclear, urodynamics was performed before any surgery. The tracing is shown.",
+          "lead_in": "What does the filling phase show, with sensations, urgency, leakage and cough tests?",
+          "options": {
+            "A": {
+              "text": "Urodynamic stress incontinence: leakage on coughing without a rise in Pdet",
+              "rationale": "The flowmeter records no leakage with the cough tests. The leakage comes with a detrusor wave, without a cough."
+            },
+            "B": {
+              "text": "Rectal contractions: waves on the pressure tracing without clinical significance",
+              "rationale": "Rectal contractions raise Pabd and swing Pdet negative. Here Pves and Pdet rise while Pabd stays quiet – and the patient feels urgency and leaks."
+            },
+            "C": {
+              "text": "Low compliance with a steady pressure rise until leakage",
+              "rationale": "Between the waves Pdet returns to baseline. Low compliance would be a steady rise without waves."
+            },
+            "D": {
+              "text": "Phasic detrusor overactivity with urgency and leakage at the third wave",
+              "rationale": "From about 140 ml Pdet rises in three waves (to 20, 31 and 45 cmH2O) without a rise in Pabd, each with urgency; at the third wave the flowmeter records leakage. The cough tests stay dry. This is detrusor overactivity incontinence, not stress incontinence."
+            }
+          },
+          "explanation": {
+            "core": "Where leakage comes from is shown by comparing the channels at the moment of leakage: a detrusor wave appears in Pves and Pdet but not in Pabd; a cough stands equally high in Pves and Pabd. Here the leakage comes with a detrusor wave and urgency, while the cough tests stay dry – detrusor overactivity incontinence. Emptying is effective (Qmax 21 ml/s at a PdetQmax of 24 cmH2O; residual 240 − 200 − 15 = 25 ml, counting the leakage). A sling supports the urethra under stress but does not help urgency. The EAU recommends bladder training as first-line treatment and antimuscarinics or beta-3 agonists if this is not enough (strong recommendations); in older women antimuscarinics only with caution and with regard to the overall anticholinergic burden.",
+            "teaching_point": "Leakage with a Pdet wave and urgency while the cough tests stay dry: detrusor overactivity incontinence – a sling will not help."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 67 años derivada por su ginecóloga para colocar una cinta. Pierde orina al levantarse del sillón y de camino al baño, y a veces al toser. Diario miccional: once micciones al día y tres episodios diarios de escape, casi siempre con urgencia repentina. Sedimento normal, residuo posmiccional 20 ml. Como el tipo de incontinencia no está claro, se realizó una urodinámica antes de cualquier cirugía. Se muestra el trazado.",
+          "lead_in": "¿Qué muestra la fase de llenado, con sensaciones, urgencia, escape y pruebas de tos?",
+          "options": {
+            "A": {
+              "text": "Incontinencia urodinámica de esfuerzo: escape con la tos sin subida de la Pdet",
+              "rationale": "Con las pruebas de tos el flujómetro no registra ningún escape. El escape aparece con una onda del detrusor, sin tos."
+            },
+            "B": {
+              "text": "Contracciones rectales: ondas en el trazado sin relevancia clínica",
+              "rationale": "Las contracciones rectales elevan la Pabd y desvían la Pdet hacia valores negativos. Aquí suben la Pves y la Pdet, la Pabd sigue tranquila, y la paciente nota urgencia y pierde orina."
+            },
+            "C": {
+              "text": "Distensibilidad baja con subida continua de presión hasta el escape",
+              "rationale": "Entre las ondas la Pdet vuelve a la línea basal. La distensibilidad baja sería una subida continua sin ondas."
+            },
+            "D": {
+              "text": "Hiperactividad fásica del detrusor con urgencia y escape en la tercera onda",
+              "rationale": "Desde unos 140 ml la Pdet sube en tres ondas (hasta 20, 31 y 45 cmH2O) sin subida de la Pabd, cada una con urgencia; en la tercera el flujómetro registra un escape. Las pruebas de tos son secas. Es una incontinencia por hiperactividad del detrusor, no de esfuerzo."
+            }
+          },
+          "explanation": {
+            "core": "De dónde viene un escape lo muestra la comparación de los canales en el momento de la pérdida: una onda del detrusor aparece en Pves y Pdet, pero no en Pabd; una tos tiene la misma altura en Pves y Pabd. Aquí el escape llega con una onda del detrusor y urgencia, mientras que las pruebas de tos son secas: incontinencia por hiperactividad del detrusor. El vaciado es eficaz (Qmax 21 ml/s con una PdetQmax de 24 cmH2O; residuo 240 − 200 − 15 = 25 ml, contando el escape). Una cinta sostiene la uretra durante el esfuerzo, pero no ayuda contra la urgencia. La EAU recomienda el entrenamiento vesical como primer tratamiento y antimuscarínicos o agonistas beta-3 si no basta (recomendaciones fuertes); en mujeres mayores, antimuscarínicos solo con precaución y valorando la carga anticolinérgica total.",
+            "teaching_point": "Escape con onda de Pdet y urgencia con pruebas de tos secas: incontinencia por hiperactividad del detrusor; la cinta no ayuda."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-27",
+          "method": "Antwortoptionen und Begründungen aus den Spieltexten übernommen, übrige Texte parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-27",
+          "method": "Antwortoptionen und Begründungen aus den Spieltexten übernommen, übrige Texte parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-udy-00014",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "urodynamik",
+        "subdomain": "Belastungsinkontinenz",
+        "tags": [
+          "diagnostik",
+          "praeoperativ",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "EAU Pocket Guidelines on Non-neurogenic Female LUTS 2026",
+          "year": 2026,
+          "url": "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Female-LUTS-2026_2026-03-12-155317_rckt.pdf",
+          "accessed": "2026-10-26"
+        },
+        {
+          "type": "leitlinie",
+          "title": "EAU Guidelines on Non-neurogenic Female LUTS 2026: Diagnosis",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/non-neurogenic-female-luts/chapter/diagnosis",
+          "section": "3.6 Urodynamics",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "leitlinie",
+          "title": "International Continence Society Good Urodynamic Practices and Terms 2016: urodynamics, uroflowmetry, cystometry, and pressure-flow study",
+          "citation": "Rosier PFWM et al. Neurourol Urodyn 2017;36:1243–1260",
+          "year": 2017,
+          "url": "https://www.ics.org/folder/standardisation/current-ics-standardisations/d/international-continence-society-good-urodynamic-practices-and-terms-2016-urodynamics-uroflowmetry-cystometry-and-pressure-flow-study/download",
+          "accessed": "2026-10-26"
+        },
+        {
+          "type": "leitlinie",
+          "title": "An International Urogynecological Association (IUGA)/International Continence Society (ICS) joint report on the terminology for female pelvic floor dysfunction",
+          "citation": "Haylen BT et al. Neurourol Urodyn 2010;29:4–20",
+          "year": 2010,
+          "url": "https://thepogp.co.uk/_userfiles/pages/files/haylen.pdf",
+          "accessed": "2026-10-27"
+        }
+      ],
+      "review": {
+        "created": "2026-10-27",
+        "editorial_review": {
+          "date": "2026-10-27",
+          "method": "Aus einem Kurvenfall des Urodynamik-Labors von Residency-Game-DE erstellt; Antwortoptionen und Begründungen wie im Spiel, Quellen am 26.10.2026 geprüft; zwei unabhängige KI-Prüfungen (klinischer Inhalt und Messkurven), deren Befunde am 27.10.2026 an den Primärquellen nachgeprüft und eingearbeitet wurden",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neue Kurvenfrage im Abschnitt Urodynamik.",
+        "revision": {
+          "date": "2026-10-27",
+          "reason": "Neue Frage: Kurvenfall aus dem Urodynamik-Labor von Residency-Game-DE.",
+          "requires_review": true
+        }
+      },
+      "companion_case": {
+        "repository": "Usubillaga/Residency-Game-DE",
+        "case_id": "udy-urodynamic-stress-incontinence",
+        "step": "lpp"
+      },
+      "tracing": {
+        "case": "udy-urodynamic-stress-incontinence",
+        "view": "leak",
+        "after": [
+          "leak",
+          "lpp",
+          "plan"
+        ],
+        "sha256": "cb896fbcfff5cdc1467520ef3620ba5a95836c9398e79eec150af06900211e75"
+      },
+      "content": {
+        "de": {
+          "vignette": "52-jährige Frau, die seit der zweiten Geburt beim Husten, Niesen und Joggen Urin verliert. Sechs Monate angeleitetes Beckenbodentraining haben geholfen, sie ist aber weiter unzufrieden. Gelegentlich verspürt sie Drang, ohne dabei Urin zu verlieren. Urinstatus unauffällig, Restharn 15 ml, kein relevanter Deszensus. Sie wünscht eine operative Lösung; wegen der zusätzlichen Speicherbeschwerden wurde vorher eine Urodynamik mit Hustentests und einem Pressversuch zwischen 200 und 300 ml durchgeführt. Die Messkurve ist abgebildet.",
+          "lead_in": "Wie hoch ist der Blasendruck am Leckage-Marker (L) beim Pressen, und wie ist dieser Leak-Point-Druck zu verwerten?",
+          "options": {
+            "A": {
+              "text": "Pves 95 cmH2O belegt die Leckage, stuft den Schweregrad aber nicht ein",
+              "rationale": "Beim Pressen beginnt die Leckage bei Pves 95 cmH2O. Der Wert dokumentiert die Belastungsleckage; die EAU rät aber, Urethradruckprofil oder Leak-Point-Druck nicht zur Einstufung des Schweregrads zu verwenden (starke Empfehlung). Nach ICS werden Art der Provokation und Messort mit angegeben."
+            },
+            "B": {
+              "text": "Über 90 cmH2O: leichte Inkontinenz, eine Operation ist nicht nötig",
+              "rationale": "Der Leak-Point-Druck eignet sich nicht, den Schweregrad einzustufen (EAU, starke Empfehlung). Über die Behandlung entscheiden Leidensdruck, Ergebnis des Beckenbodentrainings und die gemeinsame Abwägung."
+            },
+            "C": {
+              "text": "Unter 100 cmH2O: Sphinkterschwäche, deshalb nur Bulking-Therapie möglich",
+              "rationale": "Ein Grenzwert, der eine bestimmte Therapie vorschreibt, ist nicht belegt; die EAU rät, Leak-Point-Drücke nicht zur Einstufung zu verwenden. Bulking-Substanzen sind zudem weniger wirksam als andere operative Verfahren."
+            },
+            "D": {
+              "text": "Der Wert ist nicht verwertbar, da Pdet beim Pressen nicht ansteigt",
+              "rationale": "Gerade das kennzeichnet einen abdominalen Leak-Point-Druck: Der Bauchdruck steigt, der Detrusor bleibt ruhig. Eine Leckage mit Pdet-Anstieg spräche für eine Detrusorüberaktivität."
+            }
+          },
+          "explanation": {
+            "core": "Der abdominale Leak-Point-Druck ist der niedrigste absichtlich erhöhte Blasendruck, der ohne Detrusorkontraktion zur Leckage führt (IUGA/ICS); die ICS verlangt dazu Angaben zur Art der Provokation und zum Messort. Die Kurve zeigt zugleich die urodynamische Belastungsinkontinenz: Bei 200 ml bleiben die Hustentests trocken, ab 250 ml läuft mit jedem Hustenstoß Urin, ohne dass Pdet ansteigt, und eine Detrusorüberaktivität tritt nicht auf. Zur Einstufung des Schweregrads sollen weder Urethradruckprofil noch Leak-Point-Druck verwendet werden (EAU, starke Empfehlung). Bei unauffälliger Entleerung (Qmax 28 ml/s, PdetQmax 18 cmH2O, Restharn 20 ml) wird nach ausgeschöpftem Beckenbodentraining gemeinsam zwischen mittelurethralem Band, Kolposuspension, autologer Schlinge und den weniger wirksamen Bulking-Substanzen entschieden.",
+            "teaching_point": "Der Leak-Point-Druck belegt die Belastungsleckage, stuft ihren Schweregrad aber nicht ein."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 52-year-old woman has leaked with coughing, sneezing and jogging since her second delivery. Six months of supervised pelvic floor muscle training helped, but she is still unhappy. She occasionally feels urgency, without leaking. Urinalysis normal, post-void residual 15 ml, no relevant prolapse. She wants a surgical solution; because of the additional storage symptoms, urodynamics with cough tests and a straining test between 200 and 300 ml was performed first. The tracing is shown.",
+          "lead_in": "What is the bladder pressure at the leak marker (L) during straining, and how should this leak point pressure be used?",
+          "options": {
+            "A": {
+              "text": "Pves 95 cmH2O confirms the leakage but does not grade its severity",
+              "rationale": "On straining the leakage starts at Pves 95 cmH2O. The value documents the stress leakage, but the EAU advises against using urethral pressure profilometry or leak point pressure to grade severity (strong recommendation). The ICS asks for the type of provocation and the recording site to be reported."
+            },
+            "B": {
+              "text": "Above 90 cmH2O: mild incontinence, surgery is not needed",
+              "rationale": "The leak point pressure is not suitable for grading severity (EAU, strong recommendation). Treatment depends on bother, the result of pelvic floor training and a shared decision."
+            },
+            "C": {
+              "text": "Below 100 cmH2O: sphincter weakness, so only bulking therapy is possible",
+              "rationale": "No cut-off that dictates a particular treatment is established; the EAU advises against using leak point pressures for grading. Bulking agents are also less effective than other surgical procedures."
+            },
+            "D": {
+              "text": "The value cannot be used, because Pdet does not rise during straining",
+              "rationale": "That is exactly what defines an abdominal leak point pressure: abdominal pressure rises while the detrusor stays quiet. Leakage with a rise in Pdet would point to detrusor overactivity."
+            }
+          },
+          "explanation": {
+            "core": "The abdominal leak point pressure is the lowest intentionally increased bladder pressure that provokes leakage in the absence of a detrusor contraction (IUGA/ICS); the ICS asks for the type of provocation and the recording site to be reported. The tracing also shows urodynamic stress incontinence: at 200 ml the cough tests stay dry, from 250 ml urine leaks with every cough without a rise in Pdet, and there is no detrusor overactivity. Neither urethral pressure profilometry nor leak point pressure should be used to grade severity (EAU, strong recommendation). With normal emptying (Qmax 28 ml/s, PdetQmax 18 cmH2O, residual 20 ml) and pelvic floor training exhausted, midurethral sling, colposuspension, autologous sling and the less effective bulking agents are chosen in a shared decision.",
+            "teaching_point": "The leak point pressure confirms stress leakage but does not grade its severity."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 52 años que pierde orina al toser, estornudar y correr desde su segundo parto. Seis meses de entrenamiento supervisado del suelo pélvico la mejoraron, pero sigue insatisfecha. A veces nota urgencia, sin escape. Sedimento normal, residuo posmiccional 15 ml, sin prolapso relevante. Quiere una solución quirúrgica; por los síntomas de llenado añadidos se realizó antes una urodinámica con pruebas de tos y una maniobra de prensa abdominal entre 200 y 300 ml. Se muestra el trazado.",
+          "lead_in": "¿Cuál es la presión vesical en la marca de escape (E) durante la prensa abdominal y cómo se utiliza esta presión de punto de fuga?",
+          "options": {
+            "A": {
+              "text": "Una Pves de 95 cmH2O confirma el escape, pero no gradúa su gravedad",
+              "rationale": "Al empujar el escape empieza con una Pves de 95 cmH2O. El valor documenta el escape de esfuerzo, pero la EAU desaconseja usar el perfil de presión uretral o la presión de punto de fuga para graduar la gravedad (recomendación fuerte). La ICS pide indicar el tipo de provocación y el lugar de medida."
+            },
+            "B": {
+              "text": "Por encima de 90 cmH2O: incontinencia leve, no hace falta operar",
+              "rationale": "La presión de punto de fuga no sirve para graduar la gravedad (EAU, recomendación fuerte). El tratamiento depende de la molestia, del resultado del entrenamiento del suelo pélvico y de una decisión compartida."
+            },
+            "C": {
+              "text": "Por debajo de 100 cmH2O: debilidad esfinteriana, así que solo cabe un agente de relleno",
+              "rationale": "No existe un umbral demostrado que imponga un tratamiento concreto; la EAU desaconseja usar las presiones de punto de fuga para graduar. Además, los agentes de relleno son menos eficaces que otras técnicas quirúrgicas."
+            },
+            "D": {
+              "text": "El valor no es utilizable, porque la Pdet no sube al empujar",
+              "rationale": "Eso es justamente lo que define una presión de punto de fuga abdominal: sube la presión abdominal y el detrusor sigue en reposo. Un escape con subida de la Pdet indicaría hiperactividad del detrusor."
+            }
+          },
+          "explanation": {
+            "core": "La presión de punto de fuga abdominal es la menor presión vesical aumentada de forma intencionada que provoca un escape sin contracción del detrusor (IUGA/ICS); la ICS pide indicar el tipo de provocación y el lugar de medida. El trazado muestra además la incontinencia urodinámica de esfuerzo: a 200 ml las pruebas de tos son secas, desde 250 ml sale orina con cada tos sin subida de la Pdet y no hay hiperactividad del detrusor. Ni el perfil de presión uretral ni la presión de punto de fuga deben usarse para graduar la gravedad (EAU, recomendación fuerte). Con un vaciado normal (Qmax 28 ml/s, PdetQmax 18 cmH2O, residuo 20 ml) y agotado el entrenamiento del suelo pélvico, se decide de forma compartida entre cinta mediouretral, colposuspensión, cabestrillo autólogo y los agentes de relleno, menos eficaces.",
+            "teaching_point": "La presión de punto de fuga confirma el escape de esfuerzo, pero no gradúa su gravedad."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-27",
+          "method": "Antwortoptionen und Begründungen aus den Spieltexten übernommen, übrige Texte parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-27",
+          "method": "Antwortoptionen und Begründungen aus den Spieltexten übernommen, übrige Texte parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-udy-00015",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "urodynamik",
+        "subdomain": "Mischinkontinenz",
+        "tags": [
+          "diagnostik",
+          "leitlinie",
+          "pruefungsrelevant-hoch"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "EAU Pocket Guidelines on Non-neurogenic Female LUTS 2026",
+          "year": 2026,
+          "url": "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Female-LUTS-2026_2026-03-12-155317_rckt.pdf",
+          "accessed": "2026-10-26"
+        },
+        {
+          "type": "leitlinie",
+          "title": "An International Urogynecological Association (IUGA)/International Continence Society (ICS) joint report on the terminology for female pelvic floor dysfunction",
+          "citation": "Haylen BT et al. Neurourol Urodyn 2010;29:4–20",
+          "year": 2010,
+          "url": "https://thepogp.co.uk/_userfiles/pages/files/haylen.pdf",
+          "accessed": "2026-10-27"
+        },
+        {
+          "type": "leitlinie",
+          "title": "International Continence Society Good Urodynamic Practices and Terms 2016: urodynamics, uroflowmetry, cystometry, and pressure-flow study",
+          "citation": "Rosier PFWM et al. Neurourol Urodyn 2017;36:1243–1260",
+          "year": 2017,
+          "url": "https://www.ics.org/folder/standardisation/current-ics-standardisations/d/international-continence-society-good-urodynamic-practices-and-terms-2016-urodynamics-uroflowmetry-cystometry-and-pressure-flow-study/download",
+          "accessed": "2026-10-26"
+        }
+      ],
+      "review": {
+        "created": "2026-10-27",
+        "editorial_review": {
+          "date": "2026-10-27",
+          "method": "Aus einem Kurvenfall des Urodynamik-Labors von Residency-Game-DE erstellt; Antwortoptionen und Begründungen wie im Spiel, Quellen am 26.10.2026 geprüft; zwei unabhängige KI-Prüfungen (klinischer Inhalt und Messkurven), deren Befunde am 27.10.2026 an den Primärquellen nachgeprüft und eingearbeitet wurden",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neue Kurvenfrage im Abschnitt Urodynamik.",
+        "revision": {
+          "date": "2026-10-27",
+          "reason": "Neue Frage: Kurvenfall aus dem Urodynamik-Labor von Residency-Game-DE.",
+          "requires_review": true
+        }
+      },
+      "companion_case": {
+        "repository": "Usubillaga/Residency-Game-DE",
+        "case_id": "udy-mixed-incontinence",
+        "step": "read"
+      },
+      "tracing": {
+        "case": "udy-mixed-incontinence",
+        "view": "fill",
+        "after": [
+          "read"
+        ],
+        "sha256": "0b5f2dda94e7bae2ad04ad8a0098ef3d3cedec5db2c6badca55b30abf39d4e39"
+      },
+      "content": {
+        "de": {
+          "vignette": "56-jährige Frau, die beim Husten und beim Tennis Urin verliert, aber auch, wenn sie den Schlüssel ins Türschloss steckt und es plötzlich pressiert. Miktionstagebuch über drei Tage: neun Miktionen am Tag, täglich zwei bis drei Belastungs- und eine Dranginkontinenz-Episode. Am meisten stört sie der Urinverlust beim Sport. Urinstatus unauffällig, Restharn 25 ml, kein Deszensus. Zur Abklärung der Mischinkontinenz wurde eine Urodynamik durchgeführt. Die Messkurve ist abgebildet.",
+          "lead_in": "Welche Formen des Urinverlusts zeigt die Füllphase?",
+          "options": {
+            "A": {
+              "text": "Nur Dranginkontinenz; die Hustenleckagen sind Füllungsartefakte",
+              "rationale": "Die Leckagen treten reproduzierbar genau mit den Hustenstößen auf und werden vom Flussmesser registriert. Das ist urodynamische Belastungsinkontinenz, kein Artefakt."
+            },
+            "B": {
+              "text": "Nur Belastungsinkontinenz; die Welle bei 180 ml ist ein Hustenartefakt",
+              "rationale": "Bei 180 ml wird nicht gehustet: Pves steigt ohne Pabd in einer etwa 20 Sekunden langen Welle an, mit Drang und Leckage. Ein Husten wäre eine kurze, gleich hohe Spitze in beiden Leitungen."
+            },
+            "C": {
+              "text": "Beide: Leckage mit Detrusorwelle bei 180 ml und beim Husten ab 250 ml",
+              "rationale": "Bei 180 ml steigt Pdet ohne Husten auf 34 cmH2O, sie meldet Drang, und der Flussmesser zeigt eine Leckage – Detrusorüberaktivitäts-Inkontinenz. Ab 250 ml verliert sie mit jedem Husten Urin, während Pdet flach bleibt – urodynamische Belastungsinkontinenz. Beide Befunde zusammen sind das urodynamische Korrelat ihrer Mischinkontinenz."
+            },
+            "D": {
+              "text": "Hustenassoziierte Überaktivität: Jeder Husten löst eine Detrusorwelle mit Leckage aus",
+              "rationale": "Nach den Hustenstößen bei 250 und 290 ml bleibt Pdet flach; die Leckage folgt dem Hustenstoß unmittelbar. Die Welle bei 180 ml entsteht ohne vorausgehenden Husten."
+            }
+          },
+          "explanation": {
+            "core": "Die Mischinkontinenz ist ein Symptom: Urinverlust mit Drang und bei Belastung, Niesen oder Husten. Die Urodynamik ordnet jede Leckage einzeln zu: Bei 180 ml steigt Pdet ohne vorausgehenden Husten in einer etwa 20 Sekunden langen Welle, mit Drang und Leckage (Detrusorüberaktivitäts-Inkontinenz); ab 250 ml folgt die Leckage unmittelbar jedem Hustenstoß bei flachem Pdet (urodynamische Belastungsinkontinenz). Eine hustenassoziierte Detrusorüberaktivität begänne dagegen unmittelbar nach dem Husten als Welle in Pdet. Die EAU empfiehlt, zuerst die störendste Komponente zu behandeln, beginnend mit angeleitetem Beckenbodentraining über mindestens drei Monate und Blasentraining, und vor einer Bandoperation aufzuklären, dass sie bei Mischinkontinenz seltener erfolgreich ist als bei reiner Belastungsinkontinenz.",
+            "teaching_point": "Bei Mischinkontinenz jede Leckage einzeln zuordnen: mit Pdet-Welle Überaktivität, mit Hustenspitze bei flachem Pdet Belastung."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 56-year-old woman leaks when she coughs and plays tennis, but also when she puts her key in the front door and suddenly has to go. Three-day bladder diary: nine voids a day, two to three stress and one urgency incontinence episode daily. The leakage during sport bothers her most. Urinalysis normal, post-void residual 25 ml, no prolapse. Urodynamics was performed to assess the mixed incontinence. The tracing is shown.",
+          "lead_in": "Which kinds of leakage does the filling phase show?",
+          "options": {
+            "A": {
+              "text": "Urgency incontinence only; the cough leaks are filling artefacts",
+              "rationale": "The leaks occur reproducibly with the coughs and are recorded by the flowmeter. This is urodynamic stress incontinence, not an artefact."
+            },
+            "B": {
+              "text": "Stress incontinence only; the wave at 180 ml is a cough artefact",
+              "rationale": "There is no cough at 180 ml: Pves rises without Pabd in a wave lasting about 20 seconds, with urgency and leakage. A cough would be a brief spike of equal height in both lines."
+            },
+            "C": {
+              "text": "Both: a detrusor wave with leakage at 180 ml, cough leaks from 250 ml",
+              "rationale": "At 180 ml Pdet rises to 34 cmH2O without a cough, she reports urgency and the flowmeter shows leakage – detrusor overactivity incontinence. From 250 ml she leaks with every cough while Pdet stays flat – urodynamic stress incontinence. Together, both findings are the urodynamic correlate of her mixed incontinence."
+            },
+            "D": {
+              "text": "Cough-associated overactivity: every cough triggers a detrusor wave with leakage",
+              "rationale": "After the coughs at 250 and 290 ml Pdet stays flat; the leakage follows the cough at once. The wave at 180 ml arises without a preceding cough."
+            }
+          },
+          "explanation": {
+            "core": "Mixed incontinence is a symptom: leakage with urgency and also with effort, sneezing or coughing. Urodynamics assigns each leak separately: at 180 ml Pdet rises without a preceding cough in a wave lasting about 20 seconds, with urgency and leakage (detrusor overactivity incontinence); from 250 ml the leakage follows every cough at once while Pdet stays flat (urodynamic stress incontinence). Cough-associated detrusor overactivity, by contrast, would start as a Pdet wave immediately after the cough. The EAU recommends treating the most bothersome component first, starting with supervised pelvic floor muscle training for at least three months and bladder training, and counselling before a sling that surgery is less successful in mixed than in pure stress incontinence.",
+            "teaching_point": "In mixed incontinence assign each leak: with a Pdet wave it is overactivity, with a cough spike and flat Pdet it is stress."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 56 años que pierde orina al toser y al jugar al tenis, pero también al meter la llave en la puerta de casa, cuando de repente tiene mucha prisa. Diario miccional de tres días: nueve micciones al día y, cada día, dos o tres episodios de escape de esfuerzo y uno de urgencia. Lo que más le molesta es el escape al hacer deporte. Sedimento normal, residuo posmiccional 25 ml, sin prolapso. Se realizó una urodinámica para estudiar la incontinencia mixta. Se muestra el trazado.",
+          "lead_in": "¿Qué tipos de escape muestra la fase de llenado?",
+          "options": {
+            "A": {
+              "text": "Solo incontinencia de urgencia; los escapes con la tos son artefactos del llenado",
+              "rationale": "Los escapes aparecen de forma reproducible con las toses y el flujómetro los registra. Es incontinencia urodinámica de esfuerzo, no un artefacto."
+            },
+            "B": {
+              "text": "Solo incontinencia de esfuerzo; la onda a 180 ml es un artefacto de tos",
+              "rationale": "A los 180 ml no hay tos: la Pves sube sin la Pabd en una onda de unos 20 segundos, con urgencia y escape. Una tos sería un pico breve y de igual altura en ambas líneas."
+            },
+            "C": {
+              "text": "Ambos: escape con una onda del detrusor a 180 ml y con la tos desde 250 ml",
+              "rationale": "A 180 ml la Pdet sube a 34 cmH2O sin tos, refiere urgencia y el flujómetro muestra un escape: incontinencia por hiperactividad del detrusor. Desde 250 ml pierde orina con cada tos mientras la Pdet sigue plana: incontinencia urodinámica de esfuerzo. Juntos, ambos hallazgos son el correlato urodinámico de su incontinencia mixta."
+            },
+            "D": {
+              "text": "Hiperactividad asociada a la tos: cada tos desencadena una onda del detrusor con escape",
+              "rationale": "Tras las toses a 250 y 290 ml la Pdet sigue plana; el escape sigue de inmediato a la tos. La onda a 180 ml aparece sin una tos previa."
+            }
+          },
+          "explanation": {
+            "core": "La incontinencia mixta es un síntoma: pérdida de orina con urgencia y también con el esfuerzo, al estornudar o al toser. La urodinámica asigna cada escape por separado: a los 180 ml la Pdet sube sin tos previa en una onda de unos 20 segundos, con urgencia y escape (incontinencia por hiperactividad del detrusor); desde 250 ml el escape sigue de inmediato a cada tos con la Pdet plana (incontinencia urodinámica de esfuerzo). En cambio, una hiperactividad del detrusor asociada a la tos empezaría como una onda de Pdet justo después de la tos. La EAU recomienda tratar primero el componente más molesto, empezando por un entrenamiento supervisado del suelo pélvico de al menos tres meses y entrenamiento vesical, e informar antes de una cinta de que la cirugía tiene menos éxito en la incontinencia mixta que en la de esfuerzo pura.",
+            "teaching_point": "En la incontinencia mixta, asignar cada escape: con onda de Pdet es hiperactividad; con pico de tos y Pdet plana, esfuerzo."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-27",
+          "method": "Antwortoptionen und Begründungen aus den Spieltexten übernommen, übrige Texte parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-27",
+          "method": "Antwortoptionen und Begründungen aus den Spieltexten übernommen, übrige Texte parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-udy-00016",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "urodynamik",
+        "subdomain": "Neurourologie",
+        "tags": [
+          "diagnostik",
+          "notfall",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 4,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": true
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "EAU Guidelines on Neuro-Urology 2026",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/neuro-urology/chapter/the-guideline",
+          "accessed": "2026-10-26"
+        },
+        {
+          "type": "artikel",
+          "title": "Autonomic dysreflexia",
+          "citation": "Cragg J, Krassioukov A. CMAJ 2012;184:66",
+          "year": 2012,
+          "url": "https://www.cmaj.ca/content/184/1/66",
+          "accessed": "2026-10-27"
+        },
+        {
+          "type": "leitlinie",
+          "title": "CAN-SCIP: autonomic dysreflexia during cystoscopic and urodynamic procedures (from the PVA clinical practice guideline 2020)",
+          "year": 2020,
+          "url": "https://kite-uhn.com/can-scip/en/recommendations/autonomic-dysreflexia-and-cystoscopic",
+          "accessed": "2026-10-27"
+        }
+      ],
+      "review": {
+        "created": "2026-10-27",
+        "editorial_review": {
+          "date": "2026-10-27",
+          "method": "Aus einem Kurvenfall des Urodynamik-Labors von Residency-Game-DE erstellt; Antwortoptionen und Begründungen wie im Spiel, Quellen am 26.10.2026 geprüft; zwei unabhängige KI-Prüfungen (klinischer Inhalt und Messkurven), deren Befunde am 27.10.2026 an den Primärquellen nachgeprüft und eingearbeitet wurden",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neue Kurvenfrage im Abschnitt Urodynamik.",
+        "revision": {
+          "date": "2026-10-27",
+          "reason": "Neue Frage: Kurvenfall aus dem Urodynamik-Labor von Residency-Game-DE.",
+          "requires_review": true
+        }
+      },
+      "companion_case": {
+        "repository": "Usubillaga/Residency-Game-DE",
+        "case_id": "udy-neurogenic-overactivity-dsd",
+        "step": "read"
+      },
+      "tracing": {
+        "case": "udy-neurogenic-overactivity-dsd",
+        "view": "all",
+        "after": [
+          "read",
+          "dysreflexia"
+        ],
+        "view_after": "contraction",
+        "sha256": "bfcfdf685ea2185e190f55c8866d4d97f78fc6c16903eac76a6eeda2e1a953eb"
+      },
+      "content": {
+        "de": {
+          "vignette": "29-jähriger Mann mit kompletter Querschnittlähmung unterhalb Th4 seit einem Motorradunfall vor 18 Monaten. Er entleert die Blase durch Beklopfen des Unterbauchs in ein Kondomurinal und hatte zwei fieberhafte Harnwegsinfekte; sonographisch sind beide Nierenbecken leicht erweitert. Die Handfunktion ist gut. Zur Planung des Blasenmanagements läuft eine Videozystometrie im Liegen mit 18 ml/min (Körpergewicht 72 kg); Blutdruck und Puls werden fortlaufend gemessen. Die Messkurve ist abgebildet.",
+          "lead_in": "Was zeigen Pdet, Sphinkter-EMG und Flusskanal während der Füllung?",
+          "options": {
+            "A": {
+              "text": "Verminderte Compliance: stetiger Druckanstieg bis 85 cmH2O",
+              "rationale": "Der Druck steigt nicht stetig, sondern in zwei Wellen und fällt dazwischen auf die Grundlinie zurück – das sind phasische Kontraktionen."
+            },
+            "B": {
+              "text": "Neurogene Überaktivität mit Detrusor-Sphinkter-Dyssynergie und stoßweiser Leckage",
+              "rationale": "Ohne Empfindung steigt Pdet bei 110 ml auf 48 und ab 140 ml auf 85 cmH2O. Während der Kontraktionen nimmt das Sphinkter-EMG zu, statt zu verstummen, und der Urin entweicht nur in kurzen Stößen. Das ist das Bild der Detrusor-Sphinkter-Dyssynergie bei einer Läsion oberhalb des Sakralmarks – mit hohen Drücken, die die oberen Harnwege gefährden."
+            },
+            "C": {
+              "text": "Synergische Reflexmiktion: Der Sphinkter öffnet sich mit jeder Detrusorkontraktion",
+              "rationale": "Dann würde das EMG während der Kontraktion verstummen und der Urin gleichmäßig fließen. Hier steigt das EMG an, und der Fluss ist mehrfach unterbrochen."
+            },
+            "D": {
+              "text": "Bauchpresse: Pves steigt, weil er kräftig gegen den Katheter presst",
+              "rationale": "Bei kompletter Lähmung unterhalb Th4 kann er nicht willkürlich pressen; Pabd bleibt flach, und der Anstieg steht in Pdet."
+            }
+          },
+          "explanation": {
+            "core": "Bei einer Rückenmarksläsion oberhalb des Sakralmarks zeigt die Urodynamik häufig eine neurogene Detrusorüberaktivität mit Detrusor-Sphinkter-Dyssynergie: Detrusorkontraktionen ohne Empfindung, während derer das Sphinkter-EMG zunimmt, und eine nur stoßweise Leckage. Speicherdrücke wie hier bis 85 cmH2O gefährden die oberen Harnwege. Bei Läsionen in Höhe von Th6 oder darüber werden Blutdruck und Puls mitgemessen, weil die Blasenfüllung eine autonome Dysreflexie auslösen kann; in dieser Messung steigt der Blutdruck während der zweiten Kontraktion auf 178/96 mmHg. Dann wird die Füllung gestoppt, die Blase über den Messkatheter entleert und der Blutdruck mindestens alle 2 Minuten gemessen; sinkt er nicht, wird die Untersuchung beendet und der Patient aufgesetzt. Ziel der weiteren Behandlung ist ein niedriger Blasendruck, in erster Linie mit Antimuskarinikum und intermittierendem Katheterismus, bei unzureichender Wirkung mit Botulinumtoxin.",
+            "teaching_point": "Querschnitt oberhalb des Sakralmarks: Pdet-Welle ohne Empfindung bei steigendem Sphinkter-EMG ist Dyssynergie – und ab Th6 läuft der Blutdruck mit."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 29-year-old man has had a complete spinal cord injury below T4 since a motorcycle accident 18 months ago. He empties his bladder by tapping his lower abdomen into a condom catheter and has had two febrile urinary tract infections; ultrasound shows mild dilatation of both renal pelves. Hand function is good. To plan his bladder management, a supine video-cystometry is running at 18 ml/min (body weight 72 kg); blood pressure and pulse are monitored continuously. The tracing is shown.",
+          "lead_in": "What do Pdet, the sphincter EMG and the flow channel show during filling?",
+          "options": {
+            "A": {
+              "text": "Low compliance: a steady rise in bladder pressure up to 85 cmH2O",
+              "rationale": "The pressure does not rise steadily but in two waves and returns to baseline in between – these are phasic contractions."
+            },
+            "B": {
+              "text": "Neurogenic overactivity with detrusor–sphincter dyssynergia, leakage in spurts",
+              "rationale": "Without any sensation Pdet rises to 48 at 110 ml and to 85 cmH2O from 140 ml. During the contractions the sphincter EMG increases instead of falling silent, and urine escapes only in short spurts. This is detrusor–sphincter dyssynergia with a lesion above the sacral cord – with high pressures that endanger the upper tracts."
+            },
+            "C": {
+              "text": "Synergic reflex voiding: the sphincter relaxes and opens with every contraction",
+              "rationale": "In that case the EMG would fall silent during the contraction and urine would flow steadily. Here the EMG rises and the flow is interrupted several times."
+            },
+            "D": {
+              "text": "Abdominal straining: Pves rises because he strains hard against the catheter",
+              "rationale": "With complete paralysis below T4 he cannot strain voluntarily; Pabd stays flat and the rise is in Pdet."
+            }
+          },
+          "explanation": {
+            "core": "With a spinal cord lesion above the sacral cord, urodynamics often shows neurogenic detrusor overactivity with detrusor–sphincter dyssynergia: detrusor contractions without sensation, during which the sphincter EMG increases, and leakage only in spurts. Storage pressures of up to 85 cmH2O, as here, endanger the upper tracts. With lesions at or above T6, blood pressure and pulse are monitored because bladder filling can trigger autonomic dysreflexia; in this study blood pressure rises to 178/96 mmHg during the second contraction. Filling is then stopped, the bladder is drained through the measuring catheter and blood pressure is measured at least every 2 minutes; if it does not fall, the study is ended and the patient is sat up. Further treatment aims at low bladder pressure, first with an antimuscarinic and intermittent catheterisation, and with botulinum toxin if this is not enough.",
+            "teaching_point": "Spinal cord injury above the sacral cord: a Pdet wave without sensation with a rising sphincter EMG is dyssynergia – and from T6 upwards blood pressure is monitored."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 29 años con una lesión medular completa por debajo de T4 desde un accidente de moto hace 18 meses. Vacía la vejiga mediante percusión suprapúbica hacia un colector urinario externo (tipo preservativo) y ha tenido dos infecciones urinarias febriles; en la ecografía ambas pelvis renales están algo dilatadas. La función de las manos es buena. Para planificar el manejo vesical se está realizando una videocistometría en decúbito supino a 18 ml/min (peso 72 kg), con control continuo de presión arterial y pulso. Se muestra el trazado.",
+          "lead_in": "¿Qué muestran la Pdet, el EMG esfinteriano y el canal de flujo durante el llenado?",
+          "options": {
+            "A": {
+              "text": "Distensibilidad baja: subida continua de la presión hasta 85 cmH2O",
+              "rationale": "La presión no sube de forma continua, sino en dos ondas, y entre ellas vuelve a la línea basal: son contracciones fásicas."
+            },
+            "B": {
+              "text": "Hiperactividad neurógena con disinergia detrusor-esfínter y escape a borbotones",
+              "rationale": "Sin ninguna sensación, la Pdet sube a 48 a los 110 ml y a 85 cmH2O desde los 140 ml. Durante las contracciones el EMG esfinteriano aumenta en vez de silenciarse y la orina sale solo a borbotones breves. Es la disinergia detrusor-esfínter de una lesión por encima de la médula sacra, con presiones altas que ponen en riesgo el tracto urinario superior."
+            },
+            "C": {
+              "text": "Micción refleja sinérgica: el esfínter se relaja y se abre con cada contracción del detrusor",
+              "rationale": "En ese caso el EMG se silenciaría durante la contracción y la orina fluiría de forma continua. Aquí el EMG aumenta y el flujo se interrumpe varias veces."
+            },
+            "D": {
+              "text": "Prensa abdominal: la Pves sube porque él empuja con fuerza contra la sonda",
+              "rationale": "Con una parálisis completa por debajo de T4 no puede empujar voluntariamente; la Pabd sigue plana y la subida está en la Pdet."
+            }
+          },
+          "explanation": {
+            "core": "En una lesión medular por encima de la médula sacra, la urodinámica muestra a menudo hiperactividad neurógena del detrusor con disinergia detrusor-esfínter: contracciones del detrusor sin sensación, durante las cuales aumenta el EMG esfinteriano, y escape solo a borbotones. Presiones de almacenamiento de hasta 85 cmH2O, como aquí, ponen en riesgo el tracto urinario superior. En lesiones a nivel de T6 o por encima se vigilan la presión arterial y el pulso, porque el llenado vesical puede desencadenar una disreflexia autonómica; en este estudio la presión arterial sube a 178/96 mmHg durante la segunda contracción. Entonces se detiene el llenado, se vacía la vejiga por la sonda de medición y se mide la presión arterial al menos cada 2 minutos; si no baja, se termina la exploración y se incorpora al paciente. El tratamiento posterior busca una presión vesical baja, primero con un antimuscarínico y cateterismo intermitente y, si no basta, con toxina botulínica.",
+            "teaching_point": "Lesión medular por encima de la médula sacra: una onda de Pdet sin sensación con EMG esfinteriano en aumento es disinergia; desde T6, se vigila la presión arterial."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-27",
+          "method": "Antwortoptionen und Begründungen aus den Spieltexten übernommen, übrige Texte parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-27",
+          "method": "Antwortoptionen und Begründungen aus den Spieltexten übernommen, übrige Texte parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-udy-00017",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "urodynamik",
+        "subdomain": "Detrusorunteraktivität",
+        "tags": [
+          "diagnostik",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": true
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "EAU Pocket Guidelines on Non-neurogenic Female LUTS 2026",
+          "year": 2026,
+          "url": "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Female-LUTS-2026_2026-03-12-155317_rckt.pdf",
+          "accessed": "2026-10-26"
+        },
+        {
+          "type": "leitlinie",
+          "title": "EAU Guidelines on Neuro-Urology 2026",
+          "year": 2026,
+          "url": "https://uroweb.org/guidelines/neuro-urology/chapter/the-guideline",
+          "accessed": "2026-10-26"
+        },
+        {
+          "type": "leitlinie",
+          "title": "An International Urogynecological Association (IUGA)/International Continence Society (ICS) joint report on the terminology for female pelvic floor dysfunction",
+          "citation": "Haylen BT et al. Neurourol Urodyn 2010;29:4–20",
+          "year": 2010,
+          "url": "https://thepogp.co.uk/_userfiles/pages/files/haylen.pdf",
+          "accessed": "2026-10-27"
+        }
+      ],
+      "review": {
+        "created": "2026-10-27",
+        "editorial_review": {
+          "date": "2026-10-27",
+          "method": "Aus einem Kurvenfall des Urodynamik-Labors von Residency-Game-DE erstellt; Antwortoptionen und Begründungen wie im Spiel, Quellen am 26.10.2026 geprüft; zwei unabhängige KI-Prüfungen (klinischer Inhalt und Messkurven), deren Befunde am 27.10.2026 an den Primärquellen nachgeprüft und eingearbeitet wurden",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neue Kurvenfrage im Abschnitt Urodynamik.",
+        "revision": {
+          "date": "2026-10-27",
+          "reason": "Neue Frage: Kurvenfall aus dem Urodynamik-Labor von Residency-Game-DE.",
+          "requires_review": true
+        }
+      },
+      "companion_case": {
+        "repository": "Usubillaga/Residency-Game-DE",
+        "case_id": "udy-acontractile-detrusor-straining",
+        "step": "void"
+      },
+      "tracing": {
+        "case": "udy-acontractile-detrusor-straining",
+        "view": "void",
+        "after": [
+          "void",
+          "later"
+        ],
+        "sha256": "6c921e5a76a723e16696f5fbefa46d8062f138449031b18b232a4d9cff329e7d"
+      },
+      "content": {
+        "de": {
+          "vignette": "64-jährige Frau mit Typ-2-Diabetes und Polyneuropathie seit 20 Jahren. Sie muss zum Wasserlassen kräftig pressen, spürt die volle Blase spät und hatte im letzten Jahr drei Harnwegsinfekte. Sonographischer Restharn zweimal 350–400 ml, kein relevanter Deszensus, Urethrozystoskopie ohne Enge. Handfunktion und Sehvermögen sind gut. Zur Klärung der Entleerungsstörung wurde eine Druck-Fluss-Messung durchgeführt. Die Messkurve ist abgebildet.",
+          "lead_in": "Woher kommt in der Miktionsphase der Druck, und wann fließt Urin?",
+          "options": {
+            "A": {
+              "text": "Normale Detrusorkontraktion; der Fluss ist durch Hustenartefakte unterbrochen",
+              "rationale": "In der Miktion gibt es keine Detrusorwelle, und die Druckanstiege dauern mehrere Sekunden – das ist Pressen, kein Husten."
+            },
+            "B": {
+              "text": "Detrusor-Sphinkter-Dyssynergie mit wiederholt unterbrochenem Harnstrahl",
+              "rationale": "Eine Dyssynergie setzt eine Detrusorkontraktion voraus, gegen die der Sphinkter arbeitet. Hier kontrahiert der Detrusor nicht, und das EMG nimmt nicht zu."
+            },
+            "C": {
+              "text": "Hochdruck-Obstruktion: Pves steigt bei der Miktion auf über 100 cmH2O",
+              "rationale": "Der hohe Pves-Wert stammt aus dem Bauch: Pabd steigt gleich mit, Pdet bleibt unter 10 cmH2O. Ohne Detrusordruck lässt sich eine Obstruktion nicht beurteilen."
+            },
+            "D": {
+              "text": "Akontraktiler Detrusor: Fluss nur beim Pressen, Pves und Pabd steigen mit",
+              "rationale": "Nach der Miktionserlaubnis steigt Pdet nicht an. Jede Flussportion fällt mit einem gemeinsamen Anstieg von Pves und Pabd zusammen – Bauchpresse. Qmax 8 ml/s nur beim Pressen, Miktionsvolumen 230 ml, Restharn 600 − 230 = 370 ml."
+            }
+          },
+          "explanation": {
+            "core": "In der Miktionsphase wird zuerst geprüft, woher der Druck kommt: Steigen Pves und Pabd gemeinsam, ist es Bauchpresse, und Pdet bleibt flach. Hier steigt Pdet nach der Miktionserlaubnis nicht an, und Urin fließt nur in Portionen, solange sie presst. Ein hoher Pves beweist dann keine Obstruktion, und ohne Detrusorkontraktion gibt es auch keine Dyssynergie. Das entspricht einem akontraktilen Detrusor: Eine Kontraktion ist in der Messung nicht nachweisbar, die Entleerung bleibt unvollständig (IUGA/ICS). Die Empfindungen kommen spät (erstes Füllungsgefühl bei 300 ml, erster Harndrang erst bei 450 ml, Kapazität 600 ml). Behandelt wird mit intermittierendem Selbstkatheterismus nach der Uhr statt nach dem späten Drang, in der Regel vier- bis sechsmal täglich mit höchstens 400–500 ml; Parasympathomimetika empfiehlt die EAU bei unteraktiver Blase nicht routinemäßig, und Frauen, die zur Entleerung pressen, sollen über das Prolapsrisiko aufgeklärt werden.",
+            "teaching_point": "Ein hoher Pves bei der Miktion ist keine Obstruktion, wenn Pabd mitsteigt: erst Pdet lesen, dann deuten."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 64-year-old woman has had type 2 diabetes with polyneuropathy for 20 years. She has to strain hard to pass urine, senses a full bladder late and had three urinary tract infections last year. Ultrasound residual twice 350–400 ml, no relevant prolapse, urethrocystoscopy without narrowing. Hand function and eyesight are good. A pressure-flow study was performed to clarify the voiding problem. The tracing is shown.",
+          "lead_in": "During the voiding phase, where does the pressure come from, and when does urine flow?",
+          "options": {
+            "A": {
+              "text": "Normal detrusor contraction; the flow is interrupted by cough artefacts",
+              "rationale": "There is no detrusor wave during the void, and the pressure rises last several seconds – that is straining, not coughing."
+            },
+            "B": {
+              "text": "Detrusor–sphincter dyssynergia with repeatedly interrupted flow",
+              "rationale": "Dyssynergia requires a detrusor contraction against which the sphincter works. Here the detrusor does not contract and the EMG does not increase."
+            },
+            "C": {
+              "text": "High-pressure obstruction: Pves rises to over 100 cmH2O when voiding",
+              "rationale": "The high Pves comes from the abdomen: Pabd rises with it and Pdet stays below 10 cmH2O. Without detrusor pressure, obstruction cannot be assessed."
+            },
+            "D": {
+              "text": "Acontractile detrusor: flow only with straining as Pves and Pabd rise",
+              "rationale": "After permission to void Pdet does not rise. Every portion of flow coincides with a joint rise of Pves and Pabd – abdominal straining. Qmax 8 ml/s only while straining, voided volume 230 ml, residual 600 − 230 = 370 ml."
+            }
+          },
+          "explanation": {
+            "core": "In the voiding phase, first check where the pressure comes from: if Pves and Pabd rise together, it is abdominal straining and Pdet stays flat. Here Pdet does not rise after permission to void, and urine flows only in portions while she strains. A high Pves then proves no obstruction, and without a detrusor contraction there is no dyssynergia either. This corresponds to an acontractile detrusor: no contraction can be observed during the study, and emptying remains incomplete (IUGA/ICS). Sensations come late (first sensation at 300 ml, first desire only at 450 ml, capacity 600 ml). Treatment is intermittent self-catheterisation by the clock rather than by the late urge, usually four to six times a day with no more than 400–500 ml; the EAU does not recommend parasympathomimetics routinely for underactive bladder, and women who strain to empty should be counselled about the risk of prolapse.",
+            "teaching_point": "A high Pves during voiding is not obstruction when Pabd rises with it: read Pdet first, then interpret."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Mujer de 64 años con diabetes tipo 2 y polineuropatía desde hace 20 años. Tiene que empujar con fuerza para orinar, nota tarde la vejiga llena y el último año tuvo tres infecciones urinarias. Residuo ecográfico de 350–400 ml en dos ocasiones, sin prolapso relevante, uretrocistoscopia sin estrechez. Buena función manual y buena vista. Se realizó un estudio presión-flujo para aclarar el trastorno de vaciado. Se muestra el trazado.",
+          "lead_in": "En la fase miccional, ¿de dónde viene la presión y cuándo fluye la orina?",
+          "options": {
+            "A": {
+              "text": "Contracción normal del detrusor; el flujo está interrumpido por artefactos de tos",
+              "rationale": "Durante la micción no hay onda del detrusor, y las subidas de presión duran varios segundos: es prensa abdominal, no tos."
+            },
+            "B": {
+              "text": "Disinergia detrusor-esfínter con chorro interrumpido repetidamente",
+              "rationale": "La disinergia requiere una contracción del detrusor contra la que trabaje el esfínter. Aquí el detrusor no se contrae y el EMG no aumenta."
+            },
+            "C": {
+              "text": "Obstrucción de alta presión: la Pves sube a más de 100 cmH2O al orinar",
+              "rationale": "La Pves alta procede del abdomen: la Pabd sube con ella y la Pdet queda por debajo de 10 cmH2O. Sin presión del detrusor no se puede valorar una obstrucción."
+            },
+            "D": {
+              "text": "Detrusor acontráctil: flujo solo al empujar, Pves y Pabd suben a la vez",
+              "rationale": "Tras el permiso para orinar la Pdet no sube. Cada porción de flujo coincide con una subida conjunta de Pves y Pabd: prensa abdominal. Qmax 8 ml/s solo al empujar, volumen miccional 230 ml, residuo 600 − 230 = 370 ml."
+            }
+          },
+          "explanation": {
+            "core": "En la fase miccional se comprueba primero de dónde viene la presión: si Pves y Pabd suben juntas, es prensa abdominal y la Pdet sigue plana. Aquí la Pdet no sube tras el permiso para orinar y la orina solo fluye a porciones mientras empuja. Una Pves alta no demuestra entonces ninguna obstrucción, y sin contracción del detrusor tampoco hay disinergia. Corresponde a un detrusor acontráctil: no se observa ninguna contracción durante el estudio y el vaciado queda incompleto (IUGA/ICS). Las sensaciones llegan tarde (primera sensación a 300 ml, primer deseo solo a 450 ml, capacidad 600 ml). El tratamiento es el autocateterismo intermitente según el reloj y no según el deseo tardío, habitualmente de cuatro a seis veces al día y sin superar 400–500 ml; la EAU no recomienda de rutina los parasimpaticomiméticos en la vejiga hipoactiva, y hay que informar a las mujeres que empujan para vaciar del riesgo de prolapso.",
+            "teaching_point": "Una Pves alta al orinar no es obstrucción si la Pabd sube con ella: leer primero la Pdet y después interpretar."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-27",
+          "method": "Antwortoptionen und Begründungen aus den Spieltexten übernommen, übrige Texte parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-27",
+          "method": "Antwortoptionen und Begründungen aus den Spieltexten übernommen, übrige Texte parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-udy-00018",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "urodynamik",
+        "subdomain": "Uroflowmetrie",
+        "tags": [
+          "diagnostik",
+          "bildgebung",
+          "leitlinie"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 2,
+      "options": [
+        {
+          "key": "A",
+          "correct": true
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": false
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "EAU Guidelines on Urethral Strictures 2026",
+          "year": 2026,
+          "url": "https://d56bochluxqnz.cloudfront.net/documents/full-guideline/EAU-Guidelines-on-Urethral-Strictures-2026.pdf",
+          "accessed": "2026-10-26"
+        },
+        {
+          "type": "leitlinie",
+          "title": "EAU Pocket Guidelines on Urethral Strictures 2026",
+          "year": 2026,
+          "url": "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Urethral-Strictures-2026.pdf",
+          "accessed": "2026-10-26"
+        }
+      ],
+      "review": {
+        "created": "2026-10-27",
+        "editorial_review": {
+          "date": "2026-10-27",
+          "method": "Aus einem Kurvenfall des Urodynamik-Labors von Residency-Game-DE erstellt; Antwortoptionen und Begründungen wie im Spiel, Quellen am 26.10.2026 geprüft; zwei unabhängige KI-Prüfungen (klinischer Inhalt und Messkurven), deren Befunde am 27.10.2026 an den Primärquellen nachgeprüft und eingearbeitet wurden",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neue Kurvenfrage im Abschnitt Urodynamik.",
+        "revision": {
+          "date": "2026-10-27",
+          "reason": "Neue Frage: Kurvenfall aus dem Urodynamik-Labor von Residency-Game-DE.",
+          "requires_review": true
+        }
+      },
+      "companion_case": {
+        "repository": "Usubillaga/Residency-Game-DE",
+        "case_id": "udy-plateau-flow-stricture",
+        "step": "curve"
+      },
+      "tracing": {
+        "case": "udy-plateau-flow-stricture",
+        "view": "all",
+        "after": [
+          "curve"
+        ],
+        "sha256": "f912f959ff357996fb5f1df996d33443a6377ab84c85bdbc9a199c380e436587"
+      },
+      "content": {
+        "de": {
+          "vignette": "36-jähriger Mann, der seit einem Jahr einen zunehmend schwächeren Strahl, eine verlängerte Miktion und Nachträufeln bemerkt. Vor drei Jahren lag nach einem Unfall eine Woche lang ein transurethraler Katheter. Keine Harnwegsinfekte, Urinstatus unauffällig, Prostata klein, Restharn 40 ml. Die Uroflowmetrie ist abgebildet.",
+          "lead_in": "Wie ist die Flusskurve nach Form, Qmax, Miktionsvolumen und Flusszeit zu deuten?",
+          "options": {
+            "A": {
+              "text": "Plateaukurve mit niedrigem Qmax: Verdacht auf Harnröhrenstriktur",
+              "rationale": "Der Fluss steigt rasch auf etwa 9 ml/s und bleibt dann fast über die ganze Flusszeit von rund 38 Sekunden nahezu gleich; entleert werden 310 ml. Ein niedriger maximaler Fluss mit verlängertem Plateau ist charakteristisch für die konstriktive Obstruktion einer Harnröhrenstriktur."
+            },
+            "B": {
+              "text": "Unterbrochene Kurve: Entleerung durch wiederholte Bauchpresse",
+              "rationale": "Der Fluss läuft ohne Unterbrechung; beim Pressen entstünden einzelne, durch Pausen getrennte Flussportionen."
+            },
+            "C": {
+              "text": "Staccato-Kurve: Aktivität des Beckenbodens während der ganzen Miktion",
+              "rationale": "Eine Staccato-Kurve schwankt fortlaufend mit scharfen Spitzen und Tälern. Diese Kurve ist auffallend gleichförmig."
+            },
+            "D": {
+              "text": "Glockenkurve mit gutem Qmax: normale, unauffällige Miktion",
+              "rationale": "Eine Glockenkurve steigt rasch auf einen hohen Gipfel und fällt dann gleichmäßig ab. Hier fehlt der Gipfel; bei 310 ml ist ein Qmax von 9 ml/s zudem niedrig."
+            }
+          },
+          "explanation": {
+            "core": "Die Uroflowmetrie wird nach Form, Qmax, Miktionsvolumen und Flusszeit gelesen. Eine Plateaukurve – ein niedriger Qmax, der fast über die ganze Miktion gleich bleibt – ist nach der EAU charakteristisch für eine konstriktive Obstruktion wie die Harnröhrenstriktur; als verlässliches Screening gilt die Kurvenform aber nicht. Die Vorgeschichte mit transurethralem Katheter passt dazu. Lage und Länge der Enge zeigt die retrograde Urethrographie, bei (fast) verschlossener Enge zusammen mit einem Miktionszystourethrogramm (starke Empfehlungen). Erstmalige, einzelne, nicht verschlossene bulbäre Strikturen unter 2 cm können mit Urethrotomie oder Dilatation behandelt werden; ist eine Urethroplastik möglich, höchstens zweimal.",
+            "teaching_point": "Plateau statt Gipfel bei niedrigem Qmax: an eine Striktur denken und sie mit der Urethrographie lokalisieren."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 36-year-old man has noticed a weakening stream, prolonged voiding and post-void dribbling for a year. Three years ago, after an accident, he had a urethral catheter for one week. No urinary tract infections, urinalysis normal, small prostate, post-void residual 40 ml. The uroflowmetry is shown.",
+          "lead_in": "How should the flow curve be interpreted by shape, Qmax, voided volume and flow time?",
+          "options": {
+            "A": {
+              "text": "A plateau curve with low Qmax: suspected urethral stricture",
+              "rationale": "The flow rises quickly to about 9 ml/s and then stays almost level for nearly the whole flow time of about 38 seconds; 310 ml are voided. A reduced maximum flow with a prolonged plateau is characteristic of the constrictive obstruction of a urethral stricture."
+            },
+            "B": {
+              "text": "An interrupted curve: voiding by repeated straining",
+              "rationale": "The flow runs without interruption; straining would produce separate portions of flow divided by pauses."
+            },
+            "C": {
+              "text": "A staccato curve: pelvic floor activity throughout the void",
+              "rationale": "A staccato curve fluctuates continuously with sharp peaks and troughs. This curve is strikingly even."
+            },
+            "D": {
+              "text": "A bell-shaped curve with good Qmax: normal, unremarkable voiding",
+              "rationale": "A bell-shaped curve rises quickly to a high peak and then falls steadily. Here there is no peak, and a Qmax of 9 ml/s at 310 ml is low."
+            }
+          },
+          "explanation": {
+            "core": "Uroflowmetry is read by shape, Qmax, voided volume and flow time. According to the EAU, a plateau curve – a low Qmax that stays level for nearly the whole void – is characteristic of constrictive obstruction such as a urethral stricture, although the flow pattern is not a reliable screening tool. The history of a urethral catheter fits. Retrograde urethrography shows the location and length of the narrowing, combined with a voiding cystourethrogram for a (nearly) obliterated segment (strong recommendations). Primary, single, non-obliterative bulbar strictures below 2 cm can be treated by urethrotomy or dilatation; when urethroplasty is a viable option, at most twice.",
+            "teaching_point": "A plateau instead of a peak with a low Qmax: think of a stricture and locate it with urethrography."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 36 años que nota desde hace un año un chorro cada vez más débil, micciones prolongadas y goteo posmiccional. Hace tres años, tras un accidente, llevó una sonda uretral durante una semana. Sin infecciones urinarias, sedimento normal, próstata pequeña, residuo posmiccional 40 ml. Se muestra la flujometría.",
+          "lead_in": "¿Cómo se interpreta la curva de flujo según su forma, Qmax, volumen miccional y tiempo de flujo?",
+          "options": {
+            "A": {
+              "text": "Curva en meseta con Qmax bajo: sospecha de estenosis uretral",
+              "rationale": "El flujo sube rápido a unos 9 ml/s y luego se mantiene casi igual durante casi todo el tiempo de flujo de unos 38 segundos; se evacuan 310 ml. Un flujo máximo reducido con una meseta prolongada es característico de la obstrucción constrictiva de una estenosis uretral."
+            },
+            "B": {
+              "text": "Curva interrumpida: micción con prensa abdominal repetida",
+              "rationale": "El flujo es continuo; la prensa abdominal produciría porciones de flujo separadas por pausas."
+            },
+            "C": {
+              "text": "Curva en staccato: actividad del suelo pélvico durante toda la micción",
+              "rationale": "Una curva en staccato oscila continuamente con picos y valles marcados. Esta curva es llamativamente uniforme."
+            },
+            "D": {
+              "text": "Curva en campana con buen Qmax: micción normal, sin hallazgos",
+              "rationale": "Una curva en campana sube rápido hasta un pico alto y luego desciende de forma regular. Aquí no hay pico y, con 310 ml, un Qmax de 9 ml/s es bajo."
+            }
+          },
+          "explanation": {
+            "core": "La flujometría se lee por su forma, el Qmax, el volumen miccional y el tiempo de flujo. Según la EAU, una curva en meseta, con un Qmax bajo que se mantiene casi durante toda la micción, es característica de una obstrucción constrictiva como la estenosis uretral, aunque la forma de la curva no es una herramienta fiable de cribado. El antecedente de sonda uretral encaja. La uretrografía retrógrada muestra la localización y la longitud de la estrechez, junto con una cistouretrografía miccional si el segmento está (casi) ocluido (recomendaciones fuertes). Las estenosis bulbares primarias, únicas, no obliterantes y de menos de 2 cm pueden tratarse con uretrotomía o dilatación; si la uretroplastia es viable, como mucho dos veces.",
+            "teaching_point": "Meseta en lugar de pico con un Qmax bajo: pensar en una estenosis y localizarla con uretrografía."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-27",
+          "method": "Antwortoptionen und Begründungen aus den Spieltexten übernommen, übrige Texte parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-27",
+          "method": "Antwortoptionen und Begründungen aus den Spieltexten übernommen, übrige Texte parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
+          "clinical_signoff": false
+        }
+      }
+    },
+    {
+      "id": "uro-udy-00019",
+      "version": 1,
+      "status": "published",
+      "taxonomy": {
+        "domain": "urodynamik",
+        "subdomain": "Qualitätskontrolle und Artefakte",
+        "tags": [
+          "diagnostik",
+          "pruefungsrelevant-hoch"
+        ]
+      },
+      "type": "single_best_answer",
+      "difficulty_estimated": 3,
+      "options": [
+        {
+          "key": "A",
+          "correct": false
+        },
+        {
+          "key": "B",
+          "correct": false
+        },
+        {
+          "key": "C",
+          "correct": true
+        },
+        {
+          "key": "D",
+          "correct": false
+        }
+      ],
+      "evidence": {
+        "level": "Leitlinie",
+        "certainty": "etabliert",
+        "flag": false
+      },
+      "sources": [
+        {
+          "type": "leitlinie",
+          "title": "International Continence Society Good Urodynamic Practices and Terms 2016: urodynamics, uroflowmetry, cystometry, and pressure-flow study",
+          "citation": "Rosier PFWM et al. Neurourol Urodyn 2017;36:1243–1260",
+          "year": 2017,
+          "url": "https://www.ics.org/folder/standardisation/current-ics-standardisations/d/international-continence-society-good-urodynamic-practices-and-terms-2016-urodynamics-uroflowmetry-cystometry-and-pressure-flow-study/download",
+          "accessed": "2026-10-26"
+        },
+        {
+          "type": "studie",
+          "title": "Bladder outlet obstruction index, bladder contractility index and bladder voiding efficiency: three simple indices to define bladder voiding function",
+          "citation": "Abrams P. BJU Int 1999;84:14–15",
+          "year": 1999,
+          "url": "https://doi.org/10.1046/j.1464-410x.1999.00121.x",
+          "accessed": "2026-10-20"
+        },
+        {
+          "type": "leitlinie",
+          "title": "EAU Pocket Guidelines on Non-neurogenic Male LUTS 2026",
+          "year": 2026,
+          "url": "https://d56bochluxqnz.cloudfront.net/documents/pocket-guidelines/EAU-Pocket-on-Non-Neurogenic-Male-LUTS-2026.pdf",
+          "accessed": "2026-10-26"
+        }
+      ],
+      "review": {
+        "created": "2026-10-27",
+        "editorial_review": {
+          "date": "2026-10-27",
+          "method": "Aus einem Kurvenfall des Urodynamik-Labors von Residency-Game-DE erstellt; Antwortoptionen und Begründungen wie im Spiel, Quellen am 26.10.2026 geprüft; zwei unabhängige KI-Prüfungen (klinischer Inhalt und Messkurven), deren Befunde am 27.10.2026 an den Primärquellen nachgeprüft und eingearbeitet wurden",
+          "clinical_signoff": false
+        },
+        "reviewer": null,
+        "last_reviewed": null,
+        "clinical_review_status": "pending_independent_review",
+        "review_note": "Neue Kurvenfrage im Abschnitt Urodynamik.",
+        "revision": {
+          "date": "2026-10-27",
+          "reason": "Neue Frage: Kurvenfall aus dem Urodynamik-Labor von Residency-Game-DE.",
+          "requires_review": true
+        }
+      },
+      "companion_case": {
+        "repository": "Usubillaga/Residency-Game-DE",
+        "case_id": "udy-catheter-loss-repeat",
+        "step": "artefact"
+      },
+      "tracing": {
+        "case": "udy-catheter-loss-repeat",
+        "view": "void1",
+        "after": [
+          "artefact",
+          "next",
+          "repeat"
+        ],
+        "view_after": "all",
+        "sha256": "d1121470eab2a13029115c6ef7fab2883b40946592b659639af2d401e9d64f6d"
+      },
+      "content": {
+        "de": {
+          "vignette": "71-jähriger Mann mit prostatischem Urethralift vor zwei Jahren. Die Beschwerden sind zurück (IPSS 22), der Strahl ist schwach. Prostatavolumen 55 ml, freie Uroflowmetrie: Qmax 8 ml/s bei 240 ml, Restharn 60 ml. Vor einem erneuten Eingriff wird eine Druck-Fluss-Messung durchgeführt; die Pflegefachkraft ruft Sie während der ersten Miktion dazu. Die Messkurve ist abgebildet.",
+          "lead_in": "Was ist während der ersten Miktion passiert?",
+          "options": {
+            "A": {
+              "text": "Akontraktiler Detrusor: Pdet fällt während der Miktion ab",
+              "rationale": "Ein stark negativer Detrusordruck ist kein biologischer Befund, sondern ein Rechenergebnis, weil Pves fehlt. Vor dem Abfall stieg Pdet mit Beginn der Miktion an."
+            },
+            "B": {
+              "text": "Starke Bauchpresse: Pabd steigt und lässt Pdet negativ werden",
+              "rationale": "Pabd bleibt bei etwa 31 cmH2O. Beim Pressen stiegen Pves und Pabd gemeinsam."
+            },
+            "C": {
+              "text": "Der Blasenkatheter ist herausgerutscht: Pves fällt schlagartig unter null",
+              "rationale": "Wenige Sekunden nach Flussbeginn fällt Pves von über 80 cmH2O auf unter null und bleibt dort, während weiter Urin fließt. Pdet wird dadurch stark negativ, und der anschließende Husten erscheint nur noch in Pabd. Nach ICS zeigt sich ein herausgerutschter Katheter als plötzlicher Abfall von Pves oder Pabd, meist unter null."
+            },
+            "D": {
+              "text": "Der Rektalkatheter ist verrutscht, denn Pabd zeigt den Husten jetzt nicht mehr",
+              "rationale": "Umgekehrt: Pabd zeigt den Husten weiterhin, Pves nicht mehr. Ausgefallen ist die vesikale Leitung."
+            }
+          },
+          "explanation": {
+            "core": "Ein plötzlicher Abfall von Pves oder Pabd, meist unter null, ist kein Befund, sondern ein herausgerutschter Katheter (ICS); welche Leitung ausgefallen ist, zeigt der nächste Hustenstoß, der nur noch in der anderen erscheint. Fällt Pves aus, wird Pdet stark negativ; fällt Pabd aus, steigt Pdet scheinbar steil an und täuscht eine Detrusorkontraktion vor. Nach ICS wird die Messung korrigiert oder wiederholt: neu katheterisieren, erneut füllen, erneut messen. Erst die gültige Wiederholung trägt die Therapieentscheidung; hier ergibt sie PdetQmax 74 cmH2O bei Qmax 8 ml/s (BOOI 58, BCI 114), also eine Obstruktion bei normaler Kontraktilität.",
+            "teaching_point": "Pves unter null ist kein Befund, sondern ein herausgerutschter Katheter: neu legen und die Messung wiederholen."
+          },
+          "flag_note": null
+        },
+        "en": {
+          "vignette": "A 71-year-old man had a prostatic urethral lift two years ago. His symptoms are back (IPSS 22) and his stream is weak. Prostate volume 55 ml, free uroflowmetry: Qmax 8 ml/s at 240 ml, post-void residual 60 ml. Before another procedure a pressure-flow study is performed; the nurse calls you in during the first void. The tracing is shown.",
+          "lead_in": "What has happened during the first void?",
+          "options": {
+            "A": {
+              "text": "Acontractile detrusor: Pdet falls during the void",
+              "rationale": "A strongly negative detrusor pressure is not a biological finding but the result of a subtraction with Pves missing. Before the drop, Pdet rose as voiding began."
+            },
+            "B": {
+              "text": "Strong straining: Pabd rises and makes Pdet negative",
+              "rationale": "Pabd stays at about 31 cmH2O. With straining, Pves and Pabd would rise together."
+            },
+            "C": {
+              "text": "The vesical catheter has slipped out: Pves drops suddenly below zero",
+              "rationale": "A few seconds after flow starts, Pves drops from over 80 cmH2O to below zero and stays there while urine keeps flowing. Pdet therefore becomes strongly negative, and the following cough appears only in Pabd. According to the ICS, an expelled catheter shows as a sudden drop in Pves or Pabd, usually below zero."
+            },
+            "D": {
+              "text": "The rectal catheter has moved, because Pabd no longer shows the cough",
+              "rationale": "The other way round: Pabd still shows the cough, Pves no longer does. It is the vesical line that has failed."
+            }
+          },
+          "explanation": {
+            "core": "A sudden drop in Pves or Pabd, usually below zero, is not a finding but an expelled catheter (ICS); the next cough shows which line has failed, because it appears only in the other one. If Pves is lost, Pdet becomes strongly negative; if Pabd is lost, Pdet rises steeply and mimics a detrusor contraction. According to the ICS the study is corrected or repeated: recatheterise, refill, measure again. Only the valid repeat supports the treatment decision; here it gives a PdetQmax of 74 cmH2O at a Qmax of 8 ml/s (BOOI 58, BCI 114), that is obstruction with normal contractility.",
+            "teaching_point": "Pves below zero is not a finding but an expelled catheter: replace it and repeat the study."
+          },
+          "flag_note": null
+        },
+        "es": {
+          "vignette": "Varón de 71 años al que se le realizó hace dos años un lifting uretral prostático. Los síntomas han vuelto (IPSS 22) y el chorro es débil. Volumen prostático 55 ml, flujometría libre: Qmax 8 ml/s con 240 ml, residuo posmiccional 60 ml. Antes de una nueva intervención se realiza un estudio presión-flujo; la enfermera le llama durante la primera micción. Se muestra el trazado.",
+          "lead_in": "¿Qué ha pasado durante la primera micción?",
+          "options": {
+            "A": {
+              "text": "Detrusor acontráctil: la Pdet cae durante la micción",
+              "rationale": "Una presión del detrusor muy negativa no es un hallazgo biológico, sino el resultado de una resta en la que falta la Pves. Antes de la caída, la Pdet subió al empezar la micción."
+            },
+            "B": {
+              "text": "Prensa abdominal intensa: la Pabd sube y hace negativa la Pdet de golpe",
+              "rationale": "La Pabd se mantiene en unos 31 cmH2O. Con la prensa abdominal subirían juntas la Pves y la Pabd."
+            },
+            "C": {
+              "text": "La sonda vesical se ha salido: la Pves cae de golpe por debajo de cero",
+              "rationale": "Pocos segundos después de iniciarse el flujo, la Pves cae de más de 80 cmH2O a menos de cero y se queda ahí mientras sigue saliendo orina. Por eso la Pdet se vuelve muy negativa, y la tos posterior solo aparece en la Pabd. Según la ICS, una sonda expulsada se ve como una caída brusca de la Pves o la Pabd, normalmente por debajo de cero."
+            },
+            "D": {
+              "text": "La sonda rectal se ha desplazado, porque la Pabd ya no muestra la tos",
+              "rationale": "Al revés: la Pabd sigue mostrando la tos y la Pves ya no. La que ha fallado es la línea vesical."
+            }
+          },
+          "explanation": {
+            "core": "Una caída brusca de la Pves o la Pabd, normalmente por debajo de cero, no es un hallazgo, sino una sonda expulsada (ICS); la tos siguiente muestra qué línea ha fallado, porque solo aparece en la otra. Si falla la Pves, la Pdet se vuelve muy negativa; si falla la Pabd, la Pdet sube bruscamente y simula una contracción del detrusor. Según la ICS se corrige o se repite el estudio: volver a sondar, rellenar y medir de nuevo. Solo la repetición válida sostiene la decisión terapéutica; aquí da una PdetQmax de 74 cmH2O con un Qmax de 8 ml/s (BOOI 58, BCI 114), es decir, obstrucción con contractilidad normal.",
+            "teaching_point": "Una Pves por debajo de cero no es un hallazgo, sino una sonda expulsada: volver a sondar y repetir el estudio."
+          },
+          "flag_note": null
+        }
+      },
+      "translation": {
+        "en": {
+          "date": "2026-10-27",
+          "method": "Antwortoptionen und Begründungen aus den Spieltexten übernommen, übrige Texte parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
+          "clinical_signoff": false
+        },
+        "es": {
+          "date": "2026-10-27",
+          "method": "Antwortoptionen und Begründungen aus den Spieltexten übernommen, übrige Texte parallel zur deutschen Fassung erstellt und redaktionell abgeglichen",
           "clinical_signoff": false
         }
       }

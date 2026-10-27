@@ -149,9 +149,9 @@
         "es": "Urodinámica"
       },
       "hint": {
-        "de": "Druck-Fluss, Videourodynamik, Compliance, Artefakte",
-        "en": "Pressure-flow, video-urodynamics, compliance, artefacts",
-        "es": "Presión-flujo, videourodinámica, distensibilidad, artefactos"
+        "de": "Messkurven lesen: Druck-Fluss, Füllung, Inkontinenz, Artefakte",
+        "en": "Reading tracings: pressure-flow, filling, incontinence, artefacts",
+        "es": "Lectura de trazados: presión-flujo, llenado, incontinencia, artefactos"
       }
     },
     {
